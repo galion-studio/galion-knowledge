@@ -1,0 +1,32 @@
+{
+  "id": "world.matter.stefan-boltzmann",
+  "title": "2022 CODATA: Stefan-Boltzmann constant is 5.670 374 419... × 10^−8",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2022 CODATA complete listing, from NIST, marks Stefan-Boltzmann constant as exact: 5.670 374 419...",
+  "body": "The 2022 CODATA complete listing, from NIST, marks Stefan-Boltzmann constant as exact: 5.670 374 419... × 10^−8 W m^-2 K^-4. The ellipsis is in the file. No further digits are added here. The Stefan-Boltzmann constant sets the power per area of a black-body radiator as proportional to the fourth power of temperature. The 2022 listing marks the value exact and prints an ellipsis.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "2022 CODATA complete listing of the fundamental physical constants",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "ASCII table fetched 2026-11-18. The card's number is that row."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, 2022 CODATA adjustment",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:matter",
+    "codata",
+    "constants"
+  ],
+  "read_time_min": 1
+}

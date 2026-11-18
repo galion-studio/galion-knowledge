@@ -1,0 +1,33 @@
+{
+  "id": "world.physics.planck-scales",
+  "title": "2022 CODATA lists Planck length, mass, time, and temperature with uncertainties",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2022 listing gives a Planck length, mass, time, and temperature, each with a printed uncertainty.",
+  "body": "The 2022 CODATA listing gives four Planck scales, none of them marked exact:\n\n- Planck length: 1.616 255 × 10^−35 m, uncertainty 0.000 018 × 10^−35 m\n- Planck mass: 2.176 434 × 10^−8 kg, uncertainty 0.000 024 × 10^−8 kg\n- Planck time: 5.391 247 × 10^−44 s, uncertainty 0.000 060 × 10^−44 s\n- Planck temperature: 1.416 784 × 10^32 K, uncertainty 0.000 016 × 10^32 K\n\nThese are the listing's recommended values. They are not lengths, masses, times, or temperatures that have been read off a laboratory instrument in this card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "2022 CODATA complete listing",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, 2022 CODATA adjustment",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.physics.newtonian-g"
+  ],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "planck",
+    "constants"
+  ],
+  "read_time_min": 1
+}

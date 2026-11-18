@@ -1,0 +1,48 @@
+{
+  "id": "world.constants.mole-avogadro",
+  "title": "One mole is exactly 6.02214076×10^23 specified entities",
+  "section": "world",
+  "category": "measurement",
+  "summary": "NIST defines the mole by the exact Avogadro number, and it requires the elementary entity to be specified.",
+  "body": "NIST's amount-of-substance page says one mole contains exactly 6.02214076 × 10^{23} elementary entities, that this number is the fixed numerical value of the Avogadro constant when expressed per mole, and that it is called the Avogadro number. The same page says an elementary entity may be an atom, a molecule, an ion, an electron, any other particle, or a specified group of particles, and that when the mole is used the entities must be specified. The BIPM defining-constants table prints N_A as 6.022 140 76 × 10^{23} mol^{−1}. The 2022 CODATA listing marks the Avogadro constant exact.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "SI Units – Amount of Substance",
+      "url": "https://www.nist.gov/pml/owm/si-units-amount-substance",
+      "author": "National Institute of Standards and Technology",
+      "date": "2019-05-20",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "SI defining constants",
+      "url": "https://www.bipm.org/en/measurement-units/si-defining-constants",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "2022 CODATA complete listing",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, BIPM, and the 2022 CODATA listing",
+  "as_of_date": "2019-05-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.matter.molar-mass-constant",
+    "world.constants.atomic-mass-constant"
+  ],
+  "tags": [
+    "core-pack",
+    "area:constants",
+    "si",
+    "mole"
+  ],
+  "read_time_min": 1
+}

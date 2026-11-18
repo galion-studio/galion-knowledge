@@ -1,0 +1,33 @@
+{
+  "id": "world.astronomy.neptune-fact-sheet",
+  "title": "NASA's Neptune fact sheet: orbit 60,189.018 days, 16 satellites",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet lists Neptune's mass as 102.409 × 10^24 kg, sidereal orbit 60,189.018 days, equatorial radius at the 1-bar level 24,764 km, mean density 1,638 kg/m^3, and 16 natural satellites.",
+  "body": "The sheet lists Neptune's mass as 102.409 × 10^24 kg, sidereal orbit 60,189.018 days, equatorial radius at the 1-bar level 24,764 km, mean density 1,638 kg/m^3, and 16 natural satellites. It lists a planetary ring system as Yes. Author of the sheet: Dr. David R. Williams, NASA Goddard Space Flight Center. Last updated on the page: 2024-10-03.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Neptune Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-10-03",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-10-03",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.eight-planets",
+    "world.sun-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "neptune"
+  ],
+  "read_time_min": 1
+}

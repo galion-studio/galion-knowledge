@@ -1,0 +1,32 @@
+{
+  "id": "world.chemistry.ammonia",
+  "title": "NIST WebBook: Ammonia is H3N, molecular weight 17.0305 amu",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The NIST Chemistry WebBook lists Ammonia as H3N, molecular weight 17.0305 amu, CAS 7664-41-7.",
+  "body": "The NIST Chemistry WebBook entry for Ammonia, CAS Registry Number 7664-41-7, lists molecular formula H3N and molecular weight 17.0305 amu. The same entry's monoisotopic molecular weight is 17.0265491010 amu. The IUPAC InChI on the entry is InChI=1S/H3N/h1H3. The molecular weight and the monoisotopic mass are two different fields. This card reports the catalog entry. It does not convert either field into a molar mass in grams, and it does not say that every real sample has that weight.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Ammonia, NIST Chemistry WebBook SRD 69",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7664417&Units=SI",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "JSON-LD MolecularEntity and the CAS line on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "webbook",
+    "H3N"
+  ],
+  "read_time_min": 1
+}

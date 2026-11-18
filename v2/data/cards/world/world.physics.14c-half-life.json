@@ -1,0 +1,48 @@
+{
+  "id": "world.physics.14c-half-life",
+  "title": "IAEA Live Chart: 14C half-life 5700 Y (uncertainty from the seconds column)",
+  "section": "world",
+  "category": "physics",
+  "summary": "The Live Chart row for 14C lists half-life 5700 with unit Y. The seconds columns fix the absolute uncertainty at 30 years.",
+  "body": "The IAEA Live Chart ground-state row for 14C (Z=6, N=8), extracted 2026-11-18, lists half_life 5700, unit_hl Y, unc_hl 30, half_life_sec 179874478055.1744, and unc_hls 946707779.23776. Dividing half_life_sec by half_life gives 31556926 seconds per unit, so unit code Y is years in this row. Dividing unc_hls by that same number gives an absolute uncertainty of 30 years. The unc_hl value 30 is that same absolute uncertainty of 30 years. The leading decay field is B- at 100 percent. The row's ENSDF publication cut-off field is 1-JUL-1990. This is the database row, not a new laboratory measurement made for this card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "IAEA Live Chart ground state 14C",
+      "url": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=14C",
+      "author": "International Atomic Energy Agency, Live Chart of Nuclides",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "CSV extracted 2026-11-18. ENSDF cut-off field: 1-JUL-1990."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "IAEA Live Chart / ENSDF",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.hertz-and-becquerel"
+  ],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "nuclear",
+    "14C"
+  ],
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "Truth gate ceiling. The only source host is iaea.org, class other, whose ceiling is weak. The Live Chart row was not changed and no source was added."
+    },
+    {
+      "date": "2026-11-18",
+      "change": "body",
+      "note": "Removed a clause that said the uncertainty was not the absolute number of years. For this row unc_hl matches the seconds column as that many years."
+    }
+  ]
+}

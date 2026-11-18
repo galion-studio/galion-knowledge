@@ -1,0 +1,32 @@
+{
+  "id": "world.chemistry.benzene",
+  "title": "NIST WebBook: Benzene is C6H6, molecular weight 78.1118 amu",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The NIST Chemistry WebBook lists Benzene as C6H6, molecular weight 78.1118 amu, CAS 71-43-2.",
+  "body": "The NIST Chemistry WebBook entry for Benzene, CAS Registry Number 71-43-2, lists molecular formula C6H6 and molecular weight 78.1118 amu. The same entry's monoisotopic molecular weight is 78.0469502 amu. The IUPAC InChI on the entry is InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H. The molecular weight and the monoisotopic mass are two different fields. This card reports the catalog entry. It does not convert either field into a molar mass in grams, and it does not say that every real sample has that weight.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Benzene, NIST Chemistry WebBook SRD 69",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C71432&Units=SI",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "JSON-LD MolecularEntity and the CAS line on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "webbook",
+    "C6H6"
+  ],
+  "read_time_min": 1
+}
