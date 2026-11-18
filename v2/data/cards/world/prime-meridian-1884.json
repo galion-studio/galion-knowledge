@@ -1,0 +1,35 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.prime-meridian-1884",
+  "slug": "prime-meridian-1884",
+  "title": "The prime meridian is a convention chosen in 1884",
+  "section": "world",
+  "category": "geography",
+  "summary": "Royal Museums Greenwich: nations used different meridians until a Washington meeting chose one reference.",
+  "body": "Royal Museums Greenwich says that into the nineteenth century countries used meridians based on their own observatories, and that in 1884 representatives met in Washington, D.C., to choose one meridian as a common reference. The Greenwich meridian is a human agreement about where to put zero longitude, tied to a real observatory, not a line nature drew. Maps that put Europe in the middle inherit that agreement. Other conventions were possible and had been in use.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What is the Prime Meridian, and why is it in Greenwich?",
+      "url": "https://www.rmg.co.uk/stories/topics/what-prime-meridian-why-it-greenwich",
+      "author": "Royal Museums Greenwich",
+      "date": "1884",
+      "accessed": "2026-11-18",
+      "note": "The 1884 meeting is stated on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Royal Museums Greenwich",
+  "as_of_date": "1884",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.si-2019"
+  ],
+  "tags": [
+    "geography",
+    "maps",
+    "convention"
+  ],
+  "read_time_min": 1
+}

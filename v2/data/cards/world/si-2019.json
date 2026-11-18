@@ -1,0 +1,35 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.si-2019",
+  "slug": "si-2019",
+  "title": "The 2019 SI redefinition fixed four base units to constants",
+  "section": "world",
+  "category": "measurement",
+  "summary": "NIST states that on 20 May 2019 the kilogram, kelvin, ampere, and mole were redefined using constants of nature.",
+  "body": "NIST's SI redefinition page says that on 20 May 2019 four of the seven base units, the kilogram, the kelvin, the ampere, and the mole, were redefined in terms of constants of nature, including the Planck constant. The second, the metre, and the candela had already been tied to constants. This is a convention of the measurement system, chosen so that the units do not depend on a physical artifact. It is not a discovery that the constants changed.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "SI Redefinition",
+      "url": "https://www.nist.gov/si-redefinition",
+      "author": "National Institute of Standards and Technology",
+      "date": "2019-05-20",
+      "accessed": "2026-11-18",
+      "note": "The 20 May 2019 date is on the NIST page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Institute of Standards and Technology",
+  "as_of_date": "2019-05-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.metre-speed-of-light",
+    "world.second-cesium"
+  ],
+  "tags": [
+    "measurement",
+    "si"
+  ],
+  "read_time_min": 1
+}

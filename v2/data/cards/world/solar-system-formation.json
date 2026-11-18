@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.solar-system-formation",
+  "slug": "solar-system-formation",
+  "title": "NASA: the solar system formed about 4.6 billion years ago",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "NASA's solar-system facts page gives the formation age and counts one star, eight planets, and five dwarf planets.",
+  "body": "NASA's solar-system facts page says our solar system formed about 4.6 billion years ago from a dense cloud of interstellar gas and dust, and that it has one star, eight planets, five dwarf planets, hundreds of moons, and thousands of comets and asteroids. Moon counts are given as \"hundreds\" because named-moon totals change as surveys continue. The v1 article's specific moon counts for Jupiter and Saturn are not repeated. The Oort cloud appears as a named region on NASA's solar-system pages; this card does not add the word \"hypothetical\" unless a fetched sentence says it.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Solar System Facts",
+      "url": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "author": "NASA",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.eight-planets",
+    "world.sun-fact-sheet",
+    "world.earth-age-usgs"
+  ],
+  "tags": [
+    "astronomy",
+    "solar-system"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "15",
+    "v1_slug": "solar-system",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.epr-1935",
+  "slug": "epr-1935",
+  "title": "The Einstein-Podolsky-Rosen paper",
+  "section": "world",
+  "category": "physics",
+  "summary": "EPR argued that quantum mechanics' description of reality is incomplete.",
+  "body": "Einstein, Podolsky, and Rosen, \"Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?\" (Physical Review, 1935), argued from correlated systems that the quantum description was incomplete. Einstein's later phrase \"spooky action at a distance\" is not the title of this paper and is not quoted here. The paper is an argument about completeness, not an experiment. Bell's 1964 paper and Aspect's 1982 experiment take up the same issue with inequalities and measurements.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+      "url": "https://doi.org/10.1103/PhysRev.47.777",
+      "author": "Albert Einstein, Boris Podolsky, and Nathan Rosen",
+      "date": "1935",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Albert Einstein, Boris Podolsky, and Nathan Rosen",
+  "as_of_date": "1935",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.bell-1964",
+    "world.aspect-1982",
+    "world.entanglement-wording"
+  ],
+  "tags": [
+    "physics",
+    "quantum",
+    "foundations"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "5",
+    "v1_slug": "quantum-mechanics",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

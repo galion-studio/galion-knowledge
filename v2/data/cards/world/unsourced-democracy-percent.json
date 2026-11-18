@@ -1,0 +1,31 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-democracy-percent",
+  "slug": "unsourced-democracy-percent",
+  "title": "The v1 '~45 percent of countries are democracies' figure is unsourced",
+  "section": "world",
+  "category": "politics",
+  "summary": "Freedom House and V-Dem publish counts. Neither count was successfully read.",
+  "body": "The v1 democracy article says about 45 percent of countries are democracies, that democracy spread after the 1970s, and that backsliding is a recent concern. Those are time-stamped empirical claims. A Freedom House page loaded without a usable country count. A guessed V-Dem PDF URL 404'd. Leave the percentage unsourced. Any future card should name the dataset, the year, and the definition of \"democracy,\" because the indexes disagree.",
+  "claim_type": "fact",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.democracy-theory-sep"
+  ],
+  "tags": [
+    "politics",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "16",
+    "v1_slug": "democracy",
+    "v1_category": "society",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

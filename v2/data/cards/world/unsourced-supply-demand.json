@@ -1,0 +1,32 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-supply-demand",
+  "slug": "unsourced-supply-demand",
+  "title": "The textbook supply-and-demand diagram is unsourced here",
+  "section": "world",
+  "category": "economics",
+  "summary": "An OpenStax economics URL we tried did not resolve. The curves are a model, not a law of nature.",
+  "body": "The v1 article presents downward-sloping demand, upward-sloping supply, equilibrium, elasticity, and price ceilings and floors, and it notes perfect competition, externalities, and market power as limits. That is the standard introductory model. A specific textbook URL we tried returned 404, so the diagram is not given a fake page. Treat it as an unsourced model card: useful, partial, and not a description of every price (wages, housing, and health care are where the arguments start). Marshall and later textbooks built the diagram. Smith discussed market prices earlier, in ordinary language, in the Wealth of Nations.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.smith-wealth-of-nations",
+    "world.capitalism-not-one-definition"
+  ],
+  "tags": [
+    "economics",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "34",
+    "v1_slug": "supply-demand",
+    "v1_category": "society",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

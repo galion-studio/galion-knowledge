@@ -1,0 +1,39 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.prospect-theory-1979",
+  "slug": "prospect-theory-1979",
+  "title": "Kahneman and Tversky's 1979 prospect theory",
+  "section": "world",
+  "category": "psychology",
+  "summary": "The Econometrica paper models losses as weighing more than equal gains in people's choices.",
+  "body": "Daniel Kahneman and Amos Tversky, \"Prospect Theory: An Analysis of Decision under Risk\" (Econometrica, 1979), is the paper behind loss aversion as a modeled feature of choices under risk. The v1 article says losses feel roughly twice as bad as gains. A coefficient near 2 is associated with their fits. This card does not restate a fitted number that was not re-read from a table. The sourced claim is that the 1979 theory treats losses and gains asymmetrically.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Prospect Theory: An Analysis of Decision under Risk",
+      "url": "https://doi.org/10.2307/1914185",
+      "author": "Daniel Kahneman and Amos Tversky",
+      "date": "1979",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Daniel Kahneman and Amos Tversky",
+  "as_of_date": "1979",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.heuristics-1974"
+  ],
+  "tags": [
+    "psychology",
+    "economics"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "29",
+    "v1_slug": "cognitive-biases",
+    "v1_category": "society",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

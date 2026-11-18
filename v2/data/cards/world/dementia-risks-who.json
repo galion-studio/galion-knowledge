@@ -1,0 +1,40 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.dementia-risks-who",
+  "slug": "dementia-risks-who",
+  "title": "WHO's listed factors associated with dementia",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO names smoking, alcohol, inactivity, isolation, low education, poor sleep, and head injury among associated factors.",
+  "body": "The World Health Organization's dementia fact sheet lists, among factors associated with dementia, traumatic brain injury and stroke, lifestyle factors including smoking tobacco, harmful alcohol use, physical inactivity, social isolation, and low educational attainment, and poor sleep. These are population associations reported by WHO, not a personal guarantee that any one habit prevents dementia. The v1 brain article's protective list overlaps this page and also goes beyond it.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Dementia",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+      "author": "World Health Organization",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.unsourced-brain-slogan",
+    "world.brain-regions-ninds"
+  ],
+  "tags": [
+    "medicine",
+    "dementia"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "20",
+    "v1_slug": "human-brain",
+    "v1_category": "medicine",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

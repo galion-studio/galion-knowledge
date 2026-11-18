@@ -1,0 +1,54 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.virtue-consequentialism-kant",
+  "slug": "virtue-consequentialism-kant",
+  "title": "Three families of ethical theory, as encyclopedia entries",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Virtue ethics, consequentialism, and Kantian ethics are different questions, not one moral fact.",
+  "body": "Rosalind Hursthouse and Glen Pettigrove's SEP entry maps virtue ethics (character and flourishing, with Aristotle as a central source). Walter Sinnott-Armstrong's entry maps consequentialism, including utilitarianism. Robert Johnson and Adam Cureton's entry maps Kant's moral philosophy, including the demand to act on principles one can will as universal and to treat persons as ends. These are rival theories. The v1 article is right to present them as a map and wrong if a truth score treats one as the fact of morality. Care ethics and the trolley problem were not given a located paper.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Virtue Ethics",
+      "url": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "author": "Rosalind Hursthouse and Glen Pettigrove",
+      "date": "2003-07-18",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Consequentialism",
+      "url": "https://plato.stanford.edu/entries/consequentialism/",
+      "author": "Walter Sinnott-Armstrong",
+      "date": "2003-05-20",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Kant's Moral Philosophy",
+      "url": "https://plato.stanford.edu/entries/kant-moral/",
+      "author": "Robert Johnson and Adam Cureton",
+      "date": "2004-02-23",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Hursthouse and Pettigrove; Sinnott-Armstrong; Johnson and Cureton",
+  "as_of_date": "2004-02-23",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.moral-relativism-sep",
+    "world.unsourced-trolley"
+  ],
+  "tags": [
+    "philosophy",
+    "ethics"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "26",
+    "v1_slug": "ethics-morality",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

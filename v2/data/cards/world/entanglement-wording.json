@@ -1,0 +1,75 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.entanglement-wording",
+  "slug": "entanglement-wording",
+  "title": "'Instant effect' is a contested way to describe entanglement",
+  "section": "world",
+  "category": "physics",
+  "summary": "The v1 sentence that measuring one particle instantly affects the other is an interpretation, not the experimental result.",
+  "body": "The v1 quantum article said entangled particles are correlated so that measuring one instantly affects the other, and attributed the discomfort to Einstein. The 1935 EPR paper argues about completeness. Aspect's 1982 experiment reports correlations that violate a Bell inequality. Whether those correlations should be described as an instantaneous influence is disputed across interpretations. Standard quantum theory is also taught as forbidding controllable faster-than-light signaling. This card keeps the experimental result and the popular wording apart.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+      "url": "https://doi.org/10.1103/PhysRev.47.777",
+      "author": "Albert Einstein, Boris Podolsky, and Nathan Rosen",
+      "date": "1935",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Experimental Realization of Einstein-Podolsky-Rosen-Bohm Gedankenexperiment: A New Violation of Bell's Inequalities",
+      "url": "https://doi.org/10.1103/PhysRevLett.49.91",
+      "author": "Alain Aspect, Philippe Grangier, and Gérard Roger",
+      "date": "1982",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Quantum Mechanics",
+      "url": "https://plato.stanford.edu/entries/qm/",
+      "author": "Jenann Ismael",
+      "date": "2000-11-29",
+      "accessed": "2026-11-18",
+      "note": "SEP citation_publication_date from the page meta tag."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "disputed among physicists and philosophers of physics",
+  "as_of_date": "1982",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Correlation without a usable signal",
+      "summary": "The experimental claim is a Bell-inequality violation. Textbook quantum theory is presented as forbidding a controllable signal.",
+      "sources": [
+        {
+          "title": "Experimental Realization of Einstein-Podolsky-Rosen-Bohm Gedankenexperiment",
+          "url": "https://doi.org/10.1103/PhysRevLett.49.91",
+          "author": "Aspect, Grangier, and Roger",
+          "date": "1982",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "label": "Influence language",
+      "summary": "Popular and some philosophical descriptions still say a measurement instantly affects the distant outcome. That wording is not forced by the 1982 paper's title, which reports a violation of Bell's inequalities."
+    }
+  ],
+  "related": [
+    "world.aspect-1982",
+    "world.epr-1935",
+    "world.superposition-interpretations"
+  ],
+  "tags": [
+    "physics",
+    "quantum",
+    "contested"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "5",
+    "v1_slug": "quantum-mechanics",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

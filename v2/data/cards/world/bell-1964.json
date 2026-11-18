@@ -1,0 +1,42 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.bell-1964",
+  "slug": "bell-1964",
+  "title": "Bell's 1964 theorem paper",
+  "section": "world",
+  "category": "physics",
+  "summary": "Bell showed that local hidden-variable theories obey an inequality quantum mechanics can violate.",
+  "body": "J. S. Bell, \"On the Einstein Podolsky Rosen paradox\" (Physics Physique Fizika, 1964), derived an inequality that local hidden-variable accounts of the EPR correlations must satisfy, and that quantum mechanics can violate. The paper is a theoretical result. It does not by itself say that a measurement on one particle sends a usable signal to the other. Experiments came later.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On the Einstein Podolsky Rosen paradox",
+      "url": "https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195",
+      "author": "J. S. Bell",
+      "date": "1964",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "J. S. Bell",
+  "as_of_date": "1964",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.epr-1935",
+    "world.aspect-1982",
+    "world.entanglement-wording"
+  ],
+  "tags": [
+    "physics",
+    "quantum",
+    "bell"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "5",
+    "v1_slug": "quantum-mechanics",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-renaissance",
+  "slug": "unsourced-renaissance",
+  "title": "The v1 Renaissance synthesis is unsourced",
+  "section": "world",
+  "category": "history",
+  "summary": "Dates, the hero list, and the claim that the Renaissance founded modernity were not tied to a source.",
+  "body": "The v1 article dates the Renaissance from about 1350 to 1600, starts it in Florence, Venice, and Rome, and lists humanism, Leonardo, Michelangelo, Raphael, Copernicus, and Galileo as a single movement that founded modern science and secular education. That is a nineteenth-century style of periodization. It can be useful and it can hide merchants, women, plague, and non-Italian work. No Burckhardt page or museum essay was successfully read. Leave the synthesis unsourced. Gutenberg's Bible and the later scientific texts are sourced on their own cards.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.gutenberg-bible-loc",
+    "world.unsourced-scientific-revolution-bracket"
+  ],
+  "tags": [
+    "history",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "13",
+    "v1_slug": "renaissance",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

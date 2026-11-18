@@ -1,0 +1,47 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.nash-equilibrium-1950",
+  "slug": "nash-equilibrium-1950",
+  "title": "Nash's 1950 definition of equilibrium",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The PNAS paper defines an equilibrium of an n-person game. It is not a claim that the outcome is best for everyone.",
+  "body": "John F. Nash Jr., \"Equilibrium points in n-person games\" (Proceedings of the National Academy of Sciences, 1950), defines an equilibrium as a profile of strategies in which no player can gain by changing only their own strategy. MacTutor's biography of Nash, citing P. Ordeshook, calls that idea central to noncooperative game theory. The v1 article is right that a Nash equilibrium need not be collectively best. The prisoner's-dilemma year-counts (1 year, 3 years, 5 years) are a textbook illustration and were not in the 1950 paper as we identified it. They stay unsourced.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Equilibrium points in n-person games",
+      "url": "https://doi.org/10.1073/pnas.36.1.48",
+      "author": "John F. Nash Jr.",
+      "date": "1950",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "John Forbes Nash",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Nash/",
+      "author": "MacTutor History of Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "John F. Nash Jr.",
+  "as_of_date": "1950",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.game-theory-sep",
+    "world.unsourced-prisoners-dilemma"
+  ],
+  "tags": [
+    "mathematics",
+    "game-theory"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "37",
+    "v1_slug": "game-theory",
+    "v1_category": "mathematics",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

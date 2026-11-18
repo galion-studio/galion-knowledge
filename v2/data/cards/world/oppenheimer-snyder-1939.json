@@ -1,0 +1,40 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.oppenheimer-snyder-1939",
+  "slug": "oppenheimer-snyder-1939",
+  "title": "Oppenheimer and Snyder on continued gravitational collapse",
+  "section": "world",
+  "category": "physics",
+  "summary": "Their 1939 paper is a classic general-relativistic collapse calculation.",
+  "body": "J. R. Oppenheimer and H. Snyder, \"On Continued Gravitational Contraction\" (Physical Review, 1939), analyzed the collapse of a star in general relativity. It is a theoretical paper on the road to the black-hole concept. It is not an observation of a stellar collapse, and it does not fix the v1 threshold of \"more than 20 solar masses,\" which is left unsourced.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On Continued Gravitational Contraction",
+      "url": "https://doi.org/10.1103/PhysRev.56.455",
+      "author": "J. R. Oppenheimer and H. Snyder",
+      "date": "1939",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "J. R. Oppenheimer and H. Snyder",
+  "as_of_date": "1939",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.general-relativity-1916",
+    "world.black-hole-nasa"
+  ],
+  "tags": [
+    "physics",
+    "black-holes"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "11",
+    "v1_slug": "black-holes",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

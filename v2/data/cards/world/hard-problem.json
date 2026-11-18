@@ -1,0 +1,50 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.hard-problem",
+  "slug": "hard-problem",
+  "title": "Chalmers's hard problem of consciousness",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Chalmers distinguishes explaining cognitive functions from explaining why experience feels like something.",
+  "body": "David J. Chalmers, \"Facing Up to the Problem of Consciousness,\" published in the Journal of Consciousness Studies and posted by the author, distinguishes what he calls the easy problems (discrimination, report, attention) from the hard problem: why physical processing is accompanied by subjective experience. The labels \"easy\" and \"hard\" are his. They are not a finding that the easy problems are solved. Integrated information theory, global workspace theory, and panpsychism, listed in the v1 article, are proposals. They are not established as the answer. Robert Van Gulick's SEP entry is a broader map.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Facing Up to the Problem of Consciousness",
+      "url": "https://consc.net/papers/facing.html",
+      "author": "David J. Chalmers",
+      "date": "1995",
+      "accessed": "2026-11-18",
+      "note": "Author's posting. He states it was published in the Journal of Consciousness Studies."
+    },
+    {
+      "title": "Consciousness",
+      "url": "https://plato.stanford.edu/entries/consciousness/",
+      "author": "Robert Van Gulick",
+      "date": "2004-06-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "David J. Chalmers",
+  "as_of_date": "1995",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.searles-chinese-room",
+    "world.gallup-mirror-1970",
+    "world.unsourced-cambridge-declaration"
+  ],
+  "tags": [
+    "philosophy",
+    "consciousness",
+    "not-settled"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "25",
+    "v1_slug": "consciousness",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

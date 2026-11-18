@@ -1,0 +1,89 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.superposition-interpretations",
+  "slug": "superposition-interpretations",
+  "title": "Superposition and 'no definite value' are interpretation-dependent",
+  "section": "world",
+  "category": "physics",
+  "summary": "The claim that a quantum system genuinely has no definite value before measurement is one reading, not a shared fact.",
+  "body": "The v1 article said a system in superposition genuinely has no definite value until measured, and that this is not ignorance. That is a common textbook reading associated with Copenhagen-style views. It is not agreed by every interpretation that uses the same mathematics. The Stanford Encyclopedia entries on Bohmian mechanics (Sheldon Goldstein) and on many-worlds (Lev Vaidman) describe live alternatives: one assigns definite positions guided by the wave function, and one treats the wave function as describing branching outcomes rather than a collapse to a single value. The formalism's empirical predictions are much better settled than the metaphysics. This is allowed to remain not settled.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Bohmian Mechanics",
+      "url": "https://plato.stanford.edu/entries/qm-bohm/",
+      "author": "Sheldon Goldstein",
+      "date": "2001-10-26",
+      "accessed": "2026-11-18",
+      "note": "SEP citation_publication_date."
+    },
+    {
+      "title": "Many-Worlds Interpretation of Quantum Mechanics",
+      "url": "https://plato.stanford.edu/entries/qm-manyworlds/",
+      "author": "Lev Vaidman",
+      "date": "2002-03-24",
+      "accessed": "2026-11-18",
+      "note": "SEP citation_publication_date."
+    },
+    {
+      "title": "The Uncertainty Principle",
+      "url": "https://plato.stanford.edu/entries/qt-uncertainty/",
+      "author": "Jan Hilgevoord and Jos Uffink",
+      "date": "2001-10-08",
+      "accessed": "2026-11-18",
+      "note": "SEP citation_publication_date."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "disputed; see Goldstein, Vaidman, Hilgevoord and Uffink",
+  "as_of_date": "2002-03-24",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Textbook / Copenhagen-style reading",
+      "summary": "A measurement outcome is not a pre-existing value merely revealed. The v1 article states this reading as fact."
+    },
+    {
+      "label": "Bohmian mechanics",
+      "summary": "Particles have definite positions at all times; the wave function guides them. Goldstein's SEP entry is a statement of this view.",
+      "sources": [
+        {
+          "title": "Bohmian Mechanics",
+          "url": "https://plato.stanford.edu/entries/qm-bohm/",
+          "author": "Sheldon Goldstein",
+          "date": "2001-10-26",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "label": "Many-worlds",
+      "summary": "The universal wave function does not collapse; apparent definiteness is branching. Vaidman's SEP entry is a statement of this view.",
+      "sources": [
+        {
+          "title": "Many-Worlds Interpretation of Quantum Mechanics",
+          "url": "https://plato.stanford.edu/entries/qm-manyworlds/",
+          "author": "Lev Vaidman",
+          "date": "2002-03-24",
+          "accessed": "2026-11-18"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "world.heisenberg-uncertainty-1927",
+    "world.entanglement-wording"
+  ],
+  "tags": [
+    "physics",
+    "quantum",
+    "interpretations"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "5",
+    "v1_slug": "quantum-mechanics",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

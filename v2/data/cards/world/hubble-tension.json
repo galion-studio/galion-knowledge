@@ -1,0 +1,75 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.hubble-tension",
+  "slug": "hubble-tension",
+  "title": "Local and cosmic-microwave estimates of the expansion rate disagree",
+  "section": "world",
+  "category": "cosmology",
+  "summary": "Riess and colleagues' 2022 local measurement and the Planck 2018 analysis are different published estimates. The gap is not settled.",
+  "body": "Adam G. Riess and colleagues published in 2022 \"A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km/s/Mpc Uncertainty from the Hubble Space Telescope and the SH0ES Team.\" The Planck Collaboration's 2018 analysis infers cosmological parameters, including an expansion rate, from the cosmic microwave background. These are different methods and they have not been brought into a single agreed number. Whether the gap is unrecognized measurement error or a sign that the simple ΛCDM model is incomplete is not settled. This card does not pick a winner and does not quote a kilometer-per-second figure beyond what is already in the Riess title's uncertainty phrase.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km s−1 Mpc−1 Uncertainty from the Hubble Space Telescope and the SH0ES Team",
+      "url": "https://doi.org/10.3847/2041-8213/ac5c5b",
+      "author": "Adam G. Riess and colleagues",
+      "date": "2022",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Planck 2018 results. VI. Cosmological parameters",
+      "url": "https://doi.org/10.1051/0004-6361/201833910",
+      "author": "Planck Collaboration",
+      "date": "2020",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "SH0ES team and Planck Collaboration",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Local distance ladder",
+      "summary": "Riess and colleagues publish a local Hubble constant from supernovae and Cepheids, with the uncertainty named in the title.",
+      "sources": [
+        {
+          "title": "SH0ES 2022",
+          "url": "https://doi.org/10.3847/2041-8213/ac5c5b",
+          "author": "Adam G. Riess and colleagues",
+          "date": "2022",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "label": "Early-universe inference",
+      "summary": "Planck infers parameters by fitting the microwave background. The abstract reports consistency with base ΛCDM, which is a different route to an expansion rate.",
+      "sources": [
+        {
+          "title": "Planck 2018 results",
+          "url": "https://doi.org/10.1051/0004-6361/201833910",
+          "author": "Planck Collaboration",
+          "date": "2020",
+          "accessed": "2026-11-18"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "world.planck-2018-lcdm",
+    "world.accelerating-expansion-2011"
+  ],
+  "tags": [
+    "cosmology",
+    "hubble-tension",
+    "not-settled"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "31",
+    "v1_slug": "big-bang",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

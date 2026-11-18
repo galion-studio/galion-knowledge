@@ -1,0 +1,35 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.nineteenth-amendment",
+  "slug": "nineteenth-amendment",
+  "title": "The Nineteenth Amendment bars denial of the vote on account of sex in the United States",
+  "section": "world",
+  "category": "law",
+  "summary": "The National Archives dates the amendment to 1920. It is a U.S. rule, not a world chronology of women's suffrage.",
+  "body": "The U.S. National Archives presents the Nineteenth Amendment (1920). The text says the right to vote shall not be denied or abridged by the United States or by any state on account of sex. This is a United States constitutional rule. Other countries enfranchised women earlier or later. A New Zealand government page was not readable in this pass, so 1893 is not stored. Poll taxes, violence, and other barriers continued to block many Black women in the United States after 1920; that further history is not documented on this card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "19th Amendment to the U.S. Constitution: Women's Right to Vote (1920)",
+      "url": "https://www.archives.gov/milestone-documents/19th-amendment",
+      "author": "United States Congress, record held by the U.S. National Archives",
+      "date": "1920",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Congress and the ratifying states",
+  "as_of_date": "1920",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.thirteenth-amendment",
+    "world.udhr-1948"
+  ],
+  "tags": [
+    "law",
+    "suffrage",
+    "united-states"
+  ],
+  "read_time_min": 1
+}

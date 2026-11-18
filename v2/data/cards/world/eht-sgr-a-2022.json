@@ -1,0 +1,40 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.eht-sgr-a-2022",
+  "slug": "eht-sgr-a-2022",
+  "title": "The Event Horizon Telescope's 2022 Sagittarius A* image",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2022 paper reports an image of the shadow of the Milky Way's central black hole.",
+  "body": "In 2022 the Event Horizon Telescope Collaboration published \"First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way.\" The v1 article named Sagittarius A* as the Milky Way's central black hole and dated the first direct image (M87) to 2019. Both points now have collaboration papers. The 2022 paper is the one about Sagittarius A*.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way",
+      "url": "https://doi.org/10.3847/2041-8213/ac6674",
+      "author": "Event Horizon Telescope Collaboration",
+      "date": "2022",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Event Horizon Telescope Collaboration",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.eht-m87-2019",
+    "world.nobel-black-holes-2020"
+  ],
+  "tags": [
+    "astronomy",
+    "black-holes"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "11",
+    "v1_slug": "black-holes",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.genocide-convention",
+  "slug": "genocide-convention",
+  "title": "The Genocide Convention defines genocide as specific acts with intent to destroy a group",
+  "section": "world",
+  "category": "law",
+  "summary": "Wikisource's text of the convention requires intent to destroy, in whole or in part, a national, ethnical, racial, or religious group.",
+  "body": "The Convention on the Prevention and Punishment of the Crime of Genocide, as transcribed on Wikisource, defines genocide as specified acts committed with intent to destroy, in whole or in part, a national, ethnical, racial, or religious group as such. The acts listed include killing members of the group and causing serious harm. The legal word is narrower than every mass killing. Historians and courts can find the acts and the intent proved, disputed, or proved only in part. Using the word, or refusing it, is a claim that has to be tied to evidence about intent and about the protected groups, not to a slogan.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Convention on the Prevention and Punishment of the Crime of Genocide",
+      "url": "https://en.wikisource.org/wiki/Convention_on_the_Prevention_and_Punishment_of_the_Crime_of_Genocide",
+      "author": "United Nations General Assembly",
+      "date": "1948",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "text of the Genocide Convention",
+  "as_of_date": "1948",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.holocaust-ushmm",
+    "world.armenian-1915",
+    "world.rwanda-april-1994"
+  ],
+  "tags": [
+    "law",
+    "genocide"
+  ],
+  "read_time_min": 1
+}

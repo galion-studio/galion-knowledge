@@ -1,0 +1,54 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.free-will-disputed",
+  "slug": "free-will-disputed",
+  "title": "Free will is a live disagreement, not a fact with a truth score",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "The Stanford entry maps the dispute. The v1 'most philosophers are compatibilists' claim is not re-counted here.",
+  "body": "Timothy O'Connor and Christopher Franklin's Stanford Encyclopedia entry treats free will as a dispute about whether people can do otherwise or are self-determining, and about whether that matters for responsibility. Libertarian, hard-determinist, and compatibilist positions are the usual map, and the entry notes that the Western canon does not exhaust Chinese and Indian discussions. The v1 article says compatibilism is the most common position among philosophers. That is a sociology-of-philosophy claim and was not re-counted. Leave the head-count unsourced. The disagreement itself is the point, and it is not settled.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Free Will",
+      "url": "https://plato.stanford.edu/entries/freewill/",
+      "author": "Timothy O'Connor and Christopher Franklin",
+      "date": "2002-01-07",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Timothy O'Connor and Christopher Franklin",
+  "as_of_date": "2002-01-07",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Libertarian free will",
+      "summary": "Some actions are not fixed by prior events. The person originates them."
+    },
+    {
+      "label": "Hard determinism",
+      "summary": "Prior causes fix actions. Responsibility then needs another basis, or it fails."
+    },
+    {
+      "label": "Compatibilism",
+      "summary": "Freedom is acting from one's own motives without external compulsion, even if those motives have causes."
+    }
+  ],
+  "related": [
+    "world.libet-1983",
+    "world.schurger-2012"
+  ],
+  "tags": [
+    "philosophy",
+    "free-will",
+    "not-settled"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "24",
+    "v1_slug": "free-will",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

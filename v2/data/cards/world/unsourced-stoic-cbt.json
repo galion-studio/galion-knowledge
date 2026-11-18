@@ -1,0 +1,32 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-stoic-cbt",
+  "slug": "unsourced-stoic-cbt",
+  "title": "The link from Stoicism to cognitive behavioral therapy is unsourced here",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "The v1 claim that CBT draws on Stoicism was not tied to Beck, Ellis, or a history paper.",
+  "body": "The v1 Stoicism article says cognitive behavioral therapy draws on Stoic ideas and that athletes and executives use the philosophy. Those are modern reception claims. They may be fair and they were not given a source in this pass. Leave them unsourced. The Enchiridion sentence and the SEP overview are the sourced cards.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.sep-stoicism",
+    "world.epictetus-control"
+  ],
+  "tags": [
+    "philosophy",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "21",
+    "v1_slug": "stoicism",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

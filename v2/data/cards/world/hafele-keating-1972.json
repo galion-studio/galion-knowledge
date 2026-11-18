@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.hafele-keating-1972",
+  "slug": "hafele-keating-1972",
+  "title": "Hafele and Keating flew atomic clocks in 1971",
+  "section": "world",
+  "category": "physics",
+  "summary": "A 1972 Science paper reports relativistic time shifts of atomic clocks flown around the world.",
+  "body": "J. C. Hafele and Richard E. Keating reported in Science in 1972 that atomic clocks flown around the world gained or lost time in the pattern predicted when both special-relativistic motion and gravitational potential are taken into account. The paper is a clock-comparison experiment, not a derivation of relativity. It is one of the direct time-dilation tests. It does not by itself license slogans about \"twelve decimal places.\"",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Around-the-World Atomic Clocks: Predicted Relativistic Time Gains",
+      "url": "https://doi.org/10.1126/science.177.4044.166",
+      "author": "J. C. Hafele and Richard E. Keating",
+      "date": "1972",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "J. C. Hafele and Richard E. Keating",
+  "as_of_date": "1972",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.special-relativity-1905",
+    "world.gps-relativity"
+  ],
+  "tags": [
+    "physics",
+    "time",
+    "experiment"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "1",
+    "v1_slug": "theory-of-relativity",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

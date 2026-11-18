@@ -1,0 +1,31 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-cambridge-declaration",
+  "slug": "unsourced-cambridge-declaration",
+  "title": "The Cambridge Declaration on Consciousness is not sourced here",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "The 2012 declaration was named in the v1 article and the document was not opened.",
+  "body": "The v1 consciousness article cites the Cambridge Declaration on Consciousness (2012) for animal consciousness. The PDF was not fetched. Leave the declaration's wording and its list of animals unsourced. Gallup's chimpanzee paper is the sourced observation.",
+  "claim_type": "fact",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.gallup-mirror-1970"
+  ],
+  "tags": [
+    "philosophy",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "25",
+    "v1_slug": "consciousness",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

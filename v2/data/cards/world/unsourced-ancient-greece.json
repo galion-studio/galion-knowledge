@@ -1,0 +1,32 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-ancient-greece",
+  "slug": "unsourced-ancient-greece",
+  "title": "The v1 Ancient Greece chronology is unsourced",
+  "section": "world",
+  "category": "history",
+  "summary": "Dates for Homer, the Olympics, Cleisthenes, and the Persian and Peloponnesian wars were not tied to a text we opened.",
+  "body": "The v1 article dates Archaic, Classical, and Hellenistic Greece, the Olympic games to 776 BCE, Athenian democracy to about 507 BCE, the Persian wars, and the Peloponnesian war, and it calls Greece the foundation of Western culture. Perseus texts were blocked in this pass, so Thucydides and Aristotle's Constitution of the Athenians were not opened. The \"foundation of the West\" sentence is an interpretation that skips how Greek works were kept and extended in Arabic. Leave the chronology and the civilizational slogan unsourced. Democracy as a modern normative theory is a different card.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.democracy-theory-sep",
+    "world.arabic-philosophy-transmission"
+  ],
+  "tags": [
+    "history",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "10",
+    "v1_slug": "ancient-greece",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

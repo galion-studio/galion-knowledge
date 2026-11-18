@@ -1,0 +1,40 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.human-genome-2001",
+  "slug": "human-genome-2001",
+  "title": "The 2001 draft human genome paper",
+  "section": "world",
+  "category": "biology",
+  "summary": "The International Human Genome Sequencing Consortium published the initial sequence analysis in Nature in 2001.",
+  "body": "The International Human Genome Sequencing Consortium, \"Initial sequencing and analysis of the human genome\" (Nature, 2001), is the draft-genome paper. It is not the 2022 complete sequence and it is not a claim that every base was known in 2001.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Initial sequencing and analysis of the human genome",
+      "url": "https://doi.org/10.1038/35057062",
+      "author": "International Human Genome Sequencing Consortium",
+      "date": "2001",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "International Human Genome Sequencing Consortium",
+  "as_of_date": "2001",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.hgp-2003-coverage",
+    "world.t2t-2022"
+  ],
+  "tags": [
+    "biology",
+    "genomics"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "8",
+    "v1_slug": "dna-genetics",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.bohr-1913",
+  "slug": "bohr-1913",
+  "title": "Bohr's 1913 atom model is a historical model",
+  "section": "world",
+  "category": "physics",
+  "summary": "Bohr's Philosophical Magazine paper is the old quantized orbit model, not current quantum mechanics.",
+  "body": "Niels Bohr's 1913 paper \"On the constitution of atoms and molecules\" is the quantized planetary model of the atom. It mattered historically and it is not the theory physicists now use for atoms. Heisenberg's 1927 paper and Schrödinger's 1926 papers are the start of the later theory. Teaching the Bohr orbits as if they were the present description of electrons is a mistake the v1 timeline can encourage by listing \"1913: Bohr model\" beside the later theory without saying it was replaced.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On the constitution of atoms and molecules",
+      "url": "https://doi.org/10.1080/14786441308634955",
+      "author": "Niels Bohr",
+      "date": "1913",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Niels Bohr",
+  "as_of_date": "1913",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.schrodinger-1926",
+    "world.heisenberg-uncertainty-1927"
+  ],
+  "tags": [
+    "physics",
+    "atoms",
+    "history-of-science"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "5",
+    "v1_slug": "quantum-mechanics",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

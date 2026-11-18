@@ -1,0 +1,49 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.origin-1859",
+  "slug": "origin-1859",
+  "title": "Darwin's 1859 book on the origin of species",
+  "section": "world",
+  "category": "biology",
+  "summary": "Wikisource holds the 1859 text in which Darwin argues for descent with modification by natural selection.",
+  "body": "Charles Darwin's On the Origin of Species (1859), full title including \"by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life,\" is the book. Wikisource publishes the 1859 text. The v1 summary that species change through inherited variation, and that some variants leave more offspring, is the argument of that book, not a laboratory notebook. Alfred Russel Wallace reached a related conclusion; the OpenStax evolution page names both. The book is not a statement of DNA, which was not known as the hereditary material in 1859.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On the Origin of Species (1859)",
+      "url": "https://en.wikisource.org/wiki/On_the_Origin_of_Species_(1859)",
+      "author": "Charles Darwin",
+      "date": "1859",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "18.1 Understanding Evolution",
+      "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution",
+      "author": "OpenStax Biology 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Charles Darwin",
+  "as_of_date": "1859",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.natural-selection-openstax",
+    "world.tiktaalik-2006",
+    "world.dobzhansky-1973"
+  ],
+  "tags": [
+    "biology",
+    "evolution",
+    "darwin"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "2",
+    "v1_slug": "evolution-natural-selection",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

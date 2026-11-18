@@ -1,0 +1,42 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.newton-principia-text",
+  "slug": "newton-principia-text",
+  "title": "Newton's Principia, in the 1846 English translation on Wikisource",
+  "section": "world",
+  "category": "physics",
+  "summary": "The Mathematical Principles of Natural Philosophy is the 1687 book. Wikisource hosts a nineteenth-century English translation.",
+  "body": "Wikisource publishes The Mathematical Principles of Natural Philosophy, the 1846 English edition of Isaac Newton's Principia (first edition 1687). The book states the laws of motion and universal gravitation in their classical form. It is the primary text behind the v1 scientific-revolution paragraph on Newton. General relativity is a later theory of gravity, sourced on its own card, and it reduces to Newton's theory in the everyday weak-field limit as an approximation, which is a further claim a textbook should carry. This card only identifies the book.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Mathematical Principles of Natural Philosophy (1846)",
+      "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1846)",
+      "author": "Isaac Newton, English translation",
+      "date": "1687",
+      "accessed": "2026-11-18",
+      "note": "Wikisource holds the 1846 translation. The book's first edition is 1687."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Isaac Newton",
+  "as_of_date": "1687",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.general-relativity-1916",
+    "world.royal-society-1660"
+  ],
+  "tags": [
+    "physics",
+    "newton",
+    "history-of-science"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "40",
+    "v1_slug": "scientific-revolution",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

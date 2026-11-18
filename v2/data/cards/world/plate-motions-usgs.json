@@ -1,0 +1,47 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.plate-motions-usgs",
+  "slug": "plate-motions-usgs",
+  "title": "USGS: plates move, and the Mid-Atlantic Ridge spreads about 2.5 cm per year",
+  "section": "world",
+  "category": "earth",
+  "summary": "This Dynamic Earth describes divergent, convergent, and transform boundaries and gives one measured rate.",
+  "body": "The U.S. Geological Survey's This Dynamic Earth says Earth's outer layer is broken into a dozen or more plates moving relative to one another, and it defines divergent boundaries where new crust forms, convergent boundaries where crust is destroyed or thickened, and, in the same section, boundaries where plates slide past each other. It says spreading along the Mid-Atlantic Ridge averages about 2.5 centimetres a year. The historical chapter calls continental drift, including the breakup of Pangaea, the forerunner of plate tectonics. The v1 range \"1–10 cm per year\" is a generalization; the figure we can cite is the Mid-Atlantic average the survey states.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Understanding plate motions",
+      "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+      "author": "U.S. Geological Survey",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Historical perspective (This Dynamic Earth)",
+      "url": "https://pubs.usgs.gov/gip/dynamic/historical.html",
+      "author": "U.S. Geological Survey",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.vine-matthews-1963"
+  ],
+  "tags": [
+    "earth",
+    "geology",
+    "plate-tectonics"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "18",
+    "v1_slug": "plate-tectonics",
+    "v1_category": "nature",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

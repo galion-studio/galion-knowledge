@@ -1,0 +1,32 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-capitalism-lifted-billions",
+  "slug": "unsourced-capitalism-lifted-billions",
+  "title": "'Capitalism lifted billions from poverty' is an unsourced causal claim",
+  "section": "world",
+  "category": "economics",
+  "summary": "The World Bank reports a decline. The v1 sentence names capitalism as the cause.",
+  "body": "The v1 capitalism article says the system lifted billions from poverty. The World Bank reports a large decline in the count of people under its extreme-poverty line and attributes the decline largely to broad growth. It does not, in the sentences we used, say \"capitalism.\" Growth has happened under many institutions, including state-led development. The causal slogan is unsourced. The Bank's count is on its own card.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.world-bank-poverty",
+    "world.capitalism-not-one-definition"
+  ],
+  "tags": [
+    "economics",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "27",
+    "v1_slug": "capitalism",
+    "v1_category": "society",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

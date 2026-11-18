@@ -1,0 +1,40 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.central-dogma-1970",
+  "slug": "central-dogma-1970",
+  "title": "Crick restated the central dogma in 1970",
+  "section": "world",
+  "category": "biology",
+  "summary": "Crick's Nature paper is his later statement of which information transfers he thought were allowed.",
+  "body": "Francis Crick, \"Central Dogma of Molecular Biology\" (Nature, 1970), is his restatement of the idea, not the 1958 talk. The v1 article describes replication, transcription, and translation as the way genes work. Those processes are the usual textbook path from DNA to RNA to protein. Crick's 1970 paper is the place he discusses the dogma as a claim about transfers of information. This card does not redraw his diagram from memory.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Central Dogma of Molecular Biology",
+      "url": "https://doi.org/10.1038/227561a0",
+      "author": "Francis Crick",
+      "date": "1970",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Francis Crick",
+  "as_of_date": "1970",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.genetic-code-codons",
+    "world.watson-crick-1953"
+  ],
+  "tags": [
+    "biology",
+    "molecular-biology"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "8",
+    "v1_slug": "dna-genetics",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-qm-precision-slogan",
+  "slug": "unsourced-qm-precision-slogan",
+  "title": "The v1 claim of '12 decimal places' is unsourced",
+  "section": "world",
+  "category": "physics",
+  "summary": "The older article said quantum mechanics matches experiment to 12 decimal places. That figure is not attached to a paper here.",
+  "body": "The v1 quantum article said quantum mechanics is the most precisely tested theory and matches experiment to 12 decimal places. Precision tests of quantum electrodynamics exist, but this pass did not open a paper that states \"12 decimal places\" for a named quantity. The sentence is therefore unsourced. Do not retrieve it as a measured result. Applications listed in the v1 article (transistors, lasers, MRI, atomic clocks, quantum computing) are a mixed bag of established engineering and, for universal quantum computers, an unfinished program; they are not given sources on this card.",
+  "claim_type": "fact",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.aspect-1982",
+    "world.heisenberg-uncertainty-1927"
+  ],
+  "tags": [
+    "physics",
+    "quantum",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "5",
+    "v1_slug": "quantum-mechanics",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

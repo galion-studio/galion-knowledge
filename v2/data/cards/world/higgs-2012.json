@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.higgs-2012",
+  "slug": "higgs-2012",
+  "title": "ATLAS and CMS reported a new boson near 125 GeV in 2012",
+  "section": "world",
+  "category": "physics",
+  "summary": "Both LHC collaborations published observation papers in Physics Letters B in 2012.",
+  "body": "In 2012 ATLAS published \"Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC,\" and CMS published \"Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC.\" The paired papers are the primary detection claims. Later work identified the particle with the Higgs boson of the Standard Model. This card stops at the 2012 observation claims and the mass figure that is in the CMS title.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+      "url": "https://doi.org/10.1016/j.physletb.2012.08.020",
+      "author": "ATLAS Collaboration",
+      "date": "2012",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC",
+      "url": "https://doi.org/10.1016/j.physletb.2012.08.021",
+      "author": "CMS Collaboration",
+      "date": "2012",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "ATLAS Collaboration and CMS Collaboration",
+  "as_of_date": "2012",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.standard-model-cern"
+  ],
+  "tags": [
+    "physics",
+    "higgs",
+    "lhc"
+  ],
+  "read_time_min": 1
+}

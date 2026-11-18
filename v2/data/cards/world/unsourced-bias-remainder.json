@@ -1,0 +1,32 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-bias-remainder",
+  "slug": "unsourced-bias-remainder",
+  "title": "Several named biases in the v1 article are not this pack's sourced set",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Confirmation bias, hindsight, sunk cost, and groupthink were not given papers here.",
+  "body": "The v1 cognitive-bias article also names confirmation bias, hindsight bias, the sunk-cost fallacy, and groupthink, and it offers a debiasing checklist. Tversky and Kahneman 1974 cover anchoring and availability. Prospect theory covers loss aversion. Kruger and Dunning 1999 is its own paper. The other names are real research topics and are unsourced in this pass. Do not treat the whole v1 list as if it had one citation.",
+  "claim_type": "fact",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.heuristics-1974",
+    "world.prospect-theory-1979"
+  ],
+  "tags": [
+    "psychology",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "29",
+    "v1_slug": "cognitive-biases",
+    "v1_category": "society",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

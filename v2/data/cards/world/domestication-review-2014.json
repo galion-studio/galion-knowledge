@@ -1,0 +1,34 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.domestication-review-2014",
+  "slug": "domestication-review-2014",
+  "title": "A 2014 review of domestication studies",
+  "section": "world",
+  "category": "biology",
+  "summary": "Larson and colleagues surveyed domestication research. Multiple independent origins are a live topic of that field.",
+  "body": "Greger Larson and colleagues, \"Current perspectives and the future of domestication studies\" (Proceedings of the National Academy of Sciences, 2014), is a review of how domestication is studied. The v1 history articles do not cover agriculture. This seed card marks the review as the entry point. It does not list centers (Fertile Crescent, China, Mesoamerica, Andes, New Guinea, and others) as if each date had been checked against the review's table. Those place-by-place dates need the paper or a primary archaeological report.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Current perspectives and the future of domestication studies",
+      "url": "https://doi.org/10.1073/pnas.1323964111",
+      "author": "Greger Larson and colleagues",
+      "date": "2014",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Greger Larson and colleagues",
+  "as_of_date": "2014",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.origin-1859"
+  ],
+  "tags": [
+    "history",
+    "agriculture",
+    "archaeology"
+  ],
+  "read_time_min": 1
+}

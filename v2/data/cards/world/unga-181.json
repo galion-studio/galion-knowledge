@@ -1,0 +1,36 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unga-181",
+  "slug": "unga-181",
+  "title": "UN General Assembly Resolution 181, 29 November 1947",
+  "section": "world",
+  "category": "history",
+  "summary": "The Avalon Project transcribes Resolution 181, including a partition plan with economic union.",
+  "body": "The Avalon Project at Yale Law School transcribes United Nations General Assembly Resolution 181 of 29 November 1947. The text considers a plan of partition with economic union. This card records that the Assembly adopted a partition recommendation. It does not decide the justice of the plan, the war that followed, or the later borders. Israeli and Palestinian accounts of 1947–1949 disagree about legitimacy, expulsions, and who rejected what. An Israeli foreign-ministry page for the declaration of independence did not load. Those narratives need their own documents before they are paraphrased. What is stored is the UN text.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "United Nations General Assembly Resolution 181",
+      "url": "https://avalon.law.yale.edu/20th_century/res181.asp",
+      "author": "United Nations General Assembly, transcription by the Avalon Project",
+      "date": "1947-11-29",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United Nations General Assembly",
+  "as_of_date": "1947-11-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.unrwa-1949",
+    "world.truman-doctrine-1947"
+  ],
+  "tags": [
+    "history",
+    "palestine",
+    "israel",
+    "united-nations"
+  ],
+  "read_time_min": 1
+}

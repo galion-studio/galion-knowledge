@@ -1,0 +1,40 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.photosynthesis-openstax",
+  "slug": "photosynthesis-openstax",
+  "title": "Photosynthesis uses light, carbon dioxide, and water and releases oxygen",
+  "section": "world",
+  "category": "biology",
+  "summary": "OpenStax describes the substrates, the chloroplast, and two stages.",
+  "body": "OpenStax Biology 2e, section 8.1, says photosynthesis is a multi-step process that requires specific wavelengths of visible sunlight, carbon dioxide, and water, and that it releases oxygen. In plants it takes place in chloroplasts. Section 8.1 also says the two stages are the light-dependent reactions in the thylakoid membrane, which make ATP and NADPH, and the Calvin cycle, which uses those to build sugars. The familiar balanced equation with six of each molecule was not on the sentences we fetched, so it is not reprinted here as if it had been checked.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "8.1 Overview of Photosynthesis",
+      "url": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+      "author": "OpenStax Biology 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "OpenStax Biology 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.photosynthesis-oxygen-source",
+    "world.calvin-nobel-1961"
+  ],
+  "tags": [
+    "biology",
+    "photosynthesis"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "12",
+    "v1_slug": "photosynthesis",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

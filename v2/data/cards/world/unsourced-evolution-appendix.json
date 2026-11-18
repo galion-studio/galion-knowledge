@@ -1,0 +1,32 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-evolution-appendix",
+  "slug": "unsourced-evolution-appendix",
+  "title": "The v1 'vestigial appendix' example is not sourced",
+  "section": "world",
+  "category": "biology",
+  "summary": "Calling the human appendix a useless leftover was not checked against an anatomy source.",
+  "body": "The v1 evolution article lists the human appendix and whale hip bones as vestigial organs, and it lists shared genetic mistakes, island biogeography, and embryology as lines of evidence. Those lines are part of the usual textbook case. This pass sourced natural selection, the 1859 book, Tiktaalik, and Dobzhansky's essay. It did not open a paper on the appendix. The appendix claim is unsourced here, including any correction that the appendix has immune tissue. Do not retrieve the v1 sentence as a settled anatomical fact.",
+  "claim_type": "fact",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.origin-1859",
+    "world.tiktaalik-2006"
+  ],
+  "tags": [
+    "biology",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "2",
+    "v1_slug": "evolution-natural-selection",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.cook-consensus-2013",
+  "slug": "cook-consensus-2013",
+  "title": "Cook et al. 2013: 97.1 percent of position-taking abstracts endorsed human-caused warming",
+  "section": "world",
+  "category": "climate",
+  "summary": "The percentage is among abstracts that took a position. Most abstracts in the sample took none.",
+  "body": "John Cook and colleagues, \"Quantifying the consensus on anthropogenic global warming in the scientific literature\" (Environmental Research Letters, 2013), examined 11,944 abstracts from 1991–2011. The abstract states that 66.4 percent expressed no position, 32.6 percent endorsed anthropogenic global warming, 0.7 percent rejected it, and 0.3 percent were uncertain. Among abstracts that expressed a position, 97.1 percent endorsed the consensus that humans are causing global warming. Author self-ratings in the same paper gave 97.2 percent among papers that took a position. The v1 sentence \"97 percent or more of climate scientists agree\" drops the denominator. The study counted abstracts and, in a second step, author ratings of papers. It did not take a census of every person with a climate-related job. NASA's attribution statement is a different kind of source and does not depend on this percentage.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Quantifying the consensus on anthropogenic global warming in the scientific literature",
+      "url": "https://doi.org/10.1088/1748-9326/8/2/024024",
+      "author": "John Cook and colleagues",
+      "date": "2013",
+      "accessed": "2026-11-18",
+      "note": "Figures are from the Crossref abstract read on 2026-11-18."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "John Cook and colleagues",
+  "as_of_date": "2013",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.nasa-warming-attribution"
+  ],
+  "tags": [
+    "climate",
+    "consensus",
+    "method"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "9",
+    "v1_slug": "climate-change",
+    "v1_category": "nature",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

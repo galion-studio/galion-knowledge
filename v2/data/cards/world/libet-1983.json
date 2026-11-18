@@ -1,0 +1,40 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.libet-1983",
+  "slug": "libet-1983",
+  "title": "Libet's 1983 readiness-potential experiment",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "The Brain paper reports cerebral activity before the reported moment of conscious intention.",
+  "body": "Benjamin Libet, Curtis A. Gleason, Elwood W. Wright, and Dennis K. Pearl, \"Time of conscious intention to act in relation to onset of cerebral activity (readiness-potential)\" (Brain, 1983), reported brain activity preceding the clock-time at which subjects said they had decided to move. The v1 article says the lead was about 300 milliseconds. That number was not re-read from the paper, so it is not stored. The experiment is about a finger movement in a lab, not about whether a person is responsible for a life plan. What the timing means is disputed. Schurger, Sitt, and Dehaene later offered an accumulator model that does not read the early signal as a decision.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Time of conscious intention to act in relation to onset of cerebral activity (readiness-potential)",
+      "url": "https://doi.org/10.1093/brain/106.3.623",
+      "author": "Benjamin Libet, Curtis A. Gleason, Elwood W. Wright, and Dennis K. Pearl",
+      "date": "1983",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Benjamin Libet and colleagues",
+  "as_of_date": "1983",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.schurger-2012",
+    "world.free-will-disputed"
+  ],
+  "tags": [
+    "neuroscience",
+    "free-will"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "24",
+    "v1_slug": "free-will",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

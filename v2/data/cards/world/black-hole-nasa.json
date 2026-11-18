@@ -1,0 +1,42 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.black-hole-nasa",
+  "slug": "black-hole-nasa",
+  "title": "NASA's description of a black hole",
+  "section": "world",
+  "category": "physics",
+  "summary": "NASA states that beneath the event horizon nothing, including light, can escape.",
+  "body": "NASA's black-hole page says a black hole is so dense that gravity just beneath its surface, the event horizon, is strong enough that nothing, not even light, can escape, and that the event horizon is not a solid surface. The same page discusses Sagittarius A* at the center of the Milky Way. This is an agency summary of the astrophysical concept. It does not state a minimum stellar mass of 20 suns, and it does not say the center has been observed to have infinite density.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Black Holes",
+      "url": "https://science.nasa.gov/universe/black-holes/",
+      "author": "NASA",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Wording taken from the page text fetched on this date."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.eht-m87-2019",
+    "world.eht-sgr-a-2022",
+    "world.hawking-1974"
+  ],
+  "tags": [
+    "astronomy",
+    "black-holes"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "11",
+    "v1_slug": "black-holes",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

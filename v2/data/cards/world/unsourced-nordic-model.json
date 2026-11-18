@@ -1,0 +1,32 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-nordic-model",
+  "slug": "unsourced-nordic-model",
+  "title": "Calling the Nordic model socialism is unsourced here",
+  "section": "world",
+  "category": "economics",
+  "summary": "The v1 article files Nordic countries under democratic socialism. That classification is disputed and was not documented.",
+  "body": "The v1 socialism article says democratic socialism includes a strong welfare state and \"Nordic model elements.\" Whether Sweden, Norway, and Denmark are socialist is a definitional dispute. This pass did not open a statistical office or a party platform. Leave the classification unsourced. Smith's book, Marx's texts, and the World Bank poverty page are the sourced economic cards.",
+  "claim_type": "contested",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.capitalism-not-one-definition",
+    "world.communist-manifesto-1848"
+  ],
+  "tags": [
+    "economics",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "28",
+    "v1_slug": "socialism",
+    "v1_category": "society",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.natural-selection-openstax",
+  "slug": "natural-selection-openstax",
+  "title": "OpenStax's statement of natural selection",
+  "section": "world",
+  "category": "biology",
+  "summary": "The textbook says offspring vary, variation is inherited, and some inherited traits leave more descendants.",
+  "body": "OpenStax Biology 2e, section 18.1, says evolution by natural selection describes a mechanism for how species change over time, that the idea was discussed before Darwin, and that Darwin and Wallace reasoned from heritable variation: offspring with inherited characteristics that help them compete leave more offspring. The v1 four-step list (variation, inheritance, selection, time) is a classroom compression of that argument. It is a textbook summary, evidence strength moderate as a secondary source, not a new observation.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "18.1 Understanding Evolution",
+      "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution",
+      "author": "OpenStax Biology 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax Biology 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.origin-1859"
+  ],
+  "tags": [
+    "biology",
+    "evolution"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "2",
+    "v1_slug": "evolution-natural-selection",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

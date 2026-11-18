@@ -1,0 +1,32 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-solar-moon-counts",
+  "slug": "unsourced-solar-moon-counts",
+  "title": "Specific moon counts in the v1 solar-system article are unsourced",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "Jupiter '95 moons' and Saturn '146 moons' go stale and were not checked against a current catalog.",
+  "body": "The v1 solar-system article gave moon counts (Jupiter 95, Saturn 146, Uranus 27) and a list of superlatives (hottest planet, strongest winds, backward rotation). NASA's overview we opened says \"hundreds of moons\" rather than those integers. Named-moon totals change. Leave the specific integers unsourced. Also unsourced here: the v1 claim that the Oort cloud is hypothetical, and the asteroid-belt and Kuiper-belt descriptions beyond NASA's inclusion of those regions by name.",
+  "claim_type": "fact",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.eight-planets",
+    "world.solar-system-formation"
+  ],
+  "tags": [
+    "astronomy",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "15",
+    "v1_slug": "solar-system",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.gutenberg-bible-loc",
+  "slug": "gutenberg-bible-loc",
+  "title": "The Library of Congress on the Gutenberg Bible",
+  "section": "world",
+  "category": "technology",
+  "summary": "The Library says printing was probably finished in late 1455 at Mainz, and credits Gutenberg with movable metal type.",
+  "body": "The Library of Congress Gutenberg Bible exhibition says printing was probably completed late in 1455 at Mainz, and that Johann Gutenberg, who lived from about 1400 to about 1468, is generally credited with inventing the process of making movable metal type in Europe. \"Probably\" and \"generally credited\" are the library's own hedges. East Asian printing, including earlier ceramic and metal type, is part of a true history of print and was not successfully opened (a UNESCO Jikji page did not load). Do not tell the story as if print began in Europe. The European alphabet and the Mainz workshop are what this page documents.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Gutenberg Bible",
+      "url": "https://www.loc.gov/exhibits/bibles/the-gutenberg-bible.html",
+      "author": "Library of Congress",
+      "date": "1455",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Library of Congress",
+  "as_of_date": "1455",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.unsourced-printing-impact",
+    "world.royal-society-1660"
+  ],
+  "tags": [
+    "technology",
+    "print",
+    "history"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "39",
+    "v1_slug": "printing-press",
+    "v1_category": "technology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}
