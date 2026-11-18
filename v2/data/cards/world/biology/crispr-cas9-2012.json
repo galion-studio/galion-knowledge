@@ -1,0 +1,25 @@
+{
+  "id": "world.biology.crispr-cas9-2012",
+  "title": "How Cas9 cuts DNA under RNA guidance",
+  "section": "world",
+  "category": "biology",
+  "body": "CRISPR systems are adaptive immunity in bacteria and archaea: CRISPR RNAs guide proteins to matching nucleic acids from viruses or plasmids. Jinek, Chylinski, Fonfara, Hauer, Doudna, and Charpentier showed in 2012 that in one subset of these systems the mature CRISPR RNA, base-paired to a trans-activating CRISPR RNA, forms a two-RNA structure that directs the protein Cas9 to cut both strands of a matching DNA site. The HNH domain cuts the complementary strand and the RuvC-like domain cuts the other. They also fused the two RNAs into one chimera that still directed sequence-specific cutting. The paper is a mechanism paper about bacterial immunity, and it explicitly notes that the same system could be used as a programmable way to cut genomes. It is not, by itself, a clinical trial of any therapy.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+      "url": "https://doi.org/10.1126/science.1225829",
+      "author": "Martin Jinek, Krzysztof Chylinski, Ines Fonfara, Michael Hauer, Jennifer A. Doudna, and Emmanuelle Charpentier",
+      "date": "2012",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Jinek and coauthors, Science, 2012",
+  "as_of_date": "2012",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.dna-double-helix-1953"
+  ]
+}

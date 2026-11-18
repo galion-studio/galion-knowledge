@@ -1,0 +1,25 @@
+{
+  "id": "world.medicine.insulin-nobel-1923",
+  "title": "The 1923 Nobel Prize for the discovery of insulin",
+  "section": "world",
+  "category": "medicine",
+  "body": "The Nobel Prize in Physiology or Medicine for 1923 was awarded jointly to Frederick Grant Banting and John James Rickard Macleod \"for the discovery of insulin.\" The Nobel page consulted on 18 November 2026 names those two laureates and gives that reason. A prize citation records what the committee chose to honor. It is not a laboratory notebook, and it does not list every person who handled the extracts. This card claims the award, the year, the two names, and the stated reason. It does not describe how the extracts were made, how the first patients were chosen, or how credit was divided inside the Toronto group. Those questions need the laboratory papers and the hospital records, which are not the sources linked here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 1923",
+      "url": "https://www.nobelprize.org/prizes/medicine/1923/summary/",
+      "author": "Nobel Prize Outreach",
+      "date": "1923",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Nobel Prize in Physiology or Medicine 1923",
+  "as_of_date": "1923",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.medicine.who-health-definition"
+  ]
+}

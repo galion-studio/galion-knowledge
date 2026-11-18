@@ -1,0 +1,37 @@
+{
+  "id": "world.history.rights-of-man-1789",
+  "title": "What the 1789 Declaration's first article says",
+  "section": "world",
+  "category": "history",
+  "body": "The Conseil constitutionnel publishes the Declaration of Human and Civic Rights of 26 August 1789. In its English text, Article 1 reads: \"Men are born and remain free and equal in rights. Social distinctions may be based only on considerations of the common good.\" Article 2 says the aim of political association is to preserve the natural and imprescriptible rights of man. The document is a revolutionary declaration, adopted in a specific crisis, and its English wording on this official page says \"men.\" Reading that sentence as a completed grant of equal political standing to every person then living in France goes beyond the sentence. Reading it as a principle later movements could invoke is also a reading. Both readings use the same text. The declaration did not by itself decide who could vote, who could be enslaved, or who counted as a citizen.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Declaration of Human and Civic Rights of 26 August 1789",
+      "url": "https://www.conseil-constitutionnel.fr/en/declaration-of-human-and-civic-rights-of-26-august-1789",
+      "author": "Conseil constitutionnel (English text of the 1789 declaration)",
+      "date": "1789-08-26",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Declaration of 26 August 1789, as published by the Conseil constitutionnel",
+  "as_of_date": "1789-08-26",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "position": "Article 1 states a principle that men are born and remain free and equal in rights.",
+      "held_by": "Text of the 1789 Declaration",
+      "source_url": "https://www.conseil-constitutionnel.fr/en/declaration-of-human-and-civic-rights-of-26-august-1789"
+    },
+    {
+      "position": "The same sentence does not settle who, in 1789, was treated as a political equal. Scope is a further historical question.",
+      "held_by": "A limit of the text itself; this card does not cite a separate historian",
+      "source_url": "https://www.conseil-constitutionnel.fr/en/declaration-of-human-and-civic-rights-of-26-august-1789"
+    }
+  ],
+  "related": [
+    "world.history.haitian-independence-1804",
+    "world.law.udhr-1948"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "world.society.bank-money-creation",
+  "title": "How the Bank of England says commercial-bank money is created",
+  "section": "world",
+  "category": "society",
+  "body": "The Bank of England's 2014 Quarterly Bulletin article \"Money creation in the modern economy\" describes sterling money, not a universal law of every era. It says the majority of money in the modern economy is created by commercial banks making loans. Banks do not, in this account, act simply as intermediaries lending out deposits that savers have already placed with them, and they do not mechanically multiply up central-bank money. Making a loan creates a matching deposit. How much money is created depends on the central bank's monetary policy and on the willingness of banks and borrowers to lend and borrow. The article calls the simple deposit-multiplier story a misconception about modern practice. Textbook models that still teach that story are describing a different mechanism. This card reports the central bank's operational account. It is not a claim about medieval coin or about every theoretical model in economics.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Money creation in the modern economy",
+      "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy",
+      "author": "Michael McLeay, Amar Radia, and Ryland Thomas, Bank of England",
+      "date": "2014",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bank of England Quarterly Bulletin, 2014 Q1",
+  "as_of_date": "2014",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "position": "Commercial banks create deposits by lending, and the multiplier story misdescribes modern practice.",
+      "held_by": "Bank of England, 2014",
+      "source_url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy"
+    },
+    {
+      "position": "Banks lend out prior deposits and multiply central-bank money by a reserve ratio.",
+      "held_by": "The textbook account the Bank of England article rejects",
+      "source_url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy"
+    }
+  ],
+  "related": [
+    "world.society.smith-division-of-labor",
+    "world.society.public-goods-1954"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.philosophy.hume-induction",
+  "title": "Hume's problem of induction",
+  "section": "world",
+  "category": "philosophy",
+  "body": "David Hume's enquiry, first published as Philosophical Essays Concerning Human Understanding and preserved under that title on Wikisource, asks how we know that the future will resemble the past. Experience shows only what has happened. Any argument from past regularities to the next case assumes that nature is uniform, which is the very thing at issue. Deduction does not supply the missing step, because there is no contradiction in imagining the course of nature changing. The Stanford Encyclopedia entry on Hume presents this skeptical argument about induction. The problem is not a claim that the sun will fail to rise. It is a claim that the inference we all make is not the kind of proof demonstration is. Later philosophy has offered answers, including pragmatic and probabilistic ones. None of them is treated, in that literature, as having closed the problem by a simple proof.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Philosophical Essays Concerning Human Understanding",
+      "url": "https://en.wikisource.org/wiki/An_Enquiry_Concerning_Human_Understanding",
+      "author": "David Hume",
+      "date": "1748",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "David Hume",
+      "url": "https://plato.stanford.edu/entries/hume/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "David Hume, as presented in the Stanford Encyclopedia and the 1748 enquiry",
+  "as_of_date": "1748",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.philosophy.popper-demarcation",
+    "world.mathematics.probability-interpretations"
+  ]
+}

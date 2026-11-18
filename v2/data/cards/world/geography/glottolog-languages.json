@@ -1,0 +1,25 @@
+{
+  "id": "world.geography.glottolog-languages",
+  "title": "Glottolog is a catalogue of languages, not a headcount to memorize",
+  "section": "world",
+  "category": "geography",
+  "body": "Glottolog, at the about page consulted on 18 November 2026, presents itself as version 5.4. The page describes a collaborative project. It credits Harald Hammarström with collecting many individuals' bibliographies and compiling them into a master bibliography, and the site organizes languages and families. A catalogue of this kind has to decide what counts as a language rather than a dialect, and those decisions are argued. This card states no number of languages. Any count would be Glottolog's count under its criteria at a stated version, and a different catalogue uses different criteria. The useful fact is the existence of a versioned, citable classification and bibliography, not a round number of \"world languages.\"",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "About Glottolog",
+      "url": "https://glottolog.org/about",
+      "author": "Harald Hammarström and Glottolog collaborators",
+      "date": "2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Glottolog 5.4 about page",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.geography.world-population-prospects"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "world.biology.action-potential-1952",
+  "title": "The Hodgkin-Huxley model of the nerve impulse",
+  "section": "world",
+  "category": "biology",
+  "body": "A. L. Hodgkin and A. F. Huxley's 1952 paper, \"A quantitative description of membrane current and its application to conduction and excitation in nerve,\" gives equations for the current across the membrane of a squid giant axon. The model uses voltage-dependent sodium and potassium conductances. A sufficient depolarization opens sodium channels, sodium ions enter, and the inside of the membrane swings positive. Potassium conductance then rises, potassium leaves, and the membrane returns toward rest. The action potential is that traveling swing of voltage. The paper is a quantitative fit to one axon under experimental control, not a map of every neuron in every animal. Later work found many more channel types. The sodium-potassium pattern they measured remains the core mechanism of the fast nerve impulse.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A quantitative description of membrane current and its application to conduction and excitation in nerve",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1392413/",
+      "author": "A. L. Hodgkin and A. F. Huxley",
+      "date": "1952",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "A. L. Hodgkin and A. F. Huxley, Journal of Physiology, 1952",
+  "as_of_date": "1952",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.atp-synthase-and-the-sodium-pump"
+  ]
+}

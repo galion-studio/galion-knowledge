@@ -1,0 +1,50 @@
+{
+  "id": "world.history.atlantic-slave-trade-estimates",
+  "title": "The trans-Atlantic slave trade is estimated, not enumerated person by person",
+  "section": "world",
+  "category": "history",
+  "body": "The SlaveVoyages project publishes both voyage records and estimates of the whole trans-Atlantic trade. Its overview says that some 12.5 million enslaved people were shipped from Africa and 10.7 million arrived in the Americas. The estimates table consulted for 1501–1866 summed people embarked to 12,521,354. Those totals are not a list of named individuals. The project's methodology essay explains that documented voyages are incomplete, especially before 1700, and that the estimates fill gaps for voyages that left no surviving record. The same project notes that other estimates of the volume exist. A higher or lower assumption about missing voyages changes the total. The trade was carried under several European flags and by merchants in the Americas, and the people embarked came from many African regions, not from one port. The database is the evidence. A round number repeated without the edition and the method is not.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Estimates: Trans-Atlantic Slave Trade",
+      "url": "https://www.slavevoyages.org/assessment/estimates/",
+      "author": "SlaveVoyages / Emory University and collaborators",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "A Brief Overview of the Trans-Atlantic Slave Trade",
+      "url": "https://www.slavevoyages.org/blog/-brief-overview-of-the-transatlantic-slave-trade/154",
+      "author": "David Eltis",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Voyages: 2010 estimates methodology essay",
+      "url": "https://www.slavevoyages.org/static/uploads/2010estimates-method.pdf",
+      "author": "David Eltis and Paul Lachance",
+      "date": "2010",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "SlaveVoyages estimates and the Eltis and Lachance methodology",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "position": "The project's published estimate is about 12.5 million people embarked and about 10.7 million arrived, with a table total of 12,521,354 embarked for 1501–1866.",
+      "held_by": "SlaveVoyages estimates",
+      "source_url": "https://www.slavevoyages.org/assessment/estimates/"
+    },
+    {
+      "position": "The totals impute undocumented voyages, and other assumptions about missing records produce different volumes.",
+      "held_by": "The project's own methodology discussion",
+      "source_url": "https://www.slavevoyages.org/static/uploads/2010estimates-method.pdf"
+    }
+  ],
+  "related": [
+    "world.history.haitian-independence-1804"
+  ]
+}

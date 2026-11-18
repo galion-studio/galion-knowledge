@@ -1,0 +1,38 @@
+{
+  "id": "world.society.demographic-transition-1996",
+  "title": "Kirk's statement of the demographic transition",
+  "section": "world",
+  "category": "society",
+  "body": "Dudley Kirk's 1996 paper \"Demographic Transition Theory\" calls the demographic transition one of the best documented generalizations in the social sciences. Stripped down, it is the claim that societies move from a regime of high fertility and high mortality to one of low fertility and low mortality. His abstract then offers a causal story: death rates fall as epidemic disease is controlled; with modernization, children become more costly; cultural change weakens the importance of children; women gain more say over reproduction; values shift toward fewer children. He describes the fertility transition as becoming universal, with every country placeable on a continuum of progress. That last wording is his. A documented pattern in many populations is not the same thing as a law that every society must pass the same stages on a schedule. This card reports Kirk's 1996 formulation. It does not test it against later data.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Demographic Transition Theory",
+      "url": "https://doi.org/10.1080/0032472031000149536",
+      "author": "Dudley Kirk",
+      "date": "1996",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Dudley Kirk, Population Studies, 1996",
+  "as_of_date": "1996",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "position": "The shift from high mortality and fertility to low mortality and fertility is a well documented general pattern, and Kirk presents it as becoming universal.",
+      "held_by": "Dudley Kirk, 1996",
+      "source_url": "https://doi.org/10.1080/0032472031000149536"
+    },
+    {
+      "position": "Placing every country on one continuum of progress is an interpretation. Timing and causes differ, and this card does not settle later critiques.",
+      "held_by": "A limit of using one 1996 review as a law",
+      "source_url": "https://doi.org/10.1080/0032472031000149536"
+    }
+  ],
+  "related": [
+    "world.geography.world-population-prospects",
+    "world.history.agriculture-multiple-origins",
+    "world.society.us-gdp-what-bea-measures"
+  ]
+}

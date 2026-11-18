@@ -1,0 +1,33 @@
+{
+  "id": "world.technology.point-contact-transistor-1948",
+  "title": "The 1948 semiconductor triode and the 1956 prize",
+  "section": "world",
+  "category": "technology",
+  "body": "John Bardeen and Walter Brattain's 1948 paper in Physical Review is titled \"The Transistor, A Semi-Conductor Triode.\" It reports a device in which a small signal controls a current in a semiconductor, doing the job a vacuum triode did, without the vacuum tube. The Nobel Prize in Physics for 1956 was awarded jointly to William Bradford Shockley, John Bardeen, and Walter Houser Brattain \"for their researches on semiconductors and their discovery of the transistor effect.\" The prize names three people. The 1948 paper names two. Shockley's junction transistor is a related device and is not this paper. The point-contact transistor and the later junction and field-effect devices are a family, not one invention with one date. The 1948 paper is the public report of the semiconductor triode Bardeen and Brattain built.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Transistor, A Semi-Conductor Triode",
+      "url": "https://doi.org/10.1103/PhysRev.74.230",
+      "author": "J. Bardeen and W. H. Brattain",
+      "date": "1948",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Nobel Prize in Physics 1956",
+      "url": "https://www.nobelprize.org/prizes/physics/1956/summary/",
+      "author": "Nobel Prize Outreach",
+      "date": "1956",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bardeen and Brattain, Physical Review, 1948; Nobel citation, 1956",
+  "as_of_date": "1948",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.technology.internetworking-1974",
+    "world.technology.shannon-communication-1948"
+  ]
+}

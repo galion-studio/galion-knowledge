@@ -1,0 +1,26 @@
+{
+  "id": "world.arts.chauvet-cave-chronology",
+  "title": "Two periods of human activity in Chauvet cave",
+  "section": "world",
+  "category": "arts",
+  "body": "The Chauvet-Pont d'Arc cave in the Ardèche holds Paleolithic drawings whose early dates surprised researchers. Quiles, Valladas, Bocherens, and coauthors published a high-precision chronological model in 2016. They integrated more than 350 dates, including 259 radiocarbon dates, most of them tied to the rock art and to human activity, into a Bayesian model constrained by the archaeology. The model gives two periods of human activity in the cave: one from 37,000 to 33,500 years ago, and another from 31,000 to 28,000 years ago. Cave bears used the cave until 33,000 years ago. These are the model's intervals for activity, not a year painted on each figure. Individual drawings are not each directly dated to a single calendar year. The result places the art in the early Upper Paleolithic and in two visits, rather than in one short campaign.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A high-precision chronological model for the decorated Upper Paleolithic cave of Chauvet-Pont d'Arc, Ardèche, France",
+      "url": "https://doi.org/10.1073/pnas.1523158113",
+      "author": "Anita Quiles, Hélène Valladas, Hervé Bocherens, and coauthors",
+      "date": "2016",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Quiles and coauthors, Proceedings of the National Academy of Sciences, 2016",
+  "as_of_date": "2016",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.technology.jikji-metal-type-1377",
+    "world.history.agriculture-multiple-origins"
+  ]
+}

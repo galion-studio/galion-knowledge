@@ -1,0 +1,32 @@
+{
+  "id": "world.philosophy.four-noble-truths",
+  "title": "The four noble truths in one Pali sutta",
+  "section": "world",
+  "category": "philosophy",
+  "body": "The Dhammacakkappavattana Sutta, Samyutta Nikaya 56.11, is the discourse traditional Buddhism presents as the Buddha's first sermon. Access to Insight publishes Thanissaro Bhikkhu's English translation. The translator's summary says the sutta contains the four noble truths and the noble eightfold path. In this translation the truths are stated with the word \"stress\" for dukkha. The origin of stress is craving: craving for sensual pleasure, for becoming, and for non-becoming. Cessation is the remainderless fading and cessation of that craving. A different Buddhist tradition, and a different translator, will not use the same English words. The Stanford Encyclopedia entry on the Buddha is a scholarly overview of the figure and the early teachings, and it is not a substitute for the sutta. The four truths are a diagnosis offered by a tradition. They are not a result from a clinical trial.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Dhammacakkappavattana Sutta: Setting the Wheel of Dhamma in Motion (SN 56.11)",
+      "url": "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      "author": "Translated by Thanissaro Bhikkhu",
+      "date": "Pali canon",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Buddha",
+      "url": "https://plato.stanford.edu/entries/buddha/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "SN 56.11, Thanissaro Bhikkhu translation; the teaching is attributed to the Buddha",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.philosophy.analects-and-confucius"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "world.arts.shakespeare-first-folio-1623",
+  "title": "The 1623 First Folio, and one library's copies",
+  "section": "world",
+  "category": "arts",
+  "body": "The Folger Shakespeare Library describes the First Folio as the 1623 book of Shakespeare's plays, and it states that the Folger holds 82 copies, the largest collection in the world. The Folger's own page is the source for the date 1623, for the identity of the book as the collected plays, and for the size of that library's holding. Different copies are not identical. The library notes, for example, a later folio in which an owner crossed out passages. This card stops at what that page supports. It does not count how many plays first appeared in the 1623 book, because that count was not taken from the page during checking.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Shakespeare in print",
+      "url": "https://www.folger.edu/explore/shakespeare-in-print/",
+      "author": "Folger Shakespeare Library",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Folger Shakespeare Library",
+  "as_of_date": "1623",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.arts.iliad-attributed-to-homer"
+  ]
+}

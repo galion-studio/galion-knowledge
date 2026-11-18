@@ -1,0 +1,26 @@
+{
+  "id": "world.society.us-gdp-what-bea-measures",
+  "title": "U.S. GDP measures the value of final output",
+  "section": "world",
+  "category": "society",
+  "body": "The U.S. Bureau of Economic Analysis describes gross domestic product as the value of the final goods and services produced in the United States. It is the signature piece of the National Income and Product Accounts, which measure the value and makeup of national output, the types of income generated, and how that income is used. BEA distinguishes 'real' or 'chained' GDP, adjusted to remove the effects of inflation so periods can be compared, from 'current-dollar' or 'nominal' GDP, which uses market prices during the period being measured. For each quarter BEA publishes an advance estimate, then a second and a third, as later source data arrive. The percentage people usually mean by 'GDP' is the rate of change in real GDP, not the level in dollars. This page defines an output account for the United States. It does not say that the number is a measure of welfare, health, or unpaid work, and this card does not add that claim.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What to know: GDP",
+      "url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp",
+      "author": "U.S. Bureau of Economic Analysis",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Bureau of Economic Analysis",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.society.bank-money-creation",
+    "world.society.smith-division-of-labor"
+  ]
+}

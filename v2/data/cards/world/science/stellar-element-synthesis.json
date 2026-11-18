@@ -1,0 +1,51 @@
+{
+  "id": "world.science.stellar-element-synthesis",
+  "title": "Elements are built in stars, and some sites are still open",
+  "section": "world",
+  "category": "science",
+  "body": "The 1957 review \"Synthesis of the Elements in Stars,\" by E. Margaret Burbidge, G. R. Burbidge, William A. Fowler, and Fred Hoyle, is the classic account of how nuclear reactions in stars build chemical elements. It is a synthesis of nuclear physics and astronomy, not a claim that every nucleus is made in the same kind of star. Which astrophysical sites dominate the heaviest nuclei has been revised since 1957. In 2017 LIGO and Virgo reported GW170817, gravitational waves from a binary neutron-star inspiral. A companion paper reported optical emission from a kilonova following that merger. A kilonova is one observed channel relevant to heavy-element production. What fraction of the heaviest elements comes from mergers, and what fraction from other sites, is not settled by those two papers.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Synthesis of the Elements in Stars",
+      "url": "https://doi.org/10.1103/RevModPhys.29.547",
+      "author": "E. Margaret Burbidge, G. R. Burbidge, William A. Fowler, and Fred Hoyle",
+      "date": "1957",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral",
+      "url": "https://doi.org/10.1103/PhysRevLett.119.161101",
+      "author": "B. P. Abbott and the LIGO Scientific Collaboration and the Virgo Collaboration",
+      "date": "2017",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Optical emission from a kilonova following a gravitational-wave-detected neutron-star merger",
+      "url": "https://doi.org/10.1038/nature24291",
+      "author": "Iair Arcavi and coauthors",
+      "date": "2017",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Burbidge, Burbidge, Fowler, and Hoyle 1957; LIGO/Virgo and Arcavi and coauthors 2017",
+  "as_of_date": "2017",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "position": "The 1957 review locates element synthesis in stars and their nuclear processes.",
+      "held_by": "Burbidge, Burbidge, Fowler, and Hoyle",
+      "source_url": "https://doi.org/10.1103/RevModPhys.29.547"
+    },
+    {
+      "position": "Neutron-star mergers are an observed site connected to heavy-element production; their share relative to other sites is not settled here.",
+      "held_by": "The 2017 gravitational-wave and kilonova papers, read together",
+      "source_url": "https://doi.org/10.1038/nature24291"
+    }
+  ],
+  "related": [
+    "world.science.gw150914",
+    "world.science.cosmic-microwave-background"
+  ]
+}

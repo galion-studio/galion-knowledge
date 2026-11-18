@@ -1,0 +1,892 @@
+[
+  {
+    "id": "world.arts.chauvet-cave-chronology",
+    "title": "Two periods of human activity in Chauvet cave",
+    "category": "arts",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 144,
+    "path": "v2/data/cards/world/arts/chauvet-cave-chronology.json"
+  },
+  {
+    "id": "world.arts.iliad-attributed-to-homer",
+    "title": "The Iliad is an epic attributed to Homer",
+    "category": "arts",
+    "claim_type": "contested",
+    "status": "partially_sourced",
+    "evidence_strength": "limited",
+    "words": 140,
+    "path": "v2/data/cards/world/arts/iliad-attributed-to-homer.json"
+  },
+  {
+    "id": "world.arts.shakespeare-first-folio-1623",
+    "title": "The 1623 First Folio, and one library's copies",
+    "category": "arts",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 111,
+    "path": "v2/data/cards/world/arts/shakespeare-first-folio-1623.json"
+  },
+  {
+    "id": "world.biology.action-potential-1952",
+    "title": "The Hodgkin-Huxley model of the nerve impulse",
+    "category": "biology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 125,
+    "path": "v2/data/cards/world/biology/action-potential-1952.json"
+  },
+  {
+    "id": "world.biology.atp-synthase-and-the-sodium-pump",
+    "title": "Two membrane enzymes honored in 1997",
+    "category": "biology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 122,
+    "path": "v2/data/cards/world/biology/atp-synthase-and-the-sodium-pump.json"
+  },
+  {
+    "id": "world.biology.central-dogma-1970",
+    "title": "What Crick's central dogma forbids",
+    "category": "biology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 140,
+    "path": "v2/data/cards/world/biology/central-dogma-1970.json"
+  },
+  {
+    "id": "world.biology.chemiosmotic-coupling-1961",
+    "title": "Mitchell's chemiosmotic coupling",
+    "category": "biology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 121,
+    "path": "v2/data/cards/world/biology/chemiosmotic-coupling-1961.json"
+  },
+  {
+    "id": "world.biology.crispr-cas9-2012",
+    "title": "How Cas9 cuts DNA under RNA guidance",
+    "category": "biology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 132,
+    "path": "v2/data/cards/world/biology/crispr-cas9-2012.json"
+  },
+  {
+    "id": "world.biology.dna-double-helix-1953",
+    "title": "The 1953 DNA structure papers",
+    "category": "biology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 121,
+    "path": "v2/data/cards/world/biology/dna-double-helix-1953.json"
+  },
+  {
+    "id": "world.biology.endosymbiosis-1967",
+    "title": "Eukaryotic cells from symbiotic microbes",
+    "category": "biology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 121,
+    "path": "v2/data/cards/world/biology/endosymbiosis-1967.json"
+  },
+  {
+    "id": "world.biology.mendelian-proportions-1908",
+    "title": "Mendelian inheritance does not by itself change allele frequencies",
+    "category": "biology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 114,
+    "path": "v2/data/cards/world/biology/mendelian-proportions-1908.json"
+  },
+  {
+    "id": "world.biology.natural-selection-1859",
+    "title": "Natural selection in the 1859 Origin of Species",
+    "category": "biology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 124,
+    "path": "v2/data/cards/world/biology/natural-selection-1859.json"
+  },
+  {
+    "id": "world.geography.glottolog-languages",
+    "title": "Glottolog is a catalogue of languages, not a headcount to memorize",
+    "category": "geography",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 115,
+    "path": "v2/data/cards/world/geography/glottolog-languages.json"
+  },
+  {
+    "id": "world.geography.greenwich-meridian-1884",
+    "title": "Greenwich became the common prime meridian by a vote",
+    "category": "geography",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 122,
+    "path": "v2/data/cards/world/geography/greenwich-meridian-1884.json"
+  },
+  {
+    "id": "world.geography.koppen-geiger-map-2007",
+    "title": "Köppen-Geiger is a classification, not a cause",
+    "category": "geography",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 121,
+    "path": "v2/data/cards/world/geography/koppen-geiger-map-2007.json"
+  },
+  {
+    "id": "world.geography.monsoon-processes",
+    "title": "Monsoons are seasonal reversals, and their forecast is limited",
+    "category": "geography",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 136,
+    "path": "v2/data/cards/world/geography/monsoon-processes.json"
+  },
+  {
+    "id": "world.geography.world-population-prospects",
+    "title": "A world population figure needs an edition",
+    "category": "geography",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 123,
+    "path": "v2/data/cards/world/geography/world-population-prospects.json"
+  },
+  {
+    "id": "world.history.agriculture-multiple-origins",
+    "title": "Farming began in more than one place",
+    "category": "history",
+    "claim_type": "interpretation",
+    "status": "sourced",
+    "evidence_strength": "moderate",
+    "words": 133,
+    "path": "v2/data/cards/world/history/agriculture-multiple-origins.json"
+  },
+  {
+    "id": "world.history.atlantic-slave-trade-estimates",
+    "title": "The trans-Atlantic slave trade is estimated, not enumerated person by person",
+    "category": "history",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 151,
+    "path": "v2/data/cards/world/history/atlantic-slave-trade-estimates.json"
+  },
+  {
+    "id": "world.history.black-death-pathogen",
+    "title": "Yersinia pestis in identified Black Death burials",
+    "category": "history",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 136,
+    "path": "v2/data/cards/world/history/black-death-pathogen.json"
+  },
+  {
+    "id": "world.history.first-world-war-responsibility",
+    "title": "Responsibility for 1914 is still argued",
+    "category": "history",
+    "claim_type": "contested",
+    "status": "sourced",
+    "evidence_strength": "disputed",
+    "words": 141,
+    "path": "v2/data/cards/world/history/first-world-war-responsibility.json"
+  },
+  {
+    "id": "world.history.haitian-independence-1804",
+    "title": "The Haitian declaration of 1 January 1804",
+    "category": "history",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 137,
+    "path": "v2/data/cards/world/history/haitian-independence-1804.json"
+  },
+  {
+    "id": "world.history.holocaust-victim-counts",
+    "title": "Holocaust death tolls are reconstructed, not read from one ledger",
+    "category": "history",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 146,
+    "path": "v2/data/cards/world/history/holocaust-victim-counts.json"
+  },
+  {
+    "id": "world.history.magna-carta-1215-1225",
+    "title": "Magna Carta is a set of medieval documents, not one slogan",
+    "category": "history",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 146,
+    "path": "v2/data/cards/world/history/magna-carta-1215-1225.json"
+  },
+  {
+    "id": "world.history.pericles-funeral-oration",
+    "title": "The funeral oration is Thucydides' speech, not a constitution",
+    "category": "history",
+    "claim_type": "interpretation",
+    "status": "sourced",
+    "evidence_strength": "moderate",
+    "words": 153,
+    "path": "v2/data/cards/world/history/pericles-funeral-oration.json"
+  },
+  {
+    "id": "world.history.rights-of-man-1789",
+    "title": "What the 1789 Declaration's first article says",
+    "category": "history",
+    "claim_type": "contested",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 144,
+    "path": "v2/data/cards/world/history/rights-of-man-1789.json"
+  },
+  {
+    "id": "world.history.scientific-revolutions-contested",
+    "title": "Whether science changes by revolutions is contested",
+    "category": "history",
+    "claim_type": "contested",
+    "status": "sourced",
+    "evidence_strength": "disputed",
+    "words": 134,
+    "path": "v2/data/cards/world/history/scientific-revolutions-contested.json"
+  },
+  {
+    "id": "world.law.cultural-relativist-objection-1947",
+    "title": "A 1947 anthropological objection to a universal rights list",
+    "category": "law",
+    "claim_type": "contested",
+    "status": "sourced",
+    "evidence_strength": "disputed",
+    "words": 148,
+    "path": "v2/data/cards/world/law/cultural-relativist-objection-1947.json"
+  },
+  {
+    "id": "world.law.geneva-civilians-1949",
+    "title": "The Fourth Geneva Convention protects civilians in war",
+    "category": "law",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 144,
+    "path": "v2/data/cards/world/law/geneva-civilians-1949.json"
+  },
+  {
+    "id": "world.law.habeas-corpus-clause",
+    "title": "The U.S. Constitution limits suspension of habeas corpus",
+    "category": "law",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 139,
+    "path": "v2/data/cards/world/law/habeas-corpus-clause.json"
+  },
+  {
+    "id": "world.law.icj-sources-of-law",
+    "title": "What the World Court is told to apply",
+    "category": "law",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 142,
+    "path": "v2/data/cards/world/law/icj-sources-of-law.json"
+  },
+  {
+    "id": "world.law.presumption-of-innocence",
+    "title": "The declaration's rule on guilt",
+    "category": "law",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 140,
+    "path": "v2/data/cards/world/law/presumption-of-innocence.json"
+  },
+  {
+    "id": "world.law.rule-of-law-two-accounts",
+    "title": "Two live meanings of the rule of law",
+    "category": "law",
+    "claim_type": "contested",
+    "status": "sourced",
+    "evidence_strength": "disputed",
+    "words": 153,
+    "path": "v2/data/cards/world/law/rule-of-law-two-accounts.json"
+  },
+  {
+    "id": "world.law.udhr-1948",
+    "title": "The Universal Declaration was proclaimed, article by article",
+    "category": "law",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 142,
+    "path": "v2/data/cards/world/law/udhr-1948.json"
+  },
+  {
+    "id": "world.mathematics.bayes-doctrine-of-chances",
+    "title": "Bayes's essay, published by Price",
+    "category": "mathematics",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 146,
+    "path": "v2/data/cards/world/mathematics/bayes-doctrine-of-chances.json"
+  },
+  {
+    "id": "world.mathematics.goedel-undecidability",
+    "title": "Gödel's 1931 incompleteness theorems",
+    "category": "mathematics",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 141,
+    "path": "v2/data/cards/world/mathematics/goedel-undecidability.json"
+  },
+  {
+    "id": "world.mathematics.noneuclidean-geometry",
+    "title": "The parallel postulate need not be kept",
+    "category": "mathematics",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 153,
+    "path": "v2/data/cards/world/mathematics/noneuclidean-geometry.json"
+  },
+  {
+    "id": "world.mathematics.plimpton-322-reassessment",
+    "title": "Plimpton 322 has more than one reading",
+    "category": "mathematics",
+    "claim_type": "contested",
+    "status": "sourced",
+    "evidence_strength": "disputed",
+    "words": 131,
+    "path": "v2/data/cards/world/mathematics/plimpton-322-reassessment.json"
+  },
+  {
+    "id": "world.mathematics.probability-interpretations",
+    "title": "The axioms of probability do not say what probability means",
+    "category": "mathematics",
+    "claim_type": "contested",
+    "status": "sourced",
+    "evidence_strength": "disputed",
+    "words": 124,
+    "path": "v2/data/cards/world/mathematics/probability-interpretations.json"
+  },
+  {
+    "id": "world.mathematics.riemann-hypothesis-open",
+    "title": "The Riemann hypothesis is unsolved",
+    "category": "mathematics",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 124,
+    "path": "v2/data/cards/world/mathematics/riemann-hypothesis-open.json"
+  },
+  {
+    "id": "world.mathematics.turing-computable-numbers",
+    "title": "Turing's 1937 model of calculation",
+    "category": "mathematics",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 150,
+    "path": "v2/data/cards/world/mathematics/turing-computable-numbers.json"
+  },
+  {
+    "id": "world.medicine.antimicrobial-resistance",
+    "title": "What antimicrobial resistance is",
+    "category": "medicine",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 127,
+    "path": "v2/data/cards/world/medicine/antimicrobial-resistance.json"
+  },
+  {
+    "id": "world.medicine.insulin-nobel-1923",
+    "title": "The 1923 Nobel Prize for the discovery of insulin",
+    "category": "medicine",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 124,
+    "path": "v2/data/cards/world/medicine/insulin-nobel-1923.json"
+  },
+  {
+    "id": "world.medicine.nucleoside-modified-rna-2005",
+    "title": "Nucleoside changes and innate recognition of RNA",
+    "category": "medicine",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 118,
+    "path": "v2/data/cards/world/medicine/nucleoside-modified-rna-2005.json"
+  },
+  {
+    "id": "world.medicine.penicillin-1929",
+    "title": "Fleming's 1929 report of a Penicillium antibacterial",
+    "category": "medicine",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 112,
+    "path": "v2/data/cards/world/medicine/penicillin-1929.json"
+  },
+  {
+    "id": "world.medicine.streptomycin-investigation-1948",
+    "title": "The 1948 MRC streptomycin report",
+    "category": "medicine",
+    "claim_type": "fact",
+    "status": "partially_sourced",
+    "evidence_strength": "moderate",
+    "words": 127,
+    "path": "v2/data/cards/world/medicine/streptomycin-investigation-1948.json"
+  },
+  {
+    "id": "world.medicine.who-health-definition",
+    "title": "The WHO Constitution's definition of health",
+    "category": "medicine",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 123,
+    "path": "v2/data/cards/world/medicine/who-health-definition.json"
+  },
+  {
+    "id": "world.nature.arrhenius-carbonic-acid-1896",
+    "title": "Arrhenius calculated how carbonic acid could warm the ground",
+    "category": "nature",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 129,
+    "path": "v2/data/cards/world/nature/arrhenius-carbonic-acid-1896.json"
+  },
+  {
+    "id": "world.nature.earth-energy-budget-2009",
+    "title": "The planetary energy budget in a 2009 update",
+    "category": "nature",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 154,
+    "path": "v2/data/cards/world/nature/earth-energy-budget-2009.json"
+  },
+  {
+    "id": "world.nature.human-domination-1997",
+    "title": "A 1997 estimate of human alteration of ecosystems",
+    "category": "nature",
+    "claim_type": "interpretation",
+    "status": "sourced",
+    "evidence_strength": "moderate",
+    "words": 149,
+    "path": "v2/data/cards/world/nature/human-domination-1997.json"
+  },
+  {
+    "id": "world.nature.keeling-co2-1960",
+    "title": "Keeling's early carbon dioxide measurements",
+    "category": "nature",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 119,
+    "path": "v2/data/cards/world/nature/keeling-co2-1960.json"
+  },
+  {
+    "id": "world.nature.ocean-carbon-and-ph",
+    "title": "Carbon dioxide emissions change ocean chemistry",
+    "category": "nature",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 125,
+    "path": "v2/data/cards/world/nature/ocean-carbon-and-ph.json"
+  },
+  {
+    "id": "world.nature.orbital-pacemaker-ice-ages",
+    "title": "Orbital periods in the ice-age record",
+    "category": "nature",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 143,
+    "path": "v2/data/cards/world/nature/orbital-pacemaker-ice-ages.json"
+  },
+  {
+    "id": "world.nature.ozone-chlorine-and-the-antarctic-loss",
+    "title": "Chlorofluoromethanes, chlorine, and Antarctic ozone",
+    "category": "nature",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 128,
+    "path": "v2/data/cards/world/nature/ozone-chlorine-and-the-antarctic-loss.json"
+  },
+  {
+    "id": "world.nature.seafloor-magnetic-stripes",
+    "title": "Magnetic anomalies over ocean ridges and moving plates",
+    "category": "nature",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 138,
+    "path": "v2/data/cards/world/nature/seafloor-magnetic-stripes.json"
+  },
+  {
+    "id": "world.nature.water-cycle",
+    "title": "How water moves through the Earth system",
+    "category": "nature",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 126,
+    "path": "v2/data/cards/world/nature/water-cycle.json"
+  },
+  {
+    "id": "world.philosophy.analects-and-confucius",
+    "title": "The Analects are sayings attributed to Confucius",
+    "category": "philosophy",
+    "claim_type": "interpretation",
+    "status": "sourced",
+    "evidence_strength": "moderate",
+    "words": 129,
+    "path": "v2/data/cards/world/philosophy/analects-and-confucius.json"
+  },
+  {
+    "id": "world.philosophy.aristotle-four-causes",
+    "title": "Aristotle's four causes are four kinds of explanation",
+    "category": "philosophy",
+    "claim_type": "interpretation",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 148,
+    "path": "v2/data/cards/world/philosophy/aristotle-four-causes.json"
+  },
+  {
+    "id": "world.philosophy.cartesian-doubt",
+    "title": "Descartes' method is doubt in the service of a foundation",
+    "category": "philosophy",
+    "claim_type": "interpretation",
+    "status": "sourced",
+    "evidence_strength": "moderate",
+    "words": 140,
+    "path": "v2/data/cards/world/philosophy/cartesian-doubt.json"
+  },
+  {
+    "id": "world.philosophy.four-noble-truths",
+    "title": "The four noble truths in one Pali sutta",
+    "category": "philosophy",
+    "claim_type": "interpretation",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 141,
+    "path": "v2/data/cards/world/philosophy/four-noble-truths.json"
+  },
+  {
+    "id": "world.philosophy.free-will-not-settled",
+    "title": "Free will: compatibilists and incompatibilists still disagree",
+    "category": "philosophy",
+    "claim_type": "contested",
+    "status": "sourced",
+    "evidence_strength": "disputed",
+    "words": 149,
+    "path": "v2/data/cards/world/philosophy/free-will-not-settled.json"
+  },
+  {
+    "id": "world.philosophy.hume-induction",
+    "title": "Hume's problem of induction",
+    "category": "philosophy",
+    "claim_type": "interpretation",
+    "status": "sourced",
+    "evidence_strength": "moderate",
+    "words": 145,
+    "path": "v2/data/cards/world/philosophy/hume-induction.json"
+  },
+  {
+    "id": "world.philosophy.kant-groundwork",
+    "title": "Kant's Groundwork grounds morality in duty",
+    "category": "philosophy",
+    "claim_type": "interpretation",
+    "status": "sourced",
+    "evidence_strength": "moderate",
+    "words": 135,
+    "path": "v2/data/cards/world/philosophy/kant-groundwork.json"
+  },
+  {
+    "id": "world.philosophy.popper-demarcation",
+    "title": "Popper's falsifiability is a proposed line around science",
+    "category": "philosophy",
+    "claim_type": "interpretation",
+    "status": "sourced",
+    "evidence_strength": "moderate",
+    "words": 137,
+    "path": "v2/data/cards/world/philosophy/popper-demarcation.json"
+  },
+  {
+    "id": "world.philosophy.virtue-ethics",
+    "title": "Virtue ethics asks what kind of person an act comes from",
+    "category": "philosophy",
+    "claim_type": "interpretation",
+    "status": "sourced",
+    "evidence_strength": "moderate",
+    "words": 144,
+    "path": "v2/data/cards/world/philosophy/virtue-ethics.json"
+  },
+  {
+    "id": "world.science.cosmic-microwave-background",
+    "title": "The microwave background: excess noise, then a blackbody spectrum",
+    "category": "science",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 144,
+    "path": "v2/data/cards/world/science/cosmic-microwave-background.json"
+  },
+  {
+    "id": "world.science.general-relativity-1916",
+    "title": "General relativity treats gravity as geometry",
+    "category": "science",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 124,
+    "path": "v2/data/cards/world/science/general-relativity-1916.json"
+  },
+  {
+    "id": "world.science.gw150914",
+    "title": "First direct detection of gravitational waves",
+    "category": "science",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 166,
+    "path": "v2/data/cards/world/science/gw150914.json"
+  },
+  {
+    "id": "world.science.higgs-2012",
+    "title": "ATLAS and CMS reported a new boson near 125 GeV",
+    "category": "science",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 129,
+    "path": "v2/data/cards/world/science/higgs-2012.json"
+  },
+  {
+    "id": "world.science.mass-energy-1905",
+    "title": "Inertia depends on energy content",
+    "category": "science",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 134,
+    "path": "v2/data/cards/world/science/mass-energy-1905.json"
+  },
+  {
+    "id": "world.science.neutrino-flavor-change",
+    "title": "Neutrino flavor change and a nonzero mass splitting",
+    "category": "science",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 145,
+    "path": "v2/data/cards/world/science/neutrino-flavor-change.json"
+  },
+  {
+    "id": "world.science.photoelectric-effect",
+    "title": "The photoelectric law and a laboratory measure of h",
+    "category": "science",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 113,
+    "path": "v2/data/cards/world/science/photoelectric-effect.json"
+  },
+  {
+    "id": "world.science.rutherford-nuclear-atom",
+    "title": "Alpha scattering and a concentrated nucleus",
+    "category": "science",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 123,
+    "path": "v2/data/cards/world/science/rutherford-nuclear-atom.json"
+  },
+  {
+    "id": "world.science.special-relativity-1905",
+    "title": "Einstein's 1905 postulates for moving bodies",
+    "category": "science",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 135,
+    "path": "v2/data/cards/world/science/special-relativity-1905.json"
+  },
+  {
+    "id": "world.science.speed-of-light-exact",
+    "title": "The speed of light in vacuum is an exact constant",
+    "category": "science",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 111,
+    "path": "v2/data/cards/world/science/speed-of-light-exact.json"
+  },
+  {
+    "id": "world.science.stellar-element-synthesis",
+    "title": "Elements are built in stars, and some sites are still open",
+    "category": "science",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 128,
+    "path": "v2/data/cards/world/science/stellar-element-synthesis.json"
+  },
+  {
+    "id": "world.science.uncertainty-principle",
+    "title": "Uncertainty relations are not one informal slogan",
+    "category": "science",
+    "claim_type": "contested",
+    "status": "sourced",
+    "evidence_strength": "disputed",
+    "words": 121,
+    "path": "v2/data/cards/world/science/uncertainty-principle.json"
+  },
+  {
+    "id": "world.society.bank-money-creation",
+    "title": "How the Bank of England says commercial-bank money is created",
+    "category": "society",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 148,
+    "path": "v2/data/cards/world/society/bank-money-creation.json"
+  },
+  {
+    "id": "world.society.demographic-transition-1996",
+    "title": "Kirk's statement of the demographic transition",
+    "category": "society",
+    "claim_type": "interpretation",
+    "status": "sourced",
+    "evidence_strength": "moderate",
+    "words": 147,
+    "path": "v2/data/cards/world/society/demographic-transition-1996.json"
+  },
+  {
+    "id": "world.society.public-goods-1954",
+    "title": "Samuelson's collective consumption goods",
+    "category": "society",
+    "claim_type": "interpretation",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 150,
+    "path": "v2/data/cards/world/society/public-goods-1954.json"
+  },
+  {
+    "id": "world.society.smith-division-of-labor",
+    "title": "Smith's pin factory is an illustration, with his own numbers",
+    "category": "society",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 165,
+    "path": "v2/data/cards/world/society/smith-division-of-labor.json"
+  },
+  {
+    "id": "world.society.us-gdp-what-bea-measures",
+    "title": "U.S. GDP measures the value of final output",
+    "category": "society",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 162,
+    "path": "v2/data/cards/world/society/us-gdp-what-bea-measures.json"
+  },
+  {
+    "id": "world.technology.berners-lee-proposal-1989",
+    "title": "The March 1989 information-management proposal",
+    "category": "technology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 131,
+    "path": "v2/data/cards/world/technology/berners-lee-proposal-1989.json"
+  },
+  {
+    "id": "world.technology.faraday-induction-1832",
+    "title": "Faraday's 1832 paper on experimental researches in electricity",
+    "category": "technology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 116,
+    "path": "v2/data/cards/world/technology/faraday-induction-1832.json"
+  },
+  {
+    "id": "world.technology.gps-needs-relativity",
+    "title": "GPS does not work if relativity is left out",
+    "category": "technology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 135,
+    "path": "v2/data/cards/world/technology/gps-needs-relativity.json"
+  },
+  {
+    "id": "world.technology.internetworking-1974",
+    "title": "Packet internetworking, then separate IP and TCP specifications",
+    "category": "technology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 132,
+    "path": "v2/data/cards/world/technology/internetworking-1974.json"
+  },
+  {
+    "id": "world.technology.jikji-metal-type-1377",
+    "title": "Jikji is extant evidence of metal movable type in 1377",
+    "category": "technology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 139,
+    "path": "v2/data/cards/world/technology/jikji-metal-type-1377.json"
+  },
+  {
+    "id": "world.technology.point-contact-transistor-1948",
+    "title": "The 1948 semiconductor triode and the 1956 prize",
+    "category": "technology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 131,
+    "path": "v2/data/cards/world/technology/point-contact-transistor-1948.json"
+  },
+  {
+    "id": "world.technology.shannon-communication-1948",
+    "title": "Shannon separated information from meaning",
+    "category": "technology",
+    "claim_type": "fact",
+    "status": "sourced",
+    "evidence_strength": "strong",
+    "words": 138,
+    "path": "v2/data/cards/world/technology/shannon-communication-1948.json"
+  }
+]

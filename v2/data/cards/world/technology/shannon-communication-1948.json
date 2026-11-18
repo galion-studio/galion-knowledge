@@ -1,0 +1,26 @@
+{
+  "id": "world.technology.shannon-communication-1948",
+  "title": "Shannon separated information from meaning",
+  "section": "world",
+  "category": "technology",
+  "body": "Claude E. Shannon's 1948 paper \"A Mathematical Theory of Communication,\" in the Bell System Technical Journal, defines a quantity for the information produced by a source. The measure depends on how uncertain the next message is, not on whether the message is important to a person. A rare message carries more information, in this sense, than a message the receiver already expects. Shannon entropy is that measure. The theory then asks how much of it can be sent through a noisy channel. Meaning, truth, and persuasion are outside the theory on purpose. A channel can carry a lie as efficiently as a fact. The paper is the foundation of digital communication engineering. It is not a theory of semantics, and using \"information\" in Shannon's sense and in the ordinary sense in the same sentence is a common confusion.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A Mathematical Theory of Communication",
+      "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+      "author": "C. E. Shannon",
+      "date": "1948",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Claude E. Shannon, Bell System Technical Journal, 1948",
+  "as_of_date": "1948",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.mathematics.turing-computable-numbers",
+    "world.technology.point-contact-transistor-1948"
+  ]
+}

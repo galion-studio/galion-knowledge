@@ -1,0 +1,26 @@
+{
+  "id": "world.medicine.penicillin-1929",
+  "title": "Fleming's 1929 report of a Penicillium antibacterial",
+  "section": "world",
+  "category": "medicine",
+  "body": "Alexander Fleming's 1929 paper, preserved as PMC2048009, reports the antibacterial action of cultures of a Penicillium mould, with special reference to isolating Bacillus influenzae. A contaminant mould on a culture plate inhibited bacteria around it. Fleming studied that effect and the filtrate of the mould. The paper is a laboratory observation and a bacteriological method. It is not a randomized trial in patients, and it is not the later industrial purification and clinical use of penicillin, which other people carried out in the following decade. Those later steps need their own sources. What this paper establishes is the observation that a Penicillium culture produced a substance that stopped some bacteria from growing.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to their Use in the Isolation of B. influenzae",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2048009/",
+      "author": "Alexander Fleming",
+      "date": "1929",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Alexander Fleming, 1929",
+  "as_of_date": "1929",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.medicine.streptomycin-investigation-1948",
+    "world.medicine.antimicrobial-resistance"
+  ]
+}

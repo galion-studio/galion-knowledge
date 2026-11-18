@@ -1,0 +1,40 @@
+{
+  "id": "world.technology.internetworking-1974",
+  "title": "Packet internetworking, then separate IP and TCP specifications",
+  "section": "world",
+  "category": "technology",
+  "body": "Vint Cerf and Robert Kahn's 1974 paper, \"A Protocol for Packet Network Intercommunication,\" describes how separate packet networks can pass traffic to each other. The hosts, not the networks in the middle, take responsibility for reliable end-to-end communication. That split is the design idea behind the later Internet protocols. RFC 791, edited by Jon Postel in September 1981 for DARPA, is the specification of the Internet Protocol, version 4. RFC 793, also 1981, is the Transmission Control Protocol. The 1974 paper is a design. The RFCs are the later standards. Both have been updated. RFC 791's own header notes later updates. The Internet people use is not identical to the 1974 paper or to the 1981 text, but those documents are the public origin of its addressing and its reliable byte stream.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A Protocol for Packet Network Intercommunication",
+      "url": "https://doi.org/10.1109/TCOM.1974.1092259",
+      "author": "V. Cerf and R. Kahn",
+      "date": "1974",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "RFC 791: Internet Protocol",
+      "url": "https://www.rfc-editor.org/rfc/rfc791",
+      "author": "J. Postel",
+      "date": "1981-09",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "RFC 793: Transmission Control Protocol",
+      "url": "https://www.rfc-editor.org/rfc/rfc793",
+      "author": "J. Postel",
+      "date": "1981-09",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Cerf and Kahn, 1974; Jon Postel, RFC 791 and RFC 793, 1981",
+  "as_of_date": "1981-09",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.technology.berners-lee-proposal-1989",
+    "world.technology.point-contact-transistor-1948"
+  ]
+}

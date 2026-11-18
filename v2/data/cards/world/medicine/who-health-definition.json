@@ -1,0 +1,37 @@
+{
+  "id": "world.medicine.who-health-definition",
+  "title": "The WHO Constitution's definition of health",
+  "section": "world",
+  "category": "medicine",
+  "body": "The Constitution of the World Health Organization states a definition that the WHO still quotes as a guiding principle: \"Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.\" The same statement of principles says the enjoyment of the highest attainable standard of health is a fundamental right of every human being without distinction of race. The definition is broader than \"not sick.\" It is also a normative sentence. \"Complete\" well-being is a standard almost no measured population meets all the time, so the sentence works as an aim of the organization, not as a diagnostic threshold a clinician can check off. This card quotes the constitution. It does not rank health systems.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the World Health Organization",
+      "url": "https://www.who.int/about/governance/constitution",
+      "author": "World Health Organization",
+      "date": "1946",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Constitution of the World Health Organization",
+  "as_of_date": "1946",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "position": "Health includes complete physical, mental, and social well-being, not only the absence of disease.",
+      "held_by": "WHO Constitution",
+      "source_url": "https://www.who.int/about/governance/constitution"
+    },
+    {
+      "position": "A definition that requires complete well-being is an aspiration rather than an operational diagnosis.",
+      "held_by": "A reading of the same sentence; this card does not cite a separate critic",
+      "source_url": "https://www.who.int/about/governance/constitution"
+    }
+  ],
+  "related": [
+    "world.medicine.antimicrobial-resistance",
+    "world.law.udhr-1948"
+  ]
+}

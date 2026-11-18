@@ -1,0 +1,32 @@
+{
+  "id": "world.medicine.streptomycin-investigation-1948",
+  "title": "The 1948 MRC streptomycin report",
+  "section": "world",
+  "category": "medicine",
+  "body": "In 1948 the British Medical Journal published \"Streptomycin Treatment of Pulmonary Tuberculosis: A Medical Research Council Investigation.\" The DOI and the PubMed Central record identify it as the Council's own report of its investigation of streptomycin in pulmonary tuberculosis. It is a primary clinical report, not a textbook summary. Secondary histories often call this study an early randomized controlled trial. That description of how patients were allocated is not quoted from the paper in this card, because the full text was not opened during source checking. The sourced claim stops at the document's identity: who issued it, where it appeared, when, and what the title says it investigates. Anyone using the study as a model of trial design should read the methods section rather than the reputation.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Streptomycin Treatment of Pulmonary Tuberculosis: A Medical Research Council Investigation",
+      "url": "https://doi.org/10.1136/bmj.2.4582.769",
+      "author": "Medical Research Council",
+      "date": "1948",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "PubMed Central copy of the 1948 MRC report",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2091872/",
+      "author": "Medical Research Council",
+      "date": "1948",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Medical Research Council, British Medical Journal, 1948",
+  "as_of_date": "1948",
+  "status": "partially_sourced",
+  "contested_views": [],
+  "related": [
+    "world.medicine.penicillin-1929"
+  ]
+}

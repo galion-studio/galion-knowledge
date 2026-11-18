@@ -1,0 +1,26 @@
+{
+  "id": "world.nature.water-cycle",
+  "title": "How water moves through the Earth system",
+  "section": "world",
+  "category": "nature",
+  "body": "The U.S. Geological Survey's Water Science School describes the water cycle as movement and change of phase, not as a single loop drawn for children. Water changes among liquid, solid, and gas. It moves between the atmosphere and the surface by evaporation, evapotranspiration, and precipitation. Condensation in the atmosphere produces the droplets and crystals that fall as precipitation. Across the surface, water moves by snowmelt, runoff, and streamflow. Into the ground, it moves by infiltration and groundwater recharge, and groundwater then flows. Circulation mixes the oceans and moves water vapor through the atmosphere. None of these steps creates or destroys water. They relocate it and change its phase. Local droughts and floods are redistributions and delays in this system, not disappearances of the global stock.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Water cycle",
+      "url": "https://www.usgs.gov/water-science-school/water-cycle",
+      "author": "U.S. Geological Survey",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey Water Science School",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.nature.earth-energy-budget-2009",
+    "world.geography.monsoon-processes"
+  ]
+}

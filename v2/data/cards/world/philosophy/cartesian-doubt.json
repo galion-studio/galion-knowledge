@@ -1,0 +1,32 @@
+{
+  "id": "world.philosophy.cartesian-doubt",
+  "title": "Descartes' method is doubt in the service of a foundation",
+  "section": "world",
+  "category": "philosophy",
+  "body": "René Descartes' Meditations, in Jonathan Bennett's modern-English rendering at Early Modern Texts and in the account given by the Stanford Encyclopedia entry on Descartes, begin by doubting whatever can be doubted. Senses sometimes deceive. Waking experience can be compared with dreams. A further skeptical hypothesis, a powerful deceiver, is used to pressure even mathematical beliefs. The point of the exercise, as Descartes sets it up, is not to stay in doubt. It is to find something that survives it and then rebuild knowledge from there. The cogito, the impossibility of doubting that one is thinking while one is doubting, is the hinge of that rebuild. Whether the later steps, including the proof of a non-deceiving God, succeed is disputed. Methodic doubt is a procedure in a book. It is not a recommendation to distrust every ordinary claim in daily life.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Meditations on First Philosophy (Bennett modern-English rendering)",
+      "url": "https://www.earlymoderntexts.com/assets/pdfs/descartes1641.pdf",
+      "author": "René Descartes, rendered by Jonathan Bennett",
+      "date": "1641",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Descartes",
+      "url": "https://plato.stanford.edu/entries/descartes/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "René Descartes, Meditations, 1641",
+  "as_of_date": "1641",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.philosophy.hume-induction"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world.technology.jikji-metal-type-1377",
+  "title": "Jikji is extant evidence of metal movable type in 1377",
+  "section": "world",
+  "category": "technology",
+  "body": "UNESCO's Memory of the World entry for Baegun hwasang chorok buljo jikji simche yojeol, the second volume of an anthology of Zen teachings, records a Korean book printed with movable metal type at Heungdeok-sa temple in Cheongju in July 1377. The entry, drawing on the nomination, calls it the oldest extant book printed with movable metal type. The first volume is missing. The surviving volume is held at the Bibliothèque nationale de France. The book is a religious anthology compiled by the monk Baegun, not a technical manual about printing. \"Oldest extant\" means the oldest surviving example, not a proof that nothing earlier was ever printed and then lost. The nomination itself notes earlier metal-type printing mentioned in Korean books. Surviving evidence and first invention are different claims. This card uses the surviving book and the UNESCO registration.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Baegun hwasang chorok buljo jikji simche yojeol (vol. II), Memory of the World",
+      "url": "https://www.unesco.org/en/memory-world/baegun-hwasang-chorok-buljo-jikji-simche-yojeol-volii-second-volume-anthology-great-buddhist-priests",
+      "author": "UNESCO Memory of the World",
+      "date": "2001",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Memory of the World nomination form for Jikji",
+      "url": "https://media.unesco.org/sites/default/files/webform/mow001/korea_buljo_jikj_simch_yo_jeol.pdf",
+      "author": "Republic of Korea nomination to UNESCO",
+      "date": "2000",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "UNESCO Memory of the World register, nomination by the Republic of Korea",
+  "as_of_date": "1377",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.arts.chauvet-cave-chronology"
+  ]
+}

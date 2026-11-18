@@ -1,0 +1,26 @@
+{
+  "id": "world.law.presumption-of-innocence",
+  "title": "The declaration's rule on guilt",
+  "section": "world",
+  "category": "law",
+  "body": "Article 11 of the Universal Declaration of Human Rights says: \"Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence.\" The next sentence says no one shall be held guilty for an act that was not an offence under national or international law when it was committed, and it forbids a heavier penalty than the one applicable at the time. The article is a standard the General Assembly proclaimed in 1948. It is not, by itself, a criminal code. How a particular court applies the presumption depends on that court's procedure. The text states the right and the conditions it names: proof according to law, a public trial, and the guarantees necessary for the defence.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Universal Declaration of Human Rights",
+      "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+      "author": "United Nations General Assembly",
+      "date": "1948-12-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Universal Declaration of Human Rights, Article 11",
+  "as_of_date": "1948-12-10",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.law.udhr-1948",
+    "world.law.habeas-corpus-clause"
+  ]
+}

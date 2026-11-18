@@ -1,0 +1,43 @@
+{
+  "id": "world.science.uncertainty-principle",
+  "title": "Uncertainty relations are not one informal slogan",
+  "section": "world",
+  "category": "science",
+  "body": "Werner Heisenberg's 1927 paper \"Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik\" is the original presentation of the uncertainty principle. The Stanford Encyclopedia entry on the uncertainty principle separates the formal relations, which limit how sharply certain pairs of quantities are defined together in a quantum state, from the informal story that a measurement must disturb the system. That informal story is not the same claim as the theorem about spreads in a state, and the entry treats its status as controversial. The mathematics of the relations is standard quantum mechanics. What the relations mean for a single measurement is not settled by the popular disturbance slogan. This card follows the encyclopedia's distinction and does not restate a particular inequality.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik",
+      "url": "https://doi.org/10.1007/BF01397280",
+      "author": "Werner Heisenberg",
+      "date": "1927",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Uncertainty Principle",
+      "url": "https://plato.stanford.edu/entries/qt-uncertainty/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "disputed",
+  "said_by": "Heisenberg 1927; interpretive survey in the Stanford Encyclopedia",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "position": "The uncertainty principle is a theorem about the spread of values in a quantum state.",
+      "held_by": "Formal quantum mechanics, as distinguished in the Stanford Encyclopedia entry",
+      "source_url": "https://plato.stanford.edu/entries/qt-uncertainty/"
+    },
+    {
+      "position": "The principle means that measuring one quantity necessarily disturbs the other.",
+      "held_by": "A common informal reading that the same entry treats as controversial",
+      "source_url": "https://plato.stanford.edu/entries/qt-uncertainty/"
+    }
+  ],
+  "related": [
+    "world.science.photoelectric-effect"
+  ]
+}

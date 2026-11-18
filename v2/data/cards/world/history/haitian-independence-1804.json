@@ -1,0 +1,26 @@
+{
+  "id": "world.history.haitian-independence-1804",
+  "title": "The Haitian declaration of 1 January 1804",
+  "section": "world",
+  "category": "history",
+  "body": "Haiti's declaration of independence is dated 1 January 1804 at Gonaïves. Duke University publishes an English translation by Laurent Dubois and John Garrigus of the printed text associated with Jean-Jacques Dessalines and the generals of the indigenous army. The declaration's act is a renunciation of France and an assertion of independence, summed up in the line that the hearers must live independent or die. It comes out of the only successful revolt of enslaved people that founded a state. The French revolutionary declaration of 1789 spoke of the rights of man; the 1804 document records people to whom those rights had not been extended taking independence by war. A translation is not the French or Creole original. The Duke page is a scholarly English text of a document whose printed copy was identified in British archives.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Haitian Declaration of Independence, English translation",
+      "url": "https://today.duke.edu/showcase/haitideclaration/declarationstext.html",
+      "author": "Translation by Laurent Dubois and John Garrigus; document of Jean-Jacques Dessalines and the generals, 1804",
+      "date": "1804-01-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Declaration of 1 January 1804, Dessalines and the generals; English translation by Dubois and Garrigus",
+  "as_of_date": "1804-01-01",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.rights-of-man-1789",
+    "world.history.atlantic-slave-trade-estimates"
+  ]
+}

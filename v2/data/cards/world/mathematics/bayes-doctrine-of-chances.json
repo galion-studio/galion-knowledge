@@ -1,0 +1,26 @@
+{
+  "id": "world.mathematics.bayes-doctrine-of-chances",
+  "title": "Bayes's essay, published by Price",
+  "section": "world",
+  "category": "mathematics",
+  "body": "\"An essay towards solving a problem in the doctrine of chances\" was published in the Philosophical Transactions of the Royal Society in 1763. The author is the late Rev. Thomas Bayes. Richard Price communicated the essay in a letter to John Canton. Bayes was dead; the published paper includes Price's editorial hand. The problem is how to reason from an observed event back toward the chance of the conditions that could have produced it. Later writers turned this approach into a general rule for updating probabilities in the light of evidence, now called Bayes' theorem. The 1763 essay is not that later textbook formula copied out in full generality, and it is not a philosophy of science by itself. It is a specific essay in the doctrine of chances, with a known editor. Attributing a modern statistical slogan to Bayes without the essay overstates the source.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "An essay towards solving a problem in the doctrine of chances",
+      "url": "https://doi.org/10.1098/rstl.1763.0053",
+      "author": "Thomas Bayes, communicated by Richard Price",
+      "date": "1763",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Thomas Bayes, communicated by Richard Price, Philosophical Transactions, 1763",
+  "as_of_date": "1763",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.mathematics.probability-interpretations",
+    "world.philosophy.hume-induction"
+  ]
+}
