@@ -22,6 +22,7 @@ mod card;
 mod embed;
 mod error;
 mod rrf;
+mod scale;
 mod session;
 mod store;
 mod text;
@@ -29,6 +30,7 @@ mod text;
 pub use card::{parse_cards, Card, Source};
 pub use embed::{simd_lane, HashingEmbedder, EMB_DIM};
 pub use error::{Error, Result};
+pub use scale::{rss_bytes, ScaleIndex, ScaleReport, ShardManifest, CATEGORIES};
 pub use session::{SessionRing, Turn};
 pub use store::{
     ArchivedRow, DiaryEntry, Hit, IngestReport, SearchResponse, Store, LAYER_DIARY, LAYER_EPISODE,

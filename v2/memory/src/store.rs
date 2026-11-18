@@ -441,7 +441,8 @@ impl Store {
         let lexical = self.lexical_ids(query)?;
         let dense = self.dense_ids(query);
         let ring_lex = self.ring_lexical_ids(query);
-        let fused = fuse(&[lexical, dense, ring_lex], RRF_K);
+        // The lexical list is counted twice so a rare exact term beats a tied vector neighbor.
+        let fused = fuse(&[lexical.clone(), lexical, dense, ring_lex], RRF_K);
         let mut hits = Vec::with_capacity(MAX_HITS);
         for (id, score) in fused.into_iter().take(MAX_HITS) {
             if let Some(hit) = self.hydrate(&id, score)? {
@@ -618,59 +619,7 @@ impl Store {
     /// Keep the rare terms. A term in more than 1/50 of a large diary is
     /// dropped: its IDF is too small to be worth a full postings scan.
     fn planned_match(&self, query: &str) -> Result<Option<String>> {
-        let mut terms: Vec<String> = index_tokens(query);
-        terms.sort();
-        terms.dedup();
-        if terms.is_empty() {
-            return Ok(None);
-        }
-        let n = self.arena.len() as i64;
-        let cap = df_cap(n);
-        let mut ranked: Vec<(i64, String)> = Vec::new();
-        for term in terms {
-            if is_stopword(&term) {
-                continue;
-            }
-            let df = self.doc_freq(&term)?;
-            if df == 0 || (cap > 0 && df > cap) {
-                continue;
-            }
-            ranked.push((df, term));
-        }
-        ranked.sort_by(|a, b| a.0.cmp(&b.0).then_with(|| a.1.cmp(&b.1)));
-        let mut kept = Vec::new();
-        let mut budget = if cap == 0 { i64::MAX } else { cap };
-        for (df, term) in ranked {
-            if !kept.is_empty() && df > budget {
-                break;
-            }
-            budget = budget.saturating_sub(df);
-            kept.push(term);
-            if kept.len() == MAX_LEXICAL_TERMS {
-                break;
-            }
-        }
-        if kept.is_empty() {
-            return Ok(None);
-        }
-        Ok(Some(
-            kept.into_iter()
-                .map(|t| format!("\"{t}\""))
-                .collect::<Vec<_>>()
-                .join(" OR "),
-        ))
-    }
-
-    fn doc_freq(&self, term: &str) -> Result<i64> {
-        let df = self
-            .conn
-            .query_row(
-                "SELECT doc FROM items_fts_vocab WHERE term = ?1",
-                params![term],
-                |row| row.get(0),
-            )
-            .optional()?;
-        Ok(df.unwrap_or(0))
+        match_query(&self.conn, self.arena.len() as i64, query)
     }
 
     fn dense_ids(&self, query: &str) -> Vec<String> {
@@ -907,8 +856,64 @@ fn fts_field(raw: &str) -> String {
     index_tokens(raw).join(" ")
 }
 
+/// Keep the rare terms. A term in more than 1/50 of a large diary is
+/// dropped: its IDF is too small to be worth a full postings scan.
+pub(crate) fn match_query(conn: &Connection, n_docs: i64, query: &str) -> Result<Option<String>> {
+    let mut terms: Vec<String> = index_tokens(query);
+    terms.sort();
+    terms.dedup();
+    if terms.is_empty() {
+        return Ok(None);
+    }
+    let cap = df_cap(n_docs);
+    let mut ranked: Vec<(i64, String)> = Vec::new();
+    for term in terms {
+        if is_stopword(&term) {
+            continue;
+        }
+        let df = doc_freq_on(conn, &term)?;
+        if df == 0 || (cap > 0 && df > cap) {
+            continue;
+        }
+        ranked.push((df, term));
+    }
+    ranked.sort_by(|a, b| a.0.cmp(&b.0).then_with(|| a.1.cmp(&b.1)));
+    let mut kept = Vec::new();
+    let mut budget = if cap == 0 { i64::MAX } else { cap };
+    for (df, term) in ranked {
+        if !kept.is_empty() && df > budget {
+            break;
+        }
+        budget = budget.saturating_sub(df);
+        kept.push(term);
+        if kept.len() == MAX_LEXICAL_TERMS {
+            break;
+        }
+    }
+    if kept.is_empty() {
+        return Ok(None);
+    }
+    Ok(Some(
+        kept.into_iter()
+            .map(|t| format!("\"{t}\""))
+            .collect::<Vec<_>>()
+            .join(" OR "),
+    ))
+}
+
+pub(crate) fn doc_freq_on(conn: &Connection, term: &str) -> Result<i64> {
+    let df = conn
+        .query_row(
+            "SELECT doc FROM items_fts_vocab WHERE term = ?1",
+            params![term],
+            |row| row.get(0),
+        )
+        .optional()?;
+    Ok(df.unwrap_or(0))
+}
+
 /// `0` means "do not drop terms for frequency" (a tiny diary).
-fn df_cap(n: i64) -> i64 {
+pub(crate) fn df_cap(n: i64) -> i64 {
     if n < DF_PLAN_MIN_ROWS {
         0
     } else {

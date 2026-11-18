@@ -116,6 +116,38 @@ The 5 ms p95 target holds on this machine for a rare token through 100,005 rows 
 
 Debug `cargo test` is not this table. Debug is slower, and the tests do not assert a millisecond budget.
 
+## Scale plan
+
+The single SQLite file above is the diary. A corpus of millions of cards uses a second layout, `ScaleIndex`, measured with `horbm-memory scale-bench`. It keeps the same hit rule: at most four hits, and every hit still carries `source`, `date`, and `said_by`. Archive-never-delete and consent-by-use are unchanged. Shards are not edited in place.
+
+The layout follows two published designs. A tiered inverted index searches a small high-quality tier before the rest of the shards, drops postings that cannot enter the top of the list, and caches a repeated query. Cloudflare Vectorize clusters vectors (IVF), stores product-quantized codes, and rescores the short list at full precision. Cloudflare AI Search fuses BM25 and vectors with reciprocal rank fusion, which this crate already does.
+
+1. **Core pack.** Cards with `claim_type = fact` or `evidence_strength = strong` go into `core.sqlite`. That file stays open and is searched on every query, before any shard. In the 1,000,005-row run this was 5,003 cards.
+2. **Shards.** Other cards are split by `section` and `category` into separate SQLite FTS5 files. The 1,000,005-row run made 13 files: the 12 world categories plus one HORBM category that held the non-fact fixtures. A rare term (document frequency 1) is recorded in a lexicon that names its shard. A query with such a term opens that shard. A query with no rare term is routed by shard centroid to the nearest 3 shards, searched on parallel threads. Tantivy was not used. FTS5 with the frequency cap and `ORDER BY rank LIMIT 32` is enough at this size, and it keeps one stack.
+3. **Dense leg.** Each shard builds an IVF index (64 clusters, 4 probed) and 16-byte product-quantization codes (16 subspaces, 16 centroids each). The short list is rescored with the stored int8 vector. `faiss` was not linked: its Rust bindings need the C++ library. `hora` has IVF-PQ and is unmaintained, with its own index format. The codes here are the int8 vectors this crate already stores, so the clustering and the product quantization sit on that space and the refine step is the existing cosine.
+4. **Cache.** An LRU of 128 queries. A repeated query does not touch FTS or the shards.
+5. **On device, design only.** `manifest.json` is schema `galion-shard-manifest/1`. It is versioned and marked immutable. It names the core pack and each shard with a sha256 and a byte size. A device keeps the core pack and the shards the person chose. Any other shard is only a manifest row, to be fetched from the Galion open network by that hash. This crate does not fetch it. A correction publishes a new manifest. It does not rewrite a shard file.
+
+### Measured at 1,000,005 rows
+
+`horbm-memory scale-bench --n 1000000 --queries 40`, release build, 2026-11-18. Intel Xeon, 4 logical CPUs, AVX2. The corpus is 5 fixture cards plus 1,000,000 generated cards. Cold queries clear the LRU before each call. `selective` is `m{i}`. `broad` is `sample`, which is in every generated card. p95 of 40 queries is the 95th percentile of those 40 samples. The spot check returned `sample-0` with `said_by` Galion Labs, date `2026-11-18`, and the benchmark source URL.
+
+| | p50 | p95 |
+|---|---:|---:|
+| Selective, cold | 1,859 µs | 2,230 µs |
+| Broad, cold | 4,661 µs | 4,908 µs |
+| Broad, cached repeat | <1 µs | <1 µs |
+
+The cached figure is 0 µs from a clock that counts whole microseconds, so the hit was below 1 µs. Resident set size after the run: 308,822,016 bytes (294.5 MiB). Disk for the directory, including the manifest: 1,067,885,069 bytes (0.995 GiB).
+
+### Projection for 100,000,000 rows
+
+This projection is not a measurement. It scales the 1,000,005-row run and states the assumptions.
+
+- **Disk.** Measured bytes per row are 1,067,885,069 / 1,000,005 = 1,067.88. The same short card, the same SQLite overhead, and 100,000,000 rows give 1,067.88 × 100,000,000 = 106,787,972,960 bytes, 99.45 GiB.
+- **Latency.** A query in this design touches the fixed core pack and at most 3 shards, not the whole corpus. Holding a shard near the measured size (about 80,000 cards) means about 1,200 shards at 100 million cards. Picking 3 of them is a lexicon lookup or a centroid pass over those 1,200 centroids, which is a fraction of a millisecond at the measured per-vector rate, plus a shard search like the one already timed. Under that shard-size cap, a cold query stays on the order of the measured 2–5 ms. It does not grow 100×. That is an argument from the routing, not a run.
+- **RAM.** The measured 294.5 MiB is mostly the rare-term lexicon (one unique marker per generated card) plus the PQ codes, not a full copy of every int8 vector. PQ codes are 16 bytes a row, so 100 million rows are 1.6 GB if every code stays resident. A lexicon with one unique string per card would be on the order of 10 GB and is the wrong shape for a real corpus. A production lexicon keeps terms that are rare across cards, or it lives on disk. The core pack stays a fixed tier, not 1% of 100 million, unless someone chooses a larger tier.
+
 ## Open questions
 
 1. **S1 schema.** `v2/data/SCHEMA.md` was not published when this parser was written. If S1 renames a required field, ingest needs a matching change. Unknown keys are already ignored.

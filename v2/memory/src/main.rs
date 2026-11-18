@@ -5,7 +5,9 @@ use std::env;
 use std::path::PathBuf;
 use std::process::ExitCode;
 
-use horbm_memory::{parse_cards, simd_lane, Card, Store, EMB_DIM};
+use horbm_memory::{
+    parse_cards, rss_bytes, simd_lane, Card, ScaleIndex, Store, CATEGORIES, EMB_DIM,
+};
 
 fn main() -> ExitCode {
     match run() {
@@ -99,6 +101,20 @@ fn run() -> Result<(), String> {
                 println!("{{\"archived\":\"{id}\"}}");
             }
         }
+        "scale-bench" => {
+            let n = flag_or(&args, "--n", "1000000")
+                .parse::<usize>()
+                .map_err(|_| "--n must be a number")?;
+            let queries = flag_or(&args, "--queries", "40")
+                .parse::<usize>()
+                .map_err(|_| "--queries must be a number")?;
+            let dir = PathBuf::from(flag_or(&args, "--dir", "/tmp/horbm-scale"));
+            let report = scale_bench(&dir, n, queries).map_err(|e| e.to_string())?;
+            println!(
+                "{}",
+                serde_json::to_string_pretty(&report).map_err(|e| e.to_string())?
+            );
+        }
         "bench" => {
             let n = flag_or(&args, "--n", "2000")
                 .parse::<usize>()
@@ -173,6 +189,114 @@ fn bench(store: &mut Store, n: usize, queries: usize) -> Result<serde_json::Valu
         "logical_cpus": cpus,
         "note": "Store::search microseconds on this process. selective queries use one rare token (m{i}, or bm25 when n is 0). broad repeats one token present in every generated card (sample), or the word the when n is 0. Generated cards are synthetic, not the knowledge pack."
     }))
+}
+
+fn scale_bench(
+    dir: &std::path::Path,
+    n: usize,
+    queries: usize,
+) -> Result<serde_json::Value, String> {
+    let fixtures = fixture_cards().map_err(|e| e.to_string())?;
+    let rows = fixtures.len() + n;
+    let mut index = ScaleIndex::build(dir, fixtures.into_iter().chain((0..n).map(scale_card)))
+        .map_err(|e| e.to_string())?;
+    let mut selective_us = Vec::with_capacity(queries);
+    for i in 0..queries {
+        index.clear_cache();
+        let response = index
+            .search(&selective_query(n, i))
+            .map_err(|e| e.to_string())?;
+        selective_us.push(response.took_us as u64);
+    }
+    let mut broad_us = Vec::with_capacity(queries);
+    for _ in 0..queries {
+        index.clear_cache();
+        let response = index.search("sample").map_err(|e| e.to_string())?;
+        broad_us.push(response.took_us as u64);
+    }
+    index.clear_cache();
+    let _ = index.search("sample").map_err(|e| e.to_string())?;
+    let mut cached_us = Vec::with_capacity(queries);
+    for _ in 0..queries {
+        let response = index.search("sample").map_err(|e| e.to_string())?;
+        cached_us.push(response.took_us as u64);
+    }
+    let spot = index.search_cold("m0").map_err(|e| e.to_string())?;
+    let manifest = index.manifest().map_err(|e| e.to_string())?;
+    Ok(serde_json::json!({
+        "rows": rows,
+        "core_rows": index.core_rows(),
+        "shard_count": manifest.shards.len(),
+        "queries": queries,
+        "selective": series_stats(&mut selective_us, &selective_query(n, 0)),
+        "broad": series_stats(&mut broad_us, "sample"),
+        "broad_cached": series_stats(&mut cached_us, "sample"),
+        "rss_bytes": rss_bytes(),
+        "disk_bytes": index.disk_bytes().map_err(|e| e.to_string())?,
+        "spot_top_id": spot.hits.first().map(|h| h.item_id.clone()),
+        "spot_said_by": spot.hits.first().map(|h| h.said_by.clone()),
+        "spot_date": spot.hits.first().map(|h| h.date.clone()),
+        "spot_source": spot.hits.first().map(|h| h.source.clone()),
+        "manifest_schema": manifest.schema,
+        "manifest_immutable": manifest.immutable,
+        "note": "Cold selective and broad searches clear the LRU before each query. broad_cached repeats one query. rows includes the fixture cards plus --n generated cards."
+    }))
+}
+
+fn fixture_cards() -> Result<Vec<Card>, horbm_memory::Error> {
+    let dir = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("fixtures");
+    let mut cards = Vec::new();
+    let mut files = Vec::new();
+    collect_json(&dir, &mut files).map_err(horbm_memory::Error::Io)?;
+    for path in files {
+        let raw = std::fs::read_to_string(&path)?;
+        let value: serde_json::Value = serde_json::from_str(&raw)?;
+        cards.extend(parse_cards(&value, &path.to_string_lossy())?);
+    }
+    Ok(cards)
+}
+
+fn collect_json(dir: &std::path::Path, out: &mut Vec<PathBuf>) -> std::io::Result<()> {
+    if !dir.is_dir() {
+        return Ok(());
+    }
+    for entry in std::fs::read_dir(dir)? {
+        let path = entry?.path();
+        if path.is_dir() {
+            collect_json(&path, out)?;
+        } else if path.extension().and_then(|e| e.to_str()) == Some("json") {
+            out.push(path);
+        }
+    }
+    Ok(())
+}
+
+fn scale_card(i: usize) -> Card {
+    let category = CATEGORIES[i % CATEGORIES.len()];
+    let fact = i % 200 == 0;
+    let raw = serde_json::json!({
+        "id": format!("sample-{i}"),
+        "title": format!("Sample {i} {category}"),
+        "section": "world",
+        "category": category,
+        "summary": format!("Synthetic sample {i} about {category}. marker m{i}."),
+        "body": format!("This generated card {i} exists so the benchmark has a corpus. Topic {category}. marker m{i}."),
+        "claim_type": if fact { "fact" } else { "opinion" },
+        "evidence_strength": if fact { "strong" } else { "none" },
+        "sources": [{
+            "title": "horbm-memory benchmark fixture",
+            "url": "https://github.com/galion-studio/galion-knowledge",
+            "author": "Galion Labs",
+            "date": "2026-11-18"
+        }],
+        "said_by": "Galion Labs",
+        "as_of_date": "2026-11-18",
+        "status": "draft"
+    });
+    parse_cards(&raw, "bench/sample.json")
+        .expect("sample card")
+        .pop()
+        .expect("one card")
 }
 
 fn selective_query(n: usize, i: usize) -> String {
@@ -306,6 +430,7 @@ horbm-memory — HORBM diary and memory
   horbm-memory [--db PATH] forget --id ID
   horbm-memory [--db PATH] forget --mark --id ID
   horbm-memory [--db PATH] bench [--n N] [--queries N]
+  horbm-memory scale-bench [--n N] [--queries N] [--dir PATH]
 
 Default database: ./horbm-memory.sqlite
 Search returns at most 4 hits. Each hit has said_by, date, and source.
