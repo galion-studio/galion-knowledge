@@ -374,7 +374,8 @@ fn measured_corpus_at_the_target_size() {
 /// `version` on `v2/shards/manifest.json` is a different number: the
 /// publication count of this catalog. Publication 1 covered the first core
 /// digests. Publication 2 is the digest PR #13 recorded after the core pack
-/// grew. The version is looked up from the bundle, not copied back out of
+/// grew. Publication 3 is the digest after the history and religion cards
+/// joined that pack. The version is looked up from the bundle, not copied back out of
 /// the manifest, and it is not the schema's trailing 1.
 struct CorePublication {
     version: &'static str,
@@ -401,6 +402,12 @@ const CORE_PUBLICATIONS: &[CorePublication] = &[
         sha256: "08fe16e5e619fc34eec824312cd6efb38f1e57cf8b4b747b601a717b8ebe528e",
         bytes: 1_590_111,
         cards: 778,
+    },
+    CorePublication {
+        version: "3",
+        sha256: "2a625fc33126adbefbadba0aba32471a597374b367ad0c6840d345927df91a26",
+        bytes: 2_016_490,
+        cards: 1013,
     },
 ];
 
