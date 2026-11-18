@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.sa-article-7",
+  "title": "The Saudi Basic Law says the Qur'an and the Sunnah rule over all other state laws",
+  "section": "world",
+  "category": "law",
+  "summary": "The Saudi Basic Law says the Qur'an and the Sunnah rule over all other state laws.",
+  "body": "Article 7 says the regime derives its power from the Holy Qur'an and the Prophet's Sunnah, which rule over the Basic Law and all other state laws. The source says: \"Status of religious law Article 7 The regime derives its power from the Holy Qur'an and the Prophet's Sunnah which rule over this and all other State Laws.\" That is a supremacy sentence inside the Basic Law. It is the document's rule, not a case report.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Basic Law of Saudi Arabia, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Saudi_Arabia_2013?lang=en",
+      "author": "Basic Law of Saudi Arabia, Constitute Project English text",
+      "date": "2013",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Basic Law of Saudi Arabia, Article 7",
+  "as_of_date": "2013",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.sa-property",
+    "world.core.power.sa-shoura",
+    "world.core.power.sa-resources"
+  ],
+  "tags": [
+    "law",
+    "saudi-arabia",
+    "religion"
+  ]
+}

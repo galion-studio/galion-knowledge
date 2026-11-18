@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.no-no-confidence",
+  "title": "Norway's constitution binds the King to grant a resignation after a Storting vote of no confidence",
+  "section": "world",
+  "category": "law",
+  "summary": "Norway's constitution binds the King to grant a resignation after a Storting vote of no confidence.",
+  "body": "Article 15 says any person who holds a seat in the Council of State must submit a resignation once the Storting has passed a vote of no confidence against that member or against the Council as a whole, and that the King is bound to grant the resignation. The source says: \"orting has passed a vote of no confidence against that Member of the Council of State or against the Council of State as a whole.\" The text states a duty to resign and a duty on the King to accept it. It is the written rule, not a count of how often the vote is used.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Norway, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Norway_2014?lang=en",
+      "author": "Constitution of Norway, Constitute Project English text",
+      "date": "2014",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Norway, Article 15",
+  "as_of_date": "2014",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.no-king-religion",
+    "world.core.power.no-monarchy",
+    "world.core.power.no-rule-of-law"
+  ],
+  "tags": [
+    "law",
+    "norway",
+    "parliament"
+  ]
+}

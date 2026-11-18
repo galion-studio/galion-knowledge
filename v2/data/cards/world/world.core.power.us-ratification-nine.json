@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-ratification-nine",
+  "title": "The 1787 text said ratification by nine states would establish the Constitution among them",
+  "section": "world",
+  "category": "law",
+  "summary": "The 1787 text said ratification by nine states would establish the Constitution among them.",
+  "body": "Article VII says ratification by conventions of nine states is sufficient to establish the Constitution between the states so ratifying. The source says: \"The Ratification of the Conventions of nine States, shall be sufficient for the Establishment of this Constitution between the States so ratifying the Same.\" That is an enactment rule for the 1787 document. It is not the rule for later amendments.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Constitution (1787 text, National Archives transcription)",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "ratification"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world.core.tech.rfc2119-may",
+  "title": "In IETF usage, MAY marks an item as truly optional",
+  "section": "world",
+  "category": "technology",
+  "summary": "In IETF usage, MAY marks an item as truly optional.",
+  "body": "RFC 2119 defines MAY, and OPTIONAL, to mean that an item is truly optional. One implementation may include it and another may omit it. An implementation that omits the option must still interoperate with one that includes it, apart from the feature the option provides. The source says: \"MAY This word, or the adjective \"OPTIONAL\", mean that an item is truly optional.\" Optional does not mean 'ignored by the other side.' The interoperability sentence is part of the definition.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 2119",
+      "url": "https://www.rfc-editor.org/rfc/rfc2119",
+      "author": "S. Bradner",
+      "date": "1997-03",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Scott Bradner, RFC 2119",
+  "as_of_date": "1997-03",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.rfc2119-should",
+    "world.core.tech.rfc2119-must"
+  ],
+  "tags": [
+    "technology",
+    "standards",
+    "ietf"
+  ]
+}

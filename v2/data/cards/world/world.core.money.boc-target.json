@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.boc-target",
+  "title": "The Bank of Canada aims at the 2 percent midpoint of a 1 to 3 percent CPI range",
+  "section": "world",
+  "category": "economics",
+  "summary": "The Bank of Canada aims at the 2 percent midpoint of a 1 to 3 percent CPI range.",
+  "body": "The Bank of Canada says it aims to keep inflation at the 2 percent midpoint of a target range of 1 to 3 percent, expressed as the year-over-year increase in the total consumer price index. The source says: \"Measures of inflation The Bank of Canada aims to keep inflation at the 2 per cent midpoint of an inflation-control target range of 1 to 3 per cent.\" The operational target is a midpoint inside a range, on the CPI. It is not the ECB's HICP target and not the Fed's PCE target.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Inflation, Bank of Canada",
+      "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/inflation/",
+      "author": "Bank of Canada",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Bank of Canada",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.riksbank-cpif",
+    "world.core.money.fomc-two-percent",
+    "world.core.money.snb-strategy"
+  ],
+  "tags": [
+    "economics",
+    "inflation",
+    "canada"
+  ]
+}

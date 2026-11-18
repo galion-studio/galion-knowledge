@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.cn-npc",
+  "title": "China's constitution says the people exercise state power through people's congresses",
+  "section": "world",
+  "category": "law",
+  "summary": "China's constitution says the people exercise state power through people's congresses.",
+  "body": "Article 2 says all power belongs to the people, and that the organs through which the people exercise state power are the National People's Congress and the local people's congresses. The source says: \"Article 2 All power in the People's Republic of China belongs to the people.\" The article names those organs. It does not, in this sentence, describe the Party clause in Article 1. Both articles are in the same constitution.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the People's Republic of China, Constitute Project English text (2018 compilation)",
+      "url": "https://www.constituteproject.org/constitution/China_2018?lang=en",
+      "author": "Constitution of the People's Republic of China, Constitute Project English text (2018 compilation)",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of the People's Republic of China, Article 2",
+  "as_of_date": "2018",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.cn-urban-land",
+    "world.core.power.cn-nonpublic",
+    "world.core.power.cn-public-ownership"
+  ],
+  "tags": [
+    "law",
+    "china",
+    "congress"
+  ]
+}

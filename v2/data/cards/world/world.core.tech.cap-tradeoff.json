@@ -1,0 +1,28 @@
+{
+  "id": "world.core.tech.cap-tradeoff",
+  "title": "Gilbert and Lynch treat consistency, availability, and partition tolerance as a tradeoff, not as three properties a system can simply have",
+  "section": "world",
+  "category": "technology",
+  "summary": "Gilbert and Lynch treat consistency, availability, and partition tolerance as a tradeoff, not as three properties a system can simply have.",
+  "body": "Gilbert and Lynch discuss Brewer's conjecture, which they say has become known as the CAP theorem: consistency, availability, and partition tolerance. The paper says that in an unreliable system it is impossible to achieve both consistency and availability, so in practice one of those properties is sacrificed. The source says: \"Since it is impossible to achieve both consistency and availability in an unreliable system, it is necessary in practice to sacrifice one of these two desired properties.\" The paper is a formal discussion of a tradeoff under stated models of failure. It is not a slogan that every database must pick a marketing category, and it is not a proof about a named product.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Perspectives on the CAP Theorem",
+      "url": "https://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf",
+      "author": "Seth Gilbert and Nancy A. Lynch",
+      "date": "2012",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Seth Gilbert and Nancy Lynch",
+  "as_of_date": "2012",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "technology",
+    "distributed-systems"
+  ]
+}

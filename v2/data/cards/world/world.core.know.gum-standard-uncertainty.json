@@ -1,0 +1,31 @@
+{
+  "id": "world.core.know.gum-standard-uncertainty",
+  "title": "The GUM defines standard uncertainty as uncertainty expressed as a standard deviation",
+  "section": "world",
+  "category": "method",
+  "summary": "The GUM defines standard uncertainty as uncertainty expressed as a standard deviation.",
+  "body": "The Guide defines standard uncertainty as the uncertainty of the result of a measurement expressed as a standard deviation. The source says: \"2.3.1 standard uncertainty uncertainty of the result of a measurement expressed as a standard deviation 2.3.2 Type A evaluation (of uncertainty) method of evaluation of uncertainty by the statistical analysis of series of observations 2.3.3 Type B evaluation (of uncertainty) method of evaluation of uncertainty by means other than the statistical analysis of series of observations 2.3.4 combined standard uncertainty standard uncertainty of\" A standard uncertainty is a spread of that form, not a maximum possible error and not a statement that the result is wrong by that amount.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "JCGM 100:2008",
+      "url": "https://www.bipm.org/documents/20126/2071204/JCGM_100_2008_E.pdf",
+      "author": "JCGM / BIPM",
+      "date": "2008",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Joint Committee for Guides in Metrology",
+  "as_of_date": "2008",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.know.gum-scope"
+  ],
+  "tags": [
+    "method",
+    "measurement",
+    "uncertainty"
+  ]
+}

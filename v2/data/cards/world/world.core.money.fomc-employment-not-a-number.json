@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.fomc-employment-not-a-number",
+  "title": "The FOMC says maximum employment is not directly measurable and is not given a fixed numeric goal",
+  "section": "world",
+  "category": "economics",
+  "summary": "The FOMC says maximum employment is not directly measurable and is not given a fixed numeric goal.",
+  "body": "The same 2026 statement says maximum employment is the highest level of employment that can be achieved on a sustained basis in a context of price stability, that this level is not directly measurable, and that it would not be appropriate to specify a fixed goal for employment. The source says: \"The maximum level of employment is not directly measurable and changes over time owing largely to nonmonetary factors that affect the structure and dynamics of the labor market.\" The Committee gives inflation a number and refuses employment a fixed number, in the same document, for the reason it states: employment's maximum changes with nonmonetary factors.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Statement on Longer-Run Goals and Monetary Policy Strategy",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/FOMC_LongerRunGoals.pdf",
+      "author": "Federal Open Market Committee",
+      "date": "2026-01-27",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Federal Open Market Committee",
+  "as_of_date": "2026-01-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "economics",
+    "employment",
+    "united-states"
+  ]
+}

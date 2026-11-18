@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.ecb-symmetric",
+  "title": "The ECB says its 2 percent target is symmetric: deviations on either side are equally undesirable",
+  "section": "world",
+  "category": "economics",
+  "summary": "The ECB says its 2 percent target is symmetric: deviations on either side are equally undesirable.",
+  "body": "The ECB says its commitment to the 2 percent target is symmetric, meaning it considers negative and positive deviations equally undesirable. The source says: \"This means that we consider negative and positive deviations from the target to be equally undesirable.\" Symmetry is the Governing Council's stated commitment. The page also says that near the lower bound on nominal interest rates, especially forceful or persistent action may be required to keep negative deviations from becoming entrenched.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Monetary policy strategy",
+      "url": "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html",
+      "author": "European Central Bank",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "European Central Bank, Governing Council",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.riksbank-cpif",
+    "world.core.money.fomc-two-percent",
+    "world.core.money.snb-strategy"
+  ],
+  "tags": [
+    "economics",
+    "inflation",
+    "euro-area"
+  ]
+}

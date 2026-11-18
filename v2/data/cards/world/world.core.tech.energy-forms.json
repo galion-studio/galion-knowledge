@@ -1,0 +1,32 @@
+{
+  "id": "world.core.tech.energy-forms",
+  "title": "The EIA distinguishes stored energy from kinetic, or working, energy",
+  "section": "world",
+  "category": "technology",
+  "summary": "The EIA distinguishes stored energy from kinetic, or working, energy.",
+  "body": "The EIA's explainer distinguishes stored energy from kinetic, or working, energy, and says energy can be converted from one form to another. It gives food's chemical energy, later used as kinetic energy, as an example. The source says: \"or stored , energy Kinetic, or working , energy Energy can be converted from one form to another.\" The two labels are the agency's teaching distinction. A fuel stores chemical energy until something converts it. The card does not rank fuels.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What is energy?",
+      "url": "https://www.eia.gov/energyexplained/what-is-energy/",
+      "author": "U.S. Energy Information Administration",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Energy Information Administration",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.grid-transmission",
+    "world.core.tech.btu",
+    "world.core.tech.energy-work"
+  ],
+  "tags": [
+    "technology",
+    "energy"
+  ]
+}

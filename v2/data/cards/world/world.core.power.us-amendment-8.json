@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-amendment-8",
+  "title": "The Eighth Amendment forbids excessive bail, excessive fines, and cruel and unusual punishments",
+  "section": "world",
+  "category": "law",
+  "summary": "The Eighth Amendment forbids excessive bail, excessive fines, and cruel and unusual punishments.",
+  "body": "The Eighth Amendment text says excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted. The source says: \"Prohibition of cruel treatment , Right to pre-trial release Amendment VIII Excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted.\" The adjectives 'excessive' and 'cruel and unusual' are the text's standards. The amendment does not list which punishments meet them.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the United States of America (Constitute Project English text, 1992 consolidation)",
+      "url": "https://www.constituteproject.org/constitution/United_States_of_America_1992?lang=en",
+      "author": "Constitute Project, from the United States Constitution",
+      "date": "1992",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "United States Constitution, Amendment VIII",
+  "as_of_date": "1791",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "punishment"
+  ]
+}

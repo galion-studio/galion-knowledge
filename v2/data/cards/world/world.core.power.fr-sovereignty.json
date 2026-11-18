@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.fr-sovereignty",
+  "title": "The French constitution vests national sovereignty in the people, exercised by representatives and by referendum",
+  "section": "world",
+  "category": "law",
+  "summary": "The French constitution vests national sovereignty in the people, exercised by representatives and by referendum.",
+  "body": "Article 3 says national sovereignty vests in the people, who exercise it through their representatives and by referendum, and that no section of the people nor any individual may arrogate that exercise. The source says: \"ARTICLE 3 Referenda National sovereignty shall vest in the people, who shall exercise it through their representatives and by means of referendum.\" The article states both representative and referendum paths. It does not specify the turnout of any particular vote.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of 4 October 1958, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/France_2008?lang=en",
+      "author": "Constitution of 4 October 1958, Constitute Project English text",
+      "date": "1958",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of France, Article 3",
+  "as_of_date": "1958",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.fr-republic",
+    "world.core.power.fr-commander",
+    "world.core.power.fr-dissolution"
+  ],
+  "tags": [
+    "law",
+    "france",
+    "sovereignty"
+  ]
+}

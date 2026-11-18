@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.fr-appoints-pm",
+  "title": "The French president appoints the prime minister and ends that appointment when the prime minister resigns the government",
+  "section": "world",
+  "category": "law",
+  "summary": "The French president appoints the prime minister and ends that appointment when the prime minister resigns the government.",
+  "body": "Article 8 says the president appoints the prime minister and terminates that appointment when the prime minister tenders the resignation of the government. Other ministers are appointed and dismissed on the prime minister's recommendation. The source says: \"ARTICLE 8 Head of government selection , Head of government removal The President of the Republic shall appoint the Prime Minister.\" Appointment and resignation are both in the article. The card does not describe a particular cohabitation.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of 4 October 1958, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/France_2008?lang=en",
+      "author": "Constitution of 4 October 1958, Constitute Project English text",
+      "date": "1958",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of France, Article 8",
+  "as_of_date": "1958",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.fr-republic",
+    "world.core.power.fr-commander",
+    "world.core.power.fr-dissolution"
+  ],
+  "tags": [
+    "law",
+    "france",
+    "government"
+  ]
+}

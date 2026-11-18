@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-amendment-1",
+  "title": "The First Amendment restricts Congress on religion, speech, press, assembly, and petition",
+  "section": "world",
+  "category": "law",
+  "summary": "The First Amendment restricts Congress on religion, speech, press, assembly, and petition.",
+  "body": "The First Amendment, in the Constitute Project English text of the amended Constitution, begins by limiting Congress: no law respecting an establishment of religion or prohibiting the free exercise thereof, and no abridgment of freedom of speech or of the press, or of the right of the people peaceably to assemble and to petition. The source says: \"Freedom of expression , Freedom of press , Separation of church and state , Freedom of religion , Freedom of assembly , Right of petition Amendment I Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.\" The sentence is addressed to Congress. This card does not restate later judicial tests, and it does not claim the amendment lists every limit that courts have since enforced.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the United States of America (Constitute Project English text, 1992 consolidation)",
+      "url": "https://www.constituteproject.org/constitution/United_States_of_America_1992?lang=en",
+      "author": "Constitute Project, from the United States Constitution",
+      "date": "1992",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "United States Constitution, Amendment I",
+  "as_of_date": "1791",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-impeachment-grounds",
+    "world.core.money.fomc-two-percent"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "speech"
+  ]
+}

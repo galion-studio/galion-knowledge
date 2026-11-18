@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.un-force",
+  "title": "The UN Charter forbids the threat or use of force against the territorial integrity or political independence of any state",
+  "section": "world",
+  "category": "law",
+  "summary": "The UN Charter forbids the threat or use of force against the territorial integrity or political independence of any state.",
+  "body": "Article 2 says all members shall refrain in their international relations from the threat or use of force against the territorial integrity or political independence of any state, or in any other manner inconsistent with the purposes of the United Nations. The source says: \"All Members shall refrain in their international relations from the threat or use of force against the territorial integrity or political independence of any state, or in any other manner inconsistent with the Purposes of the United Nations.\" The prohibition is in Article 2. Article 51's self-defence sentence is a different article and is not cancelled by quoting this one.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Charter of the United Nations, full text, un.org",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "author": "Charter of the United Nations, full text, un.org",
+      "date": "1945",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Charter of the United Nations, Article 2",
+  "as_of_date": "1945",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.un-article-27",
+    "world.core.power.un-sovereign-equality",
+    "world.core.power.un-article-51"
+  ],
+  "tags": [
+    "law",
+    "united-nations",
+    "force"
+  ]
+}

@@ -1,16 +1,16 @@
 {
   "schema": "galion-shard-manifest/1",
-  "version": "1",
+  "version": "2",
   "immutable": true,
-  "note": "Add-on shards for the Base World Core Pack. Schema galion-shard-manifest/1 is the schema ScaleIndex writes in PR #3 (v2/memory/src/scale.rs on cursor/horbm-memory-stack-4552). The required fields match ShardManifest and ManifestFile. sha256 and bytes here are the card-bundle digest defined in v2/docs/SHARDS.md, payload card-bundle/1. They are not the sha256 of a SQLite file. ScaleIndex hashes core.sqlite and each FTS shard when it builds them. This repository does not invent that sqlite hash. depends_on is the core pack id. An add-on shard is an optional pack a device loads when the core has a gap. It is not the section/category FTS split ScaleIndex builds from cards it already has. Do not edit a shard file in place. Publish a new version. Version 1 of this file hashed the core as it stood before the physics pack and the earth-life pack were both present. This digest is recomputed from the card files now under v2/data/cards. Shard card files were not edited.",
+  "note": "Add-on shards for the Base World Core Pack. Schema galion-shard-manifest/1 is the schema ScaleIndex writes in PR #3 (v2/memory/src/scale.rs on cursor/horbm-memory-stack-4552). The required fields match ShardManifest and ManifestFile. sha256 and bytes here are the card-bundle digest defined in v2/docs/SHARDS.md, payload card-bundle/1. They are not the sha256 of a SQLite file. ScaleIndex hashes core.sqlite and each FTS shard when it builds them. This repository does not invent that sqlite hash. depends_on is the core pack id. An add-on shard is an optional pack a device loads when the core has a gap. It is not the section/category FTS split ScaleIndex builds from cards it already has. Do not edit a shard file in place. Publish a new version. Version 2 republishes the core card-bundle digest after the physics pack, the mathematics, money, law, and technology pack, and the earth, life, and health pack are all under v2/data/cards. Shard card files were not edited.",
   "core_pack": {
     "id": "core",
     "section": "core",
     "category": "core",
-    "sha256": "8767b057b2eb5df558ca09b35bc4c0c0611b9458794b1b060905a4efc6a4ca49",
-    "bytes": 1453449,
+    "sha256": "dc2c5220ee365a4f70c038cea2bbf8d49e2b6bd88964888ac665ac65a70c5136",
+    "bytes": 1812733,
     "payload": "card-bundle/1",
-    "card_count": 697
+    "card_count": 911
   },
   "shards": [
     {

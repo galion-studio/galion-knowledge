@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.fr-commander",
+  "title": "The French president is commander-in-chief of the armed forces",
+  "section": "world",
+  "category": "law",
+  "summary": "The French president is commander-in-chief of the armed forces.",
+  "body": "Article 15 says the president is commander-in-chief of the armed forces and presides over the higher national defence councils and committees. The source says: \"Advisory bodies to the head of state , Designation of commander in chief ARTICLE 15 The President of the Republic shall be Commander-in-Chief of the Armed Forces.\" Article 21, separately, says the prime minister is responsible for national defence. The constitution states both sentences. This card is the presidential sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of 4 October 1958, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/France_2008?lang=en",
+      "author": "Constitution of 4 October 1958, Constitute Project English text",
+      "date": "1958",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of France, Article 15",
+  "as_of_date": "1958",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.fr-republic",
+    "world.core.power.fr-dissolution",
+    "world.core.power.fr-president-term"
+  ],
+  "tags": [
+    "law",
+    "france",
+    "defence"
+  ]
+}

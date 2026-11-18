@@ -1,0 +1,31 @@
+{
+  "id": "world.core.tech.utf8",
+  "title": "UTF-8 is specified as a transformation format of ISO 10646",
+  "section": "world",
+  "category": "technology",
+  "summary": "UTF-8 is specified as a transformation format of ISO 10646.",
+  "body": "RFC 3629 specifies UTF-8 as a transformation format of ISO 10646, the universal coded character set. The source says: \"Yergeau Request for Comments: 3629 Alis Technologies STD: 63 November 2003 Obsoletes: 2279 Category: Standards Track UTF-8, a transformation format of ISO 10646 Status of this Memo This document specifies an Internet standards track protocol for the Internet community, and requests discussion and suggestions for improvements.\" UTF-8 is a way of representing those characters in bytes. It is not itself the list of characters. The character repertoire is the Unicode/ISO 10646 standard, which is a different document.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 3629: UTF-8, a transformation format of ISO 10646",
+      "url": "https://www.rfc-editor.org/rfc/rfc3629",
+      "author": "F. Yergeau",
+      "date": "2003-11",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "F. Yergeau, RFC 3629",
+  "as_of_date": "2003-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.unicode-standard"
+  ],
+  "tags": [
+    "technology",
+    "encoding",
+    "unicode"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world.core.power.kr-territory",
+  "title": "Korea's constitution states the territory as the Korean peninsula and its adjacent islands",
+  "section": "world",
+  "category": "law",
+  "summary": "Korea's constitution states the territory as the Korean peninsula and its adjacent islands.",
+  "body": "Article 3 says the territory of the Republic of Korea shall consist of the Korean peninsula and its adjacent islands. The source says: \"Article 3 The territory of the Republic of Korea shall consist of the Korean peninsula and its adjacent islands.\" This is the constitution's territorial sentence. It is not a finding about which authority administers which part of the peninsula.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Republic of Korea, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Republic_of_Korea_1987?lang=en",
+      "author": "Constitution of the Republic of Korea, Constitute Project English text",
+      "date": "1987",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of the Republic of Korea, Article 3",
+  "as_of_date": "1987",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.kr-unification",
+    "world.core.power.kr-republic"
+  ],
+  "tags": [
+    "law",
+    "korea",
+    "territory"
+  ]
+}

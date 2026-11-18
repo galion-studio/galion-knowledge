@@ -371,7 +371,7 @@ fn addon_shard_manifest_matches_shard_manifest() {
     let text = std::fs::read_to_string(&path).unwrap();
     let manifest: ShardManifest = serde_json::from_str(&text).expect("galion-shard-manifest/1");
     assert_eq!(manifest.schema, "galion-shard-manifest/1");
-    assert_eq!(manifest.version, "1");
+    assert_eq!(manifest.version, "2");
     assert!(manifest.immutable);
     assert!(!manifest.note.is_empty());
     assert_eq!(manifest.core_pack.id, "core");

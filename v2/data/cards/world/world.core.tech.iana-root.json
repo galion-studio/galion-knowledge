@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.iana-root",
+  "title": "IANA says the DNS root zone is the top of the naming hierarchy and is principally delegations of top-level domains",
+  "section": "world",
+  "category": "technology",
+  "summary": "IANA says the DNS root zone is the top of the naming hierarchy and is principally delegations of top-level domains.",
+  "body": "IANA says the DNS root zone is the highest level of the naming hierarchy, principally composed of delegations of top-level domains, and that IANA manages the root zone. The source says: \"S) root zone is the highest-level of the naming hierarchy, principally composed of delegations of top-level domains (such as .edu or .in ).\" A top-level domain exists as a delegation in that zone. The page is IANA's description of its role. It does not say that IANA operates every name server that answers for those domains.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Root Zone Management",
+      "url": "https://www.iana.org/domains/root",
+      "author": "Internet Assigned Numbers Authority",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Internet Assigned Numbers Authority",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "dns"
+  ]
+}

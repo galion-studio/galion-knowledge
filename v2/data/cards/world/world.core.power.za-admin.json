@@ -1,0 +1,32 @@
+{
+  "id": "world.core.power.za-admin",
+  "title": "South Africa's constitution gives everyone a right to administrative action that is lawful, reasonable, and procedurally fair",
+  "section": "world",
+  "category": "law",
+  "summary": "South Africa's constitution gives everyone a right to administrative action that is lawful, reasonable, and procedurally fair.",
+  "body": "Section 33 says everyone has the right to administrative action that is lawful, reasonable, and procedurally fair, and a right to written reasons when rights have been adversely affected. The source says: \"Just administrative action Everyone has the right to administrative action that is lawful, reasonable and procedurally fair.\" Lawful, reasonable, and procedurally fair are the three adjectives in the text. The section also provides for national legislation to give effect to the rights.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Republic of South Africa, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/South_Africa_2012?lang=en",
+      "author": "Constitution of the Republic of South Africa, Constitute Project English text",
+      "date": "1996",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of South Africa, section 33",
+  "as_of_date": "1996",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.za-bill",
+    "world.core.power.za-values"
+  ],
+  "tags": [
+    "law",
+    "south-africa",
+    "administration"
+  ]
+}

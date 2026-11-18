@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.bea-three-estimates",
+  "title": "BEA says each quarter's GDP is estimated three times as source data arrive",
+  "section": "world",
+  "category": "economics",
+  "summary": "BEA says each quarter's GDP is estimated three times as source data arrive.",
+  "body": "BEA says that for each quarter it estimates GDP three times. The advance estimate, about a month after the quarter ends, uses the best information then available. The second and third estimates incorporate additional source data. The source says: \"Why? Because for each quarter, BEA estimates GDP three times.\" An early GDP number is an estimate scheduled to be revised. Treating the advance print as a final measurement contradicts the procedure BEA describes.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What to know: GDP",
+      "url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp",
+      "author": "Bureau of Economic Analysis",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Bureau of Economic Analysis",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.bea-seasonal",
+    "world.core.money.bea-real-nominal",
+    "world.core.money.bea-annual-rates"
+  ],
+  "tags": [
+    "economics",
+    "gdp",
+    "measurement"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.ir-islamic-criteria",
+  "title": "Iran's constitution says all laws and regulations must be based on Islamic criteria",
+  "section": "world",
+  "category": "law",
+  "summary": "Iran's constitution says all laws and regulations must be based on Islamic criteria.",
+  "body": "Article 4 says civil, penal, financial, economic, administrative, cultural, military, political, and other laws and regulations must be based on Islamic criteria, and that this principle applies absolutely and generally to all articles of the constitution as well as to other laws. The source says: \"Status of religious law Article 4 All civil, penal, financial, economic, administrative, cultural, military, political, and other laws and regulations must be based on Islamic criteria.\" The article states a supremacy rule for Islamic criteria over the rest of the legal order, in the constitution's own words. This card does not describe how a particular statute was reviewed.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Islamic Republic of Iran, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Iran_1989?lang=en",
+      "author": "Constitution of the Islamic Republic of Iran, Constitute Project English text",
+      "date": "1989",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Iran, Article 4",
+  "as_of_date": "1989",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ir-faqih",
+    "world.core.power.ir-form",
+    "world.core.power.ir-elections"
+  ],
+  "tags": [
+    "law",
+    "iran",
+    "religion"
+  ]
+}

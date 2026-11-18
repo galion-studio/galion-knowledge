@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.bea-real-nominal",
+  "title": "BEA distinguishes real GDP, which removes inflation, from current-dollar GDP",
+  "section": "world",
+  "category": "economics",
+  "summary": "BEA distinguishes real GDP, which removes inflation, from current-dollar GDP.",
+  "body": "BEA says the figure people often call GDP is a rate of change in real GDP, and that real or chained GDP has been adjusted to remove the effects of inflation so periods can be compared. Current-dollar or nominal GDP is based on market prices during the period being measured. The source says: \"\"Real\" or \"chained\" GDP numbers have been adjusted to remove the effects of inflation over time, so different periods can be compared.\" A rise in nominal GDP can be prices, quantities, or both. BEA's real series is the one it says has the inflation effect removed. This is a different claim from the existing card that GDP measures the value of final output.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What to know: GDP",
+      "url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp",
+      "author": "Bureau of Economic Analysis",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Bureau of Economic Analysis",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.bea-three-estimates",
+    "world.core.money.bea-seasonal",
+    "world.core.money.bea-annual-rates"
+  ],
+  "tags": [
+    "economics",
+    "gdp",
+    "prices"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world.core.power.br-habeas",
+  "title": "Brazil's constitution says habeas corpus shall be granted against illegal or abusive restraint of movement",
+  "section": "world",
+  "category": "law",
+  "summary": "Brazil's constitution says habeas corpus shall be granted against illegal or abusive restraint of movement.",
+  "body": "The constitution's English text says habeas corpus shall be granted whenever a person suffers or is threatened with violence or coercion against freedom of movement through illegality or abuse of power. The source says: \"justified restraint habeas corpus shall be granted whenever a person suffers or is threatened with suffering violence or coercion in his freedom of movement through illegality or abuse of power; Right to amparo , Ultra-vires administrative actions a writ of security (mandado de segurança) shall be issued to protect a liquid and certain right not protected by habeas corpus or habeas data, when the party responsible for the illegality or abuse of power is a public authority or an agent of a le\" The writ is tied to freedom of movement and to illegality or abuse of power. Other remedies in the same catalogue are not this sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Federative Republic of Brazil, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Brazil_2017?lang=en",
+      "author": "Constitution of the Federative Republic of Brazil, Constitute Project English text",
+      "date": "2017",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Brazil",
+  "as_of_date": "2017",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.br-belief",
+    "world.core.power.br-federative"
+  ],
+  "tags": [
+    "law",
+    "brazil",
+    "habeas"
+  ]
+}

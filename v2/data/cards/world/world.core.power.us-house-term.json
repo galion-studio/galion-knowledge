@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-house-term",
+  "title": "The 1787 text elects the House every second year",
+  "section": "world",
+  "category": "law",
+  "summary": "The 1787 text elects the House every second year.",
+  "body": "Article I, Section 2, in that transcription, sets a two-year term for members of the House, chosen by the people of the states. The source says: \"The House of Representatives shall be composed of Members chosen every second Year by the People of the several States, and the Electors in each State shall have the Qualifications requisite for Electors of the most numerous Branch of the State Legislature.\" Qualifications for electors are tied to each state's rules for its most numerous legislative branch. This card is the 1787 sentence, not a survey of later voting amendments.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Constitution (1787 text, National Archives transcription)",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "elections"
+  ]
+}

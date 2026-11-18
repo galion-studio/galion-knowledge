@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-declare-war",
+  "title": "The 1787 text gives Congress the power to declare war",
+  "section": "world",
+  "category": "law",
+  "summary": "The 1787 text gives Congress the power to declare war.",
+  "body": "Among the powers Article I, Section 8 lists in the 1787 transcription is the power to declare war, to raise and support armies, and to provide and maintain a navy. The source says: \"the Law of Nations; To declare War, grant Letters of Marque and Reprisal, and make Rules concerning Captures on Land and Water; To raise and support Armies, but no Appropriation of Money to that Use shall be for a longer Term than two Years; To provide and maintain a Navy; To make Rules for the Government and Regulation of the land and naval Forces; To provide for calling\" Listing the power in Congress is the text. How that list sits beside the commander-in-chief clause is a further question this card does not answer.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Constitution (1787 text, National Archives transcription)",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "war-powers"
+  ]
+}

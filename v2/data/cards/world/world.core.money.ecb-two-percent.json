@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.ecb-two-percent",
+  "title": "The ECB says price stability is best maintained by aiming for 2 percent HICP inflation over the medium term",
+  "section": "world",
+  "category": "economics",
+  "summary": "The ECB says price stability is best maintained by aiming for 2 percent HICP inflation over the medium term.",
+  "body": "The ECB says its Governing Council considers that price stability is best maintained by aiming for 2 percent inflation over the medium term, and that inflation is measured by the Harmonised Index of Consumer Prices. The source says: \"Quantitative inflation target The ECB’s Governing Council considers that price stability is best maintained by aiming for 2% inflation over the medium term.\" The target is 2 percent HICP over the medium term. It is not the Federal Reserve's PCE target, and it is not a claim that measured inflation equals 2 percent in a given month.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Monetary policy strategy",
+      "url": "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html",
+      "author": "European Central Bank",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "European Central Bank, Governing Council",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.riksbank-cpif",
+    "world.core.money.fomc-two-percent",
+    "world.core.money.snb-strategy"
+  ],
+  "tags": [
+    "economics",
+    "inflation",
+    "euro-area"
+  ]
+}

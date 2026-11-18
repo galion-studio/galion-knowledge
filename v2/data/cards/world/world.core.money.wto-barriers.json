@@ -1,0 +1,32 @@
+{
+  "id": "world.core.money.wto-barriers",
+  "title": "The WTO names customs duties and quantitative restrictions such as bans and quotas as trade barriers",
+  "section": "world",
+  "category": "economics",
+  "summary": "The WTO names customs duties and quantitative restrictions such as bans and quotas as trade barriers.",
+  "body": "The WTO says lowering trade barriers is a means of encouraging trade, and that the barriers concerned include customs duties, or tariffs, and measures such as import bans or quotas that restrict quantities selectively. The source says: \"The barriers concerned include customs duties (or tariffs) and measures such as import bans or quotas that restrict quantities selectively.\" The page treats tariffs and quotas as barriers the agreements address. It also says opening markets requires adjustment and that the agreements allow gradual change, with developing countries usually given longer.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Principles of the trading system",
+      "url": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact2_e.htm",
+      "author": "World Trade Organization",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "World Trade Organization",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.wto-mfn",
+    "world.core.money.gatt-mfn-text",
+    "world.core.money.wto-national-treatment"
+  ],
+  "tags": [
+    "economics",
+    "trade"
+  ]
+}

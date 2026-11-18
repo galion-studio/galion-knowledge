@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.un-article-51",
+  "title": "The UN Charter preserves an inherent right of individual or collective self-defence if an armed attack occurs, until the Security Council has taken necessary measures",
+  "section": "world",
+  "category": "law",
+  "summary": "The UN Charter preserves an inherent right of individual or collective self-defence if an armed attack occurs, until the Security Council has taken necessary measures.",
+  "body": "Article 51 says nothing in the Charter shall impair the inherent right of individual or collective self-defence if an armed attack occurs against a member, until the Security Council has taken measures necessary to maintain international peace and security. The source says: \"Article 51 Nothing in the present Charter shall impair the inherent right of individual or collective self-defence if an armed attack occurs against a Member of the United Nations, until the Security Council has taken measures necessary to maintain international peace and security.\" The right the article states is conditioned on an armed attack and is framed as lasting until the Council has taken the necessary measures. The article also requires measures taken by members to be reported to the Council.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Charter of the United Nations, full text, un.org",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "author": "Charter of the United Nations, full text, un.org",
+      "date": "1945",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Charter of the United Nations, Article 51",
+  "as_of_date": "1945",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.un-article-27",
+    "world.core.power.un-sovereign-equality",
+    "world.core.power.un-force"
+  ],
+  "tags": [
+    "law",
+    "united-nations",
+    "self-defence"
+  ]
+}

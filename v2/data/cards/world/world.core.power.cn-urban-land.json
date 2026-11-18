@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.cn-urban-land",
+  "title": "China's constitution says land in the cities is owned by the state",
+  "section": "world",
+  "category": "law",
+  "summary": "China's constitution says land in the cities is owned by the state.",
+  "body": "Article 10 says land in the cities is owned by the state, and that land in rural and suburban areas is owned by collectives except for portions that belong to the state according to law. The source says: \"Ownership of natural resources Article 10 Land in the cities is owned by the state.\" The sentence is an ownership rule in the constitutional text. Use rights, leases, and household contracts are not this sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the People's Republic of China, Constitute Project English text (2018 compilation)",
+      "url": "https://www.constituteproject.org/constitution/China_2018?lang=en",
+      "author": "Constitution of the People's Republic of China, Constitute Project English text (2018 compilation)",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of the People's Republic of China, Article 10",
+  "as_of_date": "2018",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.cn-nonpublic",
+    "world.core.power.cn-public-ownership",
+    "world.core.power.cn-socialist-market"
+  ],
+  "tags": [
+    "law",
+    "china",
+    "land"
+  ]
+}

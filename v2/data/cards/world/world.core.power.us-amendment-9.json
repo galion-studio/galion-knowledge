@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-amendment-9",
+  "title": "The Ninth Amendment says enumeration of rights does not deny others retained by the people",
+  "section": "world",
+  "category": "law",
+  "summary": "The Ninth Amendment says enumeration of rights does not deny others retained by the people.",
+  "body": "The Ninth Amendment says the enumeration in the Constitution of certain rights shall not be construed to deny or disparage others retained by the people. The source says: \"Amendment IX The enumeration in the Constitution, of certain rights, shall not be construed to deny or disparage others retained by the people.\" The sentence is a rule of construction. It does not name the unenumerated rights.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the United States of America (Constitute Project English text, 1992 consolidation)",
+      "url": "https://www.constituteproject.org/constitution/United_States_of_America_1992?lang=en",
+      "author": "Constitute Project, from the United States Constitution",
+      "date": "1992",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "United States Constitution, Amendment IX",
+  "as_of_date": "1791",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "rights"
+  ]
+}

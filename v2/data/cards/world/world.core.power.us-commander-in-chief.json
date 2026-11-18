@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-commander-in-chief",
+  "title": "The 1787 text makes the president commander in chief",
+  "section": "world",
+  "category": "law",
+  "summary": "The 1787 text makes the president commander in chief.",
+  "body": "Article II of the 1787 transcription makes the president commander in chief of the army and navy, and of the militia of the several states when called into the actual service of the United States. The source says: \"The President shall be Commander in Chief of the Army and Navy of the United States, and of the Militia of the several States, when called into the actual Service of the United States; he may require the Opinion, in writing, of the principal Officer in each of the executive Departments, upon any Subject relating to the Duties of their respective Offices, and he shall have Power to grant Reprieves an\" The clause is an assignment of command. It does not, in this sentence, state a limit on starting a war. The power to declare war is a separate clause.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Constitution (1787 text, National Archives transcription)",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "war-powers"
+  ]
+}

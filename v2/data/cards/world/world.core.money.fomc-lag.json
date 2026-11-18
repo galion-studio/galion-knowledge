@@ -1,0 +1,31 @@
+{
+  "id": "world.core.money.fomc-lag",
+  "title": "The FOMC says monetary policy actions tend to influence activity, employment, and prices with a lag",
+  "section": "world",
+  "category": "economics",
+  "summary": "The FOMC says monetary policy actions tend to influence activity, employment, and prices with a lag.",
+  "body": "The statement says policy actions tend to influence economic activity, employment, and prices with a lag, and that sustainably achieving the goals depends on a stable financial system. The source says: \"Monetary policy actions tend to influence economic activity, employment, and prices with a lag.\" The lag is the Committee's stated reason for looking at the outlook and the balance of risks, not a measured number of months in this document.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Statement on Longer-Run Goals and Monetary Policy Strategy",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/FOMC_LongerRunGoals.pdf",
+      "author": "Federal Open Market Committee",
+      "date": "2026-01-27",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Federal Open Market Committee",
+  "as_of_date": "2026-01-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.fomc-balanced",
+    "world.core.money.fed-section-2a"
+  ],
+  "tags": [
+    "economics",
+    "monetary-policy"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.un-article-27",
+  "title": "Security Council decisions on non-procedural matters need nine affirmative votes, including the concurring votes of the permanent members",
+  "section": "world",
+  "category": "law",
+  "summary": "Security Council decisions on non-procedural matters need nine affirmative votes, including the concurring votes of the permanent members.",
+  "body": "Article 27 gives each Security Council member one vote. Procedural decisions are made by an affirmative vote of nine members. Decisions on all other matters are made by an affirmative vote of nine members including the concurring votes of the permanent members, with a proviso that a party to a dispute shall abstain from voting in decisions under Chapter VI and under paragraph 3 of Article 52. The source says: \"Decisions of the Security Council on all other matters shall be made by an affirmative vote of nine members including the concurring votes of the permanent members; provided that, in decisions under Chapter VI, and under paragraph 3 of Article 52, a party to a dispute shall abstain from voting.\" The Charter's words are 'concurring votes of the permanent members.' This card does not add the word 'veto,' which is not the word the article uses.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Charter of the United Nations, full text, un.org",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "author": "Charter of the United Nations, full text, un.org",
+      "date": "1945",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Charter of the United Nations, Article 27",
+  "as_of_date": "1945",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.un-sovereign-equality",
+    "world.core.power.un-force",
+    "world.core.power.un-article-51"
+  ],
+  "tags": [
+    "law",
+    "united-nations",
+    "security-council"
+  ]
+}

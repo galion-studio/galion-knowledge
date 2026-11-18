@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.ca-equality",
+  "title": "Canada's Charter guarantees equality before and under the law and equal protection and benefit without discrimination",
+  "section": "world",
+  "category": "law",
+  "summary": "Canada's Charter guarantees equality before and under the law and equal protection and benefit without discrimination.",
+  "body": "Section 15 says every individual is equal before and under the law and has the right to the equal protection and equal benefit of the law without discrimination, and in particular without discrimination based on race, national or ethnic origin, colour, religion, sex, age, or mental or physical disability. The source says: \"Equality Rights Marginal note: Equality before and under law and equal protection and benefit of law 15 (1) Every individual is equal before and under the law and has the right to the equal protection and equal benefit of the law without discrimination and, in particular, without discrimination based on race, national or ethnic origin, colour, religion, sex, age or mental or physical disability.\" The particular grounds are listed in the section. The section also contains, in the consolidation, a permission for affirmative programs, which is a further subsection and not denied by the equality sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution Act, 1982, Part I, Canadian Charter of Rights and Freedoms, Justice Laws consolidation",
+      "url": "https://laws-lois.justice.gc.ca/eng/const/page-12.html",
+      "author": "Constitution Act, 1982, Part I, Canadian Charter of Rights and Freedoms, Justice Laws consolidation",
+      "date": "1982",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Canadian Charter of Rights and Freedoms, section 15",
+  "as_of_date": "1982",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ca-limits",
+    "world.core.power.ca-section-7",
+    "world.core.money.boc-target"
+  ],
+  "tags": [
+    "law",
+    "canada",
+    "equality"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.cn-nonpublic",
+  "title": "China's constitution text also protects lawful private and individual economies inside legal limits",
+  "section": "world",
+  "category": "law",
+  "summary": "China's constitution text also protects lawful private and individual economies inside legal limits.",
+  "body": "Article 11 says individual, private, and other non-public economies that exist within the limits prescribed by law are major components of the socialist market economy, and that the state protects their lawful rights and interests. The source says: \"Article 11 Individual, private and other non-public economies that exist within the limits prescribed by law are major components of the socialist market economy.\" The article places those economies inside the socialist market economy and inside limits prescribed by law. It does not repeal Article 6.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the People's Republic of China, Constitute Project English text (2018 compilation)",
+      "url": "https://www.constituteproject.org/constitution/China_2018?lang=en",
+      "author": "Constitution of the People's Republic of China, Constitute Project English text (2018 compilation)",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of the People's Republic of China, Article 11",
+  "as_of_date": "2018",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.cn-urban-land",
+    "world.core.power.cn-public-ownership",
+    "world.core.power.cn-socialist-market"
+  ],
+  "tags": [
+    "law",
+    "china",
+    "property"
+  ]
+}

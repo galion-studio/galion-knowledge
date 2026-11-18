@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.il-120",
+  "title": "Israel's Basic Law says the Knesset has one hundred and twenty members",
+  "section": "world",
+  "category": "law",
+  "summary": "Israel's Basic Law says the Knesset has one hundred and twenty members.",
+  "body": "The Basic Law: The Knesset, in the English compilation, says the Knesset shall, upon its election, consist of one hundred and twenty members. The source says: \"Composition The Knesset shall, upon its election, consist of one hundred and twenty members.\" The figure is in the Basic Law. Israel is compiled here as basic laws rather than as one codified constitution. This card is the size of the Knesset.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Basic Law: The Knesset, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Israel_2013?lang=en",
+      "author": "Basic Law: The Knesset, Constitute Project English text",
+      "date": "2013",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Basic Law: The Knesset, section 3",
+  "as_of_date": "2013",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.il-term",
+    "world.core.power.il-proportional",
+    "world.core.power.il-vote-18"
+  ],
+  "tags": [
+    "law",
+    "israel",
+    "parliament"
+  ]
+}

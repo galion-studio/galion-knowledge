@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.ng-sharia-court",
+  "title": "Nigeria's constitution lists a Sharia Court of Appeal among the courts",
+  "section": "world",
+  "category": "law",
+  "summary": "Nigeria's constitution lists a Sharia Court of Appeal among the courts.",
+  "body": "The judicial list in the English text includes a Sharia Court of Appeal of the Federal Capital Territory, a Sharia Court of Appeal of a State, and Customary Courts of Appeal, alongside the High Court and other courts. The source says: \"urt of a State; the Sharia Court of Appeal of the Federal Capital Territory, Abuja; a Sharia Court of Appeal of a State; the Customary Court of Appeal of the Federal Capital Territory, Abuja; a Customary Court of Appeal of a State; such other courts as may be authorised by law to exercise jurisdiction on matters with respect to which the National Assembly may make laws; and such other court as may be authorised\" The constitution lists those courts. Listing them is not a statement that every case in Nigeria is decided under Islamic law. The same list includes other courts.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Federal Republic of Nigeria, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Nigeria_1999?lang=en",
+      "author": "Constitution of the Federal Republic of Nigeria, Constitute Project English text",
+      "date": "1999",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Nigeria",
+  "as_of_date": "1999",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ng-assembly",
+    "world.core.power.us-courts-three-branches",
+    "world.core.power.in-article-32"
+  ],
+  "tags": [
+    "law",
+    "nigeria",
+    "courts"
+  ]
+}

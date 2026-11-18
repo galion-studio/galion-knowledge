@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-amendment-2",
+  "title": "The Second Amendment's text links a militia clause to the right to keep and bear arms",
+  "section": "world",
+  "category": "law",
+  "summary": "The Second Amendment's text links a militia clause to the right to keep and bear arms.",
+  "body": "The Second Amendment, in that compilation, states that a well regulated militia being necessary to the security of a free state, the right of the people to keep and bear arms shall not be infringed. The source says: \"Right to bear arms Amendment II A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.\" The card records the sentence, including both the militia clause and the right clause. It does not decide which clause controls, and it does not summarize later cases.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the United States of America (Constitute Project English text, 1992 consolidation)",
+      "url": "https://www.constituteproject.org/constitution/United_States_of_America_1992?lang=en",
+      "author": "Constitute Project, from the United States Constitution",
+      "date": "1992",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "United States Constitution, Amendment II",
+  "as_of_date": "1791",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "arms"
+  ]
+}

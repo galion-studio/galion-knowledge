@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.jp-renounce-war",
+  "title": "Article 9 renounces war and the threat or use of force as means of settling disputes",
+  "section": "world",
+  "category": "law",
+  "summary": "Article 9 renounces war and the threat or use of force as means of settling disputes.",
+  "body": "Article 9 says the Japanese people forever renounce war as a sovereign right of the nation and the threat or use of force as means of settling international disputes. The source says: \"Renunciation of War Article 9 Aspiring sincerely to an international peace based on justice and order, the Japanese people forever renounce war as a sovereign right of the nation and the threat or use of force as means of settling international disputes.\" That is the first paragraph's renunciation. A following sentence about forces is a separate claim.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Japan, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Japan_1946?lang=en",
+      "author": "Constitution of Japan, Constitute Project English text",
+      "date": "1946",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Japan, Article 9",
+  "as_of_date": "1946",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.jp-no-censorship",
+    "world.core.power.jp-courts",
+    "world.core.power.jp-emperor-no-government"
+  ],
+  "tags": [
+    "law",
+    "japan",
+    "war"
+  ]
+}

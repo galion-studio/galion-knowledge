@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.fr-republic",
+  "title": "France's 1958 constitution calls the state an indivisible, secular, democratic, and social republic",
+  "section": "world",
+  "category": "law",
+  "summary": "France's 1958 constitution calls the state an indivisible, secular, democratic, and social republic.",
+  "body": "Article 1 of the 1958 Constitution, in the Constitute Project English text, describes France as an indivisible, secular, democratic and social republic that ensures equality before the law without distinction of origin, race, or religion, and that respects all beliefs. The source says: \"egardless of origin France shall be an indivisible, secular, democratic and social Republic.\" The words 'secular,' 'democratic,' and 'social' are all in the same article. This is the English compilation's wording, not a gazette facsimile.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of 4 October 1958, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/France_2008?lang=en",
+      "author": "Constitution of 4 October 1958, Constitute Project English text",
+      "date": "1958",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of France, Article 1",
+  "as_of_date": "1958",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.fr-commander",
+    "world.core.power.fr-dissolution",
+    "world.core.power.fr-president-term"
+  ],
+  "tags": [
+    "law",
+    "france",
+    "constitution"
+  ]
+}

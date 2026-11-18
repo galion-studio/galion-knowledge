@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.cn-private-property",
+  "title": "China's constitution says citizens' lawful private property is inviolable",
+  "section": "world",
+  "category": "law",
+  "summary": "China's constitution says citizens' lawful private property is inviolable.",
+  "body": "Article 13 says citizens' lawful private property is inviolable, that the state protects the right to private property and to its inheritance, and that the state may expropriate or requisition private property for its use in the public interest in accordance with law and with compensation. The source says: \"Right to own property Article 13 Citizens' lawful private property is inviolable.\" Inviolability and a public-interest taking power are both in the article. A neighboring article calls socialist public property sacred and inviolable.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the People's Republic of China, Constitute Project English text (2018 compilation)",
+      "url": "https://www.constituteproject.org/constitution/China_2018?lang=en",
+      "author": "Constitution of the People's Republic of China, Constitute Project English text (2018 compilation)",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of the People's Republic of China, Article 13",
+  "as_of_date": "2018",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.cn-urban-land",
+    "world.core.power.cn-nonpublic",
+    "world.core.power.cn-public-ownership"
+  ],
+  "tags": [
+    "law",
+    "china",
+    "property"
+  ]
+}

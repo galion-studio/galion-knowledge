@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.oauth",
+  "title": "OAuth 2.0 is a framework for a third-party application to obtain limited access to an HTTP service",
+  "section": "world",
+  "category": "technology",
+  "summary": "OAuth 2.0 is a framework for a third-party application to obtain limited access to an HTTP service.",
+  "body": "RFC 6749 says the OAuth 2.0 authorization framework enables a third-party application to obtain limited access to an HTTP service, either on behalf of a resource owner or on its own behalf. The source says: \"arty application to obtain limited access to an HTTP service, either on behalf of a resource owner by orchestrating an approval interaction between the resource owner and the HTTP service, or by allowing the third-party application to obtain access on its own behalf.\" The access is limited and delegated. The framework is not a password-sharing protocol, and it is not an identity card by itself. What 'limited' means is the scope the authorization grants.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 6749: The OAuth 2.0 Authorization Framework",
+      "url": "https://www.rfc-editor.org/rfc/rfc6749",
+      "author": "D. Hardt",
+      "date": "2012-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "D. Hardt, RFC 6749",
+  "as_of_date": "2012-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.jwt",
+    "world.core.tech.pkix"
+  ],
+  "tags": [
+    "technology",
+    "security",
+    "web"
+  ]
+}

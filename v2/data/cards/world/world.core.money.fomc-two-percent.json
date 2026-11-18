@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.fomc-two-percent",
+  "title": "The FOMC's January 2026 statement sets a longer-run inflation goal of 2 percent PCE",
+  "section": "world",
+  "category": "economics",
+  "summary": "The FOMC's January 2026 statement sets a longer-run inflation goal of 2 percent PCE.",
+  "body": "The FOMC statement adopted effective 24 January 2012 and reaffirmed effective 27 January 2026 says the Committee judges that inflation at the rate of 2 percent, measured by the annual change in the price index for personal consumption expenditures, is most consistent over the longer run with its statutory mandate. The source says: \"The Committee reaffirms its judgment that inflation at the rate of 2 percent, as measured by the annual change in the price index for personal consumption expenditures, is most consistent over the longer run with the Federal Reserve’s statutory maximum employment and price stability mandates.\" The 2 percent figure is the Committee's judgment, stated in this document, about what fits the mandate. It is not a number printed in Section 2A.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Statement on Longer-Run Goals and Monetary Policy Strategy",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/FOMC_LongerRunGoals.pdf",
+      "author": "Federal Open Market Committee",
+      "date": "2026-01-27",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Federal Open Market Committee",
+  "as_of_date": "2026-01-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.riksbank-cpif",
+    "world.core.money.snb-strategy",
+    "world.core.money.two-percent-is-not-one-object"
+  ],
+  "tags": [
+    "economics",
+    "inflation",
+    "united-states"
+  ]
+}

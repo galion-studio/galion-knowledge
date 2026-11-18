@@ -1,0 +1,29 @@
+{
+  "id": "world.core.math.euclid-i47",
+  "title": "Euclid I.47 states the right-triangle theorem as an equality of squares, not as an algebraic formula",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.47 states the right-triangle theorem as an equality of squares, not as an algebraic formula.",
+  "body": "Proposition 47 of Book I, in the text opened here, says: in right-angled triangles the square on the side opposite the right angle equals the sum of the squares on the sides containing the right angle. The source says: \"ht-angled triangles the square on the side opposite the right angle equals the sum of the squares on the sides containing the right angle.\" The proposition is about squares constructed on the sides. The algebraic sentence a squared plus b squared equals c squared is a later notation for the same relation, not the wording of this proposition.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, Proposition 47",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html",
+      "author": "Euclid, David E. Joyce's edition of Heath's translation",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, Elements, Book I, Proposition 47, Heath/Joyce text at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "geometry",
+    "euclid"
+  ]
+}

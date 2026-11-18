@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.jp-no-censorship",
+  "title": "Japan's constitution guarantees expression and says no censorship shall be maintained",
+  "section": "world",
+  "category": "law",
+  "summary": "Japan's constitution guarantees expression and says no censorship shall be maintained.",
+  "body": "Article 21 guarantees freedom of assembly and association, and speech, press, and all other forms of expression, and says no censorship shall be maintained, nor shall the secrecy of any means of communication be violated. The source says: \"No censorship shall be maintained, nor shall the secrecy of any means of communication be violated.\" The ban on censorship is in the article alongside the guarantee. Limits recognized in other articles, such as the public-welfare phrasing in Article 12, are not restated here.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Japan, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Japan_1946?lang=en",
+      "author": "Constitution of Japan, Constitute Project English text",
+      "date": "1946",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Japan, Article 21",
+  "as_of_date": "1946",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.jp-courts",
+    "world.core.power.jp-emperor-no-government",
+    "world.core.power.jp-diet"
+  ],
+  "tags": [
+    "law",
+    "japan",
+    "speech"
+  ]
+}

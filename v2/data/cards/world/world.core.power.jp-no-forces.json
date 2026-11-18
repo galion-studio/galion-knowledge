@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.jp-no-forces",
+  "title": "Article 9 says land, sea, and air forces, and other war potential, will never be maintained",
+  "section": "world",
+  "category": "law",
+  "summary": "Article 9 says land, sea, and air forces, and other war potential, will never be maintained.",
+  "body": "The same article says that, in order to accomplish the aim of the preceding paragraph, land, sea, and air forces, as well as other war potential, will never be maintained, and the right of belligerency of the state will not be recognized. The source says: \"In order to accomplish the aim of the preceding paragraph, land, sea, and air forces, as well as other war potential, will never be maintained.\" This card records that sentence of the constitution. It does not describe later statutes about the Self-Defense Forces, which are not this sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Japan, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Japan_1946?lang=en",
+      "author": "Constitution of Japan, Constitute Project English text",
+      "date": "1946",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Japan, Article 9",
+  "as_of_date": "1946",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.jp-no-censorship",
+    "world.core.power.jp-courts",
+    "world.core.power.jp-emperor-no-government"
+  ],
+  "tags": [
+    "law",
+    "japan",
+    "forces"
+  ]
+}

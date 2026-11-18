@@ -1,0 +1,32 @@
+{
+  "id": "world.core.money.wto-mfn",
+  "title": "The WTO states most-favoured-nation treatment as a rule against discriminating among trading partners",
+  "section": "world",
+  "category": "economics",
+  "summary": "The WTO states most-favoured-nation treatment as a rule against discriminating among trading partners.",
+  "body": "The WTO's principles page says that under the agreements, countries cannot normally discriminate between their trading partners: a special favour such as a lower customs duty for one member must be done for all other WTO members. The source says: \"Most-favoured-nation (MFN): treating other people equally Under the WTO agreements, countries cannot normally discriminate between their trading partners.\" The page also says exceptions exist, including free-trade agreements, special access for developing countries, and barriers against products considered unfairly traded, and that those exceptions are permitted only under strict conditions. The rule and the exceptions are both the WTO's account.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Principles of the trading system",
+      "url": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact2_e.htm",
+      "author": "World Trade Organization",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "World Trade Organization",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.gatt-mfn-text",
+    "world.core.money.wto-national-treatment",
+    "world.core.money.wto-barriers"
+  ],
+  "tags": [
+    "economics",
+    "trade"
+  ]
+}

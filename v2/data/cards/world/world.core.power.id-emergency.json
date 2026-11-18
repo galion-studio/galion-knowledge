@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.id-emergency",
+  "title": "Indonesia's constitution allows a state of emergency, with the conditions regulated by law",
+  "section": "world",
+  "category": "law",
+  "summary": "Indonesia's constitution allows a state of emergency, with the conditions regulated by law.",
+  "body": "Article 12 says the president may declare a state of emergency, and that the conditions for the declaration and the subsequent measures shall be regulated by law. The source says: \"Emergency provisions Article 12 The President may declare a state of emergency.\" The constitution grants the power and sends the conditions to statute. It does not, in this article, list those conditions.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Indonesia, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Indonesia_2002?lang=en",
+      "author": "Constitution of Indonesia, Constitute Project English text",
+      "date": "2002",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Indonesia, Article 12",
+  "as_of_date": "2002",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.id-cannot-dissolve",
+    "world.core.power.id-term",
+    "world.core.power.fr-article-16"
+  ],
+  "tags": [
+    "law",
+    "indonesia",
+    "emergency"
+  ]
+}

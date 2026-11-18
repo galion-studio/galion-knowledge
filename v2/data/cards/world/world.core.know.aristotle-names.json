@@ -1,0 +1,33 @@
+{
+  "id": "world.core.know.aristotle-names",
+  "title": "Aristotle's warning: names are finite and things are not, so what follows in the names need not follow in the things",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Aristotle's warning: names are finite and things are not, so what follows in the names need not follow in the things.",
+  "body": "The same translation says it is impossible in a discussion to bring in the things themselves, so we use names as symbols, and we suppose that what follows in the names follows in the things. Aristotle says the cases are not alike, because names and formulae are finite and things are infinite in number. The source says: \"For names are finite and so is the sum-total of formulae, while things are infinite in number.\" This is a reason, in his text, why arguments that turn on names are a prolific source of apparent refutations. It is not a modern catalogue of named fallacies.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On Sophistical Refutations, Internet Classics Archive",
+      "url": "http://classics.mit.edu/Aristotle/sophist_refut.1.1.html",
+      "author": "Aristotle, translated for the Internet Classics Archive",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Aristotle, Sophistical Refutations, Internet Classics Archive translation",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.know.forallx-sound",
+    "world.core.know.aristotle-reasoning",
+    "world.core.know.aristotle-seven"
+  ],
+  "tags": [
+    "logic",
+    "language",
+    "fallacies"
+  ]
+}

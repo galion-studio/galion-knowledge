@@ -1,0 +1,31 @@
+{
+  "id": "world.core.tech.nist-base-units",
+  "title": "NIST lists seven SI base units: meter, kilogram, second, ampere, kelvin, mole, and candela",
+  "section": "world",
+  "category": "measurement",
+  "summary": "NIST lists seven SI base units: meter, kilogram, second, ampere, kelvin, mole, and candela.",
+  "body": "NIST's SI units page lists seven base units: the meter for length, the kilogram for mass, the second for time, the ampere for electric current, the kelvin for temperature, the mole for amount of substance, and the candela for luminous intensity. It says the base units and the derived units with special names form a core set, and that all other SI units are combinations of those. The source says: \"The seven SI base units, which are comprised of: Length - meter (m) Time - second (s) Amount of substance - mole (mol) Electric current - ampere (A) Temperature - kelvin (K) Luminous intensity - candela (cd) Mass - kilogram (kg) Together the base units and derived units with special names (twenty-nine units) form the core set of SI units .\" The list is the base. A derived unit such as the joule or the watt is a combination, not an eighth base. The 2019 redefinition of how some of these are realized is a different card already in the pack.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "SI Units",
+      "url": "https://www.nist.gov/pml/owm/metric-si/si-units",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Institute of Standards and Technology",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.btu"
+  ],
+  "tags": [
+    "measurement",
+    "si",
+    "units"
+  ]
+}

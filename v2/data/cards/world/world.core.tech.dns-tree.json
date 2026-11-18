@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.dns-tree",
+  "title": "DNS names form a tree, with data in resource records",
+  "section": "world",
+  "category": "technology",
+  "summary": "DNS names form a tree, with data in resource records.",
+  "body": "RFC 1034 describes the domain name space and resource records as a tree-structured name space and the data associated with the names. Conceptually, each node and leaf of the tree has a label. The source says: \"Elements of the DNS The DNS has three major components: - The DOMAIN NAME SPACE and RESOURCE RECORDS, which are specifications for a tree structured name space and data associated with the names.\" The hierarchy is the specification's structure. A name is a path in that tree, not a free-form string with no parent.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 1034: Domain Names — Concepts and Facilities",
+      "url": "https://www.rfc-editor.org/rfc/rfc1034",
+      "author": "P. Mockapetris",
+      "date": "1987-11",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "P. Mockapetris, RFC 1034",
+  "as_of_date": "1987-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.end-to-end-argument"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "dns"
+  ]
+}

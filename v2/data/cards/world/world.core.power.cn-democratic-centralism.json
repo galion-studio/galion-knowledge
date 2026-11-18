@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.cn-democratic-centralism",
+  "title": "China's constitution says state organs apply democratic centralism",
+  "section": "world",
+  "category": "law",
+  "summary": "China's constitution says state organs apply democratic centralism.",
+  "body": "Article 3 says the state organs apply the principle of democratic centralism, that congresses are instituted through democratic election, and that they are responsible to the people and subject to their supervision. The source says: \"Article 3 The state organs of the People's Republic of China apply the principle of democratic centralism.\" Democratic centralism is the constitution's name for the principle. The card does not replace that phrase with a different theory of representation.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the People's Republic of China, Constitute Project English text (2018 compilation)",
+      "url": "https://www.constituteproject.org/constitution/China_2018?lang=en",
+      "author": "Constitution of the People's Republic of China, Constitute Project English text (2018 compilation)",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of the People's Republic of China, Article 3",
+  "as_of_date": "2018",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.cn-urban-land",
+    "world.core.power.cn-nonpublic",
+    "world.core.power.cn-public-ownership"
+  ],
+  "tags": [
+    "law",
+    "china",
+    "institutions"
+  ]
+}

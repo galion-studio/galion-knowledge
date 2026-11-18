@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.pkix",
+  "title": "RFC 5280 profiles X.509 certificates and certificate revocation lists for the Internet",
+  "section": "world",
+  "category": "technology",
+  "summary": "RFC 5280 profiles X.509 certificates and certificate revocation lists for the Internet.",
+  "body": "RFC 5280 profiles X.509 public-key certificates and certificate revocation lists for use on the Internet. The source says: \"Polk NIST May 2008 Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile Status of This Memo This document specifies an Internet standards track protocol for the Internet community, and requests discussion and suggestions for improvements.\" A certificate is a signed statement in that profile, not a fact that the named party is trustworthy beyond what the issuer asserted and what relying parties choose to accept. Revocation is part of the same profile.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 5280: Internet X.509 Public Key Infrastructure Certificate and CRL Profile",
+      "url": "https://www.rfc-editor.org/rfc/rfc5280",
+      "author": "D. Cooper, S. Santesson, S. Farrell, S. Boeyen, R. Housley, and W. Polk",
+      "date": "2008-05",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "D. Cooper and others, RFC 5280",
+  "as_of_date": "2008-05",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.oauth",
+    "world.core.tech.jwt"
+  ],
+  "tags": [
+    "technology",
+    "security",
+    "pki"
+  ]
+}
