@@ -1,0 +1,33 @@
+{
+  "id": "world.astronomy.jupiter-fact-sheet",
+  "title": "NASA's Jupiter fact sheet: mass 1,898.13×10^24 kg and 95 satellites",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet lists Jupiter's mass as 1,898.13 × 10^24 kg, equatorial radius at the 1-bar level 71,492 km, volumetric mean radius 69,911 km, mean density 1,326 kg/m^3, sidereal orbit 4,332.589 days, and 95 natural satellites.",
+  "body": "The sheet lists Jupiter's mass as 1,898.13 × 10^24 kg, equatorial radius at the 1-bar level 71,492 km, volumetric mean radius 69,911 km, mean density 1,326 kg/m^3, sidereal orbit 4,332.589 days, and 95 natural satellites. It lists a planetary ring system as Yes. The satellite count is the count on this dated sheet, not a promise about later discoveries. Author of the sheet: Dr. David R. Williams, NASA Goddard Space Flight Center. Last updated on the page: 2024-10-02.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Jupiter Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-10-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-10-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.eight-planets",
+    "world.sun-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "jupiter"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world.physics.proton-mass",
+  "title": "2022 CODATA: proton mass is 1.672 621 925 95 × 10^−27",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2022 CODATA complete listing, from NIST, gives proton mass as 1.672 621 925 95 × 10^−27 kg, with uncertainty 0.000 000 000 52 × 10^−27 kg.",
+  "body": "The 2022 CODATA complete listing, from NIST, gives proton mass as 1.672 621 925 95 × 10^−27 kg, with uncertainty 0.000 000 000 52 × 10^−27 kg. The row is not marked exact. The 2022 listing's proton mass, in kilograms, with the stated uncertainty.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "2022 CODATA complete listing of the fundamental physical constants",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "ASCII table fetched 2026-11-18. The card's number is that row."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, 2022 CODATA adjustment",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "codata",
+    "constants"
+  ],
+  "read_time_min": 1
+}

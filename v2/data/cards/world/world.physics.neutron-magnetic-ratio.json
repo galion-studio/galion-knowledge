@@ -1,0 +1,32 @@
+{
+  "id": "world.physics.neutron-magnetic-ratio",
+  "title": "2022 CODATA: neutron mag. mom. to nuclear magneton ratio is -1.913 042 76",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2022 CODATA complete listing, from NIST, gives neutron mag.",
+  "body": "The 2022 CODATA complete listing, from NIST, gives neutron mag. mom. to nuclear magneton ratio as -1.913 042 76, with uncertainty 0.000 000 45. The row is not marked exact. The neutron magnetic moment divided by the nuclear magneton, from the 2022 listing. The sign is part of the row.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "2022 CODATA complete listing of the fundamental physical constants",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "ASCII table fetched 2026-11-18. The card's number is that row."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, 2022 CODATA adjustment",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "codata",
+    "constants"
+  ],
+  "read_time_min": 1
+}

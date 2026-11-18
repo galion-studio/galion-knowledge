@@ -1,0 +1,32 @@
+{
+  "id": "world.constants.standard-state-pressure",
+  "title": "2022 CODATA: standard-state pressure is 100 000",
+  "section": "world",
+  "category": "measurement",
+  "summary": "The 2022 CODATA complete listing, from NIST, marks standard-state pressure as exact: 100 000 Pa.",
+  "body": "The 2022 CODATA complete listing, from NIST, marks standard-state pressure as exact: 100 000 Pa. No uncertainty is printed on that row. The standard-state pressure in this listing is a conventional exact pressure of 100 000 pascals. It is not the standard atmosphere of 101 325 pascals.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "2022 CODATA complete listing of the fundamental physical constants",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "ASCII table fetched 2026-11-18. The card's number is that row."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, 2022 CODATA adjustment",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:constants",
+    "codata",
+    "constants"
+  ],
+  "read_time_min": 1
+}

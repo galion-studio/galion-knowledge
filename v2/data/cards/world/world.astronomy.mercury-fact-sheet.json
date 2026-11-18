@@ -1,0 +1,33 @@
+{
+  "id": "world.astronomy.mercury-fact-sheet",
+  "title": "NASA's Mercury fact sheet: mass 0.33010×10^24 kg, orbit 87.969 days",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet lists Mercury's mass as 0.33010 × 10^24 kg, equatorial radius 2440.5 km, mean density 5429 kg/m^3, surface gravity 3.70 m/s^2, sidereal orbit 87.969 days, and zero natural satellites.",
+  "body": "The sheet lists Mercury's mass as 0.33010 × 10^24 kg, equatorial radius 2440.5 km, mean density 5429 kg/m^3, surface gravity 3.70 m/s^2, sidereal orbit 87.969 days, and zero natural satellites. The sidereal rotation period is printed as 1407.6 hours. Author of the sheet: Dr. David R. Williams, NASA Goddard Space Flight Center. Last updated on the page: 2024-01-11.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Mercury Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-01-11",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-01-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.eight-planets",
+    "world.sun-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "mercury"
+  ],
+  "read_time_min": 1
+}

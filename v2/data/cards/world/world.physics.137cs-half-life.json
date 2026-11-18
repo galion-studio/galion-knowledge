@@ -1,0 +1,43 @@
+{
+  "id": "world.physics.137cs-half-life",
+  "title": "IAEA Live Chart: 137Cs half-life 30.08 Y (uncertainty from the seconds column)",
+  "section": "world",
+  "category": "physics",
+  "summary": "The Live Chart row for 137Cs lists half-life 30.08 with unit Y. The seconds columns fix the absolute uncertainty at 0.09 years.",
+  "body": "The IAEA Live Chart ground-state row for 137Cs (Z=55, N=82), extracted 2026-11-18, lists half_life 30.08, unit_hl Y, unc_hl 9, half_life_sec 949232333.3157274, and unc_hls 2840123.33771328. Dividing half_life_sec by half_life gives 31556926 seconds per unit, so unit code Y is years in this row. Dividing unc_hls by that same number gives an absolute uncertainty of 0.09 years. The small integer unc_hl (9) matches that absolute uncertainty as 9 in the last significant place of the printed half-life, not as 9 years on its own. The leading decay field is B- at 100 percent. The row's ENSDF publication cut-off field is 1-Oct-2006. This is the database row, not a new laboratory measurement made for this card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "IAEA Live Chart ground state 137Cs",
+      "url": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=137Cs",
+      "author": "International Atomic Energy Agency, Live Chart of Nuclides",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "CSV extracted 2026-11-18. ENSDF cut-off field: 1-Oct-2006."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "IAEA Live Chart / ENSDF",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.hertz-and-becquerel"
+  ],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "nuclear",
+    "137Cs"
+  ],
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "Truth gate ceiling. The only source host is iaea.org, class other, whose ceiling is weak. The Live Chart row was not changed and no source was added."
+    }
+  ]
+}

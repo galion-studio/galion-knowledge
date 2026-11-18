@@ -1,0 +1,32 @@
+{
+  "id": "world.constants.von-klitzing",
+  "title": "2022 CODATA: von Klitzing constant is 25 812.807 45...",
+  "section": "world",
+  "category": "measurement",
+  "summary": "The 2022 CODATA complete listing, from NIST, marks von Klitzing constant as exact: 25 812.807 45...",
+  "body": "The 2022 CODATA complete listing, from NIST, marks von Klitzing constant as exact: 25 812.807 45... ohm. The ellipsis is in the file. No further digits are added here. The von Klitzing constant is the resistance quantum used in the quantum Hall effect. The 2022 listing marks it exact and prints an ellipsis.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "2022 CODATA complete listing of the fundamental physical constants",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "ASCII table fetched 2026-11-18. The card's number is that row."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, 2022 CODATA adjustment",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:constants",
+    "codata",
+    "constants"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world.chemistry.ethanol",
+  "title": "NIST WebBook: Ethanol is C2H6O, molecular weight 46.0684 amu",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The NIST Chemistry WebBook lists Ethanol as C2H6O, molecular weight 46.0684 amu, CAS 64-17-5.",
+  "body": "The NIST Chemistry WebBook entry for Ethanol, CAS Registry Number 64-17-5, lists molecular formula C2H6O and molecular weight 46.0684 amu. The same entry's monoisotopic molecular weight is 46.0418648 amu. The IUPAC InChI on the entry is InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3. The molecular weight and the monoisotopic mass are two different fields. This card reports the catalog entry. It does not convert either field into a molar mass in grams, and it does not say that every real sample has that weight.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Ethanol, NIST Chemistry WebBook SRD 69",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C64175&Units=SI",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "JSON-LD MolecularEntity and the CAS line on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "webbook",
+    "C2H6O"
+  ],
+  "read_time_min": 1
+}

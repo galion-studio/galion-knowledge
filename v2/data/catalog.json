@@ -40,6 +40,7 @@
     {"id": "religion", "section": "world", "name": "Religion", "description": "Traditions and texts, named as traditions and texts.", "color": "#c084fc", "icon": "book-open"},
     {"id": "method", "section": "world", "name": "Method", "description": "How a result was measured or argued.", "color": "#94a3b8", "icon": "scale"},
     {"id": "measurement", "section": "world", "name": "Measurement", "description": "Units, standards, and what a number counts.", "color": "#3b82f6", "icon": "calculator"},
+    {"id": "chemistry", "section": "world", "name": "Chemistry", "description": "Substances, formulas, and catalogued atomic and molecular weights.", "color": "#06b6d4", "icon": "microscope"},
     {"id": "conversation", "section": "horbm", "name": "Conversation", "description": "Turn-taking, when to speak, and when to stop.", "color": "#38bdf8", "icon": "messages-square"},
     {"id": "affect", "section": "horbm", "name": "Affect", "description": "Emotion as a point, and cues that do not invent a personality.", "color": "#fb7185", "icon": "heart"},
     {"id": "persona", "section": "horbm", "name": "Persona", "description": "Who is speaking, and what that voice will not say.", "color": "#c084fc", "icon": "brain"},

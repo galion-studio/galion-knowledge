@@ -1,0 +1,34 @@
+{
+  "id": "world.chemistry.carbon",
+  "title": "NIST WebBook: Carbon is C, molecular weight 12.0107 amu",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The NIST Chemistry WebBook lists Carbon as C, molecular weight 12.0107 amu, CAS 7440-44-0.",
+  "body": "The NIST Chemistry WebBook entry for Carbon, CAS Registry Number 7440-44-0, lists molecular formula C and molecular weight 12.0107 amu. The same entry's monoisotopic molecular weight is 12.0000000 amu. The IUPAC InChI on the entry is InChI=1S/C. The molecular weight and the monoisotopic mass are two different fields. This card reports the catalog entry. It does not convert either field into a molar mass in grams, and it does not say that every real sample has that weight.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Carbon, NIST Chemistry WebBook SRD 69",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7440440&Units=SI",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "JSON-LD MolecularEntity and the CAS line on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.mole-avogadro"
+  ],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "webbook",
+    "C"
+  ],
+  "read_time_min": 1
+}
