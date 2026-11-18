@@ -19,7 +19,18 @@
   "said_by": "Maria Baghramian and J. Adam Carter",
   "as_of_date": "2015-09-11",
   "status": "sourced - needs review",
-  "contested_views": [],
+  "contested_views": [
+    {
+      "label": "Descriptive",
+      "summary": "Baghramian and Carter distinguish the claim that people differ in moral judgments.",
+      "status": "SEP Relativism. The entry does not settle the philosophical question."
+    },
+    {
+      "label": "Philosophical",
+      "summary": "The same entry distinguishes the claim that there is no stance-independent moral truth. This card says competent philosophers still defend both sides of whether moral truths are universal, and it names no winner.",
+      "status": "SEP Relativism. Not settled here."
+    }
+  ],
   "related": [
     "world.virtue-consequentialism-kant"
   ],
@@ -34,5 +45,14 @@
     "v1_slug": "ethics-morality",
     "v1_category": "philosophy",
     "note": "v1 truthScore and source-count fields are not evidence and are not copied."
-  }
+  },
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "contested_views",
+      "from": "0",
+      "to": "2",
+      "note": "claim_type is contested and contested_views was empty. The views named in the body were copied into the field. No side was added that the body did not already state."
+    }
+  ]
 }

@@ -11,7 +11,18 @@
   "said_by": "v1 knowledge article (unsourced compilation)",
   "as_of_date": "",
   "status": "unsourced - needs review",
-  "contested_views": [],
+  "contested_views": [
+    {
+      "label": "v1 article",
+      "summary": "The v1 socialism article files a strong welfare state and Nordic model elements under democratic socialism.",
+      "status": "unsourced - needs review"
+    },
+    {
+      "label": "Left open",
+      "summary": "Whether Sweden, Norway, and Denmark are socialist is a definitional dispute. This pass did not open a statistical office or a party platform.",
+      "status": "unsourced - needs review"
+    }
+  ],
   "related": [
     "world.capitalism-not-one-definition",
     "world.communist-manifesto-1848"
@@ -26,5 +37,14 @@
     "v1_slug": "socialism",
     "v1_category": "society",
     "note": "v1 truthScore and source-count fields are not evidence and are not copied."
-  }
+  },
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "contested_views",
+      "from": "0",
+      "to": "2",
+      "note": "claim_type is contested and contested_views was empty. The views named in the body were copied into the field. No side was added that the body did not already state."
+    }
+  ]
 }

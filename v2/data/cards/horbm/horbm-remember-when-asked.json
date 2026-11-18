@@ -46,7 +46,7 @@
       "note": "Draft research note on pull request 208. Not merged. Not a lock. Opinions in that note stay opinions here."
     }
   ],
-  "evidence_strength": "strong",
+  "evidence_strength": "weak",
   "said_by": "Galion Labs",
   "as_of_date": "2026-11-18",
   "status": "draft",
@@ -71,5 +71,14 @@
   "aliases": [
     "horbm.memory.explicit-remember"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "Truth gate ceiling. The attached sources support weak, not strong. Best source class on this card: house. No source was added or removed."
+    }
+  ]
 }

@@ -19,11 +19,31 @@
   "said_by": "Tom Christiano and Sameer Bajaj",
   "as_of_date": "2026-11-18",
   "status": "sourced",
-  "contested_views": [],
+  "contested_views": [
+    {
+      "label": "Normative theory",
+      "summary": "Christiano and Bajaj describe this project as the moral foundations of democracy and the duties of representatives and citizens.",
+      "status": "SEP Democracy, as read 2026-11-18. This card does not rank states."
+    },
+    {
+      "label": "Descriptive theory",
+      "summary": "The same entry describes this project as describing and explaining how democratic institutions function.",
+      "status": "SEP Democracy, as read 2026-11-18."
+    }
+  ],
   "related": [
     "world.philosophy.social-contract",
     "world.mathematics.condorcet-jury-theorem",
     "world.history.declaration-of-the-rights-of-man-1789"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "contested_views",
+      "from": "0",
+      "to": "2",
+      "note": "claim_type is contested and contested_views was empty. The views named in the body were copied into the field. No side was added that the body did not already state."
+    }
+  ]
 }

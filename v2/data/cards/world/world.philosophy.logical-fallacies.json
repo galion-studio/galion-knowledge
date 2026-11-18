@@ -19,10 +19,30 @@
   "said_by": "Hans Hansen",
   "as_of_date": "2026-11-18",
   "status": "sourced",
-  "contested_views": [],
+  "contested_views": [
+    {
+      "label": "Belief conception",
+      "summary": "Fallacies are false but popular beliefs. Hansen names this the belief conception.",
+      "status": "Hans Hansen, SEP Fallacies, as read 2026-11-18."
+    },
+    {
+      "label": "Argument conception",
+      "summary": "Fallacies are deceptively bad arguments. Hansen says academic writers who have attended to the subject prefer this conception.",
+      "status": "Hans Hansen, SEP Fallacies, as read 2026-11-18."
+    }
+  ],
   "related": [
     "world.philosophy.free-will",
     "world.society.cognitive-biases"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "contested_views",
+      "from": "0",
+      "to": "2",
+      "note": "claim_type is contested and contested_views was empty. The views named in the body were copied into the field. No side was added that the body did not already state."
+    }
+  ]
 }

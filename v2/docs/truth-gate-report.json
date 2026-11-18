@@ -1,0 +1,2571 @@
+{
+  "gate": "truth-gate",
+  "version": "0.1.0",
+  "generated_on": "2026-11-18",
+  "cards": 436,
+  "hard_failures": 0,
+  "warnings": 214,
+  "info": 55,
+  "by_code": {
+    "attribution_unknown": 54,
+    "contested_single_source": 19,
+    "fact_house_only": 5,
+    "loaded_language": 9,
+    "mentions_wikipedia": 1,
+    "near_duplicate": 7,
+    "opinion_marked_strong": 5,
+    "outlet_dominates": 12,
+    "sources_stronger_than_label": 1,
+    "strong_on_preprint": 5,
+    "strong_single_source": 150,
+    "voice_dominates": 1
+  },
+  "findings": [
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.arts.depiction",
+      "path": "world/world.arts.depiction.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.arts.iliad-attributed-to-homer",
+      "path": "world/world.arts.iliad-attributed-to-homer.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.camus-not-existentialist",
+      "path": "world/world.camus-not-existentialist.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.capitalism-not-one-definition",
+      "path": "world/world.capitalism-not-one-definition.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.dunning-kruger-1999",
+      "path": "world/world.dunning-kruger-1999.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.free-will-disputed",
+      "path": "world/world.free-will-disputed.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.history.first-world-war-responsibility",
+      "path": "world/world.history.first-world-war-responsibility.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.history.rights-of-man-1789",
+      "path": "world/world.history.rights-of-man-1789.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.history.scientific-revolutions-contested",
+      "path": "world/world.history.scientific-revolutions-contested.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.madjedbebe-2017",
+      "path": "world/world.madjedbebe-2017.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.mathematics.probability-interpretations",
+      "path": "world/world.mathematics.probability-interpretations.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.moral-relativism-sep",
+      "path": "world/world.moral-relativism-sep.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.philosophy.free-will-not-settled",
+      "path": "world/world.philosophy.free-will-not-settled.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.philosophy.logical-fallacies",
+      "path": "world/world.philosophy.logical-fallacies.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.philosophy.social-contract",
+      "path": "world/world.philosophy.social-contract.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.society.democracy",
+      "path": "world/world.society.democracy.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.superposition-interpretations",
+      "path": "world/world.superposition-interpretations.json",
+      "message": "This contested card has 1 independent source."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.unsourced-buddha-birth-year",
+      "path": "world/world.unsourced-buddha-birth-year.json",
+      "message": "This contested card has 0 independent sources."
+    },
+    {
+      "severity": "warn",
+      "code": "contested_single_source",
+      "card_id": "world.unsourced-nordic-model",
+      "path": "world/world.unsourced-nordic-model.json",
+      "message": "This contested card has 0 independent sources."
+    },
+    {
+      "severity": "warn",
+      "code": "fact_house_only",
+      "card_id": "horbm-empathy-weight",
+      "path": "horbm/horbm-empathy-weight.json",
+      "message": "This fact is sourced only to a house document. The URL is real. It is not an outside finding."
+    },
+    {
+      "severity": "warn",
+      "code": "fact_house_only",
+      "card_id": "horbm-harm-and-limits",
+      "path": "horbm/horbm-harm-and-limits.json",
+      "message": "This fact is sourced only to a house document. The URL is real. It is not an outside finding."
+    },
+    {
+      "severity": "warn",
+      "code": "fact_house_only",
+      "card_id": "horbm-persona-galion-one",
+      "path": "horbm/horbm-persona-galion-one.json",
+      "message": "This fact is sourced only to a house document. The URL is real. It is not an outside finding."
+    },
+    {
+      "severity": "warn",
+      "code": "fact_house_only",
+      "card_id": "horbm-persona-galion-research",
+      "path": "horbm/horbm-persona-galion-research.json",
+      "message": "This fact is sourced only to a house document. The URL is real. It is not an outside finding."
+    },
+    {
+      "severity": "warn",
+      "code": "fact_house_only",
+      "card_id": "horbm-withdrawal",
+      "path": "horbm/horbm-withdrawal.json",
+      "message": "This fact is sourced only to a house document. The URL is real. It is not an outside finding."
+    },
+    {
+      "severity": "warn",
+      "code": "loaded_language",
+      "card_id": "world.genocide-convention",
+      "path": "world/world.genocide-convention.json",
+      "message": "Fact card uses loaded or propaganda wording: genocide. This is a flag, not a rejection.",
+      "detail": {
+        "phrases": [
+          "genocide"
+        ]
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "loaded_language",
+      "card_id": "world.history.holocaust-documentation",
+      "path": "world/world.history.holocaust-documentation.json",
+      "message": "Fact card uses loaded or propaganda wording: genocide, nazi. This is a flag, not a rejection.",
+      "detail": {
+        "phrases": [
+          "genocide",
+          "nazi"
+        ]
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "loaded_language",
+      "card_id": "world.history.holocaust-victim-counts",
+      "path": "world/world.history.holocaust-victim-counts.json",
+      "message": "Fact card uses loaded or propaganda wording: genocide, nazi, nazis. This is a flag, not a rejection.",
+      "detail": {
+        "phrases": [
+          "genocide",
+          "nazi",
+          "nazis"
+        ]
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "loaded_language",
+      "card_id": "world.holocaust-other-groups",
+      "path": "world/world.holocaust-other-groups.json",
+      "message": "Fact card uses loaded or propaganda wording: nazis. This is a flag, not a rejection.",
+      "detail": {
+        "phrases": [
+          "nazis"
+        ]
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "loaded_language",
+      "card_id": "world.holocaust-ushmm",
+      "path": "world/world.holocaust-ushmm.json",
+      "message": "Fact card uses loaded or propaganda wording: genocide, nazi, nazis, regime. This is a flag, not a rejection.",
+      "detail": {
+        "phrases": [
+          "genocide",
+          "nazi",
+          "nazis",
+          "regime"
+        ]
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "loaded_language",
+      "card_id": "world.law.human-rights-declaration",
+      "path": "world/world.law.human-rights-declaration.json",
+      "message": "Fact card uses loaded or propaganda wording: barbarous. This is a flag, not a rejection.",
+      "detail": {
+        "phrases": [
+          "barbarous"
+        ]
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "loaded_language",
+      "card_id": "world.law.nuremberg-crimes",
+      "path": "world/world.law.nuremberg-crimes.json",
+      "message": "Fact card uses loaded or propaganda wording: atrocity. This is a flag, not a rejection.",
+      "detail": {
+        "phrases": [
+          "atrocity"
+        ]
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "loaded_language",
+      "card_id": "world.nasa-warming-attribution",
+      "path": "world/world.nasa-warming-attribution.json",
+      "message": "Fact card uses loaded or propaganda wording: unprecedented. This is a flag, not a rejection.",
+      "detail": {
+        "phrases": [
+          "unprecedented"
+        ]
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "loaded_language",
+      "card_id": "world.rwanda-april-1994",
+      "path": "world/world.rwanda-april-1994.json",
+      "message": "Fact card uses loaded or propaganda wording: genocide. This is a flag, not a rejection.",
+      "detail": {
+        "phrases": [
+          "genocide"
+        ]
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "mentions_wikipedia",
+      "card_id": "world.science.entropy",
+      "path": "world/world.science.entropy.json",
+      "message": "The card text names wikidata. That is not a source. Confirm the sentence does not treat it as evidence.",
+      "detail": {
+        "phrases": [
+          "wikidata"
+        ]
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "near_duplicate",
+      "card_id": "horbm-say-i-dont-know",
+      "path": "horbm/horbm-say-i-dont-know.json",
+      "message": "Near-duplicate of horbm.honesty.i-dont-know. Shared-word score is 0.41. The cards were not merged and neither file was deleted.",
+      "detail": {
+        "body_jaccard": 0.42,
+        "jaccard": 0.41,
+        "other_id": "horbm.honesty.i-dont-know",
+        "rule": "text",
+        "title_jaccard": 0.07
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "near_duplicate",
+      "card_id": "horbm-withdrawal",
+      "path": "horbm/horbm-withdrawal.json",
+      "message": "Near-duplicate of horbm.safety.withdrawal. Shared-word score is 0.48. The cards were not merged and neither file was deleted.",
+      "detail": {
+        "body_jaccard": 0.48,
+        "jaccard": 0.48,
+        "other_id": "horbm.safety.withdrawal",
+        "rule": "text",
+        "title_jaccard": 0.25
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "near_duplicate",
+      "card_id": "horbm.age.do-not-guess",
+      "path": "horbm/horbm.age.do-not-guess.json",
+      "message": "Near-duplicate of horbm.culture.do-not-infer. Shared-word score is 0.26. The cards were not merged and neither file was deleted.",
+      "detail": {
+        "body_jaccard": 0.26,
+        "jaccard": 0.26,
+        "other_id": "horbm.culture.do-not-infer",
+        "rule": "title-and-body",
+        "title_jaccard": 0.5
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "near_duplicate",
+      "card_id": "world.eht-m87-2019",
+      "path": "world/world.eht-m87-2019.json",
+      "message": "Near-duplicate of world.eht-sgr-a-2022. Shared-word score is 0.43. The cards were not merged and neither file was deleted.",
+      "detail": {
+        "body_jaccard": 0.41,
+        "jaccard": 0.43,
+        "other_id": "world.eht-sgr-a-2022",
+        "rule": "text",
+        "title_jaccard": 0.55
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "near_duplicate",
+      "card_id": "world.history.eclipse-1919-light-deflection",
+      "path": "world/world.history.eclipse-1919-light-deflection.json",
+      "message": "Near-duplicate of world.light-deflection-1919. Shared-word score is 0.27. The cards were not merged and neither file was deleted.",
+      "detail": {
+        "body_jaccard": 0.27,
+        "jaccard": 0.27,
+        "other_id": "world.light-deflection-1919",
+        "rule": "title-and-body",
+        "title_jaccard": 0.45
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "near_duplicate",
+      "card_id": "world.metre-speed-of-light",
+      "path": "world/world.metre-speed-of-light.json",
+      "message": "Near-duplicate of world.science.speed-of-light-exact. Shared-word score is 0.27. The cards were not merged and neither file was deleted.",
+      "detail": {
+        "body_jaccard": 0.28,
+        "jaccard": 0.27,
+        "other_id": "world.science.speed-of-light-exact",
+        "rule": "title-and-body",
+        "title_jaccard": 0.54
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "near_duplicate",
+      "card_id": "world.photoelectric-1905",
+      "path": "world/world.photoelectric-1905.json",
+      "message": "Near-duplicate of world.science.photoelectric-effect. Shared-word score is 0.43. The cards were not merged and neither file was deleted.",
+      "detail": {
+        "body_jaccard": 0.41,
+        "jaccard": 0.43,
+        "other_id": "world.science.photoelectric-effect",
+        "rule": "text",
+        "title_jaccard": 0.2
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "opinion_marked_strong",
+      "card_id": "horbm-barge-in",
+      "path": "horbm/horbm-barge-in.json",
+      "message": "This card is an opinion labeled strong. A design choice that cites research is still a house rule on the evidence scale, unless the claim is the source's own finding."
+    },
+    {
+      "severity": "warn",
+      "code": "opinion_marked_strong",
+      "card_id": "horbm-hedge-a-guess",
+      "path": "horbm/horbm-hedge-a-guess.json",
+      "message": "This card is an opinion labeled strong. A design choice that cites research is still a house rule on the evidence scale, unless the claim is the source's own finding."
+    },
+    {
+      "severity": "warn",
+      "code": "opinion_marked_strong",
+      "card_id": "horbm-mood-point-80ms",
+      "path": "horbm/horbm-mood-point-80ms.json",
+      "message": "This card is an opinion labeled strong. A design choice that cites research is still a house rule on the evidence scale, unless the claim is the source's own finding."
+    },
+    {
+      "severity": "warn",
+      "code": "opinion_marked_strong",
+      "card_id": "horbm-no-inferred-portrait",
+      "path": "horbm/horbm-no-inferred-portrait.json",
+      "message": "This card is an opinion labeled strong. A design choice that cites research is still a house rule on the evidence scale, unless the claim is the source's own finding."
+    },
+    {
+      "severity": "warn",
+      "code": "opinion_marked_strong",
+      "card_id": "horbm-say-i-dont-know",
+      "path": "horbm/horbm-say-i-dont-know.json",
+      "message": "This card is an opinion labeled strong. A design choice that cites research is still a house rule on the evidence scale, unless the claim is the source's own finding."
+    },
+    {
+      "severity": "warn",
+      "code": "outlet_dominates",
+      "card_id": "",
+      "path": "horbm/age",
+      "message": "In horbm/age, github.com is 5 of 8 source URLs (62%). One outlet accounts for most of this topic.",
+      "detail": {
+        "category": "age",
+        "count": 5,
+        "domain": "github.com",
+        "section": "horbm",
+        "share": 0.625,
+        "total": 8
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "outlet_dominates",
+      "card_id": "",
+      "path": "horbm/closings",
+      "message": "In horbm/closings, github.com is 8 of 12 source URLs (67%). One outlet accounts for most of this topic.",
+      "detail": {
+        "category": "closings",
+        "count": 8,
+        "domain": "github.com",
+        "section": "horbm",
+        "share": 0.667,
+        "total": 12
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "outlet_dominates",
+      "card_id": "",
+      "path": "horbm/empathy",
+      "message": "In horbm/empathy, github.com is 5 of 7 source URLs (71%). One outlet accounts for most of this topic.",
+      "detail": {
+        "category": "empathy",
+        "count": 5,
+        "domain": "github.com",
+        "section": "horbm",
+        "share": 0.714,
+        "total": 7
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "outlet_dominates",
+      "card_id": "",
+      "path": "horbm/honesty",
+      "message": "In horbm/honesty, github.com is 19 of 30 source URLs (63%). One outlet accounts for most of this topic.",
+      "detail": {
+        "category": "honesty",
+        "count": 19,
+        "domain": "github.com",
+        "section": "horbm",
+        "share": 0.633,
+        "total": 30
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "outlet_dominates",
+      "card_id": "",
+      "path": "horbm/memory",
+      "message": "In horbm/memory, github.com is 10 of 12 source URLs (83%). One outlet accounts for most of this topic.",
+      "detail": {
+        "category": "memory",
+        "count": 10,
+        "domain": "github.com",
+        "section": "horbm",
+        "share": 0.833,
+        "total": 12
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "outlet_dominates",
+      "card_id": "",
+      "path": "horbm/memory-etiquette",
+      "message": "In horbm/memory-etiquette, github.com is 5 of 6 source URLs (83%). One outlet accounts for most of this topic.",
+      "detail": {
+        "category": "memory-etiquette",
+        "count": 5,
+        "domain": "github.com",
+        "section": "horbm",
+        "share": 0.833,
+        "total": 6
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "outlet_dominates",
+      "card_id": "",
+      "path": "horbm/persona",
+      "message": "In horbm/persona, github.com is 14 of 17 source URLs (82%). One outlet accounts for most of this topic.",
+      "detail": {
+        "category": "persona",
+        "count": 14,
+        "domain": "github.com",
+        "section": "horbm",
+        "share": 0.824,
+        "total": 17
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "outlet_dominates",
+      "card_id": "",
+      "path": "horbm/politeness-culture",
+      "message": "In horbm/politeness-culture, github.com is 8 of 12 source URLs (67%). One outlet accounts for most of this topic.",
+      "detail": {
+        "category": "politeness-culture",
+        "count": 8,
+        "domain": "github.com",
+        "section": "horbm",
+        "share": 0.667,
+        "total": 12
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "outlet_dominates",
+      "card_id": "",
+      "path": "horbm/safety",
+      "message": "In horbm/safety, github.com is 16 of 20 source URLs (80%). One outlet accounts for most of this topic.",
+      "detail": {
+        "category": "safety",
+        "count": 16,
+        "domain": "github.com",
+        "section": "horbm",
+        "share": 0.8,
+        "total": 20
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "outlet_dominates",
+      "card_id": "",
+      "path": "horbm/safety-consent",
+      "message": "In horbm/safety-consent, github.com is 15 of 19 source URLs (79%). One outlet accounts for most of this topic.",
+      "detail": {
+        "category": "safety-consent",
+        "count": 15,
+        "domain": "github.com",
+        "section": "horbm",
+        "share": 0.789,
+        "total": 19
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "outlet_dominates",
+      "card_id": "",
+      "path": "world/astronomy",
+      "message": "In world/astronomy, nasa.gov is 5 of 6 source URLs (83%). One outlet accounts for most of this topic.",
+      "detail": {
+        "category": "astronomy",
+        "count": 5,
+        "domain": "nasa.gov",
+        "section": "world",
+        "share": 0.833,
+        "total": 6
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "outlet_dominates",
+      "card_id": "",
+      "path": "world/philosophy",
+      "message": "In world/philosophy, stanford.edu is 34 of 50 source URLs (68%). One outlet accounts for most of this topic.",
+      "detail": {
+        "category": "philosophy",
+        "count": 34,
+        "domain": "stanford.edu",
+        "section": "world",
+        "share": 0.68,
+        "total": 50
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_on_preprint",
+      "card_id": "horbm-attribution-gate",
+      "path": "horbm/horbm-attribution-gate.json",
+      "message": "Strong rests on a preprint. A preprint is the authors' own manuscript, and it is not a completed peer review."
+    },
+    {
+      "severity": "warn",
+      "code": "strong_on_preprint",
+      "card_id": "horbm-do-not-chase-turns",
+      "path": "horbm/horbm-do-not-chase-turns.json",
+      "message": "Strong rests on a preprint. A preprint is the authors' own manuscript, and it is not a completed peer review."
+    },
+    {
+      "severity": "warn",
+      "code": "strong_on_preprint",
+      "card_id": "horbm-xiaoice-empathy-facts",
+      "path": "horbm/horbm-xiaoice-empathy-facts.json",
+      "message": "Strong rests on a preprint. A preprint is the authors' own manuscript, and it is not a completed peer review."
+    },
+    {
+      "severity": "warn",
+      "code": "strong_on_preprint",
+      "card_id": "world.noether-1918",
+      "path": "world/world.noether-1918.json",
+      "message": "Strong rests on a preprint. A preprint is the authors' own manuscript, and it is not a completed peer review."
+    },
+    {
+      "severity": "warn",
+      "code": "strong_on_preprint",
+      "card_id": "world.technology.transformer-architecture",
+      "path": "world/world.technology.transformer-architecture.json",
+      "message": "Strong rests on a preprint. A preprint is the authors' own manuscript, and it is not a completed peer review."
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "horbm-grice-maxims",
+      "path": "horbm/horbm-grice-maxims.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:brill.com"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "horbm-xiaoice-empathy-facts",
+      "path": "horbm/horbm-xiaoice-empathy-facts.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "arxiv:1812.08989"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "horbm.repair.three-initiators",
+      "path": "horbm/horbm.repair.three-initiators.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1371/journal.pone.0136100"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.alphafold-2021",
+      "path": "world/world.alphafold-2021.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1038/s41586-021-03819-2"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.arts.chauvet-cave-chronology",
+      "path": "world/world.arts.chauvet-cave-chronology.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1073/pnas.1523158113"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.arts.shakespeare-first-folio-1623",
+      "path": "world/world.arts.shakespeare-first-folio-1623.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:folger.edu"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.asa-p-values-2016",
+      "path": "world/world.asa-p-values-2016.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1080/00031305.2016.1154108"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.aspect-1982",
+      "path": "world/world.aspect-1982.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1103/physrevlett.49.91"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.avery-1944",
+      "path": "world/world.avery-1944.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1084/jem.79.2.137"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.bell-1964",
+      "path": "world/world.bell-1964.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1103/physicsphysiquefizika.1.195"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.biology.action-potential-1952",
+      "path": "world/world.biology.action-potential-1952.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nih.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.biology.atp-synthase-and-the-sodium-pump",
+      "path": "world/world.biology.atp-synthase-and-the-sodium-pump.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nobelprize.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.biology.central-dogma-1970",
+      "path": "world/world.biology.central-dogma-1970.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1038/227561a0"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.biology.chemiosmotic-coupling-1961",
+      "path": "world/world.biology.chemiosmotic-coupling-1961.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1038/191144a0"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.biology.crispr-adaptive-immunity",
+      "path": "world/world.biology.crispr-adaptive-immunity.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1126/science.1225829"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.biology.crispr-cas9-2012",
+      "path": "world/world.biology.crispr-cas9-2012.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1126/science.1225829"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.biology.endosymbiosis-1967",
+      "path": "world/world.biology.endosymbiosis-1967.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1016/0022-5193(67)90079-3"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.biology.mendelian-proportions-1908",
+      "path": "world/world.biology.mendelian-proportions-1908.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1126/science.28.706.49"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.biology.natural-selection-1859",
+      "path": "world/world.biology.natural-selection-1859.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:wikisource.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.black-hole-nasa",
+      "path": "world/world.black-hole-nasa.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nasa.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.bohr-1913",
+      "path": "world/world.bohr-1913.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1080/14786441308634955"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.brain-regions-ninds",
+      "path": "world/world.brain-regions-ninds.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nih.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.chargaff-1950",
+      "path": "world/world.chargaff-1950.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1007/bf02173653"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.chromosome-number-1956",
+      "path": "world/world.chromosome-number-1956.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1111/j.1601-5223.1956.tb03010.x"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.communist-manifesto-1848",
+      "path": "world/world.communist-manifesto-1848.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:wikisource.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.crispr-2012",
+      "path": "world/world.crispr-2012.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1126/science.1225829"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.davisson-germer-1927",
+      "path": "world/world.davisson-germer-1927.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1038/119558a0"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.declaration-independence",
+      "path": "world/world.declaration-independence.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:archives.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.denisova-2010",
+      "path": "world/world.denisova-2010.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1038/nature09710"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.eht-m87-2019",
+      "path": "world/world.eht-m87-2019.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.3847/2041-8213/ab0ec7"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.eht-sgr-a-2022",
+      "path": "world/world.eht-sgr-a-2022.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.3847/2041-8213/ac6674"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.eight-planets",
+      "path": "world/world.eight-planets.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nasa.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.emancipation-1863",
+      "path": "world/world.emancipation-1863.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:archives.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.epr-1935",
+      "path": "world/world.epr-1935.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1103/physrev.47.777"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.franklin-gosling-1953",
+      "path": "world/world.franklin-gosling-1953.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1038/171740a0"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.french-declaration-1789",
+      "path": "world/world.french-declaration-1789.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:conseil-constitutionnel.fr"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.genocide-convention",
+      "path": "world/world.genocide-convention.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:wikisource.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.geography.earth-atmosphere",
+      "path": "world/world.geography.earth-atmosphere.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nasa.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.geography.earth-orbit",
+      "path": "world/world.geography.earth-orbit.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nasa.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.geography.earth-shape",
+      "path": "world/world.geography.earth-shape.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nasa.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.geography.glottolog-languages",
+      "path": "world/world.geography.glottolog-languages.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:glottolog.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.geography.koppen-geiger-map-2007",
+      "path": "world/world.geography.koppen-geiger-map-2007.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.5194/hess-11-1633-2007"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.geography.monsoon-processes",
+      "path": "world/world.geography.monsoon-processes.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1029/97jc02719"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.geography.world-population-prospects",
+      "path": "world/world.geography.world-population-prospects.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:un.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.gps-relativity",
+      "path": "world/world.gps-relativity.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.12942/lrr-2003-1"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.gutenberg-bible-loc",
+      "path": "world/world.gutenberg-bible-loc.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:loc.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.hafele-keating-1972",
+      "path": "world/world.hafele-keating-1972.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1126/science.177.4044.166"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.heisenberg-uncertainty-1927",
+      "path": "world/world.heisenberg-uncertainty-1927.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1007/bf01397280"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.heuristics-1974",
+      "path": "world/world.heuristics-1974.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1126/science.185.4157.1124"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.hgp-2003-coverage",
+      "path": "world/world.hgp-2003-coverage.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:genome.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.history.atlantic-slave-trade-estimates",
+      "path": "world/world.history.atlantic-slave-trade-estimates.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:slavevoyages.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.history.black-death-pathogen",
+      "path": "world/world.history.black-death-pathogen.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1038/nature10549"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.history.declaration-of-the-rights-of-man-1789",
+      "path": "world/world.history.declaration-of-the-rights-of-man-1789.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:yale.edu"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.history.eclipse-1919-light-deflection",
+      "path": "world/world.history.eclipse-1919-light-deflection.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1098/rsta.1920.0009"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.history.haitian-independence-1804",
+      "path": "world/world.history.haitian-independence-1804.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:duke.edu"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.history.magna-carta-1215-1225",
+      "path": "world/world.history.magna-carta-1215-1225.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nationalarchives.gov.uk"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.history.rights-of-man-1789",
+      "path": "world/world.history.rights-of-man-1789.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:conseil-constitutionnel.fr"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.hubble-1929",
+      "path": "world/world.hubble-1929.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1073/pnas.15.3.168"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.human-genome-2001",
+      "path": "world/world.human-genome-2001.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1038/35057062"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.infinity-two-sizes",
+      "path": "world/world.infinity-two-sizes.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:stanford.edu"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.japan-surrender-1945",
+      "path": "world/world.japan-surrender-1945.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:archives.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.landauer-1961",
+      "path": "world/world.landauer-1961.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1147/rd.53.0183"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.law.geneva-civilians-1949",
+      "path": "world/world.law.geneva-civilians-1949.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:icrc.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.law.habeas-corpus-clause",
+      "path": "world/world.law.habeas-corpus-clause.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:archives.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.law.human-rights-declaration",
+      "path": "world/world.law.human-rights-declaration.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:un.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.law.icj-sources-of-law",
+      "path": "world/world.law.icj-sources-of-law.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:icj-cij.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.law.nuremberg-crimes",
+      "path": "world/world.law.nuremberg-crimes.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:un.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.law.nuremberg-responsibility",
+      "path": "world/world.law.nuremberg-responsibility.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:un.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.law.udhr-1948",
+      "path": "world/world.law.udhr-1948.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:un.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.light-deflection-1919",
+      "path": "world/world.light-deflection-1919.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1098/rsta.1920.0009"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.mathematics.bayes-doctrine-of-chances",
+      "path": "world/world.mathematics.bayes-doctrine-of-chances.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1098/rstl.1763.0053"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.mathematics.condorcet-jury-theorem",
+      "path": "world/world.mathematics.condorcet-jury-theorem.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:stanford.edu"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.mathematics.goedel-incompleteness",
+      "path": "world/world.mathematics.goedel-incompleteness.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1007/bf01700692"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.mathematics.infinitude-of-primes",
+      "path": "world/world.mathematics.infinitude-of-primes.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:clarku.edu"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.mathematics.riemann-hypothesis-open",
+      "path": "world/world.mathematics.riemann-hypothesis-open.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:claymath.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.mathematics.turing-computable-numbers",
+      "path": "world/world.mathematics.turing-computable-numbers.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1112/plms/s2-42.1.230"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.maxwell-1865",
+      "path": "world/world.maxwell-1865.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1098/rstl.1865.0008"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.medicine.antimicrobial-resistance",
+      "path": "world/world.medicine.antimicrobial-resistance.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:who.int"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.medicine.insulin-nobel-1923",
+      "path": "world/world.medicine.insulin-nobel-1923.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nobelprize.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.medicine.nerve-impulse",
+      "path": "world/world.medicine.nerve-impulse.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1113/jphysiol.1952.sp004764"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.medicine.nucleoside-modified-rna-2005",
+      "path": "world/world.medicine.nucleoside-modified-rna-2005.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1016/j.immuni.2005.06.008"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.medicine.penicillin-1929",
+      "path": "world/world.medicine.penicillin-1929.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nih.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.medicine.who-health-definition",
+      "path": "world/world.medicine.who-health-definition.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:who.int"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.metre-speed-of-light",
+      "path": "world/world.metre-speed-of-light.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nist.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.moon-phases",
+      "path": "world/world.moon-phases.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nasa.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.nasa-gistemp-2025",
+      "path": "world/world.nasa-gistemp-2025.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nasa.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.nasa-warming-attribution",
+      "path": "world/world.nasa-warming-attribution.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nasa.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.nature.arrhenius-carbonic-acid-1896",
+      "path": "world/world.nature.arrhenius-carbonic-acid-1896.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1080/14786449608620846"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.nature.earth-energy-budget-2009",
+      "path": "world/world.nature.earth-energy-budget-2009.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1175/2008bams2634.1"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.nature.end-cretaceous-iridium",
+      "path": "world/world.nature.end-cretaceous-iridium.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1126/science.208.4448.1095"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.nature.milankovitch-cycles",
+      "path": "world/world.nature.milankovitch-cycles.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1126/science.194.4270.1121"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.nature.orbital-pacemaker-ice-ages",
+      "path": "world/world.nature.orbital-pacemaker-ice-ages.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1126/science.194.4270.1121"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.nature.water-cycle",
+      "path": "world/world.nature.water-cycle.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:usgs.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.neanderthal-genome-2010",
+      "path": "world/world.neanderthal-genome-2010.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1126/science.1188021"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.newton-principia-text",
+      "path": "world/world.newton-principia-text.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:wikisource.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.nineteenth-amendment",
+      "path": "world/world.nineteenth-amendment.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:archives.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.nirenberg-1961",
+      "path": "world/world.nirenberg-1961.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1073/pnas.47.10.1588"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.noaa-2024-temperature",
+      "path": "world/world.noaa-2024-temperature.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:climate.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.nobel-black-holes-2020",
+      "path": "world/world.nobel-black-holes-2020.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nobelprize.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.noether-1918",
+      "path": "world/world.noether-1918.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "arxiv:physics/0503066"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.ocean-acidification",
+      "path": "world/world.ocean-acidification.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:noaa.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.oppenheimer-snyder-1939",
+      "path": "world/world.oppenheimer-snyder-1939.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1103/physrev.56.455"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.philosophy.aristotle-four-causes",
+      "path": "world/world.philosophy.aristotle-four-causes.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:stanford.edu"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.philosophy.stoicism",
+      "path": "world/world.philosophy.stoicism.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:stanford.edu"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.photosynthesis-oxygen-source",
+      "path": "world/world.photosynthesis-oxygen-source.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1021/ja01848a512"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.planck-1901",
+      "path": "world/world.planck-1901.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1002/andp.19013090310"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.planck-2018-lcdm",
+      "path": "world/world.planck-2018-lcdm.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1051/0004-6361/201833910"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.plate-motions-usgs",
+      "path": "world/world.plate-motions-usgs.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:usgs.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.prospect-theory-1979",
+      "path": "world/world.prospect-theory-1979.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.2307/1914185"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.rfc-791-internet",
+      "path": "world/world.rfc-791-internet.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:rfc-editor.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.royal-society-1660",
+      "path": "world/world.royal-society-1660.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:royalsociety.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.rubin-ford-1970",
+      "path": "world/world.rubin-ford-1970.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1086/150317"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.rwanda-april-1994",
+      "path": "world/world.rwanda-april-1994.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:irmct.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.schrodinger-1926",
+      "path": "world/world.schrodinger-1926.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1002/andp.19263840404"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.science.gw150914",
+      "path": "world/world.science.gw150914.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1103/physrevlett.116.061102"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.science.rutherford-nuclear-atom",
+      "path": "world/world.science.rutherford-nuclear-atom.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1080/14786440508637080"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.seasons-axial-tilt",
+      "path": "world/world.seasons-axial-tilt.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nasa.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.second-cesium",
+      "path": "world/world.second-cesium.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nist.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.shannon-1948",
+      "path": "world/world.shannon-1948.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1002/j.1538-7305.1948.tb01338.x"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.si-2019",
+      "path": "world/world.si-2019.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nist.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.sky-scattering",
+      "path": "world/world.sky-scattering.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nasa.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.smallpox-programme",
+      "path": "world/world.smallpox-programme.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:who.int"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.society.bank-money-creation",
+      "path": "world/world.society.bank-money-creation.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:bankofengland.co.uk"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.society.public-goods-1954",
+      "path": "world/world.society.public-goods-1954.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.2307/1925895"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.society.smith-division-of-labor",
+      "path": "world/world.society.smith-division-of-labor.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:wikisource.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.society.us-gdp-what-bea-measures",
+      "path": "world/world.society.us-gdp-what-bea-measures.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:bea.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.solar-system-formation",
+      "path": "world/world.solar-system-formation.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nasa.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.standard-model-cern",
+      "path": "world/world.standard-model-cern.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:home.cern"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.sun-fact-sheet",
+      "path": "world/world.sun-fact-sheet.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:nasa.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.t2t-2022",
+      "path": "world/world.t2t-2022.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1126/science.abj6987"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.technology.berners-lee-proposal-1989",
+      "path": "world/world.technology.berners-lee-proposal-1989.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:cern.ch"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.technology.faraday-induction-1832",
+      "path": "world/world.technology.faraday-induction-1832.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1098/rstl.1832.0006"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.technology.gps-needs-relativity",
+      "path": "world/world.technology.gps-needs-relativity.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.12942/lrr-2003-1"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.technology.jikji-metal-type-1377",
+      "path": "world/world.technology.jikji-metal-type-1377.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:unesco.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.technology.relativity-in-gps",
+      "path": "world/world.technology.relativity-in-gps.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.12942/lrr-2003-1"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.technology.shannon-communication-1948",
+      "path": "world/world.technology.shannon-communication-1948.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1002/j.1538-7305.1948.tb01338.x"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.technology.transformer-architecture",
+      "path": "world/world.technology.transformer-architecture.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "arxiv:1706.03762"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.technology.turing-machine",
+      "path": "world/world.technology.turing-machine.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1112/plms/s2-42.1.230"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.thirteenth-amendment",
+      "path": "world/world.thirteenth-amendment.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:archives.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.tides",
+      "path": "world/world.tides.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:noaa.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.tiktaalik-2006",
+      "path": "world/world.tiktaalik-2006.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1038/nature04639"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.treaty-nanking",
+      "path": "world/world.treaty-nanking.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:wikisource.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.treaty-versailles",
+      "path": "world/world.treaty-versailles.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:wikisource.org"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.truman-doctrine-1947",
+      "path": "world/world.truman-doctrine-1947.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:archives.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.unga-181",
+      "path": "world/world.unga-181.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:yale.edu"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.vine-matthews-1963",
+      "path": "world/world.vine-matthews-1963.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1038/199947a0"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.water-cycle-usgs",
+      "path": "world/world.water-cycle-usgs.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:usgs.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.water-inventory-usgs",
+      "path": "world/world.water-inventory-usgs.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:usgs.gov"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.who-vaccination",
+      "path": "world/world.who-vaccination.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "host:who.int"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "strong_single_source",
+      "card_id": "world.wilkins-1953",
+      "path": "world/world.wilkins-1953.json",
+      "message": "Strong rests on one independent source. Two independent sources are the usual bar.",
+      "detail": {
+        "independence_key": "doi:10.1038/171738a0"
+      }
+    },
+    {
+      "severity": "warn",
+      "code": "voice_dominates",
+      "card_id": "",
+      "path": "world/earth",
+      "message": "In world/earth, government:us is 8 of 10 source URLs (80%). One government or institution accounts for most of this topic.",
+      "detail": {
+        "category": "earth",
+        "count": 8,
+        "section": "world",
+        "share": 0.8,
+        "total": 10,
+        "voice": "government:us"
+      }
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.history.ancient-greece",
+      "path": "world/world.history.ancient-greece.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.history.french-revolution",
+      "path": "world/world.history.french-revolution.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.history.renaissance",
+      "path": "world/world.history.renaissance.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.history.scientific-revolution",
+      "path": "world/world.history.scientific-revolution.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.history.world-war-two",
+      "path": "world/world.history.world-war-two.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.law.natural-rights",
+      "path": "world/world.law.natural-rights.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.medicine.human-brain",
+      "path": "world/world.medicine.human-brain.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.medicine.immune-system",
+      "path": "world/world.medicine.immune-system.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.philosophy.consciousness",
+      "path": "world/world.philosophy.consciousness.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.philosophy.critical-thinking",
+      "path": "world/world.philosophy.critical-thinking.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.philosophy.ethics-morality",
+      "path": "world/world.philosophy.ethics-morality.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.philosophy.existentialism",
+      "path": "world/world.philosophy.existentialism.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.science.scientific-method",
+      "path": "world/world.science.scientific-method.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.science.solar-system",
+      "path": "world/world.science.solar-system.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.society.capitalism",
+      "path": "world/world.society.capitalism.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.society.socialism",
+      "path": "world/world.society.socialism.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.society.supply-demand",
+      "path": "world/world.society.supply-demand.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.technology.artificial-intelligence",
+      "path": "world/world.technology.artificial-intelligence.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.technology.printing-press",
+      "path": "world/world.technology.printing-press.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-ai-taxonomy",
+      "path": "world/world.unsourced-ai-taxonomy.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-bentham-rights",
+      "path": "world/world.unsourced-bentham-rights.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-bias-remainder",
+      "path": "world/world.unsourced-bias-remainder.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-big-bang-age-number",
+      "path": "world/world.unsourced-big-bang-age-number.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-black-hole-formation-threshold",
+      "path": "world/world.unsourced-black-hole-formation-threshold.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-black-hole-singularity",
+      "path": "world/world.unsourced-black-hole-singularity.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-brain-slogan",
+      "path": "world/world.unsourced-brain-slogan.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-buddha-birth-year",
+      "path": "world/world.unsourced-buddha-birth-year.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-cambridge-declaration",
+      "path": "world/world.unsourced-cambridge-declaration.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-capitalism-lifted-billions",
+      "path": "world/world.unsourced-capitalism-lifted-billions.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-ch-independence",
+      "path": "world/world.unsourced-ch-independence.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-climate-policy-list",
+      "path": "world/world.unsourced-climate-policy-list.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-critical-thinking-habits",
+      "path": "world/world.unsourced-critical-thinking-habits.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-democracy-percent",
+      "path": "world/world.unsourced-democracy-percent.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-entropy-demon",
+      "path": "world/world.unsourced-entropy-demon.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-evolution-appendix",
+      "path": "world/world.unsourced-evolution-appendix.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-french-revolution-terror",
+      "path": "world/world.unsourced-french-revolution-terror.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-immune-disorders",
+      "path": "world/world.unsourced-immune-disorders.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-nordic-model",
+      "path": "world/world.unsourced-nordic-model.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-photosynthesis-all-life",
+      "path": "world/world.unsourced-photosynthesis-all-life.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-printing-impact",
+      "path": "world/world.unsourced-printing-impact.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-prisoners-dilemma",
+      "path": "world/world.unsourced-prisoners-dilemma.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-qm-precision-slogan",
+      "path": "world/world.unsourced-qm-precision-slogan.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-relativity-precision-slogan",
+      "path": "world/world.unsourced-relativity-precision-slogan.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-rwanda-toll",
+      "path": "world/world.unsourced-rwanda-toll.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-scientific-revolution-bracket",
+      "path": "world/world.unsourced-scientific-revolution-bracket.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-seven-steps",
+      "path": "world/world.unsourced-seven-steps.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-slave-trade-totals",
+      "path": "world/world.unsourced-slave-trade-totals.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-solar-moon-counts",
+      "path": "world/world.unsourced-solar-moon-counts.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-stoic-cbt",
+      "path": "world/world.unsourced-stoic-cbt.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-trolley",
+      "path": "world/world.unsourced-trolley.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-udhr-legal-status",
+      "path": "world/world.unsourced-udhr-legal-status.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-water-cycle-numbers",
+      "path": "world/world.unsourced-water-cycle-numbers.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-wwii-causes",
+      "path": "world/world.unsourced-wwii-causes.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "attribution_unknown",
+      "card_id": "world.unsourced-wwii-death-toll",
+      "path": "world/world.unsourced-wwii-death-toll.json",
+      "message": "Speaker or date is empty. That is allowed when it is unknown."
+    },
+    {
+      "severity": "info",
+      "code": "sources_stronger_than_label",
+      "card_id": "horbm.age.motherese-is-for-infants",
+      "path": "horbm/horbm.age.motherese-is-for-infants.json",
+      "message": "The sources could support a higher evidence label. This gate does not raise labels.",
+      "detail": {
+        "ceiling": "strong",
+        "current": "weak"
+      }
+    }
+  ]
+}

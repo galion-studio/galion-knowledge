@@ -15,7 +15,7 @@
       "accessed": "2026-11-18"
     }
   ],
-  "evidence_strength": "strong",
+  "evidence_strength": "moderate",
   "said_by": "OpenStax Anatomy and Physiology 2e",
   "as_of_date": "2026-11-18",
   "status": "sourced - needs review",
@@ -34,5 +34,14 @@
     "v1_slug": "immune-system",
     "v1_category": "medicine",
     "note": "v1 truthScore and source-count fields are not evidence and are not copied."
-  }
+  },
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "moderate",
+      "note": "Truth gate ceiling. The attached sources support moderate, not strong. Best source class on this card: scholarly_secondary. No source was added or removed."
+    }
+  ]
 }

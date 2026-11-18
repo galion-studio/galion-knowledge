@@ -24,6 +24,20 @@ npm run build
 
 Output is `v2/_site/`. `npm run dev` previews it on port 3016.
 
+The truth gate is a separate check. From the repository root, with Rust 1.85 or newer:
+
+```bash
+cargo run --manifest-path v2/tools/truth-gate/Cargo.toml -- \
+  --cards v2/data/cards \
+  --schema v2/data/schema.json \
+  --catalog v2/data/catalog.json \
+  --config v2/tools/truth-gate/truth-gate.toml \
+  --json v2/docs/truth-gate-report.json \
+  --markdown v2/docs/truth-gate-report.md
+```
+
+It exits 0 when there is no hard failure. Warnings stay in the report. `--check-urls` requests each source URL; leave it off when the run must stay offline.
+
 ### Deploy
 
 The built site replaces the Next.js app on the server. Point the existing static file server at `v2/_site/` and serve it on `127.0.0.1:3015`. Do not run `next start` for V2.
@@ -41,7 +55,7 @@ python3 serve.py
 
 A claim names its source, its date, and who said it. Evidence is weighed (`none`, `weak`, `moderate`, `strong`). Disputed views stay side by side. `claim_type` is `fact`, `interpretation`, `opinion`, or `contested`. The pack can say it does not know. Do not invent a citation. Cards carried over from V1 with no source use status `unsourced - needs review` and `"sources": []`. V1 truth scores are not evidence.
 
-The card contract is [v2/data/SCHEMA.md](v2/data/SCHEMA.md) and [v2/data/schema.json](v2/data/schema.json). `npm run build` checks every card against it.
+The card contract is [v2/data/SCHEMA.md](v2/data/SCHEMA.md) and [v2/data/schema.json](v2/data/schema.json). `npm run build` checks every card against it. Before a card is published it also has to pass the truth gate, [v2/tools/truth-gate](v2/tools/truth-gate). The gate's report and the remaining warnings are in [v2/docs/TRUTH_GATE.md](v2/docs/TRUTH_GATE.md). How a card is challenged and updated is [v2/docs/REVIEW_POLICY.md](v2/docs/REVIEW_POLICY.md).
 
 ### Where cards go
 

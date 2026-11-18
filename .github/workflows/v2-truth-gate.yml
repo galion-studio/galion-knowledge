@@ -1,0 +1,51 @@
+name: V2 truth gate
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - name: Test the truth gate
+        working-directory: v2/tools/truth-gate
+        run: cargo test --locked
+
+      - name: Run the truth gate
+        working-directory: v2/tools/truth-gate
+        run: >
+          cargo run --locked --quiet --
+          --cards ../../data/cards
+          --schema ../../data/schema.json
+          --catalog ../../data/catalog.json
+          --config truth-gate.toml
+          --json /tmp/truth-gate.json
+          --markdown /tmp/truth-gate.md
+
+      - name: Refuse deleted card files
+        run: |
+          git fetch origin master --depth=1
+          deleted=$(git diff --diff-filter=D --name-only origin/master...HEAD -- v2/data/cards)
+          if [ -n "$deleted" ]; then
+            echo "Card files were deleted. Set status to archived and append history. Do not delete the file."
+            printf '%s\n' "$deleted"
+            exit 1
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: v2/package-lock.json
+
+      - name: Build the static site
+        working-directory: v2
+        run: npm ci && npm run build
