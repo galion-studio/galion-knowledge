@@ -1,0 +1,29 @@
+{
+  "id": "world.core.tech.fips-197-aes",
+  "title": "FIPS 197 is NIST's Federal Information Processing Standard for the Advanced Encryption Standard",
+  "section": "world",
+  "category": "technology",
+  "summary": "FIPS 197 is NIST's Federal Information Processing Standard for the Advanced Encryption Standard.",
+  "body": "FIPS 197 is NIST's Federal Information Processing Standard specifying the Advanced Encryption Standard. The publication opened here says it was published on 26 November 2001 and updated on 9 May 2023. The source says: \"andards Publication Advanced Encryption Standard (AES) Category: Computer Security Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8900 This publication is available free of charge from: https://doi.org/10.6028/NIST.FIPS.197-upd1 Published November 26, 2001; Updated May 9, 2023 U.S.\" AES is the algorithm this federal standard specifies. The card does not restate key lengths from memory, and it does not claim that using AES makes a system secure. How keys are made, stored, and used is outside the title of the standard.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "FIPS 197, Advanced Encryption Standard (AES)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+      "author": "National Institute of Standards and Technology",
+      "date": "2001-11-26",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Institute of Standards and Technology",
+  "as_of_date": "2023-05-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "technology",
+    "cryptography",
+    "nist"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.fr-government-accountable",
+  "title": "The French constitution assigns policy to the government and makes it accountable to Parliament",
+  "section": "world",
+  "category": "law",
+  "summary": "The French constitution assigns policy to the government and makes it accountable to Parliament.",
+  "body": "Article 20 says the government determines and conducts the policy of the nation, has the civil service and the armed forces at its disposal, and is accountable to Parliament under articles 49 and 50. The source says: \"THE GOVERNMENT Establishment of cabinet/ministers , Powers of cabinet ARTICLE 20 The Government shall determine and conduct the policy of the Nation.\" Policy direction and parliamentary accountability are both in the article. The president's separate powers are in other articles.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of 4 October 1958, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/France_2008?lang=en",
+      "author": "Constitution of 4 October 1958, Constitute Project English text",
+      "date": "1958",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of France, Article 20",
+  "as_of_date": "1958",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.fr-republic",
+    "world.core.power.fr-commander",
+    "world.core.power.fr-dissolution"
+  ],
+  "tags": [
+    "law",
+    "france",
+    "government"
+  ]
+}

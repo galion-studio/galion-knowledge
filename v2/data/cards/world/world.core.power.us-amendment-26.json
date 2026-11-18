@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-amendment-26",
+  "title": "The Twenty-sixth Amendment sets a voting-age floor of eighteen for citizens",
+  "section": "world",
+  "category": "law",
+  "summary": "The Twenty-sixth Amendment sets a voting-age floor of eighteen for citizens.",
+  "body": "The Twenty-sixth Amendment says the right of citizens of the United States, who are eighteen years of age or older, to vote shall not be denied or abridged by the United States or by any state on account of age. The source says: \"Restrictions on voting Amendment XXVI Section 1 The right of citizens of the United States, who are eighteen years of age or older, to vote shall not be denied or abridged by the United States or by any State on account of age.\" The amendment forbids denial on account of age for those eighteen or older. It does not itself list other qualifications a state may still impose.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the United States of America (Constitute Project English text, 1992 consolidation)",
+      "url": "https://www.constituteproject.org/constitution/United_States_of_America_1992?lang=en",
+      "author": "Constitute Project, from the United States Constitution",
+      "date": "1992",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "United States Constitution, Amendment XXVI",
+  "as_of_date": "1971",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "voting"
+  ]
+}

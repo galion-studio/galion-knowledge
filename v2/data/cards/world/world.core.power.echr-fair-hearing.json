@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.echr-fair-hearing",
+  "title": "The European Convention guarantees a fair and public hearing within a reasonable time by an independent and impartial tribunal established by law",
+  "section": "world",
+  "category": "law",
+  "summary": "The European Convention guarantees a fair and public hearing within a reasonable time by an independent and impartial tribunal established by law.",
+  "body": "Article 6 states a right, in the determination of civil rights and obligations or of any criminal charge, to a fair and public hearing within a reasonable time by an independent and impartial tribunal established by law, and says judgment shall be pronounced publicly, with stated exceptions. The source says: \"In the determination of his civil rights and obligations or of any criminal charge against him, everyone is entitled to a fair and public hearing within a reasonable time by an independent and impartial tribunal established by law.\" Independent, impartial, established by law, public, and within a reasonable time are the text's conditions. The margin-of-appreciation idea is a later judicial practice and is not a phrase in this sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Convention for the Protection of Human Rights and Fundamental Freedoms, Council of Europe English text",
+      "url": "https://www.echr.coe.int/documents/d/echr/Convention_ENG",
+      "author": "Convention for the Protection of Human Rights and Fundamental Freedoms, Council of Europe English text",
+      "date": "1950",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "European Convention on Human Rights, Article 6",
+  "as_of_date": "1950",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.echr-expression",
+    "world.core.power.echr-private-life",
+    "world.core.power.echr-torture"
+  ],
+  "tags": [
+    "law",
+    "echr",
+    "fair-trial"
+  ]
+}

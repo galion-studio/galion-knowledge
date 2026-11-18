@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.ir-faqih",
+  "title": "Iran's constitution vests leadership, during the Occultation, in a just and pious faqih",
+  "section": "world",
+  "category": "law",
+  "summary": "Iran's constitution vests leadership, during the Occultation, in a just and pious faqih.",
+  "body": "Article 5 says that during the Occultation of the Walial-'Asr, the wilayah and leadership of the ummah devolve upon the just and pious faqih who meets the qualifications the article states. The source says: \"Political theorists/figures Article 5 During the Occultation of the Walial-'Asr (may God hasten his reappearance), the wilayah and leadership of the Ummah devolve upon the just ['adil] and pious [muttaqi] faqih, who is fully aware of the circumstances of his age; courageous, resourceful, and possessed of administrative ability, will assume the responsibilities of this office in accordance with Article 107.\" The office is written into the constitution. Elections of the president and the Assembly are a different article.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Islamic Republic of Iran, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Iran_1989?lang=en",
+      "author": "Constitution of the Islamic Republic of Iran, Constitute Project English text",
+      "date": "1989",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Iran, Article 5",
+  "as_of_date": "1989",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ir-form",
+    "world.core.power.ir-elections",
+    "world.core.power.ir-islamic-criteria"
+  ],
+  "tags": [
+    "law",
+    "iran",
+    "leadership"
+  ]
+}

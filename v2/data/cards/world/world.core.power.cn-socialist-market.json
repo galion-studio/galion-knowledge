@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.cn-socialist-market",
+  "title": "China's constitution says the state has put a socialist market economy into practice",
+  "section": "world",
+  "category": "law",
+  "summary": "China's constitution says the state has put a socialist market economy into practice.",
+  "body": "Article 15 says the state has put into practice a socialist market economy, and that the state strengthens economic laws, improves macro adjustment and control, and forbids interference with the social economic order. The source says: \"The state has put into practice a socialist market economy. The State strengthens the formulation of economic laws, improves macro adjustment and control and forbids according to law any units or individuals from interfering with the social economic order.\" That is the constitution's description. It is not a measurement of prices, ownership shares, or firm behavior.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the People's Republic of China, Constitute Project English text (2018 compilation)",
+      "url": "https://www.constituteproject.org/constitution/China_2018?lang=en",
+      "author": "Constitution of the People's Republic of China, Constitute Project English text (2018 compilation)",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of the People's Republic of China, Article 15",
+  "as_of_date": "2018",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.cn-urban-land",
+    "world.core.power.cn-nonpublic",
+    "world.core.power.cn-public-ownership"
+  ],
+  "tags": [
+    "law",
+    "china",
+    "economy"
+  ]
+}

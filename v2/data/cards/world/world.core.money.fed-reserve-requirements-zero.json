@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.fed-reserve-requirements-zero",
+  "title": "The Fed says it set reserve requirement ratios to zero percent effective 26 March 2020",
+  "section": "world",
+  "category": "economics",
+  "summary": "The Fed says it set reserve requirement ratios to zero percent effective 26 March 2020.",
+  "body": "The Board's reserve-requirements page says it reduced reserve requirement ratios to zero percent effective 26 March 2020, and that this action eliminated reserve requirements for all depository institutions. The source says: \"Reserve Requirements As announced on March 15, 2020, the Board reduced reserve requirement ratios to zero percent effective March 26, 2020.\" A required reserve ratio of zero is the rule the Board states. A textbook multiplier that needs a binding reserve ratio is describing a constraint this page says was eliminated. How much lending actually occurs is a further fact this sentence does not measure.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Reserve Requirements",
+      "url": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+      "author": "Board of Governors of the Federal Reserve System",
+      "date": "2020-03-26",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Board of Governors of the Federal Reserve System",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.fdic-full-faith",
+    "world.core.money.fdic-not-investments",
+    "world.core.money.basel-minimums"
+  ],
+  "tags": [
+    "economics",
+    "banking",
+    "reserves"
+  ]
+}

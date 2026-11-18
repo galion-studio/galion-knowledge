@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.wto-national-treatment",
+  "title": "The WTO says national treatment applies after a product has entered the market, so a customs duty is not itself a breach",
+  "section": "world",
+  "category": "economics",
+  "summary": "The WTO says national treatment applies after a product has entered the market, so a customs duty is not itself a breach.",
+  "body": "The WTO says national treatment applies once a product, service, or item of intellectual property has entered the market, and that charging customs duty on an import is not a violation of national treatment even if locally produced products are not charged an equivalent tax. The source says: \"Therefore, charging customs duty on an import is not a violation of national treatment even if locally-produced products are not charged an equivalent tax.\" A tariff and an internal tax are not the same thing in this account. The page is the WTO's explanation of its agreements, not a ruling in a named dispute.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Principles of the trading system",
+      "url": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact2_e.htm",
+      "author": "World Trade Organization",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "World Trade Organization",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.wto-mfn",
+    "world.core.money.gatt-mfn-text",
+    "world.core.money.wto-barriers"
+  ],
+  "tags": [
+    "economics",
+    "trade",
+    "tax"
+  ]
+}

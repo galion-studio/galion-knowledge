@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.ng-assembly",
+  "title": "Nigeria's constitution vests legislative power of the federation in a National Assembly of a Senate and a House of Representatives",
+  "section": "world",
+  "category": "law",
+  "summary": "Nigeria's constitution vests legislative power of the federation in a National Assembly of a Senate and a House of Representatives.",
+  "body": "The English text vests the legislative powers of the Federal Republic in a National Assembly consisting of a Senate and a House of Representatives, with power to make laws for the peace, order, and good government of the Federation. The source says: \"Powers of the Federal Republic of Nigeria 4 The legislative powers of the Federal Republic of Nigeria shall be vested in a National Assembly for the Federation, which shall consist of a Senate and a House of Representatives.\" The vesting is federal. State legislative power is a different part of the constitution and is not this sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Federal Republic of Nigeria, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Nigeria_1999?lang=en",
+      "author": "Constitution of the Federal Republic of Nigeria, Constitute Project English text",
+      "date": "1999",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Nigeria",
+  "as_of_date": "1999",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ng-sharia-court",
+    "world.core.power.fr-dissolution",
+    "world.core.power.no-no-confidence"
+  ],
+  "tags": [
+    "law",
+    "nigeria",
+    "parliament"
+  ]
+}

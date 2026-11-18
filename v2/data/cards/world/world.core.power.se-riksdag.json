@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.se-riksdag",
+  "title": "Sweden's Instrument of Government calls the Riksdag the foremost representative of the people and the enactor of laws",
+  "section": "world",
+  "category": "law",
+  "summary": "Sweden's Instrument of Government calls the Riksdag the foremost representative of the people and the enactor of laws.",
+  "body": "The Instrument says the Riksdag is the foremost representative of the people, enacts the laws, determines state taxes, and decides how state funds shall be used. The source says: \"Art 4 Structure of legislative chamber(s) The Riksdag is the foremost representative of the people.\" Law-making, tax, and spending are assigned to the Riksdag in that sentence. The government' s role is a different provision.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Instrument of Government (Sweden), Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Sweden_2012?lang=en",
+      "author": "Instrument of Government (Sweden), Constitute Project English text",
+      "date": "2012",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Instrument of Government",
+  "as_of_date": "2012",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.riksbank-cpif",
+    "world.core.power.se-people",
+    "world.core.power.fr-dissolution"
+  ],
+  "tags": [
+    "law",
+    "sweden",
+    "parliament"
+  ]
+}

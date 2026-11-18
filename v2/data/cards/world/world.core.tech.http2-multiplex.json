@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.http2-multiplex",
+  "title": "HTTP/2 specifies concurrent exchanges on the same connection",
+  "section": "world",
+  "category": "technology",
+  "summary": "HTTP/2 specifies concurrent exchanges on the same connection.",
+  "body": "RFC 9113 says HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header compression and allowing multiple concurrent exchanges on the same connection. The source says: \"HTTP/2 enables a more efficient use of network resources and a reduced latency by introducing field compression and allowing multiple concurrent exchanges on the same connection.\" HTTP/2 is a mapping of HTTP semantics onto a different framing. RFC 9110 remains the semantics document. Multiplexing is a feature of the version, not a change to the meaning of a GET.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 9113: HTTP/2",
+      "url": "https://www.rfc-editor.org/rfc/rfc9113",
+      "author": "M. Thomson and C. Benfield",
+      "date": "2022-06",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "M. Thomson and C. Benfield, RFC 9113",
+  "as_of_date": "2022-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "http"
+  ]
+}

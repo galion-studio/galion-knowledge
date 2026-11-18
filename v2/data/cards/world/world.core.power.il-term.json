@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.il-term",
+  "title": "The Knesset's term is four years from the day it is elected",
+  "section": "world",
+  "category": "law",
+  "summary": "The Knesset's term is four years from the day it is elected.",
+  "body": "Section 8 says the term of office of the Knesset shall be four years from the day on which it is elected. The source says: \"Term of office of the Knesset The term of office of the Knesset shall be four years from the day on which it is elected.\" The Basic Law also contains rules, in neighboring sections, about the election date and about extending the term. This card is the four-year term.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Basic Law: The Knesset, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Israel_2013?lang=en",
+      "author": "Basic Law: The Knesset, Constitute Project English text",
+      "date": "2013",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Basic Law: The Knesset, section 8",
+  "as_of_date": "2013",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.il-proportional",
+    "world.core.power.il-vote-18",
+    "world.core.power.il-120"
+  ],
+  "tags": [
+    "law",
+    "israel",
+    "elections"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.in-article-14",
+  "title": "India's constitution forbids the state to deny equality before the law or the equal protection of the laws",
+  "section": "world",
+  "category": "law",
+  "summary": "India's constitution forbids the state to deny equality before the law or the equal protection of the laws.",
+  "body": "Article 14 says the state shall not deny to any person equality before the law or the equal protection of the laws within the territory of India. The source says: \"Equality before law The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.\" The right is framed for any person, within the territory. Classification doctrines developed by courts are not in the sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of India, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/India_2016?lang=en",
+      "author": "Constitution of India, Constitute Project English text",
+      "date": "2016",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of India, Article 14",
+  "as_of_date": "2016",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.in-preamble",
+    "world.core.power.in-article-32",
+    "world.core.power.in-article-21"
+  ],
+  "tags": [
+    "law",
+    "india",
+    "equality"
+  ]
+}

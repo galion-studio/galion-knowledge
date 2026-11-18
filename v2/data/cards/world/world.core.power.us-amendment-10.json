@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-amendment-10",
+  "title": "The Tenth Amendment reserves undelegated powers to the states or the people",
+  "section": "world",
+  "category": "law",
+  "summary": "The Tenth Amendment reserves undelegated powers to the states or the people.",
+  "body": "The Tenth Amendment reserves to the states respectively, or to the people, the powers not delegated to the United States by the Constitution and not prohibited by it to the states. The source says: \"Subsidiary unit government Amendment X The powers not delegated to the United States by the Constitution, nor prohibited by it to the States, are reserved to the States respectively, or to the people.\" What has been delegated is a question about other clauses and later readings. This card is the reservation sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the United States of America (Constitute Project English text, 1992 consolidation)",
+      "url": "https://www.constituteproject.org/constitution/United_States_of_America_1992?lang=en",
+      "author": "Constitute Project, from the United States Constitution",
+      "date": "1992",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "United States Constitution, Amendment X",
+  "as_of_date": "1791",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "federalism"
+  ]
+}

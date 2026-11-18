@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.fr-article-16",
+  "title": "Article 16 lets the French president take measures when institutions, independence, integrity, or treaty duties face a serious and immediate threat",
+  "section": "world",
+  "category": "law",
+  "summary": "Article 16 lets the French president take measures when institutions, independence, integrity, or treaty duties face a serious and immediate threat.",
+  "body": "Article 16 states conditions: a serious and immediate threat to the institutions of the Republic, the independence of the nation, the integrity of its territory, or the fulfillment of its international commitments, together with an interruption of the proper functioning of the constitutional public authorities. The president then takes the measures required, after formal consultations the article names. The source says: \"mmitments are under serious and immediate threat, and where the proper functioning of the constitutional public authorities is interrupted, the President of the Republic shall take measures required by these circumstances, after formally consulting the Prime Minister, the Presidents of the Houses of Parliament and the Constitutional Council.\" The article is an emergency power written into the constitution, with conditions and consultations. This card does not narrate any historical use of it.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of 4 October 1958, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/France_2008?lang=en",
+      "author": "Constitution of 4 October 1958, Constitute Project English text",
+      "date": "1958",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of France, Article 16",
+  "as_of_date": "1958",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.fr-republic",
+    "world.core.power.fr-commander",
+    "world.core.power.fr-dissolution"
+  ],
+  "tags": [
+    "law",
+    "france",
+    "emergency"
+  ]
+}

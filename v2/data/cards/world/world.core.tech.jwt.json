@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.jwt",
+  "title": "A JWT is a compact, URL-safe way of representing claims to be transferred between two parties",
+  "section": "world",
+  "category": "technology",
+  "summary": "A JWT is a compact, URL-safe way of representing claims to be transferred between two parties.",
+  "body": "RFC 7519 says a JSON Web Token is a compact, URL-safe means of representing claims to be transferred between two parties, with the claims encoded as a JSON object. The source says: \"Sakimura NRI May 2015 JSON Web Token (JWT) Abstract JSON Web Token (JWT) is a compact, URL-safe means of representing claims to be transferred between two parties.\" A JWT represents claims. It does not, by being a JWT, make the claims true. Signature and encryption are specified in related documents and are how a recipient checks who produced the token, not whether the world matches the claim.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 7519: JSON Web Token (JWT)",
+      "url": "https://www.rfc-editor.org/rfc/rfc7519",
+      "author": "M. Jones, J. Bradley, and N. Sakimura",
+      "date": "2015-05",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "M. Jones, J. Bradley, and N. Sakimura, RFC 7519",
+  "as_of_date": "2015-05",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.oauth",
+    "world.core.tech.pkix"
+  ],
+  "tags": [
+    "technology",
+    "security",
+    "web"
+  ]
+}

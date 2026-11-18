@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.no-king-religion",
+  "title": "Norway's constitution requires the King to profess the Evangelical-Lutheran religion",
+  "section": "world",
+  "category": "law",
+  "summary": "Norway's constitution requires the King to profess the Evangelical-Lutheran religion.",
+  "body": "Article 4 says the King shall at all times profess the Evangelical-Lutheran religion. The source says: \"Eligibility for head of state Article 4 The King shall at all times profess the Evangelical-Lutheran religion.\" Article 16, separately, gives inhabitants the right to free exercise of their religion and calls the Norwegian church the national church supported by the state. This card is the requirement placed on the King.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Norway, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Norway_2014?lang=en",
+      "author": "Constitution of Norway, Constitute Project English text",
+      "date": "2014",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Norway, Article 4",
+  "as_of_date": "2014",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.no-no-confidence",
+    "world.core.power.no-monarchy",
+    "world.core.power.no-rule-of-law"
+  ],
+  "tags": [
+    "law",
+    "norway",
+    "religion"
+  ]
+}

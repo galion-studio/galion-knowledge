@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.tcp-byte-stream",
+  "title": "TCP provides a reliable, in-order, byte-stream service",
+  "section": "world",
+  "category": "technology",
+  "summary": "TCP provides a reliable, in-order, byte-stream service.",
+  "body": "RFC 9293, which specifies TCP, says TCP provides a reliable, in-order, byte-stream service to applications, conveyed over the network in segments sent as IP datagrams. The source says: \"Key TCP Concepts TCP provides a reliable, in-order, byte-stream service to applications.\" Reliability and order are what the protocol undertakes to provide to the application. They are not properties of every packet on the underlying network. RFC 793 is the earlier specification; RFC 9293 is the one opened here.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 9293: Transmission Control Protocol",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293",
+      "author": "W. Eddy, editor",
+      "date": "2022",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "RFC 9293",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "tcp"
+  ]
+}

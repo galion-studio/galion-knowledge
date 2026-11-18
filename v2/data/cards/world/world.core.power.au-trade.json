@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.au-trade",
+  "title": "Australia's constitution lists trade and commerce with other countries and among the states as a federal legislative power",
+  "section": "world",
+  "category": "law",
+  "summary": "Australia's constitution lists trade and commerce with other countries and among the states as a federal legislative power.",
+  "body": "Section 51 grants Parliament power, subject to the constitution, to make laws with respect to trade and commerce with other countries and among the states, and it continues with a list that includes taxation. The source says: \"th with respect to: trade and commerce with other countries, and among the States; taxation; but so as not to discriminate between States or parts of States; bounties on the production or export of goods, but so that such bounties shall be uniform throughout the Commonwealth; borrowing money on the public credit of the Commonwealth; Telecommunications postal, telegraphic, telephonic, and other like services; the naval\" The grant is a listed head of power. It is not a statement that the states have no remaining powers.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Commonwealth of Australia Constitution Act, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Australia_1985?lang=en",
+      "author": "Commonwealth of Australia Constitution Act, Constitute Project English text",
+      "date": "1900",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Australian Constitution, section 51",
+  "as_of_date": "1900",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.au-senate-elected",
+    "world.core.power.au-alteration",
+    "world.core.power.au-parliament"
+  ],
+  "tags": [
+    "law",
+    "australia",
+    "federalism"
+  ]
+}

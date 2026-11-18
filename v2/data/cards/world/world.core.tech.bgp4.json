@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.bgp4",
+  "title": "BGP-4 is the standards-track specification of the Border Gateway Protocol version 4",
+  "section": "world",
+  "category": "technology",
+  "summary": "BGP-4 is the standards-track specification of the Border Gateway Protocol version 4.",
+  "body": "RFC 4271 is the standards-track specification titled A Border Gateway Protocol 4 (BGP-4). The source says: \"Category: Standards Track January 2006 A Border Gateway Protocol 4 (BGP-4) Status of This Memo This document specifies an Internet standards track protocol for the Internet community, and requests discussion and suggestions for improvements.\" BGP-4 is an inter-domain routing protocol specified in that RFC. The base specification is not, by its title, a claim that every route advertisement on the public Internet has been authenticated. Authentication mechanisms are separate documents.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 4271: A Border Gateway Protocol 4 (BGP-4)",
+      "url": "https://www.rfc-editor.org/rfc/rfc4271",
+      "author": "Y. Rekhter, T. Li, and S. Hares",
+      "date": "2006-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Y. Rekhter, T. Li, and S. Hares, RFC 4271",
+  "as_of_date": "2006-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "routing"
+  ]
+}

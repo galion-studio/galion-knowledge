@@ -1,0 +1,29 @@
+{
+  "id": "world.core.tech.float-associativity",
+  "title": "Goldberg shows that floating-point addition need not be associative",
+  "section": "world",
+  "category": "technology",
+  "summary": "Goldberg shows that floating-point addition need not be associative.",
+  "body": "David Goldberg's paper, in the text hosted by Oracle's Numerical Computation Guide, says that because of roundoff errors the associative laws of algebra do not necessarily hold for floating-point numbers. The expression (x+y)+z can have a different answer from x+(y+z). The source says: \"Due to roundoff errors, the associative laws of algebra do not necessarily hold for floating-point numbers.\" A result that depends on the order of additions can change when the code is rearranged, even though real-number algebra would not notice. The paper is about IEEE-style floating-point arithmetic. It is not a claim that integer arithmetic fails in the same way.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Every Computer Scientist Should Know About Floating-Point Arithmetic",
+      "url": "https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html",
+      "author": "David Goldberg",
+      "date": "1991",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "David Goldberg",
+  "as_of_date": "1991",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "technology",
+    "computing",
+    "numerical"
+  ]
+}

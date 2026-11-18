@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.fed-section-2a",
+  "title": "Section 2A orders the Fed to promote maximum employment, stable prices, and moderate long-term interest rates",
+  "section": "world",
+  "category": "economics",
+  "summary": "Section 2A orders the Fed to promote maximum employment, stable prices, and moderate long-term interest rates.",
+  "body": "Section 2A of the Federal Reserve Act, as the Board publishes it, says the Board and the FOMC shall maintain long-run growth of the monetary and credit aggregates commensurate with the economy's long-run potential to increase production, so as to promote effectively the goals of maximum employment, stable prices, and moderate long-term interest rates. The source says: \"tively the goals of maximum employment, stable prices, and moderate long-term interest rates.\" The statute names three goals. It does not write a numeric inflation rate. The Board's note dates the section to an act of 16 November 1977, later amended.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Section 2A. Monetary policy objectives",
+      "url": "https://www.federalreserve.gov/aboutthefed/section2a.htm",
+      "author": "Board of Governors of the Federal Reserve System",
+      "date": "1977",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Federal Reserve Act, Section 2A, as published by the Board of Governors",
+  "as_of_date": "1977",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.fomc-balanced",
+    "world.core.money.fomc-lag",
+    "world.core.power.us-states-cannot-coin"
+  ],
+  "tags": [
+    "economics",
+    "monetary-policy",
+    "united-states"
+  ]
+}

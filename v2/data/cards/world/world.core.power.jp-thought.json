@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.jp-thought",
+  "title": "Japan's constitution says freedom of thought and conscience shall not be violated",
+  "section": "world",
+  "category": "law",
+  "summary": "Japan's constitution says freedom of thought and conscience shall not be violated.",
+  "body": "Article 19 is a single rule: freedom of thought and conscience shall not be violated. The source says: \"Freedom of opinion/thought/conscience Article 19 Freedom of thought and conscience shall not be violated.\" Article 20 then treats religion separately, including a ban on religious organizations exercising political authority and a ban on the state and its organs giving religious education.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Japan, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Japan_1946?lang=en",
+      "author": "Constitution of Japan, Constitute Project English text",
+      "date": "1946",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Japan, Article 19",
+  "as_of_date": "1946",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.jp-no-censorship",
+    "world.core.power.jp-courts",
+    "world.core.power.jp-emperor-no-government"
+  ],
+  "tags": [
+    "law",
+    "japan",
+    "rights"
+  ]
+}

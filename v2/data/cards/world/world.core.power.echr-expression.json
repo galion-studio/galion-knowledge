@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.echr-expression",
+  "title": "The European Convention protects freedom of expression, including the freedom to hold opinions and to receive and impart information",
+  "section": "world",
+  "category": "law",
+  "summary": "The European Convention protects freedom of expression, including the freedom to hold opinions and to receive and impart information.",
+  "body": "Article 10 says everyone has the right to freedom of expression, including freedom to hold opinions and to receive and impart information and ideas without interference by public authority and regardless of frontiers. The source says: \"Everyone has the right to freedom of expression.\" The article continues with duties and responsibilities and with conditions under which the exercise may be subject to formalities, conditions, restrictions, or penalties. Those conditions are part of the article.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Convention for the Protection of Human Rights and Fundamental Freedoms, Council of Europe English text",
+      "url": "https://www.echr.coe.int/documents/d/echr/Convention_ENG",
+      "author": "Convention for the Protection of Human Rights and Fundamental Freedoms, Council of Europe English text",
+      "date": "1950",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "European Convention on Human Rights, Article 10",
+  "as_of_date": "1950",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.echr-fair-hearing",
+    "world.core.power.echr-private-life",
+    "world.core.power.echr-torture"
+  ],
+  "tags": [
+    "law",
+    "echr",
+    "speech"
+  ]
+}

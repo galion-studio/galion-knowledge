@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.dnssec-intro",
+  "title": "DNSSEC is specified as a set of security extensions for the Domain Name System",
+  "section": "world",
+  "category": "technology",
+  "summary": "DNSSEC is specified as a set of security extensions for the Domain Name System.",
+  "body": "RFC 4033 is the introduction and requirements document for DNS Security, the DNSSEC extensions. The source says: \"Rose NIST March 2005 DNS Security Introduction and Requirements Status of This Memo This document specifies an Internet standards track protocol for the Internet community, and requests discussion and suggestions for improvements.\" DNSSEC is an extension of DNS, specified alongside the original DNS RFCs, not a replacement of the name tree. What it authenticates is a matter of reading the DNSSEC documents, not of assuming that every name lookup on the Internet uses it.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 4033: DNS Security Introduction and Requirements",
+      "url": "https://www.rfc-editor.org/rfc/rfc4033",
+      "author": "R. Arends and others",
+      "date": "2005-03",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "R. Arends, R. Austein, M. Larson, D. Massey, and S. Rose, RFC 4033",
+  "as_of_date": "2005-03",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "dns"
+  ]
+}

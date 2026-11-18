@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.quic",
+  "title": "QUIC is a UDP-based multiplexed and secure transport",
+  "section": "world",
+  "category": "technology",
+  "summary": "QUIC is a UDP-based multiplexed and secure transport.",
+  "body": "RFC 9000 defines the core of QUIC, which it describes as a UDP-based multiplexed and secure transport, providing applications with flow-controlled streams. The source says: \"ISSN: 2070-1721 Mozilla May 2021 QUIC: A UDP-Based Multiplexed and Secure Transport Abstract This document defines the core of the QUIC transport protocol.\" QUIC runs over UDP and provides its own security and streams. It is not TCP, and it is not a claim that UDP itself became reliable.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 9000: QUIC: A UDP-Based Multiplexed and Secure Transport",
+      "url": "https://www.rfc-editor.org/rfc/rfc9000",
+      "author": "J. Iyengar and M. Thomson",
+      "date": "2021-05",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "J. Iyengar and M. Thomson, RFC 9000",
+  "as_of_date": "2021-05",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "quic"
+  ]
+}

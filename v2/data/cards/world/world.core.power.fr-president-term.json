@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.fr-president-term",
+  "title": "The French president is elected for five years and may not serve more than two consecutive terms",
+  "section": "world",
+  "category": "law",
+  "summary": "The French president is elected for five years and may not serve more than two consecutive terms.",
+  "body": "Article 6 says the president is elected for five years by direct universal suffrage, and that no one may hold office for more than two consecutive terms. The source says: \"Head of state selection , Head of state term length , Claim of universal suffrage The President of the Republic shall be elected for a term of five years by direct universal suffrage.\" The consecutive-term limit is in the article. The mode of the election is left in part to an organic law, as the article also says.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of 4 October 1958, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/France_2008?lang=en",
+      "author": "Constitution of 4 October 1958, Constitute Project English text",
+      "date": "1958",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of France, Article 6",
+  "as_of_date": "1958",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.fr-republic",
+    "world.core.power.fr-commander",
+    "world.core.power.fr-dissolution"
+  ],
+  "tags": [
+    "law",
+    "france",
+    "presidency"
+  ]
+}

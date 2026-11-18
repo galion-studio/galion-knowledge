@@ -1,0 +1,31 @@
+{
+  "id": "world.core.power.mx-indigenous",
+  "title": "Mexico's constitution describes the nation as multicultural, based originally on its indigenous peoples",
+  "section": "world",
+  "category": "law",
+  "summary": "Mexico's constitution describes the nation as multicultural, based originally on its indigenous peoples.",
+  "body": "The English text says the nation has a multicultural composition based originally on its indigenous peoples, described as descendants of those inhabiting the country before colonization who preserve their own social, economic, cultural, and political institutions. The source says: \"Reference to country's history The nation is multicultural, based originally on its indigenous peoples, described as descendants of those inhabiting the country before colonization and that preserve their own social, economic, cultural and political institutions, or some of them.\" The sentence is a constitutional description. It is not a census of languages or of land titles.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Political Constitution of the United Mexican States, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Mexico_2015?lang=en",
+      "author": "Political Constitution of the United Mexican States, Constitute Project English text",
+      "date": "2015",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Mexico",
+  "as_of_date": "2015",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.mx-republic"
+  ],
+  "tags": [
+    "law",
+    "mexico",
+    "indigenous"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.udp-no-guarantee",
+  "title": "UDP does not guarantee delivery or duplicate protection",
+  "section": "world",
+  "category": "technology",
+  "summary": "UDP does not guarantee delivery or duplicate protection.",
+  "body": "RFC 768 says UDP provides a procedure for programs to send messages with a minimum of protocol mechanism, that the protocol is transaction oriented, and that delivery and duplicate protection are not guaranteed. Applications that need ordered reliable delivery of streams should use TCP. The source says: \"The protocol is transaction oriented, and delivery and duplicate protection are not guaranteed.\" The absence of a delivery guarantee is the specification, not a failure of a particular network. An application that needs reliability has to provide it, or use a protocol that does.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 768: User Datagram Protocol",
+      "url": "https://www.rfc-editor.org/rfc/rfc768",
+      "author": "J. Postel",
+      "date": "1980-08",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "J. Postel, RFC 768",
+  "as_of_date": "1980-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "udp"
+  ]
+}

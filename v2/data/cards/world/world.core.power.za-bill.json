@@ -1,0 +1,32 @@
+{
+  "id": "world.core.power.za-bill",
+  "title": "South Africa's Bill of Rights calls itself a cornerstone of democracy and binds the state",
+  "section": "world",
+  "category": "law",
+  "summary": "South Africa's Bill of Rights calls itself a cornerstone of democracy and binds the state.",
+  "body": "Section 7 says the Bill of Rights is a cornerstone of democracy in South Africa, enshrines the rights of all people in the country, and affirms the democratic values of human dignity, equality, and freedom. The source says: \"Rights Human dignity This Bill of Rights is a cornerstone of democracy in South Africa.\" The section states the Bill's role in the constitutional text. The application clauses that follow, including who is bound, should be read in the constitution rather than assumed from this sentence alone.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Republic of South Africa, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/South_Africa_2012?lang=en",
+      "author": "Constitution of the Republic of South Africa, Constitute Project English text",
+      "date": "1996",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of South Africa, section 7",
+  "as_of_date": "1996",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.za-admin",
+    "world.core.power.za-values"
+  ],
+  "tags": [
+    "law",
+    "south-africa",
+    "rights"
+  ]
+}

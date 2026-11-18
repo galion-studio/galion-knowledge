@@ -1,0 +1,29 @@
+{
+  "id": "world.core.power.nz-bora",
+  "title": "New Zealand's Bill of Rights Act 1990, as compiled, is an Act to affirm, protect, and promote human rights and fundamental freedoms",
+  "section": "world",
+  "category": "law",
+  "summary": "New Zealand's Bill of Rights Act 1990, as compiled, is an Act to affirm, protect, and promote human rights and fundamental freedoms.",
+  "body": "The Constitute compilation includes the New Zealand Bill of Rights Act 1990, whose preamble says it is an Act to affirm, protect, and promote human rights and fundamental freedoms in New Zealand. The source says: \"on Preamble An Act— to affirm, protect, and promote human rights and fundamental freedoms in New Zealand; and International human rights treaties to affirm New Zealand’s commitment to the International Covenant on Civil and Political Rights 1.\" The instrument in the compilation is a statute with that stated purpose. This card does not claim that New Zealand has, or lacks, a single codified constitution, because the page was not used for that further claim.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "New Zealand Bill of Rights Act 1990, in the Constitute Project compilation",
+      "url": "https://www.constituteproject.org/constitution/New_Zealand_2014?lang=en",
+      "author": "New Zealand Bill of Rights Act 1990, in the Constitute Project compilation",
+      "date": "1990",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "New Zealand Bill of Rights Act 1990, preamble",
+  "as_of_date": "1990",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "law",
+    "new-zealand",
+    "rights"
+  ]
+}

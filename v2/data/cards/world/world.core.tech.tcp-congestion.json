@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.tcp-congestion",
+  "title": "TCP congestion control, in RFC 5681, is four algorithms: slow start, congestion avoidance, fast retransmit, and fast recovery",
+  "section": "world",
+  "category": "technology",
+  "summary": "TCP congestion control, in RFC 5681, is four algorithms: slow start, congestion avoidance, fast retransmit, and fast recovery.",
+  "body": "RFC 5681 defines TCP's four intertwined congestion-control algorithms as slow start, congestion avoidance, fast retransmit, and fast recovery. The source says: \"Blanton Purdue University September 2009 TCP Congestion Control Abstract This document defines TCP's four intertwined congestion control algorithms: slow start, congestion avoidance, fast retransmit, and fast recovery.\" These algorithms are how a TCP sender is specified to respond to the network. They are not a promise of a particular throughput. The names are the RFC's, including 'slow start,' which is the name of the algorithm and not a description of a user's experience.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 5681: TCP Congestion Control",
+      "url": "https://www.rfc-editor.org/rfc/rfc5681",
+      "author": "M. Allman, V. Paxson, and E. Blanton",
+      "date": "2009-09",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "M. Allman, V. Paxson, and E. Blanton, RFC 5681",
+  "as_of_date": "2009-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "tcp"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.jp-emperor-no-government",
+  "title": "Japan's constitution says the Emperor has no powers related to government",
+  "section": "world",
+  "category": "law",
+  "summary": "Japan's constitution says the Emperor has no powers related to government.",
+  "body": "Article 4 says the Emperor shall perform only such acts in matters of state as the constitution provides, and shall not have powers related to government. The source says: \"Article 4 The Emperor shall perform only such acts in matters of state as are provided for in this Constitution and he shall not have powers related to government.\" Acts in matters of state and powers of government are distinguished in the sentence. Advice and approval of the Cabinet for acts in matters of state is a neighboring article.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Japan, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Japan_1946?lang=en",
+      "author": "Constitution of Japan, Constitute Project English text",
+      "date": "1946",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Japan, Article 4",
+  "as_of_date": "1946",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.jp-no-censorship",
+    "world.core.power.jp-courts",
+    "world.core.power.jp-diet"
+  ],
+  "tags": [
+    "law",
+    "japan",
+    "emperor"
+  ]
+}

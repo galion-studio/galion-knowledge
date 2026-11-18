@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-supremacy",
+  "title": "The supremacy clause binds state judges to the Constitution, federal laws, and treaties",
+  "section": "world",
+  "category": "law",
+  "summary": "The supremacy clause binds state judges to the Constitution, federal laws, and treaties.",
+  "body": "Article VI of the 1787 transcription makes the Constitution, laws made in pursuance of it, and treaties the supreme law of the land, and binds judges in every state, anything in a state constitution or law to the contrary notwithstanding. The source says: \"This Constitution, and the Laws of the United States which shall be made in Pursuance thereof; and all Treaties made, or which shall be made, under the Authority of the United States, shall be the supreme Law of the Land; and the Judges in every State shall be bound thereby, any Thing in the Constitution or Laws of any State to the Contrary notwithstanding.\" Laws must be 'made in Pursuance' of the Constitution to come under that sentence. The clause does not itself say which institution decides a conflict.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Constitution (1787 text, National Archives transcription)",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "supremacy"
+  ]
+}

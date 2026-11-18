@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-courts-three-branches",
+  "title": "The federal judiciary's own site describes the judicial branch as one of three separate branches",
+  "section": "world",
+  "category": "law",
+  "summary": "The federal judiciary's own site describes the judicial branch as one of three separate branches.",
+  "body": "The United States Courts site says the judicial branch is one of the three separate and distinct branches of the federal government. The source says: \"Popular Court Website Links Authorized Judgeships Supreme Court Landmarks About Federal Courts Court Role and Structure The judicial branch is one of the three separate and distinct branches of the federal government.\" That is the institution's description of its place. The constitutional vesting of the judicial power is a different document, Article III.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Court Role and Structure, uscourts.gov",
+      "url": "https://www.uscourts.gov/about-federal-courts/court-role-and-structure",
+      "author": "United States Courts",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Administrative Office of the U.S. Courts",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "courts"
+  ]
+}

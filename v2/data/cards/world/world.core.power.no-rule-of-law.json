@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.no-rule-of-law",
+  "title": "Norway's constitution says it shall ensure democracy, the rule of law, and human rights",
+  "section": "world",
+  "category": "law",
+  "summary": "Norway's constitution says it shall ensure democracy, the rule of law, and human rights.",
+  "body": "Article 2 says the country's values will remain its Christian and humanistic heritage, and that the constitution shall ensure democracy, a state based on the rule of law, and human rights. The source says: \"This Constitution shall ensure democracy, a state based on the rule of law and human rights.\" The heritage sentence and the democracy sentence are both in the article. Neither is erased by the other in the text.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Norway, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Norway_2014?lang=en",
+      "author": "Constitution of Norway, Constitute Project English text",
+      "date": "2014",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Norway, Article 2",
+  "as_of_date": "2014",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.no-no-confidence",
+    "world.core.power.no-king-religion",
+    "world.core.power.no-monarchy"
+  ],
+  "tags": [
+    "law",
+    "norway",
+    "rule-of-law"
+  ]
+}

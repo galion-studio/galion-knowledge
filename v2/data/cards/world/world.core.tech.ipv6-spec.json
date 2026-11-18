@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.ipv6-spec",
+  "title": "RFC 8200 specifies version 6 of the Internet Protocol and obsoletes RFC 2460",
+  "section": "world",
+  "category": "technology",
+  "summary": "RFC 8200 specifies version 6 of the Internet Protocol and obsoletes RFC 2460.",
+  "body": "RFC 8200 says it specifies version 6 of the Internet Protocol and that it obsoletes RFC 2460. The source says: \"Hinden Obsoletes: 2460 Check Point Software Category: Standards Track July 2017 ISSN: 2070-1721 Internet Protocol, Version 6 (IPv6) Specification Abstract This document specifies version 6 of the Internet Protocol (IPv6).\" Version 6 is a specification of the packet protocol. This card does not state an address length, because that figure was not the sentence used here.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 8200: Internet Protocol, Version 6 (IPv6) Specification",
+      "url": "https://www.rfc-editor.org/rfc/rfc8200",
+      "author": "S. Deering and R. Hinden",
+      "date": "2017-07",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "S. Deering and R. Hinden, RFC 8200",
+  "as_of_date": "2017-07",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "ip"
+  ]
+}

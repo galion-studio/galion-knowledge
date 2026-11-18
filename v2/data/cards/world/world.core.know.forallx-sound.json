@@ -1,0 +1,32 @@
+{
+  "id": "world.core.know.forallx-sound",
+  "title": "In forall x, a sound argument is one that is valid and has all true premises",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "In forall x, a sound argument is one that is valid and has all true premises.",
+  "body": "The same textbook says an argument is sound if and only if it is both valid and all of its premises are true. To rebut an argument, it says, you can show that a premise is not true, or that the argument is not valid. The source says: \"We will say that an argument is sound if and only if it is both valid and all of its premises are true.\" A valid argument with a false premise is not sound, on this definition. A true conclusion reached by a bad step is not thereby a sound argument.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "forall x: Calgary Remix (Open Logic Project PDF)",
+      "url": "https://forallx.openlogicproject.org/forallxyyc.pdf",
+      "author": "Open Logic Project",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "forall x, Calgary remix, Open Logic Project",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.know.aristotle-reasoning",
+    "world.core.know.aristotle-names",
+    "world.core.know.aristotle-seven"
+  ],
+  "tags": [
+    "logic",
+    "arguments"
+  ]
+}

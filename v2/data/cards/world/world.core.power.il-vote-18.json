@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.il-vote-18",
+  "title": "Israeli nationals of eighteen and over have the right to vote for the Knesset unless a court has deprived them of it",
+  "section": "world",
+  "category": "law",
+  "summary": "Israeli nationals of eighteen and over have the right to vote for the Knesset unless a court has deprived them of it.",
+  "body": "Section 5 says every Israel national of or over the age of eighteen years shall have the right to vote in elections to the Knesset, unless a court has deprived him of that right by virtue of any law. The source says: \"The right to vote Every Israel national of or over the age of eighteen years shall have the right to vote in elections to the Knesset, unless a court has deprived him of that right by virtue of any Law; the Elections Law shall determine the time at which a person shall be considered to be eighteen years of age for the purpose of the exercise of the right to vote in elections to the Knesset.\" The age and the court-deprivation exception are both in the section.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Basic Law: The Knesset, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Israel_2013?lang=en",
+      "author": "Basic Law: The Knesset, Constitute Project English text",
+      "date": "2013",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Basic Law: The Knesset, section 5",
+  "as_of_date": "2013",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.il-term",
+    "world.core.power.il-proportional",
+    "world.core.power.il-120"
+  ],
+  "tags": [
+    "law",
+    "israel",
+    "voting"
+  ]
+}

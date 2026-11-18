@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.sa-resources",
+  "title": "The Saudi Basic Law vests natural resources and their revenues in the state",
+  "section": "world",
+  "category": "law",
+  "summary": "The Saudi Basic Law vests natural resources and their revenues in the state.",
+  "body": "Article 14 says resources under and above ground, in territorial waters, and within the state's jurisdiction, and the revenues from them, are owned by the state as specified by law. The source says: \"Economic Principles Ownership of natural resources , Protection of environment Article 14 All God-given resources of the country, both under and above ground, or in territorial waters, or within terrestrial and maritime limits to which the State jurisdiction extends, as well as the revenues accruing therefrom shall be owned by the State as specified by the law.\" State ownership of resources is the article's rule. Concessions, in the following article, require permission by law.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Basic Law of Saudi Arabia, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Saudi_Arabia_2013?lang=en",
+      "author": "Basic Law of Saudi Arabia, Constitute Project English text",
+      "date": "2013",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Basic Law of Saudi Arabia, Article 14",
+  "as_of_date": "2013",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.sa-property",
+    "world.core.power.sa-shoura",
+    "world.core.power.sa-quran"
+  ],
+  "tags": [
+    "law",
+    "saudi-arabia",
+    "resources"
+  ]
+}

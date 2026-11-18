@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.id-cannot-dissolve",
+  "title": "Indonesia's constitution says the president may not freeze or dissolve the House of Representatives",
+  "section": "world",
+  "category": "law",
+  "summary": "Indonesia's constitution says the president may not freeze or dissolve the House of Representatives.",
+  "body": "Article 7C says the president may not freeze and/or dissolve the DPR, the House of Representatives. The source says: \"Article 7C The President may not freeze and/or dissolve the DPR.\" The prohibition is specific. A different article allows the president to declare a state of emergency, with conditions and subsequent measures regulated by law.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Indonesia, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Indonesia_2002?lang=en",
+      "author": "Constitution of Indonesia, Constitute Project English text",
+      "date": "2002",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Indonesia, Article 7C",
+  "as_of_date": "2002",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.id-term",
+    "world.core.power.id-emergency",
+    "world.core.power.fr-dissolution"
+  ],
+  "tags": [
+    "law",
+    "indonesia",
+    "parliament"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-amendment-14-citizenship",
+  "title": "The Fourteenth Amendment's citizenship sentence covers persons born or naturalized in the United States and subject to its jurisdiction",
+  "section": "world",
+  "category": "law",
+  "summary": "The Fourteenth Amendment's citizenship sentence covers persons born or naturalized in the United States and subject to its jurisdiction.",
+  "body": "Section 1 of the Fourteenth Amendment says all persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the state wherein they reside. The source says: \"ction 1 All persons born or naturalized in the United States and subject to the jurisdiction thereof, are citizens of the United States and of the State wherein they reside.\" The clause includes the qualifier 'subject to the jurisdiction thereof.' This card does not restate later cases about who falls inside or outside that qualifier.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the United States of America (Constitute Project English text, 1992 consolidation)",
+      "url": "https://www.constituteproject.org/constitution/United_States_of_America_1992?lang=en",
+      "author": "Constitute Project, from the United States Constitution",
+      "date": "1992",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "United States Constitution, Amendment XIV",
+  "as_of_date": "1868",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "citizenship"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "world.core.money.card-krueger-nj",
+  "title": "Card and Krueger's 1993 fast-food study reported a rise, not a fall, in New Jersey employment after a minimum-wage increase",
+  "section": "world",
+  "category": "economics",
+  "summary": "Card and Krueger's 1993 fast-food study reported a rise, not a fall, in New Jersey employment after a minimum-wage increase.",
+  "body": "Card and Krueger's NBER working paper 4509 studies fast-food stores after New Jersey raised its minimum wage on 1 April 1992 from $4.25 to $5.05 an hour, with Pennsylvania stores as a comparison where the minimum did not rise. The paper reports that, relative to stores in Pennsylvania, fast-food restaurants in New Jersey increased employment by 13 percent. The source says: \"Relative to stores in Pennsylvania, fast food restaurants in New Jersey increased employment by 13 percent.\" The paper itself says a competitive model predicts that a higher minimum wage reduces employment, and that studies in the 1970s using aggregate teenage employment rates usually confirmed a negative effect, while some establishment-level studies did not. Thirteen percent is this paper's estimate for this industry and this episode. It is not a universal measurement of minimum-wage effects.\n",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Minimum Wages and Employment: A Case Study of the Fast Food Industry in New Jersey and Pennsylvania, NBER Working Paper 4509",
+      "url": "https://www.nber.org/system/files/working_papers/w4509/w4509.pdf",
+      "author": "David Card and Alan B. Krueger",
+      "date": "1993-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "David Card and Alan B. Krueger",
+  "as_of_date": "1993-10",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "This paper's New Jersey–Pennsylvania estimate",
+      "summary": "Relative to Pennsylvania fast-food stores, New Jersey stores increased employment by about 13 percent after the April 1992 rise from $4.25 to $5.05, in the authors' report.",
+      "status": "Card and Krueger, NBER Working Paper 4509, October 1993"
+    },
+    {
+      "label": "The negative-employment prediction, as this paper describes the earlier literature",
+      "summary": "The paper says the competitive model predicts lower employment, and that 1970s studies of aggregate teenage employment rates usually found a negative effect. It cites Stigler (1946) for the competitive prediction.",
+      "status": "Characterized inside the same working paper. Stigler's text was not re-opened for this card."
+    }
+  ],
+  "related": [],
+  "tags": [
+    "economics",
+    "labour",
+    "minimum-wage"
+  ]
+}

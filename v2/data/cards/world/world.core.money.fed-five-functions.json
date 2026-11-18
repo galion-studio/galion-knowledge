@@ -1,0 +1,32 @@
+{
+  "id": "world.core.money.fed-five-functions",
+  "title": "The Fed lists five functions: monetary policy, financial stability, supervision, payments, and consumer protection",
+  "section": "world",
+  "category": "economics",
+  "summary": "The Fed lists five functions: monetary policy, financial stability, supervision, payments, and consumer protection.",
+  "body": "The same page says the System conducts the nation's monetary policy, promotes financial-system stability, supervises and regulates financial institutions, fosters payment and settlement safety and efficiency, and promotes consumer protection and community development. The source says: \"It conducts the nation’s monetary policy, promotes financial system stability, supervises and regulates financial institutions, fosters payment and settlement system safety and efficiency, and promotes consumer protection and community development.\" The five functions are the Fed's own list of what it does. They are not a claim that each function succeeds.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Structure of the Federal Reserve System",
+      "url": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+      "author": "Board of Governors of the Federal Reserve System",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Board of Governors of the Federal Reserve System",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.fed-twelve-banks",
+    "world.core.money.fed-governors-terms",
+    "world.core.money.fed-created-1913"
+  ],
+  "tags": [
+    "economics",
+    "central-banking"
+  ]
+}

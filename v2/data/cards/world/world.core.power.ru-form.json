@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.ru-form",
+  "title": "Russia's constitution calls the state a federative law-governed state with a republican form of government",
+  "section": "world",
+  "category": "law",
+  "summary": "Russia's constitution calls the state a federative law-governed state with a republican form of government.",
+  "body": "Article 1, in the English compilation, says the Russian Federation — Russia is a democratic federative law-governed state with a republican form of government, and that the names Russian Federation and Russia are equivalent. The source says: \"THE BASIS OF THE CONSTITUTIONAL SYSTEM Article 1 Type of government envisioned The Russian Federation - Russia is a democratic federative law-governed state with a republican form of government.\" The adjectives are the article's. This card does not grade whether later practice matches them.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Russian Federation, Constitute Project English text (Russia 2014 compilation)",
+      "url": "https://www.constituteproject.org/constitution/Russia_2014?lang=en",
+      "author": "Constitution of the Russian Federation, Constitute Project English text (Russia 2014 compilation)",
+      "date": "2014",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of the Russian Federation, Article 1",
+  "as_of_date": "2014",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ru-separation-organs",
+    "world.core.power.ru-rights-supreme",
+    "world.core.power.ru-multiparty"
+  ],
+  "tags": [
+    "law",
+    "russia",
+    "constitution"
+  ]
+}

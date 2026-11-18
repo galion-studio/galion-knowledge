@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.fr-dissolution",
+  "title": "The French president may dissolve the National Assembly after required consultations",
+  "section": "world",
+  "category": "law",
+  "summary": "The French president may dissolve the National Assembly after required consultations.",
+  "body": "Article 12 allows the president, after consulting the prime minister and the presidents of the houses, to dissolve the National Assembly, with a general election inside a stated window of days. The source says: \"uses of Parliament, declare the National Assembly dissolved.\" Dissolution is a power written in the constitution, with a consultation step and a timing rule. It is not an extra-legal act in the text.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of 4 October 1958, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/France_2008?lang=en",
+      "author": "Constitution of 4 October 1958, Constitute Project English text",
+      "date": "1958",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of France, Article 12",
+  "as_of_date": "1958",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.fr-republic",
+    "world.core.power.fr-commander",
+    "world.core.power.fr-president-term"
+  ],
+  "tags": [
+    "law",
+    "france",
+    "parliament"
+  ]
+}

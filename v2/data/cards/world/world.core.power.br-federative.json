@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.br-federative",
+  "title": "Brazil's constitution calls the country a federative republic formed by an indissoluble union",
+  "section": "world",
+  "category": "law",
+  "summary": "Brazil's constitution calls the country a federative republic formed by an indissoluble union.",
+  "body": "Article 1 says the Federative Republic of Brazil is formed by the indissoluble union of states and municipalities and of the Federal District, and it states the fundamentals that follow in the article. The source says: \"FUNDAMENTAL PRINCIPLES Type of government envisioned Art 1 The Federative Republic of Brazil, formed by the indissoluble union of States and Counties (municípios), as well as the Federal District, is a Democratic State of Law founded upon: sovereignty; citizenship; Human dignity human dignity; social values of work and free initiative; political pluralism.\" Indissoluble union is the text's description of the federation. The card does not list every fundamental that follows unless the quotation includes it.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Federative Republic of Brazil, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Brazil_2017?lang=en",
+      "author": "Constitution of the Federative Republic of Brazil, Constitute Project English text",
+      "date": "2017",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Brazil, Article 1",
+  "as_of_date": "2017",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.br-belief",
+    "world.core.power.br-habeas",
+    "world.core.power.us-states-cannot-coin"
+  ],
+  "tags": [
+    "law",
+    "brazil",
+    "federalism"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.fed-governors-terms",
+  "title": "The Board of Governors is seven members with staggered 14-year terms, nominated by the president and confirmed by the Senate",
+  "section": "world",
+  "category": "economics",
+  "summary": "The Board of Governors is seven members with staggered 14-year terms, nominated by the president and confirmed by the Senate.",
+  "body": "The structure page says the Board is run by seven governors serving staggered 14-year terms, nominated by the president and confirmed by the Senate, and that the Board is an agency of the federal government that reports to and is directly accountable to Congress. The source says: \"The Board is run by 7 members, or governors, serving staggered 14-year terms, who are nominated by the President of the United States and confirmed in their positions by the U.S. Senate.\"governors\" serving staggered 14-year terms, who are nominated by the President of the United States and confirmed in their positions by the U.S.\" Long terms and Senate confirmation are both stated. Accountability to Congress is also the page's statement, not a finding about a particular hearing.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Structure of the Federal Reserve System",
+      "url": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+      "author": "Board of Governors of the Federal Reserve System",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Board of Governors of the Federal Reserve System",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.fed-five-functions",
+    "world.core.money.fed-twelve-banks",
+    "world.core.money.fed-created-1913"
+  ],
+  "tags": [
+    "economics",
+    "central-banking",
+    "united-states"
+  ]
+}
