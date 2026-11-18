@@ -65,6 +65,8 @@ This routing is the policy for the catalog. It is not a claim that `v2/memory` o
 
 160 cards in all. Each card names the page it was written from. Pages were opened on 2026-11-18. A `fact` card quotes or closely reports that page. Where two opened pages do not say the same thing, the card is `contested` and both sides stay. A number that the NIST listing printed with an ellipsis was not completed from memory. A disagreement whose other side was not opened was not invented. St John Ambulance's emergency number is 999 or 112. CDC's is 911. Neither is written as the world's number.
 
+The truth gate also reads `v2/shards/<id>/cards/`. A host it classes as `other` cannot support a label above `weak`. St John Ambulance, the Constitute Project, and nato.int are in that class. Cards whose only sources are those hosts are labeled `weak`, with a `history` entry that records the previous label. The pages were not replaced and no source was added to raise the ceiling.
+
 No card is Wikipedia prose, and no card cites Wikipedia.
 
 The 31 unseeded shards are the rest of the map: clinical medicine, public health, mental health, medicine lists, international law, law by region, history by era and by region, chemistry, astronomy, earth science, organisms, mathematics, languages, agriculture, crafts, computing, economic series, religious texts, arts and music, food composition, energy and climate series, and places. High priority means offer that shard first when the gap matches it. Low priority means it is specialist.

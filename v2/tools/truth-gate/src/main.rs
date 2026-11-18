@@ -17,6 +17,10 @@ struct Cli {
     /// Directory of card files, with world/, horbm/, and diary/ inside it.
     #[arg(long, default_value = "v2/data/cards")]
     cards: PathBuf,
+    /// Add-on shards, `v2/shards/<id>/cards/*.json`. Defaults to the `shards`
+    /// directory next to `data/` when that directory exists.
+    #[arg(long)]
+    shards: Option<PathBuf>,
     /// Card JSON Schema.
     #[arg(long, default_value = "v2/data/schema.json")]
     schema: PathBuf,
@@ -43,10 +47,22 @@ struct Cli {
     timeout_secs: u64,
 }
 
+/// `v2/data/cards` -> `v2/shards` when that directory is present.
+fn default_shards(cards: &std::path::Path) -> Option<PathBuf> {
+    let dir = cards.parent()?.parent()?.join("shards");
+    if dir.is_dir() {
+        Some(dir)
+    } else {
+        None
+    }
+}
+
 fn main() -> ExitCode {
     let cli = Cli::parse();
+    let shards_dir = cli.shards.or_else(|| default_shards(&cli.cards));
     let report = match run(&Options {
         cards_dir: cli.cards,
+        shards_dir,
         schema_path: cli.schema,
         config_path: cli.config,
         catalog_path: if cli.no_catalog {

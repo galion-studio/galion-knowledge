@@ -16,7 +16,7 @@
       "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
     }
   ],
-  "evidence_strength": "moderate",
+  "evidence_strength": "weak",
   "said_by": "St John Ambulance",
   "as_of_date": "2026-11-18",
   "status": "sourced - needs review",
@@ -27,5 +27,14 @@
   "tags": [
     "first-aid",
     "diabetes"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "moderate",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from moderate to weak. No stronger host was opened, and none is invented."
+    }
   ]
 }

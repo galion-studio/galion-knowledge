@@ -5,8 +5,8 @@
   "scope": "What a named document says: a clause, an article, a holding. The core says the document exists. This shard quotes it. A later political use of the sentence is kept only when a second opened source states that use.",
   "version": "1",
   "card_count": 52,
-  "sha256": "d9d6cbfa521622b81f46a393a6778757e867ada5796d8ec6b62c7d02a50b690f",
-  "bytes": 106698,
+  "sha256": "17faf6b8d6e42100e7082f889c7904119420a03a3ccc444688fcfe18bec0b9c0",
+  "bytes": 107420,
   "depends_on": [
     "core"
   ],

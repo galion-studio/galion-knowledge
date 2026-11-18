@@ -8,7 +8,8 @@ Wikipedia, its mirrors, and derivatives that republish it are banned in `truth-g
 
 ```bash
 cargo test
-cargo run -- --cards ../../data/cards --schema ../../data/schema.json \
+cargo run -- --cards ../../data/cards --shards ../../shards \
+  --schema ../../data/schema.json \
   --catalog ../../data/catalog.json --config truth-gate.toml
 ```
 

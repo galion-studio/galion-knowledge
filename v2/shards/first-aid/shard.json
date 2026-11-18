@@ -5,8 +5,8 @@
   "scope": "Immediate care: what a named service says to do, the emergency number that service prints, and the limits it states. United Kingdom steps from St John Ambulance are not treated as United States steps from CDC or MedlinePlus. Doses stay with the page that stated them.",
   "version": "1",
   "card_count": 57,
-  "sha256": "ece12156cd346f9926da702db4c475b3993e780e144099d8d9dbbc5115d1328f",
-  "bytes": 118943,
+  "sha256": "08ee4e952b28c493fe67b7917ac1823fc56d316550fe2e909ddf6167097582c4",
+  "bytes": 132667,
   "depends_on": [
     "core"
   ],

@@ -16,7 +16,7 @@
       "note": "Page opened 2026-11-18. The constitution's own text is what is quoted. A government statement on later forces was not opened."
     }
   ],
-  "evidence_strength": "strong",
+  "evidence_strength": "weak",
   "said_by": "The Constitution of Japan, 1946",
   "as_of_date": "1946",
   "status": "sourced - needs review",
@@ -27,5 +27,14 @@
   "tags": [
     "history-primary-documents",
     "japan"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
   ]
 }
