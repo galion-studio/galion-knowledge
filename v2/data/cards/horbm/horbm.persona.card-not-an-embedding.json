@@ -1,0 +1,50 @@
+{
+  "id": "horbm.persona.card-not-an-embedding",
+  "title": "A stated persona changes neural replies; Galion uses the card as a constraint instead",
+  "section": "stance",
+  "category": "persona",
+  "body": "Zhang, Dinan, Urbanek, Szlam, Kiela, and Weston (2018) trained chit-chat models conditioned on a written profile, and on information about the person being spoken to. Next-utterance prediction improved. Because the other person's profile starts unknown, the model was trained to engage them with personal topics, and the resulting dialogue could be used to predict profile information about the speakers. That is a real result about neural chat. It is also the behavior Galion refuses: do not fish for a profile, and do not build one from the talk. R3's opinion is that the persona card is a filter in front of the move, checked for identity, legal moves, a mood box, length, and forbidden openers. It is not a persona embedding. Persona-Chat's training setup was not re-run, and this card does not claim Galion has measured a consistency score of its own.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Personalizing dialogue agents: I have a dog, do you have pets too?",
+      "url": "https://aclanthology.org/P18-1205/",
+      "author": "Saizheng Zhang, Emily Dinan, Jack Urbanek, Arthur Szlam, Douwe Kiela, and Jason Weston",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "HORBM R3: memory, persona, empathy, and dialogue policy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/cursor/horbm-r3-memory-persona-3e32/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk, Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "supported",
+  "said_by": "Zhang and colleagues for the result; Galion Labs, R3, for the constraint",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [
+    {
+      "position": "Condition a generator on a persona text, and let the dialogue reveal the other person's profile.",
+      "source": "Zhang and colleagues, ACL 2018."
+    },
+    {
+      "position": "Keep a static card and reject moves that break it. Do not infer the person's profile.",
+      "source": "Galion Labs, R3, and Galion One."
+    }
+  ],
+  "related": [
+    "horbm.persona.stay-the-voice",
+    "horbm.memory.no-portrait",
+    "horbm.closings.xiaoice-cps"
+  ]
+}

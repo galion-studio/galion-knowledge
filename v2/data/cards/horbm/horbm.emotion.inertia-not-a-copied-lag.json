@@ -1,0 +1,41 @@
+{
+  "id": "horbm.emotion.inertia-not-a-copied-lag",
+  "title": "Emotional inertia is a research construct; Galion copies no time constant from it",
+  "section": "affect",
+  "category": "emotion-space",
+  "body": "Kuppens, Allen, and Sheeber (2010) define emotional inertia as resistance to change: how well a person's current emotional state predicts their state at the next moment. In two naturalistic studies, people with low self-esteem, and people with depression, showed higher inertia for both positive and negative emotions. The paper discusses inertia as a possible hallmark of maladaptive dynamics. It does not publish a lag for a healthy conversation, and it does not say that a slow change of tone is depression. R3 names this paper as the contract's citation that mood lingers, and then copies no lag. The smoothing of Galion's three floats is an owner knob with no literature on the number. Do not infer low self-esteem or depression from how fast a voice moves. That inference would be a portrait and a diagnosis, and both are refused even when remember is on.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Emotional inertia and psychological maladjustment",
+      "url": "https://doi.org/10.1177/0956797610372634",
+      "author": "Peter Kuppens, Nicholas B. Allen, and Lisa B. Sheeber",
+      "date": "2010",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Emotional inertia and psychological maladjustment (open copy)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2901421/",
+      "author": "Peter Kuppens, Nicholas B. Allen, and Lisa B. Sheeber",
+      "date": "2010",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "HORBM R3: memory, persona, empathy, and dialogue policy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/cursor/horbm-r3-memory-persona-3e32/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "supported",
+  "said_by": "Kuppens, Allen, and Sheeber; the refusal to copy a lag is Galion Labs, R3",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.emotion.state-is-avd",
+    "horbm.memory.no-portrait",
+    "horbm.safety.not-counsel"
+  ]
+}

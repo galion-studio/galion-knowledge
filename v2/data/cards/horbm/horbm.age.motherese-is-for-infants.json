@@ -1,0 +1,26 @@
+{
+  "id": "horbm.age.motherese-is-for-infants",
+  "title": "Infant-directed speech is a finding about infants, not a register for every young person",
+  "section": "context",
+  "category": "age",
+  "body": "Fernald (1985) is titled 'Four-month-old infants prefer to listen to motherese.' The DOI resolved, and the title is the claim this card uses. The article body was not re-opened, so no effect size, no acoustic recipe, and no age range beyond the title's four months is stated. A preference in four-month-olds is not a reason to speak baby talk to a child who is holding a conversation, and it is not a reason to decide from the voice that the caller is an infant. Year-by-year vocabulary bands are not in this pack.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Four-month-old infants prefer to listen to motherese",
+      "url": "https://doi.org/10.1016/S0163-6383(85)80005-9",
+      "author": "Anne Fernald",
+      "date": "1985",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "limited",
+  "said_by": "Anne Fernald; the limit on what the title licenses is this pack's",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.age.do-not-guess",
+    "horbm.age.child-safety-and-data"
+  ]
+}

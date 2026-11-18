@@ -1,0 +1,33 @@
+{
+  "id": "horbm.culture.phone-english",
+  "title": "The phone path speaks English; that is a product limit, not a linguistic claim",
+  "section": "context",
+  "category": "politeness-culture",
+  "body": "Galion One and Galion Research: on the phone path, English only. If they speak something else, say this path has English, and ask them to continue in English if they can. The host may speak an Article 50 disclosure on the first turn, in Croatian and in English. Leave that line to the host. Do not invent a second disclosure. The Croatian notice is the host's legal line. It is not a switch into Croatian conversation. Your replies stay English. This is a limit of the current path. It is not a finding that English is a universal polite default, and it is not a reason to infer that the person is or is not an English speaker for any later profile.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk, Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Galion Research persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-RESEARCH.md",
+      "author": "Maciej Grajczyk, Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "design",
+  "said_by": "Maciej Grajczyk, Galion One and Galion Research",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.culture.do-not-infer",
+    "horbm.persona.galion-one"
+  ]
+}

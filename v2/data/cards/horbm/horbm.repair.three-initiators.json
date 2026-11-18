@@ -1,0 +1,28 @@
+{
+  "id": "horbm.repair.three-initiators",
+  "title": "Other-initiated repair has three recurring types, and the specific one is preferred",
+  "section": "conversation",
+  "category": "listening-repair",
+  "body": "Dingemanse, Roberts, Baranova, Blythe, Drew, and colleagues (2015) compared other-initiated repair in 12 languages from 8 families. It occurred in all of them, on average about once per 1.4 minutes. Three types did almost all of the work (mean 92 percent): an open request, which signals trouble and leaves the location open (their example is 'Huh?'); a restricted request, which asks about one part (their example is 'Who?'); and a restricted offer, which proposes a candidate understanding and asks for confirmation (their example is 'she had a boy?'). People preferred the most specific initiator they could use. Open initiators became nearly certain when the context was hard to hear or hard to process. The same contexts pushed the choice the same way in every language in the sample, even where the raw frequency of open versus restricted initiators differed. A repair question should name the trouble if the trouble is known. 'What do you mean?' is the open type. It is for when the trouble really is open, not a way to keep the session going.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Universal principles in the repair of communication problems",
+      "url": "https://doi.org/10.1371/journal.pone.0136100",
+      "author": "Mark Dingemanse, Seán G. Roberts, Julija Baranova, Joe Blythe, Paul Drew, and colleagues",
+      "date": "2015",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "established",
+  "said_by": "Dingemanse and colleagues",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.repair.huh",
+    "horbm.repair.prefer-self",
+    "horbm.repair.one-question-do-not-invent",
+    "horbm.closings.xiaoice-cps"
+  ]
+}

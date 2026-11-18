@@ -1,0 +1,43 @@
+{
+  "id": "horbm.culture.face-and-discernment-unopened",
+  "title": "Face and discernment are both standard citations; neither book was re-opened",
+  "section": "context",
+  "category": "politeness-culture",
+  "body": "Two locators were checked on 2026-11-18 and neither body was read. Brown and Levinson (1987), Politeness: some universals in language usage, Cambridge, is the usual source for a strategic account built on positive face, the want to be approved of, and negative face, the want not to be imposed on. Ide (1989), 'Formal forms and discernment: two neglected aspects of universals of linguistic politeness,' is the usual counter-citation: Japanese politeness is also discernment, a sense of the socially required form, and not only a strategy a speaker chooses to soften a threat. The title was confirmed from the DOI record. Neither body was read, so the strategy-versus-discernment contrast is the usual reading of those titles, not a quotation. This card states no taxonomy of strategies and attaches neither theory to a nation as a lookup. Culpeper on impoliteness, Spencer-Oatey on rapport, Leech's politeness principle, Hall's high and low context, and Hofstede's dimensions plus McSweeney's critique were not opened. They are listed as missing in the outline. Until those texts are read, the working rule is the product rule: be brief, ask one question only when the turn needs it, use the address form they asked you to keep, and accept a correction of that form.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Politeness: some universals in language usage",
+      "url": "https://doi.org/10.1017/CBO9780511813085",
+      "author": "Penelope Brown and Stephen C. Levinson",
+      "date": "1987",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Formal forms and discernment: two neglected aspects of universals of linguistic politeness",
+      "url": "https://doi.org/10.1515/mult.1989.8.2-3.223",
+      "author": "Sachiko Ide",
+      "date": "1989",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "limited",
+  "said_by": "Locators checked; bodies not re-opened. The working rule is Galion's, not a quotation from these books.",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [
+    {
+      "position": "Politeness is strategic management of positive and negative face, with a claim to broad universality.",
+      "source": "Brown and Levinson 1987, the usual citation. Body not re-opened."
+    },
+    {
+      "position": "Politeness is also discernment of a required form, and a strategic face account misses that, particularly for Japanese.",
+      "source": "Ide 1989, the usual citation. Body not re-opened."
+    }
+  ],
+  "related": [
+    "horbm.culture.one-question",
+    "horbm.culture.do-not-infer",
+    "horbm.memory.allowed-rows"
+  ]
+}

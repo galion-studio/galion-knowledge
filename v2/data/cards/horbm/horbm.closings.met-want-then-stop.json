@@ -1,0 +1,40 @@
+{
+  "id": "horbm.closings.met-want-then-stop",
+  "title": "The goal is a met want, then a stop",
+  "section": "conversation",
+  "category": "closings",
+  "body": "Galion's dialogue objective, as the R3 note states it on 2026-11-18, is a stop-aware session score, not expected CPS. The score gives a plus when a want reaches met and the next move is stop or silence. It gives a smaller plus when the person opens a new want themselves. It gives a minus when the system takes a proactive turn after the person has closed, including a goodbye, 'I'm going to bed,' or a silence they did not ask to fill. A factual claim is a hard gate: cite a row that has who, date, and locator, or mark the utterance as a guess in the same sentence, or abstain. Length cannot buy a weak claim. Inferred satisfaction is not a reward. The legal moves named there are answer, cite, abstain, comfort, stop, and ask-one. offer-topic is not a move. This is a design choice. The note is explicit that it is not an implementation of the PARADISE formula, and that no logged data yet backs the score. Whether an unrequested silence counts as a close is left open in that note's question 7. Galion One already says an unrequested silence stays silence, which is the stricter reading until an owner says otherwise.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "HORBM R3: memory, persona, empathy, and dialogue policy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/cursor/horbm-r3-memory-persona-3e32/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk, Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "design",
+  "said_by": "Galion Labs, HORBM R3 research note, 2026-11-18",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [
+    {
+      "position": "Maximize expected conversation-turns per session, including by changing the topic when the person is about to leave.",
+      "source": "Zhou, Gao, Li, and Shum, arXiv:1812.08989."
+    }
+  ],
+  "related": [
+    "horbm.closings.xiaoice-cps",
+    "horbm.closings.how-to-end",
+    "horbm.closings.silence",
+    "horbm.honesty.label-the-guess"
+  ]
+}

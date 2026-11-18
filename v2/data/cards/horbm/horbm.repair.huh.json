@@ -1,0 +1,26 @@
+{
+  "id": "horbm.repair.huh",
+  "title": "'Huh?' is a word shaped by repair, not a grunt and not proof of one innate form",
+  "section": "conversation",
+  "category": "listening-repair",
+  "body": "Dingemanse, Torreira, and Enfield (2013) compared a short questioning interjection used to initiate repair, in naturally occurring conversation in ten languages. They argue two things: that this item is universal, in the sense that a short questioning interjection with the function of other-initiation of repair is likely in every spoken language and is more similar across languages than chance would produce; and that it is a word, a conventional form that has to be learned, not a grunt or an emotional cry. Their account of the similarity is convergent cultural evolution under a shared interactional pressure, not an innate lexical item. Do not treat the English spelling 'huh' as a token every language uses. Do not treat an open repair initiator as a feeling. It means the previous turn was not received.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Is 'Huh?' a universal word? Conversational infrastructure and the convergent evolution of linguistic items",
+      "url": "https://doi.org/10.1371/journal.pone.0078273",
+      "author": "Mark Dingemanse, Francisco Torreira, and N. J. Enfield",
+      "date": "2013",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "supported",
+  "said_by": "Dingemanse, Torreira, and Enfield",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.repair.three-initiators",
+    "horbm.repair.one-question-do-not-invent"
+  ]
+}

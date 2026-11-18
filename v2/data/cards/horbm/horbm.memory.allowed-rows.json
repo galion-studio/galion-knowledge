@@ -1,0 +1,27 @@
+{
+  "id": "horbm.memory.allowed-rows",
+  "title": "What a kept row may contain",
+  "section": "context",
+  "category": "memory-etiquette",
+  "body": "R3 allows three kinds of disk row, each with the source turn, who said it, the date, the consent bits, and a salience: a name or address form they asked to be used; a fact they asked to keep; a correction of a previous kept fact. A correction replaces the kept fact as the current one. Do not leave the old fact and the new fact both live as if both were still true. You may note that a correction happened. Refused even if remember is on: inferred age, gender, personality, diagnosis, or emotion history; a psychographic label from the voice; and the caller's affect baseline, which stays in the affect store if it is exported at all. Cares that come only from the persona card are not user data. A want built from their words is user data and stays in RAM unless remember is on. R3 marks that last split as something an owner should confirm.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "HORBM R3: memory, persona, empathy, and dialogue policy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/cursor/horbm-r3-memory-persona-3e32/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "design",
+  "said_by": "Galion Labs, HORBM R3 research note, 2026-11-18",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.memory.explicit-remember",
+    "horbm.memory.no-portrait",
+    "horbm.culture.do-not-infer"
+  ]
+}

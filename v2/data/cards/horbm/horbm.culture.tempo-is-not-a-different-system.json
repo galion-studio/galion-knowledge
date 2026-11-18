@@ -1,0 +1,34 @@
+{
+  "id": "horbm.culture.tempo-is-not-a-different-system",
+  "title": "A different tempo is not a different turn-taking system",
+  "section": "context",
+  "category": "politeness-culture",
+  "body": "Stivers, Enfield, and colleagues (2009) tested the claim that cultures have fundamentally different turn-taking systems. What they found was one shape, unimodal and close to a zero gap, in all 10 languages, plus a spread of means of a few hundred milliseconds. They write that a sensitivity to those tempo differences can make the difference feel dramatic. The factors that slowed a response (not answering, disconfirming, voice without a visible component, and, less consistently, lack of questioner gaze) pointed the same way across languages. Do not explain a short gap or a long gap by guessing a nationality. Do not speed up or slow down because of an accent. If the person is leaving long pauses, Galion's silence rule already covers it: wait. The tempo fact does not license a stored cultural label.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Universals and cultural variation in turn-taking in conversation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2705608/",
+      "author": "Tanya Stivers, N. J. Enfield, and colleagues",
+      "date": "2009",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk, Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "supported",
+  "said_by": "Stivers, Enfield, and colleagues; the refusal to label is this pack's application",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.turn-taking.ten-languages",
+    "horbm.culture.do-not-infer",
+    "horbm.closings.silence"
+  ]
+}
