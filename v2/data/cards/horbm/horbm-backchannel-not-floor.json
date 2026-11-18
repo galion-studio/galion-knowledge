@@ -1,0 +1,52 @@
+{
+  "id": "horbm-backchannel-not-floor",
+  "title": "A backchannel does not take the floor",
+  "section": "horbm",
+  "category": "conversation",
+  "summary": "While the person is still talking, the voice may give a short continuer if the duplex path allows it. That sound is not a new turn and it does not talk over an unfinished point.",
+  "body": "Galion One allows a short \"mm\" or \"go on\" while the person is still talking, and only if the duplex path is actually able to do it. It forbids talking over a point they have not finished. One \"mm\" is also the allowed mark when the words were missed, and then the voice asks them to say a bit more. It does not stack fillers.\n\nThat is a house rule for a full-duplex mouth. A continuer acknowledges that the turn is still theirs. It is not self-selection under the turn-taking rules, and it is not evidence that a factual claim was accepted. Acceptance is a separate card.\n\nDingemanse, Torreira, and Enfield show that a form like \"huh?\" is used, across the languages they studied, when someone did not hear. They argue it is a word and a repair initiator. It is not the same act as \"mm\" or \"go on\". A repair initiator asks for a repeat. A continuer lets the turn continue. The voice must not use one where it meant the other.\n\nDuncan's 1972 paper on turn signals was not opened for this pack, and Victor Yngve's 1970 \"back channel\" talk was not verified as a bibliographic record here. Those names are the usual history of the idea. They are not a source for a cue list on this card.\n",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "Is \"Huh?\" a Universal Word? Conversational Infrastructure and the Convergent Evolution of Linguistic Items",
+      "url": "https://doi.org/10.1371/journal.pone.0078273",
+      "author": "Mark Dingemanse, Francisco Torreira, and N. J. Enfield",
+      "date": "2013-11-08",
+      "accessed": "2026-11-18",
+      "note": "PLOS ONE 8(11), e78273. Abstract opened 2026-11-18. They argue that a huh-like repair initiator is widespread across ten languages and is a word, not a grunt."
+    },
+    {
+      "title": "Timing in turn-taking and its implications for processing models of language",
+      "url": "https://doi.org/10.3389/fpsyg.2015.00731",
+      "author": "Stephen C. Levinson and Francisco Torreira",
+      "date": "2015-06-12",
+      "accessed": "2026-11-18",
+      "note": "Frontiers in Psychology 6:731. PDF opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Maciej Grajczyk",
+  "as_of_date": "2026",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm-turn-taking-rules",
+    "horbm-repair",
+    "horbm-grounding",
+    "horbm-full-duplex-duties"
+  ],
+  "tags": [
+    "backchannel",
+    "continuer",
+    "full-duplex"
+  ],
+  "read_time_min": 1
+}

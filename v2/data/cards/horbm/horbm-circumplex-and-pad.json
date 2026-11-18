@@ -1,0 +1,69 @@
+{
+  "id": "horbm-circumplex-and-pad",
+  "title": "Valence, arousal, and dominance are the names of the space",
+  "section": "horbm",
+  "category": "affect",
+  "summary": "Russell's 1980 paper is a circumplex model of affect. Mehrabian's 1996 title names pleasure, arousal, and dominance. Galion's mood point uses valence, arousal, and dominance. The papers were not opened far enough to copy a scale.",
+  "body": "Russell (1980) is titled \"A circumplex model of affect\", in the Journal of Personality and Social Psychology. The PDF was not opened. This card does not copy an angle, a loading, or a word list from his figure. The title is the claim that is safe: he proposed a circumplex, not a list of unrelated boxes.\n\nMehrabian (1996) is titled as a pleasure-arousal-dominance framework for temperament. The PDF was not opened. No questionnaire score is copied. The three words in the title are pleasure, arousal, and dominance.\n\nGalion's wire, described in the lock and in the empathy note, uses valence, arousal, and dominance. Valence on that wire is a signed value. Arousal and dominance are the other two axes. Mapping Mehrabian's pleasure onto Galion's valence, and his dominance onto Galion's dominance, is a house reading of two titles onto an existing wire. It is not a result either paper stated about this product. The reading is used because the wire already has those three axes. It is not used because a 1996 temperament paper specified an 80 ms update.\n\nCowen, Elfenbein, Laukka, and Keltner (2019), in an abstract that was opened, say that emotion categories organized recognition of vocal bursts more than affective appraisals, including valence and arousal, and that the categories were bridged by smooth gradients. A dimensional space is therefore not, on their evidence, the whole story of recognition. The next card keeps the three floats as the runtime state anyway, and the contested card says why the category names are not that state.\n",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "A circumplex model of affect",
+      "url": "https://doi.org/10.1037/h0077714",
+      "author": "James A. Russell",
+      "date": "1980-12",
+      "accessed": "2026-11-18",
+      "note": "Journal of Personality and Social Psychology 39(6), 1161-1178. Crossref record checked. The PDF was not opened. The card does not copy coordinates from the figure."
+    },
+    {
+      "title": "Pleasure-arousal-dominance: A general framework for describing and measuring individual differences in Temperament",
+      "url": "https://doi.org/10.1007/BF02686918",
+      "author": "Albert Mehrabian",
+      "date": "1996-12",
+      "accessed": "2026-11-18",
+      "note": "Current Psychology 14(4), 261-292. Crossref title and pages checked. The PDF was not opened. No scale values are copied."
+    },
+    {
+      "title": "Mapping 24 emotions conveyed by brief human vocalization",
+      "url": "https://doi.org/10.1037/amp0000399",
+      "author": "Alan S. Cowen, Hillary Anger Elfenbein, Petri Laukka, and Dacher Keltner",
+      "date": "2019-09",
+      "accessed": "2026-11-18",
+      "note": "American Psychologist 74(6), 698-712. Abstract opened 2026-11-18. Categories organized recognition more than valence and arousal, and the categories were bridged by continuous gradients."
+    },
+    {
+      "title": "Empathy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/EMPATHY.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Opened 2026-11-18. Empathy is a weight e, not a sentence and not a new emotion label."
+    },
+    {
+      "title": "LOCKS.toml",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/LOCKS.toml",
+      "author": "Maciej Grajczyk",
+      "date": "2026-11-02",
+      "accessed": "2026-11-18",
+      "note": "Opened 2026-11-18. frame_ms = 80. Consent bits sense, adapt, remember, share, default deny. withdraw_wipes_ram_history = true. prohibited_purposes workplace and education, not overridable. barge_in_max_ms = 200. bands.duplex = full."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "James A. Russell; Albert Mehrabian; Alan S. Cowen and colleagues",
+  "as_of_date": "1980-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-mood-point-80ms",
+    "horbm-categories-contested",
+    "horbm-empathy-weight"
+  ],
+  "tags": [
+    "valence",
+    "arousal",
+    "dominance",
+    "circumplex",
+    "pad"
+  ],
+  "read_time_min": 1
+}

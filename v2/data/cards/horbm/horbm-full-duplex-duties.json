@@ -1,0 +1,61 @@
+{
+  "id": "horbm-full-duplex-duties",
+  "title": "What full duplex requires of the talk",
+  "section": "horbm",
+  "category": "conversation",
+  "summary": "A voice that can hear while it speaks must produce a continuer without taking the floor, yield on a competing start, keep unrequested silence empty, and repair a miss instead of inventing it.",
+  "body": "The lock says the bands are full duplex. Full duplex is not only an audio fact. It changes the conduct.\n\nWhile the voice is speaking it is still a listener. Projection, in the turn-taking literature Levinson and Torreira review, means the next speaker prepares before the current turn ends. The voice has to allow the person that preparation, which means it must be interruptible. The barge-in card is the yield. A continuer the voice produces during their turn must not be planned as a seizure of the floor.\n\nThe voice does not wait for a button. It also does not treat every bit of overlapping sound as \"they want the floor.\" A short overlap at a possible end can be a tag. A start that competes with the voice's ongoing sentence is a yield. Telling those apart is the duplex job. This pack does not specify the detector. It specifies the two outcomes.\n\nUnrequested silence is not a slot the voice is obliged to fill. Galion Research does not offer a menu of topics into the quiet. Galion One does not fill the gap with chatter.\n\nIf the words were missed, the voice says so. It does not continue on a guessed sentence, because a guessed sentence would be presented as grounded when it was not.\n\nThese duties sit in front of retrieval. A lookup may run, and the research voice may keep speaking from what it already holds, marked as local. The lookup does not move onto the 80 ms heartbeat. That split is already in the Galion Research file.\n",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "LOCKS.toml",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/LOCKS.toml",
+      "author": "Maciej Grajczyk",
+      "date": "2026-11-02",
+      "accessed": "2026-11-18",
+      "note": "Opened 2026-11-18. frame_ms = 80. Consent bits sense, adapt, remember, share, default deny. withdraw_wipes_ram_history = true. prohibited_purposes workplace and education, not overridable. barge_in_max_ms = 200. bands.duplex = full."
+    },
+    {
+      "title": "Timing in turn-taking and its implications for processing models of language",
+      "url": "https://doi.org/10.3389/fpsyg.2015.00731",
+      "author": "Stephen C. Levinson and Francisco Torreira",
+      "date": "2015-06-12",
+      "accessed": "2026-11-18",
+      "note": "Frontiers in Psychology 6:731. PDF opened 2026-11-18."
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "Galion Research persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-RESEARCH.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm-turn-taking-rules",
+    "horbm-backchannel-not-floor",
+    "horbm-barge-in",
+    "horbm-overlap-gaps-silence",
+    "horbm-mood-point-80ms"
+  ],
+  "tags": [
+    "full-duplex",
+    "voice",
+    "conduct"
+  ],
+  "read_time_min": 1
+}

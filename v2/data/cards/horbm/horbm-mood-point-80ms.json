@@ -1,0 +1,80 @@
+{
+  "id": "horbm-mood-point-80ms",
+  "title": "The feeling state is three floats, stepped every 80 ms",
+  "section": "horbm",
+  "category": "affect",
+  "summary": "The inner state is a continuous point of arousal, valence, and dominance. It is updated on the 80 ms frame. A category name is not the state. Cowen's labels are not stored as the feeling.",
+  "body": "`LOCKS.toml` sets `frame_ms` to 80 and `frame_hz` to 12.5. The frame is shared by audio, emotion, console, render, Rika, and the scheduler. It is not configurable. The empathy note says the weight `e` is written once per 80 ms frame. Those are facts about the lock and the note.\n\nR3's opinion, which this pack adopts as the knowledge the brain must use, is that the inner mood is that same kind of continuous point, plus energy, fatigue, and health at turn boundaries, and that the point steps once per frame as a sibling of the heartbeat. The step is a move toward a target the policy wrote. The smoothing constant is an owner knob. R3 sets no number and copies no lag from the literature. Kuppens, Allen, and Sheeber define emotional inertia as resistance of an emotional state to change, in an abstract that was opened. They do not publish an 80 ms time constant, and this pack does not invent one.\n\nLevinson and Torreira mention a proposed turn-taking \"beat\" of 80 to 180 ms, attributed by them to Wilson and Zimmerman and to Wilson and Wilson. That proposal was not re-opened. The 80 ms lock is the audio frame. It is not that beat, and it is not a published feeling time constant. The coincidence of the number is not a citation.\n\nBetween utterances the point keeps stepping, so the next utterance starts from a point that has been moving. The state does not store a 3-bit label and does not store a Cowen name. A name, if a later layer asks for one, is a pin on top of the point. The point remains the state when the pin is absent. Neutral, in this design, is the speaker's own baseline, not a leftover category.\n\nWhen `sense` is off, the voice does not steer the point from the caller's loudness, pace, or silence. Galion One still speaks neutral-warm. Denied consent is not a reading of zero valence.\n",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "LOCKS.toml",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/LOCKS.toml",
+      "author": "Maciej Grajczyk",
+      "date": "2026-11-02",
+      "accessed": "2026-11-18",
+      "note": "Opened 2026-11-18. frame_ms = 80. Consent bits sense, adapt, remember, share, default deny. withdraw_wipes_ram_history = true. prohibited_purposes workplace and education, not overridable. barge_in_max_ms = 200. bands.duplex = full."
+    },
+    {
+      "title": "Empathy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/EMPATHY.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Opened 2026-11-18. Empathy is a weight e, not a sentence and not a new emotion label."
+    },
+    {
+      "title": "R3 — Memory, persona, empathy, and dialogue policy for HORBM",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/65c1249f498beb794a049164b85137014b6a7dd5/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Draft research note on pull request 208. Not merged. Not a lock. Opinions in that note stay opinions here."
+    },
+    {
+      "title": "Emotional Inertia and Psychological Maladjustment",
+      "url": "https://doi.org/10.1177/0956797610372634",
+      "author": "Peter Kuppens, Nicholas B. Allen, and Lisa B. Sheeber",
+      "date": "2010-05-25",
+      "accessed": "2026-11-18",
+      "note": "Psychological Science 21(7), 984-991. Abstract opened 2026-11-18. Emotional inertia is resistance of an emotional state to change. No lag constant is copied."
+    },
+    {
+      "title": "Timing in turn-taking and its implications for processing models of language",
+      "url": "https://doi.org/10.3389/fpsyg.2015.00731",
+      "author": "Stephen C. Levinson and Francisco Torreira",
+      "date": "2015-06-12",
+      "accessed": "2026-11-18",
+      "note": "Frontiers in Psychology 6:731. PDF opened 2026-11-18."
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm-circumplex-and-pad",
+    "horbm-categories-contested",
+    "horbm-empathy-weight",
+    "horbm-consent-bits",
+    "horbm-full-duplex-duties"
+  ],
+  "tags": [
+    "affect",
+    "80ms",
+    "valence",
+    "arousal",
+    "dominance",
+    "mood"
+  ],
+  "read_time_min": 1
+}

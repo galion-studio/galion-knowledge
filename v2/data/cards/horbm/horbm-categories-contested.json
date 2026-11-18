@@ -1,0 +1,108 @@
+{
+  "id": "horbm-categories-contested",
+  "title": "Emotion categories are contested. They are not the state.",
+  "section": "horbm",
+  "category": "affect",
+  "summary": "Ekman argues for basic emotions. Barrett argues emotions are constructed. Cowen and colleagues report many categories on continuous gradients, and they report that categories beat valence and arousal for recognition. HORBM's state stays the three floats.",
+  "body": "The literature this pack opened does not agree on whether emotion is a short list of kinds.\n\nEkman (1992) is titled \"An argument for basic emotions\". The PDF was not opened, so his list is not copied onto this card. The title is the view: there are basic emotions to argue for.\n\nBarrett's abstract, opened, says the science of emotion has been using folk categories to look for a brain basis, and offers a theory of constructed emotion instead. That is her abstract's claim. The article's model is not reproduced here.\n\nCowen and Keltner (2017) are titled as saying self-report captures 27 categories bridged by continuous gradients. Cowen, Elfenbein, Laukka, and Keltner (2019), abstract opened, report at least 24 kinds of emotion in brief vocal bursts. They say categories, more than appraisals such as valence and arousal, organize recognition, and that the categories are bridged by smooth gradients rather than discrete cuts. A separate 2019 paper is titled as the primacy of categories in recognizing 12 emotions in speech prosody across two cultures. That body was not opened.\n\nSo a pure \"categories are a mistake\" reading is not what Cowen and colleagues wrote, and a pure \"basic emotions are settled\" reading is not what Barrett's abstract wrote. Both the many-category view and the constructed view are live.\n\nThe house state does not pick a winner. The runtime point is arousal, valence, and dominance, updated every 80 ms. A Cowen name may be an optional pin when a voice layer asks for a name. The pin is not written into memory as \"this person is an anxious person\", and the persona files forbid naming the caller's emotion back to them. Whether a pin may be spoken at all is open question 8 in the internal note.\n\nThe 3-bit labels already on the feeling wire (neutral, calm, joy, and the rest) are a derived view for that wire. The empathy note says the label field is full, so empathy is not a new label. They are not a second theory of emotion.\n",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "An argument for basic emotions",
+      "url": "https://doi.org/10.1080/02699939208411068",
+      "author": "Paul Ekman",
+      "date": "1992-05",
+      "accessed": "2026-11-18",
+      "note": "Cognition and Emotion 6(3-4), 169-200. Crossref record checked. The PDF was not opened, so the list of basic emotions is not copied from the article."
+    },
+    {
+      "title": "The theory of constructed emotion: an active inference account of interoception and categorization",
+      "url": "https://doi.org/10.1093/scan/nsw154",
+      "author": "Lisa Feldman Barrett",
+      "date": "2017",
+      "accessed": "2026-11-18",
+      "note": "Social Cognitive and Affective Neuroscience 12(1). Abstract opened 2026-11-18. Crossref's online date is 2016-10-19; the issue is the 2017 journal version."
+    },
+    {
+      "title": "Self-report captures 27 distinct categories of emotion bridged by continuous gradients",
+      "url": "https://doi.org/10.1073/pnas.1702247114",
+      "author": "Alan S. Cowen and Dacher Keltner",
+      "date": "2017-09-05",
+      "accessed": "2026-11-18",
+      "note": "PNAS 114(38). Abstract opened via the PMC record 2026-11-18."
+    },
+    {
+      "title": "Mapping 24 emotions conveyed by brief human vocalization",
+      "url": "https://doi.org/10.1037/amp0000399",
+      "author": "Alan S. Cowen, Hillary Anger Elfenbein, Petri Laukka, and Dacher Keltner",
+      "date": "2019-09",
+      "accessed": "2026-11-18",
+      "note": "American Psychologist 74(6), 698-712. Abstract opened 2026-11-18. Categories organized recognition more than valence and arousal, and the categories were bridged by continuous gradients."
+    },
+    {
+      "title": "The primacy of categories in the recognition of 12 emotions in speech prosody across two cultures",
+      "url": "https://doi.org/10.1038/s41562-019-0533-6",
+      "author": "Alan S. Cowen, Petri Laukka, Hillary Anger Elfenbein, Runjing Liu, and Dacher Keltner",
+      "date": "2019",
+      "accessed": "2026-11-18",
+      "note": "Nature Human Behaviour 3, 369-382. OpenAlex record checked. The article body was not opened. The title is the claim this card uses."
+    },
+    {
+      "title": "Empathy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/EMPATHY.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Opened 2026-11-18. Empathy is a weight e, not a sentence and not a new emotion label."
+    },
+    {
+      "title": "R3 — Memory, persona, empathy, and dialogue policy for HORBM",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/65c1249f498beb794a049164b85137014b6a7dd5/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Draft research note on pull request 208. Not merged. Not a lock. Opinions in that note stay opinions here."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Galion Labs",
+  "as_of_date": "2019-09",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Basic emotions",
+      "summary": "Ekman 1992 is an argument for basic emotions. The article was not opened, so this card does not list his categories or his criteria.",
+      "status": "sourced - needs review"
+    },
+    {
+      "label": "Constructed emotion",
+      "summary": "Barrett's abstract argues against searching for a brain basis of folk emotion categories and names a theory of constructed emotion.",
+      "status": "sourced - needs review"
+    },
+    {
+      "label": "Many categories on gradients",
+      "summary": "Cowen and colleagues report 27 self-report categories, at least 24 kinds in vocal bursts, and a 12-emotion prosody study. Categories organized vocal-burst recognition more than valence and arousal, and the categories were bridged by continuous gradients.",
+      "status": "sourced - needs review"
+    },
+    {
+      "label": "House state",
+      "summary": "HORBM keeps a continuous arousal, valence, and dominance point, stepped every 80 ms. Category names are not the stored state. This is a design choice, not a finding that the other views are false.",
+      "status": "draft"
+    }
+  ],
+  "related": [
+    "horbm-circumplex-and-pad",
+    "horbm-mood-point-80ms",
+    "horbm-empathy-weight",
+    "horbm-no-inferred-portrait"
+  ],
+  "tags": [
+    "emotion",
+    "cowen",
+    "barrett",
+    "ekman",
+    "contested",
+    "categories"
+  ],
+  "read_time_min": 2
+}

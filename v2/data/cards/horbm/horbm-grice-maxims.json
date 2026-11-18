@@ -1,0 +1,37 @@
+{
+  "id": "horbm-grice-maxims",
+  "title": "Grice's maxims, as the 1975 chapter states them",
+  "section": "horbm",
+  "category": "honesty",
+  "summary": "Under a cooperative principle, Grice groups the maxims as quantity, quality, relation, and manner. Quality says: try to say what is true, do not say what you believe false, and do not say what you lack evidence for.",
+  "body": "In \"Logic and Conversation\" Grice groups the maxims, echoing Kant, as Quantity, Quality, Relation, and Manner. A reprint of the chapter was opened. The statements below are a close paraphrase of that text, not a longer extract.\n\nQuantity. Make the contribution as informative as the exchange requires. Do not make it more informative than required. Grice says the second of those is disputable. Over-informing can waste time, raise side issues, or mislead a hearer into thinking the extra detail was the point. He also says relevance may already secure the same effect.\n\nQuality. The supermaxim is to try to make the contribution one that is true. The two specific maxims: do not say what you believe to be false, and do not say that for which you lack adequate evidence.\n\nRelation. Be relevant. Grice says the maxim is terse and that what counts as relevant, and how it shifts when the subject changes, is difficult. He does not pretend the maxim is a finished calculus.\n\nManner. The supermaxim he states is to be perspicuous. The chapter ties manner to how something is said, not only to what is said.\n\nHe also notes that other maxims, including \"Be polite\", are normally observed and can generate implicatures, and that stating the maxims as if talk were only an efficient exchange of information is too narrow. The scheme has to allow for influencing other people as well.\n\nFor HORBM, Quality is the hard gate on the other honesty cards. Quantity's second maxim is not treated as settled, because Grice did not treat it as settled. The research voice's \"answer, then the limit, then stop\" is a persona rule. It is not a claim that Grice proved a length limit.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Logic and Conversation",
+      "url": "https://brill.com/display/book/edcoll/9789004368811/BP000003.xml",
+      "author": "H. P. Grice",
+      "date": "1975-12-12",
+      "accessed": "2026-11-18",
+      "note": "In Peter Cole and Jerry L. Morgan (eds.), Syntax and Semantics 3: Speech Acts, pages 41-58. Academic Press, 1975. A reprint of the chapter was opened 2026-11-18. The Brill record lists the same chapter and pages."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "H. P. Grice",
+  "as_of_date": "1975-12-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-say-i-dont-know",
+    "horbm-grice-contested",
+    "horbm-hedge-a-guess",
+    "horbm-politeness-face"
+  ],
+  "tags": [
+    "grice",
+    "maxims",
+    "quality",
+    "honesty"
+  ],
+  "read_time_min": 1
+}
