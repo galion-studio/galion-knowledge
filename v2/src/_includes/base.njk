@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title or "Galion Knowledge" }} | Galion Knowledge</title>
+  <meta name="description" content="{{ description or "Galion Knowledge V2. The Base World Knowledge Pack for HORBM and Galion Research." }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/assets/site.css" | url }}">
+  <link rel="icon" href="{{ "/assets/favicon.svg" | url }}">
+</head>
+<body data-root="{{ "/" | url }}">
+  <div class="bg-glow" aria-hidden="true"></div>
+  {% include "nav.njk" %}
+  {{ content | safe }}
+  {% include "footer.njk" %}
+  <script src="{{ "/assets/app.js" | url }}" defer></script>
+  {% if globe %}
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "{{ "/assets/vendor/three.module.min.js" | url }}",
+      "three/addons/": "{{ "/assets/vendor/addons/" | url }}"
+    }
+  }
+  </script>
+  <script type="module" src="{{ "/assets/globe.js" | url }}"></script>
+  {% endif %}
+</body>
+</html>

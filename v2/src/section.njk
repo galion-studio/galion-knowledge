@@ -1,0 +1,42 @@
+{% from "icon.njk" import icon with context %}
+{% from "tile.njk" import tile with context %}
+{% set items = cards | inSection(section.id) %}
+<header class="subhead">
+  <div class="subhead-inner">
+    <div class="subhead-left">
+      <button type="button" data-back aria-label="Back">{{ icon("arrow-left", "") }}</button>
+      <a class="brand" href="{{ "/" | url }}">{{ icon("book-open", "icon-brand") }} Knowledge</a>
+    </div>
+  </div>
+</header>
+<section class="page-hero">
+  <div>
+    <p class="quiet">V2</p>
+    <h1>{{ section.name }}</h1>
+    <p class="lede">{{ section.summary }}</p>
+    {% if section.id == "diary" %}
+      <p class="quiet">The diary, the memory stack, and the FTS5 export live in <code>v2/memory</code>. This page lists diary cards when that pack adds them.</p>
+    {% endif %}
+  </div>
+</section>
+<section class="block">
+  <div class="cat-grid">
+    {% for category in catalog.categories %}
+      {% if category.section == section.id %}
+        <a class="cat-card" href="{{ ("/category/" + category.id + "/") | url }}">
+          <span style="color: {{ category.color }}">{{ icon(category.icon, "icon-lg") }}</span>
+          <span>{{ category.name }}</span>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% if items | length == 0 %}
+    <p class="empty">No cards in this section yet.</p>
+  {% else %}
+    <div class="tile-grid">
+      {% for card in items %}
+        {{ tile(card) }}
+      {% endfor %}
+    </div>
+  {% endif %}
+</section>

@@ -1,0 +1,99 @@
+{% from "icon.njk" import icon with context %}
+{% from "tile.njk" import tile with context %}
+{% if card and not card._placeholder %}
+{% set cat = card.category | categoryOf(catalog) %}
+{% set sec = card.section | sectionOf(catalog) %}
+{% set relatedCards = cards | relatedTo(card) %}
+<div class="progress" aria-hidden="true"><span data-progress></span></div>
+<header class="subhead">
+  <div class="subhead-inner">
+    <div class="subhead-left">
+      <button type="button" data-back aria-label="Back">{{ icon("arrow-left", "") }}</button>
+      <a class="brand" href="{{ "/" | url }}">{{ icon("book-open", "icon-brand") }} Knowledge</a>
+    </div>
+    <div class="subhead-right">
+      <button type="button" data-bookmark data-slug="{{ card.id }}" data-title="{{ card.title }}" aria-label="Bookmark" title="Bookmark">
+        {{ icon("bookmark", "") }}
+      </button>
+      <button type="button" data-share aria-label="Copy link" title="Copy link">{{ icon("share-2", "") }}</button>
+    </div>
+  </div>
+</header>
+<article class="article">
+  <p class="crumbs">
+    <a href="{{ ("/section/" + card.section + "/") | url }}">{{ sec.name }}</a>
+    <span aria-hidden="true">/</span>
+    <a class="pill" href="{{ ("/category/" + cat.id + "/") | url }}" style="color: {{ cat.color }}; background: {{ cat.color }}22">{{ cat.name }}</a>
+  </p>
+  <h1>{{ card.title }}</h1>
+  <p class="lede">{{ card.summary }}</p>
+  <ul class="meta">
+    <li><span class="pill pill-claim">{{ card.claim_type }}</span></li>
+    <li>Evidence: {{ card.evidence_strength }}</li>
+    <li>{{ card.status }}</li>
+    <li>{{ icon("clock", "icon-xs") }} {{ card.read_time_min }} min</li>
+    <li>{% if card.said_by %}Said by {{ card.said_by }}{% else %}Speaker not recorded{% endif %}</li>
+    <li>{% if card.as_of_date %}As of {{ card.as_of_date }}{% else %}No date{% endif %}</li>
+  </ul>
+  <div class="prose">{{ card.body | md | safe }}</div>
+  {% if card.tags | length %}
+    <div class="tag-row">
+      <h2>Related topics</h2>
+      <div class="chips">
+        {% for tag in card.tags %}
+          <a class="chip" href="{{ "/search/" | url }}?q={{ tag | urlencode }}">{{ tag }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+  <section class="source-box">
+    <h2>{{ icon("shield", "icon-xs") }} Sources</h2>
+    {% if card.sources | length %}
+      <ul class="source-list">
+        {% for source in card.sources %}
+          <li>
+            {% if source.url %}
+              <a href="{{ source.url }}">{{ source.title }}</a>
+            {% else %}
+              <span>{{ source.title }}</span>
+            {% endif %}
+            {% if source.author %}<span> — {{ source.author }}</span>{% endif %}
+            {% if source.date %}<span> ({{ source.date }})</span>{% endif %}
+            {% if source.accessed %}<span>. Accessed {{ source.accessed }}.</span>{% endif %}
+            {% if source.note %}<span class="source-note">{{ source.note }}</span>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No source attached. This card is not ready to be repeated as fact.</p>
+    {% endif %}
+  </section>
+  {% if card.contested_views | length %}
+    <section class="views">
+      <h2>Side by side</h2>
+      <div class="views-grid">
+        {% for view in card.contested_views %}
+          <article>
+            <h3>{{ view.label }}</h3>
+            <p>{{ view.summary }}</p>
+            <p class="source-note">{{ view.status }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+  {% if card.legacy and card.legacy.note %}
+    <p class="source-note">{{ card.legacy.note }}</p>
+  {% endif %}
+  {% if relatedCards | length %}
+    <section class="related">
+      <h2>Related knowledge</h2>
+      <div class="tile-grid">
+        {% for item in relatedCards %}
+          {{ tile(item) }}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+</article>
+{% endif %}

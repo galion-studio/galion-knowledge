@@ -1,0 +1,39 @@
+{% from "icon.njk" import icon with context %}
+{% from "tile.njk" import tile with context %}
+{% set items = cards | inCategory(category.id) %}
+<header class="subhead">
+  <div class="subhead-inner">
+    <div class="subhead-left">
+      <button type="button" data-back aria-label="Back">{{ icon("arrow-left", "") }}</button>
+      <a class="brand" href="{{ "/" | url }}">{{ icon("book-open", "icon-brand") }} Knowledge</a>
+    </div>
+    <div class="subsearch">
+      <label class="sr" for="cat-search">Search in category</label>
+      {{ icon("search", "search-icon") }}
+      <input id="cat-search" type="search" placeholder="Search in category..." data-filter-input autocomplete="off">
+    </div>
+  </div>
+</header>
+<section class="page-hero">
+  <div class="page-hero-icon" style="background: {{ category.color }}22; color: {{ category.color }}">
+    {{ icon(category.icon, "icon-lg") }}
+  </div>
+  <div>
+    <h1>{{ category.name }}</h1>
+    <p class="lede">{{ category.description }}</p>
+    <p class="quiet">{{ items | length }} card{% if items | length != 1 %}s{% endif %}</p>
+  </div>
+</section>
+<section class="block">
+  {% if items | length == 0 %}
+    <p class="empty">No cards in this category yet.</p>
+  {% else %}
+    <div class="tile-grid" data-filter-list>
+      {% for card in items %}
+        <div data-item="{{ (card.title + " " + card.summary) | lower }}">
+          {{ tile(card) }}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+</section>

@@ -1,0 +1,107 @@
+---
+layout: base.njk
+title: Galion Knowledge V2
+description: The Base World Knowledge Pack. Memory for HORBM and Galion Research.
+globe: true
+permalink: index.html
+---
+{% from "icon.njk" import icon with context %}
+{% from "tile.njk" import tile with context %}
+{% set pack = cards | real %}
+{% set featured = cards | featured %}
+{% set worldCategories = catalog.categories | bySection("world") %}
+
+<main class="hero">
+  <div class="hero-copy">
+    <div class="badge">{{ icon("sparkles", "icon-xs") }} <span>The Library of Truth</span></div>
+    <h1>All Human <span class="grad">Knowledge</span><br><span class="muted">Unbiased. Truthful.</span></h1>
+    <p class="lede">Access the world's knowledge as it is. No propaganda. A claim stays with its source.</p>
+    <form class="search" action="{{ "/search/" | url }}" method="get">
+      <label class="sr" for="home-search">Search</label>
+      {{ icon("search", "search-icon") }}
+      <input id="home-search" name="q" type="search" placeholder="Search for any topic..." data-prompts='["What is the theory of relativity?","How do black holes form?","Why do humans dream?","What caused the fall of Rome?","How does quantum computing work?","What is consciousness?"]' autocomplete="off">
+      <button type="submit" aria-label="Search">{{ icon("arrow-right", "") }}</button>
+    </form>
+    <div class="chips">
+      {% for category in worldCategories %}
+        {% if loop.index0 < 6 %}
+          <a class="chip" href="{{ ("/category/" + category.id + "/") | url }}">
+            <span style="color: {{ category.color }}">{{ icon(category.icon, "icon-xs") }}</span>
+            {{ category.name }}
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  <div class="hero-orb">
+    <div id="knowledge-globe" class="globe" role="img" aria-label="Rotating knowledge orb"></div>
+  </div>
+</main>
+
+<section class="stats" aria-label="Pack size">
+  <div class="stats-inner">
+    <div><strong>{{ pack | length }}</strong><span>Knowledge cards</span></div>
+    <div><strong>{{ cards | sourcedCount }}</strong><span>Cards with a source</span></div>
+    <div><strong>{{ worldCategories | length }}</strong><span>World categories</span></div>
+    <div><strong>{{ catalog.sections | length }}</strong><span>Sections</span></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="block-head">
+    <h2>Explore All Knowledge</h2>
+    <p>Twelve fields from the first Galion Knowledge page. Cards are added by the world pack.</p>
+  </div>
+  <div class="cat-grid">
+    {% for category in worldCategories %}
+      <a class="cat-card" href="{{ ("/category/" + category.id + "/") | url }}">
+        <span style="color: {{ category.color }}">{{ icon(category.icon, "icon-lg") }}</span>
+        <span>{{ category.name }}</span>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="block">
+  <div class="block-head row">
+    <div>
+      <h2>Featured Knowledge</h2>
+      <p>Cards across categories. Unsourced cards stay marked.</p>
+    </div>
+    {% if pack | length %}
+      <button class="ghost" type="button" data-random='{{ pack | ids | json | safe }}'>
+        {{ icon("shuffle", "icon-xs") }} Random Article
+      </button>
+    {% endif %}
+  </div>
+  {% if featured | length %}
+    <div class="tile-grid">
+      {% for card in featured %}
+        {{ tile(card) }}
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="empty">No cards in this build yet. World, HORBM, and diary cards appear here when their packs are added.</p>
+  {% endif %}
+</section>
+
+<section class="purpose">
+  <div class="purpose-inner">
+    <h2>What this knowledge is for</h2>
+    <p>Galion Knowledge V2 is the Base World Knowledge Pack. It is memory for HORBM, Galion's retrieval brain, and for Galion Research. HORBM retrieves cards. It is not a large language model.</p>
+    <div class="purpose-grid">
+      {% for section in catalog.sections %}
+        <a href="{{ ("/section/" + section.id + "/") | url }}">
+          <strong>{{ section.name }}</strong>
+          <span>{{ section.summary }}</span>
+        </a>
+      {% endfor %}
+    </div>
+    <p>A claim names its source, its date, and who said it. Evidence is weighed. Disputed views stay side by side. Fact is kept apart from opinion. The pack can say it does not know.</p>
+    <p class="footer-links">
+      <a href="https://github.com/galion-studio/galion-knowledge">GitHub</a>
+      <a href="https://galion.app">galion.app</a>
+      <a href="https://galion.app/research">Galion Research</a>
+    </p>
+  </div>
+</section>

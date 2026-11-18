@@ -1,0 +1,41 @@
+{
+  "sections": [
+    {
+      "id": "world",
+      "name": "World Knowledge",
+      "summary": "How the world works: history, science, and the public record."
+    },
+    {
+      "id": "horbm",
+      "name": "HORBM Internal",
+      "summary": "What HORBM needs in order to talk with a person."
+    },
+    {
+      "id": "diary",
+      "name": "Diary and Memory",
+      "summary": "What HORBM keeps. The memory crate lives in v2/memory."
+    }
+  ],
+  "categories": [
+    {"id": "science", "section": "world", "name": "Science", "description": "Physics, Chemistry, Biology, Astronomy - the natural world explained", "color": "#60a5fa", "icon": "atom"},
+    {"id": "history", "section": "world", "name": "History", "description": "World events documented as they happened, without bias", "color": "#f59e0b", "icon": "history"},
+    {"id": "philosophy", "section": "world", "name": "Philosophy", "description": "Ideas that shaped human thought across civilizations", "color": "#a855f7", "icon": "brain"},
+    {"id": "nature", "section": "world", "name": "Nature", "description": "Earth, ecosystems, climate, and environmental science", "color": "#22c55e", "icon": "tree-pine"},
+    {"id": "medicine", "section": "world", "name": "Medicine", "description": "Human body, health, diseases, and medical science", "color": "#ef4444", "icon": "heart"},
+    {"id": "mathematics", "section": "world", "name": "Mathematics", "description": "Numbers, logic, proofs, and mathematical concepts", "color": "#3b82f6", "icon": "calculator"},
+    {"id": "geography", "section": "world", "name": "Geography", "description": "Countries, cultures, maps, and human geography", "color": "#14b8a6", "icon": "globe"},
+    {"id": "technology", "section": "world", "name": "Technology", "description": "Inventions, engineering, and technological progress", "color": "#eab308", "icon": "lightbulb"},
+    {"id": "arts", "section": "world", "name": "Arts", "description": "Art, literature, music, and creative expression", "color": "#ec4899", "icon": "palette"},
+    {"id": "society", "section": "world", "name": "Society", "description": "Human behavior, social structures, and civilization", "color": "#8b5cf6", "icon": "users"},
+    {"id": "law", "section": "world", "name": "Law", "description": "Justice, rights, morality, and legal systems", "color": "#f97316", "icon": "scale"},
+    {"id": "biology", "section": "world", "name": "Biology", "description": "Life, evolution, genetics, and living organisms", "color": "#06b6d4", "icon": "microscope"},
+    {"id": "conversation", "section": "horbm", "name": "Conversation", "description": "Turn-taking, when to speak, and when to stop.", "color": "#38bdf8", "icon": "messages-square"},
+    {"id": "affect", "section": "horbm", "name": "Affect", "description": "Emotion as a point, and cues that do not invent a personality.", "color": "#fb7185", "icon": "heart"},
+    {"id": "persona", "section": "horbm", "name": "Persona", "description": "Who is speaking, and what that voice will not say.", "color": "#c084fc", "icon": "brain"},
+    {"id": "honesty", "section": "horbm", "name": "Honesty", "description": "Uncertainty, and how to say I do not know.", "color": "#34d399", "icon": "scale"},
+    {"id": "culture", "section": "horbm", "name": "Culture", "description": "Context for a conversation. No culture is invented here.", "color": "#fbbf24", "icon": "globe"},
+    {"id": "stack", "section": "diary", "name": "Memory stack", "description": "Short-term ring, remembered episodes, sourced rows.", "color": "#94a3b8", "icon": "layers"},
+    {"id": "diary", "section": "diary", "name": "Diary", "description": "Dated, append-only entries.", "color": "#f472b6", "icon": "book-open"},
+    {"id": "retrieval", "section": "diary", "name": "Retrieval", "description": "How a card is found. The index export is v2/memory.", "color": "#60a5fa", "icon": "search"}
+  ]
+}

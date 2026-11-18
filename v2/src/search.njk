@@ -1,0 +1,50 @@
+---
+layout: base.njk
+title: Search
+description: Search Galion Knowledge cards.
+permalink: search/index.html
+---
+{% from "icon.njk" import icon with context %}
+{% set pack = cards | real %}
+<header class="subhead">
+  <div class="subhead-inner">
+    <div class="subhead-left">
+      <button type="button" data-back aria-label="Back">{{ icon("arrow-left", "") }}</button>
+      <a class="brand" href="{{ "/" | url }}">{{ icon("book-open", "icon-brand") }} Knowledge</a>
+    </div>
+    <form class="subsearch subsearch-wide" action="{{ "/search/" | url }}" method="get">
+      <label class="sr" for="q">Search</label>
+      {{ icon("search", "search-icon") }}
+      <input id="q" name="q" type="search" placeholder="Search for knowledge..." data-search-input autocomplete="off">
+    </form>
+  </div>
+</header>
+<div class="search-layout">
+  <aside class="filters">
+    <h2>{{ icon("filter", "icon-xs") }} Filter by category</h2>
+    <button type="button" data-search-cat="" class="is-on">All categories</button>
+    {% for category in catalog.categories %}
+      <button type="button" data-search-cat="{{ category.id }}">
+        <span>{{ category.name }}</span>
+        <span data-search-count="{{ category.id }}">0</span>
+      </button>
+    {% endfor %}
+  </aside>
+  <div>
+    <h1 data-search-title>Search Knowledge</h1>
+    <p class="quiet" data-search-count-label>{{ pack | length }} cards</p>
+    <div data-search-results></div>
+    <noscript>
+      <div class="tile-grid">
+        {% for card in pack %}
+          <a class="tile" href="{{ ("/article/" + card.id + "/") | url }}">
+            <h2>{{ card.title }}</h2>
+            <p>{{ card.summary }}</p>
+          </a>
+        {% endfor %}
+      </div>
+    </noscript>
+  </div>
+</div>
+<script id="search-data" type="application/json">{{ cards | searchIndex | json | safe }}</script>
+<script id="catalog-data" type="application/json">{{ catalog.categories | json | safe }}</script>
