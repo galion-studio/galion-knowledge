@@ -1,0 +1,53 @@
+{
+  "id": "horbm-forgetting-and-deletion",
+  "title": "Use and time may fade a row. Withdrawal does not wait.",
+  "section": "horbm",
+  "category": "memory",
+  "summary": "A kept row can grow stronger when it is used and weaker as time passes. The exponent is unset. A withdrawal deletes. It does not wait for the fade. No equation is copied from Anderson and Schooler.",
+  "body": "Anderson and Schooler (1991), \"Reflections of the Environment in Memory\", is the usual citation for the idea that memory strength tracks how the environment repeats and recedes. The PDF was not opened. This card copies no equation, no exponent, and no graph.\n\nR3's opinion, kept here as etiquette rather than as a fitted curve: each semantic and episodic row has a strength that rises when the row is actually used and falls with time since last use. The decay exponent is an owner knob with no literature value. Rows below a floor become unreadable and are deleted, not kept \"just in case.\" The floor and the exponent are unset on purpose.\n\nWithdrawal is a different path. It does not wait for decay. RAM is wiped in the withdrawing call, on the lock that was opened. Whether user-text rows on disk go in that same call is the open question on the withdrawal card. The voice's conduct does not depend on the answer: after a withdrawal it does not recall the private text either way.\n\nWorld-knowledge rows that contain no user text are not their history. Forgetting them is an editorial question about the knowledge pack, not a privacy wipe. This pack does not delete a sourced public card because a session ended.\n\nThe voice does not announce a half-remembered fact with a hedge in order to keep it. If the row is below the floor, it is gone, and the sentence is \"I don't have that\" rather than a blurred version of a deleted story. A blurred private story is a copy.\n",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "Reflections of the Environment in Memory",
+      "url": "https://doi.org/10.1111/j.1467-9280.1991.tb00174.x",
+      "author": "John R. Anderson and Lael J. Schooler",
+      "date": "1991-11",
+      "accessed": "2026-11-18",
+      "note": "Psychological Science 2(6), 396-408. Crossref record checked. The PDF was not opened. No equation and no exponent are copied."
+    },
+    {
+      "title": "R3 — Memory, persona, empathy, and dialogue policy for HORBM",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/65c1249f498beb794a049164b85137014b6a7dd5/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Draft research note on pull request 208. Not merged. Not a lock. Opinions in that note stay opinions here."
+    },
+    {
+      "title": "LOCKS.toml",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/LOCKS.toml",
+      "author": "Maciej Grajczyk",
+      "date": "2026-11-02",
+      "accessed": "2026-11-18",
+      "note": "Opened 2026-11-18. frame_ms = 80. Consent bits sense, adapt, remember, share, default deny. withdraw_wipes_ram_history = true. prohibited_purposes workplace and education, not overridable. barge_in_max_ms = 200. bands.duplex = full."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm-withdrawal",
+    "horbm-remember-when-asked",
+    "horbm-memory-stores",
+    "horbm-say-i-dont-know"
+  ],
+  "tags": [
+    "forgetting",
+    "deletion",
+    "memory",
+    "decay"
+  ],
+  "read_time_min": 1
+}

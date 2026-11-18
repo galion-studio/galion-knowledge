@@ -1,0 +1,78 @@
+{
+  "id": "horbm-no-inferred-portrait",
+  "title": "Do not build a portrait they did not state",
+  "section": "horbm",
+  "category": "safety",
+  "summary": "XiaoIce stores a user persona vector when it has a user id. Galion One forbids a portrait. HORBM stores statements the person asked to keep, and it does not infer age, gender, personality, diagnosis, or an emotion history.",
+  "body": "The XiaoIce preprint, opened, says that when a user id exists the empathy vector includes a user persona: gender, age, interests, occupation, personality, and similar profile fields. That is what their system did. It is not what this one does.\n\nGalion One: do not collect a portrait of them for later. Do not store a story they did not ask to keep. Do not name their emotion back to them. Galion Research: do not collect the question into a profile, and do not keep a research notebook of their affect. `sense` is not a licence to \"research them.\"\n\nR3's opinion, adopted here, draws the line at statements rather than inferences. Allowed on disk, and only with `remember` granted for that write: a name or address form they asked to be used, a fact they asked to keep, and a correction of a previous kept fact. Each row keeps the source turn, who said it, the date, and the consent bits from that moment.\n\nRefused, even if `remember` is on: inferred age, gender, personality, diagnosis, or an emotion history; a label such as \"anxious person\" or \"night owl\" derived from the voice; and a copy of the caller's affect baseline into the user table. The affect baseline, if it is kept at all, stays in the existing affect store's own remember path, which the lock ties to a consented store. HORBM does not duplicate it.\n\nThe Act's recital, opened, says emotion recognition can be intrusive and that expression varies across cultures and within a person. That is a reason not to freeze a fleeting frame into a trait. It is not, by itself, the product rule. The product rule is the persona file: no portrait.\n\nSession-only state, in RAM, may include the language of this call and a want they stated this call. It dies at hang-up unless a specific write was granted. It is not a profile.\n",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "The Design and Implementation of XiaoIce, an Empathetic Social Chatbot",
+      "url": "https://arxiv.org/abs/1812.08989",
+      "author": "Li Zhou, Jianfeng Gao, Di Li, and Heung-Yeung Shum",
+      "date": "2018-12-21",
+      "accessed": "2026-11-18",
+      "note": "arXiv:1812.08989 PDF opened 2026-11-18. Journal version: Computational Linguistics 46(1), 53-93, 2020, https://doi.org/10.1162/coli_a_00368."
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "Galion Research persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-RESEARCH.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "R3 — Memory, persona, empathy, and dialogue policy for HORBM",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/65c1249f498beb794a049164b85137014b6a7dd5/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Draft research note on pull request 208. Not merged. Not a lock. Opinions in that note stay opinions here."
+    },
+    {
+      "title": "Regulation (EU) 2024/1689",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "author": "European Parliament and Council of the European Union",
+      "date": "2024-07-12",
+      "accessed": "2026-11-18",
+      "note": "Official Journal L series, 12.7.2024. HTML opened 2026-11-18. Article 5(1)(f) prohibits AI systems that infer emotions in workplace and education institutions, with a medical or safety exception. Recital text in the same HTML says emotion recognition identifies or infers emotions from biometric data, and that expressions vary across cultures."
+    },
+    {
+      "title": "LOCKS.toml",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/LOCKS.toml",
+      "author": "Maciej Grajczyk",
+      "date": "2026-11-02",
+      "accessed": "2026-11-18",
+      "note": "Opened 2026-11-18. frame_ms = 80. Consent bits sense, adapt, remember, share, default deny. withdraw_wipes_ram_history = true. prohibited_purposes workplace and education, not overridable. barge_in_max_ms = 200. bands.duplex = full."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm-xiaoice-empathy-facts",
+    "horbm-consent-bits",
+    "horbm-remember-when-asked",
+    "horbm-categories-contested",
+    "horbm-memory-stores"
+  ],
+  "tags": [
+    "portrait",
+    "privacy",
+    "inference",
+    "consent"
+  ],
+  "read_time_min": 1
+}

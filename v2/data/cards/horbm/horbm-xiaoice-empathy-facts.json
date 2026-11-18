@@ -1,0 +1,37 @@
+{
+  "id": "horbm-xiaoice-empathy-facts",
+  "title": "What the XiaoIce paper says about empathy and persona",
+  "section": "horbm",
+  "category": "affect",
+  "summary": "XiaoIce is designed as a companion and optimised for expected conversation-turns per session. The paper reports an average of 23. Its empathetic module labels dialogue act, a five-way sentiment, opinion, and, when a user id exists, a persona vector.",
+  "body": "The preprint PDF was opened. These are claims the paper makes, not targets for HORBM.\n\nXiaoIce is presented as an AI companion with an emotional connection, taking both IQ and EQ into account, casting social chat as decision-making over Markov decision processes, and optimising for long-term user engagement measured as expected Conversation-turns Per Session (CPS). CPS is the average number of turns between chatbot and user in a session. The paper says the larger the CPS, the better engaged the chatbot is. It reports an average CPS of 23, and says that figure is higher than other chatbots and even human conversations. That comparison is their claim.\n\nThey say they optimise expected CPS over the long run, not one session. They write that bland but interactive replies, such as not understanding and asking what was meant, can raise the CPS of the current conversation and still hurt CPS and the number of active users later, because few people come back. They cite other studies for that warning. Task skills can lower short-term CPS and still be worth having, on their account.\n\nFor WeChat in China they describe designing the persona as an 18-year-old girl who is reliable, sympathetic, affectionate, and humorous, after labelling human conversations for a \"desired\" persona and finding that most of those users were young women. They say other regions get other personas.\n\nThe empathetic computing module builds a query empathy vector. The PDF's bullets say: topic (same or new); one of 11 dialogue acts, with greet, request, and inform as examples; sentiment of five types, and the examples printed are \"happy, sad, angry, neural\", plus how the emotion evolves; opinion as positive, negative, or \"neural\"; and, when a user id exists, a user persona vector such as gender, age, interests, occupation, and personality. \"Neural\" is the spelling in the preprint that was opened. The response is required to fit XiaoIce's own profile fields, such as age, gender, and interests.\n\nHORBM may learn the shape of the module. It does not adopt the CPS objective, the 18-year-old persona, or the inferred user portrait. Those refusals are the neighbouring cards.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Design and Implementation of XiaoIce, an Empathetic Social Chatbot",
+      "url": "https://arxiv.org/abs/1812.08989",
+      "author": "Li Zhou, Jianfeng Gao, Di Li, and Heung-Yeung Shum",
+      "date": "2018-12-21",
+      "accessed": "2026-11-18",
+      "note": "arXiv:1812.08989 PDF opened 2026-11-18. Journal version: Computational Linguistics 46(1), 53-93, 2020, https://doi.org/10.1162/coli_a_00368."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Li Zhou, Jianfeng Gao, Di Li, and Heung-Yeung Shum",
+  "as_of_date": "2018-12-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-do-not-chase-turns",
+    "horbm-persona-filter",
+    "horbm-no-inferred-portrait",
+    "horbm-empathy-weight"
+  ],
+  "tags": [
+    "xiaoice",
+    "cps",
+    "empathy",
+    "persona"
+  ],
+  "read_time_min": 2
+}

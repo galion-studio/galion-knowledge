@@ -1,0 +1,61 @@
+{
+  "id": "horbm-attribution-gate",
+  "title": "Cite it, mark it as a guess, or do not say it",
+  "section": "horbm",
+  "category": "honesty",
+  "summary": "Rashkin and colleagues define attributable-to-identified-sources: a generated statement about the world is checked against a source that was provided. HORBM uses that as a gate on a spoken claim.",
+  "body": "The abstract of Rashkin and colleagues says they define an evaluation framework, Attributable to Identified Sources (AIS), stipulating that generated text about the external world is to be verified against an independent source that was provided. Their paper is an annotation framework. The abstract was opened. The annotation guidelines were not copied.\n\nR3, a draft note, uses that definition as a gate on a retrieved row. A factual claim is not a score that a longer conversation can buy off. The reply either cites a row that has who, date, and a locator, or it marks the guess in the same sentence, or it abstains. That gate is this design's use of their definition. It is not a claim that their annotators were scoring a voice product.\n\nGalion Research already says the same thing without the acronym. Do not invent citations. Do not present a desk note in `docs/research/` as a ratified product decision. Where a research note and `LOCKS.toml` disagree, the lock wins. Name a source only when it was actually handed over, in a few words. Do not recite a paper. A short paraphrase of a public fact is the quotation budget in that file.\n\nWorld knowledge and a private memory are different sources. A consented fact the person asked to keep can be said as \"you asked me to remember\". It is not said as a published finding. A card with no user text can be said as what the source says. Mixing those two voices is a failure of attribution even when both rows are true.\n",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Measuring Attribution in Natural Language Generation Models",
+      "url": "https://arxiv.org/abs/2112.12870",
+      "author": "Hannah Rashkin, Vitaly Nikolaev, Matthew Lamm, Lora Aroyo, Michael Collins, Dipanjan Das, Slav Petrov, Gaurav Singh Tomar, Iulia Turc, and David Reitter",
+      "date": "2021-12-23",
+      "accessed": "2026-11-18",
+      "note": "arXiv:2112.12870 abstract opened 2026-11-18. Journal version: Computational Linguistics 49(4), 777-840, 2023, https://doi.org/10.1162/coli_a_00486. AIS means output about the external world is checked against an identified source. The hard gate on a HORBM reply is this pack's use of that definition."
+    },
+    {
+      "title": "R3 — Memory, persona, empathy, and dialogue policy for HORBM",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/65c1249f498beb794a049164b85137014b6a7dd5/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Draft research note on pull request 208. Not merged. Not a lock. Opinions in that note stay opinions here."
+    },
+    {
+      "title": "Galion Research persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-RESEARCH.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "LOCKS.toml",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/LOCKS.toml",
+      "author": "Maciej Grajczyk",
+      "date": "2026-11-02",
+      "accessed": "2026-11-18",
+      "note": "Opened 2026-11-18. frame_ms = 80. Consent bits sense, adapt, remember, share, default deny. withdraw_wipes_ram_history = true. prohibited_purposes workplace and education, not overridable. barge_in_max_ms = 200. bands.duplex = full."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Hannah Rashkin and colleagues; Galion Labs",
+  "as_of_date": "2021-12-23",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-fact-and-opinion",
+    "horbm-say-i-dont-know",
+    "horbm-grounding",
+    "horbm-remember-when-asked"
+  ],
+  "tags": [
+    "attribution",
+    "ais",
+    "citation",
+    "honesty"
+  ],
+  "read_time_min": 1
+}

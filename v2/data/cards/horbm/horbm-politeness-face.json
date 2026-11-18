@@ -1,0 +1,52 @@
+{
+  "id": "horbm-politeness-face",
+  "title": "Brown and Levinson, as far as an opened critique allows",
+  "section": "horbm",
+  "category": "culture",
+  "summary": "Brown and Levinson's politeness book was not opened. Matsumoto, who was opened, says they group politeness strategies into five categories, and that positive and negative politeness are the two they describe at most length.",
+  "body": "Brown and Levinson's 1987 book is the usual citation for a universal account of politeness. Crossref lists the title as \"Politeness\" and the authors as Penelope Brown and Stephen C. Levinson, with John J. Gumperz also on the record. The book was not opened. This card does not quote it.\n\nMatsumoto (1988), which was opened, says she is examining the theory of linguistic politeness proposed by Brown and Levinson (1978 and 1987). She says they postulate principles and derive specific strategies grouped into five categories, of which the two described at most length are positive politeness and negative politeness. She says their notion of face is fundamental to the theory, and she questions whether the constituents of that face are universal, using Japanese. She also says observed talk often departs from Grice's picture of conversation as a maximally efficient exchange of information, and that Brown and Levinson treated politeness as the motivation of those departures.\n\nThat is the whole of their apparatus this pack is willing to state: face, a set of strategies in five categories, and positive and negative politeness as the two longest treatments, on Matsumoto's account of them.\n\nThe house does not implement the five categories as a policy. It does not choose \"positive politeness\" as a mode that adds warmth-sentences. Warmth, in the empathy note, is prosody. A strategy that adds \"I hear you\" in order to tend face is exactly the script the persona files forbid. Off-record hints that hide a missing source fail the quality maxim.\n\nWhat the voice does take is the reason the theory exists: talk is not only an efficient data exchange, and people protect something when they speak. The something is not the same everywhere. That is the next card.\n",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Politeness",
+      "url": "https://doi.org/10.1017/CBO9780511813085",
+      "author": "Penelope Brown and Stephen C. Levinson",
+      "date": "1987-02-27",
+      "accessed": "2026-11-18",
+      "note": "Cambridge University Press, 1987. Crossref also lists John J. Gumperz on the record. The book was not opened. What this pack says about their strategies is taken from Matsumoto 1988, which was opened."
+    },
+    {
+      "title": "Reexamination of the universality of face: Politeness phenomena in Japanese",
+      "url": "https://doi.org/10.1016/0378-2166(88)90003-3",
+      "author": "Yoshiko Matsumoto",
+      "date": "1988-08",
+      "accessed": "2026-11-18",
+      "note": "Journal of Pragmatics 12(4), 403-426. PDF opened 2026-11-18."
+    },
+    {
+      "title": "Logic and Conversation",
+      "url": "https://brill.com/display/book/edcoll/9789004368811/BP000003.xml",
+      "author": "H. P. Grice",
+      "date": "1975-12-12",
+      "accessed": "2026-11-18",
+      "note": "In Peter Cole and Jerry L. Morgan (eds.), Syntax and Semantics 3: Speech Acts, pages 41-58. Academic Press, 1975. A reprint of the chapter was opened 2026-11-18. The Brill record lists the same chapter and pages."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Yoshiko Matsumoto, describing Penelope Brown and Stephen C. Levinson",
+  "as_of_date": "1988-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-politeness-not-universal",
+    "horbm-politeness-house",
+    "horbm-grice-maxims",
+    "horbm-empathy-weight"
+  ],
+  "tags": [
+    "politeness",
+    "face",
+    "brown-levinson"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,55 @@
+{
+  "id": "horbm-turn-timing-varies",
+  "title": "Turn-taking is widespread, and the average gap still varies",
+  "section": "horbm",
+  "category": "culture",
+  "summary": "In ten languages, Stivers and colleagues found a shared avoidance of overlap and a short gap between question and answer. Average speed still differed by hundreds of milliseconds. One culture's tempo is not human nature.",
+  "body": "The paper, opened as PMC HTML, tested two hypotheses on polar questions in ten languages from five continents: a universal system with little cultural variability, and a system that is language- and culture-dependent. The sample includes Danish, ‡Ākhoe Haiǁom, Lao, Italian, English, Korean, Dutch, Yélî-Dnye, Tzeltal, and Japanese.\n\nWhat they report: every language showed a unimodal distribution of response offsets, avoidance of overlapping talk, and minimization of the silence between turns. The mode in each language fell between 0 and +200 ms. The overall mode was 0 ms. Medians ranged from 0 ms (English, Japanese, Tzeltal, and Yélî-Dnye in their report) to +300 ms (Danish, ‡Ākhoe Haiǁom, and Lao). Means varied more. Danish averaged about +469 ms and Japanese about +7 ms. The mean for the full set was about +208 ms, and language means fell within about 250 ms of that. Confirmations were faster than disconfirmations, by between 100 and 500 ms on average. The same factors tended to slow a response across languages. Gaze was more variable.\n\nThey also record the older anthropological claims of very long Nordic gaps and of a New York preference for simultaneous speech, and they present their result against those claims. The result is not \"all cultures are the same.\" It is \"the shape is shared, and the average still moves.\"\n\nHORBM must not hard-code one culture's overlap tolerance as the definition of rudeness. The yield-on-barge-in rule is a product rule for this voice. It is not a finding that a 200 ms gap is polite everywhere. A later locale can change how long a gap feels late. It should not throw away the shared avoidance of talking over someone.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Universals and cultural variation in turn-taking in conversation",
+      "url": "https://doi.org/10.1073/pnas.0903616106",
+      "author": "Tanya Stivers, N. J. Enfield, Penelope Brown, Christina Englert, Makoto Hayashi, Trine Heinemann, Gertie Hoymann, Federico Rossano, Jan Peter de Ruiter, Kyung-Eun Yoon, and Stephen C. Levinson",
+      "date": "2009-06-30",
+      "accessed": "2026-11-18",
+      "note": "PNAS 106(26), 10587-10592. PMC HTML opened 2026-11-18."
+    },
+    {
+      "title": "Timing in turn-taking and its implications for processing models of language",
+      "url": "https://doi.org/10.3389/fpsyg.2015.00731",
+      "author": "Stephen C. Levinson and Francisco Torreira",
+      "date": "2015-06-12",
+      "accessed": "2026-11-18",
+      "note": "Frontiers in Psychology 6:731. PDF opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Tanya Stivers and colleagues",
+  "as_of_date": "2009-06-30",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Cultures differ radically in timing",
+      "summary": "The paper quotes anthropological reports of very long gaps in Nordic conversation and of a preference for simultaneous speech in one New York community, and treats those reports as the variability hypothesis.",
+      "status": "sourced - needs review"
+    },
+    {
+      "label": "A shared pattern, with a spread of averages",
+      "summary": "Stivers and colleagues report avoidance of overlap and short gaps in all ten languages, and also report mean offsets from about +7 ms (Japanese) to about +469 ms (Danish) in their question-answer sample.",
+      "status": "sourced - needs review"
+    }
+  ],
+  "related": [
+    "horbm-overlap-gaps-silence",
+    "horbm-politeness-not-universal",
+    "horbm-barge-in"
+  ],
+  "tags": [
+    "culture",
+    "timing",
+    "stivers",
+    "turn-taking"
+  ],
+  "read_time_min": 1
+}
