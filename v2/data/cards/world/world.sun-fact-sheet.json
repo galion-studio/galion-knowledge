@@ -4,7 +4,7 @@
   "section": "world",
   "category": "astronomy",
   "summary": "The sheet lists the Sun's mass, a Sun-to-Earth mass ratio of 332,900, a volumetric mean radius, and a central temperature.",
-  "body": "NASA's Sun fact sheet lists the Sun's mass as 1,988,400 × 10^24 kg, Earth's mass as 5.9722 × 10^24 kg, and the Sun/Earth mass ratio as 332,900. It lists a volumetric mean radius of 695,700 km for the Sun and a central temperature of 1.571 × 10^7 K. The v1 claims \"99.86 percent of the system's mass,\" \"diameter 1.4 million km,\" and \"core temperature 15 million °C\" are roundings in the neighborhood of these figures and are not copied as if they were the sheet. Use the sheet's numbers. Spectral type G2 V and the luminosity row are on the same sheet and are recorded on world.astronomy.sun-spectral-type and world.astronomy.sun-luminosity.",
+  "body": "NASA's Sun fact sheet lists the Sun's mass as 1,988,400 × 10^24 kg, Earth's mass as 5.9722 × 10^24 kg, and the Sun/Earth mass ratio as 332,900. It lists a volumetric mean radius of 695,700 km for the Sun and a central temperature of 1.571 × 10^7 K. The v1 claims \"99.86 percent of the system's mass,\" \"diameter 1.4 million km,\" and \"core temperature 15 million °C\" are roundings in the neighborhood of these figures and are not copied as if they were the sheet. Use the sheet's numbers. Spectral type G2 V and the luminosity row are on the same sheet and are recorded on world.astronomy.sun-spectral-type and world.astronomy.sun-luminosity. On the sheet, the central temperature is under the heading \"Model values at center of Sun,\" with a central pressure and a central density. The mass and radius rows are under Bulk parameters, not under that model heading.\n",
   "claim_type": "fact",
   "sources": [
     {
@@ -24,7 +24,9 @@
     "world.solar-system-formation",
     "world.eight-planets",
     "world.astronomy.sun-spectral-type",
-    "world.astronomy.sun-luminosity"
+    "world.astronomy.sun-luminosity",
+    "world.astronomy.sun-center-model",
+    "world.astronomy.sun-effective-temperature"
   ],
   "tags": [
     "astronomy",
@@ -36,5 +38,12 @@
     "v1_slug": "solar-system",
     "v1_category": "science",
     "note": "v1 truthScore and source-count fields are not evidence and are not copied."
-  }
+  },
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "body",
+      "note": "Added the sheet heading Model values at center of Sun to the central-temperature sentence. The mass, radius, and temperature numerals are unchanged. Previous body began: NASA's Sun fact sheet lists the Sun's mass as 1,988,400 × 10^24 kg, Earth's mass as 5.9722 × 10^24 kg, and the Sun/Earth mass ratio as 332,900. It lists a volumetric mean radius of"
+    }
+  ]
 }

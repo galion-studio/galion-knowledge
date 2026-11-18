@@ -1,0 +1,34 @@
+{
+  "id": "world.cosmology.bao-eisenstein-2005",
+  "title": "Eisenstein and colleagues, 2005: a correlation peak at 100 h^−1 Mpc",
+  "section": "world",
+  "category": "cosmology",
+  "summary": "From 46,748 luminous red galaxies, the SDSS correlation function shows a peak at 100 h^−1 Mpc, which the authors identify with the predicted baryon acoustic scale.",
+  "body": "The abstract of Eisenstein and colleagues reports the correlation function of 46,748 luminous red galaxies from the Sloan Digital Sky Survey, over 3,816 square degrees and 0.16 < z < 0.47, a volume of 0.72 h^−3 Gpc^3. It says there is a detected peak at 100 h^−1 Mpc that matches the predicted shape and location of the recombination-era acoustic oscillations. The peak detection is a measurement of the galaxy correlation function. The identification of that peak with the sound horizon, and the statement that it demonstrates linear growth since z = 1000, are the authors' interpretation of the peak. The abstract says the acoustic peak measures the ratio of distances to z = 0.35 and z = 1089 to 4 percent fractional accuracy, and the absolute distance to z = 0.35 to 5 percent.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Detection of the Baryon Acoustic Peak in the Large-Scale Correlation Function of SDSS Luminous Red Galaxies",
+      "url": "https://arxiv.org/abs/astro-ph/0501171",
+      "author": "D. J. Eisenstein and colleagues",
+      "date": "2005-01-10",
+      "accessed": "2026-11-18",
+      "note": "arXiv abstract submitted 10 January 2005, fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "D. J. Eisenstein and colleagues",
+  "as_of_date": "2005-01-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.cosmology.wmap-nine-year-parameters"
+  ],
+  "tags": [
+    "core-pack",
+    "area:cosmology",
+    "bao",
+    "measurement"
+  ],
+  "read_time_min": 1
+}

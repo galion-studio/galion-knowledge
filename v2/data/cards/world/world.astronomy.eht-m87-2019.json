@@ -1,0 +1,35 @@
+{
+  "id": "world.astronomy.eht-m87-2019",
+  "title": "Event Horizon Telescope: M87 ring diameter 42 ± 3 microarcseconds",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The 2019 EHT paper reports an asymmetric ring 42 ± 3 microarcseconds across. The mass (6.5 ± 0.7) × 10^9 solar masses is derived by comparison with simulations.",
+  "body": "The abstract of the Event Horizon Telescope collaboration says a 1.3 mm very-long-baseline array resolved the compact radio source in M87 as an asymmetric bright ring with diameter 42 ± 3 microarcseconds, circular, with a central depression and a flux ratio of about 10 to 1. It says the ring is recovered with different calibration and imaging schemes and is stable across four days. The diameter is the image measurement. The abstract says the image is consistent with the shadow of a Kerr black hole predicted by general relativity, and that comparison with a library of ray-traced general-relativistic magnetohydrodynamic simulations gives a central mass M = (6.5 ± 0.7) × 10^9 solar masses. That mass is derived from the comparison with simulations. It is not a separate weighing.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole",
+      "url": "https://arxiv.org/abs/1906.11238",
+      "author": "Event Horizon Telescope Collaboration",
+      "date": "2019-06-26",
+      "accessed": "2026-11-18",
+      "note": "arXiv abstract submitted 26 June 2019, fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Event Horizon Telescope Collaboration",
+  "as_of_date": "2019-06-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.science.black-holes",
+    "world.black-hole-nasa"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "black-hole",
+    "measurement"
+  ],
+  "read_time_min": 1
+}

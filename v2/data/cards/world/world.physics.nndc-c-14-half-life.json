@@ -1,0 +1,74 @@
+{
+  "id": "world.physics.nndc-c-14-half-life",
+  "title": "NNDC wallet cards 2023: 14C half-life 5686 y",
+  "section": "world",
+  "category": "physics",
+  "summary": "The October 2023 wallet-card row for 14C prints half-life 5686 y (year), uncertainty 22.",
+  "body": "The October 2023 Nuclear Wallet Cards row for 14C prints half-life 5686 y (year). The uncertainty integer after the unit is 22. The decay-mode text before the gamma-ray energies is: β−. The booklet's half-life note says the value is followed by the unit (s: second, m: minute, h: hour, d: day, y: year) and that the uncertainty follows the unit and is given in italics. Superscripts in powers of ten were read from the smaller glyphs in the PDF. Italics were not a separate character. The uncertainty is the integer in that position. The booklet says all nuclides with T1/2 longer than 1 hour are included. This is an evaluated half-life from that compilation, not a new counting experiment.  The IAEA Live Chart string is on world.physics.14c-half-life and is not the same printed value. Both are evaluations. This card does not pick a half-life by averaging them and does not convert units.\n",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Nuclear Wallet Cards for Radioactive Nuclides, October 2023",
+      "url": "https://www.nndc.bnl.gov/walletcards/doc/wallet-cards-radioactive-2023-10.pdf",
+      "author": "Elizabeth McCutchan and colleagues, National Nuclear Data Center, Brookhaven National Laboratory",
+      "date": "2023-10",
+      "accessed": "2026-11-18",
+      "note": "PDF text with superscript exponents restored from glyph size. Table I row."
+    },
+    {
+      "title": "IAEA Live Chart ground state 14C",
+      "url": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=14C",
+      "author": "International Atomic Energy Agency, Live Chart of Nuclides",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Quoted from the card that records the Live Chart extract of 2026-11-18. The two printed strings are not averaged."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Nuclear Data Center, Brookhaven National Laboratory",
+  "as_of_date": "2023-10",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "NNDC Nuclear Wallet Cards, October 2023",
+      "summary": "The wallet-card row prints half-life 5686 y (year), uncertainty 22 on the last digits.",
+      "status": "evaluated compilation",
+      "sources": [
+        {
+          "title": "Nuclear Wallet Cards for Radioactive Nuclides, October 2023",
+          "url": "https://www.nndc.bnl.gov/walletcards/doc/wallet-cards-radioactive-2023-10.pdf",
+          "author": "Elizabeth McCutchan and colleagues, National Nuclear Data Center, Brookhaven National Laboratory",
+          "date": "2023-10",
+          "accessed": "2026-11-18",
+          "note": "PDF text with superscript exponents restored from glyph size. Table I row."
+        }
+      ]
+    },
+    {
+      "label": "IAEA Live Chart ground-state row",
+      "summary": "The existing card world.physics.14c-half-life is titled \"IAEA Live Chart: 14C half-life 5700 Y (uncertainty from the seconds column)\". That printed string is not the same as the NNDC string.",
+      "status": "database row",
+      "sources": [
+        {
+          "title": "IAEA Live Chart ground state 14C",
+          "url": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=14C",
+          "author": "International Atomic Energy Agency, Live Chart of Nuclides",
+          "date": "2026-11-18",
+          "accessed": "2026-11-18",
+          "note": "Quoted from the card that records the Live Chart extract of 2026-11-18. The two printed strings are not averaged."
+        }
+      ]
+    }
+  ],
+  "related": [
+    "world.physics.14c-half-life"
+  ],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "nuclear",
+    "14C",
+    "evaluated"
+  ],
+  "read_time_min": 1
+}

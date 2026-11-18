@@ -1,0 +1,34 @@
+{
+  "id": "world.energy.eia-us-generation-2023-total",
+  "title": "EIA: U.S. utility-scale generation in 2023 was 4,178 billion kWh",
+  "section": "world",
+  "category": "technology",
+  "summary": "The EIA FAQ, citing Electric Power Monthly for February 2024, says 2023 utility-scale generation was 4,178 billion kWh, preliminary.",
+  "body": "The EIA FAQ \"What is U.S. electricity generation by energy source?\" says that in 2023 about 4,178 billion kilowatthours, about 4.18 trillion kWh, were generated at utility-scale facilities in the United States. The paragraph says about 60 percent was from fossil fuels, about 19 percent from nuclear energy, and about 21 percent from renewable sources. The table on the same page, labeled preliminary and sourced to Electric Power Monthly, February 2024, gives fossil fuels 2,505 billion kWh (60.0 percent), nuclear 775 billion kWh (18.6 percent), and renewables 894 billion kWh (21.4 percent). Utility-scale means plants of at least one megawatt, and the table note says the data are net generation. The paragraph's \"about 19 percent\" and the table's 18.6 percent are both on the page. This card does not replace one with the other.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What is U.S. electricity generation by energy source?",
+      "url": "https://www.eia.gov/tools/faqs/faq.php?id=427&t=3",
+      "author": "U.S. Energy Information Administration",
+      "date": "2024-02",
+      "accessed": "2026-11-18",
+      "note": "Table caption: Electric Power Monthly, February 2024, preliminary data for 2023. Page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Energy Information Administration",
+  "as_of_date": "2024-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.energy-work"
+  ],
+  "tags": [
+    "core-pack",
+    "area:energy",
+    "electricity",
+    "measured"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.astronomy.satellite-hyperion",
+  "title": "NASA Saturn satellite sheet: Hyperion (VII) mass 0.056×10^20 kg, radius 180 x 133 x 103 km",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The Saturn satellite fact sheet lists Hyperion (VII) at mass 0.056 × 10^20 kg and radius 180 x 133 x 103 km.",
+  "body": "NASA's Saturn satellite fact sheet lists Hyperion (VII) with mass 0.056 × 10^20 kg, radius 180 x 133 x 103 km, mean density 550 kg/m^3, and visual geometric albedo 0.3. Orbital parameters on the same sheet: Semi-major axis (10 3 km) = 1,500.93; Semi-major axis (Saturnian Radii) = 24.904; Orbital Period* (days) = 21.276609; Rotation Period (days) = C; Inclination (degrees) = 0.43; Eccentricity = 0.1042. These are the cells printed on the sheet. The sheet does not say, on this row, which cells are a spacecraft measurement and which are an estimate. Author of the sheet: Dr. David R. Williams, NASA Goddard Space Flight Center. Last Updated line: 22 July 2025.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Saturn satellite fact sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2025-07-22",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line: 22 July 2025."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2025-07-22",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.saturn-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "saturn",
+    "hyperion"
+  ],
+  "read_time_min": 1
+}

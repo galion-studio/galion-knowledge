@@ -1,0 +1,34 @@
+{
+  "id": "world.energy.eia-biomass-2025",
+  "title": "EIA: biomass was about 4,853 trillion Btu, about 5 percent of U.S. primary energy, in 2025",
+  "section": "world",
+  "category": "technology",
+  "summary": "The EIA biomass page says 2025 biomass consumption was about 4,853 trillion Btu, about 5 percent of U.S. primary energy.",
+  "body": "The EIA biomass page says that in 2025 biomass accounted for about 5 percent of U.S. total primary energy consumption, about 4,853 trillion British thermal units. The same paragraph splits that total into biofuels 2,569 TBtu (53 percent), wood and wood waste 1,912 TBtu (39 percent), and municipal solid waste, animal manure, and sewage 372 TBtu (8 percent). By consuming sector in 2025 the page lists industrial 2,317 TBtu (48 percent), transportation 1,683 TBtu (35 percent), residential 372 TBtu (8 percent), electric power 318 TBtu (7 percent), and commercial 163 TBtu (3 percent). The page also describes direct combustion as the most common conversion method. That description is an account of a method. The TBtu figures are the consumption totals the page prints.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Biomass",
+      "url": "https://www.eia.gov/energyexplained/biomass/",
+      "author": "U.S. Energy Information Administration",
+      "date": "2025",
+      "accessed": "2026-11-18",
+      "note": "2025 consumption paragraph. Fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Energy Information Administration",
+  "as_of_date": "2025",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.btu"
+  ],
+  "tags": [
+    "core-pack",
+    "area:energy",
+    "biomass",
+    "measured"
+  ],
+  "read_time_min": 1
+}

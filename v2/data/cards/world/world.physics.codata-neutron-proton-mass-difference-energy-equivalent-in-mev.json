@@ -1,0 +1,33 @@
+{
+  "id": "world.physics.codata-neutron-proton-mass-difference-energy-equivalent-in-mev",
+  "title": "2022 CODATA: neutron-proton mass difference energy equivalent in MeV is 1.293 332 51 MeV",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2022 CODATA complete listing, from NIST, gives neutron-proton mass difference energy equivalent in MeV as 1.293 332 51 MeV, with uncertainty 0.000 000 38.",
+  "body": "The 2022 CODATA complete listing, from NIST, gives neutron-proton mass difference energy equivalent in MeV as 1.293 332 51 MeV, with uncertainty 0.000 000 38. The row is not marked exact. The uncertainty is the uncertainty printed on that row. The ASCII file does not split it into statistical and systematic parts. This is the neutron-proton mass difference expressed as an energy. The row is not marked exact.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "2022 CODATA complete listing of the fundamental physical constants",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "ASCII table fetched 2026-11-18. The card's number is that row. An 'e' exponent in the file is written here as a power of ten. No extra digits are added."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, 2022 CODATA adjustment",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "codata",
+    "constants",
+    "measured"
+  ],
+  "read_time_min": 1
+}

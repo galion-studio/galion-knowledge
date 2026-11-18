@@ -1,0 +1,32 @@
+{
+  "id": "world.chemistry.thermo-water-7732185-pc",
+  "title": "NIST WebBook: Water critical pressure",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The WebBook lists 5 critical pressure row(s) for Water. Reviewed rows and experimental rows are both quoted.",
+  "body": "The NIST Chemistry WebBook critical pressure rows for Water (CAS 7732-18-5) print: 220.64 bar, method N/A, reference Sato, Watanabe, et al., 1991, comment: Uncertainty assigned by TRC = 0.05 bar; TRC (experimental or compiled row) | 220.60 bar, method N/A, reference Brunner, 1990, comment: Uncertainty assigned by TRC = 0.12 bar; TRC (experimental or compiled row) | 220.46 bar, method N/A, reference Morita, Sato, et al., 1989, comment: Uncertainty assigned by TRC = 0.25 bar; based on analysis of their obs. PVT and vapor pressure data some other data from literature; TRC (experimental or compiled row) | 220.64 bar, method N/A, reference Aleksandrov, 1986, comment: Uncertainty assigned by TRC = 0.30 bar; TRC (experimental or compiled row) | 220.64 bar, method N/A, reference Sifner, 1985, comment: Uncertainty assigned by TRC = 0.0001 bar; TRC (experimental or compiled row). The page mixes reviewed or averaged rows with rows tied to a named experiment or compilation. A Review or AVG method is an evaluation. A Ccb method is combustion calorimetry, as the WebBook method code is linked. This card does not average the rows into a new number.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Water thermochemistry, NIST Chemistry WebBook",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Units=SI&Mask=4",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Rows fetched 2026-11-18 from the Mask page. Comments are shortened only when longer than 280 characters."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "thermochemistry",
+    "measured-vs-evaluated"
+  ],
+  "read_time_min": 2
+}

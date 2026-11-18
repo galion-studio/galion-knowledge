@@ -1,0 +1,33 @@
+{
+  "id": "world.astronomy.sun-mass-conversion",
+  "title": "NASA Sun fact sheet: mass conversion rate 4260.",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The Sun fact sheet lists mass conversion rate as 4260.",
+  "body": "NASA's Sun fact sheet lists Mass conversion rate (10 6 kg/s) as 4260. for the Sun. Listed under bulk parameters, not under the model-center heading. The sheet does not say this is a laboratory measurement. Mass, volumetric mean radius, luminosity, spectral type, and the sidereal rotation period are on other cards and are not repeated as the claim here. Last Updated line: 9 May 2024.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sun Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-05-09",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line: 9 May 2024."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-05-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.sun-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "sun"
+  ],
+  "read_time_min": 1
+}

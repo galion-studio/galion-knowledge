@@ -1,0 +1,35 @@
+{
+  "id": "world.astronomy.asteroid-bennu",
+  "title": "NASA asteroid sheet: 101955 Bennu diameter 0.49 km, ~mass 0.000073×10^15 kg",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet's selected-asteroid row for Bennu prints diameter 0.49 km and an approximate mass 0.000073 × 10^15 kg.",
+  "body": "The Asteroid Fact Sheet row for 101955 Bennu prints diameter 0.49 km, mass about 0.000073 × 10^15 kg, rotation period 4.276 hrs, orbital period 1.20 yrs, spectral class , semi-major axis 1.126 AU, eccentricity 0.2037, and inclination 6.03 deg. Orbit values for epoch JD 2457400.5 (2016-01-13). Most of the values for mass and many of the diameter values are only rough estimates. The mass column header on the sheet is \"~Mass\", which marks the mass as approximate.  This card does not promote the row to a precision measurement.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Asteroid Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/asteroidfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2019-09-27",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line: 27 September 2019. Most of the values for mass and many of the diameter values are only rough estimates."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2019-09-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.asteroid-sheet-estimates"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "asteroid",
+    "bennu",
+    "estimate"
+  ],
+  "read_time_min": 1
+}

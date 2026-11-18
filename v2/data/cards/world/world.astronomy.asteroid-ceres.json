@@ -1,0 +1,35 @@
+{
+  "id": "world.astronomy.asteroid-ceres",
+  "title": "NASA asteroid sheet: 1 Ceres diameter 965 x 961 x 891 km, ~mass 939,300×10^15 kg",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet's selected-asteroid row for Ceres prints diameter 965 x 961 x 891 km and an approximate mass 939,300 × 10^15 kg.",
+  "body": "The Asteroid Fact Sheet row for 1 Ceres prints diameter 965 x 961 x 891 km, mass about 939,300 × 10^15 kg, rotation period 9.074 hrs, orbital period 4.60 yrs, spectral class C, semi-major axis 2.768 AU, eccentricity 0.0758, and inclination 10.59 deg. Orbit values for epoch JD 2457400.5 (2016-01-13). Most of the values for mass and many of the diameter values are only rough estimates. The mass column header on the sheet is \"~Mass\", which marks the mass as approximate. The sheet's note says Ceres is the largest and first discovered asteroid, by G. Piazzi on January 1, 1801, and was studied from orbit by the Dawn mission in 2015-2016. This card does not promote the row to a precision measurement.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Asteroid Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/asteroidfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2019-09-27",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line: 27 September 2019. Most of the values for mass and many of the diameter values are only rough estimates."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2019-09-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.asteroid-sheet-estimates"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "asteroid",
+    "ceres",
+    "estimate"
+  ],
+  "read_time_min": 1
+}

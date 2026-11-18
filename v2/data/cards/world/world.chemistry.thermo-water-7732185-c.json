@@ -1,0 +1,32 @@
+{
+  "id": "world.chemistry.thermo-water-7732185-c",
+  "title": "NIST WebBook: Water critical density",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The WebBook lists 4 critical density row(s) for Water. Reviewed rows and experimental rows are both quoted.",
+  "body": "The NIST Chemistry WebBook critical density rows for Water (CAS 7732-18-5) print: 17.9 mol/l, method N/A, reference Sato, Watanabe, et al., 1991, comment: Uncertainty assigned by TRC = 0.2 mol/l; TRC (experimental or compiled row) | 17.91 mol/l, method N/A, reference Morita, Sato, et al., 1989, comment: Uncertainty assigned by TRC = 0.083 mol/l; based on analysis of obs. PVT and vapor pressure data; TRC (experimental or compiled row) | 17.9 mol/l, method N/A, reference Aleksandrov, 1986, comment: Uncertainty assigned by TRC = 0.2 mol/l; TRC (experimental or compiled row) | 17.9 mol/l, method N/A, reference Sifner, 1985, comment: Uncertainty assigned by TRC = 0.2 mol/l; TRC (experimental or compiled row). The page mixes reviewed or averaged rows with rows tied to a named experiment or compilation. A Review or AVG method is an evaluation. A Ccb method is combustion calorimetry, as the WebBook method code is linked. This card does not average the rows into a new number.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Water thermochemistry, NIST Chemistry WebBook",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Units=SI&Mask=4",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Rows fetched 2026-11-18 from the Mask page. Comments are shortened only when longer than 280 characters."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "thermochemistry",
+    "measured-vs-evaluated"
+  ],
+  "read_time_min": 1
+}

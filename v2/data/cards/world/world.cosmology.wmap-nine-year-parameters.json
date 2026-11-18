@@ -1,0 +1,35 @@
+{
+  "id": "world.cosmology.wmap-nine-year-parameters",
+  "title": "WMAP nine-year: a six-parameter Lambda-CDM fit, with limits that are model constraints",
+  "section": "world",
+  "category": "cosmology",
+  "summary": "Hinshaw and colleagues say the nine-year WMAP data are fit by six-parameter Lambda-CDM, and they quote limits such as r < 0.13 that are limits inside that model class.",
+  "body": "The abstract of Hinshaw and colleagues says the final nine-year WMAP data, alone and with other data, continue to be fit by a six-parameter Lambda-CDM model. When WMAP is combined with high-l CMB anisotropy, the BAO scale, and the Hubble constant, it says Omega_b h^2, Omega_c h^2, and Omega_Lambda are each determined to about 1.5 percent. It reports evidence for a tilt in the primordial spectrum at the 5-sigma level. Examples of limits on departures from the six-parameter model: tensor-to-scalar ratio r < 0.13 at 95 percent confidence; spatial curvature −0.0027 (+0.0039/−0.0038); summed neutrino mass < 0.44 eV at 95 percent confidence; relativistic species 3.84 ± 0.40 when the full data are analyzed. These are parameter constraints of a fitted model. The abstract presents them as such. A limit such as r < 0.13 is not a detection of gravitational waves.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Nine-Year Wilkinson Microwave Anisotropy Probe Observations: Cosmological Parameter Results",
+      "url": "https://arxiv.org/abs/1212.5226",
+      "author": "G. Hinshaw and colleagues",
+      "date": "2013-06-04",
+      "accessed": "2026-11-18",
+      "note": "arXiv abstract, version 3, last revised 4 June 2013, fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "G. Hinshaw and colleagues, WMAP",
+  "as_of_date": "2013-06-04",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.cosmology.planck-2018-abstract-parameters",
+    "world.science.cosmic-microwave-background"
+  ],
+  "tags": [
+    "core-pack",
+    "area:cosmology",
+    "cmb",
+    "model-fit"
+  ],
+  "read_time_min": 1
+}

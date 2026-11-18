@@ -392,7 +392,8 @@ fn measured_corpus_at_the_target_size() {
 /// digests. Publication 2 is the digest PR #13 recorded after the core pack
 /// grew. Publication 3 is the digest after the history and religion cards
 /// joined that pack. Publication 4 is the digest after the earth, life, and
-/// health cards joined that pack. The version is looked up from the bundle, not copied back out of
+/// health cards joined that pack. Publication 5 is the digest after the
+/// physics, chemistry, astronomy, and energy gap fill. The version is looked up from the bundle, not copied back out of
 /// the manifest, and it is not the schema's trailing 1.
 struct CorePublication {
     version: &'static str,
@@ -431,6 +432,12 @@ const CORE_PUBLICATIONS: &[CorePublication] = &[
         sha256: "5cfe36ca7a55506b232a49312856be46d6b6e20ffeb82f8889303fe179b9688d",
         bytes: 2_239_112,
         cards: 1146,
+    },
+    CorePublication {
+        version: "5",
+        sha256: "5dfa2a00ed3e64e079accae8f5a8ffb05cd2ffd37f7141bd6d7979fb3a60b44f",
+        bytes: 3_060_127,
+        cards: 1506,
     },
 ];
 

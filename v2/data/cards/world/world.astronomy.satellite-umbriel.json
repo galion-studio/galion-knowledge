@@ -1,0 +1,34 @@
+{
+  "id": "world.astronomy.satellite-umbriel",
+  "title": "NASA Uranus satellite sheet: Umbriel (UII) mass 12.2×10^20 kg, radius 584.7 km",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The Uranus satellite fact sheet lists Umbriel (UII) at mass 12.2 × 10^20 kg and radius 584.7 km.",
+  "body": "NASA's Uranus satellite fact sheet lists Umbriel (UII) with mass 12.2 × 10^20 kg, radius 584.7 km, mean density 1,460 kg/m^3, and visual geometric albedo 0.21. Orbital parameters on the same sheet: Semi-major axis (10 3 km) = 266.00; Semi-major axis (Uranian Radii) = 10.41; Orbital Period * (days) = 4.144176; Rotation Period (days) = S; Inclination (degrees) = 0.13; Eccentricity = 0.0039. These are the cells printed on the sheet. The sheet does not say, on this row, which cells are a spacecraft measurement and which are an estimate. The sheet says R indicates retrograde motion, and S indicates synchronous rotation, the rotation period equal to the orbital period. Author of the sheet: Dr. David R. Williams, NASA Goddard Space Flight Center. Last Updated line: 11 March 2023.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Uranus satellite fact sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2023-03-11",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line: 11 March 2023."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2023-03-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.uranus-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "uranus",
+    "umbriel"
+  ],
+  "read_time_min": 1
+}

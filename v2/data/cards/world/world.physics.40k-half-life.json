@@ -22,7 +22,8 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world.constants.hertz-and-becquerel"
+    "world.constants.hertz-and-becquerel",
+    "world.physics.nndc-k-40-half-life"
   ],
   "tags": [
     "core-pack",
@@ -38,6 +39,11 @@
       "from": "strong",
       "to": "weak",
       "note": "Truth gate ceiling. The only source host is iaea.org, class other, whose ceiling is weak. The Live Chart row was not changed and no source was added."
+    },
+    {
+      "date": "2026-11-18",
+      "change": "related",
+      "note": "Linked the October 2023 NNDC wallet-card half-life world.physics.nndc-k-40-half-life. The IAEA numerals in this card were not rewritten. iaea.org remains class other, so this card's evidence stays weak."
     }
   ]
 }
