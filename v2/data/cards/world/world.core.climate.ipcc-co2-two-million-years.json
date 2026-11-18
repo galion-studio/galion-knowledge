@@ -1,0 +1,34 @@
+{
+  "id": "world.core.climate.ipcc-co2-two-million-years",
+  "title": "IPCC AR6: 2019 CO2 was higher than at any time in at least 2 million years",
+  "section": "world",
+  "category": "climate",
+  "summary": "Statement A.2.1 says 2019 CO2 was higher than at any time in at least 2 million years, and that methane and nitrous oxide were higher than at any time in at least 800,000 years.",
+  "body": "IPCC Working Group I statement A.2.1 says that in 2019, atmospheric CO2 concentrations were higher than at any time in at least 2 million years, at high confidence, and that concentrations of methane and nitrous oxide were higher than at any time in at least 800,000 years, at very high confidence. NOAA's ice-core page, separately, says an 800,000-year series never exceeded 300 ppm. This card is the assessment sentence, including its confidence labels.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Climate Change 2021: The Physical Science Basis. Summary for Policymakers",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf",
+      "author": "Intergovernmental Panel on Climate Change, Working Group I",
+      "date": "2021",
+      "accessed": "2026-11-18",
+      "note": "PDF opened 2026-11-18. The citation block in the file reads IPCC, 2021."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Intergovernmental Panel on Climate Change, Working Group I",
+  "as_of_date": "2019",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.climate.co2-ice-core",
+    "world.core.climate.ipcc-2019-gases"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "ipcc"
+  ],
+  "read_time_min": 1
+}

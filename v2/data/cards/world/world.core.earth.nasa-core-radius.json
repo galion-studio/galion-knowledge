@@ -1,0 +1,34 @@
+{
+  "id": "world.core.earth.nasa-core-radius",
+  "title": "NASA's Earth Fact Sheet lists a core radius of 3,485 km",
+  "section": "world",
+  "category": "earth",
+  "summary": "David R. Williams's NASA Earth Fact Sheet, last updated 15 November 2024, lists Earth's core radius as 3,485 kilometers.",
+  "body": "NASA's Earth Fact Sheet lists a core radius of 3,485 kilometers among the bulk parameters. The sheet's last-updated line read 15 November 2024. A USGS page separately lists a 2,200 kilometer liquid outer core and a 1,250 kilometer solid inner core. This card does not add those thicknesses or decide whether the two publications are using the same boundary. It records the radius the fact sheet prints.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Earth Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "author": "David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-11-15",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line on the page: 15 November 2024, DRW."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-11-15",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.mantle-and-core",
+    "world.geography.earth-shape"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "core"
+  ],
+  "read_time_min": 1
+}

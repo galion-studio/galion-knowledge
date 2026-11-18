@@ -1,0 +1,32 @@
+{
+  "id": "world.core.health.safe-water",
+  "title": "WHO: 73 percent of people used safely managed drinking water in 2022",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO says 6 billion people, 73 percent, had water on premises, available when needed, and free from contamination, and that 2.2 billion did not.",
+  "body": "WHO's drinking-water fact sheet says that in 2022, 73 percent of the global population, 6 billion people, used a safely managed drinking-water service, defined there as one located on premises, available when needed, and free from contamination. It says the remaining 2.2 billion people were without safely managed services in 2022. The definition and the count are both the sheet's.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Drinking-water",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/drinking-water",
+      "author": "World Health Organization",
+      "date": "2023-09-13",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.unsafe-water"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "water"
+  ],
+  "read_time_min": 1
+}

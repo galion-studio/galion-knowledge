@@ -1,0 +1,33 @@
+{
+  "id": "world.core.body.blood-groups",
+  "title": "The 1930 Nobel citation credits Landsteiner with human blood groups",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The Nobel Foundation credits Karl Landsteiner with the discovery of human blood groups.",
+  "body": "The Nobel Prize API record for 1930 says Karl Landsteiner received the prize in physiology or medicine for his discovery of human blood groups. The record dates the award 30 October 1930. The motivation does not name the group letters. This card does not add them.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 1930",
+      "url": "https://api.nobelprize.org/2.1/nobelPrize/med/1930",
+      "author": "Nobel Foundation",
+      "date": "1930-10-30",
+      "accessed": "2026-11-18",
+      "note": "Motivation text was read from the Nobel Prize API record."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Nobel Foundation, on Karl Landsteiner",
+  "as_of_date": "1930-10-30",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.anaemia"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "blood"
+  ],
+  "read_time_min": 1
+}

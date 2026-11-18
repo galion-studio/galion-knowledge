@@ -1,0 +1,34 @@
+{
+  "id": "world.core.nature.zooxanthellae",
+  "title": "NOAA: most corals hold photosynthetic algae called zooxanthellae",
+  "section": "world",
+  "category": "nature",
+  "summary": "NOAA says the algae live in the coral's tissues, photosynthesize, and that the partnership builds the largest structures of biological origin on Earth.",
+  "body": "NOAA says most corals contain algae called zooxanthellae, which it describes as plant-like organisms living in the coral's tissues. It says the algae use the coral's metabolic waste for photosynthesis, and that the corals benefit because the algae produce oxygen, remove wastes, and supply the organic products of photosynthesis. The page's opening sentence says a coral relies on its relationship with these plant-like algae to build the largest structures of biological origin on Earth. Photosynthesis as a chemical path is already on other cards. This card is the partnership NOAA describes.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Are corals animals or plants?",
+      "url": "https://oceanservice.noaa.gov/facts/coral.html",
+      "author": "NOAA National Ocean Service",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA National Ocean Service",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.nature.corals-are-animals",
+    "world.core.nature.coral-bleaching",
+    "world.biology.photosynthesis"
+  ],
+  "tags": [
+    "core-pack",
+    "nature",
+    "coral"
+  ],
+  "read_time_min": 1
+}

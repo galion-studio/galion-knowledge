@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.deaths-2023",
+  "title": "WHO: in 2023 the ten leading causes were 33 million of 61 million deaths",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's Global Health Estimates fact sheet, dated 2 October 2026, says the ten leading causes in 2023 accounted for 33 million deaths, 54 percent of 61 million.",
+  "body": "The World Health Organization's fact sheet \"The top 10 causes of death,\" dated 2 October 2026, says that in 2023 the ten leading causes of death accounted for 33 million deaths, or 54 percent of the total 61 million deaths worldwide. It says eight of those ten were noncommunicable diseases. The sheet says the figures come from WHO's Global Health Estimates, and the editor's note says the estimates released in 2026 cover more than 160 diseases and injuries annually from 2000 to 2023. These are estimates, not a single global registry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The top 10 causes of death",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death",
+      "author": "World Health Organization",
+      "date": "2026-10-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2023",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.ischaemic-heart",
+    "world.core.health.death-registration"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "mortality"
+  ],
+  "read_time_min": 1
+}

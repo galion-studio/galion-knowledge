@@ -1,0 +1,33 @@
+{
+  "id": "world.core.climate.co2-preindustrial",
+  "title": "NOAA: before the industrial revolution, CO2 was 280 ppm or less",
+  "section": "world",
+  "category": "climate",
+  "summary": "NOAA Climate.gov says that before the Industrial Revolution, in the mid-1700s, atmospheric CO2 was 280 ppm or less.",
+  "body": "NOAA Climate.gov's atmospheric carbon dioxide article says that before the Industrial Revolution started in the mid-1700s, atmospheric carbon dioxide was 280 parts per million or less. The 2024 global annual average is a different sentence and is already stored. This card is the pre-industrial figure the article states.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Climate change: atmospheric carbon dioxide",
+      "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide",
+      "author": "NOAA Climate.gov",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA Climate.gov",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.co2-2024-noaa",
+    "world.core.climate.co2-ice-core"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "carbon-dioxide"
+  ],
+  "read_time_min": 1
+}

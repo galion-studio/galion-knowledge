@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.anaemia",
+  "title": "WHO: anaemia is too little haemoglobin, and it affects about 40 percent of young children",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's anaemia sheet says 40 percent of children aged 6 to 59 months, 37 percent of pregnant women, and 30 percent of women aged 15 to 49 are affected.",
+  "body": "WHO's anaemia fact sheet, dated 10 February 2025, says anaemia is a condition in which the number of red blood cells or the haemoglobin concentration within them is lower than normal. It says anaemia occurs when there is not enough haemoglobin to carry oxygen to the organs and tissues. It estimates that 40 percent of all children aged 6 to 59 months, 37 percent of pregnant women, and 30 percent of women aged 15 to 49 are affected. It says anaemia caused 50 million years of healthy life lost due to disability in 2019, and that the largest causes were dietary iron deficiency, thalassaemia and sickle cell trait, and malaria. The percentages are the sheet's global estimates.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Anaemia",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/anaemia",
+      "author": "World Health Organization",
+      "date": "2025-02-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2025-02-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.body.blood-groups",
+    "world.core.health.malaria-burden"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "blood"
+  ],
+  "read_time_min": 1
+}

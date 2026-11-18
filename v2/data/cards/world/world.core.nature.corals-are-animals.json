@@ -1,0 +1,34 @@
+{
+  "id": "world.core.nature.corals-are-animals",
+  "title": "NOAA: corals are animals, not plants",
+  "section": "world",
+  "category": "nature",
+  "summary": "NOAA says a coral is a sessile animal that takes root on the seafloor, which is why it is often mistaken for a plant.",
+  "body": "NOAA's National Ocean Service page \"Are corals animals or plants?\" says coral is a sessile animal and that corals are sessile animals that take root on the ocean floor. It says it is no wonder many people think corals are plants. The page's answer to its own question is that they are animals.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Are corals animals or plants?",
+      "url": "https://oceanservice.noaa.gov/facts/coral.html",
+      "author": "NOAA National Ocean Service",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA National Ocean Service",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.nature.coral-polyps",
+    "world.core.nature.zooxanthellae",
+    "world.biology.photosynthesis"
+  ],
+  "tags": [
+    "core-pack",
+    "nature",
+    "coral"
+  ],
+  "read_time_min": 1
+}

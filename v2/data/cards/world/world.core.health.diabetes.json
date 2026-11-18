@@ -1,0 +1,34 @@
+{
+  "id": "world.core.health.diabetes",
+  "title": "WHO: diabetes is a failure of insulin, and 830 million people had it in 2022",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO says diabetes occurs when the pancreas does not make enough insulin or the body cannot use it, and that prevalence rose from 7 percent of adults in 1990 to 14 percent in 2022.",
+  "body": "WHO's diabetes fact sheet, dated 11 November 2026, says diabetes is a chronic disease that occurs either when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces. It says insulin is a hormone that regulates blood glucose. It says the number of people living with diabetes rose from 200 million in 1990 to 830 million in 2022, and that 14 percent of adults aged 18 and older were living with diabetes in 2022, up from 7 percent in 1990. The same sheet says diabetes and kidney disease due to diabetes caused around 2.4 million deaths in 2023, and that around 10 percent of cardiovascular deaths were caused by high blood glucose. The 2.0 million direct deaths are on a separate card. The 830 million is the 2022 prevalence count.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Diabetes",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+      "author": "World Health Organization",
+      "date": "2026-11-11",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.diabetes-untreated",
+    "world.medicine.insulin-nobel-1923",
+    "world.core.body.pavlov-digestion"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "diabetes"
+  ],
+  "read_time_min": 1
+}

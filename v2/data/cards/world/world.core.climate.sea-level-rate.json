@@ -1,0 +1,34 @@
+{
+  "id": "world.core.climate.sea-level-rate",
+  "title": "NOAA: the 2006–2015 sea-level rate was 3.6 mm per year",
+  "section": "world",
+  "category": "climate",
+  "summary": "The article says global mean sea level rose 3.6 millimeters a year from 2006 to 2015, 2.5 times the twentieth-century average rate it states.",
+  "body": "The NOAA Climate.gov sea-level article says the global mean water level in the ocean rose by 0.14 inches, or 3.6 millimeters, per year from 2006 to 2015, and that this was 2.5 times the average rate of 0.06 inches, or 1.4 millimeters, per year throughout most of the twentieth century. Those are the two rates on the page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Climate Change: Global Sea Level",
+      "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level",
+      "author": "Rebecca Lindsey, NOAA Climate.gov",
+      "date": "2023-08-22",
+      "accessed": "2026-11-18",
+      "note": "Published August 22, 2023. The Climate.gov copy fetched on 2026-11-18 carried an archive notice dated June 25, 2025."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Rebecca Lindsey, NOAA Climate.gov",
+  "as_of_date": "2023-08-22",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.climate.sea-level-1880",
+    "world.core.climate.ipcc-sea-level"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "sea-level"
+  ],
+  "read_time_min": 1
+}

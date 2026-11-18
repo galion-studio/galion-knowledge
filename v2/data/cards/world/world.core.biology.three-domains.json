@@ -1,0 +1,33 @@
+{
+  "id": "world.core.biology.three-domains",
+  "title": "Woese, Kandler, and Wheelis, 1990: a proposal of three domains",
+  "section": "world",
+  "category": "biology",
+  "summary": "Their 1990 abstract says molecular comparisons divide life into three primary groups and proposes the domains Bacteria, Archaea, and Eucarya above the rank of kingdom.",
+  "body": "The abstract of Woese, Kandler, and Wheelis, \"Towards a natural system of organisms: proposal for the domains Archaea, Bacteria, and Eucarya\" (Proceedings of the National Academy of Sciences, 1990), says molecular comparisons show that life divides into three primary groupings, then commonly called the eubacteria, the archaebacteria, and the eukaryotes. It says neither a five-kingdom taxonomy nor a eukaryote-prokaryote dichotomy reflects that division. It proposes a taxon called a domain, above kingdom, and three domains: Bacteria, Archaea, and Eucarya. It says Archaea is subdivided there into the kingdoms Euryarchaeota and Crenarchaeota. The paper presents this as a proposal from molecular comparisons. This card does not treat the proposal as the last word in taxonomy.\n",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Towards a natural system of organisms: proposal for the domains Archaea, Bacteria, and Eucarya",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1073/pnas.87.12.4576",
+      "author": "C. R. Woese, O. Kandler, and M. L. Wheelis",
+      "date": "1990",
+      "accessed": "2026-11-18",
+      "note": "Abstract text was read from the OpenAlex work record for this DOI on 2026-11-18. The DOI is 10.1073/pnas.87.12.4576."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "C. R. Woese, O. Kandler, and M. L. Wheelis",
+  "as_of_date": "1990",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.microbes-openstax"
+  ],
+  "tags": [
+    "core-pack",
+    "biology",
+    "taxonomy"
+  ],
+  "read_time_min": 1
+}

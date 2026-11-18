@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.diet-principles",
+  "title": "WHO: a healthy diet rests on adequacy, balance, moderation, and diversity",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's healthy-diet fact sheet, dated 26 January 2026, names those four principles and says a diet must also be free of microbial and chemical contaminants.",
+  "body": "The World Health Organization's healthy-diet fact sheet, dated 26 January 2026, says healthy diets help protect against malnutrition in all its forms and against noncommunicable diseases including diabetes, heart disease, stroke, and cancer. It says healthy diets come in many forms, but that the four core principles of adequacy, balance, moderation, and diversity should be the foundation. It says a diet must also be safe, meaning free from microbial and chemical contaminants, and that the exact make-up varies with age, sex, lifestyle, activity, culture, and local foods. These are WHO's principles. They are not a single menu.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Healthy diet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "author": "World Health Organization",
+      "date": "2026-01-26",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-01-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.diet-limits",
+    "world.core.health.malnutrition-forms"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "nutrition"
+  ],
+  "read_time_min": 1
+}

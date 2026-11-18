@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.cvd-what",
+  "title": "WHO: cardiovascular disease is a group of disorders of the heart and blood vessels",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's fact sheet lists coronary heart disease, cerebrovascular disease, peripheral arterial disease, rheumatic heart disease, congenital heart disease, and clots in the leg veins.",
+  "body": "WHO's cardiovascular-disease fact sheet says cardiovascular diseases are a group of disorders of the heart and blood vessels. The list it gives is coronary heart disease, cerebrovascular disease, peripheral arterial disease, rheumatic heart disease from rheumatic fever caused by streptococcal bacteria, congenital heart disease, and deep-vein thrombosis and pulmonary embolism. The list is the sheet's scope for the term. It is not a ranking.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Cardiovascular diseases (CVDs)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)",
+      "author": "World Health Organization",
+      "date": "2025-07-31",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2025-07-31",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.heart-attack",
+    "world.core.health.cvd-deaths"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "heart"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.dementia-deaths",
+  "title": "WHO: Alzheimer disease and other dementias killed 2.1 million people in 2023",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The fact sheet ranks these dementias fifth in 2023, at 2.1 million deaths, and says 66 percent of those deaths were women.",
+  "body": "WHO's causes-of-death fact sheet says that in 2023 Alzheimer disease and other forms of dementia ranked fifth, killing 2.1 million people, and that globally 66 percent of deaths from Alzheimer disease and other forms of dementia were women. A separate WHO dementia-risk card already lists associated factors. This card is the 2023 death estimate and the sex split the sheet states.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The top 10 causes of death",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death",
+      "author": "World Health Organization",
+      "date": "2026-10-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2023",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.dementia-risks-who",
+    "world.core.health.deaths-2023"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "mortality"
+  ],
+  "read_time_min": 1
+}

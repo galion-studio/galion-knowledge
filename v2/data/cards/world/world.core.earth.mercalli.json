@@ -1,0 +1,32 @@
+{
+  "id": "world.core.earth.mercalli",
+  "title": "USGS: U.S. shaking intensity uses the Modified Mercalli scale",
+  "section": "world",
+  "category": "earth",
+  "summary": "USGS says intensities are Roman numerals on the Modified Mercalli Intensity Scale, and that other countries use other scales.",
+  "body": "The U.S. Geological Survey says intensities are expressed in Roman numerals. It says the intensity scale used in the United States is the Modified Mercalli Intensity Scale, and that other countries use other scales. It says traditional intensity was a subjective measure from felt reports and damage, now collected on a web form, and that instrumental data can also be used to estimate an intensity. The scale's name is a convention of measurement. The page does not say one country's scale is the world's.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Earthquake Magnitude, Energy Release, and Shaking Intensity",
+      "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+      "author": "U.S. Geological Survey, Earthquake Hazards Program",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.magnitude-and-intensity"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "earthquake"
+  ],
+  "read_time_min": 1
+}

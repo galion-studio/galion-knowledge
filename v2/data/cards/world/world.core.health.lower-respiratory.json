@@ -1,0 +1,34 @@
+{
+  "id": "world.core.health.lower-respiratory",
+  "title": "WHO: lower respiratory infections killed 2.7 million people in 2023",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The fact sheet ranks lower respiratory infections fourth in 2023, at 2.7 million deaths, and calls them the deadliest communicable cause that year.",
+  "body": "WHO's causes-of-death fact sheet says lower respiratory infections were the fourth leading cause of death in 2023 and the world's most deadly communicable disease that year, claiming 2.7 million lives, back at the 2019 level after COVID-19. The 2.7 million is the sheet's 2023 estimate for that group of infections, not for one named bacterium.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The top 10 causes of death",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death",
+      "author": "World Health Organization",
+      "date": "2026-10-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2023",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.covid-deaths",
+    "world.core.health.tb-burden"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "mortality",
+    "infection"
+  ],
+  "read_time_min": 1
+}

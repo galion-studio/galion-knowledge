@@ -1,0 +1,34 @@
+{
+  "id": "world.core.earth.blackbody-temperature",
+  "title": "NASA's Earth Fact Sheet lists a black-body temperature of 254 K",
+  "section": "world",
+  "category": "earth",
+  "summary": "The fact sheet lists a black-body temperature of 254 kelvin, a different line from the surface average temperature.",
+  "body": "NASA's Earth Fact Sheet lists a black-body temperature of 254.0 kelvin. The same sheet's surface average temperature is a different line and is already recorded on the dry-air card. This card does not subtract the two temperatures or name that difference a greenhouse effect. A NOAA page states a greenhouse claim separately.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Earth Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "author": "David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-11-15",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line on the page: 15 November 2024, DRW."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-11-15",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.geography.earth-atmosphere",
+    "world.core.climate.co2-greenhouse-noaa"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "energy"
+  ],
+  "read_time_min": 1
+}

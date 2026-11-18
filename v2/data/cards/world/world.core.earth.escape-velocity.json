@@ -1,0 +1,33 @@
+{
+  "id": "world.core.earth.escape-velocity",
+  "title": "NASA's Earth Fact Sheet lists an escape velocity of 11.186 km/s",
+  "section": "world",
+  "category": "earth",
+  "summary": "The fact sheet lists Earth's escape velocity as 11.186 kilometers per second.",
+  "body": "NASA's Earth Fact Sheet lists an escape velocity of 11.186 kilometers per second. Mean surface gravity on the same sheet is already on the shape card. Escape velocity is a different line.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Earth Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "author": "David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-11-15",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line on the page: 15 November 2024, DRW."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-11-15",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.geography.earth-shape"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "gravity"
+  ],
+  "read_time_min": 1
+}

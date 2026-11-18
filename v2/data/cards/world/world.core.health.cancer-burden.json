@@ -1,0 +1,34 @@
+{
+  "id": "world.core.health.cancer-burden",
+  "title": "WHO: cancer killed nearly 10 million people in 2024",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The cancer fact sheet says that was nearly one in six deaths, and it lists the most common new cases and the largest causes of cancer death in 2024.",
+  "body": "WHO's cancer fact sheet says cancer accounted for nearly 10 million deaths in 2024, or nearly one in six deaths. It says the most common new cases in 2024 were lung, 2.6 million; breast, 2.4 million; colon and rectum, 2.0 million; prostate, 1.5 million; non-melanoma skin, 1.1 million; and stomach, 1.0 million. It says the most common causes of cancer death in 2024 were lung, 1.86 million; colon and rectum, 918,000; liver, 732,000; breast, 694,000; and stomach, 642,000. It says nearly a quarter of cancer deaths are due to tobacco use, alcohol, high body mass index, low fruit and vegetable intake, and lack of physical activity, and that cancer-causing infections such as human papillomavirus and hepatitis are responsible for approximately 30 percent of cancer cases in low- and lower-middle-income countries. The 2023 lung-cancer death card uses a different year and a slightly different site grouping.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Cancer",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/cancer",
+      "author": "World Health Organization",
+      "date": "2026-07-03",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2024",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.cancer-definition",
+    "world.core.health.lung-cancer-deaths",
+    "world.core.health.tobacco-deaths"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "cancer"
+  ],
+  "read_time_min": 1
+}

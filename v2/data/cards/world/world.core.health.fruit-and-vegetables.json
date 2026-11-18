@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.fruit-and-vegetables",
+  "title": "WHO: people older than 10 should aim for at least 400 grams of fruit and vegetables a day",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The healthy-diet sheet sets 400 grams for people older than 10, and lower amounts for younger children.",
+  "body": "WHO's healthy-diet fact sheet says everyone older than 10 should aim for at least 400 grams of fruits and vegetables per day, with lesser amounts for children under 10: at least 250 grams for ages 2 to 5, or 350 grams for ages 6 to 9. It also says everyone older than 10 should aim for at least 25 grams a day of naturally occurring dietary fibre, with 15 or 21 grams for those younger child groups. The amounts are the sheet's targets.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Healthy diet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "author": "World Health Organization",
+      "date": "2026-01-26",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-01-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.diet-limits",
+    "world.core.health.child-overweight"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "nutrition"
+  ],
+  "read_time_min": 1
+}

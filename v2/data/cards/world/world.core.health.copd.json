@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.copd",
+  "title": "WHO: chronic obstructive pulmonary disease killed about 3.6 million people in 2023",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The fact sheet ranks chronic obstructive pulmonary disease third in 2023, about 6 percent of deaths, 3.6 million.",
+  "body": "WHO's causes-of-death fact sheet says chronic obstructive pulmonary disease was the third leading cause of death in 2023, about 6 percent of total deaths, or 3.6 million. It also says that in 2023 this disease was not among the top ten causes in low-income countries, while it ranked in the top ten in the other income groups the sheet uses. Both sentences are on the sheet.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The top 10 causes of death",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death",
+      "author": "World Health Organization",
+      "date": "2026-10-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2023",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.stroke",
+    "world.core.health.income-pattern"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "mortality"
+  ],
+  "read_time_min": 1
+}

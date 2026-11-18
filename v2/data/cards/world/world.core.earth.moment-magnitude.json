@@ -1,0 +1,33 @@
+{
+  "id": "world.core.earth.moment-magnitude",
+  "title": "USGS: moment magnitude comes from rigidity, area, and slip",
+  "section": "world",
+  "category": "earth",
+  "summary": "USGS defines seismic moment as rigidity times fault area times slip, and writes moment magnitude as two-thirds of log10 of that moment minus 9.1.",
+  "body": "The U.S. Geological Survey says moment magnitude is based on physical properties from the recorded waveforms. It writes seismic moment as rigidity times the area of the fault that slipped times the distance the fault moved, and moment magnitude as 2/3 times the quantity log10 of that moment minus 9.1. It says the scale is designed to be roughly equal to the Richter scale where they overlap, and that stronger rock, a larger area, or more movement produces a larger magnitude. The formula is the one the page prints.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Earthquake Magnitude, Energy Release, and Shaking Intensity",
+      "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+      "author": "U.S. Geological Survey, Earthquake Hazards Program",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.richter-scale",
+    "world.core.earth.magnitude-energy"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "earthquake"
+  ],
+  "read_time_min": 1
+}

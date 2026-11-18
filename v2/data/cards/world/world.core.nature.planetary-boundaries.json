@@ -1,0 +1,35 @@
+{
+  "id": "world.core.nature.planetary-boundaries",
+  "title": "Steffen and colleagues, 2015: a proposed safe operating space, with two core boundaries",
+  "section": "world",
+  "category": "nature",
+  "summary": "The 2015 Science paper presents planetary boundaries as a framework. It names climate change and biosphere integrity as core boundaries that could each shift the Earth system.",
+  "body": "The abstract of Steffen, Richardson, Rockström, and colleagues, \"Planetary boundaries: Guiding human development on a changing planet\" (Science, 2015), says the framework defines a safe operating space for humanity based on the biophysical processes that regulate the stability of the Earth system. It says the paper revises that framework. It says two core boundaries, climate change and biosphere integrity, have been identified, each of which has the potential on its own to drive the Earth system into a new state if substantially and persistently transgressed. This is the authors' framework, stated in the abstract. It is not a measurement that a boundary was crossed, and this card does not add a critic the abstract does not contain.\n",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Planetary boundaries: Guiding human development on a changing planet",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1126/science.1259855",
+      "author": "Will Steffen, Katherine Richardson, Johan Rockström, and colleagues",
+      "date": "2015",
+      "accessed": "2026-11-18",
+      "note": "Abstract text was read from the OpenAlex work record for this DOI on 2026-11-18. The DOI is 10.1126/science.1259855."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Will Steffen and colleagues",
+  "as_of_date": "2015",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.nature.biodiversity-definition",
+    "world.nature.human-domination-1997",
+    "world.nature.climate-change"
+  ],
+  "tags": [
+    "core-pack",
+    "nature",
+    "ecology"
+  ],
+  "read_time_min": 1
+}

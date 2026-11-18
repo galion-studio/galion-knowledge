@@ -1,0 +1,32 @@
+{
+  "id": "world.core.health.tobacco-users",
+  "title": "WHO: about 1.2 billion people use tobacco, and about 80 percent of them live in low- and middle-income countries",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The tobacco fact sheet states that user count and that share.",
+  "body": "WHO's tobacco fact sheet says around 80 percent of the world's 1.2 billion tobacco users live in low- and middle-income countries. It also says nicotine is highly addictive and harmful, particularly for children, adolescents, and young adults whose brains are still developing. The 1.2 billion and the 80 percent are the sheet's figures.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Tobacco",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/tobacco",
+      "author": "World Health Organization",
+      "date": "2026-06-26",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-06-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.tobacco-deaths"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "tobacco"
+  ],
+  "read_time_min": 1
+}

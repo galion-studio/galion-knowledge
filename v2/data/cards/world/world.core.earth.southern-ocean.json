@@ -1,0 +1,32 @@
+{
+  "id": "world.core.earth.southern-ocean",
+  "title": "NOAA: the U.S. Board on Geographic Names sets the Southern Ocean at 60°S",
+  "section": "world",
+  "category": "earth",
+  "summary": "NOAA says the U.S. Board on Geographic Names recognizes the Southern Ocean from the coast of Antarctica to 60 degrees south.",
+  "body": "On the same National Ocean Service page, NOAA says the Southern Ocean is recognized by the U.S. Board on Geographic Names as the body of water extending from the coast of Antarctica to the line of latitude at 60 degrees south. That is the boundary the page states. It does not say every country uses that line.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How many oceans are there?",
+      "url": "https://oceanservice.noaa.gov/facts/howmanyoceans.html",
+      "author": "NOAA National Ocean Service",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA National Ocean Service",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.one-ocean"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "ocean"
+  ],
+  "read_time_min": 1
+}

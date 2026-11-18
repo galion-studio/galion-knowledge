@@ -1,0 +1,33 @@
+{
+  "id": "world.core.earth.moment-of-inertia",
+  "title": "NASA's Earth Fact Sheet lists a moment-of-inertia factor of 0.3308",
+  "section": "world",
+  "category": "earth",
+  "summary": "The fact sheet lists I/MR² as 0.3308.",
+  "body": "NASA's Earth Fact Sheet lists a moment-of-inertia factor, I/MR², of 0.3308. The card records that entry. It does not interpret the number as a proof of how mass is arranged inside Earth.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Earth Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "author": "David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-11-15",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line on the page: 15 November 2024, DRW."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-11-15",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.three-shells"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "interior"
+  ],
+  "read_time_min": 1
+}

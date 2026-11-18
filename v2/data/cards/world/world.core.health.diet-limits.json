@@ -1,0 +1,34 @@
+{
+  "id": "world.core.health.diet-limits",
+  "title": "WHO's adult diet limits for salt, free sugars, and fat",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The 26 January 2026 healthy-diet sheet states adult limits for salt, free sugars, total fat, saturated fat, and trans fat.",
+  "body": "WHO's healthy-diet fact sheet says that in adults, salt intake should be limited to less than 5 grams per day, which it equates to 2 grams per day of sodium, and that for children the maximum sodium is less and needs to be estimated from energy intake. It says free sugars should be limited to less than 10 percent of total daily energy, equivalent to 50 grams, or about 12 level teaspoons, for a person of healthy body weight consuming about 2,000 calories per day, and that limiting further to 5 percent or less may provide additional health benefits. On fat, it says two fatty acids, linoleic acid and alpha-linolenic acid, can only be obtained from the diet, and that in adults a minimum of 15 percent of energy per day should be from fat. It says limiting total fat to 30 percent or less of total daily energy may help prevent unhealthy weight gain in adults, and that children may need higher total fat intakes for growth. It says no more than 10 percent of total energy should come from saturated fat and no more than 1 percent from trans fat of any type. These are the sheet's stated limits, not a measurement of what people eat.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Healthy diet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "author": "World Health Organization",
+      "date": "2026-01-26",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-01-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.diet-principles",
+    "world.core.health.fruit-and-vegetables",
+    "world.core.health.hypertension"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "nutrition"
+  ],
+  "read_time_min": 1
+}

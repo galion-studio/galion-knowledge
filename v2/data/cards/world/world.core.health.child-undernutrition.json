@@ -1,0 +1,34 @@
+{
+  "id": "world.core.health.child-undernutrition",
+  "title": "WHO's 2022 estimates: 149 million children under 5 were stunted and 45 million were wasted",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The malnutrition fact sheet gives those 2022 figures, plus 37 million children under 5 overweight, and separate 2022 adult counts.",
+  "body": "WHO's malnutrition fact sheet says that globally in 2022, 149 million children under 5 were estimated to be stunted, too short for age, 45 million were estimated to be wasted, too thin for height, and 37 million were overweight or living with obesity. For adults in 2022 it says 2.5 billion were overweight, including 890 million living with obesity, while 390 million were underweight. A later obesity fact sheet gives 2024 adult and child figures that are not these 2022 numbers. This card is the 1 March 2024 sheet's 2022 estimates. Stunting, wasting, and overweight are the sheet's three child measures, not one combined condition.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Malnutrition",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/malnutrition",
+      "author": "World Health Organization",
+      "date": "2024-03-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.malnutrition-forms",
+    "world.core.health.child-overweight",
+    "world.core.health.obesity"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "nutrition"
+  ],
+  "read_time_min": 1
+}

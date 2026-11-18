@@ -1,0 +1,34 @@
+{
+  "id": "world.core.biology.genes-and-enzymes",
+  "title": "Beadle and Tatum, 1941: genes control specific biochemical reactions",
+  "section": "world",
+  "category": "biology",
+  "summary": "Their 1941 abstract says it is tenable that genes control specific reactions by acting as enzymes or by setting enzyme specificities, from one-to-one relations up to more complex ones.",
+  "body": "The abstract of Beadle and Tatum, \"Genetic Control of Biochemical Reactions in Neurospora\" (Proceedings of the National Academy of Sciences, 1941), says the development and functioning of an organism consist of an integrated system of chemical reactions controlled in some manner by genes. It says it is entirely tenable to suppose that genes control or regulate specific reactions either by acting directly as enzymes or by determining the specificities of enzymes. It says gene control ranges from simple one-to-one relations to relations of great complexity, and that many biochemical reactions are controlled in specific ways by specific genes. The abstract argues for that picture. It does not use the later slogan \"one gene, one enzyme\" in the text that was read.\n",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Genetic Control of Biochemical Reactions in Neurospora",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1073/pnas.27.11.499",
+      "author": "G. W. Beadle and Edward L. Tatum",
+      "date": "1941",
+      "accessed": "2026-11-18",
+      "note": "Abstract text was read from the OpenAlex work record for this DOI on 2026-11-18. The DOI is 10.1073/pnas.27.11.499."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "G. W. Beadle and Edward L. Tatum",
+  "as_of_date": "1941",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.biology.central-dogma-1970",
+    "world.genetic-code-codons"
+  ],
+  "tags": [
+    "core-pack",
+    "biology",
+    "genetics"
+  ],
+  "read_time_min": 1
+}

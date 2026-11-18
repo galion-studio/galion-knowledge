@@ -1,0 +1,34 @@
+{
+  "id": "world.core.health.child-mortality",
+  "title": "WHO: 4.9 million children under 5 died in 2024",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's child-mortality sheet says that was 37.4 deaths per 1,000 live births, and that 2.3 million of the deaths were in the first 28 days.",
+  "body": "WHO's under-five mortality fact sheet, dated 1 May 2026, says that in 2024 an estimated 4.9 million children under 5 died, equivalent to one death every 6 seconds. It says neonatal deaths, the first 28 days, accounted for 2.3 million, 47 percent of under-five deaths. It says the global under-five mortality rate declined to 37.4 deaths per 1,000 live births in 2024, less than half its level in 2000. It says children born in sub-Saharan Africa had a rate of 71.6 per 1,000, nearly 14 times the rate in Europe and Northern America, and that sub-Saharan Africa and Southern Asia together accounted for more than 80 percent of under-five deaths in 2024. It names the leading causes as preterm birth complications, intrapartum-related events such as birth asphyxia or trauma, pneumonia, diarrhoea, and malaria, and it says these are largely preventable or treatable. The figures are the sheet's 2024 estimates.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Child mortality (under 5 years)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/child-mortality-under-5-years",
+      "author": "World Health Organization",
+      "date": "2026-05-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2024",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.maternal-mortality",
+    "world.core.health.malaria-burden",
+    "world.who-vaccination"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "child-mortality"
+  ],
+  "read_time_min": 1
+}

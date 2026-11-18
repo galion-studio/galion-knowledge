@@ -1,0 +1,34 @@
+{
+  "id": "world.core.earth.twelve-plates",
+  "title": "USGS interior booklet: about twelve plates, moving a few centimeters a year",
+  "section": "world",
+  "category": "earth",
+  "summary": "The USGS interior booklet says about twelve plates carry continents and ocean basins, that their edges concentrate earthquakes and volcanoes, and that they move at a few centimeters a year.",
+  "body": "The USGS booklet \"Inside the Earth\" says that by plate tectonics, about twelve plates, containing combinations of continents and ocean basins, have moved on Earth's surface through much of geologic time. It says the edges of the plates are marked by concentrations of earthquakes and volcanoes, that collisions can produce mountains such as the Himalayas, and that the plates include the crust and part of the upper mantle and move over a hot, yielding upper-mantle zone at a few centimeters a year. A separate USGS page already states a Mid-Atlantic Ridge rate of about 2.5 centimeters a year. This card is the booklet's count and its general rate, not that ridge measurement.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Inside the Earth",
+      "url": "https://pubs.usgs.gov/gip/interior/",
+      "author": "U.S. Geological Survey",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.plate-motions-usgs",
+    "world.nature.plate-tectonics",
+    "world.core.earth.lithosphere"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "plates"
+  ],
+  "read_time_min": 1
+}

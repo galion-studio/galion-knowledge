@@ -1,0 +1,35 @@
+{
+  "id": "world.core.earth.mantle-and-core",
+  "title": "USGS: a 2,900 km mantle, a liquid outer core, and a solid inner core",
+  "section": "world",
+  "category": "earth",
+  "summary": "The USGS interior page describes a semi-solid rocky mantle about 2,900 km thick and a metallic core split into a 2,200 km liquid outer part and a 1,250 km solid inner part.",
+  "body": "The USGS page \"The Earth's Interior\" says that below the crust the mantle is a dense, hot layer of semi-solid rock approximately 2,900 kilometers thick, with more iron, magnesium, and calcium than the crust. It says the core is nearly twice as dense as the mantle because it is a metallic iron-nickel alloy rather than stone, and that the core has two parts: a 2,200 kilometer thick liquid outer core and a 1,250 kilometer thick solid inner core. The same page says that as Earth rotates, the liquid outer core spins, creating Earth's magnetic field. That is the page's account of the field's source. It is not a map of the field's strength.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Earth's Interior",
+      "url": "https://pubs.usgs.gov/gip/dynamic/inside.html",
+      "author": "U.S. Geological Survey",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.three-shells",
+    "world.core.earth.magnetic-field",
+    "world.core.earth.nasa-core-radius"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "core",
+    "magnetic-field"
+  ],
+  "read_time_min": 1
+}

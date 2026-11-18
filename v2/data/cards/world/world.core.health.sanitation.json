@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.sanitation",
+  "title": "WHO: 58 percent of people used safely managed sanitation in 2024",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's sanitation sheet, dated 5 November 2026, says 4.8 billion people had safely managed sanitation, 1.5 billion lacked basic services, and 354 million defecated in the open.",
+  "body": "WHO's sanitation fact sheet, dated 5 November 2026, says that in 2024, 58 percent of the global population, 4.8 billion people, used a safely managed sanitation service. It says that since 2015, 1.2 billion people have gained access to safely managed sanitation. It says 1.5 billion people still do not have basic sanitation services, such as private toilets or latrines, and that of these, 354 million still defecate in the open. It says that in 2024 approximately 44 percent of household wastewater was not safely treated before discharge. It links poor sanitation to transmission of diarrhoeal diseases such as cholera and dysentery. The counts are the sheet's 2024 figures.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sanitation",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/sanitation",
+      "author": "World Health Organization",
+      "date": "2026-11-05",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2024",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.unsafe-water",
+    "world.core.health.child-mortality"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "sanitation"
+  ],
+  "read_time_min": 1
+}

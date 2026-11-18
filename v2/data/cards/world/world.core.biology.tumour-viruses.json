@@ -1,0 +1,34 @@
+{
+  "id": "world.core.biology.tumour-viruses",
+  "title": "The 1975 Nobel citation: tumour viruses and the cell's genetic material",
+  "section": "world",
+  "category": "biology",
+  "summary": "The Nobel Foundation credits David Baltimore, Renato Dulbecco, and Howard Temin with discoveries on the interaction between tumour viruses and the genetic material of the cell.",
+  "body": "The Nobel Prize API record for 1975 says David Baltimore, Renato Dulbecco, and Howard M. Temin received the prize in physiology or medicine for their discoveries concerning the interaction between tumour viruses and the genetic material of the cell. The record dates the award 16 October 1975. The shared motivation is that sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 1975",
+      "url": "https://api.nobelprize.org/2.1/nobelPrize/med/1975",
+      "author": "Nobel Foundation",
+      "date": "1975-10-16",
+      "accessed": "2026-11-18",
+      "note": "Motivation text was read from the Nobel Prize API record."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Nobel Foundation",
+  "as_of_date": "1975-10-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.biology.genetic-control",
+    "world.biology.central-dogma-1970"
+  ],
+  "tags": [
+    "core-pack",
+    "biology",
+    "viruses"
+  ],
+  "read_time_min": 1
+}

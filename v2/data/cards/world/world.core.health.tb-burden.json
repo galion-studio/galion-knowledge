@@ -1,0 +1,34 @@
+{
+  "id": "world.core.health.tb-burden",
+  "title": "WHO: 1.13 million tuberculosis deaths and 10.6 million illnesses in 2025",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's tuberculosis fact sheet, dated 12 November 2026, gives those 2025 estimates and says TB was the leading cause of death from a single infectious agent.",
+  "body": "WHO's tuberculosis fact sheet, dated 12 November 2026, says 1.13 million people died from tuberculosis in 2025, including 137,000 among people with HIV. It says TB was the world's leading cause of death from a single infectious agent and ranked 13th among all causes of death. It says an estimated 10.6 million people fell ill with TB in 2025, including 5.7 million men, 3.7 million women, and 1.2 million children. It says global efforts have saved an estimated 86 million lives since 2000. These are the sheet's estimates for 2025.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Tuberculosis",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+      "author": "World Health Organization",
+      "date": "2026-11-12",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2025",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.tb-infection",
+    "world.core.body.koch",
+    "world.who-amr"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "tuberculosis"
+  ],
+  "read_time_min": 1
+}

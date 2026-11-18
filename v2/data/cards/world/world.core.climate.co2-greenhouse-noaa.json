@@ -1,0 +1,33 @@
+{
+  "id": "world.core.climate.co2-greenhouse-noaa",
+  "title": "NOAA: without carbon dioxide, the greenhouse effect would not keep Earth above freezing",
+  "section": "world",
+  "category": "climate",
+  "summary": "NOAA Climate.gov says greenhouse gases absorb heat from the surface and re-radiate it, and that without any CO2 the natural greenhouse effect would be too weak to keep the average surface above freezing.",
+  "body": "NOAA Climate.gov says carbon dioxide is Earth's most important long-lived greenhouse gas, a gas that absorbs and radiates heat. It says greenhouse gases absorb heat radiating from Earth's surface and re-release it in all directions, including back toward the surface, unlike oxygen or nitrogen. It says that without any carbon dioxide, Earth's natural greenhouse effect would be too weak to keep the average global surface temperature above freezing, and that adding more carbon dioxide amplifies that effect. Tyndall's 1861 lecture and Arrhenius's 1896 paper are already on another card. This card is NOAA's wording.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Climate change: atmospheric carbon dioxide",
+      "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide",
+      "author": "NOAA Climate.gov",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA Climate.gov",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.nature.climate-change",
+    "world.core.earth.blackbody-temperature"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "greenhouse"
+  ],
+  "read_time_min": 1
+}

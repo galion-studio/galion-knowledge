@@ -1,0 +1,34 @@
+{
+  "id": "world.core.climate.ecs-range",
+  "title": "IPCC AR6: equilibrium climate sensitivity is likely 2.5°C to 4°C",
+  "section": "world",
+  "category": "climate",
+  "summary": "The Summary for Policymakers gives a best estimate of 3°C, a likely range of 2.5°C to 4°C, and a very likely range of 2°C to 5°C. The headline page had stated the best estimate without this interval.",
+  "body": "An existing card quotes the AR6 headline statements, including a best estimate of equilibrium climate sensitivity of 3°C, and it says the headline page did not print the full likely interval. The Summary for Policymakers itself, statement A.4.4, does. It says equilibrium climate sensitivity is a quantity used to estimate how the climate responds to radiative forcing. Based on multiple lines of evidence, the very likely range is between 2°C, at high confidence, and 5°C, at medium confidence. The assessed best estimate is 3°C, with a likely range of 2.5°C to 4°C, at high confidence, compared with 1.5°C to 4.5°C in the previous assessment, which did not provide a best estimate. This card adds that interval from the summary. It does not replace the headline card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Climate Change 2021: The Physical Science Basis. Summary for Policymakers",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf",
+      "author": "Intergovernmental Panel on Climate Change, Working Group I",
+      "date": "2021",
+      "accessed": "2026-11-18",
+      "note": "PDF opened 2026-11-18. The citation block in the file reads IPCC, 2021."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Intergovernmental Panel on Climate Change, Working Group I",
+  "as_of_date": "2021",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.nature.climate-change",
+    "world.core.climate.ipcc-radiative-forcing"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "ipcc"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.unsafe-water",
+  "title": "WHO: at least 1.7 billion people used faecally contaminated drinking water in 2022",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's drinking-water sheet says that, and it estimates about 505,000 diarrhoeal deaths a year from microbiologically contaminated drinking water.",
+  "body": "WHO's drinking-water fact sheet, dated 13 September 2023, says that in 2022 at least 1.7 billion people used a drinking-water source contaminated with faeces. It says microbial contamination from faeces poses the greatest risk to drinking-water safety, and that microbiologically contaminated drinking water can transmit diarrhoea, cholera, dysentery, typhoid, and polio and is estimated to cause approximately 505,000 diarrhoeal deaths each year. The 1.7 billion is a 2022 figure on the sheet. The 505,000 is the sheet's annual estimate, without a separate year in that sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Drinking-water",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/drinking-water",
+      "author": "World Health Organization",
+      "date": "2023-09-13",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.safe-water",
+    "world.core.health.sanitation"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "water"
+  ],
+  "read_time_min": 1
+}

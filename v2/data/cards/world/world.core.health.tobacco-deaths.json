@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.tobacco-deaths",
+  "title": "WHO: tobacco kills more than 7 million people a year, including 1.6 million who do not smoke",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's tobacco fact sheet says there is no safe level of exposure, and that more than 7 million deaths a year include over 1.6 million non-smokers exposed to second-hand smoke.",
+  "body": "WHO's tobacco fact sheet, dated 26 June 2026, says tobacco kills more than 7 million people each year, including over 1.6 million non-smokers who are exposed to second-hand smoke. It says all forms of tobacco use are harmful and there is no safe level of exposure. It says tobacco damages nearly every organ, causing cancer, heart disease, stroke, lung disease, reduced fertility, weakened immunity, and premature death. The death toll is the sheet's annual estimate. It is not tied to one calendar year in the key-facts line.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Tobacco",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/tobacco",
+      "author": "World Health Organization",
+      "date": "2026-06-26",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-06-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.tobacco-users",
+    "world.core.health.lung-cancer-deaths"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "tobacco"
+  ],
+  "read_time_min": 1
+}

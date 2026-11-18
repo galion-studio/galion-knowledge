@@ -1,0 +1,34 @@
+{
+  "id": "world.core.health.artemisinin",
+  "title": "The 2015 Nobel citation credits Tu Youyou with a malaria therapy",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The Nobel Foundation credits Tu Youyou for discoveries concerning a novel therapy against malaria. The same year's other citation is a therapy against roundworm.",
+  "body": "The Nobel Prize API record for 2015 gives Tu Youyou a motivation for her discoveries concerning a novel therapy against malaria. The same record gives William C. Campbell and Satoshi Ōmura a different motivation, for discoveries concerning a novel therapy against infections caused by roundworm parasites. The record dates the award 5 October 2015. Current malaria case estimates are on the WHO card. This card separates the two 2015 motivations and does not name a chemical the motivation sentence does not name.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 2015",
+      "url": "https://api.nobelprize.org/2.1/nobelPrize/med/2015",
+      "author": "Nobel Foundation",
+      "date": "2015-10-05",
+      "accessed": "2026-11-18",
+      "note": "Motivation text was read from the Nobel Prize API record."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Nobel Foundation",
+  "as_of_date": "2015-10-05",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.malaria-parasite",
+    "world.core.body.ross-malaria"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "malaria"
+  ],
+  "read_time_min": 1
+}

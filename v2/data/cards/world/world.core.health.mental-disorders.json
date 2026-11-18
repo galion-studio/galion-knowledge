@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.mental-disorders",
+  "title": "WHO: 1.2 billion people were living with a mental disorder in 2023",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's mental-disorders sheet says nearly 1 in 7 people, and it defines a mental disorder as a clinically significant disturbance in cognition, emotional regulation, or behaviour, using ICD-11.",
+  "body": "WHO's mental-disorders fact sheet, dated 11 September 2026, says that in 2023 nearly 1 in every 7 people, 1.2 billion, were living with a mental disorder, with anxiety and depressive disorders the most common. It says a mental disorder is characterized by a clinically significant disturbance in an individual's cognition, emotional regulation, or behaviour, usually associated with distress or impairment in important areas of functioning. It says the sheet focuses on mental disorders as described by the International Classification of Diseases, 11th revision. It says most people with mental disorders do not have access to effective care. The 1.2 billion is the sheet's 2023 estimate. It is not a count from one clinic.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Mental disorders",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+      "author": "World Health Organization",
+      "date": "2026-09-11",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2023",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.anxiety",
+    "world.core.health.death-registration"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "mental"
+  ],
+  "read_time_min": 1
+}

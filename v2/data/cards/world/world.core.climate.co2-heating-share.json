@@ -1,0 +1,33 @@
+{
+  "id": "world.core.climate.co2-heating-share",
+  "title": "NOAA: CO2 accounts for about 80 percent of human greenhouse heating since 1990",
+  "section": "world",
+  "category": "climate",
+  "summary": "NOAA's Global Monitoring Laboratory, as quoted by Climate.gov, attributes about 80 percent of the heating influence of human-produced greenhouse gases since 1990 to carbon dioxide alone.",
+  "body": "NOAA Climate.gov says that, according to observations and analysis by the NOAA Global Monitoring Laboratory, carbon dioxide alone is responsible for about 80 percent of the total heating influence of all human-produced greenhouse gases since 1990. The sentence is about heating influence since 1990, not about the share of molecules in the air.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Climate change: atmospheric carbon dioxide",
+      "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide",
+      "author": "NOAA Climate.gov",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA Climate.gov",
+  "as_of_date": "1990",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.co2-2024-noaa",
+    "world.core.climate.ipcc-radiative-forcing"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "carbon-dioxide"
+  ],
+  "read_time_min": 1
+}

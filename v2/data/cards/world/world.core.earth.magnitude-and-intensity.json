@@ -1,0 +1,33 @@
+{
+  "id": "world.core.earth.magnitude-and-intensity",
+  "title": "USGS: an earthquake has one magnitude and many intensities",
+  "section": "world",
+  "category": "earth",
+  "summary": "USGS says magnitude is a single size for the earthquake, while intensity is the shaking at each place and varies.",
+  "body": "The U.S. Geological Survey says magnitude is the size of the earthquake and that an earthquake has a single magnitude. It says the shaking has many values that vary from place to place with distance, the type of surface material, and other factors. Intensity is that shaking at each location. USGS says intensity depends mostly on distance from the fault rupture, and also on rupture direction and the surface geology. In the Loma Prieta example on the page, bedrock shook the least and soft mud the most, at stations about the same distance from the earthquake.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Earthquake Magnitude, Energy Release, and Shaking Intensity",
+      "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+      "author": "U.S. Geological Survey, Earthquake Hazards Program",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.moment-magnitude",
+    "world.core.earth.mercalli"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "earthquake"
+  ],
+  "read_time_min": 1
+}

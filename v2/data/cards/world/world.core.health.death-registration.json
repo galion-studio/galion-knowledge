@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.death-registration",
+  "title": "WHO: cause-of-death totals depend on registration, which is often incomplete",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The causes-of-death sheet says mortality data are still fragmented in many low-income countries, and it names ICD-11 as WHO's classification for causes.",
+  "body": "WHO's causes-of-death fact sheet says that knowing why people die is how priorities are set, and that accurate mortality data remain a major challenge, particularly in many low-income countries. It says data systems are often fragmented, incomplete, or inconsistent, so policy-makers may lack reliable information on how many people die, when, and of what. It says WHO develops standards through the International Classification of Diseases, 11th revision, a digital platform for reporting causes of death. The death totals on the companion cards are estimates built on that uneven registration. They are not a complete count of every death.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The top 10 causes of death",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death",
+      "author": "World Health Organization",
+      "date": "2026-10-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-10-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.deaths-2023"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "mortality",
+    "method"
+  ],
+  "read_time_min": 1
+}

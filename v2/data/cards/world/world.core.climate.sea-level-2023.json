@@ -1,0 +1,34 @@
+{
+  "id": "world.core.climate.sea-level-2023",
+  "title": "NOAA: 2023 global mean sea level was 101.4 mm above 1993",
+  "section": "world",
+  "category": "climate",
+  "summary": "The same NOAA article says the 2023 global mean was 101.4 millimeters above 1993, the highest annual average in its satellite record.",
+  "body": "The NOAA Climate.gov sea-level article says that in 2023, global mean sea level was 101.4 millimeters, or 3.99 inches, above 1993 levels, and that this was the highest annual average in the satellite record, which it dates from 1993 to the present of that article. It also says that in some ocean basins sea level has risen as much as 6 to 8 inches, or 15 to 20 centimeters, since the start of that satellite record, and that regional differences come from winds and currents and from where the ocean stores heat. The 101.4 millimeter figure is the global mean the article states, not a local tide-gauge reading.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Climate Change: Global Sea Level",
+      "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level",
+      "author": "Rebecca Lindsey, NOAA Climate.gov",
+      "date": "2023-08-22",
+      "accessed": "2026-11-18",
+      "note": "Published August 22, 2023. The Climate.gov copy fetched on 2026-11-18 carried an archive notice dated June 25, 2025."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Rebecca Lindsey, NOAA Climate.gov",
+  "as_of_date": "2023",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.climate.sea-level-1880",
+    "world.core.climate.sea-level-rate"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "sea-level"
+  ],
+  "read_time_min": 1
+}

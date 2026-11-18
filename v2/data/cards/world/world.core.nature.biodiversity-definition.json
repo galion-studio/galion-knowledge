@@ -1,0 +1,33 @@
+{
+  "id": "world.core.nature.biodiversity-definition",
+  "title": "The Convention on Biological Diversity defines biological diversity",
+  "section": "world",
+  "category": "nature",
+  "summary": "Article 2 defines biological diversity as variability among living organisms from all sources, within species, between species, and of ecosystems.",
+  "body": "Article 2 of the Convention on Biological Diversity, on the convention's own text page, says that for the purposes of the convention, biological diversity means the variability among living organisms from all sources including terrestrial, marine, and other aquatic ecosystems and the ecological complexes of which they are part. It says this includes diversity within species, between species, and of ecosystems. That is a treaty definition. It is not a count of species.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Convention on Biological Diversity, Article 2. Use of Terms",
+      "url": "https://www.cbd.int/convention/articles/?a=cbd-02",
+      "author": "Convention on Biological Diversity",
+      "date": "2006",
+      "accessed": "2026-11-18",
+      "note": "The page stamp read 11.2.2006. The article text was on the page. A year of adoption was not in the Article 2 text that loaded."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Convention on Biological Diversity",
+  "as_of_date": "2006",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.nature.planetary-boundaries"
+  ],
+  "tags": [
+    "core-pack",
+    "nature",
+    "biodiversity"
+  ],
+  "read_time_min": 1
+}

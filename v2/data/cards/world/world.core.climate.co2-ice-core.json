@@ -1,0 +1,33 @@
+{
+  "id": "world.core.climate.co2-ice-core",
+  "title": "NOAA: ice-core CO2 stayed at or below 300 ppm for the last 800,000 years",
+  "section": "world",
+  "category": "climate",
+  "summary": "The same NOAA article says CO2 did not get above 300 ppm in the ice-age cycles of the past million years or so, and that an 800,000-year ice-core series never shows it higher than 300 ppm.",
+  "body": "NOAA Climate.gov says that during the ice-age cycles of the past million years or so, atmospheric carbon dioxide did not get any higher than 300 parts per million. The same article's caption for an 800,000-year ice-core series says that throughout that time CO2 was never higher than 300 ppm. The article states both the \"million years or so\" sentence and the 800,000-year series. This card does not choose a different ceiling.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Climate change: atmospheric carbon dioxide",
+      "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide",
+      "author": "NOAA Climate.gov",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA Climate.gov",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.climate.co2-preindustrial",
+    "world.core.climate.ipcc-co2-two-million-years"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "carbon-dioxide"
+  ],
+  "read_time_min": 1
+}

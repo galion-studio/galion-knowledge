@@ -1,0 +1,33 @@
+{
+  "id": "world.core.earth.mean-depth",
+  "title": "NOAA: average ocean depth 3,682 meters, from a 2010 satellite estimate",
+  "section": "world",
+  "category": "earth",
+  "summary": "NOAA Ocean Exploration says the average depth is 3,682 meters, calculated in 2010, and that the seafloor is not flat.",
+  "body": "NOAA Ocean Exploration's page \"How deep is the ocean?\" says the average depth of the ocean is 3,682 meters, or 12,080 feet. It says this most recent estimate of that average was calculated in 2010 by scientists from NOAA and the Woods Hole Oceanographic Institution using satellite measurements, and that those measurements showed the seafloor is much bumpier and more mountainous than previously known, so the average came out smaller than earlier calculations. The page also says that searching online can turn up a range of depths, because the ocean is hard to study. The 3,682 meter figure is the estimate the page attributes to that 2010 work.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How deep is the ocean?",
+      "url": "https://oceanexplorer.noaa.gov/facts/ocean-depth.html",
+      "author": "NOAA Ocean Exploration",
+      "date": "n.d.",
+      "accessed": "2026-11-18",
+      "note": "The page says the 3,682 meter average was calculated in 2010 by NOAA and Woods Hole Oceanographic Institution."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA Ocean Exploration",
+  "as_of_date": "2010",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.challenger-deep"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "ocean"
+  ],
+  "read_time_min": 1
+}

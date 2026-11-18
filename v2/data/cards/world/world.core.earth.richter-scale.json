@@ -1,0 +1,32 @@
+{
+  "id": "world.core.earth.richter-scale",
+  "title": "USGS: the Richter scale is now mainly for small local earthquakes",
+  "section": "world",
+  "category": "earth",
+  "summary": "USGS says the Richter scale is what most people have heard of, and that moment magnitude is the measure it uses for earthquakes that are not small and local.",
+  "body": "The U.S. Geological Survey says the Richter scale is what most people have heard of, but that in practice it is not commonly used anymore except for small earthquakes recorded locally, for which local magnitude and a short-period surface-wave magnitude are the only magnitudes that can be measured. For all other earthquakes, USGS says moment magnitude is a more accurate measure of size. It dates the original idea to Charles F. Richter in 1935 and says his original definition held for California earthquakes within 600 kilometers of a Woods-Anderson seismograph. This is a statement about which scale USGS uses, not a claim that the 1935 definition was wrong for the instruments it named.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Earthquake Magnitude, Energy Release, and Shaking Intensity",
+      "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+      "author": "U.S. Geological Survey, Earthquake Hazards Program",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.moment-magnitude"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "earthquake"
+  ],
+  "read_time_min": 1
+}

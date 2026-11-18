@@ -1,0 +1,33 @@
+{
+  "id": "world.core.earth.challenger-deep",
+  "title": "NOAA: Challenger Deep is 10,935 meters deep",
+  "section": "world",
+  "category": "earth",
+  "summary": "The same NOAA page says the deepest place it states is 10,935 meters, in the Mariana Trench at Challenger Deep.",
+  "body": "NOAA Ocean Exploration says the deepest place in the ocean measures 10,935 meters, or 35,876 feet, in the Pacific Ocean's Mariana Trench at a place called Challenger Deep. The page says the bottom is not flat, so depth varies. This is the depth that page states, not a claim that every later survey prints the same meter.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How deep is the ocean?",
+      "url": "https://oceanexplorer.noaa.gov/facts/ocean-depth.html",
+      "author": "NOAA Ocean Exploration",
+      "date": "n.d.",
+      "accessed": "2026-11-18",
+      "note": "The page says the 3,682 meter average was calculated in 2010 by NOAA and Woods Hole Oceanographic Institution."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA Ocean Exploration",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.mean-depth"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "ocean"
+  ],
+  "read_time_min": 1
+}

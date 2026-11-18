@@ -1,0 +1,32 @@
+{
+  "id": "world.core.earth.magnitude-energy",
+  "title": "USGS: one magnitude unit is about ten times the amplitude and about 32 times the energy",
+  "section": "world",
+  "category": "earth",
+  "summary": "USGS says each whole-number step in magnitude is a tenfold step in seismogram amplitude and about 32 times more energy release.",
+  "body": "The U.S. Geological Survey says that because the scale is logarithmic, each whole-number increase in magnitude represents a tenfold increase in measured amplitude on a seismogram, and about 32 times more energy release. It also gives an estimate relating energy to moment magnitude: log E = 5.24 + 1.44 times Mw. It says energy magnitude and moment magnitude measure different properties, so their values are not the same. The 32-times figure and the equation are both on the page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Earthquake Magnitude, Energy Release, and Shaking Intensity",
+      "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+      "author": "U.S. Geological Survey, Earthquake Hazards Program",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.moment-magnitude"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "earthquake"
+  ],
+  "read_time_min": 1
+}

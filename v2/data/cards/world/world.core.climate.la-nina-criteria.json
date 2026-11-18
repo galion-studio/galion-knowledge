@@ -1,0 +1,34 @@
+{
+  "id": "world.core.climate.la-nina-criteria",
+  "title": "NOAA's La Niña threshold is 0.5°C cooler in the Niño-3.4 region",
+  "section": "world",
+  "category": "climate",
+  "summary": "The same page sets La Niña at an average Niño-3.4 anomaly of at least 0.5°C cooler, for five overlapping seasons, with the atmospheric changes it lists.",
+  "body": "NOAA's ENSO page states La Niña criteria in parallel with El Niño. Average sea-surface temperatures in the same Niño-3.4 region were at least 0.5 degrees Celsius cooler than average in the preceding month, an average anomaly of at least minus 0.5 degrees Celsius has persisted or is expected to persist for five consecutive overlapping three-month periods, and the atmosphere shows changes the page associates with La Niña, including stronger than usual easterly trade winds. The page's criteria are a definition used by NOAA's alert system. They are not a claim about whether a particular month met them.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "El Niño and La Niña (El Niño-Southern Oscillation)",
+      "url": "https://www.climate.gov/enso",
+      "author": "NOAA Climate.gov",
+      "date": "n.d.",
+      "accessed": "2026-11-18",
+      "note": "The fetched copy is marked as an archived Climate.gov page as of June 25, 2025. The criteria text was on that page."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA Climate.gov",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.climate.enso",
+    "world.core.climate.el-nino-criteria"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "enso"
+  ],
+  "read_time_min": 1
+}

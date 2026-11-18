@@ -1,0 +1,32 @@
+{
+  "id": "world.core.health.anxiety",
+  "title": "WHO: 470 million people were living with an anxiety disorder in 2023",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The mental-disorders sheet says that total included 146 million children and adolescents.",
+  "body": "WHO's mental-disorders fact sheet says that in 2023, 470 million people were living with an anxiety disorder, including 146 million children and adolescents. It says anxiety disorders are characterized by excessive fear and worry and related behavioural disturbances, with symptoms severe enough to result in significant distress or significant impairment. The 470 million is the sheet's 2023 figure for that group of disorders.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Mental disorders",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+      "author": "World Health Organization",
+      "date": "2026-09-11",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2023",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.mental-disorders"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "mental"
+  ],
+  "read_time_min": 1
+}

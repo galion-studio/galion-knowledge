@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.tb-infection",
+  "title": "WHO: about a quarter of people have been infected with TB bacteria, and about 5 to 10 percent develop disease",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO says TB is caused by bacteria that usually affect the lungs, spreads through the air, and that infection and disease are not the same.",
+  "body": "WHO's tuberculosis fact sheet says tuberculosis is an infectious disease caused by bacteria that most often affect the lungs, and that it spreads through the air when people with TB cough, sneeze, or spit. It says about a quarter of the global population is estimated to have been infected. It says people with TB infection generally do not feel sick and are not contagious, and that about 5 to 10 percent of people infected will eventually develop symptoms and TB disease. It says babies and children are at higher risk of developing disease if infected. It says TB is preventable and curable, and that the BCG vaccine is given in certain countries to babies or small children to prevent deaths and serious forms of TB. The quarter and the 5 to 10 percent are the sheet's estimates, not a count of named patients.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Tuberculosis",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+      "author": "World Health Organization",
+      "date": "2026-11-12",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-11-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.tb-burden",
+    "world.who-vaccination"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "tuberculosis"
+  ],
+  "read_time_min": 1
+}

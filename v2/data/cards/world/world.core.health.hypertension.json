@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.hypertension",
+  "title": "WHO: 1.4 billion adults aged 30 to 79 had hypertension in 2024",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's hypertension sheet says that was 33 percent of that age range, that 44 percent were unaware, and that 23 percent had it under control.",
+  "body": "WHO's hypertension fact sheet, dated 25 September 2025, says an estimated 1.4 billion adults aged 30 to 79 had hypertension in 2024, 33 percent of the population in that age range. It says two-thirds of adults that age who have hypertension live in low- and middle-income countries. It says an estimated 600 million adults with hypertension, 44 percent, are unaware; about 630 million, 44 percent, are diagnosed and treated; and about 320 million, 23 percent, have it under control. It says hypertension is a major cause of premature death. The percentages are the ones the sheet prints. This card does not force them to add to 100, because \"controlled\" is not stated as a separate remainder from \"treated.\"\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Hypertension",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/hypertension",
+      "author": "World Health Organization",
+      "date": "2025-09-25",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2024",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.heart-attack",
+    "world.core.health.cvd-deaths"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "hypertension"
+  ],
+  "read_time_min": 1
+}
