@@ -1,0 +1,34 @@
+{
+  "id": "world.history.columbus-1492-privileges",
+  "title": "The 1492 privileges name Columbus admiral and governor of islands he may discover",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1492 capitulations grant Columbus privileges for lands he might discover.",
+  "body": "Avalon prints the 30 April 1492 grant of privileges by the Catholic Monarchs to Christopher Columbus for islands and mainlands he might discover. The document is a contract about titles, trade, and authority. It is not Columbus's later letter describing the people he met. The wording on the page includes: \"21st Century 2000 - Privileges and Prerogatives Granted by Their Catholic Majesties to Christopher Columbus : 1492 FERDINAND and ELIZABETH, by the Grace of God, King and Queen of Castile, of Leon, of Arragon, of Sicily, of Granada, of Toledo, of Valencia, of Galicia, of Majorca, of Minorca, of Sevil, of Sardinia, of Jaen, of Algarve, of Algezira, of Gibraltar, of\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Privileges and prerogatives granted to Christopher Columbus, 30 April 1492",
+      "url": "https://avalon.law.yale.edu/15th_century/colum.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1492-04-30",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Capitulations of 30 April 1492, Avalon Project",
+  "as_of_date": "1492",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.columbus-letter-1493",
+    "world.history.tordesillas-line"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "early-modern",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

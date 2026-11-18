@@ -1,0 +1,33 @@
+{
+  "id": "world.history.sennacherib-accounts",
+  "title": "Fordham collects ancient accounts of Sennacherib's campaign",
+  "section": "world",
+  "category": "history",
+  "summary": "Fordham gathers more than one ancient account of Sennacherib's campaign against Judah.",
+  "body": "Fordham's page gathers ancient accounts of Sennacherib's campaign, including the Assyrian king's own inscription tradition and the biblical account of Hezekiah's Jerusalem. The page is a dossier of differing ancient tellings, not a single official total of the dead. The wording on the page includes: \"Assyrian camp. Early the next morning, there they were, all the corpses of the dead. So Sennacherib, the king of Assyria, broke camp and went back home to Nineveh. When he was worshiping in the temple of his god Nisroch, his sons Adram-melech and Sharezer slew him with the sword and fled into the land of Ararat. 2 Chronicles 32 But after he had proved his\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Accounts of the Campaign of Sennacherib",
+      "url": "https://sourcebooks.fordham.edu/ancient/701sennach.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "701 BCE campaign",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Fordham ancient sourcebook page of accounts of Sennacherib",
+  "as_of_date": "-701",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.persian-law-accounts"
+  ],
+  "tags": [
+    "history",
+    "near-east",
+    "ancient",
+    "primary-dossier"
+  ],
+  "read_time_min": 1
+}

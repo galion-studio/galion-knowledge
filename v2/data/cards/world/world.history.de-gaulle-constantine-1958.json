@@ -1,0 +1,31 @@
+{
+  "id": "world.history.de-gaulle-constantine-1958",
+  "title": "De Gaulle's Constantine speech says Algerians gave France a vote of confidence",
+  "section": "world",
+  "category": "history",
+  "summary": "At Constantine in 1958 de Gaulle says Algerians gave France a vote of confidence.",
+  "body": "De Gaulle's 3 October 1958 speech at Constantine says three and a half million men and women of Algeria gave France and himself their vote of confidence. The speech is the French president's account of a referendum. It is not the FLN's account of the same vote. The wording on the page includes: \"without distinction of community, in complete equality, gave France and myself their vote of confidence. They did this quite simply without any constraint and in spite of the threats that certain fanatics brought to bear against them, their families and their property. This is a fact, as clear as the bright light of clay. And this fact is fundamental not only\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Speech at Constantine",
+      "url": "https://sourcebooks.fordham.edu/halsall/mod/1958degaulle-algeria1.asp",
+      "author": "Charles de Gaulle, Fordham text",
+      "date": "1958-10-03",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Charles de Gaulle, Fordham text",
+  "as_of_date": "1958",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "history",
+    "africa",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

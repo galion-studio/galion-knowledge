@@ -1,0 +1,33 @@
+{
+  "id": "world.history.warsaw-pact-article-4",
+  "title": "The Warsaw Pact's article on armed attack is a collective-defense clause for Europe",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1955 Warsaw Pact requires assistance if a party is attacked in Europe.",
+  "body": "The Warsaw Treaty says that in the event of an armed attack in Europe on one or more of the parties, each shall come to the assistance. The clause mirrors, and opposes, the North Atlantic formula. Both are treaty texts. Neither describes what soldiers later did. The wording on the page includes: \"in order to ensure joint defence and the maintenance of peace and security. Article 4 In the event of armed attack in Europe on one or more of the Parties to the Treaty by any state or group of states, each of the Parties to the Treaty, in the exercise of its right to individual or collective self-defence in accordance with Article 51 of the Charter of the United Nations\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Warsaw Security Pact, 14 May 1955",
+      "url": "https://avalon.law.yale.edu/20th_century/warsaw.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1955-05-14",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Warsaw Treaty, Avalon Project",
+  "as_of_date": "1955",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.nato-article-5"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.history.biological-weapons-1972",
+  "title": "Avalon prints the 1972 convention on biological and toxin weapons",
+  "section": "world",
+  "category": "history",
+  "summary": "Avalon prints the 1972 convention prohibiting biological and toxin weapons and requiring their destruction.",
+  "body": "Avalon prints the 1972 convention on the prohibition of the development, production, and stockpiling of bacteriological and toxin weapons and on their destruction. The page is the convention text. It is not an inspection report. The wording on the page includes: \"2000 - Convention on the Prohibition of the Development, Production and Stockpiling of Bacteriological (Biological) and Toxin Weapons and on Their Destruction (1972) TIAS 8062 ENTRY INTO FORCE: 26 March 1975 The States Parties to this Convention, Determine to act with a view to achieving effective progress toward general and complete disarmament, including the prohibition and elimination\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Convention on biological and toxin weapons",
+      "url": "https://avalon.law.yale.edu/20th_century/bact.asp",
+      "author": "Biological Weapons Convention, Avalon Project",
+      "date": "1972",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Biological Weapons Convention, Avalon Project",
+  "as_of_date": "1972",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.antarctic-peaceful"
+  ],
+  "tags": [
+    "history",
+    "global",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

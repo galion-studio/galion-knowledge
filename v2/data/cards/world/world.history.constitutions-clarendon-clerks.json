@@ -1,0 +1,33 @@
+{
+  "id": "world.history.constitutions-clarendon-clerks",
+  "title": "The Constitutions of Clarendon send disputes of laymen, and of clerks with laymen, to the king's court",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1164 Constitutions of Clarendon place disputes involving clerks in the king's court.",
+  "body": "The Constitutions of Clarendon say that a dispute between laymen, or between laymen and clerks, or between clerks, shall be treated and ended in the court of the lord king. The clause is Henry II's claim over jurisdiction. Becket's resistance is not in this sentence. The wording on the page includes: \"a controversy concerning advowson and presentation of churches arise between laymen, or between laymen and clerks, or between clerks, it shall be treated of and terminated in the court of the lord king. 2. Churches of the fee of the lord king cannot, unto all time, be given without his assent and concession. 3. Clerks charged and accused of anything, being summoned by\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitutions of Clarendon, 1164",
+      "url": "https://avalon.law.yale.edu/medieval/constcla.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1164",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Constitutions of Clarendon, Avalon Project English",
+  "as_of_date": "1164",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.assize-clarendon-twelve"
+  ],
+  "tags": [
+    "history",
+    "england",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.history.franco-german-armistice-1940",
+  "title": "The Franco-German armistice of 22-25 June 1940 ends the Battle of France on German terms",
+  "section": "world",
+  "category": "history",
+  "summary": "The June 1940 Franco-German armistice is the instrument that halted the Battle of France.",
+  "body": "Avalon prints the Franco-German armistice of June 1940. It is the instrument that stopped fighting between Germany and the French government of that moment. It is not a peace treaty and not the 1944-45 liberation. The wording on the page includes: \"German summer time. HUNTZIGER KEITEL APPENDIX The line mentioned in Article II of the armistice agreement begins in the east on the French-Swiss border at Geneva and runs thence nearly over the villages of Dôle, Paray, Le Monial, and Bourges to approximately twenty kilometers east of Tours. From there it goes at a distance of twenty kilometers east of\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Franco-German armistice, 25 June 1940",
+      "url": "https://avalon.law.yale.edu/wwii/frgearm.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1940-06-25",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "France and Germany, Avalon Project",
+  "as_of_date": "1940",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.german-surrender-authority"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

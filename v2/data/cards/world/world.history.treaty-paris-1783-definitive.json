@@ -1,0 +1,34 @@
+{
+  "id": "world.history.treaty-paris-1783-definitive",
+  "title": "The definitive Treaty of Paris of 1783 is a separate instrument from the preliminary articles",
+  "section": "world",
+  "category": "history",
+  "summary": "Avalon prints the definitive 1783 peace as its own instrument, after the 1782 preliminaries.",
+  "body": "Avalon prints a text it titles The Definitive Treaty of Peace 1783, in the name of the Trinity, between George III and the United States. It is the final peace, distinct from the November 1782 preliminary articles and from the 1763 Treaty of Paris that ceded Canada. The wording on the page includes: \"Jefferson's Autobiography Art 1 Art 2 Art 3 Art 4 Art 5 Art 6 Art 7 Art 8 Art 9 Art 10 The Definitive Treaty of Peace 1783 In the name of the most holy and undivided Trinity. It having pleased the Divine Providence to dispose the hearts of the most serene and most potent Prince George the Third, by the grace of God, king of Great Britain, France, and Ireland, defender of the\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Definitive Treaty of Peace, 1783",
+      "url": "https://avalon.law.yale.edu/18th_century/paris.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1783-09-03",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Definitive Treaty of Peace, Avalon Project",
+  "as_of_date": "1783",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.preliminary-peace-1782",
+    "world.history.paris-1763-canada"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "eighteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

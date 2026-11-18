@@ -1,0 +1,36 @@
+{
+  "id": "world.history.proclamation-1763-indian-lands",
+  "title": "The 1763 Proclamation reserves unceded lands to the Indian nations under royal protection",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1763 Proclamation reserves unceded lands to Indian nations and forbids molesting them there.",
+  "body": "The Royal Proclamation of 1763 says the Indian nations under royal protection should not be molested in the possession of such parts of the dominions as have not been ceded to or purchased by the crown and are reserved to them. The proclamation is a royal order about land. Later settlers and later statutes did not all follow it. The wording on the page includes: \"or Tribes of Indians with whom We are connected, and who live under our Protection, should not be molested or disturbed in the Possession of such Parts of Our Dominions and Territories as, not having been ceded to or purchased by Us, are reserved to them. or any of them, as their Hunting Grounds.--We do therefore, with the Advice of our Privy Council, declare it to be our Royal Will and\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Royal Proclamation, 7 October 1763",
+      "url": "https://avalon.law.yale.edu/18th_century/proc1763.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1763-10-07",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Royal Proclamation of 7 October 1763, Avalon Project",
+  "as_of_date": "1763",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.paris-1763-canada",
+    "world.history.greenville-1795",
+    "world.history.fort-laramie-1868-bad-men"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "indigenous",
+    "eighteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

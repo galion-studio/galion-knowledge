@@ -1,0 +1,35 @@
+{
+  "id": "world.history.german-war-declaration-1941",
+  "title": "Germany declared war on the United States on 11 December 1941",
+  "section": "world",
+  "category": "history",
+  "summary": "German diplomats delivered a declaration of war at the State Department on the morning of 11 December 1941.",
+  "body": "Avalon's page records that the German charge d'affaires called at the State Department at 8:00 a.m. on 11 December 1941 with the declaration. The page is the diplomatic record of that delivery. It is distinct from the Japanese attack at Pearl Harbor four days earlier. The wording on the page includes: \"Century 2000 - German Declaration of War with the United States : December 11, 1941 December 11, 1941 (Including the circumstances of the delivery of the note as released to the press by the Department of State, December 11, 1941.) The German Charge d'Affaires, Dr. Hans Thomsen, and the First Secretary of the German Embassy, Mr. von Strempel, called at the\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "German declaration of war, 11 December 1941",
+      "url": "https://avalon.law.yale.edu/wwii/gerdec41.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1941-12-11",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "German embassy note, Avalon Project",
+  "as_of_date": "1941",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.pearl-harbor-1941",
+    "world.history.tripartite-1940"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "americas",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

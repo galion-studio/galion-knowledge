@@ -1,0 +1,33 @@
+{
+  "id": "world.religion.rsv-beatitudes",
+  "title": "The RSV beatitudes call the poor in spirit blessed",
+  "section": "world",
+  "category": "religion",
+  "summary": "The RSV of Matthew 5 blesses the poor in spirit.",
+  "body": "The Revised Standard Version of Matthew 5 begins the beatitudes with a blessing on the poor in spirit. The lines are presented as Jesus' teaching on a mountain. A different Gospel and a different translation will not use the same English. The wording on the page includes: \"down his disciples came to him. 2 And he opened his mouth and taught them, saying: 3 “Blessed are the poor in spirit, for theirs is the kingdom of heaven. 4 “Blessed are those who mourn, for they shall be comforted. 5 “Blessed are the meek, for they shall inherit the earth. 6 “Blessed are those who hunger and thirst for righteousness, for they shall be\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Matthew 5:1-12 (RSV)",
+      "url": "https://www.biblegateway.com/passage/?search=Matthew+5%3A1-12&version=RSV",
+      "author": "Revised Standard Version, via Bible Gateway",
+      "date": "RSV translation; Gospel of Matthew",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Matthew 5:1-12, Revised Standard Version",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.rsv-good-samaritan"
+  ],
+  "tags": [
+    "religion",
+    "christianity",
+    "scripture",
+    "gospels"
+  ],
+  "read_time_min": 1
+}

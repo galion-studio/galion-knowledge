@@ -1,0 +1,31 @@
+{
+  "id": "world.history.tashkent-1966",
+  "title": "The Tashkent declaration records a meeting of the prime minister of India and the president of Pakistan",
+  "section": "world",
+  "category": "history",
+  "summary": "On 10 January 1966 the leaders of India and Pakistan recorded a meeting at Tashkent.",
+  "body": "The Tashkent declaration of 10 January 1966, as Fordham prints it, says the prime minister of India and the president of Pakistan met at Tashkent and discussed relations. The declaration is a joint text after the 1965 war. It does not settle the status of Jammu and Kashmir by itself. The wording on the page includes: \"Conference, January 10, 1966 The Prime Minister of India and the President of Pakistan, having met at Tashkent and having discussed the relations existing between India and Pakistan, hereby declare their firm resolve to restore normal peaceful relations between their countries and to promote understanding and friendly relations between their peoples. They, consider\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Tashkent Declaration",
+      "url": "https://sourcebooks.fordham.edu/halsall/mod/1966kashmir1.asp",
+      "author": "India and Pakistan, Fordham text",
+      "date": "1966-01-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "India and Pakistan, Fordham text",
+  "as_of_date": "1966",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "history",
+    "south-asia",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

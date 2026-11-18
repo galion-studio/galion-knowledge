@@ -1,0 +1,35 @@
+{
+  "id": "world.history.cairo-korea",
+  "title": "The Cairo declaration says the three allies are determined that Korea shall become free and independent",
+  "section": "world",
+  "category": "history",
+  "summary": "At Cairo in 1943 the allies say Korea shall in due course become free and independent.",
+  "body": "The Cairo declaration says the three allies, mindful of the enslavement of the people of Korea, are determined that in due course Korea shall become free and independent. The phrase 'in due course' is in the text. The declaration does not set a date. The wording on the page includes: \"mindful of the enslavement of the people of Korea, are determined that in due course Korea shall become free and independent. With these objects in view the three Allies, in harmony with those of the United Nations at war with Japan, will continue to persevere in the serious and prolonged operations necessary to procure the unconditional surrender of Japan. World War II Page\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Cairo Declaration, 1 December 1943",
+      "url": "https://avalon.law.yale.edu/wwii/cairo.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1943-12-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States, China, and Britain, Avalon Project",
+  "as_of_date": "1943",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.korea-gromyko-1950",
+    "world.history.korea-un-commission"
+  ],
+  "tags": [
+    "history",
+    "korea",
+    "east-asia",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

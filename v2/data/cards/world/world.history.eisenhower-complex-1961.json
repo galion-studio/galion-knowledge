@@ -1,0 +1,33 @@
+{
+  "id": "world.history.eisenhower-complex-1961",
+  "title": "Eisenhower's 1961 farewell names a military-industrial complex",
+  "section": "world",
+  "category": "history",
+  "summary": "Eisenhower's 1961 farewell, as Avalon prints it, uses the phrase military-industrial complex.",
+  "body": "Avalon prints Eisenhower's 1961 farewell under the title of the military-industrial complex speech. The phrase is in the address as published on that page. The speech is a warning from a departing president, not a statute creating or abolishing any industry. The wording on the page includes: \"1700 - 1799 19th Century 1800 - 1899 20th Century 1900 - 1999 21st Century 2000 - Military-Industrial Complex Speech, Dwight D. Eisenhower, 1961 My fellow Americans: Three days from now, after half a century in the service of our country, I shall lay down the responsibilities of office as, in traditional and solemn ceremony, the authority of the Presidency is\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Military-Industrial Complex Speech, 1961",
+      "url": "https://avalon.law.yale.edu/20th_century/eisenhower001.asp",
+      "author": "Dwight D. Eisenhower, Avalon Project",
+      "date": "1961-01-17",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dwight D. Eisenhower, Avalon Project",
+  "as_of_date": "1961",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.farewell-1796-foreign"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

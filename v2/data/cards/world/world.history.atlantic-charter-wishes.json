@@ -1,0 +1,34 @@
+{
+  "id": "world.history.atlantic-charter-wishes",
+  "title": "The Atlantic Charter says the two leaders want no territorial changes against the wishes of the peoples concerned",
+  "section": "world",
+  "category": "history",
+  "summary": "The Atlantic Charter opposes territorial changes that the peoples concerned have not freely accepted.",
+  "body": "The Atlantic Charter's second point says the United States and Britain desire to see no territorial changes that do not accord with the freely expressed wishes of the peoples concerned. The charter is a joint statement, not a treaty of cession. Later settlements, including Poland's border at Potsdam, have to be read as their own documents. The wording on the page includes: \"countries seek no aggrandizement, territorial or other; Second, they desire to see no territorial changes that do not accord with the freely expressed wishes of the peoples concerned; Third, they respect the right of all peoples to choose the form of government under which they will live; and they wish to see sovereign rights and self government restored to those who have been forcibly deprived of them; Fourth, they will endeavor, with\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Atlantic Charter, 14 August 1941",
+      "url": "https://avalon.law.yale.edu/wwii/atlantic.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1941-08-14",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Franklin Roosevelt and Winston Churchill, Avalon Project",
+  "as_of_date": "1941",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.yalta-poland",
+    "world.history.potsdam-oder-neisse"
+  ],
+  "tags": [
+    "history",
+    "global",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

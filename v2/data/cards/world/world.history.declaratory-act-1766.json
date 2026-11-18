@@ -1,0 +1,35 @@
+{
+  "id": "world.history.declaratory-act-1766",
+  "title": "The Declaratory Act says Parliament can bind the colonies in all cases whatsoever",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1766 Declaratory Act claims power to bind the American colonies in all cases whatsoever.",
+  "body": "The Declaratory Act says the king and Parliament had, and of right ought to have, full power to bind the colonies and people of America, subjects of the crown, in all cases whatsoever. The act accompanied the repeal of the Stamp Act. It states a claim of power. It does not record colonial consent. The wording on the page includes: \"full power and authority to make laws and statutes of sufficient force and validity to bind the colonies and people of America, subjects of the crown of Great Britain, in all cases whatsoever, II. And be it further declared and enacted by the authority aforesaid, That all resolutions, votes, orders, and proceedings, in any of the said colonies or plantations, whereby the power and\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Declaratory Act, 18 March 1766",
+      "url": "https://avalon.law.yale.edu/18th_century/declaratory_act_1766.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1766-03-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Declaratory Act, Avalon Project",
+  "as_of_date": "1766",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.stamp-act-title",
+    "world.history.declaration-causes-1775"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "britain",
+    "eighteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

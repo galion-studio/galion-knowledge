@@ -1,0 +1,35 @@
+{
+  "id": "world.history.crittenden-36-30",
+  "title": "The Crittenden compromise would have barred slavery north of 36 degrees 30 minutes and recognized it south of that line",
+  "section": "world",
+  "category": "history",
+  "summary": "Crittenden's 1860 proposal would ban slavery north of 36°30' and recognize it to the south.",
+  "body": "Crittenden's proposed amendments say that in territory north of latitude 36 degrees 30 minutes, slavery is prohibited while it remains territorial, and in territory south of that line slavery of the African race is recognized. The text is an unadopted proposal from December 1860. It is not the Thirteenth Amendment. The wording on the page includes: \"I. In all the territory of the United States now held, or hereafter acquired, situated north of latitude 36° 30', slavery or involuntary servitude, except as a punishment for crime, is prohibited while such territory shall remain under territorial government. In all the territory south of said line of latitude, slavery of the African race is hereby recognized as\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Amendments proposed by Senator Crittenden, 18 December 1860",
+      "url": "https://avalon.law.yale.edu/19th_century/critten.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1860-12-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "John J. Crittenden, proposed amendments, Avalon Project",
+  "as_of_date": "1860",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.kansas-nebraska-act",
+    "world.thirteenth-amendment"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "slavery",
+    "nineteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

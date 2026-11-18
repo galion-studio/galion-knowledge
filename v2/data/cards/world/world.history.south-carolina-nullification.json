@@ -1,0 +1,33 @@
+{
+  "id": "world.history.south-carolina-nullification",
+  "title": "South Carolina's 1832 ordinance declares the federal tariffs null",
+  "section": "world",
+  "category": "history",
+  "summary": "South Carolina's 1832 ordinance declares the federal tariff acts null in that state.",
+  "body": "Avalon prints South Carolina's ordinance of nullification of 24 November 1832, in which a state convention declares the federal tariff acts void within the state. The ordinance is the state's claim. Jackson's proclamation is the president's reply, on another page. The wording on the page includes: \"1800 - 1899 20th Century 1900 - 1999 21st Century 2000 - South Carolina Ordinance of Nullification, November 24, 1832 An ordinance to nullify certain acts of the Congress of the United States, purporting to be laws laying duties and imposts on the importation of foreign commodities. Whereas the Congress of the United States by various acts, purporting to\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "South Carolina Ordinance of Nullification, 24 November 1832",
+      "url": "https://avalon.law.yale.edu/19th_century/ordnull.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1832-11-24",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "South Carolina convention, Avalon Project",
+  "as_of_date": "1832",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.jackson-nullification-proclamation"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "nineteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

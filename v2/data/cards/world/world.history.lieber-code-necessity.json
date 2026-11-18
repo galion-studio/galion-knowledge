@@ -1,0 +1,34 @@
+{
+  "id": "world.history.lieber-code-necessity",
+  "title": "The Lieber code defines military necessity as a limit on armies, not a blank permission",
+  "section": "world",
+  "category": "history",
+  "summary": "Lieber's 1863 code instructs Union armies on military necessity, martial law, and retaliation.",
+  "body": "The Lieber code, issued as instructions for Union armies on 24 April 1863, organizes its first section around martial law, military jurisdiction, military necessity, and retaliation. It is a government instruction to armies. It is not the later Hague or Geneva conventions. The wording on the page includes: \"of a district. It admits of deception, but disclaims acts of perfidy; and, in general, military necessity does not include any act of hostility which makes the return to peace unnecessarily difficult. Art. 17. War is not carried on by arms alone. It is lawful to starve the hostile belligerent, armed or unarmed, so that it leads to the speedier subjection of the\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Instructions for the Government of Armies of the United States in the Field, 24 April 1863",
+      "url": "https://avalon.law.yale.edu/19th_century/lieber.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1863-04-24",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Francis Lieber, General Orders No. 100, Avalon Project",
+  "as_of_date": "1863",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.gettysburg-address"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "nineteenth",
+    "war",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

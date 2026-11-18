@@ -1,0 +1,34 @@
+{
+  "id": "world.history.entente-cordiale-egypt",
+  "title": "The 1904 Entente declaration says Britain does not intend to alter the political status of Egypt",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1904 Entente says Britain does not intend to change Egypt's political status.",
+  "body": "Article 1 of the 1904 Franco-British declaration says His Britannic Majesty's government has no intention of altering the political status of Egypt. The declaration pairs Egypt with Morocco. It is a bargain between two empires about lands neither of them asked in this article to decolonize. The wording on the page includes: \"Declaration, 1904 ARTICLE 1. His Britannic Majesty's Government declare that they have no intention of altering the political status of Egypt. The Government of the French Republic, for their part, declare that they will not obstruct the action of Great Britain in that country.... It is agreed that the post of Director-General of Antiquities in Egypt shall continue, as in the past, to be\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Entente Cordiale declaration, 8 April 1904",
+      "url": "https://avalon.law.yale.edu/20th_century/entecord.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1904-04-08",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United Kingdom and France, Avalon Project",
+  "as_of_date": "1904",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.anglo-russian-persia"
+  ],
+  "tags": [
+    "history",
+    "africa",
+    "europe",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

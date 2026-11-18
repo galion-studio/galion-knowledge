@@ -1,0 +1,33 @@
+{
+  "id": "world.history.nkrumah-1961-goodwill",
+  "title": "Nkrumah's 1961 text asks former colonial powers for goodwill and independence",
+  "section": "world",
+  "category": "history",
+  "summary": "Nkrumah asks former colonial powers for goodwill and for independence for African colonies.",
+  "body": "Nkrumah's text, as Fordham prints it, asks the former colonial powers for goodwill and cooperation to remedy past mistakes and to grant independence to the colonies in Africa. The sentence is his political ask. It is not a census of African states. The wording on the page includes: \"to burythe past with its unpleasant memories and look to the future.All we ask of the former colonial powers is their goodwill andco-operation to remedy past mistakes and injustices and to grantindependence to the colonies in Africa…. It is clear that we must find an African solution to our problems,and that this can only be found in African unity. Divided we areweak; united\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "I Speak of Freedom",
+      "url": "https://sourcebooks.fordham.edu/halsall/mod/1961nkrumah.asp",
+      "author": "Kwame Nkrumah, Fordham text",
+      "date": "1961",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Kwame Nkrumah, Fordham text",
+  "as_of_date": "1961",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.oau-sovereign-equality"
+  ],
+  "tags": [
+    "history",
+    "africa",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

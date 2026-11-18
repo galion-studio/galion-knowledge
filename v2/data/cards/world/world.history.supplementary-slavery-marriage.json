@@ -1,0 +1,33 @@
+{
+  "id": "world.history.supplementary-slavery-marriage",
+  "title": "The 1956 supplementary slavery convention asks states to set minimum ages of marriage and to register marriages",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1956 slavery convention calls for minimum marriage ages, free consent, and registration of marriages.",
+  "body": "Article 2 of the 1956 supplementary convention says states undertake, where appropriate, to prescribe suitable minimum ages of marriage, to encourage facilities so that the consent of both parties may be freely expressed, and to encourage the registration of marriages. The article treats those practices as institutions similar to slavery that the convention is ending. The wording on the page includes: \"1 (c) of this Convention, the States Parties undertake to prescribe, where appropriate, suitable minimum ages of marriage, to encourage the use of facilities whereby the consent of both parties to a marriage may be freely expressed in the presence of a competent civil or religious authority, and to encourage the registration of marriages. SECTION II THE SLAVE TRADE Article 3\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Supplementary Convention on the Abolition of Slavery, 7 September 1956",
+      "url": "https://avalon.law.yale.edu/20th_century/slave56.asp",
+      "author": "Supplementary Slavery Convention, Avalon Project",
+      "date": "1956-09-07",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Supplementary Slavery Convention, Avalon Project",
+  "as_of_date": "1956",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.slave-trade-treaty-1862"
+  ],
+  "tags": [
+    "history",
+    "global",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

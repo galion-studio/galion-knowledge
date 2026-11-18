@@ -1,0 +1,33 @@
+{
+  "id": "world.history.capitulary-802-oath",
+  "title": "Charlemagne's capitulary of 802, in this English, widens the oath beyond not harming the emperor",
+  "section": "world",
+  "category": "history",
+  "summary": "Charlemagne's 802 capitulary says the oath is more than not killing the emperor or admitting an enemy.",
+  "body": "The 802 capitulary, in Avalon's English, says the oath comprehends not only fidelity to the emperor's life and not bringing an enemy into the kingdom. The text tells subjects the oath covers more than they had thought. It is a royal instruction, not a report of whether every count obeyed it. The wording on the page includes: \"understand it-what important things and how many things are comprehended in that oath: not alone, as many have hitherto believed, fidelity to the emperor as regards his life, or the not introducing an enemy into his kingdom for a hostile purpose, or the not consenting to the infidelity of another, or the not keeping silent about it. But all should know that the oath comprises in itself the following meaning: 3. Firstly, that\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Capitulary of Charlemagne issued in the year 802",
+      "url": "https://avalon.law.yale.edu/medieval/capitula.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "802",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Capitulary of 802, Avalon Project English",
+  "as_of_date": "802",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.salic-wergeld-count"
+  ],
+  "tags": [
+    "history",
+    "franks",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

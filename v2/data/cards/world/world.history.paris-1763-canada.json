@@ -1,0 +1,35 @@
+{
+  "id": "world.history.paris-1763-canada",
+  "title": "The 1763 Treaty of Paris cedes Canada to Britain",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1763 Treaty of Paris cedes Canada and Cape Breton from France to Britain.",
+  "body": "The 1763 Treaty of Paris, in Avalon's English, has France cede to Britain, in full right, Canada with its dependencies, Cape Breton, and the coasts of the Gulf and River of St Lawrence. The cession is a transfer between empires. It does not record the consent of Indigenous nations in those lands. The wording on the page includes: \"his Most Christian Majesty cedes and guaranties to his said Britannick Majesty, in full right, Canada, with all its dependencies, as well as the island of Cape Breton, and all the other islands and coasts in the gulph and river of St. Lawrence, and in general, every thing that depends on the said countries, lands, islands, and coasts, with the sovereignty\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Treaty of Paris, 10 February 1763",
+      "url": "https://avalon.law.yale.edu/18th_century/paris763.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1763-02-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Treaty of Paris, 1763, Avalon Project",
+  "as_of_date": "1763",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.proclamation-1763-indian-lands",
+    "world.history.treaty-paris-1783-definitive"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "europe",
+    "eighteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

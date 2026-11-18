@@ -1,0 +1,34 @@
+{
+  "id": "world.history.hammurabi-law-196",
+  "title": "Hammurabi law 196, in King's English, puts out the eye of the man who puts out an eye",
+  "section": "world",
+  "category": "history",
+  "summary": "King's Hammurabi says: if a man puts out another man's eye, his eye shall be put out.",
+  "body": "Law 196 in L. W. King's English of the Code of Hammurabi says that if a man put out the eye of another man, his eye shall be put out. The next laws on the same page set a different payment when the injured person is a freed man or a slave. The equal penalty is stated for a man and another man, not for every person. The wording on the page includes: \"shall be cut off. 195. If a son strike his father, his hands shall be hewn off. 196. If a man put out the eye of another man, his eye shall be put out. [ An eye for an eye ] 197. If he break another man's bone, his bone shall be broken. 198. If he put out the eye of a freed man, or break the bone of a freed man, he shall pay one gold mina. 199. If he put out the eye of a man's slave, or break the bone of\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Code of Hammurabi",
+      "url": "https://avalon.law.yale.edu/ancient/hamcode.asp",
+      "author": "L. W. King translation; Avalon Project, Yale Law School",
+      "date": "Old Babylonian code; King English translation",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Code of Hammurabi, law 196, L. W. King translation, Avalon Project",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.hammurabi-slave-eye"
+  ],
+  "tags": [
+    "history",
+    "mesopotamia",
+    "ancient",
+    "law-text",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

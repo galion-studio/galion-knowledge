@@ -1,0 +1,33 @@
+{
+  "id": "world.history.wells-accusation-1348",
+  "title": "A 1348 chronicle accuses Jews of a plot to poison Christendom",
+  "section": "world",
+  "category": "history",
+  "summary": "A 1348 chronicle records an accusation that Jews plotted to poison Christendom. The card does not treat the accusation as proved.",
+  "body": "The chronicle excerpt says it was reported that there was a conspiracy of Jewry to poison Christendom, and that leaders in Toledo had initiated the plot. The sentence is the accusation in the chronicle. It is not evidence that the plot occurred. The card stores the accusation as an accusation. The wording on the page includes: \"fall of that year the rumor was current that these deaths were due to an international conspiracy of Jewry to poison Christendom. It was reported that the leaders in the Jewish metropolis of Toledo had initiated the plot and that one of the chief conspirators was a Rabbi Peyret who had his headquarters in Chambéry, Savoy, whence he dispatched his poisoners to France, Switzerland, and\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Black Death and the Jews",
+      "url": "https://sourcebooks.fordham.edu/jewish/1348-jewsblackdeath.asp",
+      "author": "Chronicle excerpt, Fordham",
+      "date": "1348",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Chronicle excerpt, Fordham",
+  "as_of_date": "1348",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.statute-laborers-1351"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

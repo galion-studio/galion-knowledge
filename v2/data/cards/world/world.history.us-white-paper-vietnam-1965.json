@@ -1,0 +1,34 @@
+{
+  "id": "world.history.us-white-paper-vietnam-1965",
+  "title": "The February 1965 State Department paper is titled as an account of aggression from the North",
+  "section": "world",
+  "category": "history",
+  "summary": "The February 1965 State Department paper frames the war as aggression from North Vietnam.",
+  "body": "Fordham reprints the State Department paper titled Aggression from the North. The title is the department's characterization of the war. A North Vietnamese or National Liberation Front account is not this paper. The card records the American government's published case, not a finding that the case is complete. The wording on the page includes: \"Internet Modern History Sourcebook US State Dept: Aggression from the North, February 27, 1965 February 27, 1965 South Vietnam is fighting for its life against a brutal campaign of terror and armed attack inspired, directed, supplied, and controlled by the Communist regime in Hanoi. This flagrant aggression has been going on for\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Aggression from the North, February 1965",
+      "url": "https://sourcebooks.fordham.edu/mod/USStateDept-vietnamfeb1965.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1965-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "United States Department of State, Fordham copy",
+  "as_of_date": "1965",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.tonkin-johnson-message",
+    "world.history.de-gaulle-vietnam-1964"
+  ],
+  "tags": [
+    "history",
+    "southeast-asia",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

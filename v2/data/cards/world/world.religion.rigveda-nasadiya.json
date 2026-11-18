@@ -1,0 +1,34 @@
+{
+  "id": "world.religion.rigveda-nasadiya",
+  "title": "A Rig Veda selection says that at first the non-existent was not, and the existent was not",
+  "section": "world",
+  "category": "religion",
+  "summary": "This Rig Veda excerpt says that at first neither the non-existent nor the existent was.",
+  "body": "The Internet Archive copy of this Rig Veda selection says the non-existent was not and the existent was not at that time. The hymn asks about the origin of being and leaves the gods' place uncertain. It is one hymn, not the whole Veda, and the page is a teaching excerpt. The wording on the page includes: \"whole process is shrouded in mystery. Where do the gods fit in this creation scheme? The non-existent was not; the existent was not at that time. The atmosphere was not nor the heavens which are beyond. What was concealed? Where? In whose protection? Was it water? An unfathomable abyss? There was neither death nor immortality then. There was not distinction of day\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Rig Veda hymn selection",
+      "url": "https://web.archive.org/web/20070316133825/http://www.wsu.edu:8080/~wldciv/world_civ_reader/world_civ_reader_1/rig_veda.html",
+      "author": "English selection preserved by the Internet Archive",
+      "date": "Rig Veda",
+      "accessed": "2026-11-18",
+      "note": "Fordham's India sourcebook links this Internet Archive copy. The page was opened."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Rig Veda creation hymn, English on an Internet Archive copy of a world-civ reader, linked from Fordham",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.rsv-genesis-created"
+  ],
+  "tags": [
+    "religion",
+    "hinduism",
+    "veda",
+    "creation"
+  ],
+  "read_time_min": 1
+}

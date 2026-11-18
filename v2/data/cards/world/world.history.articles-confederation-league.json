@@ -1,0 +1,34 @@
+{
+  "id": "world.history.articles-confederation-league",
+  "title": "The Articles of Confederation call the union a firm league of friendship",
+  "section": "world",
+  "category": "history",
+  "summary": "The Articles of Confederation describe the union as a firm league of friendship.",
+  "body": "Article III of the Articles of Confederation says the states enter a firm league of friendship for common defense, the security of their liberties, and their mutual welfare. The articles are the first United States constitution. They are not the 1787 Constitution. The wording on the page includes: \"States, in Congress assembled. III. The said States hereby severally enter into a firm league of friendship with each other, for their common defense, the security of their liberties, and their mutual and general welfare, binding themselves to assist each other, against all force offered to, or attacks made upon them, or any of them, on account of religion\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Articles of Confederation, 1 March 1781",
+      "url": "https://avalon.law.yale.edu/18th_century/artconf.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1781-03-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Articles of Confederation, Avalon Project",
+  "as_of_date": "1781",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.northwest-ordinance-slavery",
+    "world.history.treaty-paris-1783-definitive"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "eighteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

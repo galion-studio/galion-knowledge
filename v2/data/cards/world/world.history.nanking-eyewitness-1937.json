@@ -1,0 +1,34 @@
+{
+  "id": "world.history.nanking-eyewitness-1937",
+  "title": "A New York Times reporter's dispatch, reprinted by Fordham, describes killings during the occupation of Nanking",
+  "section": "world",
+  "category": "history",
+  "summary": "Fordham reprints a New York Times dispatch from the U.S.S. Oahu about the occupation of Nanking.",
+  "body": "Fordham reprints an eyewitness report filed from aboard the U.S.S. Oahu at Shanghai by a New York Times reporter, about the Japanese occupation of Nanking. The sourcebook calls the occupation one of the greatest horrors of the century. That judgment is the editor's. The dispatch is one reporter's account. A Japanese official denial was not on the page opened here, so none is invented. The wording on the page includes: \"horrors of the century . This eyewitness report was filed by a New York Times reporter. Aboard the U.S.S. Oahu at Shanghai, Dec. 17 [1937]. Through wholesale atrocities and vandalism at Nanking the Japanese Army has thrown away a rare opportunity to gain the respect and confidence of the Chinese inhabitants and of foreign opinion there.... The killing of civilians\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Nanking Massacre, 1937",
+      "url": "https://sourcebooks.fordham.edu/mod/nanking.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1937",
+      "accessed": "2026-11-18",
+      "note": "One reporter's dispatch plus the sourcebook's framing. Not a Japanese government document."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "New York Times report as reprinted by Fordham",
+  "as_of_date": "1937",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.manchu-abdication-1912"
+  ],
+  "tags": [
+    "history",
+    "china",
+    "twentieth",
+    "eyewitness"
+  ],
+  "read_time_min": 1
+}

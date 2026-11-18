@@ -1,0 +1,34 @@
+{
+  "id": "world.history.philo-creation-page",
+  "title": "Fordham's Philo excerpt treats creation as a philosophical reading of Genesis",
+  "section": "world",
+  "category": "religion",
+  "summary": "Fordham's Philo page is a first-century philosophical reading of creation, not the Genesis verses.",
+  "body": "Fordham publishes Philo of Alexandria on the creation of the world. Philo reads Genesis with Greek philosophy. The page is his interpretation, not the Hebrew verses themselves, which are on the Genesis card. The wording on the page includes: \"intellect---this is the doctrine of Moses, not mine. Accordingly he, when recording the creation of man, in words which follow, asserts expressly, that he was made in the image of God---and if the image be a part of the image, then manifestly so is the entire form, namely, the whole of this world perceptible by the external senses, which is a greater\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "The Creation of the World",
+      "url": "https://sourcebooks.fordham.edu/halsall/ancient/philo-creation.asp",
+      "author": "Philo, via Fordham",
+      "date": "first century CE",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Philo of Alexandria, excerpt on Fordham",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.rsv-genesis-created",
+    "world.history.josephus-war-page"
+  ],
+  "tags": [
+    "religion",
+    "judaism",
+    "philosophy",
+    "ancient"
+  ],
+  "read_time_min": 1
+}

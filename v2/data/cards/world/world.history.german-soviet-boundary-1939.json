@@ -1,0 +1,34 @@
+{
+  "id": "world.history.german-soviet-boundary-1939",
+  "title": "The 28 September 1939 German-Soviet treaty is a boundary and friendship treaty",
+  "section": "world",
+  "category": "history",
+  "summary": "On 28 September 1939 Germany and the USSR signed a boundary and friendship treaty.",
+  "body": "Avalon prints a German-Soviet Boundary and Friendship Treaty of 28 September 1939, after the public non-aggression treaty and after the invasion of Poland. It redraws the line. It is not the 23 August protocol. The wording on the page includes: \"19th Century 1800 - 1899 20th Century 1900 - 1999 21st Century 2000 - German-Soviet Boundary and Friendship Treaty Previous Document Nazi-Soviet Relations Page Next Document The Government of the German Reich and the Government of the U.S.S.R. consider it as exclusively their task, after the collapse of the former Polish state, to re-establish peace and order in these\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "German-Soviet Boundary and Friendship Treaty, 28 September 1939",
+      "url": "https://avalon.law.yale.edu/20th_century/gsbound.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1939-09-28",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Germany and the USSR, Avalon Project",
+  "as_of_date": "1939",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.secret-protocol-1939",
+    "world.poland-invasion-1939"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

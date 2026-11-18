@@ -1,0 +1,32 @@
+{
+  "id": "world.history.taiping-editor-note",
+  "title": "Fordham's Taiping page says Hung Xiuquan concluded he was the younger brother of Jesus",
+  "section": "world",
+  "category": "history",
+  "summary": "Fordham's note says Hung Xiuquan claimed to be the younger brother of Jesus.",
+  "body": "Fordham's headnote says Hung Xiuquan came under the influence of Christian missionaries and concluded that he was the younger brother of Jesus sent to found the Heavenly Kingdom. The sentence is the sourcebook's summary of his claim. It is not a Taiping proclamation opened in Chinese. The wording on the page includes: \"the influence of Christian missionaries, and reached the conclusion that he was the younger brother of Jesus sent to found the Heavenly Kingdom on earth. Faced with the collapse of Qing dynasty rule (under Western onslaught), Hung tapped into the deep millenarianism of the Chinese peasentry (previously expressed in Buddhist terms) and began a rebellion - the\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Taiping Rebellion",
+      "url": "https://sourcebooks.fordham.edu/mod/taiping.asp",
+      "author": "Fordham headnote",
+      "date": "1851",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Fordham headnote",
+  "as_of_date": "1851",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "history",
+    "china",
+    "religion",
+    "nineteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.history.twelve-tables-funeral",
+  "title": "The Twelve Tables, in this Avalon English, limit gold buried with a corpse",
+  "section": "world",
+  "category": "history",
+  "summary": "Avalon's Twelve Tables forbid burying gold with a corpse, with an exception for gold dental work.",
+  "body": "The Avalon English of the Twelve Tables forbids adding gold to a corpse, and then excepts gold dental work. The page dates the tables to 450 BC in its title. The surviving text is a later reconstruction, which the page presents as the laws. The wording on the page includes: \"crown is bestowed on him at his burial ... 8. ... Nor gold shall be added to a corpse. But if any one buries or burns a corpse that has gold dental work it shall be without prejudice. 9. It is forbidden ... to build a new pyre or a burning mound nearer than sixty feet to another's building without the owner's consent. 10. It is forbidden to acquire by prescriptive right a vestibule of a sepulcher or a\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Twelve Tables",
+      "url": "https://avalon.law.yale.edu/ancient/twelve_tables.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "traditional date 450 BCE; Avalon English",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Twelve Tables, Avalon Project English",
+  "as_of_date": "-450",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.hammurabi-law-196",
+    "world.history.acilian-law-praetor"
+  ],
+  "tags": [
+    "history",
+    "rome",
+    "ancient",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

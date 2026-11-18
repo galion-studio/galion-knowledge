@@ -1,0 +1,34 @@
+{
+  "id": "world.religion.quran-one-soul-as-mankind",
+  "title": "Quran 5:32 in Sahih International compares killing one soul to killing mankind",
+  "section": "world",
+  "category": "religion",
+  "summary": "Sahih International of Quran 5:32 says killing one soul, outside stated exceptions, is like killing all mankind.",
+  "body": "Sahih International of Quran 5:32 says that whoever kills a soul, unless for a soul or for corruption in the land, it is as if he had slain mankind entirely, and whoever saves one, it is as if he had saved mankind entirely. The verse itself names exceptions. It does not cancel 9:5 by being printed here. The wording on the page includes: \"Because of that, We decreed upon the Children of Israel that whoever kills a soul unless for a soul or for corruption [done] in the land - it is as if he had slain mankind entirely. And whoever saves one - it is as if he had saved mankind entirely. And our messengers had certainly come to them with clear proofs. Then indeed many of them, [even] after that, throughout the land, were transgressors.\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Quran 5:32, Sahih International",
+      "url": "https://api.alquran.cloud/v1/ayah/5:32/editions/en.sahih",
+      "author": "Sahih International, via alquran.cloud",
+      "date": "Quran",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Quran 5:32, Sahih International",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.quran-9-5",
+    "world.religion.quran-no-compulsion"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "quran",
+    "ethics"
+  ],
+  "read_time_min": 1
+}

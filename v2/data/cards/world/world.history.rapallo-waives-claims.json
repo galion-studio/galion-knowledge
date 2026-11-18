@@ -1,0 +1,34 @@
+{
+  "id": "world.history.rapallo-waives-claims",
+  "title": "The Treaty of Rapallo has Germany and Soviet Russia waive war-damage claims against each other",
+  "section": "world",
+  "category": "history",
+  "summary": "At Rapallo in 1922, Germany and Soviet Russia waive war-damage claims against each other.",
+  "body": "The Treaty of Rapallo says the two governments waive claims for compensation for war expenditure and for war damages suffered by them and their nationals. The treaty restores relations between Germany and Soviet Russia outside the Versailles framework. The wording on the page includes: \"The German Reich and the Russian Socialist Federal Soviet Republic mutually agree to waive their claims for compensation for expenditure incurred on account of the war, and also for war damages, that is to say, any damages which may have been suffered by them and by their nationals in war zones on account of military measures, including all requisitions in enemy country. Both\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of Rapallo, 16 April 1922",
+      "url": "https://avalon.law.yale.edu/20th_century/rapallo_001.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1922-04-16",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Germany and the Russian Soviet Republic, Avalon Project",
+  "as_of_date": "1922",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.molotov-ribbentrop-article-2",
+    "world.treaty-versailles"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

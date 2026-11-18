@@ -1,0 +1,34 @@
+{
+  "id": "world.history.alcacovas-canaries",
+  "title": "The 1479 Treaty of Alcacovas assigns conquests from the Canaries toward Guinea",
+  "section": "world",
+  "category": "history",
+  "summary": "Alcacovas assigns Portuguese claims from the Canaries toward Guinea.",
+  "body": "The Treaty of Alcacovas, in Avalon's English, speaks of conquest from the Canary Islands down toward Guinea, and says what is found or acquired in those limits belongs to the king and prince of Portugal. The treaty divides African-Atlantic claims between Portugal and Castile before Tordesillas. The wording on the page includes: \"or in all other islands which shall be found or acquired by conquest [in the region] from the Canary Islands down toward Guinea. For whatever has been found or shall be found, acquired by conquest, or discovered within the said limits, beyond what has already been found, occupied, or discovered, belongs to the said King and Prince of Portugal and to their kingdoms, excepting only\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty between Spain and Portugal at Alcacovas, 4 September 1479",
+      "url": "https://avalon.law.yale.edu/15th_century/sppo01.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1479-09-04",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Treaty of Alcacovas, Avalon Project English",
+  "as_of_date": "1479",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.tordesillas-line"
+  ],
+  "tags": [
+    "history",
+    "africa",
+    "iberia",
+    "early-modern",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

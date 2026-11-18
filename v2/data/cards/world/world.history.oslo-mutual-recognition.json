@@ -1,0 +1,35 @@
+{
+  "id": "world.history.oslo-mutual-recognition",
+  "title": "The 1993 Declaration of Principles has Israel and the Palestinian team recognize mutual political rights",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1993 Oslo declaration records mutual recognition of political rights by Israel and the Palestinian team.",
+  "body": "The 1993 Declaration of Principles says the Government of Israel and the Palestinian team representing the Palestinian people agree to put an end to decades of confrontation, recognize their mutual legitimate and political rights, and strive to live in peaceful coexistence. The declaration is a mutual-recognition text. It did not itself create a Palestinian state. The wording on the page includes: \"people agree that it is time to put an end to decades of confrontation and conflict, recognize their mutual legitimate and political rights, and strive to live in peaceful coexistence and mutual dignity and security to achieve a just, lasting and comprehensive peace settlement and historic reconciliation through the agreed political process. Accordingly, the two sides agree to the following\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Declaration of Principles, 13 September 1993",
+      "url": "https://avalon.law.yale.edu/20th_century/isrplo.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1993-09-13",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Israel and the PLO, Avalon Project",
+  "as_of_date": "1993",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.plo-charter-armed-struggle",
+    "world.history.israel-declaration-1948",
+    "world.history.roadmap-2003"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

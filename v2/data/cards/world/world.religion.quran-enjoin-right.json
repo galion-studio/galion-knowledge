@@ -1,0 +1,32 @@
+{
+  "id": "world.religion.quran-enjoin-right",
+  "title": "Quran 3:104 in Sahih International calls for a community that enjoins right and forbids wrong",
+  "section": "world",
+  "category": "religion",
+  "summary": "Sahih International of Quran 3:104 calls for enjoining right and forbidding wrong.",
+  "body": "Sahih International of Quran 3:104 says there should be a community inviting to good, enjoining what is right and forbidding what is wrong. The phrase is a Quranic duty. Schools differ on who holds it and how far it reaches. The wording on the page includes: \"And let there be [arising] from you a nation inviting to [all that is] good, enjoining what is right and forbidding what is wrong, and those will be the successful.\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Quran 3:104, Sahih International",
+      "url": "https://api.alquran.cloud/v1/ayah/3:104/editions/en.sahih",
+      "author": "Sahih International, via alquran.cloud",
+      "date": "Quran",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Quran 3:104, Sahih International",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.quran-stand-for-justice"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "quran"
+  ],
+  "read_time_min": 1
+}

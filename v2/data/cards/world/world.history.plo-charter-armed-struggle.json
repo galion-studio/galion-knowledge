@@ -1,0 +1,34 @@
+{
+  "id": "world.history.plo-charter-armed-struggle",
+  "title": "The 1968 Palestinian National Charter says the Palestinian must be prepared for armed struggle",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1968 Palestinian charter says Palestinians must be prepared for armed struggle to recover the homeland.",
+  "body": "Article 7 of the 1968 Palestinian National Charter, as Avalon prints it, says the Palestinian must be prepared for the armed struggle and ready to sacrifice wealth and life to win back his homeland. The charter is the PLO's text. It is not the 1993 Declaration of Principles. The wording on the page includes: \"in the most profound manner, both spiritual and material, that is possible. He must be prepared for the armed struggle and ready to sacrifice his wealth and his life in order to win back his homeland and bring about its liberation. Article 8: The phase in their history, through which the Palestinian people are now living, is that of national (watani) struggle for the\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Palestinian National Charter, 1968",
+      "url": "https://avalon.law.yale.edu/20th_century/plocov.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1968",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Palestinian National Council, Avalon Project",
+  "as_of_date": "1968",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.israel-declaration-1948",
+    "world.history.oslo-mutual-recognition"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

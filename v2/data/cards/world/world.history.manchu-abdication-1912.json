@@ -1,0 +1,34 @@
+{
+  "id": "world.history.manchu-abdication-1912",
+  "title": "The 1912 abdication decree ends the Manchu dynasty's claim to the throne",
+  "section": "world",
+  "category": "history",
+  "summary": "In 1912 the Manchu dynasty abdicated, and Fordham prints the decree.",
+  "body": "Fordham's page, quoting The Outlook of 24 February 1912, says the Manchu dynasty has abdicated after holding the throne for nearly three centuries, and then gives the decree. The decree is the dynasty's own act of leaving. It is not Sun Yat-sen's program. The wording on the page includes: \"Proclamation of The Abdication of the Manchus, 1912 \"The Outlook,\" February 24, 1912. The Manchu Dynasty has abdicated, after holding the Chinese Imperial Throne for nearly three centuries. The decree of abdication will be of historic moment. It reads as follows: \"The Whole Country is tending towards a republican form of government. It is the Will of Heaven, and it is\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Proclamation of the abdication of the Manchus, 1912",
+      "url": "https://sourcebooks.fordham.edu/mod/1912manchu-end.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1912",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Abdication decree, Fordham text from The Outlook",
+  "as_of_date": "1912",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.ming-accession-1372",
+    "world.history.mao-1949-dictatorship"
+  ],
+  "tags": [
+    "history",
+    "china",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.history.korea-gromyko-1950",
+  "title": "Gromyko's 4 July 1950 statement says the war began with a South Korean attack",
+  "section": "world",
+  "category": "history",
+  "summary": "On 4 July 1950 Gromyko says the Korean war began with a South Korean attack.",
+  "body": "Gromyko's statement of 4 July 1950 says the events in Korea broke out on 25 June as the result of a provocative attack by the troops of the South Korean authorities on the frontier areas of the Korean People's Democratic Republic. That is the Soviet government's account. The UN commission's report is a different document. The wording on the page includes: \"4,1950 The events now taking place in Korea broke out on June 25 as the result of a provocative attack by the troops of the South Korean authorities on the frontier areas of the Korean People's Democratic Republic. This attack was the outcome of a premeditated plan. From time to time Syngman Rhee himself and other representatives of the South Korean authorities had blurted out the fact that the South\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On American Intervention in Korea, 4 July 1950",
+      "url": "https://sourcebooks.fordham.edu/mod/1950-gromyko-korea.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1950-07-04",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Andrei Gromyko, Fordham text",
+  "as_of_date": "1950",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.korea-un-commission",
+    "world.history.korea-two-accounts-1950"
+  ],
+  "tags": [
+    "history",
+    "korea",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

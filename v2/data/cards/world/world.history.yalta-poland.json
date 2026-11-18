@@ -1,0 +1,35 @@
+{
+  "id": "world.history.yalta-poland",
+  "title": "The Yalta protocol says a new situation in Poland was created by liberation by the Red Army",
+  "section": "world",
+  "category": "history",
+  "summary": "At Yalta the three powers say Poland's situation was created by liberation by the Red Army.",
+  "body": "The Yalta declaration on Poland says a new situation has been created by her complete liberation by the Red Army, and calls for a Polish provisional government. The sentence is the three powers' agreed wording. The Polish government in London is not a signatory of this paragraph. The wording on the page includes: \"by the conference: \"A new situation has been created in Poland as a result of her complete liberation by the Red Army. This calls for the establishment of a Polish Provisional Government which can be more broadly based than was possible before the recent liberation of the western part of Poland. The Provisional Government which is now functioning in Poland should therefore\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Yalta Conference, February 1945",
+      "url": "https://avalon.law.yale.edu/wwii/yalta.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1945-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Yalta conference protocol, Avalon Project",
+  "as_of_date": "1945",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.potsdam-oder-neisse",
+    "world.poland-invasion-1939"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "poland",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

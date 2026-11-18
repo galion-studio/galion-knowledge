@@ -1,0 +1,34 @@
+{
+  "id": "world.history.cortes-second-letter",
+  "title": "Cortes's second letter describes Tenochtitlan to Charles V as a great city",
+  "section": "world",
+  "category": "history",
+  "summary": "Cortes's 1520 letter describes Tenochtitlan to Charles V in the conqueror's words.",
+  "body": "Cortes's second letter to Charles V, in Fordham's English, describes the extent of the city of Temixtitlan and the dominions of Moctezuma. The letter is the conqueror's report to his king. It is not the Nahuatl account of the same city. The wording on the page includes: \"to convey to your Majesty a just conception of the great extent of this noble city of Temixtitlan, and of the many rare and wonderful objects it contains; of the government and dominions of Moctezuma, the sovereign: of the religious rights and customs that prevail, and the order that exists in this as well as the other cities appertaining to his realm:\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Second letter to Charles V, 1520",
+      "url": "https://sourcebooks.fordham.edu/mod/1520cortes.asp",
+      "author": "Hernan Cortes; Fordham sourcebook",
+      "date": "1520",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Hernan Cortes, second letter, Fordham English",
+  "as_of_date": "1520",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.aztec-motecuhzoma-greeting",
+    "world.history.mexico-two-accounts-1519"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "early-modern",
+    "eyewitness"
+  ],
+  "read_time_min": 1
+}

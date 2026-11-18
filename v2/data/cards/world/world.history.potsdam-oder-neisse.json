@@ -1,0 +1,36 @@
+{
+  "id": "world.history.potsdam-oder-neisse",
+  "title": "The Potsdam protocol places lands east of the Oder-Neisse line under Polish administration",
+  "section": "world",
+  "category": "history",
+  "summary": "Potsdam places territory east of the Oder-Western Neisse line under Polish administration.",
+  "body": "The Potsdam protocol describes a line from the Baltic west of Swinemunde, along the Oder to the Western Neisse, and along the Western Neisse to the Czechoslovak frontier, and it places the territory east of that line under Polish administration, with part of East Prussia under the Soviet Union. The protocol speaks of administration. A final peace treaty with Germany is a different instrument. The wording on the page includes: \"cast of a line running from the Baltic Sea immediately west of Swinamunde, and thence along the Oder River to the confluence of the western Neisse River and along the Western Neisse to the Czechoslovak frontier, including that portion of East Prussia not placed under the administration of the Union of Soviet Socialist Republics in accordance with the understanding reached at this conference and\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Berlin (Potsdam) Conference, July-August 1945",
+      "url": "https://avalon.law.yale.edu/20th_century/decade17.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1945-08-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Potsdam conference protocol, Avalon Project",
+  "as_of_date": "1945",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.yalta-poland",
+    "world.history.atlantic-charter-wishes"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "poland",
+    "germany",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

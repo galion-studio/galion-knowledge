@@ -1,0 +1,33 @@
+{
+  "id": "world.religion.ghazali-death-page",
+  "title": "Fordham's Ghazali selection is about remembrance of death and the afterlife",
+  "section": "world",
+  "category": "religion",
+  "summary": "Fordham hosts an English selection of al-Ghazali on remembering death and the afterlife.",
+  "body": "Fordham publishes a selection from al-Ghazali under the title The Remembrance of Death and the Afterlife. The page is an English excerpt of a Sufi and legal scholar's writing on death, not a creed agreed by every Muslim school. The wording on the page includes: \"Sciences (Ihya `ulum al-din) as-Salaamu `alaykum, Al-Ghazali : The Remembrance of Death and the Afterlife (Kitab dhikr al-mawt wa-ma ba'dahu) ISBN: 0 946621 13 6 (Islamic Texts Society) Book XL of The Revival of the Religious Sciences (Ihya `ulum al-din) translated with an introduction and notes by T.J.Winter [Introduction by the modern fan of\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Remembrance of Death and the Afterlife",
+      "url": "https://sourcebooks.fordham.edu/halsall/source/alghazali.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "al-Ghazali",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Al-Ghazali, selection on the Fordham sourcebook",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.rumi-masnavi-page"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "sufism",
+    "ghazali"
+  ],
+  "read_time_min": 1
+}

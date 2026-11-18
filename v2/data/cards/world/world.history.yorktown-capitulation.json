@@ -1,0 +1,34 @@
+{
+  "id": "world.history.yorktown-capitulation",
+  "title": "The 1781 articles of capitulation record the surrender of a British army at Yorktown",
+  "section": "world",
+  "category": "history",
+  "summary": "The 18 October 1781 articles are the Yorktown surrender terms.",
+  "body": "Avalon prints the articles of capitulation of 18 October 1781, the terms under which a British army surrendered at Yorktown. The articles are the military terms. They are not the 1783 peace treaty. The wording on the page includes: \"of which had been on board for security during the siege. Article XIV. No article of capitulation to be infringed on pretence of reprisals; and if there be any doubtful expressions in it, they are to be interpreted according to the common meaning and acceptation of the words. Done at Yorktown, in Virginia, October 19th, 1781. Cornwallis, Thomas Symonds.\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Articles of Capitulation, 18 October 1781",
+      "url": "https://avalon.law.yale.edu/18th_century/art_of_cap_1781.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1781-10-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Articles of capitulation, Avalon Project",
+  "as_of_date": "1781",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.treaty-paris-1783-definitive",
+    "world.history.preliminary-peace-1782"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "eighteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

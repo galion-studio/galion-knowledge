@@ -1,0 +1,34 @@
+{
+  "id": "world.history.nehru-bandung-1955",
+  "title": "Nehru's Bandung committee speech widens the discussion beyond the agenda he expected",
+  "section": "world",
+  "category": "history",
+  "summary": "At Bandung, Nehru says the political discussion has widened beyond the expected agenda.",
+  "body": "Nehru's speech to the Bandung political committee says the discussion has taken a much wider turn than expected. The speech is his argument inside the conference, not Sukarno's opening and not a voted resolution. The wording on the page includes: \"Minister Nehru: Speech to Bandung Conference Political Committee, 1955 Mr. Chairman, the turn this discussion has taken is a much wider one than that we had already expected. In fact, it has covered the whole major heading. We have just had the advantage of listening to the distinguished leader of the Turkish Delegation who told us what lie, as a responsible leader of the\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "Speech to the Bandung political committee, 1955",
+      "url": "https://sourcebooks.fordham.edu/mod/1955nehru-bandung2.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1955",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Jawaharlal Nehru, Fordham text",
+  "as_of_date": "1955",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.bandung-sukarno",
+    "world.history.nehru-1941-nonalignment"
+  ],
+  "tags": [
+    "history",
+    "south-asia",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.history.texas-declaration-1836",
+  "title": "The Texas declaration of 2 March 1836 says the colonists assume an independent attitude",
+  "section": "world",
+  "category": "history",
+  "summary": "The 2 March 1836 Texas declaration announces independence from Mexico.",
+  "body": "The Texas declaration says the people dissolve their political connection with the Mexican people and assume an independent attitude among the nations. It also says Mexico invited Anglo-American colonists under a written constitution. The declaration is the settlers' case. It is not the Mexican government's account. The wording on the page includes: \"step now taken, of severing our political connection with the Mexican people, and assuming an independent attitude among the nations of the earth. The Mexican government, by its colonization laws, invited and induced the Anglo-American population of Texas to colonize its wilderness under the pledged faith of a written constitution, that they should continue to enjoy\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Texas Declaration of Independence, 2 March 1836",
+      "url": "https://avalon.law.yale.edu/19th_century/texdec.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1836-03-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Texas Declaration of Independence, Avalon Project",
+  "as_of_date": "1836",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.velasco-1836"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "mexico",
+    "nineteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.history.kellogg-briand-renounce",
+  "title": "The Kellogg-Briand Pact renounces war as an instrument of national policy",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1928 Kellogg-Briand Pact renounces war as an instrument of national policy.",
+  "body": "The Pact of Paris says the parties condemn recourse to war for the solution of international controversies and renounce it as an instrument of national policy in their relations with one another. The pact is a renunciation. It did not prevent the wars that followed. The wording on the page includes: \"that they condemn recourse to war for the solution of international controversies, and renounce it, as an instrument of national policy in their relations with one another. ARTICLE II The High Contracting Parties agree that the settlement or solution of all disputes or conflicts of whatever nature or of whatever origin they may be, which may arise among them, shall never be sought except by\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Kellogg-Briand Pact, 27 August 1928",
+      "url": "https://avalon.law.yale.edu/20th_century/kbpact.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1928-08-27",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Parties to the Pact of Paris, Avalon Project",
+  "as_of_date": "1928",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.locarno-frontiers"
+  ],
+  "tags": [
+    "history",
+    "global",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

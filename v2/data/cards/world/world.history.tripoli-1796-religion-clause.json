@@ -1,0 +1,36 @@
+{
+  "id": "world.history.tripoli-1796-religion-clause",
+  "title": "The English text of the 1796 Tripoli treaty says the United States is not founded on the Christian religion",
+  "section": "world",
+  "category": "history",
+  "summary": "Avalon's English of the 1796 Tripoli treaty says the United States is not founded on the Christian religion.",
+  "body": "Article 11 of the English text of the 1796 Treaty of Tripoli, as Avalon prints it, says the government of the United States of America is not in any sense founded on the Christian religion, and that it has no character of enmity against the laws or religion of Muslims. This card records that English article. An Arabic original was not opened here, so a claim that the Arabic says the same thing is not made. The wording on the page includes: \"made by either party. ARTICLE 11. As the government of the United States of America is not in any sense founded on the Christian Religion,-as it has in itself no character of enmity against the laws, religion or tranquility of Musselmen,-and as the said States never have entered into any war or act of hostility against any Mehomitan nation, it is declared by the parties that no pretext\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty with Tripoli, 4 November 1796",
+      "url": "https://avalon.law.yale.edu/18th_century/bar1796t.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1796-11-04",
+      "accessed": "2026-11-18",
+      "note": "The card is limited to the English text on Avalon. The Arabic version was not compared."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Treaty of peace and friendship with Tripoli, English text on Avalon",
+  "as_of_date": "1796",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.morocco-1786",
+    "world.religion.rsv-shema"
+  ],
+  "tags": [
+    "history",
+    "africa",
+    "americas",
+    "religion",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

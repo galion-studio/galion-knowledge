@@ -1,0 +1,35 @@
+{
+  "id": "world.history.germantown-1688",
+  "title": "The 1688 Germantown protest asks how Christians can sell a person as a slave for life",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1688 Germantown protest asks how a person can be sold as a slave for life.",
+  "body": "The Germantown resolutions ask whether it is right to sell a person or make him a slave for all the time of his life, and they compare the fear of being sold by Turks. The protest is a local Quaker and Mennonite petition against the slave trade in Pennsylvania. It did not end slavery there. The wording on the page includes: \"as followeth: Is there any that would be done or handled at this manner? viz., to be sold or made a slave for all the time of his life? How fearful and faint-hearted are many at sea, when they see a strange vessel, being afraid it should be a Turk, and they should be taken, and sold for slaves into Turkey. Now, what is this better done, than Turks do? Yea, rather it is worse for them\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Resolutions of the Germantown Mennonites, 18 February 1688",
+      "url": "https://avalon.law.yale.edu/17th_century/men01.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1688-02-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Germantown Mennonite protest, Avalon Project",
+  "as_of_date": "1688",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.pennsylvania-abolition-preamble",
+    "world.history.atlantic-slave-trade-estimates"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "slavery",
+    "early-modern",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.history.sedition-act-1798",
+  "title": "The 1798 Sedition Act punishes false, scandalous, and malicious writings against the government",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1798 Sedition Act criminalizes false, scandalous, and malicious writings against the government.",
+  "body": "The Sedition Act makes it a crime to write, print, utter, or publish any false, scandalous, and malicious writing against the government, either house of Congress, or the president, with intent to defame. The statute is the Federalist Congress's text. It is not a court holding that the statute was constitutional. The wording on the page includes: \"knowingly and willingly assist or aid in writing, printing, uttering or publishing any false, scandalous and malicious writing or writings against the government of the United States, or either house of the Congress of the United States, or the President of the United States, with intent to defame the said government, or either house of the said Congress, or the said President, or\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sedition Act, 1798",
+      "url": "https://avalon.law.yale.edu/18th_century/sedact.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1798",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Congress, Avalon Project",
+  "as_of_date": "1798",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.alien-enemies-1798"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "eighteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

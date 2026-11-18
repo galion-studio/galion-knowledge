@@ -1,0 +1,33 @@
+{
+  "id": "world.religion.rsv-unknown-god",
+  "title": "Acts 17 in the RSV has Paul address an altar to an unknown god",
+  "section": "world",
+  "category": "religion",
+  "summary": "The RSV of Acts 17 records Paul speaking of an altar to an unknown god.",
+  "body": "The Revised Standard Version of Acts 17 has Paul, in Athens, speak of an altar inscribed to an unknown god and identify that worship with the God who made the world. This is Luke's account of a speech, not a stenographic transcript from the Areopagus. The wording on the page includes: \"the objects of your worship, I found also an altar with this inscription, ‘To an unknown god.’ What therefore you worship as unknown, this I proclaim to you. 24 The God who made the world and everything in it, being Lord of heaven and earth, does not live in shrines made by man, 25 nor is he served by human hands, as though he needed anything\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Acts 17:22-31 (RSV)",
+      "url": "https://www.biblegateway.com/passage/?search=Acts+17%3A22-31&version=RSV",
+      "author": "Revised Standard Version, via Bible Gateway",
+      "date": "RSV translation; Acts of the Apostles",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Acts 17:22-31, Revised Standard Version",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.rsv-john-word"
+  ],
+  "tags": [
+    "religion",
+    "christianity",
+    "scripture",
+    "athens"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world.religion.quran-nations-and-tribes",
+  "title": "Quran 49:13 in Sahih International says peoples and tribes exist so that they may know one another",
+  "section": "world",
+  "category": "religion",
+  "summary": "Sahih International of Quran 49:13 says the most noble person is the most righteous, not the member of a favored tribe.",
+  "body": "Sahih International of Quran 49:13 says God made people into nations and tribes so that they may know one another, and that the most noble in God's sight is the most righteous. The verse rejects lineage as the measure. The wording on the page includes: \"O mankind, indeed We have created you from male and female and made you peoples and tribes that you may know one another. Indeed, the most noble of you in the sight of Allah is the most righteous of you. Indeed, Allah is Knowing and Acquainted.\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Quran 49:13, Sahih International",
+      "url": "https://api.alquran.cloud/v1/ayah/49:13/editions/en.sahih",
+      "author": "Sahih International, via alquran.cloud",
+      "date": "Quran",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Quran 49:13, Sahih International",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.quran-righteousness-not-the-east"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "quran"
+  ],
+  "read_time_min": 1
+}

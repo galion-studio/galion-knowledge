@@ -1,0 +1,33 @@
+{
+  "id": "world.religion.quran-no-compulsion",
+  "title": "Quran 2:256 in Sahih International says there is no compulsion in religion",
+  "section": "world",
+  "category": "religion",
+  "summary": "Sahih International of Quran 2:256 says there shall be no compulsion in religion.",
+  "body": "Sahih International of Quran 2:256 says there shall be no compulsion in acceptance of the religion. The sentence is in the text. How jurists limit it is a separate argument, stored beside the sword-verse card rather than decided here. The wording on the page includes: \"There shall be no compulsion in [acceptance of] the religion. The right course has become clear from the wrong. So whoever disbelieves in Taghut and believes in Allah has grasped the most trustworthy handhold with no break in it. And Allah is Hearing and Knowing.\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Quran 2:256, Sahih International",
+      "url": "https://api.alquran.cloud/v1/ayah/2:256/editions/en.sahih",
+      "author": "Sahih International, via alquran.cloud",
+      "date": "Quran",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Quran 2:256, Sahih International",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.quran-9-5",
+    "world.religion.quran-compulsion-and-sword-verse"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "quran"
+  ],
+  "read_time_min": 1
+}

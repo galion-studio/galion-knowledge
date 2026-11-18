@@ -1,0 +1,34 @@
+{
+  "id": "world.religion.rsv-james-works",
+  "title": "James 2 in the RSV says faith apart from works is dead",
+  "section": "world",
+  "category": "religion",
+  "summary": "The RSV of James 2 says faith apart from works is dead.",
+  "body": "The Revised Standard Version of James 2 says faith by itself, if it has no works, is dead, and speaks of faith apart from works. The letter argues with an example, including Abraham. It does not quote Galatians. The wording on the page includes: \"and sent them out another way? 26 For as the body apart from the spirit is dead, so faith apart from works is dead. Read full chapter Next James 1 James 3 Next dropdown Revised Standard Version (RSV) Revised Standard Version of the Bible, copyright © 1946, 1952, and 1971 the Division of Christian Education of the National Council of the Churches of Christ in the\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "James 2:14-26 (RSV)",
+      "url": "https://www.biblegateway.com/passage/?search=James+2%3A14-26&version=RSV",
+      "author": "Revised Standard Version, via Bible Gateway",
+      "date": "RSV translation; Letter of James",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "James 2:14-26, Revised Standard Version",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.rsv-galatians-neither-jew-nor-greek",
+    "world.religion.faith-and-works-two-letters"
+  ],
+  "tags": [
+    "religion",
+    "christianity",
+    "scripture",
+    "james"
+  ],
+  "read_time_min": 1
+}

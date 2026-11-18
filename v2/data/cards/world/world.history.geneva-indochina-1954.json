@@ -1,0 +1,34 @@
+{
+  "id": "world.history.geneva-indochina-1954",
+  "title": "The 1954 Geneva final declaration lists the parties who met on restoring peace in Indochina",
+  "section": "world",
+  "category": "history",
+  "summary": "The 21 July 1954 Geneva declaration is the conference text on restoring peace in Indochina.",
+  "body": "The Geneva final declaration of 21 July 1954, as Fordham prints it, is the conference statement on restoring peace in Indochina, naming Cambodia, the Democratic Republic of Vietnam, France, Laos, the People's Republic of China, the State of Vietnam, the Soviet Union, the United Kingdom, and the United States among those represented. The declaration is a conference text. The United States' later account of aggression is a different document. The wording on the page includes: \"1954 Final declaration, dated July 21, 1954, of the Geneva Conference on the problem of restoring peace in Indochina, in which the representatives of Cambodia, the Democratic Republic of Viet-Nam, France, Laos, the People's Republic of China, the State of Viet-Nam, the Union of Soviet Socialist Republics, the United Kingdom and the United States of America took part. 1.\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Final declaration on restoring peace in Indochina, 21 July 1954",
+      "url": "https://sourcebooks.fordham.edu/mod/1954-geneva-indochina.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1954-07-21",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Geneva Conference final declaration, Fordham",
+  "as_of_date": "1954",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.vietnam-independence-1945",
+    "world.history.tonkin-johnson-message"
+  ],
+  "tags": [
+    "history",
+    "southeast-asia",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

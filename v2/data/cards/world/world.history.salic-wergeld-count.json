@@ -1,0 +1,34 @@
+{
+  "id": "world.history.salic-wergeld-count",
+  "title": "The Salic Law, in this English, sets 600 shillings for killing a count",
+  "section": "world",
+  "category": "history",
+  "summary": "This English of the Salic Law prices the killing of a count at 600 shillings.",
+  "body": "The Avalon English of the Salic Law says that if anyone slay a count, he shall be sentenced to 2400 debars, which make 600 shillings. The tariff prices a life by rank. It is not a modern criminal code. The wording on the page includes: \"redeem himself with his \"wergeld.\" Title LIV. Concerning the Slaying of a Count. 1. If any one slay a count, he shall be sentenced to 2400 debars, which make 600 shillings. Title LV. Concerning the Plundering of Corpses. 2. If any one shall have dug up and plundered a corpse already buried, and it shall have been proved on him, he shall be outlawed until the day when he comes to an agreement with the relatives of the dead\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Salic Law",
+      "url": "https://avalon.law.yale.edu/medieval/salic.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "early medieval Frankish law",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Salic Law, Avalon Project English",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.saxons-wergild-note",
+    "world.history.capitulary-802-oath"
+  ],
+  "tags": [
+    "history",
+    "franks",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.history.corvino-cathay",
+  "title": "John of Monte Corvino says he reached Cathay and invited the Grand Khan to the Catholic faith",
+  "section": "world",
+  "category": "history",
+  "summary": "Monte Corvino reports that he reached Cathay and invited the Grand Khan to the Catholic faith.",
+  "body": "John of Monte Corvino writes that he made his way to Cathay, the realm of the emperor of the Tartars called the Grand Khan, presented the pope's letter, and invited him to adopt the Catholic faith, but that the khan had grown too old in idolatry. The letter is a missionary's report. It is not a Yuan court record. The wording on the page includes: \"alone for eleven years. I BROTHER JOHN, of Monte Corvino, of the order of Minor Friars, made my way to Cathay, the realm of the emperor of the Tartars, who is called the Grand Khan. To him I presented the letter of our lord the Pope, and invited him to adopt the Catholic faith of our Lord Jesus Christ; but he had grown too old in idolatry. However, he bestows many\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Letter to the minister general of the Friars Minor",
+      "url": "https://sourcebooks.fordham.edu/source/1280corvino2.asp",
+      "author": "John of Monte Corvino, Fordham text",
+      "date": "1305",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "John of Monte Corvino, Fordham text",
+  "as_of_date": "1305",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.ming-accession-1372"
+  ],
+  "tags": [
+    "history",
+    "east-asia",
+    "religion",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

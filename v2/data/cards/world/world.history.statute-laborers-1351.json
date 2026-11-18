@@ -1,0 +1,32 @@
+{
+  "id": "world.history.statute-laborers-1351",
+  "title": "The 1351 Statute of Laborers orders men and women to work and takes notice of a shortage of ploughmen",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1351 Statute of Laborers cites a shortage of ploughmen and orders people to work.",
+  "body": "The Statute of Laborers, in Avalon's English, says that because of the lack especially of ploughmen and such labourers, it is ordained that every man and woman of the kingdom of a stated condition shall serve. The statute is a wage and labor order after the plague. It does not give a death count for the plague. The wording on the page includes: \"to beg in idleness: We, considering the grave inconveniences which might come from the lack especially of ploughmen and such labourers, have held deliberation and treaty concerning this with the prelates and nobles and other learned men sitting by us; by whose consentient counsel we have seen fit to ordain: that every man and woman of our kingdom of England, of whatever\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Statute of Laborers, 1351",
+      "url": "https://avalon.law.yale.edu/medieval/statlab.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1351",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Statute of Laborers, Avalon Project English",
+  "as_of_date": "1351",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "history",
+    "england",
+    "medieval",
+    "plague",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

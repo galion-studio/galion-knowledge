@@ -19,6 +19,10 @@ jobs:
         working-directory: v2/tools/truth-gate
         run: cargo test --locked
 
+      - name: Test horbm-memory
+        working-directory: v2/memory
+        run: cargo test --locked
+
       - name: Run the truth gate
         working-directory: v2/tools/truth-gate
         run: >

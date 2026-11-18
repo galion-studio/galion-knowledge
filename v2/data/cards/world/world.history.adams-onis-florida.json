@@ -1,0 +1,33 @@
+{
+  "id": "world.history.adams-onis-florida",
+  "title": "The Adams-Onis treaty cedes East and West Florida to the United States",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1819 Adams-Onis treaty cedes East and West Florida from Spain to the United States.",
+  "body": "Article II of the 1819 treaty says His Catholic Majesty cedes to the United States, in full property and sovereignty, the territories east of the Mississippi known as East and West Florida. The cession is between Spain and the United States. Seminole and other Native title is not the subject of this article. The wording on the page includes: \"which belong to him, situated to the eastward of the Mississippi, known by the name of East and West Florida. The adjacent islands dependent on said provinces, all public lots and squares, vacant lands, public edifices, fortifications, barracks, and other buildings, which are not private property, archives and documents, which relate directly to the property and\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of amity, settlement, and limits, 22 February 1819",
+      "url": "https://avalon.law.yale.edu/19th_century/sp1819.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1819-02-22",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Adams-Onis treaty, Avalon Project",
+  "as_of_date": "1819",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.monroe-no-colonization"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "nineteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

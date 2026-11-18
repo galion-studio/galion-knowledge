@@ -1,0 +1,34 @@
+{
+  "id": "world.history.un-242",
+  "title": "Resolution 242 emphasizes that acquisition of territory by war is inadmissible",
+  "section": "world",
+  "category": "history",
+  "summary": "Resolution 242 says acquisition of territory by war is inadmissible and that every state in the area should live in security.",
+  "body": "Resolution 242 emphasizes the inadmissibility of the acquisition of territory by war and the need for a just and lasting peace in which every state in the area can live in security. The resolution is the Security Council's text after the 1967 war. Governments dispute whether it requires withdrawal from all the territories or from territories. That English-French argument is not settled by quoting the inadmissibility clause alone. The wording on the page includes: \"its continuing concern with the grave situation in the Middle East, Emphasizing the inadmissibility of the acquisition of territory by war and the need to work for a just and lasting peace in which every State in the area can live in security, Emphasizing further that all Member States in their acceptance of the Charter of the United Nations have undertaken a commitment to act in accordance\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Security Council Resolution 242, 22 November 1967",
+      "url": "https://avalon.law.yale.edu/20th_century/un242.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1967-11-22",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "UN Security Council, Avalon Project",
+  "as_of_date": "1967",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.khartoum-three-noes",
+    "world.history.un-338"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

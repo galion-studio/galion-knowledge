@@ -1,0 +1,33 @@
+{
+  "id": "world.history.panama-canal-treaty-1903",
+  "title": "The 1903 convention says the parties want a ship canal across the Isthmus of Panama",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1903 Hay-Bunau-Varilla convention is the agreement to build a ship canal across Panama.",
+  "body": "The 1903 convention says the United States and the Republic of Panama desire to insure the construction of a ship canal across the Isthmus of Panama to connect the Atlantic and Pacific oceans. The convention is the canal grant. It is not the 1850 Clayton-Bulwer treaty about a Nicaraguan route. The wording on the page includes: \"of America and the Republic of Panama being desirous to insure the construction of a ship canal across the Isthmus of Panama to connect the Atlantic and Pacific oecans, and the Congress of the United States of America having passed an act approved June 28, 1902, in furtherance of that object, by which the President of the United States is authorized to acquire within a reasonable\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Hay-Bunau-Varilla convention, 18 November 1903",
+      "url": "https://avalon.law.yale.edu/20th_century/pan001.asp",
+      "author": "United States and Panama, Avalon Project",
+      "date": "1903-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States and Panama, Avalon Project",
+  "as_of_date": "1903",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.clayton-bulwer-canal"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

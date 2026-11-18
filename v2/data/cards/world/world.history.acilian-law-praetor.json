@@ -1,0 +1,33 @@
+{
+  "id": "world.history.acilian-law-praetor",
+  "title": "The Acilian law, in this English, puts the praetor over the trial",
+  "section": "world",
+  "category": "history",
+  "summary": "The Acilian law text puts the praetor in charge of the extortion proceeding.",
+  "body": "The Avalon English of the Acilian law of 122 BC says the praetor shall have jurisdiction over the proceedings, and that trial, judgment, and damages follow the terms of the law. The statute is about recovery of property extorted by officials. The wording on the page includes: \"plaintiff shall have the right to bring suit and to report the name of the offender and the praetor shall have jurisdiction over the proceedings. The trial, judgment, and assessment of damages shall be by the terms of this law in the competence of those persons who constitute the trial court according to this law. In regard to a person who is judged in accordance with this law and is accused of\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Acilian Law on the Right to Recovery of Property Officially Extorted",
+      "url": "https://avalon.law.yale.edu/ancient/acilian_law.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "122 BCE",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Acilian law, Avalon Project English",
+  "as_of_date": "-122",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.twelve-tables-funeral"
+  ],
+  "tags": [
+    "history",
+    "rome",
+    "ancient",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

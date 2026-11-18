@@ -1,0 +1,52 @@
+{
+  "id": "world.history.mexico-two-accounts-1519",
+  "title": "The meeting of Cortes and Motecuhzoma is told by both a Nahuatl tradition and Cortes's letter",
+  "section": "world",
+  "category": "history",
+  "summary": "A Nahuatl-tradition account and Cortes's letter both describe the 1519 meeting, and they do not say the same thing.",
+  "body": "Two documents opened here describe the same encounter from different sides. The Nahuatl-tradition text stages Motecuhzoma's greeting. Cortes's letter to Charles V describes the city and the ruler for a Spanish king. Neither text is a neutral minute. This card does not decide whether the greeting was submission, diplomacy, or a later literary shape. The wording on the page includes: \"Cortés When Motecuhzoma [Montezuma] had given necklaces to each one, Cortés asked him: \"Are you Motecuhzoma? Are you the king? Is it true that you are the king Motecuhzoma?\" And the king said: \"Yes, I am Motecuhzoma.\" Then he stood up to welcome Cortés; he came forward, bowed his head low and addressed him in these words: \"Our lord, you are weary. The journey has\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording. A further page states: \"to convey to your Majesty a just conception of the great extent of this noble city of Temixtitlan, and of the many rare and wonderful objects it contains; of the government and dominions of Moctezuma, the sovereign: of the religious rights and customs that prevail, and the order that exists in this as well as the other cities appertaining to his realm:\".",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Aztec accounts of the conquest",
+      "url": "https://sourcebooks.fordham.edu/mod/aztecs1.asp",
+      "author": "Fordham sourcebook",
+      "date": "sixteenth century",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Cortes, second letter to Charles V",
+      "url": "https://sourcebooks.fordham.edu/mod/1520cortes.asp",
+      "author": "Hernan Cortes; Fordham",
+      "date": "1520",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Nahuatl-tradition English and Cortes's second letter, both on Fordham",
+  "as_of_date": "1520",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "Nahuatl-tradition account",
+      "summary": "Motecuhzoma identifies himself and welcomes Cortes.",
+      "status": "wording of the Fordham Indigenous account"
+    },
+    {
+      "label": "Cortes to Charles V",
+      "summary": "The conqueror describes Temixtitlan and Moctezuma's dominions for the Spanish king.",
+      "status": "wording of the 1520 letter"
+    }
+  ],
+  "related": [
+    "world.history.aztec-motecuhzoma-greeting",
+    "world.history.cortes-second-letter"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "early-modern",
+    "contested"
+  ],
+  "read_time_min": 1
+}

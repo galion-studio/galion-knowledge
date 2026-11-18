@@ -1,0 +1,34 @@
+{
+  "id": "world.religion.rsv-genesis-created",
+  "title": "The RSV Genesis opening says God created the heavens and the earth",
+  "section": "world",
+  "category": "religion",
+  "summary": "The RSV of Genesis 1:1 says God created the heavens and the earth.",
+  "body": "The Revised Standard Version of Genesis 1:1 says that in the beginning God created the heavens and the earth. That is a statement of the text. It is not a measurement from geology. The wording on the page includes: \"CUVS CUV CUVMPS CUVMPT RCU17SS RCU17TS Update Six Days of Creation and the Sabbath 1 In the beginning God created[a] the heavens and the earth. 2 The earth was without form and void, and darkness was upon the face of the deep; and the Spirit[b] of God was moving over the face of the waters. 3 And God said, “Let there be light”; and there was light. 4 And God saw that\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Genesis 1:1-5 (RSV)",
+      "url": "https://www.biblegateway.com/passage/?search=Genesis+1%3A1-5&version=RSV",
+      "author": "Revised Standard Version, via Bible Gateway",
+      "date": "RSV translation; biblical book of Genesis",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Genesis 1:1-5, Revised Standard Version",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.rigveda-nasadiya"
+  ],
+  "tags": [
+    "religion",
+    "judaism",
+    "christianity",
+    "scripture",
+    "creation"
+  ],
+  "read_time_min": 1
+}

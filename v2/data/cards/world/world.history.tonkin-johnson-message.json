@@ -1,0 +1,35 @@
+{
+  "id": "world.history.tonkin-johnson-message",
+  "title": "Johnson's 5 August 1964 message tells Congress that North Vietnamese forces attacked again",
+  "section": "world",
+  "category": "history",
+  "summary": "On 5 August 1964 Johnson told Congress that North Vietnam had conducted further deliberate attacks.",
+  "body": "Johnson's message of 5 August 1964 tells Congress that there had been further deliberate attacks against United States ships. The message is the president's account on that day. A later reconsideration of the second reported attack is not this message. This card does not decide what happened in the gulf. The wording on the page includes: \"night I announced to the American people that the North Vietnamese regime had conducted further deliberate attacks against U.S. naval vessels operating in international waters, and I had therefore directed air action against gunboats and supporting facilities used in these hostile operations. This air action has now been carried out with substantial damage to the boats and\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Tonkin Gulf message and joint resolution, August 1964",
+      "url": "https://avalon.law.yale.edu/20th_century/tonkin-g.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1964-08-05",
+      "accessed": "2026-11-18",
+      "note": "The card is the president's message, not a finding about the attacks."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Lyndon Johnson, Avalon Project",
+  "as_of_date": "1964",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.geneva-indochina-1954",
+    "world.history.us-white-paper-vietnam-1965"
+  ],
+  "tags": [
+    "history",
+    "southeast-asia",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

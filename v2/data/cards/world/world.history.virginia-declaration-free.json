@@ -1,0 +1,34 @@
+{
+  "id": "world.history.virginia-declaration-free",
+  "title": "The Virginia Declaration of Rights says all men are by nature equally free and independent",
+  "section": "world",
+  "category": "history",
+  "summary": "Virginia's 12 June 1776 declaration says all men are by nature equally free and independent.",
+  "body": "The Virginia Declaration of Rights says all men are by nature equally free and independent and have inherent rights they cannot give away when they enter society, naming life and liberty. The declaration is a June 1776 text, before the 4 July declaration. Enslaved people in Virginia were not freed by this sentence. The wording on the page includes: \"1899 20th Century 1900 - 1999 21st Century 2000 - Virginia Declaration of Rights I That all men are by nature equally free and independent, and have certain inherent rights, of which, when they enter into a state of society, they cannot, by any compact, deprive or divest their posterity; namely, the enjoyment of life and liberty, with the means of acquiring and possessing property, and\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Virginia Declaration of Rights, 12 June 1776",
+      "url": "https://avalon.law.yale.edu/18th_century/virginia.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1776-06-12",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Virginia Convention, Avalon Project",
+  "as_of_date": "1776",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.declaration-independence",
+    "world.history.pennsylvania-abolition-preamble"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "eighteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

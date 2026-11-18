@@ -1,0 +1,34 @@
+{
+  "id": "world.history.tripartite-1940",
+  "title": "The Tripartite Pact of 27 September 1940 joins Germany, Italy, and Japan",
+  "section": "world",
+  "category": "history",
+  "summary": "Germany, Italy, and Japan signed the Tripartite Pact at Berlin on 27 September 1940.",
+  "body": "Avalon prints a summary of the three-power pact signed at Berlin on 27 September 1940 by Germany, Italy, and Japan. The pact is the Axis alliance. It is not the Soviet-Japanese neutrality pact of 1941. The wording on the page includes: \"1800 - 1899 20 th Century 1900 - 1999 21 st Century 2000 - Three-Power Pact Between Germany, Italy, and Japan, Signed at Berlin, September 27, 1940. Art 1 Art 2 Art 3 Art 4 Art 5 Art 6 The governments of Germany, Italy and Japan, considering it as a condition precedent of any lasting peace that all nations of the world be given each its own proper place, have\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Three-Power Pact, 27 September 1940",
+      "url": "https://avalon.law.yale.edu/wwii/triparti.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1940-09-27",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Germany, Italy, and Japan, Avalon Project",
+  "as_of_date": "1940",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.soviet-japanese-neutrality",
+    "world.history.german-war-declaration-1941"
+  ],
+  "tags": [
+    "history",
+    "global",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

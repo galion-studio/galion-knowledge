@@ -1,0 +1,34 @@
+{
+  "id": "world.history.league-covenant-page",
+  "title": "Avalon prints the Covenant of the League of Nations as its own instrument",
+  "section": "world",
+  "category": "history",
+  "summary": "Avalon publishes the Covenant of the League of Nations as a distinct constitutional text.",
+  "body": "Avalon prints the Covenant of the League of Nations. The covenant is the League's constitutional text, later part of the peace settlement. It is not the 1945 United Nations Charter. The wording on the page includes: \"treaty obligations in the dealings of organised peoples with one another, Agree to this Covenant of the League of Nations. ARTICLE 1. The original Members of the League of Nations shall be those of the Signatories which are named in the Annex to this Covenant and also such of those other States named in the Annex as shall accede without reservation to this Covenant. Such\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Covenant of the League of Nations",
+      "url": "https://avalon.law.yale.edu/20th_century/leagcov.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1919",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "League of Nations Covenant, Avalon Project",
+  "as_of_date": "1919",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.fourteen-points-open-covenants",
+    "world.history.un-charter-article-51"
+  ],
+  "tags": [
+    "history",
+    "global",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

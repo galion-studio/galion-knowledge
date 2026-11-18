@@ -1,0 +1,33 @@
+{
+  "id": "world.religion.hadith-regular-deeds",
+  "title": "A Fordham hadith selection quotes Aisha: small regular deeds are the most loved",
+  "section": "world",
+  "category": "religion",
+  "summary": "Fordham's selection quotes a hadith: the deeds most loved by God are regular ones, even if small.",
+  "body": "Fordham's hadith page quotes Aisha as reporting that the deeds most loved by Allah are those done regularly, even if small, and it cites Bukhari and Muslim. The page is a selection, not a critical edition of the isnad. The card records the selection's wording. The wording on the page includes: \"Collection of Al-Hadiths Hadeeth: (1). 'A'isha said that Rasulullah saw said : \"The deeds most loved by Allah swt (are those) done regularly, even if they are small\". ( Bukhari, Muslim ) (2). 'Abdullah b. Umar said that Rasulullah saw said : \"The muslim is he from whose tongue and hand a Muslim is safe, and the muhajir he who gives up what Allah has prohibited for\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Hadith selections",
+      "url": "https://sourcebooks.fordham.edu/halsall/source/misc-hadith.asp",
+      "author": "Fordham Internet History Sourcebooks selection",
+      "date": "hadith literature, as cited on the page",
+      "accessed": "2026-11-18",
+      "note": "The page cites Bukhari and Muslim in parentheses. This card did not open those collections separately."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Hadith attributed to Aisha, cited on the Fordham page as Bukhari and Muslim",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.hadith-tongue-and-hand"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "hadith"
+  ],
+  "read_time_min": 1
+}

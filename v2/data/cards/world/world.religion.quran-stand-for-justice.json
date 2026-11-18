@@ -1,0 +1,33 @@
+{
+  "id": "world.religion.quran-stand-for-justice",
+  "title": "Quran 4:135 in Sahih International tells believers to stand firm in justice even against themselves",
+  "section": "world",
+  "category": "religion",
+  "summary": "Sahih International of Quran 4:135 commands standing firm in justice as witnesses, even against oneself.",
+  "body": "Sahih International of Quran 4:135 tells believers to be persistently standing firm in justice, as witnesses for Allah, even if against themselves or parents and relatives. The verse is an ethical command in the text. The wording on the page includes: \"O you who have believed, be persistently standing firm in justice, witnesses for Allah, even if it be against yourselves or parents and relatives. Whether one is rich or poor, Allah is more worthy of both. So follow not [personal] inclination, lest you not be just. And if you distort [your testimony] or refuse [to give it], then indeed Allah is ever, with what you do, Acquainted.\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Quran 4:135, Sahih International",
+      "url": "https://api.alquran.cloud/v1/ayah/4:135/editions/en.sahih",
+      "author": "Sahih International, via alquran.cloud",
+      "date": "Quran",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Quran 4:135, Sahih International",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.quran-righteousness-not-the-east"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "quran",
+    "ethics"
+  ],
+  "read_time_min": 1
+}

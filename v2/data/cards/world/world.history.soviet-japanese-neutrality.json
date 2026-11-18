@@ -1,0 +1,33 @@
+{
+  "id": "world.history.soviet-japanese-neutrality",
+  "title": "The Soviet-Japanese neutrality pact of 13 April 1941 is a separate instrument from the Axis pact",
+  "section": "world",
+  "category": "history",
+  "summary": "On 13 April 1941 the Soviet Union and Japan signed a neutrality pact.",
+  "body": "Avalon prints the Soviet-Japanese Neutrality Pact of 13 April 1941. Japan was in the Tripartite Pact with Germany and Italy, and also in this neutrality pact with the Soviet Union. The two treaties pull in different directions, and both texts exist. The wording on the page includes: \"th Century 1800 - 1899 20 th Century 1900 - 1999 21 st Century 2000 - Soviet-Japanese Neutrality Pact April 13, 1941 PACT OF NEUTRALITY BETWEEN UNION OF SOVIET SOCIALIST REPUBLICS AND JAPAN The Presidium of the Supreme Soviet of the Union of Soviet Socialist Republics and His Majesty the Emperor of Japan, guided by a desire to strengthen peaceful and\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Soviet-Japanese Neutrality Pact, 13 April 1941",
+      "url": "https://avalon.law.yale.edu/wwii/s1.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1941-04-13",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "USSR and Japan, Avalon Project",
+  "as_of_date": "1941",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.tripartite-1940"
+  ],
+  "tags": [
+    "history",
+    "east-asia",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}
