@@ -7,10 +7,10 @@
     "id": "core",
     "section": "core",
     "category": "core",
-    "sha256": "350085320a2e6c1e69fb713e017a70aef7692544dad77b6f964fe911497f52bd",
-    "bytes": 1032887,
+    "sha256": "ba1be57959a9984cc1799cdbba4f13d6b461ef4bc57df549e01b1f2f15ef7d84",
+    "bytes": 1657206,
     "payload": "card-bundle/1",
-    "card_count": 436
+    "card_count": 799
   },
   "shards": [
     {
