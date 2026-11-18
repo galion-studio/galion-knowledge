@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.ir-form",
+  "title": "Iran's constitution states the form of government as an Islamic republic",
+  "section": "world",
+  "category": "law",
+  "summary": "Iran's constitution states the form of government as an Islamic republic.",
+  "body": "Article 1 says the form of government of Iran is that of an Islamic republic, endorsed by the people in the referendum the article dates. The source says: \"General Principles Type of government envisioned Article 1 The form of government of Iran is that of an Islamic Republic, endorsed by the people of Iran on the basis of their longstanding belief in the sovereignty of truth and Qur'anic justice, in the referendum of Farwardîn 9 and 10 in the year 1358 of the solar Islamic calendar, corresponding to Jamadial-'Awwal 1 and 2 in the year 1399 of the lunar Islamic calendar [March 29 and 30, 1979], through the af\" The article states the form and points to a referendum. The English text is the compilation's.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Islamic Republic of Iran, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Iran_1989?lang=en",
+      "author": "Constitution of the Islamic Republic of Iran, Constitute Project English text",
+      "date": "1989",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Iran, Article 1",
+  "as_of_date": "1989",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ir-faqih",
+    "world.core.power.ir-elections",
+    "world.core.power.ir-islamic-criteria"
+  ],
+  "tags": [
+    "law",
+    "iran",
+    "constitution"
+  ]
+}

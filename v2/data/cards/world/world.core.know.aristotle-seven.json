@@ -1,0 +1,32 @@
+{
+  "id": "world.core.know.aristotle-seven",
+  "title": "Aristotle lists seven sources of apparent refutation that do not depend on language",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Aristotle lists seven sources of apparent refutation that do not depend on language.",
+  "body": "Outside language, the translation says, there are seven kinds: accident; using an expression absolutely or with a qualification of respect, place, time, or relation; ignorance of what a refutation is; the consequent; assuming the original point; stating as cause what is not a cause; and making several questions into one. The source says: \"Of fallacies, on the other hand, that are independent of language there are seven kinds: (1) that which depends upon Accident: (2) the use of an expression absolutely or not absolutely but with some qualification of respect or place, or time, or relation: (3) that which depends upon ignorance of what 'refutation' is: (4) that which depends upon the consequent: (5) that which depends upon assuming the original conclusion: (6\" The list is Aristotle's, in this translation. A modern textbook name for one of these patterns is not a license to treat the label as a proof that a speaker is wrong about the substance.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On Sophistical Refutations, Internet Classics Archive",
+      "url": "http://classics.mit.edu/Aristotle/sophist_refut.1.1.html",
+      "author": "Aristotle, translated for the Internet Classics Archive",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Aristotle, Sophistical Refutations, Internet Classics Archive translation",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.know.forallx-sound",
+    "world.core.know.aristotle-reasoning",
+    "world.core.know.aristotle-names"
+  ],
+  "tags": [
+    "logic",
+    "fallacies"
+  ]
+}

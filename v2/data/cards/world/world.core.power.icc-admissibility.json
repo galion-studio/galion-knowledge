@@ -1,0 +1,32 @@
+{
+  "id": "world.core.power.icc-admissibility",
+  "title": "The Rome Statute makes a case inadmissible when a state is already investigating or prosecuting, unless that state is unwilling or unable genuinely to proceed",
+  "section": "world",
+  "category": "law",
+  "summary": "The Rome Statute makes a case inadmissible when a state is already investigating or prosecuting, unless that state is unwilling or unable genuinely to proceed.",
+  "body": "Article 17 says the Court shall determine that a case is inadmissible where the case is being investigated or prosecuted by a state which has jurisdiction, unless the state is unwilling or unable genuinely to carry out the investigation or prosecution, and it states further inadmissibility grounds. The source says: \"Having regard to paragraph 10 of the Preamble and article 1, the Court shall determine that a case is inadmissible where: (a) The case is being investigated or prosecuted by a State which has jurisdiction over it, unless the State is unwilling or unable genuinely to carry out the investigation or prosecution; (b) The case has been investigated by a State which has jurisdiction over it and the State has decided not to prosecute the person concerned, unless the decision resulted from the unwillingness or inability of\" The article is how complementarity is operationalized in the statute: national proceedings come first unless the unwillingness or inability tests are met. This card does not apply the tests to a named case.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Rome Statute of the International Criminal Court (English PDF, ICC)",
+      "url": "https://www.icc-cpi.int/sites/default/files/2024-05/Rome-Statute-eng.pdf",
+      "author": "Rome Statute of the International Criminal Court (English PDF, ICC)",
+      "date": "1998",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Rome Statute, Article 17",
+  "as_of_date": "1998",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.icc-complementary",
+    "world.core.power.icc-crimes"
+  ],
+  "tags": [
+    "law",
+    "icc",
+    "admissibility"
+  ]
+}

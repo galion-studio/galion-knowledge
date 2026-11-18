@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.in-article-19",
+  "title": "India's constitution grants citizens freedom of speech and expression, and then lists further freedoms in the same article",
+  "section": "world",
+  "category": "law",
+  "summary": "India's constitution grants citizens freedom of speech and expression, and then lists further freedoms in the same article.",
+  "body": "Article 19 says all citizens shall have the right to freedom of speech and expression, to assemble peaceably and without arms, and it continues with further freedoms in the same provision. The source says: \"Protection of certain rights regarding freedom of speech, etc All citizens shall have the right- Freedom of expression to freedom of speech and expression; Freedom of assembly to assemble peaceably and without arms; Freedom of association , Right to join trade unions to form associations or unions or co-operative societies; Freedom of movement to move freely throughout the territory of India; to reside and settle in any part of the territory of India; [omitted by s.\" The right is granted to citizens. Reasonable-restriction clauses that appear in the full article are part of the constitution's text and are not erased by quoting the grant.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of India, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/India_2016?lang=en",
+      "author": "Constitution of India, Constitute Project English text",
+      "date": "2016",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of India, Article 19",
+  "as_of_date": "2016",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.in-article-14",
+    "world.core.power.in-preamble",
+    "world.core.power.in-article-32"
+  ],
+  "tags": [
+    "law",
+    "india",
+    "speech"
+  ]
+}

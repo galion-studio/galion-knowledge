@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.treasury-two-debts",
+  "title": "The Treasury distinguishes debt held by the public from intragovernmental debt",
+  "section": "world",
+  "category": "economics",
+  "summary": "The Treasury distinguishes debt held by the public from intragovernmental debt.",
+  "body": "Treasury Fiscal Data says the national debt is distinguished by whether it is debt held by the public or debt held by the government itself, which it calls intragovernmental. The source says: \"The different types of debt include non-marketable or marketable securities and whether it is debt held by the public or debt held by the government itself (known as intragovernmental).\" A single headline number can add those two stocks. The Treasury's own guide says they are not the same category. This card does not state the dollar level, which changes from day to day.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Understanding the National Debt",
+      "url": "https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/",
+      "author": "U.S. Department of the Treasury",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Department of the Treasury, Fiscal Data",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "economics",
+    "debt",
+    "united-states"
+  ]
+}

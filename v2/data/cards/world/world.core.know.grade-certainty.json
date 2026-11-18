@@ -1,0 +1,29 @@
+{
+  "id": "world.core.know.grade-certainty",
+  "title": "GRADE is a method for grading the certainty of evidence and the strength of recommendations",
+  "section": "world",
+  "category": "method",
+  "summary": "GRADE is a method for grading the certainty of evidence and the strength of recommendations.",
+  "body": "The GRADE Working Group describes its approach as grading the quality, or certainty, of evidence and the strength of recommendations, from evidence to recommendations. The source says: \"The working group has developed a common, sensible and transparent approach to grading quality (or certainty) of evidence and strength of recommendations.\" Certainty of evidence and strength of a recommendation are separated by the group's own description. A strong recommendation is not, on that description, the same claim as high-certainty evidence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "GRADE Working Group",
+      "url": "https://www.gradeworkinggroup.org/",
+      "author": "GRADE Working Group",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "GRADE Working Group",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "method",
+    "evidence",
+    "guidelines"
+  ]
+}

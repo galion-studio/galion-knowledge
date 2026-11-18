@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.ru-rights-supreme",
+  "title": "Russia's constitution says the human being and human rights and freedoms are the supreme value",
+  "section": "world",
+  "category": "law",
+  "summary": "Russia's constitution says the human being and human rights and freedoms are the supreme value.",
+  "body": "Article 2 says man, his rights and freedoms shall be the supreme value, and that recognition, observance, and protection of human and civil rights and freedoms is the obligation of the state. The source says: \"Article 2 Man, his rights and freedoms shall be the supreme value.\" The article states an obligation of the state. It is not a report of complaint statistics.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Russian Federation, Constitute Project English text (Russia 2014 compilation)",
+      "url": "https://www.constituteproject.org/constitution/Russia_2014?lang=en",
+      "author": "Constitution of the Russian Federation, Constitute Project English text (Russia 2014 compilation)",
+      "date": "2014",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of the Russian Federation, Article 2",
+  "as_of_date": "2014",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ru-separation-organs",
+    "world.core.power.ru-multiparty",
+    "world.core.power.ru-form"
+  ],
+  "tags": [
+    "law",
+    "russia",
+    "rights"
+  ]
+}

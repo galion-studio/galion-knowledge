@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-states-cannot-coin",
+  "title": "The 1787 text bars states from coining money and from ex post facto laws",
+  "section": "world",
+  "category": "law",
+  "summary": "The 1787 text bars states from coining money and from ex post facto laws.",
+  "body": "Article I, Section 10 of the 1787 transcription forbids states a list of acts, including treaties, coining money, emitting bills of credit, making anything but gold and silver coin a tender for debts, bills of attainder, ex post facto laws, and laws impairing the obligation of contracts. The source says: \"No State shall enter into any Treaty, Alliance, or Confederation; grant Letters of Marque and Reprisal; coin Money; emit Bills of Credit; make any Thing but gold and silver Coin a Tender in Payment of Debts; pass any Bill of Attainder, ex post facto Law, or Law impairing the Obligation of Contracts, or grant any Title of Nobility.\" The list is a restraint written on the states. It is not a description of how every later court applied the contract clause.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Constitution (1787 text, National Archives transcription)",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds",
+    "world.core.money.fomc-two-percent"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "federalism"
+  ]
+}

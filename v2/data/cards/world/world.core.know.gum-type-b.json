@@ -1,0 +1,32 @@
+{
+  "id": "world.core.know.gum-type-b",
+  "title": "The GUM's Type B evaluation uses means other than the statistical analysis of a series of observations",
+  "section": "world",
+  "category": "method",
+  "summary": "The GUM's Type B evaluation uses means other than the statistical analysis of a series of observations.",
+  "body": "The Guide defines a Type B evaluation as a method of evaluating uncertainty by means other than the statistical analysis of a series of observations. The source says: \"observations 2.3.3 Type B evaluation (of uncertainty) method of evaluation of uncertainty by means other than the statistical analysis of series of observations 2.3.4 combined standard uncertainty standard uncertainty of the result of a measurement when that result is obtained from the values of a number of other quantities, equal to the positive square root of a sum of terms, the terms being the variances or covariances of these other quantities weighted according to h\" A number taken from a calibration certificate or a prior bound can be a Type B input. It is still an uncertainty component. It is not a second-class guess merely because it did not come from repeating the measurement.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "JCGM 100:2008",
+      "url": "https://www.bipm.org/documents/20126/2071204/JCGM_100_2008_E.pdf",
+      "author": "JCGM / BIPM",
+      "date": "2008",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Joint Committee for Guides in Metrology",
+  "as_of_date": "2008",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.know.gum-true-value",
+    "world.core.know.consort-reporting",
+    "world.core.know.gum-type-a"
+  ],
+  "tags": [
+    "method",
+    "measurement"
+  ]
+}

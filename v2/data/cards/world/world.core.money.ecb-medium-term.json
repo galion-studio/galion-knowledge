@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.ecb-medium-term",
+  "title": "The ECB seeks price stability over the medium term and allows short-term deviations",
+  "section": "world",
+  "category": "economics",
+  "summary": "The ECB seeks price stability over the medium term and allows short-term deviations.",
+  "body": "The ECB says it seeks price stability over the medium term, which allows short-term deviations, provides flexibility, and makes it possible to cater for other considerations. The source says: \"This allows for short-term deviations of inflation from its target, provides the necessary flexibility and makes it possible to cater for other considerations.\" A monthly miss of 2 percent is not, on this page, itself a breach of the strategy. The horizon the Council states is the medium term.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Monetary policy strategy",
+      "url": "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html",
+      "author": "European Central Bank",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "European Central Bank, Governing Council",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.riksbank-cpif",
+    "world.core.money.fomc-two-percent",
+    "world.core.money.snb-strategy"
+  ],
+  "tags": [
+    "economics",
+    "inflation",
+    "euro-area"
+  ]
+}

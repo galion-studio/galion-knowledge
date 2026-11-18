@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-amendment-16",
+  "title": "The Sixteenth Amendment authorizes a federal tax on incomes without apportionment among the states",
+  "section": "world",
+  "category": "law",
+  "summary": "The Sixteenth Amendment authorizes a federal tax on incomes without apportionment among the states.",
+  "body": "The Sixteenth Amendment says Congress shall have power to lay and collect taxes on incomes, from whatever source derived, without apportionment among the several states, and without regard to any census or enumeration. The source says: \"Amendment XVI The Congress shall have power to lay and collect taxes on incomes, from whatever source derived, without apportionment among the several States, and without regard to any census or enumeration.\" The amendment removes an apportionment constraint for income taxes. The rates and brackets of a given year are not in the amendment.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the United States of America (Constitute Project English text, 1992 consolidation)",
+      "url": "https://www.constituteproject.org/constitution/United_States_of_America_1992?lang=en",
+      "author": "Constitute Project, from the United States Constitution",
+      "date": "1992",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "United States Constitution, Amendment XVI",
+  "as_of_date": "1913",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "tax"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world.core.money.fed-twelve-banks",
+  "title": "The Fed says twelve Reserve Banks are the operating arms of the System, each in its own district",
+  "section": "world",
+  "category": "economics",
+  "summary": "The Fed says twelve Reserve Banks are the operating arms of the System, each in its own district.",
+  "body": "The structure page says the twelve Reserve Banks and their twenty-four branches are the operating arms of the System, and that each Reserve Bank operates within its own district. The source says: \"The 12 Reserve Banks — and their 24 Branches — are the operating arms of the Federal Reserve System. Each Reserve Bank operates within its own particular geographic area, or district, of the United States.\" The page also says that, although supervised by the Board, the Reserve Banks operate independently in many respects. That is the Board's description of the design.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Structure of the Federal Reserve System",
+      "url": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+      "author": "Board of Governors of the Federal Reserve System",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Board of Governors of the Federal Reserve System",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.fed-five-functions",
+    "world.core.money.fed-governors-terms",
+    "world.core.money.fed-created-1913"
+  ],
+  "tags": [
+    "economics",
+    "central-banking"
+  ]
+}

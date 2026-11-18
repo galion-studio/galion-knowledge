@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-amendment-14-equal-protection",
+  "title": "The Fourteenth Amendment forbids a state to deny equal protection of the laws",
+  "section": "world",
+  "category": "law",
+  "summary": "The Fourteenth Amendment forbids a state to deny equal protection of the laws.",
+  "body": "The same section says no state shall deny to any person within its jurisdiction the equal protection of the laws, and also says no state shall deprive any person of life, liberty, or property without due process of law. The source says: \"ts jurisdiction the equal protection of the laws.\" The command is addressed to states, and it uses 'any person within its jurisdiction,' not only citizens. Later doctrine about tiers of review is not in the sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the United States of America (Constitute Project English text, 1992 consolidation)",
+      "url": "https://www.constituteproject.org/constitution/United_States_of_America_1992?lang=en",
+      "author": "Constitute Project, from the United States Constitution",
+      "date": "1992",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "United States Constitution, Amendment XIV",
+  "as_of_date": "1868",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "equality"
+  ]
+}

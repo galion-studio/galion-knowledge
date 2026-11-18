@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.nrc-reactor-types",
+  "title": "The NRC says only pressurized-water and boiling-water reactors are in commercial operation in the United States",
+  "section": "world",
+  "category": "technology",
+  "summary": "The NRC says only pressurized-water and boiling-water reactors are in commercial operation in the United States.",
+  "body": "The Nuclear Regulatory Commission says commercial nuclear power plants that generate electricity are of several types, and that of these only pressurized-water reactors and boiling-water reactors are in commercial operation in the United States. The source says: \"Of these, only the Pressurized Water Reactors (PWRs) and Boiling Water Reactors (BWRs) are in commercial operation in the United States.\" The sentence is about commercial operation in the United States, as the regulator states it. It is not a world census, and it is not a design manual.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Power Reactors",
+      "url": "https://www.nrc.gov/reactors/power.html",
+      "author": "U.S. Nuclear Regulatory Commission",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Nuclear Regulatory Commission",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.grid-transmission",
+    "world.core.tech.btu",
+    "world.core.tech.energy-forms"
+  ],
+  "tags": [
+    "technology",
+    "energy",
+    "nuclear"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "world.core.know.consort-reporting",
+  "title": "CONSORT is a guideline for reporting randomised trials, not a proof that a reported trial is true",
+  "section": "world",
+  "category": "method",
+  "summary": "CONSORT is a guideline for reporting randomised trials, not a proof that a reported trial is true.",
+  "body": "The EQUATOR Network page presents the CONSORT 2025 statement as an updated guideline for reporting randomised trials. The source says: \"CONSORT 2025 Statement: updated guideline for reporting randomised trials.\" A reporting guideline tells authors what to disclose. Compliance with a reporting checklist is not the same thing as the trial's result being correct, and it is not a substitute for reading the methods.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "CONSORT 2025 Statement: updated guideline for reporting randomised trials",
+      "url": "https://www.equator-network.org/reporting-guidelines/consort/",
+      "author": "EQUATOR Network",
+      "date": "2025",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "EQUATOR Network, describing the CONSORT 2025 statement",
+  "as_of_date": "2025",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "method",
+    "trials",
+    "reporting"
+  ]
+}

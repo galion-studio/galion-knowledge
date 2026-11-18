@@ -1,0 +1,65 @@
+{
+  "id": "world.core.money.two-percent-is-not-one-object",
+  "title": "A 2 percent inflation target is not one object: the Fed, the ECB, the Bank of Canada, and the Riksbank name different indexes",
+  "section": "world",
+  "category": "economics",
+  "summary": "A 2 percent inflation target is not one object: the Fed, the ECB, the Bank of Canada, and the Riksbank name different indexes.",
+  "body": "Four official targets opened for this pack use the number 2 percent and do not use the same index. The FOMC's January 2026 statement uses the price index for personal consumption expenditures. The ECB uses the Harmonised Index of Consumer Prices. The Bank of Canada uses the total consumer price index and places 2 percent as the midpoint of a 1 to 3 percent range. The Riksbank uses the CPIF. Section 2A of the Federal Reserve Act names stable prices and does not state 2 percent. The source says: \"The Committee reaffirms its judgment that inflation at the rate of 2 percent, as measured by the annual change in the price index for personal consumption expenditures, is most consistent over the longer run with the Federal Reserve’s statutory maximum employment and price stability mandates.\" Comparing the slogans without the index compares different measurements. This card does not say which index is the right one.\n",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "FOMC longer-run goals; ECB monetary policy strategy; Bank of Canada inflation; Riksbank inflation target",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/FOMC_LongerRunGoals.pdf",
+      "author": "Federal Open Market Committee",
+      "date": "2026-01-27",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Monetary policy strategy",
+      "url": "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html",
+      "author": "European Central Bank",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "2 percent HICP over the medium term."
+    },
+    {
+      "title": "Inflation",
+      "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/inflation/",
+      "author": "Bank of Canada",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "2 percent midpoint of a 1 to 3 percent CPI range."
+    },
+    {
+      "title": "The inflation target",
+      "url": "https://www.riksbank.se/en-gb/monetary-policy/the-inflation-target/",
+      "author": "Sveriges Riksbank",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "2 percent CPIF."
+    },
+    {
+      "title": "Section 2A. Monetary policy objectives",
+      "url": "https://www.federalreserve.gov/aboutthefed/section2a.htm",
+      "author": "Board of Governors of the Federal Reserve System",
+      "date": "1977",
+      "accessed": "2026-11-18",
+      "note": "Names stable prices and does not state 2 percent."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Federal Open Market Committee; European Central Bank; Bank of Canada; Sveriges Riksbank",
+  "as_of_date": "2026-01-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.riksbank-cpif",
+    "world.core.money.fomc-two-percent",
+    "world.core.money.snb-strategy"
+  ],
+  "tags": [
+    "economics",
+    "inflation",
+    "measurement"
+  ]
+}

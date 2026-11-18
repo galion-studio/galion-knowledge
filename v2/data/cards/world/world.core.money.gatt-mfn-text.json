@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.gatt-mfn-text",
+  "title": "GATT Article I requires an advantage granted to one country's products to be accorded immediately and unconditionally to like products of other contracting parties",
+  "section": "world",
+  "category": "economics",
+  "summary": "GATT Article I requires an advantage granted to one country's products to be accorded immediately and unconditionally to like products of other contracting parties.",
+  "body": "Article I of the GATT 1947 text published by the WTO says that, with respect to customs duties and charges of the kinds the article names, any advantage, favour, privilege, or immunity granted by a contracting party to any product originating in or destined for any other country shall be accorded immediately and unconditionally to the like product originating in or destined for the territories of all other contracting parties. The source says: \"4 of Article III, * any advantage, favour, privilege or immunity granted by any contracting party to any product originating in or destined for any other country shall be accorded immediately and unconditionally to the like product originating in or destined for the territories of all other contracting parties.\" The legal sentence is about like products and about advantages granted to any other country, not only to other contracting parties. Exceptions live in other provisions and are not this sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The General Agreement on Tariffs and Trade (GATT 1947)",
+      "url": "https://www.wto.org/english/docs_e/legal_e/gatt47_e.htm",
+      "author": "World Trade Organization, legal text of GATT 1947",
+      "date": "1947",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "General Agreement on Tariffs and Trade, 1947 text as published by the WTO",
+  "as_of_date": "1947",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.wto-mfn",
+    "world.core.money.wto-national-treatment",
+    "world.core.money.wto-barriers"
+  ],
+  "tags": [
+    "economics",
+    "trade",
+    "gatt"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.uri",
+  "title": "A URI is a compact sequence of characters that identifies an abstract or physical resource",
+  "section": "world",
+  "category": "technology",
+  "summary": "A URI is a compact sequence of characters that identifies an abstract or physical resource.",
+  "body": "RFC 3986 defines a Uniform Resource Identifier as a compact sequence of characters that identifies an abstract or physical resource, and it defines the generic syntax and a process for resolving references. The source says: \"Abstract A Uniform Resource Identifier (URI) is a compact sequence of characters that identifies an abstract or physical resource.\" Identification is not retrieval. The RFC is about the identifier. What a server returns when asked for a URI is a further protocol.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 3986: Uniform Resource Identifier (URI): Generic Syntax",
+      "url": "https://www.rfc-editor.org/rfc/rfc3986",
+      "author": "T. Berners-Lee, R. Fielding, and L. Masinter",
+      "date": "2005-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "T. Berners-Lee, R. Fielding, L. Masinter, RFC 3986",
+  "as_of_date": "2005-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "web"
+  ]
+}

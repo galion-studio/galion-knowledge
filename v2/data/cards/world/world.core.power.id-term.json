@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.id-term",
+  "title": "Indonesia's constitution limits the president to one re-election",
+  "section": "world",
+  "category": "law",
+  "summary": "Indonesia's constitution limits the president to one re-election.",
+  "body": "Article 7 says the president and vice president hold office for five years and may subsequently be re-elected to the same office for one further term only. The source says: \"Head of state term limits , Head of state term length Article 7 The President and Vice President shall hold office for a term of five years and may subsequently be reelected to the same office for one further term only.\" The limit is one further term, written in the article.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Indonesia, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Indonesia_2002?lang=en",
+      "author": "Constitution of Indonesia, Constitute Project English text",
+      "date": "2002",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Indonesia, Article 7",
+  "as_of_date": "2002",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.id-cannot-dissolve",
+    "world.core.power.id-emergency",
+    "world.core.power.fr-president-term"
+  ],
+  "tags": [
+    "law",
+    "indonesia",
+    "presidency"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.senate-cloture",
+  "title": "The Senate's own page says cloture on most matters takes three-fifths of all senators duly chosen and sworn",
+  "section": "world",
+  "category": "law",
+  "summary": "The Senate's own page says cloture on most matters takes three-fifths of all senators duly chosen and sworn.",
+  "body": "The Senate's page on filibusters and cloture says the number of votes required for cloture on most questions is three-fifths of all senators duly chosen and sworn, or 60 of the 100-member Senate. The source says: \"senators voting to three-fifths of all senators duly chosen and sworn, or 60 of the 100-member Senate.\" The page states the cloture threshold used in a 100-member Senate. It is the Senate's account of its procedure. A different threshold for a particular question would have to be read in the rule that governs that question.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "About Filibusters and Cloture, senate.gov",
+      "url": "https://www.senate.gov/about/powers-procedures/filibusters-cloture.htm",
+      "author": "United States Senate",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Senate",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "senate"
+  ]
+}

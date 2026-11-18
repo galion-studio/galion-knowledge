@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.bea-annual-rates",
+  "title": "BEA says quarterly GDP is reported at annual rates unless otherwise specified",
+  "section": "world",
+  "category": "economics",
+  "summary": "BEA says quarterly GDP is reported at annual rates unless otherwise specified.",
+  "body": "BEA says quarterly GDP data are reported at annual rates, for ease of comparison, unless otherwise specified. The source says: \"Quarterly GDP data are reported at annual rates , for ease of comparison, unless otherwise specified.\" An annual rate is not the quarter's own percent change. Reading a quarterly annualized figure as the gain during that quarter alone misreads the unit BEA states.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What to know: GDP",
+      "url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp",
+      "author": "Bureau of Economic Analysis",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Bureau of Economic Analysis",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.bea-three-estimates",
+    "world.core.money.bea-seasonal",
+    "world.core.money.bea-real-nominal"
+  ],
+  "tags": [
+    "economics",
+    "gdp",
+    "measurement"
+  ]
+}

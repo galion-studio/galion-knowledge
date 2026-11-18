@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.echr-private-life",
+  "title": "The European Convention protects private and family life, home, and correspondence, and allows interference only as the article states",
+  "section": "world",
+  "category": "law",
+  "summary": "The European Convention protects private and family life, home, and correspondence, and allows interference only as the article states.",
+  "body": "Article 8 says everyone has the right to respect for private and family life, home, and correspondence, and that a public authority shall not interfere except as in accordance with the law and necessary in a democratic society for the aims the article lists. The source says: \"Everyone has the right to respect for his private and family life, his home and his correspondence.\" The right and the interference rule are both in the article. Quoting only the right would drop a condition the text includes.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Convention for the Protection of Human Rights and Fundamental Freedoms, Council of Europe English text",
+      "url": "https://www.echr.coe.int/documents/d/echr/Convention_ENG",
+      "author": "Convention for the Protection of Human Rights and Fundamental Freedoms, Council of Europe English text",
+      "date": "1950",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "European Convention on Human Rights, Article 8",
+  "as_of_date": "1950",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.echr-fair-hearing",
+    "world.core.power.echr-expression",
+    "world.core.power.echr-torture"
+  ],
+  "tags": [
+    "law",
+    "echr",
+    "privacy"
+  ]
+}

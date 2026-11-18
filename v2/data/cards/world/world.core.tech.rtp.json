@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.rtp",
+  "title": "RTP is specified as a transport protocol for real-time applications",
+  "section": "world",
+  "category": "technology",
+  "summary": "RTP is specified as a transport protocol for real-time applications.",
+  "body": "RFC 3550 specifies RTP, a transport protocol for real-time applications. The source says: \"Jacobson Packet Design July 2003 RTP: A Transport Protocol for Real-Time Applications Status of this Memo This document specifies an Internet standards track protocol for the Internet community, and requests discussion and suggestions for improvements.\" Real-time transport is the purpose named in the title. RTP does not, by that title, guarantee that a conversation arrives without loss. Loss and delay are properties the application has to tolerate or conceal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 3550: RTP: A Transport Protocol for Real-Time Applications",
+      "url": "https://www.rfc-editor.org/rfc/rfc3550",
+      "author": "H. Schulzrinne, S. Casner, R. Frederick, and V. Jacobson",
+      "date": "2003-07",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "H. Schulzrinne and others, RFC 3550",
+  "as_of_date": "2003-07",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "media"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.websocket",
+  "title": "The WebSocket protocol specifies two-way communication between a client and a host that has opted in",
+  "section": "world",
+  "category": "technology",
+  "summary": "The WebSocket protocol specifies two-way communication between a client and a host that has opted in.",
+  "body": "RFC 6455 says the WebSocket protocol enables two-way communication between a client running untrusted code in a controlled environment and a remote host that has opted in to communications from that code. The source says: \"December 2011 The WebSocket Protocol Abstract The WebSocket Protocol enables two-way communication between a client running untrusted code in a controlled environment to a remote host that has opted-in to communications from that code.\" The opt-in is part of the abstract. A WebSocket is not an open pipe to an arbitrary machine that did not complete the handshake.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 6455: The WebSocket Protocol",
+      "url": "https://www.rfc-editor.org/rfc/rfc6455",
+      "author": "I. Fette and A. Melnikov",
+      "date": "2011-12",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "I. Fette and A. Melnikov, RFC 6455",
+  "as_of_date": "2011-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "web"
+  ]
+}

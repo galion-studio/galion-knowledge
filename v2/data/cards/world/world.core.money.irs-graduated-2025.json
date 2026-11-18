@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.irs-graduated-2025",
+  "title": "The IRS publishes graduated 2025 rate tables, not a single rate on all taxable income",
+  "section": "world",
+  "category": "economics",
+  "summary": "The IRS publishes graduated 2025 rate tables, not a single rate on all taxable income.",
+  "body": "The IRS page of federal income-tax rates and brackets for 2025 shows separate tables by filing status. For married filing jointly or qualifying surviving spouse, the table is a schedule of rates on slices of taxable income, beginning at 10 percent. The source says: \"Married filing jointly or qualifying surviving spouse. Tax rate on taxable income: 10% from $0 to $23,850; 12% from $23,851 to $96,950; 22% from $96,951 to $206,700; 24% from $206,701 to $394,600; 32% from $394,601 to $501,050; 35% from $501,051 to $751,600; 37% from $751,601 and up.\" A graduated table means different slices of taxable income are taxed at different rates. The page is the rate schedule, not a statement of what a household actually pays after credits, and not a theory of who bears the economic burden of the tax.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Federal income tax rates and brackets",
+      "url": "https://www.irs.gov/filing/federal-income-tax-rates-and-brackets",
+      "author": "Internal Revenue Service",
+      "date": "2025",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Internal Revenue Service",
+  "as_of_date": "2025",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.sa-zakat",
+    "world.core.power.us-amendment-16",
+    "world.core.money.wto-national-treatment"
+  ],
+  "tags": [
+    "economics",
+    "tax",
+    "united-states"
+  ]
+}

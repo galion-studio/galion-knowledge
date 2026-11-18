@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.ch-neutrality",
+  "title": "The Swiss constitution's English text mentions the independence and neutrality of Switzerland as an object of federal measures",
+  "section": "world",
+  "category": "law",
+  "summary": "The Swiss constitution's English text mentions the independence and neutrality of Switzerland as an object of federal measures.",
+  "body": "The English translation contains a provision on safeguarding the independence and neutrality of Switzerland, in the passage on exceptional federal measures. The source says: \"Further duties and powers The Federal Assembly has the following additional duties and powers: taking measures to safeguard external security and the independence and neutrality of Switzerland.\" Neutrality appears in that passage of the translation. The card does not convert the word into a history of Swiss foreign policy. The English text has no legal force, as the compilation itself says.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Federal Constitution of the Swiss Confederation, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Switzerland_2014?lang=en",
+      "author": "Federal Constitution of the Swiss Confederation, Constitute Project English text",
+      "date": "2014",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Federal Constitution of Switzerland",
+  "as_of_date": "2014",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ch-english-no-force",
+    "world.core.money.snb-strategy",
+    "world.core.power.ch-initiative"
+  ],
+  "tags": [
+    "law",
+    "switzerland",
+    "neutrality"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.smtp",
+  "title": "SMTP is the Internet standard for transferring mail",
+  "section": "world",
+  "category": "technology",
+  "summary": "SMTP is the Internet standard for transferring mail.",
+  "body": "RFC 5321 specifies the Simple Mail Transfer Protocol. The source says: \"Klensin Request for Comments: 5321 October 2008 Obsoletes: 2821 Updates: 1123 Category: Standards Track Simple Mail Transfer Protocol Status of This Memo This document specifies an Internet standards track protocol for the Internet community, and requests discussion and suggestions for improvements.\" SMTP moves mail between systems. It is not the format of the message body, which is a different specification, and it is not a statement about whether a message is true.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 5321: Simple Mail Transfer Protocol",
+      "url": "https://www.rfc-editor.org/rfc/rfc5321",
+      "author": "J. Klensin",
+      "date": "2008-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "J. Klensin, RFC 5321",
+  "as_of_date": "2008-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "email"
+  ]
+}

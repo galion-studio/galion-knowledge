@@ -1,0 +1,31 @@
+{
+  "id": "world.core.money.fomc-balanced",
+  "title": "The FOMC says that when employment and inflation are not complementary it follows a balanced approach",
+  "section": "world",
+  "category": "economics",
+  "summary": "The FOMC says that when employment and inflation are not complementary it follows a balanced approach.",
+  "body": "The statement says the employment and inflation objectives are generally complementary, and that if the Committee judges they are not, it follows a balanced approach, taking account of how far each goal is missed and of the time horizons over which they are projected to return. The source says: \"However, if the Committee judges that the objectives are not complementary, it follows a balanced approach in promoting them, taking into account the extent of departures from its goals and the potentially different time horizons over which employment and inflation are projected to return to levels judged consistent with its mandate.\" The document also says employment may at times run above real-time assessments of maximum employment without necessarily creating risks to price stability.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Statement on Longer-Run Goals and Monetary Policy Strategy",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/FOMC_LongerRunGoals.pdf",
+      "author": "Federal Open Market Committee",
+      "date": "2026-01-27",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Federal Open Market Committee",
+  "as_of_date": "2026-01-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.fed-section-2a",
+    "world.core.money.fomc-lag"
+  ],
+  "tags": [
+    "economics",
+    "monetary-policy"
+  ]
+}

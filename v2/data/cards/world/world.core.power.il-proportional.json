@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.il-proportional",
+  "title": "Israel's Basic Law requires general, national, direct, equal, secret, and proportional elections",
+  "section": "world",
+  "category": "law",
+  "summary": "Israel's Basic Law requires general, national, direct, equal, secret, and proportional elections.",
+  "body": "Section 4 says the Knesset shall be elected by general, national, direct, equal, secret and proportional elections, in accordance with the Knesset Elections Law, and that this section shall not be varied save by a majority of the members of the Knesset. The source says: \"Electoral system The Knesset shall be elected by general, national, direct, equal, secret and proportional elections, in accordance with the Knesset Elections Law; this section shall not be varied save by a majority of the members of the Knesset.\" Proportionality is in the Basic Law, and so is an entrenchment: changing this section takes a majority of the members of the Knesset. The electoral formula itself is left to the Elections Law.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Basic Law: The Knesset, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Israel_2013?lang=en",
+      "author": "Basic Law: The Knesset, Constitute Project English text",
+      "date": "2013",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Basic Law: The Knesset, section 4",
+  "as_of_date": "2013",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.il-term",
+    "world.core.power.il-vote-18",
+    "world.core.power.il-120"
+  ],
+  "tags": [
+    "law",
+    "israel",
+    "elections"
+  ]
+}

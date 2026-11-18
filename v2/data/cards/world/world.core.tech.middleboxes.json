@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.middleboxes",
+  "title": "RFC 3234 is an informational taxonomy of middleboxes, not a standard that forbids them",
+  "section": "world",
+  "category": "technology",
+  "summary": "RFC 3234 is an informational taxonomy of middleboxes, not a standard that forbids them.",
+  "body": "RFC 3234, Middleboxes: Taxonomy and Issues, says it provides information for the Internet community and does not specify an Internet standard of any kind. The source says: \"Brim February 2002 Middleboxes: Taxonomy and Issues Status of this Memo This memo provides information for the Internet community.\" A middlebox, in that memo's framing, is a device in the path that does more than forward packets. The memo classifies them. It does not, by its own header, ban them or define one mandatory behavior.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 3234: Middleboxes: Taxonomy and Issues",
+      "url": "https://www.rfc-editor.org/rfc/rfc3234",
+      "author": "B. Carpenter and S. Brim",
+      "date": "2002-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "B. Carpenter and S. Brim, RFC 3234",
+  "as_of_date": "2002-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "architecture"
+  ]
+}

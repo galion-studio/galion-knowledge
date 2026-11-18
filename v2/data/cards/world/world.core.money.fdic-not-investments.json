@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.fdic-not-investments",
+  "title": "The FDIC says its insurance does not cover non-deposit investment products, even if a bank sells them",
+  "section": "world",
+  "category": "economics",
+  "summary": "The FDIC says its insurance does not cover non-deposit investment products, even if a bank sells them.",
+  "body": "The FDIC says deposit insurance covers deposits in all types of accounts at insured banks, but does not cover non-deposit investment products, even those offered by FDIC-insured banks, and does not cover default or bankruptcy of a non-insured institution. The source says: \"How to Know If Your Account is Covered FDIC insurance covers deposits in all types of accounts at FDIC-insured banks, but it does not cover non-deposit investment products, even those offered by FDIC-insured banks.\" A product sold inside a bank is not therefore an insured deposit. The page draws that line.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Understanding Deposit Insurance",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance/index.html",
+      "author": "Federal Deposit Insurance Corporation",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Federal Deposit Insurance Corporation",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.fdic-full-faith",
+    "world.core.money.fed-reserve-requirements-zero",
+    "world.core.money.basel-minimums"
+  ],
+  "tags": [
+    "economics",
+    "banking",
+    "insurance"
+  ]
+}

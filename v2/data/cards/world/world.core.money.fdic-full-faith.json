@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.fdic-full-faith",
+  "title": "The FDIC says the Deposit Insurance Fund is backed by the full faith and credit of the United States",
+  "section": "world",
+  "category": "economics",
+  "summary": "The FDIC says the Deposit Insurance Fund is backed by the full faith and credit of the United States.",
+  "body": "The FDIC says the Deposit Insurance Fund is backed by the full faith and credit of the United States government. It names two sources of funds on the page, including assessments on banks and interest on U.S. government obligations. The source says: \"The DIF is backed by the full faith and credit of the United States government, and it has two sources of funds: Assessments (insurance premiums) that FDIC-insured institutions pay and Interest earned on funds invested in U.S.\" Full faith and credit is the FDIC's statement of the backing. The page also says that since the FDIC was founded in 1933, no depositor has lost a penny of FDIC-insured funds. That historical sentence is the agency's own claim.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Understanding Deposit Insurance",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance/index.html",
+      "author": "Federal Deposit Insurance Corporation",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Federal Deposit Insurance Corporation",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.fdic-not-investments",
+    "world.core.money.fed-reserve-requirements-zero",
+    "world.core.money.basel-minimums"
+  ],
+  "tags": [
+    "economics",
+    "banking",
+    "insurance"
+  ]
+}

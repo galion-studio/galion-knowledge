@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.cn-public-ownership",
+  "title": "China's constitution says the basis of the socialist economic system is public ownership of the means of production",
+  "section": "world",
+  "category": "law",
+  "summary": "China's constitution says the basis of the socialist economic system is public ownership of the means of production.",
+  "body": "Article 6 says the basis of the socialist economic system is socialist public ownership of the means of production, namely ownership by the whole people and collective ownership by the working people. The source says: \"Article 6 The basis of the socialist economic system of the People's Republic of China is socialist public ownership of the means of production, namely, ownership by the whole people and collective ownership by the working people.\" A later article in the same constitution treats individual and private economies inside legal limits as major components of the socialist market economy. This card is Article 6 only.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the People's Republic of China, Constitute Project English text (2018 compilation)",
+      "url": "https://www.constituteproject.org/constitution/China_2018?lang=en",
+      "author": "Constitution of the People's Republic of China, Constitute Project English text (2018 compilation)",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of the People's Republic of China, Article 6",
+  "as_of_date": "2018",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.cn-urban-land",
+    "world.core.power.cn-nonpublic",
+    "world.core.power.cn-socialist-market"
+  ],
+  "tags": [
+    "law",
+    "china",
+    "property"
+  ]
+}

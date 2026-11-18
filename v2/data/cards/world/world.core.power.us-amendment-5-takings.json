@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-amendment-5-takings",
+  "title": "The Fifth Amendment pairs due process with a just-compensation rule for takings",
+  "section": "world",
+  "category": "law",
+  "summary": "The Fifth Amendment pairs due process with a just-compensation rule for takings.",
+  "body": "The Fifth Amendment text says no person shall be deprived of life, liberty, or property without due process of law, and that private property shall not be taken for public use without just compensation. The source says: \"berty, or property, without due process of law; nor shall private property be taken for public use, without just compensation.\" Due process and the takings sentence are adjacent clauses in the amendment. This card does not restate the amendment's grand-jury or double-jeopardy clauses.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the United States of America (Constitute Project English text, 1992 consolidation)",
+      "url": "https://www.constituteproject.org/constitution/United_States_of_America_1992?lang=en",
+      "author": "Constitute Project, from the United States Constitution",
+      "date": "1992",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "United States Constitution, Amendment V",
+  "as_of_date": "1791",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "property"
+  ]
+}

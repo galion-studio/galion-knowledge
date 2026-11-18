@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.ca-limits",
+  "title": "Canada's Charter guarantees rights subject to reasonable limits prescribed by law and demonstrably justified in a free and democratic society",
+  "section": "world",
+  "category": "law",
+  "summary": "Canada's Charter guarantees rights subject to reasonable limits prescribed by law and demonstrably justified in a free and democratic society.",
+  "body": "Section 1 of the Charter, in the Justice Laws consolidation, guarantees the rights and freedoms set out in it subject only to such reasonable limits prescribed by law as can be demonstrably justified in a free and democratic society. The source says: \"edoms set out in it subject only to such reasonable limits prescribed by law as can be demonstrably justified in a free and democratic society.\" The limit clause is in the Charter itself, not only in a later judgment. What counts as a demonstrable justification in a given case is not settled by quoting the section.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution Act, 1982, Part I, Canadian Charter of Rights and Freedoms, Justice Laws consolidation",
+      "url": "https://laws-lois.justice.gc.ca/eng/const/page-12.html",
+      "author": "Constitution Act, 1982, Part I, Canadian Charter of Rights and Freedoms, Justice Laws consolidation",
+      "date": "1982",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Canadian Charter of Rights and Freedoms, section 1",
+  "as_of_date": "1982",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ca-equality",
+    "world.core.power.ca-section-7",
+    "world.core.money.boc-target"
+  ],
+  "tags": [
+    "law",
+    "canada",
+    "rights"
+  ]
+}

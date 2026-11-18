@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.ru-multiparty",
+  "title": "Russia's constitution recognizes political diversity and a multi-party system",
+  "section": "world",
+  "category": "law",
+  "summary": "Russia's constitution recognizes political diversity and a multi-party system.",
+  "body": "The English compilation says political diversity and the multi-party system shall be recognized, that public associations shall be equal before the law, and it continues with a limit on associations whose aims or actions the same passage describes. The source says: \"Political diversity and the multi-party system shall be recognized in the Russian Federation.\" Recognition of a multi-party system and a limit on some associations appear in the same passage. This card does not drop the limit.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Russian Federation, Constitute Project English text (Russia 2014 compilation)",
+      "url": "https://www.constituteproject.org/constitution/Russia_2014?lang=en",
+      "author": "Constitution of the Russian Federation, Constitute Project English text (Russia 2014 compilation)",
+      "date": "2014",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of the Russian Federation",
+  "as_of_date": "2014",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ru-separation-organs",
+    "world.core.power.ru-rights-supreme",
+    "world.core.power.ru-form"
+  ],
+  "tags": [
+    "law",
+    "russia",
+    "parties"
+  ]
+}

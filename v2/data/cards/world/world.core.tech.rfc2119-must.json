@@ -1,0 +1,32 @@
+{
+  "id": "world.core.tech.rfc2119-must",
+  "title": "In IETF usage, MUST means the definition is an absolute requirement of the specification",
+  "section": "world",
+  "category": "technology",
+  "summary": "In IETF usage, MUST means the definition is an absolute requirement of the specification.",
+  "body": "RFC 2119, March 1997, defines MUST, and the terms REQUIRED and SHALL, to mean that the definition is an absolute requirement of the specification. The source says: \"MUST This word, or the terms \"REQUIRED\" or \"SHALL\", mean that the definition is an absolute requirement of the specification.\" The force of the word depends on the requirement level of the document that uses it, as the RFC also says. A MUST in an informational note is not the same act as a MUST in a standards-track protocol.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 2119: Key words for use in RFCs to Indicate Requirement Levels",
+      "url": "https://www.rfc-editor.org/rfc/rfc2119",
+      "author": "S. Bradner",
+      "date": "1997-03",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Scott Bradner, RFC 2119",
+  "as_of_date": "1997-03",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.rfc2119-may",
+    "world.core.tech.rfc2119-should"
+  ],
+  "tags": [
+    "technology",
+    "standards",
+    "ietf"
+  ]
+}

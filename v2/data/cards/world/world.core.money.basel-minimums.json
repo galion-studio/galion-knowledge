@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.basel-minimums",
+  "title": "Basel III is a set of minimum standards for internationally active banks, written after the 2007–09 crisis",
+  "section": "world",
+  "category": "economics",
+  "summary": "Basel III is a set of minimum standards for internationally active banks, written after the 2007–09 crisis.",
+  "body": "The BIS page says Basel III is an internationally agreed set of measures developed by the Basel Committee in response to the financial crisis of 2007–09, aimed at strengthening regulation, supervision, and risk management of banks. It says the standards are minimum requirements which apply to internationally active banks, and that members are committed to implementing them. The source says: \"Like all Basel Committee standards, Basel III standards are minimum requirements which apply to internationally active banks.\" Minimum standards for internationally active banks are not a description of every national rule for every small bank, and they are not a measurement of whether a given bank meets them.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Basel III: international regulatory framework for banks",
+      "url": "https://www.bis.org/bcbs/basel3.htm",
+      "author": "Bank for International Settlements",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Basel Committee on Banking Supervision, Bank for International Settlements",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.fdic-full-faith",
+    "world.core.money.fdic-not-investments",
+    "world.core.money.fed-reserve-requirements-zero"
+  ],
+  "tags": [
+    "economics",
+    "banking",
+    "regulation"
+  ]
+}

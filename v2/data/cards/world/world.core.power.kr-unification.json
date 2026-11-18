@@ -1,0 +1,32 @@
+{
+  "id": "world.core.power.kr-unification",
+  "title": "Korea's constitution says the Republic shall seek peaceful unification based on the free democratic basic order",
+  "section": "world",
+  "category": "law",
+  "summary": "Korea's constitution says the Republic shall seek peaceful unification based on the free democratic basic order.",
+  "body": "Article 4 says the Republic shall seek unification and shall formulate and carry out a policy of peaceful unification based on the free democratic basic order. The source says: \"Article 4 The Republic of Korea shall seek unification and shall formulate and carry out a policy of peaceful unification based on the free democratic basic order.\" The article states a policy duty and names the basis. It does not record the terms of any negotiation.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Republic of Korea, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Republic_of_Korea_1987?lang=en",
+      "author": "Constitution of the Republic of Korea, Constitute Project English text",
+      "date": "1987",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of the Republic of Korea, Article 4",
+  "as_of_date": "1987",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.kr-territory",
+    "world.core.power.kr-republic"
+  ],
+  "tags": [
+    "law",
+    "korea",
+    "unification"
+  ]
+}

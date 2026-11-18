@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-necessary-and-proper",
+  "title": "The necessary-and-proper clause is a power to make laws for carrying other powers into execution",
+  "section": "world",
+  "category": "law",
+  "summary": "The necessary-and-proper clause is a power to make laws for carrying other powers into execution.",
+  "body": "Article I, Section 8 of the 1787 transcription ends the list of legislative powers with a power to make all laws which shall be necessary and proper for carrying into execution the foregoing powers, and all other powers vested by the Constitution in the government of the United States or in any department or officer. The source says: \"Laws which shall be necessary and proper for carrying into Execution the foregoing Powers, and all other Powers vested by this Constitution in the Government of the United States, or in any Department or Officer thereof.\" The clause is written as an instrument for executing vested powers. It does not, by itself, say how tightly 'necessary' is to be read.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Constitution (1787 text, National Archives transcription)",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "congress"
+  ]
+}

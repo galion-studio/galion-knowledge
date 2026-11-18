@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.jp-diet",
+  "title": "Japan's constitution calls the Diet the highest organ of state power and the sole law-making organ",
+  "section": "world",
+  "category": "law",
+  "summary": "Japan's constitution calls the Diet the highest organ of state power and the sole law-making organ.",
+  "body": "Article 41 says the Diet shall be the highest organ of state power and the sole law-making organ of the state. The source says: \"The Diet Article 41 The Diet shall be the highest organ of state power, and shall be the sole law-making organ of the State.\" Both 'highest organ' and 'sole law-making organ' are in the sentence. Cabinet orders and local rules are not described here.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Japan, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Japan_1946?lang=en",
+      "author": "Constitution of Japan, Constitute Project English text",
+      "date": "1946",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Japan, Article 41",
+  "as_of_date": "1946",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.jp-no-censorship",
+    "world.core.power.jp-courts",
+    "world.core.power.jp-emperor-no-government"
+  ],
+  "tags": [
+    "law",
+    "japan",
+    "parliament"
+  ]
+}

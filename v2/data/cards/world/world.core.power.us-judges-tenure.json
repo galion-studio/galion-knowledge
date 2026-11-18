@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-judges-tenure",
+  "title": "The 1787 text gives federal judges tenure during good behaviour",
+  "section": "world",
+  "category": "law",
+  "summary": "The 1787 text gives federal judges tenure during good behaviour.",
+  "body": "Article III, Section 1 vests the judicial power in one Supreme Court and in inferior courts Congress may establish, and says the judges hold office during good behaviour, with compensation that shall not be diminished while they continue in office. The source says: \"The Judges, both of the supreme and inferior Courts, shall hold their Offices during good Behaviour, and shall, at stated Times, receive for their Services, a Compensation, which shall not be diminished during their Continuance in Office.\" The transcription states the tenure rule. It does not define 'good behaviour' or record later impeachments.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Constitution (1787 text, National Archives transcription)",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "courts"
+  ]
+}

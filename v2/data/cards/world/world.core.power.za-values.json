@@ -1,0 +1,32 @@
+{
+  "id": "world.core.power.za-values",
+  "title": "South Africa's constitution founds the state on human dignity, equality, non-racialism, non-sexism, constitutional supremacy, and regular multiparty elections",
+  "section": "world",
+  "category": "law",
+  "summary": "South Africa's constitution founds the state on human dignity, equality, non-racialism, non-sexism, constitutional supremacy, and regular multiparty elections.",
+  "body": "Section 1 founds the Republic on listed values, including human dignity, the achievement of equality and the advancement of human rights and freedoms, non-racialism and non-sexism, supremacy of the constitution and the rule of law, and universal adult suffrage, a national common voters roll, regular elections, and a multiparty system of democratic government. The source says: \"Republic of South Africa The Republic of South Africa is one, sovereign, democratic state founded on the following values: Human dignity Human dignity, the achievement of equality and the advancement of human rights and freedoms.\" These are founding values in the text. The card does not convert them into a score of how the country is governed.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Republic of South Africa, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/South_Africa_2012?lang=en",
+      "author": "Constitution of the Republic of South Africa, Constitute Project English text",
+      "date": "1996",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of South Africa, section 1",
+  "as_of_date": "1996",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.za-admin",
+    "world.core.power.za-bill"
+  ],
+  "tags": [
+    "law",
+    "south-africa",
+    "constitution"
+  ]
+}

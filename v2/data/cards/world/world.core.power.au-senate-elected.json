@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.au-senate-elected",
+  "title": "Australia's constitution says senators are directly chosen by the people of the state",
+  "section": "world",
+  "category": "law",
+  "summary": "Australia's constitution says senators are directly chosen by the people of the state.",
+  "body": "Section 7 says the Senate shall be composed of senators for each state, directly chosen by the people of the state, voting, until Parliament otherwise provides, as one electorate. The source says: \"The Senate Second chamber selection The Senate shall be composed of senators for each State, directly chosen by the people of the State, voting, until the Parliament otherwise provides, as one electorate.\" Direct choice by the people is the constitutional rule. The section also allows Parliament to provide otherwise for some of the voting mechanics, in the words that follow.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Commonwealth of Australia Constitution Act, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Australia_1985?lang=en",
+      "author": "Commonwealth of Australia Constitution Act, Constitute Project English text",
+      "date": "1900",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Australian Constitution, section 7",
+  "as_of_date": "1900",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.au-trade",
+    "world.core.power.au-alteration",
+    "world.core.power.au-parliament"
+  ],
+  "tags": [
+    "law",
+    "australia",
+    "senate"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.sa-zakat",
+  "title": "The Saudi Basic Law says zakat shall be levied and dispensed to its legitimate beneficiaries",
+  "section": "world",
+  "category": "law",
+  "summary": "The Saudi Basic Law says zakat shall be levied and dispensed to its legitimate beneficiaries.",
+  "body": "Article 21 says zakat shall be levied and dispensed to its legitimate beneficiaries. The source says: \"Article 21 Zakat (poor-due) shall be levied and dispensed to its legitimate beneficiaries.\" Article 20 says taxes and fees are imposed only on the basis of fairness and only by law. The Basic Law states both zakat and taxes. This card is the zakat sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Basic Law of Saudi Arabia, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Saudi_Arabia_2013?lang=en",
+      "author": "Basic Law of Saudi Arabia, Constitute Project English text",
+      "date": "2013",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Basic Law of Saudi Arabia, Article 21",
+  "as_of_date": "2013",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.sa-property",
+    "world.core.power.sa-shoura",
+    "world.core.power.sa-resources"
+  ],
+  "tags": [
+    "law",
+    "saudi-arabia",
+    "tax"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.bea-seasonal",
+  "title": "BEA seasonally adjusts GDP to remove recurring yearly patterns",
+  "section": "world",
+  "category": "economics",
+  "summary": "BEA seasonally adjusts GDP to remove recurring yearly patterns.",
+  "body": "BEA says GDP data are seasonally adjusted to remove yearly patterns such as winter weather, holidays, or factory schedules, so that remaining movements better reflect other patterns. It also releases data that are not seasonally adjusted. The source says: \"GDP data are seasonally adjusted to remove the effects of yearly patterns, such as winter weather, holidays, or factory production schedules.\" A seasonally adjusted change is not the raw change. Both series exist, on BEA's account.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What to know: GDP",
+      "url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp",
+      "author": "Bureau of Economic Analysis",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Bureau of Economic Analysis",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.bea-three-estimates",
+    "world.core.money.bea-real-nominal",
+    "world.core.money.bea-annual-rates"
+  ],
+  "tags": [
+    "economics",
+    "gdp",
+    "measurement"
+  ]
+}

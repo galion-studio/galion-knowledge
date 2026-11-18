@@ -1,0 +1,29 @@
+{
+  "id": "world.core.math.p-vs-np",
+  "title": "The Clay Mathematics Institute states P versus NP as: if a solution is easy to check, is it easy to find?",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Clay Mathematics Institute states P versus NP as: if a solution is easy to check, is it easy to find?.",
+  "body": "The Clay Mathematics Institute's page on P versus NP says the essence of the question is: if it is easy to check that a solution is correct, is it also easy to solve the problem? It gives the Hamiltonian path problem as typical: a proposed route is easy to check, and not thereby easy to find. The source says: \"NP Unsolved P vs NP If it is easy to check that a solution to a problem is correct, is it also easy to solve the problem? This is the essence of the P vs NP question.\" The page states an open problem. It does not announce a solution. 'Easy' here is the Institute's informal gloss on the complexity classes, not a claim about a particular algorithm's running time on a laptop.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "P vs NP, Clay Mathematics Institute",
+      "url": "https://www.claymath.org/millennium/p-vs-np/",
+      "author": "Clay Mathematics Institute",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Clay Mathematics Institute",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "computation",
+    "complexity"
+  ]
+}

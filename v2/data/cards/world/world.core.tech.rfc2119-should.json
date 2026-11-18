@@ -1,0 +1,32 @@
+{
+  "id": "world.core.tech.rfc2119-should",
+  "title": "In IETF usage, SHOULD marks a recommendation that may be ignored only with the implications understood",
+  "section": "world",
+  "category": "technology",
+  "summary": "In IETF usage, SHOULD marks a recommendation that may be ignored only with the implications understood.",
+  "body": "RFC 2119 defines SHOULD, and RECOMMENDED, to mean there may exist valid reasons in particular circumstances to ignore the item, but the full implications must be understood and carefully weighed before choosing a different course. The source says: \"SHOULD This word, or the adjective \"RECOMMENDED\", mean that there may exist valid reasons in particular circumstances to ignore a particular item, but the full implications must be understood and carefully weighed before choosing a different course.\" SHOULD is not a synonym of MUST, and it is not a synonym of MAY. The RFC asks authors to use these imperatives sparingly, and only where required for interoperation or to limit behavior that can cause harm.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 2119",
+      "url": "https://www.rfc-editor.org/rfc/rfc2119",
+      "author": "S. Bradner",
+      "date": "1997-03",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Scott Bradner, RFC 2119",
+  "as_of_date": "1997-03",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.rfc2119-may",
+    "world.core.tech.rfc2119-must"
+  ],
+  "tags": [
+    "technology",
+    "standards",
+    "ietf"
+  ]
+}

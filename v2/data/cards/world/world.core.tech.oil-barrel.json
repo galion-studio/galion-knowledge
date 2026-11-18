@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.oil-barrel",
+  "title": "The EIA says a U.S. 42-gallon barrel of crude oil yields about 45 gallons of products because of processing gain",
+  "section": "world",
+  "category": "technology",
+  "summary": "The EIA says a U.S. 42-gallon barrel of crude oil yields about 45 gallons of products because of processing gain.",
+  "body": "The EIA says a U.S. 42-gallon barrel of crude oil yields about 45 gallons of petroleum products in U.S. refineries because of refinery processing gain. The volume increases in processing, which the page compares to popcorn expanding when popped. The source says: \"42-gallon barrel of crude oil yields about 45 gallons of petroleum products in U.S.\" A barrel is a unit of 42 gallons in this U.S. usage, not a physical barrel in every shipment. The yield figure is the EIA's 'about 45 gallons' for U.S. refineries, not a law that every refinery produces the same slate.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Oil and petroleum products explained",
+      "url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/",
+      "author": "U.S. Energy Information Administration",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "U.S. Energy Information Administration",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.grid-transmission",
+    "world.core.tech.btu",
+    "world.core.tech.energy-forms"
+  ],
+  "tags": [
+    "technology",
+    "energy",
+    "oil"
+  ]
+}

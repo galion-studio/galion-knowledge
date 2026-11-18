@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.marbury-say-what-the-law-is",
+  "title": "Marbury v. Madison states that it is the province and duty of the judicial department to say what the law is",
+  "section": "world",
+  "category": "law",
+  "summary": "Marbury v. Madison states that it is the province and duty of the judicial department to say what the law is.",
+  "body": "The National Archives milestone page for Marbury v. Madison (1803) quotes the opinion: it is emphatically the province and duty of the judicial department to say what the law is. The source says: \"It is emphatically the province and duty of the judicial department to say what the law is.\" The page is the Archives' presentation of the case, and the sentence is from the opinion as that page quotes it. The holding's later uses are not this sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Marbury v. Madison (1803), National Archives milestone document",
+      "url": "https://www.archives.gov/milestone-documents/marbury-v-madison",
+      "author": "National Archives, quoting the opinion",
+      "date": "1803",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Chief Justice John Marshall, Marbury v. Madison, as quoted by the National Archives",
+  "as_of_date": "1803",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "judicial-review"
+  ]
+}

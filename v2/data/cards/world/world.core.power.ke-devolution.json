@@ -1,0 +1,31 @@
+{
+  "id": "world.core.power.ke-devolution",
+  "title": "Kenya's constitution states objects of devolution, including democratic and accountable exercise of power",
+  "section": "world",
+  "category": "law",
+  "summary": "Kenya's constitution states objects of devolution, including democratic and accountable exercise of power.",
+  "body": "Article 174 sets out objects of the devolution of government, beginning with promoting democratic and accountable exercise of power. The source says: \"Objects of devolution The objects of the devolution of government are- to promote democratic and accountable exercise of power; to foster national unity by recognising diversity; to give powers of self-governance to the people and enhance the participation of the people in the exercise of the powers of the State and in making decisions affecting them; to recognise the right of communities to manage the\" Devolution is a constitutional structure with stated objects, not only a political slogan. The card quotes the opening object and does not pretend to list every clause of the chapter.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Kenya, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Kenya_2010?lang=en",
+      "author": "Constitution of Kenya, Constitute Project English text",
+      "date": "2010",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Kenya, Article 174",
+  "as_of_date": "2010",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ke-multiparty"
+  ],
+  "tags": [
+    "law",
+    "kenya",
+    "devolution"
+  ]
+}
