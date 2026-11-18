@@ -1,0 +1,33 @@
+{
+  "section": "world",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "read_time_min": 1,
+  "id": "world.core.body.alveoli",
+  "title": "OpenStax: gas exchange is placed in alveolar sacs",
+  "category": "medicine",
+  "summary": "OpenStax says bronchioles lead to alveolar sacs in the respiratory zone, where gas exchange occurs, and that an alveolus is one of the small sacs.",
+  "body": "OpenStax Anatomy and Physiology 2e, section 22.1, says bronchioles lead to alveolar sacs in the respiratory zone, where gas exchange occurs. It says an alveolar duct opens into a cluster of alveoli, and that an alveolus is one of the many small, grape-like sacs. NHLBI describes gas exchange as oxygen entering the blood and carbon dioxide leaving it. This card is the textbook's placement of that exchange in the alveoli.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "22.1 Organs and Structures of the Respiratory System",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+      "author": "OpenStax Anatomy and Physiology 2e",
+      "date": "n.d.",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. OpenStax is a textbook, not a measurement body."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax Anatomy and Physiology 2e",
+  "as_of_date": "",
+  "related": [
+    "world.core.body.lungs-gas-exchange"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "lungs"
+  ]
+}

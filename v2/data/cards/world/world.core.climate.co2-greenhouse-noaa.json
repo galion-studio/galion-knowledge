@@ -11,13 +11,13 @@
       "title": "Climate change: atmospheric carbon dioxide",
       "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide",
       "author": "NOAA Climate.gov",
-      "date": "n.d.",
+      "date": "2025-05-21",
       "accessed": "2026-11-18"
     }
   ],
   "evidence_strength": "strong",
   "said_by": "NOAA Climate.gov",
-  "as_of_date": "",
+  "as_of_date": "2025-05-21",
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
@@ -29,5 +29,14 @@
     "climate",
     "greenhouse"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "as_of_date",
+      "from": "",
+      "to": "2025-05-21",
+      "note": "as_of_date filled from the page line Published May 21, 2025. No source was added. The claim text was not rewritten."
+    }
+  ]
 }

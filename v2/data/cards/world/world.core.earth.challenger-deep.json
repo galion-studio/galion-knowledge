@@ -11,14 +11,14 @@
       "title": "How deep is the ocean?",
       "url": "https://oceanexplorer.noaa.gov/facts/ocean-depth.html",
       "author": "NOAA Ocean Exploration",
-      "date": "n.d.",
+      "date": "2024-08-21",
       "accessed": "2026-11-18",
       "note": "The page says the 3,682 meter average was calculated in 2010 by NOAA and Woods Hole Oceanographic Institution."
     }
   ],
   "evidence_strength": "strong",
   "said_by": "NOAA Ocean Exploration",
-  "as_of_date": "",
+  "as_of_date": "2024-08-21",
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
@@ -29,5 +29,14 @@
     "earth",
     "ocean"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "as_of_date",
+      "from": "",
+      "to": "2024-08-21",
+      "note": "as_of_date filled from the page line Last updated August 21, 2024. The 2010 calculation date stays in the body. No source was added. The claim text was not rewritten."
+    }
+  ]
 }

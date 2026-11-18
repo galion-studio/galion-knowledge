@@ -16,7 +16,7 @@
       "note": "Abstract text was read from the OpenAlex work record for this DOI on 2026-11-18. The DOI is 10.1126/science.1259855."
     }
   ],
-  "evidence_strength": "moderate",
+  "evidence_strength": "weak",
   "said_by": "Will Steffen and colleagues",
   "as_of_date": "2015",
   "status": "sourced - needs review",
@@ -31,5 +31,14 @@
     "nature",
     "ecology"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "moderate",
+      "to": "weak",
+      "note": "Truth gate ceiling. The attached sources support weak, not moderate. Best source class on this card: other. No source was added or removed. The claim text was not rewritten."
+    }
+  ]
 }

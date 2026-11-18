@@ -1,0 +1,34 @@
+{
+  "section": "world",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "read_time_min": 1,
+  "id": "world.core.biology.meiosis",
+  "title": "OpenStax: meiosis makes haploid nuclei by two divisions after one replication",
+  "category": "biology",
+  "summary": "OpenStax says meiosis starts from a diploid nucleus, ends with haploid nuclei, and uses one round of chromosome replication followed by two rounds of nuclear division.",
+  "body": "OpenStax Biology 2e, section 11.1, says meiosis is the nuclear division that forms haploid cells from diploid cells. It says the starting nucleus is always diploid and the daughter nuclei are haploid. To make that reduction, it says meiosis consists of one round of chromosome replication followed by two rounds of nuclear division. It contrasts this with mitosis, which it says leaves parent and daughter nuclei at the same ploidy. This is the textbook's account of the reduction division.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "11.1 The Process of Meiosis",
+      "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+      "author": "OpenStax Biology 2e",
+      "date": "n.d.",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. OpenStax is a textbook, not a measurement body."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax Biology 2e",
+  "as_of_date": "",
+  "related": [
+    "world.core.biology.mitosis",
+    "world.chromosome-number-1956"
+  ],
+  "tags": [
+    "core-pack",
+    "biology",
+    "cell"
+  ]
+}

@@ -16,7 +16,7 @@
       "note": "The page stamp read 11.2.2006. The article text was on the page. A year of adoption was not in the Article 2 text that loaded."
     }
   ],
-  "evidence_strength": "strong",
+  "evidence_strength": "weak",
   "said_by": "Convention on Biological Diversity",
   "as_of_date": "2006",
   "status": "sourced - needs review",
@@ -29,5 +29,14 @@
     "nature",
     "biodiversity"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "Truth gate ceiling. The attached sources support weak, not strong. Best source class on this card: other. No source was added or removed. The claim text was not rewritten."
+    }
+  ]
 }

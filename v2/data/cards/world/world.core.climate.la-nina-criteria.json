@@ -11,14 +11,14 @@
       "title": "El Niño and La Niña (El Niño-Southern Oscillation)",
       "url": "https://www.climate.gov/enso",
       "author": "NOAA Climate.gov",
-      "date": "n.d.",
+      "date": "2025-06-25",
       "accessed": "2026-11-18",
       "note": "The fetched copy is marked as an archived Climate.gov page as of June 25, 2025. The criteria text was on that page."
     }
   ],
   "evidence_strength": "strong",
   "said_by": "NOAA Climate.gov",
-  "as_of_date": "",
+  "as_of_date": "2025-06-25",
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
@@ -30,5 +30,14 @@
     "climate",
     "enso"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "as_of_date",
+      "from": "",
+      "to": "2025-06-25",
+      "note": "as_of_date filled from the archive notice already on the cited page: archived as of June 25, 2025. No source was added. The claim text was not rewritten."
+    }
+  ]
 }

@@ -1,0 +1,64 @@
+{
+  "section": "world",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Base of the Pleistocene, about 1.8 million years",
+      "summary": "The fact sheet gives 1.8 million years as the age estimate for placing the base of the Quaternary at the base of the Pleistocene. Its table lists that Pleistocene boundary at 1.806 ± 0.005 million years, and the sheet says USGS practice in 2007 follows the 1991 guide in equating the two bases.",
+      "status": "the position the March 2007 sheet says USGS was using",
+      "sources": [
+        {
+          "title": "Divisions of Geologic Time—Major Chronostratigraphic and Geochronologic Units",
+          "url": "https://pubs.usgs.gov/fs/2007/3015/fs2007-3015.pdf",
+          "author": "U.S. Geological Survey Geologic Names Committee",
+          "date": "2007-03",
+          "accessed": "2026-11-18",
+          "note": "Fact Sheet 2007-3015, March 2007. PDF opened 2026-11-18."
+        }
+      ]
+    },
+    {
+      "label": "Within the upper Pliocene, about 2.6 million years",
+      "summary": "The same fact sheet gives 2.6 million years as the age estimate for placing the base of the Quaternary within the upper Pliocene, and it calls the choice unresolved as of that sheet.",
+      "status": "the other position the March 2007 sheet says was still argued",
+      "sources": [
+        {
+          "title": "Divisions of Geologic Time—Major Chronostratigraphic and Geochronologic Units",
+          "url": "https://pubs.usgs.gov/fs/2007/3015/fs2007-3015.pdf",
+          "author": "U.S. Geological Survey Geologic Names Committee",
+          "date": "2007-03",
+          "accessed": "2026-11-18",
+          "note": "Fact Sheet 2007-3015, March 2007. PDF opened 2026-11-18."
+        }
+      ]
+    }
+  ],
+  "read_time_min": 1,
+  "id": "world.core.earth.quaternary-base-2007",
+  "title": "USGS in 2007: the base of the Quaternary was still argued at 1.8 or 2.6 million years",
+  "category": "earth",
+  "summary": "The March 2007 fact sheet leaves the Quaternary base unresolved between the base of the Pleistocene, about 1.8 million years, and a level in the upper Pliocene, about 2.6 million years.",
+  "body": "U.S. Geological Survey Fact Sheet 2007-3015 says the position of the base of the Quaternary was a controversial issue: whether it is at the base of the Pleistocene or within the upper Pliocene. It gives those positions age estimates of 1.8 million years and 2.6 million years. It says that until a decision on the subdivisions of the Cenozoic, the USGS divisions follow the 1991 Suggestions to Authors in equating the bases of the Quaternary and the Pleistocene. The sheet's table lists the Pleistocene boundary at 1.806 ± 0.005 million years. Both positions are the fact sheet's. This card does not import a later decision that was not in the March 2007 text.\n",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Divisions of Geologic Time—Major Chronostratigraphic and Geochronologic Units",
+      "url": "https://pubs.usgs.gov/fs/2007/3015/fs2007-3015.pdf",
+      "author": "U.S. Geological Survey Geologic Names Committee",
+      "date": "2007-03",
+      "accessed": "2026-11-18",
+      "note": "Fact Sheet 2007-3015, March 2007. PDF opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey Geologic Names Committee",
+  "as_of_date": "2007-03",
+  "related": [
+    "world.core.earth.geologic-time-scale"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "geologic-time"
+  ]
+}

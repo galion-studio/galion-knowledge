@@ -16,7 +16,7 @@
       "note": "Abstract text was read from the OpenAlex work record for this DOI on 2026-11-18. The DOI is 10.1073/pnas.27.11.499."
     }
   ],
-  "evidence_strength": "moderate",
+  "evidence_strength": "weak",
   "said_by": "G. W. Beadle and Edward L. Tatum",
   "as_of_date": "1941",
   "status": "sourced - needs review",
@@ -30,5 +30,14 @@
     "biology",
     "genetics"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "moderate",
+      "to": "weak",
+      "note": "Truth gate ceiling. The attached sources support weak, not moderate. Best source class on this card: other. No source was added or removed. The claim text was not rewritten."
+    }
+  ]
 }
