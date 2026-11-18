@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.constitution-revenue",
+  "title": "The Constitution transcript says revenue bills start in the House",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "All bills for raising revenue shall originate in the House of Representatives. The Senate may propose or concur with amendments as on other bills.",
+  "body": "The National Archives transcript says: 'All Bills for raising Revenue shall originate in the House of Representatives; but the Senate may propose or concur with Amendments as on other Bills.' Origination is in the House. The Senate is not shut out of amending. That is the clause. It does not define what counts as a bill for raising revenue.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "U.S. National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Constitutional Convention",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.constitution-preamble",
+    "history-primary-documents.declaration-tax"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states"
+  ]
+}

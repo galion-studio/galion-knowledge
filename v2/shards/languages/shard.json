@@ -1,0 +1,49 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "languages",
+  "title": "Languages",
+  "scope": "Families, grammars, and texts. A language is not inferred from a person's name.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "languages",
+  "priority": "high",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "Dictionaries do not fit in the resident pack. The core records that there are many languages. This shard is a language.",
+  "keywords": [
+    "grammar",
+    "dictionary",
+    "language family",
+    "script",
+    "translation"
+  ],
+  "primary_sources": [
+    {
+      "title": "Glottolog",
+      "url": "https://glottolog.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "World Atlas of Language Structures",
+      "url": "https://wals.info/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Chinese Text Project",
+      "url": "https://ctext.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Perseus Digital Library",
+      "url": "https://www.perseus.tufts.edu/hopper/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

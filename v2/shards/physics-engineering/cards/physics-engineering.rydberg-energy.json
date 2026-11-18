@@ -1,0 +1,31 @@
+{
+  "id": "physics-engineering.rydberg-energy",
+  "title": "CODATA 2022: the Rydberg energy is 13.605 693 122 990 eV",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 000 000 015 eV. The wavenumber is a different line in the same table.",
+  "body": "The NIST 2022 listing prints 'Rydberg constant times hc in eV 13.605 693 122 990' with standard uncertainty '0.000 000 000 015' eV. The Rydberg constant in reciprocal metres is a separate card. Both numbers are in the 2022 adjustment. Using 13.6 eV as if it were exact drops the digits the table prints and hides the uncertainty, which is small but not zero.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are from lines printed in full."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.rydberg"
+  ],
+  "tags": [
+    "physics-engineering",
+    "atomic"
+  ]
+}

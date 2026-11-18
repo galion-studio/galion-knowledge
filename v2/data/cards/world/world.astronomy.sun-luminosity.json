@@ -1,0 +1,33 @@
+{
+  "id": "world.astronomy.sun-luminosity",
+  "title": "NASA's Sun fact sheet lists luminosity 382.8×10^24 J/s",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet's luminosity row is 382.8 in units of 10^24 joules per second.",
+  "body": "NASA's Sun fact sheet lists luminosity as 382.8 × 10^24 J/s. That is the sheet's figure, read with the column headed luminosity (10^24 J/s). It is not a rounded slogan and it is not the mass or the radius, which are on the earlier Sun card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sun Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-05-09",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-05-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.sun-fact-sheet",
+    "world.astronomy.sun-spectral-type"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "sun"
+  ],
+  "read_time_min": 1
+}

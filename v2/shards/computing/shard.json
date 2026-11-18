@@ -1,0 +1,39 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "computing",
+  "title": "Computing",
+  "scope": "Protocols, architectures, and papers. Request for Comments are the text. A product announcement is not a standard.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "computing",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The core has the packet-network idea and a few machines. The RFC shelf is the depth.",
+  "keywords": [
+    "protocol",
+    "rfc",
+    "algorithm",
+    "computer",
+    "network"
+  ],
+  "primary_sources": [
+    {
+      "title": "RFC Editor",
+      "url": "https://www.rfc-editor.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "arXiv",
+      "url": "https://arxiv.org/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

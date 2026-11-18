@@ -1,0 +1,39 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "history-americas",
+  "title": "History, the Americas",
+  "scope": "The continents' histories beyond the United States documents that the primary-documents shard already quotes.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "history-americas",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "United States founding texts are a narrow slice. The rest of the Americas is its own pack.",
+  "keywords": [
+    "americas",
+    "indigenous",
+    "latin america",
+    "canada",
+    "caribbean"
+  ],
+  "primary_sources": [
+    {
+      "title": "Library of Congress",
+      "url": "https://www.loc.gov/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "America's Founding Documents, National Archives",
+      "url": "https://www.archives.gov/founding-docs",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

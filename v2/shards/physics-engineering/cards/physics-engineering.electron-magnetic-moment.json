@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.electron-magnetic-moment",
+  "title": "CODATA 2022: the electron magnetic moment is −9.284 764 6917 × 10⁻²⁴ J/T",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 000 0029 × 10⁻²⁴ J/T. The sign is negative.",
+  "body": "The NIST 2022 listing prints 'electron mag. mom. −9.284 764 6917 e-24' with standard uncertainty '0.000 000 0029 e-24', unit J T⁻¹. The sign is part of the line. The Bohr magneton on the same listing is a separate positive number. The g factor card is the dimensionless factor. This card is the moment in joules per tesla.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing opened 2026-11-18. Digits are from lines printed in full."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.bohr-magneton",
+    "physics-engineering.electron-g-factor"
+  ],
+  "tags": [
+    "physics-engineering",
+    "particle"
+  ]
+}

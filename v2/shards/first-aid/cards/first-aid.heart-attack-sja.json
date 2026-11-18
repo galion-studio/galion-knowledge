@@ -1,0 +1,41 @@
+{
+  "id": "first-aid.heart-attack-sja",
+  "title": "St John Ambulance: one 300 mg aspirin to chew, unless under 16 or allergic",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Call 999 or 112, sit them on the floor with knees bent and head supported, and offer their own angina medicine if they have it.",
+  "body": "St John Ambulance's heart-attack page says to call 999 or 112 straight away and say you think someone is having a heart attack. The position it prefers is on the floor, knees bent, head and shoulders supported, with cushions behind them or under the knees. Give one aspirin tablet of 300 mg and ask them to chew it slowly. Do not give aspirin if they are under 16 or allergic to it. Ask them to take their own angina medication if they have some. Monitor response. If they become unresponsive, prepare to start CPR. The 300 mg figure and the age limit are this page's instruction. The CDC heart-attack page opened the same day describes symptoms and says call 9-1-1. It does not, on the text used for that card, give an aspirin dose. Do not move the aspirin instruction onto the CDC page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Heart attack",
+      "url": "https://www.sja.org.uk/first-aid-advice/heart-attack/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.heart-attack-cdc",
+    "first-aid.cpr-adult"
+  ],
+  "tags": [
+    "first-aid",
+    "heart"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "agriculture",
+  "title": "Agriculture",
+  "scope": "Crops, livestock, soils, and food balance sheets from the agencies that publish them.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "agriculture",
+  "priority": "high",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "Practice and yearly statistics are deeper than the core's note that farming had several origins.",
+  "keywords": [
+    "crop",
+    "soil",
+    "livestock",
+    "irrigation",
+    "fao"
+  ],
+  "primary_sources": [
+    {
+      "title": "Food and Agriculture Organization",
+      "url": "https://www.fao.org/home/en",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "International Plant Names Index",
+      "url": "https://www.ipni.org/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

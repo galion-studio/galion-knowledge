@@ -1,0 +1,44 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "energy-climate-data",
+  "title": "Energy and climate data",
+  "scope": "Generation, fuel, and the observational climate series. A policy preference is labelled as someone's policy.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "energy-climate-data",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The inventories are yearly. The core keeps the physical claims, not the spreadsheet.",
+  "keywords": [
+    "electricity",
+    "oil",
+    "emissions",
+    "climate data",
+    "grid"
+  ],
+  "primary_sources": [
+    {
+      "title": "U.S. Energy Information Administration",
+      "url": "https://www.eia.gov/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Climate change, NASA Science",
+      "url": "https://science.nasa.gov/climate-change/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "U.S. Geological Survey",
+      "url": "https://www.usgs.gov/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

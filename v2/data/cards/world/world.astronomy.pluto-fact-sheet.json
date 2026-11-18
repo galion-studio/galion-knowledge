@@ -1,0 +1,33 @@
+{
+  "id": "world.astronomy.pluto-fact-sheet",
+  "title": "NASA's Pluto fact sheet: mass 0.01303×10^24 kg and five satellites",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet lists Pluto's mass as 0.01303 × 10^24 kg, equatorial radius 1188 km, mean density 1854 kg/m^3, sidereal orbit 90,560 days, and 5 natural satellites.",
+  "body": "The sheet lists Pluto's mass as 0.01303 × 10^24 kg, equatorial radius 1188 km, mean density 1854 kg/m^3, sidereal orbit 90,560 days, and 5 natural satellites. It lists a planetary ring system as No. NASA's separate planet count, already carded, groups Pluto with the dwarf planets. This card is the fact sheet's numbers, not a vote on that classification. Author of the sheet: Dr. David R. Williams, NASA Goddard Space Flight Center. Last updated on the page: 2024-01-11.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Pluto Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-01-11",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-01-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.eight-planets",
+    "world.sun-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "pluto"
+  ],
+  "read_time_min": 1
+}

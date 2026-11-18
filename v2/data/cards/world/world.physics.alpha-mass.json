@@ -1,0 +1,32 @@
+{
+  "id": "world.physics.alpha-mass",
+  "title": "2022 CODATA: alpha particle mass in u is 4.001 506 179 129",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2022 CODATA complete listing, from NIST, gives alpha particle mass in u as 4.001 506 179 129 u, with uncertainty 0.000 000 000 062 u.",
+  "body": "The 2022 CODATA complete listing, from NIST, gives alpha particle mass in u as 4.001 506 179 129 u, with uncertainty 0.000 000 000 062 u. The row is not marked exact. The alpha-particle mass in unified atomic mass units in the 2022 listing.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "2022 CODATA complete listing of the fundamental physical constants",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "ASCII table fetched 2026-11-18. The card's number is that row."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, 2022 CODATA adjustment",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "codata",
+    "constants"
+  ],
+  "read_time_min": 1
+}

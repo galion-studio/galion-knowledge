@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.magna-carta-clause-29",
+  "title": "A National Archives translation: no freeman imprisoned except by lawful judgement or the law of the land",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The page is Edward's inspection of the charter of Henry, his father, not a heading that says '1215'. Clause 29, as translated there, also says right or justice will not be sold, denied, or delayed.",
+  "body": "The National Archives translation opened for this card begins: 'Edward by the grace of God King of England, lord of Ireland and duke of Aquitaine sends greetings to all to whom the present letters come. We have inspected the great charter of the lord Henry, late King of England, our father, concerning the liberties of England in these words.' The witness line is Edward's son, at Westminster, the twelfth day of October in the twenty-fifth year of the reign. The page does not, in the lines used here, print the year 1215 or the year 1297. This card does not supply those years.\n\nClause 29 in that translation: 'No freeman is to be taken or imprisoned or disseised of his free tenement or of his liberties or free customs, or outlawed or exiled or in any way ruined, nor will we go against such a man or send against him save by lawful judgement of his peers or by the law of the land. To no-one will we sell or deny of delay right or justice.' The words 'deny of delay' are the translation as the page prints them. A smoother 'deny or delay' was not substituted.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Magna Carta Translation",
+      "url": "https://www.archives.gov/exhibits/featured-documents/magna-carta/translation.html",
+      "author": "U.S. National Archives",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Translation page opened 2026-11-18. The preamble identifies the instrument as Edward's inspection of Henry's charter. Year numbers that the page does not print are not added."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. National Archives translation",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.bill-amendment-v",
+    "history-primary-documents.bill-amendment-vi"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "england"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "history-primary-documents.emancipation-soldiers",
+  "title": "The Archives essay: the proclamation did not end slavery, and it opened the Union forces to Black men",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The National Archives essay says the proclamation did not end slavery in the nation, announced the acceptance of Black men into the Union Army and Navy, and that almost 200,000 Black soldiers and sailors had fought for the Union by the end of the war.",
+  "body": "The National Archives essay on the Emancipation Proclamation page says the proclamation did not end slavery in the nation, and that it transformed the character of the war. After 1 January 1863, every advance of federal troops expanded the domain of freedom. The proclamation announced the acceptance of Black men into the Union Army and Navy. The essay says that by the end of the war, almost 200,000 Black soldiers and sailors had fought for the Union and freedom. The 'almost 200,000' is the essay's figure. The geographic limit of the proclamation itself is a separate card. The essay is the Archives' historical account sitting on the same page as the text.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Emancipation Proclamation (1863)",
+      "url": "https://www.archives.gov/milestone-documents/emancipation-proclamation",
+      "author": "U.S. National Archives",
+      "date": "1863-01-01",
+      "accessed": "2026-11-18",
+      "note": "Essay and text opened 2026-11-18. The 200,000 figure is the essay's."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "U.S. National Archives",
+  "as_of_date": "1863-01-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.emancipation-limit",
+    "history-primary-documents.thirteenth-text"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states",
+    "slavery"
+  ]
+}

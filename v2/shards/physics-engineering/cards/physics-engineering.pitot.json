@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.pitot",
+  "title": "NASA Glenn: a pitot-static tube uses Bernoulli's equation to get speed",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The page says the instrument measures static and total pressure, and the equation then gives the velocity, under the assumptions of that form.",
+  "body": "NASA Glenn's Bernoulli page says Bernoulli's equation is used on aircraft to provide a speedometer called a pitot-static tube. A pressure measurement gives the static and total pressure, and the equation then computes the velocity. The page has already limited the simplest form to incompressible flow with constant density. The pitot use inherits that limit. The page does not, in the text used here, give the algebra that turns the two pressures into a speed. This card stops where the page's prose stops.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Bernoulli's Equation",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/bern.html",
+      "author": "NASA Glenn Research Center",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "NASA Glenn Research Center",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.bernoulli",
+    "physics-engineering.mach"
+  ],
+  "tags": [
+    "physics-engineering",
+    "flight"
+  ]
+}

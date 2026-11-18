@@ -1,0 +1,35 @@
+{
+  "id": "world.constants.celsius-offset",
+  "title": "Celsius temperature is kelvin temperature minus 273.15",
+  "section": "world",
+  "category": "measurement",
+  "summary": "The BIPM concise SI summary defines Celsius temperature by t/°C = T/K − 273.15.",
+  "body": "The BIPM concise summary of the SI says the degree Celsius is equal in magnitude to the kelvin, and that Celsius temperature t is related to thermodynamic temperature T by t/°C = T/K − 273.15. The offset 273.15 is exact in that equation. It is the definition of the scale, not a new measurement of the melting point of ice.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The International System of Units (SI), concise summary, 9th edition",
+      "url": "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-concise-EN.pdf/2fda4656-e236-0fcb-3867-36ca74eea4e3?version=4.1&t=1780473467684&download=true",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2018",
+      "accessed": "2026-11-18",
+      "note": "PDF fetched 2026-11-18. The Celsius equation is in that summary."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bureau International des Poids et Mesures",
+  "as_of_date": "2018",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.kelvin-boltzmann",
+    "world.constants.water-freeze-boil-nist"
+  ],
+  "tags": [
+    "core-pack",
+    "area:constants",
+    "si",
+    "celsius"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.bill-twelve-proposed",
+  "title": "Congress proposed twelve amendments in 1789; ten were ratified in 1791",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The National Archives says Articles 3 through 12 of that resolution became the Bill of Rights on 15 December 1791. Article 2 became the Twenty-seventh Amendment in 1992. Article 1 was never ratified.",
+  "body": "The National Archives transcription of the Bill of Rights says that on 25 September 1789 the First Congress proposed 12 amendments. Ten of the proposed twelve were ratified by three fourths of the state legislatures on 15 December 1791. The ratified articles, which the resolution numbers as Articles 3 through 12, constitute the first ten amendments. In 1992, 203 years after it was proposed, Article 2 was ratified as the Twenty-seventh Amendment. Article 1 was never ratified. The document on display in the Rotunda is the enrolled original of the joint resolution proposing twelve amendments, not a parchment that was written as ten. Article 2's text in the resolution is: no law varying the compensation for the services of the senators and representatives shall take effect until an election of representatives shall have intervened. Article 1, never ratified, concerns the number of representatives.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Bill of Rights: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "author": "U.S. National Archives",
+      "date": "1791-12-15",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. National Archives",
+  "as_of_date": "1791-12-15",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.bill-amendment-i",
+    "history-primary-documents.constitution-article-v"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states"
+  ]
+}

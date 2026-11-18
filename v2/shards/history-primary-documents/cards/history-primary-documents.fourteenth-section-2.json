@@ -1,0 +1,33 @@
+{
+  "id": "history-primary-documents.fourteenth-section-2",
+  "title": "The Fourteenth Amendment's Section 2 counts the whole number of persons",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "Representatives are apportioned counting the whole number of persons in each state, excluding Indians not taxed. The section then reduces a state's basis if it denies the vote to certain male citizens.",
+  "body": "The National Archives milestone page for the Fourteenth Amendment prints Section 2: 'Representatives shall be apportioned among the several States according to their respective numbers, counting the whole number of persons in each State, excluding Indians not taxed.' The section continues. If the right to vote at any election for presidential electors, members of Congress, or the executive and judicial officers of a state, or members of the state legislature, is denied to any of the male inhabitants of the state, being twenty-one and citizens of the United States, or in any way abridged, except for participation in rebellion or other crime, the basis of representation shall be reduced in proportion. The section's voting sentence is about male inhabitants of twenty-one. It is not the Nineteenth Amendment, and it is not a statement that everyone could vote.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "14th Amendment to the U.S. Constitution: Civil Rights (1868)",
+      "url": "https://www.archives.gov/milestone-documents/14th-amendment",
+      "author": "U.S. National Archives",
+      "date": "1868",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Congress and the ratifying states",
+  "as_of_date": "1868",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.constitution-three-fifths",
+    "history-primary-documents.fourteenth-section-1",
+    "history-primary-documents.apportionment-two-texts"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states"
+  ]
+}

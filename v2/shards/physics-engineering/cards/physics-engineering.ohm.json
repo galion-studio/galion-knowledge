@@ -1,0 +1,31 @@
+{
+  "id": "physics-engineering.ohm",
+  "title": "NASA Glenn writes Ohm's law as V = i R",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "Voltage, current, and resistance. The page uses i for current. Resistance depends on the material and on the length and cross-section of the piece.",
+  "body": "NASA Glenn's Ohm's law page, opened 2026-11-18, says that if resistance is R, current is i, and voltage is V, then Ohm's law states V = i R. It uses i, not I. Resistance is the opposition to the flow of electrons, analogous on the page to mechanical friction or aerodynamic drag, and it is measured in ohms. It depends on the geometry of the resistor and on the material. For a piece of length l and cross-sectional area A, the page says the resistance depends on that geometry. Because resistance depends on geometry, the page notes that a change in shape can be used to detect a force. The page is NASA's statement of the relation for that basic circuit. It does not discuss the range of materials or temperatures where the relation fails.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Ohm's Law",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/ohms.html",
+      "author": "NASA Glenn Research Center",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA Glenn Research Center",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.elementary-charge"
+  ],
+  "tags": [
+    "physics-engineering",
+    "circuits"
+  ]
+}

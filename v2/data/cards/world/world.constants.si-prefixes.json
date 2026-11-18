@@ -1,0 +1,40 @@
+{
+  "id": "world.constants.si-prefixes",
+  "title": "SI prefixes run from quecto (10^−30) to quetta (10^30); deka and deca are one prefix",
+  "section": "world",
+  "category": "measurement",
+  "summary": "BIPM's prefix table gives 24 decimal prefixes. NIST spells the 10^1 prefix deka; BIPM spells it deca. The symbol on both is da.",
+  "body": "BIPM's SI prefix page lists these decimal prefixes:\n\n- quetta (Q) = 10^30\n- ronna (R) = 10^27\n- yotta (Y) = 10^24\n- zetta (Z) = 10^21\n- exa (E) = 10^18\n- peta (P) = 10^15\n- tera (T) = 10^12\n- giga (G) = 10^9\n- mega (M) = 10^6\n- kilo (k) = 10^3\n- hecto (h) = 10^2\n- deca (da) = 10^1\n- deci (d) = 10^–1\n- centi (c) = 10^–2\n- milli (m) = 10^–3\n- micro (µ) = 10^–6\n- nano (n) = 10^–9\n- pico (p) = 10^–12\n- femto (f) = 10^–15\n- atto (a) = 10^–18\n- zepto (z) = 10^–21\n- yocto (y) = 10^–24\n- ronto (r) = 10^–27\n- quecto (q) = 10^–30\n\nNIST's prefix page spells the name of the 10^1 prefix as deka, in the sentence that deka, hecto, and kilo mean 10, 100, and 1000. BIPM's table spells that same prefix deca, symbol da. The factor is the same. These are names for powers of ten, not a physical measurement.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "SI prefixes",
+      "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "The quetta/quecto prefixes were added by the CGPM in 2022. The table was read 2026-11-18."
+    },
+    {
+      "title": "Metric (SI) Prefixes",
+      "url": "https://www.nist.gov/pml/owm/metric-si-prefixes",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "NIST spells the 10^1 prefix deka."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "BIPM and NIST",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:constants",
+    "si",
+    "prefixes"
+  ],
+  "read_time_min": 1
+}

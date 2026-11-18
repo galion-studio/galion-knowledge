@@ -1,0 +1,53 @@
+{
+  "id": "physics-engineering.si-seven-constants",
+  "title": "Since 20 May 2019 the SI has been defined by seven exact constants",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "BIPM says every SI unit is defined by fixing seven numerical values, and those seven values have no uncertainty.",
+  "body": "The BIPM page on the defining constants, opened 2026-11-18, says the SI is defined by a set of seven defining constants. Since 20 May 2019, all SI units have been defined by fixing the numerical values of those constants. The page says the numerical values have no uncertainty. It is by fixing the exact numerical value of each constant that the unit becomes defined, because the product of the numerical value and the unit must equal the value of the constant.\n\nThe seven, with the values printed on that page, are: the caesium hyperfine frequency ΔνCs, 9 192 631 770 Hz; the speed of light in vacuum c, 299 792 458 m s⁻¹; the Planck constant h, 6.626 070 15 × 10⁻³⁴ J s; the elementary charge e, 1.602 176 634 × 10⁻¹⁹ C; the Boltzmann constant k, 1.380 649 × 10⁻²³ J K⁻¹; the Avogadro constant NA, 6.022 140 76 × 10²³ mol⁻¹; and the luminous efficacy Kcd of monochromatic radiation of frequency 540 × 10¹² Hz, 683 lm W⁻¹.\n\nThe same bureau's page on the SI says the seven base units are the second, the metre, the kilogram, the ampere, the kelvin, the mole, and the candela. The base-units page says that in the 2018 revision the definitions of the kilogram, the ampere, the kelvin, and the mole were changed, based on fixed values of h, e, k, and NA respectively. The second, the metre, and the candela were already tied to constants. This is a decision about the measurement system. It is not a claim that the constants themselves changed in nature on that day.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The International System of Units (SI): Defining constants",
+      "url": "https://www.bipm.org/en/measurement-units/si-defining-constants",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2018",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. BIPM dates the fixed values to the revision that took effect on 20 May 2019 and cites CGPM Resolution 1 (2018)."
+    },
+    {
+      "title": "The International System of Units (SI)",
+      "url": "https://www.bipm.org/en/measurement-units",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2019-05-20",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    },
+    {
+      "title": "SI base units",
+      "url": "https://www.bipm.org/en/measurement-units/si-base-units",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2018",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bureau International des Poids et Mesures",
+  "as_of_date": "2019-05-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.planck-h",
+    "physics-engineering.elementary-charge",
+    "physics-engineering.boltzmann",
+    "physics-engineering.avogadro",
+    "physics-engineering.speed-of-light",
+    "physics-engineering.caesium-frequency",
+    "physics-engineering.candela-efficacy"
+  ],
+  "tags": [
+    "physics-engineering",
+    "si"
+  ]
+}

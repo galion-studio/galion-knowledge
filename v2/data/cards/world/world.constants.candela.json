@@ -1,0 +1,47 @@
+{
+  "id": "world.constants.candela",
+  "title": "The candela fixes luminous efficacy at 683 lm/W for 540 THz light",
+  "section": "world",
+  "category": "measurement",
+  "summary": "NIST defines the candela by fixing the luminous efficacy of 540 terahertz light at 683 lumens per watt.",
+  "body": "NIST's luminous-intensity page says the candela is defined by taking the fixed numerical value of the luminous efficacy of monochromatic radiation of frequency 540 × 10^{12} Hz to be 683 when expressed in lm W^{−1}. The BIPM defining-constants table prints that luminous efficacy as 683 lm/W. The 2022 CODATA listing marks luminous efficacy exact at 683 lm W^{−1}. The frequency is yellow-green light. The candela is a unit of perceived light, tied to that specified source, not a unit of raw energy.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "SI Units – Luminous Intensity",
+      "url": "https://www.nist.gov/pml/owm/si-units-luminous-intensity",
+      "author": "National Institute of Standards and Technology",
+      "date": "2019-05-20",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "SI defining constants",
+      "url": "https://www.bipm.org/en/measurement-units/si-defining-constants",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "2022 CODATA complete listing",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, BIPM, and the 2022 CODATA listing",
+  "as_of_date": "2019-05-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.kilogram-planck"
+  ],
+  "tags": [
+    "core-pack",
+    "area:constants",
+    "si",
+    "candela"
+  ],
+  "read_time_min": 1
+}

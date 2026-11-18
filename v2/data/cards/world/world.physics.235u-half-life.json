@@ -1,0 +1,43 @@
+{
+  "id": "world.physics.235u-half-life",
+  "title": "IAEA Live Chart: 235U half-life 7.04E+8 Y (uncertainty from the seconds column)",
+  "section": "world",
+  "category": "physics",
+  "summary": "The Live Chart row for 235U lists half-life 7.04E+8 with unit Y. The seconds columns fix the absolute uncertainty at 1000000 years.",
+  "body": "The IAEA Live Chart ground-state row for 235U (Z=92, N=143), extracted 2026-11-18, lists half_life 7.04E+8, unit_hl Y, unc_hl 1, half_life_sec 2.221607588611277e16, and unc_hls 31556925974592. Dividing half_life_sec by half_life gives 31556926 seconds per unit, so unit code Y is years in this row. Dividing unc_hls by that same number gives an absolute uncertainty of 1000000 years. The small integer unc_hl (1) matches that absolute uncertainty as 1 in the last significant place of the printed half-life, not as 1 years on its own. The leading decay field is A at 100 percent. The abundance field is 0.7204 with unc_a 0.0006. The row's ENSDF publication cut-off field is 1-Feb-2014. This is the database row, not a new laboratory measurement made for this card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "IAEA Live Chart ground state 235U",
+      "url": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=235U",
+      "author": "International Atomic Energy Agency, Live Chart of Nuclides",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "CSV extracted 2026-11-18. ENSDF cut-off field: 1-Feb-2014."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "IAEA Live Chart / ENSDF",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.hertz-and-becquerel"
+  ],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "nuclear",
+    "235U"
+  ],
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "Truth gate ceiling. The only source host is iaea.org, class other, whose ceiling is weak. The Live Chart row was not changed and no source was added."
+    }
+  ]
+}

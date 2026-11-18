@@ -1,0 +1,33 @@
+{
+  "id": "world.astronomy.venus-fact-sheet",
+  "title": "NASA's Venus fact sheet: orbit 224.701 days, surface pressure 92 bars",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet lists Venus's mass as 4.8673 × 10^24 kg, equatorial radius 6051.8 km, mean density 5243 kg/m^3, surface gravity 8.87 m/s^2, and sidereal orbit 224.701 days.",
+  "body": "The sheet lists Venus's mass as 4.8673 × 10^24 kg, equatorial radius 6051.8 km, mean density 5243 kg/m^3, surface gravity 8.87 m/s^2, and sidereal orbit 224.701 days. It prints the sidereal rotation period as −5832.6 hours and does not, on the page read, define that minus sign. The atmosphere section states a surface pressure of 92 bars. The sheet lists zero natural satellites. Author of the sheet: Dr. David R. Williams, NASA Goddard Space Flight Center. Last updated on the page: 2024-01-11.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Venus Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-01-11",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-01-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.eight-planets",
+    "world.sun-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "venus"
+  ],
+  "read_time_min": 1
+}

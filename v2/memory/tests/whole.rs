@@ -3,7 +3,7 @@
 
 use std::path::PathBuf;
 
-use horbm_memory::{parse_cards, synthetic_card, Card, Stack, Store, MAX_HITS};
+use horbm_memory::{parse_cards, synthetic_card, Card, ShardManifest, Stack, Store, MAX_HITS};
 
 fn cards_dir() -> PathBuf {
     PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../data/cards")
@@ -363,6 +363,40 @@ fn measured_corpus_at_the_target_size() {
     assert_eq!(again.unchanged, n);
     assert_eq!(stack.revision_count().unwrap(), 0);
     let _ = std::fs::remove_dir_all(&dir);
+}
+
+#[test]
+fn addon_shard_manifest_matches_shard_manifest() {
+    let path = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../shards/manifest.json");
+    let text = std::fs::read_to_string(&path).unwrap();
+    let manifest: ShardManifest = serde_json::from_str(&text).expect("galion-shard-manifest/1");
+    assert_eq!(manifest.schema, "galion-shard-manifest/1");
+    assert_eq!(manifest.version, "1");
+    assert!(manifest.immutable);
+    assert!(!manifest.note.is_empty());
+    assert_eq!(manifest.core_pack.id, "core");
+    assert_eq!(manifest.core_pack.section, "core");
+    assert_eq!(manifest.core_pack.category, "core");
+    assert_eq!(manifest.core_pack.sha256.len(), 64);
+    assert!(manifest.core_pack.bytes > 0);
+    assert!(manifest.shards.len() >= 20);
+    let mut ids = std::collections::BTreeSet::new();
+    for shard in &manifest.shards {
+        assert!(ids.insert(shard.id.clone()), "duplicate {}", shard.id);
+        assert!(!shard.section.is_empty());
+        assert!(!shard.category.is_empty());
+        assert_eq!(shard.sha256.len(), 64);
+        let meta = PathBuf::from(env!("CARGO_MANIFEST_DIR"))
+            .join("../shards")
+            .join(&shard.id)
+            .join("shard.json");
+        let raw: serde_json::Value =
+            serde_json::from_str(&std::fs::read_to_string(meta).unwrap()).unwrap();
+        assert_eq!(raw["sha256"].as_str(), Some(shard.sha256.as_str()));
+        assert_eq!(raw["bytes"].as_u64(), Some(shard.bytes));
+        assert_eq!(raw["schema"], "galion-shard-manifest/1");
+        assert_eq!(raw["depends_on"][0], "core");
+    }
 }
 
 fn percentile(samples: &mut [u64], p: f64) -> u64 {

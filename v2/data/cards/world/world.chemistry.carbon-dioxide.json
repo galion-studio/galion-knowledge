@@ -1,0 +1,32 @@
+{
+  "id": "world.chemistry.carbon-dioxide",
+  "title": "NIST WebBook: Carbon dioxide is CO2, molecular weight 44.0095 amu",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The NIST Chemistry WebBook lists Carbon dioxide as CO2, molecular weight 44.0095 amu, CAS 124-38-9.",
+  "body": "The NIST Chemistry WebBook entry for Carbon dioxide, CAS Registry Number 124-38-9, lists molecular formula CO2 and molecular weight 44.0095 amu. The same entry's monoisotopic molecular weight is 43.9898292 amu. The IUPAC InChI on the entry is InChI=1S/CO2/c2-1-3. The molecular weight and the monoisotopic mass are two different fields. This card reports the catalog entry. It does not convert either field into a molar mass in grams, and it does not say that every real sample has that weight.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Carbon dioxide, NIST Chemistry WebBook SRD 69",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C124389&Units=SI",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "JSON-LD MolecularEntity and the CAS line on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "webbook",
+    "CO2"
+  ],
+  "read_time_min": 1
+}

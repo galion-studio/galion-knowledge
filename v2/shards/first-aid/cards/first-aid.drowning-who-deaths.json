@@ -1,0 +1,32 @@
+{
+  "id": "first-aid.drowning-who-deaths",
+  "title": "WHO: about 300,000 drowning deaths a year, mostly in poorer countries",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "WHO's drowning fact sheet gives the scale and the age pattern. It is a count of deaths, not a rescue method.",
+  "body": "The World Health Organization's drowning fact sheet, opened 2026-11-18, says there are around 300,000 annual drowning deaths worldwide. Children under 5 account for nearly a quarter. Drowning is the fourth leading cause of death for children aged 1 to 4 and the third for children aged 5 to 14. Ninety-two percent of drowning deaths occur in low- and middle-income countries. Since 2000 the global drowning death rate has fallen by 38 percent, from 6.1 to 3.8 per 100,000. Children and young adults aged 0 to 29 account for 57 percent of drowning deaths. The sheet says drowning accounts for 75 percent of deaths in flood disasters. Those are WHO's figures on that page. They are not a procedure for pulling someone out of water.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Drowning",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/drowning",
+      "author": "World Health Organization",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Fact sheet opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.drowning-breaths-first"
+  ],
+  "tags": [
+    "first-aid",
+    "drowning",
+    "who"
+  ]
+}

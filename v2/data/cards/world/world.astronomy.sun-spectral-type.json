@@ -1,0 +1,33 @@
+{
+  "id": "world.astronomy.sun-spectral-type",
+  "title": "NASA's Sun fact sheet lists spectral type G2 V",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The Sun fact sheet's spectral-type row reads G2 V. Mass and radius are on the existing Sun card.",
+  "body": "NASA's Sun fact sheet, last updated 9 May 2024, lists spectral type G2 V. An earlier card on this sheet's mass and radius said a G-type label was not on the rows then read. The spectral-type row is on the page fetched 18 November 2026, and it reads G2 V. Mass, radius, and central temperature stay on the earlier card and are not repeated here.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sun Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-05-09",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-05-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.sun-fact-sheet",
+    "world.astronomy.sun-luminosity"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "sun"
+  ],
+  "read_time_min": 1
+}

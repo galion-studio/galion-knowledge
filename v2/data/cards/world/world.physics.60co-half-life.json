@@ -1,0 +1,43 @@
+{
+  "id": "world.physics.60co-half-life",
+  "title": "IAEA Live Chart: 60Co half-life 1925.28 d (uncertainty from the seconds column)",
+  "section": "world",
+  "category": "physics",
+  "summary": "The Live Chart row for 60Co lists half-life 1925.28 with unit d. The seconds columns fix the absolute uncertainty at 0.14 days.",
+  "body": "The IAEA Live Chart ground-state row for 60Co (Z=27, N=33), extracted 2026-11-18, lists half_life 1925.28, unit_hl d, unc_hl 14, half_life_sec 166344192, and unc_hls 12096. Dividing half_life_sec by half_life gives 86400 seconds per unit, so unit code d is days in this row. Dividing unc_hls by that same number gives an absolute uncertainty of 0.14 days. The small integer unc_hl (14) matches that absolute uncertainty as 14 in the last significant place of the printed half-life, not as 14 days on its own. The leading decay field is B- at 100 percent. The row's ENSDF publication cut-off field is 31-Dec-2012. This is the database row, not a new laboratory measurement made for this card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "IAEA Live Chart ground state 60Co",
+      "url": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=60Co",
+      "author": "International Atomic Energy Agency, Live Chart of Nuclides",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "CSV extracted 2026-11-18. ENSDF cut-off field: 31-Dec-2012."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "IAEA Live Chart / ENSDF",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.hertz-and-becquerel"
+  ],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "nuclear",
+    "60Co"
+  ],
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "Truth gate ceiling. The only source host is iaea.org, class other, whose ceiling is weak. The Live Chart row was not changed and no source was added."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world.physics.weak-mixing-angle",
+  "title": "2022 CODATA: weak mixing angle is 0.223 05",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2022 CODATA complete listing, from NIST, gives weak mixing angle as 0.223 05, with uncertainty 0.000 23.",
+  "body": "The 2022 CODATA complete listing, from NIST, gives weak mixing angle as 0.223 05, with uncertainty 0.000 23. The row is not marked exact. The 2022 listing gives a weak mixing angle of this value. The line itself does not name a renormalization scheme. This card does not add one.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "2022 CODATA complete listing of the fundamental physical constants",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "ASCII table fetched 2026-11-18. The card's number is that row."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, 2022 CODATA adjustment",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "codata",
+    "constants"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,41 @@
+{
+  "id": "first-aid.aed",
+  "title": "St John Ambulance: do not leave the person to fetch a defibrillator yourself",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Send a helper for the AED. If you are alone, stay and do CPR. Adult pads go upper right chest and lower left side.",
+  "body": "St John Ambulance's defibrillator page says that after the primary survey, the emergency call, and the start of CPR, a helper should fetch a defibrillator if one is available. If you are alone, do not leave the person to look for one. The call handler can tell the helper where the nearest one is. When it arrives, switch it on, or open the case if that switches it on, and follow its spoken or pictured instructions. The helper removes or cuts clothing, dries a wet chest, and attaches pads while compressions continue. For adults, one pad goes on the upper right chest, just under the collarbone, and the other on the lower left side, below the armpit. For infants or smaller children, one pad goes in the middle of the chest and the second on the back, between the shoulder blades.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How to use a defibrillator",
+      "url": "https://www.sja.org.uk/first-aid-advice/how-to-use-a-defibrillator/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.cpr-adult",
+    "first-aid.cpr-women"
+  ],
+  "tags": [
+    "first-aid",
+    "aed"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

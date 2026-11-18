@@ -1,0 +1,41 @@
+{
+  "id": "first-aid.fainting",
+  "title": "St John Ambulance: fainting means lie down and raise the legs",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Fresh air, people standing back, then sit up slowly. If they stay unresponsive, open the airway and check breathing.",
+  "body": "St John Ambulance's fainting page says to advise the person to lie down, elevate the legs slightly with a stool, cushions, or pillows, get them fresh air, and ask other people to stand back. Reassure them. When they feel better, help them sit up slowly over a few minutes. If they stay unresponsive, open the airway, check breathing, and prepare to treat an unresponsive person. MedlinePlus, on its unconsciousness page, says brief unconsciousness or fainting is often from dehydration, low blood sugar, or temporary low blood pressure, and can also be from serious heart or nervous-system problems. A clinician decides whether tests are needed. That is a statement about causes, not a reason to skip the lie-down step.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fainting",
+      "url": "https://www.sja.org.uk/first-aid-advice/fainting/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    },
+    {
+      "title": "Unconsciousness - first aid",
+      "url": "https://medlineplus.gov/ency/article/000022.htm",
+      "author": "National Library of Medicine, MedlinePlus",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance; National Library of Medicine",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.shock",
+    "first-aid.unconscious-medlineplus",
+    "first-aid.hypoglycaemia"
+  ],
+  "tags": [
+    "first-aid",
+    "fainting"
+  ]
+}

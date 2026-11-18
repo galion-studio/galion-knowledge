@@ -1,0 +1,39 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "chemistry",
+  "title": "Chemistry",
+  "scope": "Substances, evaluated data, and nomenclature. Not a procedure for making a harmful agent.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "chemistry",
+  "priority": "high",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The substance table is large. The core keeps the few reactions it needs for the rest of the sciences.",
+  "keywords": [
+    "element",
+    "compound",
+    "reaction",
+    "thermochemistry",
+    "iupac"
+  ],
+  "primary_sources": [
+    {
+      "title": "IUPAC",
+      "url": "https://iupac.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "NIST Chemistry WebBook",
+      "url": "https://webbook.nist.gov/chemistry/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

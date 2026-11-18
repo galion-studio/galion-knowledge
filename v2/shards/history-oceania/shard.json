@@ -1,0 +1,39 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "history-oceania",
+  "title": "History, Oceania and the Pacific",
+  "scope": "Pacific and Australian histories from their archives and from archaeology.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "history-oceania",
+  "priority": "low",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The core does not carry a regional history. This one is loaded when the question is that ocean.",
+  "keywords": [
+    "pacific",
+    "oceania",
+    "australia",
+    "polynesia",
+    "maori"
+  ],
+  "primary_sources": [
+    {
+      "title": "UNESCO",
+      "url": "https://www.unesco.org/en",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Library of Congress",
+      "url": "https://www.loc.gov/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

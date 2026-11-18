@@ -1,0 +1,32 @@
+{
+  "id": "first-aid.heart-attack-cdc",
+  "title": "CDC: heart-attack symptoms, and women more often have tiredness or nausea",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Chest discomfort is the major symptom. Shortness of breath can come before it. Call 9-1-1. This page does not state an aspirin dose.",
+  "body": "The CDC heart-attack page opened on 2026-11-18 says the major symptoms are chest pain or discomfort. Most heart attacks involve discomfort in the centre or left side of the chest that lasts more than a few minutes or that goes away and comes back. The discomfort can feel like uncomfortable pressure, squeezing, fullness, or pain. Shortness of breath often comes with chest discomfort, and it can also happen before chest discomfort. Other symptoms can include unusual or unexplained tiredness and nausea or vomiting. The page says women are more likely to have these other symptoms. If you notice the symptoms in yourself or someone else, call 9-1-1 immediately. The sooner you reach an emergency room, the sooner treatment can reduce damage to the heart muscle. The page says clinicians at the hospital run tests to find out whether a heart attack is happening. It does not, in the text used here, tell a bystander to give aspirin.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "About Heart Attack Symptoms, Risk, and Recovery",
+      "url": "https://www.cdc.gov/heart-disease/about/heart-attack.html",
+      "author": "U.S. Centers for Disease Control and Prevention",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Centers for Disease Control and Prevention",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.heart-attack-sja",
+    "first-aid.stroke-cdc"
+  ],
+  "tags": [
+    "first-aid",
+    "heart"
+  ]
+}

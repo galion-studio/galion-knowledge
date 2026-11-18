@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.bill-amendment-x",
+  "title": "Bill of Rights, Amendment X: undelegated powers reserved to the states or the people",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The National Archives transcription of Amendment X, ratified 15 December 1791, is the text this card reports.",
+  "body": "The National Archives transcription of the Bill of Rights gives Amendment X, ratified on 15 December 1791. The following is a close rendering in modern spelling, not a character-for-character copy of the enrolled capitalisation: The powers not delegated to the United States by the Constitution, nor prohibited by it to the states, are reserved to the states respectively, or to the people. The Archives page keeps the capitalisation of the enrolled resolution. This card reports the operative rule. It does not collect later cases that have read the sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Bill of Rights: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "author": "U.S. National Archives",
+      "date": "1791-12-15",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Congress and the ratifying states",
+  "as_of_date": "1791-12-15",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.bill-twelve-proposed"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states",
+    "bill-of-rights"
+  ]
+}

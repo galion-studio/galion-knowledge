@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.declaration-alter",
+  "title": "The Declaration says governments derive just powers from consent, and may be altered",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The transcript's rights paragraph does not stop at life, liberty, and the pursuit of happiness. It says the people may alter or abolish a destructive government, and it also says prudence argues against changing a government for light causes.",
+  "body": "The National Archives transcript says the truths are held to be self-evident, that all men are created equal, and that they are endowed by their Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness. The same sentence continues. To secure these rights, governments are instituted among men, deriving their just powers from the consent of the governed. Whenever any form of government becomes destructive of these ends, it is the right of the people to alter or to abolish it, and to institute a new government. The next sentences say prudence will dictate that governments long established should not be changed for light and transient causes, and that experience has shown mankind more disposed to suffer, while evils are sufferable, than to right themselves by abolishing the forms to which they are accustomed. Then: when a long train of abuses and usurpations, pursuing invariably the same object, evinces a design to reduce them under absolute despotism, it is their right, it is their duty, to throw off such government.\n\nThe core pack already records the rights clause. This card is the rest of that paragraph, including the caution that sits between the right to alter a government and the claim that the threshold had been reached. The transcript is what Congress adopted as the text. It is not a description of who could vote, or who was free, in the colonies in 1776.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Declaration of Independence: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "author": "U.S. National Archives",
+      "date": "1776-07-04",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Continental Congress",
+  "as_of_date": "1776-07-04",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.declaration-tax",
+    "history-primary-documents.declaration-independence-clause"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states"
+  ]
+}

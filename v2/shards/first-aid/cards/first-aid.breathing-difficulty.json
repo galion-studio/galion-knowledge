@@ -1,0 +1,33 @@
+{
+  "id": "first-aid.breathing-difficulty",
+  "title": "MedlinePlus: sudden breathing difficulty means call 911, then watch the airway",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Do not assume the person is better just because wheezing has gone quiet. A sucking chest wound is bandaged on three sides, one side left open.",
+  "body": "MedlinePlus says its breathing-difficulties page is about unexpected or sudden breathing problems, not the day-to-day breathing trouble of a known illness. Call 911 or the local emergency number right away, then check airway, breathing, and pulse, and begin CPR if necessary. Keep monitoring until help arrives. Do not assume the person is improving if you can no longer hear abnormal breath sounds such as wheezing. People in trouble may be unable to breathe lying down and may need to sit up. An allergy may show as a rash or swelling of the face, tongue, or throat.\n\nFor a sucking chest wound, which the page says lets air into the chest cavity with each breath and can collapse a lung, bandage with plastic wrap, a plastic bag, or gauze pads covered with petroleum jelly, sealing three sides and leaving one side unsealed. The page says that makes a valve: air does not enter through the wound, and trapped air can leave through the open side. That three-sided instruction is this page's. It is not copied here onto other kinds of wounds.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Breathing difficulties - first aid",
+      "url": "https://medlineplus.gov/ency/article/000007.htm",
+      "author": "National Library of Medicine, MedlinePlus",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Library of Medicine",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.asthma",
+    "first-aid.anaphylaxis",
+    "first-aid.cpr-adult"
+  ],
+  "tags": [
+    "first-aid",
+    "breathing"
+  ]
+}

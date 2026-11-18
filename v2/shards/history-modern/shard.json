@@ -1,0 +1,43 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "history-modern",
+  "title": "History, 1800 to 1945",
+  "scope": "Industrial states, empires, and the two world wars, from the documents and the statistical series, with disagreements left standing.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "history-modern",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The core has the war-crimes instruments and a few battles. Campaigns, treaties, and counts are the add-on.",
+  "keywords": [
+    "nineteenth century",
+    "world war",
+    "empire",
+    "industrial"
+  ],
+  "primary_sources": [
+    {
+      "title": "Library of Congress",
+      "url": "https://www.loc.gov/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Avalon Project",
+      "url": "https://avalon.law.yale.edu/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "The National Archives (UK)",
+      "url": "https://www.nationalarchives.gov.uk/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}
