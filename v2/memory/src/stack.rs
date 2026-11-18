@@ -10,7 +10,8 @@
 //! Scores are not fused across the two pools.
 //!
 //! When the knowledge side has no confident hit, the answer is
-//! `I don't know`. The miss is appended to the gap log.
+//! `I don't know`. The miss is enqueued for the gap log. The insert
+//! itself runs on the memory worker, not inside this call.
 
 use std::collections::HashMap;
 use std::fs;
@@ -283,7 +284,7 @@ impl Stack {
                 .collect::<Vec<_>>();
             let (advice, detail) = advice_for(&unloaded, &nearest, self.index.is_some());
             let nearest_json = nearest_json(&nearest);
-            let gap_id = self.memory.log_gap(
+            self.memory.enqueue_gap(
                 query,
                 if nearest.is_empty() {
                     "none"
@@ -293,8 +294,8 @@ impl Stack {
                 &nearest_json,
                 advice,
                 &detail,
-            )?;
-            (ANSWER_UNKNOWN.to_string(), Some(gap_id), nearest)
+            );
+            (ANSWER_UNKNOWN.to_string(), None, nearest)
         };
         let took_us = u32::try_from(started.elapsed().as_micros()).unwrap_or(u32::MAX);
         Ok(QueryResponse {
@@ -320,6 +321,54 @@ impl Stack {
         date: impl Into<String>,
     ) -> crate::session::Turn {
         self.memory.push_turn(text, said_by, date)
+    }
+
+    pub fn set_session(&mut self, session_id: &str) -> Result<()> {
+        self.memory.set_session(session_id)
+    }
+
+    pub fn keep_whole_session(&mut self, session_id: &str, keep: bool) -> Result<()> {
+        self.memory.keep_whole_session(session_id, keep)
+    }
+
+    pub fn session_summary(&self, session_id: &str) -> Result<String> {
+        self.memory.session_summary(session_id)
+    }
+
+    pub fn revise_fact(
+        &mut self,
+        old_id: &str,
+        text: &str,
+        said_by: &str,
+        date: &str,
+        source: &str,
+    ) -> Result<String> {
+        self.memory.revise_fact(old_id, text, said_by, date, source)
+    }
+
+    pub fn search_transcript(&self, query: &str) -> Result<crate::store::SearchResponse> {
+        self.memory.search_transcript(query)
+    }
+
+    pub fn pause_worker(&self) {
+        self.memory.pause_worker();
+    }
+
+    pub fn resume_worker(&self) {
+        self.memory.resume_worker();
+    }
+
+    pub fn queue_len(&self) -> usize {
+        self.memory.queue_len()
+    }
+
+    pub fn queue_handle(&self) -> crate::queue::QueueHandle {
+        self.memory.queue_handle()
+    }
+
+    /// Finish background writes. Tests and the CLI use this. `query` does not.
+    pub fn drain(&mut self) -> Result<()> {
+        self.memory.drain()
     }
 
     pub fn remember(

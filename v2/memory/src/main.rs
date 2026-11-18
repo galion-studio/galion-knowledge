@@ -93,6 +93,67 @@ fn run() -> Result<(), String> {
                 _ => return Err("diary needs add or list".into()),
             }
         }
+        "keep-session" => {
+            let session = flag(&args, "--session")?;
+            let on = args.iter().any(|arg| arg == "--on");
+            let off = args.iter().any(|arg| arg == "--off");
+            if on == off {
+                return Err("keep-session needs --on or --off".into());
+            }
+            store
+                .keep_whole_session(&session, on)
+                .map_err(|err| err.to_string())?;
+            store.drain().map_err(|err| err.to_string())?;
+            let summary = store
+                .session_summary(&session)
+                .map_err(|err| err.to_string())?;
+            println!(
+                "{}",
+                serde_json::json!({
+                    "session": session,
+                    "keep_whole": on,
+                    "summary": summary,
+                })
+            );
+        }
+        "summary" => {
+            let session = flag_or(&args, "--session", "default");
+            store.drain().map_err(|err| err.to_string())?;
+            let summary = store
+                .session_summary(&session)
+                .map_err(|err| err.to_string())?;
+            println!(
+                "{}",
+                serde_json::json!({
+                    "session": session,
+                    "summary": summary,
+                })
+            );
+        }
+        "jobs" => {
+            let sub = args.first().map(String::as_str).unwrap_or("status");
+            if sub == "drain" {
+                store.drain().map_err(|err| err.to_string())?;
+            }
+            println!(
+                "{}",
+                serde_json::json!({
+                    "pending": store.queue_len(),
+                })
+            );
+        }
+        "revise" => {
+            let id = flag(&args, "--id")?;
+            let text = flag(&args, "--text")?;
+            let said_by = flag(&args, "--said-by")?;
+            let date = flag(&args, "--date")?;
+            let source = flag(&args, "--source")?;
+            let new_id = store
+                .revise_fact(&id, &text, &said_by, &date, &source)
+                .map_err(|err| err.to_string())?;
+            store.drain().map_err(|err| err.to_string())?;
+            println!("{{\"id\":\"{new_id}\",\"revised\":\"{id}\",\"pinned\":true}}");
+        }
         "forget" => {
             if args.iter().any(|a| a == "--withdraw") {
                 return Err(
@@ -583,6 +644,10 @@ horbm-memory — HORBM memory and knowledge
   horbm-memory [--db PATH] diary list
   horbm-memory [--db PATH] forget --id ID
   horbm-memory [--db PATH] forget --mark --id ID
+  horbm-memory [--db PATH] keep-session --session ID --on|--off
+  horbm-memory [--db PATH] summary [--session ID]
+  horbm-memory [--db PATH] revise --id ID --text TEXT --said-by WHO --date DATE --source SRC
+  horbm-memory [--db PATH] jobs [drain]
   horbm-memory [--db PATH] bench [--n N] [--queries N]
   horbm-memory scale-bench [--n N] [--queries N] [--dir PATH]
   horbm-memory stack-bench [--n N] [--queries N] [--knowledge DIR]
@@ -590,9 +655,12 @@ horbm-memory — HORBM memory and knowledge
 Default database: ./horbm-memory.sqlite
 Default knowledge directory: ./horbm-knowledge
 query returns at most 4 hits, split into knowledge and memory.
-A knowledge miss is the answer \"I don't know\" and is appended to the gap log.
+Memory hits include pinned and importance.
+A knowledge miss is the answer \"I don't know\". The gap row is written
+on the background queue. jobs drain waits for that queue.
 forget --id and forget --mark are admin tools. forget --id archives a row.
 The text stays and leaves retrieval. There is no withdrawal command.
-Card revisions are append-only. Search reads the latest card."
+keep-session --on writes a session summary and keeps the transcript searchable.
+Card revisions and memory revisions are append-only. Search reads the latest text."
     );
 }
