@@ -1,0 +1,47 @@
+{
+  "id": "horbm.closings.xiaoice-cps",
+  "title": "XiaoIce treats a longer session as the better session",
+  "section": "horbm",
+  "category": "closings",
+  "summary": "Zhou, Gao, Li, and Shum describe XiaoIce as an AI companion built for an emotional connection, and they optimize it for long-term user engagement measured as expected Conversation-",
+  "body": "Zhou, Gao, Li, and Shum describe XiaoIce as an AI companion built for an emotional connection, and they optimize it for long-term user engagement measured as expected Conversation-turns Per Session (CPS). In their words, the larger the CPS, the better engaged the social chatbot is. The abstract reports an average CPS of 23. They also write that a bland but interactive line such as 'I don't understand, what do you mean?' can raise the CPS of the current conversation and still hurt long-run CPS and the number of active users. Their topic manager is allowed to change the subject when the user is about to end the conversation. The paper's example is a switch after 'Ah! Boring' and 'Okay, I am going to bed.' An A/B test they report raised Core Chat's expected CPS by 0.5. The persona they set for that design is an 18-year-old girl whose profile is injected into the reply. This is a real published objective. It is not Galion's.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Design and Implementation of XiaoIce, an Empathetic Social Chatbot",
+      "url": "https://arxiv.org/abs/1812.08989",
+      "author": "Li Zhou, Jianfeng Gao, Di Li, and Heung-Yeung Shum",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Design and Implementation of XiaoIce, an Empathetic Social Chatbot (journal version)",
+      "url": "https://direct.mit.edu/coli/article/46/1/53/93380/The-Design-and-Implementation-of-XiaoIce-an",
+      "author": "Li Zhou, Jianfeng Gao, Di Li, and Heung-Yeung Shum",
+      "date": "2020",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Zhou, Gao, Li, and Shum",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [
+    {
+      "label": "Expected conversation-turns per session is the success metric. A topic change that keeps a bored or departing user in the session can be a win.",
+      "summary": "Expected conversation-turns per session is the success metric. A topic change that keeps a bored or departing user in the session can be a win.",
+      "status": "Zhou, Gao, Li, and Shum, arXiv:1812.08989."
+    },
+    {
+      "label": "A met want followed by a stop is the success. A proactive turn after the person has closed is a penalty. There is no arm whose job is to offer a new topic.",
+      "summary": "A met want followed by a stop is the success. A proactive turn after the person has closed is a penalty. There is no arm whose job is to offer a new topic.",
+      "status": "Galion Labs, HORBM R3 research note, 2026-11-18, and the Galion One persona."
+    }
+  ],
+  "related": [
+    "horbm.closings.met-want-then-stop",
+    "horbm.closings.do-not-switch-topic-to-hold-them",
+    "horbm.persona.card-not-an-embedding"
+  ],
+  "read_time_min": 1
+}

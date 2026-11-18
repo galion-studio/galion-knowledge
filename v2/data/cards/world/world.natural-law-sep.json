@@ -1,0 +1,39 @@
+{
+  "id": "world.natural-law-sep",
+  "title": "Natural-law ethics is a tradition, not a list of self-evident rights",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Mark Murphy's Stanford entry is the map. The Declaration is one political use of rights language.",
+  "body": "Mark Murphy's Stanford Encyclopedia entry on the natural law tradition is the overview of the claim that moral standards are grounded in something about human nature or practical reason, not only in legislation. The Declaration of Independence uses rights language. The Universal Declaration is a General Assembly proclamation. Whether rights are \"natural,\" divine, or conventional is disputed. Jeremy Bentham's attack on natural rights as \"nonsense upon stilts\" is a real opposing text and was not opened in a verified edition here, so it is named only as an unsourced pointer on the companion card.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "The Natural Law Tradition in Ethics",
+      "url": "https://plato.stanford.edu/entries/natural-law-ethics/",
+      "author": "Mark Murphy",
+      "date": "2002-09-23",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Mark Murphy",
+  "as_of_date": "2002-09-23",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.declaration-independence",
+    "world.law.udhr-1948",
+    "world.unsourced-bentham-rights"
+  ],
+  "tags": [
+    "philosophy",
+    "rights"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "33",
+    "v1_slug": "natural-rights",
+    "v1_category": "law",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

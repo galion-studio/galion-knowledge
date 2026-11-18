@@ -1,0 +1,28 @@
+{
+  "id": "world.society.marx-historical-materialism",
+  "title": "Marx's project, as one scholarly survey states it: productive power, profit, surplus value",
+  "section": "world",
+  "category": "society",
+  "summary": "Jonathan Wolff and David Leopold, \"Karl Marx,\" Stanford Encyclopedia of Philosophy (first published 26 August 2003, substantive revision 27 March 2025), open with Marx's dates, 1818–1883. The passage that was read characterizes…",
+  "body": "## The survey's summary\n\nJonathan Wolff and David Leopold, \"Karl Marx,\" Stanford Encyclopedia of Philosophy (first published 26 August 2003, substantive revision 27 March 2025), open with Marx's dates, 1818–1883. The passage that was read characterizes historical materialism as centered on the idea that forms of society rise and fall as they further and then impede the development of human productive power. It says Marx was preoccupied with understanding the capitalist mode of production as driven by a remorseless pursuit of profit, the origins of which are found in the extraction of surplus value from the exploited proletariat.\n\nThose sentences are the encyclopedia's compression of a large body of writing. They are not a quotation from *Capital* checked against a German page, and this card does not invent one. The mechanism they attribute to Marx is: history is organized by how societies develop productive power; capitalism is organized by profit; profit, on this account, comes from surplus value extracted from workers.\n\n## Interpretation, and what would count against it\n\n**This is an interpretation of a theorist, reported by scholars.** It is not a measurement of wages, prices, or the origin of a fortune. Jensen and Miller's Giffen study, on another card, is an example of an empirical claim about poor households' purchases. Marx's surplus-value claim is a theory of where profit comes from. They are not the same kind of sentence.\n\n**Not settled.** Whether societies rise and fall for the reason historical materialism gives, and whether profit is surplus value in Marx's sense, are disputed by other economists and historians. This card does not attach a rival treatise, so it does not stage a mock debate. It marks the claim as Marx's project according to this survey, and it refuses to promote the project into a fact about the world merely because the project is famous.\n\nThe V1 articles titled \"Capitalism\" and \"Socialism\" are kept, unsourced, as separate cards. This card does not replace them. It covers only the summary that was read.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Karl Marx",
+      "url": "https://plato.stanford.edu/entries/marx/",
+      "author": "Jonathan Wolff and David Leopold",
+      "date": "2003",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jonathan Wolff and David Leopold",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.society.giffen-behavior",
+    "world.philosophy.social-contract"
+  ],
+  "read_time_min": 2
+}

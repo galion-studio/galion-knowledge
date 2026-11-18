@@ -1,0 +1,28 @@
+{
+  "id": "world.law.icj-sources-of-law",
+  "title": "What the World Court is told to apply",
+  "section": "world",
+  "category": "law",
+  "summary": "Article 38 of the Statute of the International Court of Justice lists the materials the Court shall apply when it decides disputes submitted to it. First, international conventions",
+  "body": "Article 38 of the Statute of the International Court of Justice lists the materials the Court shall apply when it decides disputes submitted to it. First, international conventions, general or particular, that establish rules expressly recognized by the contesting states. Second, international custom, as evidence of a general practice accepted as law. Third, the general principles of law recognized by civilized nations. Then, as a subsidiary means, judicial decisions and the teachings of the most highly qualified publicists of the various nations, subject to Article 59. Treaties are written consent. Custom is practice plus acceptance as law. \"General principles\" and \"the teachings of publicists\" are less determinate, which is why they sit where they sit. The article is a choice-of-law rule for one court. It is not a claim that these sources never conflict, and it is not a world criminal code.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Statute of the International Court of Justice",
+      "url": "https://www.icj-cij.org/statute",
+      "author": "International Court of Justice",
+      "date": "1945",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Statute of the International Court of Justice, Article 38",
+  "as_of_date": "1945",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.law.geneva-civilians-1949",
+    "world.law.udhr-1948"
+  ],
+  "read_time_min": 1
+}

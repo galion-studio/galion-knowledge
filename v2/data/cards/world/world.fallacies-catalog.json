@@ -1,0 +1,46 @@
+{
+  "id": "world.fallacies-catalog",
+  "title": "A fallacy catalog is a teaching tool, not a law of logic",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Hans Hansen's SEP entry and the Internet Encyclopedia of Philosophy page are the maps used here.",
+  "body": "Hans Hansen's Stanford Encyclopedia entry on fallacies, and the Internet Encyclopedia of Philosophy's fallacy page, survey named errors such as ad hominem, straw man, false dichotomy, begging the question, and appeals to emotion or popularity. Aristotle's Sophistical Refutations is the ancient root of part of this list. A named fallacy is a warning about a pattern. Calling a move a fallacy does not replace an argument about the substance. The v1 critical-thinking article's habits of mind (curiosity, humility, willingness to revise) are educational advice and are not given a separate source.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Fallacies",
+      "url": "https://plato.stanford.edu/entries/fallacies/",
+      "author": "Hans Hansen",
+      "date": "2015-05-29",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Fallacies",
+      "url": "https://iep.utm.edu/fallacy/",
+      "author": "Internet Encyclopedia of Philosophy",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Hans Hansen; Internet Encyclopedia of Philosophy",
+  "as_of_date": "2015-05-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.unsourced-critical-thinking-habits",
+    "world.heuristics-1974"
+  ],
+  "tags": [
+    "philosophy",
+    "logic",
+    "critical-thinking"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "36",
+    "v1_slug": "logical-fallacies",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

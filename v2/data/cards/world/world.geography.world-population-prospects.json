@@ -1,0 +1,28 @@
+{
+  "id": "world.geography.world-population-prospects",
+  "title": "A world population figure needs an edition",
+  "section": "world",
+  "category": "geography",
+  "summary": "The United Nations publishes World Population Prospects as its recurrent set of population estimates and projections. The site is population.un.org/wpp. Estimates reconstruct prese",
+  "body": "The United Nations publishes World Population Prospects as its recurrent set of population estimates and projections. The site is population.un.org/wpp. Estimates reconstruct present and past populations from censuses, surveys, and registration, which are uneven across countries. Projections carry those populations forward under stated assumptions about fertility, mortality, and migration. A single sentence of the form \"the world population is X\" is incomplete unless it names the revision and the variant. This card quotes no total on purpose. The sourced claim is that this publication is where the UN's figures live, and that the figure changes with the edition. Treating one year's headline number as a permanent fact about humanity confuses a statistical product with a census of every person alive.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "World Population Prospects",
+      "url": "https://population.un.org/wpp/",
+      "author": "United Nations Population Division",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United Nations Population Division",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.society.demographic-transition-1996",
+    "world.geography.glottolog-languages"
+  ],
+  "read_time_min": 1
+}

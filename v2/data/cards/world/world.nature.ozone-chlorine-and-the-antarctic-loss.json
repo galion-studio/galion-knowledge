@@ -1,0 +1,48 @@
+{
+  "id": "world.nature.ozone-chlorine-and-the-antarctic-loss",
+  "title": "Chlorofluoromethanes, chlorine, and Antarctic ozone",
+  "section": "world",
+  "category": "nature",
+  "summary": "In 1974 Molina and Rowland proposed a stratospheric sink for chlorofluoromethanes: chlorine atoms released from those gases catalyze the destruction of ozone. The paper is a chemic",
+  "body": "In 1974 Molina and Rowland proposed a stratospheric sink for chlorofluoromethanes: chlorine atoms released from those gases catalyze the destruction of ozone. The paper is a chemical mechanism, published before the Antarctic observations. In 1985 Farman, Gardiner, and Shanklin reported \"Large losses of total ozone in Antarctica reveal seasonal ClOx/NOx interaction,\" in Nature, pages 207–210. The title ties the observed spring losses to chlorine and nitrogen oxide chemistry. The Montreal Protocol is the later treaty aimed at substances that deplete the ozone layer; the Ozone Secretariat publishes its text. The 1995 Nobel Prize in Chemistry recognized the atmospheric chemistry. A mechanism paper, an observational paper, a treaty, and a prize are four different kinds of claim. The chemistry and the Antarctic losses are the scientific ones.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Stratospheric sink for chlorofluoromethanes: chlorine atom-catalysed destruction of ozone",
+      "url": "https://doi.org/10.1038/249810a0",
+      "author": "Mario J. Molina and F. S. Rowland",
+      "date": "1974",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Large losses of total ozone in Antarctica reveal seasonal ClOx/NOx interaction",
+      "url": "https://doi.org/10.1038/315207a0",
+      "author": "J. C. Farman, B. G. Gardiner, and J. D. Shanklin",
+      "date": "1985",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Montreal Protocol on Substances that Deplete the Ozone Layer",
+      "url": "https://ozone.unep.org/treaties/montreal-protocol",
+      "author": "UNEP Ozone Secretariat",
+      "date": "1987",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Nobel Prize in Chemistry 1995",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1995/summary/",
+      "author": "Nobel Prize Outreach",
+      "date": "1995",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Molina and Rowland 1974; Farman, Gardiner, and Shanklin 1985",
+  "as_of_date": "1985",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.nature.earth-energy-budget-2009"
+  ],
+  "read_time_min": 1
+}

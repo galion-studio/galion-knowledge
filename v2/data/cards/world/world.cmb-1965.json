@@ -1,0 +1,46 @@
+{
+  "id": "world.cmb-1965",
+  "title": "Penzias and Wilson measured an excess antenna temperature",
+  "section": "world",
+  "category": "cosmology",
+  "summary": "Their 1965 paper is the primary report later identified with the cosmic microwave background.",
+  "body": "A. A. Penzias and R. W. Wilson, \"A Measurement of Excess Antenna Temperature at 4080 Mc/s\" (Astrophysical Journal, 1965), reported an excess antenna temperature that was not accounted for by known sources in their instrument. NASA's Big Bang page, fetched in 2026, calls the cosmic microwave background the oldest light we can observe and says much about the universe remains unknown. The identification of the 1965 excess with the cooled glow of a hot early universe is the standard cosmological reading. The v1 timeline that puts recombination at 380,000 years and inflation at specific tiny fractions of a second was not re-derived from a paper in this pass.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A Measurement of Excess Antenna Temperature at 4080 Mc/s",
+      "url": "https://doi.org/10.1086/148307",
+      "author": "A. A. Penzias and R. W. Wilson",
+      "date": "1965",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Big Bang",
+      "url": "https://science.nasa.gov/universe/the-big-bang/",
+      "author": "NASA",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Arno Penzias and Robert Wilson",
+  "as_of_date": "1965",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.hubble-1929",
+    "world.planck-2018-lcdm",
+    "world.big-bang-unknowns"
+  ],
+  "tags": [
+    "cosmology",
+    "cmb"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "31",
+    "v1_slug": "big-bang",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

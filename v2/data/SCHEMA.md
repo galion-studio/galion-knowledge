@@ -26,12 +26,13 @@ One card is one JSON file. The file name is `{id}.json`. The parent folder name 
 | `body` | yes | Markdown. The article page renders this. |
 | `claim_type` | yes | `fact`, `interpretation`, `opinion`, or `contested`. |
 | `sources` | yes | Array. May be empty. Each item: `title`, `url`, `author`, `date`, `accessed`. `note` is optional. |
-| `evidence_strength` | yes | Prefer `none`, `weak`, `moderate`, or `strong`. The page shows any other word as written. |
+| `evidence_strength` | yes | `none`, `weak`, `moderate`, or `strong`. Words from earlier drafts are mapped: `unsourced` to none; `limited` and `design` to weak; `supported` and a sourced `not-settled` to moderate; `established` to strong. |
 | `said_by` | yes | Who said it. Empty string if unknown. |
 | `as_of_date` | yes | `YYYY-MM-DD`, or `YYYY-MM`, or empty if there is no date. |
 | `status` | yes | Use `unsourced - needs review` when there is no source. Other cards may use `draft`, `sourced - needs review`, or `reviewed`. |
 | `contested_views` | yes | Array. May be empty. Each item: `label`, `summary`, `status`. Keep disagreements side by side. Do not invent the other side. |
-| `related` | yes | Array of card ids. May be empty. Ids that are not in the pack are not linked. |
+| `related` | yes | Array of card ids. May be empty. Ids that are not in the pack are not linked. An alias id still resolves. |
+| `aliases` | no | Other ids for this same card, including dotted ids. Each alias is also served at `/article/<alias>/`. |
 | `tags` | no | Array of short strings. |
 | `read_time_min` | no | Positive integer. The site estimates from the body if this is omitted. |
 | `legacy` | no | Optional V1 display numbers. See below. |

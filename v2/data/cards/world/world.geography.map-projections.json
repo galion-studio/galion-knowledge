@@ -1,0 +1,28 @@
+{
+  "id": "world.geography.map-projections",
+  "title": "A map projection is a rule for laying a round Earth on a flat sheet",
+  "section": "world",
+  "category": "geography",
+  "summary": "The U.S. Geological Survey Publications Warehouse lists John P. Snyder, *Map projections: A working manual*, Professional Paper 1395, 1987, at the URL above. That manual is the working reference this card points to for constructing and…",
+  "body": "## What the manual is\n\nThe U.S. Geological Survey Publications Warehouse lists John P. Snyder, *Map projections: A working manual*, Professional Paper 1395, 1987, at the URL above. That manual is the working reference this card points to for constructing and comparing projections.\n\nA projection is a systematic rule that assigns coordinates on a plane to locations on the Earth. The Earth parameters that enter the rule — an equatorial radius, a polar radius, a chosen meridian — are measurements and conventions, documented on the shape and prime-meridian cards. The projection is the next step: which of those locations go where on the paper.\n\n## What has to give\n\nA flattened orange peel tears or stretches. That is the geometric constraint. No rule can send every point of a spheroid to a plane and keep all of area, shape, distance, and direction at once. Different projections keep different subsets of those properties, which is why a working manual compares them instead of crowning one map. Snyder's book is cited as that manual. Particular scale-factor formulas were not re-read from the PDF, so none are printed here.\n\n**Fact:** the 1987 USGS manual exists and is the professional reference for this job, and a projection is a chosen rule with chosen distortions.\n\n**Interpretation:** a world map that looks \"obvious\" is still a rule. The Mercator projection, for example, is one rule among those the manual treats. Calling a familiar wall map the shape of the world confuses the rule with the planet.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Map projections: A working manual",
+      "url": "https://pubs.usgs.gov/publication/pp1395",
+      "author": "John P. Snyder, U.S. Geological Survey Professional Paper 1395",
+      "date": "1987",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "John P. Snyder",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.geography.earth-shape",
+    "world.geography.prime-meridian-1884"
+  ],
+  "read_time_min": 1
+}

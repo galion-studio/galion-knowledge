@@ -1,0 +1,39 @@
+{
+  "id": "world.history.pericles-funeral-oration",
+  "title": "The funeral oration is Thucydides' speech, not a constitution",
+  "section": "world",
+  "category": "history",
+  "summary": "Book 2 of Thucydides' History of the Peloponnesian War, in the English text on Wikisource, contains the funeral oration of Pericles, placed in the first year of the war after the i",
+  "body": "Book 2 of Thucydides' History of the Peloponnesian War, in the English text on Wikisource, contains the funeral oration of Pericles, placed in the first year of the war after the invasion of Attica. It is a speech inside a history written by an Athenian general who was later exiled. It praises the city's institutions and conduct in wartime. It is not a statute, not a voter roll, and not a neutral description of who could attend the assembly. Athenian political rights were narrower than the praise suggests, but the citizenship rules live in other texts and are not restated from a second source in this card. Using the oration as proof that classical Athens was a democracy in the modern sense, or as proof that it was only a sham, both outrun what one speech in one history can show. It is evidence of how Thucydides had Pericles present Athens to Athenians.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "History of the Peloponnesian War, Book 2",
+      "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_2",
+      "author": "Thucydides",
+      "date": "5th century BCE",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Thucydides, History of the Peloponnesian War, Book 2",
+  "as_of_date": "-431",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "The oration presents Athens' political life as a model of participation and civic virtue.",
+      "summary": "The oration presents Athens' political life as a model of participation and civic virtue.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "A speech of praise in a wartime history is not a constitutional census of who held rights.",
+      "summary": "A speech of praise in a wartime history is not a constitutional census of who held rights.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.history.rights-of-man-1789",
+    "world.philosophy.aristotle-four-causes"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,18 @@
+[package]
+name = "horbm-memory"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Galion Labs"]
+description = "HORBM diary and memory: SQLite FTS5 BM25, int8 exact scan, reciprocal rank fusion."
+publish = false
+rust-version = "1.83"
+
+[[bin]]
+name = "horbm-memory"
+path = "src/main.rs"
+
+[dependencies]
+rusqlite = { version = "0.32.1", features = ["bundled"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

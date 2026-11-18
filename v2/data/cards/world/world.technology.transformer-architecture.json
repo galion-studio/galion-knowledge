@@ -1,0 +1,28 @@
+{
+  "id": "world.technology.transformer-architecture",
+  "title": "The Transformer: attention as the whole sequence model",
+  "section": "world",
+  "category": "technology",
+  "summary": "Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, and Polosukhin, \"Attention Is All You Need\" (arXiv:1706.03762, 2017), propose a sequence model they call the Transformer. The dominant models they describe used recurrent or…",
+  "body": "## What the paper replaces\n\nVaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, and Polosukhin, \"Attention Is All You Need\" (arXiv:1706.03762, 2017), propose a sequence model they call the Transformer. The dominant models they describe used recurrent or convolutional networks. Recurrence computes a hidden state step by step, so the steps of one example are sequential. The paper's mechanism drops recurrence and convolution and uses attention for the dependencies.\n\n## The mechanism, from the sections that were read\n\nAn attention function maps a query and a set of key-value pairs to an output. The output is a weighted sum of the values. The weights come from a compatibility of the query with the keys. Their scaled dot-product form, equation (1) in the paper, is:\n\nAttention(Q, K, V) = softmax(Q K transpose / √d_k) V\n\nThey divide by the square root of the key dimension because, they write, for large key dimension the dot products grow and push the softmax into a region of tiny gradients. Multi-head attention runs several of these functions in parallel on different learned projections, then concatenates. The paper says a single head's averaging would mix subspaces that the separate heads can keep apart.\n\nThe encoder they describe is a stack of N = 6 identical layers. Each layer has multi-head self-attention and a position-wise feed-forward network, with a residual connection and layer normalization. The model dimension they use is d_model = 512. The decoder is also N = 6 layers and adds attention over the encoder's output. Decoder self-attention is masked so a position cannot attend to later positions. The model is autoregressive: each output symbol is generated using the symbols already produced.\n\n## The translation numbers in the abstract\n\nThe abstract reports 28.4 BLEU on WMT 2014 English-to-German, more than 2 BLEU over the then-best results including ensembles, and 41.8 BLEU on WMT 2014 English-to-French for a single model trained for 3.5 days on eight GPUs. Those numbers are results on those translation tasks. They are not a measurement of understanding, truthfulness, or safety.\n\n**Fact:** the architecture and the reported translation scores.\n\n**Not settled, and not claimed:** that attention models are a theory of human language, or that a later product which uses the architecture inherits the 2017 BLEU scores.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "author": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin",
+      "date": "2017",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Ashish Vaswani and colleagues",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.technology.turing-machine",
+    "world.society.psychology-replication"
+  ],
+  "read_time_min": 2
+}

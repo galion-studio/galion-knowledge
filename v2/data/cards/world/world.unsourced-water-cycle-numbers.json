@@ -1,0 +1,30 @@
+{
+  "id": "world.unsourced-water-cycle-numbers",
+  "title": "Several v1 water-cycle statistics are unsourced",
+  "section": "world",
+  "category": "earth",
+  "summary": "86 percent of evaporation, nine days in the atmosphere, 3,000-year ocean circulation, and one metre of rain were not on the USGS pages we opened.",
+  "body": "The v1 water-cycle article states that 86 percent of global evaporation is from oceans, that a water molecule spends nine days in the atmosphere, that ocean circulation takes about 3,000 years, and that precipitation averages about one metre a year over the oceans. Those quantities may be in the hydrological literature. They were not on the USGS pages fetched for this pack. Leave them unsourced. The saline fraction and the process names are sourced separately.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.water-inventory-usgs",
+    "world.water-cycle-usgs"
+  ],
+  "tags": [
+    "earth",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "6",
+    "v1_slug": "water-cycle",
+    "v1_category": "nature",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

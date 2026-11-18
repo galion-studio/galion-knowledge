@@ -1,0 +1,21 @@
+{
+  "id": "world.philosophy.ethics-morality",
+  "title": "Ethics and Morality",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Ethics is the branch of philosophy concerned with questions of right and wrong, good and evil, virtue and vice. Actions are right if they produce good outcomes The ends can justify the means",
+  "body": "# Ethics and Morality\n\nEthics is the branch of philosophy concerned with questions of right and wrong, good and evil, virtue and vice.\n\n## Major Ethical Theories\n\n### Consequentialism\n- Actions are right if they produce good outcomes\n- The ends can justify the means\n- Focus on results, not intentions\n\n**Utilitarianism** (Bentham, Mill)\n- Maximize happiness/pleasure for the greatest number\n- Calculate costs and benefits\n- All beings' interests count equally\n\n### Deontology\n- Some actions are inherently right or wrong\n- Rules and duties matter, not just outcomes\n- Certain things should never be done\n\n**Kant's Ethics**\n- Categorical Imperative: Act only on principles you'd want universal\n- Treat people as ends, never merely as means\n- Respect for rational beings\n\n### Virtue Ethics\n- Focus on character, not actions or rules\n- What would a virtuous person do?\n- Aristotle: Virtues as habits of excellence\n- The good life (eudaimonia)\n\n### Care Ethics\n- Relationships and context matter\n- Developed by feminist philosophers\n- Caring as moral foundation\n- Particular relationships over abstract principles\n\n## Key Ethical Questions\n\n### Moral Relativism vs. Objectivism\n- Are moral truths universal or culturally relative?\n- Can we judge other cultures?\n- What is the source of moral authority?\n\n### The Trolley Problem\n- Would you divert a trolley to save five, killing one?\n- Would you push someone to stop it?\n- Action vs. inaction\n- Reveals moral intuitions\n\n### Applied Ethics\n- Medical ethics (euthanasia, abortion, consent)\n- Business ethics (corporate responsibility)\n- Environmental ethics (duties to nature)\n- Animal ethics (animal rights and welfare)\n\n## Metaethics\n\nQuestions about ethics itself:\n- Are moral statements true or false?\n- What do moral terms mean?\n- Can we have moral knowledge?\n- Why be moral?",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.philosophy.stoicism",
+    "world.law.human-rights-declaration",
+    "world.society.democracy"
+  ],
+  "read_time_min": 1
+}

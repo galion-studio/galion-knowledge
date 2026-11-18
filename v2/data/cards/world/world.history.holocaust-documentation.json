@@ -1,0 +1,28 @@
+{
+  "id": "world.history.holocaust-documentation",
+  "title": "How the United States Holocaust Memorial Museum accounts for Nazi murder",
+  "section": "world",
+  "category": "history",
+  "summary": "The United States Holocaust Memorial Museum's encyclopedia page \"Documenting Numbers of Victims of the Holocaust and Nazi Persecution\" states that Nazi Germany and its allies and collaborators murdered six million Jewish people. It…",
+  "body": "## What the museum states, and how it says the numbers were built\n\nThe United States Holocaust Memorial Museum's encyclopedia page \"Documenting Numbers of Victims of the Holocaust and Nazi Persecution\" states that Nazi Germany and its allies and collaborators murdered six million Jewish people. It calls this systematic, state-sponsored genocide the Holocaust. It says there is no single Nazi document that accounts for every death. The figures are calculated from surviving Nazi reports and records, prewar and postwar demographic studies, records created by Jews, documentation by resistance groups, and other archives.\n\nThe page's breakdown of the six million Jewish deaths:\n\n- Approximately 2.7 million at killing centers. The five centers named are Chełmno (at least 152,000), Belzec (approximately 435,000), Sobibor (at least 167,000), Treblinka II (approximately 925,000), and the Auschwitz camp complex (approximately 1,000,000, including those gassed on arrival at Auschwitz-Birkenau and those killed there by other means).\n- About 2 million in mass shooting operations and related massacres, in more than 1,500 cities, towns, and villages in occupied eastern Europe.\n- Between 800,000 and 1,000,000 in ghettos, labor camps, and concentration camps, through deliberate privation, disease, brutal treatment, and arbitrary violence.\n- At least 250,000 in other acts of violence outside camps and ghettos.\n\nThe page says the two main methods of murder were poison gas and mass shootings, and that people were also killed by denying food, shelter, and medical care.\n\n## Other groups, as the same page states them\n\nThe page separately lists non-Jewish victims murdered for biological, racial, political, or ideological reasons, including: Soviet prisoners of war, around 3.3 million; non-Jewish Poles, around 1.8 million; Romani people, at least 250,000 and possibly as high as 500,000; Serb civilians murdered by the Ustaša, more than 310,000; people with disabilities in institutions, 250,000–300,000, including at least 10,000 children; German political opponents, tens of thousands; Jehovah's Witnesses, about 1,700. It says gay men and others accused of homosexuality number in the hundreds, possibly thousands, and that the number of Black people in Germany who were killed is unknown, perhaps hundreds. Ranges are left as ranges.\n\nThe page also says millions of others died in the war as soldiers, partisans, and civilians, and that this card's source does not roll those deaths into one Holocaust total. A single worldwide death toll for all of World War II is not taken from this page, because the page does not give one.\n\n## Evidence, denial, and what is not a second side of equal weight\n\nThe museum says the perpetrators tried to destroy evidence and did not succeed: documents and witnesses remained, and they were used at postwar trials. The figures above are estimates with stated methods and, where the museum gives them, stated ranges.\n\nA claim that the genocide did not happen, or that the Jewish death toll is a minor invention, is not a competing finding with a comparable archive. It contradicts the documentary and demographic record this page describes. Weighing evidence is not the same thing as giving every slogan a column.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Documenting Numbers of Victims of the Holocaust and Nazi Persecution",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+      "author": "United States Holocaust Memorial Museum",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Holocaust Memorial Museum",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.pearl-harbor-1941",
+    "world.law.nuremberg-crimes"
+  ],
+  "read_time_min": 2
+}

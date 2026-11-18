@@ -1,0 +1,38 @@
+{
+  "id": "world.moral-relativism-sep",
+  "title": "Moral relativism is a disputed metaethical position",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Baghramian and Carter's entry maps the arguments. It does not declare relativism true or false.",
+  "body": "Maria Baghramian and J. Adam Carter's Stanford Encyclopedia entry on relativism distinguishes descriptive claims (people differ) from philosophical claims (there is no stance-independent moral truth). The v1 article asks whether moral truths are universal. That question is open in the sense that competent philosophers still defend both sides. A list of cultural differences does not, by itself, answer it.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Relativism",
+      "url": "https://plato.stanford.edu/entries/relativism/",
+      "author": "Maria Baghramian and J. Adam Carter",
+      "date": "2015-09-11",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Maria Baghramian and J. Adam Carter",
+  "as_of_date": "2015-09-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.virtue-consequentialism-kant"
+  ],
+  "tags": [
+    "philosophy",
+    "ethics",
+    "not-settled"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "26",
+    "v1_slug": "ethics-morality",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

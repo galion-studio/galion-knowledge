@@ -1,0 +1,42 @@
+{
+  "id": "horbm.turn-taking.ten-languages",
+  "title": "Ten languages share a fast turn target, and differ in tempo",
+  "section": "horbm",
+  "category": "turn-taking",
+  "summary": "Stivers, Enfield, and colleagues (2009) measured the offset between a polar question and its response in video of informal talk in 10 languages. A positive offset is a gap. A negat",
+  "body": "Stivers, Enfield, and colleagues (2009) measured the offset between a polar question and its response in video of informal talk in 10 languages. A positive offset is a gap. A negative offset is overlap. Each language's distribution was unimodal, with its mode between 0 and +200 ms. The overall mode was 0 ms. The overall median was +100 ms. The mean for the whole set was +208 ms. Japanese was the fastest mean (+7 ms) and Danish the slowest (+469 ms). Language means sat within about 250 ms of that cross-language mean. The authors' reading is a shared avoidance of overlap and a shared minimization of silence, with cultural differences that are quantitative. They also report that, in a Dutch corpus, timing after questions and after non-questions did not differ, so they treat the question-answer pair as a proxy for turn-taking more generally. Ethnographic claims of radically different systems (very long Nordic silences, or overlap as the Antiguan norm) are the hypothesis this measurement did not support.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Universals and cultural variation in turn-taking in conversation",
+      "url": "https://doi.org/10.1073/pnas.0903616106",
+      "author": "Tanya Stivers, N. J. Enfield, and colleagues",
+      "date": "2009",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Universals and cultural variation in turn-taking in conversation (open copy)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2705608/",
+      "author": "Tanya Stivers, N. J. Enfield, and colleagues",
+      "date": "2009",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Stivers, Enfield, and colleagues",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [
+    {
+      "label": "Some ethnographic reports describe cultures whose ordinary talk is built on long silences, or on simultaneous speech, rather than on a minimal-gap minimal-overlap target.",
+      "summary": "Some ethnographic reports describe cultures whose ordinary talk is built on long silences, or on simultaneous speech, rather than on a minimal-gap minimal-overlap target.",
+      "status": "The reports Stivers and colleagues cite and then test, including Reisman on Antigua and Lehtonen and Sajavaara on Nordic silence."
+    }
+  ],
+  "related": [
+    "horbm.turn-taking.one-at-a-time",
+    "horbm.culture.tempo-is-not-a-different-system",
+    "horbm.turn-taking.fast-answers-slow-trouble"
+  ],
+  "read_time_min": 1
+}

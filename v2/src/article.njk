@@ -25,6 +25,9 @@
     <span aria-hidden="true">/</span>
     <a class="pill" href="{{ ("/category/" + cat.id + "/") | url }}" style="color: {{ cat.color }}; background: {{ cat.color }}22">{{ cat.name }}</a>
   </p>
+  {% if card.slug and card.slug != card.id %}
+    <p class="quiet">Also filed as <code>{{ card.slug }}</code>. The card id is {{ card.id }}.</p>
+  {% endif %}
   <h1>{{ card.title }}</h1>
   <p class="lede">{{ card.summary }}</p>
   <ul class="meta">

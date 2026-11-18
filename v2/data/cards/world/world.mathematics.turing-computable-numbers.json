@@ -1,0 +1,28 @@
+{
+  "id": "world.mathematics.turing-computable-numbers",
+  "title": "Turing's 1937 model of calculation",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "A. M. Turing's paper \"On Computable Numbers, with an Application to the Entscheidungsproblem\" appeared in the Proceedings of the London Mathematical Society in 1937. It defines com",
+  "body": "A. M. Turing's paper \"On Computable Numbers, with an Application to the Entscheidungsproblem\" appeared in the Proceedings of the London Mathematical Society in 1937. It defines computable numbers by describing a machine with a finite table of instructions and a tape it can read, write, and move. A number is computable if such a machine can write out its digits. Turing uses the model to show that there is no general method that decides, for every statement of a sufficiently rich formal system, whether the statement is provable. That is the application to the decision problem named in the title. The paper is a mathematical definition and a negative theorem. It is not a description of an electronic computer, which came later and was influenced by this and related work. Calling every laptop \"a Turing machine\" is a loose analogy to the model, not a claim in the 1937 paper.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+      "url": "https://doi.org/10.1112/plms/s2-42.1.230",
+      "author": "A. M. Turing",
+      "date": "1937",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "A. M. Turing, Proceedings of the London Mathematical Society, 1937",
+  "as_of_date": "1937",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.mathematics.goedel-undecidability",
+    "world.technology.shannon-communication-1948"
+  ],
+  "read_time_min": 1
+}

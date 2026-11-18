@@ -1,0 +1,27 @@
+{
+  "id": "world.biology.crispr-adaptive-immunity",
+  "title": "CRISPR: an adaptive immune system in bacteria, and a programmable cut",
+  "section": "world",
+  "category": "biology",
+  "summary": "Jinek, Chylinski, Fonfara, Hauer, Doudna, and Charpentier (Science, 2012) titled their paper \"A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity.\" The title is the mechanism, compressed. Bacteria and archaea…",
+  "body": "## The mechanism the 2012 paper claims\n\nJinek, Chylinski, Fonfara, Hauer, Doudna, and Charpentier (Science, 2012) titled their paper \"A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity.\"\n\nThe title is the mechanism, compressed. Bacteria and archaea keep an adaptive immune system, CRISPR/Cas, aimed at foreign nucleic acids. In the type II system the paper studies, immunity uses two RNAs, not one: a CRISPR RNA and a trans-activating CRISPR RNA. The Crossref record's summary of the paper says both RNAs were required. The endonuclease they guide cuts DNA at a place the RNA sequence picks out. \"Programmable\" means the target is chosen by the guide sequence rather than by a new protein for every target.\n\n## What this card will not inflate\n\n**Fact:** that paper reports a dual-RNA-guided DNA endonuclease as part of bacterial adaptive immunity.\n\n**Not a medical result:** editing a human disease, a clinic, or a safety record. Those are later uses and later arguments. The 2012 mechanism is a bacterial defense that turns out to be steerable.\n\n**Not settled here:** every downstream ethical dispute about editing germline cells. The biochemistry of the bacterial system does not decide them.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+      "url": "https://doi.org/10.1126/science.1225829",
+      "author": "Martin Jinek, Krzysztof Chylinski, Ines Fonfara, Michael Hauer, Jennifer A. Doudna, and Emmanuelle Charpentier",
+      "date": "2012",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Martin Jinek, Jennifer A. Doudna, and Emmanuelle Charpentier",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.dna-genetics"
+  ],
+  "read_time_min": 1
+}

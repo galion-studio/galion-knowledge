@@ -1,0 +1,27 @@
+{
+  "id": "world.geography.greenwich-meridian-1884",
+  "title": "Greenwich became the common prime meridian by a vote",
+  "section": "world",
+  "category": "geography",
+  "summary": "Longitude needs an arbitrary zero. Royal Museums Greenwich records that into the 1880s countries still used meridians based on their own observatories. In 1884 representatives met",
+  "body": "Longitude needs an arbitrary zero. Royal Museums Greenwich records that into the 1880s countries still used meridians based on their own observatories. In 1884 representatives met in Washington at the International Meridian Conference to choose one reference. After discussion, the delegates voted to make the Greenwich meridian the prime meridian. The cross-hairs of the Airy Transit Circle at the observatory defined zero degrees longitude for that choice. A vote is a political and technical decision. It does not mean Greenwich is a natural center of the Earth. Other meridians had been used, and national adoption of the 1884 choice was not instantaneous. The museum's account is the source for the conference and the vote. This card does not list each delegation's ballot.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What is the Prime Meridian, and why is it in Greenwich?",
+      "url": "https://www.rmg.co.uk/stories/time/what-prime-meridian-why-it-greenwich",
+      "author": "Royal Museums Greenwich",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Royal Museums Greenwich, on the 1884 International Meridian Conference",
+  "as_of_date": "1884",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.geography.world-population-prospects"
+  ],
+  "read_time_min": 1
+}

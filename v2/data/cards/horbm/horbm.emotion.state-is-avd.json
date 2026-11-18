@@ -1,0 +1,55 @@
+{
+  "id": "horbm.emotion.state-is-avd",
+  "title": "The state is a continuous arousal, valence, and dominance point; a label is an optional pin",
+  "section": "horbm",
+  "category": "emotion-space",
+  "summary": "This is Galion's design, reported by the R3 note from the MnE contract and galion-emotion, and it is not a finding that the Cowen papers lost. The mood point is arousal on 0 to 1,",
+  "body": "This is Galion's design, reported by the R3 note from the MnE contract and galion-emotion, and it is not a finding that the Cowen papers lost. The mood point is arousal on 0 to 1, valence on -1 to 1, and dominance on 0 to 1. A point with no pin is unnamed. Neutral is the speaker's own baseline, not a leftover category the point must snap to. A Cowen name may be attached as an optional pin when a voice layer has asked for a name, with a caller-supplied weight. The pin is not written into the 3-bit affect label on the feeling wire. That 3-bit label is a derived view of the point for the existing wire. The inner state does not store it. Low confidence is not a feeling: Galion One says low confidence on a frame is neutral, and to treat it as no feeling. Cowen and Keltner (2017) and Cowen and colleagues (2019) report that category labels organized their judgments better than valence and arousal. That evidence stays standing. Galion still keeps the continuous point as the state, because the wire and the contract already do, and because a pin can be added without making the pin the memory. No lag, no category coordinate, and no mapping from acoustics onto these three axes is copied from the papers. R3 marks the smoothing factor as an owner knob with no literature behind the number.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "HORBM R3: memory, persona, empathy, and dialogue policy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/cursor/horbm-r3-memory-persona-3e32/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Self-report captures 27 distinct categories of emotion bridged by continuous gradients",
+      "url": "https://doi.org/10.1073/pnas.1702247114",
+      "author": "Alan S. Cowen and Dacher Keltner",
+      "date": "2017",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Mapping 24 emotions conveyed by brief human vocalization",
+      "url": "https://doi.org/10.1037/amp0000399",
+      "author": "Alan S. Cowen, Hillary Anger Elfenbein, Petri Laukka, and Dacher Keltner",
+      "date": "2019",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs, HORBM R3, reporting the MnE contract and galion-emotion",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [
+    {
+      "label": "Categories, not valence and arousal, are the better organization of reported experience and of vocal-burst recognition, though the categories form gradients.",
+      "summary": "Categories, not valence and arousal, are the better organization of reported experience and of vocal-burst recognition, though the categories form gradients.",
+      "status": "Cowen and Keltner 2017; Cowen, Elfenbein, Laukka, and Keltner 2019."
+    },
+    {
+      "label": "A small set of basic emotions is the right ontology.",
+      "summary": "A small set of basic emotions is the right ontology.",
+      "status": "Ekman 1992."
+    }
+  ],
+  "related": [
+    "horbm.emotion.keep-the-theories-apart",
+    "horbm.emotion.inertia-not-a-copied-lag",
+    "horbm-empathy-weight",
+    "horbm.emotion.do-not-name-theirs"
+  ],
+  "read_time_min": 1
+}

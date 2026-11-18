@@ -10,6 +10,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/site.css" | url }}">
   <link rel="icon" href="{{ "/assets/favicon.svg" | url }}">
+  {% if card and card.id %}
+  <link rel="canonical" href="{{ ("/article/" + card.id + "/") | url }}">
+  {% endif %}
 </head>
 <body data-root="{{ "/" | url }}">
   <div class="bg-glow" aria-hidden="true"></div>

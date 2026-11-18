@@ -1,0 +1,29 @@
+{
+  "id": "world.society.democracy",
+  "title": "Democracy as a normative theory and as a description, which are different jobs",
+  "section": "world",
+  "category": "society",
+  "summary": "Tom Christiano and Sameer Bajaj, \"Democracy,\" Stanford Encyclopedia of Philosophy (first published 27 July 2006, substantive revision 18 June 2024), separate normative democratic theory from descriptive and explanatory theory. Normative…",
+  "body": "## Two projects sharing a word\n\nTom Christiano and Sameer Bajaj, \"Democracy,\" Stanford Encyclopedia of Philosophy (first published 27 July 2006, substantive revision 18 June 2024), separate normative democratic theory from descriptive and explanatory theory. Normative theory deals with the moral foundations of democracy and with the duties of representatives and citizens. Descriptive theory describes and explains how democratic institutions function. A definition that slides between \"what would justify rule by the people\" and \"what a country with elections does\" will answer neither question.\n\nThe same entry states Condorcet's jury theorem, which is given a mathematical card of its own. Under competence, sincerity, and independence, the probability that a majority is right approaches one as the electorate grows. The entry presents that as one argument about democracy's epistemic value, and it states the assumptions. Where the assumptions fail, the mathematics does not yield the comforting conclusion. Majority vote is a procedure. It is not a proof that the majority is right.\n\n## Not settled\n\n**Fact:** the encyclopedia's distinction between the moral project and the descriptive project, and its statement of the jury theorem's assumptions.\n\n**Not settled:** which institutions count as democratic, whether representation or the lot or direct assembly is the core case, and whether any existing state meets a given normative definition. The 1789 declaration says law is the expression of the general will and that citizens participate in person or through a representative. That is one historical answer. It is not the definition of the word for all times.\n\nThis card does not rank living constitutions. Ranking them is a further argument, and it needs evidence about those constitutions, not a definition shouted louder.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Democracy",
+      "url": "https://plato.stanford.edu/entries/democracy/",
+      "author": "Tom Christiano and Sameer Bajaj",
+      "date": "2006",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Tom Christiano and Sameer Bajaj",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.philosophy.social-contract",
+    "world.mathematics.condorcet-jury-theorem",
+    "world.history.declaration-of-the-rights-of-man-1789"
+  ],
+  "read_time_min": 1
+}

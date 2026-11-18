@@ -1,0 +1,34 @@
+{
+  "id": "world.noether-1918",
+  "title": "Noether's 1918 paper linking symmetry and conservation",
+  "section": "world",
+  "category": "physics",
+  "summary": "An English translation of Noether's invariance paper is on arXiv; the theorem connects symmetries to conservation laws.",
+  "body": "Emmy Noether's 1918 paper on invariant variational problems is the source of Noether's theorem: continuous symmetries of the action correspond to conservation laws. An English translation by M. A. Tavel is posted as arXiv:physics/0503066. In ordinary mechanics, time-translation symmetry corresponds to energy conservation and spatial translation to momentum conservation. The theorem is not a license to say \"energy is conserved in every cosmological setting\" without stating the symmetry. That extension is a further, more delicate claim.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Invariant Variation Problems",
+      "url": "https://arxiv.org/abs/physics/0503066",
+      "author": "Emmy Noether, translated by M. A. Tavel",
+      "date": "1918",
+      "accessed": "2026-11-18",
+      "note": "arXiv abstract page verified 2026-11-18. The physics paper is 1918; the translation's arXiv posting is later."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Emmy Noether",
+  "as_of_date": "1918",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.maxwell-1865",
+    "world.boltzmann-entropy-almost-always"
+  ],
+  "tags": [
+    "physics",
+    "symmetry",
+    "conservation"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.nature.ocean-carbon-and-ph",
+  "title": "Carbon dioxide emissions change ocean chemistry",
+  "section": "world",
+  "category": "nature",
+  "summary": "NOAA's Pacific Marine Environmental Laboratory describes ocean acidification as the chemical changes in the ocean that result from carbon dioxide emissions. Seawater takes up CO2.",
+  "body": "NOAA's Pacific Marine Environmental Laboratory describes ocean acidification as the chemical changes in the ocean that result from carbon dioxide emissions. Seawater takes up CO2. The dissolved gas shifts the carbonate chemistry and lowers pH. \"Acidification\" here means a decrease in pH, not that the ocean becomes an acid in the household sense. Ken Caldeira and Michael Wickett's 2003 Nature paper, \"Anthropogenic carbon and ocean pH,\" is a short analysis of that anthropogenic change. This card does not quote a pH drop in pH units, because that number was not taken from the paper's text during checking. The direction of the chemistry is the sourced claim. How large the change is, and what it does to particular organisms, depends on the study and the species.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Ocean Acidification",
+      "url": "https://www.pmel.noaa.gov/co2/story/Ocean+Acidification",
+      "author": "NOAA Pacific Marine Environmental Laboratory",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Anthropogenic carbon and ocean pH",
+      "url": "https://doi.org/10.1038/425365a",
+      "author": "Ken Caldeira and Michael E. Wickett",
+      "date": "2003",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA PMEL; Caldeira and Wickett, Nature, 2003",
+  "as_of_date": "2003",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.nature.keeling-co2-1960"
+  ],
+  "read_time_min": 1
+}

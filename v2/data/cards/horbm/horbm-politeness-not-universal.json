@@ -1,0 +1,81 @@
+{
+  "id": "horbm-politeness-not-universal",
+  "title": "Face, as one theory composes it, is contested",
+  "section": "horbm",
+  "category": "culture",
+  "summary": "Matsumoto argues that Brown and Levinson's constituents of face do not fit Japanese. Ide's 1989 title names discernment and formal forms as neglected. HORBM must not export one politeness strategy as human nature.",
+  "body": "Matsumoto's paper, opened, is a critical examination of Brown and Levinson. She says anthropological work on Japanese society shows a discrepancy with their assumption about face, and that their theory gives the wrong predictions for Japanese politeness. Her examples, as she lists them in the opening, are formulaic expressions, honorifics, and the verbs of giving and receiving. Her conclusion, in that opening, is that a universal theory has to take cultural variability in the constituents of face into account at a more fundamental level.\n\nSachiko Ide (1989) is titled \"Formal forms and discernment: two neglected aspects of universals of linguistic politeness.\" The article was not opened. The title is used as a pointer, not as a summary of her argument. This card does not define discernment beyond the word in the title.\n\nStivers and colleagues, on a different layer, found a shared turn-taking shape and a real spread in average gap. Timing and face are not the same phenomenon. Together they block a single exported etiquette.\n\nThe house rule is the negative one. The voice does not apply one culture's redress strategy worldwide. It does not add honorifics it does not have. It does not drop all marking and call that honesty. The positive rule, what this product actually does, is the small list on the house politeness card: no fake intimacy, one question, the address form the person asked to be used, and the language limit the phone path already states.\n\nPhone-path English-only is a product limit in the persona files. It is not evidence that English politeness is the universal. A later language needs its own cards. This pack does not write them.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Reexamination of the universality of face: Politeness phenomena in Japanese",
+      "url": "https://doi.org/10.1016/0378-2166(88)90003-3",
+      "author": "Yoshiko Matsumoto",
+      "date": "1988-08",
+      "accessed": "2026-11-18",
+      "note": "Journal of Pragmatics 12(4), 403-426. PDF opened 2026-11-18."
+    },
+    {
+      "title": "Formal forms and discernment: two neglected aspects of universals of linguistic politeness",
+      "url": "https://doi.org/10.1515/mult.1989.8.2-3.223",
+      "author": "Sachiko Ide",
+      "date": "1989",
+      "accessed": "2026-11-18",
+      "note": "Multilingua 8(2-3), 223-248. Crossref record checked. The article was not opened, so the argument is not restated past the title."
+    },
+    {
+      "title": "Politeness",
+      "url": "https://doi.org/10.1017/CBO9780511813085",
+      "author": "Penelope Brown and Stephen C. Levinson",
+      "date": "1987-02-27",
+      "accessed": "2026-11-18",
+      "note": "Cambridge University Press, 1987. Crossref also lists John J. Gumperz on the record. The book was not opened. What this pack says about their strategies is taken from Matsumoto 1988, which was opened."
+    },
+    {
+      "title": "Universals and cultural variation in turn-taking in conversation",
+      "url": "https://doi.org/10.1073/pnas.0903616106",
+      "author": "Tanya Stivers, N. J. Enfield, Penelope Brown, Christina Englert, Makoto Hayashi, Trine Heinemann, Gertie Hoymann, Federico Rossano, Jan Peter de Ruiter, Kyung-Eun Yoon, and Stephen C. Levinson",
+      "date": "2009-06-30",
+      "accessed": "2026-11-18",
+      "note": "PNAS 106(26), 10587-10592. PMC HTML opened 2026-11-18."
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Yoshiko Matsumoto",
+  "as_of_date": "1988-08",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "A general theory of face and strategies",
+      "summary": "On Matsumoto's account, Brown and Levinson derive politeness strategies in five categories from a notion of face, with positive and negative politeness treated at the most length. Their book was not opened for this pack.",
+      "status": "sourced - needs review"
+    },
+    {
+      "label": "Those constituents of face are not universal",
+      "summary": "Matsumoto argues from Japanese honorifics, formulaic expressions, and giving-and-receiving verbs that the constituents of face vary by culture. Ide 1989's title names discernment and formal forms as neglected. The Ide article was not opened.",
+      "status": "sourced - needs review"
+    }
+  ],
+  "related": [
+    "horbm-politeness-face",
+    "horbm-politeness-house",
+    "horbm-grice-contested",
+    "horbm-turn-timing-varies"
+  ],
+  "tags": [
+    "politeness",
+    "culture",
+    "face",
+    "contested",
+    "matsumoto"
+  ],
+  "read_time_min": 1
+}

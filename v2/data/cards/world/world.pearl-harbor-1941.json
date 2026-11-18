@@ -1,0 +1,52 @@
+{
+  "id": "world.pearl-harbor-1941",
+  "title": "The Pearl Harbor attack and the U.S. declaration of war",
+  "section": "world",
+  "category": "history",
+  "summary": "The State Department dates the attack to 7 December 1941. The National Archives holds Roosevelt's 8 December address.",
+  "body": "The U.S. Department of State's historical milestone says Japanese planes bombed the U.S. fleet at Pearl Harbor on 7 December 1941 and that the United States declared war on Japan the following day. The National Archives holds Franklin D. Roosevelt's 8 December 1941 address to Congress leading to that declaration. This is the U.S. documentary record of those two days. It is not a full history of the war in China since 1937, which the same State Department page says was already underway.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Japan, China, the United States and the Road to Pearl Harbor, 1937–41",
+      "url": "https://history.state.gov/milestones/1937-1945/pearl-harbor",
+      "author": "U.S. Department of State, Office of the Historian",
+      "date": "1941-12-07",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Joint Address to Congress Leading to a Declaration of War Against Japan (1941)",
+      "url": "https://www.archives.gov/milestone-documents/joint-address-to-congress-declaration-of-war-against-japan",
+      "author": "Franklin D. Roosevelt, record held by the U.S. National Archives",
+      "date": "1941-12-08",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Department of State and the National Archives",
+  "as_of_date": "1941-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.hiroshima-1945",
+    "world.japan-surrender-1945",
+    "world.history.holocaust-documentation",
+    "world.history.greenwich-time-adoption"
+  ],
+  "tags": [
+    "history",
+    "world-war-ii",
+    "united-states",
+    "japan"
+  ],
+  "aliases": [
+    "world.history.pearl-harbor-1941"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "7",
+    "v1_slug": "world-war-two",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

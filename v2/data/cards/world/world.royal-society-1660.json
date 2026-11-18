@@ -1,0 +1,39 @@
+{
+  "id": "world.royal-society-1660",
+  "title": "The Royal Society first met in 1660 and started Philosophical Transactions in 1665",
+  "section": "world",
+  "category": "history",
+  "summary": "The Society's own history page dates the meeting and the journal.",
+  "body": "The Royal Society's history page says the first meeting was on 28 November 1660, after a lecture by Christopher Wren, and that Henry Oldenburg established Philosophical Transactions in 1665. That journal is an ancestor of scientific periodicals. It is not modern anonymous peer review. The v1 scientific-revolution article's claim that the Royal Society of 1660 already ran today's peer-review system overstates institutional continuity. What the page supports is the founding date and the journal.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "History of the Royal Society",
+      "url": "https://royalsociety.org/about-us/who-we-are/history/",
+      "author": "The Royal Society",
+      "date": "1660-11-28",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "The Royal Society",
+  "as_of_date": "1665",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.newton-principia-text",
+    "world.scientific-method-no-single-toolkit"
+  ],
+  "tags": [
+    "history",
+    "science",
+    "institutions"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "40",
+    "v1_slug": "scientific-revolution",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

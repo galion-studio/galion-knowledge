@@ -1,0 +1,39 @@
+{
+  "id": "world.alphafold-2021",
+  "title": "AlphaFold's 2021 protein-structure paper",
+  "section": "world",
+  "category": "technology",
+  "summary": "Jumper and colleagues reported a protein-structure prediction system in Nature.",
+  "body": "John Jumper and colleagues, \"Highly accurate protein structure prediction with AlphaFold\" (Nature, 2021), is the paper behind the claim that machine learning can predict many protein shapes from sequence. The v1 artificial-intelligence article lists protein folding as an application. This is the citation for that example. It is not a claim that every biological problem has been solved by the same method.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Highly accurate protein structure prediction with AlphaFold",
+      "url": "https://doi.org/10.1038/s41586-021-03819-2",
+      "author": "John Jumper and colleagues",
+      "date": "2021",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "John Jumper and colleagues",
+  "as_of_date": "2021",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.turing-1950",
+    "world.crispr-2012"
+  ],
+  "tags": [
+    "technology",
+    "biology",
+    "ai"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "17",
+    "v1_slug": "artificial-intelligence",
+    "v1_category": "technology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

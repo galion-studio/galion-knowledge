@@ -1,0 +1,28 @@
+{
+  "id": "world.technology.relativity-in-gps",
+  "title": "GPS as an engineered use of relativity",
+  "section": "world",
+  "category": "technology",
+  "summary": "Neil Ashby, \"Relativity in the Global Positioning System,\" Living Reviews in Relativity (2003), reviews how relativity enters GPS. GPS turns time into distance. Receivers compare timestamps from several satellites and solve for…",
+  "body": "## Why a navigation system is a relativity experiment that has to work on Tuesday\n\nNeil Ashby, \"Relativity in the Global Positioning System,\" Living Reviews in Relativity (2003), reviews how relativity enters GPS.\n\nGPS turns time into distance. Receivers compare timestamps from several satellites and solve for position. If the satellites' clocks and the ground clocks do not mean the same second, the position moves. Special relativity and general relativity both change clock rates: motion relative to the receiver, and the difference in gravitational potential between orbit and ground. Ashby's paper is the review of how those effects are part of the system's design rather than a philosophical aside.\n\n## A limit on numbers\n\nA daily microsecond budget is the sort of figure textbooks quote from this literature. It was not re-read from Ashby's article in this pass, so it is not repeated. The mechanism does not need the numeral to be stated honestly: the system times light-travel with clocks that relativity shifts, so the shifts have to be in the engineering budget or the fix drifts.\n\n**Fact:** a peer-reviewed review treats relativity as part of how GPS works.\n\n**Not a consumer manual:** this card does not say how to apply a correction in a receiver, and it does not rank satellite navigation against other methods.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Relativity in the Global Positioning System",
+      "url": "https://doi.org/10.12942/lrr-2003-1",
+      "author": "Neil Ashby",
+      "date": "2003",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Neil Ashby",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.science.theory-of-relativity",
+    "world.geography.prime-meridian-1884"
+  ],
+  "read_time_min": 1
+}

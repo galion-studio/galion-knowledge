@@ -1,0 +1,39 @@
+{
+  "id": "world.poland-invasion-1939",
+  "title": "USHMM: Germany invaded Poland on 1 September 1939",
+  "section": "world",
+  "category": "history",
+  "summary": "The Holocaust Encyclopedia states the invasion as the start of the European war.",
+  "body": "The United States Holocaust Memorial Museum's encyclopedia says Germany started World War II in Europe by invading Poland on 1 September 1939. That is a dated military fact from a major archival institution. It does not settle the long argument about the Treaty of Versailles, appeasement, and expansion as causes. Those interpretations are separate and, in this pack, mostly unsourced. Britain and France's declarations of war are not in the sentence we used.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "World War II in Europe",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-europe",
+      "author": "United States Holocaust Memorial Museum",
+      "date": "1939-09-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Holocaust Memorial Museum",
+  "as_of_date": "1939-09-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.holocaust-ushmm",
+    "world.treaty-versailles",
+    "world.unsourced-wwii-causes"
+  ],
+  "tags": [
+    "history",
+    "world-war-ii"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "7",
+    "v1_slug": "world-war-two",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "world.science.scientific-method",
+  "title": "The Scientific Method",
+  "section": "world",
+  "category": "science",
+  "summary": "The scientific method is a systematic approach to understanding the natural world through observation, experimentation, and evidence-based reasoning. Careful observation of natural phenomena leads to questions about how things work.",
+  "body": "# The Scientific Method\n\nThe scientific method is a systematic approach to understanding the natural world through observation, experimentation, and evidence-based reasoning.\n\n## Steps of the Scientific Method\n\n### 1. Observation\nCareful observation of natural phenomena leads to questions about how things work.\n\n### 2. Question\nFormulate a specific, testable question based on observations.\n\n### 3. Hypothesis\nPropose a tentative explanation that can be tested. A good hypothesis is:\n- Testable\n- Falsifiable\n- Based on existing knowledge\n\n### 4. Experiment\nDesign and conduct experiments to test the hypothesis:\n- Control variables\n- Use control groups\n- Replicate results\n- Record data systematically\n\n### 5. Analysis\nAnalyze data using statistical methods to determine if results support or refute the hypothesis.\n\n### 6. Conclusion\nDraw conclusions based on evidence. Accept, reject, or modify the hypothesis.\n\n### 7. Communication\nShare findings through peer-reviewed publication so others can verify and build upon the work.\n\n## Key Principles\n\n- **Empiricism**: Knowledge comes from sensory experience\n- **Falsifiability**: Scientific claims must be testable\n- **Reproducibility**: Results must be replicable by others\n- **Peer Review**: Independent verification of findings\n- **Self-Correction**: Science updates with new evidence\n\n## Why It Works\n\nThe scientific method minimizes human bias and error through systematic procedures and independent verification. It has produced our most reliable knowledge about the natural world.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.philosophy.logical-fallacies",
+    "world.philosophy.critical-thinking"
+  ],
+  "read_time_min": 1
+}

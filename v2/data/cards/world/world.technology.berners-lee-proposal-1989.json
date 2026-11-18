@@ -1,0 +1,27 @@
+{
+  "id": "world.technology.berners-lee-proposal-1989",
+  "title": "The March 1989 information-management proposal",
+  "section": "world",
+  "category": "technology",
+  "summary": "CERN's historical page on Tim Berners-Lee's proposal says that in March 1989 he submitted a proposal for an information management system to his boss, Mike Sendall. Sendall wrote o",
+  "body": "CERN's historical page on Tim Berners-Lee's proposal says that in March 1989 he submitted a proposal for an information management system to his boss, Mike Sendall. Sendall wrote on it the words \"Vague, but exciting.\" The page records that reaction and the date. It is a CERN account of the proposal's reception, not the full text of the proposal. The system that grew out of the proposal became the World Wide Web: linked documents identified by addresses and fetched over the Internet. The 1989 note is a proposal inside one laboratory for managing information. It is not, at that date, a public network with the later scale of the Web. Treating the marginal comment as a technical specification would misread a manager's note. The technical design is in the proposal itself.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Tim Berners-Lee's proposal",
+      "url": "http://info.cern.ch/Proposal.html",
+      "author": "CERN",
+      "date": "1989-03",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CERN historical note on Tim Berners-Lee's March 1989 proposal",
+  "as_of_date": "1989-03",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.technology.internetworking-1974"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,19 @@
+{
+  "id": "world.medicine.human-brain",
+  "title": "The Human Brain",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The human brain contains approximately 86 billion neurons and is the control center for all bodily functions and cognitive processes. Cerebrum: Largest part, thinking, learning, personality",
+  "body": "# The Human Brain\n\nThe human brain contains approximately 86 billion neurons and is the control center for all bodily functions and cognitive processes.\n\n## Structure\n\n### Major Regions\n- **Cerebrum**: Largest part, thinking, learning, personality\n- **Cerebellum**: Coordination, balance, motor learning\n- **Brainstem**: Basic life functions (breathing, heart rate)\n\n### Cerebral Lobes\n- **Frontal**: Decision-making, planning, personality\n- **Parietal**: Sensory processing, spatial awareness\n- **Temporal**: Hearing, memory, language\n- **Occipital**: Visual processing\n\n## How It Works\n\n### Neurons\n- Brain cells that transmit electrical signals\n- Connected by synapses\n- Communicate via neurotransmitters\n\n### Plasticity\n- Brain can reorganize itself\n- New connections form throughout life\n- Basis for learning and recovery from injury\n\n## Key Functions\n\n- Consciousness and thought\n- Memory (short-term and long-term)\n- Emotions and mood\n- Movement control\n- Sensory processing\n- Language and communication\n\n## Brain Health\n\nRisk factors for decline:\n- Lack of sleep\n- Chronic stress\n- Poor diet\n- Physical inactivity\n- Social isolation\n\nProtective factors:\n- Exercise\n- Mental stimulation\n- Social engagement\n- Healthy diet\n- Quality sleep",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.medicine.immune-system"
+  ],
+  "read_time_min": 1
+}

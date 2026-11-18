@@ -1,0 +1,29 @@
+{
+  "id": "world.unsourced-french-revolution-terror",
+  "title": "The v1 Terror death toll and cause list are unsourced",
+  "section": "world",
+  "category": "history",
+  "summary": "16,000 to 40,000 killed, and the five-part cause list, were not tied to a source we opened.",
+  "body": "The v1 French Revolution article gives causes (debt, the Three Estates, Enlightenment ideas, food shortages, Louis XVI) and says the Terror of 1793–1794 killed 16,000 to 40,000 people. Death tolls of the Terror depend on whether one counts official executions, deaths in prison, or the civil war in the Vendée. No source for a chosen definition was opened. Leave the number and the cause list unsourced. The 1789 declaration is sourced. Napoleon's 1799 coup is likewise unsourced on this card.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.french-declaration-1789"
+  ],
+  "tags": [
+    "history",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "19",
+    "v1_slug": "french-revolution",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

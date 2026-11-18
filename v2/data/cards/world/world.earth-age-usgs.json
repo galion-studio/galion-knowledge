@@ -1,0 +1,39 @@
+{
+  "id": "world.earth-age-usgs",
+  "title": "USGS: the best age for the Earth is 4.54 billion years",
+  "section": "world",
+  "category": "earth",
+  "summary": "The survey bases 4.54 Ga on meteoritic lead, and notes Earth rocks do not directly give the formation age.",
+  "body": "The U.S. Geological Survey's \"Age of the Earth\" page says scientists have not found a way to date Earth's formation directly from Earth rocks, because the oldest crust has been recycled. It says the best age, 4.54 Ga, comes from old lead isotope ratios coupled with troilite from iron meteorites, in particular the Canyon Diablo meteorite, and it notes zircon grains from western Australia with uranium-lead ages of 4.4 Ga. Claire Patterson's 1956 paper \"Age of meteorites and the earth\" is the classic laboratory paper in that line. The USGS page is the public statement of the 4.54 Ga figure.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Age of the Earth",
+      "url": "https://pubs.usgs.gov/gip/geotime/age.html",
+      "author": "U.S. Geological Survey",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Age of meteorites and the earth",
+      "url": "https://doi.org/10.1016/0016-7037(56)90036-9",
+      "author": "Claire Patterson",
+      "date": "1956",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.solar-system-formation",
+    "world.plate-motions-usgs"
+  ],
+  "tags": [
+    "earth",
+    "geologic-time"
+  ],
+  "read_time_min": 1
+}

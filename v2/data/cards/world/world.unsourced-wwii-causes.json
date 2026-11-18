@@ -1,0 +1,30 @@
+{
+  "id": "world.unsourced-wwii-causes",
+  "title": "The v1 list of causes of World War II is an unsourced interpretation",
+  "section": "world",
+  "category": "history",
+  "summary": "Versailles, the Depression, fascism, Japanese expansion, and appeasement are a causal story, not a document.",
+  "body": "The v1 article lists the Treaty of Versailles, the Great Depression, fascism and Nazism, Japanese expansion, and the failure of appeasement as long-term causes, and the invasion of Poland as the immediate cause. The invasion date is sourced. The treaty exists as a text. The claim that those factors caused the war, and in what proportion, is a historical interpretation. Historians disagree, including about how much weight to give German decisions versus the 1919 settlement. No second historian was opened for this pack. Leave the cause list unsourced as an interpretation.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.poland-invasion-1939",
+    "world.treaty-versailles"
+  ],
+  "tags": [
+    "history",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "7",
+    "v1_slug": "world-war-two",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

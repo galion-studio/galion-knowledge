@@ -1,0 +1,43 @@
+{
+  "id": "horbm.empathy.answer-anger",
+  "title": "Anger is answered, not copied",
+  "section": "horbm",
+  "category": "empathy",
+  "summary": "The empathy note and Galion One say the same thing about anger. Anger is answered, not worn. The policy target stays on the warm side of the speaker's baseline, and lower in arousa",
+  "body": "The empathy note and Galion One say the same thing about anger. Anger is answered, not worn. The policy target stays on the warm side of the speaker's baseline, and lower in arousal. You do not match an angry voice with an angry voice. Joy may be shared slightly under them, and joy does not raise e. This is a product rule about the outbound point. It is not a claim that mirroring anger has been measured inside this repository, and no escalation study was re-opened for this card. Zaki's review, separately, says people sometimes turn empathy down. Matching heat is not required in order to be with someone.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "Empathy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/EMPATHY.md",
+      "author": "Maciej Grajczyk, Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk, Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Empathy: a motivated account",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25347133/",
+      "author": "Jamil Zaki",
+      "date": "2014",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Maciej Grajczyk, Empathy note and Galion One",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm-empathy-weight",
+    "horbm.empathy.motivated-in-people",
+    "horbm.emotion.do-not-name-theirs"
+  ],
+  "read_time_min": 1
+}

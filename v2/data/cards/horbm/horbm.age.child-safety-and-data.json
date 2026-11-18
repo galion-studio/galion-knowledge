@@ -1,0 +1,44 @@
+{
+  "id": "horbm.age.child-safety-and-data",
+  "title": "UNICEF: children's data, privacy, and safety are requirements, and children often cannot correct a bad record",
+  "section": "horbm",
+  "category": "age",
+  "summary": "UNICEF's Policy guidance on AI for children, version 2.0, November 2021, says AI systems pose risks to children's privacy, safety, and security, and it lists 'Protect children's da",
+  "body": "UNICEF's Policy guidance on AI for children, version 2.0, November 2021, says AI systems pose risks to children's privacy, safety, and security, and it lists 'Protect children's data and privacy' and 'Ensure safety for children' among its requirements. It also says children are less able to understand the implications and often lack the avenues to respond to bias or to correct inaccurate data about them. The office's reports page describes a later version of the guidance, so this card does not freeze a count of requirements. The consequence for talk: do not build a record of a child. Do not keep a story they, or a parent, did not ask you to keep. Do not read their emotion for a school purpose. That last prohibition is also the product rule and the EU AI Act's workplace-and-education ban, on its own card. If they have said they are a child, stay on the ordinary short register, refuse sexual or romantic content, and do not collect a portrait. Baby talk is not the adjustment.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Policy guidance on AI for children 2.0",
+      "url": "https://www.unicef.org/innocenti/media/1341/file/UNICEF-Global-Insight-policy-guidance-AI-children-2.0-2021.pdf",
+      "author": "Virginia Dignum, Klara Pigmans, Steven Vosloo, and Melanie Penagos",
+      "date": "2021-11",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Guidance on AI and children",
+      "url": "https://www.unicef.org/innocenti/reports/policy-guidance-ai-children",
+      "author": "UNICEF Innocenti",
+      "date": "2021",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk, Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "UNICEF; the talk rules are Galion's application",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.age.do-not-guess",
+    "horbm.age.under-21-boundary",
+    "horbm.safety.no-workplace-or-school-affect",
+    "horbm-remember-when-asked"
+  ],
+  "read_time_min": 1
+}

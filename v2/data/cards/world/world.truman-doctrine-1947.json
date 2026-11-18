@@ -1,0 +1,32 @@
+{
+  "id": "world.truman-doctrine-1947",
+  "title": "The Truman Doctrine address, 1947",
+  "section": "world",
+  "category": "history",
+  "summary": "The National Archives records Truman's request for aid to Greece and Turkey as a Cold War founding document.",
+  "body": "The U.S. National Archives' Truman Doctrine page says that in 1947 Truman asked Congress for 400 million dollars in military and economic assistance for Greece and Turkey, after Britain told the State Department it could no longer carry that role. The page is the U.S. record of a policy speech. Orthodox, revisionist, and post-revisionist historians disagree about whether the Cold War was caused by Soviet expansion, by U.S. economic strategy, or by mutual suspicion. Those schools are not documented with their own books in this pass. The speech is.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Truman Doctrine (1947)",
+      "url": "https://www.archives.gov/milestone-documents/truman-doctrine",
+      "author": "Harry S. Truman, record held by the U.S. National Archives",
+      "date": "1947",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Harry S. Truman",
+  "as_of_date": "1947",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.unga-181"
+  ],
+  "tags": [
+    "history",
+    "cold-war",
+    "united-states"
+  ],
+  "read_time_min": 1
+}

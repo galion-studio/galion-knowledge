@@ -1,0 +1,39 @@
+{
+  "id": "world.gps-relativity",
+  "title": "GPS timing uses relativistic corrections",
+  "section": "world",
+  "category": "physics",
+  "summary": "Neil Ashby's 2003 review explains how relativity enters GPS.",
+  "body": "Neil Ashby's review \"Relativity in the Global Positioning System\" (Living Reviews in Relativity, 2003) explains that GPS satellite clocks are corrected for both their motion and their position in Earth's gravitational field. The v1 article's claim that GPS \"must account for\" relativity matches this engineering literature. The size of the correction is the quantity in Ashby's review; this card does not restate a nanosecond figure that was not re-read from the paper.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Relativity in the Global Positioning System",
+      "url": "https://doi.org/10.12942/lrr-2003-1",
+      "author": "Neil Ashby",
+      "date": "2003",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Neil Ashby",
+  "as_of_date": "2003",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.hafele-keating-1972",
+    "world.science.special-relativity-1905"
+  ],
+  "tags": [
+    "physics",
+    "gps",
+    "engineering"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "1",
+    "v1_slug": "theory-of-relativity",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "world.treaty-versailles",
+  "title": "The Treaty of Versailles is a 1919 text, not a cause by itself",
+  "section": "world",
+  "category": "history",
+  "summary": "Wikisource publishes the treaty. What it caused is a separate, contested question.",
+  "body": "Wikisource publishes the Treaty of Versailles, the 1919 peace treaty with Germany after the First World War. The text is a document: territorial clauses, reparations, and restrictions. Whether those terms produced the Second World War is an interpretation. Some historians have given them great weight; others have argued that later German decisions were not dictated by the treaty. This card establishes only that the treaty is a real, readable instrument. The causal argument stays on the unsourced causes card until a historian is cited.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of Versailles",
+      "url": "https://en.wikisource.org/wiki/Treaty_of_Versailles",
+      "author": "the Allied and Associated Powers and Germany",
+      "date": "1919",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "parties to the Treaty of Versailles",
+  "as_of_date": "1919",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.unsourced-wwii-causes",
+    "world.poland-invasion-1939"
+  ],
+  "tags": [
+    "history",
+    "world-war-i",
+    "treaty"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "7",
+    "v1_slug": "world-war-two",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

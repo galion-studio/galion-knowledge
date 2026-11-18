@@ -1,0 +1,27 @@
+{
+  "id": "world.society.psychology-replication",
+  "title": "A 2015 estimate of how much of psychology replicated",
+  "section": "world",
+  "category": "society",
+  "summary": "The Open Science Collaboration, Science (28 August 2015), \"Estimating the reproducibility of psychological science.\" The Crossref abstract is an editor's summary of the paper. It says the collaboration replicated 100 experiments…",
+  "body": "## The estimate that was checked\n\nThe Open Science Collaboration, Science (28 August 2015), \"Estimating the reproducibility of psychological science.\" The Crossref abstract is an editor's summary of the paper. It says the collaboration replicated 100 experiments reported in papers published in 2008 in three high-ranking psychology journals, and that, judging whether the replication and the original yielded the same result by several criteria, about one-third to one-half of the original findings were also observed in the replication.\n\nThe author field on the Crossref record is the collaboration, not a single named person. The summary mentions Aarts and colleagues as describing the replication. This card uses the collaboration's name and the summary's fraction. It does not replace \"about one-third to one-half\" with a more precise percentage, because a more precise percentage was not in the text that was read.\n\n## What the fraction means\n\nA replication failure is evidence that a particular published result did not show up again under the replication protocol. It is not, by itself, evidence that the original authors cheated, or that the effect is impossible, or that a different subfield has the same rate. The summary's range is about that set of 100 experiments.\n\n**Fact:** the summary's finding, for that sample.\n\n**Not settled:** the reproducibility of every area of psychology, medicine, or economics. Those need their own studies. The cognitive-biases card cites a 1974 paper that this 2015 project did not specifically rerun.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Estimating the reproducibility of psychological science",
+      "url": "https://doi.org/10.1126/science.aac4716",
+      "author": "Open Science Collaboration",
+      "date": "2015",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Open Science Collaboration",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.society.cognitive-biases"
+  ],
+  "read_time_min": 1
+}

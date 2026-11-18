@@ -1,0 +1,58 @@
+{
+  "id": "world.philosophy.virtue-ethics",
+  "title": "Virtue ethics asks what kind of person an act comes from",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "The Stanford Encyclopedia entry on virtue ethics presents a family of moral theories that start from character rather than from a decision procedure. A right act, on these views, i",
+  "body": "The Stanford Encyclopedia entry on virtue ethics presents a family of moral theories that start from character rather than from a decision procedure. A right act, on these views, is what a person with the virtues would do, or an act that expresses a virtue such as courage, justice, or practical wisdom. The ancient version is associated with Aristotle. Later revivals argue with two other families. Deontological theories, of which Kant's is the usual example, look for a rule that binds regardless of the outcome. Consequentialist theories look at the goodness of the results. The encyclopedia treats these as rival accounts of the same question, not as three chapters that add up to one official ethics. None of them is an empirical result about how often people behave well. They are proposals about what \"well\" should mean. This card does not choose among them.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Virtue Ethics",
+      "url": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Kant's Moral Philosophy",
+      "url": "https://plato.stanford.edu/entries/kant-moral/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Consequentialism",
+      "url": "https://plato.stanford.edu/entries/consequentialism/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "The comparison of moral theories in the Stanford Encyclopedia of Philosophy",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "Moral judgment starts from virtues and practical wisdom.",
+      "summary": "Moral judgment starts from virtues and practical wisdom.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "Moral judgment starts from a binding rule.",
+      "summary": "Moral judgment starts from a binding rule.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "Moral judgment starts from outcomes.",
+      "summary": "Moral judgment starts from outcomes.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.philosophy.kant-groundwork",
+    "world.philosophy.aristotle-four-causes"
+  ],
+  "read_time_min": 1
+}

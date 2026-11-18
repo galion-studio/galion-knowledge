@@ -1,0 +1,71 @@
+{
+  "id": "world.armenian-1915",
+  "title": "USHMM's figures for the 1915–1916 Armenian killings, and Turkey's 'controversy' framing",
+  "section": "world",
+  "category": "history",
+  "summary": "The museum calls it a genocide and gives a death range. The Turkish foreign ministry's page title frames 1915 as a historical controversy.",
+  "body": "The United States Holocaust Memorial Museum's overview says the Armenian Genocide (1915–1916) refers to the physical destruction of Armenian Christian people in the Ottoman Empire. It says about 1.5 million Armenians lived in the empire in 1915, and that at least 664,000 and possibly as many as 1.2 million were killed between spring 1915 and fall 1916, in massacres, individual killings, exposure, and starvation. The Turkish Ministry of Foreign Affairs publishes a page titled \"1915 and the Turkish-Armenian Controversy over History.\" The word genocide did not appear in the ministry text our fetch extracted, which was mostly navigation, so this card does not invent the ministry's legal argument. It records that the ministry frames the events as a controversy. The killings and the death range are the museum's researched figures. The legal name is disputed by the Turkish state. That dispute does not erase the museum's range, and the range is still a range.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "The Armenian Genocide (1915-16): Overview",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-overview",
+      "author": "United States Holocaust Memorial Museum",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "1915 and the Turkish-Armenian Controversy over History",
+      "url": "https://www.mfa.gov.tr/the-events-of-1915-and-the-turkish-armenian-controversy-over-history-an-overview.en.mfa",
+      "author": "Ministry of Foreign Affairs of the Republic of Türkiye",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "The fetch confirmed the page and its framing title. A full policy paragraph was not extracted from the navigation-heavy text."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Holocaust Memorial Museum; Turkish Ministry of Foreign Affairs on the naming",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "USHMM",
+      "summary": "Calls the events the Armenian Genocide and estimates at least 664,000 and possibly 1.2 million deaths in 1915–1916.",
+      "status": "kept from a duplicate card",
+      "sources": [
+        {
+          "title": "The Armenian Genocide (1915-16): Overview",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-overview",
+          "author": "United States Holocaust Memorial Museum",
+          "date": "2026-11-18",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "label": "Turkish foreign ministry",
+      "summary": "Maintains a public page that frames 1915 as a Turkish-Armenian controversy over history. The detailed official argument was not quoted because the fetched text did not yield a clean paragraph.",
+      "status": "kept from a duplicate card",
+      "sources": [
+        {
+          "title": "1915 and the Turkish-Armenian Controversy over History",
+          "url": "https://www.mfa.gov.tr/the-events-of-1915-and-the-turkish-armenian-controversy-over-history-an-overview.en.mfa",
+          "author": "Ministry of Foreign Affairs of the Republic of Türkiye",
+          "date": "2026-11-18",
+          "accessed": "2026-11-18"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "world.genocide-convention",
+    "world.holocaust-ushmm"
+  ],
+  "tags": [
+    "history",
+    "armenia",
+    "ottoman",
+    "contested"
+  ],
+  "read_time_min": 1
+}

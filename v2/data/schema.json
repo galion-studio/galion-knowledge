@@ -39,15 +39,11 @@
       "type": "array",
       "items": { "$ref": "#/$defs/source" }
     },
-    "evidence_strength": {
-      "type": "string",
-      "minLength": 1,
-      "description": "Preferred: none, weak, moderate, strong. Other words from an existing draft are shown as written."
-    },
+    "evidence_strength": { "enum": ["none", "weak", "moderate", "strong"] },
     "said_by": { "type": "string" },
     "as_of_date": {
       "type": "string",
-      "pattern": "^$|^[0-9]{4}(-[0-9]{2}){0,2}$"
+      "pattern": "^$|^-?[0-9]{1,6}(-[0-9]{2}){0,2}$"
     },
     "status": { "type": "string", "minLength": 1 },
     "contested_views": {
@@ -57,6 +53,11 @@
     "related": {
       "type": "array",
       "items": { "type": "string", "minLength": 1 }
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Other ids for this same card, including dotted ids. The site serves each alias at /article/<alias>/."
     },
     "tags": {
       "type": "array",

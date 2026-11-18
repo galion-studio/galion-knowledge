@@ -1,7 +1,7 @@
 module.exports = {
   layout: "base.njk",
   pagination: {
-    data: "catalog.categories",
+    data: "allCategories",
     size: 1,
     alias: "category",
   },

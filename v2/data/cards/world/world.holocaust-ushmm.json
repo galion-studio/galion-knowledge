@@ -1,0 +1,47 @@
+{
+  "id": "world.holocaust-ushmm",
+  "title": "USHMM: the Holocaust was the murder of six million Jews by Nazi Germany and its allies",
+  "section": "world",
+  "category": "history",
+  "summary": "The museum's definition is a systematic, state-sponsored genocide. Denial is not treated as an equal source.",
+  "body": "The United States Holocaust Memorial Museum states that the Holocaust was the systematic, state-sponsored persecution and murder of six million European Jews by the Nazi German regime and its allies and collaborators, and that it was an evolving process across Europe. The museum's numbers article repeats that the Nazis and their allies killed six million Jewish people. This is the documentary institution's figure, based on its accounting of deportations, camps, and killings. It is not a slogan and it is not placed in a false balance with denial. Arguments among historians about the bureaucratic path (orders from the top versus cumulative radicalization) accept the killings and were not given sources in this pass, so they are not summarized as if they had been.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Introduction to the Holocaust",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust",
+      "author": "United States Holocaust Memorial Museum",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Documenting Numbers of Victims of the Holocaust and Nazi Persecution",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+      "author": "United States Holocaust Memorial Museum",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Holocaust Memorial Museum",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.holocaust-other-groups",
+    "world.genocide-convention",
+    "world.poland-invasion-1939"
+  ],
+  "tags": [
+    "history",
+    "holocaust",
+    "genocide"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "7",
+    "v1_slug": "world-war-two",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

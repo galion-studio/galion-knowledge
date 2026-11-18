@@ -1,0 +1,51 @@
+{
+  "id": "horbm-pack-scope",
+  "title": "What this knowledge pack is for",
+  "section": "horbm",
+  "category": "honesty",
+  "summary": "HORBM needs a pack of knowledge about how to talk. This pack is that knowledge. It is not the retriever, the ranker, or the mouth.",
+  "body": "HORBM is a retrieval brain. When it speaks, it speaks from cards. This pack is the set of cards about conduct: how a turn works, how a miss is repaired, how a fact is separated from a guess, how a feeling is carried without a script, and what is remembered only when someone asked.\n\nThe pack does not choose the sentence. R3 says the inner life compiles an intent and does not pick the words. R1 and R2 own retrieval and ranking. R4 owns the CPU budget. Where those notes are still drafts, a card that depends on them is marked as an opinion of that note.\n\nA card in this pack is allowed to say what an opened paper said, what a lock requires, or what a persona file already tells the voice to do. It is not allowed to invent a citation. A design choice is labelled an opinion. A disagreement that is still open is labelled contested and keeps both views.\n\nThe practical test for a reply is small. The reply can be said in one or two sentences. It does not pretend to know. It does not keep a story that was not offered. It can be interrupted. It can stop.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "R3 — Memory, persona, empathy, and dialogue policy for HORBM",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/65c1249f498beb794a049164b85137014b6a7dd5/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Draft research note on pull request 208. Not merged. Not a lock. Opinions in that note stay opinions here."
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "Galion Research persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-RESEARCH.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm-full-duplex-duties",
+    "horbm-fact-and-opinion",
+    "horbm-remember-when-asked"
+  ],
+  "tags": [
+    "scope",
+    "horbm",
+    "conduct"
+  ],
+  "read_time_min": 1
+}

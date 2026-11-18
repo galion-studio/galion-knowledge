@@ -1,0 +1,27 @@
+{
+  "id": "world.technology.faraday-induction-1832",
+  "title": "Faraday's 1832 paper on experimental researches in electricity",
+  "section": "world",
+  "category": "technology",
+  "summary": "Michael Faraday's paper \"Experimental researches in electricity\" was published in the Philosophical Transactions of the Royal Society in 1832, pages 125–162. It is the published re",
+  "body": "Michael Faraday's paper \"Experimental researches in electricity\" was published in the Philosophical Transactions of the Royal Society in 1832, pages 125–162. It is the published report of the experiments in which a changing magnetic condition induces an electric current in a circuit. The effect is electromagnetic induction. A steady magnet sitting beside a wire does not, by itself, keep driving a current. Change does: moving the magnet, or changing the current in a nearby circuit. Generators and transformers use that fact. The 1832 paper is an experimental report in Faraday's qualitative style, not a vector-calculus statement of Maxwell's equations, which came later and systematized the field picture. Induction is the laboratory fact the paper established.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Experimental researches in electricity",
+      "url": "https://doi.org/10.1098/rstl.1832.0006",
+      "author": "Michael Faraday",
+      "date": "1832",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Michael Faraday, Philosophical Transactions of the Royal Society, 1832, pp. 125–162",
+  "as_of_date": "1832",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.technology.transistor"
+  ],
+  "read_time_min": 1
+}

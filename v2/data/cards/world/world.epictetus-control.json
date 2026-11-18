@@ -1,0 +1,47 @@
+{
+  "id": "world.epictetus-control",
+  "title": "Epictetus: some things are in our control and others are not",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Elizabeth Carter's translation of the Enchiridion opens with that distinction.",
+  "body": "The Internet Classics Archive publishes Elizabeth Carter's translation of Epictetus's Enchiridion. The first section says some things are in our control and others are not, and lists opinion, pursuit, desire, aversion, and our own actions as in our control. The modern slogan \"it's not what happens to you, but how you react\" is a paraphrase, not this sentence. The v1 article also attributes \"the obstacle is the way\" to Marcus Aurelius. That wording is a modern compression. Wikisource holds a translation of the Meditations, and this card does not pretend the slogan is a verbatim line.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Enchiridion",
+      "url": "https://classics.mit.edu/Epictetus/epicench.html",
+      "author": "Epictetus, translated by Elizabeth Carter",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "The translation is Elizabeth Carter's. The work itself is Roman-period."
+    },
+    {
+      "title": "The Thoughts of the Emperor Marcus Aurelius Antoninus",
+      "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus",
+      "author": "Marcus Aurelius, English translation on Wikisource",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Epictetus",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.sep-stoicism",
+    "world.unsourced-stoic-cbt"
+  ],
+  "tags": [
+    "philosophy",
+    "stoicism",
+    "epictetus"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "21",
+    "v1_slug": "stoicism",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

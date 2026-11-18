@@ -1,0 +1,29 @@
+{
+  "id": "world.unsourced-trolley",
+  "title": "The trolley problem is unsourced here",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Foot's and Thomson's papers were not opened.",
+  "body": "The v1 ethics article summarizes the trolley problem (divert a runaway trolley, or push a person) as a window on moral intuitions. Philippa Foot and Judith Jarvis Thomson are the usual sources. Neither paper was opened. Leave the example unsourced rather than retelling it as if the citations had been checked.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.virtue-consequentialism-kant"
+  ],
+  "tags": [
+    "philosophy",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "26",
+    "v1_slug": "ethics-morality",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -23,7 +23,7 @@ permalink: search/index.html
   <aside class="filters">
     <h2>{{ icon("filter", "icon-xs") }} Filter by category</h2>
     <button type="button" data-search-cat="" class="is-on">All categories</button>
-    {% for category in catalog.categories %}
+    {% for category in allCategories %}
       <button type="button" data-search-cat="{{ category.id }}">
         <span>{{ category.name }}</span>
         <span data-search-count="{{ category.id }}">0</span>
@@ -47,4 +47,4 @@ permalink: search/index.html
   </div>
 </div>
 <script id="search-data" type="application/json">{{ cards | searchIndex | json | safe }}</script>
-<script id="catalog-data" type="application/json">{{ catalog.categories | json | safe }}</script>
+<script id="catalog-data" type="application/json">{{ allCategories | json | safe }}</script>

@@ -1,7 +1,7 @@
 module.exports = {
   layout: "base.njk",
   pagination: {
-    data: "cards",
+    data: "cardPages",
     size: 1,
     alias: "card",
   },
@@ -10,9 +10,10 @@ module.exports = {
       data.card && !data.card._placeholder ? data.card.title : "Galion Knowledge",
     description: (data) =>
       data.card && !data.card._placeholder ? data.card.summary : "",
-    permalink: (data) =>
-      data.card && !data.card._placeholder
-        ? `article/${data.card.id}/index.html`
-        : false,
+    permalink: (data) => {
+      const card = data.card;
+      if (!card || card._placeholder) return false;
+      return `article/${card.slug || card.id}/index.html`;
+    },
   },
 };

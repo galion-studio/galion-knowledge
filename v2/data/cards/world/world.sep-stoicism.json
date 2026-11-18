@@ -1,0 +1,39 @@
+{
+  "id": "world.sep-stoicism",
+  "title": "Stoicism is a Hellenistic school with physics, logic, and ethics",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "The Stanford entry treats the three parts as one system and notes the thin primary record.",
+  "body": "Marion Durand, Simon Shogry, and Dirk Baltzly's Stanford Encyclopedia entry introduces Stoicism as a school whose doctrines interlock across physics, logic, and ethics, and it reviews the extant sources. Zeno of Citium is the traditional founder. The v1 article's dates for Zeno, Epictetus, Seneca, and Marcus Aurelius were not copied from this fetch. The four cardinal virtues are older Greek ethics that Stoics used, not a Stoic invention established here. \"Dichotomy of control\" is a modern label for a point Epictetus does make, in other words, in the Enchiridion.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Stoicism",
+      "url": "https://plato.stanford.edu/entries/stoicism/",
+      "author": "Marion Durand, Simon Shogry, and Dirk Baltzly",
+      "date": "2023-01-20",
+      "accessed": "2026-11-18",
+      "note": "SEP citation_publication_date."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Marion Durand, Simon Shogry, and Dirk Baltzly",
+  "as_of_date": "2023-01-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.epictetus-control",
+    "world.unsourced-stoic-cbt"
+  ],
+  "tags": [
+    "philosophy",
+    "stoicism"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "21",
+    "v1_slug": "stoicism",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

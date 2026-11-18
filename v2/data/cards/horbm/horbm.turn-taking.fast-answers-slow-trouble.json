@@ -1,0 +1,36 @@
+{
+  "id": "horbm.turn-taking.fast-answers-slow-trouble",
+  "title": "Answers arrive faster than non-answers, in all ten languages",
+  "section": "horbm",
+  "category": "turn-taking",
+  "summary": "In the same 10-language sample, Stivers, Enfield, and colleagues (2009) found that answers to polar questions were faster than non-answer responses in every language. Confirmations",
+  "body": "In the same 10-language sample, Stivers, Enfield, and colleagues (2009) found that answers to polar questions were faster than non-answer responses in every language. Confirmations were faster than disconfirmations in every language, by about 100 to 500 ms on average, and the difference was significant in 7 of the 10. The confirming advantage held even when the confirming word was 'no' ('You're not coming?' 'No, I'm not'): confirmations that used 'no' were not significantly slower than confirmations that used 'yes'. A delay is information. It is not empty time to be filled. Levinson and Torreira (2015) add, from work this card did not re-open, that gaps of 700 ms or more are associated with dispreferred actions (Kendrick and Torreira 2015) and that gaps of 600 ms or longer can generate that unwelcome inference in experiments (Roberts, Margutti, and Takano 2011). Those two thresholds are the review's report, not a re-measurement here. Galion does not use them as a timer that must fire.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Universals and cultural variation in turn-taking in conversation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2705608/",
+      "author": "Tanya Stivers, N. J. Enfield, and colleagues",
+      "date": "2009",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Timing in turn-taking and its implications for processing models of language",
+      "url": "https://doi.org/10.3389/fpsyg.2015.00731",
+      "author": "Stephen C. Levinson and Francisco Torreira",
+      "date": "2015",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Stivers, Enfield, and colleagues; thresholds as reported by Levinson and Torreira",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.turn-taking.ten-languages",
+    "horbm.closings.silence",
+    "horbm.honesty.i-dont-know"
+  ],
+  "read_time_min": 1
+}

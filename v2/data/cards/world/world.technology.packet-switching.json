@@ -1,0 +1,34 @@
+{
+  "id": "world.technology.packet-switching",
+  "title": "Packet networks: Baran's distributed net and the Cerf–Kahn internetworking protocol",
+  "section": "world",
+  "category": "technology",
+  "summary": "Paul Baran, RAND Research Memorandum RM-3420 (1964), \"On Distributed Communications: I. Introduction to Distributed Communications Networks,\" reviews a distributed communications network and compares it with hierarchical networks. The…",
+  "body": "## Breaking a message from a single fragile path\n\nPaul Baran, RAND Research Memorandum RM-3420 (1964), \"On Distributed Communications: I. Introduction to Distributed Communications Networks,\" reviews a distributed communications network and compares it with hierarchical networks. The engineering problem is survivability and connectivity: a hierarchical network concentrates traffic in a few nodes, so losing a node can cut many users off. A distributed network gives a message more than one possible path.\n\nPacket switching is the companion idea. A message is cut into packets. Each packet carries addressing so that the network can forward it, and different packets need not occupy one reserved circuit for the whole conversation. This card states that idea as the mechanism Baran's distributed-network work is about. It does not quote a figure number from the memorandum that was not read page by page.\n\nCerf and Kahn (IEEE Transactions on Communications, 1974), \"A Protocol for Packet Network Intercommunication,\" specify a protocol by which separate packet networks can exchange traffic. Intercommunication is the problem after you have more than one network: packets have to cross an administrative and technical boundary, not only hop inside one net.\n\n## Fact and later brand names\n\n**Fact:** Baran's 1964 memorandum introduces the distributed network in contrast to hierarchical designs, and Cerf and Kahn's 1974 paper gives a protocol for packet networks to intercommunicate.\n\n**Interpretation:** the public internet is a descendant of that internetworking approach. \"The internet\" as a social fact includes later governance, companies, and content. Those are not defined in the 1974 paper.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On Distributed Communications: I. Introduction to Distributed Communications Networks",
+      "url": "https://www.rand.org/pubs/research_memoranda/RM3420.html",
+      "author": "Paul Baran",
+      "date": "1964",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "A Protocol for Packet Network Intercommunication",
+      "url": "https://doi.org/10.1109/TCOM.1974.1092259",
+      "author": "V. Cerf and R. Kahn",
+      "date": "1974",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Paul Baran; Vint Cerf and Robert Kahn",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.technology.turing-machine"
+  ],
+  "read_time_min": 1
+}

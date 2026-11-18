@@ -1,0 +1,46 @@
+{
+  "id": "world.mathematics.noneuclidean-geometry",
+  "title": "The parallel postulate need not be kept",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid's Elements, in the text linked from Wikisource, builds plane geometry on postulates. One of them, the parallel postulate, is less obvious than the others, and for centuries",
+  "body": "Euclid's Elements, in the text linked from Wikisource, builds plane geometry on postulates. One of them, the parallel postulate, is less obvious than the others, and for centuries geometers tried to derive it from the rest. The Stanford Encyclopedia entry on nineteenth-century geometry records the break. In the 1820s Nikolai Lobachevsky and János Bolyai, working independently, built geometries on the negation of that postulate. Lobachevsky called his system imaginary geometry. Once those systems were shown to be as consistent as Euclid's, \"the\" geometry of mathematics was no longer a single structure. Whether physical space matches Euclid became, for some of the people the entry discusses, an experimental question, and others replied that experiments already presuppose a geometry. The mathematical existence of the alternatives is not in dispute. Which geometry fits a given physical theory is a further question. General relativity answers one version of it with a geometry that is not Euclid's.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Nineteenth Century Geometry",
+      "url": "https://plato.stanford.edu/entries/geometry-19th/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Elements (Euclid)",
+      "url": "https://en.wikisource.org/wiki/The_Elements_of_Euclid",
+      "author": "Euclid",
+      "date": "circa 300 BCE",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Lobachevsky and Bolyai in the 1820s, as surveyed by the Stanford Encyclopedia",
+  "as_of_date": "1820",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "Non-Euclidean geometries are legitimate mathematical alternatives to Euclid.",
+      "summary": "Non-Euclidean geometries are legitimate mathematical alternatives to Euclid.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "Whether experiment can decide the geometry of physical space, or whether experiment already assumes one, was disputed.",
+      "summary": "Whether experiment can decide the geometry of physical space, or whether experiment already assumes one, was disputed.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.science.general-relativity-1916",
+    "world.mathematics.plimpton-322-reassessment"
+  ],
+  "read_time_min": 1
+}

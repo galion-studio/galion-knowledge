@@ -1,0 +1,39 @@
+{
+  "id": "world.arts.iliad-attributed-to-homer",
+  "title": "The Iliad is an epic attributed to Homer",
+  "section": "world",
+  "category": "arts",
+  "summary": "Wikisource presents the Iliad as Homer's ancient Greek epic and collects English translations of it. The poem is set in the Trojan War and is one of the two long epics the Greek tr",
+  "body": "Wikisource presents the Iliad as Homer's ancient Greek epic and collects English translations of it. The poem is set in the Trojan War and is one of the two long epics the Greek tradition attached to the name Homer, the other being the Odyssey. Attribution to a single poet is traditional. Whether one person composed the poem, or whether it was built from earlier songs and then written down, is a specialist argument. This card does not link a study of oral composition, so that question stays open here and is not decided. What is sourced is the work's identity and its traditional attribution, plus the fact that multiple translations are in circulation. A translation is an interpretation. Line-level claims about the Greek should be checked against a named Greek text, not against a single English version chosen at random.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "The Iliad",
+      "url": "https://en.wikisource.org/wiki/The_Iliad",
+      "author": "Homer (traditional attribution)",
+      "date": "archaic Greek period",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Traditional attribution, as presented on Wikisource",
+  "as_of_date": "2026-11-18",
+  "status": "partially_sourced",
+  "contested_views": [
+    {
+      "label": "The Iliad is the work of one poet, Homer.",
+      "summary": "The Iliad is the work of one poet, Homer.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "The poem may have been assembled from earlier oral songs. This card does not cite the scholarship that argues that case.",
+      "summary": "The poem may have been assembled from earlier oral songs. This card does not cite the scholarship that argues that case.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.arts.shakespeare-first-folio-1623",
+    "world.history.pericles-funeral-oration"
+  ],
+  "read_time_min": 1
+}

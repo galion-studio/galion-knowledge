@@ -1,0 +1,66 @@
+{
+  "id": "world.social-contract-family",
+  "title": "Social-contract theories are a family, not one doctrine",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "The Stanford entry names Hobbes, Locke, Kant, Rousseau, and Rawls as different contract theorists.",
+  "body": "Ann Cudd and Seena Eftekhari's Stanford Encyclopedia entry on contractarianism says the authority of government, on this family of views, derives from the consent of the governed, and it names Hobbes, Locke, Kant, Rousseau, and John Rawls. Hobbes's Leviathan is on Wikisource. The v1 article's summaries (\"war of all against all,\" Locke's life, liberty, and property, Rousseau's \"born free\") are famous compressions. The nasty-brutish sentence and the \"in chains\" sentence were not re-checked against the editions, so they are not stored as quotations. Rawls's veil of ignorance is described in Leif Wenar's SEP entry on Rawls, not by quoting A Theory of Justice.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Contractarianism",
+      "url": "https://plato.stanford.edu/entries/contractarianism/",
+      "author": "Ann Cudd and Seena Eftekhari",
+      "date": "2000-06-18",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "John Rawls",
+      "url": "https://plato.stanford.edu/entries/rawls/",
+      "author": "Leif Wenar",
+      "date": "2008-03-25",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Leviathan (1651)",
+      "url": "https://en.wikisource.org/wiki/Leviathan_(1651)",
+      "author": "Thomas Hobbes",
+      "date": "1651",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Locke's Political Philosophy",
+      "url": "https://plato.stanford.edu/entries/locke-political/",
+      "author": "Alex Tuckness",
+      "date": "2005-11-09",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Jean Jacques Rousseau",
+      "url": "https://plato.stanford.edu/entries/rousseau/",
+      "author": "Christopher Bertram",
+      "date": "2010-09-27",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Ann Cudd and Seena Eftekhari",
+  "as_of_date": "2000-06-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.declaration-independence",
+    "world.natural-law-sep"
+  ],
+  "tags": [
+    "philosophy",
+    "politics"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "23",
+    "v1_slug": "social-contract",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

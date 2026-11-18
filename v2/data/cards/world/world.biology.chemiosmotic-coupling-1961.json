@@ -1,0 +1,28 @@
+{
+  "id": "world.biology.chemiosmotic-coupling-1961",
+  "title": "Mitchell's chemiosmotic coupling",
+  "section": "world",
+  "category": "biology",
+  "summary": "Peter Mitchell's 1961 paper is titled \"Coupling of Phosphorylation to Electron and Hydrogen Transfer by a Chemi-Osmotic type of Mechanism.\" The claim in the title is specific. The",
+  "body": "Peter Mitchell's 1961 paper is titled \"Coupling of Phosphorylation to Electron and Hydrogen Transfer by a Chemi-Osmotic type of Mechanism.\" The claim in the title is specific. The link between electron transport and the making of ATP is chemiosmotic: electron and hydrogen transfer are arranged across a membrane so that they build an electrochemical gradient, and that gradient is what drives phosphorylation. The paper proposes this membrane mechanism in place of treating a high-energy chemical intermediate as the necessary link. It is a theoretical paper in Nature, not a crystal structure of the enzyme. The enzyme that makes the ATP, and the pump that builds related ion gradients, are the subject of the 1997 Nobel Prize, covered in a separate card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Coupling of Phosphorylation to Electron and Hydrogen Transfer by a Chemi-Osmotic type of Mechanism",
+      "url": "https://doi.org/10.1038/191144a0",
+      "author": "Peter Mitchell",
+      "date": "1961",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Peter Mitchell, Nature, 1961",
+  "as_of_date": "1961",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.atp-synthase-and-the-sodium-pump",
+    "world.biology.endosymbiosis-1967"
+  ],
+  "read_time_min": 1
+}

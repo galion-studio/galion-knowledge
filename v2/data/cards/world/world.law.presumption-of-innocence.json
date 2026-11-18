@@ -1,0 +1,37 @@
+{
+  "id": "world.law.presumption-of-innocence",
+  "title": "Presumption of innocence in the 1789 declaration and in the 1948 declaration",
+  "section": "world",
+  "category": "law",
+  "summary": "The Avalon English text of the Declaration of the Rights of Man, approved by the French National Assembly on 26 August 1789, Article 9, says: \"As all persons are held innocent until they shall have been declared guilty, if arrest shall…",
+  "body": "## Two texts, 159 years apart\n\nThe Avalon English text of the Declaration of the Rights of Man, approved by the French National Assembly on 26 August 1789, Article 9, says: \"As all persons are held innocent until they shall have been declared guilty, if arrest shall be deemed indispensable, all harshness not essential to the securing of the prisoner's person shall be severely repressed by law.\"\n\nThe Universal Declaration of Human Rights, proclaimed by the UN General Assembly on 10 December 1948, Article 11(1), says: \"Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence.\"\n\n## What the right is, mechanically\n\nThe rule assigns a default and a burden. The default is innocence. The burden of displacing it is on the proof, in a form the text specifies: in 1948, proof according to law in a public trial with the guarantees necessary for the defence; in the 1789 English text, a declaration of guilt, with a side constraint on harshness during arrest. Detaining someone is not, in either sentence, a finding of guilt.\n\n**Fact:** both instruments say this, in the words quoted, in the English texts that were read.\n\n**Not a description of practice.** Many legal systems write the presumption down and then lean on pretrial detention, publicity, or emergency statutes. Whether a given court honors the text is a question about that court. These two documents do not answer it.\n\n**Not the same as a scientific prior.** \"Innocent until proved guilty\" is a legal rule about the state. It is not a claim that jurors have no psychological biases. The heuristics card is about those biases. A legal rule can be justified even though jurors are fallible, and it can fail in practice because they are.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Universal Declaration of Human Rights",
+      "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+      "author": "United Nations General Assembly",
+      "date": "1948-12-10",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Declaration of the Rights of Man - 1789",
+      "url": "https://avalon.law.yale.edu/18th_century/rightsof.asp",
+      "author": "National Assembly of France, English text at the Avalon Project, Yale Law School",
+      "date": "1789",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.law.udhr-1948",
+    "world.law.habeas-corpus-clause",
+    "world.law.human-rights-declaration",
+    "world.history.declaration-of-the-rights-of-man-1789"
+  ],
+  "read_time_min": 1
+}

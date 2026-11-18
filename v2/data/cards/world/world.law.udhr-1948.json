@@ -1,0 +1,39 @@
+{
+  "id": "world.law.udhr-1948",
+  "title": "The Universal Declaration was proclaimed, article by article",
+  "section": "world",
+  "category": "law",
+  "summary": "The United Nations records that the Universal Declaration of Human Rights was proclaimed by the General Assembly in Paris on 10 December 1948, as resolution 217 A, \"as a common sta",
+  "body": "The United Nations records that the Universal Declaration of Human Rights was proclaimed by the General Assembly in Paris on 10 December 1948, as resolution 217 A, \"as a common standard of achievements for all peoples and all nations.\" Article 1 states: \"All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.\" The document is a declaration of the Assembly. The UN page presents it as a common standard. It does not, on that page, describe the declaration as a treaty that states ratify. Later treaties, including the two 1966 covenants, were written to put parts of this list into treaty form. Those covenants are not copied into this card. What is copied is the proclamation date, the resolution, and Article 1.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Universal Declaration of Human Rights",
+      "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+      "author": "United Nations General Assembly",
+      "date": "1948-12-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United Nations General Assembly, resolution 217 A (III), 10 December 1948",
+  "as_of_date": "1948-12-10",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.law.presumption-of-innocence",
+    "world.law.cultural-relativist-objection-1947",
+    "world.history.rights-of-man-1789",
+    "world.genocide-convention",
+    "world.unsourced-udhr-legal-status",
+    "world.declaration-independence"
+  ],
+  "tags": [
+    "law",
+    "human-rights"
+  ],
+  "aliases": [
+    "world.udhr-1948"
+  ],
+  "read_time_min": 1
+}

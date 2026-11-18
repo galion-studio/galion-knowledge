@@ -1,0 +1,33 @@
+{
+  "id": "world.denisova-2010",
+  "title": "Denisova Cave yielded a distinct archaic genome",
+  "section": "world",
+  "category": "biology",
+  "summary": "Reich, Green, and colleagues described the Denisova genome in Nature in 2010.",
+  "body": "David Reich, Richard E. Green, and colleagues, \"Genetic history of an archaic hominin group from Denisova Cave in Siberia\" (Nature, 2010), reported a genome that was not modern human and not Neanderthal. It is the naming paper for Denisovans as a genetic group. How that group relates to fossils across Asia is still being worked out; this card is the 2010 genetic report, not a finished map.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Genetic history of an archaic hominin group from Denisova Cave in Siberia",
+      "url": "https://doi.org/10.1038/nature09710",
+      "author": "David Reich, Richard E. Green, and colleagues",
+      "date": "2010",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "David Reich, Richard E. Green, and colleagues",
+  "as_of_date": "2010",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.neanderthal-genome-2010",
+    "world.jebel-irhoud-2017"
+  ],
+  "tags": [
+    "biology",
+    "human-origins",
+    "ancient-dna"
+  ],
+  "read_time_min": 1
+}

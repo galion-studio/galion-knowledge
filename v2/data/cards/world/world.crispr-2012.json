@@ -1,0 +1,32 @@
+{
+  "id": "world.crispr-2012",
+  "title": "Jinek and colleagues' 2012 CRISPR paper",
+  "section": "world",
+  "category": "biology",
+  "summary": "The Science paper describes a programmable dual-RNA-guided DNA endonuclease from bacterial immunity.",
+  "body": "Martin Jinek, Krzysztof Chylinski, Ines Fonfara, Michael Hauer, Jennifer A. Doudna, Emmanuelle Charpentier, and colleagues, \"A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity\" (Science, 2012), is a primary paper on using the bacterial CRISPR system as a programmable DNA cut. The paper is about a molecular tool. It is not a report that a disease has been cured. Clinical claims need their own trials.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+      "url": "https://doi.org/10.1126/science.1225829",
+      "author": "Martin Jinek and colleagues",
+      "date": "2012",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Martin Jinek, Jennifer A. Doudna, Emmanuelle Charpentier, and colleagues",
+  "as_of_date": "2012",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.alphafold-2021",
+    "world.t2t-2022"
+  ],
+  "tags": [
+    "biology",
+    "biotechnology"
+  ],
+  "read_time_min": 1
+}

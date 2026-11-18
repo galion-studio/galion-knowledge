@@ -1,0 +1,28 @@
+{
+  "id": "world.geography.koppen-geiger-map-2007",
+  "title": "Köppen-Geiger is a classification, not a cause",
+  "section": "world",
+  "category": "geography",
+  "summary": "Peel, Finlayson, and McMahon published \"Updated world map of the Köppen-Geiger climate classification\" in Hydrology and Earth System Sciences in 2007. The Köppen-Geiger system sort",
+  "body": "Peel, Finlayson, and McMahon published \"Updated world map of the Köppen-Geiger climate classification\" in Hydrology and Earth System Sciences in 2007. The Köppen-Geiger system sorts climates by temperature and precipitation patterns and by the vegetation those patterns support. The 2007 paper updates the world map with a stated data set and method. A class on that map is a description of a climate's statistics, not an explanation of why the climate is that way. Boundaries move if the underlying observations or the thresholds change. Using a Köppen label as if it were a natural kind with sharp edges overstates a useful classification. The paper is the place to see which data and which rules produced that particular map.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Updated world map of the Köppen-Geiger climate classification",
+      "url": "https://doi.org/10.5194/hess-11-1633-2007",
+      "author": "M. C. Peel, B. L. Finlayson, and T. A. McMahon",
+      "date": "2007",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Peel, Finlayson, and McMahon, Hydrology and Earth System Sciences, 2007",
+  "as_of_date": "2007",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.geography.monsoon-processes",
+    "world.nature.orbital-pacemaker-ice-ages"
+  ],
+  "read_time_min": 1
+}

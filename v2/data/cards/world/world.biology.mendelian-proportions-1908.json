@@ -1,0 +1,27 @@
+{
+  "id": "world.biology.mendelian-proportions-1908",
+  "title": "Mendelian inheritance does not by itself change allele frequencies",
+  "section": "world",
+  "category": "biology",
+  "summary": "G. H. Hardy's 1908 letter in Science, \"Mendelian Proportions in a Mixed Population,\" answers a confusion about Mendelian inheritance. In a large population where mates pair at rand",
+  "body": "G. H. Hardy's 1908 letter in Science, \"Mendelian Proportions in a Mixed Population,\" answers a confusion about Mendelian inheritance. In a large population where mates pair at random, one round of Mendelian inheritance puts genotype frequencies into a definite relation to allele frequencies. Those frequencies then stay put. Mendelian segregation alone does not drive a dominant allele to take over, and it does not remove recessive alleles. Change in the frequencies requires something else: selection, migration, mutation, non-random mating, or chance in a small population. The relation is often called Hardy-Weinberg equilibrium because Wilhelm Weinberg published a similar argument the same year. Weinberg's paper is not linked here, so this card rests on Hardy.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Mendelian Proportions in a Mixed Population",
+      "url": "https://doi.org/10.1126/science.28.706.49",
+      "author": "G. H. Hardy",
+      "date": "1908",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "G. H. Hardy, Science, 1908",
+  "as_of_date": "1908",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.natural-selection-1859"
+  ],
+  "read_time_min": 1
+}

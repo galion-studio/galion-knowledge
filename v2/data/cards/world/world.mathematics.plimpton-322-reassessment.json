@@ -1,0 +1,45 @@
+{
+  "id": "world.mathematics.plimpton-322-reassessment",
+  "title": "Plimpton 322 has more than one reading",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Plimpton 322 is an Old Babylonian clay tablet. Popular accounts have described it as a trigonometric table, sometimes with a certainty the evidence does not force. Eleanor Robson's",
+  "body": "Plimpton 322 is an Old Babylonian clay tablet. Popular accounts have described it as a trigonometric table, sometimes with a certainty the evidence does not force. Eleanor Robson's 2001 paper in Historia Mathematica is titled \"Neither Sherlock Holmes nor Babylon: A Reassessment of Plimpton 322.\" The title marks a reassessment of a detective-style reconstruction and of what the tablet shows about Babylonian mathematics. This card does not replace her argument with a new decoding of the numbers. It records that a specialist reassessment exists and that the textbook story of the tablet is contested. The Pythagorean relation itself is securely in Euclid's Elements, a Greek text from many centuries later. Presence of related number patterns on a Babylonian tablet does not mean Babylonian scribes were doing Greek geometry under another name.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Neither Sherlock Holmes nor Babylon: A Reassessment of Plimpton 322",
+      "url": "https://doi.org/10.1006/hmat.2001.2317",
+      "author": "Eleanor Robson",
+      "date": "2001",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Elements (Euclid)",
+      "url": "https://en.wikisource.org/wiki/The_Elements_of_Euclid",
+      "author": "Euclid",
+      "date": "circa 300 BCE",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Eleanor Robson, Historia Mathematica, 2001, reassessing earlier readings",
+  "as_of_date": "2001",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "The tablet is best read as a trigonometric table in a nearly modern sense.",
+      "summary": "The tablet is best read as a trigonometric table in a nearly modern sense.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "The tablet needs a reassessment inside Old Babylonian scribal practice, not a modern label pasted on it.",
+      "summary": "The tablet needs a reassessment inside Old Babylonian scribal practice, not a modern label pasted on it.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.mathematics.noneuclidean-geometry"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.uk-slavery-abolition-1833",
+  "title": "The UK statute book records the Slavery Abolition Act 1833",
+  "section": "world",
+  "category": "law",
+  "summary": "legislation.gov.uk identifies the 1833 act and a repeal date of 19 November 1998.",
+  "body": "The UK statute book at legislation.gov.uk identifies the Slavery Abolition Act 1833 and marks it repealed on 19 November 1998. The repeal stamp on a consolidated statute book often means the text was later swept up as spent law. This card does not establish that slavery was re-legalized in 1998, and it does not establish the opposite from the page title alone. The act is the 1833 abolition statute for the British Empire's legal slavery, with terms that have to be read in the act itself. The Atlantic slave trade's scale is a quantitative historical question and is not answered by this statute's title.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Slavery Abolition Act 1833",
+      "url": "https://www.legislation.gov.uk/ukpga/Will4/3-4/73/contents",
+      "author": "Parliament of the United Kingdom",
+      "date": "1833",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Parliament of the United Kingdom",
+  "as_of_date": "1833",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.thirteenth-amendment",
+    "world.unsourced-slave-trade-totals"
+  ],
+  "tags": [
+    "law",
+    "slavery",
+    "britain"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "world.arts.aristotle-poetics-survival",
+  "title": "What survives of Aristotle's Poetics, according to a scholarly survey",
+  "section": "world",
+  "category": "arts",
+  "summary": "Pierre Destrée, \"Aristotle's Aesthetics,\" Stanford Encyclopedia of Philosophy (first published 3 December 2021), says Aristotle's treatment of poetry is a treatise on tragedy in its first \"book,\" which can still be read, and on comedy…",
+  "body": "## The bibliographic facts that were checked\n\nPierre Destrée, \"Aristotle's Aesthetics,\" Stanford Encyclopedia of Philosophy (first published 3 December 2021), says Aristotle's treatment of poetry is a treatise on tragedy in its first \"book,\" which can still be read, and on comedy in its second, which is now lost. The surviving treatise is what is called the *Poetics*. Destrée writes that Aristotle never published or properly edited it, that it may have consisted mainly of teaching notes, and that, like his other surviving treatises, it remained inside the Lyceum rather than being one of the works he published for a wider audience.\n\n## What this does to the usual story\n\n**Fact, as this survey states it:** we have a tragedy book and we do not have the comedy book; the tragedy book may be notes for teaching, preserved in the school, not a finished book Aristotle issued.\n\n**Not checked here:** Butcher's English sentences defining tragedy as an imitation of an action. A Wikisource landing page for that translation did not yield the chapter text in the fetch that was tried, so the famous definition is not quoted. Quoting it from memory would be exactly the sort of smooth error this pack is trying not to make.\n\n**Interpretation:** a theory of \"art in general\" is not what Destrée says this treatise is. It is a treatise on poetry, and the half we have is tragedy. Using it as a constitution for all arts, including arts that did not exist, overreads a partial school text.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Aristotle's Aesthetics",
+      "url": "https://plato.stanford.edu/entries/aristotle-aesthetics/",
+      "author": "Pierre Destrée",
+      "date": "2021",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Pierre Destrée",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.arts.depiction"
+  ],
+  "read_time_min": 1
+}

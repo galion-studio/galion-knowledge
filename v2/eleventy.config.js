@@ -49,7 +49,15 @@ module.exports = function (eleventyConfig) {
   );
   eleventyConfig.addFilter("relatedTo", (cards, card) => {
     const ids = new Set((card && card.related) || []);
-    return (cards || []).filter((item) => ids.has(item.id));
+    const real = (cards || []).filter((item) => item && !item._placeholder);
+    const found = [];
+    for (const id of ids) {
+      const direct = real.find((item) => item.id === id);
+      const via = real.find((item) => (item.aliases || []).includes(id));
+      const hit = direct || via;
+      if (hit && !found.includes(hit) && hit.id !== (card && card.id)) found.push(hit);
+    }
+    return found;
   });
   eleventyConfig.addFilter("categoryOf", (id, catalog) => {
     const found = (catalog.categories || []).find((category) => category.id === id);

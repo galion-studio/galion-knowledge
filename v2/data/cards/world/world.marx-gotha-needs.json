@@ -1,0 +1,47 @@
+{
+  "id": "world.marx-gotha-needs",
+  "title": "Marx's 'from each according to his ability' line is in the Gotha critique",
+  "section": "world",
+  "category": "economics",
+  "summary": "The sentence is from the 1875 Critique of the Gotha Programme, not from the 1848 Manifesto.",
+  "body": "The Marxists Internet Archive transcription of Karl Marx's Critique of the Gotha Programme includes the sentence that society should inscribe on its banners: from each according to his ability, to each according to his needs. Marx is describing a later stage of communism, after other conditions he lists, not a present policy. The v1 socialism article places the sentence under core principles without the stage or the book. The Communist Manifesto is a different, earlier text. Both are on the archive and the Manifesto is also on Wikisource.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Critique of the Gotha Programme, part I",
+      "url": "https://www.marxists.org/archive/marx/works/1875/gotha/ch01.htm",
+      "author": "Karl Marx",
+      "date": "1875",
+      "accessed": "2026-11-18",
+      "note": "Transcription at the Marxists Internet Archive."
+    },
+    {
+      "title": "Manifesto of the Communist Party",
+      "url": "https://en.wikisource.org/wiki/Manifesto_of_the_Communist_Party",
+      "author": "Karl Marx and Friedrich Engels",
+      "date": "1848",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Karl Marx",
+  "as_of_date": "1875",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.communist-manifesto-1848",
+    "world.capitalism-not-one-definition"
+  ],
+  "tags": [
+    "economics",
+    "marx",
+    "socialism"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "28",
+    "v1_slug": "socialism",
+    "v1_category": "society",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

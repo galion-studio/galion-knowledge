@@ -22,7 +22,20 @@ npm install
 npm run build
 ```
 
-Output is `v2/_site/`. `npm run dev` serves it on port 3016.
+Output is `v2/_site/`. `npm run dev` previews it on port 3016.
+
+### Deploy
+
+The built site replaces the Next.js app on the server. Point the existing static file server at `v2/_site/` and serve it on `127.0.0.1:3015`. Do not run `next start` for V2.
+
+If that host has no static server yet, the stdlib script is enough:
+
+```bash
+cd v2 && npm run build
+python3 serve.py
+```
+
+`serve.py` only uses the Python standard library. It binds `127.0.0.1:3015` and serves `v2/_site/`. Prefer the server’s own static file server when one is already there.
 
 ### Knowledge rules
 

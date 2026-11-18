@@ -1,0 +1,21 @@
+{
+  "id": "world.law.natural-rights",
+  "title": "Natural Rights",
+  "section": "world",
+  "category": "law",
+  "summary": "Natural rights are rights that are believed to be inherent to all human beings, regardless of laws, customs, or governments. Rights we have simply by being human Not granted by governments",
+  "body": "# Natural Rights\n\nNatural rights are rights that are believed to be inherent to all human beings, regardless of laws, customs, or governments.\n\n## Core Concept\n\n### Definition\n- Rights we have simply by being human\n- Not granted by governments\n- Cannot be legitimately taken away\n- Universal and inalienable\n\n### vs. Legal Rights\n- Legal rights: granted by law, can be revoked\n- Natural rights: pre-political, inherent\n- Government should protect, not grant\n- Basis for judging laws\n\n## Historical Development\n\n### Ancient Roots\n- Greek concept of natural law\n- Stoic universal reason\n- Roman \"ius naturale\"\n- Medieval natural law tradition\n\n### John Locke (1632-1704)\nKey natural rights:\n- **Life**: Right to self-preservation\n- **Liberty**: Freedom from arbitrary control\n- **Property**: Right to fruits of one's labor\n\nGovernment exists to protect these rights. When it fails, revolution is justified.\n\n### Influence on Founding Documents\n\n**Declaration of Independence (1776)**\n\"We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.\"\n\n**French Declaration (1789)**\n\"Men are born and remain free and equal in rights.\"\n\n## Philosophical Debates\n\n### Are Rights Really \"Natural\"?\n- Where do they come from?\n- Can there be rights without God?\n- Are they just social conventions?\n- Naturalistic fallacy concerns\n\n### Which Rights Are Natural?\n- Life, liberty, property (Locke)\n- Pursuit of happiness (Jefferson)\n- Economic rights?\n- Welfare rights?\n\n### Conflicts Between Rights\n- Your liberty vs. my property\n- Free speech vs. harm prevention\n- How to adjudicate conflicts?\n\n## Modern Relevance\n\n- Foundation of human rights\n- Constitutional interpretation\n- Limits on government power\n- International law basis\n- Civil liberties debates",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.law.human-rights-declaration",
+    "world.philosophy.social-contract",
+    "world.society.democracy"
+  ],
+  "read_time_min": 1
+}

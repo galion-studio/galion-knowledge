@@ -1,0 +1,38 @@
+{
+  "id": "world.wilkins-1953",
+  "title": "Wilkins, Stokes, and Wilson's 1953 DNA paper",
+  "section": "world",
+  "category": "biology",
+  "summary": "The third Nature paper in that issue is by Wilkins, Stokes, and Wilson, not a paper on mucin.",
+  "body": "M. H. F. Wilkins, A. R. Stokes, and H. R. Wilson, \"Molecular Structure of Deoxypentose Nucleic Acids\" (Nature, 25 April 1953, DOI 10.1038/171738a0), is the third DNA structure paper in that issue. A nearby DOI, 10.1038/171750a0, is a different article (\"Mucin Secretion in the Ewe's Oviduct\") and must not be cited as a DNA paper. Wilkins shared the 1962 Nobel with Watson and Crick.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Molecular Structure of Deoxypentose Nucleic Acids",
+      "url": "https://doi.org/10.1038/171738a0",
+      "author": "M. H. F. Wilkins, A. R. Stokes, and H. R. Wilson",
+      "date": "1953-04-25",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Maurice Wilkins, A. R. Stokes, and H. R. Wilson",
+  "as_of_date": "1953-04-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.watson-crick-1953",
+    "world.franklin-gosling-1953"
+  ],
+  "tags": [
+    "biology",
+    "dna"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "8",
+    "v1_slug": "dna-genetics",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}
