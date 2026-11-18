@@ -58,7 +58,7 @@ Re-ingesting the same `id` replaces the row and clears a mark.
 
 ## Consent
 
-Consent is given by use; there is no withdrawal command. GDPR erasure requests, if needed, are a separate manual admin path (open question).
+Consent is given by use; there is no withdrawal command. If you don't agree, don't use it.
 
 `forget --id` and `forget --mark` are admin tools. They are not a withdrawal flow.
 
@@ -125,4 +125,3 @@ Debug `cargo test` is not this table. Debug is slower, and the tests do not asse
 5. **Decay.** No strength, no time decay, no simhash merge. R3 wants those as a background job with an owner-set exponent. Not built.
 6. **CJK.** Tokens are alphanumeric runs. A string of CJK with no spaces is one token. `openmind-memory` splits those into n-grams. This crate does not.
 7. **Core pinning.** R1 and R4 disagree with the voice plan about which core runs retrieval, and both say it must not run inside the heartbeat. This crate does not pin a core.
-8. **GDPR erasure.** Consent is given by use; there is no withdrawal command. GDPR erasure requests, if needed, are a separate manual admin path (open question). `forget --id` can archive one known row. It is an admin tool, not that path.
