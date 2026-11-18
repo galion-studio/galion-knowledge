@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.udhr-article-29",
+  "title": "Universal Declaration, Article 29: the rights sit next to duties and legal limits",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "Everyone has duties to the community. Limits on the rights must be set by law, for the rights of others and for morality, public order, and the general welfare in a democratic society.",
+  "body": "Article 29 of the Universal Declaration, on the United Nations text page, has three parts. Everyone has duties to the community in which alone the free and full development of their personality is possible. In the exercise of rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order, and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations. Article 30 says nothing in the declaration may be interpreted as implying for any state, group, or person any right to engage in any activity aimed at the destruction of the rights and freedoms set out in it. A reading of the declaration that quotes only the liberties and drops Article 29 is not the whole text that was opened.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Universal Declaration of Human Rights",
+      "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+      "author": "United Nations General Assembly",
+      "date": "1948-12-10",
+      "accessed": "2026-11-18",
+      "note": "Text page opened 2026-11-18. Resolution 217 A, proclaimed in Paris on 10 December 1948."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United Nations General Assembly",
+  "as_of_date": "1948-12-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.udhr-article-19",
+    "history-primary-documents.un-charter-force"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "human-rights"
+  ]
+}

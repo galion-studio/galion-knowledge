@@ -1,6 +1,6 @@
 # Truth gate
 
-Every card under `v2/data/cards/` has to pass `v2/tools/truth-gate` before it is published. The gate checks the card. It does not author the card. It does not invent a source, raise an evidence label, or delete a file.
+Every card under `v2/data/cards/` and every seeded card under `v2/shards/<id>/cards/` has to pass `v2/tools/truth-gate` before it is published. The gate checks the card. It does not author the card. It does not invent a source, raise an evidence label, or delete a file. `shard.json` and `manifest.json` are not cards. A shard directory with no `cards/` folder is a catalog entry and is skipped.
 
 The machine report for the current pack is [truth-gate-report.json](truth-gate-report.json) and [truth-gate-report.md](truth-gate-report.md). How a card is challenged after publication is [REVIEW_POLICY.md](REVIEW_POLICY.md).
 
@@ -9,6 +9,7 @@ Run it from the repository root. Rust 1.85 or newer:
 ```bash
 cargo run --manifest-path v2/tools/truth-gate/Cargo.toml -- \
   --cards v2/data/cards \
+  --shards v2/shards \
   --schema v2/data/schema.json \
   --catalog v2/data/catalog.json \
   --config v2/tools/truth-gate/truth-gate.toml
@@ -16,7 +17,7 @@ cargo run --manifest-path v2/tools/truth-gate/Cargo.toml -- \
 
 Exit 0 means no hard failure. Warnings remain in the report. `--check-urls` is off unless you pass it, so the default run and CI stay offline. A live check that fails is a warning. A host that refuses the request is not proof the source is false.
 
-CI is `.github/workflows/v2-truth-gate.yml`. It tests the gate, runs it, refuses a pull request that deletes a file under `v2/data/cards/`, and runs `npm run build` in `v2/`.
+CI is `.github/workflows/v2-truth-gate.yml`. It tests the gate, runs it on `v2/data/cards` and `v2/shards`, refuses a pull request that deletes a card file under either tree, and runs `npm run build` in `v2/`.
 
 ## Checks
 

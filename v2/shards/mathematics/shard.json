@@ -1,0 +1,39 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "mathematics",
+  "title": "Mathematics",
+  "scope": "Definitions, theorems with their hypotheses, and integer sequences. A proof is not a slogan.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "mathematics",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The core has a few results. The rest of mathematics is loaded when the question is a proof or a sequence.",
+  "keywords": [
+    "theorem",
+    "proof",
+    "sequence",
+    "prime",
+    "geometry"
+  ],
+  "primary_sources": [
+    {
+      "title": "On-Line Encyclopedia of Integer Sequences",
+      "url": "https://oeis.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "arXiv",
+      "url": "https://arxiv.org/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

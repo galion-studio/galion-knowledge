@@ -1,0 +1,41 @@
+{
+  "id": "world.chemistry.56fe-abundance",
+  "title": "IAEA Live Chart: 56Fe is listed stable, abundance 91.754",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The Live Chart ground-state row for 56Fe says STABLE and lists abundance 91.754.",
+  "body": "The IAEA Live Chart ground-state row for 56Fe (Z=26, N=30), extracted 2026-11-18, lists the half-life field as STABLE and the abundance field as 91.754 with unc_a 0.106. The row's ENSDF publication cut-off field is 29-Oct-2009. Abundance here is the column in that row, not a new assay.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "IAEA Live Chart ground state 56Fe",
+      "url": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=56Fe",
+      "author": "International Atomic Energy Agency, Live Chart of Nuclides",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "CSV row extracted 2026-11-18. ENSDF cut-off field: 29-Oct-2009."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "IAEA Live Chart / ENSDF",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "isotope",
+    "56Fe"
+  ],
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "Truth gate ceiling. The only source host is iaea.org, class other, whose ceiling is weak. The Live Chart row was not changed and no source was added."
+    }
+  ]
+}

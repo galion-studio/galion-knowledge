@@ -1,0 +1,50 @@
+{
+  "id": "first-aid.burns-sja",
+  "title": "St John Ambulance: cool a burn under running water for at least 20 minutes",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "The burns page says at least 20 minutes of cool running water, no ice, creams, or gels, and do not break blisters. WHO's fact sheet treats the best duration as uncertain.",
+  "body": "St John Ambulance's burns and scalds page says to start cooling as quickly as possible, under cool running water for at least 20 minutes or until the pain feels better. If there is no water, it says you could use cold milk or canned drinks. Remove jewellery and clothing unless it is stuck, before the area swells. After cooling, cover loosely with cling film laid lengthways, not wrapped around, because the area needs room to swell. A clean plastic bag can cover a burned hand or foot. Do not use ice, creams, or gels. Do not break blisters. Then monitor the person and seek medical advice.\n\nThe World Health Organization's burns fact sheet, opened the same day, says cool a thermal burn promptly with cool running water, and that approximately 20 minutes is commonly advised for smaller burns where that can be done safely. It also says the best duration of cooling remains subject to uncertainty in comparative evidence, although immediate running-water cooling is widely recommended, and that advice should be adapted to the size of the burn and the risk of hypothermia. WHO says do not apply ice, oils, butter, toothpaste, traditional pastes, or other household substances, do not pull off stuck clothing, and do not deliberately break blisters. The two pages agree on prompt running water and on not using ice. They do not agree that a single duration is settled. St John Ambulance states a minimum. WHO says the duration is commonly advised and still uncertain.\n",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Burns and scalds",
+      "url": "https://www.sja.org.uk/first-aid-advice/burns-and-scalds/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    },
+    {
+      "title": "Burns",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/burns",
+      "author": "World Health Organization",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Fact sheet opened 2026-11-18. WHO cites Griffin and colleagues, 2022, on 20 minutes of cool running water, and says the best duration remains uncertain."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "St John Ambulance; World Health Organization",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "St John Ambulance",
+      "summary": "Cool under running water for at least 20 minutes, or until the pain feels better. Do not use ice, creams, or gels.",
+      "status": "Instruction on the burns and scalds page opened 2026-11-18."
+    },
+    {
+      "label": "World Health Organization",
+      "summary": "Approximately 20 minutes is commonly advised for smaller burns. The best duration remains subject to uncertainty in comparative evidence. Do not use ice or household substances.",
+      "status": "Burns fact sheet opened 2026-11-18."
+    }
+  ],
+  "related": [
+    "first-aid.chemical-burn"
+  ],
+  "tags": [
+    "first-aid",
+    "burns"
+  ]
+}

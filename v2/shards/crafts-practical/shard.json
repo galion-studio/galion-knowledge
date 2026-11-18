@@ -1,0 +1,40 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "crafts-practical",
+  "title": "Crafts and practical skills",
+  "scope": "Making and repairing, from manuals and from recorded practice. Load it when someone is actually doing the work.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "crafts-practical",
+  "priority": "high",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "A workshop manual is useless until the tool is in the hand, and the manuals are long.",
+  "keywords": [
+    "tool",
+    "repair",
+    "joinery",
+    "textile",
+    "cookery",
+    "manual"
+  ],
+  "primary_sources": [
+    {
+      "title": "Internet Archive",
+      "url": "https://archive.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "International Society of Ethnobiology",
+      "url": "https://www.ethnobiology.net/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

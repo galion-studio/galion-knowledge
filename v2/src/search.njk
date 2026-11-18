@@ -5,7 +5,7 @@ description: Search Galion Knowledge cards.
 permalink: search/index.html
 ---
 {% from "icon.njk" import icon with context %}
-{% set pack = cards | real %}
+{% set pack = library %}
 <header class="subhead">
   <div class="subhead-inner">
     <div class="subhead-left">
@@ -46,5 +46,5 @@ permalink: search/index.html
     </noscript>
   </div>
 </div>
-<script id="search-data" type="application/json">{{ cards | searchIndex | json | safe }}</script>
+<script id="search-data" type="application/json">{{ library | searchIndex | json | safe }}</script>
 <script id="catalog-data" type="application/json">{{ allCategories | json | safe }}</script>

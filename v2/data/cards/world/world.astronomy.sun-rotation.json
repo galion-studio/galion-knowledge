@@ -1,0 +1,32 @@
+{
+  "id": "world.astronomy.sun-rotation",
+  "title": "NASA's Sun fact sheet lists a sidereal rotation period of 609.12 hours",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet lists the Sun's sidereal rotation period as 609.12 hours.",
+  "body": "NASA's Sun fact sheet lists a sidereal rotation period of 609.12 hours. The row carries an asterisk on the label. This card does not expand that footnote. The period is the sheet's printed figure for the Sun, not a claim that every latitude rotates in the same time.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sun Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-05-09",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-05-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.sun-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "sun"
+  ],
+  "read_time_min": 1
+}

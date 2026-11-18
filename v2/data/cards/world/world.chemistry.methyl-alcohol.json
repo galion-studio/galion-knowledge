@@ -1,0 +1,32 @@
+{
+  "id": "world.chemistry.methyl-alcohol",
+  "title": "NIST WebBook: Methyl Alcohol is CH4O, molecular weight 32.0419 amu",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The NIST Chemistry WebBook lists Methyl Alcohol as CH4O, molecular weight 32.0419 amu, CAS 67-56-1.",
+  "body": "The NIST Chemistry WebBook entry for Methyl Alcohol, CAS Registry Number 67-56-1, lists molecular formula CH4O and molecular weight 32.0419 amu. The same entry's monoisotopic molecular weight is 32.0262147 amu. The IUPAC InChI on the entry is InChI=1S/CH4O/c1-2/h2H,1H3. The molecular weight and the monoisotopic mass are two different fields. This card reports the catalog entry. It does not convert either field into a molar mass in grams, and it does not say that every real sample has that weight.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Methyl Alcohol, NIST Chemistry WebBook SRD 69",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C67561&Units=SI",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "JSON-LD MolecularEntity and the CAS line on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "webbook",
+    "CH4O"
+  ],
+  "read_time_min": 1
+}

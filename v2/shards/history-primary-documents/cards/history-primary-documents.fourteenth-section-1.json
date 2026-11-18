@@ -1,0 +1,33 @@
+{
+  "id": "history-primary-documents.fourteenth-section-1",
+  "title": "The Fourteenth Amendment's Section 1 defines citizenship and states equal protection",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "All persons born or naturalised in the United States and subject to its jurisdiction are citizens. No state shall deprive any person of life, liberty, or property without due process, or deny equal protection.",
+  "body": "The National Archives milestone page prints Section 1 of the Fourteenth Amendment. All persons born or naturalised in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the state wherein they reside. No state shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States. Nor shall any state deprive any person of life, liberty, or property, without due process of law, nor deny to any person within its jurisdiction the equal protection of the laws. The due-process and equal-protection clauses in this section are addressed to the states, in the grammar of the sentence. The page's essay says the right to due process and equal protection now applied to both the federal and state governments. That sentence is the essay's, not a clause of Section 1. The essay is the Archives' reading. Section 1 is the amendment.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "14th Amendment to the U.S. Constitution: Civil Rights (1868)",
+      "url": "https://www.archives.gov/milestone-documents/14th-amendment",
+      "author": "U.S. National Archives",
+      "date": "1868",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Congress and the ratifying states",
+  "as_of_date": "1868",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.fourteenth-section-2",
+    "history-primary-documents.brown-holding",
+    "history-primary-documents.fifteenth"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states"
+  ]
+}

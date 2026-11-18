@@ -1,0 +1,33 @@
+{
+  "id": "first-aid.unconscious-medlineplus",
+  "title": "MedlinePlus: an unconscious person does not respond to noise or shaking",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "The National Library of Medicine page says to call 911, check airway, breathing, and pulse, and roll a breathing person onto their side if you do not suspect a spinal injury.",
+  "body": "MedlinePlus, from the U.S. National Library of Medicine, says being asleep is not the same as being unconscious: a sleeping person responds to a loud noise or a gentle shake, and an unconscious person does not. If someone is unconscious or their mental status has changed, call 911 or the local emergency number. Check airway, breathing, and pulse often, and begin CPR if necessary. If the person is breathing and lying on their back, and you do not think there is a spinal injury, roll them toward you onto their side, bend the top leg so the hip and knee are at right angles, and tilt the head back to keep the airway open. If breathing or pulse stops, roll them onto their back and begin CPR. If you think there is a spinal injury, leave them where they are as long as breathing continues. If they vomit, roll the whole body at once onto the side, supporting neck and back so the head and body move together. The emergency number on this page is 911, the United States number, not 999.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Unconsciousness - first aid",
+      "url": "https://medlineplus.gov/ency/article/000022.htm",
+      "author": "National Library of Medicine, MedlinePlus",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Library of Medicine",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.recovery-position",
+    "first-aid.uk-numbers",
+    "first-aid.spinal"
+  ],
+  "tags": [
+    "first-aid",
+    "unconscious"
+  ]
+}

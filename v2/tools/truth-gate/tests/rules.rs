@@ -450,6 +450,7 @@ fn the_published_pack_has_no_hard_failures() {
     let root = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../..");
     let report = run(&Options {
         cards_dir: root.join("data/cards"),
+        shards_dir: Some(root.join("shards")),
         schema_path: root.join("data/schema.json"),
         config_path: PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("truth-gate.toml"),
         catalog_path: Some(root.join("data/catalog.json")),

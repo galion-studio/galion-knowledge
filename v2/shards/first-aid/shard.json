@@ -1,0 +1,61 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "first-aid",
+  "title": "Practical health and first aid",
+  "scope": "Immediate care: what a named service says to do, the emergency number that service prints, and the limits it states. United Kingdom steps from St John Ambulance are not treated as United States steps from CDC or MedlinePlus. Doses stay with the page that stated them.",
+  "version": "1",
+  "card_count": 57,
+  "sha256": "08ee4e952b28c493fe67b7917ac1823fc56d316550fe2e909ddf6167097582c4",
+  "bytes": 132667,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "first-aid",
+  "priority": "high",
+  "status": "seeded",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The core pack keeps mechanisms, such as what a vaccine does. Step-by-step care, local emergency numbers, and product doses are deeper, they are revised, and a device that is not in that situation should not carry them.",
+  "keywords": [
+    "first aid",
+    "cpr",
+    "bleeding",
+    "burn",
+    "choking",
+    "stroke",
+    "heart attack",
+    "poison",
+    "heat",
+    "hypothermia",
+    "anaphylaxis",
+    "seizure"
+  ],
+  "primary_sources": [
+    {
+      "title": "St John Ambulance first aid advice",
+      "url": "https://www.sja.org.uk/first-aid-advice/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "CDC",
+      "url": "https://www.cdc.gov/index.html",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "WHO fact sheets",
+      "url": "https://www.who.int/news-room/fact-sheets",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "MedlinePlus",
+      "url": "https://medlineplus.gov/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "988 Suicide & Crisis Lifeline, SAMHSA",
+      "url": "https://www.samhsa.gov/mental-health/988",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

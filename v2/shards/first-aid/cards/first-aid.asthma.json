@@ -1,0 +1,40 @@
+{
+  "id": "first-aid.asthma",
+  "title": "St John Ambulance: an asthma attack uses the person's own reliever inhaler, not a MART plan",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Sit them down. If there is no inhaler, call 999 or 112. A severe attack is one puff every 30 to 60 seconds, up to 10 puffs. The page excludes MART plans.",
+  "body": "St John Ambulance's asthma-attack page says to reassure the person and ask them to take their usual dose of their reliever inhaler, usually blue, and to breathe slowly and deeply. A spacer makes the inhaler more effective, especially for young children. If they have no inhaler, call 999 or 112. Sit them down. A mild attack normally eases in a few minutes. If it does not, it may be severe: one puff every 30 to 60 seconds, up to 10 puffs. Call 999 or 112 if the attack is severe and they are getting worse or exhausted, or if this is their first attack. If the ambulance has not arrived in 10 minutes and you already called, repeat the 10-puff step. If they become unresponsive, prepare to give CPR. If they improve and you did not need to call, the page says they should get an urgent same-day appointment with a GP or asthma nurse.\n\nThe page states an important limit: this information is not for patients on a Maintenance and Reliever Therapy (MART) plan. It does not, in the extract used here, finish the description of which inhalers that includes. This card does not fill that in.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Asthma attack",
+      "url": "https://www.sja.org.uk/first-aid-advice/asthma-attack/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.breathing-difficulty"
+  ],
+  "tags": [
+    "first-aid",
+    "asthma"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

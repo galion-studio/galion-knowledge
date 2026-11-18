@@ -1,0 +1,31 @@
+{
+  "id": "first-aid.cholera",
+  "title": "WHO: most cholera is treated with ORS, and mass antibiotic prevention is not recommended",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Severe cholera needs intravenous fluids, ORS, and antibiotics. WHO says giving antibiotics to a whole community to prevent cholera has no proven effect on spread and can drive resistance.",
+  "body": "The World Health Organization's cholera fact sheet says most people with cholera have mild or moderate diarrhoea and can be treated with oral rehydration solution. The disease can progress rapidly, so starting treatment quickly is vital. Patients with severe disease need intravenous fluids, ORS, and antibiotics. Another sentence on the same page says most people have no or mild symptoms and can be treated with oral rehydration solution, and that severe cases need intravenous fluids, oral rehydration solution, and antibiotics. Both sentences were on the page. They are not identical. This card does not collapse them into a single milder claim.\n\nThe same sheet says community access to ORS is essential during an outbreak. Mass administration of antibiotics to prevent cholera, which it calls chemoprophylaxis, is not recommended. It says that practice has no proven effect on the spread of cholera and may contribute to antimicrobial resistance. Handwashing with soap, safe food and water, and safe disposal of faeces are the protective practices the page names. It also says funeral practices for people who die from cholera may need to be adapted to prevent infection among attendees. That is WHO's statement about funerals. It does not specify a ritual.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Cholera",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/cholera",
+      "author": "World Health Organization",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Fact sheet opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.diarrhoea-who"
+  ],
+  "tags": [
+    "first-aid",
+    "cholera"
+  ]
+}

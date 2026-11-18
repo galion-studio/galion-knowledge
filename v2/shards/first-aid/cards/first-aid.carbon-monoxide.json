@@ -1,0 +1,31 @@
+{
+  "id": "first-aid.carbon-monoxide",
+  "title": "CDC: carbon monoxide is odorless and colorless, and a generator stays more than 20 feet from the house",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Symptoms are often flu-like: headache, dizziness, weakness, upset stomach, vomiting, chest pain, confusion. People who are asleep can die before symptoms wake them. Never run a generator indoors.",
+  "body": "The CDC carbon-monoxide page opened on 2026-11-18 says carbon monoxide is an odorless, colorless gas that can cause sudden illness and death. It says the gas claims the lives of hundreds of people every year and makes thousands more ill. Household sources it names include gas- and oil-burning furnaces, portable generators, and charcoal grills. The most common symptoms are headache, dizziness, weakness, upset stomach, vomiting, chest pain, and confusion. Symptoms are often described as flu-like. Breathing a lot of it can make you pass out or kill you. People who are sleeping, drunk, or under the influence of other substances can die before they have symptoms.\n\nInstall a battery-operated or battery-backup detector near every sleeping area. Check batteries when you change the clocks in spring and fall. Consider a detector with a digital readout. Replace the detector according to the manufacturer or every 5 years. An odor from a gas refrigerator can mean it could be leaking carbon monoxide, and the page says to have an expert service it. The page also says carbon monoxide itself is odorless, so that refrigerator odor is not the gas being smelled as carbon monoxide. It is a separate warning about the appliance.\n\nNever use a generator inside a home or garage, even with doors and windows open. Use it outside, more than 20 feet from windows, doors, and vents. Use a battery carbon-monoxide detector in the home while a generator is running.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Carbon Monoxide (CO) Poisoning Basics",
+      "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+      "author": "U.S. Centers for Disease Control and Prevention",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Centers for Disease Control and Prevention",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.poisoning"
+  ],
+  "tags": [
+    "first-aid",
+    "carbon-monoxide"
+  ]
+}

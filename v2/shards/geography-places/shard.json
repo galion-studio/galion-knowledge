@@ -1,0 +1,38 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "geography-places",
+  "title": "Places",
+  "scope": "Gazetteer names and coordinates. A place name is a record, not a claim about the people who live there.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "geography-places",
+  "priority": "low",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "A gazetteer is a database. The core keeps the ideas of maps and of population, not every town.",
+  "keywords": [
+    "gazetteer",
+    "coordinate",
+    "place name",
+    "border"
+  ],
+  "primary_sources": [
+    {
+      "title": "GeoNames",
+      "url": "https://www.geonames.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "U.S. Geological Survey",
+      "url": "https://www.usgs.gov/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

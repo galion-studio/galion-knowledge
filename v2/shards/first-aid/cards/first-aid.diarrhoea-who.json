@@ -1,0 +1,32 @@
+{
+  "id": "first-aid.diarrhoea-who",
+  "title": "WHO: treat diarrhoeal disease with oral rehydration solution, plus zinc for 10 to 14 days",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "WHO describes ORS as clean water, sugar, and salt. It also says a 10 to 14 day course of dispersible zinc shortens the episode. Severe dehydration needs intravenous fluids.",
+  "body": "The World Health Organization's diarrhoeal-disease fact sheet says diarrhoea should be treated with oral rehydration solution, a solution of clean water, sugar, and salt. It says a supplemental course of dispersible zinc tablets for 10 to 14 days shortens diarrhoea duration and improves outcomes. In the key-measures section it says ORS is absorbed in the small intestine and replaces water and electrolytes lost in the faeces, and that zinc supplements reduce the duration of an episode by 25 percent and are associated with a 30 percent reduction in stool volume. Severe dehydration or shock is rehydrated with intravenous fluids. Continue nutrient-rich foods, including breast milk, during the episode. Consult a health professional in particular for persistent diarrhoea, blood in the stool, or signs of dehydration. The sheet does not, in the text used here, print a gram recipe for homemade ORS. The phrase \"clean water, sugar, and salt\" is the description it gives. A packet's instructions, where a packet is what you have, are the dose.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Diarrhoeal disease",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+      "author": "World Health Organization",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Fact sheet opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.dehydration",
+    "first-aid.cholera"
+  ],
+  "tags": [
+    "first-aid",
+    "diarrhoea"
+  ]
+}

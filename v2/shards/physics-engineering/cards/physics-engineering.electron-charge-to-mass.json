@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.electron-charge-to-mass",
+  "title": "CODATA 2022: the electron charge-to-mass quotient is −1.758 820 008 38 × 10¹¹ C/kg",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 000 000 55 × 10¹¹ C/kg. The sign is negative because the electron's charge is negative.",
+  "body": "The NIST 2022 listing prints 'electron charge to mass quotient −1.758 820 008 38 e11' with standard uncertainty '0.000 000 000 55 e11', unit C kg⁻¹. It also prints 'electron gyromag. ratio in MHz/T 28 024.951 3861' with standard uncertainty '0.000 0087' MHz T⁻¹. Both are derived from the electron's charge and mass in this adjustment. Neither is marked exact.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are from lines printed in full."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.electron-mass",
+    "physics-engineering.elementary-charge"
+  ],
+  "tags": [
+    "physics-engineering",
+    "particle"
+  ]
+}

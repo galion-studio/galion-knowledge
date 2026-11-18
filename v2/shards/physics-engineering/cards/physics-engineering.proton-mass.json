@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.proton-mass",
+  "title": "CODATA 2022: the proton mass is 1.672 621 925 95 × 10⁻²⁷ kg",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "In unified atomic mass units the listing gives 1.007 276 466 5789 u. The energy equivalent is 938.272 089 43 MeV.",
+  "body": "The NIST 2022 listing prints 'proton mass 1.672 621 925 95 e-27' kg, standard uncertainty '0.000 000 000 52 e-27' kg. 'proton mass in u 1.007 276 466 5789', standard uncertainty '0.000 000 000 0083' u. 'proton mass energy equivalent in MeV 938.272 089 43', standard uncertainty '0.000 000 29' MeV.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.neutron-mass",
+    "physics-engineering.electron-mass"
+  ],
+  "tags": [
+    "physics-engineering",
+    "particle"
+  ]
+}

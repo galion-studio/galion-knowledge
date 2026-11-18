@@ -1,0 +1,41 @@
+{
+  "id": "physics-engineering.boltzmann",
+  "title": "The Boltzmann constant is fixed at 1.380 649 × 10⁻²³ J/K",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "BIPM marks k exact and ties the revised kelvin to it.",
+  "body": "BIPM prints the Boltzmann constant k as 1.380 649 × 10⁻²³ J K⁻¹, with no uncertainty. The NIST 2022 listing prints the same number as exact, in J K⁻¹. BIPM's base-units page says the revised kelvin is based on this fixed value. The kelvin is the base unit of temperature. This card does not restate a laboratory realisation of the kelvin.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The International System of Units (SI): Defining constants",
+      "url": "https://www.bipm.org/en/measurement-units/si-defining-constants",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2018",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. BIPM dates the fixed values to the revision that took effect on 20 May 2019 and cites CGPM Resolution 1 (2018)."
+    },
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bureau International des Poids et Mesures; NIST CODATA 2022",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.si-seven-constants",
+    "physics-engineering.molar-gas-not-copied"
+  ],
+  "tags": [
+    "physics-engineering",
+    "si",
+    "temperature"
+  ]
+}

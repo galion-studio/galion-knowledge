@@ -24,6 +24,7 @@ jobs:
         run: >
           cargo run --locked --quiet --
           --cards ../../data/cards
+          --shards ../../shards
           --schema ../../data/schema.json
           --catalog ../../data/catalog.json
           --config truth-gate.toml
@@ -33,7 +34,7 @@ jobs:
       - name: Refuse deleted card files
         run: |
           git fetch origin master --depth=1
-          deleted=$(git diff --diff-filter=D --name-only origin/master...HEAD -- v2/data/cards)
+          deleted=$(git diff --diff-filter=D --name-only origin/master...HEAD -- v2/data/cards v2/shards | grep -E 'v2/data/cards/.*\.json$|v2/shards/.*/cards/.*\.json$' || true)
           if [ -n "$deleted" ]; then
             echo "Card files were deleted. Set status to archived and append history. Do not delete the file."
             printf '%s\n' "$deleted"

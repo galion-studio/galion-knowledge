@@ -1,0 +1,49 @@
+{
+  "id": "physics-engineering.what-exact-means",
+  "title": "In the CODATA listing, 'exact' means no standard uncertainty is carried",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "Defined constants and some conventional values are marked exact. Measured constants are printed with a standard uncertainty. The two marks are not the same kind of knowledge.",
+  "body": "The NIST 2022 complete listing uses the word 'exact' on some lines and a standard uncertainty on others. Lines marked exact in the portion copied for this shard include the speed of light, the Planck constant, the elementary charge, the Boltzmann constant, the Avogadro constant, standard gravity, the standard atmosphere, and standard-state pressure. Lines printed with a standard uncertainty include G, the fine-structure constant, the electron mass, and the vacuum permittivity. BIPM says the seven defining constants have no uncertainty because their numerical values are fixed by the definitions. Standard gravity and the two standard pressures are also marked exact in the NIST listing, but they are conventional reference values, not members of BIPM's list of seven defining constants. 'Exact' in the listing is a statement about the table. It is not, by itself, a statement that a laboratory can realise the unit with zero error. BIPM separates definitions, which are fixed, from realisations, which are experimental.\n",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    },
+    {
+      "title": "The International System of Units (SI): Defining constants",
+      "url": "https://www.bipm.org/en/measurement-units/si-defining-constants",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2018",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. BIPM dates the fixed values to the revision that took effect on 20 May 2019 and cites CGPM Resolution 1 (2018)."
+    },
+    {
+      "title": "The International System of Units (SI)",
+      "url": "https://www.bipm.org/en/measurement-units",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2019-05-20",
+      "accessed": "2026-11-18",
+      "note": "The SI page distinguishes definitions from realisations. Opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST CODATA 2022 listing; Bureau International des Poids et Mesures",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.si-seven-constants",
+    "physics-engineering.two-standard-pressures",
+    "physics-engineering.gravitational-constant"
+  ],
+  "tags": [
+    "physics-engineering",
+    "metrology"
+  ]
+}

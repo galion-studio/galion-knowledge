@@ -1,0 +1,32 @@
+{
+  "id": "world.chemistry.calcium-carbonate-precipitated",
+  "title": "NIST WebBook: Calcium carbonate (precipitated) is CCaO3, molecular weight 100.087 amu",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The NIST Chemistry WebBook lists Calcium carbonate (precipitated) as CCaO3, molecular weight 100.087 amu, CAS 471-34-1.",
+  "body": "The NIST Chemistry WebBook entry for Calcium carbonate (precipitated), CAS Registry Number 471-34-1, lists molecular formula CCaO3 and molecular weight 100.087 amu. The same entry's monoisotopic molecular weight is 99.9473348 amu. The IUPAC InChI on the entry is InChI=1S/CH2O3.Ca/c2-1(3)4;/h(H2,2,3,4);/q;+2/p-2. The molecular weight and the monoisotopic mass are two different fields. This card reports the catalog entry. It does not convert either field into a molar mass in grams, and it does not say that every real sample has that weight.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calcium carbonate (precipitated), NIST Chemistry WebBook SRD 69",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C471341&Units=SI",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "JSON-LD MolecularEntity and the CAS line on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "webbook",
+    "CCaO3"
+  ],
+  "read_time_min": 1
+}

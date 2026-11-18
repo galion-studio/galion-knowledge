@@ -1,0 +1,40 @@
+{
+  "id": "first-aid.tourniquet",
+  "title": "St John Ambulance limits tourniquets to catastrophic limb bleeding",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "The life-threatening-bleed page says most bleeding is managed with direct pressure. A tourniquet is for amputation, blast injury, or bleeding you cannot stop, and it will hurt.",
+  "body": "St John Ambulance's life-threatening-bleed page says a tourniquet may be used for catastrophic limb bleeding when severe damage has occurred, such as an amputation or a blast injury, and it may be needed for rapid control when the person or the helper is in danger and you must stop the bleeding before moving to safety. Other than those circumstances, the page says most bleeding is manageable with direct pressure. If direct pressure has been tried and severe bleeding continues, a tourniquet may be required. It says to consider that carefully, because a tourniquet is likely to be painful, and to tell the person that. If in doubt, ask ambulance control. The same page's steps for a haemostatic dressing are: call 999 or 112 immediately and follow ambulance control; place the pad and hold it tightly for a minimum of five minutes, packing it into the wound in some cases; secure it; and watch the person until the ambulance arrives.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Life-threatening bleed",
+      "url": "https://www.sja.org.uk/first-aid-advice/life-threatening-bleed/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.severe-bleeding"
+  ],
+  "tags": [
+    "first-aid",
+    "bleeding"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

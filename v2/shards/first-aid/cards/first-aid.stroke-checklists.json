@@ -1,0 +1,51 @@
+{
+  "id": "first-aid.stroke-checklists",
+  "title": "The stroke checklists opened here do not match",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "St John Ambulance prints FAST. CDC prints B.E. F.A.S.T., adding balance and vision. Both say call the local emergency number immediately.",
+  "body": "Two pages opened on 2026-11-18 teach a stroke check, and the checks are not the same list. St John Ambulance prints F, A, S, and T: face, arms, speech, and time to call 999 or 112. CDC prints B, E, F, A, S, and T: balance loss, eye or vision changes, then face, arms, speech, and time to call 9-1-1. Face, arm, and speech questions are similar. Balance and vision are on the CDC page and were not on the St John Ambulance stroke page that was opened. Neither page says the other is wrong. A helper who learned one list and is told the other list is the only list is being told more than either source said. What both pages do say is to call the emergency number they name, immediately, rather than to wait and see.\n",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Stroke",
+      "url": "https://www.sja.org.uk/first-aid-advice/stroke/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    },
+    {
+      "title": "Signs and Symptoms of Stroke",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+      "author": "U.S. Centers for Disease Control and Prevention",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "St John Ambulance; U.S. Centers for Disease Control and Prevention",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "St John Ambulance FAST",
+      "summary": "Face, arms, speech, then call 999 or 112. Do not give food or drink.",
+      "status": "Stroke page opened 2026-11-18."
+    },
+    {
+      "label": "CDC B.E. F.A.S.T.",
+      "summary": "Balance, eyes, face, arms, speech, then call 9-1-1. Note the time. Do not drive.",
+      "status": "CDC stroke page opened 2026-11-18."
+    }
+  ],
+  "related": [
+    "first-aid.stroke-sja",
+    "first-aid.stroke-cdc"
+  ],
+  "tags": [
+    "first-aid",
+    "stroke"
+  ]
+}

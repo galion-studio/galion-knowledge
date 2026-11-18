@@ -1,0 +1,31 @@
+{
+  "id": "physics-engineering.compton-and-classical-radius",
+  "title": "CODATA 2022: Compton wavelength and classical electron radius",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "Compton wavelength 2.426 310 235 38 × 10⁻¹² m. Classical electron radius 2.817 940 3205 × 10⁻¹⁵ m. Both have printed uncertainties.",
+  "body": "The NIST 2022 listing prints 'Compton wavelength 2.426 310 235 38 e-12' with standard uncertainty '0.000 000 000 76 e-12', in metres. It prints 'classical electron radius 2.817 940 3205 e-15' with standard uncertainty '0.000 000 0013 e-15', in metres. Both are derived quantities in the adjustment. Neither is marked exact.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.electron-mass"
+  ],
+  "tags": [
+    "physics-engineering",
+    "particle"
+  ]
+}

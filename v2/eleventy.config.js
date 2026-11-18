@@ -9,6 +9,7 @@ const markdown = new MarkdownIt({
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addWatchTarget("data/cards");
+  eleventyConfig.addWatchTarget("shards");
   eleventyConfig.addWatchTarget("data/catalog.json");
   eleventyConfig.addWatchTarget("data/schema.json");
 
@@ -46,6 +47,9 @@ module.exports = function (eleventyConfig) {
   );
   eleventyConfig.addFilter("inSection", (cards, id) =>
     (cards || []).filter((card) => !card._placeholder && card.section === id)
+  );
+  eleventyConfig.addFilter("inShard", (cards, id) =>
+    (cards || []).filter((card) => card && card.category === id)
   );
   eleventyConfig.addFilter("relatedTo", (cards, card) => {
     const ids = new Set((card && card.related) || []);

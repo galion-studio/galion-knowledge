@@ -1,0 +1,49 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "law-international",
+  "title": "International law",
+  "scope": "Treaties, the Statute of the International Court of Justice, and the law of armed conflict as the publishing bodies print it.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "law-international",
+  "priority": "high",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The core has a few instruments. The treaty collection is the depth, and most questions never touch it.",
+  "keywords": [
+    "treaty",
+    "charter",
+    "icj",
+    "geneva",
+    "international law"
+  ],
+  "primary_sources": [
+    {
+      "title": "United Nations Charter",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Statute of the International Court of Justice",
+      "url": "https://www.icj-cij.org/statute",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "United Nations Treaty Collection",
+      "url": "https://treaties.un.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "ICRC, Law and policy",
+      "url": "https://www.icrc.org/en/law-and-policy",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

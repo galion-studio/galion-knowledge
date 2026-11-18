@@ -1,0 +1,40 @@
+{
+  "id": "first-aid.sprains",
+  "title": "St John Ambulance's sprain page still teaches RICE, with ice for at most 20 minutes",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Rest, ice wrapped in a cloth, comfortable support, elevation. No aspirin under 16. This card reports that page. It does not claim the method is uncontested, because no contradicting guideline was opened for this shard.",
+  "body": "St John Ambulance's sprains and strains page, as opened on 2026-11-18, teaches RICE. Rest: sit or lie down and support the injured part, raised if possible. Ice: an ice pack or a bag of frozen vegetables wrapped in a tea towel, left on for a maximum of 20 minutes, to reduce swelling, pain, and bruising. Comfortable support: blankets, cushions, jackets, or soft padding, and a simple analgesic such as paracetamol or ibuprofen. Never give aspirin to under-16s. Elevate the part, for example on pillows, to limit swelling and bruising. After that, rest. If the pain is severe or they cannot move the part, seek medical advice.\n\nThis is what that page says. A different current guideline that rejects RICE was not opened while this shard was written. Inventing that other side would break the rule that a disagreement is recorded only when someone has actually stated it in a source that was opened. Until that source is opened, the honest status is: St John Ambulance's page teaches RICE with a 20-minute ice limit.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sprains and strains",
+      "url": "https://www.sja.org.uk/first-aid-advice/sprains-and-strains/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.fracture"
+  ],
+  "tags": [
+    "first-aid",
+    "sprains"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "moderate",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from moderate to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

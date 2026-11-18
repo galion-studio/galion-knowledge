@@ -1,0 +1,50 @@
+{
+  "id": "world.constants.kilogram-planck",
+  "title": "The kilogram is fixed by setting h to 6.62607015×10^−34 J s",
+  "section": "world",
+  "category": "measurement",
+  "summary": "NIST defines the kilogram by fixing the Planck constant at 6.62607015×10^−34 joule-seconds. The 2022 CODATA row marks that same value exact.",
+  "body": "NIST's kilogram page says the kilogram is defined by taking the fixed numerical value of the Planck constant h to be 6.62607015 × 10^{−34} when expressed in the unit J s, which the page equates to kg m^{2} s^{−1}, where the metre and the second are already defined. The BIPM table of defining constants prints h as 6.626 070 15 × 10^{−34} J s. The 2022 CODATA listing marks h exact. The digits are exact because the definition fixes them.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "SI Units - Mass",
+      "url": "https://www.nist.gov/pml/owm/si-units-mass",
+      "author": "National Institute of Standards and Technology",
+      "date": "2019-05-20",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "SI defining constants",
+      "url": "https://www.bipm.org/en/measurement-units/si-defining-constants",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "2022 CODATA complete listing",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Row: Planck constant, marked exact."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, BIPM, and the 2022 CODATA listing",
+  "as_of_date": "2019-05-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.si-2019",
+    "world.metre-speed-of-light",
+    "world.constants.reduced-planck"
+  ],
+  "tags": [
+    "core-pack",
+    "area:constants",
+    "si",
+    "kilogram"
+  ],
+  "read_time_min": 1
+}

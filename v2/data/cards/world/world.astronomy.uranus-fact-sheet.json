@@ -1,0 +1,33 @@
+{
+  "id": "world.astronomy.uranus-fact-sheet",
+  "title": "NASA's Uranus fact sheet: obliquity 97.77 degrees",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet lists Uranus's obliquity to orbit as 97.77 degrees, mass 86.811 × 10^24 kg, sidereal orbit 30,685.400 days, equatorial radius at the 1-bar level 25,559 km, and 28 natural satellites.",
+  "body": "The sheet lists Uranus's obliquity to orbit as 97.77 degrees, mass 86.811 × 10^24 kg, sidereal orbit 30,685.400 days, equatorial radius at the 1-bar level 25,559 km, and 28 natural satellites. It prints the sidereal rotation period as −17.24 hours with an asterisk, and this card does not expand that asterisk. It lists a planetary ring system as Yes. Author of the sheet: Dr. David R. Williams, NASA Goddard Space Flight Center. Last updated on the page: 2024-10-02.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Uranus Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-10-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-10-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.eight-planets",
+    "world.sun-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "uranus"
+  ],
+  "read_time_min": 1
+}

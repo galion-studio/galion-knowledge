@@ -1,0 +1,561 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "version": "1",
+  "immutable": true,
+  "note": "Add-on shards for the Base World Core Pack. Schema galion-shard-manifest/1 is the schema ScaleIndex writes in PR #3 (v2/memory/src/scale.rs on cursor/horbm-memory-stack-4552). The required fields match ShardManifest and ManifestFile. sha256 and bytes here are the card-bundle digest defined in v2/docs/SHARDS.md, payload card-bundle/1. They are not the sha256 of a SQLite file. ScaleIndex hashes core.sqlite and each FTS shard when it builds them. This repository does not invent that sqlite hash. depends_on is the core pack id. An add-on shard is an optional pack a device loads when the core has a gap. It is not the section/category FTS split ScaleIndex builds from cards it already has. Do not edit a shard file in place. Publish a new version.",
+  "core_pack": {
+    "id": "core",
+    "section": "core",
+    "category": "core",
+    "sha256": "350085320a2e6c1e69fb713e017a70aef7692544dad77b6f964fe911497f52bd",
+    "bytes": 1032887,
+    "payload": "card-bundle/1",
+    "card_count": 436
+  },
+  "shards": [
+    {
+      "id": "first-aid",
+      "section": "shards",
+      "category": "first-aid",
+      "sha256": "08ee4e952b28c493fe67b7917ac1823fc56d316550fe2e909ddf6167097582c4",
+      "bytes": 132667,
+      "title": "Practical health and first aid",
+      "scope": "Immediate care: what a named service says to do, the emergency number that service prints, and the limits it states. United Kingdom steps from St John Ambulance are not treated as United States steps from CDC or MedlinePlus. Doses stay with the page that stated them.",
+      "card_count": 57,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "high",
+      "status": "seeded",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "medicine-clinical",
+      "section": "shards",
+      "category": "medicine-clinical",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Clinical medicine",
+      "scope": "Disease descriptions, diagnostic criteria, and clinical guidelines beyond first aid. Not a formulary and not a procedure for making a drug.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "high",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "public-health",
+      "section": "shards",
+      "category": "public-health",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Public health",
+      "scope": "Population rates, vaccination programmes, sanitation, and outbreak reports. The numbers move.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "mental-health",
+      "section": "shards",
+      "category": "mental-health",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Mental health",
+      "scope": "What health agencies publish on mental disorders, and the crisis services they name. Not a diagnosis of the person in the room.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "pharmacy",
+      "section": "shards",
+      "category": "pharmacy",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Medicines lists",
+      "scope": "Essential-medicine lists and regulatory names. Not synthesis, not a dose invented for a person.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "law-international",
+      "section": "shards",
+      "category": "law-international",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "International law",
+      "scope": "Treaties, the Statute of the International Court of Justice, and the law of armed conflict as the publishing bodies print it.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "high",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "law-by-region",
+      "section": "shards",
+      "category": "law-by-region",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Law by region",
+      "scope": "Constitutions and statutes of a place, loaded for the jurisdiction the question is actually in. One country's code is not presented as the world's.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "high",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "history-primary-documents",
+      "section": "shards",
+      "category": "history-primary-documents",
+      "sha256": "17faf6b8d6e42100e7082f889c7904119420a03a3ccc444688fcfe18bec0b9c0",
+      "bytes": 107420,
+      "title": "History, primary documents",
+      "scope": "What a named document says: a clause, an article, a holding. The core says the document exists. This shard quotes it. A later political use of the sentence is kept only when a second opened source states that use.",
+      "card_count": 52,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "high",
+      "status": "seeded",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "history-ancient",
+      "section": "shards",
+      "category": "history-ancient",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "History, ancient",
+      "scope": "Ancient societies from their texts and from archaeology reports, not from a single textbook narrative.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "history-medieval",
+      "section": "shards",
+      "category": "history-medieval",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "History, medieval",
+      "scope": "Roughly the centuries between late antiquity and the sixteenth century, from charters and chronicles.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "history-early-modern",
+      "section": "shards",
+      "category": "history-early-modern",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "History, early modern",
+      "scope": "From the sixteenth century through the eighteenth, from state papers and printed books of the time.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "history-modern",
+      "section": "shards",
+      "category": "history-modern",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "History, 1800 to 1945",
+      "scope": "Industrial states, empires, and the two world wars, from the documents and the statistical series, with disagreements left standing.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "history-contemporary",
+      "section": "shards",
+      "category": "history-contemporary",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "History since 1945",
+      "scope": "The post-1945 record from treaties, official statistics, and court judgments. Not a running news summary.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "history-africa",
+      "section": "shards",
+      "category": "history-africa",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "History, Africa",
+      "scope": "African histories from archives and archaeology, regional rather than a single continental story.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "history-americas",
+      "section": "shards",
+      "category": "history-americas",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "History, the Americas",
+      "scope": "The continents' histories beyond the United States documents that the primary-documents shard already quotes.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "history-asia",
+      "section": "shards",
+      "category": "history-asia",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "History, Asia",
+      "scope": "Asian histories from their own archives and text collections, not from a European chronology with Asia added.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "history-europe",
+      "section": "shards",
+      "category": "history-europe",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "History, Europe",
+      "scope": "European history beyond the handful of charters and treaties in the core and in the primary-documents shard.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "history-oceania",
+      "section": "shards",
+      "category": "history-oceania",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "History, Oceania and the Pacific",
+      "scope": "Pacific and Australian histories from their archives and from archaeology.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "low",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "physics-engineering",
+      "section": "shards",
+      "category": "physics-engineering",
+      "sha256": "01c00bf1fcd7677930936d8340ee60e0a6707919bc1d75bb77ce67b9a2897e5c",
+      "bytes": 90341,
+      "title": "Physics and engineering",
+      "scope": "Defined constants, CODATA values with their uncertainties, and the conditions NASA Glenn states on the working equations. A number marked exact in a table is not reported as a measurement, and a truncated listing is not completed from memory.",
+      "card_count": 51,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "high",
+      "status": "seeded",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "chemistry",
+      "section": "shards",
+      "category": "chemistry",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Chemistry",
+      "scope": "Substances, evaluated data, and nomenclature. Not a procedure for making a harmful agent.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "high",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "astronomy",
+      "section": "shards",
+      "category": "astronomy",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Astronomy",
+      "scope": "Catalogues, ephemerides, and mission results. Positions change; the shard is the place for a dated number.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "earth-science",
+      "section": "shards",
+      "category": "earth-science",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Earth science",
+      "scope": "Geology, water, and the measured climate series. A map or a quake catalogue, not a slogan.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "biology-organisms",
+      "section": "shards",
+      "category": "biology-organisms",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Organisms and taxonomy",
+      "scope": "Names, ranks, and ranges of living things. Molecular mechanisms stay in the core.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "mathematics",
+      "section": "shards",
+      "category": "mathematics",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Mathematics",
+      "scope": "Definitions, theorems with their hypotheses, and integer sequences. A proof is not a slogan.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "languages",
+      "section": "shards",
+      "category": "languages",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Languages",
+      "scope": "Families, grammars, and texts. A language is not inferred from a person's name.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "high",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "agriculture",
+      "section": "shards",
+      "category": "agriculture",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Agriculture",
+      "scope": "Crops, livestock, soils, and food balance sheets from the agencies that publish them.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "high",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "crafts-practical",
+      "section": "shards",
+      "category": "crafts-practical",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Crafts and practical skills",
+      "scope": "Making and repairing, from manuals and from recorded practice. Load it when someone is actually doing the work.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "high",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "computing",
+      "section": "shards",
+      "category": "computing",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Computing",
+      "scope": "Protocols, architectures, and papers. Request for Comments are the text. A product announcement is not a standard.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "economics-data",
+      "section": "shards",
+      "category": "economics-data",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Economics, the measured series",
+      "scope": "National accounts, prices, and trade as the statistical offices publish them. A theory is labelled as a theory.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "religion-texts",
+      "section": "shards",
+      "category": "religion-texts",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Religious texts",
+      "scope": "Scriptures and the commentaries traditions actually use, with the tradition named. Disagreements stay side by side.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "arts-music",
+      "section": "shards",
+      "category": "arts-music",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Arts and music",
+      "scope": "Objects, scores, and the documents of making them. A museum's catalogue entry is the source, not a tour guide's mood.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "food-nutrition",
+      "section": "shards",
+      "category": "food-nutrition",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Food and nutrition",
+      "scope": "Composition tables and dietary guidance from the agencies that measure them. A diet for a named person is not in the shard.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "energy-climate-data",
+      "section": "shards",
+      "category": "energy-climate-data",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Energy and climate data",
+      "scope": "Generation, fuel, and the observational climate series. A policy preference is labelled as someone's policy.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "medium",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    },
+    {
+      "id": "geography-places",
+      "section": "shards",
+      "category": "geography-places",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "title": "Places",
+      "scope": "Gazetteer names and coordinates. A place name is a record, not a claim about the people who live there.",
+      "card_count": 0,
+      "depends_on": [
+        "core"
+      ],
+      "priority": "low",
+      "status": "catalog",
+      "payload": "card-bundle/1"
+    }
+  ]
+}

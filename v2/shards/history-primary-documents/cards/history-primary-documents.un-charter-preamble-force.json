@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.un-charter-preamble-force",
+  "title": "The UN Charter preamble says armed force is not to be used, save in the common interest",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The preamble pairs that limit with the decision to save succeeding generations from the scourge of war. Article 51 is a later article, not this line.",
+  "body": "The preamble of the Charter, on the United Nations full-text page, says the peoples of the United Nations are determined to save succeeding generations from the scourge of war, which twice in our lifetime has brought untold sorrow to mankind, and, among the other determinations, 'to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest.' The line is the preamble. Article 2's refrain-from-force paragraph and Article 51's self-defence paragraph are later articles on the same page. This card is the preamble's 'save in the common interest' line, not a harmonisation of the three.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "United Nations Charter (full text)",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "author": "United Nations",
+      "date": "1945",
+      "accessed": "2026-11-18",
+      "note": "Full text page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United Nations",
+  "as_of_date": "1945",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.un-charter-force",
+    "history-primary-documents.un-charter-article-51"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-nations"
+  ]
+}

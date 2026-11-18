@@ -1,0 +1,33 @@
+{
+  "id": "world.astronomy.saturn-fact-sheet",
+  "title": "NASA's Saturn fact sheet: mean density 687 kg/m^3 and 274 satellites",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet lists Saturn's mass as 568.32 × 10^24 kg, mean density 687 kg/m^3, equatorial radius at the 1-bar level 60,268 km, sidereal orbit 10,755.699 days, and 274 natural satellites.",
+  "body": "The sheet lists Saturn's mass as 568.32 × 10^24 kg, mean density 687 kg/m^3, equatorial radius at the 1-bar level 60,268 km, sidereal orbit 10,755.699 days, and 274 natural satellites. It lists a planetary ring system as Yes. Density below 1000 kg/m^3 is the sheet's figure for the planet as a whole. The satellite count is the count printed on this dated sheet. Author of the sheet: Dr. David R. Williams, NASA Goddard Space Flight Center. Last updated on the page: 2025-03-18.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Saturn Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2025-03-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2025-03-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.eight-planets",
+    "world.sun-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "saturn"
+  ],
+  "read_time_min": 1
+}

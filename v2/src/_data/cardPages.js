@@ -1,7 +1,8 @@
 const cards = require("./cards");
+const shardPack = require("./shardPack");
 
 const pages = [];
-for (const card of cards) {
+for (const card of [...cards, ...shardPack.cards]) {
   if (card._placeholder) {
     pages.push(card);
     continue;

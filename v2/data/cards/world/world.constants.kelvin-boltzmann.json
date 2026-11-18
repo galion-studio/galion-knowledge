@@ -1,0 +1,48 @@
+{
+  "id": "world.constants.kelvin-boltzmann",
+  "title": "The kelvin is fixed by setting k to 1.380649×10^−23 J/K",
+  "section": "world",
+  "category": "measurement",
+  "summary": "NIST defines the kelvin by fixing the Boltzmann constant. The 2022 CODATA row marks that value exact.",
+  "body": "NIST's temperature page says the kelvin is defined by taking the fixed numerical value of the Boltzmann constant k to be 1.380 649 × 10^{−23} when expressed in J K^{−1}. The BIPM defining-constants table prints the same k as 1.380 649 × 10^{−23} J/K. The 2022 CODATA listing marks the Boltzmann constant exact. NIST's page also says that 0 K is commonly called absolute zero, that one Celsius degree is an interval of 1 K, and that zero degrees Celsius is 273.15 K.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "SI Units – Temperature",
+      "url": "https://www.nist.gov/pml/owm/si-units-temperature",
+      "author": "National Institute of Standards and Technology",
+      "date": "2019-05-20",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "SI defining constants",
+      "url": "https://www.bipm.org/en/measurement-units/si-defining-constants",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "2022 CODATA complete listing",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, BIPM, and the 2022 CODATA listing",
+  "as_of_date": "2019-05-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.celsius-offset",
+    "world.constants.water-freeze-boil-nist"
+  ],
+  "tags": [
+    "core-pack",
+    "area:constants",
+    "si",
+    "kelvin"
+  ],
+  "read_time_min": 1
+}

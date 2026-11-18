@@ -1,0 +1,41 @@
+{
+  "id": "first-aid.hypothermia-sja",
+  "title": "St John Ambulance: get a hypothermic person out of the wind, and do not give them your own clothes",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Outdoors, replace wet clothing, insulate them from the ground, and call 999 or 112. Indoors, warm the room to about 25°C and do not use direct heat.",
+  "body": "St John Ambulance's hypothermia page splits outdoor and indoor care. Outdoors, get them indoors if you can. If you cannot, move them to shelter and shield them from the wind. Remove and replace wet clothing and cover the head. Do not give them your own clothes. The page says you need to stay warm yourself. Protect them from the ground with a thick layer of dry material, a dry sleeping bag, blankets, or a foil survival blanket. You can use your body to shelter them. Call 999 or 112. Do not leave them alone. If they are fully alert, offer warm drinks and high-energy food such as chocolate.\n\nIndoors, cover them with layers of blankets and warm the room to about 25°C (77°F). Do not place direct heat, such as hot water bottles or fires, near them, because that can cause burns. The rest of the indoor drink instruction was cut off in the extract used for this card, so it is not repeated here. The outdoor page already limits warm drinks to a person who is fully alert.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Hypothermia",
+      "url": "https://www.sja.org.uk/first-aid-advice/hypothermia/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.hypothermia-cdc",
+    "first-aid.frostbite"
+  ],
+  "tags": [
+    "first-aid",
+    "cold"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

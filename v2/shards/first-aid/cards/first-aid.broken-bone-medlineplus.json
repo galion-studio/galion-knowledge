@@ -1,0 +1,33 @@
+{
+  "id": "first-aid.broken-bone-medlineplus",
+  "title": "MedlinePlus: do not move a suspected spine, hip, pelvis, or upper-leg fracture to test it",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Call 911 when needed, splint above and below the injury, and do not test whether the bone can move. A child who will not use a limb after an accident should be treated as if it is broken.",
+  "body": "MedlinePlus says to check airway and breathing, and if necessary call 911 and begin rescue breathing, CPR, or bleeding control. Immobilise a broken bone with a splint or sling if needed. It names a rolled newspaper or strips of wood as possible splints, and says to immobilise above and below the injured bone. To reduce the chance of shock, lay the person flat, elevate the feet about 12 inches (30 centimetres) above the head, and cover them. Do not move them if a head, neck, or back injury is suspected. Do not move them unless the broken bone is stable. Do not move a person with an injured hip, pelvis, or upper leg unless it is absolutely necessary. If you must, pull them to safety by their clothes, such as the shoulders of a shirt, a belt, or pant legs. Do not move a person with a possible spine injury. Do not test a bone's ability to move. If a young child refuses to put weight on an arm or leg after an accident, will not move it, or you can see a deformity, assume it is broken and get medical help.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Broken bone",
+      "url": "https://medlineplus.gov/ency/article/000001.htm",
+      "author": "National Library of Medicine, MedlinePlus",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Library of Medicine",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.fracture",
+    "first-aid.spinal",
+    "first-aid.shock"
+  ],
+  "tags": [
+    "first-aid",
+    "fracture"
+  ]
+}

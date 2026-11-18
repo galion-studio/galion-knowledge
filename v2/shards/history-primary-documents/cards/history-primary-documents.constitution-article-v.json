@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.constitution-article-v",
+  "title": "Article V: amendments need two thirds to propose and three fourths to ratify",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "Congress proposes when two thirds of both houses deem it necessary, or a convention is called on application of two thirds of the state legislatures. Ratification is by three fourths of the states.",
+  "body": "The National Archives transcript of the amendment article says Congress, whenever two thirds of both houses deem it necessary, shall propose amendments, or, on the application of the legislatures of two thirds of the several states, shall call a convention for proposing amendments. In either case they are valid when ratified by the legislatures of three fourths of the states, or by conventions in three fourths, as Congress proposes. The transcript also says no amendment made prior to the year 1808 shall affect the first and fourth clauses in the ninth section of the first article, and that no state, without its consent, shall be deprived of its equal suffrage in the Senate. The equal-suffrage proviso has no end date in that sentence. The 1808 proviso is dated.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "U.S. National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Constitutional Convention",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.bill-twelve-proposed",
+    "history-primary-documents.constitution-preamble"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states"
+  ]
+}

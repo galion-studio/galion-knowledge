@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.newton-three-laws",
+  "title": "NASA Glenn states Newton's three laws, and dates the Principia to 1686",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "Inertia; acceleration depending on mass and force; an equal and opposite force. The page says the F = ma form assumes constant mass.",
+  "body": "NASA Glenn Research Center's Beginner's Guide page on Newton's laws, opened 2026-11-18, states the three laws in these words. First: an object at rest remains at rest, and an object in motion remains in motion at constant speed and in a straight line unless acted on by an unbalanced force. The page also calls the resistance to a change in the state of motion inertia, and says that if there is no net force the object keeps a constant velocity. Second: the acceleration of an object depends on the mass of the object and the amount of force applied. Third: whenever one object exerts a force on another object, the second object exerts an equal and opposite force on the first. The page says Newton presented the three laws in the Principia Mathematica Philosophiae Naturalis in 1686, and that he developed the theories of gravitation in 1666 when he was 23. Those are the page's dates.\n\nOn the second law, the page says the law defines a force as the change in momentum per change in time, momentum being mass times velocity. It then says: assume the mass stays constant. That assumption is reasonable for an airplane over a short time, because only the fuel mass changes, and it is right for a baseball. It is not right for a bottle rocket, where mass changes and one can only look at the change in momentum. For constant mass the page writes F = m · a. It says velocity, force, acceleration, and momentum are vectors. The constant-mass step is part of the page. Quoting F = ma without that limit drops a condition the page stated.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Newton's Laws of Motion",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-laws-of-motion/",
+      "author": "NASA Glenn Research Center",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. NASA material is a U.S. government work."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA Glenn Research Center",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.gravitational-constant",
+    "physics-engineering.bernoulli"
+  ],
+  "tags": [
+    "physics-engineering",
+    "mechanics"
+  ]
+}

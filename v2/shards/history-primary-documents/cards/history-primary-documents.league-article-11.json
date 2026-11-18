@@ -1,0 +1,31 @@
+{
+  "id": "history-primary-documents.league-article-11",
+  "title": "Covenant of the League, Article 11: any war or threat of war concerns the whole League",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The League shall take any action that may be deemed wise and effectual to safeguard the peace of nations. The Secretary General summons the Council on a member's request.",
+  "body": "Article 11 of the Covenant, in the Avalon Project text, says any war or threat of war, whether immediately affecting any of the members of the League or not, is declared a matter of concern to the whole League, and the League shall take any action that may be deemed wise and effectual to safeguard the peace of nations. If such an emergency arises, the Secretary General shall on the request of any member forthwith summon a meeting of the Council. Article 10, on the previous card, says the Council shall advise. Article 11 says the League shall take any action that may be deemed wise and effectual. The verbs are not the same.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Covenant of the League of Nations",
+      "url": "https://avalon.law.yale.edu/20th_century/leagcov.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1919",
+      "accessed": "2026-11-18",
+      "note": "Text page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Covenant of the League of Nations",
+  "as_of_date": "1919",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.league-article-10"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "league-of-nations"
+  ]
+}

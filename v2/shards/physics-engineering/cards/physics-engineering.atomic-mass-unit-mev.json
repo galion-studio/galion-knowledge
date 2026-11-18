@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.atomic-mass-unit-mev",
+  "title": "CODATA 2022: one unified atomic mass unit is 931.494 103 72 MeV",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 000 29 MeV. This is the energy equivalent of the atomic mass constant.",
+  "body": "The NIST 2022 listing prints 'atomic mass constant energy equivalent in MeV 931.494 103 72' with standard uncertainty '0.000 000 29' MeV. A round '931.5 MeV' is a rounding of this line, not the line itself.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are from lines printed in full."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.atomic-mass-constant",
+    "physics-engineering.proton-mass"
+  ],
+  "tags": [
+    "physics-engineering",
+    "particle"
+  ]
+}

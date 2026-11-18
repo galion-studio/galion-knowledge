@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.constitution-preamble",
+  "title": "The Constitution's preamble states six purposes and names 'We the People'",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The transcript begins with the people of the United States ordaining the Constitution, for union, justice, tranquillity, defence, welfare, and liberty.",
+  "body": "The National Archives transcript of the Constitution begins: 'We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.' The spelling is the transcript's. The preamble states purposes. The powers are in the articles that follow, not in this sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "U.S. National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Constitutional Convention",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.constitution-three-fifths",
+    "history-primary-documents.constitution-article-v"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states"
+  ]
+}

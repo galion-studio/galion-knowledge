@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.deuteron-proton-ratio",
+  "title": "CODATA 2022: the deuteron-proton mass ratio is 1.999 007 501 2699",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 000 000 0084. A deuteron is not exactly two proton masses in this listing.",
+  "body": "The NIST 2022 listing prints 'deuteron-proton mass ratio 1.999 007 501 2699' with standard uncertainty '0.000 000 000 0084'. The printed ratio is just under 2. This card reports that line. It does not interpret the difference as a binding energy, because the listing line does not say that.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are from lines printed in full."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.deuteron-mass",
+    "physics-engineering.proton-mass"
+  ],
+  "tags": [
+    "physics-engineering",
+    "particle"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world.cosmology.cmb-temperature-fixsen-2009",
+  "title": "Fixsen's 2009 abstract: CMB temperature 2.72548 ± 0.00057 K",
+  "section": "world",
+  "category": "cosmology",
+  "summary": "The abstract gives a literature determination of 2.72548 ± 0.00057 K, and a separate FIRAS recalibration of 2.7260 ± 0.0013 K.",
+  "body": "D. J. Fixsen's abstract, on the arXiv record 0911.1955, says a FIRAS recalibration using WMAP data gives a CMB temperature of 2.7260 ± 0.0013 K, and that the determination from the measurements in the literature is a cosmic microwave background temperature of 2.72548 ± 0.00057 K. Both numbers are in that abstract. They are not the same analysis. This card does not pick a third value.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Temperature of the Cosmic Microwave Background",
+      "url": "https://arxiv.org/abs/0911.1955",
+      "author": "D. J. Fixsen",
+      "date": "2009-11-10",
+      "accessed": "2026-11-18",
+      "note": "Abstract read on the arXiv abs page 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "D. J. Fixsen",
+  "as_of_date": "2009-11-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.cmb-1965",
+    "world.science.cosmic-microwave-background",
+    "world.cosmology.planck-2018-age"
+  ],
+  "tags": [
+    "core-pack",
+    "area:cosmology",
+    "cmb"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,42 @@
+{
+  "id": "first-aid.choking-child",
+  "title": "St John Ambulance: do not sweep a choking child's mouth",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "The child page uses back blows and abdominal thrusts, and it says a finger sweep can push the object further down.",
+  "body": "St John Ambulance's child choking page follows the adult order: ask, encourage a cough, five back blows, five abdominal thrusts, then 999 or 112 and repeat. It adds an explicit warning that was not the emphasis of the adult page: after each back blow, check the mouth and pick out an obvious obstruction, and do not sweep the mouth, because that could push the object further down the throat. Check the mouth again after every thrust. If the child becomes unresponsive, assess them for CPR.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Choking child",
+      "url": "https://www.sja.org.uk/first-aid-advice/child-choking/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.choking-adult",
+    "first-aid.choking-baby"
+  ],
+  "tags": [
+    "first-aid",
+    "choking",
+    "child"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

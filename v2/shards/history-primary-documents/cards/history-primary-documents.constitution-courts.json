@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.constitution-courts",
+  "title": "The transcript vests the judicial power in one Supreme Court and in inferior courts Congress creates",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "Judges hold office during good behaviour. The judicial power extends to cases arising under the Constitution, the laws, and treaties.",
+  "body": "The National Archives transcript says the judicial power of the United States shall be vested in one supreme Court, and in such inferior courts as Congress may from time to time ordain and establish. Judges of both the supreme and inferior courts shall hold their offices during good behaviour, and shall receive a compensation which shall not be diminished during their continuance in office. The judicial power shall extend to all cases, in law and equity, arising under the Constitution, the laws of the United States, and treaties made under their authority, and to the other classes of cases the clause lists, including cases affecting ambassadors, admiralty and maritime jurisdiction, controversies to which the United States is a party, and controversies between two or more states. The transcript's list goes on. This card stops at the structure and the 'arising under' grant. What a court may do with a statute that conflicts with the Constitution is a later opinion, on the Marbury card, not a sentence of this article.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "U.S. National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Constitutional Convention",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.marbury-repugnant",
+    "history-primary-documents.constitution-president"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states"
+  ]
+}

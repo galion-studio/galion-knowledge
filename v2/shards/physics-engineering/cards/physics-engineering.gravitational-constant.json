@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.gravitational-constant",
+  "title": "CODATA 2022: G is 6.674 30 × 10⁻¹¹, with a much larger relative uncertainty than h",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "Newton's constant is not a defining constant. The 2022 listing gives 6.674 30 × 10⁻¹¹ m³ kg⁻¹ s⁻², standard uncertainty 0.000 15 × 10⁻¹¹.",
+  "body": "The NIST 2022 complete listing prints 'Newtonian constant of gravitation 6.674 30 e-11' with standard uncertainty '0.000 15 e-11', unit m³ kg⁻¹ s⁻². That uncertainty is about 2 parts in 100,000 of the value. By contrast, the same listing marks the Planck constant and the speed of light as exact. G is not one of the seven defining constants on the BIPM page. A quoted G that pretends to be known as tightly as c is not what this table says.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.planck-h",
+    "physics-engineering.planck-length"
+  ],
+  "tags": [
+    "physics-engineering",
+    "gravity"
+  ]
+}

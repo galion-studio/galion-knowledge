@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.un-charter-article-51",
+  "title": "UN Charter Article 51: self-defence if an armed attack occurs, until the Security Council acts",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "Nothing in the Charter impairs the inherent right of individual or collective self-defence if an armed attack occurs against a member, until the Security Council has taken the necessary measures. Measures taken are reported to the Council immediately.",
+  "body": "Article 51 of the Charter, on the United Nations full-text page, says nothing in the Charter shall impair the inherent right of individual or collective self-defence if an armed attack occurs against a member of the United Nations, until the Security Council has taken measures necessary to maintain international peace and security. Measures taken by members in the exercise of this right of self-defence shall be immediately reported to the Security Council and shall not in any way affect the authority and responsibility of the Security Council to take at any time such action as it deems necessary in order to maintain or restore international peace and security. The right the article states is conditioned on an armed attack, and it runs until the Council has taken the measures the article names. The reporting sentence is part of the article.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "United Nations Charter (full text)",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "author": "United Nations",
+      "date": "1945",
+      "accessed": "2026-11-18",
+      "note": "Full text page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United Nations",
+  "as_of_date": "1945",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.un-charter-force",
+    "history-primary-documents.nato-article-5"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-nations"
+  ]
+}
