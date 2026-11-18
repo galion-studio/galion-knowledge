@@ -91,7 +91,7 @@ fn memory_is_not_returned_as_knowledge() {
     assert_eq!(memory.memory[0].claim_type, "user-said");
     assert_eq!(memory.memory[0].source, "session-ring");
     assert!(memory.memory.iter().all(|hit| hit.pool == "memory"));
-    assert!(memory.gap_id.is_some());
+    assert!(memory.gap_id.is_none());
 
     stack
         .remember(
@@ -122,12 +122,15 @@ fn a_miss_is_logged_and_the_queue_ranks_it() {
     assert_eq!(missed.answer, "I don't know");
     assert!(!missed.confident);
     assert!(missed.knowledge.is_empty());
+    assert!(missed.gap_id.is_none());
+    stack.drain().unwrap();
     let queue = stack.gap_queue().unwrap();
     assert_eq!(queue[0].query, "zzznothingmatches");
     assert_eq!(queue[0].advice, "ask_galion_research");
     assert!(queue[0].detail.contains("Galion Research"));
     stack.query("zzznothingmatches").unwrap();
     stack.query("othergap").unwrap();
+    stack.drain().unwrap();
     let queue = stack.gap_queue().unwrap();
     assert_eq!(queue[0].query, "zzznothingmatches");
     assert_eq!(queue[0].times, 2);
@@ -143,6 +146,8 @@ fn low_confidence_names_the_nearest_cards() {
         .unwrap();
     let missed = stack.query("sample zzznone").unwrap();
     assert_eq!(missed.answer, "I don't know");
+    assert!(missed.gap_id.is_none());
+    stack.drain().unwrap();
     let queue = stack.gap_queue().unwrap();
     assert_eq!(queue[0].advice, "revise_card");
     assert!(queue[0].detail.contains("sample-"));
@@ -166,6 +171,8 @@ fn an_unloaded_shard_is_the_gap_to_load() {
     let response = stack.query(&format!("m{marker}")).unwrap();
     assert_eq!(response.answer, "I don't know");
     assert!(response.knowledge.is_empty());
+    assert!(response.gap_id.is_none());
+    stack.drain().unwrap();
     let queue = stack.gap_queue().unwrap();
     assert_eq!(queue[0].advice, "load_shard");
     assert!(queue[0].detail.contains("world-history"));
@@ -274,6 +281,7 @@ fn sample_store_card(id: &str, summary: &str) -> Card {
 
 #[test]
 fn measured_corpus_at_the_target_size() {
+    let _guard = big_index_lock();
     // Debug `cargo test` stays small. The release test is the 200k measurement.
     let n = if cfg!(debug_assertions) { 40 } else { 200_000 };
     let queries = if cfg!(debug_assertions) { 5 } else { 40 };
@@ -342,6 +350,14 @@ fn measured_corpus_at_the_target_size() {
         let path = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("target/stack-measure.json");
         std::fs::write(&path, serde_json::to_string_pretty(&report).unwrap()).unwrap();
         eprintln!("{report}");
+        assert!(
+            selective_p95_us <= 10_000,
+            "selective p95 {selective_p95_us} us exceeds 10 ms"
+        );
+        assert!(
+            broad_p95_us <= 10_000,
+            "broad p95 {broad_p95_us} us exceeds 10 ms"
+        );
         assert!(rss > 0);
         // The int8 vectors alone are 256 bytes a row. A non-recursive
         // directory walk would miss index/ and report a much smaller file.
@@ -528,6 +544,100 @@ fn addon_shard_manifest_matches_shard_manifest() {
         assert_eq!(raw["schema"], "galion-shard-manifest/1");
         assert_eq!(raw["depends_on"][0], "core");
     }
+}
+
+#[test]
+fn voice_hot_path_holds_under_background_writes() {
+    let _guard = big_index_lock();
+    // Debug `cargo test` stays small. The release test is the 200k gate.
+    let n = if cfg!(debug_assertions) { 40 } else { 200_000 };
+    let queries = if cfg!(debug_assertions) { 5 } else { 40 };
+    let dir = scratch("voice");
+    let mut stack = open_stack(&dir);
+    let cards: Vec<Card> = (0..n).map(synthetic_card).collect();
+    let imported = stack.import_cards(cards, false).unwrap();
+    assert_eq!(imported.cards, n);
+
+    let handle = stack.queue_handle();
+    let stop = std::sync::Arc::new(std::sync::atomic::AtomicBool::new(false));
+    let stop_flag = std::sync::Arc::clone(&stop);
+    let writer = std::thread::spawn(move || {
+        let mut i = 0u64;
+        while !stop_flag.load(std::sync::atomic::Ordering::Relaxed) {
+            if handle.pending() < 48 {
+                handle.enqueue_background_mix(i);
+                i += 1;
+            } else {
+                std::thread::sleep(std::time::Duration::from_millis(1));
+            }
+        }
+    });
+
+    let mut selective = Vec::with_capacity(queries);
+    for i in 0..queries {
+        stack.clear_cache();
+        let started = std::time::Instant::now();
+        let response = stack.query(&format!("m{}", (i * 17) % n)).unwrap();
+        let elapsed = started.elapsed().as_micros() as u64;
+        assert!(response.confident, "m{} {}", (i * 17) % n, response.answer);
+        assert!(elapsed < 2_000_000, "query took {elapsed} us");
+        selective.push(response.took_us as u64);
+    }
+    let mut broad = Vec::with_capacity(queries);
+    for _ in 0..queries {
+        stack.clear_cache();
+        let response = stack.query("sample").unwrap();
+        assert!(response.confident);
+        assert!(!response.knowledge.is_empty());
+        assert!(
+            response.took_us < 2_000_000,
+            "query took {} us",
+            response.took_us
+        );
+        broad.push(response.took_us as u64);
+    }
+    stack.clear_cache();
+    let spot = stack.query("m1").unwrap();
+    assert_eq!(spot.knowledge[0].item_id, "sample-1");
+    assert_eq!(spot.knowledge[0].pool, "knowledge");
+
+    stop.store(true, std::sync::atomic::Ordering::Relaxed);
+    writer.join().unwrap();
+    stack.drain().unwrap();
+
+    if n >= 200_000 {
+        let selective_p50_us = percentile(&mut selective, 0.50);
+        let selective_p95_us = percentile(&mut selective, 0.95);
+        let broad_p50_us = percentile(&mut broad, 0.50);
+        let broad_p95_us = percentile(&mut broad, 0.95);
+        let report = serde_json::json!({
+            "rows": n,
+            "queries": queries,
+            "selective_p50_us": selective_p50_us,
+            "selective_p95_us": selective_p95_us,
+            "broad_p50_us": broad_p50_us,
+            "broad_p95_us": broad_p95_us,
+            "background": "persist, extract, summary, pin, revise",
+        });
+        let path = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("target/voice-measure.json");
+        std::fs::write(&path, serde_json::to_string_pretty(&report).unwrap()).unwrap();
+        eprintln!("{report}");
+        assert!(
+            selective_p95_us <= 10_000,
+            "selective p95 {selective_p95_us} us exceeds 10 ms while the writer runs"
+        );
+        assert!(
+            broad_p95_us <= 10_000,
+            "broad p95 {broad_p95_us} us exceeds 10 ms while the writer runs"
+        );
+    }
+    let _ = std::fs::remove_dir_all(&dir);
+}
+
+fn big_index_lock() -> std::sync::MutexGuard<'static, ()> {
+    static LOCK: std::sync::OnceLock<std::sync::Mutex<()>> = std::sync::OnceLock::new();
+    let lock = LOCK.get_or_init(|| std::sync::Mutex::new(()));
+    lock.lock().unwrap_or_else(|err| err.into_inner())
 }
 
 fn percentile(samples: &mut [u64], p: f64) -> u64 {

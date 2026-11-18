@@ -1,9 +1,12 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 Galion Labs
 
+use std::collections::{HashMap, HashSet};
 use std::fs;
 use std::path::{Path, PathBuf};
-use std::time::Instant;
+use std::sync::atomic::{AtomicU64, Ordering};
+use std::sync::Arc;
+use std::time::{Duration, Instant};
 
 use rusqlite::{params, Connection, OptionalExtension};
 use serde::Serialize;
@@ -11,9 +14,18 @@ use serde::Serialize;
 use crate::card::{parse_cards, provenance_from_document, Card, ContestedView, Source};
 use crate::embed::{cosine, dot_i8, HashingEmbedder, Int8Vec, EMB_DIM};
 use crate::error::{Error, Result};
+use crate::extract::extract_line;
+use crate::queue::{self, alloc_id, DbTarget, FactJob, JobQueue, QueueHandle};
+use crate::rank::{self, DEFAULT_IMPORTANCE, TRANSCRIPT_IMPORTANCE};
 use crate::rrf::fuse;
 use crate::session::{SessionRing, Turn};
 use crate::text::{index_tokens, is_stopword, tokens};
+
+/// Reads do not wait on the writer. A busy lock returns the ring and any
+/// in-memory pins. Five milliseconds is the ceiling the voice budget allows;
+/// zero means the call does not spend that ceiling inside SQLite.
+const READ_BUSY: Duration = Duration::from_millis(0);
+const WRITE_BUSY: Duration = Duration::from_millis(2_000);
 
 /// Published hits. HORBM R1's voice packet is four.
 pub const MAX_HITS: usize = 4;
@@ -49,7 +61,16 @@ CREATE TABLE IF NOT EXISTS items (
     emb_scale REAL NOT NULL,
     emb_norm REAL NOT NULL,
     document TEXT NOT NULL DEFAULT '',
-    content_hash TEXT NOT NULL DEFAULT ''
+    content_hash TEXT NOT NULL DEFAULT '',
+    pinned INTEGER NOT NULL DEFAULT 0,
+    importance REAL NOT NULL DEFAULT 0,
+    kind TEXT NOT NULL DEFAULT '',
+    session_id TEXT NOT NULL DEFAULT '',
+    current INTEGER NOT NULL DEFAULT 1,
+    extractor TEXT NOT NULL DEFAULT '',
+    subject_key TEXT NOT NULL DEFAULT '',
+    object_value TEXT NOT NULL DEFAULT '',
+    last_access TEXT NOT NULL DEFAULT ''
 );
 CREATE INDEX IF NOT EXISTS items_layer ON items(layer);
 CREATE TABLE IF NOT EXISTS meta (
@@ -112,9 +133,51 @@ CREATE TABLE IF NOT EXISTS gaps (
     advice TEXT NOT NULL,
     detail TEXT NOT NULL
 );
+CREATE TABLE IF NOT EXISTS session_turns (
+    id INTEGER PRIMARY KEY,
+    session_id TEXT NOT NULL,
+    turn_id TEXT NOT NULL UNIQUE,
+    said_by TEXT NOT NULL,
+    body TEXT NOT NULL,
+    source_date TEXT NOT NULL,
+    source TEXT NOT NULL DEFAULT 'session-ring',
+    recorded_at TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS session_turns_session ON session_turns(session_id);
+CREATE VIRTUAL TABLE IF NOT EXISTS session_turns_fts USING fts5(
+    body,
+    said_by,
+    source,
+    tokenize = 'unicode61'
+);
+CREATE TABLE IF NOT EXISTS session_meta (
+    session_id TEXT PRIMARY KEY,
+    keep_whole INTEGER NOT NULL DEFAULT 0,
+    summary TEXT NOT NULL DEFAULT '',
+    summary_item_id TEXT NOT NULL DEFAULT ''
+);
+CREATE TABLE IF NOT EXISTS memory_jobs (
+    id INTEGER PRIMARY KEY,
+    kind TEXT NOT NULL,
+    payload TEXT NOT NULL,
+    enqueued_at TEXT NOT NULL,
+    finished_at TEXT NOT NULL DEFAULT '',
+    status TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS memory_revisions (
+    revision_id INTEGER PRIMARY KEY,
+    item_id TEXT NOT NULL,
+    body TEXT NOT NULL,
+    said_by TEXT NOT NULL,
+    source_date TEXT NOT NULL,
+    source TEXT NOT NULL,
+    archived_at TEXT NOT NULL,
+    reason TEXT NOT NULL,
+    document TEXT NOT NULL DEFAULT ''
+);
 "#;
 
-const SCHEMA_VERSION: i32 = 4;
+const SCHEMA_VERSION: i32 = 5;
 /// Skip a term that hits more than 2% of a diary once the diary is large
 /// enough for that fraction to be a real scan. BM25 of a near-universal
 /// term does not separate rows.
@@ -140,6 +203,17 @@ pub struct Hit {
     pub sources: Vec<Source>,
     pub contested_views: Vec<ContestedView>,
     pub score: f32,
+    /// User pin. Knowledge hits are false.
+    pub pinned: bool,
+    /// `0` on a knowledge hit. Pins are 1. Candidates carry the extractor score.
+    pub importance: f32,
+    /// `user` for a pin, `system` for an extracted candidate, empty otherwise.
+    pub extractor: String,
+    /// `pin`, `candidate`, `summary`, `diary`, `transcript`, or empty.
+    pub kind: String,
+    /// Not part of the JSON. Used only for the memory rerank.
+    #[serde(skip)]
+    pub last_access: String,
     /// Title, gist, body, speaker, source, and contested views. Used to
     /// decide whether a hit actually covers the query. Not part of the JSON.
     #[serde(skip)]
@@ -199,6 +273,11 @@ impl Hit {
             sources,
             contested_views,
             score,
+            pinned: false,
+            importance: 0.0,
+            extractor: String::new(),
+            kind: String::new(),
+            last_access: String::new(),
             haystack,
         }
     }
@@ -207,9 +286,35 @@ impl Hit {
 /// `memory` is a turn, an episode, or a diary line. Everything else is a card.
 pub fn pool_of(layer: &str) -> &'static str {
     match layer {
-        "session" | "episode" | "diary" => "memory",
+        "session" | "episode" | "diary" | "transcript" => "memory",
         _ => "knowledge",
     }
+}
+
+/// A fact the caller can already search, before the worker commits it.
+struct LiveFact {
+    id: String,
+    text: String,
+    said_by: String,
+    date: String,
+    source: String,
+    pinned: bool,
+    importance: f32,
+    extractor: String,
+    kind: String,
+    layer: String,
+    emb: Int8Vec,
+}
+
+/// One archived memory fact. Append-only. Search does not read this.
+#[derive(Clone, Debug, Serialize, PartialEq, Eq)]
+pub struct MemoryRevision {
+    pub item_id: String,
+    pub text: String,
+    pub said_by: String,
+    pub date: String,
+    pub source: String,
+    pub reason: String,
 }
 
 #[derive(Clone, Debug, Serialize, PartialEq)]
@@ -301,11 +406,20 @@ impl Arena {
 }
 
 /// One SQLite file: semantic cards, remembered episodes, and the diary.
+///
+/// The worker thread owns the writes that must not stall a voice turn.
+/// `conn` is the reader. Its busy timeout is zero.
 pub struct Store {
+    jobs: JobQueue,
     conn: Connection,
     arena: Arena,
     ring: SessionRing,
     embedder: HashingEmbedder,
+    overlay: Vec<LiveFact>,
+    hidden: HashSet<String>,
+    session_id: String,
+    keep_whole: HashMap<String, bool>,
+    seq: Arc<AtomicU64>,
 }
 
 impl Store {
@@ -315,59 +429,166 @@ impl Store {
                 fs::create_dir_all(parent)?;
             }
         }
-        let conn = Connection::open(path)?;
-        conn.pragma_update(None, "journal_mode", "WAL")?;
-        conn.pragma_update(None, "synchronous", "NORMAL")?;
-        conn.busy_timeout(std::time::Duration::from_millis(2_000))?;
-        let version: i32 = conn.pragma_query_value(None, "user_version", |r| r.get(0))?;
-        if version == 0 {
-            conn.execute_batch(SCHEMA)?;
-            conn.pragma_update(None, "user_version", SCHEMA_VERSION)?;
-        } else if version < SCHEMA_VERSION {
-            conn.execute_batch(SCHEMA)?;
-            ensure_column(&conn, "items", "document", "TEXT NOT NULL DEFAULT ''")?;
-            ensure_column(&conn, "items", "content_hash", "TEXT NOT NULL DEFAULT ''")?;
-            ensure_column(&conn, "archive", "document", "TEXT NOT NULL DEFAULT ''")?;
-            ensure_column(&conn, "archive", "content_hash", "TEXT NOT NULL DEFAULT ''")?;
-            rebuild_fts(&conn)?;
-            conn.pragma_update(None, "user_version", SCHEMA_VERSION)?;
-        } else if version != SCHEMA_VERSION {
-            return Err(Error::Invalid(format!(
-                "unsupported memory database version {version}"
-            )));
-        }
-        let mut store = Self {
-            conn,
-            arena: Arena::empty(),
-            ring: SessionRing::new(RING_CAP),
-            embedder: HashingEmbedder,
+        let target = DbTarget {
+            uri: path.as_ref().to_string_lossy().into_owned(),
+            memory: false,
         };
-        store.reload_arena()?;
-        Ok(store)
+        Self::open_target(target)
     }
 
     pub fn open_in_memory() -> Result<Self> {
-        let conn = Connection::open_in_memory()?;
-        conn.execute_batch(SCHEMA)?;
-        conn.pragma_update(None, "user_version", SCHEMA_VERSION)?;
-        let mut store = Self {
-            conn,
-            arena: Arena::empty(),
-            ring: SessionRing::new(RING_CAP),
-            embedder: HashingEmbedder,
+        static N: AtomicU64 = AtomicU64::new(1);
+        let n = N.fetch_add(1, Ordering::Relaxed);
+        let target = DbTarget {
+            uri: format!(
+                "file:horbm-mem-{}-{}?mode=memory&cache=shared",
+                std::process::id(),
+                n
+            ),
+            memory: true,
         };
-        store.reload_arena()?;
-        Ok(store)
+        Self::open_target(target)
     }
 
-    /// Push a turn into RAM. Nothing is written to disk.
+    fn open_target(target: DbTarget) -> Result<Self> {
+        let conn = queue::open_connection(&target)?;
+        conn.busy_timeout(WRITE_BUSY)?;
+        prepare_schema(&conn)?;
+        conn.busy_timeout(READ_BUSY)?;
+        let seq_v: i64 =
+            conn.query_row("SELECT v FROM meta WHERE k = 'seq'", [], |row| row.get(0))?;
+        let seq = Arc::new(AtomicU64::new(seq_v.max(0) as u64));
+        let keep_whole = load_keep_whole(&conn)?;
+        // Read the arena before the worker opens its connection so the two
+        // connections are not taking the first lock at the same time.
+        let arena = read_arena(&conn)?;
+        let jobs = JobQueue::spawn(target, Arc::clone(&seq))?;
+        Ok(Self {
+            jobs,
+            conn,
+            arena,
+            ring: SessionRing::new(RING_CAP),
+            embedder: HashingEmbedder,
+            overlay: Vec::new(),
+            hidden: HashSet::new(),
+            session_id: "default".into(),
+            keep_whole,
+            seq,
+        })
+    }
+
+    /// Push a turn into the RAM ring and enqueue a transcript append.
+    ///
+    /// Returns when the ring is updated. The SQLite write, extraction, and
+    /// any session summary run on the worker.
     pub fn push_turn(
         &mut self,
         text: impl Into<String>,
         said_by: impl Into<String>,
         date: impl Into<String>,
     ) -> Turn {
-        self.ring.push(text, said_by, date)
+        let text = text.into();
+        let said_by = said_by.into();
+        let date = date.into();
+        let turn = self.ring.push(text.clone(), said_by.clone(), date.clone());
+        let turn_id = alloc_id(&self.seq, "turn");
+        let session_id = self.session_id.clone();
+        let _ = queue::enqueue_persist(&self.jobs, &session_id, &turn_id, &said_by, &text, &date);
+        let _ = queue::enqueue_extract(&self.jobs, &session_id, &said_by, &text, &date);
+        if self.keep_whole.get(&session_id).copied().unwrap_or(false) {
+            let _ = queue::enqueue_summary(&self.jobs, &session_id);
+        }
+        turn
+    }
+
+    pub fn set_session(&mut self, session_id: &str) -> Result<()> {
+        if session_id.trim().is_empty() {
+            return Err(Error::Invalid("session_id is empty".into()));
+        }
+        self.session_id = session_id.to_string();
+        Ok(())
+    }
+
+    pub fn session_id(&self) -> &str {
+        &self.session_id
+    }
+
+    /// Keep the whole session: a background summary, and the transcript
+    /// stays in live retrieval. `false` leaves candidates, and does not
+    /// promote the raw transcript. Default is off. The text is not deleted
+    /// when the switch turns off.
+    pub fn keep_whole_session(&mut self, session_id: &str, keep: bool) -> Result<()> {
+        if session_id.trim().is_empty() {
+            return Err(Error::Invalid("session_id is empty".into()));
+        }
+        self.keep_whole.insert(session_id.to_string(), keep);
+        if let Some(item_id) = self.summary_item_id(session_id)? {
+            if keep {
+                self.hidden.remove(&item_id);
+            } else {
+                self.hidden.insert(item_id);
+            }
+        }
+        queue::enqueue_keep(&self.jobs, session_id, keep)
+    }
+
+    pub fn session_summary(&self, session_id: &str) -> Result<String> {
+        let summary: Option<String> = self
+            .conn
+            .query_row(
+                "SELECT summary FROM session_meta WHERE session_id = ?1",
+                params![session_id],
+                |row| row.get(0),
+            )
+            .optional()?;
+        Ok(summary.unwrap_or_default())
+    }
+
+    pub fn pause_worker(&self) {
+        self.jobs.pause();
+    }
+
+    pub fn resume_worker(&self) {
+        self.jobs.resume();
+    }
+
+    pub fn queue_len(&self) -> usize {
+        self.jobs.pending()
+    }
+
+    pub fn queue_handle(&self) -> QueueHandle {
+        self.jobs.handle()
+    }
+
+    /// Wait until the worker has finished every queued job, then reload the
+    /// vector arena. Resumes a paused worker. Not on the voice path.
+    pub fn drain(&mut self) -> Result<()> {
+        self.jobs.resume();
+        let started = Instant::now();
+        while self.jobs.pending() > 0 {
+            if started.elapsed() > Duration::from_secs(60) {
+                return Err(Error::Invalid(format!(
+                    "memory queue still has {} jobs after 60s",
+                    self.jobs.pending()
+                )));
+            }
+            std::thread::sleep(Duration::from_millis(2));
+        }
+        if let Some(err) = self.jobs.take_error() {
+            return Err(Error::Invalid(err));
+        }
+        self.reload_arena()?;
+        self.overlay.clear();
+        self.hidden.clear();
+        self.keep_whole = load_keep_whole(&self.conn)?;
+        Ok(())
+    }
+
+    pub fn schema_version(&self) -> Result<i32> {
+        let version = self
+            .conn
+            .pragma_query_value(None, "user_version", |row| row.get(0))?;
+        Ok(version)
     }
 
     pub fn session_len(&self) -> usize {
@@ -387,35 +608,37 @@ impl Store {
         let mut files = Vec::new();
         collect_json(dir, &mut files)?;
         files.sort();
-        let report = self.in_tx(|store| {
-            let mut report = IngestReport {
-                files_read: 0,
-                upserted: 0,
-                revised: 0,
-                unchanged: 0,
-                skipped: Vec::new(),
-            };
-            for path in &files {
-                let raw = fs::read_to_string(path)?;
-                let value: serde_json::Value = serde_json::from_str(&raw)
-                    .map_err(|e| Error::Invalid(format!("{}: {e}", path.display())))?;
-                report.files_read += 1;
-                let hint = path.to_string_lossy().to_string();
-                let cards = parse_cards(&value, &hint)?;
-                if cards.is_empty() {
-                    report.skipped.push(hint);
-                    continue;
-                }
-                for card in cards {
-                    match store.upsert_card_tx(&card)? {
-                        UpsertKind::Inserted | UpsertKind::Restored => {}
-                        UpsertKind::Revised => report.revised += 1,
-                        UpsertKind::Unchanged => report.unchanged += 1,
+        let report = self.with_write(|store| {
+            store.in_tx(|store| {
+                let mut report = IngestReport {
+                    files_read: 0,
+                    upserted: 0,
+                    revised: 0,
+                    unchanged: 0,
+                    skipped: Vec::new(),
+                };
+                for path in &files {
+                    let raw = fs::read_to_string(path)?;
+                    let value: serde_json::Value = serde_json::from_str(&raw)
+                        .map_err(|e| Error::Invalid(format!("{}: {e}", path.display())))?;
+                    report.files_read += 1;
+                    let hint = path.to_string_lossy().to_string();
+                    let cards = parse_cards(&value, &hint)?;
+                    if cards.is_empty() {
+                        report.skipped.push(hint);
+                        continue;
                     }
-                    report.upserted += 1;
+                    for card in cards {
+                        match store.upsert_card_tx(&card)? {
+                            UpsertKind::Inserted | UpsertKind::Restored => {}
+                            UpsertKind::Revised => report.revised += 1,
+                            UpsertKind::Unchanged => report.unchanged += 1,
+                        }
+                        report.upserted += 1;
+                    }
                 }
-            }
-            Ok(report)
+                Ok(report)
+            })
         })?;
         self.reload_arena()?;
         Ok(report)
@@ -426,17 +649,20 @@ impl Store {
     }
 
     pub fn upsert_cards(&mut self, cards: &[Card]) -> Result<()> {
-        self.in_tx(|store| {
-            for card in cards {
-                store.upsert_card_tx(card)?;
-            }
-            Ok(())
+        self.with_write(|store| {
+            store.in_tx(|store| {
+                for card in cards {
+                    store.upsert_card_tx(card)?;
+                }
+                Ok(())
+            })
         })?;
         self.reload_arena()?;
         Ok(())
     }
 
-    /// Persist one episode. This is the only way a turn becomes durable.
+    /// Pin one fact. The caller can search it immediately. The SQLite commit
+    /// runs on the worker, so a voice turn is not waiting on `reload_arena`.
     pub fn remember(
         &mut self,
         text: &str,
@@ -445,32 +671,94 @@ impl Store {
         source: &str,
     ) -> Result<String> {
         require_fields(text, said_by, date, source)?;
+        let id = alloc_id(&self.seq, "ep");
+        let (subject_key, object_value) = pin_subject(text, said_by, date, source);
         let emb = self.embedder.embed(text);
-        let id = self.in_tx(|store| {
-            let id = store.next_id("ep")?;
-            let document = memory_document(text, said_by, date, source);
-            store.insert_item(
-                &id,
-                LAYER_EPISODE,
-                "memory",
-                "episode",
-                "",
-                text,
-                text,
-                "user-said",
-                said_by,
-                date,
-                source,
-                "",
-                "",
-                &document,
-                "",
-                text,
-                &emb,
-            )?;
-            Ok(id)
-        })?;
-        self.reload_arena()?;
+        self.overlay.push(LiveFact {
+            id: id.clone(),
+            text: text.to_string(),
+            said_by: said_by.to_string(),
+            date: date.to_string(),
+            source: source.to_string(),
+            pinned: true,
+            importance: 1.0,
+            extractor: "user".into(),
+            kind: "pin".into(),
+            layer: LAYER_EPISODE.into(),
+            emb,
+        });
+        queue::enqueue_pin(
+            &self.jobs,
+            FactJob {
+                item_id: id.clone(),
+                text: text.to_string(),
+                said_by: said_by.to_string(),
+                date: date.to_string(),
+                source: source.to_string(),
+                pinned: true,
+                importance: 1.0,
+                kind: "pin".into(),
+                extractor: "user".into(),
+                session_id: self.session_id.clone(),
+                subject_key,
+                object_value,
+            },
+        )?;
+        Ok(id)
+    }
+
+    /// Archive `old_id` (`reason = revised`) and insert a new current fact.
+    /// The old text stays in `items`, `archive`, and `memory_revisions`.
+    pub fn revise_fact(
+        &mut self,
+        old_id: &str,
+        text: &str,
+        said_by: &str,
+        date: &str,
+        source: &str,
+    ) -> Result<String> {
+        require_fields(text, said_by, date, source)?;
+        let known = self.overlay.iter().any(|fact| fact.id == old_id)
+            || self.existing_rowid(old_id)?.is_some();
+        if !known {
+            return Err(Error::NotFound(old_id.to_string()));
+        }
+        let id = alloc_id(&self.seq, "ep");
+        let (subject_key, object_value) = pin_subject(text, said_by, date, source);
+        let emb = self.embedder.embed(text);
+        self.hidden.insert(old_id.to_string());
+        self.overlay.retain(|fact| fact.id != old_id);
+        self.overlay.push(LiveFact {
+            id: id.clone(),
+            text: text.to_string(),
+            said_by: said_by.to_string(),
+            date: date.to_string(),
+            source: source.to_string(),
+            pinned: true,
+            importance: 1.0,
+            extractor: "user".into(),
+            kind: "pin".into(),
+            layer: LAYER_EPISODE.into(),
+            emb,
+        });
+        queue::enqueue_revise(
+            &self.jobs,
+            old_id,
+            FactJob {
+                item_id: id.clone(),
+                text: text.to_string(),
+                said_by: said_by.to_string(),
+                date: date.to_string(),
+                source: source.to_string(),
+                pinned: true,
+                importance: 1.0,
+                kind: "pin".into(),
+                extractor: "user".into(),
+                session_id: self.session_id.clone(),
+                subject_key,
+                object_value,
+            },
+        )?;
         Ok(id)
     }
 
@@ -486,29 +774,37 @@ impl Store {
         let source = if source.is_empty() { "diary" } else { source };
         require_fields(text, said_by, date, source)?;
         let emb = self.embedder.embed(text);
-        let id = self.in_tx(|store| {
-            let id = store.next_id("diary")?;
-            let document = memory_document(text, said_by, date, source);
-            store.insert_item(
-                &id,
-                LAYER_DIARY,
-                "diary",
-                "entry",
-                date,
-                text,
-                text,
-                "user-said",
-                said_by,
-                date,
-                source,
-                "",
-                "",
-                &document,
-                "",
-                text,
-                &emb,
-            )?;
-            Ok(id)
+        let id = self.with_write(|store| {
+            store.in_tx(|store| {
+                let id = store.next_id("diary")?;
+                let document = memory_document(text, said_by, date, source);
+                store.insert_item(
+                    &id,
+                    LAYER_DIARY,
+                    "diary",
+                    "entry",
+                    date,
+                    text,
+                    text,
+                    "user-said",
+                    said_by,
+                    date,
+                    source,
+                    "",
+                    "",
+                    &document,
+                    "",
+                    text,
+                    &emb,
+                )?;
+                store.conn.execute(
+                    "UPDATE items SET kind = 'diary', importance = ?2, pinned = 0,
+                        extractor = '', current = 1, session_id = ?3
+                     WHERE item_id = ?1",
+                    params![id, DEFAULT_IMPORTANCE, store.session_id],
+                )?;
+                Ok(id)
+            })
         })?;
         self.reload_arena()?;
         Ok(id)
@@ -538,16 +834,19 @@ impl Store {
 
     /// Keep the row, drop it from retrieval.
     pub fn mark(&mut self, item_id: &str) -> Result<()> {
+        self.drain()?;
         let rowid = self.rowid_of(item_id)?;
-        self.in_tx(|store| {
-            store.conn.execute(
-                "UPDATE items SET marked = 1 WHERE rowid = ?1",
-                params![rowid],
-            )?;
-            store
-                .conn
-                .execute("DELETE FROM items_fts WHERE rowid = ?1", params![rowid])?;
-            Ok(())
+        self.with_write(|store| {
+            store.in_tx(|store| {
+                store.conn.execute(
+                    "UPDATE items SET marked = 1 WHERE rowid = ?1",
+                    params![rowid],
+                )?;
+                store
+                    .conn
+                    .execute("DELETE FROM items_fts WHERE rowid = ?1", params![rowid])?;
+                Ok(())
+            })
         })?;
         self.reload_arena()?;
         Ok(())
@@ -556,8 +855,9 @@ impl Store {
     /// Admin tool. Hide one stored row. The text moves to `archive` and
     /// leaves the retrieval index. The JSON card on disk is not touched.
     pub fn forget(&mut self, item_id: &str) -> Result<()> {
+        self.drain()?;
         let rowid = self.rowid_of(item_id)?;
-        self.in_tx(|store| store.archive_live_row(rowid, "forget"))?;
+        self.with_write(|store| store.in_tx(|store| store.archive_live_row(rowid, "forget")))?;
         self.reload_arena()?;
         Ok(())
     }
@@ -598,17 +898,52 @@ impl Store {
 
     fn search_filtered(&self, query: &str, memory_only: bool) -> Result<SearchResponse> {
         let started = Instant::now();
-        let lexical = self.lexical_ids(query, memory_only)?;
+        let mut lexical = match self.lexical_ids(query, memory_only) {
+            Ok(ids) => ids,
+            Err(err) if is_busy_err(&err) => Vec::new(),
+            Err(err) => return Err(err),
+        };
+        merge_unique(&mut lexical, self.overlay_lexical(query));
+        match self.transcript_lexical(query) {
+            Ok(transcript) => merge_unique(&mut lexical, transcript),
+            Err(err) if is_busy_err(&err) => {}
+            Err(err) => return Err(err),
+        }
+        lexical.retain(|id| !self.hidden.contains(id));
         let dense = self.dense_ids(query, memory_only);
         let ring_lex = self.ring_lexical_ids(query);
         // The lexical list is counted twice so a rare exact term beats a tied vector neighbor.
         let fused = fuse(&[lexical.clone(), lexical, dense, ring_lex], RRF_K);
-        let mut hits = Vec::with_capacity(MAX_HITS);
+        let mut hits = Vec::new();
         for (id, score) in fused.into_iter().take(POOL) {
             if let Some(hit) = self.hydrate(&id, score)? {
                 if memory_only && hit.pool != "memory" {
                     continue;
                 }
+                hits.push(hit);
+            }
+        }
+        rerank_memory(&mut hits);
+        hits.truncate(MAX_HITS);
+        let took_us = u32::try_from(started.elapsed().as_micros()).unwrap_or(u32::MAX);
+        Ok(SearchResponse {
+            query: query.to_string(),
+            hits,
+            took_us,
+        })
+    }
+
+    /// Search the append-only transcript. This does not require keep-whole.
+    pub fn search_transcript(&self, query: &str) -> Result<SearchResponse> {
+        let started = Instant::now();
+        let ids = match transcript_match(&self.conn, query, None) {
+            Ok(ids) => ids,
+            Err(err) if is_busy_err(&err) => Vec::new(),
+            Err(err) => return Err(err),
+        };
+        let mut hits = Vec::new();
+        for id in ids {
+            if let Some(hit) = self.hydrate_turn(&id, 0.0)? {
                 hits.push(hit);
                 if hits.len() == MAX_HITS {
                     break;
@@ -621,6 +956,72 @@ impl Store {
             hits,
             took_us,
         })
+    }
+
+    pub fn transcript_len(&self) -> Result<usize> {
+        let n: i64 = self
+            .conn
+            .query_row("SELECT COUNT(*) FROM session_turns", [], |row| row.get(0))?;
+        Ok(n as usize)
+    }
+
+    pub fn memory_revisions(&self, item_id: &str) -> Result<Vec<MemoryRevision>> {
+        let mut stmt = self.conn.prepare(
+            "SELECT item_id, body, said_by, source_date, source, reason
+             FROM memory_revisions WHERE item_id = ?1 ORDER BY revision_id ASC",
+        )?;
+        let rows = stmt.query_map(params![item_id], |row| {
+            Ok(MemoryRevision {
+                item_id: row.get(0)?,
+                text: row.get(1)?,
+                said_by: row.get(2)?,
+                date: row.get(3)?,
+                source: row.get(4)?,
+                reason: row.get(5)?,
+            })
+        })?;
+        let mut out = Vec::new();
+        for row in rows {
+            out.push(row?);
+        }
+        Ok(out)
+    }
+
+    /// True when `snippet` is still stored in a live row, the archive, a
+    /// memory revision, or the transcript.
+    pub fn retains_text(&self, snippet: &str) -> Result<bool> {
+        let like = format!("%{snippet}%");
+        let n: i64 = self.conn.query_row(
+            "SELECT
+                (SELECT COUNT(*) FROM items WHERE body LIKE ?1 OR summary LIKE ?1 OR document LIKE ?1)
+              + (SELECT COUNT(*) FROM archive WHERE body LIKE ?1 OR document LIKE ?1)
+              + (SELECT COUNT(*) FROM memory_revisions WHERE body LIKE ?1 OR document LIKE ?1)
+              + (SELECT COUNT(*) FROM session_turns WHERE body LIKE ?1)",
+            params![like],
+            |row| row.get(0),
+        )?;
+        Ok(n > 0)
+    }
+
+    pub fn count_extracted(&self) -> Result<usize> {
+        let n: i64 = self.conn.query_row(
+            "SELECT COUNT(*) FROM items
+             WHERE extractor = 'system' AND kind = 'candidate' AND marked = 0 AND current = 1",
+            [],
+            |row| row.get(0),
+        )?;
+        Ok(n as usize)
+    }
+
+    pub(crate) fn enqueue_gap(
+        &self,
+        query: &str,
+        reason: &str,
+        nearest_json: &str,
+        advice: &str,
+        detail: &str,
+    ) {
+        let _ = queue::enqueue_gap(&self.jobs, query, reason, nearest_json, advice, detail);
     }
 
     /// Append one gap. Rows are never deleted.
@@ -896,9 +1297,9 @@ impl Store {
             return Ok(Vec::new());
         };
         let layer_sql = if memory_only {
-            "AND items.layer IN ('episode', 'diary')"
+            "AND items.layer IN ('episode', 'diary') AND items.current = 1"
         } else {
-            ""
+            "AND items.current = 1"
         };
         let sql = format!(
             "SELECT items.item_id
@@ -937,6 +1338,9 @@ impl Store {
         let emb = &self.arena.emb;
         let n = self.arena.len();
         for i in 0..n {
+            if self.hidden.contains(&self.arena.item_id[i]) {
+                continue;
+            }
             if memory_only && !self.arena.memory[i] {
                 continue;
             }
@@ -976,6 +1380,15 @@ impl Store {
                 scored.push((turn.id.clone(), score));
             }
         }
+        for fact in &self.overlay {
+            if self.hidden.contains(&fact.id) {
+                continue;
+            }
+            let score = cosine(&q, &fact.emb.values, fact.emb.scale, fact.emb.norm);
+            if score > 0.0 {
+                scored.push((fact.id.clone(), score));
+            }
+        }
         scored.sort_by(|a, b| b.1.total_cmp(&a.1).then_with(|| a.0.cmp(&b.0)));
         scored.truncate(POOL);
         scored.into_iter().map(|(id, _)| id).collect()
@@ -1006,6 +1419,34 @@ impl Store {
     }
 
     fn hydrate(&self, item_id: &str, score: f32) -> Result<Option<Hit>> {
+        if self.hidden.contains(item_id) {
+            return Ok(None);
+        }
+        if let Some(fact) = self.overlay.iter().find(|fact| fact.id == item_id) {
+            let mut hit = Hit::make(
+                fact.id.clone(),
+                &fact.layer,
+                "",
+                fact.text.clone(),
+                fact.text.clone(),
+                fact.said_by.clone(),
+                fact.date.clone(),
+                fact.source.clone(),
+                "user-said",
+                "",
+                Vec::new(),
+                Vec::new(),
+                score,
+            );
+            hit.pinned = fact.pinned;
+            hit.importance = fact.importance;
+            hit.extractor = fact.extractor.clone();
+            hit.kind = fact.kind.clone();
+            return Ok(Some(hit));
+        }
+        if item_id.starts_with("turn-") || item_id.starts_with("bg-turn-") {
+            return self.hydrate_turn(item_id, score);
+        }
         if let Some(turn) = self.ring.turns().find(|t| t.id == item_id) {
             return Ok(Some(Hit::make(
                 turn.id.clone(),
@@ -1027,7 +1468,8 @@ impl Store {
             .conn
             .query_row(
                 "SELECT layer, title, summary, body, said_by, source_date, source,
-                        claim_type, evidence_strength, document, marked
+                        claim_type, evidence_strength, document, marked,
+                        pinned, importance, kind, extractor, current, last_access
                  FROM items WHERE item_id = ?1",
                 params![item_id],
                 |row| {
@@ -1043,10 +1485,26 @@ impl Store {
                         row.get::<_, String>(8)?,
                         row.get::<_, String>(9)?,
                         row.get::<_, i64>(10)?,
+                        row.get::<_, i64>(11)?,
+                        row.get::<_, f32>(12)?,
+                        row.get::<_, String>(13)?,
+                        row.get::<_, String>(14)?,
+                        row.get::<_, i64>(15)?,
+                        row.get::<_, String>(16)?,
                     ))
                 },
             )
-            .optional()?;
+            .optional();
+        let row = match row {
+            Ok(row) => row,
+            Err(err) => {
+                let wrapped = Error::from(err);
+                if is_busy_err(&wrapped) {
+                    return Ok(None);
+                }
+                return Err(wrapped);
+            }
+        };
         let Some((
             layer,
             title,
@@ -1059,11 +1517,17 @@ impl Store {
             evidence,
             document,
             marked,
+            pinned,
+            importance,
+            kind,
+            extractor,
+            current,
+            last_access,
         )) = row
         else {
-            return Ok(None);
+            return self.hydrate_turn(item_id, score);
         };
-        if marked != 0 {
+        if marked != 0 || current == 0 {
             return Ok(None);
         }
         let text = if !summary.is_empty() {
@@ -1076,46 +1540,73 @@ impl Store {
         } else {
             (Vec::new(), Vec::new())
         };
-        Ok(Some(Hit::make(
+        let mut hit = Hit::make(
             item_id, &layer, title, text, body, said_by, date, source, claim_type, evidence,
             sources, views, score,
-        )))
+        );
+        hit.pinned = pinned != 0;
+        hit.importance = if hit.pool == "memory" && importance <= 0.0 {
+            DEFAULT_IMPORTANCE
+        } else {
+            importance
+        };
+        hit.extractor = extractor;
+        hit.kind = kind;
+        hit.last_access = last_access;
+        Ok(Some(hit))
+    }
+
+    fn hydrate_turn(&self, turn_id: &str, score: f32) -> Result<Option<Hit>> {
+        let row = self
+            .conn
+            .query_row(
+                "SELECT body, said_by, source_date, source FROM session_turns WHERE turn_id = ?1",
+                params![turn_id],
+                |row| {
+                    Ok((
+                        row.get::<_, String>(0)?,
+                        row.get::<_, String>(1)?,
+                        row.get::<_, String>(2)?,
+                        row.get::<_, String>(3)?,
+                    ))
+                },
+            )
+            .optional();
+        let row = match row {
+            Ok(row) => row,
+            Err(err) => {
+                let wrapped = Error::from(err);
+                if is_busy_err(&wrapped) {
+                    return Ok(None);
+                }
+                return Err(wrapped);
+            }
+        };
+        let Some((body, said_by, date, source)) = row else {
+            return Ok(None);
+        };
+        let mut hit = Hit::make(
+            turn_id,
+            "transcript",
+            "",
+            body.clone(),
+            body,
+            said_by,
+            date,
+            source,
+            "user-said",
+            "",
+            Vec::new(),
+            Vec::new(),
+            score,
+        );
+        hit.importance = TRANSCRIPT_IMPORTANCE;
+        hit.kind = "transcript".into();
+        Ok(Some(hit))
     }
 
     fn reload_arena(&mut self) -> Result<()> {
-        let mut arena = Arena::empty();
-        let mut stmt = self.conn.prepare(
-            "SELECT rowid, item_id, layer, emb, emb_scale, emb_norm
-             FROM items WHERE marked = 0 ORDER BY rowid",
-        )?;
-        let rows = stmt.query_map([], |row| {
-            Ok((
-                row.get::<_, i64>(0)?,
-                row.get::<_, String>(1)?,
-                row.get::<_, String>(2)?,
-                row.get::<_, Vec<u8>>(3)?,
-                row.get::<_, f32>(4)?,
-                row.get::<_, f32>(5)?,
-            ))
-        })?;
-        for row in rows {
-            let (rowid, item_id, layer, blob, scale, norm) = row?;
-            if blob.len() != EMB_DIM {
-                return Err(Error::Invalid(format!(
-                    "{item_id} has embedding width {}, expected {EMB_DIM}",
-                    blob.len()
-                )));
-            }
-            arena.rowid.push(rowid);
-            arena.item_id.push(item_id);
-            arena
-                .memory
-                .push(layer == LAYER_EPISODE || layer == LAYER_DIARY);
-            arena.scale.push(scale);
-            arena.norm.push(norm);
-            arena.emb.extend(blob.into_iter().map(|b| b as i8));
-        }
-        self.arena = arena;
+        self.arena = read_arena(&self.conn)?;
         Ok(())
     }
 
@@ -1204,12 +1695,78 @@ impl Store {
     }
 
     fn next_id(&self, prefix: &str) -> Result<String> {
-        self.conn
-            .execute("UPDATE meta SET v = v + 1 WHERE k = 'seq'", [])?;
-        let n: i64 = self
+        let id = alloc_id(&self.seq, prefix);
+        let watermark = self.seq.load(Ordering::SeqCst) as i64;
+        self.conn.execute(
+            "UPDATE meta SET v = MAX(v, ?1) WHERE k = 'seq'",
+            params![watermark],
+        )?;
+        Ok(id)
+    }
+
+    fn with_write<T>(&mut self, body: impl FnOnce(&mut Self) -> Result<T>) -> Result<T> {
+        self.conn.busy_timeout(WRITE_BUSY)?;
+        let result = body(self);
+        let _ = self.conn.busy_timeout(READ_BUSY);
+        result
+    }
+
+    fn summary_item_id(&self, session_id: &str) -> Result<Option<String>> {
+        let item_id: Option<String> = self
             .conn
-            .query_row("SELECT v FROM meta WHERE k = 'seq'", [], |r| r.get(0))?;
-        Ok(format!("{prefix}-{n}"))
+            .query_row(
+                "SELECT summary_item_id FROM session_meta WHERE session_id = ?1",
+                params![session_id],
+                |row| row.get(0),
+            )
+            .optional()?;
+        Ok(item_id.filter(|id| !id.is_empty()))
+    }
+
+    fn overlay_lexical(&self, query: &str) -> Vec<String> {
+        let q_tokens = tokens(query);
+        if q_tokens.is_empty() {
+            return Vec::new();
+        }
+        let mut scored: Vec<(&str, usize)> = Vec::new();
+        for fact in &self.overlay {
+            if self.hidden.contains(&fact.id) {
+                continue;
+            }
+            let have = tokens(&fact.text);
+            let overlap = q_tokens
+                .iter()
+                .filter(|token| have.iter().any(|have| have == *token))
+                .count();
+            if overlap > 0 {
+                scored.push((fact.id.as_str(), overlap));
+            }
+        }
+        scored.sort_by(|a, b| b.1.cmp(&a.1).then_with(|| a.0.cmp(b.0)));
+        scored
+            .into_iter()
+            .take(POOL)
+            .map(|(id, _)| id.to_string())
+            .collect()
+    }
+
+    fn transcript_lexical(&self, query: &str) -> Result<Vec<String>> {
+        let kept: Vec<&str> = self
+            .keep_whole
+            .iter()
+            .filter(|(_, keep)| **keep)
+            .map(|(session, _)| session.as_str())
+            .collect();
+        if kept.is_empty() {
+            return Ok(Vec::new());
+        }
+        transcript_match(&self.conn, query, Some(&kept))
+    }
+}
+
+impl Drop for Store {
+    fn drop(&mut self) {
+        self.jobs.shutdown();
     }
 }
 
@@ -1387,6 +1944,196 @@ fn unknown_if_empty(value: &str) -> String {
     }
 }
 
+fn prepare_schema(conn: &Connection) -> Result<()> {
+    let version: i32 = conn.pragma_query_value(None, "user_version", |row| row.get(0))?;
+    if version == 0 {
+        conn.execute_batch(SCHEMA)?;
+        migrate_v5(conn)?;
+        conn.pragma_update(None, "user_version", SCHEMA_VERSION)?;
+    } else if version < SCHEMA_VERSION {
+        conn.execute_batch(SCHEMA)?;
+        if version < 4 {
+            ensure_column(conn, "items", "document", "TEXT NOT NULL DEFAULT ''")?;
+            ensure_column(conn, "items", "content_hash", "TEXT NOT NULL DEFAULT ''")?;
+            ensure_column(conn, "archive", "document", "TEXT NOT NULL DEFAULT ''")?;
+            ensure_column(conn, "archive", "content_hash", "TEXT NOT NULL DEFAULT ''")?;
+            rebuild_fts(conn)?;
+        }
+        migrate_v5(conn)?;
+        conn.pragma_update(None, "user_version", SCHEMA_VERSION)?;
+    } else if version != SCHEMA_VERSION {
+        return Err(Error::Invalid(format!(
+            "unsupported memory database version {version}"
+        )));
+    }
+    Ok(())
+}
+
+fn migrate_v5(conn: &Connection) -> Result<()> {
+    ensure_column(conn, "items", "pinned", "INTEGER NOT NULL DEFAULT 0")?;
+    ensure_column(conn, "items", "importance", "REAL NOT NULL DEFAULT 0")?;
+    ensure_column(conn, "items", "kind", "TEXT NOT NULL DEFAULT ''")?;
+    ensure_column(conn, "items", "session_id", "TEXT NOT NULL DEFAULT ''")?;
+    ensure_column(conn, "items", "current", "INTEGER NOT NULL DEFAULT 1")?;
+    ensure_column(conn, "items", "extractor", "TEXT NOT NULL DEFAULT ''")?;
+    ensure_column(conn, "items", "subject_key", "TEXT NOT NULL DEFAULT ''")?;
+    ensure_column(conn, "items", "object_value", "TEXT NOT NULL DEFAULT ''")?;
+    ensure_column(conn, "items", "last_access", "TEXT NOT NULL DEFAULT ''")?;
+    conn.execute_batch("CREATE INDEX IF NOT EXISTS items_subject ON items(subject_key);")?;
+    conn.execute(
+        "UPDATE items SET pinned = 1, importance = 1.0, kind = 'pin', extractor = 'user'
+         WHERE layer = 'episode' AND kind = ''",
+        [],
+    )?;
+    conn.execute(
+        "UPDATE items SET kind = 'diary', importance = 0.5
+         WHERE layer = 'diary' AND kind = ''",
+        [],
+    )?;
+    Ok(())
+}
+
+fn read_arena(conn: &Connection) -> Result<Arena> {
+    let mut arena = Arena::empty();
+    let mut stmt = conn.prepare(
+        "SELECT rowid, item_id, layer, emb, emb_scale, emb_norm
+         FROM items WHERE marked = 0 AND current = 1 ORDER BY rowid",
+    )?;
+    let rows = stmt.query_map([], |row| {
+        Ok((
+            row.get::<_, i64>(0)?,
+            row.get::<_, String>(1)?,
+            row.get::<_, String>(2)?,
+            row.get::<_, Vec<u8>>(3)?,
+            row.get::<_, f32>(4)?,
+            row.get::<_, f32>(5)?,
+        ))
+    })?;
+    for row in rows {
+        let (rowid, item_id, layer, blob, scale, norm) = row?;
+        if blob.len() != EMB_DIM {
+            return Err(Error::Invalid(format!(
+                "{item_id} has embedding width {}, expected {EMB_DIM}",
+                blob.len()
+            )));
+        }
+        arena.rowid.push(rowid);
+        arena.item_id.push(item_id);
+        arena
+            .memory
+            .push(layer == LAYER_EPISODE || layer == LAYER_DIARY);
+        arena.scale.push(scale);
+        arena.norm.push(norm);
+        arena.emb.extend(blob.into_iter().map(|byte| byte as i8));
+    }
+    Ok(arena)
+}
+
+fn load_keep_whole(conn: &Connection) -> Result<HashMap<String, bool>> {
+    let mut stmt = conn.prepare("SELECT session_id, keep_whole FROM session_meta")?;
+    let rows = stmt.query_map([], |row| {
+        Ok((row.get::<_, String>(0)?, row.get::<_, i64>(1)? != 0))
+    })?;
+    let mut out = HashMap::new();
+    for row in rows {
+        let (id, keep) = row?;
+        out.insert(id, keep);
+    }
+    Ok(out)
+}
+
+fn rerank_memory(hits: &mut [Hit]) {
+    let today = rank::today_utc_days();
+    for hit in hits.iter_mut() {
+        if hit.pool != "memory" || hit.layer == "session" {
+            continue;
+        }
+        let recency = rank::recency_factor(&hit.date, &hit.last_access, today);
+        hit.score = rank::rescale(hit.score, hit.importance, hit.pinned, recency);
+    }
+    hits.sort_by(|a, b| {
+        b.score
+            .total_cmp(&a.score)
+            .then_with(|| a.item_id.cmp(&b.item_id))
+    });
+}
+
+fn merge_unique(dst: &mut Vec<String>, extra: Vec<String>) {
+    for id in extra {
+        if !dst.iter().any(|have| have == &id) {
+            dst.push(id);
+        }
+    }
+}
+
+fn transcript_match(
+    conn: &Connection,
+    query: &str,
+    sessions: Option<&[&str]>,
+) -> Result<Vec<String>> {
+    let Some(match_q) = simple_fts(query) else {
+        return Ok(Vec::new());
+    };
+    let mut stmt = conn.prepare(
+        "SELECT session_turns.turn_id, session_turns.session_id
+         FROM session_turns_fts
+         JOIN session_turns ON session_turns.id = session_turns_fts.rowid
+         WHERE session_turns_fts MATCH ?1
+         ORDER BY rank
+         LIMIT ?2",
+    )?;
+    let rows = stmt.query_map(params![match_q, POOL as i64], |row| {
+        Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?))
+    })?;
+    let mut out = Vec::new();
+    for row in rows {
+        let (id, session) = row?;
+        if let Some(sessions) = sessions {
+            if !sessions.iter().any(|kept| *kept == session) {
+                continue;
+            }
+        }
+        out.push(id);
+    }
+    Ok(out)
+}
+
+fn simple_fts(query: &str) -> Option<String> {
+    let mut terms = index_tokens(query);
+    terms.sort();
+    terms.dedup();
+    terms.truncate(MAX_LEXICAL_TERMS);
+    if terms.is_empty() {
+        return None;
+    }
+    Some(
+        terms
+            .into_iter()
+            .map(|term| format!("\"{term}\""))
+            .collect::<Vec<_>>()
+            .join(" OR "),
+    )
+}
+
+fn is_busy_err(err: &Error) -> bool {
+    match err {
+        Error::Sqlite(rusqlite::Error::SqliteFailure(code, _)) => {
+            code.code == rusqlite::ErrorCode::DatabaseBusy
+                || code.code == rusqlite::ErrorCode::DatabaseLocked
+        }
+        _ => false,
+    }
+}
+
+fn pin_subject(text: &str, _said_by: &str, _date: &str, _source: &str) -> (String, String) {
+    let found = extract_line(text);
+    if found.len() == 1 {
+        (found[0].subject_key.clone(), found[0].object_value.clone())
+    } else {
+        (String::new(), String::new())
+    }
+}
+
 fn collect_json(dir: &Path, out: &mut Vec<PathBuf>) -> Result<()> {
     for entry in fs::read_dir(dir)? {
         let entry = entry?;
@@ -1398,4 +2145,123 @@ fn collect_json(dir: &Path, out: &mut Vec<PathBuf>) -> Result<()> {
         }
     }
     Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::embed::HashingEmbedder;
+
+    #[test]
+    fn an_old_episode_stays_searchable_after_migration() {
+        let dir = std::env::temp_dir().join(format!("horbm-v4-{}", std::process::id()));
+        let _ = fs::remove_dir_all(&dir);
+        fs::create_dir_all(&dir).unwrap();
+        let path = dir.join("memory.sqlite");
+        {
+            let conn = Connection::open(&path).unwrap();
+            conn.execute_batch(
+                "CREATE TABLE items (
+                    rowid INTEGER PRIMARY KEY,
+                    item_id TEXT NOT NULL UNIQUE,
+                    layer TEXT NOT NULL,
+                    section TEXT NOT NULL,
+                    category TEXT NOT NULL DEFAULT '',
+                    title TEXT NOT NULL DEFAULT '',
+                    body TEXT NOT NULL,
+                    summary TEXT NOT NULL DEFAULT '',
+                    claim_type TEXT NOT NULL DEFAULT '',
+                    said_by TEXT NOT NULL,
+                    source_date TEXT NOT NULL,
+                    source TEXT NOT NULL,
+                    evidence_strength TEXT NOT NULL DEFAULT '',
+                    status TEXT NOT NULL DEFAULT '',
+                    marked INTEGER NOT NULL DEFAULT 0,
+                    emb BLOB NOT NULL,
+                    emb_scale REAL NOT NULL,
+                    emb_norm REAL NOT NULL,
+                    document TEXT NOT NULL DEFAULT '',
+                    content_hash TEXT NOT NULL DEFAULT ''
+                );
+                CREATE TABLE meta (k TEXT PRIMARY KEY, v INTEGER NOT NULL);
+                INSERT INTO meta(k, v) VALUES ('seq', 1);
+                CREATE VIRTUAL TABLE items_fts USING fts5(
+                    title, summary, body, said_by, source, tokenize = 'unicode61'
+                );
+                CREATE VIRTUAL TABLE items_fts_vocab USING fts5vocab(items_fts, 'row');
+                CREATE TABLE archive (
+                    rowid INTEGER PRIMARY KEY,
+                    item_id TEXT NOT NULL,
+                    layer TEXT NOT NULL,
+                    section TEXT NOT NULL,
+                    category TEXT NOT NULL DEFAULT '',
+                    title TEXT NOT NULL DEFAULT '',
+                    body TEXT NOT NULL,
+                    summary TEXT NOT NULL DEFAULT '',
+                    claim_type TEXT NOT NULL DEFAULT '',
+                    said_by TEXT NOT NULL,
+                    source_date TEXT NOT NULL,
+                    source TEXT NOT NULL,
+                    evidence_strength TEXT NOT NULL DEFAULT '',
+                    status TEXT NOT NULL DEFAULT '',
+                    reason TEXT NOT NULL,
+                    emb BLOB NOT NULL,
+                    emb_scale REAL NOT NULL,
+                    emb_norm REAL NOT NULL,
+                    document TEXT NOT NULL DEFAULT '',
+                    content_hash TEXT NOT NULL DEFAULT ''
+                );
+                CREATE TABLE gaps (
+                    id INTEGER PRIMARY KEY,
+                    query TEXT NOT NULL,
+                    asked_at TEXT NOT NULL,
+                    reason TEXT NOT NULL,
+                    nearest TEXT NOT NULL,
+                    advice TEXT NOT NULL,
+                    detail TEXT NOT NULL
+                );",
+            )
+            .unwrap();
+            let emb = HashingEmbedder.embed("keep the word legacytoken");
+            let blob: Vec<u8> = emb.values.iter().map(|byte| *byte as u8).collect();
+            conn.execute(
+                "INSERT INTO items (
+                    item_id, layer, section, category, title, body, summary, claim_type,
+                    said_by, source_date, source, evidence_strength, status, marked,
+                    emb, emb_scale, emb_norm, document, content_hash
+                 ) VALUES (
+                    'ep-1', 'episode', 'memory', 'episode', '', ?1, ?1, 'user-said',
+                    'Ada', '2026-11-18', 'conversation', '', '', 0,
+                    ?2, ?3, ?4, '{}', ''
+                 )",
+                params!["keep the word legacytoken", blob, emb.scale, emb.norm],
+            )
+            .unwrap();
+            let rowid = conn.last_insert_rowid();
+            conn.execute(
+                "INSERT INTO items_fts(rowid, title, summary, body, said_by, source)
+                 VALUES (?1, '', 'keep the word legacytoken', 'keep the word legacytoken', 'ada', 'conversation')",
+                params![rowid],
+            )
+            .unwrap();
+            conn.pragma_update(None, "user_version", 4).unwrap();
+        }
+        let store = Store::open(&path).unwrap();
+        assert_eq!(store.schema_version().unwrap(), 5);
+        let hits = store.search("legacytoken").unwrap();
+        assert!(!hits.hits.is_empty(), "migrated episode was not searchable");
+        let hit = hits
+            .hits
+            .iter()
+            .find(|hit| hit.item_id == "ep-1")
+            .expect("ep-1");
+        assert!(hit.pinned);
+        assert!((hit.importance - 1.0).abs() < 0.001);
+        assert_eq!(hit.said_by, "Ada");
+        assert_eq!(hit.date, "2026-11-18");
+        assert_eq!(hit.source, "conversation");
+        assert_eq!(hit.pool, "memory");
+        drop(store);
+        let _ = fs::remove_dir_all(&dir);
+    }
 }
