@@ -11,7 +11,7 @@ The file is `v2/shards/manifest.json`. The schema string is `galion-shard-manife
 | Field | Where it comes from |
 | --- | --- |
 | `schema` | `galion-shard-manifest/1` |
-| `version` | `1` |
+| `version` | `2` |
 | `immutable` | `true`. A correction is a new manifest. A shard file is not edited in place. |
 | `note` | What the hash is, and what it is not. |
 | `core_pack` | `id` `core`, `section` `core`, `category` `core`, `sha256`, `bytes` |
