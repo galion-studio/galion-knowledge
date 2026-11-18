@@ -33,6 +33,7 @@ One card is one JSON file. The file name is `{id}.json`. The parent folder name 
 | `status` | yes | Use `unsourced - needs review` when there is no source. Other cards may use `draft`, `sourced - needs review`, or `reviewed`. |
 | `contested_views` | yes | Array. May be empty. Each item: `label`, `summary`, `status`. Keep disagreements side by side. Do not invent the other side. |
 | `related` | yes | Array of card ids. May be empty. Ids that are not in the pack are not linked. An alias id still resolves. |
+| `history` | no | Append-only. Each item: `date` (`YYYY-MM-DD`), `change`, `note`. `from` and `to` are optional. Add an entry when a published field changes. Do not delete entries. Do not delete the card file. See [REVIEW_POLICY.md](../docs/REVIEW_POLICY.md). |
 | `aliases` | no | Other ids for this same card, including dotted ids. Each alias is also served at `/article/<alias>/`. |
 | `tags` | no | Array of short strings. |
 | `read_time_min` | no | Positive integer. The site estimates from the body if this is omitted. |
@@ -53,12 +54,17 @@ V1 showed a truth score and a source count. Those were not citations. If a card 
 ```json
 "legacy": {
   "v1_id": "1",
+  "v1_article_id": "7",
+  "v1_slug": "world-war-two",
+  "v1_category": "history",
   "v1_truth_score": 100,
   "v1_source_count_displayed": 847,
   "v1_last_verified_displayed": "2024-12-15",
   "note": "V1 displayed these figures. They are not citations and not measurements."
 }
 ```
+
+`v1_article_id`, `v1_slug`, and `v1_category` are the provenance fields the carried-over cards already stored. A V1 truth score, when one is present, is still not evidence.
 
 ## Example
 
@@ -95,3 +101,5 @@ No world-card draft was open when this page was built. World pages stay empty un
 ## Check
 
 `npm run build` in `v2/` reads every card and stops if a file breaks this schema. The page build does not write an FTS5 index. That export belongs to `v2/memory`.
+
+The truth gate is `v2/tools/truth-gate`. It checks this schema and the publication rules in [TRUTH_GATE.md](../docs/TRUTH_GATE.md). `npm run build` does not replace that check. A card is published when both succeed.

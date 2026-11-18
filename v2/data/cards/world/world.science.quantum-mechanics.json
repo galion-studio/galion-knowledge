@@ -72,7 +72,7 @@
     }
   ],
   "evidence_strength": "moderate",
-  "said_by": "",
+  "said_by": "Max Planck; E. Schrödinger; Max Born; W. Heisenberg; A. Einstein, B. Podolsky, and N. Rosen; J. S. Bell; Alain Aspect, Philippe Grangier, and Gérard Roger; Hugh Everett III; David Bohm",
   "as_of_date": "2026-11-18",
   "status": "sourced",
   "contested_views": [
@@ -151,5 +151,14 @@
     "world.science.theory-of-relativity",
     "world.philosophy.free-will"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "said_by",
+      "from": "",
+      "to": "Max Planck; E. Schrödinger; Max Born; W. Heisenberg; A. Einstein, B. Podolsky, and N. Rosen; J. S. Bell; Alain Aspect, Philippe Grangier, and Gérard Roger; Hugh Everett III; David Bohm",
+      "note": "said_by was empty. Filled from the author fields already on the sources. No name was added that was not already on the card."
+    }
+  ]
 }

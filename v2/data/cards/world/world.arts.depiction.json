@@ -19,10 +19,35 @@
   "said_by": "John Hyman and Katerina Bantinaki",
   "as_of_date": "2026-11-18",
   "status": "sourced",
-  "contested_views": [],
+  "contested_views": [
+    {
+      "label": "Resemblance",
+      "summary": "A picture represents because it looks like, in some specified way, what it depicts. The SEP entry also records a critical literature on resemblance.",
+      "status": "Mapped by Hyman and Bantinaki, SEP Depiction, as read 2026-11-18. Not settled."
+    },
+    {
+      "label": "Convention",
+      "summary": "Depiction works by learned convention, closer to a symbol than to a copy.",
+      "status": "Mapped by Hyman and Bantinaki, SEP Depiction, as read 2026-11-18. Not settled."
+    },
+    {
+      "label": "Psychological theories",
+      "summary": "The work is in the viewer's experience or recognitional capacity: seeing-in, seeing-as, make-believe, or recognition.",
+      "status": "Mapped by Hyman and Bantinaki, SEP Depiction, as read 2026-11-18. Not settled."
+    }
+  ],
   "related": [
     "world.arts.aristotle-poetics-survival",
     "world.geography.map-projections"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "contested_views",
+      "from": "0",
+      "to": "3",
+      "note": "claim_type is contested and contested_views was empty. The views named in the body were copied into the field. No side was added that the body did not already state."
+    }
+  ]
 }

@@ -15,14 +15,30 @@
       "accessed": "2026-11-18"
     }
   ],
-  "evidence_strength": "strong",
+  "evidence_strength": "moderate",
   "said_by": "United States Holocaust Memorial Museum",
   "as_of_date": "2026-11-18",
-  "status": "sourced",
+  "status": "sourced - needs review",
   "contested_views": [],
   "related": [
     "world.pearl-harbor-1941",
     "world.law.nuremberg-crimes"
   ],
-  "read_time_min": 2
+  "read_time_min": 2,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "moderate",
+      "note": "Truth gate ceiling. The attached sources support moderate, not strong. Best source class on this card: scholarly_secondary. No source was added or removed."
+    },
+    {
+      "date": "2026-11-18",
+      "change": "status",
+      "from": "sourced",
+      "to": "sourced - needs review",
+      "note": "Evidence was lowered, so status moved from sourced to sourced - needs review."
+    }
+  ]
 }

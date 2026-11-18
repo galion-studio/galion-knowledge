@@ -1,0 +1,23 @@
+[package]
+name = "truth-gate"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Galion Labs"]
+description = "Checks a Galion Knowledge card before it is published."
+publish = false
+rust-version = "1.85"
+
+[[bin]]
+name = "truth-gate"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+jsonschema = { version = "0.61.2", default-features = false }
+regex = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+url = "2"
+ureq = { version = "2.12.1", default-features = false, features = ["tls"] }

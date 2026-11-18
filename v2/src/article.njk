@@ -88,6 +88,27 @@
       </div>
     </section>
   {% endif %}
+  {% if card.history and card.history.length %}
+    <section class="source-box">
+      <h2>Record of changes</h2>
+      <ul class="source-list">
+        {% for entry in card.history %}
+          <li>
+            <span>{{ entry.date }}</span>
+            <span> — {{ entry.change }}</span>
+            {% if entry.from or entry.to %}
+              <span>
+                {% if entry.from %}{{ entry.from }}{% else %}not recorded{% endif %}
+                →
+                {{ entry.to }}
+              </span>
+            {% endif %}
+            {% if entry.note %}<span class="source-note">{{ entry.note }}</span>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
   {% if card.legacy and card.legacy.note %}
     <p class="source-note">{{ card.legacy.note }}</p>
   {% endif %}

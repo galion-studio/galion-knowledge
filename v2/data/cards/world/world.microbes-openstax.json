@@ -15,7 +15,7 @@
       "accessed": "2026-11-18"
     }
   ],
-  "evidence_strength": "strong",
+  "evidence_strength": "moderate",
   "said_by": "OpenStax Microbiology",
   "as_of_date": "2026-11-18",
   "status": "sourced - needs review",
@@ -28,5 +28,14 @@
     "biology",
     "microbiology"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "moderate",
+      "note": "Truth gate ceiling. The attached sources support moderate, not strong. Best source class on this card: scholarly_secondary. No source was added or removed."
+    }
+  ]
 }

@@ -79,7 +79,7 @@
     }
   ],
   "evidence_strength": "strong",
-  "said_by": "",
+  "said_by": "Oswald T. Avery, Colin M. MacLeod, and Maclyn McCarty; J. D. Watson and F. H. C. Crick; M. H. F. Wilkins, A. R. Stokes, and H. R. Wilson; Rosalind E. Franklin and R. G. Gosling; Matthew Meselson and Franklin W. Stahl; F. H. C. Crick, Leslie Barnett, S. Brenner, and R. J. Watts-Tobin; Marshall W. Nirenberg and J. Heinrich Matthaei; Joe Hin Tjio and Albert Levan; Eric S. Lander and the International Human Genome Sequencing Consortium; J. Craig Venter and colleagues",
   "as_of_date": "2026-11-18",
   "status": "sourced",
   "contested_views": [],
@@ -88,5 +88,14 @@
     "world.biology.photosynthesis",
     "world.biology.crispr-adaptive-immunity"
   ],
-  "read_time_min": 2
+  "read_time_min": 2,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "said_by",
+      "from": "",
+      "to": "Oswald T. Avery, Colin M. MacLeod, and Maclyn McCarty; J. D. Watson and F. H. C. Crick; M. H. F. Wilkins, A. R. Stokes, and H. R. Wilson; Rosalind E. Franklin and R. G. Gosling; Matthew Meselson and Franklin W. Stahl; F. H. C. Crick, Leslie Barnett, S. Brenner, and R. J. Watts-Tobin; Marshall W. Nirenberg and J. Heinrich Matthaei; Joe Hin Tjio and Albert Levan; Eric S. Lander and the International Human Genome Sequencing Consortium; J. Craig Venter and colleagues",
+      "note": "said_by was empty. Filled from the author fields already on the sources. No name was added that was not already on the card."
+    }
+  ]
 }

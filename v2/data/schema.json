@@ -64,7 +64,12 @@
       "items": { "type": "string", "minLength": 1 }
     },
     "read_time_min": { "type": "integer", "minimum": 1 },
-    "legacy": { "$ref": "#/$defs/legacy" }
+    "legacy": { "$ref": "#/$defs/legacy" },
+    "history": {
+      "type": "array",
+      "description": "Append-only record of later changes. Do not delete entries. Do not delete the card file.",
+      "items": { "$ref": "#/$defs/history" }
+    }
   },
   "$defs": {
     "source": {
@@ -105,10 +110,28 @@
       "additionalProperties": false,
       "properties": {
         "v1_id": { "type": "string" },
+        "v1_article_id": { "type": "string" },
+        "v1_slug": { "type": "string" },
+        "v1_category": { "type": "string" },
         "v1_truth_score": { "type": "number" },
         "v1_source_count_displayed": { "type": "number" },
         "v1_last_verified_displayed": { "type": "string" },
         "note": { "type": "string" }
+      }
+    },
+    "history": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "change", "note"],
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "change": { "type": "string", "minLength": 1 },
+        "from": { "type": "string" },
+        "to": { "type": "string" },
+        "note": { "type": "string", "minLength": 1 }
       }
     }
   }

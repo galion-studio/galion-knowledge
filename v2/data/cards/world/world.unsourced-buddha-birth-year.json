@@ -11,7 +11,18 @@
   "said_by": "v1 knowledge article (unsourced compilation)",
   "as_of_date": "",
   "status": "unsourced - needs review",
-  "contested_views": [],
+  "contested_views": [
+    {
+      "label": "v1 traditional date",
+      "summary": "The v1 Buddhism article says the Buddha was born about 563 BCE.",
+      "status": "unsourced - needs review"
+    },
+    {
+      "label": "Historians disagree",
+      "summary": "The calendar date is disputed among historians. This pass did not open a chronological study, so 563 BCE stays unsourced.",
+      "status": "unsourced - needs review"
+    }
+  ],
   "related": [
     "world.buddha-sep",
     "world.philosophy.four-noble-truths"
@@ -26,5 +37,14 @@
     "v1_slug": "buddhism",
     "v1_category": "philosophy",
     "note": "v1 truthScore and source-count fields are not evidence and are not copied."
-  }
+  },
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "contested_views",
+      "from": "0",
+      "to": "2",
+      "note": "claim_type is contested and contested_views was empty. The views named in the body were copied into the field. No side was added that the body did not already state."
+    }
+  ]
 }

@@ -23,7 +23,7 @@
     }
   ],
   "evidence_strength": "strong",
-  "said_by": "",
+  "said_by": "United Nations General Assembly; National Assembly of France, English text at the Avalon Project, Yale Law School",
   "as_of_date": "2026-11-18",
   "status": "sourced",
   "contested_views": [],
@@ -33,5 +33,14 @@
     "world.law.human-rights-declaration",
     "world.history.declaration-of-the-rights-of-man-1789"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "said_by",
+      "from": "",
+      "to": "United Nations General Assembly; National Assembly of France, English text at the Avalon Project, Yale Law School",
+      "note": "said_by was empty. Filled from the author fields already on the sources. No name was added that was not already on the card."
+    }
+  ]
 }

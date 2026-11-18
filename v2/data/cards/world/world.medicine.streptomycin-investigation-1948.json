@@ -25,10 +25,19 @@
   "evidence_strength": "moderate",
   "said_by": "Medical Research Council, British Medical Journal, 1948",
   "as_of_date": "1948",
-  "status": "partially_sourced",
+  "status": "sourced - needs review",
   "contested_views": [],
   "related": [
     "world.medicine.penicillin-1929"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "status",
+      "from": "partially_sourced",
+      "to": "sourced - needs review",
+      "note": "Status label partially_sourced is outside the review labels in SCHEMA.md. Set to sourced - needs review. Sources were not changed."
+    }
+  ]
 }
