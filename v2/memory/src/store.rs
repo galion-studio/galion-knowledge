@@ -13,7 +13,7 @@ use crate::embed::{cosine, dot_i8, HashingEmbedder, Int8Vec, EMB_DIM};
 use crate::error::{Error, Result};
 use crate::rrf::fuse;
 use crate::session::{SessionRing, Turn};
-use crate::text::{fts_match_query, tokens};
+use crate::text::{index_tokens, is_stopword, tokens};
 
 /// Published hits. HORBM R1's voice packet is four.
 pub const MAX_HITS: usize = 4;
@@ -61,8 +61,9 @@ CREATE VIRTUAL TABLE IF NOT EXISTS items_fts USING fts5(
     body,
     said_by,
     source,
-    tokenize = 'porter unicode61'
+    tokenize = 'unicode61'
 );
+CREATE VIRTUAL TABLE IF NOT EXISTS items_fts_vocab USING fts5vocab(items_fts, 'row');
 CREATE TABLE IF NOT EXISTS archive (
     rowid INTEGER PRIMARY KEY,
     item_id TEXT NOT NULL,
@@ -85,7 +86,13 @@ CREATE TABLE IF NOT EXISTS archive (
 );
 "#;
 
-const SCHEMA_VERSION: i32 = 2;
+const SCHEMA_VERSION: i32 = 3;
+/// Skip a term that hits more than 2% of a diary once the diary is large
+/// enough for that fraction to be a real scan. BM25 of a near-universal
+/// term does not separate rows.
+const DF_FRACTION_DEN: i64 = 50;
+const DF_PLAN_MIN_ROWS: i64 = 64;
+const MAX_LEXICAL_TERMS: usize = 8;
 
 #[derive(Clone, Debug, Serialize, PartialEq)]
 pub struct Hit {
@@ -181,8 +188,12 @@ impl Store {
         conn.pragma_update(None, "synchronous", "NORMAL")?;
         conn.busy_timeout(std::time::Duration::from_millis(2_000))?;
         let version: i32 = conn.pragma_query_value(None, "user_version", |r| r.get(0))?;
-        if version == 0 || version == 1 {
+        if version == 0 {
             conn.execute_batch(SCHEMA)?;
+            conn.pragma_update(None, "user_version", SCHEMA_VERSION)?;
+        } else if version < SCHEMA_VERSION {
+            conn.execute_batch(SCHEMA)?;
+            rebuild_fts(&conn)?;
             conn.pragma_update(None, "user_version", SCHEMA_VERSION)?;
         } else if version != SCHEMA_VERSION {
             return Err(Error::Invalid(format!(
@@ -572,13 +583,20 @@ impl Store {
         self.conn.execute(
             "INSERT INTO items_fts(rowid, title, summary, body, said_by, source)
              VALUES (?1, ?2, ?3, ?4, ?5, ?6)",
-            params![rowid, title, summary, body, said_by, source],
+            params![
+                rowid,
+                fts_field(title),
+                fts_field(summary),
+                fts_field(body),
+                fts_field(said_by),
+                fts_field(source),
+            ],
         )?;
         Ok(())
     }
 
     fn lexical_ids(&self, query: &str) -> Result<Vec<String>> {
-        let Some(match_q) = fts_match_query(query) else {
+        let Some(match_q) = self.planned_match(query)? else {
             return Ok(Vec::new());
         };
         let mut stmt = self.conn.prepare(
@@ -586,7 +604,7 @@ impl Store {
              FROM items_fts
              JOIN items ON items.rowid = items_fts.rowid
              WHERE items_fts MATCH ?1 AND items.marked = 0
-             ORDER BY bm25(items_fts)
+             ORDER BY rank
              LIMIT ?2",
         )?;
         let rows = stmt.query_map(params![match_q, POOL as i64], |row| row.get::<_, String>(0))?;
@@ -595,6 +613,64 @@ impl Store {
             out.push(row?);
         }
         Ok(out)
+    }
+
+    /// Keep the rare terms. A term in more than 1/50 of a large diary is
+    /// dropped: its IDF is too small to be worth a full postings scan.
+    fn planned_match(&self, query: &str) -> Result<Option<String>> {
+        let mut terms: Vec<String> = index_tokens(query);
+        terms.sort();
+        terms.dedup();
+        if terms.is_empty() {
+            return Ok(None);
+        }
+        let n = self.arena.len() as i64;
+        let cap = df_cap(n);
+        let mut ranked: Vec<(i64, String)> = Vec::new();
+        for term in terms {
+            if is_stopword(&term) {
+                continue;
+            }
+            let df = self.doc_freq(&term)?;
+            if df == 0 || (cap > 0 && df > cap) {
+                continue;
+            }
+            ranked.push((df, term));
+        }
+        ranked.sort_by(|a, b| a.0.cmp(&b.0).then_with(|| a.1.cmp(&b.1)));
+        let mut kept = Vec::new();
+        let mut budget = if cap == 0 { i64::MAX } else { cap };
+        for (df, term) in ranked {
+            if !kept.is_empty() && df > budget {
+                break;
+            }
+            budget = budget.saturating_sub(df);
+            kept.push(term);
+            if kept.len() == MAX_LEXICAL_TERMS {
+                break;
+            }
+        }
+        if kept.is_empty() {
+            return Ok(None);
+        }
+        Ok(Some(
+            kept.into_iter()
+                .map(|t| format!("\"{t}\""))
+                .collect::<Vec<_>>()
+                .join(" OR "),
+        ))
+    }
+
+    fn doc_freq(&self, term: &str) -> Result<i64> {
+        let df = self
+            .conn
+            .query_row(
+                "SELECT doc FROM items_fts_vocab WHERE term = ?1",
+                params![term],
+                |row| row.get(0),
+            )
+            .optional()?;
+        Ok(df.unwrap_or(0))
     }
 
     fn dense_ids(&self, query: &str) -> Vec<String> {
@@ -825,6 +901,65 @@ impl Store {
             .query_row("SELECT v FROM meta WHERE k = 'seq'", [], |r| r.get(0))?;
         Ok(format!("{prefix}-{n}"))
     }
+}
+
+fn fts_field(raw: &str) -> String {
+    index_tokens(raw).join(" ")
+}
+
+/// `0` means "do not drop terms for frequency" (a tiny diary).
+fn df_cap(n: i64) -> i64 {
+    if n < DF_PLAN_MIN_ROWS {
+        0
+    } else {
+        (n / DF_FRACTION_DEN).max(64)
+    }
+}
+
+fn rebuild_fts(conn: &Connection) -> Result<()> {
+    conn.execute_batch(
+        "DROP TABLE IF EXISTS items_fts_vocab;
+         DROP TABLE IF EXISTS items_fts;
+         CREATE VIRTUAL TABLE items_fts USING fts5(
+            title, summary, body, said_by, source,
+            tokenize = 'unicode61'
+         );
+         CREATE VIRTUAL TABLE items_fts_vocab USING fts5vocab(items_fts, 'row');",
+    )?;
+    let mut stmt = conn.prepare(
+        "SELECT rowid, title, summary, body, said_by, source
+         FROM items WHERE marked = 0",
+    )?;
+    let rows = stmt.query_map([], |row| {
+        Ok((
+            row.get::<_, i64>(0)?,
+            row.get::<_, String>(1)?,
+            row.get::<_, String>(2)?,
+            row.get::<_, String>(3)?,
+            row.get::<_, String>(4)?,
+            row.get::<_, String>(5)?,
+        ))
+    })?;
+    let mut pending = Vec::new();
+    for row in rows {
+        pending.push(row?);
+    }
+    drop(stmt);
+    for (rowid, title, summary, body, said_by, source) in pending {
+        conn.execute(
+            "INSERT INTO items_fts(rowid, title, summary, body, said_by, source)
+             VALUES (?1, ?2, ?3, ?4, ?5, ?6)",
+            params![
+                rowid,
+                fts_field(&title),
+                fts_field(&summary),
+                fts_field(&body),
+                fts_field(&said_by),
+                fts_field(&source),
+            ],
+        )?;
+    }
+    Ok(())
 }
 
 fn as_blob(emb: &Int8Vec) -> Vec<u8> {

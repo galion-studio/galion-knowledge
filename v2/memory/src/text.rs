@@ -30,18 +30,99 @@ fn push_token(out: &mut Vec<String>, cur: &mut String) {
     }
 }
 
-/// FTS5 MATCH string. `None` when the query has no usable token.
-pub fn fts_match_query(raw: &str) -> Option<String> {
-    let toks = tokens(raw);
-    if toks.is_empty() {
-        return None;
-    }
-    let parts: Vec<String> = toks
+/// English function words. Dropped from the FTS index and from queries.
+/// A term in every row has no IDF, and scoring its postings list is the
+/// broad-query cost this crate has to stay under.
+pub fn is_stopword(term: &str) -> bool {
+    matches!(
+        term,
+        "a" | "an"
+            | "the"
+            | "and"
+            | "or"
+            | "of"
+            | "to"
+            | "in"
+            | "on"
+            | "for"
+            | "with"
+            | "at"
+            | "by"
+            | "from"
+            | "as"
+            | "is"
+            | "are"
+            | "was"
+            | "were"
+            | "be"
+            | "been"
+            | "being"
+            | "it"
+            | "its"
+            | "this"
+            | "that"
+            | "these"
+            | "those"
+            | "not"
+            | "but"
+            | "if"
+            | "into"
+            | "than"
+            | "then"
+            | "so"
+            | "such"
+            | "no"
+            | "nor"
+            | "too"
+            | "very"
+            | "can"
+            | "will"
+            | "just"
+            | "about"
+            | "over"
+            | "after"
+            | "before"
+            | "between"
+            | "out"
+            | "up"
+            | "down"
+            | "off"
+            | "own"
+            | "same"
+            | "other"
+            | "which"
+            | "who"
+            | "whom"
+            | "what"
+            | "when"
+            | "where"
+            | "how"
+            | "all"
+            | "any"
+            | "both"
+            | "each"
+            | "few"
+            | "more"
+            | "most"
+            | "some"
+            | "only"
+            | "do"
+            | "does"
+            | "did"
+            | "doing"
+            | "have"
+            | "has"
+            | "had"
+            | "having"
+    )
+}
+
+/// Tokens written into FTS. Stopwords are removed so they have no postings.
+pub fn index_tokens(raw: &str) -> Vec<String> {
+    tokens(raw)
         .into_iter()
-        .take(32)
-        .map(|t| format!("\"{t}\""))
-        .collect();
-    Some(parts.join(" OR "))
+        .filter(|t| !is_stopword(t))
+        .collect()
 }
 
 #[cfg(test)]
@@ -49,11 +130,9 @@ mod tests {
     use super::*;
 
     #[test]
-    fn quotes_and_joins() {
-        assert_eq!(
-            fts_match_query("Hello, BM25!").as_deref(),
-            Some("\"hello\" OR \"bm25\"")
-        );
-        assert_eq!(fts_match_query("  ,,, "), None);
+    fn drops_stopwords_before_the_index() {
+        assert_eq!(index_tokens("Hello, BM25!"), vec!["hello", "bm25"]);
+        assert!(index_tokens("  ,,, ").is_empty());
+        assert_eq!(index_tokens("the wall"), vec!["wall"]);
     }
 }

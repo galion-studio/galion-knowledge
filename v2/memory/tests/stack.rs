@@ -158,6 +158,25 @@ fn mark_hides_and_forget_archives() {
 }
 
 #[test]
+fn a_term_in_every_row_stays_off_the_postings_scan() {
+    let mut store = Store::open_in_memory().unwrap();
+    let mut cards = Vec::new();
+    for i in 0..80 {
+        cards.push(card(
+            &format!("c{i}"),
+            &format!("sample note uniq{i}"),
+            "sample",
+        ));
+    }
+    store.upsert_cards(&cards).unwrap();
+    let common = store.search("sample").unwrap();
+    assert!(!common.hits.is_empty());
+    assert!(common.hits.len() <= MAX_HITS);
+    let rare = store.search("uniq3").unwrap();
+    assert_eq!(rare.hits[0].item_id, "c3");
+}
+
+#[test]
 fn archived_row_survives_reopen() {
     let dir = std::env::temp_dir().join(format!("horbm-archive-{}", std::process::id()));
     let _ = std::fs::remove_dir_all(&dir);

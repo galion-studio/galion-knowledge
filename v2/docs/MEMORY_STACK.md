@@ -26,7 +26,7 @@ A knowledge card whose `section` is `diary` is still a semantic row. It is a pub
 
 One search does three things and publishes at most four hits.
 
-1. **BM25.** SQLite FTS5 (`rusqlite` with the bundled SQLite, which includes FTS5). The tokenizer is `porter unicode61`. The query is up to 32 quoted tokens joined with `OR`. `bm25()` orders the matches. The internal pool is 32.
+1. **BM25.** SQLite FTS5 (`rusqlite` with the bundled SQLite, which includes FTS5). The tokenizer is `unicode61`, so a query token is the indexed term. A short English stopword list is removed at index time and at query time. On a diary of at least 64 rows, a term in more than 1/50 of the rows is not sent to FTS: its IDF is too small to pay for a full postings scan. The remaining terms go rarest-first, at most 8, and their document frequencies share one posting budget of that same cap. FTS5 returns them with `ORDER BY rank LIMIT 32`. A query that is only a stopword or a near-universal term has no lexical leg; the int8 scan still runs.
 2. **Int8 vector.** Each row has one 256-dimensional vector, symmetric int8, one scale, stored as a blob and scanned from a contiguous in-memory arena. The vector is feature hashing (a token adds a signed count into two buckets), L2-normalised, then quantized. It is not a neural embedding. R1's hot-path class is a static table; this is that shape without vendoring a model. `fastembed` and `candle` are not dependencies. R1 records that `fastembed` pulls `ort`, and `LOCKS.toml` in the voice repo forbids `ort` and `candle` on the shipped voice path. On x86-64 the dot product uses AVX2 when the CPU has it, and a scalar loop otherwise.
 3. **Fusion.** Reciprocal rank fusion, `1/(60+rank)`, across the BM25 list, the vector list, and a token-overlap list of the RAM ring. Cormack, Clarke, and Büttcher, SIGIR 2009, is the method. `k = 60` is the constant the voice V2 plan already used. The score on a hit is the fused score, not a probability.
 
@@ -106,13 +106,13 @@ Machine: Intel Xeon, 4 logical CPUs, x86_64, AVX2, rustc 1.83.0, this crate's re
 
 | Corpus | Queries | Selective p50 | Selective p95 | Selective max | Broad p50 | Broad p95 | Broad max |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| 5 fixture cards | 200 | 27 µs | 30 µs | 38 µs | 33 µs | 37 µs | 85 µs |
-| 2,005 (5 + 2,000 generated) | 200 | 65 µs | 82 µs | 111 µs | 911 µs | 1,009 µs | 1,107 µs |
-| 10,005 | 200 | 194 µs | 222 µs | 289 µs | 5,568 µs | 5,704 µs | 9,600 µs |
-| 20,005 | 100 | 319 µs | 350 µs | 387 µs | 11,145 µs | 11,272 µs | 11,411 µs |
-| 100,005 | 40 | 1,274 µs | 1,400 µs | 1,432 µs | 54,841 µs | 55,465 µs | 55,893 µs |
+| 5 fixture cards | 200 | 36 µs | 48 µs | 56 µs | 20 µs | 27 µs | 32 µs |
+| 2,005 (5 + 2,000 generated) | 200 | 69 µs | 80 µs | 104 µs | 99 µs | 109 µs | 143 µs |
+| 10,005 | 200 | 204 µs | 229 µs | 250 µs | 390 µs | 427 µs | 461 µs |
+| 20,005 | 100 | 296 µs | 341 µs | 360 µs | 708 µs | 776 µs | 826 µs |
+| 100,005 | 40 | 1,142 µs | 1,228 µs | 1,240 µs | 3,303 µs | 3,367 µs | 3,371 µs |
 
-The 5 ms p95 target from R1 holds on this machine for a rare token through 100,005 rows (p95 1,400 µs). It holds for a token that hits every generated row at 2,005 rows (p95 1,009 µs) and misses at 10,005 rows (p95 5,704 µs). The broad cost is FTS5 scoring a postings list that contains every generated card. The int8 scan is no longer the slow leg on the rare-token queries.
+The 5 ms p95 target holds on this machine for a rare token through 100,005 rows (p95 1,228 µs) and for a token present in every generated row (p95 3,367 µs). `sample` is above the 1/50 document-frequency cap, so that broad query does not scan the FTS postings list. The time is the int8 scan plus fusion. The earlier run, before this planner, measured that same broad query at 5,704 µs p95 on 10,005 rows and 55,465 µs p95 on 100,005 rows. Spot checks still returned `robertson-bm25` and `sample-0`.
 
 Debug `cargo test` is not this table. Debug is slower, and the tests do not assert a millisecond budget.
 
@@ -120,7 +120,7 @@ Debug `cargo test` is not this table. Debug is slower, and the tests do not asse
 
 1. **S1 schema.** `v2/data/SCHEMA.md` was not published when this parser was written. If S1 renames a required field, ingest needs a matching change. Unknown keys are already ignored.
 2. **Neural table.** R1's preferred dense leg is a static Model2Vec-class table (256-d, MIT software), rewritten as a tokenizer plus a matrix, not `fastembed` (it pulls `ort`) and not `candle` (locked out of the voice binary). This crate uses feature hashing so it builds with no model download. Recall of the hashing vectors on Galion dialogue was not measured. Swapping the `HashingEmbedder` for a vendored table is the upgrade, after the checkpoint licence is confirmed (R1 open question 6).
-3. **Broad FTS5.** On this machine a token present in every row is over 5 ms p95 at 10,005 cards (5,704 µs) and about 55 ms p95 at 100,005. A rare token stays under 5 ms at 100,005 (1,400 µs) with the AVX2 scan. R1's 100,000-card estimate was not a claim that every query is that fast. An ANN index is still the wrong next step for the rare-token leg. The broad leg needs a cheaper way to score a postings list that hits most of the diary. Not built.
+3. **A term just under the frequency cap.** The planner refuses a term in more than 1/50 of a large diary. A term at that boundary still asks FTS5 to score those postings. That boundary was not timed on its own. Tantivy was not added. The measured broad query, a term in every generated row, is under 5 ms p95 at 100,005 rows because it never reaches FTS.
 4. **`share` and persona scope.** R3 asks whether one consent bit covers both the feeling stream and cross-persona reads. This index has no persona filter. World and HORBM cards are both searchable.
 5. **Decay.** No strength, no time decay, no simhash merge. R3 wants those as a background job with an owner-set exponent. Not built.
 6. **CJK.** Tokens are alphanumeric runs. A string of CJK with no spaces is one token. `openmind-memory` splits those into n-grams. This crate does not.
