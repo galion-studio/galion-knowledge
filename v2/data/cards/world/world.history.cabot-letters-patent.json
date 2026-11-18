@@ -1,0 +1,34 @@
+{
+  "id": "world.history.cabot-letters-patent",
+  "title": "Henry VII's letters patent authorize John Cabot and his sons to sail",
+  "section": "world",
+  "category": "history",
+  "summary": "Henry VII's patent authorizes John Cabot and his sons to sail to lands unknown to Christians.",
+  "body": "Avalon prints Henry VII's letters patent to John Cabot and his sons, authorizing a voyage to lands unknown to Christians. The patent is an English claim. It is not a description of the coast from the people who lived there. The wording on the page includes: \"John and Sebastian Cabot (1896.) pp. 393, 394. In English- Harrise Jean and Sebastian Cabot. (Paris, 1882.) pp. 327 328. Riddle Richard. A Memoir of Sebastian Cabot. (Phila., 1831) pp. 74, 75. Beazley John and Sebastian Cabot. pp. 95, 96. (1) Richard Hakluyt, Principale Navigations, (1509). Back Source: The Federal and State Constitutions Colonial\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Letters patent of Henry VII to John Cabot and his sons",
+      "url": "https://avalon.law.yale.edu/15th_century/cabot01.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1496",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Letters patent of Henry VII, Avalon Project",
+  "as_of_date": "1496",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.columbus-1492-privileges"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "england",
+    "early-modern",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

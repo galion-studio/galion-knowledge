@@ -1,0 +1,34 @@
+{
+  "id": "world.history.chinese-exclusion-1882",
+  "title": "The 1882 act suspends the coming of Chinese laborers",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1882 Chinese Exclusion Act suspends the immigration of Chinese laborers.",
+  "body": "The 1882 statute, as Avalon prints it, suspends the coming of Chinese laborers to the United States for a stated term. The act is a racial labor exclusion. It is the statute's text, not a count of people turned away. The wording on the page includes: \"marks or peculiarities, and all facts necessary for the identification of each of such Chinese laborers, which books shall be safely kept in the custom-house; and every such Chinese laborer so departing from the United States shall be entitled to, and shall receive, free of any charge or cost upon application therefor, from the collector or his deputy, at the\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Chinese Exclusion Act, 6 May 1882",
+      "url": "https://avalon.law.yale.edu/19th_century/chinese_exclusion_act.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1882-05-06",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Congress, Avalon Project",
+  "as_of_date": "1882",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.homestead-160-acres"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "china",
+    "nineteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

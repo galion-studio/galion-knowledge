@@ -1,0 +1,33 @@
+{
+  "id": "world.religion.quran-fasting-prescribed",
+  "title": "Quran 2:183 in Sahih International prescribes fasting",
+  "section": "world",
+  "category": "religion",
+  "summary": "Sahih International of Quran 2:183 says fasting is prescribed.",
+  "body": "Sahih International of Quran 2:183 says fasting is prescribed, as it was prescribed for those before. The verse is one Quranic basis for the fast. Details of the month and exemptions are in neighboring verses not quoted here. The wording on the page includes: \"O you who have believed, decreed upon you is fasting as it was decreed upon those before you that you may become righteous -\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Quran 2:183, Sahih International",
+      "url": "https://api.alquran.cloud/v1/ayah/2:183/editions/en.sahih",
+      "author": "Sahih International, via alquran.cloud",
+      "date": "Quran",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Quran 2:183, Sahih International",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.hadith-bukhari-fasting"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "quran",
+    "fasting"
+  ],
+  "read_time_min": 1
+}

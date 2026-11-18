@@ -1,0 +1,34 @@
+{
+  "id": "world.history.algiers-1815",
+  "title": "The 1815 treaty with Algiers is a peace signed after the Barbary war",
+  "section": "world",
+  "category": "history",
+  "summary": "The United States and Algiers signed a treaty of peace in June and July 1815.",
+  "body": "Avalon prints a treaty of peace with Algiers signed 30 June and 3 July 1815. It is a later Barbary treaty, distinct from the 1796 Tripoli text and the 1786 Morocco text. The wording on the page includes: \"under any other form or name whatever, shall ever be required by the Dey and Regency of Algiers from the United States of America on any pretext whatever. ARTICLE 3rd The Dey of Algiers shall cause to be immediately delivered up to the American Squadron now off Algiers all the American Citizens now in his possession, amounting to ten more or less, and\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of peace with Algiers, 30 June and 3 July 1815",
+      "url": "https://avalon.law.yale.edu/19th_century/bar1815t.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1815",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Treaty with Algiers, Avalon Project",
+  "as_of_date": "1815",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.tripoli-1796-religion-clause",
+    "world.history.morocco-1786"
+  ],
+  "tags": [
+    "history",
+    "africa",
+    "nineteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

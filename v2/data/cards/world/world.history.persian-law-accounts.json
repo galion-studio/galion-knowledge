@@ -1,0 +1,32 @@
+{
+  "id": "world.history.persian-law-accounts",
+  "title": "Fordham's Persian page is a set of Greek accounts of Persian rule, not a Persian law code",
+  "section": "world",
+  "category": "history",
+  "summary": "Fordham's Persian law page is a collection of outside accounts, titled with the word despotism.",
+  "body": "Fordham titles its page Accounts of Persian Despotism and Law. The word despotism in the title is the sourcebook's frame. The page collects outside accounts. It is not the Behistun inscription and not a Persian code opened in Old Persian. The wording on the page includes: \"summoned Carshena, Shethar, Admatha, Tarshish, Meres, Marsena, and Memucan, the seven Persian and Median officials who were in the king's personal service and held first rank in the realm, and asked them, \"What is to be done by law with Queen Vashti for disobeying the order of King Ahasuerus issued through the eunuchs?\" In the presence of the king\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Accounts of Persian Despotism and Law",
+      "url": "https://sourcebooks.fordham.edu/ancient/persianlaw.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "classical Greek reports",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Fordham ancient sourcebook",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.sennacherib-accounts"
+  ],
+  "tags": [
+    "history",
+    "persia",
+    "ancient"
+  ],
+  "read_time_min": 1
+}

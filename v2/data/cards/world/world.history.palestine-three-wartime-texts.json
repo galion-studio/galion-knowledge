@@ -1,0 +1,65 @@
+{
+  "id": "world.history.palestine-three-wartime-texts",
+  "title": "McMahon, Sykes-Picot, and Balfour are three different British texts about the same region",
+  "section": "world",
+  "category": "history",
+  "summary": "The McMahon letter, Sykes-Picot, and the Balfour Declaration make different promises about Arab Asia and Palestine.",
+  "body": "Three documents, all opened, do not say the same thing. McMahon writes of British support for an independent Arab state, with a reservation for France. Sykes-Picot marks a blue zone for France and a red zone for Britain. Balfour favors a Jewish national home in Palestine and names the civil and religious rights of existing non-Jewish communities. Later Arab, British, and Zionist arguments each cite one of these texts. This card does not decide which promise was binding. The wording on the page includes: \"The following excerpt is from a letter from October 24, 1915. The implied promise is of British support of an independent Arab state. As for those regions lying within those frontiers wherein Great Britain is free to act without detriment to the interests of her ally, France, I am empowered in the name of the Government of Great Britain to give the following assurances and make the\". A further page states: \"functionaries at the request of the Arab state or confederation of Arab states. That in the blue area France, and in the red area Great Britain, shall be allowed to establish such direct or indirect administration or control as they desire and as they may think fit to arrange with the Arab state or confederation of Arab states. That in the brown area there shall\". A further page states: \"Cabinet. \"His Majesty's Government view with favour the establishment in Palestine of a national home for the Jewish people, and will use their best endeavours to facilitate the achievement of this object, it being clearly understood that nothing shall be done which may prejudice the civil and religious rights of existing non-Jewish communities in Palestine, or the rights and\".",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "McMahon letter",
+      "url": "https://sourcebooks.fordham.edu/halsall/mod/1915mcmahon.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1915-10-24",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Sykes-Picot Agreement",
+      "url": "https://avalon.law.yale.edu/20th_century/sykes.asp",
+      "author": "Avalon Project",
+      "date": "1916",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Balfour Declaration",
+      "url": "https://avalon.law.yale.edu/20th_century/balfour.asp",
+      "author": "Avalon Project",
+      "date": "1917-11-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "McMahon letter; Sykes-Picot agreement; Balfour Declaration",
+  "as_of_date": "1917",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "McMahon, 1915",
+      "summary": "British support for an independent Arab state, where France's interests do not block it.",
+      "status": "text of the letter"
+    },
+    {
+      "label": "Sykes-Picot, 1916",
+      "summary": "France in the blue zone and Britain in the red zone may establish control, arranged with an Arab state.",
+      "status": "text of the agreement"
+    },
+    {
+      "label": "Balfour, 1917",
+      "summary": "A Jewish national home in Palestine, without prejudice to the civil and religious rights of existing non-Jewish communities.",
+      "status": "text of the declaration"
+    }
+  ],
+  "related": [
+    "world.history.mcmahon-arab-independence",
+    "world.history.sykes-picot-zones",
+    "world.history.balfour-national-home"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "contested"
+  ],
+  "read_time_min": 1
+}

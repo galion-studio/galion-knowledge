@@ -1,0 +1,34 @@
+{
+  "id": "world.history.gadsden-1853",
+  "title": "The Gadsden treaty of 1853 is a further boundary agreement with Mexico",
+  "section": "world",
+  "category": "history",
+  "summary": "The 30 December 1853 Gadsden treaty is a later United States-Mexico boundary agreement.",
+  "body": "Avalon prints the treaty of 30 December 1853 known as the Gadsden Purchase, a boundary and purchase agreement between the United States and Mexico after Guadalupe Hidalgo. It is a second territorial instrument, not the 1848 treaty. The wording on the page includes: \"of the Mexican republic, and the seventy-eighth of that of the United States. JAMES GADSDEN, MANUEL DIEZ DE BONILLA JOSE SALAZAR YLARBEGUI J. MARIANO MONTERDE, And whereas the said treaty, as amended, has been duly ratified on both parts, and the respective ratifications of the same have this day been exchanged at Washington, by WILLIAM L. MARCY\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Gadsden Purchase treaty, 30 December 1853",
+      "url": "https://avalon.law.yale.edu/19th_century/mx1853.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1853-12-30",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Gadsden Purchase treaty, Avalon Project",
+  "as_of_date": "1853",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.guadalupe-hidalgo-rio-grande"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "mexico",
+    "nineteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

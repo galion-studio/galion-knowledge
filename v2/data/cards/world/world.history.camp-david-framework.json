@@ -1,0 +1,34 @@
+{
+  "id": "world.history.camp-david-framework",
+  "title": "The Camp David accords are a framework signed by Sadat and Begin",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1978 Camp David framework is an Egypt-Israel text negotiated with Carter.",
+  "body": "Avalon prints the Framework for Peace in the Middle East, signed after Sadat and Begin met Carter at Camp David. The framework is a negotiated text between Egypt and Israel, with the United States as host. It is not a treaty with the Palestine Liberation Organization. The wording on the page includes: \"at Camp David from September 5 to September 17, 1978, and have agreed on the following framework for peace in the Middle East. They invite other parties to the Arab-Israel conflict to adhere to it. Preamble The search for peace in the Middle East must be guided by the following: The agreed basis for a peaceful settlement of the conflict between Israel and its neighbors is United\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Camp David Accords, 17 September 1978",
+      "url": "https://avalon.law.yale.edu/20th_century/campdav.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1978-09-17",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Anwar al-Sadat and Menachem Begin, Avalon Project",
+  "as_of_date": "1978",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.oslo-mutual-recognition",
+    "world.history.jordan-peace-1994"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

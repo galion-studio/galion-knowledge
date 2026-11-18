@@ -1,0 +1,31 @@
+{
+  "id": "world.history.rhodesia-udi-1965",
+  "title": "Ian Smith's 11 November 1965 statement announces Rhodesia's unilateral declaration",
+  "section": "world",
+  "category": "history",
+  "summary": "On 11 November 1965 Ian Smith announced Rhodesia's unilateral declaration of independence.",
+  "body": "Fordham prints Ian Smith's announcement of a unilateral declaration of independence on 11 November 1965. The page is the Rhodesian government's announcement. It is not the British government's refusal, which is a different instrument. The wording on the page includes: \"The Situation in Southern Rhodesia, November 15, 1965 Prime Minister Ian Smith: Announcement of Unilateral Declaration of Independence, November 11, 1965 Now I would like to say a few words to you. Today, now that the final stalemate in negotiations has become evident, the end of the road has been reached. It has become abundantly clear that it is the policy of the British Government to\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Rhodesia unilateral declaration documents",
+      "url": "https://sourcebooks.fordham.edu/mod/1965Rhodesia-UDI.asp",
+      "author": "Ian Smith, Fordham text",
+      "date": "1965-11-11",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Ian Smith, Fordham text",
+  "as_of_date": "1965",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "history",
+    "africa",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

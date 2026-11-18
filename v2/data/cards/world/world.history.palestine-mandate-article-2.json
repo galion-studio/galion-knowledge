@@ -1,0 +1,35 @@
+{
+  "id": "world.history.palestine-mandate-article-2",
+  "title": "The Palestine Mandate makes the mandatory responsible for the Jewish national home and for the civil and religious rights of all inhabitants",
+  "section": "world",
+  "category": "history",
+  "summary": "The Palestine Mandate charges Britain with both the Jewish national home and the civil and religious rights of all inhabitants.",
+  "body": "Article 2 of the Palestine Mandate says the mandatory shall place the country under conditions that will secure the Jewish national home, as laid down in the preamble, and the development of self-governing institutions, and also safeguard the civil and religious rights of all the inhabitants, irrespective of race and religion. The mandate incorporates the Balfour policy into a League instrument. The wording on the page includes: \"down in the preamble, and the development of self-governing institutions, and also for safeguarding the civil and religious rights of all the inhabitants of Palestine, irrespective of race and religion. ART. 3. The Mandatory shall, so far as circumstances permit, encourage local autonomy. ART. 4. An appropriate Jewish agency shall be recognised as a public body for the purpose of advising and co-operating with the Administration of Palestine in such\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Palestine Mandate, 24 July 1922",
+      "url": "https://avalon.law.yale.edu/20th_century/palmanda.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1922-07-24",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "League of Nations Mandate for Palestine, Avalon Project",
+  "as_of_date": "1922",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.balfour-national-home",
+    "world.history.white-paper-1922",
+    "world.unga-181"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

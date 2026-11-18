@@ -1,0 +1,34 @@
+{
+  "id": "world.history.franco-russian-1892",
+  "title": "The 1892 Franco-Russian military convention says it is for a defensive war against the Triple Alliance",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1892 Franco-Russian convention describes itself as a defense against a Triple Alliance attack.",
+  "body": "The 1892 military convention says France and Russia have no other object than to meet the necessities of a defensive war provoked by an attack of the Triple Alliance against either of them. The text calls itself defensive. Whether the mobilization clauses later worked that way is a separate question, already argued for 1914 on another card. The wording on the page includes: \"desire to preserve peace, and having no other object than to meet the necessities of a defensive war, provoked by an attack of the forces of the Triple Alliance against either of them, have agreed upon the following provisions: 1. If France is attacked by Germany, or by Italy supported by Germany, Russia shall employ all her available forces to attack Germany. If Russia is attacked by Germany, or by Austria\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Franco-Russian military convention, 18 August 1892",
+      "url": "https://avalon.law.yale.edu/19th_century/frrumil.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1892-08-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "France and Russia, Avalon Project",
+  "as_of_date": "1892",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.dual-alliance-1879",
+    "world.history.first-world-war-responsibility"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "nineteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

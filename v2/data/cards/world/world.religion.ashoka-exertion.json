@@ -1,0 +1,36 @@
+{
+  "id": "world.religion.ashoka-exertion",
+  "title": "An Ashokan rock edict, in this English, says the king joined the order and exerted himself",
+  "section": "world",
+  "category": "religion",
+  "summary": "This English of an Ashokan edict says the king was a lay disciple and then joined the order and exerted himself.",
+  "body": "This English of an Ashokan edict has the king say he was a lay disciple for more than two and a half years without strenuous exertion, and that for more than a year he has joined the order and exerted himself. The edict is a royal inscription about practice. It is not a sutta of the Buddha. The wording on the page includes: \"following are some of them. The Fruit of Exertion THUS saith His Sacred Majesty: --- For more than two-and-a-half years I was a lay disciple, without, however, exerting myself strenuously. But it is more than a year since I joined the Order, and have exerted myself strenuously. During that time the gods who were regarded as true all over India have been shown to be untrue. For this is the fruit\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Rock Edicts",
+      "url": "https://sourcebooks.fordham.edu/india/ashoka-edicts.html",
+      "author": "English translation hosted by Fordham",
+      "date": "edicts of Ashoka, Mauryan period",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Ashokan rock edict, English on the Fordham Indian History Sourcebook",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.philosophy.four-noble-truths",
+    "world.buddha-sep",
+    "world.religion.buddha-life-fordham-summary"
+  ],
+  "tags": [
+    "religion",
+    "buddhism",
+    "ashoka",
+    "edict",
+    "south-asia"
+  ],
+  "read_time_min": 1
+}

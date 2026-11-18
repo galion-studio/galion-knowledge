@@ -1,0 +1,34 @@
+{
+  "id": "world.history.ghent-1814",
+  "title": "The Treaty of Ghent is a peace ending the war between Britain and the United States",
+  "section": "world",
+  "category": "history",
+  "summary": "The Treaty of Ghent of 24 December 1814 is the peace that ends the War of 1812.",
+  "body": "The Treaty of Ghent says the two countries, desirous of terminating the war which has unhappily subsisted between them, make peace. The treaty restores peace. It does not, in this opening, award either side a conquest. The wording on the page includes: \"States of America. His Britannic Majesty and the United States of America desirous of terminating the war which has unhappily subsisted between the two Countries, and of restoring upon principles of perfect reciprocity, Peace, Friendship, and good Understanding between them, have for that purpose appointed their respective Plenipotentiaries, that is to say, His Britannic Majesty on His part\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of Ghent, 24 December 1814",
+      "url": "https://avalon.law.yale.edu/19th_century/ghent.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1814-12-24",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Treaty of Ghent, Avalon Project",
+  "as_of_date": "1814",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.monroe-no-colonization"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "britain",
+    "nineteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

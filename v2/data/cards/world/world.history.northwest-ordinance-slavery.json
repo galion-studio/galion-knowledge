@@ -1,0 +1,36 @@
+{
+  "id": "world.history.northwest-ordinance-slavery",
+  "title": "The Northwest Ordinance forbids slavery in the territory except as criminal punishment",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1787 Northwest Ordinance bans slavery in the territory, with a fugitive proviso.",
+  "body": "Article 6 of the Northwest Ordinance says there shall be neither slavery nor involuntary servitude in the said territory, otherwise than in punishment of crimes of which the party shall have been duly convicted. A proviso requires the return of people escaping from labor owed elsewhere. The ban is territorial. It did not free enslaved people in the states. The wording on the page includes: \"may be a less number of free inhabitants in the State than sixty thousand. Art. 6. There shall be neither slavery nor involuntary servitude in the said territory, otherwise than in the punishment of crimes whereof the party shall have been duly convicted: Provided, always, That any person escaping into the same, from whom labor or service is lawfully claimed in any one of the original States, such fugitive may be\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Northwest Ordinance, 13 July 1787",
+      "url": "https://avalon.law.yale.edu/18th_century/nworder.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1787-07-13",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Northwest Ordinance, Avalon Project",
+  "as_of_date": "1787",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.articles-confederation-league",
+    "world.emancipation-1863",
+    "world.thirteenth-amendment"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "slavery",
+    "eighteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

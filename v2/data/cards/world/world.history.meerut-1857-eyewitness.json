@@ -1,0 +1,31 @@
+{
+  "id": "world.history.meerut-1857-eyewitness",
+  "title": "Greathed's account dates the opening of the Meerut rising to Sunday 10 May",
+  "section": "world",
+  "category": "history",
+  "summary": "A British account dates a quiet morning at Meerut to Sunday 10 May 1857, before the rising.",
+  "body": "Greathed's account says Sunday 10 May dawned in peace and that the day passed with no thought of danger. The page is one British officer's narrative of the opening at Meerut. It is not a sepoy's account. The wording on the page includes: \"Elisa Greathed: An Account of the Opening of the Indian Mutiny at Meerut, 1857 Sunday, the 10th of May, dawned in peace and happiness. The early morning service, at the Cantoment Church, saw many assembled together, some never to meet on earth again. The day passed in quiet happiness; no thought of danger disturbed the serenity of that happy home. Alas! how differently\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Account of the opening of the Indian rising at Meerut",
+      "url": "https://sourcebooks.fordham.edu/halsall/mod/1857greathed.asp",
+      "author": "H. H. Greathed, Fordham text",
+      "date": "1857-05-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "H. H. Greathed, Fordham text",
+  "as_of_date": "1857",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "history",
+    "south-asia",
+    "nineteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

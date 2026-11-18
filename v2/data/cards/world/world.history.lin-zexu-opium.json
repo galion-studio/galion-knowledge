@@ -1,0 +1,33 @@
+{
+  "id": "world.history.lin-zexu-opium",
+  "title": "Lin Zexu's letter tells Queen Victoria that opium has poisoned the provinces",
+  "section": "world",
+  "category": "history",
+  "summary": "Lin Zexu's 1839 letter accuses opium importers of poisoning every Chinese province.",
+  "body": "Lin Zexu's letter, in Fordham's English, says some people, by introducing opium by stealth, have seduced the Chinese people and caused every province to overflow with that poison, and that they care not about injuring others. The letter is the Chinese commissioner's moral and legal case before the first Opium War. It is not the Treaty of Nanking, which came after the war. The wording on the page includes: \"are wheat and tares, good and bad; and of these latter are some, who, by means of introducing opium by stealth, have seduced our Chinese people, and caused every province of the land to overflow with that poison. These then know merely to advantage themselves, they care not about injuring others! This is a principle which heaven's Providence repugnates; and which\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Letter to Queen Victoria",
+      "url": "https://sourcebooks.fordham.edu/mod/1839lin2.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1839",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Lin Zexu, Fordham English",
+  "as_of_date": "1839",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.treaty-nanking"
+  ],
+  "tags": [
+    "history",
+    "china",
+    "nineteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

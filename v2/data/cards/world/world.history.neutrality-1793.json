@@ -1,0 +1,33 @@
+{
+  "id": "world.history.neutrality-1793",
+  "title": "Washington's 1793 proclamation says the United States will be friendly and impartial toward the belligerents",
+  "section": "world",
+  "category": "history",
+  "summary": "Washington's 1793 proclamation declares a friendly and impartial conduct toward the European belligerents.",
+  "body": "Washington's proclamation of 22 April 1793 says the United States will adopt a conduct friendly and impartial toward the belligerent powers. The proclamation is a policy in the wars of the French Revolution. It is not the later farewell address. The wording on the page includes: \"require, that they should with sincerity and good faith adopt and pursue a conduct friendly and impartial toward the belligerant Powers; I have therefore thought fit by these presents to declare the disposition of the United States to observe the conduct aforesaid towards those Powers respectfully; and to exhort and warn the citizens of the United States carefully to avoid all acts and\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Proclamation of Neutrality, 22 April 1793",
+      "url": "https://avalon.law.yale.edu/18th_century/neutra93.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1793-04-22",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "George Washington, Avalon Project",
+  "as_of_date": "1793",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.farewell-1796-foreign"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "eighteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

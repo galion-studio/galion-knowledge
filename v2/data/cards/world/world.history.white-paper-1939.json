@@ -1,0 +1,34 @@
+{
+  "id": "world.history.white-paper-1939",
+  "title": "The 1939 White Paper says an independent Palestine of separate Arab and Jewish states has been found impracticable",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1939 White Paper says separate independent Arab and Jewish states inside Palestine have been found impracticable.",
+  "body": "The 1939 White Paper says the establishment of self-supporting independent Arab and Jewish states within Palestine has been found impracticable, and that the government must devise another policy. The paper restricts the earlier mandate reading. Jewish and Arab leaders rejected it for opposite reasons; those rejections are not the paper's own sentence. The wording on the page includes: \"Commission would have afforded such clarity, but the establishment of self supporting independent Arab and Jewish States within Palestine has been found to be impracticable. It has therefore been necessary for His Majesty's Government to devise an alternative policy which will, consistent with their obligations to Arabs and Jews, meet the needs of the situation in Palestine. Their views and proposals are set forth below under\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "British White Paper of 1939",
+      "url": "https://avalon.law.yale.edu/20th_century/brwh1939.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1939",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "British government, Avalon Project",
+  "as_of_date": "1939",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.white-paper-1922",
+    "world.history.israel-declaration-1948"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

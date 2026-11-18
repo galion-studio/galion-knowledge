@@ -1,0 +1,33 @@
+{
+  "id": "world.history.antarctic-peaceful",
+  "title": "The Antarctic Treaty says Antarctica shall be used exclusively for peaceful purposes",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1959 Antarctic Treaty reserves Antarctica for peaceful purposes.",
+  "body": "The Antarctic Treaty says it is in the interest of all mankind that Antarctica shall continue forever to be used exclusively for peaceful purposes and shall not become the scene or object of international discord. The sentence is the treaty's purpose clause. The wording on the page includes: \"that it is in the interest of all mankind that Antarctica shall continue forever to be used exclusively for peaceful purposes and shall not become the scene or object of international discord; Acknowledge the substantial contributions to scientific knowledge resulting from international co-operation in scientific investigation in Antarctica; Convinced that the establishment of a\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Antarctic Treaty, 1 December 1959",
+      "url": "https://avalon.law.yale.edu/20th_century/usmu013.asp",
+      "author": "Antarctic Treaty, Avalon Project",
+      "date": "1959-12-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Antarctic Treaty, Avalon Project",
+  "as_of_date": "1959",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.outer-space-treaty-title"
+  ],
+  "tags": [
+    "history",
+    "global",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

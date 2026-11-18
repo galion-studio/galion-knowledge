@@ -1,0 +1,34 @@
+{
+  "id": "world.history.german-surrender-authority",
+  "title": "The 5 June 1945 declaration says the Allied powers assume supreme authority in Germany",
+  "section": "world",
+  "category": "history",
+  "summary": "On 5 June 1945 the Allies declare Germany defeated and assume supreme authority there.",
+  "body": "Avalon prints the 5 June 1945 declaration of the defeat of Germany and the assumption of supreme authority by the Allied powers. The declaration is the allies' assumption of authority after surrender. It is not the 8 May military surrender instrument and not the Japanese surrender. The wording on the page includes: \"Art 11 Art 12 Art 13 Art 14 Art 15 Declaration regarding the defeat of Germany and the assumption of supreme authority with respect to Germany by the Governments of the United States of America, the Union of Soviet Socialist Republics, the United Kingdom and the Provisional Government of the French Republic. The German armed forces on land, at sea and in the air have been\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Declaration regarding the defeat of Germany, 5 June 1945",
+      "url": "https://avalon.law.yale.edu/wwii/ger01.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1945-06-05",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Allied powers, Avalon Project",
+  "as_of_date": "1945",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.japan-surrender-1945",
+    "world.history.potsdam-oder-neisse"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

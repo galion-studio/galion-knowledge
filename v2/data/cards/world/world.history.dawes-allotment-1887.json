@@ -1,0 +1,34 @@
+{
+  "id": "world.history.dawes-allotment-1887",
+  "title": "The Dawes Act is a statute to allot reservation lands in severalty",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1887 Dawes Act allots reservation land to individual Indians and extends U.S. law over them.",
+  "body": "The Dawes Act's title, as Avalon prints it, is an act to provide for the allotment of lands in severalty to Indians on the various reservations and to extend the laws of the United States over them. The statute breaks communal reservations into individual parcels. It is a congressional act, not a treaty negotiated nation to nation like Fort Laramie. The wording on the page includes: \"1800 - 1899 20th Century 1900 - 1999 21st Century 2000 - An Act to Provide for the Allotment of Lands in Severalty to Indians on the Various Reservations, and to Extend the Protection of the Laws of the United States and the Territories over the Indians, and for Other Purposes. Be it enacted by the Senate and House of Representatives of the United States of America in Congress\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Dawes Act, 8 February 1887",
+      "url": "https://avalon.law.yale.edu/19th_century/dawes.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1887-02-08",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Congress, Avalon Project",
+  "as_of_date": "1887",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.fort-laramie-1868-bad-men"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "indigenous",
+    "nineteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

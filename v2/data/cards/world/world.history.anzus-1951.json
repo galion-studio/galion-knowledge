@@ -1,0 +1,33 @@
+{
+  "id": "world.history.anzus-1951",
+  "title": "The ANZUS treaty of 1 September 1951 joins the United States, Australia, and New Zealand",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1 September 1951 ANZUS treaty is a security treaty of the United States, Australia, and New Zealand.",
+  "body": "Avalon prints the security treaty of 1 September 1951 among the United States, Australia, and New Zealand. The parties are those three. It is not the Manila Pact and not the NATO treaty. The wording on the page includes: \"20th Century 1900 - 1999 21st Century 2000 - Security Treaty Between the United States, Australia, and New Zealand (ANZUS); September 1, 1951(1) Art 1 Art 2 Art 3 Art 4 Art 5 Art 6 Art 7 Art 8 Art 9 Art 10 Art 11 The Parties to this Treaty, Reaffirming their faith in the purposes and principles of the Charter of the United Nations and their desire to live in peace with\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Security Treaty between the United States, Australia, and New Zealand",
+      "url": "https://avalon.law.yale.edu/20th_century/usmu002.asp",
+      "author": "ANZUS treaty, Avalon Project",
+      "date": "1951-09-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "ANZUS treaty, Avalon Project",
+  "as_of_date": "1951",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.seato-resist-attack"
+  ],
+  "tags": [
+    "history",
+    "oceania",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

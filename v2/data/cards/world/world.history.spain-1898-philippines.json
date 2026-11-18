@@ -1,0 +1,34 @@
+{
+  "id": "world.history.spain-1898-philippines",
+  "title": "The 1898 Treaty of Paris has Spain evacuate the Philippines and Guam",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1898 treaty requires Spain to evacuate the Philippines and Guam.",
+  "body": "The 1898 treaty says Spain shall evacuate the Philippines and the island of Guam on terms similar to the evacuation of Puerto Rico. The treaty transfers empire from Spain to the United States. Filipino independence is not what this clause grants. The wording on the page includes: \"Spain will, upon the exchange of the ratifications of the present treaty, proceed to evacuate the Philippines, as well as the island of Guam, on terms similar to those agreed upon by the Commissioners appointed to arrange for the evacuation of Porto Rico and other islands in the West Indies, under the Protocol of August 12, 1898, which is to continue in force till\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of peace with Spain, 10 December 1898",
+      "url": "https://avalon.law.yale.edu/19th_century/sp1898.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1898-12-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Treaty of Paris, 1898, Avalon Project",
+  "as_of_date": "1898",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.paris-1763-canada"
+  ],
+  "tags": [
+    "history",
+    "philippines",
+    "americas",
+    "nineteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world.religion.rsv-shema",
+  "title": "The Shema in the RSV: one God, and the command to recite it",
+  "section": "world",
+  "category": "religion",
+  "summary": "The RSV of Deuteronomy 6:4-9 states the Shema: one God, to be loved and recited to the children.",
+  "body": "In the Revised Standard Version, Deuteronomy 6 opens the Shema by naming the Lord as one and telling Israel to love that God and to recite the words. The wording on the page includes: \"CCB CCBT ERV-ZH CNVS CNVT CSBS CSBT CUVS CUV CUVMPS CUVMPT RCU17SS RCU17TS Update 4 “Hear, O Israel: The Lord our God is one Lord;[a] 5 and you shall love the Lord your God with all your heart, and with all your soul, and with all your might. 6 And these words which I command you this day shall be upon your heart; 7 and you shall teach them diligently to\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Deuteronomy 6:4-9 (RSV)",
+      "url": "https://www.biblegateway.com/passage/?search=Deuteronomy+6%3A4-9&version=RSV",
+      "author": "Revised Standard Version, via Bible Gateway",
+      "date": "RSV translation; biblical book of Deuteronomy",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Deuteronomy 6:4-9, Revised Standard Version",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.rsv-exodus-no-other-gods",
+    "world.religion.maimonides-principles-page"
+  ],
+  "tags": [
+    "religion",
+    "judaism",
+    "scripture",
+    "rsv",
+    "primary-text"
+  ],
+  "read_time_min": 1
+}

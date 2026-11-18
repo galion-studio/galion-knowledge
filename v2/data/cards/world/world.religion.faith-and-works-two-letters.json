@@ -1,0 +1,52 @@
+{
+  "id": "world.religion.faith-and-works-two-letters",
+  "title": "James and Galatians, in the RSV, stress works and faith in different sentences",
+  "section": "world",
+  "category": "religion",
+  "summary": "The RSV prints both 'faith apart from works is dead' and a Galatians sentence about oneness in Christ. The card does not pick a doctrine.",
+  "body": "Two New Testament letters, in the same English translation, do not use the same sentence. James 2 says faith apart from works is dead. Galatians 3 speaks of persons as one in Christ and of faith. This card does not decide which letter controls doctrine. Protestant and Catholic arguments about justification cite these texts differently, and that argument is not settled by printing both sentences. The wording on the page includes: \"and sent them out another way? 26 For as the body apart from the spirit is dead, so faith apart from works is dead. Read full chapter Next James 1 James 3 Next dropdown Revised Standard Version (RSV) Revised Standard Version of the Bible, copyright © 1946, 1952, and 1971 the Division of Christian Education of the National Council of the Churches of Christ in the\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording. A further page states: \"27 For as many of you as were baptized into Christ have put on Christ. 28 There is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female; for you are all one in Christ Jesus. 29 And if you are Christ’s, then you are Abraham’s offspring, heirs according to promise. Read full chapter Next Galatians 2 Galatians 4 Next dropdown\".",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "James 2:14-26 (RSV)",
+      "url": "https://www.biblegateway.com/passage/?search=James+2%3A14-26&version=RSV",
+      "author": "Revised Standard Version, via Bible Gateway",
+      "date": "RSV",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Galatians 3:26-29 (RSV)",
+      "url": "https://www.biblegateway.com/passage/?search=Galatians+3%3A26-29&version=RSV",
+      "author": "Revised Standard Version, via Bible Gateway",
+      "date": "RSV",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "James 2 and Galatians 3, Revised Standard Version",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "James 2 in the RSV",
+      "summary": "The letter says faith apart from works is dead.",
+      "status": "wording of the RSV text"
+    },
+    {
+      "label": "Galatians 3 in the RSV",
+      "summary": "The letter says there is neither Jew nor Greek, for you are all one in Christ Jesus, in a passage about faith.",
+      "status": "wording of the RSV text"
+    }
+  ],
+  "related": [
+    "world.religion.rsv-james-works",
+    "world.religion.rsv-galatians-neither-jew-nor-greek"
+  ],
+  "tags": [
+    "religion",
+    "christianity",
+    "scripture",
+    "contested"
+  ],
+  "read_time_min": 1
+}

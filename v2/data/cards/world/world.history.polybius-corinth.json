@@ -1,0 +1,33 @@
+{
+  "id": "world.history.polybius-corinth",
+  "title": "Polybius, in Fordham's excerpt, describes the Roman destruction of Corinth",
+  "section": "world",
+  "category": "history",
+  "summary": "Fordham's Polybius excerpt is an account of Rome's destruction of Corinth.",
+  "body": "Fordham publishes Polybius on the Roman destruction of Corinth in 146 BCE. The page is one historian's account of the sack. It is not a Roman senate decree and not a Corinthian survivor's petition. The wording on the page includes: \"whole of Greece. ---Pausanius, 7, 16-17; Livy, Ep. 52]. The incidents of the capture of Corinth were melancholy. The soldiers cared nothing for the works of art and the consecrated statues. I saw with my own eyes pictures thrown on the ground and soldiers playing dice on them; among them was a picture of Dionysus by Aristeides---in reference to which\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Destruction of Corinth",
+      "url": "https://sourcebooks.fordham.edu/ancient/polybius-corinth146.asp",
+      "author": "Polybius, via Fordham",
+      "date": "146 BCE",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Polybius, excerpt on Fordham",
+  "as_of_date": "-146",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.twelve-tables-funeral"
+  ],
+  "tags": [
+    "history",
+    "greece",
+    "rome",
+    "ancient"
+  ],
+  "read_time_min": 1
+}

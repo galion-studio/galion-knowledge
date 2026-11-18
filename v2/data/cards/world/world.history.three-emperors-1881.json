@@ -1,0 +1,33 @@
+{
+  "id": "world.history.three-emperors-1881",
+  "title": "The Three Emperors' League of 1881 is an agreement among three empires",
+  "section": "world",
+  "category": "history",
+  "summary": "Avalon prints the Three Emperors' League of 18 June 1881 as its own agreement.",
+  "body": "Avalon prints the Three Emperors' League of 18 June 1881. It is a diplomatic agreement among the empires, distinct from the 1879 Dual Alliance of only two of them. The wording on the page includes: \"1700 - 1799 19th Century 1800 - 1899 20th Century 1900 - 1999 21st Century 2000 - The Three Emperors League - June 18, 1881 Art 1 Art 2 Art 3 Art 4 Art 5 Art 6 The Courts of Austria-Hungary, of Germany, and of Russia, animated by an equal desire to consolidate the general peace by an understanding intended to assure the defensive position of their respective\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Three Emperors League, 18 June 1881",
+      "url": "https://avalon.law.yale.edu/19th_century/empleagu.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1881-06-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Avalon Project text of the league",
+  "as_of_date": "1881",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.dual-alliance-1879"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "nineteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.history.hammurabi-slave-eye",
+  "title": "Hammurabi law 199, in King's English, prices a slave's eye at half the slave's value",
+  "section": "world",
+  "category": "history",
+  "summary": "King's Hammurabi prices a slave's eye or bone at half the slave's value.",
+  "body": "Law 199 in the same translation says that if he put out the eye of a man's slave, or break the bone of a man's slave, he shall pay one-half of its value. The code on this page does not give the slave the same bodily penalty it gives a man of equal status in law 196. The wording on the page includes: \"eye of a freed man, or break the bone of a freed man, he shall pay one gold mina. 199. If he put out the eye of a man's slave, or break the bone of a man's slave, he shall pay one-half of its value. 200. If a man knock out the teeth of his equal, his teeth shall be knocked out. [ A tooth for a tooth ] 201. If he knock out the teeth of a freed man, he shall pay one-third of a gold\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Code of Hammurabi",
+      "url": "https://avalon.law.yale.edu/ancient/hamcode.asp",
+      "author": "L. W. King translation; Avalon Project",
+      "date": "Old Babylonian code; King English translation",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Code of Hammurabi, law 199, L. W. King translation",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.hammurabi-law-196"
+  ],
+  "tags": [
+    "history",
+    "mesopotamia",
+    "ancient",
+    "slavery",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

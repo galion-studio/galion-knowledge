@@ -1,0 +1,34 @@
+{
+  "id": "world.history.japan-constitution-1946-preamble",
+  "title": "The 1946 Japanese constitution's preamble says government is a sacred trust of the people",
+  "section": "world",
+  "category": "history",
+  "summary": "Japan's 1946 preamble says government is a sacred trust whose authority comes from the people.",
+  "body": "The preamble of the 1946 Constitution of Japan, as Fordham prints it, says government is a sacred trust of the people, the authority for which is derived from the people. The constitution is a postwar basic law. How it was drafted, and the role of the occupation, is not settled by the preamble's sentence. The wording on the page includes: \"that sovereign power resides with the people and do firmly establish this Constitution. Government is a sacred trust of the people, the authority for which is derived from the people, the powers of which are exercised by the representatives of the people, and the benefits of which are enjoyed by the people. This is a universal principle of mankind upon which this Constitution is\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Japan",
+      "url": "https://sourcebooks.fordham.edu/mod/CONST-JP.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1946",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Japan, Fordham text",
+  "as_of_date": "1946",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.kanagawa-ports",
+    "world.history.japan-security-1951"
+  ],
+  "tags": [
+    "history",
+    "japan",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

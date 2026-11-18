@@ -1,0 +1,34 @@
+{
+  "id": "world.history.raleigh-1584-patent",
+  "title": "The 1584 patent to Walter Raleigh authorizes a colony",
+  "section": "world",
+  "category": "history",
+  "summary": "Elizabeth I's 1584 patent authorizes Walter Raleigh to plant a colony.",
+  "body": "Avalon prints the 25 March 1584 letters patent to Walter Raleigh for discovery and plantation. The patent is Elizabeth's grant. The later Roanoke colony's fate is not settled inside the patent. The wording on the page includes: \"Century 1800 - 1899 20th Century 1900 - 1999 21st Century 2000 - Charter to Sir Walter Raleigh : 1584 ELIZABETH by the Grace of God of England, Fraunce and Ireland Queene, defender of the faith, &c. To all people to whome these presents shall come, greeting. Knowe yee that of our especial grace, certaine science, and meere motion, we haue given and\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Charter to Sir Walter Raleigh, 25 March 1584",
+      "url": "https://avalon.law.yale.edu/16th_century/raleigh.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1584-03-25",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Letters patent to Walter Raleigh, Avalon Project",
+  "as_of_date": "1584",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.virginia-charter-1606"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "england",
+    "early-modern",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

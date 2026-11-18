@@ -1,0 +1,33 @@
+{
+  "id": "world.history.mao-hunan-1927",
+  "title": "Mao's 1927 Hunan report is his investigation of the peasant movement, in his own categories",
+  "section": "world",
+  "category": "history",
+  "summary": "Mao's March 1927 Hunan report is his own political account of the peasant movement.",
+  "body": "Fordham prints Mao's March 1927 report on the peasant movement in Hunan. The report is Mao's political investigation and his judgment of the movement. It is not a census of Hunan and not a rival party's report. The wording on the page includes: \"firmly oppose it. Source: Mao Zedong [Mao Tse-tung]: Report on an Investigation of the Peasant Movement in Hunan, March 1927, in Selected Works of Mao Tse-tung, vol. I (3rd printing; Peking: Foreign Languages Press, 1975), pp. 23-29 This text is part of the Internet Modern History Sourcebook. The Sourcebook is a collection of public domain and copy-permitted texts for\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "Report on an Investigation of the Peasant Movement in Hunan, March 1927",
+      "url": "https://sourcebooks.fordham.edu/mod/1927mao.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1927-03",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Mao Zedong, Fordham text",
+  "as_of_date": "1927",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.mao-1949-dictatorship"
+  ],
+  "tags": [
+    "history",
+    "china",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

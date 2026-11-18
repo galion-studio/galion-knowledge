@@ -1,0 +1,34 @@
+{
+  "id": "world.history.quebec-act-boundary-limit",
+  "title": "The Quebec Act says its boundary clause does not move the boundaries of other colonies",
+  "section": "world",
+  "category": "history",
+  "summary": "The Quebec Act's boundary clause says it does not alter other colonies' boundaries.",
+  "body": "The Quebec Act says nothing in it about the boundary of Quebec shall affect the boundaries of any other colony. The act also dealt with Catholic practice and French civil law, which are further clauses. This card is only the boundary proviso. The wording on the page includes: \"of October, one thousand seven hundred and sixty-three. II Provided always:.That nothing herein contained, relative to the Boundary of the Province of Quebec, shall in anywise affect the Boundaries of any other Colony. III Provided always, and be it enacted: That nothing in this Act contained shall extend, or be construed to extend, to make void, or to vary or alter any Right, Title, or Possession, derived under\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Quebec Act, 7 October 1774",
+      "url": "https://avalon.law.yale.edu/18th_century/quebec_act_1774.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1774-10-07",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Quebec Act, Avalon Project",
+  "as_of_date": "1774",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.paris-1763-canada"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "canada",
+    "eighteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

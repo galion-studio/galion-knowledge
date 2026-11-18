@@ -1,0 +1,32 @@
+{
+  "id": "world.religion.ancestor-worship-page",
+  "title": "A Fordham East Asia page presents ancestor worship as a described practice",
+  "section": "world",
+  "category": "religion",
+  "summary": "Fordham's 1900-titled page describes ancestor worship as a family ritual practice.",
+  "body": "Fordham's page titled The Worship of Ancestors describes ancestor rites as a practice with offerings and family obligation. The page is a sourcebook account, not a classical Chinese ritual manual opened in the original. What it supports is that the sourcebook records the practice under that name. The wording on the page includes: \"has somewhere within its doors a small shrine, in which are deposited the tablets of ancestors, and of all deceased members of the family who have passed the age of infancy. Each clan has its ancestral temple, which forms a rallying point for all who belong to the common stock. In such temples, as in the smaller shrines of the household, the objects\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Worship of Ancestors",
+      "url": "https://sourcebooks.fordham.edu/mod/1900ancestors.asp",
+      "author": "Fordham sourcebook",
+      "date": "1900",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Fordham East Asian History Sourcebook page on ancestor worship",
+  "as_of_date": "1900",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.laozi-deification-page"
+  ],
+  "tags": [
+    "religion",
+    "china",
+    "ancestors"
+  ],
+  "read_time_min": 1
+}

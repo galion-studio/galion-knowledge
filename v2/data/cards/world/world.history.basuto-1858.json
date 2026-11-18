@@ -1,0 +1,31 @@
+{
+  "id": "world.history.basuto-1858",
+  "title": "Moshoeshoe's 1858 letter to Sir George Grey describes the conflict with the Orange Free State",
+  "section": "world",
+  "category": "history",
+  "summary": "Moshoeshoe's 1858 letter to George Grey is his account of the conflict with the Orange Free State.",
+  "body": "The 1858 letter says it may scarcely be necessary to lay before Grey the details of what has taken place between the Orange Free State and the writer. The letter is Moshoeshoe's account to a British governor. It is not the Free State's account. The wording on the page includes: \"necessary to lay before Your Excellency any lengthened details of what has taken place between the Orange Free State and myself. I know that you have followed with interest the transactions which have led to the commencement of hostilities, and you have heard with pain of the horrors occasioned by the war, at present suspended in the hopes that peace may be restored by Your\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Letter to Sir George Grey",
+      "url": "https://sourcebooks.fordham.edu/halsall/mod/1858basuto.asp",
+      "author": "Moshoeshoe, Fordham text",
+      "date": "1858",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Moshoeshoe, Fordham text",
+  "as_of_date": "1858",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "history",
+    "africa",
+    "nineteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

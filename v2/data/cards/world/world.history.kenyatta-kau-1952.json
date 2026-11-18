@@ -1,0 +1,31 @@
+{
+  "id": "world.history.kenyatta-kau-1952",
+  "title": "Kenyatta's 1952 speech says the Kenya African Union speaks for Africans in Kenya",
+  "section": "world",
+  "category": "history",
+  "summary": "In July 1952 Kenyatta describes the Kenya African Union as the body that speaks for Africans in Kenya.",
+  "body": "At Nyeri on 26 July 1952 Kenyatta says he wants the audience to know the purpose of the Kenya African Union, and that it involves every African in Kenya. The speech is his distinction of the union from the rising then called Mau Mau. It is one leader's speech. The wording on the page includes: \"at the Kenya African Union Meeting at Nyeri, July 26, 1952 ... I want you to know the purpose of K.A.U. It is the biggest purpose the African has. It involves every African in Kenya and it is their mouthpiece which asks for freedom. K.A.U. is you and you are the K.A.U. If we unite now, each and every one of us, and each tribe to another, we will cause the\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Kenya Africa Union is Not the Mau Mau",
+      "url": "https://sourcebooks.fordham.edu/mod/1952kenyatta-kau1.asp",
+      "author": "Jomo Kenyatta, Fordham text",
+      "date": "1952-07-26",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Jomo Kenyatta, Fordham text",
+  "as_of_date": "1952",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "history",
+    "africa",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.history.un-338",
+  "title": "Resolution 338 calls for a cease-fire and for negotiations to implement Resolution 242",
+  "section": "world",
+  "category": "history",
+  "summary": "Resolution 338 links the 1973 cease-fire to negotiations implementing Resolution 242.",
+  "body": "Resolution 338 decides that the parties start, immediately after the cease-fire, the implementation of Resolution 242 in all of its parts, and that negotiations start under appropriate auspices. The resolution ties 1973 to the 1967 text. It does not draw a final border. The wording on the page includes: \"occupy; Calls upon all parties concerned to start immediately after the cease-fire the implementation of Security Council Resolution 242 (1967) in all of its parts; Decides that, immediately and concurrently with the cease-fire, negotiations start between the parties concerned under appropriate auspices aimed at establishing a just and durable peace in the Middle East. 20th Century Page\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Security Council Resolution 338, 22 October 1973",
+      "url": "https://avalon.law.yale.edu/20th_century/un338.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1973-10-22",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "UN Security Council, Avalon Project",
+  "as_of_date": "1973",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.un-242",
+    "world.history.camp-david-framework"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

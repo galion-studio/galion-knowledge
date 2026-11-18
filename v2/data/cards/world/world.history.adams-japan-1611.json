@@ -1,0 +1,33 @@
+{
+  "id": "world.history.adams-japan-1611",
+  "title": "The Fordham page on Will Adams says he was the first Englishman to make his home in Japan",
+  "section": "world",
+  "category": "history",
+  "summary": "Fordham introduces Will Adams as the first Englishman to make his home in Japan.",
+  "body": "Fordham's introduction says Will Adams was the first Englishman to make his home in Japan, and that his knowledge of shipbuilding made him useful to the emperor. The sentence is the sourcebook's introduction to his account. A Japanese record of his arrival was not the page opened here. The wording on the page includes: \"Will Adams: My Coming to Japan, 1611 [Tappan Introduction]: Will Adams was the first Englishman to make his home in Japan. His knowledge of shipbuilding made him so useful to the emperor that, although he was treated with honors and liberality, he was not allowed to leave the country. The Japanese of the street in Yedo which was named for him still hold an annual celebration\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "My Coming to Japan",
+      "url": "https://sourcebooks.fordham.edu/mod/1611adams-japan.asp",
+      "author": "Fordham headnote and Adams text",
+      "date": "1611",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Fordham headnote and Adams text",
+  "as_of_date": "1611",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.kanagawa-ports"
+  ],
+  "tags": [
+    "history",
+    "japan",
+    "early-modern",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

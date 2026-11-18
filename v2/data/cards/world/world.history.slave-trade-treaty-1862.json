@@ -1,0 +1,36 @@
+{
+  "id": "world.history.slave-trade-treaty-1862",
+  "title": "The 1862 treaty with Britain is for suppression of the African slave trade",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1862 Anglo-American treaty aims to suppress the slave trade on the African coast.",
+  "body": "The 1862 treaty says the United States and Britain, desirous to render more effectual the means adopted for the suppression of the slave trade on the coast of Africa, conclude a treaty for that purpose. The treaty is an enforcement agreement. It is not a count of people embarked. The wording on the page includes: \"and Ireland, being desirous to render more effectual the means hitherto adopted for the suppression of the slave trade carried on upon the coast of Africa, have deemed it expedient to conclude a treaty for that purpose, and have named as their Plenipotentiaries, that is to say: The President of the United States of America, William H. Seward, Secretary of State; And her Majesty the Queen of the United Kingdom\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty for the suppression of the African slave trade, 7 April 1862",
+      "url": "https://avalon.law.yale.edu/19th_century/br1862.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1862-04-07",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States and United Kingdom, Avalon Project",
+  "as_of_date": "1862",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.atlantic-slave-trade-estimates",
+    "world.uk-slavery-abolition-1833"
+  ],
+  "tags": [
+    "history",
+    "africa",
+    "americas",
+    "slavery",
+    "nineteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.religion.buddha-life-fordham-summary",
+  "title": "Fordham's Buddha-life page is a narrative of renunciation, not a single sutta",
+  "section": "world",
+  "category": "religion",
+  "summary": "Fordham's compilation says the Buddha renounced household life after marriage and a son, then sought awakening.",
+  "body": "Fordham's life-of-the-Buddha page says that after he was married and had a son, he determined to renounce the world, tried asceticism, and later sat under the Bodhi tree. The page is a compilation of traditional accounts in English. It is not one canonical sutta, and the birth year is not fixed by it. The wording on the page includes: \"a warrior prince, but at the age of twenty-nine, after having married and had a son, he determined to renounce the world. Abandoning his family and possessions, he gave himself up to asceticism and concentration of thought, under the direction of masters of this discipline. After seven years, he concluded that this method brought him no nearer to the wisdom he sought as a\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "The Buddha: Sources on His Life and Death",
+      "url": "https://sourcebooks.fordham.edu/india/buddha-life.html",
+      "author": "Fordham sourcebook compilation",
+      "date": "compiled traditional accounts",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Fordham Indian History Sourcebook compilation on the Buddha's life",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.buddha-sep",
+    "world.philosophy.four-noble-truths",
+    "world.unsourced-buddha-birth-year"
+  ],
+  "tags": [
+    "religion",
+    "buddhism",
+    "biography"
+  ],
+  "read_time_min": 1
+}

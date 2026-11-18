@@ -1,0 +1,33 @@
+{
+  "id": "world.history.massachusetts-bay-1629",
+  "title": "The 1629 Massachusetts Bay charter creates a company to plant and govern",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1629 Massachusetts Bay charter is a company grant of plantation and government.",
+  "body": "Avalon prints the 4 March 1629 charter of the Massachusetts Bay Company. The charter is a corporate grant of land and government. The people already living in the grant are not parties to it. The wording on the page includes: \"Three Englishe Miles to the southward of the southermost Parte of the said Baye, called Massachusetts, alias Mattachusetts, alias Massatusets Bay: And also all those Landes and Hereditaments whatsoever, which lye and be within the Space of Three English Myles to the Northward of the saide River, called Monomack, alias Merrymack, or to the Norward of any and\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Charter of Massachusetts Bay, 4 March 1629",
+      "url": "https://avalon.law.yale.edu/17th_century/mass03.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1629-03-04",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Charter of Massachusetts Bay, Avalon Project",
+  "as_of_date": "1629",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.fundamental-orders-gospel"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "early-modern",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

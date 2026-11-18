@@ -1,0 +1,32 @@
+{
+  "id": "world.religion.maimonides-principles-page",
+  "title": "Fordham's Maimonides page says thirteen principles are recited as 'I believe'",
+  "section": "world",
+  "category": "religion",
+  "summary": "Fordham's page says Maimonides' thirteen principles are recited as 'I believe' and were called fundamental truths.",
+  "body": "Fordham's page on the thirteen principles says they are recited beginning with the words Ani Maamin, 'I believe,' and it quotes Maimonides calling them the fundamental truths of the religion in his commentary on the Mishnah. The page is an English presentation of that list, not the Mishnah itself. The wording on the page includes: \"(Sanhedrin, chap. 10), Maimonides refers to these thirteen principles of faith as \"the fundamental truths of our religion and its very foundations.\" The following is from the book: The Wolf Shall Lie With the Lamb, authored by Rabbi Shmuel Boteach (Oxford University) Printed by Jason Aronson Press, Montvale, NJ In this essay Rabbi Boteach discusses the 13th Principle. The\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Thirteen Principles of Judaism",
+      "url": "https://sourcebooks.fordham.edu/halsall/source/rambam13.asp",
+      "author": "Fordham Internet History Sourcebooks, summarizing Maimonides",
+      "date": "Maimonides, as presented on the page",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Fordham sourcebook page on Maimonides' thirteen principles",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.rsv-shema"
+  ],
+  "tags": [
+    "religion",
+    "judaism",
+    "maimonides"
+  ],
+  "read_time_min": 1
+}

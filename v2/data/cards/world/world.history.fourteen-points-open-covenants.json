@@ -1,0 +1,35 @@
+{
+  "id": "world.history.fourteen-points-open-covenants",
+  "title": "Wilson's first point demands open covenants of peace, openly arrived at",
+  "section": "world",
+  "category": "history",
+  "summary": "Wilson's first point calls for open covenants of peace, openly arrived at.",
+  "body": "Wilson's first point says open covenants of peace, openly arrived at, after which there shall be no private international understandings, and diplomacy shall proceed in the public view. The speech is a program. The later Treaty of Versailles is a different document, and secret wartime agreements such as Sykes-Picot were already signed. The wording on the page includes: \"programme; and that programme, the only possible programme, as we see it, is this: I. Open covenants of peace, openly arrived at, after which there shall be no private international understandings of any kind but diplomacy shall proceed always frankly and in the public view. II. Absolute freedom of navigation upon the seas, outside territorial waters, alike in peace and in war\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fourteen Points, 8 January 1918",
+      "url": "https://avalon.law.yale.edu/20th_century/wilson14.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1918-01-08",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Woodrow Wilson, Avalon Project",
+  "as_of_date": "1918",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.treaty-versailles",
+    "world.history.sykes-picot-zones",
+    "world.history.league-covenant-page"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

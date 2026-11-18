@@ -1,0 +1,33 @@
+{
+  "id": "world.history.alien-enemies-1798",
+  "title": "The 1798 Alien Enemies Act applies when the United States is in a declared war",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1798 Alien Enemies Act authorizes restraint of enemy subjects when a war has been declared.",
+  "body": "The Alien Enemies Act says that whenever there shall be a declared war between the United States and a foreign nation, male subjects of the hostile nation of a stated age may be restrained or removed. The trigger in the text is a declared war. This card does not describe later uses of the statute. The wording on the page includes: \"House of Representatives of the United States of America in Congress assembled, That whenever there shall be a declared war between the United States and any foreign nation or government, or any invasion or predatory incursion shall be perpetrated, attempted, or threatened against the territory of the United States, by any foreign nation or government, and the President of the\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "An Act Respecting Alien Enemies, 6 July 1798",
+      "url": "https://avalon.law.yale.edu/18th_century/alien.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1798-07-06",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Congress, Avalon Project",
+  "as_of_date": "1798",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.sedition-act-1798"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "eighteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

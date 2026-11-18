@@ -1,0 +1,52 @@
+{
+  "id": "world.religion.quran-compulsion-and-sword-verse",
+  "title": "The Quran, in one English translation, contains both 'no compulsion' and 'kill the polytheists'",
+  "section": "world",
+  "category": "religion",
+  "summary": "Sahih International prints both 'no compulsion in religion' (2:256) and the command to kill the polytheists (9:5). The card does not decide which controls.",
+  "body": "The same English translation contains both sentences. Quran 2:256 says there shall be no compulsion in religion. Quran 9:5 says to kill the polytheists wherever you find them after the sacred months. Readers disagree about whether 9:5 is limited to a particular campaign, whether later verses abrogate earlier ones, and which verse a state may cite. This card does not choose a school. It records that both sentences are in the text. The wording on the page includes: \"There shall be no compulsion in [acceptance of] the religion. The right course has become clear from the wrong. So whoever disbelieves in Taghut and believes in Allah has grasped the most trustworthy handhold with no break in it. And Allah is Hearing and Knowing.\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording. A further page states: \"And when the sacred months have passed, then kill the polytheists wherever you find them and capture them and besiege them and sit in wait for them at every place of ambush. But if they should repent, establish prayer, and give zakah, let them [go] on their way. Indeed, Allah is Forgiving and Merciful.\".",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Quran 2:256, Sahih International",
+      "url": "https://api.alquran.cloud/v1/ayah/2:256/editions/en.sahih",
+      "author": "Sahih International, via alquran.cloud",
+      "date": "Quran",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Quran 9:5, Sahih International",
+      "url": "https://api.alquran.cloud/v1/ayah/9:5/editions/en.sahih",
+      "author": "Sahih International, via alquran.cloud",
+      "date": "Quran",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Quran 2:256 and 9:5, Sahih International",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "The wording of 2:256",
+      "summary": "There shall be no compulsion in acceptance of the religion.",
+      "status": "Sahih International text"
+    },
+    {
+      "label": "The wording of 9:5",
+      "summary": "After the sacred months, kill the polytheists wherever you find them.",
+      "status": "Sahih International text"
+    }
+  ],
+  "related": [
+    "world.religion.quran-no-compulsion",
+    "world.religion.quran-9-5"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "quran",
+    "contested"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.history.gettysburg-address",
+  "title": "The Gettysburg Address, as Avalon prints it, says the nation was conceived in liberty",
+  "section": "world",
+  "category": "history",
+  "summary": "Lincoln's Gettysburg Address, in Avalon's text, says the nation was conceived in liberty and dedicated to equality.",
+  "body": "Avalon's text of the Gettysburg Address begins 'Fourscore and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal.' The address is Lincoln's speech at a cemetery. It is not a statute and not a count of the dead. The wording on the page includes: \"Century 1800 - 1899 20th Century 1900 - 1999 21st Century 2000 - Gettysburg Address \"Fourscore and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal. Now we are engaged in a great civil war, testing whether that nation or any nation so conceived and so dedicated\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Gettysburg Address, 19 November 1863",
+      "url": "https://avalon.law.yale.edu/19th_century/gettyb.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1863-11-19",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Abraham Lincoln, Avalon Project",
+  "as_of_date": "1863",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.emancipation-1863",
+    "world.history.lieber-code-necessity"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "nineteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

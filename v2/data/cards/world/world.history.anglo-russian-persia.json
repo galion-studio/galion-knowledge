@@ -1,0 +1,33 @@
+{
+  "id": "world.history.anglo-russian-persia",
+  "title": "The 1907 Anglo-Russian agreement says both governments will respect the integrity of Persia",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1907 Anglo-Russian agreement promises to respect Persia's integrity and then marks spheres.",
+  "body": "The 1907 agreement says Britain and Russia have mutually engaged to respect the integrity and independence of Persia, and then divides spheres of influence. The promise of integrity and the division into spheres are both in the instrument. Persian consent is not the text of this article. The wording on the page includes: \"Persia The Governments of Great Britain and Russia having mutually engaged to respect the integrity and independence of Persia, and sincerely desiring the preservation of order throughout that country and its peaceful develop ment, as well as the permanent establishment of equal advantages for the trade and industry of all other nations; Considering that each of them has, for\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Anglo-Russian Entente, agreement concerning Persia, 1907",
+      "url": "https://avalon.law.yale.edu/20th_century/angrusen.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1907",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Great Britain and Russia, Avalon Project",
+  "as_of_date": "1907",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.entente-cordiale-egypt"
+  ],
+  "tags": [
+    "history",
+    "persia",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

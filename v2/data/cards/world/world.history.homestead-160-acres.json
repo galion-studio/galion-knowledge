@@ -1,0 +1,33 @@
+{
+  "id": "world.history.homestead-160-acres",
+  "title": "The Homestead Act offers 160 acres on stated conditions",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1862 Homestead Act grants 160 acres on conditions of settlement.",
+  "body": "The Homestead Act, as Avalon prints it, offers a grant of one hundred and sixty acres, a quarter section, on conditions of filing and settlement. The land was public land of the United States. The act does not say the land was empty of Native use. The wording on the page includes: \"which shall not, with the land so already owned and occupied, exceed in the aggregate one hundred and sixty acres. SEC. 2. And be it further enacted, That the person applying for the benefit of this act shall, upon application to the register of the land office in which he or she is about to make such entry, make affidavit before the said register or receiver that he\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Homestead Act, 20 May 1862",
+      "url": "https://avalon.law.yale.edu/19th_century/homestead_act.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1862-05-20",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Congress, Avalon Project",
+  "as_of_date": "1862",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.dawes-allotment-1887"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "nineteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

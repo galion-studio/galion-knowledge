@@ -1,0 +1,33 @@
+{
+  "id": "world.history.kanagawa-ports",
+  "title": "The Treaty of Kanagawa opens Shimoda and Hakodate to American ships",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1854 Treaty of Kanagawa opens Shimoda and Hakodate to American ships.",
+  "body": "Article II of the Treaty of Kanagawa, in Avalon's text, says the port of Shimoda in Izu and the port of Hakodate in Matsumae are granted by the Japanese as ports for American ships, for wood, water, provisions, and coal. The treaty is Perry's opening of two ports. It is not the later Meiji constitution. The wording on the page includes: \"respectfully, (respectively,) without exception of persons or places. Article II The port of Simoda, in the principality of Idzu and the port of Hakodadi, in the pricipality of Matsmai are granted by the Japanese as ports for he reception for American ships, where they can be supplied with wood, water, provisions and coal, and other articles their\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of Kanagawa, 31 March 1854",
+      "url": "https://avalon.law.yale.edu/19th_century/japan002.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1854-03-31",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Treaty of Kanagawa, Avalon Project",
+  "as_of_date": "1854",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.japan-security-1951"
+  ],
+  "tags": [
+    "history",
+    "japan",
+    "nineteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

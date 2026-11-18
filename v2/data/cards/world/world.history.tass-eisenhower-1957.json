@@ -1,0 +1,31 @@
+{
+  "id": "world.history.tass-eisenhower-1957",
+  "title": "TASS answers the Eisenhower message by calling it a demand for authority to use armed forces",
+  "section": "world",
+  "category": "history",
+  "summary": "TASS describes the 1957 Middle East message as a demand for authority to use American armed forces.",
+  "body": "The TASS statement, as Fordham prints it, says the president demanded the authority to use the armed forces of the United States in the Middle East. That is the Soviet agency's reading of the message. The president's own message is a different page. The wording on the page includes: \"the President, describing the present situation in the Middle East as \"critical,\" demanded the authority to use the armed forces of the United States in the Middle East at any moment be might consider it necessary, without asking for the consent of Congress as is envisaged in the country's Constitution. The President of the United States also demanded that he be empowered to render\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Statement on the Eisenhower Doctrine",
+      "url": "https://sourcebooks.fordham.edu/halsall/mod/1957tass-eisenhower.asp",
+      "author": "TASS, Fordham text",
+      "date": "1957",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "TASS, Fordham text",
+  "as_of_date": "1957",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

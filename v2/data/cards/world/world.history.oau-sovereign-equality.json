@@ -1,0 +1,34 @@
+{
+  "id": "world.history.oau-sovereign-equality",
+  "title": "The 1963 OAU charter lists sovereign equality and non-interference as principles",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1963 OAU charter states sovereign equality and non-interference as principles.",
+  "body": "The OAU charter, as Fordham prints it, lists among its principles the sovereign equality of all member states and non-interference in the internal affairs of states. The charter is the organization's text. It is not a record that every member observed the principles. The wording on the page includes: \"II, solemnly affirm and declare their adherence to the following principles: 1. the sovereign equality of all Member States; 2. non-interference in the internal affairs of States; 3. respect for the sovereignty and territorial integrity of each State and for its inalienable right to independent existence; 4. peaceful settlement of disputes by negotiation, mediation, conciliation\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Charter of the Organisation of African Unity",
+      "url": "https://sourcebooks.fordham.edu/mod/1963OAU-charter.asp",
+      "author": "Organisation of African Unity, Fordham text",
+      "date": "1963",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Organisation of African Unity, Fordham text",
+  "as_of_date": "1963",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.nkrumah-1961-goodwill",
+    "world.history.un-colonialism-1960"
+  ],
+  "tags": [
+    "history",
+    "africa",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

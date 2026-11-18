@@ -1,0 +1,32 @@
+{
+  "id": "world.history.clovis-two-accounts",
+  "title": "Fordham prints two accounts of the conversion of Clovis",
+  "section": "world",
+  "category": "history",
+  "summary": "Fordham prints two accounts of Clovis's conversion and names him Chlodovocar.",
+  "body": "Fordham's page is titled two accounts of the conversion of Clovis and says that in 496 Chlodovocar, called Clovis or Louis, was the founder of the Frankish power. The page sets two tellings side by side. This card records that the sourcebook presents two accounts, not that one of them is the true baptismal register. The wording on the page includes: \"your people, and I will freely commit to them whatever you wish of his treasures.\" When Chlodovocar's messengers came, Cloderic opened before them the treasures of his father; but as he thrust his hand deep down in the chest, one of the messengers raised his \"Franciska\" [the Frankish battle axe] and cleft his skull. Then Chlodovocar straightway presented\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Conversion of Clovis: Two Accounts",
+      "url": "https://sourcebooks.fordham.edu/source/496clovis.asp",
+      "author": "Fordham sourcebook",
+      "date": "496",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Fordham sourcebook",
+  "as_of_date": "496",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "history",
+    "europe",
+    "religion",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

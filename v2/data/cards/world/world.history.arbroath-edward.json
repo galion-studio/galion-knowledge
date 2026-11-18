@@ -1,0 +1,33 @@
+{
+  "id": "world.history.arbroath-edward",
+  "title": "The Declaration of Arbroath says the Scots lived in freedom until Edward attacked a headless kingdom",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1320 Declaration of Arbroath says Scottish freedom lasted until Edward attacked a kingdom with no head.",
+  "body": "The Declaration of Arbroath, in Avalon's English, says the people lived in freedom and peace until Edward, king of the English and father of the reigning king, attacked when the kingdom had no head. The letter is the Scottish barons' case to the pope. It is a party's brief, not an English chronicle. The wording on the page includes: \"of the Blessed Peter's brother. Thus our nation under their protection did indeed live in freedom and peace up to the time when that mighty prince the King of the English, Edward, the father of the one who reigns today, when our kingdom had no head and our people harboured no malice or treachery and were then unused to wars or invasions, came in the guise of a\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Declaration of Arbroath, 6 April 1320",
+      "url": "https://avalon.law.yale.edu/medieval/arbroath_1320.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1320-04-06",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Declaration of Arbroath, Avalon Project English",
+  "as_of_date": "1320",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.bull-adrian-ireland"
+  ],
+  "tags": [
+    "history",
+    "scotland",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

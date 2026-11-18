@@ -1,0 +1,33 @@
+{
+  "id": "world.religion.rumi-masnavi-page",
+  "title": "Fordham publishes English from Rumi's Masnavi",
+  "section": "world",
+  "category": "religion",
+  "summary": "Fordham hosts English excerpts of Rumi's Masnavi.",
+  "body": "Fordham publishes English excerpts from Rumi's Masnavi. The poems are a Sufi teaching in verse. The page is a selection, not the whole Persian poem, and a translation's word 'love' is the translator's choice. The wording on the page includes: \"of reason sees not the state of Love, Is the blessed moon of Love thereby eclipsed? The Lover's Cry to the Beloved \"My back is broken by the conflict of my thoughts; O Beloved One, come and stroke my head in mercy! The palm of Thy hand on my head gives me rest, Thy hand is a sign of Thy bounteous providence. Remove not Thy shadow from my head, I am\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Masnavi",
+      "url": "https://sourcebooks.fordham.edu/halsall/source/1250rumi-masnavi.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "13th century",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Jalal al-Din Rumi, Masnavi selection on Fordham",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.ghazali-death-page"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "sufism",
+    "rumi"
+  ],
+  "read_time_min": 1
+}

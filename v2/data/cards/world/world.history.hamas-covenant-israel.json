@@ -1,0 +1,34 @@
+{
+  "id": "world.history.hamas-covenant-israel",
+  "title": "The 1988 Hamas covenant quotes a line that Israel will exist until Islam obliterates it",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1988 Hamas covenant prints the claim that Israel will exist until Islam obliterates it.",
+  "body": "The Hamas covenant, as Avalon prints it, includes the sentence that Israel will exist and will continue to exist until Islam will obliterate it, attributed in the text to Hassan al-Banna. The sentence is in the 1988 covenant. It is not the position of every Palestinian organization, and it is not the 1968 charter's wording. The wording on the page includes: \"this, because they were rebellious, and transgressed.\" (Al-Imran - verses 109-111). Israel will exist and will continue to exist until Islam will obliterate it, just as it obliterated others before it\" (The Martyr, Imam Hassan al-Banna, of blessed memory). \"The Islamic world is on fire. Each of us should pour some water, no matter how little, to extinguish whatever one can without waiting for the others.\" (Sheikh\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Hamas Covenant, 18 August 1988",
+      "url": "https://avalon.law.yale.edu/20th_century/hamas.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1988-08-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Hamas covenant, Avalon Project",
+  "as_of_date": "1988",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.plo-charter-armed-struggle",
+    "world.history.khartoum-three-noes"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

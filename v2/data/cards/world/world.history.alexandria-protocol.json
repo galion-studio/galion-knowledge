@@ -1,0 +1,33 @@
+{
+  "id": "world.history.alexandria-protocol",
+  "title": "Avalon prints the Alexandria Protocol of 7 October 1944",
+  "section": "world",
+  "category": "history",
+  "summary": "The Alexandria Protocol of 7 October 1944 is printed by Avalon as its own instrument.",
+  "body": "Avalon prints the Alexandria Protocol of 7 October 1944, a step toward the Arab League pact of the following March. The protocol is that meeting's text. It is not the 1945 pact. The wording on the page includes: \"1700 - 1799 19th Century 1800 - 1899 20th Century 1900 - 1999 21st Century 2000 - The Alexandria Protocol; October 7,1944 (1) See also Pact of the League of Arab States, March 22, 1945 The undersigned, chiefs and members of Arab delegations at the Preliminary Committee of the General Arab Conference, viz: The President of Preliminary Committee H.E. Mustafa al-Nahhas Pasha\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Alexandria Protocol",
+      "url": "https://avalon.law.yale.edu/20th_century/alex.asp",
+      "author": "Alexandria Protocol, Avalon Project",
+      "date": "1944-10-07",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Alexandria Protocol, Avalon Project",
+  "as_of_date": "1944",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.arab-league-pact"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

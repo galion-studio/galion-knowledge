@@ -1,0 +1,32 @@
+{
+  "id": "world.history.nehru-1941-nonalignment",
+  "title": "Fordham's 1941 Nehru text is where the sourcebook locates his language of non-alignment",
+  "section": "world",
+  "category": "history",
+  "summary": "Fordham attributes the language of non-alignment to Nehru and prints his 1941 essay.",
+  "body": "Fordham's headnote says Nehru, India's first prime minister after 1947, created terms such as neutralism, Third World, and non-alignment, and it prints his 1941 essay Marxism, Capitalism and India's Future. The headnote's claim that he created those terms is the sourcebook's attribution. The essay is his political argument, not a dictionary entry. The wording on the page includes: \"independence, (1947) was the creator of such terms as \"neutralism\", \"Third World\", and \"non-alignment\". Marxism, Capitalism and India's Future (1941) As our struggle toned down and established itself at a low level, there was little of excitement in it, except at long intervals. My thoughts traveled more to other countries, and I watched and studied, as far\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Marxism, Capitalism and Non-Alignment",
+      "url": "https://sourcebooks.fordham.edu/halsall/mod/1941nehru.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1941",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Jawaharlal Nehru, Fordham headnote and text",
+  "as_of_date": "1941",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.nehru-bandung-1955"
+  ],
+  "tags": [
+    "history",
+    "south-asia",
+    "twentieth"
+  ],
+  "read_time_min": 1
+}

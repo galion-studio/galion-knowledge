@@ -1,0 +1,34 @@
+{
+  "id": "world.history.bede-augustine",
+  "title": "Bede says Gregory sent Augustine and other monks to preach to the English",
+  "section": "world",
+  "category": "history",
+  "summary": "Bede writes that Gregory sent Augustine and other monks to preach to the English.",
+  "body": "Bede's history, as Fordham prints it, says Gregory sent Augustine and several other monks who feared the Lord to preach the word of God to the English nation. The sentence is Bede's eighth-century account of a sixth-century mission. It is not Gregory's own letter. The wording on the page includes: \"fiftieth year after the coming of the English into Britain, sent the servant of God, Augustine, and with him several other monks who feared the Lord, to preach the word of God to the English nation. . . . [Augustine, with his companions, arrived in Britain.]. The powerful Ethelbert was at that time king of Kent; he had extended his dominions as far as the great river Humber, by which\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Ecclesiastical History, the conversion of England",
+      "url": "https://sourcebooks.fordham.edu/source/bede1.asp",
+      "author": "Bede, Fordham text",
+      "date": "731",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Bede, Fordham text",
+  "as_of_date": "731",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.gregory-temples-601"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "religion",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

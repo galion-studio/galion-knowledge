@@ -1,0 +1,35 @@
+{
+  "id": "world.history.pennsylvania-abolition-preamble",
+  "title": "Pennsylvania's 1780 gradual-abolition act says complexion is not a reason for slavery",
+  "section": "world",
+  "category": "history",
+  "summary": "Pennsylvania's 1780 act says all people are the work of an Almighty hand, in a gradual-abolition statute.",
+  "body": "Pennsylvania's 1780 act, in Avalon's text, says it is enough to know that all are the work of an Almighty hand, in a preamble about difference of feature or complexion. The statute is titled a gradual abolition. It did not free every enslaved person in the state on the day it passed. The wording on the page includes: \"diftinguifhed by a difference in feature or complexion. It is fufficient to know that all are the work of an Almighty Hand. We find in the distribution of the human fpecies, that the moft fertile as well as the moft barren parts of the earth are inhabited by men of complexions different from ours, and from each other; from whence we may reasonably, as well as religiously\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "An Act for the Gradual Abolition of Slavery, 1 March 1780",
+      "url": "https://avalon.law.yale.edu/18th_century/pennst01.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1780-03-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Pennsylvania General Assembly, Avalon Project",
+  "as_of_date": "1780",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.germantown-1688",
+    "world.uk-slavery-abolition-1833"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "slavery",
+    "eighteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.history.seato-resist-attack",
+  "title": "The Manila Pact says the parties will maintain capacity to resist armed attack",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1954 Manila Pact commits the parties to keep the capacity to resist armed attack.",
+  "body": "The Manila Pact says the parties will maintain and develop their individual and collective capacity to resist armed attack and to prevent and counter subversive activities directed from outside against their territorial integrity. The clause is a treaty obligation. It is not a narrative of a later war. The wording on the page includes: \"self-help and mutual aid will maintain and develop their individual and collective capacity to resist armed attack and to prevent and counter subversive activities directed from without against their territorial integrity and political stability. ARTICLE III The Parties undertake to strengthen their free institutions and to cooperate with one another in the further\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Southeast Asia Collective Defense Treaty, 8 September 1954",
+      "url": "https://avalon.law.yale.edu/20th_century/usmu003.asp",
+      "author": "Southeast Asia Collective Defense Treaty, Avalon Project",
+      "date": "1954-09-08",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Southeast Asia Collective Defense Treaty, Avalon Project",
+  "as_of_date": "1954",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.nato-article-5"
+  ],
+  "tags": [
+    "history",
+    "southeast-asia",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

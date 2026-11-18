@@ -1,0 +1,34 @@
+{
+  "id": "world.history.morocco-1786",
+  "title": "The 1786 treaty with Morocco is a peace and friendship agreement",
+  "section": "world",
+  "category": "history",
+  "summary": "The United States and Morocco concluded a treaty of peace and friendship in 1786.",
+  "body": "Avalon prints the 1786 treaty of peace and friendship between the United States and Morocco. It is one of the early treaties with a North African state. It is a different instrument from the 1796 treaty with Tripoli. The wording on the page includes: \"Amity and Commerce between the United States of America and His Majesty the Emperor of Morocco, which Articles written in the Arabic Language, confirmed by His said Majesty the Emperor of Morocco & seal'd with His Royal Seal, being translated into the Language of the said United States of America, together with the Attestations thereto annexed are in\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of peace and friendship with Morocco, 1786",
+      "url": "https://avalon.law.yale.edu/18th_century/bar1786t.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1786",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Treaty with Morocco, Avalon Project",
+  "as_of_date": "1786",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.tripoli-1796-religion-clause"
+  ],
+  "tags": [
+    "history",
+    "africa",
+    "americas",
+    "eighteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

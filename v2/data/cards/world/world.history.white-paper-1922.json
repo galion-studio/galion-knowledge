@@ -1,0 +1,34 @@
+{
+  "id": "world.history.white-paper-1922",
+  "title": "The 1922 White Paper denies that the Balfour policy means a wholly Jewish Palestine",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1922 White Paper says the Balfour policy is not a plan for a wholly Jewish Palestine.",
+  "body": "The 1922 White Paper says unauthorized statements have claimed that the purpose is to create a wholly Jewish Palestine, and it rejects that reading of the Balfour Declaration. The paper is a later British interpretation of the 1917 letter. It is not the letter itself. The wording on the page includes: \"statements have been made to the effect that the purpose in view is to create a wholly Jewish Palestine. Phrases have been used such as that Palestine is to become \"as Jewish as England is English.\" His Majesty's Government regard any such expectation as impracticable and have no such aim in view. Nor have they at any time contemplated, as appears to be\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "British White Paper of June 1922",
+      "url": "https://avalon.law.yale.edu/20th_century/brwh1922.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1922-06",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "British government, Avalon Project",
+  "as_of_date": "1922",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.balfour-national-home",
+    "world.history.white-paper-1939"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}
