@@ -1,0 +1,35 @@
+{
+  "id": "world.physics.muon-g2-fermilab-2021",
+  "title": "Fermilab Muon g-2: a_mu = 116592040(54) × 10^−11, a frequency measurement",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2021 Fermilab result for the positive muon anomaly is 116592040(54) × 10^−11, from two measured angular frequencies.",
+  "body": "The abstract of Abi and colleagues states the first Fermilab Muon g-2 result for the positive muon magnetic anomaly a_mu = (g_mu − 2)/2. It says the anomaly is determined from precision measurements of two angular frequencies: the difference frequency between spin precession and the cyclotron frequency, encoded in the intensity of high-energy positrons, and the storage-ring field measured by NMR probes calibrated to the equivalent proton spin-precession frequency in a spherical water sample at 34.7 °C. The abstract gives a_mu(FNAL) = 116592040(54) × 10^−11 (0.46 ppm). It says this result is 3.3 standard deviations greater than the standard-model prediction and agrees with the earlier Brookhaven E821 measurement. Combined with previous measurements of both charge signs, it gives a_mu(Exp) = 116592061(41) × 10^−11 (0.35 ppm) and says the tension with theory is 4.2 standard deviations. The 116592040(54) figure is the experiment's measured result. The standard-model prediction is not rederived on this card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46 ppm",
+      "url": "https://arxiv.org/abs/2104.03281",
+      "author": "B. Abi and colleagues, Muon g-2 Collaboration",
+      "date": "2021-04-07",
+      "accessed": "2026-11-18",
+      "note": "arXiv abstract fetched 2026-11-18. Submitted 7 April 2021."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "B. Abi and colleagues, Fermilab Muon g-2",
+  "as_of_date": "2021-04-07",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.physics.muon-anomaly",
+    "world.physics.muon-g2-theory-2020"
+  ],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "muon",
+    "measurement"
+  ],
+  "read_time_min": 1
+}

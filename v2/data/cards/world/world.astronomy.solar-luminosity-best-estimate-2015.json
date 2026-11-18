@@ -1,0 +1,36 @@
+{
+  "id": "world.astronomy.solar-luminosity-best-estimate-2015",
+  "title": "Mamajek and colleagues: best-estimate mean solar luminosity is 3.8275 (±0.0014) × 10^26 W",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "Using the exact astronomical unit and the TSI best estimate, the paper calculates a mean solar luminosity of 3.8275 (±0.0014) × 10^26 W, beside a nominal value of 3.828 × 10^26 W.",
+  "body": "Endnote 4 says IAU 2012 Resolution B2 defined the astronomical unit as exactly 149 597 870 700 m. Using that length and the TSI best estimate, the paper states a current best estimate of the Sun's mean radiative luminosity L = 4 π (1 au)^2 S = 3.8275 (±0.0014) × 10^26 W. The nominal luminosity in the resolution table is 3.828 × 10^26 W, described as the mean radiative luminosity rounded to an appropriate number of significant figures. The 3.8275 figure is a calculation from a measured irradiance and an exact length. The 3.828 figure is the rounded nominal constant. Endnote 2 says Haberreiter and colleagues (2008) determined the photospheric radius, where the Rosseland optical depth is 2/3, to be 695 658 (±140) km, and that the nominal radius 6.957 × 10^8 m is that value quoted to fewer figures. Endnote 5 says the best-estimate effective temperature calculated from those luminosity and radius estimates and the CODATA 2014 Stefan-Boltzmann constant is 5772.0 (±0.8) K. The nominal effective temperature is 5772 K.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "IAU 2015 Resolution B3, endnotes on luminosity, radius, and temperature",
+      "url": "https://arxiv.org/pdf/1510.07674",
+      "author": "E. E. Mamajek and colleagues",
+      "date": "2015-10-26",
+      "accessed": "2026-11-18",
+      "note": "Endnotes 2, 4, and 5 of the arXiv PDF, fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "E. E. Mamajek and colleagues",
+  "as_of_date": "2015-10-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.physics.iau-nominal-solar-constants",
+    "world.astronomy.sun-luminosity",
+    "world.sun-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "sun",
+    "measured-vs-nominal"
+  ],
+  "read_time_min": 1
+}

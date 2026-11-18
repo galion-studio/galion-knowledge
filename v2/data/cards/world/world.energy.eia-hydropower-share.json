@@ -1,0 +1,35 @@
+{
+  "id": "world.energy.eia-hydropower-share",
+  "title": "EIA: hydropower was about 5.6 percent of 2025 utility-scale generation",
+  "section": "world",
+  "category": "technology",
+  "summary": "The hydropower page says 2025 hydroelectricity was about 5.6 percent of utility-scale generation, and that the 2001–2025 average share was about 6.5 percent.",
+  "body": "The EIA hydropower page says that in 2025 hydroelectricity accounted for about 5.6 percent of total U.S. utility-scale electricity generation and 23.1 percent of utility-scale renewable generation. It says hydroelectricity's share of total annual U.S. generation from 2001 through 2025 averaged about 6.5 percent. It also says that until 2019 hydropower was the leading source of total annual U.S. renewable electricity generation. The 5.6 percent figure is one year. The 6.5 percent figure is an average the page states for 2001 through 2025. The preliminary 2023 table's 5.7 percent is a third, earlier, year.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Hydropower",
+      "url": "https://www.eia.gov/energyexplained/hydropower/",
+      "author": "U.S. Energy Information Administration",
+      "date": "2025",
+      "accessed": "2026-11-18",
+      "note": "Page states 2025 and the 2001–2025 average. Fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Energy Information Administration",
+  "as_of_date": "2025",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.energy.eia-us-2023-hydropower",
+    "world.energy.eia-us-generation-2025-shares"
+  ],
+  "tags": [
+    "core-pack",
+    "area:energy",
+    "hydropower",
+    "measured"
+  ],
+  "read_time_min": 1
+}

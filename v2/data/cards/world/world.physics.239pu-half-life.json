@@ -22,7 +22,8 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world.constants.hertz-and-becquerel"
+    "world.constants.hertz-and-becquerel",
+    "world.physics.nndc-pu-239-half-life"
   ],
   "tags": [
     "core-pack",
@@ -43,6 +44,11 @@
       "date": "2026-11-18",
       "change": "body",
       "note": "Removed a clause that said the uncertainty was not the absolute number of years. For this row unc_hl matches the seconds column as that many years."
+    },
+    {
+      "date": "2026-11-18",
+      "change": "related",
+      "note": "Linked the October 2023 NNDC wallet-card half-life world.physics.nndc-pu-239-half-life. The IAEA numerals in this card were not rewritten. iaea.org remains class other, so this card's evidence stays weak."
     }
   ]
 }

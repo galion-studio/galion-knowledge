@@ -1,0 +1,34 @@
+{
+  "id": "world.physics.sno-2002-solar-neutrinos",
+  "title": "SNO 2002: neutral-current flux and a non-electron component 5.3 sigma from zero",
+  "section": "world",
+  "category": "physics",
+  "summary": "SNO reports an electron-neutrino flux 1.76 × 10^6 cm^−2 s^−1 and a non-electron component 5.3 standard deviations above zero. The total flux is compared with solar models.",
+  "body": "The SNO collaboration abstract reports neutral-current neutrino interactions on deuterium. Assuming the standard boron-8 spectrum shape, and a kinetic-energy threshold of 5 MeV, the electron-neutrino component is 1.76 ± 0.05 (stat.) ± 0.09 (syst.) × 10^6 cm^−2 s^−1. The non-electron component is 3.41 ± 0.45 (stat.) +0.48/−0.45 (syst.) × 10^6 cm^−2 s^−1, which the abstract says is 5.3 standard deviations greater than zero, and calls that strong evidence for solar electron-neutrino flavor transformation. The total flux from the neutral-current reaction is 5.09 +0.44/−0.43 (stat.) +0.46/−0.43 (syst.) × 10^6 cm^−2 s^−1, which the abstract says is consistent with solar models. The fluxes are the measurement. Consistency with solar models is a comparison to a model, not the model itself.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Direct Evidence for Neutrino Flavor Transformation from Neutral-Current Interactions in the Sudbury Neutrino Observatory",
+      "url": "https://arxiv.org/abs/nucl-ex/0204008",
+      "author": "SNO Collaboration",
+      "date": "2002-05-09",
+      "accessed": "2026-11-18",
+      "note": "arXiv abstract, version 2, last revised 9 May 2002, fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "SNO Collaboration",
+  "as_of_date": "2002-05-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.science.neutrino-flavor-change"
+  ],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "neutrino",
+    "measurement"
+  ],
+  "read_time_min": 1
+}

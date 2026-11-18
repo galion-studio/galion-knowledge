@@ -1,0 +1,35 @@
+{
+  "id": "world.cosmology.perlmutter-1999-supernovae",
+  "title": "Perlmutter and colleagues: 42 supernovae give Omega_M = 0.28 for a flat universe",
+  "section": "world",
+  "category": "cosmology",
+  "summary": "For a flat universe the Supernova Cosmology Project reports Omega_M = 0.28 with statistical and systematic errors, and P(Lambda > 0) = 99 percent including systematics.",
+  "body": "The abstract of Perlmutter and colleagues reports 42 Type Ia supernovae at redshifts 0.18 to 0.83, fit with the low-redshift Calan/Tololo sample. For a flat universe, Omega_M + Omega_Lambda = 1, it gives Omega_M = 0.28 with statistical errors +0.09 and −0.08 and identified systematics +0.05 and −0.04. It says the data are strongly inconsistent with a flat cosmology that has Lambda = 0, and that P(Lambda > 0) = 99 percent including the identified systematic uncertainties. The best-fit age relative to the Hubble time is given as t0 = 14.9 (+1.4, −1.1) × (0.63/h) Gyr for a flat cosmology. This is a fit to standardized supernova peak magnitudes. The abstract says the team found no significant difference in host reddening or Malmquist bias between the low-redshift and high-redshift samples.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Measurements of Omega and Lambda from 42 High-Redshift Supernovae",
+      "url": "https://arxiv.org/abs/astro-ph/9812133",
+      "author": "S. Perlmutter and colleagues",
+      "date": "1998-12-08",
+      "accessed": "2026-11-18",
+      "note": "arXiv abstract submitted 8 December 1998, fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "S. Perlmutter and colleagues, Supernova Cosmology Project",
+  "as_of_date": "1998-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.cosmology.riess-1998-supernovae",
+    "world.accelerating-expansion-2011"
+  ],
+  "tags": [
+    "core-pack",
+    "area:cosmology",
+    "supernova",
+    "measurement"
+  ],
+  "read_time_min": 1
+}

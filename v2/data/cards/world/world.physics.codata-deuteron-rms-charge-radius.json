@@ -1,0 +1,33 @@
+{
+  "id": "world.physics.codata-deuteron-rms-charge-radius",
+  "title": "2022 CODATA: deuteron rms charge radius is 2.127 78 × 10^−15 m",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2022 CODATA complete listing, from NIST, gives deuteron rms charge radius as 2.127 78 × 10^−15 m, with uncertainty 0.000 27 × 10^−15.",
+  "body": "The 2022 CODATA complete listing, from NIST, gives deuteron rms charge radius as 2.127 78 × 10^−15 m, with uncertainty 0.000 27 × 10^−15. The row is not marked exact. The uncertainty is the uncertainty printed on that row. The ASCII file does not split it into statistical and systematic parts. This card records that 2022 CODATA row and does not rederive it.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "2022 CODATA complete listing of the fundamental physical constants",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "ASCII table fetched 2026-11-18. The card's number is that row. An 'e' exponent in the file is written here as a power of ten. No extra digits are added."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, 2022 CODATA adjustment",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "codata",
+    "constants",
+    "measured"
+  ],
+  "read_time_min": 1
+}

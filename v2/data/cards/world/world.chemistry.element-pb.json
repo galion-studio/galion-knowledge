@@ -1,0 +1,51 @@
+{
+  "id": "world.chemistry.element-pb",
+  "title": "NIST: standard atomic weight of Lead (Pb, Z=82) is 207.2(1)",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "NIST prints the standard atomic weight field of Lead (Pb, Z=82) as 207.2(1), with the isotope rows in the same file.",
+  "body": "PubChem's periodic-table row names atomic number 82, symbol Pb, as Lead. The NIST compositions file prints the standard atomic weight of Lead as 207.2(1). The parenthesis is the uncertainty NIST prints on the last digits of that standard atomic weight. It is an evaluated standard, not one laboratory weighing of one sample. Geological materials are known in which the element has an isotopic composition outside the limits for normal material. The difference between the atomic weight of the element in such materials and that given in the table may exceed the stated uncertainty. Range in isotopic composition of normal terrestrial material prevents a more precise standard atomic weight being given; the tabulated atomic-weight value and uncertainty should be applicable to normal materials. Isotope rows in the same file: Pb-204 relative atomic mass 203.9730440(13), isotopic composition 0.014(1); Pb-206 relative atomic mass 205.9744657(13), isotopic composition 0.241(1); Pb-207 relative atomic mass 206.9758973(13), isotopic composition 0.221(1); Pb-208 relative atomic mass 207.9766525(13), isotopic composition 0.524(1). A relative atomic mass is scaled to carbon-12. An isotopic composition, when the field is not blank, is a representative mole fraction, not a new assay made for this card. The symbols for an interval, a parenthesis, a bracket, and a # mark are defined on world.chemistry.nist-atomic-weight-notation. This standard atomic weight is not the Chemistry WebBook molecular-weight field, which is a different catalog entry when one exists.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Atomic Weights and Isotopic Compositions for All Elements",
+      "url": "https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ele=&ascii=ascii2&isotype=some",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "ASCII extract fetched 2026-11-18. The extract does not print its own revision date."
+    },
+    {
+      "title": "Atomic Weights and Isotopic Compositions - Column Descriptions",
+      "url": "https://www.nist.gov/pml/atomic-weights-and-isotopic-compositions-column-descriptions",
+      "author": "National Institute of Standards and Technology",
+      "date": "2023-03-01",
+      "accessed": "2026-11-18",
+      "note": "Definitions of interval, parenthesis, brackets, #, and notes g, m, r."
+    },
+    {
+      "title": "PubChem periodic table JSON",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
+      "author": "National Center for Biotechnology Information, PubChem",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Used for the element name on the atomic-number row. The atomic-weight cell on that PubChem row is not the number reported here."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Physical Measurement Laboratory",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.nist-atomic-weight-notation"
+  ],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "element",
+    "Pb",
+    "atomic-weight"
+  ],
+  "read_time_min": 2
+}

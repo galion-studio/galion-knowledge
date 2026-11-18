@@ -1,0 +1,33 @@
+{
+  "id": "world.physics.codata-standard-acceleration-of-gravity",
+  "title": "2022 CODATA: standard acceleration of gravity is 9.806 65 m s^-2",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2022 CODATA complete listing, from NIST, gives standard acceleration of gravity as 9.806 65 m s^-2, with uncertainty (exact).",
+  "body": "The 2022 CODATA complete listing, from NIST, gives standard acceleration of gravity as 9.806 65 m s^-2, with uncertainty (exact). The 2022 listing marks the value exact. An exact row is fixed by the adjustment's definitions. It is not a new laboratory measurement printed with an uncertainty. This is the conventional standard acceleration of gravity. The row is marked exact. It is a conventional value, not a measurement of local gravity at a place.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "2022 CODATA complete listing of the fundamental physical constants",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "ASCII table fetched 2026-11-18. The card's number is that row. An 'e' exponent in the file is written here as a power of ten. No extra digits are added."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, 2022 CODATA adjustment",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "codata",
+    "constants",
+    "measured-vs-exact"
+  ],
+  "read_time_min": 1
+}

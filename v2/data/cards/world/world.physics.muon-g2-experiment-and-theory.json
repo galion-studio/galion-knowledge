@@ -1,0 +1,56 @@
+{
+  "id": "world.physics.muon-g2-experiment-and-theory",
+  "title": "Muon g-2: the 2021 measured average and the 2020 Standard Model value are not the same number",
+  "section": "world",
+  "category": "physics",
+  "summary": "Fermilab's combined experimental average is 116592061(41) × 10^−11. The 2020 Standard Model review gives 116591810(43) × 10^−11. The 2021 abstract calls the tension 4.2 standard deviations.",
+  "body": "Two opened papers print two different central values for the muon anomaly. Abi and colleagues (2021) print a measured Fermilab value 116592040(54) × 10^−11 and a combined experimental average 116592061(41) × 10^−11, and they say the tension with the standard-model prediction is 4.2 standard deviations. Aoyama and colleagues (2020) print a Standard Model calculation 116591810(43) × 10^−11 and say that result is 3.7 standard deviations below the Brookhaven measurement. Their paper predates the Fermilab number. This card does not recompute either sigma and does not add a later theory paper that was not opened. The measurement and the calculation stay side by side.\n",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46 ppm",
+      "url": "https://arxiv.org/abs/2104.03281",
+      "author": "B. Abi and colleagues",
+      "date": "2021-04-07",
+      "accessed": "2026-11-18",
+      "note": "Experimental abstract."
+    },
+    {
+      "title": "The anomalous magnetic moment of the muon in the Standard Model",
+      "url": "https://arxiv.org/abs/2006.04822",
+      "author": "T. Aoyama and colleagues",
+      "date": "2020-11-13",
+      "accessed": "2026-11-18",
+      "note": "Theory-review abstract, version 2."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Abi and colleagues; Aoyama and colleagues",
+  "as_of_date": "2021-04-07",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Fermilab and the combined experimental average, 2021",
+      "summary": "Measured a_mu(FNAL) = 116592040(54) × 10^−11. Combined experiments: 116592061(41) × 10^−11. The abstract says the tension with the standard-model prediction is 4.2 standard deviations.",
+      "status": "measurement"
+    },
+    {
+      "label": "Standard Model review, 2020",
+      "summary": "Calculated a_mu(SM) = 116591810(43) × 10^−11. The abstract says this is 3.7 standard deviations below the Brookhaven measurement. Hadronic terms dominate the quoted uncertainty.",
+      "status": "calculation"
+    }
+  ],
+  "related": [
+    "world.physics.muon-g2-fermilab-2021",
+    "world.physics.muon-g2-theory-2020",
+    "world.physics.muon-anomaly"
+  ],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "muon",
+    "contested",
+    "measured-vs-calculation"
+  ],
+  "read_time_min": 1
+}

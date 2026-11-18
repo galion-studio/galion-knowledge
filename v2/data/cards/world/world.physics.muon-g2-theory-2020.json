@@ -1,0 +1,35 @@
+{
+  "id": "world.physics.muon-g2-theory-2020",
+  "title": "Muon g-2 theory review: Standard Model a_mu = 116591810(43) × 10^−11",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2020 theory review gives a Standard Model value 116591810(43) × 10^−11 and says hadronic terms, not QED, dominate the uncertainty.",
+  "body": "Aoyama and colleagues review the Standard Model calculation of the muon anomaly. The abstract says the calculation is a perturbative expansion in the fine-structure constant, split into QED, electroweak, and hadronic parts. It says the pure QED part has been evaluated through order alpha^5 with negligible numerical uncertainty, and that the electroweak part is known to better than one percent. It says hadronic contributions are the most difficult and are responsible for almost all of the theoretical uncertainty, and that they are calculated with nonperturbative methods, dispersion relations and lattice QCD. The abstract's final result is a_mu(SM) = 116591810(43) × 10^−11, and it says this is smaller than the Brookhaven measurement by 3.7 standard deviations. This number is a calculation. It is not the Fermilab frequency measurement.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The anomalous magnetic moment of the muon in the Standard Model",
+      "url": "https://arxiv.org/abs/2006.04822",
+      "author": "T. Aoyama and colleagues",
+      "date": "2020-11-13",
+      "accessed": "2026-11-18",
+      "note": "arXiv abstract, version 2, last revised 13 November 2020, fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "T. Aoyama and colleagues",
+  "as_of_date": "2020-11-13",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.physics.muon-g2-fermilab-2021",
+    "world.physics.muon-anomaly"
+  ],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "muon",
+    "calculation"
+  ],
+  "read_time_min": 1
+}

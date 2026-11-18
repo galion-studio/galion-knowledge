@@ -1,0 +1,34 @@
+{
+  "id": "world.astronomy.sun-center-model",
+  "title": "NASA labels the Sun's central pressure and central density as model values",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "Under the heading Model values at center of Sun, the sheet lists central pressure 2.477 × 10^11 bar and central density 1.622 × 10^5 kg/m^3.",
+  "body": "The Sun fact sheet has a heading \"Model values at center of Sun:\" and under it prints central pressure 2.477 x 10^11 bar (2.477 x 10^17 g/cm s^2) and central density 1.622 x 10^5 kg/m^3 (1.622 x 10^2 g/cm^3). The same heading also covers the central temperature already recorded on world.sun-fact-sheet. These center values are labeled model values by the sheet. They are not bulk-parameter cells. Last Updated line: 9 May 2024.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sun Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-05-09",
+      "accessed": "2026-11-18",
+      "note": "Heading: Model values at center of Sun."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-05-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.sun-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "sun",
+    "model"
+  ],
+  "read_time_min": 1
+}

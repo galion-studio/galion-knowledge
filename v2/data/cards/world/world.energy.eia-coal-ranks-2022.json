@@ -1,0 +1,34 @@
+{
+  "id": "world.energy.eia-coal-ranks-2022",
+  "title": "EIA: 2022 U.S. coal production was about 46 percent bituminous and about 46 percent subbituminous",
+  "section": "world",
+  "category": "technology",
+  "summary": "The EIA ranks coal by carbon content and heating value, and it gives 2022 production shares for those ranks.",
+  "body": "The EIA coal page classifies coal into anthracite, bituminous, subbituminous, and lignite, and says the rank depends on the types and amounts of carbon and on the heat energy the coal can produce. It says anthracite contains 86 to 97 percent carbon and was less than 1 percent of coal mined in the United States in 2022. Bituminous coal contains 45 to 86 percent carbon and was about 46 percent of 2022 production. Subbituminous coal contains 35 to 45 percent carbon and was about 46 percent of 2022 production. Lignite contains 25 to 35 percent carbon and has the lowest energy content of the four ranks. The carbon ranges are the page's rank definitions. The 2022 percentages are production shares. The page was last updated October 24, 2023.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Coal explained",
+      "url": "https://www.eia.gov/energyexplained/coal/",
+      "author": "U.S. Energy Information Administration",
+      "date": "2023-10-24",
+      "accessed": "2026-11-18",
+      "note": "Last updated 24 October 2023. Fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Energy Information Administration",
+  "as_of_date": "2023-10-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.energy.eia-us-2023-coal"
+  ],
+  "tags": [
+    "core-pack",
+    "area:energy",
+    "coal",
+    "classification"
+  ],
+  "read_time_min": 1
+}

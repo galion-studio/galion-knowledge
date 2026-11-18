@@ -1,0 +1,35 @@
+{
+  "id": "world.physics.nist-asd-h-beta",
+  "title": "NIST ASD: hydrogen 2–4 air wavelength 486.135 nm",
+  "section": "world",
+  "category": "physics",
+  "summary": "The same retrieval lists an unresolved 2–4 line at 486.135 ± 0.005 nm in air, and classified components near 486.129 nm.",
+  "body": "On the same NIST ASD hydrogen retrieval, the unresolved 2–4 row has observed air wavelength 486.135 nm, uncertainty 0.005 nm, relative intensity 180000, and Einstein A 8.4193 × 10^6 s^−1. Classified rows on the same page include 486.1283363 nm (2s to 4d), 486.1286949 nm (2s to 4p 3/2), 486.1296711 nm (2s to 4s), and 486.1297761 nm (2s to 4p 1/2), each with uncertainty 0.0000024 nm. The page's note on principal-quantum-number lines applies to the 486.135 nm row: unresolved fine structure, wavelengths pertinent to solar-corona observations. The classified rows are a different listing.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST Atomic Spectra Database, H lines 400–700 nm",
+      "url": "https://physics.nist.gov/cgi-bin/ASD/lines1.pl?spectra=H&limits_type=0&low_w=400&upp_w=700&unit=1&de=0&format=1&line_out=0&remove_js=on&en_unit=0&output=0&bibrefs=1&page_size=15&show_obs_wl=1&unc_out=1&order_out=0&show_av=2&tsb_value=0&min_str=&A_out=0&intens_out=on&max_str=&allowed_out=1&forbid_out=1&min_accur=&min_intens=&conf_out=on&term_out=on&enrg_out=on&J_out=on&submit=Retrieve+Data",
+      "author": "National Institute of Standards and Technology, Atomic Spectra Database",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "NIST ASD retrieval fetched 2026-11-18. Column header: Observed Wavelength, Air (nm). The page says lines labeled only by principal quantum numbers correspond to unresolved fine structure and that those wavelengths are pertinent to solar-corona observations."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Atomic Spectra Database",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.physics.nist-asd-h-alpha"
+  ],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "optics",
+    "hydrogen",
+    "measurement"
+  ],
+  "read_time_min": 1
+}

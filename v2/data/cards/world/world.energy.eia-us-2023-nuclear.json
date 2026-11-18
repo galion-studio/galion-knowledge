@@ -1,0 +1,35 @@
+{
+  "id": "world.energy.eia-us-2023-nuclear",
+  "title": "EIA 2023: U.S. utility-scale Nuclear generation 775 billion kWh, 18.6%",
+  "section": "world",
+  "category": "technology",
+  "summary": "The EIA's preliminary 2023 table lists Nuclear at 775 billion kWh, 18.6% of utility-scale generation.",
+  "body": "In the EIA table of U.S. utility-scale electricity generation by source for 2023, the row Nuclear is 775 billion kWh, 18.6% of the total. The table source line says U.S. Energy Information Administration, Electric Power Monthly, February 2024, preliminary data. The total on that table is 4,178 billion kWh. This is net generation from plants of at least one megawatt, as the FAQ defines utility-scale. It is not small-scale rooftop solar, and it is not a projection.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What is U.S. electricity generation by energy source?",
+      "url": "https://www.eia.gov/tools/faqs/faq.php?id=427&t=3",
+      "author": "U.S. Energy Information Administration",
+      "date": "2024-02",
+      "accessed": "2026-11-18",
+      "note": "Preliminary 2023 table. Fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Energy Information Administration",
+  "as_of_date": "2024-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.energy.eia-us-generation-2023-total"
+  ],
+  "tags": [
+    "core-pack",
+    "area:energy",
+    "electricity",
+    "2023",
+    "nuclear"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.energy.eia-us-generation-2025-shares",
+  "title": "EIA electricity page: 2025 U.S. utility-scale generation about 4.43 trillion kWh",
+  "section": "world",
+  "category": "technology",
+  "summary": "A later EIA page gives 2025 shares: natural gas about 41 percent, coal about 17 percent, nuclear about 18 percent, renewables about 24 percent, total about 4.43 trillion kWh.",
+  "body": "The EIA page \"Electricity in the United States,\" fetched 2026-11-18, says that in 2025 total U.S. utility-scale electricity generation was about 4.43 trillion kilowatthours. It says fossil fuels accounted for about 58 percent. Natural gas was about 41 percent. Coal was about 17 percent. Petroleum was about 0.7 percent. Other gases and other sources were about 0.2 percent. Nuclear energy was about 18 percent. Renewable sources were about 24 percent, compared with about 12 percent in 1990. Within renewables in 2025 the page says wind about 11 percent of total utility-scale generation, conventional hydropower about 6 percent, solar photovoltaic and solar thermal about 7 percent, biomass about 1 percent, and geothermal less than 1 percent. It also says the Administration estimates about 0.09 trillion kWh from small-scale solar photovoltaic systems. The word estimates applies to that small-scale figure. These 2025 shares are a different year from the preliminary 2023 table. They are not a revision of the 2023 rows.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Electricity in the United States",
+      "url": "https://www.eia.gov/energyexplained/electricity/electricity-in-the-us.php",
+      "author": "U.S. Energy Information Administration",
+      "date": "2025",
+      "accessed": "2026-11-18",
+      "note": "Page states 2025 figures and does not print a revision date in the fetched HTML. Fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Energy Information Administration",
+  "as_of_date": "2025",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.energy.eia-us-generation-2023-total"
+  ],
+  "tags": [
+    "core-pack",
+    "area:energy",
+    "electricity",
+    "2025"
+  ],
+  "read_time_min": 1
+}

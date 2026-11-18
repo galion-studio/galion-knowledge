@@ -1,0 +1,34 @@
+{
+  "id": "world.astronomy.sun-effective-temperature",
+  "title": "NASA Sun sheet lists effective temperature 5772 K under Solar Atmosphere",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The Solar Atmosphere block lists effective temperature 5772 K. That block is not the model-center heading.",
+  "body": "Under Solar Atmosphere, the sheet lists effective temperature 5772 K, temperature at the top of the photosphere 4400 K, at the bottom 6600 K, and at the top of the chromosphere about 30,000 K. Surface gas pressure at the top of the photosphere is 0.868 mb, and pressure at the bottom of the photosphere (optical depth = 1) is 125 mb. The sheet places these in Solar Atmosphere, not under \"Model values at center of Sun.\" It does not say on these lines whether each temperature is a direct measurement. Last Updated line: 9 May 2024.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sun Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-05-09",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line: 9 May 2024."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-05-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.sun-center-model",
+    "world.physics.iau-nominal-solar-constants"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "sun"
+  ],
+  "read_time_min": 1
+}

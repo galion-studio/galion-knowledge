@@ -1,0 +1,35 @@
+{
+  "id": "world.astronomy.tsi-cycle23-measured",
+  "title": "Mamajek and colleagues: cycle-23 mean total solar irradiance is 1361 ± 1 W/m^2",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The resolution's endnote gives a measured cycle-23 mean TSI of 1361 W m^-2 with a 2-sigma uncertainty of 1 W m^-2, distinct from the exact nominal value 1361.",
+  "body": "Endnote 3 of the same IAU 2015 B3 text says the total solar irradiance is variable at about the 0.08 percent level, about 1 W m^-2, and that modern spaceborne TSI instruments are absolutely calibrated at the 0.03 percent level. It says Cycle 23 observations are consistent with a mean TSI of 1361 W m^-2 (± 1 W m^-2; 2σ). The uncertainty range includes absolute accuracies of the instruments and uncertainties in assessing a secular trend. The nominal irradiance adopted in the resolution table is 1361 W m^-2 with no uncertainty, because it is defined as exact. The ± 1 W m^-2 figure is the best-estimate uncertainty, not the nominal constant. This card does not replace the nominal constant with the measurement, or the measurement with the nominal constant.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "IAU 2015 Resolution B3, endnote on total solar irradiance",
+      "url": "https://arxiv.org/pdf/1510.07674",
+      "author": "E. E. Mamajek and colleagues",
+      "date": "2015-10-26",
+      "accessed": "2026-11-18",
+      "note": "Endnote 3 of the arXiv PDF, fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "E. E. Mamajek and colleagues, reporting the cycle-23 TSI scale",
+  "as_of_date": "2015-10-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.physics.iau-nominal-solar-constants"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "energy",
+    "sun",
+    "measured-vs-nominal"
+  ],
+  "read_time_min": 1
+}

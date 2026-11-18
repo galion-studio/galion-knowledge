@@ -1,0 +1,36 @@
+{
+  "id": "world.cosmology.shoes-h0-2022",
+  "title": "SH0ES 2022: Cepheid-supernova H0 is 73.04 ± 1.04 km/s/Mpc",
+  "section": "world",
+  "category": "cosmology",
+  "summary": "Riess and colleagues report a baseline H0 of 73.04 ± 1.04 km/s/Mpc from HST Cepheids and 42 nearby supernovae, and a 5-sigma difference from the Planck plus Lambda-CDM prediction.",
+  "body": "The abstract of Riess and colleagues (SH0ES) reports HST Cepheids in the hosts of 42 Type Ia supernovae at z < 0.01, calibrated with Gaia EDR3 parallaxes, masers in NGC 4258, and detached eclipsing binaries in the Large Magellanic Cloud. The baseline result from the Cepheid-supernova sample is H0 = 73.04 ± 1.04 km/s/Mpc, including systematics. With the tip of the red-giant branch the abstract also gives 72.53 ± 0.99. Including high-redshift supernovae it gives H0 = 73.30 ± 1.04 and q0 = −0.51 ± 0.024. It says there is a 5-sigma difference with the H0 predicted by Planck plus Lambda-CDM, and that the source of the discrepancy between the direct and the cosmological routes remains unknown. The 73.04 figure is the team's distance-ladder measurement. The Planck prediction is the other route named in the abstract. This card does not copy a Planck H0 numeral from a different paper.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A Comprehensive Measurement of the Local Value of the Hubble Constant",
+      "url": "https://arxiv.org/abs/2112.04510",
+      "author": "Adam G. Riess and colleagues, SH0ES team",
+      "date": "2022-07-18",
+      "accessed": "2026-11-18",
+      "note": "arXiv abstract, version 3, last revised 18 July 2022, fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Adam G. Riess and colleagues, SH0ES",
+  "as_of_date": "2022-07-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.planck-2018-lcdm",
+    "world.science.big-bang",
+    "world.cosmology.planck-2018-age"
+  ],
+  "tags": [
+    "core-pack",
+    "area:cosmology",
+    "hubble",
+    "measurement"
+  ],
+  "read_time_min": 1
+}

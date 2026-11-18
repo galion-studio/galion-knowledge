@@ -1,0 +1,35 @@
+{
+  "id": "world.physics.nndc-h-3-half-life",
+  "title": "NNDC wallet cards 2023: 3H half-life 12.322 y",
+  "section": "world",
+  "category": "physics",
+  "summary": "The October 2023 wallet-card row for 3H prints half-life 12.322 y (year), uncertainty 11.",
+  "body": "The October 2023 Nuclear Wallet Cards row for 3H prints half-life 12.322 y (year). The uncertainty integer after the unit is 11. The decay-mode text before the gamma-ray energies is: β−. The booklet's half-life note says the value is followed by the unit (s: second, m: minute, h: hour, d: day, y: year) and that the uncertainty follows the unit and is given in italics. Superscripts in powers of ten were read from the smaller glyphs in the PDF. Italics were not a separate character. The uncertainty is the integer in that position. The booklet says all nuclides with T1/2 longer than 1 hour are included. This is an evaluated half-life from that compilation, not a new counting experiment.  A separate card, world.physics.3h-half-life, quotes an IAEA Live Chart string for this nuclide. This card does not convert that string into the NNDC unit and does not declare the two strings equal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Nuclear Wallet Cards for Radioactive Nuclides, October 2023",
+      "url": "https://www.nndc.bnl.gov/walletcards/doc/wallet-cards-radioactive-2023-10.pdf",
+      "author": "Elizabeth McCutchan and colleagues, National Nuclear Data Center, Brookhaven National Laboratory",
+      "date": "2023-10",
+      "accessed": "2026-11-18",
+      "note": "PDF text with superscript exponents restored from glyph size. Table I row."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Nuclear Data Center, Brookhaven National Laboratory",
+  "as_of_date": "2023-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.physics.3h-half-life"
+  ],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "nuclear",
+    "3H",
+    "evaluated"
+  ],
+  "read_time_min": 1
+}

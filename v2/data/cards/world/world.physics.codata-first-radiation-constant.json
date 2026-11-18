@@ -1,0 +1,33 @@
+{
+  "id": "world.physics.codata-first-radiation-constant",
+  "title": "2022 CODATA: first radiation constant is 3.741 771 852... × 10^−16 W m^2",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2022 CODATA complete listing, from NIST, gives first radiation constant as 3.741 771 852... × 10^−16 W m^2, with uncertainty (exact).",
+  "body": "The 2022 CODATA complete listing, from NIST, gives first radiation constant as 3.741 771 852... × 10^−16 W m^2, with uncertainty (exact). The 2022 listing marks the value exact. An exact row is fixed by the adjustment's definitions. It is not a new laboratory measurement printed with an uncertainty. The first radiation constant is a defined combination of h and c in the 2022 listing. The row is marked exact.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "2022 CODATA complete listing of the fundamental physical constants",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "ASCII table fetched 2026-11-18. The card's number is that row. An 'e' exponent in the file is written here as a power of ten. No extra digits are added."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, 2022 CODATA adjustment",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "codata",
+    "constants",
+    "measured-vs-exact"
+  ],
+  "read_time_min": 1
+}

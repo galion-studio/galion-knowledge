@@ -1,0 +1,33 @@
+{
+  "id": "world.physics.codata-alpha-particle-mass",
+  "title": "2022 CODATA: alpha particle mass is 6.644 657 3450 × 10^−27 kg",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2022 CODATA complete listing, from NIST, gives alpha particle mass as 6.644 657 3450 × 10^−27 kg, with uncertainty 0.000 000 0021 × 10^−27.",
+  "body": "The 2022 CODATA complete listing, from NIST, gives alpha particle mass as 6.644 657 3450 × 10^−27 kg, with uncertainty 0.000 000 0021 × 10^−27. The row is not marked exact. The uncertainty is the uncertainty printed on that row. The ASCII file does not split it into statistical and systematic parts. This card records that 2022 CODATA row and does not rederive it.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "2022 CODATA complete listing of the fundamental physical constants",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "ASCII table fetched 2026-11-18. The card's number is that row. An 'e' exponent in the file is written here as a power of ten. No extra digits are added."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, 2022 CODATA adjustment",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "codata",
+    "constants",
+    "measured"
+  ],
+  "read_time_min": 1
+}

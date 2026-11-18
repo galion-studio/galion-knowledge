@@ -1,0 +1,34 @@
+{
+  "id": "world.astronomy.sun-photosphere-composition",
+  "title": "NASA Sun sheet prints photosphere composition H 90.965% and He 8.889% without saying number or mass",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet lists major photosphere elements as H 90.965% and He 8.889%, and does not say whether the percent is by number or by mass.",
+  "body": "Under Photosphere Composition the sheet prints major elements H - 90.965%, He - 8.889%, and minor elements in ppm: O 774, C 330, Ne 112, N 102, Fe 43, Mg 35, Si 32, S 15. The sheet does not say whether those percents are number fractions or mass fractions. This card does not choose one. The same block lists a sun spot cycle of 11.4 yr. Last Updated line: 9 May 2024.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sun Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-05-09",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line: 9 May 2024."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-05-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.sun-spectral-type"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "sun",
+    "composition"
+  ],
+  "read_time_min": 1
+}

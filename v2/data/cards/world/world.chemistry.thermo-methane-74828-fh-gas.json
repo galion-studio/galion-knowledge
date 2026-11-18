@@ -1,0 +1,32 @@
+{
+  "id": "world.chemistry.thermo-methane-74828-fh-gas",
+  "title": "NIST WebBook: Methane gas-phase standard enthalpy of formation",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The WebBook lists 5 gas-phase standard enthalpy of formation row(s) for Methane. Reviewed rows and experimental rows are both quoted.",
+  "body": "The NIST Chemistry WebBook gas-phase standard enthalpy of formation rows for Methane (CAS 74-82-8) print: -74.87 kJ/mol, method Review, reference Chase, 1998, comment: Data last reviewed in March, 1961 (calculated or reviewed row) | -74.6 ± 0.3 kJ/mol, method Review, reference Manion, 2002, comment: adopted recommendation of Gurvich, Veyts, et al., 1991 ; DRB (experimental or compiled row) | -74.5 ± 0.4 kJ/mol, method Ccb, reference Pittam and Pilcher, 1972, comment: ALS (experimental or compiled row) | -74.85 ± 0.31 kJ/mol, method Ccb, reference Prosen and Rossini, 1945, comment: Hf derived from Heat of Hydrogenation; ALS (experimental or compiled row) | -73.4 ± 1.1 kJ/mol, method Ccb, reference Roth and Banse, 1932, comment: Reanalyzed by Cox and Pilcher, 1970 , Original value = -75.19 kJ/mol; ALS (experimental or compiled row). The page mixes reviewed or averaged rows with rows tied to a named experiment or compilation. A Review or AVG method is an evaluation. A Ccb method is combustion calorimetry, as the WebBook method code is linked. This card does not average the rows into a new number.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Methane thermochemistry, NIST Chemistry WebBook",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C74828&Units=SI&Mask=1",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Rows fetched 2026-11-18 from the Mask page. Comments are shortened only when longer than 280 characters."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "thermochemistry",
+    "measured-vs-evaluated"
+  ],
+  "read_time_min": 1
+}
