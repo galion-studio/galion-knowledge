@@ -26,7 +26,7 @@ use rusqlite::{params, Connection, OptionalExtension};
 use serde::Serialize;
 use sha2::{Digest, Sha256};
 
-use crate::card::Card;
+use crate::card::{provenance_from_document, Card};
 use crate::embed::{cosine, HashingEmbedder, Int8Vec, EMB_DIM};
 use crate::error::{Error, Result};
 use crate::rrf::fuse;
@@ -54,6 +54,8 @@ const M_SUB: usize = 16;
 const D_SUB: usize = EMB_DIM / M_SUB;
 const K_SUB: usize = 16;
 const ROUTED: usize = 3;
+/// A term seen in at most this many cards of one shard can name that shard.
+const LEXICON_DF: i64 = 32;
 const CACHE_CAP: usize = 128;
 const TRAIN_CAP: usize = 2_048;
 const KMEANS_ITERS: usize = 4;
@@ -69,6 +71,10 @@ CREATE TABLE items (
     said_by TEXT NOT NULL,
     source_date TEXT NOT NULL,
     source TEXT NOT NULL,
+    claim_type TEXT NOT NULL DEFAULT '',
+    evidence_strength TEXT NOT NULL DEFAULT '',
+    document TEXT NOT NULL DEFAULT '',
+    content_hash TEXT NOT NULL DEFAULT '',
     emb BLOB NOT NULL,
     emb_scale REAL NOT NULL,
     emb_norm REAL NOT NULL
@@ -142,6 +148,8 @@ struct Shard {
     rows: usize,
     ann: Ann,
     conn: Mutex<Connection>,
+    /// False when this device has the manifest row but has not loaded the file.
+    resident: bool,
 }
 
 struct Cache {
@@ -214,8 +222,9 @@ impl ShardWriter {
         self.conn.execute(
             "INSERT INTO items (
                 item_id, title, body, summary, said_by, source_date, source,
+                claim_type, evidence_strength, document, content_hash,
                 emb, emb_scale, emb_norm
-             ) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10)",
+             ) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14)",
             params![
                 card.id,
                 card.title,
@@ -224,6 +233,10 @@ impl ShardWriter {
                 card.said_by,
                 card.date,
                 card.source,
+                card.claim_type,
+                card.evidence_strength,
+                card.document,
+                card.content_hash,
                 emb.values.iter().map(|b| *b as u8).collect::<Vec<_>>(),
                 emb.scale,
                 emb.norm,
@@ -237,7 +250,7 @@ impl ShardWriter {
                 rowid,
                 fts_field(&card.title),
                 fts_field(&card.summary),
-                fts_field(&card.body),
+                fts_field(&card.lexical_body()),
                 fts_field(&card.said_by),
                 fts_field(&card.source),
             ],
@@ -265,7 +278,7 @@ pub struct ScaleIndex {
     root: PathBuf,
     core: Store,
     shards: Vec<Shard>,
-    lexicon: HashMap<String, u16>,
+    lexicon: HashMap<String, Vec<u16>>,
     cache: Cache,
     embedder: HashingEmbedder,
     rows: usize,
@@ -365,6 +378,12 @@ impl ScaleIndex {
         let started = Instant::now();
         let q = self.embedder.embed(query);
         let mut core = self.core.search(query)?;
+        for hit in &mut core.hits {
+            if hit.layer == "semantic" {
+                hit.layer = "core".to_string();
+                hit.pool = "knowledge".to_string();
+            }
+        }
         let chosen = self.route(query, &q);
         let lexicon_routed = index_tokens(query)
             .iter()
@@ -372,7 +391,7 @@ impl ScaleIndex {
         if lexicon_routed {
             let terms = index_tokens(query);
             core.hits.retain(|hit| {
-                let hay = hit.text.to_lowercase();
+                let hay = hit.haystack.to_lowercase();
                 terms.iter().any(|term| hay.contains(term))
             });
         }
@@ -423,6 +442,159 @@ impl ScaleIndex {
         })
     }
 
+    /// Reopen a directory written by [`ScaleIndex::build`].
+    ///
+    /// ANN and the rare-term lexicon are rebuilt from the shard files.
+    /// A manifest row whose file is missing stays in the list and is not searched.
+    pub fn open(root: &Path) -> Result<Self> {
+        let manifest_path = root.join("manifest.json");
+        if !manifest_path.exists() {
+            return Err(Error::Invalid(format!(
+                "no manifest at {}",
+                manifest_path.display()
+            )));
+        }
+        let manifest: ShardManifest = serde_json::from_str(&fs::read_to_string(&manifest_path)?)?;
+        let core = Store::open(root.join("core.sqlite"))?;
+        let core_rows = core.active_count()?;
+        let mut shards = Vec::new();
+        let mut lexicon = HashMap::new();
+        let mut rows = core_rows;
+        for file in &manifest.shards {
+            let path = root.join(format!("shard-{}-{}.sqlite", file.section, file.category));
+            if !path.exists() {
+                shards.push(empty_shard(
+                    file.section.clone(),
+                    file.category.clone(),
+                    path,
+                )?);
+                continue;
+            }
+            let conn = Connection::open(&path)?;
+            conn.pragma_update(None, "query_only", true)?;
+            let n: i64 = conn.query_row("SELECT COUNT(*) FROM items", [], |r| r.get(0))?;
+            let n = n as usize;
+            rows += n;
+            let shard_index = u16::try_from(shards.len()).unwrap_or(u16::MAX);
+            absorb_lexicon(&conn, shard_index, &mut lexicon)?;
+            let ann = if n == 0 {
+                empty_ann()
+            } else {
+                build_ann(&conn, n)?
+            };
+            let centroid = mean_centroid(&conn)?;
+            shards.push(Shard {
+                section: file.section.clone(),
+                category: file.category.clone(),
+                path,
+                centroid,
+                rows: n,
+                ann,
+                conn: Mutex::new(conn),
+                resident: true,
+            });
+        }
+        Ok(Self {
+            root: root.to_path_buf(),
+            core,
+            shards,
+            lexicon,
+            cache: Cache::new(CACHE_CAP),
+            embedder: HashingEmbedder,
+            rows,
+            core_rows,
+        })
+    }
+
+    /// Keep the shard in the manifest and the lexicon, and stop searching it.
+    /// A later query that needs it is a gap: load this shard.
+    pub fn unload_shard(&mut self, id: &str) -> bool {
+        let mut found = false;
+        for shard in &mut self.shards {
+            if shard_id(shard) == id {
+                shard.resident = false;
+                found = true;
+            }
+        }
+        if found {
+            self.cache.clear();
+        }
+        found
+    }
+
+    /// Shard ids named by a rare query term that are not loaded on this device.
+    pub fn unloaded_shards(&self, query: &str) -> Vec<String> {
+        let mut out = Vec::new();
+        for term in index_tokens(query) {
+            let Some(idxs) = self.lexicon.get(&term) else {
+                continue;
+            };
+            for idx in idxs {
+                let Some(shard) = self.shards.get(*idx as usize) else {
+                    continue;
+                };
+                if shard.resident {
+                    continue;
+                }
+                let id = shard_id(shard);
+                if !out.contains(&id) {
+                    out.push(id);
+                }
+            }
+        }
+        out
+    }
+
+    pub fn document_of(&self, item_id: &str) -> Result<Option<String>> {
+        if let Some(doc) = self.core.document_of(item_id)? {
+            return Ok(Some(doc));
+        }
+        for shard in &self.shards {
+            if !shard.resident {
+                continue;
+            }
+            let conn = shard
+                .conn
+                .lock()
+                .map_err(|_| Error::Invalid("shard connection lock".into()))?;
+            let row = conn
+                .query_row(
+                    "SELECT document FROM items WHERE item_id = ?1",
+                    params![item_id],
+                    |r| r.get::<_, String>(0),
+                )
+                .optional()?;
+            if let Some(doc) = row.filter(|d| !d.is_empty()) {
+                return Ok(Some(doc));
+            }
+        }
+        Ok(None)
+    }
+
+    pub fn documents(&self) -> Result<Vec<String>> {
+        let mut out = self.core.documents()?;
+        for shard in &self.shards {
+            if !shard.resident {
+                continue;
+            }
+            let conn = shard
+                .conn
+                .lock()
+                .map_err(|_| Error::Invalid("shard connection lock".into()))?;
+            let mut stmt =
+                conn.prepare("SELECT document FROM items WHERE document != '' ORDER BY rowid")?;
+            let rows = stmt.query_map([], |row| row.get::<_, String>(0))?;
+            for row in rows {
+                out.push(row?);
+            }
+        }
+        Ok(out)
+    }
+
+    pub fn shard_count(&self) -> usize {
+        self.shards.len()
+    }
+
     pub fn disk_bytes(&self) -> Result<u64> {
         dir_bytes(&self.root)
     }
@@ -436,10 +608,12 @@ impl ScaleIndex {
     fn route(&self, query: &str, q: &Int8Vec) -> Vec<usize> {
         let mut chosen = Vec::new();
         for term in index_tokens(query) {
-            if let Some(idx) = self.lexicon.get(&term) {
-                let idx = *idx as usize;
-                if !chosen.contains(&idx) {
-                    chosen.push(idx);
+            if let Some(idxs) = self.lexicon.get(&term) {
+                for idx in idxs {
+                    let idx = *idx as usize;
+                    if !chosen.contains(&idx) {
+                        chosen.push(idx);
+                    }
                 }
             }
         }
@@ -500,9 +674,35 @@ impl ScaleIndex {
 }
 
 fn hit_mentions(hit: &Hit, term: &str) -> bool {
-    let title = hit.title.to_lowercase();
-    let text = hit.text.to_lowercase();
-    title.contains(term) || text.contains(term)
+    hit.haystack.to_lowercase().contains(term)
+}
+
+fn shard_id(shard: &Shard) -> String {
+    format!("{}-{}", shard.section, shard.category)
+}
+
+fn empty_ann() -> Ann {
+    Ann {
+        centroids: Vec::new(),
+        lists: Vec::new(),
+        codes: Vec::new(),
+        codebook: Vec::new(),
+        rowids: Vec::new(),
+    }
+}
+
+fn empty_shard(section: String, category: String, path: PathBuf) -> Result<Shard> {
+    let conn = Connection::open_in_memory()?;
+    Ok(Shard {
+        section,
+        category,
+        path,
+        centroid: vec![0.0; EMB_DIM],
+        rows: 0,
+        ann: empty_ann(),
+        conn: Mutex::new(conn),
+        resident: false,
+    })
 }
 
 fn is_core(card: &Card) -> bool {
@@ -512,13 +712,7 @@ fn is_core(card: &Card) -> bool {
 fn finish_shard(writer: ShardWriter) -> Result<Shard> {
     let n = writer.rows;
     let ann = if n == 0 {
-        Ann {
-            centroids: Vec::new(),
-            lists: Vec::new(),
-            codes: Vec::new(),
-            codebook: Vec::new(),
-            rowids: Vec::new(),
-        }
+        empty_ann()
     } else {
         build_ann(&writer.conn, n)?
     };
@@ -532,6 +726,7 @@ fn finish_shard(writer: ShardWriter) -> Result<Shard> {
         rows: n,
         ann,
         conn: Mutex::new(conn),
+        resident: true,
     })
 }
 
@@ -609,14 +804,22 @@ fn mean_centroid(conn: &Connection) -> Result<Vec<f32>> {
     Ok(mean)
 }
 
-fn absorb_lexicon(conn: &Connection, shard: u16, lexicon: &mut HashMap<String, u16>) -> Result<()> {
+fn absorb_lexicon(
+    conn: &Connection,
+    shard: u16,
+    lexicon: &mut HashMap<String, Vec<u16>>,
+) -> Result<()> {
     let mut stmt = conn.prepare(
-        "SELECT term FROM items_fts_vocab WHERE doc = 1 AND length(term) BETWEEN 2 AND 24",
+        "SELECT term FROM items_fts_vocab
+         WHERE doc BETWEEN 1 AND ?1 AND length(term) BETWEEN 2 AND 24",
     )?;
-    let rows = stmt.query_map([], |row| row.get::<_, String>(0))?;
+    let rows = stmt.query_map(params![LEXICON_DF], |row| row.get::<_, String>(0))?;
     for row in rows {
         let term = row?;
-        lexicon.entry(term).or_insert(shard);
+        let slots = lexicon.entry(term).or_default();
+        if slots.len() < ROUTED && !slots.contains(&shard) {
+            slots.push(shard);
+        }
     }
     Ok(())
 }
@@ -632,6 +835,9 @@ fn search_shards(
     std::thread::scope(|scope| {
         for idx in chosen {
             let shard = &shards[*idx];
+            if !shard.resident {
+                continue;
+            }
             let tx = tx.clone();
             let query = query.to_string();
             let q = q.clone();
@@ -761,7 +967,9 @@ fn dense_ids(conn: &Connection, ann: &Ann, q: &Int8Vec) -> Result<Vec<String>> {
 fn hydrate(conn: &Connection, item_id: &str) -> Result<Option<Hit>> {
     let row = conn
         .query_row(
-            "SELECT title, summary, body, said_by, source_date, source FROM items WHERE item_id = ?1",
+            "SELECT title, summary, body, said_by, source_date, source,
+                    claim_type, evidence_strength, document
+             FROM items WHERE item_id = ?1",
             params![item_id],
             |row| {
                 Ok((
@@ -771,24 +979,27 @@ fn hydrate(conn: &Connection, item_id: &str) -> Result<Option<Hit>> {
                     row.get::<_, String>(3)?,
                     row.get::<_, String>(4)?,
                     row.get::<_, String>(5)?,
+                    row.get::<_, String>(6)?,
+                    row.get::<_, String>(7)?,
+                    row.get::<_, String>(8)?,
                 ))
             },
         )
         .optional()?;
-    let Some((title, summary, body, said_by, date, source)) = row else {
+    let Some((title, summary, body, said_by, date, source, claim_type, evidence, document)) = row
+    else {
         return Ok(None);
     };
-    let text = if !summary.is_empty() { summary } else { body };
-    Ok(Some(Hit {
-        item_id: item_id.to_string(),
-        layer: "shard".into(),
-        title,
-        text,
-        said_by: unknown(said_by),
-        date: unknown(date),
-        source: unknown(source),
-        score: 0.0,
-    }))
+    let text = if !summary.is_empty() {
+        summary
+    } else {
+        body.clone()
+    };
+    let (sources, views) = provenance_from_document(&document);
+    Ok(Some(Hit::make(
+        item_id, "shard", title, text, body, said_by, date, source, claim_type, evidence, sources,
+        views, 0.0,
+    )))
 }
 
 fn train_codebook(sample: &[f32], n: usize) -> Vec<f32> {
@@ -927,14 +1138,6 @@ fn fts_field(raw: &str) -> String {
     index_tokens(raw).join(" ")
 }
 
-fn unknown(value: String) -> String {
-    if value.trim().is_empty() {
-        "unknown".into()
-    } else {
-        value
-    }
-}
-
 fn micros(started: Instant) -> u32 {
     u32::try_from(started.elapsed().as_micros()).unwrap_or(u32::MAX)
 }
@@ -965,13 +1168,18 @@ fn hex(bytes: &[u8]) -> String {
     out
 }
 
-fn dir_bytes(root: &Path) -> Result<u64> {
+pub(crate) fn dir_bytes(root: &Path) -> Result<u64> {
     let mut total = 0u64;
-    for entry in fs::read_dir(root)? {
-        let entry = entry?;
-        let path = entry.path();
-        if path.is_file() {
-            total += entry.metadata()?.len();
+    let mut pending = vec![root.to_path_buf()];
+    while let Some(dir) = pending.pop() {
+        for entry in fs::read_dir(&dir)? {
+            let entry = entry?;
+            let path = entry.path();
+            if path.is_dir() {
+                pending.push(path);
+            } else if path.is_file() {
+                total += entry.metadata()?.len();
+            }
         }
     }
     Ok(total)

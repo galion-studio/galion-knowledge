@@ -1,22 +1,37 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 Galion Labs
 
-//! Knowledge cards, aligned with the S1 contract for `v2/data/cards/`.
+//! Knowledge cards, aligned with `v2/data/SCHEMA.md`.
 //!
-//! S1 had not published `v2/data/SCHEMA.md` when this crate was written.
-//! The parser accepts the fields named in that swarm's plan and a few
-//! aliases from the HORBM research notes (`text`, `gist`, `speaker`,
-//! `epistemic`). Unknown fields are ignored so a later schema can add keys.
+//! The stored `document` is the card JSON that was read, so every field is
+//! kept, including ones this struct does not index. Unknown keys stay in
+//! that JSON. Aliases from the research notes are still accepted: `text`
+//! for `body`, `gist` for `summary`, `speaker` for `said_by`, and
+//! `epistemic` (`said` → `fact`, `inferred` → `interpretation`).
+
+use serde::Serialize;
+use serde_json::Value;
+use sha2::{Digest, Sha256};
 
 use crate::error::{Error, Result};
-use serde_json::Value;
 
-#[derive(Clone, Debug, PartialEq, Eq)]
+#[derive(Clone, Debug, PartialEq, Eq, Serialize)]
 pub struct Source {
     pub title: String,
     pub url: String,
     pub author: String,
     pub date: String,
+    pub accessed: String,
+    pub note: String,
+}
+
+#[derive(Clone, Debug, PartialEq, Eq, Serialize)]
+pub struct ContestedView {
+    pub label: String,
+    pub summary: String,
+    pub status: String,
+    #[serde(skip_serializing_if = "Vec::is_empty")]
+    pub sources: Vec<Source>,
 }
 
 #[derive(Clone, Debug, PartialEq, Eq)]
@@ -35,12 +50,40 @@ pub struct Card {
     pub source: String,
     pub status: String,
     pub tags: Vec<String>,
+    pub contested_views: Vec<ContestedView>,
+    pub related: Vec<String>,
+    pub aliases: Vec<String>,
+    pub read_time_min: Option<i64>,
+    pub legacy: Option<Value>,
+    /// Original card JSON. This is what a rebuild stores and what a
+    /// revision archives. Indexed columns are a projection of it.
+    pub document: String,
+    pub content_hash: String,
 }
 
 impl Card {
-    /// Text the index and the embedder see.
+    /// Body plus contested views, for the FTS document. The stored body stays as written.
+    pub fn lexical_body(&self) -> String {
+        let mut text = self.body.clone();
+        for view in &self.contested_views {
+            text.push('\n');
+            text.push_str(&view.label);
+            text.push('\n');
+            text.push_str(&view.summary);
+        }
+        text
+    }
+
+    /// Text the index and the embedder see, including contested views.
     pub fn index_text(&self) -> String {
-        format!("{}\n{}\n{}", self.title, self.summary, self.body)
+        let mut text = format!("{}\n{}\n{}", self.title, self.summary, self.body);
+        for view in &self.contested_views {
+            text.push('\n');
+            text.push_str(&view.label);
+            text.push('\n');
+            text.push_str(&view.summary);
+        }
+        text
     }
 
     /// Short gist returned on a hit. The summary when it exists.
@@ -84,6 +127,12 @@ pub fn parse_cards(value: &Value, path_hint: &str) -> Result<Vec<Card>> {
     }
 }
 
+pub fn card_from_document(document: &str) -> Result<Card> {
+    let value: Value = serde_json::from_str(document)?;
+    parse_one(&value, "stored")?
+        .ok_or_else(|| Error::Invalid("stored document is not a card".into()))
+}
+
 fn parse_one(value: &Value, path_hint: &str) -> Result<Option<Card>> {
     let Some(obj) = value.as_object() else {
         return Err(Error::Invalid(format!(
@@ -110,11 +159,11 @@ fn parse_one(value: &Value, path_hint: &str) -> Result<Option<Card>> {
                 "{path_hint}: card {id} needs section world, horbm, or diary"
             ))
         })?;
-    if !matches!(section.as_str(), "world" | "horbm" | "diary") {
-        return Err(Error::Invalid(format!(
+    let section = canonical_section(&section, path_hint).ok_or_else(|| {
+        Error::Invalid(format!(
             "{path_hint}: card {id} has section '{section}', expected world, horbm, or diary"
-        )));
-    }
+        ))
+    })?;
     let sources = parse_sources(obj.get("sources"));
     let said_by = first_str(obj, &["said_by", "speaker", "author"])
         .filter(|s| !s.is_empty())
@@ -127,6 +176,8 @@ fn parse_one(value: &Value, path_hint: &str) -> Result<Option<Card>> {
     let source = source_label(obj, &sources);
     let claim_type = map_claim(first_str(obj, &["claim_type", "epistemic"]).unwrap_or_default());
     let tags = string_list(obj.get("tags"));
+    let contested_views = parse_views(obj.get("contested_views"));
+    let document = serde_json::to_string(value)?;
     Ok(Some(Card {
         id,
         title,
@@ -135,15 +186,49 @@ fn parse_one(value: &Value, path_hint: &str) -> Result<Option<Card>> {
         body,
         summary,
         claim_type,
-        evidence_strength: first_str(obj, &["evidence_strength"]).unwrap_or_default(),
+        sources,
+        evidence_strength: first_str(obj, &["evidence_strength", "evidence"]).unwrap_or_default(),
         said_by,
         date,
         source,
         status: first_str(obj, &["status"]).unwrap_or_default(),
         tags,
-        sources,
+        contested_views,
+        related: string_list(obj.get("related")),
+        aliases: string_list(obj.get("aliases")),
+        read_time_min: obj.get("read_time_min").and_then(|v| v.as_i64()),
+        legacy: obj.get("legacy").cloned().filter(|v| !v.is_null()),
+        content_hash: sha256_hex(document.as_bytes()),
+        document,
     }))
 }
+
+/// Sources and contested views carried on a hit, read back from the stored
+/// card JSON. A memory row has neither.
+pub(crate) fn provenance_from_document(document: &str) -> (Vec<Source>, Vec<ContestedView>) {
+    let Ok(value) = serde_json::from_str::<Value>(document) else {
+        return (Vec::new(), Vec::new());
+    };
+    let Some(obj) = value.as_object() else {
+        return (Vec::new(), Vec::new());
+    };
+    (
+        parse_sources(obj.get("sources")),
+        parse_views(obj.get("contested_views")),
+    )
+}
+
+pub fn sha256_hex(bytes: &[u8]) -> String {
+    let digest = Sha256::digest(bytes);
+    let mut out = String::with_capacity(digest.len() * 2);
+    for byte in digest {
+        out.push(HEX[(byte >> 4) as usize] as char);
+        out.push(HEX[(byte & 0xf) as usize] as char);
+    }
+    out
+}
+
+const HEX: &[u8; 16] = b"0123456789abcdef";
 
 fn source_label(obj: &serde_json::Map<String, Value>, sources: &[Source]) -> String {
     if let Some(src) = sources.first() {
@@ -177,7 +262,42 @@ fn parse_sources(value: Option<&Value>) -> Vec<Source> {
                 title: first_str(obj, &["title"]).unwrap_or_default(),
                 url: first_str(obj, &["url", "href"]).unwrap_or_default(),
                 author: first_str(obj, &["author"]).unwrap_or_default(),
-                date: first_str(obj, &["date", "accessed"]).unwrap_or_default(),
+                date: first_str(obj, &["date"]).unwrap_or_default(),
+                accessed: first_str(obj, &["accessed"]).unwrap_or_default(),
+                note: first_str(obj, &["note"]).unwrap_or_default(),
+            })
+        })
+        .collect()
+}
+
+fn parse_views(value: Option<&Value>) -> Vec<ContestedView> {
+    let Some(Value::Array(items)) = value else {
+        return Vec::new();
+    };
+    items
+        .iter()
+        .filter_map(|item| {
+            let obj = item.as_object()?;
+            let label = first_str(obj, &["label", "position"]).unwrap_or_default();
+            let summary = first_str(obj, &["summary", "position"]).unwrap_or_default();
+            if label.is_empty() && summary.is_empty() {
+                return None;
+            }
+            let label = if label.is_empty() {
+                summary.clone()
+            } else {
+                label
+            };
+            let summary = if summary.is_empty() {
+                label.clone()
+            } else {
+                summary
+            };
+            Some(ContestedView {
+                label,
+                summary,
+                status: first_str(obj, &["status"]).unwrap_or_default(),
+                sources: parse_sources(obj.get("sources")),
             })
         })
         .collect()
@@ -187,7 +307,8 @@ fn string_list(value: Option<&Value>) -> Vec<String> {
     match value {
         Some(Value::Array(items)) => items
             .iter()
-            .filter_map(|v| v.as_str().map(|s| s.to_string()))
+            .filter_map(|v| v.as_str().map(|s| s.trim().to_string()))
+            .filter(|s| !s.is_empty())
             .collect(),
         _ => Vec::new(),
     }
@@ -200,6 +321,15 @@ fn map_claim(raw: String) -> String {
         "opinion" => "opinion".to_string(),
         other => other.to_string(),
     }
+}
+
+/// A folder named world, horbm, or diary wins when the card used some other
+/// word. The site files those drafts under the folder and keeps the card.
+fn canonical_section(section: &str, path: &str) -> Option<String> {
+    if matches!(section, "world" | "horbm" | "diary") {
+        return Some(section.to_string());
+    }
+    section_from_path(path)
 }
 
 fn section_from_path(path: &str) -> Option<String> {
@@ -242,7 +372,7 @@ mod tests {
             "summary": "Mean answer offset is about 208 ms.",
             "body": "Across ten languages the mean offset is +208 ms.",
             "claim_type": "fact",
-            "sources": [{"title": "Stivers et al., PNAS 2009", "url": "https://doi.org/10.1073/pnas.0903616106", "author": "Tanya Stivers and colleagues", "date": "2009"}],
+            "sources": [{"title": "Stivers et al., PNAS 2009", "url": "https://doi.org/10.1073/pnas.0903616106", "author": "Tanya Stivers and colleagues", "date": "2009", "accessed": "2026-11-18", "note": "primary paper"}],
             "evidence_strength": "strong",
             "said_by": "",
             "as_of_date": "",
@@ -257,6 +387,46 @@ mod tests {
         assert_eq!(cards[0].said_by, "Tanya Stivers and colleagues");
         assert_eq!(cards[0].date, "2009");
         assert!(cards[0].source.contains("pnas.0903616106"));
+        assert_eq!(cards[0].sources[0].accessed, "2026-11-18");
+        assert_eq!(cards[0].sources[0].note, "primary paper");
+        assert!(cards[0].document.contains("extra_future_field"));
+        assert_eq!(cards[0].content_hash.len(), 64);
+    }
+
+    #[test]
+    fn keeps_contested_views_and_legacy() {
+        let raw = r#"{
+            "id": "world.free-will-disputed",
+            "title": "Free will",
+            "section": "world",
+            "category": "philosophy",
+            "summary": "The disagreement is the point.",
+            "body": "Libertarian, hard-determinist, and compatibilist positions.",
+            "claim_type": "contested",
+            "sources": [{"title": "Free Will", "url": "https://plato.stanford.edu/entries/freewill/", "author": "Timothy O'Connor and Christopher Franklin", "date": "2002-01-07", "accessed": "2026-11-18"}],
+            "evidence_strength": "moderate",
+            "said_by": "Timothy O'Connor and Christopher Franklin",
+            "as_of_date": "2002-01-07",
+            "status": "sourced - needs review",
+            "contested_views": [
+                {"label": "Libertarian free will", "summary": "Some actions are not fixed by prior events.", "status": "kept"}
+            ],
+            "related": ["world.libet-1983"],
+            "legacy": {"v1_slug": "free-will", "note": "not evidence"}
+        }"#;
+        let value: Value = serde_json::from_str(raw).unwrap();
+        let card = parse_cards(&value, "world/world.free-will-disputed.json")
+            .unwrap()
+            .pop()
+            .unwrap();
+        assert_eq!(card.claim_type, "contested");
+        assert_eq!(card.contested_views.len(), 1);
+        assert_eq!(card.contested_views[0].label, "Libertarian free will");
+        assert_eq!(card.related, vec!["world.libet-1983".to_string()]);
+        assert!(card.legacy.unwrap().get("v1_slug").is_some());
+        let again = card_from_document(&card.document).unwrap();
+        assert_eq!(again.content_hash, card.content_hash);
+        assert_eq!(again.contested_views, card.contested_views);
     }
 
     #[test]

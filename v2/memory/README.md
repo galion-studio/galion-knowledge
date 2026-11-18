@@ -1,16 +1,16 @@
 # horbm-memory
 
-HORBM's diary and memory stack. Library and `horbm-memory` CLI.
+HORBM's memory and the Galion knowledge cards, in one library and one CLI.
 
-SQLite FTS5 (BM25) plus one int8 vector per row, exact scan, fused with reciprocal rank fusion. Search returns at most four hits. Each hit keeps `said_by`, `date`, and `source`.
+What the user told us (the RAM ring, a remembered episode, the diary) stays in `memory`. World cards stay in `knowledge`. A query returns at most four hits, split across those two lists. A miss on the cards is the answer `I don't know`.
 
 ```bash
 cargo test
-cargo run --release -- --db /tmp/horbm.sqlite ingest fixtures
+cargo run --release -- --knowledge /tmp/horbm-knowledge import ../data/cards
+cargo run --release -- --knowledge /tmp/horbm-knowledge query "compatibilist"
 cargo run --release -- --db /tmp/horbm.sqlite search "bm25"
-cargo run --release -- --db /tmp/horbm.sqlite bench --n 2000
 ```
 
-Design, measured latency, and open questions: [`../docs/MEMORY_STACK.md`](../docs/MEMORY_STACK.md).
+Design and measured latency: [`../docs/MEMORY_STACK.md`](../docs/MEMORY_STACK.md).
 
 MIT License. Copyright (c) 2026 Galion Labs.

@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 license = "MIT"
 authors = ["Galion Labs"]
-description = "HORBM diary and memory: SQLite FTS5 BM25, int8 exact scan, reciprocal rank fusion."
+description = "HORBM memory and knowledge: FTS5 BM25, int8 vectors, core pack, shards, gap log."
 publish = false
 rust-version = "1.83"
 
