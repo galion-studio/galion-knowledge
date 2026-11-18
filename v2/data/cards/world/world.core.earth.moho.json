@@ -1,0 +1,32 @@
+{
+  "id": "world.core.earth.moho",
+  "title": "The crust-mantle boundary is the Mohorovičić discontinuity",
+  "section": "world",
+  "category": "earth",
+  "summary": "USGS says the crust-mantle boundary is the Mohorovičić discontinuity, named for Andrija Mohorovičić, and that it is detected rather than seen.",
+  "body": "The USGS booklet \"Inside the Earth\" says the boundary between the crust and the mantle is called the Mohorovicic discontinuity, or Moho, named for the Croatian scientist Andrija Mohorovicic, who discovered it. The booklet says no one has ever seen this boundary, but it can be detected. The card stops at that sentence. It does not add a depth for the Moho beyond the crust thicknesses on the USGS pages.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Inside the Earth",
+      "url": "https://pubs.usgs.gov/gip/interior/",
+      "author": "U.S. Geological Survey",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.crust-thickness"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "crust"
+  ],
+  "read_time_min": 1
+}

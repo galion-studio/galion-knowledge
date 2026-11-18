@@ -1,0 +1,33 @@
+{
+  "id": "world.core.earth.three-shells",
+  "title": "USGS: crust, mantle, and core, and their share of Earth's volume",
+  "section": "world",
+  "category": "earth",
+  "summary": "A USGS interior booklet says Earth has three main shells, and gives the core 15 percent of the volume, the mantle 84 percent, and the crust 1 percent.",
+  "body": "The U.S. Geological Survey booklet \"Inside the Earth\" says the planet is made up of three main shells: a very thin brittle crust, the mantle, and the core, and that the mantle and the core are each divided into two parts. It says the core and the mantle are about equal in thickness, but the core forms only 15 percent of Earth's volume, the mantle 84 percent, and the crust the remaining 1 percent. Those are the booklet's volume shares, not a new measurement made for this card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Inside the Earth",
+      "url": "https://pubs.usgs.gov/gip/interior/",
+      "author": "U.S. Geological Survey",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.mantle-and-core",
+    "world.core.earth.crust-thickness"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "interior"
+  ],
+  "read_time_min": 1
+}

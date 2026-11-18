@@ -1,0 +1,35 @@
+{
+  "id": "world.core.climate.ipcc-ice",
+  "title": "IPCC AR6: late-summer Arctic sea ice is the smallest in at least 1,000 years",
+  "section": "world",
+  "category": "climate",
+  "summary": "Statement A.2.3 says Arctic sea-ice area reached its lowest level since at least 1850, and that glacier retreat since the 1950s is unprecedented in at least 2,000 years.",
+  "body": "IPCC Working Group I statement A.2.3 says Arctic sea-ice area reached its lowest level since at least 1850, at high confidence, and that late-summer Arctic sea-ice area was smaller than at any time in at least the past 1,000 years, at medium confidence. It says the global nature of glacier retreat since the 1950s, with almost all of the world's glaciers retreating synchronously, is unprecedented in at least the last 2,000 years, at medium confidence. The confidence labels are part of the statement.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Climate Change 2021: The Physical Science Basis. Summary for Policymakers",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf",
+      "author": "Intergovernmental Panel on Climate Change, Working Group I",
+      "date": "2021",
+      "accessed": "2026-11-18",
+      "note": "PDF opened 2026-11-18. The citation block in the file reads IPCC, 2021."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Intergovernmental Panel on Climate Change, Working Group I",
+  "as_of_date": "2021",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.climate.ipcc-sea-level",
+    "world.nature.milankovitch-cycles"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "ipcc",
+    "ice"
+  ],
+  "read_time_min": 1
+}

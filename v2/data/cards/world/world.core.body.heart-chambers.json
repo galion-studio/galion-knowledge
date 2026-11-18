@@ -1,0 +1,34 @@
+{
+  "section": "world",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "read_time_min": 1,
+  "id": "world.core.body.heart-chambers",
+  "title": "OpenStax: the human heart has four chambers",
+  "category": "medicine",
+  "summary": "OpenStax Anatomy and Physiology says each side of the heart has one atrium and one ventricle, and that the ventricles pump to the lungs or to the rest of the body.",
+  "body": "OpenStax Anatomy and Physiology 2e, section 19.1, says the human heart consists of four chambers. The left side and the right side each have one atrium and one ventricle. It says each upper chamber, the right atrium and the left atrium, acts as a receiving chamber and contracts to push blood into the lower chambers, the right ventricle and the left ventricle. It says the ventricles are the primary pumping chambers, propelling blood to the lungs or to the rest of the body. The chamber count and those roles are the textbook's.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "19.1 Heart Anatomy",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+      "author": "OpenStax Anatomy and Physiology 2e",
+      "date": "n.d.",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. OpenStax is a textbook, not a measurement body."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax Anatomy and Physiology 2e",
+  "as_of_date": "",
+  "related": [
+    "world.core.body.heart-pump",
+    "world.core.health.cvd-what"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "heart"
+  ]
+}

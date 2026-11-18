@@ -1,0 +1,33 @@
+{
+  "id": "world.core.biology.coenzyme-a",
+  "title": "The same 1953 Nobel citation credits Lipmann with coenzyme A",
+  "section": "world",
+  "category": "biology",
+  "summary": "The 1953 medicine prize motivation credits Fritz Lipmann with the discovery of coenzyme A and its importance for intermediary metabolism.",
+  "body": "The same 1953 Nobel record gives Fritz Lipmann a separate motivation: for his discovery of coenzyme A and its importance for intermediary metabolism. Krebs and Lipmann shared the year. The motivations name different discoveries. This card is Lipmann's sentence only.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 1953",
+      "url": "https://api.nobelprize.org/2.1/nobelPrize/med/1953",
+      "author": "Nobel Foundation",
+      "date": "1953-10-22",
+      "accessed": "2026-11-18",
+      "note": "Motivation text was read from the Nobel Prize API record."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Nobel Foundation, on Fritz Lipmann",
+  "as_of_date": "1953-10-22",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.biology.citric-acid-cycle"
+  ],
+  "tags": [
+    "core-pack",
+    "biology",
+    "metabolism"
+  ],
+  "read_time_min": 1
+}

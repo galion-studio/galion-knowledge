@@ -1,0 +1,34 @@
+{
+  "id": "world.core.climate.methane-2026",
+  "title": "NOAA: global marine-surface methane averaged 1,934.57 ppb in June 2026",
+  "section": "world",
+  "category": "climate",
+  "summary": "NOAA's Global Monitoring Laboratory lists a June 2026 globally averaged monthly mean of 1,934.57 ppb, and flags the latest year as preliminary.",
+  "body": "NOAA's Global Monitoring Laboratory trends page for methane lists the globally averaged monthly mean, from marine surface sites, as 1,934.57 parts per billion for June 2026 and 1,929.17 parts per billion for June 2025. The page says last updated 9 October 2026, and that values for the last year are preliminary, pending recalibrations. This is a marine-surface global mean for one month. It is not the 2019 annual average in the IPCC assessment.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Trends in CH4",
+      "url": "https://gml.noaa.gov/ccgg/trends_ch4/",
+      "author": "NOAA Global Monitoring Laboratory",
+      "date": "2026-10-09",
+      "accessed": "2026-11-18",
+      "note": "Page line: Last updated Oct 09, 2026. The page says values for the last year are preliminary."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA Global Monitoring Laboratory",
+  "as_of_date": "2026-10-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.climate.ipcc-2019-gases",
+    "world.co2-2024-noaa"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "methane"
+  ],
+  "read_time_min": 1
+}

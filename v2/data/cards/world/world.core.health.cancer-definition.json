@@ -1,0 +1,32 @@
+{
+  "id": "world.core.health.cancer-definition",
+  "title": "WHO: cancer is uncontrolled abnormal cells that can invade and metastasize",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO calls cancer a large group of diseases whose defining feature is abnormal cells that grow beyond their usual boundaries and can spread.",
+  "body": "WHO's cancer fact sheet, dated 3 July 2026, says cancer is a generic term for a large group of diseases that can affect any part of the body, also called malignant tumours and neoplasms. It says one defining feature is the rapid creation of abnormal cells that grow beyond their usual boundaries and can invade adjoining parts of the body and spread to other organs, and it calls that spread metastasis. It says widespread metastases are the primary cause of death from cancer. That is the sheet's definition.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Cancer",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/cancer",
+      "author": "World Health Organization",
+      "date": "2026-07-03",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-07-03",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.cancer-burden"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "cancer"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.biology.prions",
+  "title": "The 1997 Nobel citation: prions as a principle of infection",
+  "section": "world",
+  "category": "biology",
+  "summary": "The Nobel Foundation credits Stanley Prusiner with the discovery of prions, which the citation calls a new biological principle of infection.",
+  "body": "The Nobel Prize API record for 1997 says Stanley B. Prusiner received the prize in physiology or medicine for his discovery of prions, which the motivation calls a new biological principle of infection. The record dates the award 6 October 1997. The card repeats the citation. It does not add a protein-folding mechanism the motivation sentence does not state.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 1997",
+      "url": "https://api.nobelprize.org/2.1/nobelPrize/med/1997",
+      "author": "Nobel Foundation",
+      "date": "1997-10-06",
+      "accessed": "2026-11-18",
+      "note": "Motivation text was read from the Nobel Prize API record."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Nobel Foundation, on Stanley B. Prusiner",
+  "as_of_date": "1997-10-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.microbes-openstax"
+  ],
+  "tags": [
+    "core-pack",
+    "biology",
+    "infection"
+  ],
+  "read_time_min": 1
+}

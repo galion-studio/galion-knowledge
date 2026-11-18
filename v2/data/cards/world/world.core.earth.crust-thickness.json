@@ -1,0 +1,40 @@
+{
+  "id": "world.core.earth.crust-thickness",
+  "title": "Oceanic crust is about 5 km thick; continental crust averages about 30 km",
+  "section": "world",
+  "category": "earth",
+  "summary": "USGS pages put oceanic crust near 5 kilometers and continental crust near 30 kilometers on average, thicker under large mountain ranges.",
+  "body": "The USGS page \"The Earth's Interior\" says oceanic crust is thin, generally extending only to about 5 kilometers, and that continental crust averages about 30 kilometers and can reach about 100 kilometers under large mountain ranges such as the Alps or the Sierra Nevada. The USGS booklet \"Inside the Earth\" gives a local pair: oceanic crust at Hawaii about 5 kilometers, and continental crust under eastern California from 25 kilometers under the Great Valley to 60 kilometers under the Sierra Nevada. The two pages are describing thickness, not the same profile.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Earth's Interior",
+      "url": "https://pubs.usgs.gov/gip/dynamic/inside.html",
+      "author": "U.S. Geological Survey",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Inside the Earth",
+      "url": "https://pubs.usgs.gov/gip/interior/",
+      "author": "U.S. Geological Survey",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.three-shells",
+    "world.core.earth.moho"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "crust"
+  ],
+  "read_time_min": 1
+}

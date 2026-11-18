@@ -1,0 +1,42 @@
+{
+  "id": "world.core.earth.one-ocean",
+  "title": "NOAA: one global ocean, divided into named regions",
+  "section": "world",
+  "category": "earth",
+  "summary": "NOAA says there is one global ocean, historically named as four oceans, with the United States now recognizing a fifth, the Southern Ocean.",
+  "body": "NOAA's National Ocean Service page \"How many oceans are there?\" says there is only one global ocean, and that this body of water is geographically divided into named regions whose boundaries have changed for historical, cultural, geographical, and scientific reasons. It says that historically there are four named oceans: the Atlantic, Pacific, Indian, and Arctic. It says most countries, including the United States, now recognize the Southern, or Antarctic, ocean as the fifth. The page presents that as a naming history, not as five separate bodies of water.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How many oceans are there?",
+      "url": "https://oceanservice.noaa.gov/facts/howmanyoceans.html",
+      "author": "NOAA National Ocean Service",
+      "date": "2026-09-23",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA National Ocean Service",
+  "as_of_date": "2026-09-23",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.southern-ocean",
+    "world.core.earth.ocean-coverage"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "ocean"
+  ],
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "as_of_date",
+      "from": "",
+      "to": "2026-09-23",
+      "note": "as_of_date filled from the Last updated line already on the cited NOAA page (09/23/26). No source was added. The claim text was not rewritten."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "world.core.nature.paine-predators",
+  "title": "Paine 1966: removing predators lowered diversity in the rocky intertidal",
+  "section": "world",
+  "category": "nature",
+  "summary": "Robert T. Paine's 1966 abstract says that where predators that prevent monopolies are missing or removed, rocky-intertidal systems become less diverse.",
+  "body": "The abstract of Robert T. Paine's 1966 paper \"Food Web Complexity and Species Diversity\" says local animal species diversity is related to the number of predators and their efficiency at preventing a single species from monopolizing a limiting requirement. In the marine rocky intertidal, it says, that requirement usually is space. It says that where predators capable of preventing monopolies are missing, or are experimentally removed, the systems become less diverse. It also says that on a local scale no relationship between latitude, from 10 degrees to 49 degrees north, and diversity was found. The general rule is stated as a suggestion. The removal result is what the abstract reports for those shores. One paper's abstract does not settle every food web.\n",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Food Web Complexity and Species Diversity",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1086/282400",
+      "author": "Robert T. Paine",
+      "date": "1966",
+      "accessed": "2026-11-18",
+      "note": "Abstract text was read from the OpenAlex work record for this DOI on 2026-11-18. The DOI is 10.1086/282400."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Robert T. Paine",
+  "as_of_date": "1966",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.nature.biodiversity-definition"
+  ],
+  "tags": [
+    "core-pack",
+    "nature",
+    "ecology"
+  ],
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "moderate",
+      "to": "weak",
+      "note": "Truth gate ceiling. The attached sources support weak, not moderate. Best source class on this card: other. No source was added or removed. The claim text was not rewritten."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "world.core.earth.ocean-coverage",
+  "title": "NOAA: the global ocean covers 71 percent of Earth",
+  "section": "world",
+  "category": "earth",
+  "summary": "NOAA's oceans page says the one global ocean covers 71 percent of Earth. A USGS water-cycle caption says liquid and frozen water together cover 75 percent.",
+  "body": "NOAA's page \"How many oceans are there?\" says the vast body of water that covers 71 percent of Earth is divided into named regions. The USGS Water Science School water-cycle page says that, viewed from space, water in both liquid and frozen form covers 75 percent of Earth's surface, and it credits that sentence to NASA. The two sentences are not the same quantity: one is the ocean, the other is liquid and frozen water together. This card does not average them.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How many oceans are there?",
+      "url": "https://oceanservice.noaa.gov/facts/howmanyoceans.html",
+      "author": "NOAA National Ocean Service",
+      "date": "2026-09-23",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The water cycle",
+      "url": "https://www.usgs.gov/water-science-school/water-cycle",
+      "author": "U.S. Geological Survey, Water Science School",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA National Ocean Service; U.S. Geological Survey citing NASA",
+  "as_of_date": "2026-09-23",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.nature.water-cycle",
+    "world.core.earth.one-ocean"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "ocean"
+  ],
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "as_of_date",
+      "from": "",
+      "to": "2026-09-23",
+      "note": "as_of_date filled from the Last updated line already on the cited NOAA page (09/23/26). No source was added. The claim text was not rewritten."
+    }
+  ]
+}

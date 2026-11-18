@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.heart-attack",
+  "title": "WHO: heart attacks and many strokes are blockages, often from fatty deposits",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO says heart attacks and strokes are usually acute events caused mainly by a blockage, most often from fatty deposits, and that strokes can also be bleeds.",
+  "body": "WHO's cardiovascular-disease fact sheet says heart attacks and strokes are usually acute events and are mainly caused by a blockage that prevents blood from flowing to the heart or brain. It says the most common reason is a build-up of fatty deposits on the inner walls of the blood vessels that supply the heart or brain. It says strokes can also be caused by bleeding from a blood vessel in the brain or by blood clots. That is the mechanism the sheet states. It is not a claim about any one patient's arteries.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Cardiovascular diseases (CVDs)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)",
+      "author": "World Health Organization",
+      "date": "2025-07-31",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2025-07-31",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.cvd-what",
+    "world.core.health.hypertension"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "heart"
+  ],
+  "read_time_min": 1
+}

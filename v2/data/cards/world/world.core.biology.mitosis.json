@@ -1,0 +1,42 @@
+{
+  "section": "world",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "read_time_min": 1,
+  "id": "world.core.biology.mitosis",
+  "title": "OpenStax: mitosis is nuclear division in five named phases",
+  "category": "biology",
+  "summary": "OpenStax says karyokinesis, also called mitosis, runs through prophase, prometaphase, metaphase, anaphase, and telophase, and divides the nucleus.",
+  "body": "OpenStax Biology 2e, section 10.2, says karyokinesis, also known as mitosis, is divided into prophase, prometaphase, metaphase, anaphase, and telophase, and that those phases result in the division of the cell nucleus. The same book's meiosis section says mitosis produces daughter cells whose nuclei are genetically identical to the original parent nucleus, and that in most multicellular animals both the parent and the daughter nuclei are diploid. The phase list is the textbook's. This card does not describe what each phase looks like under a microscope.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "10.2 The Cell Cycle",
+      "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+      "author": "OpenStax Biology 2e",
+      "date": "n.d.",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. OpenStax is a textbook, not a measurement body."
+    },
+    {
+      "title": "11.1 The Process of Meiosis",
+      "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+      "author": "OpenStax Biology 2e",
+      "date": "n.d.",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. OpenStax is a textbook, not a measurement body."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax Biology 2e",
+  "as_of_date": "",
+  "related": [
+    "world.core.biology.cell-cycle",
+    "world.core.biology.meiosis"
+  ],
+  "tags": [
+    "core-pack",
+    "biology",
+    "cell"
+  ]
+}

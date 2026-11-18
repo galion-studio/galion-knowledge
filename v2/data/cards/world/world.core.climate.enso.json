@@ -1,0 +1,43 @@
+{
+  "id": "world.core.climate.enso",
+  "title": "NOAA: El Niño and La Niña are the warm and cool phases of ENSO",
+  "section": "world",
+  "category": "climate",
+  "summary": "NOAA describes ENSO as a tropical Pacific pattern that shifts irregularly every two to seven years.",
+  "body": "NOAA Climate.gov says El Niño and La Niña are the warm and cool phases of a natural climate pattern across the tropical Pacific called the El Niño-Southern Oscillation, or ENSO. It says the pattern shifts back and forth irregularly every two to seven years, changes ocean temperature, and disrupts the usual wind and rainfall patterns across the tropics, with further effects outside the tropics. The fetched page is an archived Climate.gov copy. This card uses the definition on that page, not a later monthly advisory.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "El Niño and La Niña (El Niño-Southern Oscillation)",
+      "url": "https://www.climate.gov/enso",
+      "author": "NOAA Climate.gov",
+      "date": "2025-06-25",
+      "accessed": "2026-11-18",
+      "note": "The fetched copy is marked as an archived Climate.gov page as of June 25, 2025. The criteria text was on that page."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA Climate.gov",
+  "as_of_date": "2025-06-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.climate.el-nino-criteria",
+    "world.core.climate.la-nina-criteria"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "enso"
+  ],
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "as_of_date",
+      "from": "",
+      "to": "2025-06-25",
+      "note": "as_of_date filled from the archive notice already on the cited page: archived as of June 25, 2025. No source was added. The claim text was not rewritten."
+    }
+  ]
+}

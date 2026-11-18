@@ -1,0 +1,42 @@
+{
+  "id": "world.core.nature.coral-bleaching",
+  "title": "NOAA: bleaching is expelled algae, and the coral is not necessarily dead",
+  "section": "world",
+  "category": "nature",
+  "summary": "NOAA says stressed corals expel the symbiotic algae and turn white, and that a bleached coral can still be alive.",
+  "body": "NOAA says that when corals are stressed by changes in conditions such as temperature, light, or nutrients, they expel the symbiotic algae living in their tissues and turn completely white. It says that when a coral bleaches, it is not dead. It says corals can survive a bleaching event, but they are under more stress and are subject to mortality. The page states the mechanism and that survival is possible. It does not give a death rate.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Are corals animals or plants?",
+      "url": "https://oceanservice.noaa.gov/facts/coral.html",
+      "author": "NOAA National Ocean Service",
+      "date": "2026-09-23",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA National Ocean Service",
+  "as_of_date": "2026-09-23",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.nature.zooxanthellae",
+    "world.core.climate.sea-level-2023"
+  ],
+  "tags": [
+    "core-pack",
+    "nature",
+    "coral"
+  ],
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "as_of_date",
+      "from": "",
+      "to": "2026-09-23",
+      "note": "as_of_date filled from the Last updated line already on the cited NOAA page (09/23/26). No source was added. The claim text was not rewritten."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.core.health.income-pattern",
+  "title": "WHO: in 2023, seven of the ten leading causes in low-income countries were communicable",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The fact sheet says people in low-income countries were far more likely to die of a communicable disease, and it gives a different mix for high-income countries.",
+  "body": "WHO's causes-of-death fact sheet says that in 2023, seven of the ten leading causes of death in low-income countries were communicable diseases, and that malaria, tuberculosis, and HIV and AIDS all remained in that top ten. It says that in high-income countries, nine of the ten leading causes in 2023 were noncommunicable, and that ischaemic heart disease and stroke together killed 3.4 million people in that income group in 2023. It also says high-income countries were the only group in which deaths from ischaemic heart disease, stroke, and stomach cancer all fell between 2000 and 2023, by 18 percent, 26 percent, and 27 percent. The income groups are the World Bank groups the sheet cites. The pattern is the sheet's comparison, not a claim that income itself is the biological cause.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The top 10 causes of death",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death",
+      "author": "World Health Organization",
+      "date": "2026-10-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2023",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.deaths-2023",
+    "world.core.health.malaria-burden",
+    "world.core.health.tb-burden"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "mortality"
+  ],
+  "read_time_min": 1
+}

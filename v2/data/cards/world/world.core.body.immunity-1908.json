@@ -1,0 +1,34 @@
+{
+  "id": "world.core.body.immunity-1908",
+  "title": "The 1908 Nobel citation credits Mechnikov and Ehrlich for work on immunity",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The Nobel Foundation credits Ilya Mechnikov and Paul Ehrlich for their work on immunity.",
+  "body": "The Nobel Prize API record for 1908 says Ilya Mechnikov and Paul Ehrlich received the prize in physiology or medicine in recognition of their work on immunity. The record dates the award 29 October 1908. A later textbook split between innate and adaptive immunity is a different card. This card is the 1908 citation, which does not itself draw that split.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 1908",
+      "url": "https://api.nobelprize.org/2.1/nobelPrize/med/1908",
+      "author": "Nobel Foundation",
+      "date": "1908-10-29",
+      "accessed": "2026-11-18",
+      "note": "Motivation text was read from the Nobel Prize API record."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Nobel Foundation",
+  "as_of_date": "1908-10-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.immune-innate-adaptive",
+    "world.who-vaccination"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "immunity"
+  ],
+  "read_time_min": 1
+}

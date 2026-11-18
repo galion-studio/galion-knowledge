@@ -1,0 +1,34 @@
+{
+  "section": "world",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "read_time_min": 1,
+  "id": "world.core.biology.cell-cycle",
+  "title": "OpenStax: the cell cycle produces two daughter cells",
+  "category": "biology",
+  "summary": "OpenStax Biology 2e says the cell cycle is an ordered series of growth and division that produces two new daughter cells.",
+  "body": "OpenStax Biology 2e, section 10.2, says the cell cycle is an ordered series of events involving cell growth and cell division that produces two new daughter cells. It says cells on the path to division proceed through precisely timed stages of growth, DNA replication, and nuclear and cytoplasmic division. In the S phase, it says, DNA replication forms identical pairs of DNA molecules, sister chromatids, firmly attached at the centromeric region. This is the textbook's account of the cycle. It is not a count of how often a given human cell divides.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "10.2 The Cell Cycle",
+      "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+      "author": "OpenStax Biology 2e",
+      "date": "n.d.",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. OpenStax is a textbook, not a measurement body."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax Biology 2e",
+  "as_of_date": "",
+  "related": [
+    "world.core.biology.mitosis",
+    "world.biology.dna-double-helix-1953"
+  ],
+  "tags": [
+    "core-pack",
+    "biology",
+    "cell"
+  ]
+}

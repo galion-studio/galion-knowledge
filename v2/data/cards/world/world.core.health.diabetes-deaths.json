@@ -1,0 +1,41 @@
+{
+  "id": "world.core.health.diabetes-deaths",
+  "title": "WHO's cause list: diabetes killed 2.0 million people in 2023",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The causes-of-death sheet ranks diabetes sixth in 2023, at 2.0 million deaths, more than double the deaths in 2000.",
+  "body": "WHO's causes-of-death fact sheet says diabetes ranked sixth among leading causes in 2023 and claimed 2.0 million lives, more than double the deaths in 2000. The diabetes fact sheet, separately, says diabetes was the direct cause of 2.0 million deaths in 2023, and also that diabetes and kidney disease due to diabetes caused around 2.4 million deaths in 2023. The 2.0 million and the 2.4 million are different groupings on WHO's own pages. This card is the 2.0 million direct count. The wider grouping is on the diabetes card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The top 10 causes of death",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death",
+      "author": "World Health Organization",
+      "date": "2026-10-02",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Diabetes",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+      "author": "World Health Organization",
+      "date": "2026-11-11",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2023",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.diabetes",
+    "world.core.health.ischaemic-heart"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "diabetes",
+    "mortality"
+  ],
+  "read_time_min": 1
+}

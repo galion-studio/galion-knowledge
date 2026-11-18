@@ -1,0 +1,34 @@
+{
+  "id": "world.core.earth.groundwater",
+  "title": "USGS: about a hundred times more fresh water underground than in rivers and lakes",
+  "section": "world",
+  "category": "earth",
+  "summary": "The USGS groundwater page says there is about a hundred times more fresh water in the ground than in all the world's rivers and freshwater lakes.",
+  "body": "The U.S. Geological Survey's groundwater page says there is an immense amount of water in aquifers below the surface, and that there is about a hundred times more fresh water in the ground than in all the world's rivers and freshwater lakes. It says groundwater starts as precipitation, and that water which continues downward until it reaches saturated rock material is groundwater recharge. It also says this water is not always accessible or fresh enough to use without treatment. The comparison is with rivers and freshwater lakes, not with all fresh water, and not with the ocean.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Groundwater: What is Groundwater?",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/science/groundwater-what-groundwater",
+      "author": "U.S. Geological Survey, Water Science School",
+      "date": "2018-10-09",
+      "accessed": "2026-11-18",
+      "note": "The page shows the date October 9, 2018."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "2018-10-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.water-inventory-usgs",
+    "world.nature.water-cycle"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "water"
+  ],
+  "read_time_min": 1
+}

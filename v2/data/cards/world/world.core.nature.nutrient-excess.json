@@ -1,0 +1,34 @@
+{
+  "id": "world.core.nature.nutrient-excess",
+  "title": "USGS: nitrogen and phosphorus are essential, and too much in water causes harm",
+  "section": "world",
+  "category": "nature",
+  "summary": "USGS says these nutrients are essential for growth, and that an overabundance in water can cause adverse health and ecological effects.",
+  "body": "The U.S. Geological Survey's nitrogen and water page says nutrients such as nitrogen and phosphorus are essential for plant and animal growth and nourishment, but that the overabundance of certain nutrients in water can cause a number of adverse health and ecological effects. It says nitrogen is also introduced through sewage and fertilizers. It says more than 5 million tons of nitrogen are deposited in the United States each year from the atmosphere, from natural chemical reactions or from combustion of fossil fuels such as coal and gasoline. The 5 million tons is a United States deposition figure on that page, not a world total.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Nitrogen and Water",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/science/nitrogen-and-water",
+      "author": "U.S. Geological Survey, Water Science School",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.nature.fixed-nitrogen",
+    "world.core.health.unsafe-water"
+  ],
+  "tags": [
+    "core-pack",
+    "nature",
+    "nitrogen",
+    "water"
+  ],
+  "read_time_min": 1
+}

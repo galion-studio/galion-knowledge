@@ -1,0 +1,35 @@
+{
+  "id": "world.core.climate.ipcc-carbon-sink",
+  "title": "IPCC AR6: land and ocean have taken up about 56 percent of human CO2 emissions",
+  "section": "world",
+  "category": "climate",
+  "summary": "Statement A.1.1 says land and ocean have taken up a near-constant proportion, globally about 56 percent a year, of CO2 emissions from human activities over the past six decades.",
+  "body": "In the same A.1.1 paragraph, the IPCC Working Group I summary says land and ocean have taken up a near-constant proportion, globally about 56 percent per year, of CO2 emissions from human activities over the past six decades, with regional differences. It marks that sentence high confidence. The 56 percent is the share taken up, not a claim that the airborne share is zero.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Climate Change 2021: The Physical Science Basis. Summary for Policymakers",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf",
+      "author": "Intergovernmental Panel on Climate Change, Working Group I",
+      "date": "2021",
+      "accessed": "2026-11-18",
+      "note": "PDF opened 2026-11-18. The citation block in the file reads IPCC, 2021."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Intergovernmental Panel on Climate Change, Working Group I",
+  "as_of_date": "2021",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.climate.ipcc-2019-gases",
+    "world.nature.ocean-carbon-and-ph"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "ipcc",
+    "carbon-dioxide"
+  ],
+  "read_time_min": 1
+}

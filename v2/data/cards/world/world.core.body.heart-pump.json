@@ -1,0 +1,34 @@
+{
+  "section": "world",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "read_time_min": 1,
+  "id": "world.core.body.heart-pump",
+  "title": "NHLBI: the heart is a fist-sized organ that pumps blood",
+  "category": "medicine",
+  "summary": "The National Heart, Lung, and Blood Institute says the heart pumps blood through the body, and that blood carries oxygen, nutrients, and carbon dioxide.",
+  "body": "The National Heart, Lung, and Blood Institute's page \"How the Heart Works,\" last updated 24 March 2022, says the heart is an organ about the size of a fist that pumps blood through the body. It says the heart is at the center of the circulatory system, a network of arteries, veins, and capillaries that carries blood to and from all areas of the body. It says blood carries the oxygen and nutrients organs need, and also carries carbon dioxide to the lungs to be breathed out. It says valves inside the heart keep blood flowing in the right direction, and that the heart's electrical system controls the rate and rhythm of the heartbeat. The four named chambers are a different page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How the Heart Works: The Heart",
+      "url": "https://www.nhlbi.nih.gov/health/heart",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-18",
+      "note": "Page line: Last updated on March 24, 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Heart, Lung, and Blood Institute",
+  "as_of_date": "2022-03-24",
+  "related": [
+    "world.core.body.heart-chambers",
+    "world.core.body.lungs-gas-exchange"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "heart"
+  ]
+}

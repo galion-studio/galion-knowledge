@@ -1,0 +1,33 @@
+{
+  "id": "world.core.nature.fixed-nitrogen",
+  "title": "USGS: plants and animals cannot use nitrogen gas; they need fixed nitrogen",
+  "section": "world",
+  "category": "nature",
+  "summary": "USGS says air is about 78 percent nitrogen gas, and that plants and animals require fixed nitrogen: nitrate, nitrite, ammonium, or organic nitrogen.",
+  "body": "The U.S. Geological Survey's nitrogen and water page says the most abundant form of nitrogen on the planet is nitrogen gas in the air, about 78 percent of air. It says plants and animals require fixed nitrogen for growth and cannot use nitrogen gas. It says fixed nitrogen is found as nitrate, nitrite, ammonium, or organic nitrogen, meaning nitrogen that is part of an organic molecule such as amino acids and proteins. It says which form is needed depends on the species. A NASA fact sheet already lists dry air as 78.08 percent nitrogen. This card is the USGS point that organisms do not use that gas directly.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Nitrogen and Water",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/science/nitrogen-and-water",
+      "author": "U.S. Geological Survey, Water Science School",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.geography.earth-atmosphere",
+    "world.core.nature.nutrient-excess"
+  ],
+  "tags": [
+    "core-pack",
+    "nature",
+    "nitrogen"
+  ],
+  "read_time_min": 1
+}

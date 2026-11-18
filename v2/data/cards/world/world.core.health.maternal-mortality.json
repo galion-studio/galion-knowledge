@@ -1,0 +1,32 @@
+{
+  "id": "world.core.health.maternal-mortality",
+  "title": "WHO: about 260,000 women died from pregnancy and childbirth in 2023",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's maternal-mortality sheet says more than 700 women died each day in 2023 from preventable causes related to pregnancy and childbirth, and that the ratio fell about 40 percent from 2000 to 2023.",
+  "body": "WHO's maternal-mortality fact sheet, dated 7 April 2025, says that every day in 2023 more than 700 women died from preventable causes related to pregnancy and childbirth, and that a maternal death occurred almost every 2 minutes. It says about 260,000 women died during and following pregnancy and childbirth in 2023. It says the maternal mortality ratio, maternal deaths per 100,000 live births, dropped by about 40 percent worldwide between 2000 and 2023. It says approximately 92 percent of all maternal deaths in 2023 occurred in low- and lower-middle-income countries, and a key-facts line says just over 90 percent. Both shares are on the sheet. The 260,000 is the sheet's 2023 total.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Maternal mortality",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/maternal-mortality",
+      "author": "World Health Organization",
+      "date": "2025-04-07",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2023",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.child-mortality"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "maternal"
+  ],
+  "read_time_min": 1
+}

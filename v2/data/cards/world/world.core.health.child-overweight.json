@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.child-overweight",
+  "title": "WHO: in 2024, 35 million children under 5 and 170 million children and adolescents were living with excess weight of the kinds the sheet names",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The obesity fact sheet says 35 million children under 5 were overweight, and 400 million people aged 5 to 19 were overweight, including 170 million with obesity.",
+  "body": "WHO's obesity fact sheet says that in 2024, 35 million children under the age of 5 were overweight. It says 400 million children and adolescents aged 5 to 19 were overweight, including 170 million living with obesity. The sheet uses \"overweight\" for the larger counts and \"obesity\" for the 170 million. This card keeps those words apart.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Obesity and overweight",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+      "author": "World Health Organization",
+      "date": "2026-10-07",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2024",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.obesity",
+    "world.core.health.child-mortality"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "obesity"
+  ],
+  "read_time_min": 1
+}

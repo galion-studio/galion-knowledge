@@ -1,0 +1,34 @@
+{
+  "section": "world",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "read_time_min": 1,
+  "id": "world.core.body.lungs-gas-exchange",
+  "title": "NHLBI: the lungs move oxygen into the blood and carbon dioxide out",
+  "category": "medicine",
+  "summary": "NHLBI says inhaling brings air into the lungs, oxygen from that air enters the blood, and carbon dioxide moves from the blood into the lungs and is exhaled.",
+  "body": "The National Heart, Lung, and Blood Institute's page \"How the Lungs Work,\" last updated 24 March 2022, says the lungs are the pair of spongy, pinkish-gray organs in the chest. It says that when you inhale, air enters the lungs and oxygen from that air moves to the blood, while carbon dioxide, a waste gas, moves from the blood to the lungs and is exhaled. It calls this process gas exchange and says it is essential to life. It says the respiratory system also includes the trachea, the muscles of the chest wall and the diaphragm, blood vessels, and other tissues. The small sacs where an anatomy text places that exchange are a different card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How the Lungs Work: The Lungs",
+      "url": "https://www.nhlbi.nih.gov/health/lungs",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-18",
+      "note": "Page line: Last updated on March 24, 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Heart, Lung, and Blood Institute",
+  "as_of_date": "2022-03-24",
+  "related": [
+    "world.core.body.alveoli",
+    "world.core.body.heart-pump"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "lungs"
+  ]
+}

@@ -73,7 +73,8 @@
   "related": [
     "world.nature.water-cycle",
     "world.nature.milankovitch-cycles",
-    "world.biology.photosynthesis"
+    "world.biology.photosynthesis",
+    "world.core.climate.ecs-range"
   ],
   "read_time_min": 2
 }

@@ -1,0 +1,43 @@
+{
+  "id": "world.core.climate.el-nino-criteria",
+  "title": "NOAA's El Niño threshold is 0.5°C in the Niño-3.4 region",
+  "section": "world",
+  "category": "climate",
+  "summary": "NOAA's archived ENSO page says El Niño requires a Niño-3.4 sea-surface anomaly of at least +0.5°C, persisting for five overlapping seasons, plus an atmospheric change.",
+  "body": "NOAA Climate.gov's ENSO page states El Niño criteria as three conditions together. Average sea-surface temperatures in the Niño-3.4 region, 5 degrees north to 5 degrees south and 120 degrees west to 170 degrees west, were at least 0.5 degrees Celsius warmer than average in the preceding month. An anomaly of that size has persisted, or is expected to persist, for five consecutive overlapping three-month periods. And the atmosphere over the tropical Pacific shows one or more of the changes the page associates with El Niño, including weaker than usual easterly trade winds. A warm month by itself is not the criterion the page prints.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "El Niño and La Niña (El Niño-Southern Oscillation)",
+      "url": "https://www.climate.gov/enso",
+      "author": "NOAA Climate.gov",
+      "date": "2025-06-25",
+      "accessed": "2026-11-18",
+      "note": "The fetched copy is marked as an archived Climate.gov page as of June 25, 2025. The criteria text was on that page."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA Climate.gov",
+  "as_of_date": "2025-06-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.climate.enso",
+    "world.core.climate.la-nina-criteria"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "enso"
+  ],
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "as_of_date",
+      "from": "",
+      "to": "2025-06-25",
+      "note": "as_of_date filled from the archive notice already on the cited page: archived as of June 25, 2025. No source was added. The claim text was not rewritten."
+    }
+  ]
+}

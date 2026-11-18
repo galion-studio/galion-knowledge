@@ -1,0 +1,33 @@
+{
+  "id": "world.core.body.ross-malaria",
+  "title": "The 1902 Nobel citation credits Ross with showing how malaria enters the body",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The Nobel Foundation credits Ronald Ross for work on malaria that showed how it enters the organism.",
+  "body": "The Nobel Prize API record for 1902 says Ronald Ross received the prize in physiology or medicine for his work on malaria, by which he showed how it enters the organism and thereby laid a foundation for research and for methods of combating it. The record dates the award 30 October 1902. Current case and death estimates are on the WHO malaria cards. This card is the 1902 citation.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 1902",
+      "url": "https://api.nobelprize.org/2.1/nobelPrize/med/1902",
+      "author": "Nobel Foundation",
+      "date": "1902-10-30",
+      "accessed": "2026-11-18",
+      "note": "Motivation text was read from the Nobel Prize API record."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Nobel Foundation, on Ronald Ross",
+  "as_of_date": "1902-10-30",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.malaria-parasite"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "malaria"
+  ],
+  "read_time_min": 1
+}

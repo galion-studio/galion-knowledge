@@ -1,0 +1,33 @@
+{
+  "id": "world.core.biology.mobile-elements",
+  "title": "The 1983 Nobel citation credits McClintock with mobile genetic elements",
+  "section": "world",
+  "category": "biology",
+  "summary": "The Nobel Foundation's 1983 medicine prize motivation credits Barbara McClintock with the discovery of mobile genetic elements.",
+  "body": "The Nobel Prize API record for 1983 says Barbara McClintock received the prize in physiology or medicine for her discovery of mobile genetic elements. The record dates the award 10 October 1983. The card is that citation.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 1983",
+      "url": "https://api.nobelprize.org/2.1/nobelPrize/med/1983",
+      "author": "Nobel Foundation",
+      "date": "1983-10-10",
+      "accessed": "2026-11-18",
+      "note": "Motivation text was read from the Nobel Prize API record."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Nobel Foundation, on Barbara McClintock",
+  "as_of_date": "1983-10-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.biology.genes-and-enzymes"
+  ],
+  "tags": [
+    "core-pack",
+    "biology",
+    "genetics"
+  ],
+  "read_time_min": 1
+}

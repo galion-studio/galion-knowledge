@@ -1,0 +1,35 @@
+{
+  "id": "world.core.climate.sea-level-1880",
+  "title": "NOAA: global mean sea level has risen about 8 to 9 inches since 1880",
+  "section": "world",
+  "category": "climate",
+  "summary": "A NOAA Climate.gov article says global mean sea level has risen about 8 to 9 inches since 1880, mostly from meltwater and from seawater expanding as it warms.",
+  "body": "Rebecca Lindsey's NOAA Climate.gov article, published 22 August 2023, says global mean sea level has risen about 8 to 9 inches, or 21 to 24 centimeters, since 1880. It says the rising water level is mostly due to a combination of meltwater from glaciers and ice sheets and thermal expansion of seawater as it warms. The fetched copy carries an archive notice. The sentence above is the one on that article.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Climate Change: Global Sea Level",
+      "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level",
+      "author": "Rebecca Lindsey, NOAA Climate.gov",
+      "date": "2023-08-22",
+      "accessed": "2026-11-18",
+      "note": "Published August 22, 2023. The Climate.gov copy fetched on 2026-11-18 carried an archive notice dated June 25, 2025."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Rebecca Lindsey, NOAA Climate.gov",
+  "as_of_date": "2023-08-22",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.climate.sea-level-2023",
+    "world.core.climate.sea-level-rate",
+    "world.core.climate.ipcc-sea-level"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "sea-level"
+  ],
+  "read_time_min": 1
+}

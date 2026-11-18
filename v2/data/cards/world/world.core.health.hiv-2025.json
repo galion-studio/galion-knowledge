@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.hiv-2025",
+  "title": "WHO: 41.0 million people were living with HIV at the end of 2025",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's HIV fact sheet, dated 27 July 2026, says 44.2 million lives have been lost, 570,000 people died of HIV-related causes in 2025, and 1.2 million acquired HIV that year.",
+  "body": "WHO's HIV fact sheet, dated 27 July 2026, says HIV has claimed an estimated 44.2 million lives to date. It says an estimated 41.0 million people were living with HIV at the end of 2025, 64 percent of them in the WHO African Region. It says that in 2025 an estimated 570,000 people died from HIV-related causes and an estimated 1.2 million people acquired HIV. It says there is no cure, and that with prevention, diagnosis, treatment, and care, HIV has become a manageable chronic condition. The rank change from 2000 to 2023 is a different card and a different year.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "HIV and AIDS",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/hiv-aids",
+      "author": "World Health Organization",
+      "date": "2026-07-27",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2025",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.hiv-rank",
+    "world.core.health.tb-burden"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "hiv"
+  ],
+  "read_time_min": 1
+}

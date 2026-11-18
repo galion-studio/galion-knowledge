@@ -1,0 +1,34 @@
+{
+  "id": "world.core.climate.mauna-loa-2026-09",
+  "title": "NOAA: Mauna Loa monthly mean CO2 was 426.07 ppm in September 2026",
+  "section": "world",
+  "category": "climate",
+  "summary": "NOAA's Mauna Loa monthly series lists 426.07 ppm for September 2026 and 424.37 ppm for September 2025.",
+  "body": "NOAA's Global Monitoring Laboratory CO2 trends page says the graphs are monthly mean carbon dioxide measured at Mauna Loa Observatory, Hawaii. It lists September 2026 at 426.07 parts per million and September 2025 at 424.37 parts per million, last updated 9 October 2026. It says the Mauna Loa record is the longest direct atmospheric CO2 record and was started by C. David Keeling in March 1958, with NOAA's own measurements from May 1974 running in parallel with Scripps. A separate card already stores NOAA's 2024 global annual average of 422.7 ppm. This card is the later monthly mean at one observatory, not that global annual figure.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Trends in CO2",
+      "url": "https://gml.noaa.gov/ccgg/trends/",
+      "author": "NOAA Global Monitoring Laboratory",
+      "date": "2026-10-09",
+      "accessed": "2026-11-18",
+      "note": "Page line: Last updated Oct 09, 2026. Monthly means are Mauna Loa Observatory."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA Global Monitoring Laboratory",
+  "as_of_date": "2026-10-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.co2-2024-noaa",
+    "world.nature.keeling-co2-1960"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "carbon-dioxide"
+  ],
+  "read_time_min": 1
+}

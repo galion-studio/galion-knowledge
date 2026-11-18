@@ -1,0 +1,35 @@
+{
+  "section": "world",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "read_time_min": 1,
+  "id": "world.core.earth.geologic-time-scale",
+  "title": "USGS: a geologic time scale is rock divisions calibrated in years",
+  "category": "earth",
+  "summary": "The USGS Geologic Names Committee's March 2007 fact sheet says a geologic time scale is standard stratigraphic divisions based on rock sequences and calibrated in years.",
+  "body": "U.S. Geological Survey Fact Sheet 2007-3015, March 2007, by the Geologic Names Committee, says a geologic time scale is composed of standard stratigraphic divisions based on rock sequences and calibrated in years. It says that since the USGS 7th edition of Suggestions to Authors in 1991, no other time scale had been officially endorsed by the USGS, and that the 2007 divisions follow that 1991 structure. The sheet is a naming decision for USGS communication. It is not a claim that every later international chart uses the same boundaries.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Divisions of Geologic Time—Major Chronostratigraphic and Geochronologic Units",
+      "url": "https://pubs.usgs.gov/fs/2007/3015/fs2007-3015.pdf",
+      "author": "U.S. Geological Survey Geologic Names Committee",
+      "date": "2007-03",
+      "accessed": "2026-11-18",
+      "note": "Fact Sheet 2007-3015, March 2007. PDF opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey Geologic Names Committee",
+  "as_of_date": "2007-03",
+  "related": [
+    "world.core.earth.quaternary-base-2007",
+    "world.core.earth.radiometric-dating",
+    "world.earth-age-usgs"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "geologic-time"
+  ]
+}

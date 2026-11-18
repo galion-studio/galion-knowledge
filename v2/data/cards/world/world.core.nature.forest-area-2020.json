@@ -1,0 +1,33 @@
+{
+  "section": "world",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "read_time_min": 1,
+  "id": "world.core.nature.forest-area-2020",
+  "title": "FAO FRA 2020: forests cover 4.06 billion hectares",
+  "category": "nature",
+  "summary": "The FAO Global Forest Resources Assessment 2020 page says forests cover nearly one third of land, 4.06 billion hectares, about 0.52 hectares per person.",
+  "body": "The Food and Agriculture Organization's Global Forest Resources Assessment 2020 page says forests cover nearly one third of land globally, 4.06 billion hectares, about 0.52 hectares of forest for every person. The page labels the block as FRA 2020 key facts. This is that assessment's global area, not a later assessment and not a map of one country.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Global Forest Resources Assessment 2020",
+      "url": "https://www.fao.org/interactive/forest-resources-assessment/2020/en/",
+      "author": "Food and Agriculture Organization of the United Nations",
+      "date": "2020",
+      "accessed": "2026-11-18",
+      "note": "Interactive FRA 2020 page opened 2026-11-18. The key-fact block is labeled 2020."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Food and Agriculture Organization of the United Nations",
+  "as_of_date": "2020",
+  "related": [
+    "world.core.nature.forest-five-countries"
+  ],
+  "tags": [
+    "core-pack",
+    "nature",
+    "forest"
+  ]
+}

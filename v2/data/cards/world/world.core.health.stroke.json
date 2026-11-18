@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.stroke",
+  "title": "WHO: stroke killed about 6.8 million people in 2023",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The fact sheet ranks stroke second, about 11 percent of deaths, 6.8 million in 2023.",
+  "body": "WHO's causes-of-death fact sheet says stroke and chronic obstructive pulmonary disease were the second and third leading causes of death in 2023, responsible for approximately 11 percent, or 6.8 million, and 6 percent, or 3.6 million, of total deaths. This card is the stroke line. The pulmonary-disease line is the next card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The top 10 causes of death",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death",
+      "author": "World Health Organization",
+      "date": "2026-10-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2023",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.ischaemic-heart",
+    "world.core.health.copd"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "mortality"
+  ],
+  "read_time_min": 1
+}

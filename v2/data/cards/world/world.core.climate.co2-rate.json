@@ -1,0 +1,42 @@
+{
+  "id": "world.core.climate.co2-rate",
+  "title": "NOAA: the CO2 rise of the last 60 years is about 100 times faster than earlier natural increases",
+  "section": "world",
+  "category": "climate",
+  "summary": "NOAA Climate.gov says the annual rate of increase over the past 60 years is about 100 times faster than previous natural increases.",
+  "body": "NOAA Climate.gov says the annual rate of increase in atmospheric carbon dioxide over the past 60 years is about 100 times faster than previous natural increases, such as those at the end of the last ice age. That comparison is the article's. The size of the latest annual step is the separate 2024 global-average card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Climate change: atmospheric carbon dioxide",
+      "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide",
+      "author": "NOAA Climate.gov",
+      "date": "2025-05-21",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA Climate.gov",
+  "as_of_date": "2025-05-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.co2-2024-noaa",
+    "world.core.climate.co2-ice-core"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "carbon-dioxide"
+  ],
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "as_of_date",
+      "from": "",
+      "to": "2025-05-21",
+      "note": "as_of_date filled from the page line Published May 21, 2025. No source was added. The claim text was not rewritten."
+    }
+  ]
+}

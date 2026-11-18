@@ -1,0 +1,34 @@
+{
+  "id": "world.core.health.cvd-deaths",
+  "title": "WHO: cardiovascular diseases killed an estimated 19.8 million people in 2022",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's cardiovascular-disease fact sheet says that 2022 total was about 32 percent of global deaths, and that 85 percent of those deaths were heart attack and stroke.",
+  "body": "WHO's cardiovascular-disease fact sheet, dated 31 July 2025, says cardiovascular diseases are the leading cause of death globally. It says an estimated 19.8 million people died from them in 2022, about 32 percent of all global deaths, and that 85 percent of these deaths were due to heart attack and stroke. It says over three quarters of CVD deaths take place in low- and middle-income countries. The 19.8 million is all cardiovascular diseases in 2022. The causes-of-death sheet's 2023 figures for ischaemic heart disease and for stroke are narrower and a year later. They are not this total.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Cardiovascular diseases (CVDs)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)",
+      "author": "World Health Organization",
+      "date": "2025-07-31",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.ischaemic-heart",
+    "world.core.health.stroke",
+    "world.core.health.cvd-what"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "heart"
+  ],
+  "read_time_min": 1
+}

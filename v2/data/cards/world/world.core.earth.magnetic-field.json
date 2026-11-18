@@ -1,0 +1,33 @@
+{
+  "id": "world.core.earth.magnetic-field",
+  "title": "NASA's fact sheet: surface field about 0.24 to 0.66 gauss, WMM2020 poles",
+  "section": "world",
+  "category": "earth",
+  "summary": "The fact sheet lists a surface field of 0.24 to 0.66 gauss and two different WMM2020 pole positions.",
+  "body": "NASA's Earth Fact Sheet, under a geomagnetic model labeled WMM2020, lists a surface field strength of 0.24 to 0.66 gauss at one Earth radius, which the sheet defines there as 6,378 kilometers. It lists a geocentric dipole at 80.65 degrees north, 72.68 degrees west, and a magnetic north pole at 86.50 degrees north, 164.04 degrees east. The sheet prints both positions. This card does not treat them as one point. The USGS account of a liquid outer core is a separate statement about a source, not this field table.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Earth Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "author": "David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-11-15",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line on the page: 15 November 2024, DRW."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-11-15",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.mantle-and-core"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "magnetic-field"
+  ],
+  "read_time_min": 1
+}

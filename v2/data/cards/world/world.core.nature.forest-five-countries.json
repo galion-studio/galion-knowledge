@@ -1,0 +1,33 @@
+{
+  "section": "world",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "read_time_min": 1,
+  "id": "world.core.nature.forest-five-countries",
+  "title": "FAO FRA 2020: five countries hold 54 percent of forest area",
+  "category": "nature",
+  "summary": "The same FRA 2020 page says the Russian Federation, Brazil, Canada, the United States, and China together hold more than half of the world's forests, and it lists each country's area.",
+  "body": "The FAO Global Forest Resources Assessment 2020 page says more than half, 54 percent, of the world's forests are in five countries. It lists forest area in 2020 as 815 million hectares in the Russian Federation (20 percent), 497 million hectares in Brazil (12 percent), 347 million hectares in Canada (9 percent), 310 million hectares in the United States of America (8 percent), and 220 million hectares in China (5 percent), with the rest of the world at 1,870 million hectares (46 percent). The page titles that list \"Top five countries for forest area, 2020.\" The global total those shares sit on is the 4.06 billion hectare card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Global Forest Resources Assessment 2020",
+      "url": "https://www.fao.org/interactive/forest-resources-assessment/2020/en/",
+      "author": "Food and Agriculture Organization of the United Nations",
+      "date": "2020",
+      "accessed": "2026-11-18",
+      "note": "Interactive FRA 2020 page opened 2026-11-18. The key-fact block is labeled 2020."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Food and Agriculture Organization of the United Nations",
+  "as_of_date": "2020",
+  "related": [
+    "world.core.nature.forest-area-2020"
+  ],
+  "tags": [
+    "core-pack",
+    "nature",
+    "forest"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.core.earth.bond-albedo",
+  "title": "NASA's Earth Fact Sheet lists a Bond albedo of 0.294",
+  "section": "world",
+  "category": "earth",
+  "summary": "The fact sheet lists Earth's Bond albedo as 0.294 and its geometric albedo as 0.434.",
+  "body": "NASA's Earth Fact Sheet lists a Bond albedo of 0.294 and a geometric albedo of 0.434. The sheet prints both. They are not the same quantity on the page, and this card does not collapse them into one reflectivity.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Earth Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "author": "David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-11-15",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line on the page: 15 November 2024, DRW."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-11-15",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.blackbody-temperature",
+    "world.nature.earth-energy-budget-2009"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "energy"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.core.earth.lithosphere",
+  "title": "USGS: the lithosphere is the rigid plate layer, and it is thought to move on the asthenosphere",
+  "section": "world",
+  "category": "earth",
+  "summary": "The USGS interior page defines the lithosphere as crust plus the rigid upper mantle, averaging at least 80 km, and says it is thought to move on a hotter, weaker asthenosphere.",
+  "body": "The USGS page \"The Earth's Interior\" says the upper mantle is cooler and more rigid than the deep mantle and, together with the crust, forms a rigid layer called the lithosphere. It says the lithosphere tends to be thinnest under the oceans and in volcanically active continental areas, averages at least 80 kilometers over much of Earth, and has been broken into the moving plates that contain the continents and oceans. It says scientists believe that below the lithosphere is a relatively narrow mobile zone, the asthenosphere, of hot semi-solid material that can soften and flow, and that the rigid lithosphere is thought to float or move on that zone. The page marks that last step as what is thought, not as a direct sighting of the boundary.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Earth's Interior",
+      "url": "https://pubs.usgs.gov/gip/dynamic/inside.html",
+      "author": "U.S. Geological Survey",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.twelve-plates",
+    "world.nature.plate-tectonics",
+    "world.plate-motions-usgs"
+  ],
+  "tags": [
+    "core-pack",
+    "earth",
+    "plates"
+  ],
+  "read_time_min": 1
+}

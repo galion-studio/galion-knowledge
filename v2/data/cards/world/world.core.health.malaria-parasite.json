@@ -1,0 +1,33 @@
+{
+  "id": "world.core.health.malaria-parasite",
+  "title": "WHO: five Plasmodium species infect people, and the infection is not person to person",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO says malaria is caused by a parasite, spread mainly by some female Anopheles mosquitoes, and that P. falciparum and P. vivax are the main threats.",
+  "body": "WHO's malaria fact sheet says malaria is a life-threatening disease spread to humans by some types of mosquitoes, that the infection is caused by a parasite, and that it does not spread from person to person. It says malaria mostly spreads through the bites of some infected female Anopheles mosquitoes, and that blood transfusion and contaminated needles may also transmit it. It says five Plasmodium species cause malaria in humans, and that P. falciparum and P. vivax pose the greatest threat. It says P. falciparum is the deadliest and the most prevalent on the African continent, and that untreated P. falciparum malaria can progress to severe illness and death within 24 hours. It names P. malariae, P. ovale, and P. knowlesi as the other species that can infect humans. The sheet says malaria is preventable and curable.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Malaria",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+      "author": "World Health Organization",
+      "date": "2025-12-04",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2025-12-04",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.malaria-burden",
+    "world.core.body.ross-malaria"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "malaria"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world.core.health.road-deaths",
+  "title": "WHO: about 1.16 million people a year die in road traffic crashes",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's road-injury sheet says those crashes are the leading cause of death for people aged 5 to 29, and that 20 to 50 million more people are injured.",
+  "body": "WHO's road-traffic-injuries fact sheet, dated 20 July 2026, says approximately 1.16 million people die each year as a result of road traffic crashes. It says road traffic injuries are the leading cause of death for children and young adults aged 5 to 29 years. It says more than half of all road traffic deaths are among pedestrians, cyclists, and motorcyclists, and that between 20 and 50 million more people suffer non-fatal injuries. It says 92 percent of the world's road fatalities occur in low- and middle-income countries, which have around 60 percent of the world's vehicles. The 1.16 million is the sheet's annual figure.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Road traffic injuries",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries",
+      "author": "World Health Organization",
+      "date": "2026-07-20",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-07-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.child-mortality"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "injury"
+  ],
+  "read_time_min": 1
+}

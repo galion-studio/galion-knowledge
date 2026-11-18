@@ -1,0 +1,34 @@
+{
+  "id": "world.core.health.malaria-burden",
+  "title": "WHO: about 282 million malaria cases and 610,000 deaths in 2024",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's malaria fact sheet, dated 4 December 2025, gives those 2024 estimates, with 95 percent of cases and of deaths in the WHO African Region.",
+  "body": "WHO's malaria fact sheet says that globally in 2024 there were an estimated 282 million malaria cases and 610,000 malaria deaths in 80 countries. It says the WHO African Region had 95 percent of cases, 265 million, and 95 percent of deaths, 579,000. It says children under 5 accounted for about 75 percent of all malaria deaths in that region. The sheet is dated 4 December 2025 and states the figures for 2024. They are estimates.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Malaria",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+      "author": "World Health Organization",
+      "date": "2025-12-04",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2024",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.malaria-parasite",
+    "world.core.body.ross-malaria",
+    "world.core.health.child-mortality"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "malaria"
+  ],
+  "read_time_min": 1
+}

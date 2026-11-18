@@ -1,0 +1,35 @@
+{
+  "id": "world.core.health.polio-culture",
+  "title": "The 1954 Nobel citation: poliovirus grown in tissue culture",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The Nobel Foundation credits John Enders, Thomas Weller, and Frederick Robbins with discovering that poliomyelitis viruses could grow in cultures of various tissues.",
+  "body": "The Nobel Prize API record for 1954 says John F. Enders, Thomas H. Weller, and Frederick C. Robbins received the prize in physiology or medicine for their discovery of the ability of poliomyelitis viruses to grow in cultures of various types of tissue. The record dates the award 21 October 1954. WHO's drinking-water sheet names polio among diseases that contaminated water can transmit. This card is the 1954 citation, not a current case count.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 1954",
+      "url": "https://api.nobelprize.org/2.1/nobelPrize/med/1954",
+      "author": "Nobel Foundation",
+      "date": "1954-10-21",
+      "accessed": "2026-11-18",
+      "note": "Motivation text was read from the Nobel Prize API record."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Nobel Foundation",
+  "as_of_date": "1954-10-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.unsafe-water",
+    "world.who-vaccination",
+    "world.smallpox-programme"
+  ],
+  "tags": [
+    "core-pack",
+    "medicine",
+    "polio"
+  ],
+  "read_time_min": 1
+}

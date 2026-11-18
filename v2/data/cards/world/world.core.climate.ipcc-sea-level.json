@@ -1,0 +1,35 @@
+{
+  "id": "world.core.climate.ipcc-sea-level",
+  "title": "IPCC AR6: sea level has risen faster since 1900 than in any century of the last 3,000 years",
+  "section": "world",
+  "category": "climate",
+  "summary": "Statement A.2.4 says that, at high confidence. It also says the global ocean has warmed faster over the past century than since the end of the last deglacial transition, at medium confidence.",
+  "body": "IPCC Working Group I statement A.2.4 says global mean sea level has risen faster since 1900 than over any preceding century in at least the last 3,000 years, at high confidence. The same statement says the global ocean has warmed faster over the past century than since the end of the last deglacial transition, around 11,000 years ago, at medium confidence. NOAA's inch and millimeter figures are a different publication. This card is the assessment's rate comparison and its confidence labels.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Climate Change 2021: The Physical Science Basis. Summary for Policymakers",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf",
+      "author": "Intergovernmental Panel on Climate Change, Working Group I",
+      "date": "2021",
+      "accessed": "2026-11-18",
+      "note": "PDF opened 2026-11-18. The citation block in the file reads IPCC, 2021."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Intergovernmental Panel on Climate Change, Working Group I",
+  "as_of_date": "2021",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.climate.sea-level-1880",
+    "world.core.climate.sea-level-rate"
+  ],
+  "tags": [
+    "core-pack",
+    "climate",
+    "ipcc",
+    "sea-level"
+  ],
+  "read_time_min": 1
+}
