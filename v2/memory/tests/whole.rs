@@ -365,31 +365,148 @@ fn measured_corpus_at_the_target_size() {
     let _ = std::fs::remove_dir_all(&dir);
 }
 
+/// One published core card bundle, and the catalog version that names it.
+///
+/// `schema` is always `galion-shard-manifest/1`. That is the format.
+/// `ScaleIndex` writes `version` `"1"` on a freshly built index because that
+/// directory's first manifest is publication 1 of that index.
+///
+/// `version` on `v2/shards/manifest.json` is a different number: the
+/// publication count of this catalog. Publication 1 covered the first core
+/// digests. Publication 2 is the digest PR #13 recorded after the core pack
+/// grew. The version is looked up from the bundle, not copied back out of
+/// the manifest, and it is not the schema's trailing 1.
+struct CorePublication {
+    version: &'static str,
+    sha256: &'static str,
+    bytes: u64,
+    cards: usize,
+}
+
+const CORE_PUBLICATIONS: &[CorePublication] = &[
+    CorePublication {
+        version: "1",
+        sha256: "1353a24a4c02a2034e17dc0c9fa716be1fdfdb10cd201da31bea709fd70b6d24",
+        bytes: 1_014_355,
+        cards: 436,
+    },
+    CorePublication {
+        version: "1",
+        sha256: "350085320a2e6c1e69fb713e017a70aef7692544dad77b6f964fe911497f52bd",
+        bytes: 1_032_887,
+        cards: 436,
+    },
+    CorePublication {
+        version: "2",
+        sha256: "08fe16e5e619fc34eec824312cd6efb38f1e57cf8b4b747b601a717b8ebe528e",
+        bytes: 1_590_111,
+        cards: 778,
+    },
+];
+
+fn card_bundle(files: &[(String, Vec<u8>)]) -> (String, u64) {
+    let mut ordered = files.to_vec();
+    ordered.sort_by(|a, b| a.0.cmp(&b.0));
+    let mut bytes = Vec::new();
+    for (rel, data) in &ordered {
+        assert!(data.last() == Some(&b'\n'), "{rel} must end with a newline");
+        bytes.extend(rel.as_bytes());
+        bytes.push(b'\n');
+        bytes.extend(data);
+        bytes.push(b'\n');
+    }
+    (horbm_memory::sha256_hex(&bytes), bytes.len() as u64)
+}
+
+fn read_json_tree(dir: &std::path::Path, base: &std::path::Path) -> Vec<(String, Vec<u8>)> {
+    let mut out = Vec::new();
+    let mut names: Vec<_> = std::fs::read_dir(dir)
+        .unwrap()
+        .map(|entry| entry.unwrap().path())
+        .collect();
+    names.sort();
+    for path in names {
+        if path.is_dir() {
+            out.extend(read_json_tree(&path, base));
+        } else if path.extension().and_then(|ext| ext.to_str()) == Some("json") {
+            let rel = path
+                .strip_prefix(base)
+                .unwrap()
+                .components()
+                .map(|part| part.as_os_str().to_string_lossy())
+                .collect::<Vec<_>>()
+                .join("/");
+            out.push((rel, std::fs::read(&path).unwrap()));
+        }
+    }
+    out
+}
+
 #[test]
 fn addon_shard_manifest_matches_shard_manifest() {
-    let path = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../shards/manifest.json");
-    let text = std::fs::read_to_string(&path).unwrap();
+    let root = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("..");
+    let text = std::fs::read_to_string(root.join("shards/manifest.json")).unwrap();
     let manifest: ShardManifest = serde_json::from_str(&text).expect("galion-shard-manifest/1");
     assert_eq!(manifest.schema, "galion-shard-manifest/1");
-    assert_eq!(manifest.version, "1");
+    let schema_generation = manifest.schema.rsplit('/').next().unwrap();
+    assert_eq!(schema_generation, "1");
     assert!(manifest.immutable);
     assert!(!manifest.note.is_empty());
     assert_eq!(manifest.core_pack.id, "core");
     assert_eq!(manifest.core_pack.section, "core");
     assert_eq!(manifest.core_pack.category, "core");
-    assert_eq!(manifest.core_pack.sha256.len(), 64);
-    assert!(manifest.core_pack.bytes > 0);
+
+    let core_dir = root.join("data/cards");
+    let core_files = read_json_tree(&core_dir, &core_dir);
+    let (core_sha, core_bytes) = card_bundle(&core_files);
+    assert_eq!(manifest.core_pack.sha256, core_sha, "core digest is stale");
+    assert_eq!(manifest.core_pack.bytes, core_bytes);
+    let publication = CORE_PUBLICATIONS
+        .iter()
+        .find(|item| {
+            item.sha256 == core_sha && item.bytes == core_bytes && item.cards == core_files.len()
+        })
+        .unwrap_or_else(|| {
+            panic!(
+                "core bundle {core_sha} ({} bytes, {} cards) is not a recorded publication. Publish the next catalog version and add that bundle here. Do not reuse an older version for a new digest.",
+                core_bytes,
+                core_files.len()
+            )
+        });
+    assert_eq!(
+        manifest.version, publication.version,
+        "schema generation is {schema_generation}; catalog publication for this bundle is {}",
+        publication.version
+    );
+    assert_ne!(
+        manifest.version, schema_generation,
+        "this core bundle is a later publication than the schema generation"
+    );
+
     assert!(manifest.shards.len() >= 20);
     let mut ids = std::collections::BTreeSet::new();
     for shard in &manifest.shards {
         assert!(ids.insert(shard.id.clone()), "duplicate {}", shard.id);
         assert!(!shard.section.is_empty());
         assert!(!shard.category.is_empty());
-        assert_eq!(shard.sha256.len(), 64);
-        let meta = PathBuf::from(env!("CARGO_MANIFEST_DIR"))
-            .join("../shards")
-            .join(&shard.id)
-            .join("shard.json");
+        let card_dir = root.join("shards").join(&shard.id).join("cards");
+        let files = if card_dir.is_dir() {
+            std::fs::read_dir(&card_dir)
+                .unwrap()
+                .map(|entry| entry.unwrap().path())
+                .filter(|path| path.extension().and_then(|ext| ext.to_str()) == Some("json"))
+                .map(|path| {
+                    let name = path.file_name().unwrap().to_string_lossy().into_owned();
+                    (format!("cards/{name}"), std::fs::read(&path).unwrap())
+                })
+                .collect()
+        } else {
+            Vec::new()
+        };
+        let (sha, bytes) = card_bundle(&files);
+        assert_eq!(shard.sha256, sha, "{} digest is stale", shard.id);
+        assert_eq!(shard.bytes, bytes, "{}", shard.id);
+        let meta = root.join("shards").join(&shard.id).join("shard.json");
         let raw: serde_json::Value =
             serde_json::from_str(&std::fs::read_to_string(meta).unwrap()).unwrap();
         assert_eq!(raw["sha256"].as_str(), Some(shard.sha256.as_str()));
