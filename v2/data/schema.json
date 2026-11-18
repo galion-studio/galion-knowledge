@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://knowledge.galion.app/v2/schema.json",
+  "title": "Galion Knowledge card",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "section",
+    "category",
+    "body",
+    "claim_type",
+    "sources",
+    "evidence_strength",
+    "said_by",
+    "as_of_date",
+    "status",
+    "contested_views",
+    "related"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+([.-][a-z0-9]+)*$",
+      "description": "Slug. Must match the file name. Hyphens are the usual form. Dots are accepted so an existing draft pack still builds."
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "section": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Use world, horbm, or diary, matching the folder. Another word in an existing draft is accepted and the card is filed under its folder."
+    },
+    "category": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string", "minLength": 1 },
+    "body": { "type": "string", "minLength": 1 },
+    "claim_type": { "enum": ["fact", "interpretation", "opinion", "contested"] },
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/source" }
+    },
+    "evidence_strength": { "enum": ["none", "weak", "moderate", "strong"] },
+    "said_by": { "type": "string" },
+    "as_of_date": {
+      "type": "string",
+      "pattern": "^$|^-?[0-9]{1,6}(-[0-9]{2}){0,2}$"
+    },
+    "status": { "type": "string", "minLength": 1 },
+    "contested_views": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/contested" }
+    },
+    "related": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Other ids for this same card, including dotted ids. The site serves each alias at /article/<alias>/."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "read_time_min": { "type": "integer", "minimum": 1 },
+    "legacy": { "$ref": "#/$defs/legacy" }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url", "author", "date", "accessed"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "url": {
+          "type": "string",
+          "pattern": "^$|^https?://[^\\s]+$"
+        },
+        "author": { "type": "string" },
+        "date": { "type": "string" },
+        "accessed": {
+          "type": "string",
+          "pattern": "^$|^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "note": { "type": "string" }
+      }
+    },
+    "contested": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "summary", "status"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "summary": { "type": "string", "minLength": 1 },
+        "status": { "type": "string", "minLength": 1 },
+        "sources": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/source" }
+        }
+      }
+    },
+    "legacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "v1_id": { "type": "string" },
+        "v1_truth_score": { "type": "number" },
+        "v1_source_count_displayed": { "type": "number" },
+        "v1_last_verified_displayed": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "world.mathematics.infinitude-of-primes",
+  "title": "Euclid's proof that there is no last prime",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "David E. Joyce's presentation of Euclid's *Elements*, Book IX, Proposition 20, states: \"Prime numbers are more than any assigned multitude of prime numbers.\" The proof, as that page gives it, does not say \"infinity\" and then wave a…",
+  "body": "## The proposition\n\nDavid E. Joyce's presentation of Euclid's *Elements*, Book IX, Proposition 20, states: \"Prime numbers are more than any assigned multitude of prime numbers.\"\n\nThe proof, as that page gives it, does not say \"infinity\" and then wave a hand. It takes a finite assigned list. Joyce notes that Euclid writes the argument for three primes and that the pattern is general. Let the list be A, B, and C. Take DE, the least number measured by all of them (their least common multiple; for primes, their product, though the proof does not need to pause on that). Add a unit, and call the new number EF.\n\nEither EF is prime, and it was not in the list, or it is not prime. If it is not prime, some prime G measures it (Book VII, Proposition 31, which the page cites). G cannot be A, B, or C: those measure DE, and if G also measured EF it would measure the unit left when DE is taken from EF, which is absurd. So G is a prime outside the list.\n\n## What kind of result this is\n\n**Fact:** given any finite collection of primes, this construction produces a prime that is not in the collection. There is therefore no finite inventory that contains them all.\n\n**Interpretation:** Joyce's commentary says this is the claim that there are infinitely many primes. Euclid's own wording is the \"any assigned multitude\" wording. Both are fair. The mechanism is the construction, not the word \"infinity.\"\n\n**Not the same fact as Cantor's different sizes of infinity.** Those are on the infinity card. Euclid's result is about primes. It does not say anything about the real numbers.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book IX, Proposition 20",
+      "url": "https://mathcs.clarku.edu/~djoyce/java/elements/bookIX/propIX20.html",
+      "author": "Euclid, English presentation by David E. Joyce",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.mathematics.infinity"
+  ],
+  "read_time_min": 1
+}

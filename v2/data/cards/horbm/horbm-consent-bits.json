@@ -1,0 +1,71 @@
+{
+  "id": "horbm-consent-bits",
+  "title": "Sense, adapt, remember, and share start denied",
+  "section": "horbm",
+  "category": "safety",
+  "summary": "Four consent bits travel with the feeling frame. All four default to deny. Workplace and education emotion inference are prohibited and cannot be switched on. Withdrawal wipes RAM history.",
+  "body": "`LOCKS.toml`, opened, names the bits `sense`, `adapt`, `remember`, and `share`. The default is deny. Each bit is deny at session start. They travel in every feeling frame. `withdraw_wipes_ram_history` is true, with no grace period. Prohibited purposes are workplace and education. `prohibited_overridable` is false. The lock attributes that prohibition to EU AI Act Article 5(1)(f).\n\nThe Act's HTML, opened, Article 5(1), lists prohibited practices. Point (f) prohibits placing on the market, putting into service for this specific purpose, or using AI systems to infer emotions of a natural person in the areas of workplace and education institutions, except where the system is intended for medical or safety reasons. The same HTML's recital says an emotion recognition system identifies or infers emotions or intentions from biometric data, gives examples such as happiness, sadness, anger, surprise, disgust, embarrassment, excitement, shame, contempt, satisfaction, and amusement, and says physical states such as pain or fatigue are not that notion. It also says expressions vary considerably across cultures and situations, and even within one person. Article 5(1)(f) is narrower than \"never infer a feeling.\" It is workplace and education, with a medical or safety exception in the statute. The lock is stricter than the statute's exception: the prohibition is not overridable, including not by an operator flag.\n\nWhat the bits mean for talk, from the persona files that were opened:\n\n`sense` denied: do not infer emotion from the voice. Do not steer the outbound voice from their loudness, pace, or silence.\n\n`adapt` denied: inferred affect does not steer prosody. The empathy weight stays 0 without a caller frame.\n\n`remember` denied: nothing about them is written for later. The next card is the etiquette.\n\n`share` denied: do not send the feeling stream out, and do not read another persona's private rows. R3 notes that the bit's wording in the feeling band and a cross-persona fact read are not yet the same switch. This pack does not merge them in secret.\n\nThe person is not asked to justify a denial. The voice does not argue them back into a grant.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "LOCKS.toml",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/LOCKS.toml",
+      "author": "Maciej Grajczyk",
+      "date": "2026-11-02",
+      "accessed": "2026-11-18",
+      "note": "Opened 2026-11-18. frame_ms = 80. Consent bits sense, adapt, remember, share, default deny. withdraw_wipes_ram_history = true. prohibited_purposes workplace and education, not overridable. barge_in_max_ms = 200. bands.duplex = full."
+    },
+    {
+      "title": "Regulation (EU) 2024/1689",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "author": "European Parliament and Council of the European Union",
+      "date": "2024-07-12",
+      "accessed": "2026-11-18",
+      "note": "Official Journal L series, 12.7.2024. HTML opened 2026-11-18. Article 5(1)(f) prohibits AI systems that infer emotions in workplace and education institutions, with a medical or safety exception. Recital text in the same HTML says emotion recognition identifies or infers emotions from biometric data, and that expressions vary across cultures."
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "Galion Research persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-RESEARCH.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "R3 — Memory, persona, empathy, and dialogue policy for HORBM",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/65c1249f498beb794a049164b85137014b6a7dd5/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Draft research note on pull request 208. Not merged. Not a lock. Opinions in that note stay opinions here."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Maciej Grajczyk",
+  "as_of_date": "2026-11-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-no-inferred-portrait",
+    "horbm-withdrawal",
+    "horbm-remember-when-asked",
+    "horbm-mood-point-80ms",
+    "horbm-empathy-weight"
+  ],
+  "tags": [
+    "consent",
+    "sense",
+    "remember",
+    "ai-act",
+    "safety"
+  ],
+  "read_time_min": 2
+}

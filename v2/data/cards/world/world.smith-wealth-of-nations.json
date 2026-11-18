@@ -1,0 +1,46 @@
+{
+  "id": "world.smith-wealth-of-nations",
+  "title": "Smith's Wealth of Nations, 1776",
+  "section": "world",
+  "category": "economics",
+  "summary": "Wikisource and the Liberty Fund edition identify the book. The invisible-hand slogan is not the whole book.",
+  "body": "Adam Smith's An Inquiry into the Nature and Causes of the Wealth of Nations (1776) is on Wikisource and in the Liberty Fund's Cannan edition. The v1 capitalism article calls Smith the father of modern economics and credits him with the division of labor and the invisible hand. The book discusses both. It also discusses the duties of the state, wages, and the risk that employers combine against workers. \"Capitalism\" is a later word. Identifying the book with a modern policy package is an interpretation.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Wealth of Nations",
+      "url": "https://en.wikisource.org/wiki/The_Wealth_of_Nations",
+      "author": "Adam Smith",
+      "date": "1776",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "An Inquiry into the Nature and Causes of the Wealth of Nations (Cannan ed.)",
+      "url": "https://oll.libertyfund.org/titles/smith-an-inquiry-into-the-nature-and-causes-of-the-wealth-of-nations-cannan-ed-vol-1",
+      "author": "Adam Smith, edited by Edwin Cannan, Liberty Fund",
+      "date": "1776",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Adam Smith",
+  "as_of_date": "1776",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.capitalism-not-one-definition",
+    "world.world-bank-poverty",
+    "world.marx-gotha-needs"
+  ],
+  "tags": [
+    "economics",
+    "smith"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "27",
+    "v1_slug": "capitalism",
+    "v1_category": "society",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

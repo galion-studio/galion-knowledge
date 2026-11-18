@@ -1,0 +1,39 @@
+{
+  "id": "world.schurger-2012",
+  "title": "Schurger, Sitt, and Dehaene's alternative to the Libet reading",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Their 2012 PNAS paper models the readiness potential as a stochastic accumulation, not a pre-conscious decision.",
+  "body": "Aaron Schurger, Jacobo D. Sitt, and Stanislas Dehaene, \"An accumulator model for spontaneous neural activity prior to self-initiated movement\" (PNAS, 2012), argue that the slow buildup Libet measured can arise from noisy accumulation toward a threshold. If that model is right, the early signal is not a decision that happens before awareness. The free-will question is not settled by either paper. Both are part of the record.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "An accumulator model for spontaneous neural activity prior to self-initiated movement",
+      "url": "https://doi.org/10.1073/pnas.1210467109",
+      "author": "Aaron Schurger, Jacobo D. Sitt, and Stanislas Dehaene",
+      "date": "2012",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Aaron Schurger, Jacobo D. Sitt, and Stanislas Dehaene",
+  "as_of_date": "2012",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.libet-1983",
+    "world.free-will-disputed"
+  ],
+  "tags": [
+    "neuroscience",
+    "free-will",
+    "not-settled"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "24",
+    "v1_slug": "free-will",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

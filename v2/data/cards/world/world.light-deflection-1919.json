@@ -1,0 +1,38 @@
+{
+  "id": "world.light-deflection-1919",
+  "title": "The 1919 eclipse measured a deflection of starlight",
+  "section": "world",
+  "category": "physics",
+  "summary": "Dyson, Eddington, and Davidson reported a solar deflection of light from the 29 May 1919 eclipse.",
+  "body": "Frank Watson Dyson, Arthur Stanley Eddington, and C. Davidson published observations from the total solar eclipse of 29 May 1919. Their paper reports a deflection of starlight by the Sun's gravitational field. It is one early observational test associated with general relativity. Later work has re-examined the plates and the error bars; the 1920 paper remains the primary report of that expedition, not the last word on measurement precision.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A determination of the deflection of light by the sun's gravitational field, from observations made at the total eclipse of May 29, 1919",
+      "url": "https://doi.org/10.1098/rsta.1920.0009",
+      "author": "F. W. Dyson, A. S. Eddington, and C. Davidson",
+      "date": "1920",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "F. W. Dyson, A. S. Eddington, and C. Davidson",
+  "as_of_date": "1920",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.science.general-relativity-1916"
+  ],
+  "tags": [
+    "physics",
+    "gravity",
+    "observation"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "1",
+    "v1_slug": "theory-of-relativity",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

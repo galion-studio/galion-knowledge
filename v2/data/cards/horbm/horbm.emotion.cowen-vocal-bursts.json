@@ -1,0 +1,36 @@
+{
+  "id": "horbm.emotion.cowen-vocal-bursts",
+  "title": "Brief vocal bursts carried at least 24 kinds, in one English-speaking sample",
+  "section": "horbm",
+  "category": "emotion-space",
+  "summary": "Cowen, Elfenbein, Laukka, and Keltner (2019) judged 2,032 lab-produced vocal bursts and 48 found in the world, from U.S. English speakers (N = 1,105). They report at least 24 disti",
+  "body": "Cowen, Elfenbein, Laukka, and Keltner (2019) judged 2,032 lab-produced vocal bursts and 48 found in the world, from U.S. English speakers (N = 1,105). They report at least 24 distinct kinds of emotion in those bursts. Emotion categories, with sympathy and awe among their examples, organized recognition more than affective appraisals including valence and arousal. In contrast to discrete emotion theories, the categories were bridged by smooth gradients with continuously varying meaning. This is one large U.S. English sample of bursts, not of sentences, and not a claim that every culture's speech prosody uses the same 24 names. The abstract's remark that recognition of at least 13 emotions in brief vocalizations is preserved in some form across cultures is a pointer to prior studies, not a result of this sample. Do not snap a caller's voice to one of the 24.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Mapping 24 emotions conveyed by brief human vocalization",
+      "url": "https://doi.org/10.1037/amp0000399",
+      "author": "Alan S. Cowen, Hillary Anger Elfenbein, Petri Laukka, and Dacher Keltner",
+      "date": "2019",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Mapping 24 emotions conveyed by brief human vocalization (author manuscript)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6586540/",
+      "author": "Alan S. Cowen, Hillary Anger Elfenbein, Petri Laukka, and Dacher Keltner",
+      "date": "2019",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Cowen, Elfenbein, Laukka, and Keltner",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.emotion.cowen-self-report",
+    "horbm.emotion.ekman-basic",
+    "horbm.emotion.state-is-avd"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,38 @@
+{
+  "id": "world.hubble-1929",
+  "title": "Hubble's 1929 distance-velocity relation",
+  "section": "world",
+  "category": "cosmology",
+  "summary": "Hubble published a relation between distance and radial velocity for extra-galactic nebulae.",
+  "body": "Edwin Hubble, \"A relation between distance and radial velocity among extra-galactic nebulae\" (Proceedings of the National Academy of Sciences, 1929), reported that more distant nebulae in his sample tended to have larger recessional speeds. The v1 article calls this Hubble's law and says the universe is expanding. The paper itself is the relation. Reading it as cosmic expansion is the cosmological interpretation that became standard, and Hubble's distance scale was later revised. Lemaître's earlier theoretical work is not this paper. Do not treat 1929 as the moment the expansion was measured once and for all.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A relation between distance and radial velocity among extra-galactic nebulae",
+      "url": "https://doi.org/10.1073/pnas.15.3.168",
+      "author": "Edwin Hubble",
+      "date": "1929",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Edwin Hubble",
+  "as_of_date": "1929",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.cmb-1965",
+    "world.accelerating-expansion-2011"
+  ],
+  "tags": [
+    "cosmology",
+    "hubble"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "31",
+    "v1_slug": "big-bang",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

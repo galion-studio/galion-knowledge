@@ -1,0 +1,39 @@
+{
+  "id": "world.history.magna-carta-1215-1225",
+  "title": "Magna Carta is a set of medieval documents, not one slogan",
+  "section": "world",
+  "category": "history",
+  "summary": "The UK National Archives' teaching set is titled \"Magna Carta 1214–1225.\" The archives say the documents relate to the civil war in 1215 and to King John's assent to Magna Carta, a",
+  "body": "The UK National Archives' teaching set is titled \"Magna Carta 1214–1225.\" The archives say the documents relate to the civil war in 1215 and to King John's assent to Magna Carta, and that the documents from 1224 onward relate to Henry III's revised version. The set includes a 1215 Magna Carta, a 1215 announcement of peace, John's appeal to the Pope in 1215, a proclamation of Magna Carta in 1217, and a Magna Carta of 1225. The archives' enquiry question for students is \"Was Magna Carta a medieval revolution?\" They pose that as a question. Calling the charter the foundation of modern liberty is a later interpretation. The sourced medieval fact is a conflict, an assent, and later revised reissues. Which clauses mattered in 1215, and which survived into the 1225 version, has to be read from those texts rather than from a modern summary.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Magna Carta 1214–1225",
+      "url": "https://www.nationalarchives.gov.uk/education/teaching-resources/magna-carta-1214-1225/",
+      "author": "The National Archives (United Kingdom)",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "The National Archives, United Kingdom",
+  "as_of_date": "1215",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "The documents record a 1215 civil war, John's assent, and Henry III's later revised charter.",
+      "summary": "The documents record a 1215 civil war, John's assent, and Henry III's later revised charter.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "Whether Magna Carta was a medieval revolution is a question the archives put to readers, not a conclusion they state.",
+      "summary": "Whether Magna Carta was a medieval revolution is a question the archives put to readers, not a conclusion they state.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.law.habeas-corpus-clause",
+    "world.law.rule-of-law-two-accounts"
+  ],
+  "read_time_min": 1
+}

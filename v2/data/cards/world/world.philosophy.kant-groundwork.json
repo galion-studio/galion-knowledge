@@ -1,0 +1,53 @@
+{
+  "id": "world.philosophy.kant-groundwork",
+  "title": "Kant's Groundwork grounds morality in duty",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Immanuel Kant's Groundwork of the Metaphysics of Morals is the short book in which he argues that moral obligation comes from reason. The text is on Wikisource. The Stanford Encycl",
+  "body": "Immanuel Kant's Groundwork of the Metaphysics of Morals is the short book in which he argues that moral obligation comes from reason. The text is on Wikisource. The Stanford Encyclopedia entry \"Kant's Moral Philosophy\" is a guide to the arguments. The central idea is the categorical imperative: a reason for acting that holds only because you want some result is hypothetical, and a reason that holds regardless of what you want is categorical. Moral worth, on this account, depends on acting from duty, not only on doing what duty would have required while aiming at something else. The view is a proposal in moral philosophy. It is not an empirical finding that people in fact act this way. Consequentialist theories deny that the right act is fixed independently of outcomes. That disagreement is still live.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Groundwork of the Metaphysics of Morals",
+      "url": "https://en.wikisource.org/wiki/Groundwork_of_the_Metaphysics_of_Morals",
+      "author": "Immanuel Kant",
+      "date": "1785",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Kant's Moral Philosophy",
+      "url": "https://plato.stanford.edu/entries/kant-moral/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Consequentialism",
+      "url": "https://plato.stanford.edu/entries/consequentialism/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Immanuel Kant, Groundwork of the Metaphysics of Morals",
+  "as_of_date": "1785",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "The moral law is a categorical demand of reason, and the worth of an act depends on acting from duty.",
+      "summary": "The moral law is a categorical demand of reason, and the worth of an act depends on acting from duty.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "The right act is fixed by the goodness of outcomes.",
+      "summary": "The right act is fixed by the goodness of outcomes.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.philosophy.hume-induction",
+    "world.philosophy.virtue-ethics"
+  ],
+  "read_time_min": 1
+}

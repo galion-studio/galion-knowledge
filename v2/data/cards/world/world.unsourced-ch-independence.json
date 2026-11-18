@@ -1,0 +1,29 @@
+{
+  "id": "world.unsourced-ch-independence",
+  "title": "The v1 Gödel-Cohen independence claim is not sourced here",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Independence of the continuum hypothesis from ZFC is a standard theorem we did not re-read.",
+  "body": "The v1 infinity article says the continuum hypothesis was proved undecidable by Gödel and Cohen. That result, carefully stated, is independence from the Zermelo-Fraenkel axioms with choice: Gödel on the consistency of CH, Cohen on the consistency of its negation. Their papers were not opened. Koellner calls the problem open, which is a different emphasis. Leave the names-and-proof claim unsourced until the papers or a theorem statement we have read are attached.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.continuum-hypothesis-open"
+  ],
+  "tags": [
+    "mathematics",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "32",
+    "v1_slug": "infinity",
+    "v1_category": "mathematics",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

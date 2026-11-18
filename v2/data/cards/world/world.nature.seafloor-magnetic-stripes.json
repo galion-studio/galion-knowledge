@@ -1,0 +1,34 @@
+{
+  "id": "world.nature.seafloor-magnetic-stripes",
+  "title": "Magnetic anomalies over ocean ridges and moving plates",
+  "section": "world",
+  "category": "nature",
+  "summary": "F. J. Vine and D. H. Matthews's 1963 Nature paper, \"Magnetic Anomalies Over Oceanic Ridges,\" interpreted the striped magnetic anomalies parallel to mid-ocean ridges. New crust form",
+  "body": "F. J. Vine and D. H. Matthews's 1963 Nature paper, \"Magnetic Anomalies Over Oceanic Ridges,\" interpreted the striped magnetic anomalies parallel to mid-ocean ridges. New crust formed at a ridge records the Earth's magnetic field as it cools, and the field reverses from time to time, so the stripes are a tape of those reversals if the seafloor spreads. That pattern was a decisive piece of evidence for seafloor spreading. The U.S. Geological Survey's This Dynamic Earth states the resulting theory: the Earth's outermost layer is fragmented into a dozen or more large and small plates that move relative to one another as they ride atop hotter material. The 1963 paper is the magnetic argument. The USGS page is a later official summary of the plate picture. Neither source is a measurement of every plate's present speed.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Magnetic Anomalies Over Oceanic Ridges",
+      "url": "https://doi.org/10.1038/199947a0",
+      "author": "F. J. Vine and D. H. Matthews",
+      "date": "1963",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "This Dynamic Earth: Historical perspective",
+      "url": "https://pubs.usgs.gov/gip/dynamic/historical.html",
+      "author": "U.S. Geological Survey",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Vine and Matthews, Nature, 1963; U.S. Geological Survey summary",
+  "as_of_date": "1963",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.nature.orbital-pacemaker-ice-ages"
+  ],
+  "read_time_min": 1
+}

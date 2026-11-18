@@ -1,0 +1,28 @@
+{
+  "id": "world.nature.earth-energy-budget-2009",
+  "title": "The planetary energy budget in a 2009 update",
+  "section": "world",
+  "category": "nature",
+  "summary": "Trenberth, Fasullo, and Kiehl's 2009 update, \"Earth's Global Energy Budget,\" revises the flows of energy into and out of the climate system. Incoming solar radiation is partly refl",
+  "body": "Trenberth, Fasullo, and Kiehl's 2009 update, \"Earth's Global Energy Budget,\" revises the flows of energy into and out of the climate system. Incoming solar radiation is partly reflected and partly absorbed. The Earth emits infrared radiation. Greenhouse gases and clouds change how much of that infrared leaves from the surface and how much from higher, colder layers. For the top of the atmosphere they use CERES measurements from March 2000 to May 2004, adjusted to an estimated imbalance of 0.9 watts per square metre associated with the enhanced greenhouse effect. That 0.9 is the imbalance they adopted for the update, not a measurement this card treats as current. The abstract also notes a lack of closure in the energy budget, which means the separate estimates of the flows did not add up exactly. A budget diagram is an accounting with uncertainties, not a machine diagram with every arrow known to the watt.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Earth's Global Energy Budget",
+      "url": "https://doi.org/10.1175/2008BAMS2634.1",
+      "author": "Kevin E. Trenberth, John T. Fasullo, and Jeffrey Kiehl",
+      "date": "2009",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Trenberth, Fasullo, and Kiehl, Bulletin of the American Meteorological Society, 2009",
+  "as_of_date": "2009",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.nature.arrhenius-carbonic-acid-1896",
+    "world.nature.water-cycle"
+  ],
+  "read_time_min": 1
+}

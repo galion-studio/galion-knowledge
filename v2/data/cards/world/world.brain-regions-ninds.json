@@ -1,0 +1,38 @@
+{
+  "id": "world.brain-regions-ninds",
+  "title": "NINDS on cerebrum, cerebellum, and brainstem",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The institute's Brain Basics page assigns broad roles to the three hindbrain and forebrain regions.",
+  "body": "The U.S. National Institute of Neurological Disorders and Stroke Brain Basics page says the cerebrum is the largest and most developed part people usually see in pictures, that the hindbrain includes the brainstem and the cerebellum, that the hindbrain controls vital functions such as respiration and heart rate, and that the cerebellum coordinates movement. Lobe-by-lobe lists in the v1 article (frontal planning, occipital vision, and the rest) are more specific than the sentences we lifted. Those lobe assignments are not copied here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Brain Basics: Know Your Brain",
+      "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain",
+      "author": "National Institute of Neurological Disorders and Stroke",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Institute of Neurological Disorders and Stroke",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.neuron-count-not-round",
+    "world.dementia-risks-who"
+  ],
+  "tags": [
+    "medicine",
+    "brain"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "20",
+    "v1_slug": "human-brain",
+    "v1_category": "medicine",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

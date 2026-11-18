@@ -1,0 +1,25 @@
+{
+  "id": "world.unsourced-slave-trade-totals",
+  "title": "Voyage totals for the slave trades are not copied here",
+  "section": "world",
+  "category": "history",
+  "summary": "The Slave Voyages site responded, but its about-page text did not load, so no number is stored.",
+  "body": "A public database of trans-Atlantic slave-trade voyages is published at slavevoyages.org. The about page returned almost no readable text to this fetcher, so no embarked total, no mortality rate, and no comparison with the trans-Saharan or Indian Ocean trades is stored. Those comparisons matter, because a history that mentions only one route is incomplete, and the numbers are estimates with methods. Leave the quantities unsourced until the database's own documentation is read. Do not invent a total.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "not established in this pass",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.thirteenth-amendment",
+    "world.uk-slavery-abolition-1833"
+  ],
+  "tags": [
+    "history",
+    "slavery",
+    "needs-review"
+  ],
+  "read_time_min": 1
+}

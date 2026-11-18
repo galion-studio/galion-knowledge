@@ -1,0 +1,14 @@
+{
+  "name": "galion-knowledge-v2",
+  "version": "2.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Galion Knowledge V2 static site. Developed by Galion Labs.",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve --port=3016"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

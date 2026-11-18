@@ -1,0 +1,32 @@
+{
+  "id": "world.sky-scattering",
+  "title": "Why the sky looks blue, in NASA's wording",
+  "section": "world",
+  "category": "physics",
+  "summary": "NASA says sunlight is scattered by air and that blue light is scattered more than other colors.",
+  "body": "NASA Space Place says sunlight reaching Earth's atmosphere is scattered in all directions by gases and particles in the air, and that blue light is scattered more than the other colors because it travels as shorter, smaller waves. The page did not use the name Rayleigh in the text we fetched, so this card does not add that name as if NASA had used it. The claim is the scattering account NASA actually gives.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Why Is the Sky Blue?",
+      "url": "https://spaceplace.nasa.gov/blue-sky/en/",
+      "author": "NASA Space Place",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA Space Place",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.seasons-axial-tilt"
+  ],
+  "tags": [
+    "physics",
+    "atmosphere",
+    "light"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world.maxwell-1865",
+  "title": "Maxwell's 1865 dynamical theory of the electromagnetic field",
+  "section": "world",
+  "category": "physics",
+  "summary": "Maxwell's Philosophical Transactions paper is a primary source for classical electromagnetism.",
+  "body": "James Clerk Maxwell, \"A dynamical theory of the electromagnetic field\" (Philosophical Transactions of the Royal Society, 1865), is a founding paper of classical electromagnetism. Light, radio, and the forces between charges and magnets are, in this theory, aspects of one field. The paper is not a statement of the later quantum theory of light.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A dynamical theory of the electromagnetic field",
+      "url": "https://doi.org/10.1098/rstl.1865.0008",
+      "author": "James Clerk Maxwell",
+      "date": "1865",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "James Clerk Maxwell",
+  "as_of_date": "1865",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.photoelectric-1905",
+    "world.standard-model-cern"
+  ],
+  "tags": [
+    "physics",
+    "electromagnetism"
+  ],
+  "read_time_min": 1
+}

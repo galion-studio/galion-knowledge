@@ -1,0 +1,38 @@
+{
+  "id": "world.history.first-world-war-responsibility",
+  "title": "Responsibility for 1914 is still argued",
+  "section": "world",
+  "category": "history",
+  "summary": "Annika Mombauer's 2015 survey in Central European History treats the origins of the First World War as an open argument, not a closed verdict. She recounts Fritz Fischer's interven",
+  "body": "Annika Mombauer's 2015 survey in Central European History treats the origins of the First World War as an open argument, not a closed verdict. She recounts Fritz Fischer's intervention in the 1960s: Fischer argued that decision-makers in Berlin deliberately unleashed a war. A later consensus, as she describes it, gave Germany a larger share of responsibility than the other great powers without everyone accepting a fully premeditated plan, and it also found that leaders in Vienna welcomed a war on Serbia. Christopher Clark's 2012 book The Sleepwalkers, she writes, rejects the search for a single guilty party, is more critical of Serbia and the Entente, and is more lenient toward Germany and Austria-Hungary. The book split historians. This card does not choose Fischer's account or Clark's. It records that qualified historians, using overlapping archives, still weight the July 1914 decisions differently.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Guilt or Responsibility? The Hundred-Year Debate on the Origins of World War I",
+      "url": "https://www.cambridge.org/core/journals/central-european-history/article/guilt-or-responsibility-the-hundredyear-debate-on-the-origins-of-world-war-i/35B5E58FD27F872B9B2AF3D5DB552661",
+      "author": "Annika Mombauer",
+      "date": "2015-12-16",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Annika Mombauer's survey of the historiography, Central European History, 2015",
+  "as_of_date": "2015-12-16",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "Berlin's decision-makers deliberately unleashed war, and Germany bears the main share of responsibility.",
+      "summary": "Berlin's decision-makers deliberately unleashed war, and Germany bears the main share of responsibility.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "The crisis was a shared failure across capitals; searching for one guilty state misdescribes it. Serbia and the Entente deserve more critical weight.",
+      "summary": "The crisis was a shared failure across capitals; searching for one guilty state misdescribes it. Serbia and the Entente deserve more critical weight.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.history.holocaust-victim-counts"
+  ],
+  "read_time_min": 1
+}

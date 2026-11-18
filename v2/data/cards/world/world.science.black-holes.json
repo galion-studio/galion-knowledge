@@ -1,0 +1,78 @@
+{
+  "id": "world.science.black-holes",
+  "title": "Black holes: collapse, a predicted glow, and two different observations",
+  "section": "world",
+  "category": "science",
+  "summary": "Oppenheimer and Snyder (1939), \"On Continued Gravitational Contraction,\" analyze a mass that keeps contracting under its own gravity. In general relativity that kind of collapse does not settle into a dense star with a surface you could…",
+  "body": "## Collapse is a calculated end state, not a metaphor\n\nOppenheimer and Snyder (1939), \"On Continued Gravitational Contraction,\" analyze a mass that keeps contracting under its own gravity. In general relativity that kind of collapse does not settle into a dense star with a surface you could stand on. The calculation is the mechanism: gravity in this theory is geometry, and the geometry can develop a region that later signals do not leave.\n\n## Two observations that are not the same observation\n\nAbbott and the LIGO and Virgo collaborations (2016) report gravitational waves from a binary black hole merger. The observable is a ripple in spacetime recorded by interferometers, matched to a waveform for two compact masses merging. It is not a photograph.\n\nThe Event Horizon Telescope collaboration (2019), \"First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole,\" reports an image of a shadow associated with the supermassive black hole in M87. A shadow is the dark region in the radio image set by how light bends and is captured near the object. It is evidence about the exterior spacetime. It is not a view of an interior, and it is not Hawking radiation.\n\n## What is not settled by those detections\n\nHawking (1974, 1975) predicts that black holes create particles and can lose mass. That prediction sits at the junction of gravity and quantum field theory. This card cites the prediction and does not cite an observation of it. Anyone who says Hawking radiation has been seen needs a different paper from the ones listed here.\n\n**Fact:** continued collapse is a classical result; gravitational waves from a black-hole merger have been reported; a shadow of the M87 black hole has been reported.\n\n**Interpretation:** identifying every dark, compact astronomical object as \"a black hole in Einstein's exact sense\" is a model comparison. The papers above are the comparisons they claim to have made, not a license to skip the model.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On Continued Gravitational Contraction",
+      "url": "https://doi.org/10.1103/PhysRev.56.455",
+      "author": "J. R. Oppenheimer and H. Snyder",
+      "date": "1939",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Black hole explosions?",
+      "url": "https://doi.org/10.1038/248030a0",
+      "author": "S. W. Hawking",
+      "date": "1974",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Particle creation by black holes",
+      "url": "https://doi.org/10.1007/BF02345020",
+      "author": "S. W. Hawking",
+      "date": "1975",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+      "url": "https://doi.org/10.1103/PhysRevLett.116.061102",
+      "author": "B. P. Abbott and the LIGO Scientific Collaboration and Virgo Collaboration",
+      "date": "2016",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole",
+      "url": "https://doi.org/10.3847/2041-8213/ab0ec7",
+      "author": "The Event Horizon Telescope Collaboration",
+      "date": "2019",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "Hawking radiation is a theoretical prediction, not an observation cited here",
+      "summary": "Hawking's 1974 Nature paper is titled 'Black hole explosions?' and the 1975 paper is 'Particle creation by black holes.' Both are theoretical. This pack does not cite a detection of that radiation. Treating the prediction as if a telescope had already recorded it overstates the evidence.",
+      "status": "kept from a duplicate card",
+      "sources": [
+        {
+          "title": "Black hole explosions?",
+          "url": "https://doi.org/10.1038/248030a0",
+          "author": "S. W. Hawking",
+          "date": "1974",
+          "accessed": "2026-11-18"
+        },
+        {
+          "title": "Particle creation by black holes",
+          "url": "https://doi.org/10.1007/BF02345020",
+          "author": "S. W. Hawking",
+          "date": "1975",
+          "accessed": "2026-11-18"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "world.science.theory-of-relativity",
+    "world.science.entropy"
+  ],
+  "read_time_min": 1
+}

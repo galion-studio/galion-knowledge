@@ -1,0 +1,28 @@
+{
+  "id": "world.mathematics.goedel-incompleteness",
+  "title": "Gödel's 1931 paper: formally undecidable arithmetic sentences",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Kurt Gödel, *Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I* (Monatshefte für Mathematik und Physik, 1931). The title is the result's scope: formally undecidable propositions of *Principia…",
+  "body": "## The paper\n\nKurt Gödel, *Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I* (Monatshefte für Mathematik und Physik, 1931). The title is the result's scope: formally undecidable propositions of *Principia Mathematica* and related systems.\n\nThe mechanism, stated as the theorem those systems fall under, and not as a loose proverb:\n\nTake a formal system that is consistent, effectively axiomatized (its theorems can be listed by a finite mechanical procedure), and strong enough to represent basic arithmetic. Then there are sentences in the language of arithmetic that the system neither proves nor refutes. That is incompleteness. A second theorem, in the same paper's reach, says that such a system, if consistent, does not prove its own consistency.\n\nThe device is self-reference inside arithmetic. The system can represent statements about its own proofs. One constructs a sentence that, under that representation, says of itself that it has no proof. If the system proved it, the system would be inconsistent with what the sentence says about proofs. If the system refuted it, the system would prove a false claim about its own proofs, again under the representation. Consistency blocks both. The sentence stays undecided.\n\n## What people say that the theorem does not say\n\n**Fact:** the undecidability result, for systems with the hypotheses above.\n\n**Not the theorem:** \"mathematics is useless,\" \"truth does not exist,\" \"every question is undecidable,\" or \"humans are not machines.\" A sentence can be true in the ordinary arithmetic of the natural numbers and still be unprovable in one particular formal system. That is a fact about that system. It is not a fact about all reasoning, and it is not a fact about politics or religion. Systems that are too weak to represent arithmetic, or that are inconsistent, are outside the hypothesis. An inconsistent system proves every sentence, which is a different disaster.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I",
+      "url": "https://doi.org/10.1007/BF01700692",
+      "author": "Kurt Gödel",
+      "date": "1931",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Kurt Gödel",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.mathematics.infinity",
+    "world.technology.turing-machine"
+  ],
+  "read_time_min": 1
+}

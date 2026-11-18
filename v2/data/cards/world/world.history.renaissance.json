@@ -1,0 +1,29 @@
+{
+  "id": "world.history.renaissance",
+  "title": "The Renaissance",
+  "section": "world",
+  "category": "history",
+  "summary": "The Renaissance (meaning \"rebirth\") was a period of cultural, artistic, and intellectual transformation in Europe from roughly 1350 to 1600. Began in Italian city-states (Florence, Venice, Rome)",
+  "body": "# The Renaissance\n\nThe Renaissance (meaning \"rebirth\") was a period of cultural, artistic, and intellectual transformation in Europe from roughly 1350 to 1600.\n\n## Origins\n\n- Began in Italian city-states (Florence, Venice, Rome)\n- Revival of interest in classical Greek and Roman culture\n- Wealth from trade enabled patronage of arts\n\n## Key Characteristics\n\n### Humanism\n- Focus on human potential and achievement\n- Study of classical texts\n- Education in humanities (literature, history, philosophy)\n\n### Art and Architecture\n- Perspective and realism\n- Study of human anatomy\n- Famous artists: Leonardo, Michelangelo, Raphael\n- Classical architectural elements revived\n\n### Science\n- Observation and experimentation valued\n- Copernicus: heliocentric model\n- Galileo: telescope observations\n- Foundation for Scientific Revolution\n\n## Spread Across Europe\n\n### Northern Renaissance\n- Began ~1500\n- Erasmus, Dürer, van Eyck\n- More religious themes\n- Printing press accelerated spread\n\n## Legacy\n\n- Modern scientific method\n- Individual achievement valued\n- Secular education systems\n- Foundation of Western modernity",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.gutenberg-bible-loc",
+    "world.unsourced-scientific-revolution-bracket",
+    "world.history.ancient-greece",
+    "world.history.scientific-revolution"
+  ],
+  "tags": [
+    "history",
+    "needs-review"
+  ],
+  "aliases": [
+    "world.unsourced-renaissance"
+  ],
+  "read_time_min": 1
+}

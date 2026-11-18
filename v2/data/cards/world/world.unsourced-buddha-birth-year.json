@@ -1,0 +1,30 @@
+{
+  "id": "world.unsourced-buddha-birth-year",
+  "title": "The v1 birth year for the Buddha is unsourced",
+  "section": "world",
+  "category": "religion",
+  "summary": "About 563 BCE is a traditional date. Specialists disagree.",
+  "body": "The v1 Buddhism article says the Buddha was born a prince about 563 BCE, left home after seeing old age, sickness, and death, and taught for 45 years. The traditional story is what many Buddhist sources tell. The calendar date is disputed among historians. This pass did not open a chronological study. Leave 563 BCE unsourced. The sutta and the SEP entry are the sourced cards.",
+  "claim_type": "contested",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.buddha-sep",
+    "world.philosophy.four-noble-truths"
+  ],
+  "tags": [
+    "religion",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "35",
+    "v1_slug": "buddhism",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

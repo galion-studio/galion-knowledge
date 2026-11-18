@@ -1,0 +1,37 @@
+{
+  "id": "world.second-law-openstax",
+  "title": "OpenStax presents the second law as its own chapter",
+  "section": "world",
+  "category": "physics",
+  "summary": "College Physics 2e, section 15.3, is a textbook statement of the second law, not a primary paper.",
+  "body": "OpenStax College Physics 2e, section 15.3, is titled \"Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency.\" The v1 article's examples (ice melting, perfume spreading, an unbaked cake) are classroom illustrations of irreversibility. This card only records that a standard open textbook treats the second law as a distinct principle about the direction of thermal processes. The fetched page text did not include a single equation we are willing to retype as if it had been checked symbol by symbol.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "15.3 Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency",
+      "url": "https://openstax.org/books/college-physics-2e/pages/15-3-introduction-to-the-second-law-of-thermodynamics-heat-engines-and-their-efficiency",
+      "author": "OpenStax College Physics 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax College Physics 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.boltzmann-entropy-almost-always"
+  ],
+  "tags": [
+    "physics",
+    "thermodynamics"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "38",
+    "v1_slug": "entropy",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "world.law.habeas-corpus-clause",
+  "title": "The U.S. Constitution limits suspension of habeas corpus",
+  "section": "world",
+  "category": "law",
+  "summary": "Article I, Section 9 of the United States Constitution, in the National Archives transcription, says: \"The Privilege of the Writ of Habeas Corpus shall not be suspended, unless whe",
+  "body": "Article I, Section 9 of the United States Constitution, in the National Archives transcription, says: \"The Privilege of the Writ of Habeas Corpus shall not be suspended, unless when in Cases of Rebellion or Invasion the public Safety may require it.\" The sentence assumes the privilege and limits when it may be suspended. It does not define the writ, and it does not create it out of nothing. The writ's earlier English history is a different story and is not sourced in this card. The clause also sits beside bans on bills of attainder and ex post facto laws in the same section. Those are restraints on Congress. What counts as rebellion or invasion, and who may suspend the privilege, has been fought over in later cases. The text states the condition. It does not narrate those later fights.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Constitution, Article I, Section 9",
+  "as_of_date": "1787",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.law.presumption-of-innocence",
+    "world.history.magna-carta-1215-1225"
+  ],
+  "read_time_min": 1
+}

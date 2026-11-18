@@ -1,0 +1,33 @@
+{
+  "id": "world.rwanda-april-1994",
+  "title": "The UN tribunal dates the start of the Rwandan genocide to 6 April 1994",
+  "section": "world",
+  "category": "history",
+  "summary": "The residual mechanism's page says the presidential plane was shot down that evening.",
+  "body": "The UN International Residual Mechanism for Criminal Tribunals, on the page inherited from the International Criminal Tribunal for Rwanda, says that on the evening of 6 April 1994 the plane carrying Presidents Juvénal Habyarimana of Rwanda and Cyprien Ntaryamira of Burundi was shot down over Kigali, and it presents what followed under the heading of the genocide. A numerical death toll was not on that short page. The often-repeated figure near 800,000 is therefore not stored. The legal characterization used by the tribunal is genocide. A longer UN background page failed to return body text, so this card stays inside the paragraph that did load.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Genocide",
+      "url": "https://unictr.irmct.org/en/genocide",
+      "author": "International Residual Mechanism for Criminal Tribunals",
+      "date": "1994-04-06",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "International Criminal Tribunal for Rwanda / IRMCT",
+  "as_of_date": "1994-04-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.genocide-convention",
+    "world.unsourced-rwanda-toll"
+  ],
+  "tags": [
+    "history",
+    "rwanda",
+    "genocide"
+  ],
+  "read_time_min": 1
+}

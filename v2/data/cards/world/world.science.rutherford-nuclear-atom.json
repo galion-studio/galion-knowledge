@@ -1,0 +1,27 @@
+{
+  "id": "world.science.rutherford-nuclear-atom",
+  "title": "Alpha scattering and a concentrated nucleus",
+  "section": "world",
+  "category": "science",
+  "summary": "Ernest Rutherford's 1911 paper, \"The scattering of α and β particles by matter and the structure of the atom,\" interprets how alpha and beta particles scatter from matter. The scat",
+  "body": "Ernest Rutherford's 1911 paper, \"The scattering of α and β particles by matter and the structure of the atom,\" interprets how alpha and beta particles scatter from matter. The scattering at large angles was far more probable than a spread-out positive charge would produce. Rutherford's account puts the positive charge of the atom in a concentrated nucleus, with the electrons outside it. The paper is a theoretical analysis of scattering experiments, chiefly those of Geiger and Marsden, not a photograph of a nucleus. Later quantum models replaced the classical orbits that were sometimes drawn on top of this picture. The nuclear concentration of charge is the claim that survived. The 1911 paper does not contain neutrons, quarks, or a measured nuclear radius from later experiments.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The scattering of α and β particles by matter and the structure of the atom",
+      "url": "https://doi.org/10.1080/14786440508637080",
+      "author": "Ernest Rutherford",
+      "date": "1911",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Ernest Rutherford, Philosophical Magazine, 1911",
+  "as_of_date": "1911",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.science.photoelectric-effect"
+  ],
+  "read_time_min": 1
+}

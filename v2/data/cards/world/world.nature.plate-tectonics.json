@@ -1,0 +1,42 @@
+{
+  "id": "world.nature.plate-tectonics",
+  "title": "Plate tectonics: ridges, magnetic anomalies, and a new class of faults",
+  "section": "world",
+  "category": "nature",
+  "summary": "Continental drift, as a suspicion that continents had moved, is older than the mechanism that made it geophysics. The mechanism in the papers cited here has three published pieces. Vine and Matthews (Nature, 1963), \"Magnetic Anomalies…",
+  "body": "## The mechanism those papers put on the table\n\nContinental drift, as a suspicion that continents had moved, is older than the mechanism that made it geophysics. The mechanism in the papers cited here has three published pieces.\n\nVine and Matthews (Nature, 1963), \"Magnetic Anomalies Over Oceanic Ridges,\" tied the striped magnetic anomalies measured over ocean ridges to the formation of new crust at those ridges. The pattern is evidence that crust is made at the ridge and carried away, not a decorative magnetic map.\n\nWilson (Nature, 1965), \"A New Class of Faults and their Bearing on Continental Drift,\" argued that a class of faults (transform faults) is required if crust is created at ridges and destroyed elsewhere, and that this class bears on continental drift. A transform is not just any crack. It is the fault geometry that lets two plates slide where ridges are offset, and the sense of slip is part of the test.\n\nLe Pichon (Journal of Geophysical Research, 1968), \"Sea-floor spreading and continental drift,\" is a kinematic account: spreading of the sea floor and the drift of continents as one geometric system.\n\n## Fact and limit\n\n**Fact:** by the late 1960s the published case was magnetic stripes at ridges, a fault class predicted by spreading, and a global kinematic fit.\n\n**Not in this card:** Alfred Wegener's 1915 book, which is the historical argument for drift and was not the source opened here. Drift-without-a-mechanism and plate tectonics-with-a-mechanism are different claims. The second is what these papers support.\n\n**Interpretation:** \"plates\" are the rigid caps that move in that kinematic scheme. The word is a model of the lithosphere. Earthquakes and volcanoes concentrating at the boundaries is a consequence used as a check, and this card does not attach a catalog of events.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Magnetic Anomalies Over Oceanic Ridges",
+      "url": "https://doi.org/10.1038/199947a0",
+      "author": "F. J. Vine and D. H. Matthews",
+      "date": "1963",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "A New Class of Faults and their Bearing on Continental Drift",
+      "url": "https://doi.org/10.1038/207343a0",
+      "author": "J. Tuzo Wilson",
+      "date": "1965",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Sea-floor spreading and continental drift",
+      "url": "https://doi.org/10.1029/JB073i012p03661",
+      "author": "Xavier Le Pichon",
+      "date": "1968",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.nature.water-cycle",
+    "world.geography.earth-shape"
+  ],
+  "read_time_min": 1
+}

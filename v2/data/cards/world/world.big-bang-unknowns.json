@@ -1,0 +1,39 @@
+{
+  "id": "world.big-bang-unknowns",
+  "title": "What caused the hot early universe is not an answered question",
+  "section": "world",
+  "category": "cosmology",
+  "summary": "NASA says much remains unknown. The v1 article is right that the model does not say what 'before' means.",
+  "body": "NASA's Big Bang page says the cosmic microwave background is the oldest light we can observe and that much remains unknown. The v1 article's useful cautions should be kept: the model is not a description of an explosion into pre-existing space, and it does not say what caused the hot dense early state or what \"before\" would mean if time is part of the model. Those cautions are conceptual. They are not a license for a detailed timeline of the Planck epoch, which the v1 article also offered and which this pack does not source.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "The Big Bang",
+      "url": "https://science.nasa.gov/universe/the-big-bang/",
+      "author": "NASA",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "NASA",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.cmb-1965",
+    "world.inflation-guth-1981",
+    "world.unsourced-big-bang-age-number"
+  ],
+  "tags": [
+    "cosmology",
+    "not-settled"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "31",
+    "v1_slug": "big-bang",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

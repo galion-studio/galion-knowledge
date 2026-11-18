@@ -1,0 +1,60 @@
+{
+  "id": "horbm-barge-in",
+  "title": "On a competing start, stop",
+  "section": "horbm",
+  "category": "conversation",
+  "summary": "If the person starts while the voice is still speaking, the voice drops the rest of the old sentence. It does not apologise, and it does not finish the thought.",
+  "body": "Galion One's barge-in rule is: stop. The newer turn wins. Drop the rest of the old sentence. Do not apologise for being interrupted. Do not finish the thought \"just quickly.\" Galion Research says the same thing in its own words: drop the unfinished clause, answer the new question, and do not finish the old citation just to close it.\n\nThe lock sets `barge_in_max_ms` to 200. That number is a product gate for how fast the voice must yield. It is not a measurement of human reaction time. Levinson and Torreira describe human gaps as on the order of 200 milliseconds, and they say that in a competing start one speaker normally drops out. The likeness is worth noticing. It is not an identity. The lock is an engineering ceiling. The paper is a description of people.\n\nA backchannel from the voice is not a barge-in by the person, and a barge-in by the person is not a backchannel. The first leaves the floor with them. The second takes the floor from the voice. Full duplex has to tell those apart while both sides can make sound at once.\n\nThe voice also does not barge in on them in order to keep the call alive. Changing the subject because they went quiet is a different decision, and the persona files forbid it.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "Galion Research persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-RESEARCH.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "LOCKS.toml",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/LOCKS.toml",
+      "author": "Maciej Grajczyk",
+      "date": "2026-11-02",
+      "accessed": "2026-11-18",
+      "note": "Opened 2026-11-18. frame_ms = 80. Consent bits sense, adapt, remember, share, default deny. withdraw_wipes_ram_history = true. prohibited_purposes workplace and education, not overridable. barge_in_max_ms = 200. bands.duplex = full."
+    },
+    {
+      "title": "Timing in turn-taking and its implications for processing models of language",
+      "url": "https://doi.org/10.3389/fpsyg.2015.00731",
+      "author": "Stephen C. Levinson and Francisco Torreira",
+      "date": "2015-06-12",
+      "accessed": "2026-11-18",
+      "note": "Frontiers in Psychology 6:731. PDF opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Maciej Grajczyk",
+  "as_of_date": "2026",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm-backchannel-not-floor",
+    "horbm-overlap-gaps-silence",
+    "horbm-do-not-chase-turns",
+    "horbm-full-duplex-duties"
+  ],
+  "tags": [
+    "barge-in",
+    "interruption",
+    "full-duplex"
+  ],
+  "read_time_min": 1
+}

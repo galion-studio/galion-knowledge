@@ -1,0 +1,20 @@
+{
+  "id": "world.science.solar-system",
+  "title": "The Solar System",
+  "section": "world",
+  "category": "science",
+  "summary": "The Solar System consists of the Sun and everything gravitationally bound to it, formed about 4.6 billion years ago. Contains 99.86% of the system's mass A G-type main-sequence star",
+  "body": "# The Solar System\n\nThe Solar System consists of the Sun and everything gravitationally bound to it, formed about 4.6 billion years ago.\n\n## The Sun\n\n- Contains 99.86% of the system's mass\n- A G-type main-sequence star\n- Diameter: 1.4 million km\n- Core temperature: 15 million °C\n\n## The Planets\n\n### Terrestrial Planets\n- **Mercury**: Smallest, closest to Sun, extreme temperatures\n- **Venus**: Hottest planet, thick atmosphere, backward rotation\n- **Earth**: Only known life, liquid water, one moon\n- **Mars**: \"Red Planet,\" thin atmosphere, two moons\n\n### Gas Giants\n- **Jupiter**: Largest planet, Great Red Spot, 95 known moons\n- **Saturn**: Famous rings, 146 known moons\n\n### Ice Giants\n- **Neptune**: Farthest planet, strongest winds\n- **Uranus**: Tilted on its side, 27 known moons\n\n## Other Objects\n\n### Dwarf Planets\n- Pluto, Eris, Ceres, Haumea, Makemake\n\n### Asteroid Belt\n- Between Mars and Jupiter\n- Millions of rocky objects\n\n### Kuiper Belt\n- Beyond Neptune\n- Home of Pluto and many icy bodies\n\n### Oort Cloud\n- Hypothetical shell of icy objects\n- Source of long-period comets",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.science.black-holes",
+    "world.science.big-bang"
+  ],
+  "read_time_min": 1
+}

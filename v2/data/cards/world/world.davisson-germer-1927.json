@@ -1,0 +1,38 @@
+{
+  "id": "world.davisson-germer-1927",
+  "title": "Davisson and Germer observed electron diffraction",
+  "section": "world",
+  "category": "physics",
+  "summary": "Their 1927 Nature paper reports electrons scattering from a nickel crystal like waves.",
+  "body": "C. Davisson and L. H. Germer, \"The Scattering of Electrons by a Single Crystal of Nickel\" (Nature, 1927), reported diffraction of electrons. That result is experimental evidence that electrons show wave behavior in this setup. The v1 article's appeal to the double-slit experiment is a related teaching example; this card cites the 1927 crystal experiment that was actually published, not a generic classroom diagram.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Scattering of Electrons by a Single Crystal of Nickel",
+      "url": "https://doi.org/10.1038/119558a0",
+      "author": "C. Davisson and L. H. Germer",
+      "date": "1927",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "C. Davisson and L. H. Germer",
+  "as_of_date": "1927",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.schrodinger-1926"
+  ],
+  "tags": [
+    "physics",
+    "quantum",
+    "experiment"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "5",
+    "v1_slug": "quantum-mechanics",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

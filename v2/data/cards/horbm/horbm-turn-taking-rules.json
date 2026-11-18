@@ -1,0 +1,46 @@
+{
+  "id": "horbm-turn-taking-rules",
+  "title": "Turn-taking is a system, not a queue",
+  "section": "horbm",
+  "category": "conversation",
+  "summary": "Conversation is organized one speaker at a time, with rules that apply at the end of a turn unit. The current speaker may select the next, anyone may self-select, or the current speaker may go on.",
+  "body": "Levinson and Torreira, opening Sacks, Schegloff, and Jefferson (1974), describe conversation as a system rather than a pre-assigned order of speakers. One speaker talks at a time. More than one speaker at a time is common, and usually brief. Transitions with no gap and no overlap are common, and together with slight gaps and slight overlaps they make up the majority of transitions. That quotation is theirs, citing Sacks et al., page 700.\n\nThe units are stretches of talk whose end is a transition-relevance place. At that place the rules they restate are:\n\n1. If the current speaker selects a next speaker, the current speaker stops and the selected speaker should start. Selection can be an address, a gaze, or, in a two-person call, the fact that there is only one other person.\n2. If nobody was selected, any participant may self-select. The first to start gets the next unit.\n3. If nobody self-selects, the current speaker may continue.\n\nThe same rules apply again at the next transition-relevance place. The speed of the handoff means a listener projects the end of the incoming turn and can begin preparing a reply before that end. Sacks and colleagues called that projection. Levinson and Torreira treat it as a processing requirement, because gaps between turns are on the order of 200 milliseconds while starting to speak takes longer.\n\nFor HORBM this is the floor rule. The voice does not hold a reserved slot. It listens for a place where a turn can pass, and it does not start a new turn in the middle of a unit the person has not finished, except for the continuer and the barge-in described on the neighbouring cards.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Timing in turn-taking and its implications for processing models of language",
+      "url": "https://doi.org/10.3389/fpsyg.2015.00731",
+      "author": "Stephen C. Levinson and Francisco Torreira",
+      "date": "2015-06-12",
+      "accessed": "2026-11-18",
+      "note": "Frontiers in Psychology 6:731. PDF opened 2026-11-18."
+    },
+    {
+      "title": "A simplest systematics for the organization of turn-taking for conversation",
+      "url": "https://doi.org/10.2307/412243",
+      "author": "Harvey Sacks, Emanuel A. Schegloff, and Gail Jefferson",
+      "date": "1974-12",
+      "accessed": "2026-11-18",
+      "note": "Language 50(4), 696-735. Crossref record checked 2026-11-18. The PDF host returned 403, so this pack does not quote the article. The rules below are the restatement in Levinson and Torreira 2015, which cites Sacks et al. 1974, pages 700, 707, and 719."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Stephen C. Levinson and Francisco Torreira, restating Sacks, Schegloff, and Jefferson",
+  "as_of_date": "2015-06-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-overlap-gaps-silence",
+    "horbm-backchannel-not-floor",
+    "horbm-barge-in",
+    "horbm-full-duplex-duties"
+  ],
+  "tags": [
+    "turn-taking",
+    "sacks",
+    "schegloff",
+    "jefferson",
+    "full-duplex"
+  ],
+  "read_time_min": 1
+}

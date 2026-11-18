@@ -1,0 +1,29 @@
+{
+  "id": "horbm.turn-taking.continuers",
+  "title": "A continuer is not a bid for the floor",
+  "section": "horbm",
+  "category": "turn-taking",
+  "summary": "Levinson and Torreira (2015) treat some overlap as not an intrusion. Continuers such as 'hmhm', and minimal overlap at the very end of a turn, are not heard as taking the floor. A",
+  "body": "Levinson and Torreira (2015) treat some overlap as not an intrusion. Continuers such as 'hmhm', and minimal overlap at the very end of a turn, are not heard as taking the floor. A second start that competes with the current speaker is a different event, and one of the two speakers normally drops out. A short 'mm' or 'go on' while the other person is still talking can be the first kind of overlap. It passes the turn back. It does not answer, and it does not start a new point. This card's examples of the tokens are the review's. A full inventory of continuer words was not re-opened from Schegloff's 1982 chapter, which is not carded here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Timing in turn-taking and its implications for processing models of language",
+      "url": "https://doi.org/10.3389/fpsyg.2015.00731",
+      "author": "Stephen C. Levinson and Francisco Torreira",
+      "date": "2015",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Levinson and Torreira",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.turn-taking.overlap-targets-disagree",
+    "horbm.turn-taking.duplex-conduct",
+    "horbm.repair.one-question-do-not-invent"
+  ],
+  "read_time_min": 1
+}

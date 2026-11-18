@@ -1,0 +1,41 @@
+{
+  "id": "world.science.photoelectric-effect",
+  "title": "The photoelectric law and a laboratory measure of h",
+  "section": "world",
+  "category": "science",
+  "summary": "Einstein's 1905 paper \"Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt\" treats the production and transformation of light, including t",
+  "body": "Einstein's 1905 paper \"Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt\" treats the production and transformation of light, including the photoelectric effect, with energy quanta. The Nobel Prize in Physics for 1921, which Einstein received in 1922, was awarded \"for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect.\" In 1916 R. A. Millikan published \"A Direct Photoelectric Determination of Planck's h,\" a laboratory measurement of Planck's constant from the photoelectric effect. The prize citation is for the law, not for the later full quantum theory of fields. Millikan's paper is one experimental determination of h, not the whole of quantum mechanics.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
+      "url": "https://doi.org/10.1002/andp.19053220607",
+      "author": "Albert Einstein",
+      "date": "1905",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Nobel Prize in Physics 1921",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/summary/",
+      "author": "Nobel Prize Outreach",
+      "date": "1921",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "A Direct Photoelectric Determination of Planck's h",
+      "url": "https://doi.org/10.1103/PhysRev.7.355",
+      "author": "R. A. Millikan",
+      "date": "1916",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Einstein 1905; Nobel citation for the 1921 prize; Millikan 1916",
+  "as_of_date": "1916",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.science.uncertainty-principle"
+  ],
+  "read_time_min": 1
+}

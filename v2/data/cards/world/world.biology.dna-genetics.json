@@ -1,0 +1,92 @@
+{
+  "id": "world.biology.dna-genetics",
+  "title": "DNA: transforming principle, a 1953 structure, copying, and a code",
+  "section": "world",
+  "category": "biology",
+  "summary": "Avery, MacLeod, and McCarty (1944) studied the chemical nature of the substance that transforms pneumococcal types. That paper is the experimental argument that a chemical extract, not a vague \"principle,\" carries the heritable change.…",
+  "body": "## Mechanism, one step at a time, and only as far as the titles and the record go\n\nAvery, MacLeod, and McCarty (1944) studied the chemical nature of the substance that transforms pneumococcal types. That paper is the experimental argument that a chemical extract, not a vague \"principle,\" carries the heritable change. This card does not add a quotation from the discussion section that was not re-read here.\n\nOn 25 April 1953 Nature published three papers together. Watson and Crick proposed a structure for deoxyribose nucleic acid. Wilkins, Stokes, and Wilson reported on the molecular structure of deoxypentose nucleic acids. Franklin and Gosling reported the molecular configuration in sodium thymonucleate, the diffraction evidence. The structure people mean by \"the double helix\" is the structure proposed in the Watson and Crick paper, read against the diffraction papers beside it. Dropping Franklin and Gosling or Wilkins and colleagues out of the citation is how a mechanism gets turned into a hero story.\n\nMeselson and Stahl (1958) published \"The replication of DNA in Escherichia coli.\" The paper is the experiment on how a DNA molecule is copied in that bacterium. Crick, Barnett, Brenner, and Watts-Tobin (1961) published \"General Nature of the Genetic Code for Proteins,\" and the same year Nirenberg and Matthaei showed that cell-free protein synthesis in E. coli depends on which polyribonucleotides are added. Together those papers are the mechanism of encoded sequence: bases specify amino acids, and the code is a mapping one can test with synthetic RNA, not a metaphor.\n\nTjio and Levan published \"The chromosome number of man\" in Hereditas (volume 42, pages 1–6). The DOI encodes 1956; a Crossref \"issued\" year of 2010 is a platform date and is not the year of the count. This card does not restate the numeral, because that numeral was not re-read from the paper in this pass. The fact the title supports is that they published a count, correcting the idea that the number was already obvious.\n\nIn 2001 two projects published draft human genome sequences: Lander and the International Human Genome Sequencing Consortium in Nature, and Venter and colleagues in Science. \"The genome was finished on a particular day and contains a particular gene count\" is not a sentence these titles, by themselves, are asked to carry here.\n\n## Fact and interpretation\n\n**Fact:** heredity was tied to a chemical transforming substance, a nucleic-acid structure was proposed beside diffraction data, replication and coding were subjected to experiments, and draft human sequences were published in 2001.\n\n**Interpretation:** \"DNA is the secret of life\" is a slogan. The mechanism is narrower and better: sequence is copied, read into RNA, and translated into protein, with the code established experimentally rather than deduced from the helix picture alone.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Studies on the chemical nature of the substance inducing transformation of pneumococcal types",
+      "url": "https://doi.org/10.1084/jem.79.2.137",
+      "author": "Oswald T. Avery, Colin M. MacLeod, and Maclyn McCarty",
+      "date": "1944",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+      "url": "https://doi.org/10.1038/171737a0",
+      "author": "J. D. Watson and F. H. C. Crick",
+      "date": "1953",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Molecular Structure of Nucleic Acids: Molecular Structure of Deoxypentose Nucleic Acids",
+      "url": "https://doi.org/10.1038/171738a0",
+      "author": "M. H. F. Wilkins, A. R. Stokes, and H. R. Wilson",
+      "date": "1953",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Molecular Configuration in Sodium Thymonucleate",
+      "url": "https://doi.org/10.1038/171740a0",
+      "author": "Rosalind E. Franklin and R. G. Gosling",
+      "date": "1953",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The replication of DNA in Escherichia coli",
+      "url": "https://doi.org/10.1073/pnas.44.7.671",
+      "author": "Matthew Meselson and Franklin W. Stahl",
+      "date": "1958",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "General Nature of the Genetic Code for Proteins",
+      "url": "https://doi.org/10.1038/1921227a0",
+      "author": "F. H. C. Crick, Leslie Barnett, S. Brenner, and R. J. Watts-Tobin",
+      "date": "1961",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The dependence of cell-free protein synthesis in E. coli upon naturally occurring or synthetic polyribonucleotides",
+      "url": "https://doi.org/10.1073/pnas.47.10.1588",
+      "author": "Marshall W. Nirenberg and J. Heinrich Matthaei",
+      "date": "1961",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The chromosome number of man",
+      "url": "https://doi.org/10.1111/j.1601-5223.1956.tb03010.x",
+      "author": "Joe Hin Tjio and Albert Levan",
+      "date": "1956",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Initial sequencing and analysis of the human genome",
+      "url": "https://doi.org/10.1038/35057062",
+      "author": "Eric S. Lander and the International Human Genome Sequencing Consortium",
+      "date": "2001",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Sequence of the Human Genome",
+      "url": "https://doi.org/10.1126/science.1058040",
+      "author": "J. Craig Venter and colleagues",
+      "date": "2001",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.evolution-natural-selection",
+    "world.biology.photosynthesis",
+    "world.biology.crispr-adaptive-immunity"
+  ],
+  "read_time_min": 2
+}

@@ -1,0 +1,39 @@
+{
+  "id": "world.inflation-guth-1981",
+  "title": "Guth's 1981 inflation proposal",
+  "section": "world",
+  "category": "cosmology",
+  "summary": "Inflation was proposed as a possible solution to the horizon and flatness problems. It is a model, not a direct observation.",
+  "body": "Alan H. Guth, \"Inflationary universe: A possible solution to the horizon and flatness problems\" (Physical Review D, 1981), proposed a brief early phase of accelerated expansion. The title says \"a possible solution.\" The v1 timeline's factor of 10^26 and the exact second-fractions were not copied from this paper in this pass. Treat inflation as a widely used model whose direct observational status is weaker than the existence of the cosmic microwave background.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Inflationary universe: A possible solution to the horizon and flatness problems",
+      "url": "https://doi.org/10.1103/PhysRevD.23.347",
+      "author": "Alan H. Guth",
+      "date": "1981",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Alan H. Guth",
+  "as_of_date": "1981",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.cmb-1965",
+    "world.big-bang-unknowns"
+  ],
+  "tags": [
+    "cosmology",
+    "inflation",
+    "not-settled"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "31",
+    "v1_slug": "big-bang",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "world.nature.arrhenius-carbonic-acid-1896",
+  "title": "Arrhenius calculated how carbonic acid could warm the ground",
+  "section": "world",
+  "category": "nature",
+  "summary": "Svante Arrhenius's 1896 paper is titled \"On the influence of carbonic acid in the air upon the temperature of the ground.\" Carbonic acid, in the language of that paper, is carbon d",
+  "body": "Svante Arrhenius's 1896 paper is titled \"On the influence of carbonic acid in the air upon the temperature of the ground.\" Carbonic acid, in the language of that paper, is carbon dioxide. The paper is an early calculation of how changing the amount of CO2 in the air would change the temperature at the ground, using the absorption of infrared radiation. It is not a modern climate model, and this card does not quote his degree estimates, which are easy to pull out of context and compare with later assessments he did not have. The physical point that survived is the mechanism: CO2 in the air absorbs outgoing infrared radiation and so affects the surface energy budget. Measured change in atmospheric CO2 is a different card, the Keeling record.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On the influence of carbonic acid in the air upon the temperature of the ground",
+      "url": "https://doi.org/10.1080/14786449608620846",
+      "author": "Svante Arrhenius",
+      "date": "1896",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Svante Arrhenius, Philosophical Magazine, 1896",
+  "as_of_date": "1896",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.nature.keeling-co2-1960",
+    "world.nature.earth-energy-budget-2009"
+  ],
+  "read_time_min": 1
+}

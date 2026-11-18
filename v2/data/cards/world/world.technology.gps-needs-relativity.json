@@ -1,0 +1,28 @@
+{
+  "id": "world.technology.gps-needs-relativity",
+  "title": "GPS does not work if relativity is left out",
+  "section": "world",
+  "category": "technology",
+  "summary": "Neil Ashby's review \"Relativity in the Global Positioning System\" explains why satellite navigation is a relativistic system in ordinary use. GPS compares time from atomic clocks i",
+  "body": "Neil Ashby's review \"Relativity in the Global Positioning System\" explains why satellite navigation is a relativistic system in ordinary use. GPS compares time from atomic clocks in orbit and on the ground. Those clocks run at different rates because of their speed and because of their position in Earth's gravitational field. Ashby writes that the shifts are large enough that, without accounting for them, the system would not work. The effects he lists include the constancy of the speed of light, the equivalence principle, the Sagnac effect, time dilation, gravitational frequency shifts, and the relativity of synchronization. This card does not quote a microsecond-per-day correction, because that figure was not copied from the paper during checking. The sourced claim is the one in the abstract: leave the relativistic effects out, and the navigation system fails.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Relativity in the Global Positioning System",
+      "url": "https://doi.org/10.12942/lrr-2003-1",
+      "author": "Neil Ashby",
+      "date": "2003",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Neil Ashby, Living Reviews in Relativity, 2003",
+  "as_of_date": "2003",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.science.general-relativity-1916",
+    "world.science.special-relativity-1905"
+  ],
+  "read_time_min": 1
+}

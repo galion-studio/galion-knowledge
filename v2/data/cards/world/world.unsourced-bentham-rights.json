@@ -1,0 +1,30 @@
+{
+  "id": "world.unsourced-bentham-rights",
+  "title": "Bentham's 'nonsense upon stilts' is not quoted from a verified edition",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "The opposing line is famous and was not checked against Anarchical Fallacies in this pass.",
+  "body": "Natural-rights critics often quote Jeremy Bentham calling them nonsense upon stilts, from Anarchical Fallacies, against the French declaration. The line was not opened in a verified copy here. Do not retrieve it as a checked quotation. The disagreement it stands for is real: one side treats rights as prior to the state, another treats them as legal creations. The sourced documents are the Declaration, the French declaration, the UDHR, and Murphy's encyclopedia entry.",
+  "claim_type": "opinion",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "commonly attributed to Jeremy Bentham; not verified here",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.natural-law-sep",
+    "world.french-declaration-1789"
+  ],
+  "tags": [
+    "philosophy",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "33",
+    "v1_slug": "natural-rights",
+    "v1_category": "law",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

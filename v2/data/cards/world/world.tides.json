@@ -1,0 +1,33 @@
+{
+  "id": "world.tides",
+  "title": "NOAA: tides are caused by the gravity of the Moon and the Sun",
+  "section": "world",
+  "category": "earth",
+  "summary": "NOAA's short answer names both the Moon and the Sun. Ocean basins then shape the local tide.",
+  "body": "NOAA's ocean-service page says tides are caused by the gravitational pull of the Moon and the Sun. That is the force. Local tide times and heights also depend on coasts and ocean basins; the simple two-bulge picture is a model of the force, not a map of every harbor. This card does not go beyond the sentence NOAA states.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What are tides?",
+      "url": "https://oceanservice.noaa.gov/facts/tides.html",
+      "author": "NOAA",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Oceanic and Atmospheric Administration",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.seasons-axial-tilt",
+    "world.moon-phases"
+  ],
+  "tags": [
+    "earth",
+    "ocean",
+    "gravity"
+  ],
+  "read_time_min": 1
+}

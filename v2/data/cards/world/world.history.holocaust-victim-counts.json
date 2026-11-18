@@ -1,0 +1,27 @@
+{
+  "id": "world.history.holocaust-victim-counts",
+  "title": "Holocaust death tolls are reconstructed, not read from one ledger",
+  "section": "world",
+  "category": "history",
+  "summary": "The United States Holocaust Memorial Museum states that the Nazis and their allies and collaborators killed six million Jewish people, and that this systematic, state-sponsored gen",
+  "body": "The United States Holocaust Memorial Museum states that the Nazis and their allies and collaborators killed six million Jewish people, and that this systematic, state-sponsored genocide is the Holocaust. It also states that they persecuted and killed millions of non-Jewish people. The same article says there is no single Nazi document that accounts for every death. There are instead hundreds of thousands of pages of documents, and some parts of the killing, especially transports to and gassing at killing centers, are better documented than murders outside those sites. Six million is the museum's figure for Jewish victims, built from Nazi records and from prewar and postwar demographic data. It is not a serial number copied from one page. Because there is no master list, group-by-group figures are estimates and are not all equally precise. This card does not copy the museum's table of other victim groups.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Documenting Numbers of Victims of the Holocaust and Nazi Persecution",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+      "author": "United States Holocaust Memorial Museum",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Holocaust Memorial Museum",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.first-world-war-responsibility"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "world.law.nuremberg-crimes",
+  "title": "Crimes against peace, war crimes, and crimes against humanity in the 1950 text",
+  "section": "world",
+  "category": "law",
+  "summary": "Principle VI of the International Law Commission's 1950 Nürnberg principles says the following are punishable as crimes under international law. Crimes against peace: planning, preparation, initiation, or waging of a war of aggression…",
+  "body": "## Principle VI, including the clause that limits it\n\nPrinciple VI of the International Law Commission's 1950 Nürnberg principles says the following are punishable as crimes under international law.\n\nCrimes against peace: planning, preparation, initiation, or waging of a war of aggression or a war in violation of international treaties, agreements, or assurances; and participation in a common plan or conspiracy for those acts.\n\nWar crimes: violations of the laws or customs of war. The text says these include, but are not limited to, murder, ill-treatment, or deportation to slave labor or for any other purpose of civilian population of or in occupied territory; murder or ill-treatment of prisoners of war or of persons on the seas; killing of hostages; plunder of public or private property; wanton destruction of cities, towns, or villages; or devastation not justified by military necessity.\n\nCrimes against humanity: \"Murder, extermination, enslavement, deportation and other inhuman acts done against any civilian population, or persecutions on political, racial or religious grounds, when such acts are done or such persecutions are carried on in execution of or in connection with any crime against peace or any war crime.\"\n\n## The nexus is part of this definition\n\nThe 1950 wording requires that crimes against humanity be done in execution of or in connection with a crime against peace or a war crime. That nexus is in the sentence. Later statutes may define the crime differently. This card does not cite the Rome Statute, so it does not claim the nexus was dropped. It claims only that the 1950 text contains it.\n\n**Fact:** Principle VI says what is quoted.\n\n**Why it matters:** a definition of \"crimes against humanity\" that people remember as \"any mass atrocity, in war or peace\" is broader than this 1950 sentence. Using the broader memory as if it were this document is a mistake about the document. Whether the broader definition is the better law is a separate question, and it is not settled by pretending the 1950 text already said it.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Principles of International Law Recognized in the Charter of the Nürnberg Tribunal and in the Judgment of the Tribunal",
+      "url": "https://legal.un.org/ilc/texts/instruments/english/draft_articles/7_1_1950.pdf",
+      "author": "International Law Commission",
+      "date": "1950",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "International Law Commission",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.law.nuremberg-responsibility",
+    "world.history.holocaust-documentation"
+  ],
+  "read_time_min": 2
+}

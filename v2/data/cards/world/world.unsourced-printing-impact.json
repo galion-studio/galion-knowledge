@@ -1,0 +1,29 @@
+{
+  "id": "world.unsourced-printing-impact",
+  "title": "The v1 claims about literacy rates and the press causing the Reformation are unsourced",
+  "section": "world",
+  "category": "history",
+  "summary": "Ten percent literacy in 1500, fifty percent in 1800, and a simple causal arrow to Luther were not sourced.",
+  "body": "The v1 printing article says European literacy was about 10 percent in 1500 and 50 percent in 1800, that 49 Gutenberg Bibles survive, that Chinese woodblock and Korean metal type had less impact because of the writing system, and that the press caused the Reformation and the Scientific Revolution. The Mainz Bible is sourced. The literacy percentages, the surviving-copy count, the comparative judgment about East Asia, and the large causal claims are interpretations or statistics we did not verify. Leave them unsourced. Luther's theses and scientific correspondence are real topics that need their own documents.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.gutenberg-bible-loc"
+  ],
+  "tags": [
+    "history",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "39",
+    "v1_slug": "printing-press",
+    "v1_category": "technology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

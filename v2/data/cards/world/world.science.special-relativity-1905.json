@@ -1,0 +1,44 @@
+{
+  "id": "world.science.special-relativity-1905",
+  "title": "Einstein's 1905 postulates for moving bodies",
+  "section": "world",
+  "category": "science",
+  "summary": "In 1905 Einstein published \"Zur Elektrodynamik bewegter Körper\" (On the electrodynamics of moving bodies) in Annalen der Physik. In the English translation dated 30 June 1905, he s",
+  "body": "In 1905 Einstein published \"Zur Elektrodynamik bewegter Körper\" (On the electrodynamics of moving bodies) in Annalen der Physik. In the English translation dated 30 June 1905, he says the same laws of electrodynamics and optics hold for all frames in which the equations of mechanics hold. He raises that claim, which he calls the Principle of Relativity, to a postulate. The second postulate is that light is always propagated in empty space with a definite velocity c, independent of the motion of the emitting body. He writes that these two postulates are enough for a consistent electrodynamics of moving bodies based on Maxwell's theory, and that a luminiferous ether is superfluous. The paper is a derivation from those postulates. Later experiments tested the consequences; they are not a data table inside the 1905 article.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Zur Elektrodynamik bewegter Körper",
+      "url": "https://doi.org/10.1002/andp.19053221004",
+      "author": "Albert Einstein",
+      "date": "1905",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "On the Electrodynamics of Moving Bodies (English translation)",
+      "url": "https://www.fourmilab.ch/etexts/einstein/specrel/www/",
+      "author": "Albert Einstein",
+      "date": "1905-06-30",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Albert Einstein, Annalen der Physik, 1905",
+  "as_of_date": "1905-06-30",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.science.mass-energy-1905",
+    "world.science.general-relativity-1916",
+    "world.hafele-keating-1972"
+  ],
+  "tags": [
+    "physics",
+    "relativity",
+    "einstein"
+  ],
+  "aliases": [
+    "world.special-relativity-1905"
+  ],
+  "read_time_min": 1
+}

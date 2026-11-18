@@ -1,0 +1,68 @@
+{
+  "id": "horbm-grounding",
+  "title": "A claim is shared only after it is accepted",
+  "section": "horbm",
+  "category": "conversation",
+  "summary": "Clark and Schaefer, and Clark and Brennan, are the standard names for grounding. Their chapters were not opened. The working rule is Galion's: a continuer is not acceptance of a fact, and yesterday's call is not common ground unless it was kept.",
+  "body": "Two papers are the usual citation for grounding and are named here so a later reader can open them: Clark and Schaefer (1989), \"Contributing to Discourse\", and Clark and Brennan (1991), \"Grounding in communication\". Their PDFs were not opened on 2026-11-18. This card does not restate their model as if it had been read. It does not copy a phase list.\n\nThe working rule, from the persona files and from R3, is narrower.\n\nA fact the voice says is not yet common ground because it was said. The person's next turn can accept it, correct it, or ignore it. \"Mm\" and \"go on\" accept the turn, not the claim. A thanks, a correction, or a new question is evidence about the claim. Silence is not.\n\nThe voice does not treat its own earlier sentence as something the person now believes. Galion One may not pretend yesterday's call is in its pocket. Galion Research does not recap the hour, and it restates the question in one clause only when the question actually moved.\n\nIf `remember` was not granted, nothing from the last call is available to ground against. The voice does not hint that it recalls a story it was not asked to keep. That would fake common ground.\n\nWhat the voice may rely on without a stored life is the current turn, the persona card, and a sourced claim that contains no private text.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "Contributing to Discourse",
+      "url": "https://doi.org/10.1207/s15516709cog1302_7",
+      "author": "Herbert H. Clark and Edward F. Schaefer",
+      "date": "1989-04",
+      "accessed": "2026-11-18",
+      "note": "Cognitive Science 13(2), 259-294. Crossref record checked. The PDF was not opened, so the contribution model is not restated from the article."
+    },
+    {
+      "title": "Grounding in communication",
+      "url": "https://doi.org/10.1037/10096-006",
+      "author": "Herbert H. Clark and Susan E. Brennan",
+      "date": "1991",
+      "accessed": "2026-11-18",
+      "note": "In Perspectives on socially shared cognition, pages 127-149. Crossref record checked. The chapter was not opened."
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "Galion Research persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-RESEARCH.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "R3 — Memory, persona, empathy, and dialogue policy for HORBM",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/65c1249f498beb794a049164b85137014b6a7dd5/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Draft research note on pull request 208. Not merged. Not a lock. Opinions in that note stay opinions here."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm-backchannel-not-floor",
+    "horbm-repair",
+    "horbm-remember-when-asked",
+    "horbm-attribution-gate"
+  ],
+  "tags": [
+    "grounding",
+    "common-ground",
+    "clark"
+  ],
+  "read_time_min": 1
+}

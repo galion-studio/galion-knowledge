@@ -1,0 +1,28 @@
+{
+  "id": "world.biology.atp-synthase-and-the-sodium-pump",
+  "title": "Two membrane enzymes honored in 1997",
+  "section": "world",
+  "category": "biology",
+  "summary": "The 1997 Nobel Prize in Chemistry was split. One half went to Paul D. Boyer and John E. Walker \"for their elucidation of the enzymatic mechanism underlying the synthesis of adenosi",
+  "body": "The 1997 Nobel Prize in Chemistry was split. One half went to Paul D. Boyer and John E. Walker \"for their elucidation of the enzymatic mechanism underlying the synthesis of adenosine triphosphate (ATP).\" The other half went to Jens C. Skou \"for the first discovery of an ion-transporting enzyme, Na+, K+ -ATPase.\" These are different machines. ATP synthase makes ATP. The sodium-potassium ATPase uses ATP to move sodium and potassium ions across the cell membrane and so maintains the gradients nerve and muscle cells depend on. The prize citation is for mechanism and for the discovery of the pump. It does not say that either enzyme was fully understood in every organism in 1997, and later structural work continued after the prize.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Nobel Prize in Chemistry 1997",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1997/summary/",
+      "author": "Nobel Prize Outreach",
+      "date": "1997",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Nobel Prize in Chemistry 1997 citation",
+  "as_of_date": "1997",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.chemiosmotic-coupling-1961",
+    "world.biology.action-potential-1952"
+  ],
+  "read_time_min": 1
+}

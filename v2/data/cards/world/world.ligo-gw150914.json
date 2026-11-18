@@ -1,0 +1,47 @@
+{
+  "id": "world.ligo-gw150914",
+  "title": "LIGO reported gravitational waves from a black-hole merger",
+  "section": "world",
+  "category": "physics",
+  "summary": "Abbott and the LIGO/Virgo collaboration published GW150914 in 2016; the 2017 Nobel prize cited that detection.",
+  "body": "In 2016 B. P. Abbott and many coauthors published \"Observation of Gravitational Waves from a Binary Black Hole Merger\" (Physical Review Letters). The paper reports the signal later called GW150914. The Nobel Prize in Physics 2017 was divided among Rainer Weiss, Barry C. Barish, and Kip S. Thorne for contributions to LIGO and the observation of gravitational waves. This is a detection claim about a particular signal, not a proof that every relativistic prediction has been tested to unlimited precision.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+      "url": "https://doi.org/10.1103/PhysRevLett.116.061102",
+      "author": "B. P. Abbott and the LIGO Scientific Collaboration and Virgo Collaboration",
+      "date": "2016",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Nobel Prize in Physics 2017",
+      "url": "https://www.nobelprize.org/prizes/physics/2017/summary/",
+      "author": "Nobel Prize Outreach",
+      "date": "2017",
+      "accessed": "2026-11-18",
+      "note": "Page consulted 2026-11-18; the prize citation names LIGO and the observation of gravitational waves."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "LIGO Scientific Collaboration and Virgo Collaboration",
+  "as_of_date": "2016",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.science.general-relativity-1916",
+    "world.black-hole-nasa"
+  ],
+  "tags": [
+    "physics",
+    "gravitational-waves",
+    "ligo"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "1",
+    "v1_slug": "theory-of-relativity",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

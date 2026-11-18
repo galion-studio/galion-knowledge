@@ -1,0 +1,47 @@
+{
+  "id": "world.turing-1950",
+  "title": "Turing's 1950 paper on computing machinery and intelligence",
+  "section": "world",
+  "category": "technology",
+  "summary": "The Mind paper replaces 'can machines think?' with an imitation game.",
+  "body": "A. M. Turing, \"Computing Machinery and Intelligence\" (Mind, 1950), proposes the imitation game as a way of discussing machine intelligence. The v1 article's split into narrow AI (what exists), general AI (not demonstrated), and superintelligence (a speculation) is a later taxonomy. Turing's paper is the 1950 document. It is not a product review of any current system. Selmer Bringsjord and Naveen Sundar Govindarajulu's SEP entry treats the field's goals as philosophically disputed, including whether person-level intelligence is attainable.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Computing Machinery and Intelligence",
+      "url": "https://doi.org/10.1093/mind/LIX.236.433",
+      "author": "A. M. Turing",
+      "date": "1950",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "url": "https://plato.stanford.edu/entries/artificial-intelligence/",
+      "author": "Selmer Bringsjord and Naveen Sundar Govindarajulu",
+      "date": "2018-07-12",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "A. M. Turing",
+  "as_of_date": "1950",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.alphafold-2021",
+    "world.searles-chinese-room",
+    "world.unsourced-ai-taxonomy"
+  ],
+  "tags": [
+    "technology",
+    "ai",
+    "philosophy"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "17",
+    "v1_slug": "artificial-intelligence",
+    "v1_category": "technology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

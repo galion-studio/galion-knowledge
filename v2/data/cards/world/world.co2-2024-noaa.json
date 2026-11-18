@@ -1,0 +1,45 @@
+{
+  "id": "world.co2-2024-noaa",
+  "title": "NOAA: atmospheric CO2 averaged 422.7 ppm in 2024",
+  "section": "world",
+  "category": "climate",
+  "summary": "The Mauna Loa record begins in 1958. The 2024 global average given on the page is 422.7 ppm.",
+  "body": "NOAA Climate.gov says the average carbon dioxide concentration set a record in 2024 at 422.7 parts per million, up 3.75 ppm from 2023, and that the direct record begins with Mauna Loa Observatory in 1958. The Scripps CO2 program page identifies the Keeling Curve and the Mauna Loa record as its data program; the ppm figure used here is NOAA's, because the Scripps page we fetched did not include the 2024 average. The v1 article's \"+1.1 °C since pre-industrial times\" is an older round number and is not this measurement.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Climate change: atmospheric carbon dioxide",
+      "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide",
+      "author": "NOAA Climate.gov",
+      "date": "2024",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Scripps CO2 Program",
+      "url": "https://scrippsco2.ucsd.edu/",
+      "author": "Scripps Institution of Oceanography",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA",
+  "as_of_date": "2024",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.nasa-warming-attribution",
+    "world.ocean-acidification"
+  ],
+  "tags": [
+    "climate",
+    "carbon-dioxide"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "9",
+    "v1_slug": "climate-change",
+    "v1_category": "nature",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.emancipation-1863",
+  "title": "Lincoln's Emancipation Proclamation, 1 January 1863",
+  "section": "world",
+  "category": "history",
+  "summary": "The National Archives dates the proclamation and quotes its limit to areas in rebellion.",
+  "body": "The U.S. National Archives dates the Emancipation Proclamation to 1 January 1863 and says Lincoln announced that all persons held as slaves within the rebellious areas are, and henceforward shall be, free. The Archives page also says the war began, from the North's stated aim, as a war against secession. The proclamation did not by its text free enslaved people in loyal border states. The Thirteenth Amendment is the later constitutional abolition. These are different legal acts. A story that jumps from \"Lincoln freed the slaves\" to a single day flattens both documents.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Emancipation Proclamation (1863)",
+      "url": "https://www.archives.gov/milestone-documents/emancipation-proclamation",
+      "author": "Abraham Lincoln, record held by the U.S. National Archives",
+      "date": "1863-01-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Abraham Lincoln",
+  "as_of_date": "1863-01-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.thirteenth-amendment",
+    "world.uk-slavery-abolition-1833"
+  ],
+  "tags": [
+    "history",
+    "slavery",
+    "united-states"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,39 @@
+{
+  "id": "world.who-vaccination",
+  "title": "WHO: vaccination trains immune memory without the full disease",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO says vaccines build resistance to specific infections by training antibody responses.",
+  "body": "The World Health Organization's page \"Vaccines and immunization: What is vaccination?\" says vaccines train the immune system to create antibodies, as it does when exposed to a disease, but without making the person go through that disease first, and that this is why vaccines prevent illness rather than only treating it afterward. That is WHO's description of the mechanism. It is not a claim that every product called a vaccine has the same effectiveness, duration, or risk. Those are per-product questions.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Vaccines and immunization: What is vaccination?",
+      "url": "https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-what-is-vaccination",
+      "author": "World Health Organization",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.smallpox-programme",
+    "world.immune-innate-adaptive",
+    "world.who-amr"
+  ],
+  "tags": [
+    "medicine",
+    "vaccines"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "14",
+    "v1_slug": "immune-system",
+    "v1_category": "medicine",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

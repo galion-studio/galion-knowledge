@@ -1,0 +1,31 @@
+{
+  "id": "world.rubin-ford-1970",
+  "title": "Rubin and Ford's 1970 Andromeda rotation curve",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "Their Astrophysical Journal paper maps rotation in Andromeda from emission regions.",
+  "body": "Vera C. Rubin and W. Kent Ford, Jr., \"Rotation of the Andromeda Nebula from a Spectroscopic Survey of Emission Regions\" (Astrophysical Journal, 1970), measured how orbital speed in Andromeda changes with radius. Flat outer rotation curves became a major reason astronomers infer extra mass. The paper is one galaxy. It does not identify the mass as a particular particle. CERN's dark-matter page and Milgrom's 1983 alternative are the companion card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Rotation of the Andromeda Nebula from a Spectroscopic Survey of Emission Regions",
+      "url": "https://doi.org/10.1086/150317",
+      "author": "Vera C. Rubin and W. Kent Ford, Jr.",
+      "date": "1970",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Vera C. Rubin and W. Kent Ford, Jr.",
+  "as_of_date": "1970",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.dark-matter-cern"
+  ],
+  "tags": [
+    "astronomy",
+    "dark-matter"
+  ],
+  "read_time_min": 1
+}

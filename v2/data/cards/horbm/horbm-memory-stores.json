@@ -1,0 +1,62 @@
+{
+  "id": "horbm-memory-stores",
+  "title": "Session, episode, and sourced claim are different stores",
+  "section": "horbm",
+  "category": "memory",
+  "summary": "Working memory dies with the call. An episode is written only under remember. A semantic row is a short sourced claim, not a paraphrase and not a portrait. The voice does not speak from the wrong store.",
+  "body": "R3 maps the memory the brain needs onto stores that already have names in the 2026-11-03 plan, without a second database. This card is that opinion, not a claim that the stores are built.\n\nWorking memory is RAM. It starts empty, which matches the XiaoIce paper's description of a session tracker that starts empty, and it is also wiped on withdrawal, which is this repo's rule and is stronger than that paper. It holds the open wants, the last few turns, the entities mentioned this call, the mood point, the consent bits, and whatever the barge-in logic needs. It dies at hang-up unless a specific write was granted.\n\nEpisodic memory is a turn or a short close of a call, on disk only when `remember` was granted, with the consent bits from that moment. Texts they did not ask to keep do not become episodes.\n\nSemantic memory is one short claim plus who said it, the date, a locator, and the episodes it was merged from. R3 says the merge does not write a paraphrase. A row with no user text is world knowledge. A row whose text came from the person is their memory and follows the remember rule.\n\nThe voice has to know which store it is speaking from. \"The note says\" is a semantic card. \"You asked me to remember\" is an episodic grant. \"Earlier in this call\" is the session ring, and it is honest only while the call is alive. After a wipe, none of the three is available for their private text.\n\nTulving's 1972 chapter is the usual name for an episodic versus semantic distinction. It was not opened, and this card does not attribute a definition to it. The three stores above are R3's design.\n\nNothing in this card authorises a model to decide what to page in. The edits are rules.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "R3 — Memory, persona, empathy, and dialogue policy for HORBM",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/65c1249f498beb794a049164b85137014b6a7dd5/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Draft research note on pull request 208. Not merged. Not a lock. Opinions in that note stay opinions here."
+    },
+    {
+      "title": "The Design and Implementation of XiaoIce, an Empathetic Social Chatbot",
+      "url": "https://arxiv.org/abs/1812.08989",
+      "author": "Li Zhou, Jianfeng Gao, Di Li, and Heung-Yeung Shum",
+      "date": "2018-12-21",
+      "accessed": "2026-11-18",
+      "note": "arXiv:1812.08989 PDF opened 2026-11-18. Journal version: Computational Linguistics 46(1), 53-93, 2020, https://doi.org/10.1162/coli_a_00368."
+    },
+    {
+      "title": "LOCKS.toml",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/LOCKS.toml",
+      "author": "Maciej Grajczyk",
+      "date": "2026-11-02",
+      "accessed": "2026-11-18",
+      "note": "Opened 2026-11-18. frame_ms = 80. Consent bits sense, adapt, remember, share, default deny. withdraw_wipes_ram_history = true. prohibited_purposes workplace and education, not overridable. barge_in_max_ms = 200. bands.duplex = full."
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm-remember-when-asked",
+    "horbm-forgetting-and-deletion",
+    "horbm-grounding",
+    "horbm-attribution-gate",
+    "horbm-no-inferred-portrait"
+  ],
+  "tags": [
+    "memory",
+    "episodic",
+    "semantic",
+    "session"
+  ],
+  "read_time_min": 1
+}

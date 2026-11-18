@@ -1,0 +1,44 @@
+{
+  "id": "world.calvin-nobel-1961",
+  "title": "The 1961 Chemistry Nobel cited the carbon path in photosynthesis",
+  "section": "world",
+  "category": "biology",
+  "summary": "Melvin Calvin received the prize for work on carbon dioxide assimilation in plants.",
+  "body": "The Nobel Prize in Chemistry 1961 was awarded to Melvin Calvin. The OpenStax page names the Calvin cycle as the sugar-building stage that uses ATP and NADPH from the light reactions. The prize page is the institutional citation; the textbook is the classroom map. Neither is a claim that the cycle is the only carbon-fixation pathway in all organisms.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Nobel Prize in Chemistry 1961",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1961/summary/",
+      "author": "Nobel Prize Outreach",
+      "date": "1961",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "8.1 Overview of Photosynthesis",
+      "url": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+      "author": "OpenStax Biology 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Nobel Prize Outreach",
+  "as_of_date": "1961",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.photosynthesis-openstax"
+  ],
+  "tags": [
+    "biology",
+    "photosynthesis"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "12",
+    "v1_slug": "photosynthesis",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

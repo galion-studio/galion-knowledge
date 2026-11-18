@@ -1,0 +1,44 @@
+{
+  "id": "world.unsourced-existentialist-quotes",
+  "title": "The v1 existentialist quotations are not verified as verbatim lines",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "'God is dead,' 'existence precedes essence,' and 'condemned to be free' are not copied as checked quotations.",
+  "body": "The v1 article quotes Nietzsche's \"God is dead,\" Sartre's \"existence precedes essence\" and \"condemned to be free,\" and describes bad faith, the absurd, and Beauvoir's The Second Sex. Several of those books are still in copyright. This pass did not open a critical edition to check each sentence. The ideas are flagged, not quoted. Nietzsche and Kierkegaard have SEP entries (R. Lanier Anderson; John Lippitt and C. Stephen Evans) for orientation. Do not retrieve the v1 lines as verified quotations.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Friedrich Nietzsche",
+      "url": "https://plato.stanford.edu/entries/nietzsche/",
+      "author": "R. Lanier Anderson",
+      "date": "2017-03-17",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Søren Kierkegaard",
+      "url": "https://plato.stanford.edu/entries/kierkegaard/",
+      "author": "John Lippitt and C. Stephen Evans",
+      "date": "2023-05-22",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "v1 knowledge article, not verified as quotation",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.existentialism-label"
+  ],
+  "tags": [
+    "philosophy",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "22",
+    "v1_slug": "existentialism",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}
