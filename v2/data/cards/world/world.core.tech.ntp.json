@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.ntp",
+  "title": "NTP is specified as a protocol for synchronizing computer clocks on the Internet",
+  "section": "world",
+  "category": "technology",
+  "summary": "NTP is specified as a protocol for synchronizing computer clocks on the Internet.",
+  "body": "RFC 5905 describes the Network Time Protocol version 4 and says NTP is widely used to synchronize computer clocks in the Internet. The source says: \"Kasch JHU/APL June 2010 Network Time Protocol Version 4: Protocol and Algorithms Specification Abstract The Network Time Protocol (NTP) is widely used to synchronize computer clocks in the Internet.\" Clock synchronization is the protocol's job. The RFC does not say every computer's clock is correct, and it does not say that a timestamp in an application proves when an event happened in the world.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 5905: Network Time Protocol Version 4",
+      "url": "https://www.rfc-editor.org/rfc/rfc5905",
+      "author": "D. Mills and others",
+      "date": "2010-06",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "D. Mills, J. Martin, J. Burbank, and W. Kasch, RFC 5905",
+  "as_of_date": "2010-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "time"
+  ]
+}

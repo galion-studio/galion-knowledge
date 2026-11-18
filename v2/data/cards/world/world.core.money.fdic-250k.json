@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.fdic-250k",
+  "title": "The FDIC says it insures deposits to at least $250,000 per depositor, per ownership category, at each insured bank",
+  "section": "world",
+  "category": "economics",
+  "summary": "The FDIC says it insures deposits to at least $250,000 per depositor, per ownership category, at each insured bank.",
+  "body": "The FDIC says it insures deposits to at least $250,000 per depositor, per ownership category, at each FDIC-insured bank. The source says: \"One way we do this is by insuring deposits to at least $250,000 per depositor, per ownership category at each FDIC-insured bank.\" The limit is stated per depositor, per ownership category, per bank. It is not a single cap on a person's wealth, and it is not a guarantee of non-deposit products.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Understanding Deposit Insurance",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance/index.html",
+      "author": "Federal Deposit Insurance Corporation",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Federal Deposit Insurance Corporation",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.fdic-full-faith",
+    "world.core.money.fdic-not-investments",
+    "world.core.money.fed-reserve-requirements-zero"
+  ],
+  "tags": [
+    "economics",
+    "banking",
+    "insurance"
+  ]
+}

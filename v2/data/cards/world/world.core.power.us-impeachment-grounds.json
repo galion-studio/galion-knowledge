@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-impeachment-grounds",
+  "title": "The 1787 text names treason, bribery, or other high crimes and misdemeanors as impeachment grounds",
+  "section": "world",
+  "category": "law",
+  "summary": "The 1787 text names treason, bribery, or other high crimes and misdemeanors as impeachment grounds.",
+  "body": "The 1787 transcription provides removal from office on impeachment for, and conviction of, treason, bribery, or other high crimes and misdemeanors. The source says: \"The President, Vice President and all civil Officers of the United States, shall be removed from Office on Impeachment for, and Conviction of, Treason, Bribery, or other high Crimes and Misdemeanors.\" The phrase 'other high crimes and misdemeanors' is in the text and is not defined there. This card does not supply a definition from later practice.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Constitution (1787 text, National Archives transcription)",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.money.fomc-two-percent"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "impeachment"
+  ]
+}

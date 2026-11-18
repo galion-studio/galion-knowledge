@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.jp-emperor-symbol",
+  "title": "Japan's constitution makes the Emperor the symbol of the state, with sovereignty in the people",
+  "section": "world",
+  "category": "law",
+  "summary": "Japan's constitution makes the Emperor the symbol of the state, with sovereignty in the people.",
+  "body": "Article 1 says the Emperor shall be the symbol of the state and of the unity of the people, deriving his position from the will of the people, with whom sovereign power resides. The source says: \"The Emperor Name/structure of executive(s) Article 1 The Emperor shall be the symbol of the State and of the unity of the People, deriving his position from the will of the people with whom resides sovereign power.\" The article uses 'symbol' and places sovereign power with the people. It is the English text of the 1946 constitution as compiled.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Japan, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Japan_1946?lang=en",
+      "author": "Constitution of Japan, Constitute Project English text",
+      "date": "1946",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Japan, Article 1",
+  "as_of_date": "1946",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.jp-no-censorship",
+    "world.core.power.jp-courts",
+    "world.core.power.jp-emperor-no-government"
+  ],
+  "tags": [
+    "law",
+    "japan",
+    "constitution"
+  ]
+}

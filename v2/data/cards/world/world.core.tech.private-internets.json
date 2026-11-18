@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.private-internets",
+  "title": "RFC 1918 specifies address allocation for private internets",
+  "section": "world",
+  "category": "technology",
+  "summary": "RFC 1918 specifies address allocation for private internets.",
+  "body": "RFC 1918 is the best-current-practice document titled Address Allocation for Private Internets. It sets aside address space for networks that do not require reachability from the global Internet. The source says: \"February 1996 Address Allocation for Private Internets Status of this Memo This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.\" This card does not print the address blocks. Private address space is a coordination rule so that those networks do not collide with public allocations. It is not a security boundary by itself.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 1918: Address Allocation for Private Internets",
+      "url": "https://www.rfc-editor.org/rfc/rfc1918",
+      "author": "Y. Rekhter, B. Moskowitz, D. Karrenberg, G. J. de Groot, and E. Lear",
+      "date": "1996-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Y. Rekhter and others, RFC 1918",
+  "as_of_date": "1996-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.dns-tree",
+    "world.core.tech.end-to-end-argument"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "addressing"
+  ]
+}

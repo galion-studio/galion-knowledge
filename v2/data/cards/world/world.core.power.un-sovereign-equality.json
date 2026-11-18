@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.un-sovereign-equality",
+  "title": "The UN Charter states the sovereign equality of all members",
+  "section": "world",
+  "category": "law",
+  "summary": "The UN Charter states the sovereign equality of all members.",
+  "body": "Article 2 says the Organization and its members shall act in accordance with stated principles, including the principle of the sovereign equality of all members. The source says: \"The Organization is based on the principle of the sovereign equality of all its Members.\" Sovereign equality is a principle the Charter states. Voting rules in other articles are not identical to equality of votes.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Charter of the United Nations, full text, un.org",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "author": "Charter of the United Nations, full text, un.org",
+      "date": "1945",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Charter of the United Nations, Article 2",
+  "as_of_date": "1945",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.un-article-27",
+    "world.core.power.un-force",
+    "world.core.power.un-article-51"
+  ],
+  "tags": [
+    "law",
+    "united-nations",
+    "sovereignty"
+  ]
+}

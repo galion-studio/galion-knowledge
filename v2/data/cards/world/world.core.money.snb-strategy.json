@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.snb-strategy",
+  "title": "The Swiss National Bank says it ensures price stability while taking account of economic developments, and names three elements of its strategy",
+  "section": "world",
+  "category": "economics",
+  "summary": "The Swiss National Bank says it ensures price stability while taking account of economic developments, and names three elements of its strategy.",
+  "body": "The SNB says it is tasked with ensuring price stability while taking due account of economic developments. It says its strategy has three elements: a definition of price stability, a medium-term inflation forecast, and the SNB policy rate. The source says: \"SNB is tasked with ensuring price stability, while taking due account of economic developments.\" Implementation, on the same page, is by setting the SNB policy rate, seeking to keep secured short-term Swiss-franc money-market rates close to that rate. The card reports the mandate and the three named elements.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Monetary policy, Swiss National Bank",
+      "url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy",
+      "author": "Swiss National Bank",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Swiss National Bank",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.riksbank-cpif",
+    "world.core.money.fomc-two-percent",
+    "world.core.money.two-percent-is-not-one-object"
+  ],
+  "tags": [
+    "economics",
+    "inflation",
+    "switzerland"
+  ]
+}

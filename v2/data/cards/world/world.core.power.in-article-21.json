@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.in-article-21",
+  "title": "India's constitution says no person shall be deprived of life or personal liberty except according to procedure established by law",
+  "section": "world",
+  "category": "law",
+  "summary": "India's constitution says no person shall be deprived of life or personal liberty except according to procedure established by law.",
+  "body": "Article 21 states that deprivation rule. Article 21A, beside it in the compilation, states a right to education. The source says: \"Protection of life and personal liberty No person shall be deprived of his life or personal liberty except according to procedure established by law.\" The phrase 'procedure established by law' is the article's standard. This card does not substitute a different country's due-process formula.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of India, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/India_2016?lang=en",
+      "author": "Constitution of India, Constitute Project English text",
+      "date": "2016",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of India, Article 21",
+  "as_of_date": "2016",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.in-article-14",
+    "world.core.power.in-preamble",
+    "world.core.power.in-article-32"
+  ],
+  "tags": [
+    "law",
+    "india",
+    "liberty"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.rfc1958-e2e",
+  "title": "RFC 1958 records the principle that end-to-end functions are best realised by end-to-end protocols",
+  "section": "world",
+  "category": "technology",
+  "summary": "RFC 1958 records the principle that end-to-end functions are best realised by end-to-end protocols.",
+  "body": "RFC 1958, Architectural Principles of the Internet, says it is generally felt that end-to-end functions can best be realised by end-to-end protocols, and it points to the Saltzer, Reed, and Clark argument. The source says: \"2.3 It is also generally felt that end-to-end functions can best be realised by end-to-end protocols.\" The RFC states a design principle used by the Internet's architects. It is not a theorem that no useful function can sit in the network. The Saltzer paper, opened separately, says a low-level version of a function can still be useful as a performance enhancement.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 1958: Architectural Principles of the Internet",
+      "url": "https://www.rfc-editor.org/rfc/rfc1958",
+      "author": "B. Carpenter, editor",
+      "date": "1996-06",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "B. Carpenter, RFC 1958",
+  "as_of_date": "1996-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "architecture"
+  ]
+}

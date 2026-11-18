@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.fomc-funds-rate",
+  "title": "The FOMC says its primary means of adjusting policy is the target range for the federal funds rate",
+  "section": "world",
+  "category": "economics",
+  "summary": "The FOMC says its primary means of adjusting policy is the target range for the federal funds rate.",
+  "body": "The statement says the Committee's primary means of adjusting the stance of monetary policy is changes in the target range for the federal funds rate, and that it is prepared to use its full range of tools, particularly if the funds rate is constrained by its effective lower bound. The source says: \"The Committee’s primary means of adjusting the stance of monetary policy is through changes in the target range for the federal funds rate.\" The funds-rate target is described as the primary means, not as the only tool the statement contemplates.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Statement on Longer-Run Goals and Monetary Policy Strategy",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/FOMC_LongerRunGoals.pdf",
+      "author": "Federal Open Market Committee",
+      "date": "2026-01-27",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Federal Open Market Committee",
+  "as_of_date": "2026-01-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "economics",
+    "interest-rates",
+    "united-states"
+  ]
+}

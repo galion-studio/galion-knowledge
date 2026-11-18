@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.ca-notwithstanding",
+  "title": "Canada's Charter lets Parliament or a legislature declare that an Act shall operate notwithstanding certain rights sections",
+  "section": "world",
+  "category": "law",
+  "summary": "Canada's Charter lets Parliament or a legislature declare that an Act shall operate notwithstanding certain rights sections.",
+  "body": "Section 33 says Parliament or the legislature of a province may expressly declare that an Act or a provision shall operate notwithstanding a provision included in section 2 or sections 7 to 15 of the Charter. The source says: \"a provision thereof shall operate notwithstanding a provision included in section 2 or sections 7 to 15 of this Charter.\" The override is written into the Charter and is limited to the sections it names. It is not a power to set aside every part of the constitution. The consolidation also states how long a declaration operates.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution Act, 1982, Part I, Canadian Charter of Rights and Freedoms, Justice Laws consolidation",
+      "url": "https://laws-lois.justice.gc.ca/eng/const/page-12.html",
+      "author": "Constitution Act, 1982, Part I, Canadian Charter of Rights and Freedoms, Justice Laws consolidation",
+      "date": "1982",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Canadian Charter of Rights and Freedoms, section 33",
+  "as_of_date": "1982",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ca-limits",
+    "world.core.power.ca-equality",
+    "world.core.power.ca-section-7"
+  ],
+  "tags": [
+    "law",
+    "canada",
+    "notwithstanding"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.ir-elections",
+  "title": "Iran's constitution also says the country's affairs must be administered on the basis of public opinion expressed by elections",
+  "section": "world",
+  "category": "law",
+  "summary": "Iran's constitution also says the country's affairs must be administered on the basis of public opinion expressed by elections.",
+  "body": "Article 6 says the affairs of the country must be administered on the basis of public opinion expressed by elections, including election of the president, of representatives of the Islamic Consultative Assembly, and of members of councils. The source says: \"Article 6 In the Islamic Republic of Iran, the affairs of the country must be administered on the basis of public opinion expressed by the means of elections, including the election of the President, the representatives of the Islamic Consultative Assembly, and the members of councils, or by means of referenda in matters specified in other articles of this Constitution.\" Articles 4, 5, and 6 are all in the same constitution. This card is Article 6. It does not collapse the three articles into one slogan.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Islamic Republic of Iran, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Iran_1989?lang=en",
+      "author": "Constitution of the Islamic Republic of Iran, Constitute Project English text",
+      "date": "1989",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Iran, Article 6",
+  "as_of_date": "1989",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ir-faqih",
+    "world.core.power.ir-form",
+    "world.core.power.ir-islamic-criteria"
+  ],
+  "tags": [
+    "law",
+    "iran",
+    "elections"
+  ]
+}

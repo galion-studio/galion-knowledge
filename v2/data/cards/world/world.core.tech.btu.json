@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.btu",
+  "title": "The EIA publishes Btu conversion factors that estimate heat content",
+  "section": "world",
+  "category": "technology",
+  "summary": "The EIA publishes Btu conversion factors that estimate heat content.",
+  "body": "The U.S. Energy Information Administration publishes British thermal unit conversion factors and says they estimate the heat content of a quantity of energy measured in physical units. The source says: \"The thermal conversion factors in the following tables can be used to estimate the heat content in British thermal units (Btu) of a given amount of energy measured in physical units, such as barrels or cubic feet.\" A conversion factor translates units. It is not a price, and it is not a claim that two fuels are interchangeable in a particular machine.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "British thermal units and conversion factors",
+      "url": "https://www.eia.gov/energyexplained/units-and-calculators/energy-conversion-calculators.php",
+      "author": "U.S. Energy Information Administration",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "U.S. Energy Information Administration",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.grid-transmission",
+    "world.core.tech.energy-forms",
+    "world.core.tech.energy-work"
+  ],
+  "tags": [
+    "technology",
+    "energy",
+    "units"
+  ]
+}

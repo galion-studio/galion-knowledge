@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.sa-property",
+  "title": "The Saudi Basic Law guarantees private property and requires compensation for expropriation in the public interest",
+  "section": "world",
+  "category": "law",
+  "summary": "The Saudi Basic Law guarantees private property and requires compensation for expropriation in the public interest.",
+  "body": "Article 18 says the state guarantees the freedom and inviolability of private property, and that private property is not expropriated except in the public interest with fair compensation. The source says: \"Right to own property , Protection from expropriation Article 18 The State shall guarantee the freedom and inviolability of private property.\" Article 17 says ownership, capital, and labour are private rights that serve a social function in conformity with Islamic sharia. This card is the expropriation rule.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Basic Law of Saudi Arabia, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Saudi_Arabia_2013?lang=en",
+      "author": "Basic Law of Saudi Arabia, Constitute Project English text",
+      "date": "2013",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Basic Law of Saudi Arabia, Article 18",
+  "as_of_date": "2013",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.sa-shoura",
+    "world.core.power.sa-resources",
+    "world.core.power.sa-quran"
+  ],
+  "tags": [
+    "law",
+    "saudi-arabia",
+    "property"
+  ]
+}

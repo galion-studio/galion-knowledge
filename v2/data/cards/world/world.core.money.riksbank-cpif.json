@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.riksbank-cpif",
+  "title": "The Riksbank states an inflation target of 2 percent for the CPIF",
+  "section": "world",
+  "category": "economics",
+  "summary": "The Riksbank states an inflation target of 2 percent for the CPIF.",
+  "body": "The Riksbank states a target rate of increase of 2 percent for the CPIF, the consumer price index with a fixed interest rate. The source says: \"The target is specified as an annual rate of increase of 2 per cent for the CPIF (consumer price index with a fixed interest rate).\" The index is CPIF, not headline CPI without that fixed-interest treatment, and not the Fed's PCE index. The page says the reason for having a target is that stable and predictable inflation is valuable. That reason is the Riksbank's.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The inflation target, Sveriges Riksbank",
+      "url": "https://www.riksbank.se/en-gb/monetary-policy/the-inflation-target/",
+      "author": "Sveriges Riksbank",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Sveriges Riksbank",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.fomc-two-percent",
+    "world.core.money.snb-strategy",
+    "world.core.money.two-percent-is-not-one-object"
+  ],
+  "tags": [
+    "economics",
+    "inflation",
+    "sweden"
+  ]
+}

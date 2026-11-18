@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.boj-two-percent",
+  "title": "The Bank of Japan says it set a 2 percent CPI price-stability target in January 2013",
+  "section": "world",
+  "category": "economics",
+  "summary": "The Bank of Japan says it set a 2 percent CPI price-stability target in January 2013.",
+  "body": "The Bank of Japan says that in January 2013 it set its price-stability target at 2 percent, measured as the year-on-year change in the consumer price index. The source says: \"On this basis, the Bank set the price stability target at 2 percent in terms of the year-on-year rate of change in the consumer price index (CPI) in January 2013, and has made a commitment to achieving this target at the earliest possible time.\" The sentence names the index, the date the Bank gives, and that the commitment is to the earliest possible time. It is not a statement that measured inflation equals 2 percent.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Price Stability Target of 2 Percent, Bank of Japan",
+      "url": "https://www.boj.or.jp/en/mopo/outline/target.htm",
+      "author": "Bank of Japan",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Bank of Japan",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.riksbank-cpif",
+    "world.core.money.fomc-two-percent",
+    "world.core.money.snb-strategy"
+  ],
+  "tags": [
+    "economics",
+    "inflation",
+    "japan"
+  ]
+}

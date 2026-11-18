@@ -1,0 +1,32 @@
+{
+  "id": "world.core.tech.energy-work",
+  "title": "The U.S. Energy Information Administration defines energy as the ability to do work",
+  "section": "world",
+  "category": "technology",
+  "summary": "The U.S. Energy Information Administration defines energy as the ability to do work.",
+  "body": "The EIA says scientists define energy as the ability to do work, and that people change energy from one form to another and then use it to do work. The source says: \"ability to do work Scientists define energy as the ability to do work.\" The sentence is a definition used in the EIA's explainer. It is not a measurement of how much energy a country uses.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What is energy?",
+      "url": "https://www.eia.gov/energyexplained/what-is-energy/",
+      "author": "U.S. Energy Information Administration",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Energy Information Administration",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.grid-transmission",
+    "world.core.tech.btu",
+    "world.core.tech.energy-forms"
+  ],
+  "tags": [
+    "technology",
+    "energy"
+  ]
+}

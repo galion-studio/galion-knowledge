@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.jp-courts",
+  "title": "Japan's constitution vests the whole judicial power in the Supreme Court and inferior courts established by law",
+  "section": "world",
+  "category": "law",
+  "summary": "Japan's constitution vests the whole judicial power in the Supreme Court and inferior courts established by law.",
+  "body": "Article 76 vests the whole judicial power in a Supreme Court and in such inferior courts as are established by law, and says no extraordinary tribunal shall be established, nor shall any organ or agency of the executive be given final judicial power. The source says: \"Judiciary Article 76 Structure of the courts The whole judicial power is vested in a Supreme Court and in such inferior courts as are established by law.\" The ban on extraordinary tribunals and on final judicial power in the executive is part of the article, not a later gloss.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Japan, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Japan_1946?lang=en",
+      "author": "Constitution of Japan, Constitute Project English text",
+      "date": "1946",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Japan, Article 76",
+  "as_of_date": "1946",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.jp-no-censorship",
+    "world.core.power.jp-emperor-no-government",
+    "world.core.power.jp-diet"
+  ],
+  "tags": [
+    "law",
+    "japan",
+    "courts"
+  ]
+}

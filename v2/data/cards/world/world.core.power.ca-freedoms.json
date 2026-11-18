@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.ca-freedoms",
+  "title": "Canada's Charter lists conscience, religion, thought, belief, opinion, expression, peaceful assembly, and association as fundamental freedoms",
+  "section": "world",
+  "category": "law",
+  "summary": "Canada's Charter lists conscience, religion, thought, belief, opinion, expression, peaceful assembly, and association as fundamental freedoms.",
+  "body": "Section 2 says everyone has the fundamental freedoms of conscience and religion; thought, belief, opinion and expression, including freedom of the press and other media of communication; peaceful assembly; and association. The source says: \"Fundamental Freedoms Marginal note: Fundamental freedoms 2 Everyone has the following fundamental freedoms: (a) freedom of conscience and religion; (b) freedom of thought, belief, opinion and expression, including freedom of the press and other media of communication; (c) freedom of peaceful assembly; and (d) freedom of association.\" The list is in section 2. Section 1's limit clause applies to the rights and freedoms set out in the Charter, including these.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution Act, 1982, Part I, Canadian Charter of Rights and Freedoms, Justice Laws consolidation",
+      "url": "https://laws-lois.justice.gc.ca/eng/const/page-12.html",
+      "author": "Constitution Act, 1982, Part I, Canadian Charter of Rights and Freedoms, Justice Laws consolidation",
+      "date": "1982",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Canadian Charter of Rights and Freedoms, section 2",
+  "as_of_date": "1982",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ca-limits",
+    "world.core.power.ca-equality",
+    "world.core.power.ca-section-7"
+  ],
+  "tags": [
+    "law",
+    "canada",
+    "speech"
+  ]
+}

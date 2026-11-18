@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.fr-two-round",
+  "title": "French presidential election text requires an absolute majority, with a runoff of the top two",
+  "section": "world",
+  "category": "law",
+  "summary": "French presidential election text requires an absolute majority, with a runoff of the top two.",
+  "body": "Article 7 says the president is elected by an absolute majority of votes cast, and that if no such majority appears on the first ballot, a second ballot is held between the two candidates who polled the greatest number of votes. The source says: \"Head of state selection ARTICLE 7 The President of the Republic shall be elected by an absolute majority of votes cast.\" The rule is written as an absolute majority of votes cast, not of registered voters. Dates and campaign rules beyond the article are not restated here.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of 4 October 1958, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/France_2008?lang=en",
+      "author": "Constitution of 4 October 1958, Constitute Project English text",
+      "date": "1958",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of France, Article 7",
+  "as_of_date": "1958",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.fr-republic",
+    "world.core.power.fr-commander",
+    "world.core.power.fr-dissolution"
+  ],
+  "tags": [
+    "law",
+    "france",
+    "elections"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.end-to-end-argument",
+  "title": "Saltzer, Reed, and Clark argue that a function can be completely correct only with the knowledge of the application at the ends",
+  "section": "world",
+  "category": "technology",
+  "summary": "Saltzer, Reed, and Clark argue that a function can be completely correct only with the knowledge of the application at the ends.",
+  "body": "Saltzer, Reed, and Clark, in the 1984 paper, state the end-to-end argument: the function in question can completely and correctly be implemented only with the knowledge and help of the application standing at the end points of the communication system. Providing that function as a feature of the communication system itself is therefore not possible. An incomplete version in the network may still be useful as a performance enhancement. The source says: \"ctly be implemented only with the knowledge and help of the application standing at the end points of the communication system.\" The argument is a design principle about where to place a function, illustrated with error recovery, encryption, duplicate suppression, and acknowledgements. It is not a claim that networks should do nothing.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "End-to-End Arguments in System Design",
+      "url": "https://web.mit.edu/saltzer/www/publications/endtoend/endtoend.pdf",
+      "author": "J. H. Saltzer, D. P. Reed, and D. D. Clark",
+      "date": "1984",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "J. H. Saltzer, D. P. Reed, and D. D. Clark",
+  "as_of_date": "1984",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.tls13",
+    "world.core.tech.private-internets",
+    "world.core.tech.dns-tree"
+  ],
+  "tags": [
+    "technology",
+    "internet",
+    "architecture"
+  ]
+}

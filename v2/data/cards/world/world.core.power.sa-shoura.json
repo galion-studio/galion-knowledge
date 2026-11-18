@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.sa-shoura",
+  "title": "The Saudi Basic Law founds government on justice, shoura, and equality according to Islamic sharia",
+  "section": "world",
+  "category": "law",
+  "summary": "The Saudi Basic Law founds government on justice, shoura, and equality according to Islamic sharia.",
+  "body": "Article 8 says the system of government is established on justice, shoura, and equality, in compliance with Islamic sharia. The source says: \"General guarantee of equality , Status of religious law Article 8 The system of government in the Kingdom of Saudi Arabia is established on the foundation of justice, \"Shoura\" and equality in compliance with the Islamic Shari'ah (the revealed law of Islam).\" Shoura is the Basic Law's word, left in the English text. The card does not translate it into a claim that the kingdom is a parliamentary democracy.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Basic Law of Saudi Arabia, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Saudi_Arabia_2013?lang=en",
+      "author": "Basic Law of Saudi Arabia, Constitute Project English text",
+      "date": "2013",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Basic Law of Saudi Arabia, Article 8",
+  "as_of_date": "2013",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.sa-property",
+    "world.core.power.sa-resources",
+    "world.core.power.sa-quran"
+  ],
+  "tags": [
+    "law",
+    "saudi-arabia",
+    "government"
+  ]
+}

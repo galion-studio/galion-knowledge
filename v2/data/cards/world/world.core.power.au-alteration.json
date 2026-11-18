@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.au-alteration",
+  "title": "Australia's constitution says it shall not be altered except in the manner that section sets out",
+  "section": "world",
+  "category": "law",
+  "summary": "Australia's constitution says it shall not be altered except in the manner that section sets out.",
+  "body": "Section 128 says the constitution shall not be altered except in the manner it then states, beginning with a proposed law passed by an absolute majority of each House of the Parliament. The source says: \"Mode of altering the Constitution This Constitution shall not be altered except in the following manner: The proposed law for the alteration thereof must be passed by an absolute majority of each House of the Parliament, and not less than two nor more than six months after its passage through both Houses the proposed law shall be submitted in each State and Territory to the electors qualified to vote for the election of members of the Hous\" The card records the opening rule and the absolute-majority step that the opened text states next. The rest of the manner is in the same section and is not summarized from memory.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Commonwealth of Australia Constitution Act, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Australia_1985?lang=en",
+      "author": "Commonwealth of Australia Constitution Act, Constitute Project English text",
+      "date": "1900",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Australian Constitution, section 128",
+  "as_of_date": "1900",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.au-trade",
+    "world.core.power.au-senate-elected",
+    "world.core.power.au-parliament"
+  ],
+  "tags": [
+    "law",
+    "australia",
+    "amendment"
+  ]
+}

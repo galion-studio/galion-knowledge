@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.in-preamble",
+  "title": "India's preamble, in the compiled text, constitutes a sovereign socialist secular democratic republic",
+  "section": "world",
+  "category": "law",
+  "summary": "India's preamble, in the compiled text, constitutes a sovereign socialist secular democratic republic.",
+  "body": "The preamble in the English compilation says the people of India have constituted the country into a sovereign socialist secular democratic republic, and it lists justice, liberty, equality, and fraternity among the objects. The source says: \"titute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC and to secure to all its citizens: JUSTICE, social, economic and political; Freedom of opinion/thought/conscience LIBERTY of thought, expression, belief, faith and worship; EQUALITY of status and of opportunity; and to promote among them all Human dignity , Reference to fraternity/solidarity FRATERNITY assuring the dignity of the individ\" Socialist and secular are words in the preamble text opened here. This card does not date the amendments that inserted words, because that history was not on the sentence itself.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of India, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/India_2016?lang=en",
+      "author": "Constitution of India, Constitute Project English text",
+      "date": "2016",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of India, Preamble",
+  "as_of_date": "2016",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.in-article-14",
+    "world.core.power.in-article-32",
+    "world.core.power.in-article-21"
+  ],
+  "tags": [
+    "law",
+    "india",
+    "preamble"
+  ]
+}

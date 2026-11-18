@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.ch-english-no-force",
+  "title": "The Constitute Project's English text of the Swiss constitution says that translation has no legal force",
+  "section": "world",
+  "category": "law",
+  "summary": "The Constitute Project's English text of the Swiss constitution says that translation has no legal force.",
+  "body": "The compilation states that English is not an official language of the Swiss Confederation and that the translation is provided for information only and has no legal force. The source says: \"English is not an official language of the Swiss Confederation.\" Any English sentence quoted from this compilation is information, not the authentic text. Cards below that quote Swiss articles are quotes of this translation, under that warning.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Federal Constitution of the Swiss Confederation, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Switzerland_2014?lang=en",
+      "author": "Federal Constitution of the Swiss Confederation, Constitute Project English text",
+      "date": "2014",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitute Project note on the Swiss constitution",
+  "as_of_date": "2014",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.snb-strategy",
+    "world.core.power.ch-neutrality",
+    "world.core.power.ch-initiative"
+  ],
+  "tags": [
+    "law",
+    "switzerland",
+    "language"
+  ]
+}

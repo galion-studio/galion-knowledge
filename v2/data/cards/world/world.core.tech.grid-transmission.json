@@ -1,0 +1,33 @@
+{
+  "id": "world.core.tech.grid-transmission",
+  "title": "The EIA distinguishes high-voltage transmission over long distances from distribution to homes and businesses",
+  "section": "world",
+  "category": "technology",
+  "summary": "The EIA distinguishes high-voltage transmission over long distances from distribution to homes and businesses.",
+  "body": "The EIA says power plants send electricity to customers through transmission and distribution lines. High-voltage transmission lines carry electricity over long distances, because higher voltage is used for those distances. Utilities operate the distribution system that connects homes and businesses. The source says: \"High-voltage transmission lines , such as those hanging between tall metal towers, carry electricity over long distances.\" Generation, transmission, and distribution are three stages in the EIA's account. A power plant's output is not the electricity measured at a household meter until it has passed through that delivery system, with the losses the system has.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Delivery to consumers",
+      "url": "https://www.eia.gov/energyexplained/electricity/delivery-to-consumers.php",
+      "author": "U.S. Energy Information Administration",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Energy Information Administration",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.btu",
+    "world.core.tech.energy-forms",
+    "world.core.tech.energy-work"
+  ],
+  "tags": [
+    "technology",
+    "energy",
+    "grid"
+  ]
+}

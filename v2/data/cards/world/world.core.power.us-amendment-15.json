@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-amendment-15",
+  "title": "The Fifteenth Amendment bars denial of the vote on account of race, color, or previous condition of servitude",
+  "section": "world",
+  "category": "law",
+  "summary": "The Fifteenth Amendment bars denial of the vote on account of race, color, or previous condition of servitude.",
+  "body": "The Fifteenth Amendment says the right of citizens of the United States to vote shall not be denied or abridged by the United States or by any state on account of race, color, or previous condition of servitude. The source says: \"tes or by any State on account of race, color, or previous condition of servitude.\" The grounds named are those three. The amendment also gives Congress power to enforce it by appropriate legislation. It does not, in this sentence, mention sex or age.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the United States of America (Constitute Project English text, 1992 consolidation)",
+      "url": "https://www.constituteproject.org/constitution/United_States_of_America_1992?lang=en",
+      "author": "Constitute Project, from the United States Constitution",
+      "date": "1992",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "United States Constitution, Amendment XV",
+  "as_of_date": "1870",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "voting"
+  ]
+}

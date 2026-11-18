@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-senate-1787-selection",
+  "title": "The 1787 text had state legislatures choose senators",
+  "section": "world",
+  "category": "law",
+  "summary": "The 1787 text had state legislatures choose senators.",
+  "body": "In the 1787 transcription, each state has two senators, chosen by the state legislature, for six-year terms. The source says: \"The Senate of the United States shall be composed of two Senators from each State, chosen by the Legislature thereof, for six Years; and each Senator shall have one Vote.\" This is the original sentence. The transcription page opened here ends at the signatures and does not include the later amendment that changed how senators are chosen. Do not read this card as a description of present election practice.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Constitution (1787 text, National Archives transcription)",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "senate"
+  ]
+}

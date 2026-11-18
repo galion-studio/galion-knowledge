@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-amendment-22",
+  "title": "The Twenty-second Amendment limits election to the presidency to two terms",
+  "section": "world",
+  "category": "law",
+  "summary": "The Twenty-second Amendment limits election to the presidency to two terms.",
+  "body": "The Twenty-second Amendment says no person shall be elected to the office of president more than twice, and it also limits someone who has acted as president for more than two years of another person's term. The source says: \"Head of state term limits Amendment XXII Section 1 No person shall be elected to the office of the President more than twice, and no person who has held the office of President, or acted as President, for more than two years of a term to which some other person was elected President shall be elected to the office of the President more than once.\" The rule is about election to the office. The card quotes the amendment's own limit and does not discuss proposals to repeal it.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the United States of America (Constitute Project English text, 1992 consolidation)",
+      "url": "https://www.constituteproject.org/constitution/United_States_of_America_1992?lang=en",
+      "author": "Constitute Project, from the United States Constitution",
+      "date": "1992",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "United States Constitution, Amendment XXII",
+  "as_of_date": "1951",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "presidency"
+  ]
+}

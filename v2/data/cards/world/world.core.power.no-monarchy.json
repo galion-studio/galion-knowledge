@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.no-monarchy",
+  "title": "Norway's constitution states a limited and hereditary monarchy",
+  "section": "world",
+  "category": "law",
+  "summary": "Norway's constitution states a limited and hereditary monarchy.",
+  "body": "Article 1 says the Kingdom of Norway is a free, independent, indivisible and inalienable realm, and that its form of government is a limited and hereditary monarchy. The source says: \"Its form of government is a limited and hereditary monarchy.\" Article 2 adds that the constitution shall ensure democracy, a state based on the rule of law, and human rights, and it refers to a Christian and humanistic heritage. This card is Article 1's form-of-government sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Norway, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Norway_2014?lang=en",
+      "author": "Constitution of Norway, Constitute Project English text",
+      "date": "2014",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Norway, Article 1",
+  "as_of_date": "2014",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.no-no-confidence",
+    "world.core.power.no-king-religion",
+    "world.core.power.no-rule-of-law"
+  ],
+  "tags": [
+    "law",
+    "norway",
+    "monarchy"
+  ]
+}

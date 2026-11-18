@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.in-article-32",
+  "title": "India's constitution guarantees the right to move the Supreme Court for enforcement of fundamental rights",
+  "section": "world",
+  "category": "law",
+  "summary": "India's constitution guarantees the right to move the Supreme Court for enforcement of fundamental rights.",
+  "body": "Article 32 says the right to move the Supreme Court by appropriate proceedings for the enforcement of the rights conferred by that Part is guaranteed, and that the Supreme Court has power to issue directions, orders, or writs for that enforcement. The source says: \"Remedies for enforcement of rights conferred by this Part The right to move the Supreme Court by appropriate proceedings for the enforcement of the rights conferred by this Part is guaranteed.\" The remedy is written into the constitution, not only into a statute. Which writ fits which case is not decided here.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of India, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/India_2016?lang=en",
+      "author": "Constitution of India, Constitute Project English text",
+      "date": "2016",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of India, Article 32",
+  "as_of_date": "2016",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.in-article-14",
+    "world.core.power.in-preamble",
+    "world.core.power.in-article-21"
+  ],
+  "tags": [
+    "law",
+    "india",
+    "courts"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world.core.power.ke-multiparty",
+  "title": "Kenya's constitution says the Republic is a multi-party democratic state",
+  "section": "world",
+  "category": "law",
+  "summary": "Kenya's constitution says the Republic is a multi-party democratic state.",
+  "body": "The English text says the Republic of Kenya shall be a multi-party democratic state founded on the national values and principles of governance referred to in Article 10. The source says: \"The Republic of Kenya shall be a multi-party democratic State founded on the national values and principles of governance referred to in Article 10.\" Multi-party democracy is stated, and the foundations are cross-referred to Article 10 rather than fully copied into this sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of Kenya, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Kenya_2010?lang=en",
+      "author": "Constitution of Kenya, Constitute Project English text",
+      "date": "2010",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Kenya, Article 4",
+  "as_of_date": "2010",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.ke-devolution",
+    "world.core.power.ru-multiparty"
+  ],
+  "tags": [
+    "law",
+    "kenya",
+    "parties"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-amendment-4",
+  "title": "The Fourth Amendment requires warrants to describe the place and the things or persons",
+  "section": "world",
+  "category": "law",
+  "summary": "The Fourth Amendment requires warrants to describe the place and the things or persons.",
+  "body": "The Fourth Amendment text secures people in their persons, houses, papers, and effects against unreasonable searches and seizures, and says no warrants shall issue but upon probable cause, supported by oath or affirmation, and particularly describing the place to be searched and the persons or things to be seized. The source says: \"apers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.\" The standard written in the text is probable cause plus particular description. How a given search is judged is not in this sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the United States of America (Constitute Project English text, 1992 consolidation)",
+      "url": "https://www.constituteproject.org/constitution/United_States_of_America_1992?lang=en",
+      "author": "Constitute Project, from the United States Constitution",
+      "date": "1992",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "United States Constitution, Amendment IV",
+  "as_of_date": "1791",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "search"
+  ]
+}

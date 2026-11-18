@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.br-belief",
+  "title": "Brazil's constitution says freedom of conscience and of belief is inviolable",
+  "section": "world",
+  "category": "law",
+  "summary": "Brazil's constitution says freedom of conscience and of belief is inviolable.",
+  "body": "The English text says freedom of conscience and of belief is inviolable, assuring free exercise of religious beliefs and protection of places of worship and their rites as the law sets forth. The source says: \"Freedom of religion freedom of conscience and belief is inviolable, assuring free exercise of religious beliefs and guaranteeing, as set forth in law, protection of places of worship and their rites; providing religious assistance at civilian and military establishments for collective confinement is assured, as provided by law; Freedom of opinion/thought/conscience , Freedom of religion no one shall be\" Inviolability and a reference to law for the protection of rites are both in the sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constitution of the Federative Republic of Brazil, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Brazil_2017?lang=en",
+      "author": "Constitution of the Federative Republic of Brazil, Constitute Project English text",
+      "date": "2017",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Brazil",
+  "as_of_date": "2017",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.br-habeas",
+    "world.core.power.br-federative",
+    "world.core.power.no-king-religion"
+  ],
+  "tags": [
+    "law",
+    "brazil",
+    "religion"
+  ]
+}

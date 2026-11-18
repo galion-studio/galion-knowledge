@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.mx-republic",
+  "title": "Mexico's constitution constitutes a representative, democratic, secular, federal republic of free and sovereign states",
+  "section": "world",
+  "category": "law",
+  "summary": "Mexico's constitution constitutes a representative, democratic, secular, federal republic of free and sovereign states.",
+  "body": "The English text says the Mexican people constitute a representative, democratic, secular, federal republic, made up of free and sovereign states in their domestic regime, united in a federation. The source says: \"Type of government envisioned , Separation of church and state Article 40 It is in the will of the Mexican people to constitute into a representative, democratic, secular, federal, Republic, made up by free and sovereign States in everything related to its domestic regime, but united in a federation established according to the principles of this fundamental law.\" Secular and federal are both in the sentence. Indigenous peoples are treated in a further provision of the same constitution.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Political Constitution of the United Mexican States, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Mexico_2015?lang=en",
+      "author": "Political Constitution of the United Mexican States, Constitute Project English text",
+      "date": "2015",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Constitution of Mexico",
+  "as_of_date": "2015",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.mx-indigenous",
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.au-trade"
+  ],
+  "tags": [
+    "law",
+    "mexico",
+    "federalism"
+  ]
+}

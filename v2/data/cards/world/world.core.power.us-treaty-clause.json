@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.us-treaty-clause",
+  "title": "Treaties in the 1787 text require two thirds of senators present",
+  "section": "world",
+  "category": "law",
+  "summary": "Treaties in the 1787 text require two thirds of senators present.",
+  "body": "Article II, Section 2, in the 1787 transcription, gives the president the power to make treaties with the advice and consent of the Senate, if two thirds of the senators present concur, and pairs that with appointment of judges of the Supreme Court and other officers. The source says: \"He shall have Power, by and with the Advice and Consent of the Senate, to make Treaties, provided two thirds of the Senators present concur; and he shall nominate, and by and with the Advice and Consent of the Senate, shall appoint Ambassadors, other public Ministers and Consuls, Judges of the supreme Court, and all other Officers of the United States, whose Appointments are not herein otherwise provided for, and which shall be established by Law: but the Congress may by Law\" The fraction is of senators present, not of the whole membership. The sentence does not say who may end a treaty.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Constitution (1787 text, National Archives transcription)",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.us-states-cannot-coin",
+    "world.core.power.us-amendment-1",
+    "world.core.power.us-impeachment-grounds"
+  ],
+  "tags": [
+    "law",
+    "united-states",
+    "treaties"
+  ]
+}

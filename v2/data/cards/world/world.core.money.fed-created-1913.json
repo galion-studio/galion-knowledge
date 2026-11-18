@@ -1,0 +1,33 @@
+{
+  "id": "world.core.money.fed-created-1913",
+  "title": "The Federal Reserve describes itself as the U.S. central bank created by the Federal Reserve Act of 1913",
+  "section": "world",
+  "category": "economics",
+  "summary": "The Federal Reserve describes itself as the U.S. central bank created by the Federal Reserve Act of 1913.",
+  "body": "The Board's structure page says the Federal Reserve is the U.S. central bank, created by the Federal Reserve Act of 1913 to establish a monetary system that could respond to stresses in the banking system. The source says: \"central bank, created by the Federal Reserve Act of 1913 to establish a monetary system that could respond effectively to stresses in the banking system.\" That is the institution's account of its origin and purpose. It is not a history of every crisis since 1913.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Structure of the Federal Reserve System",
+      "url": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+      "author": "Board of Governors of the Federal Reserve System",
+      "date": "1913",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Board of Governors of the Federal Reserve System",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.money.fed-five-functions",
+    "world.core.money.fed-twelve-banks",
+    "world.core.money.fed-governors-terms"
+  ],
+  "tags": [
+    "economics",
+    "central-banking",
+    "united-states"
+  ]
+}

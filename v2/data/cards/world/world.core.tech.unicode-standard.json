@@ -1,0 +1,30 @@
+{
+  "id": "world.core.tech.unicode-standard",
+  "title": "The Unicode Standard is the character encoding intended for worldwide interchange",
+  "section": "world",
+  "category": "technology",
+  "summary": "The Unicode Standard is the character encoding intended for worldwide interchange.",
+  "body": "The Unicode Consortium says the Unicode Standard is the universal character encoding designed to support the worldwide interchange, processing, and display of written texts. The source says: \"ode Standard is the universal character encoding designed to support the worldwide interchange, processing, and display of the written texts of the diverse languages and technical disciplines of the modern world.\" Unicode assigns characters. UTF-8, specified separately in RFC 3629, is one way to store those characters as bytes. A font is a further thing: it draws a character and does not define it.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Unicode Standard",
+      "url": "https://www.unicode.org/standard/standard.html",
+      "author": "Unicode Consortium",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Unicode Consortium",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.utf8"
+  ],
+  "tags": [
+    "technology",
+    "encoding"
+  ]
+}

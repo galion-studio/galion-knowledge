@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.echr-torture",
+  "title": "The European Convention says no one shall be subjected to torture or to inhuman or degrading treatment or punishment",
+  "section": "world",
+  "category": "law",
+  "summary": "The European Convention says no one shall be subjected to torture or to inhuman or degrading treatment or punishment.",
+  "body": "Article 3 of the Convention states that prohibition in those words. The source says: \"ARTICLE 3 Prohibition of torture No one shall be subjected to torture or to inhuman or degrading treatment or punishment.\" The sentence does not contain a limitations clause of the kind written into some other articles of the same Convention.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Convention for the Protection of Human Rights and Fundamental Freedoms, Council of Europe English text",
+      "url": "https://www.echr.coe.int/documents/d/echr/Convention_ENG",
+      "author": "Convention for the Protection of Human Rights and Fundamental Freedoms, Council of Europe English text",
+      "date": "1950",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "European Convention on Human Rights, Article 3",
+  "as_of_date": "1950",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.echr-fair-hearing",
+    "world.core.power.echr-expression",
+    "world.core.power.echr-private-life"
+  ],
+  "tags": [
+    "law",
+    "echr",
+    "torture"
+  ]
+}

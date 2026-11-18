@@ -1,0 +1,32 @@
+{
+  "id": "world.core.power.icc-crimes",
+  "title": "The Rome Statute limits the Court's jurisdiction to genocide, crimes against humanity, war crimes, and the crime of aggression",
+  "section": "world",
+  "category": "law",
+  "summary": "The Rome Statute limits the Court's jurisdiction to genocide, crimes against humanity, war crimes, and the crime of aggression.",
+  "body": "Article 5 says the Court's jurisdiction is limited to the most serious crimes of concern to the international community as a whole, and lists genocide, crimes against humanity, war crimes, and the crime of aggression. The source says: \"The Court has jurisdiction in accordance with this Statute with respect to the following crimes: (a) The crime of genocide; (b) Crimes against humanity; (c) War crimes; (d) The crime of aggression.\" The list is closed by the article's own terms. A footnote in the consolidated text records that the aggression paragraph was completed by later amendments. This card is the list.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Rome Statute of the International Criminal Court (English PDF, ICC)",
+      "url": "https://www.icc-cpi.int/sites/default/files/2024-05/Rome-Statute-eng.pdf",
+      "author": "Rome Statute of the International Criminal Court (English PDF, ICC)",
+      "date": "1998",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Rome Statute, Article 5",
+  "as_of_date": "1998",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.icc-complementary",
+    "world.core.power.icc-admissibility"
+  ],
+  "tags": [
+    "law",
+    "icc",
+    "crimes"
+  ]
+}

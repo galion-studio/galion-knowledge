@@ -1,0 +1,33 @@
+{
+  "id": "world.core.know.aristotle-reasoning",
+  "title": "Aristotle defines reasoning as a discourse in which certain things being stated, something other than them follows of necessity",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Aristotle defines reasoning as a discourse in which certain things being stated, something other than them follows of necessity.",
+  "body": "In the translation opened here, Aristotle says reasoning rests on certain statements such that they involve necessarily the assertion of something other than what has been stated, through what has been stated. Refutation is reasoning involving the contradictory of the given conclusion. The source says: \"For reasoning rests on certain statements such that they involve necessarily the assertion of something other than what has been stated, through what has been stated: refutation is reasoning involving the contradictory of the given conclusion.\" The definition requires that something else follow of necessity. A resemblance to reasoning is the subject of the rest of the book, which is about refutations that seem to work and do not.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On Sophistical Refutations, Internet Classics Archive",
+      "url": "http://classics.mit.edu/Aristotle/sophist_refut.1.1.html",
+      "author": "Aristotle, translated for the Internet Classics Archive",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Aristotle, Sophistical Refutations, as translated at the Internet Classics Archive",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.know.forallx-sound",
+    "world.core.know.aristotle-names",
+    "world.core.know.aristotle-seven"
+  ],
+  "tags": [
+    "logic",
+    "aristotle",
+    "fallacies"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.core.power.au-parliament",
+  "title": "Australia's constitution vests legislative power in a Federal Parliament of the Queen, a Senate, and a House of Representatives",
+  "section": "world",
+  "category": "law",
+  "summary": "Australia's constitution vests legislative power in a Federal Parliament of the Queen, a Senate, and a House of Representatives.",
+  "body": "Section 1 vests the legislative power of the Commonwealth in a Federal Parliament consisting of the Queen, a Senate, and a House of Representatives. The source says: \"Legislative power The legislative power of the Commonwealth shall be vested in a Federal Parliament, which shall consist of the Queen, a Senate, and a House of Representatives, and which is hereinafter called The Parliament, or The Parliament of the Commonwealth.\" The Queen remains named in the section of the text compiled here. A Governor-General is provided for in the following section as the Queen's representative.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Commonwealth of Australia Constitution Act, Constitute Project English text",
+      "url": "https://www.constituteproject.org/constitution/Australia_1985?lang=en",
+      "author": "Commonwealth of Australia Constitution Act, Constitute Project English text",
+      "date": "1900",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Australian Constitution, section 1",
+  "as_of_date": "1900",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.power.au-trade",
+    "world.core.power.au-senate-elected",
+    "world.core.power.au-alteration"
+  ],
+  "tags": [
+    "law",
+    "australia",
+    "parliament"
+  ]
+}
