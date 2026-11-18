@@ -63,7 +63,29 @@ CREATE VIRTUAL TABLE IF NOT EXISTS items_fts USING fts5(
     source,
     tokenize = 'porter unicode61'
 );
+CREATE TABLE IF NOT EXISTS archive (
+    rowid INTEGER PRIMARY KEY,
+    item_id TEXT NOT NULL,
+    layer TEXT NOT NULL,
+    section TEXT NOT NULL,
+    category TEXT NOT NULL DEFAULT '',
+    title TEXT NOT NULL DEFAULT '',
+    body TEXT NOT NULL,
+    summary TEXT NOT NULL DEFAULT '',
+    claim_type TEXT NOT NULL DEFAULT '',
+    said_by TEXT NOT NULL,
+    source_date TEXT NOT NULL,
+    source TEXT NOT NULL,
+    evidence_strength TEXT NOT NULL DEFAULT '',
+    status TEXT NOT NULL DEFAULT '',
+    reason TEXT NOT NULL,
+    emb BLOB NOT NULL,
+    emb_scale REAL NOT NULL,
+    emb_norm REAL NOT NULL
+);
 "#;
+
+const SCHEMA_VERSION: i32 = 2;
 
 #[derive(Clone, Debug, Serialize, PartialEq)]
 pub struct Hit {
@@ -92,6 +114,19 @@ pub struct DiaryEntry {
     pub source: String,
     pub text: String,
     pub marked: bool,
+}
+
+/// A stored row that consent withdrawal or `forget` moved out of retrieval.
+/// The text is kept. Search does not read this table.
+#[derive(Clone, Debug, Serialize, PartialEq, Eq)]
+pub struct ArchivedRow {
+    pub item_id: String,
+    pub layer: String,
+    pub text: String,
+    pub said_by: String,
+    pub date: String,
+    pub source: String,
+    pub reason: String,
 }
 
 #[derive(Clone, Debug, Serialize, PartialEq, Eq)]
@@ -146,10 +181,10 @@ impl Store {
         conn.pragma_update(None, "synchronous", "NORMAL")?;
         conn.busy_timeout(std::time::Duration::from_millis(2_000))?;
         let version: i32 = conn.pragma_query_value(None, "user_version", |r| r.get(0))?;
-        if version == 0 {
+        if version == 0 || version == 1 {
             conn.execute_batch(SCHEMA)?;
-            conn.pragma_update(None, "user_version", 1)?;
-        } else if version != 1 {
+            conn.pragma_update(None, "user_version", SCHEMA_VERSION)?;
+        } else if version != SCHEMA_VERSION {
             return Err(Error::Invalid(format!(
                 "unsupported memory database version {version}"
             )));
@@ -167,7 +202,7 @@ impl Store {
     pub fn open_in_memory() -> Result<Self> {
         let conn = Connection::open_in_memory()?;
         conn.execute_batch(SCHEMA)?;
-        conn.pragma_update(None, "user_version", 1)?;
+        conn.pragma_update(None, "user_version", SCHEMA_VERSION)?;
         let mut store = Self {
             conn,
             arena: Arena::empty(),
@@ -357,24 +392,18 @@ impl Store {
         Ok(())
     }
 
-    /// Delete one row from the index. Does not touch the JSON card on disk.
+    /// Hide one stored row. The text moves to `archive` and leaves the
+    /// retrieval index. The JSON card on disk is not touched.
     pub fn forget(&mut self, item_id: &str) -> Result<()> {
         let rowid = self.rowid_of(item_id)?;
-        self.in_tx(|store| {
-            store
-                .conn
-                .execute("DELETE FROM items_fts WHERE rowid = ?1", params![rowid])?;
-            store
-                .conn
-                .execute("DELETE FROM items WHERE rowid = ?1", params![rowid])?;
-            Ok(())
-        })?;
+        self.in_tx(|store| store.archive_live_row(rowid, "forget"))?;
         self.reload_arena()?;
         Ok(())
     }
 
-    /// Consent withdrawal: wipe the RAM ring and every episode and diary row.
-    /// Ingested world and HORBM cards stay.
+    /// Consent withdrawal. The RAM ring is cleared. Every episode and diary
+    /// row is hidden in `archive` and leaves retrieval. Ingested world and
+    /// HORBM cards stay searchable. Stored rows are not destroyed.
     pub fn withdraw(&mut self) -> Result<usize> {
         self.ring.clear();
         let ids: Vec<(i64, String)> = {
@@ -387,17 +416,36 @@ impl Store {
         let n = ids.len();
         self.in_tx(|store| {
             for (rowid, _) in &ids {
-                store
-                    .conn
-                    .execute("DELETE FROM items_fts WHERE rowid = ?1", params![rowid])?;
-                store
-                    .conn
-                    .execute("DELETE FROM items WHERE rowid = ?1", params![rowid])?;
+                store.archive_live_row(*rowid, "withdraw")?;
             }
             Ok(())
         })?;
         self.reload_arena()?;
         Ok(n)
+    }
+
+    /// Rows held out of retrieval. Order is archive insertion order.
+    pub fn archive_list(&self) -> Result<Vec<ArchivedRow>> {
+        let mut stmt = self.conn.prepare(
+            "SELECT item_id, layer, body, said_by, source_date, source, reason
+             FROM archive ORDER BY rowid ASC",
+        )?;
+        let rows = stmt.query_map([], |row| {
+            Ok(ArchivedRow {
+                item_id: row.get(0)?,
+                layer: row.get(1)?,
+                text: row.get(2)?,
+                said_by: row.get(3)?,
+                date: row.get(4)?,
+                source: row.get(5)?,
+                reason: row.get(6)?,
+            })
+        })?;
+        let mut out = Vec::new();
+        for row in rows {
+            out.push(row?);
+        }
+        Ok(out)
     }
 
     pub fn search(&self, query: &str) -> Result<SearchResponse> {
@@ -765,6 +813,31 @@ impl Store {
                 Err(err)
             }
         }
+    }
+
+    /// Copy a live row into `archive`, then drop it from FTS and `items`.
+    /// The copy is written first, inside the caller's transaction.
+    fn archive_live_row(&self, rowid: i64, reason: &str) -> Result<()> {
+        let moved = self.conn.execute(
+            "INSERT INTO archive (
+                item_id, layer, section, category, title, body, summary, claim_type,
+                said_by, source_date, source, evidence_strength, status, reason,
+                emb, emb_scale, emb_norm
+             )
+             SELECT item_id, layer, section, category, title, body, summary, claim_type,
+                said_by, source_date, source, evidence_strength, status, ?2,
+                emb, emb_scale, emb_norm
+             FROM items WHERE rowid = ?1",
+            params![rowid, reason],
+        )?;
+        if moved != 1 {
+            return Err(Error::NotFound(format!("row {rowid}")));
+        }
+        self.conn
+            .execute("DELETE FROM items_fts WHERE rowid = ?1", params![rowid])?;
+        self.conn
+            .execute("DELETE FROM items WHERE rowid = ?1", params![rowid])?;
+        Ok(())
     }
 
     fn next_id(&self, prefix: &str) -> Result<String> {

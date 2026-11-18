@@ -86,7 +86,7 @@ fn run() -> Result<(), String> {
         "forget" => {
             if args.iter().any(|a| a == "--withdraw") {
                 let n = store.withdraw().map_err(|e| e.to_string())?;
-                println!("{{\"withdrew\":{n}}}");
+                println!("{{\"withdrew\":{n},\"archived\":{n}}}");
             } else if args.iter().any(|a| a == "--mark") {
                 let id = flag(&args, "--id")?;
                 store.mark(&id).map_err(|e| e.to_string())?;
@@ -94,7 +94,7 @@ fn run() -> Result<(), String> {
             } else {
                 let id = flag(&args, "--id")?;
                 store.forget(&id).map_err(|e| e.to_string())?;
-                println!("{{\"forgot\":\"{id}\"}}");
+                println!("{{\"archived\":\"{id}\"}}");
             }
         }
         "bench" => {
@@ -307,6 +307,8 @@ horbm-memory — HORBM diary and memory
   horbm-memory [--db PATH] bench [--n N] [--queries N]
 
 Default database: ./horbm-memory.sqlite
-Search returns at most 4 hits. Each hit has said_by, date, and source."
+Search returns at most 4 hits. Each hit has said_by, date, and source.
+forget and withdraw archive stored rows. They leave retrieval. The text stays.
+withdraw also clears the RAM ring."
     );
 }

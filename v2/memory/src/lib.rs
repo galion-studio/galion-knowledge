@@ -5,11 +5,13 @@
 //!
 //! Three places a sentence can live:
 //!
-//! - a short-term RAM ring ([`SessionRing`]), gone when the process exits
+//! - a short-term RAM ring ([`SessionRing`]), cleared when the process exits
 //!   or when consent is withdrawn
 //! - an episode row, written only by [`Store::remember`]
 //! - a sourced semantic row, written by ingesting a knowledge card, plus
 //!   the append-only diary
+//! - an archive of stored rows that `forget` or withdrawal hid from retrieval.
+//!   The text stays in the archive. Search does not read it.
 //!
 //! Search mixes SQLite FTS5 BM25 with an exact scan of one int8 vector per
 //! row, fuses the two rankings with reciprocal rank fusion, and returns at
@@ -28,6 +30,6 @@ pub use embed::{simd_lane, HashingEmbedder, EMB_DIM};
 pub use error::{Error, Result};
 pub use session::{SessionRing, Turn};
 pub use store::{
-    DiaryEntry, Hit, IngestReport, SearchResponse, Store, LAYER_DIARY, LAYER_EPISODE,
+    ArchivedRow, DiaryEntry, Hit, IngestReport, SearchResponse, Store, LAYER_DIARY, LAYER_EPISODE,
     LAYER_SEMANTIC, MAX_HITS, RRF_K,
 };

@@ -16,6 +16,7 @@ Three places, matching R3's split of working memory, episodes, and sourced seman
 | Episode | SQLite `layer = episode` | `remember` only. A turn that was not remembered is not on disk. |
 | Semantic row | SQLite `layer = semantic` | `ingest`. One knowledge card, one row. |
 | Diary | SQLite `layer = diary` | `diary add`. Append-only: there is no update command. |
+| Archive | SQLite `archive` | `forget` and `forget --withdraw`. Hidden from retrieval. The text stays. |
 
 A knowledge card whose `section` is `diary` is still a semantic row. It is a published card. The append-only diary is the table the CLI writes.
 
@@ -29,7 +30,7 @@ One search does three things and publishes at most four hits.
 2. **Int8 vector.** Each row has one 256-dimensional vector, symmetric int8, one scale, stored as a blob and scanned from a contiguous in-memory arena. The vector is feature hashing (a token adds a signed count into two buckets), L2-normalised, then quantized. It is not a neural embedding. R1's hot-path class is a static table; this is that shape without vendoring a model. `fastembed` and `candle` are not dependencies. R1 records that `fastembed` pulls `ort`, and `LOCKS.toml` in the voice repo forbids `ort` and `candle` on the shipped voice path. On x86-64 the dot product uses AVX2 when the CPU has it, and a scalar loop otherwise.
 3. **Fusion.** Reciprocal rank fusion, `1/(60+rank)`, across the BM25 list, the vector list, and a token-overlap list of the RAM ring. Cormack, Clarke, and Büttcher, SIGIR 2009, is the method. `k = 60` is the constant the voice V2 plan already used. The score on a hit is the fused score, not a probability.
 
-The ring is included so the current call is searchable before `remember`. A ring hit has `source = "session-ring"`.
+The ring is included so the current call is searchable before `remember`. A ring hit has `source = "session-ring"`. Search reads `items` and the ring. It does not read `archive`.
 
 Every hit carries `said_by`, `date`, and `source`. An empty field is stored and returned as the literal `unknown`, so a missing speaker or date is visible (R2). For a card, the three fields are filled in this order:
 
@@ -59,11 +60,13 @@ Re-ingesting the same `id` replaces the row and clears a mark.
 
 | Command | Effect |
 |---|---|
-| `forget --mark --id ID` | The row stays, including its text, and drops out of FTS and the vector arena. A mark is not a privacy wipe. |
-| `forget --id ID` | The row is deleted from this index. The JSON card on disk is not touched. |
-| `forget --withdraw` | The RAM ring is cleared. Every episode and diary row is deleted. Ingested world and HORBM cards stay. |
+| `forget --mark --id ID` | The row stays in `items`, including its text, and drops out of FTS and the vector arena. A mark is a pause, not an archive. |
+| `forget --id ID` | The row moves into `archive` with reason `forget` and leaves retrieval. The text is kept. The JSON card on disk is not touched. |
+| `forget --withdraw` | The RAM ring is cleared. Every episode and diary row moves into `archive` with reason `withdraw` and leaves retrieval. Ingested world and HORBM cards stay searchable. |
 
-R3's opinion, followed here: withdrawal deletes user text (episodes and the diary) and does not delete world knowledge. Decay over time is not implemented. R3 leaves the decay exponent as an owner knob with `literature = "none"`.
+Owner decision, Mate, 2026-11-18: on consent withdrawal, stored memory rows are hidden and archived. They are not deleted. The RAM ring may still be cleared, because that ring was never stored. R3 had recommended deleting user-text rows. This decision replaces that recommendation for this crate. Decay over time is not implemented. R3 leaves the decay exponent as an owner knob with `literature = "none"`.
+
+Same day, same owner: galion-boot and HORBM CPU-only mode are local-only. No API models. This crate does not call one. The embedder is the local hashing table on this machine, or a future local static table. An API embedding model is out of this stack.
 
 ## CLI
 
@@ -89,7 +92,7 @@ Library entry points are `Store::open`, `ingest_dir`, `search`, `push_turn`, `re
 - It does not prefetch on partial speech. The host can call `search` while the person is still talking. A hit then costs nothing extra at the end of the turn. This process has no ear.
 - It does not rank with a boosted tree, a cross-encoder, or a language model. R2 puts those off the live path. Fusion is reciprocal rank fusion.
 - It does not build a knowledge graph or expand the query with triples. R1's Lane B is a later step.
-- It does not download a model.
+- It does not download a model, and it does not call an API model. CPU-only mode is local-only (Mate, 2026-11-18).
 
 ## Measured latency
 

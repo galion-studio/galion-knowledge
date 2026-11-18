@@ -131,7 +131,7 @@ fn diary_is_append_only_and_ordered() {
 }
 
 #[test]
-fn mark_hides_and_forget_deletes() {
+fn mark_hides_and_forget_archives() {
     let mut store = Store::open_in_memory().unwrap();
     store
         .upsert_card(&card("keep", "alpha stays", "alpha"))
@@ -147,10 +147,18 @@ fn mark_hides_and_forget_deletes() {
     store.forget("keep").unwrap();
     assert!(store.search("alpha").unwrap().hits.is_empty());
     assert!(store.forget("missing").is_err());
+    let archived = store.archive_list().unwrap();
+    assert_eq!(archived.len(), 1);
+    assert_eq!(archived[0].item_id, "keep");
+    assert_eq!(archived[0].text, "alpha");
+    assert_eq!(archived[0].said_by, "Ada Lovelace");
+    assert_eq!(archived[0].date, "1843");
+    assert_eq!(archived[0].reason, "forget");
+    assert!(archived[0].source.contains("example.test"));
 }
 
 #[test]
-fn withdraw_wipes_personal_rows_and_keeps_world_cards() {
+fn withdraw_archives_personal_rows_and_keeps_world_cards() {
     let mut store = Store::open_in_memory().unwrap();
     store
         .upsert_card(&card("world-fact", "gravity pulls", "gravity"))
@@ -174,6 +182,46 @@ fn withdraw_wipes_personal_rows_and_keeps_world_cards() {
     let hits = store.search("gravity").unwrap();
     assert_eq!(hits.hits[0].item_id, "world-fact");
     assert!(store.search("Quill").unwrap().hits.is_empty());
+    let archived = store.archive_list().unwrap();
+    assert_eq!(archived.len(), 2);
+    assert!(archived.iter().all(|row| row.reason == "withdraw"));
+    assert!(archived
+        .iter()
+        .any(|row| row.layer == "episode" && row.text.contains("Quill")));
+    assert!(archived
+        .iter()
+        .any(|row| row.layer == "diary" && row.text.contains("Quill")));
+}
+
+#[test]
+fn archived_row_survives_reopen() {
+    let dir = std::env::temp_dir().join(format!("horbm-archive-{}", std::process::id()));
+    let _ = std::fs::remove_dir_all(&dir);
+    std::fs::create_dir_all(&dir).unwrap();
+    let path = dir.join("memory.sqlite");
+    let id = {
+        let mut store = Store::open(&path).unwrap();
+        let id = store
+            .remember(
+                "keep the word cedar",
+                "the person",
+                "2026-11-18",
+                "conversation",
+            )
+            .unwrap();
+        store.forget(&id).unwrap();
+        assert!(store.search("cedar").unwrap().hits.is_empty());
+        id
+    };
+    let store = Store::open(&path).unwrap();
+    let archived = store.archive_list().unwrap();
+    assert_eq!(archived.len(), 1);
+    assert_eq!(archived[0].item_id, id);
+    assert_eq!(archived[0].text, "keep the word cedar");
+    assert_eq!(archived[0].reason, "forget");
+    assert!(store.search("cedar").unwrap().hits.is_empty());
+    drop(store);
+    let _ = std::fs::remove_dir_all(&dir);
 }
 
 #[test]
