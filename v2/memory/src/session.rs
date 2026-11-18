@@ -50,6 +50,7 @@ impl SessionRing {
         turn
     }
 
+    /// Drop the turns held in this process. They were never stored.
     pub fn clear(&mut self) {
         self.turns.clear();
     }

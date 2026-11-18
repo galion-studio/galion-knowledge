@@ -158,42 +158,6 @@ fn mark_hides_and_forget_archives() {
 }
 
 #[test]
-fn withdraw_archives_personal_rows_and_keeps_world_cards() {
-    let mut store = Store::open_in_memory().unwrap();
-    store
-        .upsert_card(&card("world-fact", "gravity pulls", "gravity"))
-        .unwrap();
-    store
-        .remember(
-            "my dog is named Quill",
-            "the person",
-            "2026-11-18",
-            "conversation",
-        )
-        .unwrap();
-    store
-        .diary_add("today I wrote about Quill", "2026-11-18", "HORBM", "diary")
-        .unwrap();
-    store.push_turn("Quill barked", "the person", "2026-11-18");
-    let n = store.withdraw().unwrap();
-    assert_eq!(n, 2);
-    assert_eq!(store.session_len(), 0);
-    assert!(store.diary_list().unwrap().is_empty());
-    let hits = store.search("gravity").unwrap();
-    assert_eq!(hits.hits[0].item_id, "world-fact");
-    assert!(store.search("Quill").unwrap().hits.is_empty());
-    let archived = store.archive_list().unwrap();
-    assert_eq!(archived.len(), 2);
-    assert!(archived.iter().all(|row| row.reason == "withdraw"));
-    assert!(archived
-        .iter()
-        .any(|row| row.layer == "episode" && row.text.contains("Quill")));
-    assert!(archived
-        .iter()
-        .any(|row| row.layer == "diary" && row.text.contains("Quill")));
-}
-
-#[test]
 fn archived_row_survives_reopen() {
     let dir = std::env::temp_dir().join(format!("horbm-archive-{}", std::process::id()));
     let _ = std::fs::remove_dir_all(&dir);

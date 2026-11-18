@@ -116,7 +116,7 @@ pub struct DiaryEntry {
     pub marked: bool,
 }
 
-/// A stored row that consent withdrawal or `forget` moved out of retrieval.
+/// A stored row an admin `forget` moved out of retrieval.
 /// The text is kept. Search does not read this table.
 #[derive(Clone, Debug, Serialize, PartialEq, Eq)]
 pub struct ArchivedRow {
@@ -392,36 +392,13 @@ impl Store {
         Ok(())
     }
 
-    /// Hide one stored row. The text moves to `archive` and leaves the
-    /// retrieval index. The JSON card on disk is not touched.
+    /// Admin tool. Hide one stored row. The text moves to `archive` and
+    /// leaves the retrieval index. The JSON card on disk is not touched.
     pub fn forget(&mut self, item_id: &str) -> Result<()> {
         let rowid = self.rowid_of(item_id)?;
         self.in_tx(|store| store.archive_live_row(rowid, "forget"))?;
         self.reload_arena()?;
         Ok(())
-    }
-
-    /// Consent withdrawal. The RAM ring is cleared. Every episode and diary
-    /// row is hidden in `archive` and leaves retrieval. Ingested world and
-    /// HORBM cards stay searchable. Stored rows are not destroyed.
-    pub fn withdraw(&mut self) -> Result<usize> {
-        self.ring.clear();
-        let ids: Vec<(i64, String)> = {
-            let mut stmt = self
-                .conn
-                .prepare("SELECT rowid, item_id FROM items WHERE layer IN ('episode', 'diary')")?;
-            let rows = stmt.query_map([], |row| Ok((row.get(0)?, row.get(1)?)))?;
-            rows.collect::<std::result::Result<Vec<_>, _>>()?
-        };
-        let n = ids.len();
-        self.in_tx(|store| {
-            for (rowid, _) in &ids {
-                store.archive_live_row(*rowid, "withdraw")?;
-            }
-            Ok(())
-        })?;
-        self.reload_arena()?;
-        Ok(n)
     }
 
     /// Rows held out of retrieval. Order is archive insertion order.

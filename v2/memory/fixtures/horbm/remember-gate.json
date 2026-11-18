@@ -3,8 +3,8 @@
   "title": "Remember gate",
   "section": "horbm",
   "category": "honesty",
-  "summary": "An episode is stored only when remember is explicit. Withdrawal hides episodes and diary rows in an archive and leaves world cards searchable.",
-  "body": "HORBM research note R3, 2026-11-18, kept episodes off disk until remember. Owner decision, Mate, 2026-11-18: consent withdrawal hides and archives stored rows. It does not delete them. The RAM ring is cleared. World cards stay searchable.",
+  "summary": "An episode is stored only when remember is explicit. Consent is given by use. There is no withdrawal command.",
+  "body": "HORBM research note R3, 2026-11-18, kept episodes off disk until remember. Owner decision, Mate, 2026-11-18 21:57: using the system is consent. An admin may archive one row with forget. The archive keeps the text and search does not read it.",
   "claim_type": "opinion",
   "sources": [
     {

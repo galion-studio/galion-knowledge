@@ -16,7 +16,7 @@ Three places, matching R3's split of working memory, episodes, and sourced seman
 | Episode | SQLite `layer = episode` | `remember` only. A turn that was not remembered is not on disk. |
 | Semantic row | SQLite `layer = semantic` | `ingest`. One knowledge card, one row. |
 | Diary | SQLite `layer = diary` | `diary add`. Append-only: there is no update command. |
-| Archive | SQLite `archive` | `forget` and `forget --withdraw`. Hidden from retrieval. The text stays. |
+| Archive | SQLite `archive` | Admin `forget --id`. Hidden from retrieval. The text stays. |
 
 A knowledge card whose `section` is `diary` is still a semantic row. It is a published card. The append-only diary is the table the CLI writes.
 
@@ -58,13 +58,16 @@ Re-ingesting the same `id` replaces the row and clears a mark.
 
 ## Consent
 
+Consent is given by use; there is no withdrawal command. GDPR erasure requests, if needed, are a separate manual admin path (open question).
+
+`forget --id` and `forget --mark` are admin tools. They are not a withdrawal flow.
+
 | Command | Effect |
 |---|---|
 | `forget --mark --id ID` | The row stays in `items`, including its text, and drops out of FTS and the vector arena. A mark is a pause, not an archive. |
 | `forget --id ID` | The row moves into `archive` with reason `forget` and leaves retrieval. The text is kept. The JSON card on disk is not touched. |
-| `forget --withdraw` | The RAM ring is cleared. Every episode and diary row moves into `archive` with reason `withdraw` and leaves retrieval. Ingested world and HORBM cards stay searchable. |
 
-Owner decision, Mate, 2026-11-18: on consent withdrawal, stored memory rows are hidden and archived. They are not deleted. The RAM ring may still be cleared, because that ring was never stored. R3 had recommended deleting user-text rows. This decision replaces that recommendation for this crate. Decay over time is not implemented. R3 leaves the decay exponent as an owner knob with `literature = "none"`.
+Owner decision, Mate, 2026-11-18: stored rows are archived, never deleted. A later decision the same day, 21:57, removes consent withdrawal. Using the system is consent. R3 had recommended a withdrawal that deletes user-text rows. That path is not in this crate. Decay over time is not implemented. R3 leaves the decay exponent as an owner knob with `literature = "none"`.
 
 Same day, same owner: galion-boot and HORBM CPU-only mode are local-only. No API models. This crate does not call one. The embedder is the local hashing table on this machine, or a future local static table. An API embedding model is out of this stack.
 
@@ -78,13 +81,12 @@ horbm-memory [--db PATH] diary add --text TEXT --date DATE [--said-by WHO] [--so
 horbm-memory [--db PATH] diary list
 horbm-memory [--db PATH] forget --id ID
 horbm-memory [--db PATH] forget --mark --id ID
-horbm-memory [--db PATH] forget --withdraw
 horbm-memory [--db PATH] bench [--n N] [--queries N]
 ```
 
-The default database path is `./horbm-memory.sqlite`. Search prints JSON. `bench` prints the latency report for the fixtures plus `N` synthetic cards.
+`forget --id` and `forget --mark` are admin tools. The default database path is `./horbm-memory.sqlite`. Search prints JSON. `bench` prints the latency report for the fixtures plus `N` synthetic cards.
 
-Library entry points are `Store::open`, `ingest_dir`, `search`, `push_turn`, `remember`, `diary_add`, `diary_list`, `mark`, `forget`, and `withdraw`.
+Library entry points are `Store::open`, `ingest_dir`, `search`, `push_turn`, `remember`, `diary_add`, `diary_list`, `mark`, `forget`, and `archive_list`.
 
 ## What this crate does not do
 
@@ -123,3 +125,4 @@ Debug `cargo test` is not this table. Debug is slower, and the tests do not asse
 5. **Decay.** No strength, no time decay, no simhash merge. R3 wants those as a background job with an owner-set exponent. Not built.
 6. **CJK.** Tokens are alphanumeric runs. A string of CJK with no spaces is one token. `openmind-memory` splits those into n-grams. This crate does not.
 7. **Core pinning.** R1 and R4 disagree with the voice plan about which core runs retrieval, and both say it must not run inside the heartbeat. This crate does not pin a core.
+8. **GDPR erasure.** Consent is given by use; there is no withdrawal command. GDPR erasure requests, if needed, are a separate manual admin path (open question). `forget --id` can archive one known row. It is an admin tool, not that path.

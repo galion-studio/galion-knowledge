@@ -85,8 +85,10 @@ fn run() -> Result<(), String> {
         }
         "forget" => {
             if args.iter().any(|a| a == "--withdraw") {
-                let n = store.withdraw().map_err(|e| e.to_string())?;
-                println!("{{\"withdrew\":{n},\"archived\":{n}}}");
+                return Err(
+                    "there is no withdrawal command. forget --id and forget --mark are admin tools"
+                        .into(),
+                );
             } else if args.iter().any(|a| a == "--mark") {
                 let id = flag(&args, "--id")?;
                 store.mark(&id).map_err(|e| e.to_string())?;
@@ -303,12 +305,11 @@ horbm-memory — HORBM diary and memory
   horbm-memory [--db PATH] diary list
   horbm-memory [--db PATH] forget --id ID
   horbm-memory [--db PATH] forget --mark --id ID
-  horbm-memory [--db PATH] forget --withdraw
   horbm-memory [--db PATH] bench [--n N] [--queries N]
 
 Default database: ./horbm-memory.sqlite
 Search returns at most 4 hits. Each hit has said_by, date, and source.
-forget and withdraw archive stored rows. They leave retrieval. The text stays.
-withdraw also clears the RAM ring."
+forget --id and forget --mark are admin tools. forget --id archives a row.
+The text stays and leaves retrieval. There is no withdrawal command."
     );
 }
