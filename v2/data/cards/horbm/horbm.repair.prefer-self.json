@@ -1,0 +1,27 @@
+{
+  "id": "horbm.repair.prefer-self",
+  "title": "People prefer to repair their own talk",
+  "section": "conversation",
+  "category": "listening-repair",
+  "body": "Schegloff, Jefferson, and Sacks (1977) describe an organization of repair addressed to recurrent problems in speaking, hearing, and understanding. Their abstract states the empirical skew and the preference it is built to produce: self-repair predominates over other-repair. The preference is for the person who produced the trouble to fix it. Someone else initiating repair is the marked case. The body of the 1977 article was not re-opened for this card, so no turn-position inventory is copied from it. The practical consequence that is safe to keep is narrow: do not rush in to rephrase the person's sentence when they are still able to fix it themselves.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The preference for self-correction in the organization of repair in conversation",
+      "url": "https://doi.org/10.1353/lan.1977.0041",
+      "author": "Emanuel A. Schegloff, Gail Jefferson, and Harvey Sacks",
+      "date": "1977",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "supported",
+  "said_by": "Schegloff, Jefferson, and Sacks",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.repair.three-initiators",
+    "horbm.repair.one-question-do-not-invent",
+    "horbm.honesty.i-dont-know"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "horbm.empathy.weight-not-a-line",
+  "title": "Empathy is a weight on the voice, not a sentence",
+  "section": "affect",
+  "category": "empathy",
+  "body": "Galion's empathy note, signed by Maciej Grajczyk: empathy is a weight on the outbound feeling frame, not a sentence and not a new emotion label. The weight e is 0 when there is no caller frame. No consent means no frame, so e is 0. When a frame exists and the derived label is Sad, Tired, Anxious, or Angry, the note gives e as confidence times the clamp of negative valence over 0.6, between 0 and 1. Joy, calm, and a low-confidence frame stay at 0. There is no reply-text table attached to e. The words stay on the matter. The feeling is in how you say them. When e is 0, stay plain. Do not add a sentence whose only job is to sound kind. The sizes of the prosody knobs in that note are marked there as design choices on top of a direction. This card does not copy those sizes. Comfort, in the R3 move list, changes the mood point and this weight. It does not change the subject into a speech about their feelings.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "Empathy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/EMPATHY.md",
+      "author": "Maciej Grajczyk, Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk, Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "HORBM R3: memory, persona, empathy, and dialogue policy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/cursor/horbm-r3-memory-persona-3e32/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "design",
+  "said_by": "Maciej Grajczyk, Empathy note and Galion One",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.empathy.answer-anger",
+    "horbm.empathy.no-scripts",
+    "horbm.emotion.state-is-avd"
+  ]
+}

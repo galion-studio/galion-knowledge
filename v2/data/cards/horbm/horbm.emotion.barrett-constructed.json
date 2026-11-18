@@ -1,0 +1,27 @@
+{
+  "id": "horbm.emotion.barrett-constructed",
+  "title": "Barrett: emotion categories are constructed, not a direct readout",
+  "section": "affect",
+  "category": "emotion-space",
+  "body": "Barrett's theory of constructed emotion, in the account whose DOI record lists an online date of 2016-10-12, says the science of emotion has been using folk-psychological categories to look for a brain basis. The paper's move is to start from the brain: it runs an internal model on past experience, implemented as concepts, and a perception or experience is a prediction that has explained the sensory input and directed action. Categorizing is that process. Emotions, on this account, are constructed categories, not pre-packaged natural kinds waiting in the signal. The DOI page was read. A coordinate system is not stated there, and none is copied here. Constructed emotion and Ekman's basic emotions do not say the same thing about what a feeling is. Both remain in the literature.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The theory of constructed emotion: an active inference account of interoception and categorization",
+      "url": "https://doi.org/10.1093/scan/nsw154",
+      "author": "Lisa Feldman Barrett",
+      "date": "2016",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "supported",
+  "said_by": "Lisa Feldman Barrett",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.emotion.ekman-basic",
+    "horbm.emotion.keep-the-theories-apart",
+    "horbm.emotion.state-is-avd"
+  ]
+}

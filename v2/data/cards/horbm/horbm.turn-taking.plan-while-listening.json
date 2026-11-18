@@ -1,0 +1,27 @@
+{
+  "id": "horbm.turn-taking.plan-while-listening",
+  "title": "The next turn is prepared before the current one ends",
+  "section": "conversation",
+  "category": "turn-taking",
+  "body": "Levinson and Torreira (2015) state the processing puzzle directly. Gaps between turns are on the order of 200 ms, while latencies to encode a new word in language production are over 600 ms. People could not hit the short gap if they waited for the end of the incoming turn and only then began to plan. Recipients project the end of the turn, and production overlaps comprehension, even though the two share processing resources. A voice system that detects an endpoint, and only then starts to decide what to say, is not doing what this timing requires. That last sentence is an application of their puzzle to a system. It is not a measurement from their paper, and it is not a millisecond budget. The CPU budget for a full-duplex turn is another lane.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Timing in turn-taking and its implications for processing models of language",
+      "url": "https://doi.org/10.3389/fpsyg.2015.00731",
+      "author": "Stephen C. Levinson and Francisco Torreira",
+      "date": "2015",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "supported",
+  "said_by": "Levinson and Torreira; the system application is this pack's reading",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.turn-taking.ten-languages",
+    "horbm.turn-taking.duplex-conduct",
+    "horbm.turn-taking.one-at-a-time"
+  ]
+}

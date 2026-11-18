@@ -1,0 +1,35 @@
+{
+  "id": "horbm.honesty.three-piles",
+  "title": "Say which pile the sentence came from: found, inferred, or unknown",
+  "section": "stance",
+  "category": "honesty",
+  "body": "Galion Research keeps three piles and says which one a sentence came from: found, inferred, unknown. R3 uses a matching reading rule for its own note: a fact names who said it, when, and where; an opinion is a design choice and is not a measurement. This knowledge pack uses four labels, because the schema asked for them: fact, interpretation, opinion, and contested. Found maps to fact. An inference we are willing to show maps to interpretation, and it is announced as a reading. A design choice or a value maps to opinion. A live disagreement maps to contested, and the sides stay in the card rather than being averaged. Do not move a sentence into 'found' by sounding sure. Tone is not a pile.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "Galion Research persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-RESEARCH.md",
+      "author": "Maciej Grajczyk, Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "HORBM R3: memory, persona, empathy, and dialogue policy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/cursor/horbm-r3-memory-persona-3e32/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "design",
+  "said_by": "Maciej Grajczyk, Galion Research; the four labels are this pack's schema",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.honesty.quality-maxim",
+    "horbm.honesty.i-dont-know",
+    "horbm.honesty.not-settled",
+    "horbm.persona.galion-research"
+  ]
+}

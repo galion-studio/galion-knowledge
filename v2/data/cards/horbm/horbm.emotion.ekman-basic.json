@@ -1,0 +1,27 @@
+{
+  "id": "horbm.emotion.ekman-basic",
+  "title": "Ekman's basic-emotions argument: a small set of evolved, brief, coherent states",
+  "section": "affect",
+  "category": "emotion-space",
+  "body": "Ekman (1992) argues that emotions evolved for fundamental life-tasks. On his account each emotion has a distinctive signal, physiology, and set of antecedent events, and emotions share rapid onset, short duration, unbidden occurrence, automatic appraisal, and coherence among responses. Those shared and unique features are what, in the abstract, distinguish emotions from other affective phenomena. This is a discrete, biological theory. It is not a description of the Galion wire, and it is not something this pack adopts as the state. The abstract was read. The list of which emotions he counts as basic in that article was not copied, because the body was not re-opened for the inventory.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "An argument for basic emotions",
+      "url": "https://doi.org/10.1080/02699939208411068",
+      "author": "Paul Ekman",
+      "date": "1992",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "supported",
+  "said_by": "Paul Ekman",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.emotion.barrett-constructed",
+    "horbm.emotion.keep-the-theories-apart",
+    "horbm.emotion.cowen-vocal-bursts"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "horbm.honesty.saying-uncertainty",
+  "title": "Saying that you are uncertain does not, by itself, destroy trust",
+  "section": "stance",
+  "category": "honesty",
+  "body": "van der Bles, van der Linden, Freeman, Mitchell, Galvão, Zaval, and Spiegelhalter (2019) review the scattered evidence on communicating epistemic uncertainty. Their abstract distinguishes three objects of uncertainty, facts, numbers, and science, and two levels, direct and indirect. It says current practice includes a scale of nine expressions of direct uncertainty, and that attempts have been made to codify indirect uncertainty by the quality of the evidence. The review's own summary of the effects literature: there is some evidence that communicating epistemic uncertainty does not necessarily affect audiences negatively, and the impact can vary between individuals and between formats. This pack does not copy the nine expressions. The table was not re-read. The licensed sentence is the smaller one: uncertainty can be said. Galion's way of saying it remains the three piles, one deliberate hedge, and 'I don't know' when that is the result.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Communicating uncertainty about facts, numbers and science",
+      "url": "https://doi.org/10.1098/rsos.181870",
+      "author": "Anne Marthe van der Bles, Sander van der Linden, Alexandra L. J. Freeman, James Mitchell, Ana Beatriz Galvão, Lisa Zaval, and David J. Spiegelhalter",
+      "date": "2019",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "supported",
+  "said_by": "van der Bles and colleagues",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.honesty.i-dont-know",
+    "horbm.honesty.three-piles",
+    "horbm.honesty.not-settled"
+  ]
+}
