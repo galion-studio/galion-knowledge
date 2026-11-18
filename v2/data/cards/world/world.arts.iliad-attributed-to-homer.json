@@ -18,7 +18,7 @@
   "evidence_strength": "weak",
   "said_by": "Traditional attribution, as presented on Wikisource",
   "as_of_date": "2026-11-18",
-  "status": "partially_sourced",
+  "status": "sourced - needs review",
   "contested_views": [
     {
       "label": "The Iliad is the work of one poet, Homer.",
@@ -35,5 +35,14 @@
     "world.arts.shakespeare-first-folio-1623",
     "world.history.pericles-funeral-oration"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "status",
+      "from": "partially_sourced",
+      "to": "sourced - needs review",
+      "note": "Status label partially_sourced is outside the review labels in SCHEMA.md. Set to sourced - needs review. Sources were not changed."
+    }
+  ]
 }

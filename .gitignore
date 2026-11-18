@@ -2,5 +2,9 @@ node_modules/
 .next/
 .env.local
 *.log
+v2/memory/target/
 v2/node_modules/
 v2/_site/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm

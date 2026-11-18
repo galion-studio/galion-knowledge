@@ -44,7 +44,7 @@
     }
   ],
   "evidence_strength": "strong",
-  "said_by": "",
+  "said_by": "J. R. Oppenheimer and H. Snyder; S. W. Hawking; B. P. Abbott and the LIGO Scientific Collaboration and Virgo Collaboration; The Event Horizon Telescope Collaboration",
   "as_of_date": "2026-11-18",
   "status": "sourced",
   "contested_views": [
@@ -74,5 +74,14 @@
     "world.science.theory-of-relativity",
     "world.science.entropy"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "said_by",
+      "from": "",
+      "to": "J. R. Oppenheimer and H. Snyder; S. W. Hawking; B. P. Abbott and the LIGO Scientific Collaboration and Virgo Collaboration; The Event Horizon Telescope Collaboration",
+      "note": "said_by was empty. Filled from the author fields already on the sources. No name was added that was not already on the card."
+    }
+  ]
 }

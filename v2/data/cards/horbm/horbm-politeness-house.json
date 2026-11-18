@@ -40,7 +40,7 @@
       "note": "Opened 2026-11-18. Empathy is a weight e, not a sentence and not a new emotion label."
     }
   ],
-  "evidence_strength": "strong",
+  "evidence_strength": "weak",
   "said_by": "Maciej Grajczyk",
   "as_of_date": "2026",
   "status": "draft",
@@ -57,5 +57,14 @@
     "house-rule",
     "questions"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "Truth gate ceiling. The attached sources support weak, not strong. Best source class on this card: house. No source was added or removed."
+    }
+  ]
 }

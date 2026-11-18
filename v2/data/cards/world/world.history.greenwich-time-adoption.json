@@ -15,13 +15,36 @@
       "accessed": "2026-11-18"
     }
   ],
-  "evidence_strength": "strong",
-  "said_by": "",
+  "evidence_strength": "moderate",
+  "said_by": "The Greenwich Meridian",
   "as_of_date": "2026-11-18",
-  "status": "sourced",
+  "status": "sourced - needs review",
   "contested_views": [],
   "related": [
     "world.geography.prime-meridian-1884"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "moderate",
+      "note": "Truth gate ceiling. The attached sources support moderate, not strong. Best source class on this card: scholarly_secondary. No source was added or removed."
+    },
+    {
+      "date": "2026-11-18",
+      "change": "status",
+      "from": "sourced",
+      "to": "sourced - needs review",
+      "note": "Evidence was lowered, so status moved from sourced to sourced - needs review."
+    },
+    {
+      "date": "2026-11-18",
+      "change": "said_by",
+      "from": "",
+      "to": "The Greenwich Meridian",
+      "note": "said_by was empty. Filled from the author fields already on the sources. No name was added that was not already on the card."
+    }
+  ]
 }
