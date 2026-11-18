@@ -1,0 +1,40 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "medicine-clinical",
+  "title": "Clinical medicine",
+  "scope": "Disease descriptions, diagnostic criteria, and clinical guidelines beyond first aid. Not a formulary and not a procedure for making a drug.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "medicine-clinical",
+  "priority": "high",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "Guidelines are long, they are revised on a schedule, and they differ by country. The always-on pack cannot be a clinic.",
+  "keywords": [
+    "diagnosis",
+    "guideline",
+    "disease",
+    "clinical",
+    "nice",
+    "who guideline"
+  ],
+  "primary_sources": [
+    {
+      "title": "WHO guidelines",
+      "url": "https://www.who.int/publications/who-guidelines",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "NICE guidance",
+      "url": "https://www.nice.org.uk/guidance",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

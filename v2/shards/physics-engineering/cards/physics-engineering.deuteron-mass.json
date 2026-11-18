@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.deuteron-mass",
+  "title": "CODATA 2022: the deuteron mass is 3.343 583 7768 × 10⁻²⁷ kg",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "In u, 2.013 553 212 544. The energy equivalent is 1875.612 945 00 MeV.",
+  "body": "The NIST 2022 listing prints 'deuteron mass 3.343 583 7768 e-27' kg, standard uncertainty '0.000 000 0010 e-27' kg. 'deuteron mass in u 2.013 553 212 544', standard uncertainty '0.000 000 000 015' u. 'deuteron mass energy equivalent in MeV 1875.612 945 00', standard uncertainty '0.000 000 58' MeV. The deuteron-proton mass ratio on the same listing is 1.999 007 501 2699 with standard uncertainty 0.000 000 000 0084.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.proton-mass",
+    "physics-engineering.neutron-mass"
+  ],
+  "tags": [
+    "physics-engineering",
+    "particle"
+  ]
+}

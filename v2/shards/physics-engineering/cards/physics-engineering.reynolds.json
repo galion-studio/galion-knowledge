@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.reynolds",
+  "title": "NASA Glenn: Reynolds number is inertial force over viscous force",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "With kinematic viscosity, the page writes Re = V L / ν, and ν = μ / ρ. High Re can be treated with the Euler equations. Low Re, on the order of 100, means viscosity has to be kept.",
+  "body": "NASA Glenn's Reynolds-number page, opened 2026-11-18, says the Reynolds number expresses the ratio of inertial forces to viscous forces. From the momentum equation, it characterises inertial forces by density times velocity times the velocity gradient, and viscous forces by the dynamic viscosity times the second gradient of velocity. It then simplifies, using the kinematic viscosity ν equal to the dynamic viscosity divided by the density, to Re = V · L / ν. The page says the Reynolds number is dimensionless. High values mean the viscous forces can be dropped and the Euler equations can model the flow. Low values, on the order of 100, mean viscous forces must be considered. The page's own spelling 'euqal' is a typo on the page; the relation it states is kinematic viscosity equal to dynamic viscosity divided by density. A Reynolds number per foot, which the page also mentions, is not dimensionless.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Reynolds Number",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/reynolds.html",
+      "author": "NASA Glenn Research Center",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA Glenn Research Center",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.mach",
+    "physics-engineering.bernoulli"
+  ],
+  "tags": [
+    "physics-engineering",
+    "fluids"
+  ]
+}

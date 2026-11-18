@@ -1,0 +1,41 @@
+{
+  "id": "physics-engineering.vacuum-permeability",
+  "title": "CODATA 2022 does not mark the vacuum magnetic permeability as exact",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "NIST gives μ₀ as 1.256 637 061 27 × 10⁻⁶ N A⁻², standard uncertainty 0.000 000 000 20 × 10⁻⁶. The relative standard uncertainty is 1.6 × 10⁻¹⁰.",
+  "body": "The NIST page 'CODATA Value: vacuum magnetic permeability', for the 2022 recommended values, opened 2026-11-18, prints the numerical value 1.256 637 061 27 × 10⁻⁶ N A⁻². The standard uncertainty is 0.000 000 000 20 × 10⁻⁶ N A⁻². The relative standard uncertainty is 1.6 × 10⁻¹⁰. The concise form on the page is 1.256 637 061 27(20) × 10⁻⁶ N A⁻². The page does not mark the value exact.\n\nBIPM's list of seven defining constants does not include the vacuum magnetic permeability. This card does not reconstruct what μ₀ was before 20 May 2019, because that earlier exact status was not on the pages opened for this card. What those pages do show is that, in the 2022 adjustment, μ₀ carries a stated uncertainty.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "CODATA Value: vacuum magnetic permeability",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?mu0",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Value page opened 2026-11-18."
+    },
+    {
+      "title": "The International System of Units (SI): Defining constants",
+      "url": "https://www.bipm.org/en/measurement-units/si-defining-constants",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2018",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. BIPM dates the fixed values to the revision that took effect on 20 May 2019 and cites CGPM Resolution 1 (2018)."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.vacuum-permittivity",
+    "physics-engineering.si-seven-constants",
+    "physics-engineering.impedance-of-vacuum"
+  ],
+  "tags": [
+    "physics-engineering",
+    "electromagnetism"
+  ]
+}

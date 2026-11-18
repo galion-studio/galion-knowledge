@@ -1,0 +1,31 @@
+{
+  "id": "physics-engineering.bohr-magneton",
+  "title": "CODATA 2022: the Bohr magneton is 9.274 010 0657 × 10⁻²⁴ J/T",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 000 0029 × 10⁻²⁴ J/T.",
+  "body": "The NIST 2022 listing prints 'Bohr magneton 9.274 010 0657 e-24' with standard uncertainty '0.000 000 0029 e-24', unit J T⁻¹. This is the listing's value. A rounded '9.27 × 10⁻²⁴' drops digits the table actually prints.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are from lines printed in full."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.electron-g-factor"
+  ],
+  "tags": [
+    "physics-engineering",
+    "magnetism"
+  ]
+}

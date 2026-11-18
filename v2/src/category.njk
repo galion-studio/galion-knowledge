@@ -1,6 +1,6 @@
 {% from "icon.njk" import icon with context %}
 {% from "tile.njk" import tile with context %}
-{% set items = cards | inCategory(category.id) %}
+{% set items = library | inCategory(category.id) %}
 <header class="subhead">
   <div class="subhead-inner">
     <div class="subhead-left">

@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.un-charter-equality",
+  "title": "UN Charter Article 2: the Organisation is based on the sovereign equality of its members",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "Article 2 opens with sovereign equality. A later paragraph says the Charter does not authorise intervention in matters essentially within a state's domestic jurisdiction, with an exception for enforcement measures.",
+  "body": "The United Nations full-text page of the Charter gives Article 2. The Organisation and its members, in pursuit of the purposes in Article 1, shall act in accordance with the principles that follow. The first of those printed in the extract used here: the Organisation is based on the principle of the sovereign equality of all its members. A later paragraph of the same article says nothing in the Charter shall authorise the United Nations to intervene in matters which are essentially within the domestic jurisdiction of any state, or require the members to submit such matters to settlement under the Charter, but this principle shall not prejudice the application of enforcement measures under Chapter VII. The page as extracted spells that chapter 'Vll' in one place. The reference is Chapter VII. Sovereign equality and the domestic-jurisdiction limit are both in Article 2. One without the other is not the article.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "United Nations Charter (full text)",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "author": "United Nations",
+      "date": "1945",
+      "accessed": "2026-11-18",
+      "note": "Full text page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United Nations",
+  "as_of_date": "1945",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.un-charter-force",
+    "history-primary-documents.un-charter-article-51"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-nations"
+  ]
+}

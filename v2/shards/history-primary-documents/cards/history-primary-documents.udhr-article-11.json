@@ -1,0 +1,31 @@
+{
+  "id": "history-primary-documents.udhr-article-11",
+  "title": "Universal Declaration, Article 11: the presumption of innocence, and no retroactive criminal liability or heavier penalty",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The United Nations text of Article 11, from the declaration proclaimed on 10 December 1948.",
+  "body": "The United Nations page of the Universal Declaration of Human Rights gives Article 11. In short: Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which they have had the guarantees necessary for their defence. No one shall be held guilty of a penal offence for an act or omission that was not a penal offence, under national or international law, at the time it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time. The core pack records the proclamation and Article 1. This card is Article 11. The declaration is what the General Assembly proclaimed as a common standard. The UN page opened here does not describe it as a treaty that states ratify.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Universal Declaration of Human Rights",
+      "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+      "author": "United Nations General Assembly",
+      "date": "1948-12-10",
+      "accessed": "2026-11-18",
+      "note": "Text page opened 2026-11-18. Resolution 217 A, proclaimed in Paris on 10 December 1948."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United Nations General Assembly",
+  "as_of_date": "1948-12-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.udhr-article-29"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "human-rights"
+  ]
+}

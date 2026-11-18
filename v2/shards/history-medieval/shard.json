@@ -1,0 +1,43 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "history-medieval",
+  "title": "History, medieval",
+  "scope": "Roughly the centuries between late antiquity and the sixteenth century, from charters and chronicles.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "history-medieval",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The period is large and the core already has the few documents it always needs, such as the charter tradition behind Magna Carta.",
+  "keywords": [
+    "medieval",
+    "caliphate",
+    "song dynasty",
+    "chronicle"
+  ],
+  "primary_sources": [
+    {
+      "title": "The National Archives (UK)",
+      "url": "https://www.nationalarchives.gov.uk/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Bibliothèque nationale de France",
+      "url": "https://www.bnf.fr/fr",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Avalon Project",
+      "url": "https://avalon.law.yale.edu/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "history-primary-documents.emancipation-limit",
+  "title": "The Emancipation Proclamation frees enslaved people in places the proclamation names as in rebellion",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "Lincoln's 1 January 1863 text frees people held as slaves in designated states and parts of states then in rebellion. It names exceptions, including New Orleans and the forty-eight counties designated as West Virginia.",
+  "body": "The National Archives milestone page prints the proclamation of 1 January 1863. The operative sentence, from the preliminary proclamation quoted on the page and then carried into the final text, declares that all persons held as slaves within any state or designated part of a state, the people whereof shall then be in rebellion against the United States, shall be then, thenceforward, and forever free. The final text designates the places then in rebellion: Arkansas, Texas, Louisiana except named parishes including the city of New Orleans, Mississippi, Alabama, Florida, Georgia, South Carolina, North Carolina, and Virginia except the forty-eight counties designated as West Virginia and also named counties including Norfolk and Portsmouth. The page says the excepted parts are, for the present, left precisely as if the proclamation were not issued. Lincoln signs as commander in chief, and calls the act a fit and necessary war measure for suppressing the rebellion. The Archives' essay on the same page says the proclamation did not end slavery in the nation. The Thirteenth Amendment is a later text.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Emancipation Proclamation (1863)",
+      "url": "https://www.archives.gov/milestone-documents/emancipation-proclamation",
+      "author": "U.S. National Archives",
+      "date": "1863-01-01",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Abraham Lincoln",
+  "as_of_date": "1863-01-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.thirteenth-text",
+    "history-primary-documents.constitution-three-fifths"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states",
+    "slavery"
+  ]
+}

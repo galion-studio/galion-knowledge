@@ -1,0 +1,40 @@
+{
+  "id": "history-primary-documents.japan-article-9",
+  "title": "Japan's 1946 Constitution, Article 9, renounces war and says war potential will not be maintained",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The people forever renounce war as a sovereign right and the threat or use of force as a means of settling disputes. Land, sea, and air forces, and other war potential, will never be maintained. The right of belligerency will not be recognised.",
+  "body": "The English text of the Constitution of Japan of 1946, on the Constitute Project page opened 2026-11-18, gives Article 9 in two paragraphs. 'Aspiring sincerely to an international peace based on justice and order, the Japanese people forever renounce war as a sovereign right of the nation and the threat or use of force as means of settling international disputes.' 'In order to accomplish the aim of the preceding paragraph, land, sea, and air forces, as well as other war potential, will never be maintained. The right of belligerency of the state will not be recognized.' The preamble on the same page says sovereign power resides with the people, that government is a sacred trust of the people, that authority is derived from the people, and that the people reject and revoke all constitutions, laws, ordinances, and rescripts in conflict with this constitution. Whether later legislation is compatible with Article 9 is a dispute. No Japanese government page stating a position on the Self-Defense Forces was opened for this card, so that position is not written in. The article's two paragraphs are.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Japan 1946 Constitution",
+      "url": "https://www.constituteproject.org/constitution/Japan_1946",
+      "author": "Constitute Project, English text of the Constitution of Japan",
+      "date": "1946",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The constitution's own text is what is quoted. A government statement on later forces was not opened."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "The Constitution of Japan, 1946",
+  "as_of_date": "1946",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.un-charter-force"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "japan"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

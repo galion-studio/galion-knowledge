@@ -1,0 +1,41 @@
+{
+  "id": "first-aid.primary-survey",
+  "title": "St John Ambulance's primary survey is DR ABCDE",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "The primary survey page says to look, in order, for danger, response, airway, breathing, circulation, disability, and exposure.",
+  "body": "St John Ambulance's primary-survey page, clinically reviewed on the page as 18 September 2026 by Dr Lynn Thomas, says the primary survey is a way to find life-threatening conditions in order of priority. The order it prints is DR ABCDE: danger, response, airway, breathing, circulation, disability, and exposure. On danger, it says to make sure the area is safe before approaching. On response, it says to introduce yourself, ask questions, kneel next to the chest, gently shake the shoulders, and ask whether the person is OK and can open their eyes. The page is a teaching order for that charity's first aid. It is not a claim that every emergency service uses the same letters.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How to do the primary survey (DR ABCDE)",
+      "url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "author": "St John Ambulance",
+      "date": "2026-09-18",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Dr Lynn Thomas, St John Ambulance",
+  "as_of_date": "2026-09-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.cpr-adult",
+    "first-aid.recovery-position"
+  ],
+  "tags": [
+    "first-aid",
+    "primary-survey"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

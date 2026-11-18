@@ -1,0 +1,40 @@
+{
+  "id": "physics-engineering.newton-examples",
+  "title": "NASA Glenn's examples of the third law are a wing and a jet engine",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The page says a wing deflects air downward and the air pushes the wing upward, and that a jet's exhaust goes back while the thrust goes forward.",
+  "body": "On the same Newton's-laws page, NASA Glenn gives two aerodynamic examples of the third law. For lift: the air is deflected downward by the airfoil's action, and in reaction the wing is pushed upward. For a jet engine: hot exhaust gases flow out the back, and a thrusting force is produced in the opposite direction. These are the page's illustrations of 'equal and opposite', not a full derivation of lift. The Bernoulli page is a different account of pressure and speed along a streamline. The two pages were both opened. This shard does not merge them into one mechanism.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Newton's Laws of Motion",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-laws-of-motion/",
+      "author": "NASA Glenn Research Center",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    },
+    {
+      "title": "Bernoulli's Equation",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/bern.html",
+      "author": "NASA Glenn Research Center",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Opened the same day. A different page, about pressure and speed."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA Glenn Research Center",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.newton-three-laws",
+    "physics-engineering.bernoulli"
+  ],
+  "tags": [
+    "physics-engineering",
+    "flight"
+  ]
+}

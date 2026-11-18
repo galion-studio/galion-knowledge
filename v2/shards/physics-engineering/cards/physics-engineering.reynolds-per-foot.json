@@ -1,0 +1,31 @@
+{
+  "id": "physics-engineering.reynolds-per-foot",
+  "title": "NASA Glenn: Reynolds number per foot is not dimensionless",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The Reynolds number itself is dimensionless. Dividing by the length scale produces a Reynolds number per foot, which the page says is obviously not dimensionless.",
+  "body": "NASA Glenn's Reynolds-number page says the Reynolds number is a dimensionless number. It then says that for some problems one can divide the Reynolds number by the length scale to obtain the Reynolds number per foot. The page says the Reynolds number per foot, or per metre, is obviously not a non-dimensional number like the Reynolds number. A quoted 'Reynolds number' that is secretly per foot is a different quantity. The page says so.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Reynolds Number",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/reynolds.html",
+      "author": "NASA Glenn Research Center",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA Glenn Research Center",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.reynolds"
+  ],
+  "tags": [
+    "physics-engineering",
+    "fluids"
+  ]
+}

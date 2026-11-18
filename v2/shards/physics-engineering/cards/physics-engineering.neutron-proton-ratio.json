@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.neutron-proton-ratio",
+  "title": "CODATA 2022: the neutron-proton mass ratio is 1.001 378 419 46",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 000 000 40. The neutron is heavier than the proton by this factor in the listing.",
+  "body": "The NIST 2022 listing prints 'neutron-proton mass ratio 1.001 378 419 46' with standard uncertainty '0.000 000 000 40'. The ratio is slightly above 1. The separate mass lines for the neutron and the proton are consistent with that direction: the neutron's mass in kilograms, as printed, is larger.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are from lines printed in full."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.neutron-mass",
+    "physics-engineering.proton-mass"
+  ],
+  "tags": [
+    "physics-engineering",
+    "particle"
+  ]
+}

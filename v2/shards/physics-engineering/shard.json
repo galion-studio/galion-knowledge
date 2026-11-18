@@ -1,0 +1,48 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "physics-engineering",
+  "title": "Physics and engineering",
+  "scope": "Defined constants, CODATA values with their uncertainties, and the conditions NASA Glenn states on the working equations. A number marked exact in a table is not reported as a measurement, and a truncated listing is not completed from memory.",
+  "version": "1",
+  "card_count": 51,
+  "sha256": "01c00bf1fcd7677930936d8340ee60e0a6707919bc1d75bb77ce67b9a2897e5c",
+  "bytes": 90341,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "physics-engineering",
+  "priority": "high",
+  "status": "seeded",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The core states a few laws and that the speed of light is exact. The digits, the uncertainties, and the assumptions on F = ma, Bernoulli, Mach, and Reynolds are the depth.",
+  "keywords": [
+    "si",
+    "codata",
+    "newton",
+    "ohm",
+    "reynolds",
+    "mach",
+    "entropy",
+    "planck",
+    "gravity"
+  ],
+  "primary_sources": [
+    {
+      "title": "CODATA constants, NIST",
+      "url": "https://physics.nist.gov/cuu/Constants/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "The SI, BIPM",
+      "url": "https://www.bipm.org/en/measurement-units",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Beginner's Guide to Aeronautics, NASA Glenn",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

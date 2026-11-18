@@ -1,0 +1,40 @@
+{
+  "id": "first-aid.eye",
+  "title": "St John Ambulance: do not remove a large object from the eye",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "A wound, an embedded object, or a chemical splash is a 999 call or an eye casualty department. Cover the eye. For a minor speck, do not rub, and rinse from the inner corner.",
+  "body": "St John Ambulance's eye-injury page says that for a major injury, a wound, an embedded object, or a chemical splash, call 999 or 112 or go to an emergency department or an eye casualty department. Cover the injured eye with a clean eye pad or wound dressing. If a large object is in the eye, do not try to remove it. Help the person rest in a comfortable position with the eye closed. For a minor injury, advise them not to rub the eye. Sit them facing a light. With gloves if you have them, stand behind them, gently open the lids with your thumbs, and ask them to look right, left, up, and down while you look. If they wear contact lenses and can remove them, ask them to. If you can see something, have them tip the head back and wash the eye by pouring clean water from the inner corner. The extract used here ends at that pour. The rest of the rinse is not added.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Eye injury",
+      "url": "https://www.sja.org.uk/first-aid-advice/eye-injury/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.chemical-burn"
+  ],
+  "tags": [
+    "first-aid",
+    "eye"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

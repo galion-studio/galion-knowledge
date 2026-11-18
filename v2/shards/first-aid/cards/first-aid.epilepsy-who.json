@@ -1,0 +1,31 @@
+{
+  "id": "first-aid.epilepsy-who",
+  "title": "WHO: one seizure is not epilepsy, and up to 70 percent could be seizure-free with treatment",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "WHO defines epilepsy as two or more unprovoked seizures. It also says stigma and myths, including that epilepsy is contagious, still keep people from care.",
+  "body": "The World Health Organization's epilepsy fact sheet says epilepsy is a chronic noncommunicable disease of the brain that affects around 50 million people. It is characterised by recurrent seizures. One seizure does not signify epilepsy. Up to 10 percent of people worldwide have one seizure in their lifetime. Epilepsy is defined as two or more unprovoked seizures. The sheet says it is estimated that up to 70 percent of people living with epilepsy could live seizure-free if properly diagnosed and treated, and that discontinuing antiseizure medicine can be considered after two years without seizures, taking clinical, social, and personal factors into account. A documented cause and an abnormal EEG are the two most consistent predictors of recurrence, on that page.\n\nThe same sheet says fear, misunderstanding, discrimination, and stigma have surrounded epilepsy for centuries and continue. It names pervasive myths that epilepsy is incurable, or contagious, or the result of morally bad behaviour. Those are WHO's description of myths, not findings that the myths are true. The sheet says the risk of premature death in people with epilepsy is up to three times higher than in the general population, with the highest rates in low- and middle-income countries and rural areas, and that many of those deaths, including falls, drowning, burns, and prolonged seizures, are potentially preventable. Availability of generic antiseizure medicines in the public sector of low- and middle-income countries was found, in a study the sheet cites, to be less than 50 percent on average.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Epilepsy",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/epilepsy",
+      "author": "World Health Organization",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Fact sheet opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.seizure"
+  ],
+  "tags": [
+    "first-aid",
+    "epilepsy"
+  ]
+}

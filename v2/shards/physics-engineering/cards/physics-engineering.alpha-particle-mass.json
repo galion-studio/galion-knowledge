@@ -1,0 +1,31 @@
+{
+  "id": "physics-engineering.alpha-particle-mass",
+  "title": "CODATA 2022: the alpha-particle mass is 6.644 657 3450 × 10⁻²⁷ kg",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The mass ratio to the electron is 7294.299 541 71. The energy equivalent is 3727.379 4118 MeV.",
+  "body": "The NIST 2022 listing prints 'alpha particle mass 6.644 657 3450 e-27' kg, standard uncertainty '0.000 000 0021 e-27' kg. 'alpha particle-electron mass ratio 7294.299 541 71', standard uncertainty '0.000 000 17'. 'alpha particle mass energy equivalent in MeV 3727.379 4118', standard uncertainty '0.000 0012' MeV. 'alpha particle mass in u 4.001 506 179 129', standard uncertainty '0.000 000 000 062' u.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.proton-mass"
+  ],
+  "tags": [
+    "physics-engineering",
+    "particle"
+  ]
+}

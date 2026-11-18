@@ -1,0 +1,40 @@
+{
+  "id": "first-aid.frostbite",
+  "title": "Frostbite: CDC says do not rub it; St John Ambulance warms it in water around 40°C",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Both pages say do not use direct heat and do not rub. CDC lists white or grayish-yellow, firm or waxy skin, and numbness. St John Ambulance then says hospital.",
+  "body": "The CDC winter page says a victim is often unaware of frostbite because frozen tissue is numb. Redness or pain in any skin area may be the first sign. Other signs: a white or grayish-yellow skin area, skin that feels unusually firm or waxy, and numbness. Parts it names as often affected: nose, ears, toes, cheeks, chin, and fingers. Its cautions: unless necessary, do not walk on feet or toes with frostbite; do not use a fireplace, heat lamp, radiator, or stove for warming; do not use a heating pad or electric blanket for warming frostbite; do not rub or massage frostbitten areas. It also says to place affected areas in warm-to-touch water as one of the early treatment steps on that page.\n\nSt John Ambulance's frostbite page says move the person indoors, gently remove rings, gloves, and boots, warm the part with your hands or in your lap, and do not rub and do not use direct heat. Then place the part in warm but not hot water, around 40°C, dry it, and put on a light dressing, ideally gauze. Raise the part. An adult may take the recommended dose of paracetamol. Do not give aspirin to anyone under 16 or known to be allergic. Take or send them to hospital. The page says someone with frostbite is likely to be hypothermic as well, so look for that.\n\nThe shared instructions in the two pages opened here are: do not rub, and do not use direct high heat. The water temperature of about 40°C is St John Ambulance's figure. CDC says warm-to-touch water and does not, in the text used here, give 40°C.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Preventing Hypothermia",
+      "url": "https://www.cdc.gov/winter-weather/prevention/",
+      "author": "U.S. Centers for Disease Control and Prevention",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Frostbite section of the same page. Opened 2026-11-18."
+    },
+    {
+      "title": "Frostbite",
+      "url": "https://www.sja.org.uk/first-aid-advice/frostbite/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Centers for Disease Control and Prevention; St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.hypothermia-cdc",
+    "first-aid.hypothermia-sja"
+  ],
+  "tags": [
+    "first-aid",
+    "cold"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "physics-engineering.rydberg",
+  "title": "CODATA 2022: the Rydberg constant is 10 973 731.568 157 per metre",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 012 m⁻¹. The same listing gives Rydberg times hc as 13.605 693 122 990 eV.",
+  "body": "The NIST 2022 listing prints 'Rydberg constant 10 973 731.568 157' with standard uncertainty '0.000 012', unit m⁻¹. It prints 'Rydberg constant times hc in eV 13.605 693 122 990' with standard uncertainty '0.000 000 000 015' eV. That electron-volt figure is the listing's value for the Rydberg energy, not a rounded '13.6 eV' offered as exact.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.bohr-radius"
+  ],
+  "tags": [
+    "physics-engineering",
+    "atomic"
+  ]
+}

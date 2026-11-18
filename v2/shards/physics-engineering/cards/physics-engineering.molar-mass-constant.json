@@ -1,0 +1,33 @@
+{
+  "id": "physics-engineering.molar-mass-constant",
+  "title": "CODATA 2022: the molar mass constant is not exactly 1 gram per mole",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The listing gives 1.000 000 001 05 × 10⁻³ kg mol⁻¹, standard uncertainty 0.000 000 000 31 × 10⁻³.",
+  "body": "The NIST 2022 listing prints 'molar mass constant 1.000 000 001 05 e-3' with standard uncertainty '0.000 000 000 31 e-3', unit kg mol⁻¹. That is not printed as exact, and it is not printed as 1 × 10⁻³ exactly. After the 2019 revision, the molar mass constant is a measured quantity in this adjustment, very close to 1 g/mol and not defined to be exactly that. The Avogadro constant, by contrast, is exact. This card reports the printed line. It does not redo the algebra that connects the two.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are from lines printed in full."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.avogadro",
+    "physics-engineering.atomic-mass-constant"
+  ],
+  "tags": [
+    "physics-engineering",
+    "si",
+    "chemistry"
+  ]
+}

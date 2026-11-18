@@ -1,0 +1,39 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "public-health",
+  "title": "Public health",
+  "scope": "Population rates, vaccination programmes, sanitation, and outbreak reports. The numbers move.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "public-health",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "A rate from one year should not be frozen in the pack every device keeps. Load it when the question is a population.",
+  "keywords": [
+    "epidemic",
+    "vaccination programme",
+    "sanitation",
+    "outbreak",
+    "mortality"
+  ],
+  "primary_sources": [
+    {
+      "title": "WHO fact sheets",
+      "url": "https://www.who.int/news-room/fact-sheets",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "CDC",
+      "url": "https://www.cdc.gov/index.html",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

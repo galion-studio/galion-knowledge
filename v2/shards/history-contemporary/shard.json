@@ -1,0 +1,43 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "history-contemporary",
+  "title": "History since 1945",
+  "scope": "The post-1945 record from treaties, official statistics, and court judgments. Not a running news summary.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "history-contemporary",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The period is still being filed. A frozen core paragraph would go stale, and the document trail is long.",
+  "keywords": [
+    "cold war",
+    "decolonisation",
+    "united nations",
+    "after 1945"
+  ],
+  "primary_sources": [
+    {
+      "title": "United Nations Treaty Collection",
+      "url": "https://treaties.un.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "United Nations Charter",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "GovInfo",
+      "url": "https://www.govinfo.gov/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

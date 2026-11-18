@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.neutron-energy-joules",
+  "title": "CODATA 2022: the neutron mass-energy is 1.505 349 765 14 × 10⁻¹⁰ J",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 000 000 76 × 10⁻¹⁰ J. It is slightly above the proton's joule line in the same listing.",
+  "body": "The NIST 2022 listing prints 'neutron mass energy equivalent 1.505 349 765 14 e-10' with standard uncertainty '0.000 000 000 76 e-10', unit J. Set next to the proton's joule line in the same listing, the neutron's figure is larger. That is the table. It is not a decay calculation.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing opened 2026-11-18. Digits are from lines printed in full."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.neutron-mass",
+    "physics-engineering.proton-energy-joules"
+  ],
+  "tags": [
+    "physics-engineering",
+    "particle"
+  ]
+}

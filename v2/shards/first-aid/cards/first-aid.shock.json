@@ -1,0 +1,41 @@
+{
+  "id": "first-aid.shock",
+  "title": "St John Ambulance: shock means lie the person down and raise the legs",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Treat a cause you can see, such as severe bleeding, then call 999 or 112, loosen tight clothing, and keep them warm. This is not emotional shock.",
+  "body": "St John Ambulance's shock page says shock, not to be confused with emotional shock, is life-threatening and happens when the body is not getting enough oxygen to the brain and vital organs. Treat a cause you can see, such as severe bleeding. Help the person lie down and raise the legs, supported on a chair, to improve blood supply to vital organs. Call 999 or 112 and say you think they are in shock, and the likely cause if you know it. Loosen tight clothing at the neck, chest, and waist. Cover them with a coat or blanket. The page says fear and pain can make shock worse by increasing the body's demand for oxygen, so reassure them. Monitor response. If they become unresponsive, treat them as an unresponsive person.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Shock",
+      "url": "https://www.sja.org.uk/first-aid-advice/shock/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.severe-bleeding",
+    "first-aid.fainting"
+  ],
+  "tags": [
+    "first-aid",
+    "shock"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

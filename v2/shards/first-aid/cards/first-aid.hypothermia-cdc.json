@@ -1,0 +1,32 @@
+{
+  "id": "first-aid.hypothermia-cdc",
+  "title": "CDC: hypothermia is a medical emergency below 95°F",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Adult signs include shivering, exhaustion, confusion, fumbling, memory loss, slurred speech, and drowsiness. Do not give alcohol. Severe hypothermia can look like death, and CDC says to do CPR anyway.",
+  "body": "The CDC winter-weather page that the old hypothermia URL redirected to, opened 2026-11-18, is titled Preventing Hypothermia. It says hypothermia is abnormally low body temperature and is dangerous. It can occur at very cold temperatures, and also at cool temperatures above 40 degrees Fahrenheit if a person is wet from rain, sweat, or cold water and becomes chilled. Adult signs and symptoms it lists: shivering, exhaustion, confusion, fumbling hands, memory loss, slurred speech, drowsiness. In infants: bright red, cold skin, and very low energy. If a person's temperature is below 95°F, get medical attention immediately.\n\nIf you cannot get medical help right away: warm room or shelter, remove wet clothing, warm the centre of the body (chest, neck, head, and groin) with an electric blanket if available, or skin-to-skin contact under loose dry layers. Warm drinks can help. Do not give alcoholic drinks. Do not try to give drinks to an unconscious person. After the temperature has risen, keep them dry and wrap the body, including head and neck. For severe hypothermia, the person may be unconscious and may not seem to have a pulse or to be breathing. Handle them gently, get emergency help, and perform CPR even if they appear dead. Continue CPR until they respond or medical aid is available, and keep warming them. The page says that in some cases people who appear dead can be resuscitated.\n\nThe page's frostbite warnings are on the frostbite card. They are not the same as the warming steps for hypothermia. The hypothermia section allows an electric blanket for the centre of the body. The frostbite cautions say not to use a heating pad or electric blanket for frostbite. Both sentences are on the same CDC page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Preventing Hypothermia",
+      "url": "https://www.cdc.gov/winter-weather/prevention/",
+      "author": "U.S. Centers for Disease Control and Prevention",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Opened 2026-11-18 via the former disasters/winter hypothermia URL, which served this page."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Centers for Disease Control and Prevention",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.hypothermia-sja",
+    "first-aid.frostbite"
+  ],
+  "tags": [
+    "first-aid",
+    "cold"
+  ]
+}

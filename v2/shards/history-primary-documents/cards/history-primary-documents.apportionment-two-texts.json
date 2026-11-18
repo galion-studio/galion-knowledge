@@ -1,0 +1,40 @@
+{
+  "id": "history-primary-documents.apportionment-two-texts",
+  "title": "The 1787 text and the Fourteenth Amendment do not count persons the same way",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "One transcript counts three fifths of 'all other Persons.' Section 2 of the Fourteenth Amendment counts the whole number of persons. Both sentences are in National Archives texts.",
+  "body": "Put the two National Archives texts side by side. The Constitution transcript's apportionment clause adds free persons, excludes Indians not taxed, and counts three fifths of all other persons. Section 2 of the Fourteenth Amendment, on the Archives' milestone page, apportions representatives by counting the whole number of persons in each state, excluding Indians not taxed. The later text does not, in the section quoted, use the words 'three fifths'. It states a different rule. This card does not add a court case about what that change did, because no such opinion was opened for it. The difference in the two sentences is the claim.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "U.S. National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    },
+    {
+      "title": "14th Amendment to the U.S. Constitution: Civil Rights (1868)",
+      "url": "https://www.archives.gov/milestone-documents/14th-amendment",
+      "author": "U.S. National Archives",
+      "date": "1868",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "The two National Archives texts",
+  "as_of_date": "1868",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.constitution-three-fifths",
+    "history-primary-documents.fourteenth-section-2"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states"
+  ]
+}

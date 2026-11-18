@@ -1,0 +1,39 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "earth-science",
+  "title": "Earth science",
+  "scope": "Geology, water, and the measured climate series. A map or a quake catalogue, not a slogan.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "earth-science",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "Observational series are large and dated. The core keeps the structure of the planet.",
+  "keywords": [
+    "geology",
+    "earthquake",
+    "ocean",
+    "climate",
+    "mineral"
+  ],
+  "primary_sources": [
+    {
+      "title": "U.S. Geological Survey",
+      "url": "https://www.usgs.gov/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Climate change, NASA Science",
+      "url": "https://science.nasa.gov/climate-change/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

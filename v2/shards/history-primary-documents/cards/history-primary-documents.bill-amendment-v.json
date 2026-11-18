@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.bill-amendment-v",
+  "title": "Bill of Rights, Amendment V: grand jury, double jeopardy, self-incrimination, due process, and takings",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The National Archives transcription of Amendment V, ratified 15 December 1791, is the text this card reports.",
+  "body": "The National Archives transcription of the Bill of Rights gives Amendment V, ratified on 15 December 1791. The following is a close rendering in modern spelling, not a character-for-character copy of the enrolled capitalisation: No person shall be held to answer for a capital or otherwise infamous crime unless on a presentment or indictment of a grand jury, except in cases arising in the land or naval forces, or in the militia, when in actual service in time of war or public danger; nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself; nor be deprived of life, liberty, or property, without due process of law; nor shall private property be taken for public use without just compensation. The Archives page keeps the capitalisation of the enrolled resolution. This card reports the operative rule. It does not collect later cases that have read the sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Bill of Rights: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "author": "U.S. National Archives",
+      "date": "1791-12-15",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Congress and the ratifying states",
+  "as_of_date": "1791-12-15",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.bill-twelve-proposed"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states",
+    "bill-of-rights"
+  ]
+}

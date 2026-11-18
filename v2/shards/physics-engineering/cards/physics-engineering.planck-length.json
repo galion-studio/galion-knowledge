@@ -1,0 +1,33 @@
+{
+  "id": "physics-engineering.planck-length",
+  "title": "CODATA 2022: the Planck length is 1.616 255 × 10⁻³⁵ m, uncertainty 0.000 018 × 10⁻³⁵ m",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The relative uncertainty is far larger than for the Planck constant, because this length depends on G.",
+  "body": "The NIST 2022 listing prints 'Planck length 1.616 255 e-35' with standard uncertainty '0.000 018 e-35', in metres. The Planck constant itself is exact in the same listing. This length is not exact. The large uncertainty tracks the uncertainty in G, which enters the usual combination of constants for this length. This card reports the printed value and its uncertainty. It does not claim that a length this small has been measured with a ruler.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.gravitational-constant",
+    "physics-engineering.planck-h"
+  ],
+  "tags": [
+    "physics-engineering",
+    "gravity",
+    "quantum"
+  ]
+}

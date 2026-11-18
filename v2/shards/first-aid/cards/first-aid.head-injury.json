@@ -1,0 +1,41 @@
+{
+  "id": "first-aid.head-injury",
+  "title": "St John Ambulance checks a head injury with AVPU",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Alert, voice, pain, unresponsive. A person who has stayed alert is called probably mild. Confusion or a drop in response means call 999 or 112.",
+  "body": "St John Ambulance's head-injury page says that if the person is responsive, sit them down and hold something cold on the injury, such as an ice pack or a bag of frozen vegetables wrapped in a tea towel. Assess response with AVPU. Alert: eyes open, they are alert. Voice: they respond when you talk and can answer simple questions. Pain: the page says to press with the thumb on the eyelid just below the eyebrow, next to the bridge of the nose, for 10 seconds, and see whether they move or open their eyes. Unresponsive: they do none of that. If they are unresponsive or you are worried, call 999 or 112 and prepare to give CPR. Treat wounds with direct pressure. If they have been alert and responsive the whole time, the page says the head injury is probably mild, and a responsible adult should stay until they recover. If they are not alert, not responsive, or appear confused, call 999 or 112, give the cause, and report the AVPU response.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Head injury",
+      "url": "https://www.sja.org.uk/first-aid-advice/head-injury/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.spinal",
+    "first-aid.cpr-adult"
+  ],
+  "tags": [
+    "first-aid",
+    "head-injury"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.udhr-article-7",
+  "title": "Universal Declaration, Article 7: equal protection of the law",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "All are equal before the law and are entitled without any discrimination to equal protection of the law, including equal protection against any incitement to discrimination.",
+  "body": "Article 7 of the Universal Declaration says all are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of the declaration and against any incitement to such discrimination. The sentence is the declaration's. It is not, on the page opened here, a statement that every country's statute already does this.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Universal Declaration of Human Rights",
+      "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+      "author": "United Nations General Assembly",
+      "date": "1948-12-10",
+      "accessed": "2026-11-18",
+      "note": "Text page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United Nations General Assembly",
+  "as_of_date": "1948-12-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.udhr-article-2",
+    "history-primary-documents.fourteenth-section-1"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "human-rights"
+  ]
+}

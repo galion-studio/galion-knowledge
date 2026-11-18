@@ -1,0 +1,40 @@
+{
+  "id": "first-aid.uk-numbers",
+  "title": "St John Ambulance tells a helper in the UK to call 999 or 112",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "On the first-aid pages opened here, St John Ambulance's emergency number is 999 or 112. That is not the number CDC prints for the United States.",
+  "body": "St John Ambulance's first-aid pages opened on 2026-11-18, including the pages on choking, severe bleeding, and CPR, tell the helper to call 999 or 112. That instruction is for the service those pages are written for. The CDC stroke page opened the same day tells a person in its audience to call 9-1-1, and to not drive to the hospital. A device that repeats one of these numbers as if it were the number everywhere is going past what either page said.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How to do CPR",
+      "url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    },
+    {
+      "title": "Signs and Symptoms of Stroke",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+      "author": "U.S. Centers for Disease Control and Prevention",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. CDC says call 9-1-1 and do not drive to the hospital."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance; U.S. Centers for Disease Control and Prevention",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.cpr-adult",
+    "first-aid.stroke-cdc"
+  ],
+  "tags": [
+    "first-aid",
+    "emergency-number"
+  ]
+}

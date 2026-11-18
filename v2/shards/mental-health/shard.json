@@ -1,0 +1,38 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "mental-health",
+  "title": "Mental health",
+  "scope": "What health agencies publish on mental disorders, and the crisis services they name. Not a diagnosis of the person in the room.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "mental-health",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "Classification systems and services are deep and local. The first-aid shard carries the United States 988 line because it is the immediate number. This shard is the rest.",
+  "keywords": [
+    "mental health",
+    "depression",
+    "psychosis",
+    "crisis line"
+  ],
+  "primary_sources": [
+    {
+      "title": "Mental disorders, WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "988 Suicide & Crisis Lifeline, SAMHSA",
+      "url": "https://www.samhsa.gov/mental-health/988",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

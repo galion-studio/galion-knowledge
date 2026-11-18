@@ -1,0 +1,31 @@
+{
+  "id": "history-primary-documents.declaration-frontier-sentence",
+  "title": "The Declaration's transcript contains a grievance that calls Native people 'merciless Indian Savages'",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "That phrase is in the Stone Engraving transcript. It is the Congress's wording in a charge. It is not a finding about the people named.",
+  "body": "The National Archives transcript includes this charge: 'He has excited domestic insurrections amongst us, and has endeavoured to bring on the inhabitants of our frontiers, the merciless Indian Savages, whose known rule of warfare, is an undistinguished destruction of all ages, sexes and conditions.' The words are in the document the Archives transcribes. They are an accusation, in the Congress's language, against the king, and they are also the Congress's description of Native people on the frontiers. Recording the sentence is not an endorsement of it. The sentence is not evidence about how those nations fought. No second source was opened for this card that states a reply from those nations, so no reply is invented here.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Declaration of Independence: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "author": "U.S. National Archives",
+      "date": "1776-07-04",
+      "accessed": "2026-11-18",
+      "note": "The sentence is quoted from the transcript. No Native nation's response was opened for this card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Continental Congress",
+  "as_of_date": "1776-07-04",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.declaration-tax"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states"
+  ]
+}
