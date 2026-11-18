@@ -14,6 +14,11 @@
       "id": "diary",
       "name": "Diary and Memory",
       "summary": "What HORBM keeps. The memory crate lives in v2/memory."
+    },
+    {
+      "id": "shards",
+      "name": "Add-on shards",
+      "summary": "Optional deeper packs. A device loads one when the core pack has a gap."
     }
   ],
   "categories": [
@@ -36,6 +41,9 @@
     {"id": "culture", "section": "horbm", "name": "Culture", "description": "Context for a conversation. No culture is invented here.", "color": "#fbbf24", "icon": "globe"},
     {"id": "stack", "section": "diary", "name": "Memory stack", "description": "Short-term ring, remembered episodes, sourced rows.", "color": "#94a3b8", "icon": "layers"},
     {"id": "diary", "section": "diary", "name": "Diary", "description": "Dated, append-only entries.", "color": "#f472b6", "icon": "book-open"},
-    {"id": "retrieval", "section": "diary", "name": "Retrieval", "description": "How a card is found. The index export is v2/memory.", "color": "#60a5fa", "icon": "search"}
+    {"id": "retrieval", "section": "diary", "name": "Retrieval", "description": "How a card is found. The index export is v2/memory.", "color": "#60a5fa", "icon": "search"},
+    {"id": "first-aid", "section": "shards", "name": "First aid", "description": "Practical care from the services that publish it. Emergency numbers stay with the country that printed them.", "color": "#ef4444", "icon": "heart"},
+    {"id": "physics-engineering", "section": "shards", "name": "Physics and engineering", "description": "Constants with their uncertainties, and the conditions on the working equations.", "color": "#60a5fa", "icon": "atom"},
+    {"id": "history-primary-documents", "section": "shards", "name": "Primary documents", "description": "What a named document says. A later use of the sentence stays out unless a second source states it.", "color": "#f59e0b", "icon": "history"}
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "law-by-region",
+  "title": "Law by region",
+  "scope": "Constitutions and statutes of a place, loaded for the jurisdiction the question is actually in. One country's code is not presented as the world's.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "law-by-region",
+  "priority": "high",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "There is no single code. Carrying every jurisdiction would swamp the core, and carrying one jurisdiction would pretend it was universal.",
+  "keywords": [
+    "statute",
+    "constitution",
+    "penal code",
+    "jurisdiction",
+    "court"
+  ],
+  "primary_sources": [
+    {
+      "title": "Constitute",
+      "url": "https://www.constituteproject.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "GovInfo",
+      "url": "https://www.govinfo.gov/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "The National Archives (UK)",
+      "url": "https://www.nationalarchives.gov.uk/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Supreme Court of the United States",
+      "url": "https://www.supremecourt.gov/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "National Archives of Japan, digital archive",
+      "url": "https://www.digital.archives.go.jp/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "first-aid.recovery-position",
+  "title": "St John Ambulance's recovery position is for someone unresponsive but breathing",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Do a primary survey first. If the person is unresponsive and breathing, the page gives a side-lying position and says to call 999 or 112.",
+  "body": "St John Ambulance says to put someone in the recovery position only after a primary survey shows they are unresponsive but breathing. Kneel beside them, straighten the legs, and remove glasses or bulky items in pockets. Do not search pockets for small items. Put the near arm out at a right angle, palm up. Bring the far arm across the chest so the back of the hand is against the cheek nearer you, and hold it. Pull the far knee up, foot flat. Roll them toward you by that knee, keeping the hand against the cheek, then bend the top leg to a right angle. Tilt the head back and lift the chin so the airway stays open. Call 999 or 112 if that has not been done. If they are still in the position after 30 minutes, roll them onto the other side. The page has a separate note for a suspected spinal injury. That case is not this position.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Recovery position",
+      "url": "https://www.sja.org.uk/first-aid-advice/recovery-position/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.primary-survey",
+    "first-aid.unconscious-medlineplus",
+    "first-aid.spinal"
+  ],
+  "tags": [
+    "first-aid",
+    "airway"
+  ]
+}

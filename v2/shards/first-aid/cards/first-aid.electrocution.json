@@ -1,0 +1,32 @@
+{
+  "id": "first-aid.electrocution",
+  "title": "St John Ambulance: do not touch someone who is still in contact with the current",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Switch the power off, or push them clear with a dry non-conducting object. Only then do a primary survey and call 999 or 112.",
+  "body": "St John Ambulance's electric-shock page says not to touch the person if they are still in contact with the electrical source, because you can be electrocuted too. Turn off the source to break the contact. Alternatively, stand on dry insulating material such as a plastic mat or a wooden box and use a broom handle or wooden pole to push the limb away from the source. If that is not possible, loop rope under the arms or around the ankles and pull them clear. Do not touch them while you do that. Once contact is broken, do a primary survey and treat injuries, and call 999 or 112.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Electric shock",
+      "url": "https://www.sja.org.uk/first-aid-advice/electrocution/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.primary-survey",
+    "first-aid.burns-sja"
+  ],
+  "tags": [
+    "first-aid",
+    "electricity"
+  ]
+}

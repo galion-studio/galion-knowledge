@@ -1,0 +1,31 @@
+{
+  "id": "first-aid.nosebleed",
+  "title": "St John Ambulance: a nosebleed means lean forward, not back",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Sit, lean forward, pinch the soft part of the nose. Ten minutes, then another ten, then another. Call 999 or 112 if it is severe or lasts more than 30 minutes.",
+  "body": "St John Ambulance's nosebleed page says to sit the person down and lean the head forward. Do not tell them to lean back. The page says blood could trickle down the throat and block the airway. Breathe through the mouth and pinch the soft part of the nose. Use a clean tissue to catch blood. After 10 minutes they can release the pressure. If it has not stopped, pinch again for two further periods of 10 minutes. Once it stops, keep leaning forward, clean around the nose with lukewarm water, rest, and avoid exertion or blowing the nose so the clots are not disturbed. If the bleeding is severe, or lasts more than 30 minutes, call 999 or 112.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Nosebleeds",
+      "url": "https://www.sja.org.uk/first-aid-advice/nosebleed/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.severe-bleeding"
+  ],
+  "tags": [
+    "first-aid",
+    "bleeding"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "first-aid.seizure",
+  "title": "St John Ambulance: during a seizure, do not restrain the person and do not put anything in the mouth",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Clear objects, protect the head, time the seizure, and use the recovery position once jerky movements stop and the person is breathing.",
+  "body": "St John Ambulance's seizure page says to protect the person from hurting themselves. Ask bystanders to step back, protect privacy, and move hot drinks and sharp objects. Note the time the seizure started. Do not restrain them or move them unless they are in immediate danger. Do not put anything in the mouth. Pad under the head and loosen clothing around the neck. When jerky movements stop, open the airway and check breathing. If they are breathing, use the recovery position. Note how long the seizure lasted. If they become unresponsive, prepare to call 999 or 112 and give CPR. The page says not everyone who has a seizure needs to go to hospital, particularly if they are known to have epilepsy. It does not finish, on the extract used here, the full list of who should still be seen. That limit is why this card does not invent a rule for when to stay home.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Seizure",
+      "url": "https://www.sja.org.uk/first-aid-advice/seizure/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.epilepsy-who",
+    "first-aid.recovery-position"
+  ],
+  "tags": [
+    "first-aid",
+    "seizure"
+  ]
+}

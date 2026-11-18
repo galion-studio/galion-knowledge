@@ -1,0 +1,33 @@
+{
+  "id": "first-aid.food-poisoning",
+  "title": "St John Ambulance: food poisoning is fluids, and anti-diarrhoea medicine only if a clinician says so",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Small sips if they are vomiting. Stay off work or school for at least 48 hours after the last episode of diarrhoea or vomiting. Wash hands with soap, not sanitiser alone.",
+  "body": "St John Ambulance's food-poisoning page says to lie down and rest and drink plenty of water, especially small sips if vomiting, and a drink after each loose stool. Seek medical advice if they are vomiting a lot and cannot keep fluids down, if there is blood in the stools, if they are older or have an underlying problem such as diabetes, inflammatory bowel disease, or kidney disease, if they are pregnant, or if you think they are becoming dehydrated. Older people, babies, and young children are at greater risk of dehydration, on that page. Do not take anti-diarrhoea medicines unless a healthcare professional specifically advises it. For advice, speak to a GP or call 111. In an emergency, call 999 or 112. When hungry again, light bland foods such as bread, rice crackers, or a banana. Avoid alcohol, caffeine, and fizzy drinks. To limit spread, wash hands with soap and water, not hand sanitiser. Stay off work or school for at least 48 hours after the last episode of diarrhoea or vomiting.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Food poisoning",
+      "url": "https://www.sja.org.uk/first-aid-advice/food-poisoning/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.poisoning",
+    "first-aid.dehydration",
+    "first-aid.diarrhoea-who"
+  ],
+  "tags": [
+    "first-aid",
+    "food"
+  ]
+}

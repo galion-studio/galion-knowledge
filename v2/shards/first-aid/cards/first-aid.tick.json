@@ -1,0 +1,31 @@
+{
+  "id": "first-aid.tick",
+  "title": "St John Ambulance: pull a tick out steadily, and do not use butter or heat",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Grasp the head close to the skin with tweezers or a tick tool and pull upward with even pressure. See a GP for flu-like symptoms or a round or oval rash in the next three months.",
+  "body": "St John Ambulance's tick-bite page says to grasp the tick's head as close to the skin as you can, with tweezers or a tick-removal tool, and pull upward with steady even pressure. Do not jerk, because parts may stay in the skin. Do not burn or freeze the tick, and do not try to remove it with butter or petroleum jelly. Clean the area with soap and water. Contact a GP surgery if, within three months of the bite, there are flu-like symptoms, such as feeling hot and shivery, headaches, or aching muscles, or a round or oval rash around the bite.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Tick bite",
+      "url": "https://www.sja.org.uk/first-aid-advice/tick-bite/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.animal-bite"
+  ],
+  "tags": [
+    "first-aid",
+    "ticks"
+  ]
+}

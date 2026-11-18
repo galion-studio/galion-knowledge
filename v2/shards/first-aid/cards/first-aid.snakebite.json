@@ -1,0 +1,42 @@
+{
+  "id": "first-aid.snakebite",
+  "title": "WHO: antivenom is the treatment it names for snakebite, and official counts often miss deaths",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "WHO says high-quality antivenoms are the most effective treatment and are on the essential medicines list. Community studies it cites found far more deaths than ministry figures.",
+  "body": "The World Health Organization's snakebite-envenoming fact sheet says bites by venomous snakes can cause paralysis that may prevent breathing, bleeding disorders, irreversible kidney failure, and local tissue destruction that can cause permanent disability and amputation. Children may suffer more severe effects, and faster, because of smaller body mass. It says highly effective treatment exists. High-quality snake antivenoms are the most effective treatment to prevent or reverse most of the venomous effects of snake bites. They are on the WHO List of essential medicines and should be part of primary care where snake bites occur. In Asia, up to 2 million people are envenomed each year. In Africa, an estimated 435,000 to 580,000 snake bites a year need treatment. WHO formally listed snakebite envenoming as a highest-priority neglected tropical disease in June 2017. A strategy it describes aims at a 50 percent reduction in mortality and disability by 2030.\n\nThe same sheet says under-reporting is common, and it gives the comparisons rather than a single global death toll. Nepal's Ministry of Health reported 480 bites and 22 deaths for 2000, while a community study of one region, eastern Nepal, the same year, detailed 4,078 bites and 396 deaths. A community study in India gave a direct estimate of 45,900 deaths in 2005 (99 percent confidence interval 40,900 to 50,900), which the sheet says is over 30 times the Government of India's official figure. Revised estimates the sheet cites suggest as many as 1.2 million people in India died from snakebite envenoming between 2000 and 2019, an average of 58,000 a year. In one district of Sri Lanka, 62.5 percent of snakebite deaths were not in the hospital data when compared with the Registrar-General. Those pairs are the disagreement. This card does not pick a winner, and it does not describe how antivenom is manufactured.\n",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Snakebite envenoming",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming",
+      "author": "World Health Organization",
+      "date": "2017-06",
+      "accessed": "2026-11-18",
+      "note": "Fact sheet opened 2026-11-18. The June 2017 date is the listing as a neglected tropical disease, which the sheet states. The death comparisons are the studies the sheet summarises."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Official reports, as WHO quotes them",
+      "summary": "Nepal's ministry reported 22 deaths in 2000. India's official figure for 2005 was more than 30 times lower than a community estimate of 45,900 deaths.",
+      "status": "WHO fact sheet, citing the studies it names."
+    },
+    {
+      "label": "Community studies, as WHO quotes them",
+      "summary": "Eastern Nepal, 2000: 396 deaths in one region. India, 2005: 45,900 (40,900–50,900). India, 2000–2019: about 58,000 deaths a year in the revised estimate the sheet cites.",
+      "status": "WHO fact sheet. These are the studies' estimates, not a new count."
+    }
+  ],
+  "related": [
+    "first-aid.animal-bite"
+  ],
+  "tags": [
+    "first-aid",
+    "snakebite"
+  ]
+}

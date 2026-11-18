@@ -1,0 +1,31 @@
+{
+  "id": "history-primary-documents.udhr-article-2",
+  "title": "Universal Declaration, Article 2: the rights apply without distinction",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "No distinction of race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth, or other status, and none based on the political status of the country.",
+  "body": "Article 2 of the Universal Declaration, on the United Nations text page, says everyone is entitled to all the rights and freedoms set forth in the declaration, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth, or other status. Furthermore, no distinction shall be made on the basis of the political, jurisdictional, or international status of the country or territory to which a person belongs, whether it is independent, trust, non-self-governing, or under any other limitation of sovereignty. Article 1 is in the core pack. This is Article 2.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Universal Declaration of Human Rights",
+      "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+      "author": "United Nations General Assembly",
+      "date": "1948-12-10",
+      "accessed": "2026-11-18",
+      "note": "Text page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United Nations General Assembly",
+  "as_of_date": "1948-12-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.udhr-article-7"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "human-rights"
+  ]
+}

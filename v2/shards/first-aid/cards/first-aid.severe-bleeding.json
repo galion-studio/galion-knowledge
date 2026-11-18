@@ -1,0 +1,32 @@
+{
+  "id": "first-aid.severe-bleeding",
+  "title": "St John Ambulance: severe bleeding is direct pressure, and do not pull out an embedded object",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Press with a dressing or clean cloth. If something is in the wound, press beside it. Call 999 or 112. Check that a bandage has not stopped the circulation.",
+  "body": "St John Ambulance's severe-bleeding page says to wear gloves if you have them. Put firm direct pressure on the wound with a sterile dressing or a clean non-fluffy cloth. The injured person can do that themselves if you have no dressing. Remove or cut clothing that covers the wound. If an object is in the wound, do not pull it out. The page says it may be plugging the bleeding. Press on either side of the object instead. Have a helper call 999 or 112 and describe where the wound is and how bad the bleeding is. If you are alone, use a speakerphone. Bandage the dressing firmly enough to keep pressure, but not so tight that circulation past the bandage stops. The check the page gives: press a nail or the skin beyond the bandage for five seconds until it turns pale, then release. If the colour does not return within two seconds, the bandage is too tight, so loosen and reapply.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Severe bleeding",
+      "url": "https://www.sja.org.uk/first-aid-advice/severe-bleeding/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.tourniquet",
+    "first-aid.shock"
+  ],
+  "tags": [
+    "first-aid",
+    "bleeding"
+  ]
+}

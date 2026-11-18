@@ -1,0 +1,33 @@
+{
+  "id": "history-primary-documents.un-charter-force",
+  "title": "UN Charter Article 2: members shall refrain from the threat or use of force",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The ban is against the territorial integrity or political independence of any state, or in any other manner inconsistent with the purposes of the United Nations.",
+  "body": "The Charter's full text, on the United Nations page, says all members shall refrain in their international relations from the threat or use of force against the territorial integrity or political independence of any state, or in any other manner inconsistent with the purposes of the United Nations. The same article says all members shall give the United Nations every assistance in any action it takes in accordance with the Charter, and shall refrain from giving assistance to any state against which the United Nations is taking preventive or enforcement action. Article 51, on the same page, is the sentence about self-defence if an armed attack occurs. It is a different paragraph. The refrain-from-force sentence does not, by itself, erase Article 51, and Article 51 does not, by itself, erase the refrain-from-force sentence.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "United Nations Charter (full text)",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "author": "United Nations",
+      "date": "1945",
+      "accessed": "2026-11-18",
+      "note": "Full text page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United Nations",
+  "as_of_date": "1945",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.un-charter-equality",
+    "history-primary-documents.un-charter-article-51",
+    "history-primary-documents.nato-article-5"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-nations"
+  ]
+}

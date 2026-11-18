@@ -1,0 +1,40 @@
+{
+  "id": "physics-engineering.caesium-frequency",
+  "title": "The caesium-133 hyperfine frequency is fixed at 9 192 631 770 Hz",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "BIPM lists ΔνCs as an exact defining constant. It is the constant tied to the second.",
+  "body": "BIPM's table of defining constants gives the unperturbed ground-state hyperfine transition frequency of the caesium-133 atom, ΔνCs, as 9 192 631 770 Hz, with no uncertainty. The NIST 2022 CODATA listing is the adjustment published against that system. This card reports the fixed frequency. It does not quote a longer sentence of the form 'the second is the duration of so many periods,' because that full sentence was not on the defining-constants page that was opened.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The International System of Units (SI): Defining constants",
+      "url": "https://www.bipm.org/en/measurement-units/si-defining-constants",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2018",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. BIPM dates the fixed values to the revision that took effect on 20 May 2019 and cites CGPM Resolution 1 (2018)."
+    },
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bureau International des Poids et Mesures; NIST CODATA 2022",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.si-seven-constants"
+  ],
+  "tags": [
+    "physics-engineering",
+    "si",
+    "time"
+  ]
+}

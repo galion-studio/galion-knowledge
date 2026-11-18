@@ -1,0 +1,32 @@
+{
+  "id": "first-aid.sepsis-sja",
+  "title": "St John Ambulance: if you think it is sepsis, do not wait",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Call 999 or 112. Fluids if they will take them. Tell clinicians if you gave paracetamol.",
+  "body": "St John Ambulance's sepsis page says that if someone is unwell and you think they have one or more symptoms of sepsis, do not wait. Call 999 or 112 straight away. While waiting, reassure them and keep them comfortable. If they have a fever, you can give paracetamol, and you must tell the clinicians what you gave and when. You can give fluids if they will tolerate them. Monitor response. The symptom list itself was not in the action extract used here. WHO's description of sepsis signs is a separate card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sepsis",
+      "url": "https://www.sja.org.uk/first-aid-advice/sepsis/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.sepsis-who",
+    "first-aid.meningitis"
+  ],
+  "tags": [
+    "first-aid",
+    "sepsis"
+  ]
+}

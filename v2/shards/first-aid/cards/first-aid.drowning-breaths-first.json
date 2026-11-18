@@ -1,0 +1,41 @@
+{
+  "id": "first-aid.drowning-breaths-first",
+  "title": "St John Ambulance's drowning page starts CPR with five rescue breaths",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "The drowning page says not to endanger yourself, and, if the person is unresponsive and not breathing, to give five initial rescue breaths before chest compressions.",
+  "body": "St John Ambulance's drowning page says not to put yourself in danger while trying to rescue someone. Once the person is out of the water, do a primary survey. If they are unresponsive and not breathing, have a helper call 999 or 112 while you start CPR, and have a helper bring a defibrillator if there is one. Do not leave the person to look for a defibrillator yourself. The page says the ambulance will bring one.\n\nBefore compressions, open the airway and give five initial rescue breaths: hand on the forehead, two fingers under the chin, pinch the nose, seal your mouth on theirs, and blow until the chest rises. Then begin chest compressions, heel of the hand in the middle of the chest, the other hand on top, fingers interlocked and off the ribs, arms straight. The adult CPR page on the same site instead starts with compressions and uses 30 compressions then two breaths. Both instructions were on the site on the day it was opened. This card does not choose between them.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Drowning first aid",
+      "url": "https://www.sja.org.uk/first-aid-advice/drowning/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    },
+    {
+      "title": "How to do CPR",
+      "url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.cpr-adult",
+    "first-aid.drowning-who-deaths"
+  ],
+  "tags": [
+    "first-aid",
+    "drowning",
+    "cpr"
+  ]
+}

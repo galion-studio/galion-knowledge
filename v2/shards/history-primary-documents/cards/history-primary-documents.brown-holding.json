@@ -1,0 +1,42 @@
+{
+  "id": "history-primary-documents.brown-holding",
+  "title": "Brown v. Board of Education: separate educational facilities are inherently unequal",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The opinion, as printed by the National Archives, holds that segregation in public schools denies equal protection even if tangible facilities are equal. The Archives also records unnamed scholarly criticism of the method.",
+  "body": "The National Archives milestone page for Brown v. Board of Education prints the opinion's conclusion, delivered by Chief Justice Earl Warren for a unanimous Court on 17 May 1954. 'We conclude that, in the field of public education, the doctrine of \"separate but equal\" has no place. Separate educational facilities are inherently unequal. Therefore, we hold that the plaintiffs and others similarly situated for whom the actions have been brought are, by reason of the segregation complained of, deprived of the equal protection of the laws guaranteed by the Fourteenth Amendment.' The page's syllabus says segregation of white and Negro children in the public schools of a state solely on the basis of race, under state laws permitting or requiring it, denies equal protection even though the physical facilities and other tangible factors may be equal. It says the 'separate but equal' doctrine of Plessy v. Ferguson, 163 U.S. 537, has no place in public education.\n\nThe Archives' essay on the same page says there was considerable resistance. Besides segregationists, it says some constitutional scholars felt the decision went against legal tradition by relying heavily on data supplied by social scientists rather than precedent or established law, and that supporters of judicial restraint believed the Court had overstepped by essentially writing new law. The essay does not name those scholars. Their objection is recorded as the essay states it, not expanded.\n\nThe essay also says that on 31 May 1955 Warren read the Court's unanimous decision, now called Brown II, instructing the states to begin desegregation plans 'with all deliberate speed.' That phrase, in this card, is the essay's report of Brown II. The 1954 opinion extract on the page is the holding above, which postponed the formulation of decrees.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Brown v. Board of Education (1954)",
+      "url": "https://www.archives.gov/milestone-documents/brown-v-board-of-education",
+      "author": "U.S. National Archives",
+      "date": "1954-05-17",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Chief Justice Earl Warren, for the Supreme Court of the United States",
+  "as_of_date": "1954-05-17",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "The 1954 opinion",
+      "summary": "In public education, separate but equal has no place. Separate educational facilities are inherently unequal, and the plaintiffs are denied equal protection.",
+      "status": "Opinion text on the National Archives page."
+    },
+    {
+      "label": "Criticism the National Archives essay reports",
+      "summary": "Some constitutional scholars, not named on the page, thought the decision relied heavily on social-science data rather than precedent. Supporters of judicial restraint thought the Court had written new law.",
+      "status": "NARA milestone essay. The scholars are not named there."
+    }
+  ],
+  "related": [
+    "history-primary-documents.fourteenth-section-1"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states"
+  ]
+}

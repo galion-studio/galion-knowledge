@@ -1,0 +1,33 @@
+{
+  "id": "first-aid.panic-attack",
+  "title": "St John Ambulance: say you think it is a panic attack, and take a different emergency seriously",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Slow the exhale, or stamp on the spot. Name things they can see, hear, and touch. Symptoms overlap with other emergencies.",
+  "body": "St John Ambulance's panic-attack page says helping someone feel calmer can lessen the intensity of many symptoms and can sometimes end the attack sooner. Tell them you think they might be having a panic attack. That can reassure them they are not in danger. If they think they are having a different medical emergency, take that seriously, because symptoms often overlap. Help them focus on breathing: deep slow breaths, often easiest by slowing the exhale. Stamping on the spot helps some people control breathing. Bring attention to what they can see, hear, and touch. The page calls that grounding. If they cannot speak, you can name those things yourself. The page says the person may want to keep focusing on breathing as they calm down. It does not say a panic attack rules out a heart or breathing emergency. The overlap warning is the limit.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Panic attack",
+      "url": "https://www.sja.org.uk/first-aid-advice/panic-attack/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.heart-attack-cdc",
+    "first-aid.breathing-difficulty",
+    "first-aid.crisis-988"
+  ],
+  "tags": [
+    "first-aid",
+    "panic"
+  ]
+}

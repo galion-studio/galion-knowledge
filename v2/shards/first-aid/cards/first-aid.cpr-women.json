@@ -1,0 +1,40 @@
+{
+  "id": "first-aid.cpr-women",
+  "title": "St John Ambulance: start CPR the same way if the person has breasts",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "The page on CPR and defibrillation for women and other people with breasts says an unresponsive adult who is not breathing normally still needs 999 or 112 and CPR straight away.",
+  "body": "St John Ambulance's page on CPR and defibrillation for women and other people with breasts, clinically reviewed on the page as 28 April 2025 by Dr Lynn Thomas, says that if someone is unresponsive and not breathing normally you still call 999 or 112 and start CPR straight away. The page uses the same definition of CPR as the general CPR page: chest compressions and rescue breaths. It does not describe a different compression rate for that group. Clothing has to come off the chest for pads; that practical point is on the defibrillator page, which says to cut or remove clothing, dry a wet chest, and keep compressions going while pads are placed.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "CPR and defibrillation on women and other people with breasts",
+      "url": "https://www.sja.org.uk/first-aid-advice/cpr-on-women-and-other-people-with-breasts/",
+      "author": "St John Ambulance",
+      "date": "2025-04-28",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    },
+    {
+      "title": "How to use a defibrillator",
+      "url": "https://www.sja.org.uk/first-aid-advice/how-to-use-a-defibrillator/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr Lynn Thomas, St John Ambulance",
+  "as_of_date": "2025-04-28",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.cpr-adult",
+    "first-aid.aed"
+  ],
+  "tags": [
+    "first-aid",
+    "cpr"
+  ]
+}

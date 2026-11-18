@@ -1,0 +1,31 @@
+{
+  "id": "physics-engineering.impedance-of-vacuum",
+  "title": "CODATA 2022: the characteristic impedance of vacuum is 376.730 313 412 ohm",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 000 059 ohm. It is not marked exact.",
+  "body": "The NIST 2022 listing prints 'characteristic impedance of vacuum 376.730 313 412' with standard uncertainty '0.000 000 059', unit ohm. Like the vacuum permittivity and the vacuum permeability in this adjustment, it is not an exact defining constant.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.vacuum-permeability"
+  ],
+  "tags": [
+    "physics-engineering",
+    "electromagnetism"
+  ]
+}

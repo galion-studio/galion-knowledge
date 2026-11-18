@@ -1,0 +1,33 @@
+{
+  "id": "first-aid.spinal",
+  "title": "St John Ambulance: do not move a person you think has a spinal injury",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Call 999 or 112. Support the head so the head, neck, and spine stay in a straight line, and do not cover the ears.",
+  "body": "St John Ambulance's spinal-injury page says, if the person is responsive, to reassure them and not to move them or tell them to move, unless they are in immediate danger. Call 999 or 112. Steady the head so the head, neck, and spine are in a straight line, to try to prevent further damage. Kneel or lie behind the head with elbows or knees on the ground. Hold each side of the head. Spread the fingers so you do not cover the ears, because they need to hear you. A helper can put rolled blankets, towels, or clothes on either side of the head while you keep that position. Keep supporting the head and neck until emergency help takes over, however long that takes. Keep monitoring breathing and response. The unresponsive section begins with the same instructions: do not move them unless they are in immediate danger, call for help, and support the head in line. The rest of the unresponsive steps were not fully in the extract, so they are not added.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Spinal injury",
+      "url": "https://www.sja.org.uk/first-aid-advice/spinal-injury/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.recovery-position",
+    "first-aid.fracture",
+    "first-aid.unconscious-medlineplus"
+  ],
+  "tags": [
+    "first-aid",
+    "spine"
+  ]
+}

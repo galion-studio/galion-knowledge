@@ -1,0 +1,44 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "arts-music",
+  "title": "Arts and music",
+  "scope": "Objects, scores, and the documents of making them. A museum's catalogue entry is the source, not a tour guide's mood.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "arts-music",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The core names a few works. The collections are the depth.",
+  "keywords": [
+    "painting",
+    "score",
+    "sculpture",
+    "museum",
+    "music"
+  ],
+  "primary_sources": [
+    {
+      "title": "Rijksmuseum",
+      "url": "https://www.rijksmuseum.nl/en",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Louvre collections",
+      "url": "https://collections.louvre.fr/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "IMSLP",
+      "url": "https://imslp.org/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

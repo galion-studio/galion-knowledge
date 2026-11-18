@@ -1,0 +1,44 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "history-asia",
+  "title": "History, Asia",
+  "scope": "Asian histories from their own archives and text collections, not from a European chronology with Asia added.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "history-asia",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The region is larger than the few core cards that mention it.",
+  "keywords": [
+    "asia",
+    "china",
+    "india",
+    "japan",
+    "southeast asia"
+  ],
+  "primary_sources": [
+    {
+      "title": "Chinese Text Project",
+      "url": "https://ctext.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "National Archives of Japan, digital archive",
+      "url": "https://www.digital.archives.go.jp/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Library of Congress",
+      "url": "https://www.loc.gov/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

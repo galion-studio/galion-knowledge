@@ -11,6 +11,7 @@ This site reads cards. It does not author them.
 | `v2/data/cards/diary/*.json` | Diary and Memory cards, if that pack adds any |
 | `v2/data/catalog.json` | This site. Names, colours, and icons for sections and categories. |
 | `v2/memory/` and `v2/docs/MEMORY_STACK.md` | Diary and Memory stack. Not built by the page tool. |
+| `v2/shards/<id>/` | Add-on shards. Optional packs on top of the core. `shard.json` is `galion-shard-manifest/1`. Cards, when a shard is seeded, are `v2/shards/<id>/cards/<id>.json` with `section` `shards` and `category` equal to the shard id. The build checks the card-bundle sha256. See [SHARDS.md](../docs/SHARDS.md). |
 
 One card is one JSON file. The file name is `{id}.json`. The parent folder name is the `section`.
 

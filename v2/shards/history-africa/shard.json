@@ -1,0 +1,39 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "history-africa",
+  "title": "History, Africa",
+  "scope": "African histories from archives and archaeology, regional rather than a single continental story.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "history-africa",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The core is not a history of any one region. This shard is loaded when the question is that region.",
+  "keywords": [
+    "africa",
+    "sahel",
+    "swahili",
+    "apartheid",
+    "aksum"
+  ],
+  "primary_sources": [
+    {
+      "title": "UNESCO",
+      "url": "https://www.unesco.org/en",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Library of Congress",
+      "url": "https://www.loc.gov/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

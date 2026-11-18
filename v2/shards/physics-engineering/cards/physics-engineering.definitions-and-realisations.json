@@ -1,0 +1,33 @@
+{
+  "id": "physics-engineering.definitions-and-realisations",
+  "title": "BIPM separates a fixed definition from the experiment that realises it",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "Definitions do not change when a better experiment appears. Realisations are the methods that make the unit available in practice.",
+  "body": "The BIPM page 'The International System of Units (SI)', opened 2026-11-18, separates three steps. Definitions are fixed and universal. They establish the SI by fixing the values of the defining constants. Realisations are experimental methods used to make the SI units available in practice and to establish traceability to the SI. The mises en pratique are the guidance the CIPM's consultative committees publish on those practical realisations. The page says this approach allows improved measurement techniques to be adopted without changing the definitions of the units. A better measurement of a quantity that is not itself a defining constant can change a CODATA uncertainty. It does not, on this account, rewrite the seven fixed numbers.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The International System of Units (SI)",
+      "url": "https://www.bipm.org/en/measurement-units",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2019-05-20",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bureau International des Poids et Mesures",
+  "as_of_date": "2019-05-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.si-seven-constants",
+    "physics-engineering.what-exact-means",
+    "physics-engineering.vacuum-permeability"
+  ],
+  "tags": [
+    "physics-engineering",
+    "metrology"
+  ]
+}

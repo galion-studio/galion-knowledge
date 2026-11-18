@@ -1,0 +1,32 @@
+{
+  "id": "first-aid.stroke-sja",
+  "title": "St John Ambulance's stroke check is FAST, and nothing to eat or drink",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Face, arms, speech, then time to call 999 or 112. The page says not to give food or drink because swallowing may be hard.",
+  "body": "St John Ambulance's stroke page uses FAST. Face: the mouth or an eye may droop, and a smile may be uneven. Arms: ask them to raise both; they may only raise one. Speech: they cannot speak clearly or may not understand you. Ask a question such as their name and see whether the answer fits. Time: call 999 or 112 and say you suspect a stroke after using FAST. While waiting, keep them comfortable and supported. Do not give anything to eat or drink, because swallowing may be difficult. Monitor response. If they become unresponsive, treat them as an unresponsive person. CDC's page, opened the same day, uses a longer checklist, B.E. F.A.S.T., which adds balance and eyes. That difference is its own card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Stroke",
+      "url": "https://www.sja.org.uk/first-aid-advice/stroke/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.stroke-cdc",
+    "first-aid.stroke-checklists"
+  ],
+  "tags": [
+    "first-aid",
+    "stroke"
+  ]
+}

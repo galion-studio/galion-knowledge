@@ -54,6 +54,7 @@ This site does not author the packs.
 | `v2/data/cards/diary/*.json` | Diary cards, if that pack adds any |
 | `v2/data/catalog.json` | Section and category names, colours, and icons. Owned by this site. |
 | `v2/memory/` and `v2/docs/MEMORY_STACK.md` | Diary, memory stack, and the FTS5 export. Not built here. |
+| `v2/shards/` | Add-on shards. Optional deeper packs. The catalog is [v2/docs/SHARDS.md](v2/docs/SHARDS.md). |
 
 ### Merging the sibling drafts
 

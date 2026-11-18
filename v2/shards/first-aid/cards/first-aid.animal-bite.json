@@ -1,0 +1,32 @@
+{
+  "id": "first-aid.animal-bite",
+  "title": "St John Ambulance: wash an animal bite with soap and warm water",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Control bleeding, then get care for a deep wound, a bite on the hands, feet, or face, possible rabies, or an uncertain tetanus history. A human bite is a reason to seek care the same day.",
+  "body": "St John Ambulance's animal-bite page says to wash the wound thoroughly with soap and warm water to reduce the chance of infection from the animal, and to apply pressure to control bleeding. Raise and support the wound, pat it dry, preferably with clean gauze, and cover it with a sterile dressing. Go to an emergency department if the wound is large or deep or you cannot stop the bleeding. Call 999 or 112 if you cannot go. Seek medical assistance or contact 111 if objects such as teeth, hair, or dirt may remain; if the bite may be infected (hot, swollen, redder or darker, unpleasant smell, pus, or a temperature); if the bite is on the hands, feet, or face; if there is a risk of rabies; or if the person is not sure they have had a tetanus jab in the last 10 years or the wound is dirty. If the bite is from another human, the page says there is also a small risk of hepatitis or HIV, and the person should seek medical help straight away. Pain relief it names is paracetamol or ibuprofen. Children under 16 should not be given aspirin.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Human and animal bites",
+      "url": "https://www.sja.org.uk/first-aid-advice/human-and-animal-bites/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.snakebite",
+    "first-aid.tick"
+  ],
+  "tags": [
+    "first-aid",
+    "bites"
+  ]
+}

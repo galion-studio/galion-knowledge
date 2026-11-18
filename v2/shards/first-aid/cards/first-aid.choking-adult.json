@@ -1,0 +1,33 @@
+{
+  "id": "first-aid.choking-adult",
+  "title": "St John Ambulance: adult choking is cough, then five back blows, then five abdominal thrusts",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "If the person can breathe, speak, or cough, they may clear it themselves. If they cannot, the page says five back blows, then five abdominal thrusts, then 999 or 112.",
+  "body": "St John Ambulance's adult choking page says to ask whether the person is choking. If they can breathe, speak, or cough, they might clear their own throat. If they cannot breathe, cough, or make any noise, they need help immediately. Encourage a cough and remove any obvious obstruction from the mouth. If coughing fails, give up to five sharp back blows: lean them forward, support the upper body, and strike between the shoulder blades with the heel of the hand. Check the mouth after each blow. If that fails, stand behind them, fist between the belly button and the bottom of the chest, grasp the fist, and pull sharply inward and upward up to five times. Check the mouth after each thrust. If the blockage remains, call 999 or 112 and repeat cycles of five back blows and five abdominal thrusts until help arrives. If they become unresponsive, prepare to start adult CPR. This page is about an adult. The child and baby pages differ.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Choking",
+      "url": "https://www.sja.org.uk/first-aid-advice/choking/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.choking-child",
+    "first-aid.choking-baby",
+    "first-aid.cpr-adult"
+  ],
+  "tags": [
+    "first-aid",
+    "choking"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "first-aid.crisis-988",
+  "title": "SAMHSA: in the United States, call, text, or chat 988",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "The 988 Suicide and Crisis Lifeline page says the line offers 24/7 support for mental health, substance use, and suicidal crisis. It is a United States number.",
+  "body": "The Substance Abuse and Mental Health Services Administration's page for the 988 Suicide and Crisis Lifeline, opened 2026-11-18, says: \"988 offers 24/7 judgment-free support for mental health, substance use, and more. Text, call, or chat 988.\" Another sentence on the page says the Lifeline provides 24/7, free and confidential support to people in suicidal crisis or emotional distress. The page also says access exists for people who are Deaf or hard of hearing, and for Spanish speakers. This is a United States service. It is not a clinical diagnosis, and it is not a substitute for 911 when someone is not breathing or is badly injured. St John Ambulance's pages, for the United Kingdom, say 999, 112, or NHS 111 depending on the problem. Those are different systems.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "988 Suicide & Crisis Lifeline",
+      "url": "https://www.samhsa.gov/mental-health/988",
+      "author": "U.S. Substance Abuse and Mental Health Services Administration",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Substance Abuse and Mental Health Services Administration",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.panic-attack",
+    "first-aid.uk-numbers"
+  ],
+  "tags": [
+    "first-aid",
+    "crisis"
+  ]
+}

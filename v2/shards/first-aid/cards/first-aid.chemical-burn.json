@@ -1,0 +1,33 @@
+{
+  "id": "first-aid.chemical-burn",
+  "title": "St John Ambulance: flood a chemical burn with water and do not neutralise it",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Brush off a dry chemical, then run cool or lukewarm water until the ambulance arrives. The page says not to hunt for an antidote and not to neutralise acid or alkali unless you are trained.",
+  "body": "St John Ambulance's chemical-burn page says to call 999 or 112 for a severe burn and to pass on whatever is known about the chemical. Make the area safe, wear gloves, and use an apron and eye protection if you have them. Ventilate indoor fumes. If the chemical is a powder, brush or pat it off the skin and remove contaminated clothing. If it is safe, seal the container. Flood the burn with cool or lukewarm running water until the ambulance arrives, pouring the water away from yourself. Do not delay treatment to search for an antidote. Never try to neutralise an acid or alkali burn unless you are trained to do so. Remove contaminated clothing while cooling continues if a second person with gloves can do that.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Chemical burns",
+      "url": "https://www.sja.org.uk/first-aid-advice/chemical-burn/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.burns-sja",
+    "first-aid.poisoning"
+  ],
+  "tags": [
+    "first-aid",
+    "burns",
+    "chemical"
+  ]
+}

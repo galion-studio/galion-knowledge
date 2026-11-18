@@ -3,7 +3,7 @@
 {% if card and not card._placeholder %}
 {% set cat = card.category | categoryOf(catalog) %}
 {% set sec = card.section | sectionOf(catalog) %}
-{% set relatedCards = cards | relatedTo(card) %}
+{% set relatedCards = library | relatedTo(card) %}
 <div class="progress" aria-hidden="true"><span data-progress></span></div>
 <header class="subhead">
   <div class="subhead-inner">
@@ -27,6 +27,9 @@
   </p>
   {% if card.slug and card.slug != card.id %}
     <p class="quiet">Also filed as <code>{{ card.slug }}</code>. The card id is {{ card.id }}.</p>
+  {% endif %}
+  {% if card.section == "shards" %}
+    <p class="quiet">Add-on shard. Loaded only when the core pack does not cover the question. <a href="{{ ("/shards/" + card.category + "/") | url }}">Shard page</a></p>
   {% endif %}
   <h1>{{ card.title }}</h1>
   <p class="lede">{{ card.summary }}</p>

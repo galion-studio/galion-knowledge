@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.bernoulli",
+  "title": "NASA Glenn: Bernoulli's simplest form assumes incompressible flow",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "Static pressure plus dynamic pressure, one-half density times speed squared, is constant along the flow in that form. The page says using it outside those assumptions gives a wrong answer.",
+  "body": "NASA Glenn's Bernoulli page, opened 2026-11-18, says one common form of the equation states that the static pressure plus the dynamic pressure, one half of the density times the velocity squared, is constant along the flow. It calls that constant the total pressure. The page says this simplest form was derived while assuming the flow is incompressible, so the density is constant. It warns that you must know the assumptions, and that outside them you may get an incorrect answer from the equation.\n\nThe page uses the relation for a low-speed constriction, where density is taken as constant, and for the pressure change along an airfoil streamline. It also says aircraft use a pitot-static tube: measure static and total pressure, then use Bernoulli's equation to compute the velocity. The page is a teaching derivation from the conservation of energy, not Bernoulli's 1738 book. The author's name on the page is Daniel Bernoulli.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Bernoulli's Equation",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/bern.html",
+      "author": "NASA Glenn Research Center",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA Glenn Research Center",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.newton-three-laws",
+    "physics-engineering.mach"
+  ],
+  "tags": [
+    "physics-engineering",
+    "fluids"
+  ]
+}

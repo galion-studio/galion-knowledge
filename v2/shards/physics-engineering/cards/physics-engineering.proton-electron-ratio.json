@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.proton-electron-ratio",
+  "title": "CODATA 2022: the proton-electron mass ratio is 1836.152 673 426",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 000 032.",
+  "body": "The NIST 2022 listing prints 'proton-electron mass ratio 1836.152 673 426' with standard uncertainty '0.000 000 032'. The number is dimensionless in that line. It is the ratio of the two masses printed elsewhere in the same table, not a separate kind of constant.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.proton-mass",
+    "physics-engineering.electron-mass"
+  ],
+  "tags": [
+    "physics-engineering",
+    "particle"
+  ]
+}

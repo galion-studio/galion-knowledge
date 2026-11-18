@@ -1,0 +1,32 @@
+{
+  "id": "first-aid.meningitis",
+  "title": "St John Ambulance: suspected meningitis is a 999 call or the emergency department",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Do not wait to see if it passes. If you are unsure while waiting, the page says contact NHS 111.",
+  "body": "St John Ambulance's meningitis page says that if someone is unwell and you think they have signs of meningitis, call 999 or 112 straight away or take them to the nearest hospital emergency department, so treatment can start as soon as possible. If you are waiting for help or you are unsure, contact NHS 111. The page says anyone of any age can get meningitis, and that it is more common in babies, children, and young adults. The sign list was not in the \"what to do\" extract used for this card, so this card does not invent a rash rule.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Meningitis",
+      "url": "https://www.sja.org.uk/first-aid-advice/meningitis/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.sepsis-sja",
+    "first-aid.sepsis-who"
+  ],
+  "tags": [
+    "first-aid",
+    "infection"
+  ]
+}

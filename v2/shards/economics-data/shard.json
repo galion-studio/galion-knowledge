@@ -1,0 +1,49 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "economics-data",
+  "title": "Economics, the measured series",
+  "scope": "National accounts, prices, and trade as the statistical offices publish them. A theory is labelled as a theory.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "economics-data",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The figures move. Freezing one year's GDP in the core would make the pack lie next year.",
+  "keywords": [
+    "gdp",
+    "inflation",
+    "trade",
+    "employment",
+    "national accounts"
+  ],
+  "primary_sources": [
+    {
+      "title": "U.S. Bureau of Economic Analysis",
+      "url": "https://www.bea.gov/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "FRED, Federal Reserve Bank of St. Louis",
+      "url": "https://fred.stlouisfed.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "IMF Data",
+      "url": "https://www.imf.org/en/Data",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "World Bank Group",
+      "url": "https://www.worldbank.org/ext/en/home",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

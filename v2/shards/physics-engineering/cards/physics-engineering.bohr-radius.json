@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.bohr-radius",
+  "title": "CODATA 2022: the Bohr radius is 5.291 772 105 44 × 10⁻¹¹ m",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 000 000 82 × 10⁻¹¹ m. The atomic unit of length is the same number.",
+  "body": "The NIST 2022 listing prints 'Bohr radius 5.291 772 105 44 e-11' with standard uncertainty '0.000 000 000 82 e-11', in metres. The line 'atomic unit of length' prints the same value and the same uncertainty. The Bohr radius is a measured derived quantity in this adjustment, not one of the seven defining constants.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.rydberg",
+    "physics-engineering.electron-mass"
+  ],
+  "tags": [
+    "physics-engineering",
+    "atomic"
+  ]
+}

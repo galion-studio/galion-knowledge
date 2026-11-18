@@ -1,0 +1,49 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "biology-organisms",
+  "title": "Organisms and taxonomy",
+  "scope": "Names, ranks, and ranges of living things. Molecular mechanisms stay in the core.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "biology-organisms",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "A taxonomy is a database. The core has genetics and evolution, not every species.",
+  "keywords": [
+    "species",
+    "taxonomy",
+    "ecology",
+    "plant",
+    "animal"
+  ],
+  "primary_sources": [
+    {
+      "title": "Integrated Taxonomic Information System",
+      "url": "https://www.itis.gov/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Catalogue of Life",
+      "url": "https://www.catalogueoflife.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "World Register of Marine Species",
+      "url": "https://www.marinespecies.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "International Plant Names Index",
+      "url": "https://www.ipni.org/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.two-standard-pressures",
+  "title": "CODATA lists two different exact pressures: 101 325 Pa and 100 000 Pa",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "Standard atmosphere is 101 325 Pa exact. Standard-state pressure is 100 000 Pa exact. They are not the same conventional number.",
+  "body": "The NIST 2022 listing prints 'standard atmosphere 101 325 (exact) Pa' and, as a separate line, 'standard-state pressure 100 000 (exact) Pa'. Both are marked exact. They are not equal. A calculation that needs 'standard pressure' has to say which of these two conventions it is using. The listing does not, on those two lines, say which communities use which one.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.standard-gravity"
+  ],
+  "tags": [
+    "physics-engineering",
+    "convention",
+    "pressure"
+  ]
+}

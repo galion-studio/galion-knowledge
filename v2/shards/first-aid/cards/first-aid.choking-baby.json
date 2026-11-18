@@ -1,0 +1,33 @@
+{
+  "id": "first-aid.choking-baby",
+  "title": "St John Ambulance: a choking baby gets back blows and chest thrusts, not abdominal thrusts",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "If a baby cannot breathe, cry, or cough, the page says five back blows, then up to five chest thrusts. Babies who received chest thrusts should be seen in hospital.",
+  "body": "St John Ambulance's baby choking page says a baby who can breathe, make noise, or cough may clear their own airway. A baby who cannot breathe, cry, or cough needs five back blows: lay the baby face down along your thigh, support the head, and strike between the shoulder blades. If that fails, turn the baby onto their back on your knees or a firm surface and give up to five chest thrusts. Both thumbs go on the breastbone, one finger's breadth below the nipple line, fingers around the chest, pushing sharply downward. Call 999 or 112 if it has not cleared, and take the baby with you to make the call. Repeat up to five back blows and five chest thrusts until help arrives, the airway clears, or the baby becomes unresponsive. If the baby becomes unresponsive, do a primary survey and start baby CPR if required. The page says all babies who have received chest thrusts should be seen in hospital. It does not tell you to use abdominal thrusts on a baby.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Choking baby",
+      "url": "https://www.sja.org.uk/first-aid-advice/baby-choking/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.choking-adult",
+    "first-aid.choking-child"
+  ],
+  "tags": [
+    "first-aid",
+    "choking",
+    "baby"
+  ]
+}

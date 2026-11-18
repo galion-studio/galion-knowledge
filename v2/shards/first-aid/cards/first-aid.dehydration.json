@@ -1,0 +1,32 @@
+{
+  "id": "first-aid.dehydration",
+  "title": "St John Ambulance: dehydration is rest, clear fluids, and no caffeine or alcohol",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Oral rehydration sachets are an option if you follow the packet dose. Seek advice if they cannot keep fluids down.",
+  "body": "St John Ambulance's dehydration page says to have the person sit and rest in a cool place, drink plenty of water or other clear fluids, and avoid caffeine and alcohol. Oral rehydration sachets from a pharmacy can replace salt and minerals. Follow the packet for the dose for children and for adults. This card does not supply a recipe, because the page points at the packet rather than printing a formula. If the cause is very hot weather, the page points to its heat-exhaustion advice. Keep checking. If they still feel unwell after rehydrating, or they cannot keep fluids down because of persistent or severe vomiting, seek medical advice. The page says untreated dehydration can develop into heat exhaustion.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Dehydration",
+      "url": "https://www.sja.org.uk/first-aid-advice/dehydration/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.heat-exhaustion",
+    "first-aid.diarrhoea-who"
+  ],
+  "tags": [
+    "first-aid",
+    "dehydration"
+  ]
+}

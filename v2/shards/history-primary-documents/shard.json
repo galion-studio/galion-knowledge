@@ -1,0 +1,56 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "history-primary-documents",
+  "title": "History, primary documents",
+  "scope": "What a named document says: a clause, an article, a holding. The core says the document exists. This shard quotes it. A later political use of the sentence is kept only when a second opened source states that use.",
+  "version": "1",
+  "card_count": 52,
+  "sha256": "d9d6cbfa521622b81f46a393a6778757e867ada5796d8ec6b62c7d02a50b690f",
+  "bytes": 106698,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "history-primary-documents",
+  "priority": "high",
+  "status": "seeded",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "Clause-level text is the depth. The always-on pack stays at the document's existence and its most cited sentence.",
+  "keywords": [
+    "constitution",
+    "declaration",
+    "treaty",
+    "charter",
+    "amendment",
+    "covenant",
+    "proclamation"
+  ],
+  "primary_sources": [
+    {
+      "title": "America's Founding Documents, National Archives",
+      "url": "https://www.archives.gov/founding-docs",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "United Nations Charter",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "The North Atlantic Treaty",
+      "url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/1949/04/04/the-north-atlantic-treaty",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Avalon Project",
+      "url": "https://avalon.law.yale.edu/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Constitute",
+      "url": "https://www.constituteproject.org/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

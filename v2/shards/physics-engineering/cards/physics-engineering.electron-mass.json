@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.electron-mass",
+  "title": "CODATA 2022: the electron mass is 9.109 383 7139 × 10⁻³¹ kg",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 000 0028 × 10⁻³¹ kg. The mass-energy equivalent is 0.510 998 950 69 MeV.",
+  "body": "The NIST 2022 listing prints 'electron mass 9.109 383 7139 e-31' with standard uncertainty '0.000 000 0028 e-31', in kilograms. The same listing prints 'electron mass energy equivalent in MeV 0.510 998 950 69' with standard uncertainty '0.000 000 000 16' MeV. It also prints 'electron mass in u 5.485 799 090 441 e-4' with standard uncertainty '0.000 000 000 097 e-4' u. The electron g factor on the same listing is '−2.002 319 304 360 92' with standard uncertainty '0.000 000 000 000 36'. These are measured quantities. They are not defining constants.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.proton-mass",
+    "physics-engineering.proton-electron-ratio"
+  ],
+  "tags": [
+    "physics-engineering",
+    "particle"
+  ]
+}
