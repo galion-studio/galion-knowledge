@@ -1,0 +1,51 @@
+{
+  "id": "world.chemistry.element-xe",
+  "title": "NIST: standard atomic weight of Xenon (Xe, Z=54) is 131.293(6)",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "NIST prints the standard atomic weight field of Xenon (Xe, Z=54) as 131.293(6), with the isotope rows in the same file.",
+  "body": "PubChem's periodic-table row names atomic number 54, symbol Xe, as Xenon. The NIST compositions file prints the standard atomic weight of Xenon as 131.293(6). The parenthesis is the uncertainty NIST prints on the last digits of that standard atomic weight. It is an evaluated standard, not one laboratory weighing of one sample. Geological materials are known in which the element has an isotopic composition outside the limits for normal material. The difference between the atomic weight of the element in such materials and that given in the table may exceed the stated uncertainty. Modified isotopic compositions may be found in commercially available material because the material has been subjected to an undisclosed or inadvertent isotopic fractionation. Substantial deviations in atomic weight of the element from that given in the table can occur. Isotope rows in the same file: Xe-124 relative atomic mass 123.9058920(19), isotopic composition 0.000952(3); Xe-126 relative atomic mass 125.9042983(38), isotopic composition 0.000890(2); Xe-128 relative atomic mass 127.9035310(11), isotopic composition 0.019102(8); Xe-129 relative atomic mass 128.9047808611(60), isotopic composition 0.264006(82); Xe-130 relative atomic mass 129.903509349(10), isotopic composition 0.040710(13); Xe-131 relative atomic mass 130.90508406(24), isotopic composition 0.212324(30); Xe-132 relative atomic mass 131.9041550856(56), isotopic composition 0.269086(33); Xe-134 relative atomic mass 133.90539466(90), isotopic composition 0.104357(21); Xe-136 relative atomic mass 135.907214484(11), isotopic composition 0.088573(44). A relative atomic mass is scaled to carbon-12. An isotopic composition, when the field is not blank, is a representative mole fraction, not a new assay made for this card. The symbols for an interval, a parenthesis, a bracket, and a # mark are defined on world.chemistry.nist-atomic-weight-notation. This standard atomic weight is not the Chemistry WebBook molecular-weight field, which is a different catalog entry when one exists.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Atomic Weights and Isotopic Compositions for All Elements",
+      "url": "https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ele=&ascii=ascii2&isotype=some",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "ASCII extract fetched 2026-11-18. The extract does not print its own revision date."
+    },
+    {
+      "title": "Atomic Weights and Isotopic Compositions - Column Descriptions",
+      "url": "https://www.nist.gov/pml/atomic-weights-and-isotopic-compositions-column-descriptions",
+      "author": "National Institute of Standards and Technology",
+      "date": "2023-03-01",
+      "accessed": "2026-11-18",
+      "note": "Definitions of interval, parenthesis, brackets, #, and notes g, m, r."
+    },
+    {
+      "title": "PubChem periodic table JSON",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
+      "author": "National Center for Biotechnology Information, PubChem",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Used for the element name on the atomic-number row. The atomic-weight cell on that PubChem row is not the number reported here."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Physical Measurement Laboratory",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.nist-atomic-weight-notation"
+  ],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "element",
+    "Xe",
+    "atomic-weight"
+  ],
+  "read_time_min": 2
+}

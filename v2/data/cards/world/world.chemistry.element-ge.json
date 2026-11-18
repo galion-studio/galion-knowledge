@@ -1,0 +1,51 @@
+{
+  "id": "world.chemistry.element-ge",
+  "title": "NIST: standard atomic weight of Germanium (Ge, Z=32) is 72.630(8)",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "NIST prints the standard atomic weight field of Germanium (Ge, Z=32) as 72.630(8), with the isotope rows in the same file.",
+  "body": "PubChem's periodic-table row names atomic number 32, symbol Ge, as Germanium. The NIST compositions file prints the standard atomic weight of Germanium as 72.630(8). The parenthesis is the uncertainty NIST prints on the last digits of that standard atomic weight. It is an evaluated standard, not one laboratory weighing of one sample. The notes field on this element's rows is blank. Isotope rows in the same file: Ge-70 relative atomic mass 69.92424875(90), isotopic composition 0.2057(27); Ge-72 relative atomic mass 71.922075826(81), isotopic composition 0.2745(32); Ge-73 relative atomic mass 72.923458956(61), isotopic composition 0.0775(12); Ge-74 relative atomic mass 73.921177761(13), isotopic composition 0.3650(20); Ge-76 relative atomic mass 75.921402726(19), isotopic composition 0.0773(12). A relative atomic mass is scaled to carbon-12. An isotopic composition, when the field is not blank, is a representative mole fraction, not a new assay made for this card. The symbols for an interval, a parenthesis, a bracket, and a # mark are defined on world.chemistry.nist-atomic-weight-notation. This standard atomic weight is not the Chemistry WebBook molecular-weight field, which is a different catalog entry when one exists.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Atomic Weights and Isotopic Compositions for All Elements",
+      "url": "https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ele=&ascii=ascii2&isotype=some",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "ASCII extract fetched 2026-11-18. The extract does not print its own revision date."
+    },
+    {
+      "title": "Atomic Weights and Isotopic Compositions - Column Descriptions",
+      "url": "https://www.nist.gov/pml/atomic-weights-and-isotopic-compositions-column-descriptions",
+      "author": "National Institute of Standards and Technology",
+      "date": "2023-03-01",
+      "accessed": "2026-11-18",
+      "note": "Definitions of interval, parenthesis, brackets, #, and notes g, m, r."
+    },
+    {
+      "title": "PubChem periodic table JSON",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
+      "author": "National Center for Biotechnology Information, PubChem",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Used for the element name on the atomic-number row. The atomic-weight cell on that PubChem row is not the number reported here."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Physical Measurement Laboratory",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.nist-atomic-weight-notation"
+  ],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "element",
+    "Ge",
+    "atomic-weight"
+  ],
+  "read_time_min": 1
+}

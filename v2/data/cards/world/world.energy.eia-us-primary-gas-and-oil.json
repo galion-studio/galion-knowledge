@@ -1,0 +1,35 @@
+{
+  "id": "world.energy.eia-us-primary-gas-and-oil",
+  "title": "EIA: natural gas was about 36 percent of U.S. primary energy in 2025, 34.6 quads",
+  "section": "world",
+  "category": "technology",
+  "summary": "The EIA U.S. energy-facts page says 2025 natural-gas consumption was about 36 percent of primary energy, 34.6 quadrillion Btu, and that 1978 petroleum consumption was 37.9 quads.",
+  "body": "The EIA page on U.S. energy facts says fossil fuels have dominated the U.S. energy mix for more than 100 years. It says that in 1978 petroleum consumption was about 49 percent, or 37.9 quadrillion British thermal units, of total U.S. energy consumption. It says natural-gas consumption was about 18 percent (5.97 quads) of primary energy in 1950 and about 36 percent (34.6 quads) in 2025. It says U.S. crude-oil production reached a record high in 2025, and it attributes the rise to drilling and production in tight oil and shale. That attribution is the page's account of the cause. The 34.6 quad figure is the consumption number the page prints. A quad is the page's heat-energy unit for comparing fuels. It is not a price.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "U.S. energy facts explained",
+      "url": "https://www.eia.gov/energyexplained/us-energy-facts/",
+      "author": "U.S. Energy Information Administration",
+      "date": "2025",
+      "accessed": "2026-11-18",
+      "note": "Primary-energy paragraphs for petroleum and natural gas. Fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Energy Information Administration",
+  "as_of_date": "2025",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.tech.btu",
+    "world.core.tech.oil-barrel"
+  ],
+  "tags": [
+    "core-pack",
+    "area:energy",
+    "primary-energy",
+    "measured"
+  ],
+  "read_time_min": 1
+}

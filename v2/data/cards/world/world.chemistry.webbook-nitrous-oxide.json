@@ -1,0 +1,34 @@
+{
+  "id": "world.chemistry.webbook-nitrous-oxide",
+  "title": "NIST WebBook: Nitrous oxide is N2O, molecular weight 44.0128 amu",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The NIST Chemistry WebBook lists Nitrous oxide as N2O, molecular weight 44.0128 amu, CAS 10024-97-2.",
+  "body": "The NIST Chemistry WebBook entry for Nitrous oxide, CAS Registry Number 10024-97-2, lists molecular formula N2O and molecular weight 44.0128 amu. The same entry's monoisotopic molecular weight is 44.0010626292 amu. The IUPAC InChI on the entry is InChI=1S/N2O/c1-2-3. The molecular weight and the monoisotopic mass are two different fields. This card reports the catalog entry. It does not convert either field into a molar mass in grams, and it does not say that every real sample has that weight. It is also not the standard atomic weight in the NIST isotopic-composition file.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Nitrous oxide, NIST Chemistry WebBook SRD 69",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C10024972&Units=SI",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "JSON-LD MolecularEntity and the CAS line on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.nist-atomic-weight-notation"
+  ],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "webbook",
+    "N2O"
+  ],
+  "read_time_min": 1
+}

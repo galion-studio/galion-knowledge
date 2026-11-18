@@ -1,0 +1,35 @@
+{
+  "id": "world.physics.nist-asd-sodium-d",
+  "title": "NIST ASD: sodium D lines at 588.995095 nm and 589.592424 nm in air",
+  "section": "world",
+  "category": "physics",
+  "summary": "The NIST ASD retrieval for Na I lists observed air wavelengths 588.995095 nm and 589.592424 nm, each with uncertainty 0.000003 nm.",
+  "body": "The NIST Atomic Spectra Database retrieval for Na between 580 and 600 nm lists two Na I lines. Observed air wavelength 588.995095 nm, uncertainty 0.000003 nm, from 3s 2S 1/2 to 3p 2P* 3/2, relative intensity 80000, Einstein A 6.16 × 10^7 s^−1, accuracy AA. Observed air wavelength 589.592424 nm, uncertainty 0.000003 nm, from 3s 2S 1/2 to 3p 2P* 1/2, relative intensity 40000, Einstein A 6.14 × 10^7 s^−1, accuracy AA. The wavelength column is labeled observed, in air. The Einstein A column is a transition probability, not the wavelength measurement.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST Atomic Spectra Database, Na lines 580–600 nm",
+      "url": "https://physics.nist.gov/cgi-bin/ASD/lines1.pl?spectra=Na&limits_type=0&low_w=580&upp_w=600&unit=1&de=0&format=1&line_out=0&remove_js=on&en_unit=0&output=0&bibrefs=1&page_size=15&show_obs_wl=1&unc_out=1&order_out=0&show_av=2&tsb_value=0&min_str=&A_out=0&intens_out=on&max_str=&allowed_out=1&forbid_out=1&min_accur=&min_intens=&conf_out=on&term_out=on&enrg_out=on&J_out=on&submit=Retrieve+Data",
+      "author": "National Institute of Standards and Technology, Atomic Spectra Database",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Retrieval fetched 2026-11-18. Column header: Observed Wavelength, Air (nm)."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Atomic Spectra Database",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.element-na"
+  ],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "optics",
+    "sodium",
+    "measurement"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.chemistry.webbook-potassium-nitrate",
+  "title": "NIST WebBook: potassium nitrate is KNO3, molecular weight 101.1032 amu",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The NIST Chemistry WebBook lists potassium nitrate as KNO3, molecular weight 101.1032 amu, CAS 7757-79-1.",
+  "body": "The NIST Chemistry WebBook entry for potassium nitrate, CAS Registry Number 7757-79-1, lists molecular formula KNO3 and molecular weight 101.1032 amu. The same entry's monoisotopic molecular weight is 100.95152454 amu. The IUPAC InChI on the entry is InChI=1S/K.NO3/c;2-1(3)4/q+1;-1. The molecular weight and the monoisotopic mass are two different fields. This card reports the catalog entry. It does not convert either field into a molar mass in grams, and it does not say that every real sample has that weight. It is also not the standard atomic weight in the NIST isotopic-composition file.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "potassium nitrate, NIST Chemistry WebBook SRD 69",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7757791&Units=SI",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "JSON-LD MolecularEntity and the CAS line on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.nist-atomic-weight-notation"
+  ],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "webbook",
+    "KNO3"
+  ],
+  "read_time_min": 1
+}

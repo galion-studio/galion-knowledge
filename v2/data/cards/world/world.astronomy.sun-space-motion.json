@@ -1,0 +1,33 @@
+{
+  "id": "world.astronomy.sun-space-motion",
+  "title": "NASA Sun fact sheet: speed relative to nearby stars 19.4",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The Sun fact sheet lists speed relative to nearby stars as 19.4.",
+  "body": "NASA's Sun fact sheet lists Speed relative to nearby stars (km/s) as 19.4 for the Sun. Listed under rotational and orbital parameters. Mass, volumetric mean radius, luminosity, spectral type, and the sidereal rotation period are on other cards and are not repeated as the claim here. Last Updated line: 9 May 2024.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sun Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-05-09",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line: 9 May 2024."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-05-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.sun-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "sun"
+  ],
+  "read_time_min": 1
+}

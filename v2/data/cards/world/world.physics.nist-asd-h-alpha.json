@@ -1,0 +1,35 @@
+{
+  "id": "world.physics.nist-asd-h-alpha",
+  "title": "NIST ASD: hydrogen 2–3 air wavelength 656.279 nm, beside resolved components",
+  "section": "world",
+  "category": "physics",
+  "summary": "The retrieved hydrogen table lists an unresolved 2–3 line at 656.279 ± 0.003 nm in air, and resolved components from 656.270970 nm to 656.285175 nm.",
+  "body": "The NIST Atomic Spectra Database retrieval for H between 400 and 700 nm lists an observed air wavelength 656.279 nm, uncertainty 0.003 nm, for the transition whose levels are given only as 2 and 3. Relative intensity on that row is 500000. The Einstein A on that row is 4.4101 × 10^7 s^−1, accuracy AAA. The same retrieval lists resolved components: 656.270970 nm (uncertainty 0.000004) for 2p 2P* 1/2 to 3d 2D 3/2; 656.272483 nm (0.000003) for 2s 2S 1/2 to 3p 2P* 3/2; 656.277153 nm (0.000003) for 2s 2S 1/2 to 3p 2P* 1/2; and 656.285175 nm (0.000007) for 2p 2P* 3/2 to 3d 2D 5/2. The page says wavelengths of lines designated only by principal quantum numbers are for unresolved fine structure and are pertinent to solar-corona observations, and that laboratory relative intensities can differ by orders of magnitude. The 656.279 nm row is that unresolved listing. The four longer-decimal rows are the classified components on the same retrieval. Wavelengths are air wavelengths, as the column header says.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST Atomic Spectra Database, H lines 400–700 nm",
+      "url": "https://physics.nist.gov/cgi-bin/ASD/lines1.pl?spectra=H&limits_type=0&low_w=400&upp_w=700&unit=1&de=0&format=1&line_out=0&remove_js=on&en_unit=0&output=0&bibrefs=1&page_size=15&show_obs_wl=1&unc_out=1&order_out=0&show_av=2&tsb_value=0&min_str=&A_out=0&intens_out=on&max_str=&allowed_out=1&forbid_out=1&min_accur=&min_intens=&conf_out=on&term_out=on&enrg_out=on&J_out=on&submit=Retrieve+Data",
+      "author": "National Institute of Standards and Technology, Atomic Spectra Database",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "NIST ASD retrieval fetched 2026-11-18. Column header: Observed Wavelength, Air (nm). The page says lines labeled only by principal quantum numbers correspond to unresolved fine structure and that those wavelengths are pertinent to solar-corona observations."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Atomic Spectra Database",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.physics.rydberg"
+  ],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "optics",
+    "hydrogen",
+    "measurement"
+  ],
+  "read_time_min": 1
+}

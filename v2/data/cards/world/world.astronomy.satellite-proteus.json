@@ -1,0 +1,34 @@
+{
+  "id": "world.astronomy.satellite-proteus",
+  "title": "NASA Neptune satellite sheet: Proteus (NVIII) mass 0.5×10^20 kg, radius 220 x 208 x 202 km",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The Neptune satellite fact sheet lists Proteus (NVIII) at mass 0.5 × 10^20 kg and radius 220 x 208 x 202 km.",
+  "body": "NASA's Neptune satellite fact sheet lists Proteus (NVIII) with mass 0.5 × 10^20 kg, radius 220 x 208 x 202 km, mean density blank kg/m^3, and visual geometric albedo 0.10. Orbital parameters on the same sheet: Semimajor axis (10^3 km) = 117.647; semimajor axis (Neptune radii) = 4.751; orbital period (days) = 1.122315; rotation period (days) is blank; inclination (degrees) = 0.04; eccentricity = 0.0004. The density cell is blank on the sheet and is not filled in here. These are the cells printed on the sheet. The sheet does not say, on this row, which cells are a spacecraft measurement and which are an estimate. Author of the sheet: Dr. David R. Williams, NASA Goddard Space Flight Center. Last Updated line: 11 March 2024.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Neptune satellite fact sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2024-03-11",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line: 11 March 2024."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2024-03-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.neptune-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "neptune",
+    "proteus"
+  ],
+  "read_time_min": 1
+}

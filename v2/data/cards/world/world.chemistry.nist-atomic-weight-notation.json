@@ -1,0 +1,33 @@
+{
+  "id": "world.chemistry.nist-atomic-weight-notation",
+  "title": "NIST: how a standard atomic weight, an interval, a bracket, and a # mark differ",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "NIST's 1 March 2023 column notes separate an atomic-weight interval, a parenthetical uncertainty, a bracketed mass number, and a # mark that is partly from systematic trends.",
+  "body": "NIST's column description, updated March 1, 2023, says a standard atomic weight may be printed as an interval [a, b], meaning a ≤ Ar(E) ≤ b for normal materials. A value in parentheses is an uncertainty on the last digits. Brackets around a single value are the mass number of the most stable isotope. For atomic numbers 95 or greater, that mass number is not specified, because the list of studied isotopes is still incomplete. If a # mark is present on a relative atomic mass, the value and error were derived not from purely experimental data, but at least partly from systematic trends. Relative atomic masses are scaled to Ar(12C) = 12 for a neutral atom in its nuclear and electronic ground state. A representative isotopic composition is a mole fraction. NIST says that, in the opinion of the Subcommittee for Isotopic Abundance Measurements, those values represent the chemicals and materials most commonly encountered in the laboratory, and the parenthetical uncertainties cover probable variations as well as experimental errors. Note g: geological materials can fall outside the limits for normal material. Note m: commercial material may have been isotopically fractionated. Note r: the range in normal terrestrial material prevents a more precise standard atomic weight. An interval is not the uncertainty of one sample. A # mark is not a purely experimental mass.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Atomic Weights and Isotopic Compositions - Column Descriptions",
+      "url": "https://www.nist.gov/pml/atomic-weights-and-isotopic-compositions-column-descriptions",
+      "author": "National Institute of Standards and Technology",
+      "date": "2023-03-01",
+      "accessed": "2026-11-18",
+      "note": "Page states Created September 1, 2009, Updated March 1, 2023. Fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Physical Measurement Laboratory",
+  "as_of_date": "2023-03-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "iupac-ciaaw",
+    "atomic-weight",
+    "measured-vs-model"
+  ],
+  "read_time_min": 2
+}

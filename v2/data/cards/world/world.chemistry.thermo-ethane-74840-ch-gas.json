@@ -1,0 +1,32 @@
+{
+  "id": "world.chemistry.thermo-ethane-74840-ch-gas",
+  "title": "NIST WebBook: Ethane gas-phase standard enthalpy of combustion",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The WebBook lists 3 gas-phase standard enthalpy of combustion row(s) for Ethane. Reviewed rows and experimental rows are both quoted.",
+  "body": "The NIST Chemistry WebBook gas-phase standard enthalpy of combustion rows for Ethane (CAS 74-84-0) print: -1560.7 ± 0.3 kJ/mol, method Ccb, reference Pittam and Pilcher, 1972, comment: Corresponding Δ f Hº gas = -83.85 kJ/mol (simple calculation by NIST; no Washburn corrections); ALS (experimental or compiled row) | -1559.9 ± 0.46 kJ/mol, method Ccb, reference Prosen and Rossini, 1945, comment: Hf derived from Heat of Hydrogenation; Corresponding Δ f Hº gas = -84.64 kJ/mol (simple calculation by NIST; no Washburn corrections); ALS (experimental or compiled row) | -1559.8 ± 0.46 kJ/mol, method Ccb, reference Rossini, 1934, comment: Corresponding Δ f Hº gas = -84.68 kJ/mol (simple calculation by NIST; no Washburn corrections); ALS (experimental or compiled row). The page mixes reviewed or averaged rows with rows tied to a named experiment or compilation. A Review or AVG method is an evaluation. A Ccb method is combustion calorimetry, as the WebBook method code is linked. This card does not average the rows into a new number.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Ethane thermochemistry, NIST Chemistry WebBook",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C74840&Units=SI&Mask=1",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Rows fetched 2026-11-18 from the Mask page. Comments are shortened only when longer than 280 characters."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "thermochemistry",
+    "measured-vs-evaluated"
+  ],
+  "read_time_min": 1
+}

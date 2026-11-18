@@ -1,0 +1,34 @@
+{
+  "id": "world.chemistry.webbook-iron-iii-oxide",
+  "title": "NIST WebBook: Indian red oxide is Fe2O3, molecular weight 159.688 amu",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The NIST Chemistry WebBook lists Indian red oxide as Fe2O3, molecular weight 159.688 amu, CAS 1309-37-1.",
+  "body": "The NIST Chemistry WebBook entry for Indian red oxide, CAS Registry Number 1309-37-1, lists molecular formula Fe2O3 and molecular weight 159.688 amu. The same entry's monoisotopic molecular weight is 159.8546189 amu. The IUPAC InChI on the entry is InChI=1S/2Fe.3O. The molecular weight and the monoisotopic mass are two different fields. This card reports the catalog entry. It does not convert either field into a molar mass in grams, and it does not say that every real sample has that weight. It is also not the standard atomic weight in the NIST isotopic-composition file.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Indian red oxide, NIST Chemistry WebBook SRD 69",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C1309371&Units=SI",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "JSON-LD MolecularEntity and the CAS line on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.nist-atomic-weight-notation"
+  ],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "webbook",
+    "Fe2O3"
+  ],
+  "read_time_min": 1
+}

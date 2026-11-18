@@ -44,6 +44,20 @@ Element-by-element spectral lines, the full nuclide chart, every CODATA derived 
 
 Open the page. One claim. Put the URL you opened in `sources`, with author, date, and `accessed`. Do not label the card above the truth-gate ceiling for that host. `iaea.org` currently ceilings at `weak`. NIST, BIPM, NASA, and arXiv can carry `strong` when the claim is the row or the sentence that was read. Tag `core-pack` and `area:` with one of `constants`, `physics`, `matter`, `chemistry`, `astronomy`, `cosmology`.
 
+### Gap fill, 18 November 2026
+
+360 cards added in `v2/data/cards/world/`. 360 are `strong`. 354 are `fact`, 5 are `contested`, 1 is `interpretation`. None are `weak`. The eleven IAEA half-life cards stay `weak`, because their claim is still the Live Chart row and `iaea.org` is still class `other`. Each of those cards now links an NNDC wallet-card row from a `.gov` PDF. Where the printed strings differ (14C, 137Cs, 222Rn, 238U), the NNDC card is `contested` and keeps both strings. It does not average them.
+
+| Area | Cards | What was opened |
+| --- | ---: | --- |
+| Chemistry | 182 | NIST isotopic compositions for all 118 elements: interval, parenthetical uncertainty, bracketed mass number, or a blank standard-weight field. A `#` mark is labeled as partly from systematic trends, which is NIST's own sentence. NIST WebBook identity rows for compounds not already carded. WebBook formation, combustion, entropy, and water phase-change rows, with Review or AVG rows labeled as evaluations and Ccb rows labeled as combustion calorimetry. |
+| Physics | 108 | 2022 CODATA rows that were not already carded, each marked exact or not from the ASCII file. October 2023 NNDC wallet-card half-lives, with superscripts read from the PDF glyphs. NIST ASD air wavelengths for hydrogen 656.279 nm and 486.135 nm, the resolved components beside them, and the sodium D lines. Fermilab 2021 muon g−2 beside the 2020 Standard Model calculation. The 2013 proton-radius review, which states the disagreement and does not print the later CODATA radius. SNO 2002 fluxes. |
+| Astronomy | 46 | NASA fact-sheet rows for the Galilean moons, the major moons of Saturn and Uranus, Triton, Proteus, and Nereid, with the sheet's own warning that it does not say which cell is a measurement. Selected asteroids under the sheet's sentence that most masses and many diameters are rough estimates. Sun bulk parameters kept apart from the heading "Model values at center of Sun." IAU 2015 Resolution B3 nominal constants, which the text says are exact conversion values, beside the cycle-23 TSI 1361 ± 1 W m^−2 and the calculated luminosity 3.8275 (±0.0014) × 10^26 W. |
+| Energy | 19 | EIA utility-scale generation for 2023, preliminary, by source, plus the 2025 page as a later year rather than a rewrite of 2023. Small-scale solar is labeled an estimate because the EIA uses that word. Pumped storage is the table's negative number. Reactor counts and the 2021 country table are the nuclear page's own figures. |
+| Cosmology | 5 | Riess 1998 and Perlmutter 1999 supernova fits, labeled as fits. SH0ES H0 = 73.04 ± 1.04 km/s/Mpc, with the abstract's statement that the difference from Planck+ΛCDM is unexplained. WMAP nine-year limits labeled as model constraints. The SDSS baryon-acoustic peak at 100 h^−1 Mpc, with the peak as the measurement and the sound-horizon reading as the authors' interpretation. |
+
+Still not in this tranche, because the page was not opened or the extract was not trustworthy: an exoplanet census total, the full nuclide chart beyond the wallet-card rows that were checked, CIAAW's own interval table as a second host (NIST already prints the intervals), and a journal version of Hubble 1929 (the PNAS PDF returned 403). Wikipedia was not used.
+
 ## History and religions
 
 235 new cards in `v2/data/cards/world/`. 191 are `history`. 44 are `religion`. Every card is one claim. Every card has at least one source URL that was opened on 18 November 2026. 235 of 235 are sourced. No card file that already existed was rewritten, and `src/` was not touched.

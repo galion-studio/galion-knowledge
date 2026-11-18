@@ -1,0 +1,34 @@
+{
+  "id": "world.astronomy.demorest-neutron-star-mass",
+  "title": "Demorest and colleagues: PSR J1614−2230 mass 1.97 ± 0.04 solar masses",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "Shapiro-delay timing gives a pulsar mass of 1.97 ± 0.04 solar masses. The abstract's statement about hyperons is the authors' inference from that mass.",
+  "body": "The abstract of Demorest, Pennucci, Ransom, Roberts, and Hessels reports radio timing of the binary millisecond pulsar PSR J1614−2230 and a Shapiro delay. The implied pulsar mass is 1.97 ± 0.04 solar masses. That mass is the timing measurement. The abstract also says this mass effectively rules out hyperons, bosons, or free quarks at densities comparable to nuclear saturation density. That sentence is the authors' inference from the mass about the equation of state. It is not a separate laboratory search for those particles.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Shapiro delay measurement of a two solar mass neutron star",
+      "url": "https://arxiv.org/abs/1010.5788",
+      "author": "Paul Demorest, Tim Pennucci, Scott Ransom, Mallory Roberts, and Jason Hessels",
+      "date": "2010-10-27",
+      "accessed": "2026-11-18",
+      "note": "arXiv abstract submitted 27 October 2010, fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Paul Demorest and colleagues",
+  "as_of_date": "2010-10-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.science.general-relativity-1916"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "neutron-star",
+    "measurement"
+  ],
+  "read_time_min": 1
+}

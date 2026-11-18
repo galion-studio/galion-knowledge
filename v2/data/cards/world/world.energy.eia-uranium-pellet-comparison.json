@@ -1,0 +1,34 @@
+{
+  "id": "world.energy.eia-uranium-pellet-comparison",
+  "title": "EIA: one uranium ceramic pellet produces about as much energy as 150 gallons of oil",
+  "section": "world",
+  "category": "technology",
+  "summary": "The EIA nuclear page says each ceramic fuel pellet produces about the same amount of energy as 150 gallons of oil. The word on the page is about.",
+  "body": "The EIA nuclear page says uranium ore is processed into ceramic pellets and that each ceramic pellet produces about the same amount of energy as 150 gallons of oil. The comparison is the page's, and it says about. This card does not convert the sentence into a joule figure the page does not print, and it does not state a burnup or an enrichment.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Nuclear power plants",
+      "url": "https://www.eia.gov/energyexplained/nuclear/nuclear-power-plants.php",
+      "author": "U.S. Energy Information Administration",
+      "date": "2023-08-21",
+      "accessed": "2026-11-18",
+      "note": "Pellet comparison sentence. Fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Energy Information Administration",
+  "as_of_date": "2023-08-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.energy.eia-nuclear-reactors-2023"
+  ],
+  "tags": [
+    "core-pack",
+    "area:energy",
+    "nuclear",
+    "comparison"
+  ],
+  "read_time_min": 1
+}

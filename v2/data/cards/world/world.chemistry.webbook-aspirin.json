@@ -1,0 +1,34 @@
+{
+  "id": "world.chemistry.webbook-aspirin",
+  "title": "NIST WebBook: Aspirin is C9H8O4, molecular weight 180.1574 amu",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The NIST Chemistry WebBook lists Aspirin as C9H8O4, molecular weight 180.1574 amu, CAS 50-78-2.",
+  "body": "The NIST Chemistry WebBook entry for Aspirin, CAS Registry Number 50-78-2, lists molecular formula C9H8O4 and molecular weight 180.1574 amu. The same entry's monoisotopic molecular weight is 180.0422587 amu. The IUPAC InChI on the entry is InChI=1S/C9H8O4/c1-6(10)13-8-5-3-2-4-7(8)9(11)12/h2-5H,1H3,(H,11,12). The molecular weight and the monoisotopic mass are two different fields. This card reports the catalog entry. It does not convert either field into a molar mass in grams, and it does not say that every real sample has that weight. It is also not the standard atomic weight in the NIST isotopic-composition file.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Aspirin, NIST Chemistry WebBook SRD 69",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C50782&Units=SI",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "JSON-LD MolecularEntity and the CAS line on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.nist-atomic-weight-notation"
+  ],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "webbook",
+    "C9H8O4"
+  ],
+  "read_time_min": 1
+}

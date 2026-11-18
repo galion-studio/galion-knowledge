@@ -1,0 +1,32 @@
+{
+  "id": "world.astronomy.asteroid-sheet-estimates",
+  "title": "NASA asteroid fact sheet: most masses, and many diameters, are rough estimates",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet says most mass values and many diameter values are only rough estimates, and gives orbit values for epoch JD 2457400.5.",
+  "body": "NASA's Asteroid Fact Sheet says: \"Most of the values for mass and many of the diameter values are only rough estimates.\" It also says orbit values are for epoch JD 2457400.5 (2016-01-13). The sheet does not mark each cell as estimate or measurement. A number on a later card from this sheet is the printed cell, under that warning. Author: Dr. David R. Williams. Last Updated line: 27 September 2019.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Asteroid Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/asteroidfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2019-09-27",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line: 27 September 2019."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2019-09-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "asteroid",
+    "estimate"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world.cosmology.riess-1998-supernovae",
+  "title": "Riess and colleagues, 1998: high-redshift supernovae favor q0 below zero",
+  "section": "world",
+  "category": "cosmology",
+  "summary": "From 16 high-redshift Type Ia supernovae, the High-Z team reports distances 10 to 15 percent farther than a low-density model without a cosmological constant, and q0 < 0.",
+  "body": "The abstract of Riess and colleagues reports 10 Type Ia supernovae at 0.16 < z < 0.62, and an expanded set of 16 high-redshift supernovae plus 34 nearby supernovae. It says the high-redshift distances are, on average, 10 percent to 15 percent farther than expected in a universe with Omega_M = 0.2 and no cosmological constant. It says the fits favor Omega_Lambda > 0 and a current acceleration, q0 < 0. With no prior other than Omega_M > 0, the spectroscopically confirmed supernovae are consistent with q0 < 0 at 2.8 sigma and 3.9 sigma for two fitting methods. These are fits to supernova distances. They are not a laboratory measurement of a cosmological-constant field.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant",
+      "url": "https://arxiv.org/abs/astro-ph/9805201",
+      "author": "Adam G. Riess and colleagues",
+      "date": "1998-05-15",
+      "accessed": "2026-11-18",
+      "note": "arXiv abstract submitted 15 May 1998, fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Adam G. Riess and colleagues, High-Z Supernova Search Team",
+  "as_of_date": "1998-05-15",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.accelerating-expansion-2011",
+    "world.cosmology.perlmutter-1999-supernovae"
+  ],
+  "tags": [
+    "core-pack",
+    "area:cosmology",
+    "supernova",
+    "measurement"
+  ],
+  "read_time_min": 1
+}

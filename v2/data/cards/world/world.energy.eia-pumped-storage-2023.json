@@ -1,0 +1,34 @@
+{
+  "id": "world.energy.eia-pumped-storage-2023",
+  "title": "EIA: pumped-storage generation in 2023 is negative, −6 billion kWh",
+  "section": "world",
+  "category": "technology",
+  "summary": "The 2023 table lists pumped-storage hydropower at −6 billion kWh, and the note says those plants use more electricity than they produce in a year.",
+  "body": "The EIA 2023 utility-scale table lists pumped storage hydropower at −6 billion kWh, −0.1 percent. The note says the generation is negative because most pumped-storage facilities use more electricity than they produce on an annual basis, drawing electricity from the grid to pump water. The negative sign is the table's own accounting. It is not a claim that the plants destroy energy without a stated mechanism. The mechanism the note states is pumping.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What is U.S. electricity generation by energy source?",
+      "url": "https://www.eia.gov/tools/faqs/faq.php?id=427&t=3",
+      "author": "U.S. Energy Information Administration",
+      "date": "2024-02",
+      "accessed": "2026-11-18",
+      "note": "Pumped-storage row and footnote 4. Fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Energy Information Administration",
+  "as_of_date": "2024-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.energy.eia-us-2023-hydropower"
+  ],
+  "tags": [
+    "core-pack",
+    "area:energy",
+    "storage",
+    "measured"
+  ],
+  "read_time_min": 1
+}

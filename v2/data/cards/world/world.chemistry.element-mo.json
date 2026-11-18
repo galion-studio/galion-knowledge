@@ -1,0 +1,51 @@
+{
+  "id": "world.chemistry.element-mo",
+  "title": "NIST: standard atomic weight of Molybdenum (Mo, Z=42) is 95.95(1)",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "NIST prints the standard atomic weight field of Molybdenum (Mo, Z=42) as 95.95(1), with the isotope rows in the same file.",
+  "body": "PubChem's periodic-table row names atomic number 42, symbol Mo, as Molybdenum. The NIST compositions file prints the standard atomic weight of Molybdenum as 95.95(1). The parenthesis is the uncertainty NIST prints on the last digits of that standard atomic weight. It is an evaluated standard, not one laboratory weighing of one sample. Geological materials are known in which the element has an isotopic composition outside the limits for normal material. The difference between the atomic weight of the element in such materials and that given in the table may exceed the stated uncertainty. Isotope rows in the same file: Mo-92 relative atomic mass 91.90680796(84), isotopic composition 0.1453(30); Mo-94 relative atomic mass 93.90508490(48), isotopic composition 0.0915(9); Mo-95 relative atomic mass 94.90583877(47), isotopic composition 0.1584(11); Mo-96 relative atomic mass 95.90467612(47), isotopic composition 0.1667(15); Mo-97 relative atomic mass 96.90601812(49), isotopic composition 0.0960(14); Mo-98 relative atomic mass 97.90540482(49), isotopic composition 0.2439(37); Mo-100 relative atomic mass 99.9074718(11), isotopic composition 0.0982(31). A relative atomic mass is scaled to carbon-12. An isotopic composition, when the field is not blank, is a representative mole fraction, not a new assay made for this card. The symbols for an interval, a parenthesis, a bracket, and a # mark are defined on world.chemistry.nist-atomic-weight-notation. This standard atomic weight is not the Chemistry WebBook molecular-weight field, which is a different catalog entry when one exists.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Atomic Weights and Isotopic Compositions for All Elements",
+      "url": "https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ele=&ascii=ascii2&isotype=some",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "ASCII extract fetched 2026-11-18. The extract does not print its own revision date."
+    },
+    {
+      "title": "Atomic Weights and Isotopic Compositions - Column Descriptions",
+      "url": "https://www.nist.gov/pml/atomic-weights-and-isotopic-compositions-column-descriptions",
+      "author": "National Institute of Standards and Technology",
+      "date": "2023-03-01",
+      "accessed": "2026-11-18",
+      "note": "Definitions of interval, parenthesis, brackets, #, and notes g, m, r."
+    },
+    {
+      "title": "PubChem periodic table JSON",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
+      "author": "National Center for Biotechnology Information, PubChem",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Used for the element name on the atomic-number row. The atomic-weight cell on that PubChem row is not the number reported here."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Physical Measurement Laboratory",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.nist-atomic-weight-notation"
+  ],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "element",
+    "Mo",
+    "atomic-weight"
+  ],
+  "read_time_min": 2
+}

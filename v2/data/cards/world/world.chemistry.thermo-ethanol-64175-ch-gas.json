@@ -1,0 +1,32 @@
+{
+  "id": "world.chemistry.thermo-ethanol-64175-ch-gas",
+  "title": "NIST WebBook: Ethanol gas-phase standard enthalpy of combustion",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The WebBook lists 1 gas-phase standard enthalpy of combustion row(s) for Ethanol. Reviewed rows and experimental rows are both quoted.",
+  "body": "The NIST Chemistry WebBook gas-phase standard enthalpy of combustion rows for Ethanol (CAS 64-17-5) print: -1366.3 ± 0.4 kJ/mol, method Cm, reference Rossini, 1932, comment: Flame Calorimetry; Corresponding Δ f Hº gas = -278.20 kJ/mol (simple calculation by NIST; no Washburn corrections); ALS (experimental or compiled row). The page mixes reviewed or averaged rows with rows tied to a named experiment or compilation. A Review or AVG method is an evaluation. A Ccb method is combustion calorimetry, as the WebBook method code is linked. This card does not average the rows into a new number.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Ethanol thermochemistry, NIST Chemistry WebBook",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C64175&Units=SI&Mask=1",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Rows fetched 2026-11-18 from the Mask page. Comments are shortened only when longer than 280 characters."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "thermochemistry",
+    "measured-vs-evaluated"
+  ],
+  "read_time_min": 1
+}

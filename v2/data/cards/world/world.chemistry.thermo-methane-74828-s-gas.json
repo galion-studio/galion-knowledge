@@ -1,0 +1,32 @@
+{
+  "id": "world.chemistry.thermo-methane-74828-s-gas",
+  "title": "NIST WebBook: Methane gas-phase standard entropy",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The WebBook lists a calorimetric entropy 188.66 ± 0.42 J/mol·K for methane gas and a reviewed value 186.25 J/mol·K at 1 bar.",
+  "body": "The NIST Chemistry WebBook gas-phase thermochemistry page for Methane (CAS 74-82-8) prints two standard-entropy rows. S° gas is 188.66 ± 0.42 J/mol*K, method N/A, reference Colwell J.H., 1963. The comment says the calorimetric value is significantly higher than the statistically calculated entropy, 186.26 J/mol*K, which remains the best value for use in thermodynamic calculations, citing Vogt G.J. 1976, Friend D.G. 1989, and Gurvich, Veyts, et al. 1989. The same comment says an earlier value of 185.3 J/mol*K was calculated from experimental data (Giauque W.F., 1931), and that S(298.15 K)=185.94 J/mol*K was obtained by a high-accuracy ab initio calculation (East A.L.L., 1997). A second row, S° gas at 1 bar, is 186.25 J/mol*K, method Review, reference Chase, 1998, comment: Data last reviewed in March, 1961. The 188.66 figure is the calorimetric value named in the comment. The 186.26 and 185.94 figures are calculations named in that comment. The 186.25 figure is the reviewed compilation value. This card does not choose one of them as the entropy of every sample.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Methane thermochemistry, NIST Chemistry WebBook",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C74828&Units=SI&Mask=1",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Rows fetched 2026-11-18 from the Mask page. Comments are shortened only when longer than 280 characters."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "thermochemistry",
+    "measured-vs-evaluated"
+  ],
+  "read_time_min": 1
+}

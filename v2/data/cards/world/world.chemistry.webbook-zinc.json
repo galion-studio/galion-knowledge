@@ -1,0 +1,34 @@
+{
+  "id": "world.chemistry.webbook-zinc",
+  "title": "NIST WebBook: Zinc is Zn, molecular weight 65.38 amu",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The NIST Chemistry WebBook lists Zinc as Zn, molecular weight 65.38 amu, CAS 7440-66-6.",
+  "body": "The NIST Chemistry WebBook entry for Zinc, CAS Registry Number 7440-66-6, lists molecular formula Zn and molecular weight 65.38 amu. The same entry's monoisotopic molecular weight is 63.9291422 amu. The IUPAC InChI on the entry is InChI=1S/Zn. The molecular weight and the monoisotopic mass are two different fields. This card reports the catalog entry. It does not convert either field into a molar mass in grams, and it does not say that every real sample has that weight. It is also not the standard atomic weight in the NIST isotopic-composition file.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Zinc, NIST Chemistry WebBook SRD 69",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7440666&Units=SI",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "JSON-LD MolecularEntity and the CAS line on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.nist-atomic-weight-notation"
+  ],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "webbook",
+    "Zn"
+  ],
+  "read_time_min": 1
+}

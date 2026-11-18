@@ -1,0 +1,35 @@
+{
+  "id": "world.astronomy.asteroid-pallas",
+  "title": "NASA asteroid sheet: 2 Pallas diameter 582 x 556 x 500 km, ~mass 205,000×10^15 kg",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet's selected-asteroid row for Pallas prints diameter 582 x 556 x 500 km and an approximate mass 205,000 × 10^15 kg.",
+  "body": "The Asteroid Fact Sheet row for 2 Pallas prints diameter 582 x 556 x 500 km, mass about 205,000 × 10^15 kg, rotation period 7.813 hrs, orbital period 4.61 yrs, spectral class U, semi-major axis 2.772 AU, eccentricity 0.2310, and inclination 34.84 deg. Orbit values for epoch JD 2457400.5 (2016-01-13). Most of the values for mass and many of the diameter values are only rough estimates. The mass column header on the sheet is \"~Mass\", which marks the mass as approximate. The sheet's note says Pallas is the 2nd largest asteroid and was discovered by H. Olbers in 1802. This card does not promote the row to a precision measurement.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Asteroid Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/asteroidfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2019-09-27",
+      "accessed": "2026-11-18",
+      "note": "Last Updated line: 27 September 2019. Most of the values for mass and many of the diameter values are only rough estimates."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2019-09-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.asteroid-sheet-estimates"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "asteroid",
+    "pallas",
+    "estimate"
+  ],
+  "read_time_min": 1
+}
