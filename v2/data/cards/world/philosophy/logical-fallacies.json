@@ -1,0 +1,49 @@
+{
+  "id": "world.philosophy.logical-fallacies",
+  "title": "Fallacies: false beliefs, or bad arguments? The term is itself disputed",
+  "section": "world",
+  "category": "philosophy",
+  "body": "## Two conceptions\n\nHans Hansen, \"Fallacies,\" Stanford Encyclopedia of Philosophy (first published 29 May 2015, substantive revision 30 August 2024), opens with two competing conceptions. On one, fallacies are false but popular beliefs. On the other, they are deceptively bad arguments. He calls these the belief conception and the argument conception, and says academic writers who have attended to the subject insist on, or at least prefer, the argument conception.\n\nThat dispute is about the subject matter, before any list of named tricks. A popular false belief (a factual error lots of people share) and a pattern of inference that looks valid and is not are different objects. A checklist that mixes them will \"refute\" people for believing something false by calling the belief a fallacy, which is name-calling unless an argument pattern has been identified.\n\n## Where the study went\n\nHansen writes that not only Aristotle but also Richard Whately and John Stuart Mill thought about the missteps one might take with arguments. He then says that as logical theory from the late nineteenth century turned to axiomatic systems and formal languages, the study of natural-language argument received less attention, and fallacy theory nearly stalled. Until well past the middle of the twentieth century, he writes, fallacy discussions were mostly in introductory textbooks. Interest revived when philosophers judged formal logic a poor fit for natural-language argument.\n\n## How to use this\n\n**Fact:** the encyclopedia documents a real split in the definition, and a real history of neglect and revival.\n\n**Not settled:** a single canonical list. This card does not print a taxonomy of thirty named fallacies, because that list was not the claim that was checked. A named pattern is useful only when the definition in force is the argument conception and the pattern has been tied to a text. Cognitive biases, on the society card, are a psychological literature. They overlap everyday talk of \"fallacies\" and they are not the same research program.\n",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Fallacies",
+      "url": "https://plato.stanford.edu/entries/fallacies/",
+      "author": "Hans Hansen",
+      "date": "2015",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "not-settled",
+  "said_by": "Hans Hansen",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.philosophy.free-will",
+    "world.society.cognitive-biases"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Fallacies: false beliefs, or bad arguments? The term is itself disputed",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "not-settled",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "not-settled"
+      }
+    }
+  }
+}

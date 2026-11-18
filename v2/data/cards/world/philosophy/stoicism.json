@@ -1,0 +1,52 @@
+{
+  "id": "world.philosophy.stoicism",
+  "title": "What the Stoics held: a school founded about 300 BCE, and a claim about virtue",
+  "section": "world",
+  "category": "philosophy",
+  "body": "## The school, as the encyclopedia states it\n\nThe Stanford Encyclopedia entry \"Stoicism,\" by Marion Durand, Simon Shogry, and Dirk Baltzly (first published 20 January 2023), says the Stoic school was founded around 300 BCE by Zeno of Citium. The name comes from the porch (stoa poikilê) in the Athenian agora where the first generation lectured. Zeno had read Socratic dialogues, studied with the Cynic Crates, and was influenced by Plato's Academy and the Megarian school.\n\nThat is a historical claim about an institution. It is not yet an ethical claim.\n\n## The ethical claim the entry reports\n\nIn the ethics section that was read, the entry reports two Stoic commitments used as premises: things fully in our power, and the claim that virtue is the only good. It reports, citing Diogenes Laertius, that virtue is necessary and sufficient for happiness, so that those who lack the relevant knowledge are not happy. It also says the Stoics conceded that attaining that knowledge is exceedingly difficult and that not even the leaders of the school claimed to have it, while still calling it humanly possible.\n\nThe entry's argument, as read, connects these: if virtue is knowledge, and acts of assent are in the agent's power, then happiness, on the Stoic view, is in the agent's power. The entry itself flags an objection one might raise even after granting that premise. So the encyclopedia is reporting a doctrine and noting that the doctrine can be challenged. It is not proving the doctrine.\n\n## Fact versus endorsement\n\n**Fact:** this is what a current scholarly survey says the Stoics taught, with the ancient reporters it names.\n\n**Not a fact:** that virtue is the only good, or that external losses do not matter. Those are the school's theses. A rival school can deny them without misreading the history. This card does not endorse the theses. It separates \"the Stoics said this\" from \"this is true.\"\n",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Stoicism",
+      "url": "https://plato.stanford.edu/entries/stoicism/",
+      "author": "Marion Durand, Simon Shogry, and Dirk Baltzly",
+      "date": "2023",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Marion Durand, Simon Shogry, and Dirk Baltzly",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.philosophy.free-will",
+    "world.philosophy.buddhism"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_qids": [
+      "Q48235"
+    ],
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "What the Stoics held: a school founded about 300 BCE, and a claim about virtue",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

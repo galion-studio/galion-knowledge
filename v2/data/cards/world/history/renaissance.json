@@ -1,0 +1,45 @@
+{
+  "id": "world.history.renaissance",
+  "title": "The Renaissance",
+  "section": "world",
+  "category": "history",
+  "body": "# The Renaissance\n\nThe Renaissance (meaning \"rebirth\") was a period of cultural, artistic, and intellectual transformation in Europe from roughly 1350 to 1600.\n\n## Origins\n\n- Began in Italian city-states (Florence, Venice, Rome)\n- Revival of interest in classical Greek and Roman culture\n- Wealth from trade enabled patronage of arts\n\n## Key Characteristics\n\n### Humanism\n- Focus on human potential and achievement\n- Study of classical texts\n- Education in humanities (literature, history, philosophy)\n\n### Art and Architecture\n- Perspective and realism\n- Study of human anatomy\n- Famous artists: Leonardo, Michelangelo, Raphael\n- Classical architectural elements revived\n\n### Science\n- Observation and experimentation valued\n- Copernicus: heliocentric model\n- Galileo: telescope observations\n- Foundation for Scientific Revolution\n\n## Spread Across Europe\n\n### Northern Renaissance\n- Began ~1500\n- Erasmus, Dürer, van Eyck\n- More religious themes\n- Printing press accelerated spread\n\n## Legacy\n\n- Modern scientific method\n- Individual achievement valued\n- Secular education systems\n- Foundation of Western modernity\n",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": null,
+  "as_of_date": null,
+  "status": "unsourced-needs-review",
+  "contested_views": [],
+  "related": [
+    "world.history.ancient-greece",
+    "world.history.scientific-revolution"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract. The meta object is additive.",
+    "legacy_v1": {
+      "v1_id": "13",
+      "slug": "renaissance",
+      "summary": "A cultural movement from the 14th to 17th century that marked the transition from medieval to modern Europe.",
+      "tags": [
+        "europe",
+        "art",
+        "culture",
+        "humanism"
+      ],
+      "related_slugs": [
+        "ancient-greece",
+        "scientific-revolution",
+        "reformation"
+      ],
+      "legacy_truth_score_unverified": 100,
+      "legacy_source_count_unverified": 345,
+      "legacy_last_verified_unverified": "2024-12-10",
+      "legacy_read_time_minutes_unverified": 7,
+      "migration_note": "Body text is preserved from V1 src/lib/knowledge-data.ts. No sources were attached because they were not independently checked. Legacy truth scores and source counts are not evidence."
+    }
+  }
+}

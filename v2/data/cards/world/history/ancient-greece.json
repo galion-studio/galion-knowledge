@@ -1,0 +1,44 @@
+{
+  "id": "world.history.ancient-greece",
+  "title": "Ancient Greece",
+  "section": "world",
+  "category": "history",
+  "body": "# Ancient Greece\n\nAncient Greek civilization flourished from approximately 800 BCE to 146 BCE, laying foundations for Western philosophy, democracy, science, and arts.\n\n## Historical Periods\n\n### Archaic Period (800-480 BCE)\n- Development of the polis (city-state)\n- Colonization of Mediterranean\n- Homer's Iliad and Odyssey composed\n- First Olympic Games (776 BCE)\n\n### Classical Period (480-323 BCE)\n- Height of Athenian democracy\n- Persian Wars (490-479 BCE)\n- Peloponnesian War (431-404 BCE)\n- Golden Age of Athens\n- Alexander the Great's conquests\n\n### Hellenistic Period (323-146 BCE)\n- Greek culture spread across former Persian Empire\n- Alexandria as center of learning\n- Roman conquest ends Greek independence\n\n## Key Contributions\n\n### Philosophy\n- Socrates, Plato, Aristotle\n- Logic, ethics, metaphysics, epistemology\n- Foundations of Western philosophy\n\n### Democracy\n- Athens developed direct democracy (~507 BCE)\n- Citizens voted on laws and policies\n- Limited to free adult male citizens\n\n### Science and Mathematics\n- Pythagoras, Euclid, Archimedes\n- Geometry, astronomy, medicine\n- Hippocrates: father of medicine\n\n### Arts and Literature\n- Tragedy and comedy (Sophocles, Aristophanes)\n- Architecture (Parthenon)\n- Sculpture (idealized human form)\n- Historical writing (Herodotus, Thucydides)\n\n## Legacy\n\nGreek ideas profoundly influenced:\n- Roman civilization\n- Renaissance Europe\n- Modern democratic institutions\n- Western philosophy and science\n- Art and architecture\n\n## Key City-States\n\n- **Athens**: Democracy, philosophy, arts\n- **Sparta**: Military society\n- **Corinth**: Trade and commerce\n- **Thebes**: Military power (4th century BCE)\n",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": null,
+  "as_of_date": null,
+  "status": "unsourced-needs-review",
+  "contested_views": [],
+  "related": [
+    "world.society.democracy"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract. The meta object is additive.",
+    "legacy_v1": {
+      "v1_id": "10",
+      "slug": "ancient-greece",
+      "summary": "The civilization that flourished from the 8th century BCE to 146 BCE, foundational to Western culture.",
+      "tags": [
+        "ancient-history",
+        "democracy",
+        "philosophy",
+        "civilization"
+      ],
+      "related_slugs": [
+        "roman-empire",
+        "democracy",
+        "greek-philosophy"
+      ],
+      "legacy_truth_score_unverified": 100,
+      "legacy_source_count_unverified": 423,
+      "legacy_last_verified_unverified": "2024-12-11",
+      "legacy_read_time_minutes_unverified": 9,
+      "migration_note": "Body text is preserved from V1 src/lib/knowledge-data.ts. No sources were attached because they were not independently checked. Legacy truth scores and source counts are not evidence."
+    }
+  }
+}

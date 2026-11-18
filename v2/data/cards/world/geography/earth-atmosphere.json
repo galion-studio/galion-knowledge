@@ -1,0 +1,49 @@
+{
+  "id": "world.geography.earth-atmosphere",
+  "title": "Dry air, as NASA's Earth Fact Sheet tabulates it",
+  "section": "world",
+  "category": "geography",
+  "body": "## The table\n\nNASA's Earth Fact Sheet gives a dry-air composition by volume, and it warns that the numbers do not add to exactly 100 percent because of roundoff and uncertainty. Water is \"highly variable\" and \"typically makes up about 1 percent,\" so it is not in the dry-air list.\n\nMajor constituents: 78.08 percent nitrogen (N2), 20.95 percent oxygen (O2).\n\nMinor, in parts per million: argon 9340, carbon dioxide 420, neon 18.18, helium 5.24, methane 1.94, krypton 1.14, hydrogen 0.55.\n\nOther atmospheric figures on the same sheet: surface pressure 1014 mb, mean molecular weight 28.97, average temperature 288 K (15°C).\n\n## A snapshot, not a law of nature\n\nCarbon dioxide at 420 ppm is the fact sheet's listed value at the time it was read (18 November 2026). CO2 has risen over the industrial period. The climate card treats that rise as a physical-science question with IPCC sources. This card does not freeze 420 ppm as a permanent property of Earth. Argon and nitrogen are in a different category: they are not the gases whose anthropogenic change the IPCC headlines are about.\n\n**Fact:** the table, including the sheet's own warning about roundoff, water, and the date of access.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Earth Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "author": "David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.nature.climate-change",
+    "world.geography.earth-shape"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Dry air, as NASA's Earth Fact Sheet tabulates it",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

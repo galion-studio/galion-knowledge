@@ -1,0 +1,48 @@
+{
+  "id": "world.history.greenwich-time-adoption",
+  "title": "1884 proposed Greenwich; states adopted it later, and not all at once",
+  "section": "world",
+  "category": "history",
+  "body": "## A proposal is not an enactment\n\nThe Greenwich Meridian site's article on the International Meridian Conference of 1884 records the resolutions and, separately, how slowly civil time followed. The conference text, quoted on that page, \"proposes to the Governments here represented the adoption of the meridian passing through the centre of the transit instrument at the Observatory of Greenwich.\" A proposal to governments does not itself change the clocks.\n\nThe same article states what two countries then did:\n\n- Japan legislated in 1886 and formally adopted the Greenwich meridian and a standard time nine hours in advance of Greenwich at the start of 1888. The article calls Japan the only country that did anything that concrete through the 1880s.\n- France adopted Greenwich Mean Time as its civil time on 11 March 1911, \"with neither fanfare nor ceremony,\" and referred to it as \"the mean time of Paris retarded nine minutes and 21 seconds.\"\n\nThe article also says that at the Fifth International Geographical Congress in 1891 an Indian government delegate complained that English maps of India still did not share one origin for longitude.\n\n## Why this is a historical mechanism, not a trivia note\n\nRailways and telegraphs made many local noons expensive. The article ties the pressure for one prime meridian to that practical problem. The legal mechanism was national legislation and administrative choice, years after diplomats had voted. France's phrasing — Paris time, retarded by a fixed offset — shows a state adopting the Greenwich standard while still describing it from Paris.\n\n**Fact:** the dates and the offset quoted above, as that article states them.\n\n**Not claimed:** that every country uses Greenwich today, or a full list of time zones. The geography card quotes the 1884 resolutions themselves.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The adoption of a Prime Meridian and the International Meridian Conference of 1884",
+      "url": "https://www.thegreenwichmeridian.org/tgm/articles.php?article=10",
+      "author": "The Greenwich Meridian",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": null,
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.geography.prime-meridian-1884"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "1884 proposed Greenwich; states adopted it later, and not all at once",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "world.nature.milankovitch-cycles",
+  "title": "Orbital pacing of ice ages: the periods in the 450,000-year sediment record",
+  "section": "world",
+  "category": "nature",
+  "body": "## What the 1976 paper reports\n\nHays, Imbrie, and Shackleton (Science, 1976), \"Variations in the Earth's Orbit: Pacemaker of the Ice Ages,\" state in the abstract checked via Crossref:\n\nThree indices of global climate were monitored in Southern Hemisphere ocean-floor sediments over the past 450,000 years. In the frequency range 10⁻⁴ to 10⁻⁵ cycle per year, the climatic variance sits in three spectral peaks, at periods of 23,000 years, 42,000 years, and approximately 100,000 years. Those peaks correspond to the dominant periods of Earth's solar orbit. They contain, respectively, about 10, 25, and 50 percent of the climatic variance in that range.\n\n## The mechanism\n\nEarth's orbit is not a perfect, fixed circle, and its tilt is not a fixed angle. Eccentricity, obliquity, and the precession of the equinoxes change how sunlight is distributed by latitude and by season. The paper's claim is that those orbital periods pace the ice ages: the climate record's timing lines up with the orbital timing.\n\n**Fact:** the spectral peaks and the percentages above, in that sediment record, as the abstract states them.\n\n**Not a complete theory of an ice age by itself:** orbital geometry changes the distribution of sunlight. It does not, as a geometry problem alone, state the size of the temperature swing. Ice sheets, carbon dioxide, and albedo feed back on the push. This card does not assign those feedbacks a number. The title's word \"pacemaker\" is the authors' claim about timing, and it is the right word to keep: a pacemaker sets a rhythm. It is not the whole heart.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Variations in the Earth's Orbit: Pacemaker of the Ice Ages",
+      "url": "https://doi.org/10.1126/science.194.4270.1121",
+      "author": "J. D. Hays, John Imbrie, and N. J. Shackleton",
+      "date": "1976",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "J. D. Hays, John Imbrie, and N. J. Shackleton",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.nature.climate-change",
+    "world.geography.earth-orbit"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_qids": [
+      "Q211446"
+    ],
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Orbital pacing of ice ages: the periods in the 450,000-year sediment record",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "world.medicine.human-brain",
+  "title": "The Human Brain",
+  "section": "world",
+  "category": "medicine",
+  "body": "# The Human Brain\n\nThe human brain contains approximately 86 billion neurons and is the control center for all bodily functions and cognitive processes.\n\n## Structure\n\n### Major Regions\n- **Cerebrum**: Largest part, thinking, learning, personality\n- **Cerebellum**: Coordination, balance, motor learning\n- **Brainstem**: Basic life functions (breathing, heart rate)\n\n### Cerebral Lobes\n- **Frontal**: Decision-making, planning, personality\n- **Parietal**: Sensory processing, spatial awareness\n- **Temporal**: Hearing, memory, language\n- **Occipital**: Visual processing\n\n## How It Works\n\n### Neurons\n- Brain cells that transmit electrical signals\n- Connected by synapses\n- Communicate via neurotransmitters\n\n### Plasticity\n- Brain can reorganize itself\n- New connections form throughout life\n- Basis for learning and recovery from injury\n\n## Key Functions\n\n- Consciousness and thought\n- Memory (short-term and long-term)\n- Emotions and mood\n- Movement control\n- Sensory processing\n- Language and communication\n\n## Brain Health\n\nRisk factors for decline:\n- Lack of sleep\n- Chronic stress\n- Poor diet\n- Physical inactivity\n- Social isolation\n\nProtective factors:\n- Exercise\n- Mental stimulation\n- Social engagement\n- Healthy diet\n- Quality sleep\n",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": null,
+  "as_of_date": null,
+  "status": "unsourced-needs-review",
+  "contested_views": [],
+  "related": [
+    "world.medicine.immune-system"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract. The meta object is additive.",
+    "legacy_v1": {
+      "v1_id": "20",
+      "slug": "human-brain",
+      "summary": "The most complex organ in the human body, controlling all bodily functions and enabling thought, memory, and consciousness.",
+      "tags": [
+        "neuroscience",
+        "anatomy",
+        "consciousness",
+        "memory"
+      ],
+      "related_slugs": [
+        "immune-system",
+        "psychology",
+        "sleep"
+      ],
+      "legacy_truth_score_unverified": 100,
+      "legacy_source_count_unverified": 678,
+      "legacy_last_verified_unverified": "2024-12-16",
+      "legacy_read_time_minutes_unverified": 8,
+      "migration_note": "Body text is preserved from V1 src/lib/knowledge-data.ts. No sources were attached because they were not independently checked. Legacy truth scores and source counts are not evidence."
+    }
+  }
+}

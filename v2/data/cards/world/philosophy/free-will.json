@@ -1,0 +1,106 @@
+{
+  "id": "world.philosophy.free-will",
+  "title": "Free will: a philosophical dispute, plus one brain experiment that does not settle it",
+  "section": "world",
+  "category": "philosophy",
+  "body": "## What the question is\n\nO'Connor and Franklin, in the Stanford Encyclopedia of Philosophy, treat \"free will\" as the name for a significant kind of control over action. The arguments are about what that control requires (freedom to do otherwise, or being the source of the action) and about whether it matters for moral responsibility. Those are not laboratory definitions. Two people can agree on every neural trace and still disagree about whether the trace is the agent's doing.\n\nThe entry says the philosophical dispute runs through Plato, Aristotle, Augustine, Aquinas, Descartes, and Kant, and that it is not going to be summarized as a single doctrine. It also says, in the version that was opened, that it does not review Chinese and Indian discussions and points to other surveys for those. This card does not pretend to have covered them.\n\n## What the brain papers add, and where they stop\n\nLibet, Gleason, and Wright (1983) put a reported time of conscious intention next to the onset of the readiness potential. Schurger, Sitt, and Dehaene (2012) offer an accumulator model of the pre-movement activity. The medicine card states both mechanisms.\n\nA timing result can show that a scalp trace precedes a verbal report. It cannot, without a further philosophical premise, show that responsibility is an illusion or that it is intact. The encyclopedia's position, as read, is that empirical work bears on the question and does not replace it.\n\n**Not settled.** Anyone who says neuroscience has closed free will is making a philosophical claim with a scientific prop. The prop is real. The closure is not.\n",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Free Will",
+      "url": "https://plato.stanford.edu/entries/freewill/",
+      "author": "Timothy O'Connor and Christopher Franklin",
+      "date": "2002",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Time of conscious intention to act in relation to onset of cerebral activity (readiness-potential)",
+      "url": "https://doi.org/10.1093/brain/106.3.623",
+      "author": "Benjamin Libet, Curtis A. Gleason, and Elwood W. Wright",
+      "date": "1983",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "An accumulator model for spontaneous neural activity prior to self-initiated movement",
+      "url": "https://doi.org/10.1073/pnas.1210467109",
+      "author": "Aaron Schurger, Jacobo D. Sitt, and Stanislas Dehaene",
+      "date": "2012",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "not-settled",
+  "said_by": "Timothy O'Connor and Christopher Franklin",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "position": "The dispute is about a kind of control, and it is not settled",
+      "claim_type": "interpretation",
+      "summary": "O'Connor and Franklin's Stanford Encyclopedia entry (first published 7 January 2002, substantive revision 3 November 2022) says 'free will' names a kind of control over one's actions, and that disputes about it are disputes about metaphysics and ethics: causation, laws, whether the freedom to do otherwise is required for responsibility, and whether that control exists. The entry maps compatibilist and libertarian accounts. It does not announce a winner.",
+      "evidence_strength": "moderate",
+      "said_by": "Timothy O'Connor and Christopher Franklin",
+      "sources": [
+        {
+          "title": "Free Will",
+          "url": "https://plato.stanford.edu/entries/freewill/",
+          "author": "Timothy O'Connor and Christopher Franklin",
+          "date": "2002",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "position": "A readiness potential before a reported urge does not, by itself, end the dispute",
+      "claim_type": "interpretation",
+      "summary": "Libet and colleagues (1983) measured cerebral activity against the reported time of an intention to move. Schurger, Sitt, and Dehaene (2012) model the same kind of pre-movement activity as an accumulator. The encyclopedia treats scientific findings as one input to the question 'do we have free will,' not as a replacement for it. Not settled.",
+      "evidence_strength": "not-settled",
+      "said_by": "Benjamin Libet and colleagues; Aaron Schurger and colleagues",
+      "sources": [
+        {
+          "title": "Time of conscious intention to act in relation to onset of cerebral activity (readiness-potential)",
+          "url": "https://doi.org/10.1093/brain/106.3.623",
+          "author": "Benjamin Libet, Curtis A. Gleason, and Elwood W. Wright",
+          "date": "1983",
+          "accessed": "2026-11-18"
+        },
+        {
+          "title": "An accumulator model for spontaneous neural activity prior to self-initiated movement",
+          "url": "https://doi.org/10.1073/pnas.1210467109",
+          "author": "Aaron Schurger, Jacobo D. Sitt, and Stanislas Dehaene",
+          "date": "2012",
+          "accessed": "2026-11-18"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "world.medicine.readiness-potential",
+    "world.philosophy.stoicism"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_qids": [
+      "Q9476"
+    ],
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Free will: a philosophical dispute, plus one brain experiment that does not settle it",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "not-settled",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "not-settled"
+      }
+    }
+  }
+}

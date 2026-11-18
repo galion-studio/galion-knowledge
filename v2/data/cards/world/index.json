@@ -1,0 +1,736 @@
+{
+  "pack": "world",
+  "section": "world",
+  "license": "MIT",
+  "copyright": "Galion Labs",
+  "as_of_date": "2026-11-18",
+  "schema_note": "S1 schema was not on origin when this pack was written. Cards use the swarm fallback fields. meta is additive.",
+  "v1_article_count_in_source": 40,
+  "v1_note": "src/lib/knowledge-data.ts contains 40 articles. The task mentioned 42; no additional V1 articles were found, and none were invented.",
+  "counts": {
+    "cards": 73,
+    "sourced": 54,
+    "unsourced_needs_review": 19,
+    "by_category": {
+      "arts": {
+        "sourced": 2,
+        "unsourced_needs_review": 0,
+        "total": 2
+      },
+      "biology": {
+        "sourced": 5,
+        "unsourced_needs_review": 0,
+        "total": 5
+      },
+      "geography": {
+        "sourced": 5,
+        "unsourced_needs_review": 0,
+        "total": 5
+      },
+      "history": {
+        "sourced": 5,
+        "unsourced_needs_review": 5,
+        "total": 10
+      },
+      "law": {
+        "sourced": 4,
+        "unsourced_needs_review": 1,
+        "total": 5
+      },
+      "mathematics": {
+        "sourced": 5,
+        "unsourced_needs_review": 0,
+        "total": 5
+      },
+      "medicine": {
+        "sourced": 3,
+        "unsourced_needs_review": 2,
+        "total": 5
+      },
+      "nature": {
+        "sourced": 5,
+        "unsourced_needs_review": 0,
+        "total": 5
+      },
+      "philosophy": {
+        "sourced": 5,
+        "unsourced_needs_review": 4,
+        "total": 9
+      },
+      "science": {
+        "sourced": 5,
+        "unsourced_needs_review": 2,
+        "total": 7
+      },
+      "society": {
+        "sourced": 5,
+        "unsourced_needs_review": 3,
+        "total": 8
+      },
+      "technology": {
+        "sourced": 5,
+        "unsourced_needs_review": 2,
+        "total": 7
+      }
+    }
+  },
+  "cards": [
+    {
+      "id": "world.arts.aristotle-poetics-survival",
+      "title": "What survives of Aristotle's Poetics, according to a scholarly survey",
+      "category": "arts",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "moderate",
+      "file": "arts/aristotle-poetics-survival.json"
+    },
+    {
+      "id": "world.arts.depiction",
+      "title": "How pictures represent: resemblance, convention, and psychology are rival accounts",
+      "category": "arts",
+      "status": "sourced",
+      "claim_type": "contested",
+      "evidence_strength": "not-settled",
+      "file": "arts/depiction.json"
+    },
+    {
+      "id": "world.biology.crispr-adaptive-immunity",
+      "title": "CRISPR: an adaptive immune system in bacteria, and a programmable cut",
+      "category": "biology",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "biology/crispr-adaptive-immunity.json"
+    },
+    {
+      "id": "world.biology.dna-genetics",
+      "title": "DNA: transforming principle, a 1953 structure, copying, and a code",
+      "category": "biology",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "biology/dna-genetics.json"
+    },
+    {
+      "id": "world.biology.endosymbiotic-origin",
+      "title": "The 1967 proposal that mitosing cells began as a merger",
+      "category": "biology",
+      "status": "sourced",
+      "claim_type": "interpretation",
+      "evidence_strength": "limited",
+      "file": "biology/endosymbiotic-origin.json"
+    },
+    {
+      "id": "world.biology.evolution-natural-selection",
+      "title": "Natural selection: the 1858 argument, and one Devonian fossil paper",
+      "category": "biology",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "biology/evolution-natural-selection.json"
+    },
+    {
+      "id": "world.biology.photosynthesis",
+      "title": "Photosynthesis: oxygen from chloroplasts, and the path of carbon",
+      "category": "biology",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "biology/photosynthesis.json"
+    },
+    {
+      "id": "world.geography.earth-atmosphere",
+      "title": "Dry air, as NASA's Earth Fact Sheet tabulates it",
+      "category": "geography",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "geography/earth-atmosphere.json"
+    },
+    {
+      "id": "world.geography.earth-orbit",
+      "title": "Earth's orbit and tilt, as NASA's fact sheet lists them",
+      "category": "geography",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "geography/earth-orbit.json"
+    },
+    {
+      "id": "world.geography.earth-shape",
+      "title": "Earth's measured shape, mass, and standard gravity",
+      "category": "geography",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "geography/earth-shape.json"
+    },
+    {
+      "id": "world.geography.map-projections",
+      "title": "A map projection is a rule for laying a round Earth on a flat sheet",
+      "category": "geography",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "moderate",
+      "file": "geography/map-projections.json"
+    },
+    {
+      "id": "world.geography.prime-meridian-1884",
+      "title": "Longitude needs a chosen zero: the 1884 resolutions",
+      "category": "geography",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "geography/prime-meridian-1884.json"
+    },
+    {
+      "id": "world.history.ancient-greece",
+      "title": "Ancient Greece",
+      "category": "history",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "history/ancient-greece.json"
+    },
+    {
+      "id": "world.history.declaration-of-the-rights-of-man-1789",
+      "title": "What the National Assembly proclaimed on 26 August 1789",
+      "category": "history",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "history/declaration-of-the-rights-of-man-1789.json"
+    },
+    {
+      "id": "world.history.eclipse-1919-light-deflection",
+      "title": "The 1919 eclipse expedition and the deflection of light",
+      "category": "history",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "history/eclipse-1919-light-deflection.json"
+    },
+    {
+      "id": "world.history.french-revolution",
+      "title": "The French Revolution",
+      "category": "history",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "history/french-revolution.json"
+    },
+    {
+      "id": "world.history.greenwich-time-adoption",
+      "title": "1884 proposed Greenwich; states adopted it later, and not all at once",
+      "category": "history",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "history/greenwich-time-adoption.json"
+    },
+    {
+      "id": "world.history.holocaust-documentation",
+      "title": "How the United States Holocaust Memorial Museum accounts for Nazi murder",
+      "category": "history",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "history/holocaust-documentation.json"
+    },
+    {
+      "id": "world.history.pearl-harbor-1941",
+      "title": "7 and 8 December 1941: the attack on Pearl Harbor and the U.S. declaration of war",
+      "category": "history",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "history/pearl-harbor-1941.json"
+    },
+    {
+      "id": "world.history.renaissance",
+      "title": "The Renaissance",
+      "category": "history",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "history/renaissance.json"
+    },
+    {
+      "id": "world.history.scientific-revolution",
+      "title": "The Scientific Revolution",
+      "category": "history",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "history/scientific-revolution.json"
+    },
+    {
+      "id": "world.history.world-war-two",
+      "title": "World War II",
+      "category": "history",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "history/world-war-two.json"
+    },
+    {
+      "id": "world.law.human-rights-declaration",
+      "title": "The Universal Declaration of Human Rights is a 1948 proclamation, not a treaty",
+      "category": "law",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "law/human-rights-declaration.json"
+    },
+    {
+      "id": "world.law.natural-rights",
+      "title": "Natural Rights",
+      "category": "law",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "law/natural-rights.json"
+    },
+    {
+      "id": "world.law.nuremberg-crimes",
+      "title": "Crimes against peace, war crimes, and crimes against humanity in the 1950 text",
+      "category": "law",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "law/nuremberg-crimes.json"
+    },
+    {
+      "id": "world.law.nuremberg-responsibility",
+      "title": "Individual responsibility in the 1950 Nuremberg principles",
+      "category": "law",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "law/nuremberg-responsibility.json"
+    },
+    {
+      "id": "world.law.presumption-of-innocence",
+      "title": "Presumption of innocence in the 1789 declaration and in the 1948 declaration",
+      "category": "law",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "law/presumption-of-innocence.json"
+    },
+    {
+      "id": "world.mathematics.condorcet-jury-theorem",
+      "title": "Condorcet's jury theorem: a majority gets more reliable only under stated assumptions",
+      "category": "mathematics",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "mathematics/condorcet-jury-theorem.json"
+    },
+    {
+      "id": "world.mathematics.game-theory",
+      "title": "Games: von Neumann's 1928 theory and Nash's 1950 equilibrium points",
+      "category": "mathematics",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "mathematics/game-theory.json"
+    },
+    {
+      "id": "world.mathematics.goedel-incompleteness",
+      "title": "Gödel's 1931 paper: formally undecidable arithmetic sentences",
+      "category": "mathematics",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "mathematics/goedel-incompleteness.json"
+    },
+    {
+      "id": "world.mathematics.infinitude-of-primes",
+      "title": "Euclid's proof that there is no last prime",
+      "category": "mathematics",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "mathematics/infinitude-of-primes.json"
+    },
+    {
+      "id": "world.mathematics.infinity",
+      "title": "Infinity is more than one idea: Euclid, Dedekind, and Cantor's two sizes",
+      "category": "mathematics",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "mathematics/infinity.json"
+    },
+    {
+      "id": "world.medicine.human-brain",
+      "title": "The Human Brain",
+      "category": "medicine",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "medicine/human-brain.json"
+    },
+    {
+      "id": "world.medicine.immune-system",
+      "title": "The Immune System",
+      "category": "medicine",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "medicine/immune-system.json"
+    },
+    {
+      "id": "world.medicine.nerve-impulse",
+      "title": "The nerve impulse as a problem in membrane current",
+      "category": "medicine",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "medicine/nerve-impulse.json"
+    },
+    {
+      "id": "world.medicine.penicillin",
+      "title": "Penicillin: a 1928 observation, a 1929 paper, and a shared 1945 prize",
+      "category": "medicine",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "medicine/penicillin.json"
+    },
+    {
+      "id": "world.medicine.readiness-potential",
+      "title": "Readiness potential and the reported time of intention: an experiment, and a rival model",
+      "category": "medicine",
+      "status": "sourced",
+      "claim_type": "contested",
+      "evidence_strength": "not-settled",
+      "file": "medicine/readiness-potential.json"
+    },
+    {
+      "id": "world.nature.climate-change",
+      "title": "Greenhouse gases and warming: what is measured, what is a best estimate, what is not a headcount",
+      "category": "nature",
+      "status": "sourced",
+      "claim_type": "contested",
+      "evidence_strength": "strong",
+      "file": "nature/climate-change.json"
+    },
+    {
+      "id": "world.nature.end-cretaceous-iridium",
+      "title": "Iridium at the Cretaceous–Tertiary boundary: the 1980 extraterrestrial argument",
+      "category": "nature",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "nature/end-cretaceous-iridium.json"
+    },
+    {
+      "id": "world.nature.milankovitch-cycles",
+      "title": "Orbital pacing of ice ages: the periods in the 450,000-year sediment record",
+      "category": "nature",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "nature/milankovitch-cycles.json"
+    },
+    {
+      "id": "world.nature.plate-tectonics",
+      "title": "Plate tectonics: ridges, magnetic anomalies, and a new class of faults",
+      "category": "nature",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "nature/plate-tectonics.json"
+    },
+    {
+      "id": "world.nature.water-cycle",
+      "title": "The water cycle: pools, fluxes, and what drives them",
+      "category": "nature",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "nature/water-cycle.json"
+    },
+    {
+      "id": "world.philosophy.buddhism",
+      "title": "The four noble truths, as one English translation of SN 56.11 states them",
+      "category": "philosophy",
+      "status": "sourced",
+      "claim_type": "interpretation",
+      "evidence_strength": "moderate",
+      "file": "philosophy/buddhism.json"
+    },
+    {
+      "id": "world.philosophy.consciousness",
+      "title": "Consciousness",
+      "category": "philosophy",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "philosophy/consciousness.json"
+    },
+    {
+      "id": "world.philosophy.critical-thinking",
+      "title": "Critical Thinking",
+      "category": "philosophy",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "philosophy/critical-thinking.json"
+    },
+    {
+      "id": "world.philosophy.ethics-morality",
+      "title": "Ethics and Morality",
+      "category": "philosophy",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "philosophy/ethics-morality.json"
+    },
+    {
+      "id": "world.philosophy.existentialism",
+      "title": "Existentialism",
+      "category": "philosophy",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "philosophy/existentialism.json"
+    },
+    {
+      "id": "world.philosophy.free-will",
+      "title": "Free will: a philosophical dispute, plus one brain experiment that does not settle it",
+      "category": "philosophy",
+      "status": "sourced",
+      "claim_type": "contested",
+      "evidence_strength": "not-settled",
+      "file": "philosophy/free-will.json"
+    },
+    {
+      "id": "world.philosophy.logical-fallacies",
+      "title": "Fallacies: false beliefs, or bad arguments? The term is itself disputed",
+      "category": "philosophy",
+      "status": "sourced",
+      "claim_type": "contested",
+      "evidence_strength": "not-settled",
+      "file": "philosophy/logical-fallacies.json"
+    },
+    {
+      "id": "world.philosophy.social-contract",
+      "title": "Contractarianism: consent theories, and two strains that are not the same",
+      "category": "philosophy",
+      "status": "sourced",
+      "claim_type": "contested",
+      "evidence_strength": "not-settled",
+      "file": "philosophy/social-contract.json"
+    },
+    {
+      "id": "world.philosophy.stoicism",
+      "title": "What the Stoics held: a school founded about 300 BCE, and a claim about virtue",
+      "category": "philosophy",
+      "status": "sourced",
+      "claim_type": "interpretation",
+      "evidence_strength": "strong",
+      "file": "philosophy/stoicism.json"
+    },
+    {
+      "id": "world.science.big-bang",
+      "title": "The hot expanding universe, and the Hubble constant that two methods do not share",
+      "category": "science",
+      "status": "sourced",
+      "claim_type": "contested",
+      "evidence_strength": "not-settled",
+      "file": "science/big-bang.json"
+    },
+    {
+      "id": "world.science.black-holes",
+      "title": "Black holes: collapse, a predicted glow, and two different observations",
+      "category": "science",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "science/black-holes.json"
+    },
+    {
+      "id": "world.science.entropy",
+      "title": "Entropy as Clausius defined it in 1865",
+      "category": "science",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "science/entropy.json"
+    },
+    {
+      "id": "world.science.quantum-mechanics",
+      "title": "Quantum mechanics: formalism, experiment, and interpretations that do not agree",
+      "category": "science",
+      "status": "sourced",
+      "claim_type": "contested",
+      "evidence_strength": "not-settled",
+      "file": "science/quantum-mechanics.json"
+    },
+    {
+      "id": "world.science.scientific-method",
+      "title": "The Scientific Method",
+      "category": "science",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "science/scientific-method.json"
+    },
+    {
+      "id": "world.science.solar-system",
+      "title": "The Solar System",
+      "category": "science",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "science/solar-system.json"
+    },
+    {
+      "id": "world.science.theory-of-relativity",
+      "title": "Special and general relativity: what the source papers actually argue",
+      "category": "science",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "science/theory-of-relativity.json"
+    },
+    {
+      "id": "world.society.capitalism",
+      "title": "Capitalism",
+      "category": "society",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "society/capitalism.json"
+    },
+    {
+      "id": "world.society.cognitive-biases",
+      "title": "Three heuristics in judgment under uncertainty",
+      "category": "society",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "moderate",
+      "file": "society/cognitive-biases.json"
+    },
+    {
+      "id": "world.society.democracy",
+      "title": "Democracy as a normative theory and as a description, which are different jobs",
+      "category": "society",
+      "status": "sourced",
+      "claim_type": "contested",
+      "evidence_strength": "not-settled",
+      "file": "society/democracy.json"
+    },
+    {
+      "id": "world.society.giffen-behavior",
+      "title": "Giffen behavior: upward-sloping demand among very poor households in two Chinese provinces",
+      "category": "society",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "moderate",
+      "file": "society/giffen-behavior.json"
+    },
+    {
+      "id": "world.society.marx-historical-materialism",
+      "title": "Marx's project, as one scholarly survey states it: productive power, profit, surplus value",
+      "category": "society",
+      "status": "sourced",
+      "claim_type": "interpretation",
+      "evidence_strength": "moderate",
+      "file": "society/marx-historical-materialism.json"
+    },
+    {
+      "id": "world.society.psychology-replication",
+      "title": "A 2015 estimate of how much of psychology replicated",
+      "category": "society",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "moderate",
+      "file": "society/psychology-replication.json"
+    },
+    {
+      "id": "world.society.socialism",
+      "title": "Socialism",
+      "category": "society",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "society/socialism.json"
+    },
+    {
+      "id": "world.society.supply-demand",
+      "title": "Supply and Demand",
+      "category": "society",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "society/supply-demand.json"
+    },
+    {
+      "id": "world.technology.artificial-intelligence",
+      "title": "Artificial Intelligence",
+      "category": "technology",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "technology/artificial-intelligence.json"
+    },
+    {
+      "id": "world.technology.packet-switching",
+      "title": "Packet networks: Baran's distributed net and the Cerf–Kahn internetworking protocol",
+      "category": "technology",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "technology/packet-switching.json"
+    },
+    {
+      "id": "world.technology.printing-press",
+      "title": "The Printing Press",
+      "category": "technology",
+      "status": "unsourced-needs-review",
+      "claim_type": "interpretation",
+      "evidence_strength": "none",
+      "file": "technology/printing-press.json"
+    },
+    {
+      "id": "world.technology.relativity-in-gps",
+      "title": "GPS as an engineered use of relativity",
+      "category": "technology",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "technology/relativity-in-gps.json"
+    },
+    {
+      "id": "world.technology.transformer-architecture",
+      "title": "The Transformer: attention as the whole sequence model",
+      "category": "technology",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "technology/transformer-architecture.json"
+    },
+    {
+      "id": "world.technology.transistor",
+      "title": "The transistor: a 1948 semiconductor triode and the 1956 prize",
+      "category": "technology",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "technology/transistor.json"
+    },
+    {
+      "id": "world.technology.turing-machine",
+      "title": "Turing's 1936–37 account of computable numbers",
+      "category": "technology",
+      "status": "sourced",
+      "claim_type": "fact",
+      "evidence_strength": "strong",
+      "file": "technology/turing-machine.json"
+    }
+  ]
+}

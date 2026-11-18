@@ -1,0 +1,59 @@
+{
+  "id": "world.mathematics.game-theory",
+  "title": "Games: von Neumann's 1928 theory and Nash's 1950 equilibrium points",
+  "section": "world",
+  "category": "mathematics",
+  "body": "## Two papers, two jobs\n\nVon Neumann (Mathematische Annalen, 1928), \"Zur Theorie der Gesellschaftsspiele\" (\"On the theory of games of strategy\"), is the mathematical paper that treats strategic games as objects one can prove theorems about. A game, in this sense, is a set of players, a set of strategies, and payoffs that depend on the combination of strategies. It is not a metaphor for \"life is a game\" unless someone adds that metaphor.\n\nNash (Proceedings of the National Academy of Sciences, 1950), \"Equilibrium points in n-person games,\" is the short paper that defines equilibrium points for games with any number of players. What is now called a Nash equilibrium is that object: a profile of strategies in which no player, taking the others' strategies as given, can switch to a strategy with a better payoff for themselves. This card states that definition as the content of the equilibrium-point idea the paper introduced. It does not reproduce Nash's notation from a page that was not opened line by line.\n\n## What the math does not do\n\n**Fact:** strategic games have a theory, and n-person games have equilibrium points in the sense of Nash's 1950 paper.\n\n**Not a fact:** that real people, firms, or states play an equilibrium, or that an equilibrium is fair, or that it is the outcome one should hope for. Those are interpretations, and sometimes they are false. A prisoner's dilemma has an equilibrium that both players can dislike. Existence of an equilibrium is not advice.\n\n**Not settled by these two papers:** how often laboratory subjects play the equilibrium. That is experimental economics, and it is a different literature.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Zur Theorie der Gesellschaftsspiele",
+      "url": "https://doi.org/10.1007/BF01448847",
+      "author": "J. von Neumann",
+      "date": "1928",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Equilibrium points in n-person games",
+      "url": "https://doi.org/10.1073/pnas.36.1.48",
+      "author": "John F. Nash",
+      "date": "1950",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "John von Neumann and John F. Nash",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.mathematics.condorcet-jury-theorem",
+    "world.society.democracy"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_qids": [
+      "Q44455"
+    ],
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Games: von Neumann's 1928 theory and Nash's 1950 equilibrium points",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

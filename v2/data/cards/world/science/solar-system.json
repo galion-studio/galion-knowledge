@@ -1,0 +1,45 @@
+{
+  "id": "world.science.solar-system",
+  "title": "The Solar System",
+  "section": "world",
+  "category": "science",
+  "body": "# The Solar System\n\nThe Solar System consists of the Sun and everything gravitationally bound to it, formed about 4.6 billion years ago.\n\n## The Sun\n\n- Contains 99.86% of the system's mass\n- A G-type main-sequence star\n- Diameter: 1.4 million km\n- Core temperature: 15 million °C\n\n## The Planets\n\n### Terrestrial Planets\n- **Mercury**: Smallest, closest to Sun, extreme temperatures\n- **Venus**: Hottest planet, thick atmosphere, backward rotation\n- **Earth**: Only known life, liquid water, one moon\n- **Mars**: \"Red Planet,\" thin atmosphere, two moons\n\n### Gas Giants\n- **Jupiter**: Largest planet, Great Red Spot, 95 known moons\n- **Saturn**: Famous rings, 146 known moons\n\n### Ice Giants\n- **Neptune**: Farthest planet, strongest winds\n- **Uranus**: Tilted on its side, 27 known moons\n\n## Other Objects\n\n### Dwarf Planets\n- Pluto, Eris, Ceres, Haumea, Makemake\n\n### Asteroid Belt\n- Between Mars and Jupiter\n- Millions of rocky objects\n\n### Kuiper Belt\n- Beyond Neptune\n- Home of Pluto and many icy bodies\n\n### Oort Cloud\n- Hypothetical shell of icy objects\n- Source of long-period comets\n",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": null,
+  "as_of_date": null,
+  "status": "unsourced-needs-review",
+  "contested_views": [],
+  "related": [
+    "world.science.black-holes",
+    "world.science.big-bang"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract. The meta object is additive.",
+    "legacy_v1": {
+      "v1_id": "15",
+      "slug": "solar-system",
+      "summary": "Our cosmic neighborhood: the Sun, eight planets, dwarf planets, moons, asteroids, and comets.",
+      "tags": [
+        "astronomy",
+        "planets",
+        "space",
+        "sun"
+      ],
+      "related_slugs": [
+        "black-holes",
+        "big-bang",
+        "exoplanets"
+      ],
+      "legacy_truth_score_unverified": 100,
+      "legacy_source_count_unverified": 289,
+      "legacy_last_verified_unverified": "2024-12-14",
+      "legacy_read_time_minutes_unverified": 7,
+      "migration_note": "Body text is preserved from V1 src/lib/knowledge-data.ts. No sources were attached because they were not independently checked. Legacy truth scores and source counts are not evidence."
+    }
+  }
+}

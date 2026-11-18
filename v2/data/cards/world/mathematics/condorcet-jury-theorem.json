@@ -1,0 +1,49 @@
+{
+  "id": "world.mathematics.condorcet-jury-theorem",
+  "title": "Condorcet's jury theorem: a majority gets more reliable only under stated assumptions",
+  "section": "world",
+  "category": "mathematics",
+  "body": "## The conditional theorem\n\nThe Stanford Encyclopedia entry \"Democracy,\" by Tom Christiano and Sameer Bajaj (first published 27 July 2006, substantive revision 18 June 2024), states Condorcet's jury theorem as follows. When certain assumptions hold, the probability that a majority of voters supports the correct decision increases and approaches one as the number of voters increases. The entry attributes the original statement to Condorcet (1785) and lists the assumptions:\n\n- Competence: each voter is more likely than not to identify the correct decision.\n- Sincerity: voters vote for what they believe is the correct decision.\n- Independence: votes are statistically independent of one another.\n\nThe entry says Condorcet's original proof was restricted to two choices, and that more recent work argues the theorem can be extended to three or more choices, citing List and Goodin (2001). This card cites the encyclopedia's report of that extension. It does not cite a separate reading of List and Goodin.\n\n## Why the assumptions are the mechanism\n\nThe theorem is a fact about probabilities. If each voter is even slightly better than a coin flip, they vote what they think, and their errors are independent, then large electorates are very likely to match the correct side of a two-way question. The mathematics amplifies a small individual edge.\n\nIf competence fails, the same mathematics amplifies a shared mistake. If independence fails, because people copy one source, the effective number of voters collapses. If sincerity fails, the votes are not reports of belief. The theorem does not say \"more voters are wiser.\" It says \"more voters are wiser if those three conditions hold.\"\n\n**Fact:** the conditional result, as the encyclopedia states it.\n\n**Not settled, and not mathematics:** whether any real electorate meets the assumptions. That is empirical, and this card does not measure it.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Democracy",
+      "url": "https://plato.stanford.edu/entries/democracy/",
+      "author": "Tom Christiano and Sameer Bajaj",
+      "date": "2006",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Tom Christiano and Sameer Bajaj, reporting Condorcet",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.society.democracy",
+    "world.mathematics.game-theory"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Condorcet's jury theorem: a majority gets more reliable only under stated assumptions",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

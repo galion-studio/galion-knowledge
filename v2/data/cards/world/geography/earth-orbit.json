@@ -1,0 +1,49 @@
+{
+  "id": "world.geography.earth-orbit",
+  "title": "Earth's orbit and tilt, as NASA's fact sheet lists them",
+  "section": "world",
+  "category": "geography",
+  "body": "## Orbital elements on the fact sheet\n\nThe same NASA Earth Fact Sheet lists:\n\n- Semimajor axis 149.598 × 10^6 km\n- Sidereal orbit period 365.256 days\n- Tropical orbit period 365.242 days\n- Orbit eccentricity 0.0167\n- Obliquity to orbit 23.44 degrees\n- Sidereal rotation period 23.9345 hours\n- Length of day 24.0000 hours\n- Mean orbital velocity 29.78 km/s\n\nObliquity is the tilt of the equator relative to the orbital plane. Eccentricity is how far the orbit departs from a circle. A value of 0.0167 is a small departure. The sidereal day (rotation relative to the stars) and the 24-hour civil day are different quantities on the sheet, and both are listed because they are not the same measurement.\n\n## What this card does not explain\n\nSeasons exist because the tilt points one hemisphere toward the Sun for part of the orbit. That mechanism is standard, and this fact sheet was not the page that spelled the seasons out. The Milankovitch card is about how the tilt and the orbital shape change over tens of thousands of years. This card is only the present measured elements.\n\n**Fact:** the elements above, from the fact sheet, as read on 18 November 2026.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Earth Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "author": "David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.geography.earth-shape",
+    "world.nature.milankovitch-cycles"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Earth's orbit and tilt, as NASA's fact sheet lists them",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

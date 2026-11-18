@@ -1,0 +1,55 @@
+{
+  "id": "world.technology.transistor",
+  "title": "The transistor: a 1948 semiconductor triode and the 1956 prize",
+  "section": "world",
+  "category": "technology",
+  "body": "## The report and the prize\n\nBardeen and Brattain, Physical Review 74 (1948), page 230, \"The Transistor, A Semi-Conductor Triode,\" reported a three-terminal semiconductor device. \"Triode\" means three electrodes. The device is not a vacuum tube scaled down. It is a piece of semiconductor in which an electrical input controls a current, which is what a triode is for.\n\nThe Nobel Prize in Physics 1956 was awarded jointly to William Bradford Shockley, John Bardeen, and Walter Houser Brattain \"for their researches on semiconductors and their discovery of the transistor effect.\" The prize citation covers the effect and the research program. The 1948 paper is the published report of the device by two of the three.\n\n## What is not reconstructed here\n\nPoint contacts, germanium crystals, and the later junction transistor are the laboratory detail. They were not re-read from Shockley's papers in this pass, so this card does not narrate them. The mechanism at the level of the sources is: semiconductors can be made into a triode, and that effect is what the 1956 prize names.\n\n**Fact:** the 1948 paper and the prize citation.\n\n**Interpretation:** later digital machines are built by using this kind of switch in large numbers. That is an engineering consequence. It is not a sentence of the 1948 letter.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Transistor, A Semi-Conductor Triode",
+      "url": "https://doi.org/10.1103/PhysRev.74.230",
+      "author": "J. Bardeen and W. H. Brattain",
+      "date": "1948",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Nobel Prize in Physics 1956",
+      "url": "https://www.nobelprize.org/prizes/physics/1956/summary/",
+      "author": "Nobel Prize Outreach",
+      "date": "1956",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "John Bardeen, Walter H. Brattain, and William B. Shockley",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.technology.turing-machine"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "The transistor: a 1948 semiconductor triode and the 1956 prize",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "world.arts.depiction",
+  "title": "How pictures represent: resemblance, convention, and psychology are rival accounts",
+  "section": "world",
+  "category": "arts",
+  "body": "## The dispute the survey maps\n\nJohn Hyman and Katerina Bantinaki, \"Depiction,\" Stanford Encyclopedia of Philosophy (first published 8 June 2017, substantive revision 30 November 2025), treat depiction — pictorial representation — as a philosophical problem with more than one live theory. The entry's contents, as read, divide the field into resemblance theories, conventionalist theories, and psychological theories. Under the psychological heading it lists seeing-as and seeing-in, experienced resemblance and make-believe, and recognition-based theories.\n\nThe mechanism each family proposes is different. A resemblance theory says a picture represents because it looks like, in some specified way, what it depicts, and the entry has a section on critics of resemblance. A conventionalist theory says depiction works by learned convention, closer to a symbol than to a copy. A psychological theory locates the work in the viewer's experience or recognitional capacity: seeing-in, make-believe, or recognition. These cannot all be the full story unless they are shown to be the same story. The encyclopedia presents them as a map of disagreement.\n\n## Not settled\n\n**Fact:** this is the map of positions in that survey, including the existence of a critical literature on resemblance.\n\n**Not settled:** which family is right. This card does not award the question to resemblance because photographs exist, or to convention because styles differ. A map projection, on the geography card, is a different problem: a geometric rule from a spheroid to a plane. A picture's content is the problem of depiction. The two meet when someone treats a projected map as a picture of \"how the world looks.\" That treats a convention as a resemblance. The depiction entry is the reminder that this move is a theory, and a contested one.\n",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Depiction",
+      "url": "https://plato.stanford.edu/entries/depiction/",
+      "author": "John Hyman and Katerina Bantinaki",
+      "date": "2017",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "not-settled",
+  "said_by": "John Hyman and Katerina Bantinaki",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.arts.aristotle-poetics-survival",
+    "world.geography.map-projections"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "How pictures represent: resemblance, convention, and psychology are rival accounts",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "not-settled",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "not-settled"
+      }
+    }
+  }
+}
