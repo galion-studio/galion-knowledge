@@ -1,0 +1,41 @@
+{
+  "id": "physics-engineering.elementary-charge",
+  "title": "The elementary charge is fixed at 1.602 176 634 × 10⁻¹⁹ C",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "BIPM marks e exact and ties the revised ampere to it. NIST's 2022 listing agrees and also marks the atomic unit of charge with the same exact number.",
+  "body": "BIPM prints the elementary charge e as 1.602 176 634 × 10⁻¹⁹ C, with no uncertainty, and its base-units page says the revised ampere is based on this fixed value. The NIST 2022 listing prints 'elementary charge 1.602 176 634 e-19 (exact) C' and 'atomic unit of charge 1.602 176 634 e-19 (exact) C'.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The International System of Units (SI): Defining constants",
+      "url": "https://www.bipm.org/en/measurement-units/si-defining-constants",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2018",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. BIPM dates the fixed values to the revision that took effect on 20 May 2019 and cites CGPM Resolution 1 (2018)."
+    },
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bureau International des Poids et Mesures; NIST CODATA 2022",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.si-seven-constants",
+    "physics-engineering.vacuum-permittivity"
+  ],
+  "tags": [
+    "physics-engineering",
+    "si",
+    "charge"
+  ]
+}

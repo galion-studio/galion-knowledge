@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.atomic-mass-constant",
+  "title": "CODATA 2022: the atomic mass constant is 1.660 539 068 92 × 10⁻²⁷ kg",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 000 000 52 × 10⁻²⁷ kg. One unified atomic mass unit is this mass.",
+  "body": "The NIST 2022 listing prints 'atomic mass constant 1.660 539 068 92 e-27' with standard uncertainty '0.000 000 000 52 e-27', in kilograms. The line 'atomic mass unit-kilogram relationship' prints the same digits. This is the mass corresponding to 1 u in that adjustment. It is not exact in the listing.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.avogadro",
+    "physics-engineering.proton-mass"
+  ],
+  "tags": [
+    "physics-engineering",
+    "atomic"
+  ]
+}

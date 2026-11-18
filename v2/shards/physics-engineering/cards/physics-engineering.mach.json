@@ -1,0 +1,34 @@
+{
+  "id": "physics-engineering.mach",
+  "title": "NASA Glenn: Mach number is speed divided by the local speed of sound",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "Subsonic is M less than 1. Near M = 1 the flow is transonic, and the page says compressibility effects matter most there. The speed of sound depends on temperature.",
+  "body": "NASA Glenn's Mach-number page, opened 2026-11-18, says the ratio of the speed of the aircraft to the speed of sound in the gas determines the size of many compressibility effects. That ratio is the Mach number M, named for Ernst Mach. Subsonic conditions are Mach numbers less than one. For the lowest subsonic speeds, compressibility can be ignored. As the object approaches the speed of sound, M is nearly 1, the flow is called transonic, and at some places on the object the local speed exceeds the speed of sound. Compressibility effects are most important in that regime. The page says aircraft do not cruise near Mach 1. Above Mach 1 the page discusses supersonic conditions and, at still higher speeds, aerodynamic heating. The Mach number depends on the speed of sound in the gas, and the speed of sound depends on the temperature of the gas. For air, mostly diatomic nitrogen and oxygen, temperature changes with altitude, and the page says those changes have to be accounted for.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Mach Number",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/mach.html",
+      "author": "NASA Glenn Research Center",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA Glenn Research Center",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.reynolds",
+    "physics-engineering.bernoulli",
+    "physics-engineering.speed-of-light"
+  ],
+  "tags": [
+    "physics-engineering",
+    "fluids",
+    "flight"
+  ]
+}

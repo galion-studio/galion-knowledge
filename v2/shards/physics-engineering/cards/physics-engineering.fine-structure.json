@@ -1,0 +1,31 @@
+{
+  "id": "physics-engineering.fine-structure",
+  "title": "CODATA 2022: the fine-structure constant is 7.297 352 5643 × 10⁻³",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The inverse is printed as 137.035 999 177. Neither is marked exact.",
+  "body": "The NIST 2022 listing prints 'fine-structure constant 7.297 352 5643 e-3' with standard uncertainty '0.000 000 0011 e-3', and 'inverse fine-structure constant 137.035 999 177' with standard uncertainty '0.000 000 021'. Neither line is marked exact. The fine-structure constant is a measured coupling, not one of the seven numbers BIPM fixed in 2019.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.elementary-charge"
+  ],
+  "tags": [
+    "physics-engineering",
+    "quantum"
+  ]
+}

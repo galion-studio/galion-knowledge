@@ -1,0 +1,33 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "pharmacy",
+  "title": "Medicines lists",
+  "scope": "Essential-medicine lists and regulatory names. Not synthesis, not a dose invented for a person.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "pharmacy",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "A formulary is a table that regulators replace. It does not belong in the pack that is always resident.",
+  "keywords": [
+    "medicine",
+    "essential medicines",
+    "formulary",
+    "drug list"
+  ],
+  "primary_sources": [
+    {
+      "title": "WHO Expert Committee on the Selection and Use of Essential Medicines",
+      "url": "https://www.who.int/groups/expert-committee-on-selection-and-use-of-essential-medicines",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

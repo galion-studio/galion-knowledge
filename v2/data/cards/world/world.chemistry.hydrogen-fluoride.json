@@ -1,0 +1,32 @@
+{
+  "id": "world.chemistry.hydrogen-fluoride",
+  "title": "NIST WebBook: hydrogen fluoride is FH, molecular weight 20.00634 amu",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The NIST Chemistry WebBook lists hydrogen fluoride as FH, molecular weight 20.00634 amu, CAS 7664-39-3.",
+  "body": "The NIST Chemistry WebBook entry for hydrogen fluoride, CAS Registry Number 7664-39-3, lists molecular formula FH and molecular weight 20.00634 amu. The same entry's monoisotopic molecular weight is 20.00622825 amu. The IUPAC InChI on the entry is InChI=1S/FH/h1H. The molecular weight and the monoisotopic mass are two different fields. This card reports the catalog entry. It does not convert either field into a molar mass in grams, and it does not say that every real sample has that weight.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "hydrogen fluoride, NIST Chemistry WebBook SRD 69",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7664393&Units=SI",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "JSON-LD MolecularEntity and the CAS line on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "webbook",
+    "FH"
+  ],
+  "read_time_min": 1
+}

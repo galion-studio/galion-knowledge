@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.vacuum-permittivity",
+  "title": "CODATA 2022: the vacuum electric permittivity is 8.854 187 8188 × 10⁻¹² F/m",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 000 0014 × 10⁻¹² F/m. It is not marked exact.",
+  "body": "The NIST 2022 listing prints 'vacuum electric permittivity 8.854 187 8188 e-12' with standard uncertainty '0.000 000 0014 e-12', unit F m⁻¹. It is not marked exact. It is not one of BIPM's seven defining constants.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.vacuum-permeability",
+    "physics-engineering.elementary-charge"
+  ],
+  "tags": [
+    "physics-engineering",
+    "electromagnetism"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "first-aid.hypoglycaemia",
+  "title": "St John Ambulance: low blood sugar gets a sugary drink or the person's own glucose, if they can take it",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Sit them down. The page lists about 150 ml of fruit juice, a non-diet fizzy drink, three teaspoons of sugar, or three sweets. High blood sugar is a different problem and a 999 call.",
+  "body": "St John Ambulance's diabetic-emergencies page separates two problems. For suspected hyperglycaemia, high blood sugar, call 999 or 112 and say that is what you suspect. They may wear a medical bracelet or carry a card. While you wait, keep checking breathing, pulse, and response. If they become unresponsive, open the airway, check breathing, and prepare to start CPR.\n\nFor suspected hypoglycaemia, low blood sugar, help them sit down. Signs the page lists include weakness, faintness or hunger, confusion and irrational behaviour, sweating with cold clammy skin, a rapid pulse, palpitations, trembling, a deteriorating response, and medical warning jewellery or medication. If they have their own glucose gel or tablets, help them take it. If not, give something sugary: a 150 ml glass of fruit juice, a non-diet fizzy drink, three teaspoons of sugar or sugar lumps, or three sweets such as jelly babies. The page continues, in the extract used here, \"If they improve quickly, give them,\" and then cuts off. The next instruction is not invented. The sugary items above are only for the low-sugar case, and only as that page lists them. They are not a treatment for high blood sugar.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Diabetic emergencies",
+      "url": "https://www.sja.org.uk/first-aid-advice/diabetes/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.cpr-adult"
+  ],
+  "tags": [
+    "first-aid",
+    "diabetes"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "moderate",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from moderate to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

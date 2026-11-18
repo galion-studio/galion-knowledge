@@ -1,0 +1,45 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "history-ancient",
+  "title": "History, ancient",
+  "scope": "Ancient societies from their texts and from archaeology reports, not from a single textbook narrative.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "history-ancient",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The core names a few ancient anchors. The languages, laws, and finds are a shelf.",
+  "keywords": [
+    "ancient",
+    "mesopotamia",
+    "egypt",
+    "rome",
+    "han",
+    "maurya"
+  ],
+  "primary_sources": [
+    {
+      "title": "Perseus Digital Library",
+      "url": "https://www.perseus.tufts.edu/hopper/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Chinese Text Project",
+      "url": "https://ctext.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Louvre collections",
+      "url": "https://collections.louvre.fr/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

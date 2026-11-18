@@ -1,0 +1,42 @@
+{
+  "id": "history-primary-documents.marbury-repugnant",
+  "title": "Marbury v. Madison: a law repugnant to the Constitution is void",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "Marshall's opinion, printed by the National Archives, says an act of the legislature repugnant to the Constitution is void, and that courts are bound by the Constitution. The Archives' essay says the Constitution did not state this power.",
+  "body": "The National Archives milestone page prints Chief Justice John Marshall's opinion in Marbury v. Madison. The opinion says it is a proposition too plain to be contested that the Constitution controls any legislative act repugnant to it, or that the legislature may alter the Constitution by an ordinary act. It says all those who have framed written constitutions contemplate them as the fundamental and paramount law of the nation, and that an act of the legislature repugnant to the Constitution is void. If that void act still bound the courts, the opinion says, it would overthrow in fact what was established in theory. The opinion concludes that the particular phraseology of the Constitution of the United States confirms and strengthens the principle, supposed to be essential to all written constitutions, that a law repugnant to the Constitution is void, and that courts as well as other departments are bound by that instrument.\n\nThe Archives' essay on the same page says: 'A Law repugnant to the Constitution is void.' With these words, the Supreme Court for the first time declared unconstitutional a law passed by Congress and signed by the President. The essay then says nothing stated in the Constitution gave the Court this specific power. Marshall, the essay says, believed the Supreme Court should have a role equal to the other two branches. The essay's claim that the power is not stated in the Constitution is the essay's reading. The opinion's claim is the opinion. Both were on the page. The essay also says no other law was declared unconstitutional until the Dred Scott decision of 1857.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Marbury v. Madison (1803)",
+      "url": "https://www.archives.gov/milestone-documents/marbury-v-madison",
+      "author": "U.S. National Archives",
+      "date": "1803",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Chief Justice John Marshall; the National Archives essay is marked as the essay",
+  "as_of_date": "1803",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Marshall's opinion, as printed",
+      "summary": "An act of the legislature repugnant to the Constitution is void, and courts are bound by the Constitution.",
+      "status": "Opinion text on the National Archives page."
+    },
+    {
+      "label": "The National Archives essay",
+      "summary": "Nothing stated in the Constitution gave the Court this specific power. Marshall believed the Court should stand equal to the other branches.",
+      "status": "NARA milestone essay, not a sentence of the 1787 judicial article."
+    }
+  ],
+  "related": [
+    "history-primary-documents.constitution-courts"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states"
+  ]
+}

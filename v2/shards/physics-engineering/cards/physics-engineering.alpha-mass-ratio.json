@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.alpha-mass-ratio",
+  "title": "CODATA 2022: an alpha particle is 7294.299 541 71 electron masses",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty on the ratio is 0.000 000 17. The alpha mass in u is 4.001 506 179 129.",
+  "body": "The NIST 2022 listing prints 'alpha particle-electron mass ratio 7294.299 541 71' with standard uncertainty '0.000 000 17'. It prints 'alpha particle mass in u 4.001 506 179 129' with standard uncertainty '0.000 000 000 062' u. The kilogram mass and the MeV equivalent are on the alpha-particle card. The ratio is the direct comparison with the electron.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are from lines printed in full."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.alpha-particle-mass",
+    "physics-engineering.electron-mass"
+  ],
+  "tags": [
+    "physics-engineering",
+    "particle"
+  ]
+}

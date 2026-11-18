@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.declaration-independence-clause",
+  "title": "The Declaration's operative sentence absolves the colonies from allegiance to the British Crown",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The closing declaration says the colonies are free and independent states, that political connection with Great Britain is dissolved, and that the signers pledge their lives, fortunes, and sacred honor.",
+  "body": "The National Archives transcript's closing declaration says the representatives, in General Congress assembled, 'do, in the Name, and by Authority of the good People of these Colonies, solemnly publish and declare, That these United Colonies are, and of Right ought to be Free and Independent States; that they are Absolved from all Allegiance to the British Crown, and that all political connection between them and the State of Great Britain, is and ought to be totally dissolved; and that as Free and Independent States, they have full Power to levy War, conclude Peace, contract Alliances, establish Commerce, and to do all other Acts and Things which Independent States may of right do.' The last sentence pledges 'our Lives, our Fortunes and our sacred Honor.' The transcript then lists the signers by state. The page is a transcription of the engrossed text, not a count of how many copies were later printed.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Declaration of Independence: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "author": "U.S. National Archives",
+      "date": "1776-07-04",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Continental Congress",
+  "as_of_date": "1776-07-04",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.declaration-stone",
+    "history-primary-documents.declaration-frontier-sentence"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states"
+  ]
+}

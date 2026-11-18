@@ -1,0 +1,34 @@
+{
+  "id": "world.chemistry.oxygen",
+  "title": "NIST WebBook: Oxygen is O2, molecular weight 31.9988 amu",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The NIST Chemistry WebBook lists Oxygen as O2, molecular weight 31.9988 amu, CAS 7782-44-7.",
+  "body": "The NIST Chemistry WebBook entry for Oxygen, CAS Registry Number 7782-44-7, lists molecular formula O2 and molecular weight 31.9988 amu. The same entry's monoisotopic molecular weight is 31.98982923912 amu. The IUPAC InChI on the entry is InChI=1S/O2/c1-2. The molecular weight and the monoisotopic mass are two different fields. This card reports the catalog entry. It does not convert either field into a molar mass in grams, and it does not say that every real sample has that weight.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Oxygen, NIST Chemistry WebBook SRD 69",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7782447&Units=SI",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "JSON-LD MolecularEntity and the CAS line on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.mole-avogadro"
+  ],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "webbook",
+    "O2"
+  ],
+  "read_time_min": 1
+}

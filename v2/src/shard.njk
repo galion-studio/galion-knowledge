@@ -1,0 +1,49 @@
+{% from "icon.njk" import icon with context %}
+{% from "tile.njk" import tile with context %}
+{% set items = shardPack.cards | inShard(shard.id) %}
+<header class="subhead">
+  <div class="subhead-inner">
+    <div class="subhead-left">
+      <button type="button" data-back aria-label="Back">{{ icon("arrow-left", "") }}</button>
+      <a class="brand" href="{{ "/" | url }}">{{ icon("book-open", "icon-brand") }} Knowledge</a>
+    </div>
+  </div>
+</header>
+<section class="page-hero">
+  <div>
+    <p class="quiet"><a href="{{ "/section/shards/" | url }}">Add-on shards</a></p>
+    <h1>{{ shard.title }}</h1>
+    <p class="lede">{{ shard.scope }}</p>
+    <ul class="meta">
+      <li><span class="pill">{{ shard.priority }}</span></li>
+      <li>{{ shard.status }}</li>
+      <li>{{ shard.card_count }} card{% if shard.card_count != 1 %}s{% endif %}</li>
+      <li>version {{ shard.version }}</li>
+      <li>depends on {{ shard.depends_on | join(", ") }}</li>
+    </ul>
+    <p class="quiet">Not in the core: {{ shard.why_not_core }}</p>
+  </div>
+</section>
+<section class="block">
+  <div class="source-box">
+    <h2>Primary sources</h2>
+    <ul class="source-list">
+      {% for source in shard.primary_sources %}
+        <li>
+          <a href="{{ source.url }}">{{ source.title }}</a>
+          {% if source.note %}<span class="source-note">{{ source.note }}</span>{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+    <p class="quiet">Card bundle sha256 <code>{{ shard.sha256 }}</code>, {{ shard.bytes }} bytes. Schema <code>{{ shard.schema }}</code>. An empty seeded count means the shard is named and not published. The empty digest is the hash of no cards, not a promise that a file will appear.</p>
+  </div>
+  {% if items | length == 0 %}
+    <p class="empty">No cards published in this shard yet.</p>
+  {% else %}
+    <div class="tile-grid">
+      {% for card in items %}
+        {{ tile(card) }}
+      {% endfor %}
+    </div>
+  {% endif %}
+</section>

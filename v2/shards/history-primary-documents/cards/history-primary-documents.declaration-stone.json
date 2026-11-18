@@ -1,0 +1,32 @@
+{
+  "id": "history-primary-documents.declaration-stone",
+  "title": "The National Archives transcript follows the Stone Engraving",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The page says the text is a transcription of the Stone Engraving of the parchment on display in the Rotunda, and that spelling and punctuation follow the original.",
+  "body": "The National Archives page 'Declaration of Independence: A Transcription' says the text is a transcription of the Stone Engraving of the parchment Declaration, the document on display in the Rotunda at the National Archives Museum, and that the spelling and punctuation reflect the original. The heading in the transcript is 'In Congress, July 4, 1776' and 'The unanimous Declaration of the thirteen united States of America'. The page was last reviewed, on the copy opened here, on 25 February 2026. This card is about what the transcript is. The sentences of the document are on the cards that quote them.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Declaration of Independence: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "author": "U.S. National Archives",
+      "date": "1776-07-04",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. National Archives",
+  "as_of_date": "1776-07-04",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.declaration-alter",
+    "history-primary-documents.declaration-independence-clause"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states"
+  ]
+}

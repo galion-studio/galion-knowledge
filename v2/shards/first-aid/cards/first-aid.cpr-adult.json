@@ -1,0 +1,50 @@
+{
+  "id": "first-aid.cpr-adult",
+  "title": "St John Ambulance: adult CPR is 100 to 120 compressions a minute, about 5 to 6 cm deep",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "If an adult is unresponsive and not breathing normally, the CPR page says call 999 or 112 and start compressions. Occasional gasps do not count as normal breathing.",
+  "body": "St John Ambulance's CPR page says CPR is cardiopulmonary resuscitation, chest compressions and rescue breaths. If an adult is unresponsive and not breathing normally, call 999 or 112 and start CPR. Check response first. If there is no response, shout for help and have a helper call, or call yourself on hands-free. Look, listen, and feel for normal breathing for up to 10 seconds. The page says to ignore occasional irregular gasps, which it calls common in the early stages of cardiac arrest.\n\nCompressions: heel of one hand on the middle of the chest, the other hand on top, fingers interlocked if you can. Lean forward, arms straight, press down about five to six centimetres, release, and let the chest come back up. Rate: 100 to 120 per minute. If you are trained, give two rescue breaths after 30 compressions. If you cannot or will not give breaths, give continuous compressions. Each breath attempt is up to one second, until the chest rises, then watch it fall. Do not spend long on breaths: two attempts, then back to compressions even if a breath did not go in. Continue 30:2 until the person breathes normally, you are exhausted (swap every one to two minutes if you have a helper), or a defibrillator tells you to stop while it analyses.\n\nThe same site's drowning page gives a different opening: five initial rescue breaths before compressions. That difference is recorded on the drowning card. It is a difference between two pages, not a measurement that one number replaced the other.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How to do CPR",
+      "url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    },
+    {
+      "title": "Drowning first aid",
+      "url": "https://www.sja.org.uk/first-aid-advice/drowning/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.drowning-breaths-first",
+    "first-aid.aed",
+    "first-aid.cpr-women"
+  ],
+  "tags": [
+    "first-aid",
+    "cpr"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

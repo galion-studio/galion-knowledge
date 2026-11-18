@@ -85,6 +85,23 @@ permalink: index.html
   {% endif %}
 </section>
 
+<section class="block">
+  <div class="block-head">
+    <h2>Add-on shards</h2>
+    <p>Optional packs on top of the core. A device loads one when the question is outside the resident pack. <a href="{{ "/section/shards/" | url }}">{{ shardPack.shards | length }} shards</a>.</p>
+  </div>
+  <div class="purpose-grid">
+    {% for shard in shardPack.shards %}
+      {% if shard.card_count %}
+        <a href="{{ ("/shards/" + shard.id + "/") | url }}">
+          <strong>{{ shard.title }}</strong>
+          <span>{{ shard.card_count }} cards. {{ shard.scope }}</span>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
 <section class="purpose">
   <div class="purpose-inner">
     <h2>What this knowledge is for</h2>

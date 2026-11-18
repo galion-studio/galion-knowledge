@@ -1,0 +1,33 @@
+{
+  "id": "history-primary-documents.declaration-tax",
+  "title": "The Declaration's grievance list includes tax without consent, jury trial, and quartering",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "Three of the charges, in the transcript's words: imposing taxes without consent, depriving the colonists of trial by jury in many cases, and quartering large bodies of armed troops.",
+  "body": "The National Archives transcript lists charges against the king, introduced with 'To prove this, let Facts be submitted to a candid world.' Among the charges printed there, in the transcript's spelling: 'For Quartering large bodies of armed troops among us'; 'For imposing Taxes on us without our Consent'; 'For depriving us in many cases, of the benefits of Trial by Jury'; 'For transporting us beyond Seas to be tried for pretended offences'. A separate charge says he has kept among them, in times of peace, standing armies without the consent of our legislatures, and has affected to render the military independent of and superior to the civil power. These are items in a list of accusations. They are not, by themselves, a statute.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Declaration of Independence: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "author": "U.S. National Archives",
+      "date": "1776-07-04",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Continental Congress",
+  "as_of_date": "1776-07-04",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.declaration-alter",
+    "history-primary-documents.bill-amendment-iii",
+    "history-primary-documents.constitution-revenue"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states"
+  ]
+}

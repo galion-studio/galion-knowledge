@@ -1,0 +1,33 @@
+{
+  "id": "history-primary-documents.constitution-three-fifths",
+  "title": "The 1787 apportionment text counts three fifths of 'all other Persons'",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "Article I in the National Archives transcript apportions representatives and direct taxes by adding free persons, including those bound for a term of years, excluding Indians not taxed, and three fifths of all other persons.",
+  "body": "The National Archives transcript of the Constitution, in the apportionment clause, says representatives and direct taxes shall be apportioned among the states according to their respective numbers, 'which shall be determined by adding to the whole Number of free Persons, including those bound to Service for a Term of Years, and excluding Indians not taxed, three fifths of all other Persons.' The same clause requires an actual enumeration within three years of the first meeting of Congress and every ten years after, in a manner directed by law, and says the number of representatives shall not exceed one for every thirty thousand, but each state shall have at least one. The phrase 'all other Persons' is the transcript's. In context it is the people who were not in the free count. The transcript prints this clause as part of the Constitution's text. A later amendment states a different counting rule. That amendment is a separate card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "author": "U.S. National Archives",
+      "date": "1787",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Constitutional Convention",
+  "as_of_date": "1787",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.fourteenth-section-2",
+    "history-primary-documents.apportionment-two-texts"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states",
+    "slavery"
+  ]
+}

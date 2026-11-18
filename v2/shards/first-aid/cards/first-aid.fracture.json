@@ -1,0 +1,42 @@
+{
+  "id": "first-aid.fracture",
+  "title": "St John Ambulance: open fractures, and suspected back, neck, or pelvis, are a 999 call",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Smaller fractures may go to urgent care with help. Do not press on a protruding bone. Support the joint above and below.",
+  "body": "St John Ambulance's fractures page says open fractures and long-bone fractures need immediate transfer to an emergency department by calling 999 or 112. A suspected broken back, neck, or pelvis does too. Smaller bones or other fractures still need an emergency department or an urgent treatment centre, but the page says that is less urgent, and the person may be able to go with a friend, family, or public transport. Remove rings, watches, and anything wrapped around the limb as soon as possible. For an open fracture or a visible wound, cover it with a sterile dressing or a clean non-fluffy cloth. Apply pressure around the wound, not over a protruding bone or the suspected fracture site. Advise them to keep still. Support the injured part by holding the joint above and below it, and pad around it. Ask about sensation: normal, pins and needles, hot or cold, or numb. If you have not already called 999 or 112, the page says to do it at that point. Do not move the person until the injured part is secured. The sentence was cut in the extract after \"secured,\" so the rest of that line is not invented here.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Broken bones and fractures",
+      "url": "https://www.sja.org.uk/first-aid-advice/fractures-and-broken-bones/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.broken-bone-medlineplus",
+    "first-aid.spinal",
+    "first-aid.sprains"
+  ],
+  "tags": [
+    "first-aid",
+    "fracture"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

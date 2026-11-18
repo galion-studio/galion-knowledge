@@ -1,0 +1,32 @@
+{
+  "id": "world.chemistry.argon",
+  "title": "NIST WebBook: Argon is Ar, molecular weight 39.948 amu",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The NIST Chemistry WebBook lists Argon as Ar, molecular weight 39.948 amu, CAS 7440-37-1.",
+  "body": "The NIST Chemistry WebBook entry for Argon, CAS Registry Number 7440-37-1, lists molecular formula Ar and molecular weight 39.948 amu. The same entry's monoisotopic molecular weight is 39.9623831225 amu. The IUPAC InChI on the entry is InChI=1S/Ar. The molecular weight and the monoisotopic mass are two different fields. This card reports the catalog entry. It does not convert either field into a molar mass in grams, and it does not say that every real sample has that weight.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Argon, NIST Chemistry WebBook SRD 69",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7440371&Units=SI",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "JSON-LD MolecularEntity and the CAS line on the page fetched 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Chemistry WebBook, SRD 69",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "webbook",
+    "Ar"
+  ],
+  "read_time_min": 1
+}

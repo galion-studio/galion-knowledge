@@ -1,0 +1,49 @@
+{
+  "id": "first-aid.heatstroke",
+  "title": "St John Ambulance: heatstroke is a 999 call, then active cooling",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Move them to shade, remove outer clothing, and cool with a wet sheet, fanning, sponging, or cold packs at the armpits and neck.",
+  "body": "St John Ambulance's heatstroke page says to move the person to a cool shaded place and remove outer clothing if possible, call 999 or 112, and sit them down. Wrap them in a cool wet sheet. If there is no sheet, fan them or sponge them with cold water. Cold packs can go in the armpits and around the neck if you have them. When their temperature seems to have returned to normal, replace the wet sheet with a dry one. Keep checking temperature, breathing, pulse, and response. Be ready to use the recovery position if they become unresponsive. If they get hot again, repeat the cooling. The page says someone with heatstroke may have seizures, and to be ready to treat those. It treats heatstroke as more serious than heat exhaustion. The heat-exhaustion page is a different card: fluids and rest first, and 999 or 112 if you are concerned, not as the automatic first step.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Heatstroke",
+      "url": "https://www.sja.org.uk/first-aid-advice/heatstroke/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    },
+    {
+      "title": "Heat exhaustion",
+      "url": "https://www.sja.org.uk/first-aid-advice/heat-exhaustion/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.heat-exhaustion",
+    "first-aid.dehydration"
+  ],
+  "tags": [
+    "first-aid",
+    "heat"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

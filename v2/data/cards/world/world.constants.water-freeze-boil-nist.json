@@ -1,0 +1,36 @@
+{
+  "id": "world.constants.water-freeze-boil-nist",
+  "title": "NIST says water freezes at 0 °C and boils at about 100 °C",
+  "section": "world",
+  "category": "measurement",
+  "summary": "On the Celsius scale as NIST's temperature page states it, water freezes at 0 °C and boils at about 100 °C. The word about is on the page.",
+  "body": "NIST's temperature page says that on the Celsius scale, water freezes at 0 °C and boils at about 100 °C, that one Celsius degree is an interval of 1 K, and that zero degrees Celsius is 273.15 K. The boiling point is written as about 100 °C on that page, not as an exact integer. The Celsius offset itself is the separate definition t/°C = T/K − 273.15.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "SI Units – Temperature",
+      "url": "https://www.nist.gov/pml/owm/si-units-temperature",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "The sentence with 'about 100' was on the page fetched this day."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Institute of Standards and Technology",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.kelvin-boltzmann",
+    "world.constants.celsius-offset",
+    "world.chemistry.water"
+  ],
+  "tags": [
+    "core-pack",
+    "area:constants",
+    "temperature",
+    "water"
+  ],
+  "read_time_min": 1
+}

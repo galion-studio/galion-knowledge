@@ -1,0 +1,31 @@
+{
+  "id": "physics-engineering.standard-gravity",
+  "title": "CODATA lists standard gravity as exactly 9.806 65 m/s²",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The 2022 listing marks 'standard acceleration of gravity' exact. It is a conventional value in the table, not a measurement of local g.",
+  "body": "The NIST 2022 listing prints 'standard acceleration of gravity 9.806 65 (exact) m s⁻²'. The exact mark means the table is stating a conventional value, the same way it marks defined constants exact. It is not a claim that every place on Earth has this acceleration. Local gravity is a measurement. This line is the standard value the listing names.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.two-standard-pressures"
+  ],
+  "tags": [
+    "physics-engineering",
+    "convention"
+  ]
+}

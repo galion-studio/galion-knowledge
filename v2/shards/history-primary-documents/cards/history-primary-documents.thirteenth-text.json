@@ -1,0 +1,33 @@
+{
+  "id": "history-primary-documents.thirteenth-text",
+  "title": "The Thirteenth Amendment abolishes slavery except as punishment for a crime after conviction",
+  "section": "shards",
+  "category": "history-primary-documents",
+  "summary": "The National Archives prints both the ban and the exception. Ratification was complete on 6 December 1865, on that page.",
+  "body": "The National Archives milestone page for the Thirteenth Amendment prints Section 1: 'Neither slavery nor involuntary servitude, except as a punishment for crime whereof the party shall have been duly convicted, shall exist within the United States, or any place subject to their jurisdiction.' The page says Lincoln approved the joint resolution submitting the amendment to the states on 1 February 1865, and that three fourths of the states had ratified it by 6 December 1865. The exception for punishment after criminal conviction is in the sentence. Leaving it out changes the sentence. The page is the amendment's text, not a study of how the exception was later used.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865)",
+      "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+      "author": "U.S. National Archives",
+      "date": "1865-12-06",
+      "accessed": "2026-11-18",
+      "note": "Transcription opened 2026-11-18. The card quotes the transcript. It does not add a later political reading unless a second opened page says it."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Congress and the ratifying states",
+  "as_of_date": "1865-12-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "history-primary-documents.emancipation-limit",
+    "history-primary-documents.fourteenth-section-1"
+  ],
+  "tags": [
+    "history-primary-documents",
+    "united-states",
+    "slavery"
+  ]
+}

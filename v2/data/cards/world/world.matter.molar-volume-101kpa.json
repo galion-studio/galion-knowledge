@@ -1,0 +1,32 @@
+{
+  "id": "world.matter.molar-volume-101kpa",
+  "title": "2022 CODATA: molar volume of ideal gas (273.15 K, 101.325 kPa) is 22.413 969 54... × 10^−3",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2022 CODATA complete listing, from NIST, marks molar volume of ideal gas (273.15 K, 101.325 kPa) as exact: 22.413 969 54...",
+  "body": "The 2022 CODATA complete listing, from NIST, marks molar volume of ideal gas (273.15 K, 101.325 kPa) as exact: 22.413 969 54... × 10^−3 m^3 mol^-1. The ellipsis is in the file. No further digits are added here. This is the ideal-gas molar volume at 273.15 K and the standard-atmosphere pressure of 101.325 kPa, marked exact. It is the listing's form of the familiar 22.4 litre value, not a measurement of a real gas.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "2022 CODATA complete listing of the fundamental physical constants",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "ASCII table fetched 2026-11-18. The card's number is that row."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, 2022 CODATA adjustment",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:matter",
+    "codata",
+    "constants"
+  ],
+  "read_time_min": 1
+}

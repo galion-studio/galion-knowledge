@@ -1,0 +1,40 @@
+{
+  "id": "first-aid.anaphylaxis",
+  "title": "St John Ambulance: anaphylaxis means the person's adrenaline auto-injector, then 999 or 112",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Help them use their own injector, or give it following the device instructions. Lay them down with legs raised unless breathing is difficult, in which case sit them up.",
+  "body": "St John Ambulance's anaphylaxis page says a person with a severe allergic reaction may carry an auto-injector, a pre-filled device containing adrenaline. Check for it, and help them use it, or give it yourself straight away following the instructions. Call 999 or 112 and tell ambulance control you suspect anaphylaxis. Lay them down with the legs raised, unless they are having trouble breathing, in which case sit them up. The page says repeated doses of adrenaline can be given at five-minute intervals if there is no improvement or the symptoms return. It does not give a dose in milligrams. The dose is whatever that person's device contains, used as the device says.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Anaphylaxis",
+      "url": "https://www.sja.org.uk/first-aid-advice/anaphylaxis/",
+      "author": "St John Ambulance",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. The steps below are that page's instructions for the United Kingdom, not a universal protocol."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "St John Ambulance",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.cpr-adult"
+  ],
+  "tags": [
+    "first-aid",
+    "allergy"
+  ],
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "truth-gate classifies every source host on this card as other, whose ceiling is weak. The opened pages are unchanged. The label moves from strong to weak. No stronger host was opened, and none is invented."
+    }
+  ]
+}

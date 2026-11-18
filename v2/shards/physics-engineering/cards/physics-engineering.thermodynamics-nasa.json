@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.thermodynamics-nasa",
+  "title": "NASA Glenn's three laws: temperature, internal energy, and entropy that does not decrease",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The zeroth law gives temperature. The first relates heat, work, and internal energy. The second says the entropy of a system plus its surroundings cannot decrease.",
+  "body": "NASA Glenn's thermodynamics page, opened 2026-11-18, says there are three principal laws and that the numbering is confusing, so it begins with the zeroth law. The zeroth law involves thermodynamic equilibrium and leads to the large-scale definition of temperature, as opposed to a small-scale definition related to the kinetic energy of molecules. The first law relates the various forms of kinetic and potential energy in a system to the work the system can do and to the transfer of heat. The page says this law is sometimes taken as the definition of internal energy, and that it introduces enthalpy. The first law allows many possible states. Experience shows only certain states occur. That leads to the second law and to entropy. The page says the second law stipulates that the total entropy of a system plus its environment cannot decrease. It can stay constant for a reversible process and must increase for an irreversible process.\n\nThis is NASA Glenn's teaching summary for propulsion and high-speed flow. It is not a quotation from Clausius. The strength is that the sentences are on the page, not that this shard re-derived the laws.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Thermodynamics",
+      "url": "https://www.grc.nasa.gov/WWW/K-12/airplane/thermo.html",
+      "author": "NASA Glenn Research Center",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "NASA Glenn Research Center",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.boltzmann",
+    "physics-engineering.two-standard-pressures"
+  ],
+  "tags": [
+    "physics-engineering",
+    "thermodynamics"
+  ]
+}

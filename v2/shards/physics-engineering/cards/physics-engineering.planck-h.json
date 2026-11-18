@@ -1,0 +1,41 @@
+{
+  "id": "physics-engineering.planck-h",
+  "title": "The Planck constant is fixed at 6.626 070 15 × 10⁻³⁴ J s",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "BIPM and the 2022 CODATA listing both mark h as exact. BIPM ties the revised kilogram to this constant.",
+  "body": "BIPM prints h as 6.626 070 15 × 10⁻³⁴ J s, with no uncertainty. The NIST 2022 listing prints 'Planck constant 6.626 070 15 e-34 (exact) J Hz⁻¹', which is the same number in joule-seconds, since a hertz is a reciprocal second. BIPM's base-units page says the 2018 revision changed the kilogram's definition and based that new definition on the fixed value of h. The reduced Planck constant also appears in the NIST listing as exact, but the printed line uses an ellipsis, so the truncated digits are not copied onto a card as if they were the full value.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The International System of Units (SI): Defining constants",
+      "url": "https://www.bipm.org/en/measurement-units/si-defining-constants",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2018",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18. BIPM dates the fixed values to the revision that took effect on 20 May 2019 and cites CGPM Resolution 1 (2018)."
+    },
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are copied from lines that were printed in full, without an ellipsis."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bureau International des Poids et Mesures; NIST CODATA 2022",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.si-seven-constants",
+    "physics-engineering.planck-length"
+  ],
+  "tags": [
+    "physics-engineering",
+    "si",
+    "quantum"
+  ]
+}

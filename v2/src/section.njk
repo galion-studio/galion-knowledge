@@ -17,9 +17,30 @@
     {% if section.id == "diary" %}
       <p class="quiet">The diary, the memory stack, and the FTS5 export live in <code>v2/memory</code>. This page lists diary cards when that pack adds them.</p>
     {% endif %}
+    {% if section.id == "shards" %}
+      <p class="quiet">These packs sit on top of the Base World Core Pack. A device keeps the core. It loads a shard when a question falls outside it. The format is <code>galion-shard-manifest/1</code>. {{ shardPack.shards | length }} shards are named. {{ shardPack.cards | length }} cards are seeded.</p>
+    {% endif %}
   </div>
 </section>
 <section class="block">
+  {% if section.id == "shards" %}
+    <div class="tile-grid">
+      {% for shard in shardPack.shards %}
+        <a class="tile" href="{{ ("/shards/" + shard.id + "/") | url }}">
+          <div class="tile-top">
+            <span class="pill">{{ shard.priority }}</span>
+            <span class="status status-other">{{ shard.status }}</span>
+          </div>
+          <h2>{{ shard.title }}</h2>
+          <p>{{ shard.scope }}</p>
+          <div class="tile-meta">
+            <span>{{ shard.card_count }} card{% if shard.card_count != 1 %}s{% endif %}</span>
+            <span class="tile-more">{{ icon("arrow-right", "icon-xs") }}</span>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  {% else %}
   <div class="cat-grid">
     {% for category in allCategories %}
       {% if category.section == section.id %}
@@ -38,5 +59,6 @@
         {{ tile(card) }}
       {% endfor %}
     </div>
+  {% endif %}
   {% endif %}
 </section>

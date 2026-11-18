@@ -1,0 +1,32 @@
+{
+  "id": "physics-engineering.molar-gas-not-copied",
+  "title": "Some exact CODATA lines were truncated in the public listing and are not copied here",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The molar gas constant, the Stefan-Boltzmann constant, the Faraday constant, and the reduced Planck constant are marked exact, but the ASCII listing cuts their digits with an ellipsis.",
+  "body": "The NIST 2022 ASCII listing marks several derived constants exact and then prints an ellipsis instead of the full digit string. Lines seen that way include the molar gas constant, the Stefan-Boltzmann constant, the Faraday constant, the Josephson constant, the von Klitzing constant, and the reduced Planck constant. An ellipsis is not a value. This shard does not reconstruct the missing digits from memory or from another page that was not the one opened. The constants whose digits were printed in full are the ones with their own cards. BIPM's defining-constants page does print full values for the seven defining constants, and those are used. A later card can carry a truncated constant once its full digit string is copied from a NIST or BIPM page that shows it.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "The 2022 ASCII listing, opened 2026-11-18, prints an ellipsis on the lines named in the body."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.si-seven-constants",
+    "physics-engineering.boltzmann"
+  ],
+  "tags": [
+    "physics-engineering",
+    "metrology"
+  ]
+}

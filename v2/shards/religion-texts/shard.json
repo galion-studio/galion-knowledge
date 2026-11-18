@@ -1,0 +1,45 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "religion-texts",
+  "title": "Religious texts",
+  "scope": "Scriptures and the commentaries traditions actually use, with the tradition named. Disagreements stay side by side.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "religion-texts",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The texts are long, and a single summary would pick a side. The core does not pretend to be a scripture.",
+  "keywords": [
+    "scripture",
+    "quran",
+    "bible",
+    "talmud",
+    "sutra",
+    "vedas"
+  ],
+  "primary_sources": [
+    {
+      "title": "Sefaria",
+      "url": "https://www.sefaria.org/texts",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Chinese Text Project",
+      "url": "https://ctext.org/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "Perseus Digital Library",
+      "url": "https://www.perseus.tufts.edu/hopper/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

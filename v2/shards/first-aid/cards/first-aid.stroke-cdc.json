@@ -1,0 +1,33 @@
+{
+  "id": "first-aid.stroke-cdc",
+  "title": "CDC: use B.E. F.A.S.T. and call 911, and do not drive to the hospital",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "Balance, eyes, face, arms, speech, time. CDC says the treatments that work best depend on recognition within 3 hours of the first symptoms.",
+  "body": "The CDC stroke page opened on 2026-11-18 says that during a stroke every minute counts, and that fast treatment can lessen the brain damage stroke can cause. Signs it lists for men and women include sudden numbness or weakness in the face, arm, or leg, especially on one side, and sudden confusion, trouble speaking, or difficulty understanding speech. Call 9-1-1 right away if you or someone else has any of these symptoms.\n\nThe test it prints is B.E. F.A.S.T. Balance: ask if they feel off-balance or dizzy. Eyes: ask if they have trouble seeing normally. Face: ask them to smile and look for one side drooping. Arms: ask them to raise both arms and look for one arm drifting down. Speech: ask them to repeat a simple phrase and listen for slurred or strange speech. Time: if you see any of these signs, call 9-1-1 right away. Note the time symptoms first appeared. The page says the stroke treatments that work best are available only if the stroke is recognised and diagnosed within 3 hours of the first symptoms, and that patients may not be eligible if they do not arrive in time. It says not to drive to the hospital. Call 9-1-1 so treatment can start on the way.\n\nA transient ischaemic attack, which the page also calls a mini-stroke, is symptoms that go away after a few minutes. The page says a TIA is a sign of a serious condition that will not go away without medical help, and that people ignore them because they clear up. Tell a health care team right away.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Signs and Symptoms of Stroke",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+      "author": "U.S. Centers for Disease Control and Prevention",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Page opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Centers for Disease Control and Prevention",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.stroke-sja",
+    "first-aid.stroke-checklists",
+    "first-aid.heart-attack-cdc"
+  ],
+  "tags": [
+    "first-aid",
+    "stroke"
+  ]
+}

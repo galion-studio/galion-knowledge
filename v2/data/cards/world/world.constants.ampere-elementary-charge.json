@@ -1,0 +1,48 @@
+{
+  "id": "world.constants.ampere-elementary-charge",
+  "title": "The ampere is fixed by setting the elementary charge to 1.602176634×10^−19 C",
+  "section": "world",
+  "category": "measurement",
+  "summary": "NIST defines the ampere by fixing the elementary charge. The same exact number is the 2022 CODATA elementary charge.",
+  "body": "NIST's electric-current page says the ampere is defined by taking the fixed numerical value of the elementary charge e to be 1.602176634 × 10^{−19} when expressed in the unit coulomb, which the page equates to A s, where the second is defined from the caesium frequency. The BIPM defining-constants table prints e as 1.602 176 634 × 10^{−19} C. The 2022 CODATA listing marks e exact. The same NIST page states that the volt is the unit of electric potential difference with 1 V = 1 W/A, and that the ohm is the unit of electric resistance with 1 Ω = 1 V/A.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "SI Units – Electric Current",
+      "url": "https://www.nist.gov/pml/owm/si-units-electric-current",
+      "author": "National Institute of Standards and Technology",
+      "date": "2019-05-20",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "SI defining constants",
+      "url": "https://www.bipm.org/en/measurement-units/si-defining-constants",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "2022 CODATA complete listing",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, BIPM, and the 2022 CODATA listing",
+  "as_of_date": "2019-05-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.kilogram-planck",
+    "world.constants.electron-volt"
+  ],
+  "tags": [
+    "core-pack",
+    "area:constants",
+    "si",
+    "ampere"
+  ],
+  "read_time_min": 1
+}

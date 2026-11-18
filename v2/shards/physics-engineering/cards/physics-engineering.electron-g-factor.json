@@ -1,0 +1,31 @@
+{
+  "id": "physics-engineering.electron-g-factor",
+  "title": "CODATA 2022: the electron g factor is −2.002 319 304 360 92",
+  "section": "shards",
+  "category": "physics-engineering",
+  "summary": "The standard uncertainty is 0.000 000 000 000 36. The departure from −2 is the magnetic-moment anomaly.",
+  "body": "The NIST 2022 listing prints 'electron g factor −2.002 319 304 360 92' with standard uncertainty '0.000 000 000 000 36'. The same listing prints 'electron mag. mom. anomaly 1.159 652 180 46 e-3' with standard uncertainty '0.000 000 000 18 e-3'. The g factor is not −2 exactly in this adjustment. The anomaly is the measured difference that the listing prints beside it.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Physical Constants, complete listing, 2022 CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST, CODATA 2022 recommended values",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "Complete listing of the 2022 CODATA adjustment, opened 2026-11-18. Digits are from lines printed in full."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, CODATA 2022 recommended values",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "physics-engineering.electron-mass"
+  ],
+  "tags": [
+    "physics-engineering",
+    "particle"
+  ]
+}

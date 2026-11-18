@@ -1,0 +1,39 @@
+{
+  "schema": "galion-shard-manifest/1",
+  "id": "astronomy",
+  "title": "Astronomy",
+  "scope": "Catalogues, ephemerides, and mission results. Positions change; the shard is the place for a dated number.",
+  "version": "1",
+  "card_count": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "depends_on": [
+    "core"
+  ],
+  "section": "shards",
+  "category": "astronomy",
+  "priority": "medium",
+  "status": "catalog",
+  "immutable": true,
+  "payload": "card-bundle/1",
+  "why_not_core": "The core has the shape of the system. An ephemeris does not belong in a pack that is not updated nightly.",
+  "keywords": [
+    "planet",
+    "star",
+    "orbit",
+    "ephemeris",
+    "galaxy"
+  ],
+  "primary_sources": [
+    {
+      "title": "NASA Science",
+      "url": "https://science.nasa.gov/",
+      "note": "Opened 2026-11-18."
+    },
+    {
+      "title": "JPL Solar System Dynamics",
+      "url": "https://ssd.jpl.nasa.gov/",
+      "note": "Opened 2026-11-18."
+    }
+  ]
+}

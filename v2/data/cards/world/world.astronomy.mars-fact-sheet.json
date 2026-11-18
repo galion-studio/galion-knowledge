@@ -1,0 +1,33 @@
+{
+  "id": "world.astronomy.mars-fact-sheet",
+  "title": "NASA's Mars fact sheet: mass 0.64169×10^24 kg, orbit 686.980 days",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet lists Mars's mass as 0.64169 × 10^24 kg, equatorial radius 3396.2 km, mean density 3934 kg/m^3, surface gravity 3.73 m/s^2, sidereal orbit 686.980 days, and 2 natural satellites.",
+  "body": "The sheet lists Mars's mass as 0.64169 × 10^24 kg, equatorial radius 3396.2 km, mean density 3934 kg/m^3, surface gravity 3.73 m/s^2, sidereal orbit 686.980 days, and 2 natural satellites. The atmosphere section states a surface pressure of 6.36 mb at mean radius, and says that pressure varies with season. Author of the sheet: Dr. David R. Williams, NASA Goddard Space Flight Center. Last updated on the page: 2025-05-19.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Mars Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "2025-05-19",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2025-05-19",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.eight-planets",
+    "world.sun-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:astronomy",
+    "mars"
+  ],
+  "read_time_min": 1
+}

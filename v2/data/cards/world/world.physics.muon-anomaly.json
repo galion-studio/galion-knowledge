@@ -1,0 +1,32 @@
+{
+  "id": "world.physics.muon-anomaly",
+  "title": "2022 CODATA: muon mag. mom. anomaly is 1.165 920 62 × 10^−3",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 2022 CODATA complete listing, from NIST, gives muon mag.",
+  "body": "The 2022 CODATA complete listing, from NIST, gives muon mag. mom. anomaly as 1.165 920 62 × 10^−3, with uncertainty 0.000 000 41 × 10^−3. The row is not marked exact. The muon magnetic-moment anomaly in the 2022 recommended values, with the listing's uncertainty.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "2022 CODATA complete listing of the fundamental physical constants",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "author": "NIST / CODATA",
+      "date": "2022",
+      "accessed": "2026-11-18",
+      "note": "ASCII table fetched 2026-11-18. The card's number is that row."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST, 2022 CODATA adjustment",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "codata",
+    "constants"
+  ],
+  "read_time_min": 1
+}

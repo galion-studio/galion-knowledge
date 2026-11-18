@@ -1,0 +1,31 @@
+{
+  "id": "first-aid.sepsis-who",
+  "title": "WHO: sepsis is organ dysfunction from the body's extreme response to infection",
+  "section": "shards",
+  "category": "first-aid",
+  "summary": "WHO lists fever, fast heart rate, rapid breathing, confusion, and body pain. It says sepsis is a medical emergency and needs care, not home treatment.",
+  "body": "The World Health Organization's sepsis fact sheet says sepsis is a life-threatening condition that happens when the body's immune system has an extreme response to an infection, causing organ dysfunction. The reaction damages the body's own tissues and organs and can lead to shock, multiple organ failure, and sometimes death, especially if it is not recognised early and treated promptly. Common signs it names: fever, fast heart rate, rapid breathing, confusion, and body pain. Sepsis is usually caused by bacterial infections but may result from viruses, parasites, or fungi. Treatment, on that page, requires medical care, including antimicrobials, intravenous fluids, and other measures. The sheet says people who think they may have sepsis should seek medical care right away. It also says sepsis patients with resistant pathogens have been found to have a higher risk of hospital mortality, and it gives an estimate of 4.95 million deaths associated with antimicrobial resistance in 2019, including 1.27 million deaths directly attributable to it. Those resistance figures are the sheet's citation of a 2019 estimate. They are not a count of all sepsis deaths.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sepsis",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/sepsis",
+      "author": "World Health Organization",
+      "date": "",
+      "accessed": "2026-11-18",
+      "note": "Fact sheet opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.sepsis-sja"
+  ],
+  "tags": [
+    "first-aid",
+    "sepsis"
+  ]
+}

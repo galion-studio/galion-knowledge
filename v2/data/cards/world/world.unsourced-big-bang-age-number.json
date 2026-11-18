@@ -1,10 +1,10 @@
 {
   "id": "world.unsourced-big-bang-age-number",
-  "title": "The figure 13.8 billion years is not copied here",
+  "title": "The v1 Big Bang timeline numerals are still unsourced",
   "section": "world",
   "category": "cosmology",
-  "summary": "A common age of the universe was in the v1 article. It was not in the Planck abstract we read.",
-  "body": "The v1 Big Bang article said the universe expanded from a hot dense state about 13.8 billion years ago, and it gave light-element percentages and a minute-by-minute timeline. The Planck 2018 abstract we read states consistency with flat ΛCDM and does not include the age numeral. Until a table is opened and the number is copied from it, the 13.8 billion year figure and the timeline numerals stay unsourced. Do not invent them.",
+  "summary": "The v1 minute-by-minute timeline and light-element percentages are still not copied from a source. The age figure is on the Planck card.",
+  "body": "The v1 Big Bang article added a minute-by-minute timeline and light-element percentages. Those numerals are still not copied from a source opened for that article. The age figure is no longer left as an unsourced slogan: world.cosmology.planck-2018-age records the age printed in the Planck 2018 paper, from the manuscript opened on 18 November 2026. This card does not repeat that number.\n",
   "claim_type": "interpretation",
   "sources": [],
   "evidence_strength": "none",
@@ -13,7 +13,8 @@
   "status": "unsourced - needs review",
   "contested_views": [],
   "related": [
-    "world.planck-2018-lcdm"
+    "world.planck-2018-lcdm",
+    "world.cosmology.planck-2018-age"
   ],
   "tags": [
     "cosmology",

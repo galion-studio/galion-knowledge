@@ -1,0 +1,41 @@
+{
+  "id": "world.chemistry.1h-abundance",
+  "title": "IAEA Live Chart: 1H is listed stable, abundance 99.9855",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "The Live Chart ground-state row for 1H says STABLE and lists abundance 99.9855.",
+  "body": "The IAEA Live Chart ground-state row for 1H (Z=1, N=0), extracted 2026-11-18, lists the half-life field as STABLE and the abundance field as 99.9855 with unc_a 0.0078. The row's ENSDF publication cut-off field is 31-Oct-2005. Abundance here is the column in that row, not a new assay.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "IAEA Live Chart ground state 1H",
+      "url": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=1H",
+      "author": "International Atomic Energy Agency, Live Chart of Nuclides",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "CSV row extracted 2026-11-18. ENSDF cut-off field: 31-Oct-2005."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "IAEA Live Chart / ENSDF",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "isotope",
+    "1H"
+  ],
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "evidence_strength",
+      "from": "strong",
+      "to": "weak",
+      "note": "Truth gate ceiling. The only source host is iaea.org, class other, whose ceiling is weak. The Live Chart row was not changed and no source was added."
+    }
+  ]
+}

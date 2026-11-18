@@ -1,0 +1,33 @@
+{
+  "id": "world.constants.hertz-and-becquerel",
+  "title": "The hertz and the becquerel are both the reciprocal second, used for different things",
+  "section": "world",
+  "category": "measurement",
+  "summary": "BIPM says the hertz is for periodic phenomena and the becquerel is for radioactive decay, though both equal a reciprocal second.",
+  "body": "The BIPM concise SI summary says the hertz and the becquerel are both equal to the reciprocal second, that the hertz is used only for periodic phenomena, and that the becquerel is used only for stochastic processes in radioactive decay. A frequency of one cycle per second and an activity of one decay per second are not interchangeable labels, even though the dimension is the same.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The International System of Units (SI), concise summary, 9th edition",
+      "url": "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-concise-EN.pdf/2fda4656-e236-0fcb-3867-36ca74eea4e3?version=4.1&t=1780473467684&download=true",
+      "author": "Bureau International des Poids et Mesures",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bureau International des Poids et Mesures",
+  "as_of_date": "2018",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.physics.14c-half-life"
+  ],
+  "tags": [
+    "core-pack",
+    "area:constants",
+    "si",
+    "units"
+  ],
+  "read_time_min": 1
+}
