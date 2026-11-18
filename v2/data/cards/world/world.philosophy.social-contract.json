@@ -19,11 +19,36 @@
   "said_by": "Ann Cudd and Seena Eftekhari",
   "as_of_date": "2026-11-18",
   "status": "sourced",
-  "contested_views": [],
+  "contested_views": [
+    {
+      "label": "Political contract",
+      "summary": "Cudd and Eftekhari: one project says legitimate authority of government must derive from the consent of the governed.",
+      "status": "SEP Contractarianism, as read 2026-11-18."
+    },
+    {
+      "label": "Moral contract",
+      "summary": "The same entry: the other project is a moral theory about the origin or legitimate content of moral norms.",
+      "status": "SEP Contractarianism, as read 2026-11-18."
+    },
+    {
+      "label": "Contractarianism and contractualism",
+      "summary": "The entry says there are two strains, usually called contractarianism and contractualism. Contractarianism stems from Hobbes. This card does not pick Hobbes over Rawls.",
+      "status": "SEP Contractarianism, as read 2026-11-18. Not settled."
+    }
+  ],
   "related": [
     "world.history.declaration-of-the-rights-of-man-1789",
     "world.society.democracy",
     "world.law.human-rights-declaration"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "contested_views",
+      "from": "0",
+      "to": "3",
+      "note": "claim_type is contested and contested_views was empty. The views named in the body were copied into the field. No side was added that the body did not already state."
+    }
+  ]
 }

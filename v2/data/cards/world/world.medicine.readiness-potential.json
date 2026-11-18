@@ -23,7 +23,7 @@
     }
   ],
   "evidence_strength": "moderate",
-  "said_by": "",
+  "said_by": "Benjamin Libet, Curtis A. Gleason, and Elwood W. Wright; Aaron Schurger, Jacobo D. Sitt, and Stanislas Dehaene",
   "as_of_date": "2026-11-18",
   "status": "sourced",
   "contested_views": [
@@ -60,5 +60,14 @@
     "world.philosophy.free-will",
     "world.medicine.nerve-impulse"
   ],
-  "read_time_min": 1
+  "read_time_min": 1,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "change": "said_by",
+      "from": "",
+      "to": "Benjamin Libet, Curtis A. Gleason, and Elwood W. Wright; Aaron Schurger, Jacobo D. Sitt, and Stanislas Dehaene",
+      "note": "said_by was empty. Filled from the author fields already on the sources. No name was added that was not already on the card."
+    }
+  ]
 }

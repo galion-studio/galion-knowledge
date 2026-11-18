@@ -1,0 +1,535 @@
+# Truth gate configuration.
+#
+# Wikipedia and sites that mirror or republish it are banned. A DOI, a
+# statute, a dataset, and a transcription of a primary text are not Wikipedia.
+# Wikisource is a transcription library. It is classified below as primary_text.
+# The Stanford Encyclopedia of Philosophy is a refereed encyclopedia. It is
+# not a Wikipedia mirror.
+#
+# Add a host to banned_suffixes to reject it. The ceiling for a class is the
+# highest evidence_strength that class can support on its own.
+
+banned_suffixes = [
+  "wikipedia.org",
+  "wikipedia.com",
+  "wikimedia.org",
+  "wikidata.org",
+  "wikimediafoundation.org",
+  "wikiwand.com",
+  "wikiless.org",
+  "dbpedia.org",
+  "everipedia.org",
+  "thefullwiki.org",
+  "wiki2.org",
+]
+
+# Matched against the hostname only. "wikipedia" catches language subdomains
+# and look-alike hosts. It does not match wikisource.org.
+banned_host_substrings = ["wikipedia", "wikiwand", "wikiless", "dbpedia"]
+
+# Phrases that mean the card text is talking about Wikipedia or a derivative.
+# A warning, including when the sentence says the derivative was not used.
+mention_phrases = ["wikipedia", "wikimedia", "wikidata", "wikiwand", "dbpedia"]
+
+placeholder_suffixes = ["example.com", "example.org", "example.net", "localhost", "invalid"]
+
+# doi.org is a resolver, not one outlet. It is left out of outlet-dominance.
+resolver_domains = ["doi.org"]
+
+official_suffixes = [".gov", ".mil", ".gov.uk", ".gov.au", ".gc.ca", ".gouv.fr", ".gov.tr"]
+
+ceilings.peer_reviewed = "strong"
+ceilings.preprint = "strong"
+ceilings.official = "strong"
+ceilings.primary_text = "strong"
+ceilings.dataset = "strong"
+ceilings.scholarly_secondary = "moderate"
+ceilings.house = "weak"
+ceilings.news = "weak"
+ceilings.other = "weak"
+
+# Near-duplicate: token Jaccard of title + summary + body.
+# The second pair of thresholds catches two cards with the same title and a shared body
+# when the full-text score is lower.
+near_duplicate_jaccard = 0.40
+title_jaccard = 0.45
+body_jaccard_with_title = 0.22
+
+# One registrable domain, other than a resolver, at or above this share of a
+# category's source URLs. One government or IGO voice is the same kind of warning.
+outlet_share = 0.60
+outlet_min_urls = 6
+voice_share = 0.75
+voice_min_urls = 8
+
+recommended_statuses = [
+  "draft",
+  "sourced",
+  "sourced - needs review",
+  "unsourced - needs review",
+  "reviewed",
+  "archived",
+]
+
+# Value-laden and propaganda words. A hit on a fact card is a flag.
+# It does not reject the card and it does not rewrite the sentence.
+loaded_phrases = [
+  "alarmist",
+  "atrocities",
+  "atrocity",
+  "barbaric",
+  "barbarous",
+  "brainwash",
+  "brainwashed",
+  "brainwashing",
+  "cancel culture",
+  "crisis actor",
+  "cult",
+  "debunked",
+  "deep state",
+  "denialist",
+  "denialists",
+  "disgraceful",
+  "dog whistle",
+  "everyone knows",
+  "extremist",
+  "extremists",
+  "fake news",
+  "false flag",
+  "fascist",
+  "fascists",
+  "freedom fighter",
+  "genocide",
+  "globalist",
+  "hoax",
+  "horrific",
+  "illegal alien",
+  "illegal aliens",
+  "indoctrination",
+  "insane",
+  "kangaroo court",
+  "libtard",
+  "mainstream media",
+  "monstrous",
+  "nazi",
+  "nazis",
+  "new world order",
+  "outrageous",
+  "propaganda",
+  "pseudoscience",
+  "pure evil",
+  "quack",
+  "racist",
+  "regime",
+  "savage",
+  "sheeple",
+  "snowflake",
+  "so-called",
+  "terrorist",
+  "terrorists",
+  "traitor",
+  "undeniable",
+  "unprecedented",
+  "villain",
+  "virtue signaling",
+  "virtue signalling",
+  "wicked",
+  "witch hunt",
+  "woke",
+  "worthless",
+]
+
+# Longest suffix wins. A government hostname that matches official_suffixes
+# does not need a row here.
+
+[[domain]]
+suffix = "doi.org"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "arxiv.org"
+class = "preprint"
+
+[[domain]]
+suffix = "biorxiv.org"
+class = "preprint"
+
+[[domain]]
+suffix = "medrxiv.org"
+class = "preprint"
+
+[[domain]]
+suffix = "pmc.ncbi.nlm.nih.gov"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "pubmed.ncbi.nlm.nih.gov"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "ncbi.nlm.nih.gov"
+class = "official"
+
+[[domain]]
+suffix = "plato.stanford.edu"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "nature.com"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "science.org"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "sciencemag.org"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "pnas.org"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "cell.com"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "thelancet.com"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "nejm.org"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "bmj.com"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "jamanetwork.com"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "springer.com"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "wiley.com"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "oup.com"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "sciencedirect.com"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "frontiersin.org"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "plos.org"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "aps.org"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "iop.org"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "elifesciences.org"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "mdpi.com"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "tandfonline.com"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "annualreviews.org"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "jstor.org"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "brill.com"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "cambridge.org"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "direct.mit.edu"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "aclanthology.org"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "digitalcommons.law.uw.edu"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "royalsocietypublishing.org"
+class = "peer_reviewed"
+
+[[domain]]
+suffix = "wikisource.org"
+class = "primary_text"
+
+[[domain]]
+suffix = "gutenberg.org"
+class = "primary_text"
+
+[[domain]]
+suffix = "avalon.law.yale.edu"
+class = "primary_text"
+
+[[domain]]
+suffix = "oll.libertyfund.org"
+class = "primary_text"
+
+[[domain]]
+suffix = "classics.mit.edu"
+class = "primary_text"
+
+[[domain]]
+suffix = "ctext.org"
+class = "primary_text"
+
+[[domain]]
+suffix = "marxists.org"
+class = "primary_text"
+
+[[domain]]
+suffix = "accesstoinsight.org"
+class = "primary_text"
+
+[[domain]]
+suffix = "fourmilab.ch"
+class = "primary_text"
+
+[[domain]]
+suffix = "mathcs.clarku.edu"
+class = "primary_text"
+
+[[domain]]
+suffix = "web.lemoyne.edu"
+class = "primary_text"
+
+[[domain]]
+suffix = "rfc-editor.org"
+class = "primary_text"
+
+[[domain]]
+suffix = "folger.edu"
+class = "primary_text"
+
+[[domain]]
+suffix = "rand.org"
+class = "primary_text"
+
+[[domain]]
+suffix = "today.duke.edu"
+class = "primary_text"
+
+[[domain]]
+suffix = "openstax.org"
+class = "scholarly_secondary"
+
+[[domain]]
+suffix = "encyclopedia.ushmm.org"
+class = "scholarly_secondary"
+
+[[domain]]
+suffix = "iep.utm.edu"
+class = "scholarly_secondary"
+
+[[domain]]
+suffix = "mathshistory.st-andrews.ac.uk"
+class = "scholarly_secondary"
+
+[[domain]]
+suffix = "rmg.co.uk"
+class = "scholarly_secondary"
+
+[[domain]]
+suffix = "thegreenwichmeridian.org"
+class = "scholarly_secondary"
+
+[[domain]]
+suffix = "earlymoderntexts.com"
+class = "scholarly_secondary"
+
+[[domain]]
+suffix = "consc.net"
+class = "scholarly_secondary"
+
+[[domain]]
+suffix = "scientificamerican.com"
+class = "scholarly_secondary"
+
+[[domain]]
+suffix = "slavevoyages.org"
+class = "dataset"
+
+[[domain]]
+suffix = "glottolog.org"
+class = "dataset"
+
+[[domain]]
+suffix = "scrippsco2.ucsd.edu"
+class = "dataset"
+
+[[domain]]
+suffix = "claymath.org"
+class = "dataset"
+
+[[domain]]
+suffix = "nobelprize.org"
+class = "official"
+
+[[domain]]
+suffix = "bipm.org"
+class = "official"
+
+[[domain]]
+suffix = "royalsociety.org"
+class = "official"
+
+[[domain]]
+suffix = "home.cern"
+class = "official"
+
+[[domain]]
+suffix = "cern.ch"
+class = "official"
+
+[[domain]]
+suffix = "icj-cij.org"
+class = "official"
+
+[[domain]]
+suffix = "icrc.org"
+class = "official"
+
+[[domain]]
+suffix = "irmct.org"
+class = "official"
+
+[[domain]]
+suffix = "unesco.org"
+class = "official"
+
+[[domain]]
+suffix = "unep.org"
+class = "official"
+
+[[domain]]
+suffix = "who.int"
+class = "official"
+
+[[domain]]
+suffix = "un.org"
+class = "official"
+
+[[domain]]
+suffix = "unicef.org"
+class = "official"
+
+[[domain]]
+suffix = "unrwa.org"
+class = "official"
+
+[[domain]]
+suffix = "worldbank.org"
+class = "official"
+
+[[domain]]
+suffix = "ipcc.ch"
+class = "official"
+
+[[domain]]
+suffix = "europa.eu"
+class = "official"
+
+[[domain]]
+suffix = "bankofengland.co.uk"
+class = "official"
+
+[[domain]]
+suffix = "conseil-constitutionnel.fr"
+class = "official"
+
+[[domain]]
+suffix = "988lifeline.org"
+class = "official"
+
+[[domain]]
+suffix = "github.com"
+class = "house"
+
+[[domain]]
+suffix = "galion.app"
+class = "house"
+
+[[domain]]
+suffix = "reuters.com"
+class = "news"
+
+[[domain]]
+suffix = "apnews.com"
+class = "news"
+
+[[domain]]
+suffix = "bbc.com"
+class = "news"
+
+[[domain]]
+suffix = "bbc.co.uk"
+class = "news"
+
+[[domain]]
+suffix = "nytimes.com"
+class = "news"
+
+[[domain]]
+suffix = "theguardian.com"
+class = "news"
+
+[[domain]]
+suffix = "washingtonpost.com"
+class = "news"
+
+[[domain]]
+suffix = "wsj.com"
+class = "news"
+
+[[domain]]
+suffix = "bloomberg.com"
+class = "news"
+
+[[domain]]
+suffix = "cnn.com"
+class = "news"
+
+[[domain]]
+suffix = "foxnews.com"
+class = "news"
+
+[[domain]]
+suffix = "aljazeera.com"
+class = "news"
