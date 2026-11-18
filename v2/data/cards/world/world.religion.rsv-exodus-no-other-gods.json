@@ -1,0 +1,34 @@
+{
+  "id": "world.religion.rsv-exodus-no-other-gods",
+  "title": "The RSV Ten Commandments begin by forbidding other gods",
+  "section": "world",
+  "category": "religion",
+  "summary": "The RSV of Exodus 20 says, 'You shall have no other gods before me.'",
+  "body": "The Revised Standard Version of Exodus 20 states the command to have no other gods before the Lord. This card records that sentence of the Decalogue. It does not list every later Jewish or Christian numbering of the commandments. The wording on the page includes: \"your God, who brought you out of the land of Egypt, out of the house of bondage. 3 “You shall have no other gods before[a] me. 4 “You shall not make for yourself a graven image, or any likeness of anything that is in heaven above, or that is in the earth beneath, or that is in the water under the earth; 5 you shall not bow down to them or serve them; for I the Lord\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Exodus 20:1-17 (RSV)",
+      "url": "https://www.biblegateway.com/passage/?search=Exodus+20%3A1-17&version=RSV",
+      "author": "Revised Standard Version, via Bible Gateway",
+      "date": "RSV translation; biblical book of Exodus",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Exodus 20:1-17, Revised Standard Version",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.rsv-shema"
+  ],
+  "tags": [
+    "religion",
+    "judaism",
+    "christianity",
+    "scripture",
+    "commandments"
+  ],
+  "read_time_min": 1
+}

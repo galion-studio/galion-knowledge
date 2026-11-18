@@ -1,0 +1,33 @@
+{
+  "id": "world.religion.hadith-bukhari-fasting",
+  "title": "Fordham's Bukhari fasting page is a hadith collection on the fast",
+  "section": "world",
+  "category": "religion",
+  "summary": "Fordham hosts a Bukhari selection specifically on fasting.",
+  "body": "Fordham publishes a page of hadith on fasting drawn from Bukhari. The page is a selection of reports about the fast, not the whole of Sahih al-Bukhari and not the Quranic verse that prescribes fasting. The wording on the page includes: \"Apostle said, \"Fasting is a shield (or a screen or a shelter). So, the person observing fasting should avoid sexual relation with his wife and should not behave foolishly and impudently, and if somebody fights with him or abuses him, he should tell him twice, 'I am fasting.\" The Prophet added, \"By Him in Whose Hands my soul is, the smell coming out\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Hadith on fasting",
+      "url": "https://sourcebooks.fordham.edu/halsall/source/bukhari-fasting.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "Sahih al-Bukhari, as presented on the page",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Selections from Sahih al-Bukhari on fasting, Fordham sourcebook",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.quran-fasting-prescribed"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "hadith",
+    "fasting"
+  ],
+  "read_time_min": 1
+}

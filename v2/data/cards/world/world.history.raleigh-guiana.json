@@ -1,0 +1,33 @@
+{
+  "id": "world.history.raleigh-guiana",
+  "title": "Raleigh's Discovery of Guiana is his report of a search for gold",
+  "section": "world",
+  "category": "history",
+  "summary": "Raleigh's Discovery of Guiana is his own report of a gold-seeking voyage.",
+  "body": "Fordham prints Raleigh's Discovery of Guiana, his account of a voyage in search of gold and of a rich inland realm. The book is a plea for English investment and empire. It is not an Indigenous history of the Orinoco. The wording on the page includes: \"of his soldiers any further into the land than to Carapana, which he called the port of Guiana; but from thence by the help of Carapana he had trade further into the country, and always appointed ten Spaniards to reside in Carapana's town,32 by whose favour, and by being conducted by his people, those ten searched the country thereabouts, as well for\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Discovery of Guiana",
+      "url": "https://sourcebooks.fordham.edu/mod/1595raleigh-guiana.asp",
+      "author": "Walter Raleigh; Fordham sourcebook",
+      "date": "1596",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Walter Raleigh, Fordham text",
+  "as_of_date": "1595",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.raleigh-1584-patent"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "early-modern",
+    "eyewitness"
+  ],
+  "read_time_min": 1
+}

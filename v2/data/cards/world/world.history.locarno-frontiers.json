@@ -1,0 +1,34 @@
+{
+  "id": "world.history.locarno-frontiers",
+  "title": "Locarno guarantees the frontiers between Germany and France and between Germany and Belgium",
+  "section": "world",
+  "category": "history",
+  "summary": "Locarno guarantees the German-French and German-Belgian frontiers fixed at Versailles.",
+  "body": "The Locarno treaty guarantees the territorial status quo of the frontiers between Germany and Belgium and between Germany and France, as fixed by the Treaty of Versailles. The guarantee is of those western frontiers. It is not a guarantee of Germany's eastern frontiers. The wording on the page includes: \"following Articles, the maintenance of the territorial status quo resulting from the frontiers between Germany and Belgium and between Germany and France, and the inviolability of the said frontiers as fixed by or in pursuance of the Treaty of Peace signed at Versailles on June 28, 1919, and also the observance of the stipulations of Articles 42 and 43 of the said treaty concerning the demilitarised zone.\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Locarno Pact, 16 October 1925",
+      "url": "https://avalon.law.yale.edu/20th_century/locarno_001.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1925-10-16",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Locarno treaties, Avalon Project",
+  "as_of_date": "1925",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.treaty-versailles",
+    "world.history.kellogg-briand-renounce"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

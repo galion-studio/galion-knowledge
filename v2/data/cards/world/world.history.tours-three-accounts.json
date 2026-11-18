@@ -1,0 +1,32 @@
+{
+  "id": "world.history.tours-three-accounts",
+  "title": "Fordham prints three accounts of the battle called Tours or Poitiers",
+  "section": "world",
+  "category": "history",
+  "summary": "Fordham presents three accounts of the 732 Frankish-Arab battle, not a single official report.",
+  "body": "Fordham's page is titled three accounts of the encounter of Arabs and Franks in 732. The sourcebook places more than one telling on the page, including a reported opinion of the emir who conquered Spain. The card records that three accounts are presented. It does not pick a winner among them. The wording on the page includes: \"Internet Medieval Sourcebook Arabs, Franks, and the Battle of Tours, 732: Three Accounts [Davis Introduction] The following opinion was expressed about the Franks by the emir who conquered Spain, and who---had he not been recalled---might have commanded at Tours. It shows what the Arab leaders thought of the men of the North up to the moment of\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Arabs, Franks, and the Battle of Tours: Three Accounts",
+      "url": "https://sourcebooks.fordham.edu/source/732tours.asp",
+      "author": "Fordham sourcebook",
+      "date": "732",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Fordham sourcebook",
+  "as_of_date": "732",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "history",
+    "europe",
+    "africa",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.religion.quran-9-5",
+  "title": "Quran 9:5 in Sahih International tells the reader to kill the polytheists after the sacred months",
+  "section": "world",
+  "category": "religion",
+  "summary": "Sahih International of Quran 9:5 says to kill the polytheists wherever you find them after the sacred months.",
+  "body": "Sahih International of Quran 9:5 says that when the sacred months have passed, kill the polytheists wherever you find them. The verse is in the book. This card does not say that the verse is the whole of Islamic teaching about violence, and it does not erase 2:256. The wording on the page includes: \"And when the sacred months have passed, then kill the polytheists wherever you find them and capture them and besiege them and sit in wait for them at every place of ambush. But if they should repent, establish prayer, and give zakah, let them [go] on their way. Indeed, Allah is Forgiving and Merciful.\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Quran 9:5, Sahih International",
+      "url": "https://api.alquran.cloud/v1/ayah/9:5/editions/en.sahih",
+      "author": "Sahih International, via alquran.cloud",
+      "date": "Quran",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Quran 9:5, Sahih International",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.quran-no-compulsion",
+    "world.religion.quran-compulsion-and-sword-verse"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "quran"
+  ],
+  "read_time_min": 1
+}

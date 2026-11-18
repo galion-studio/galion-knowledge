@@ -1,0 +1,33 @@
+{
+  "id": "world.religion.laozi-deification-page",
+  "title": "A Fordham page records a text on the deification of Lao Zi",
+  "section": "world",
+  "category": "religion",
+  "summary": "Fordham publishes a text specifically about the deification of Lao Zi, distinct from the Daodejing.",
+  "body": "Fordham hosts a page titled The Deification of Lao Zi. It is a religious narrative about Lao Zi becoming a divine figure, which is not the same text as the Daodejing's opening lines. Those opening lines were not opened for this card. The wording on the page includes: \"History Sourcebook: The Deification of Lao Zi (Lao Tse) Inscribed in the Temple at Lao Zi's Birthplace, 666 CE I. Back in the depths of ancient time; Remote, before the Tis began; Four equal sides defined the earth, And pillars eight the heaven sustained. All living things in classes came, The valleys wide, and mighty streams. The Perfect\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Deification of Lao Zi",
+      "url": "https://sourcebooks.fordham.edu/eastasia/666laozi.asp",
+      "author": "Fordham sourcebook",
+      "date": "traditional Chinese religious text, as dated on the page",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Fordham East Asian History Sourcebook",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.ancestor-worship-page",
+    "world.philosophy.analects-and-confucius"
+  ],
+  "tags": [
+    "religion",
+    "daoism",
+    "china"
+  ],
+  "read_time_min": 1
+}

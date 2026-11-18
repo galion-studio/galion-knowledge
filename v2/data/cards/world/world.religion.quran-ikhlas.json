@@ -1,0 +1,34 @@
+{
+  "id": "world.religion.quran-ikhlas",
+  "title": "Sahih International of surah 112 says Allah is one",
+  "section": "world",
+  "category": "religion",
+  "summary": "Sahih International renders Quran 112:1 as 'Say, He is Allah, [who is] One.'",
+  "body": "The Sahih International translation of Quran 112:1 says: Say, He is Allah, who is One. The surah is a short statement of divine uniqueness. The API also returns the Uthmani Arabic. The wording on the page includes: \"Say, \"He is Allah, [who is] One,\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Quran surah 112, Al-Ikhlas",
+      "url": "https://api.alquran.cloud/v1/surah/112/editions/quran-uthmani,en.sahih",
+      "author": "Sahih International; Uthmani text; alquran.cloud",
+      "date": "Quran",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Quran 112, Sahih International",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.quran-fatiha-bismillah",
+    "world.religion.rsv-shema"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "quran",
+    "tawhid"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world.history.nato-article-5",
+  "title": "NATO Article 5 says an armed attack on one in Europe or North America is an attack on all",
+  "section": "world",
+  "category": "history",
+  "summary": "NATO Article 5 treats an armed attack on one ally in Europe or North America as an attack on all.",
+  "body": "Article 5 of the North Atlantic Treaty says an armed attack against one or more of the parties in Europe or North America shall be considered an attack against them all. The obligation is tied to that geography. It is a treaty clause, not a record of a later invocation. The wording on the page includes: \"or security of any of the Parties is threatened. ARTICLE 5 The Parties agree that an armed attack against one or more of them in Europe or North America shall be considered an attack against them all, and consequently they agree that, if such an armed attack occurs, each of them, in exercise of the right of individual or collective selfdefence recognised by Article 51 of the Charter of the United Nations, will assist the Party or Parties so attacked by\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "North Atlantic Treaty, 4 April 1949",
+      "url": "https://avalon.law.yale.edu/20th_century/nato.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1949-04-04",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "North Atlantic Treaty, Avalon Project",
+  "as_of_date": "1949",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.warsaw-pact-article-4",
+    "world.history.un-charter-article-51"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "americas",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

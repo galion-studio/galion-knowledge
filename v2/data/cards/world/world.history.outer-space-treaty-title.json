@@ -1,0 +1,33 @@
+{
+  "id": "world.history.outer-space-treaty-title",
+  "title": "Avalon prints the 1967 outer-space treaty, including the Moon and other celestial bodies",
+  "section": "world",
+  "category": "history",
+  "summary": "Avalon prints the 27 January 1967 treaty on outer space, the Moon, and other celestial bodies.",
+  "body": "Avalon prints the treaty of 27 January 1967 on the activities of states in the exploration and use of outer space, including the Moon and other celestial bodies. The page is that treaty. A later national space statute is not this text. The wording on the page includes: \"promote international co-operation in the exploration and use of outer space, including the moon and other celestial bodies, in conformity with the purposes of this Treaty, the States Parties to the Treaty shall consider on a basis of equality any requests by other States Parties to the Treaty to be afforded an opportunity to observe the flight of space objects launched by those\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty on Principles Governing the Activities of States in Outer Space",
+      "url": "https://avalon.law.yale.edu/20th_century/usmu016.asp",
+      "author": "Outer Space Treaty, Avalon Project",
+      "date": "1967-01-27",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Outer Space Treaty, Avalon Project",
+  "as_of_date": "1967",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.antarctic-peaceful"
+  ],
+  "tags": [
+    "history",
+    "global",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

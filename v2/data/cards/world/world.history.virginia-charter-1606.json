@@ -1,0 +1,34 @@
+{
+  "id": "world.history.virginia-charter-1606",
+  "title": "The 1606 Virginia charter is a royal grant to plant a colony",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1606 Virginia charter is James I's grant to plant a colony.",
+  "body": "Avalon prints the first charter of Virginia, 10 April 1606, a grant from James I to plant colonies. The charter assumes the crown can grant American land. It does not record a purchase from a Native nation. The wording on the page includes: \"Hiberniae; on the other Side this Inscription round about; Pro Concilio primae Coloniae Virginiae. And the Seal for the Council of the said second Colony shall also have engraven, round about the one Side thereof, the aforesaid Words; Sigillum Regis Magne Britanniae, Franciae, & Hiberniae; and on the other Side; Pro Concilio primae Coloniae Virginiae:\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The First Charter of Virginia, 10 April 1606",
+      "url": "https://avalon.law.yale.edu/17th_century/va01.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1606-04-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "First Charter of Virginia, Avalon Project",
+  "as_of_date": "1606",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.raleigh-1584-patent",
+    "world.history.mayflower-civil-body"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "early-modern",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

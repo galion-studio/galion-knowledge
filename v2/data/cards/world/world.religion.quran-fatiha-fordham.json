@@ -1,0 +1,33 @@
+{
+  "id": "world.religion.quran-fatiha-fordham",
+  "title": "A Fordham selection of surah 1 praises God as Lord of the worlds",
+  "section": "world",
+  "category": "religion",
+  "summary": "Fordham's English of Quran 1:2 says all praise is due to Allah alone, Lord of all the worlds.",
+  "body": "Fordham's selection of surah 1 says all praise is due to Allah alone, Lord of all the worlds, and that 'Thee alone do we worship.' The English is not identical to Sahih International. Both are translations of the same short surah. The wording on the page includes: \"1, and Surah 47. Surah 1 1: 1. In the name of ALLAH, the Gracious, the Merciful. 1: 2. All praise is due to ALLAH alone, Lord of all the worlds. 1: 3. The Gracious, the Merciful. 1: 4. Master of the Day of Judgment. 1: 5. THEE alone do we worship and THEE alone do we implore for help. 1: 6. Guide us in the straight path, 1: 7. The path of those on whom THOU hast\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Qu'ran: Surahs 1 and 47",
+      "url": "https://sourcebooks.fordham.edu/halsall/source/koran-sel.asp",
+      "author": "English selection on the Fordham sourcebook page",
+      "date": "Quran, surah 1",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Quran surah 1 in the English selection published by the Fordham Internet History Sourcebooks",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.quran-fatiha-bismillah"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "quran",
+    "translation"
+  ],
+  "read_time_min": 1
+}

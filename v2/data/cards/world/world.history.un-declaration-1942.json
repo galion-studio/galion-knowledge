@@ -1,0 +1,34 @@
+{
+  "id": "world.history.un-declaration-1942",
+  "title": "The Declaration by United Nations of 1 January 1942 is a wartime pledge, not the 1945 Charter",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1 January 1942 Declaration by United Nations is a wartime no-separate-peace pledge.",
+  "body": "Avalon prints the Declaration by United Nations of 1 January 1942, a pledge of the governments then at war not to make a separate peace. The name United Nations here is the wartime coalition. The Charter of June 1945 is a later constitution. The wording on the page includes: \"Century 1900 - 1999 21st Century 2000 - A Decade of American Foreign Policy 1941-1949Declaration by the United Nations, January 1, 1942 Contents A Joint Declaration by the United States, the United Kingdom, the Union of Soviet Socialist Republics, China, Australia, Belgium, Canada, Costa Rica, Cuba, Czechoslovakia, Dominican Republic, El Salvador, Greece, Guatemala, Haiti\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Declaration by United Nations, 1 January 1942",
+      "url": "https://avalon.law.yale.edu/20th_century/decade03.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1942-01-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Allied governments, Avalon Project",
+  "as_of_date": "1942",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.atlantic-charter-wishes",
+    "world.history.un-charter-article-51"
+  ],
+  "tags": [
+    "history",
+    "global",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.history.maryland-toleration-conscience",
+  "title": "The Maryland act says forcing conscience in religion has often been dangerous",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1649 Maryland act says forcing religious conscience has often been dangerous, within a Christian settlement.",
+  "body": "The Maryland act says that enforcing conscience in matters of religion has frequently been of dangerous consequence. The act then protects Trinitarian Christians in a stated way and punishes blasphemy. The preamble's warning is not a modern freedom of religion for every belief. The wording on the page includes: \"third offence and for every time after shall also bee publickly whipt. And whereas the inforceing of the conscience in matters of Religion hath frequently fallen out to be of dangerous Consequence in those commonwealthes where it hath been practised, And for the more quiett and peaceable governement of this Province, and the better to preserve mutuall Love and amity amongst the Inhabitants\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Maryland Toleration Act, 21 September 1649",
+      "url": "https://avalon.law.yale.edu/18th_century/maryland_toleration.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1649-09-21",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Maryland Toleration Act, Avalon Project",
+  "as_of_date": "1649",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.fundamental-orders-gospel"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "early-modern",
+    "religion",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

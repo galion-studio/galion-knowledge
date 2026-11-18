@@ -1,0 +1,34 @@
+{
+  "id": "world.history.preliminary-peace-1782",
+  "title": "The 1782 preliminary articles have the king treat the thirteen states as free and independent",
+  "section": "world",
+  "category": "history",
+  "summary": "The 30 November 1782 articles acknowledge the thirteen states as free, sovereign, and independent.",
+  "body": "The preliminary articles of 30 November 1782 say His Britannic Majesty acknowledges the United States, listed from New Hampshire to Georgia, to be free, sovereign, and independent states, and relinquishes claims to government and territorial rights. These are preliminary articles. The definitive treaty is a later instrument. The wording on the page includes: \"Delaware, Maryland, Virginia, North Carolina, South Carolina and Georgia, to be free Sovereign and independent States; That he treats with them as such; And for himself, his Heirs and Successors, relinquishes all Claims to the Government, Propriety, and territorial Rights of the same, and every part thereof; and that all Disputes which might arise in future, on the Subject\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Preliminary Articles of Peace, 30 November 1782",
+      "url": "https://avalon.law.yale.edu/18th_century/prel1782.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1782-11-30",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Preliminary articles of peace, Avalon Project",
+  "as_of_date": "1782",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.treaty-paris-1783-definitive",
+    "world.history.yorktown-capitulation"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "eighteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

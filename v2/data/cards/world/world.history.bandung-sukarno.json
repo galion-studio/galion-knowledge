@@ -1,0 +1,34 @@
+{
+  "id": "world.history.bandung-sukarno",
+  "title": "Sukarno's opening speech at Bandung addresses the conference as a gathering of colonized peoples",
+  "section": "world",
+  "category": "history",
+  "summary": "Sukarno's 1955 opening speech is his framing of the Bandung conference.",
+  "body": "Fordham prints Sukarno's opening speech at the Bandung conference of 1955. The speech is the Indonesian president's framing of an Afro-Asian meeting. It is not the conference's final communique. The wording on the page includes: \"Modern History Sourcebook President Sukarno of Indonesia: Speech at the Opening of the Bandung Conference, April 18 1955 (excerpts) This twentieth century has been a period of terrific dynamism. Perhaps the last fifty years have seen more developments and more material progress than the previous five hundred years. Man has learned to control many of\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "Speech at the opening of the Bandung Conference",
+      "url": "https://sourcebooks.fordham.edu/mod/1955sukarno-bandong.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1955-04-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Sukarno, Fordham text",
+  "as_of_date": "1955",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.nehru-bandung-1955"
+  ],
+  "tags": [
+    "history",
+    "southeast-asia",
+    "africa",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

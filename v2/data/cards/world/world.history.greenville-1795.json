@@ -1,0 +1,35 @@
+{
+  "id": "world.history.greenville-1795",
+  "title": "The Treaty of Greenville is a 1795 peace between the United States and named Indian nations",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1795 Treaty of Greenville is a peace with named Native nations, including the Wyandot, Delaware, and Shawnee.",
+  "body": "The Treaty of Greenville is titled a treaty of peace between the United States and the Wyandots, Delawares, Shawanees, Ottawas, and other named nations. It is a land and peace agreement after war in the Ohio country. The text is the negotiated instrument, not a unilateral statute. The wording on the page includes: \"of peace between the United States of America, and the tribes of Indians called the Wyandots, Delawares, Shawanees, Ottawas, Chippewas, Pattawatimas, Miamis, Eel Rivers, Weas, Kickapoos, Piankeshaws, and Kaskaskias. To put an end to a destructive war, to settle all controversies, and to restore harmony and friendly intercourse between the said United States and Indian\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of Greenville, 3 August 1795",
+      "url": "https://avalon.law.yale.edu/18th_century/greenvil.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1795-08-03",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Treaty of Greenville, Avalon Project",
+  "as_of_date": "1795",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.proclamation-1763-indian-lands",
+    "world.history.fort-laramie-1868-bad-men"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "indigenous",
+    "eighteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

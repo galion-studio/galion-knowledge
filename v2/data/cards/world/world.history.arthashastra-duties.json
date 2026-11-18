@@ -1,0 +1,33 @@
+{
+  "id": "world.history.arthashastra-duties",
+  "title": "Fordham's Arthashastra selection includes a chapter on the duties of a king",
+  "section": "world",
+  "category": "history",
+  "summary": "Fordham's Arthashastra selection includes a chapter on the duties of a king.",
+  "body": "Fordham's selection from the Arthashastra lists a chapter titled The Duties of a King. The page is an English selection of a statecraft manual attributed to Kautilya. It is not a Mauryan archive document with a seal. The wording on the page includes: \"Arthashastra, c. 250 BCE Book I, Chapter 7, The Life of a Holy King Book I, Chapter 19, The Duties of a King Book II, Chapter 10, The Procedure of Forming Royal Writs Book III, Chapter 1, Determination of Forms of Agreement Book III, Chapter 2, Concerning Marriage and Women Book III, Chapter 3, The Duty of a Wife Book III, Chapter 6, Special Shares of Inheritance\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Arthashastra",
+      "url": "https://sourcebooks.fordham.edu/india/kautilya1.html",
+      "author": "Kautilya, Fordham English",
+      "date": "classical Sanskrit treatise, English selection",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Kautilya, Fordham English",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.ashoka-exertion"
+  ],
+  "tags": [
+    "history",
+    "south-asia",
+    "ancient",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

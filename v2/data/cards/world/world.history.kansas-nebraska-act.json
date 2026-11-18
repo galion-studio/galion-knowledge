@@ -1,0 +1,35 @@
+{
+  "id": "world.history.kansas-nebraska-act",
+  "title": "The Kansas-Nebraska Act organizes two territories and reopens the slavery question there",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1854 Kansas-Nebraska Act organizes those two territories and reopens the status of slavery in them.",
+  "body": "The act's title is to organize the territories of Nebraska and Kansas. The statute replaces an earlier congressional ban on slavery in part of the Louisiana Purchase with territorial decision. This card identifies the statute. It does not narrate Bleeding Kansas. The wording on the page includes: \"Century 1800 - 1899 20th Century 1900 - 1999 21st Century 2000 - An Act to Organize the Territories of Nebraska and Kansas Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled, That all that part of the territory of the United States included within the following limits, except such portions thereof as are hereinafter\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Kansas-Nebraska Act, 30 May 1854",
+      "url": "https://avalon.law.yale.edu/19th_century/kanneb.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1854-05-30",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Congress, Avalon Project",
+  "as_of_date": "1854",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.fugitive-slave-1850",
+    "world.history.crittenden-36-30"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "slavery",
+    "nineteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

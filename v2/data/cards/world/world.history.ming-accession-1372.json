@@ -1,0 +1,33 @@
+{
+  "id": "world.history.ming-accession-1372",
+  "title": "The first Ming emperor's 1372 letter says the Yuan had ruled China after Heaven cut off the Song",
+  "section": "world",
+  "category": "history",
+  "summary": "The first Ming emperor's 1372 letter says Heaven ended the Song and the Yuan then ruled China from the desert.",
+  "body": "The 1372 manifesto, in Fordham's English, says that since the Song had lost the throne and Heaven had cut off their sacrifice, the Yuan dynasty had risen from the desert to rule Zhongguo for more than a hundred years. The letter explains a change of mandate to a foreign ruler. It is the new dynasty's account, not a Mongol one. The wording on the page includes: \"\"Since the Sung dynasty had lost the throne and Heaven had cut off their sacrifice, the Yuan [Mongol] dynasty had risen from the desert to enter and rule over Zhongguo [China] for more than a hundred years, when Heaven, wearied of their misgovernment and debauchery, thought also fit to turn their fate to ruin, and the affairs of Zhongguo were in a state of disorder for eighteen years. But\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Manifesto of accession as first Ming emperor",
+      "url": "https://sourcebooks.fordham.edu/eastasia/1372mingmanf.html",
+      "author": "Fordham East Asian History Sourcebook",
+      "date": "1372",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Hongwu emperor, Fordham English",
+  "as_of_date": "1372",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.manchu-abdication-1912"
+  ],
+  "tags": [
+    "history",
+    "china",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

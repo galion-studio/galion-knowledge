@@ -1,0 +1,35 @@
+{
+  "id": "world.history.fundamental-orders-gospel",
+  "title": "The Fundamental Orders of Connecticut bind the settlers to the liberty of the Gospel they profess",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1639 Fundamental Orders tie the commonwealth to the liberty and purity of the Gospel the settlers profess.",
+  "body": "The Fundamental Orders say the settlers enter a combination to maintain the liberty and purity of the Gospel of their Lord Jesus which they profess, and the discipline of the churches. The civil covenant is explicitly congregational. It is not a grant of liberty to other religions. The wording on the page includes: \"enter into Combination and Confederation together, to maintain and preserve the liberty and purity of the Gospel of our Lord Jesus which we now profess, as also, the discipline of the Churches, which according to the truth of the said Gospel is now practiced amongst us; as also in our civil affairs to be guided and governed according to such Laws, Rules, Orders and\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamental Orders, 14 January 1639",
+      "url": "https://avalon.law.yale.edu/17th_century/order.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1639-01-14",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Fundamental Orders, Avalon Project",
+  "as_of_date": "1639",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.mayflower-civil-body",
+    "world.history.maryland-toleration-conscience"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "early-modern",
+    "religion",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "world.history.fugitive-slave-1850",
+  "title": "The 1850 Fugitive Slave Act creates a federal process for seizing alleged fugitives",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1850 Fugitive Slave Act is a federal seizure process for people alleged to be fugitives from slavery.",
+  "body": "Avalon prints the Fugitive Slave Act of 18 September 1850, which sets commissioners and a federal process for the seizure of people alleged to owe service. The statute is the slave states' enforcement law inside the Compromise. It is not the Northwest Ordinance's ban. The wording on the page includes: \"to the person or persons claiming him or her, in the State or Territory from which such fugitive may have escaped as aforesaid, and that said person escaped, to make out and deliver to such claimant, his or her agent or attorney, a certificate setting forth the substantial facts as to the service or labor due from such fugitive to the claimant, and of\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fugitive Slave Act, 18 September 1850",
+      "url": "https://avalon.law.yale.edu/19th_century/fugitive.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1850-09-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Congress, Avalon Project",
+  "as_of_date": "1850",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.northwest-ordinance-slavery",
+    "world.history.kansas-nebraska-act",
+    "world.emancipation-1863"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "slavery",
+    "nineteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

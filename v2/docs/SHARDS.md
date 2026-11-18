@@ -11,7 +11,7 @@ The file is `v2/shards/manifest.json`. The schema string is `galion-shard-manife
 | Field | Where it comes from |
 | --- | --- |
 | `schema` | `galion-shard-manifest/1` |
-| `version` | Publication count of this catalog. The schema generation is the `1` in `galion-shard-manifest/1`, and `ScaleIndex` writes `"1"` for a newly built index. This file is not that index. Publication 1 was the first catalog. Publication 2 is the core digest after the core pack grew (`08fe16e5e619fc34eec824312cd6efb38f1e57cf8b4b747b601a717b8ebe528e`, 1,590,111 bytes, 778 cards). A new core digest is a new publication. The old digest is not rewritten into the old version. |
+| `version` | Publication count of this catalog. The schema generation is the `1` in `galion-shard-manifest/1`, and `ScaleIndex` writes `"1"` for a newly built index. This file is not that index. Publication 1 was the first catalog. Publication 2 is the core digest after the core pack grew (`08fe16e5e619fc34eec824312cd6efb38f1e57cf8b4b747b601a717b8ebe528e`, 1,590,111 bytes, 778 cards). Publication 3 is the core digest after the history and religion cards joined that pack (`2a625fc33126adbefbadba0aba32471a597374b367ad0c6840d345927df91a26`, 2,016,490 bytes, 1,013 cards). A new core digest is a new publication. The old digest is not rewritten into the old version. |
 | `immutable` | `true`. A correction is a new manifest. A shard file is not edited in place. |
 | `note` | What the hash is, and what it is not. |
 | `core_pack` | `id` `core`, `section` `core`, `category` `core`, `sha256`, `bytes` |

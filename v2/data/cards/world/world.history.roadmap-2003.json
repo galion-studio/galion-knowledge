@@ -1,0 +1,34 @@
+{
+  "id": "world.history.roadmap-2003",
+  "title": "The 2003 roadmap is titled a performance-based path to a two-state solution",
+  "section": "world",
+  "category": "history",
+  "summary": "The 2003 roadmap's title is a performance-based path to a permanent two-state solution.",
+  "body": "Avalon prints the 30 April 2003 document titled a performance-based roadmap to a permanent two-state solution to the Israeli-Palestinian conflict. The title states the goal. The card does not say the steps were carried out. The wording on the page includes: \"of the Spokesman Washington, DC April 30, 2003 Performance-Based Roadmap to a Permanent Two-State Solution to the Israeli-Palestinian Conflict The following is a performance-based and goal-driven roadmap, with clear phases, timelines, target dates, and benchmarks aiming at progress through reciprocal steps by the two parties in the political, security, economic\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A Performance-Based Roadmap to a Permanent Two-State Solution, 30 April 2003",
+      "url": "https://avalon.law.yale.edu/21st_century/roadmap.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "2003-04-30",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Quartet roadmap, Avalon Project",
+  "as_of_date": "2003",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.oslo-mutual-recognition",
+    "world.history.un-242"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twenty-first",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

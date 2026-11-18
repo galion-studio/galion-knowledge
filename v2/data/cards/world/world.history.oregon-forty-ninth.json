@@ -1,0 +1,33 @@
+{
+  "id": "world.history.oregon-forty-ninth",
+  "title": "The 1846 treaty with Britain sets the boundary from the forty-ninth parallel",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1846 Oregon treaty runs the boundary from the forty-ninth parallel.",
+  "body": "Article I of the 1846 treaty says the boundary, from the point on the forty-ninth parallel where existing treaties end, continues between the territories of the United States and those of Britain. The line is an imperial boundary. Indigenous nations of the Columbia country are not the contracting parties. The wording on the page includes: \"agreed upon and concluded the following articles:---- ARTICLE I. From the point on the forty-ninth parallel of north latitude, where the boundary laid down in existing treaties and conventions between the United States and Great Britain terminates, the line of boundary between the territories of the United States and those of her Britannic Majesty shall be continued westward along\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty with Great Britain regarding limits west of the Rocky Mountains, 15 June 1846",
+      "url": "https://avalon.law.yale.edu/19th_century/br-1846.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1846-06-15",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Oregon treaty, Avalon Project",
+  "as_of_date": "1846",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.guadalupe-hidalgo-rio-grande"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "nineteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

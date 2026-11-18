@@ -1,0 +1,34 @@
+{
+  "id": "world.religion.gita-edwin-arnold-duty",
+  "title": "Edwin Arnold's Gita tells Arjuna that abandoning a known duty is sin",
+  "section": "world",
+  "category": "religion",
+  "summary": "Arnold's Gita says that abandoning a known duty is sin.",
+  "body": "In Edwin Arnold's English of the Bhagavad Gita, Krishna tells Arjuna that if, knowing his duty and his task, he lets them go, that shall be sin. The line is this translation's wording of the warrior's dilemma. Other translations do not use 'sin' for the Sanskrit. The wording on the page includes: \"A gateway unto Heav'n. But, if thou shunn'st This honorable field - a Kshattriya If, knowing thy duty and thy task, thou bidd'st Duty and task go by - that shall be sin! And those to come shall speak thee infamy From age to age; but infamy is worse For men of noble blood to bear than death! The chiefs upon their battle-chariots Will deem 'twas fear that\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Bhagavad Gita",
+      "url": "https://sourcebooks.fordham.edu/india/bhagavadgita.html",
+      "author": "Translation by Edwin Arnold, hosted by Fordham",
+      "date": "Sanskrit poem; Arnold English translation",
+      "accessed": "2026-11-18",
+      "note": "Fordham hosts Edwin Arnold's verse translation, not a Sanskrit edition."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Bhagavad Gita, Edwin Arnold translation, on the Fordham Indian History Sourcebook",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.manu-dharma-ages"
+  ],
+  "tags": [
+    "religion",
+    "hinduism",
+    "gita",
+    "scripture"
+  ],
+  "read_time_min": 1
+}

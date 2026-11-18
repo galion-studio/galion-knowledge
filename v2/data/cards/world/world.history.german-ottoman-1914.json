@@ -1,0 +1,34 @@
+{
+  "id": "world.history.german-ottoman-1914",
+  "title": "Germany and the Ottoman Empire signed a treaty of alliance on 2 August 1914",
+  "section": "world",
+  "category": "history",
+  "summary": "Germany and the Ottoman Empire concluded an alliance treaty on 2 August 1914.",
+  "body": "Avalon prints a treaty of alliance between Germany and Turkey dated 2 August 1914. The alliance is a document of the July crisis's aftermath. It does not by itself assign guilt for the war, which remains a historians' argument on another card. The wording on the page includes: \"1700 - 1799 19th Century 1800 - 1899 20th Century 1900 - 1999 21st Century 2000 - Treaty of Alliance Between Germany and Turkey 2 August, 1914 Constantinople, August 2, 1914 1. The two contracting parties agree to observe strict neutrality in regard to the present conflict between Austria-Hungary and Serbia. 2. In case Russia should intervene with active military measures, and\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of alliance between Germany and Turkey, 2 August 1914",
+      "url": "https://avalon.law.yale.edu/20th_century/turkgerm.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1914-08-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Germany and the Ottoman Empire, Avalon Project",
+  "as_of_date": "1914",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.first-world-war-responsibility"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "europe",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

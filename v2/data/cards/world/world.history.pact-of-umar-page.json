@@ -1,0 +1,34 @@
+{
+  "id": "world.history.pact-of-umar-page",
+  "title": "Fordham publishes a text it titles the Pact of Umar on the status of non-Muslims",
+  "section": "world",
+  "category": "history",
+  "summary": "Fordham prints a text titled the Pact of Umar on the status of non-Muslims. The page does not settle the pact's date.",
+  "body": "Fordham titles the page the Pact of Umar and the status of non-Muslims under Muslim rule, and its introduction says that after the expansion of Muslim dominion, Muslim leaders were required to set terms. The page is that traditional text in English. Scholars dispute the pact's date and authorship. This card records the text Fordham prints, not a settled seventh-century original. The wording on the page includes: \"Medieval Sourcebook: Pact of Umar, 7th Century? The Status of Non-Muslims Under Muslim Rule After the rapid expansion of the Muslim dominion in the 7th century, Muslims leaders were required to work out a way of dealing with Non-Muslims, who remained in the majority in many areas for centuries. The solution was to develop the notion of the\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Pact of Umar",
+      "url": "https://sourcebooks.fordham.edu/halsall/source/pact-umar.asp",
+      "author": "Fordham sourcebook",
+      "date": "7th century, as the page titles it",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Fordham sourcebook",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.quran-no-compulsion"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "religion",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

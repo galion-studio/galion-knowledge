@@ -1,0 +1,34 @@
+{
+  "id": "world.history.japan-security-1951",
+  "title": "The 1951 security treaty says Japan wants U.S. forces while it assumes more of its own defense",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1951 U.S.-Japan security treaty keeps American forces in Japan while Japan is to take on more of its own defense.",
+  "body": "The 1951 security treaty's preamble says the United States is willing to maintain armed forces in and about Japan, expecting that Japan will itself increasingly assume responsibility for its own defense against direct and indirect aggression, and will avoid armament that could be an offensive threat. The treaty is a basing agreement of the occupation's end. The wording on the page includes: \"certain of its armed forces in and about Japan, in the expectation, however, that Japan will itself increasingly assume responsibility for its own defense against direct and indirect aggression, always avoiding any armament which could be an offensive threat or serve other than to promote peace and security in accordance with the purposes and principles of the United Nations Charter. Accordingly, the two\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Security Treaty between the United States and Japan, 8 September 1951",
+      "url": "https://avalon.law.yale.edu/20th_century/japan001.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1951-09-08",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States and Japan, Avalon Project",
+  "as_of_date": "1951",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.japan-constitution-1946-preamble",
+    "world.history.anzus-1951"
+  ],
+  "tags": [
+    "history",
+    "japan",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

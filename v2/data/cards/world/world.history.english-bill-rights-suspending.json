@@ -1,0 +1,34 @@
+{
+  "id": "world.history.english-bill-rights-suspending",
+  "title": "The 1689 English Bill of Rights condemns suspending laws without Parliament",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1689 Bill of Rights condemns suspending laws without Parliament's consent.",
+  "body": "The English Bill of Rights, in Avalon's text, lists as a grievance the pretended power of dispensing with and suspending laws and the execution of laws without consent of Parliament. The document is the settlement after James II. It is a list of condemned acts and claimed rights, not a full constitution. The wording on the page includes: \"liberties of this kingdom; By assuming and exercising a power of dispensing with and suspending of laws and the execution of laws without consent of Parliament; By committing and prosecuting divers worthy prelates for humbly petitioning to be excused from concurring to the said assumed power; By issuing and causing to be executed a commission under the great seal for erecting a court called the Court of\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "English Bill of Rights, 1689",
+      "url": "https://avalon.law.yale.edu/17th_century/england.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1689",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "English Bill of Rights, Avalon Project",
+  "as_of_date": "1689",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.assize-clarendon-twelve",
+    "world.history.magna-carta-1215-1225"
+  ],
+  "tags": [
+    "history",
+    "england",
+    "early-modern",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

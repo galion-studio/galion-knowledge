@@ -1,0 +1,33 @@
+{
+  "id": "world.religion.rsv-great-commission",
+  "title": "Matthew 28 in the RSV sends the disciples to all nations",
+  "section": "world",
+  "category": "religion",
+  "summary": "The RSV of Matthew 28 commands the disciples to make disciples of all nations.",
+  "body": "The Revised Standard Version of Matthew 28 tells the eleven to make disciples of all nations, baptizing them. That missionary command is the text's wording. The wording on the page includes: \"them, “All authority in heaven and on earth has been given to me. 19 Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, 20 teaching them to observe all that I have commanded you; and lo, I am with you always, to the close of the age.” Read full chapter Footnotes Matthew 28:6 Other\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Matthew 28 (RSV)",
+      "url": "https://www.biblegateway.com/passage/?search=Matthew+28%3A1-20&version=RSV",
+      "author": "Revised Standard Version, via Bible Gateway",
+      "date": "RSV translation; Gospel of Matthew",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Matthew 28:19, Revised Standard Version",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.rsv-resurrection-not-here"
+  ],
+  "tags": [
+    "religion",
+    "christianity",
+    "scripture",
+    "mission"
+  ],
+  "read_time_min": 1
+}

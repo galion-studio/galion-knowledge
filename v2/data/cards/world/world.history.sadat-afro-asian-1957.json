@@ -1,0 +1,34 @@
+{
+  "id": "world.history.sadat-afro-asian-1957",
+  "title": "Sadat's 1957 address is titled as a statement of Afro-Asian solidarity",
+  "section": "world",
+  "category": "history",
+  "summary": "Sadat's 1957 address frames a mission for the peoples of Africa and Asia.",
+  "body": "Fordham prints Sadat's 1957 address under the title Afro-Asian Solidarity and the World Mission of the Peoples of Africa and Asia, given at a people's solidarity conference. The address is his speech. It is not the Bandung final communique. The wording on the page includes: \"Modern History Sourcebook Anwar el Sadat (1918-1981): Afro-Asian Solidarity and the World Mission of the Peoples of Africa and Asia, 1957 Address Delivered by Mr. Anwar el Sadat at the First Afro-Asian people's Solidarity Conference, December 26, 1957 More than two years ago twenty nine governments of independent states convened together at the Bandung Conference to declare to the world\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Afro-Asian Solidarity",
+      "url": "https://sourcebooks.fordham.edu/mod/1957sadat-afroasian1.asp",
+      "author": "Anwar el-Sadat, Fordham text",
+      "date": "1957",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Anwar el-Sadat, Fordham text",
+  "as_of_date": "1957",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.bandung-sukarno"
+  ],
+  "tags": [
+    "history",
+    "africa",
+    "middle-east",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

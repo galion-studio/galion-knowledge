@@ -1,0 +1,34 @@
+{
+  "id": "world.history.josephus-war-page",
+  "title": "Fordham's Josephus page is an excerpt on the Jewish war, not the whole Antiquities",
+  "section": "world",
+  "category": "history",
+  "summary": "Fordham's Josephus excerpt is one participant-historian's account of first-century Judea.",
+  "body": "Fordham publishes a Josephus excerpt on Galilee, Samaria, and Judea. Josephus wrote after the war as a Jewish historian in Roman service. The page is his account, not a neutral census and not the Roman military's own report. The wording on the page includes: \"extend as far as Ptolemais: it was parted into eleven portions, of which the royal city Jerusalem was the supreme, and presided over all the neighboring country, as the head does over the body. As to the other cities that were inferior to it, they presided over their several toparchies; Gophna was the second of those cities, and next to that Acrabatta\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Galilee, Samaria, and Judea in the First Century CE",
+      "url": "https://sourcebooks.fordham.edu/halsall/ancient/josephus-wara.asp",
+      "author": "Josephus, via Fordham",
+      "date": "first century CE",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Josephus, excerpt on Fordham",
+  "as_of_date": "70",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.philo-creation-page",
+    "world.religion.rsv-shema"
+  ],
+  "tags": [
+    "history",
+    "judea",
+    "rome",
+    "ancient"
+  ],
+  "read_time_min": 1
+}

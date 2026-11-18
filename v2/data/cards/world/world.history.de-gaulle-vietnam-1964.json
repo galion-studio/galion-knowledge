@@ -1,0 +1,35 @@
+{
+  "id": "world.history.de-gaulle-vietnam-1964",
+  "title": "De Gaulle's 1964 press conference says the 1954 Geneva agreements excluded outside intervention",
+  "section": "world",
+  "category": "history",
+  "summary": "In July 1964 de Gaulle says the Geneva agreements excluded all outside intervention.",
+  "body": "De Gaulle's 23 July 1964 press conference says the 1954 agreements, varying by country, had in common the absolute exclusion of all outside intervention. That is the French president's reading of Geneva, offered against the direction of American policy. It is one allied government's view, not a North Vietnamese communique. The wording on the page includes: \"which varied according to the countries in question, but which had in common the absolute exclusion of all outside intervention. Cambodia pledged not to enter into any alliance and not to allow any base on its territory. Laos was to prohibit the presence of any foreign troops, with the exception of a French military mission and an airfield used by France in Seno. The two Vietnams\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "De Gaulle press conference, 23 July 1964",
+      "url": "https://sourcebooks.fordham.edu/mod/1964degaulle-vietnam.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1964-07-23",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Charles de Gaulle, Fordham text",
+  "as_of_date": "1964",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.geneva-indochina-1954",
+    "world.history.us-white-paper-vietnam-1965"
+  ],
+  "tags": [
+    "history",
+    "southeast-asia",
+    "europe",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

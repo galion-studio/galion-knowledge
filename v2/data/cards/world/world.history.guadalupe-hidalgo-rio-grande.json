@@ -1,0 +1,35 @@
+{
+  "id": "world.history.guadalupe-hidalgo-rio-grande",
+  "title": "The Treaty of Guadalupe Hidalgo sets a boundary from the mouth of the Rio Grande",
+  "section": "world",
+  "category": "history",
+  "summary": "Guadalupe Hidalgo makes peace and draws a boundary from the mouth of the Rio Grande.",
+  "body": "The Treaty of Guadalupe Hidalgo says there shall be firm and universal peace, and it describes a boundary from the mouth of the Rio Grande, also called Rio Bravo del Norte. The treaty ends the war between the United States and Mexico by transferring territory. It is the diplomats' text, not a Mexican or Indigenous popular vote. The wording on the page includes: \"Republics shall commence in the Gulf of Mexico, three leagues from land, opposite the mouth of the Rio Grande, otherwise called Rio Bravo del Norte, or Opposite the mouth of its deepest branch, if it should have more than one branch emptying directly into the sea; from thence up the middle of that river, following the deepest channel, where it has more than one, to\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of Guadalupe Hidalgo, 2 February 1848",
+      "url": "https://avalon.law.yale.edu/19th_century/guadhida.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1848-02-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Treaty of Guadalupe Hidalgo, Avalon Project",
+  "as_of_date": "1848",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.gadsden-1853",
+    "world.history.velasco-1836"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "mexico",
+    "nineteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

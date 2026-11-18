@@ -1,0 +1,35 @@
+{
+  "id": "world.history.balfour-national-home",
+  "title": "The Balfour Declaration favors a national home for the Jewish people in Palestine and names the rights of existing non-Jewish communities",
+  "section": "world",
+  "category": "history",
+  "summary": "Balfour favors a Jewish national home in Palestine and says non-Jewish civil and religious rights must not be prejudiced.",
+  "body": "The Balfour Declaration says His Majesty's Government views with favour the establishment in Palestine of a national home for the Jewish people and will use its best endeavours to facilitate that object, it being clearly understood that nothing shall be done which may prejudice the civil and religious rights of existing non-Jewish communities. The declaration is a British cabinet letter. It is not a Palestinian agreement and not the 1948 Israeli declaration. The wording on the page includes: \"Cabinet. \"His Majesty's Government view with favour the establishment in Palestine of a national home for the Jewish people, and will use their best endeavours to facilitate the achievement of this object, it being clearly understood that nothing shall be done which may prejudice the civil and religious rights of existing non-Jewish communities in Palestine, or the rights and\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Balfour Declaration, 2 November 1917",
+      "url": "https://avalon.law.yale.edu/20th_century/balfour.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1917-11-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Arthur Balfour, Avalon Project",
+  "as_of_date": "1917",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.mcmahon-arab-independence",
+    "world.history.palestine-mandate-article-2",
+    "world.unga-181"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.history.assize-clarendon-twelve",
+  "title": "The Assize of Clarendon orders twelve lawful men of the hundred to speak on oath",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1166 Assize of Clarendon requires twelve lawful men of the hundred to speak the truth on oath.",
+  "body": "The Assize of Clarendon, in Avalon's English, requires inquiry through twelve of the more lawful men of the hundred, and four of each township, on oath that they will speak the truth. The assize is a royal order about presentment. It is not yet the later common-law jury in every detail. The wording on the page includes: \"be made throughout the separate counties, and throughout the separate hundreds, through twelve of the more lawful men of the hundred, and through four of the more lawful men of each township, upon oath that they will speak the truth: whether in their hundred or in their township there be any man who, since the lord king has been king, has been charged or published as being a robber or\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Assize of Clarendon, 1166",
+      "url": "https://avalon.law.yale.edu/medieval/assizecl.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1166",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Assize of Clarendon, Avalon Project English",
+  "as_of_date": "1166",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.constitutions-clarendon-clerks",
+    "world.history.magna-carta-1215-1225"
+  ],
+  "tags": [
+    "history",
+    "england",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world.religion.hadith-tongue-and-hand",
+  "title": "A Fordham hadith selection defines a Muslim as one from whose tongue and hand others are safe",
+  "section": "world",
+  "category": "religion",
+  "summary": "A Fordham hadith selection says a Muslim is one from whose tongue and hand a Muslim is safe.",
+  "body": "Fordham's selection quotes a report that the Muslim is the one from whose tongue and hand a Muslim is safe. The page attributes it to Bukhari and Muslim. This is the selection's English, not a ruling on who counts as Muslim in law. The wording on the page includes: \"Muslim ) (2). 'Abdullah b. Umar said that Rasulullah saw said : \"The muslim is he from whose tongue and hand a Muslim is safe, and the muhajir he who gives up what Allah has prohibited for him \". ( Bukhari, Muslim ) (3). Abu Hurairah said that Rasulullah saw said : \"Beware of envy, for envy devours good (deeds) like fire devours firewood\". ( Abu Dawud ) (4). Jabir\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Hadith selections",
+      "url": "https://sourcebooks.fordham.edu/halsall/source/misc-hadith.asp",
+      "author": "Fordham Internet History Sourcebooks selection",
+      "date": "hadith literature, as cited on the page",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Hadith attributed to Abdullah ibn Umar, cited on the Fordham page as Bukhari and Muslim",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.hadith-regular-deeds"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "hadith"
+  ],
+  "read_time_min": 1
+}

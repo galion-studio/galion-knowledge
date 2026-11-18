@@ -1,0 +1,33 @@
+{
+  "id": "world.history.fei-boxers",
+  "title": "Fei's account is a Chinese official's telling of the Boxer crisis",
+  "section": "world",
+  "category": "history",
+  "summary": "Fordham's Fei narrative is one Chinese participant's account of the Boxer rising.",
+  "body": "Fordham prints Fei Ch'i-hao's account of the Boxer rising. It is one Chinese Christian's narrative of 1900. It is not a Boxer proclamation and not a foreign legation diary. Those other tellings were not the file opened here. The wording on the page includes: \"growing worse, that the local officials were powerless against the Boxers, and that the Boxers, armed with swords, were constantly threatening Christians scattered in the country. From this time we had no communication with Tientsin or Peking. All travellers were searched, and if discovered bearing foreign letters they were killed. So though several\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Boxer Rebellion",
+      "url": "https://sourcebooks.fordham.edu/mod/1900Fei-boxers.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1900",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Fei Ch'i-hao, Fordham text",
+  "as_of_date": "1900",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.lin-zexu-opium"
+  ],
+  "tags": [
+    "history",
+    "china",
+    "nineteenth",
+    "eyewitness"
+  ],
+  "read_time_min": 1
+}

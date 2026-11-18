@@ -1,0 +1,33 @@
+{
+  "id": "world.history.mlk-content-of-character",
+  "title": "King's 1963 speech says he has a dream that people will be judged by the content of their character",
+  "section": "world",
+  "category": "history",
+  "summary": "On 28 August 1963 King says he dreams of judgment by the content of character rather than by skin.",
+  "body": "King's speech, as Avalon prints it, says he has a dream that his children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character. The sentence is the speech. It is not a statute. The wording on the page includes: \"live in a nation where they will not be judged by the color of their skin but by the content of their character. I have a dream today. I have a dream that one day the state of Alabama, whose governor's lips are presently dripping with the words of interposition and nullification, will be transformed into a situation where little black boys and black girls will be\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "I Have a Dream, 28 August 1963",
+      "url": "https://avalon.law.yale.edu/20th_century/mlk01.asp",
+      "author": "Martin Luther King Jr., Avalon Project",
+      "date": "1963-08-28",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Martin Luther King Jr., Avalon Project",
+  "as_of_date": "1963",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.gettysburg-address"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

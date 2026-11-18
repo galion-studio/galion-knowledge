@@ -1,0 +1,35 @@
+{
+  "id": "world.history.fort-laramie-1868-bad-men",
+  "title": "The 1868 Fort Laramie treaty says the United States will punish bad men among the whites who wrong the Indians",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1868 Fort Laramie treaty requires the United States to punish whites who wrong the Indians and to pay the loss.",
+  "body": "The 1868 Fort Laramie treaty with bands of the Sioux says that if bad men among the whites commit any wrong upon the person or property of the Indians, the United States will cause the offender to be arrested and punished and will reimburse the loss. The clause is a promise in the treaty. This card does not count how often it was kept. The wording on the page includes: \"to keep it. The Indians desire peace, and they now pledge their honor to maintain it. If bad men among the whites, or among other people subject to the authority of the United States, shall commit any wrong upon the person or property of the Indians, the United States will, upon proof made to the agent, and forwarded to the Commissioner of Indian Affairs at Washington\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fort Laramie treaty, 29 April 1868",
+      "url": "https://avalon.law.yale.edu/19th_century/nt001.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1868-04-29",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Treaty of Fort Laramie, Avalon Project",
+  "as_of_date": "1868",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.dawes-allotment-1887",
+    "world.history.greenville-1795"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "indigenous",
+    "nineteenth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

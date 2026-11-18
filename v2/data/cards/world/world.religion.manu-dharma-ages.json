@@ -1,0 +1,34 @@
+{
+  "id": "world.religion.manu-dharma-ages",
+  "title": "The Laws of Manu, in this English, say dharma has four feet in the Krita age and loses them later",
+  "section": "world",
+  "category": "religion",
+  "summary": "This English of Manu says dharma is four-footed in the Krita age and loses feet in later ages.",
+  "body": "The Fordham English of the Laws of Manu says that in the Krita age dharma is four-footed and entire, and that in later ages dharma is deprived of one foot after another. That is a cosmology of moral decline inside the book. It is not a historical chronicle with dates. The wording on the page includes: \"world, are) numberless; sporting, as it were, Brahman repeats this again and again. 81. In the Krita age Dharma is four-footed and entire, and (so is) Truth; nor does any gain accrue to men by unrighteousness. 82. In the other (three ages), by reason of (unjust) gains (agama), Dharma is deprived successively of one foot, and through (the prevalence of) theft, falsehood, and fraud\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Laws of Manu",
+      "url": "https://sourcebooks.fordham.edu/india/manu-full.html",
+      "author": "English translation hosted by Fordham",
+      "date": "classical Sanskrit law book, English translation",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Laws of Manu, English text on the Fordham Indian History Sourcebook",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.gita-edwin-arnold-duty",
+    "world.religion.manu-varna-words"
+  ],
+  "tags": [
+    "religion",
+    "hinduism",
+    "manu",
+    "dharma"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.history.golden-bull-electors",
+  "title": "The Golden Bull of 1356 names discord among the seven electors as the problem it addresses",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1356 Golden Bull addresses discord among the seven imperial electors.",
+  "body": "The Golden Bull, in Avalon's English, speaks of discord among the seven electors of the holy empire and of the emperor's office in settling it. The document regulates imperial election. It does not make the electors a modern parliament. The wording on the page includes: \"Slightest subject the whole edifice to ruin. Thou Last often spread discord among the seven electors of the holy empire, through whom, as through seven candlesticks throwing light in the unity of a septiform spirit, the holy empire ought to be illumined. Inasmuch as we, through the office by which we possess the imperial dignity, are doubly-both as emperor\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Golden Bull of the Emperor Charles IV, 1356",
+      "url": "https://avalon.law.yale.edu/medieval/golden.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1356",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Golden Bull of Charles IV, Avalon Project English",
+  "as_of_date": "1356",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.westphalia-religious-exercise"
+  ],
+  "tags": [
+    "history",
+    "holy-roman-empire",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.history.vespucci-account",
+  "title": "Fordham prints Vespucci's account of a voyage he presents as a new world",
+  "section": "world",
+  "category": "history",
+  "summary": "Fordham prints Vespucci's letter claiming a mainland coast, with the voyage's identity still argued by scholars.",
+  "body": "Fordham prints an account under Vespucci's name of a voyage along a coast he treats as a mainland, not islands off Asia. The letter is a European navigator's claim. Scholars dispute which voyage the letter describes. This card records the text Fordham prints, not a settled itinerary. The wording on the page includes: \"example and instruction of the venerable monk friar of Saint Mark Fra Giorgio Antonio Vespucci: whose counsels and teaching would to God that I had followed: for as saith Petrarch, I should be another man than what I am. Howbeit soever I grieve not: because I have ever taken delight in worthy matters: and although these trifles of mine may not be\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Account of his first voyage",
+      "url": "https://sourcebooks.fordham.edu/mod/1497vespucci-america.asp",
+      "author": "Amerigo Vespucci; Fordham sourcebook",
+      "date": "letter traditionally dated 1503; Fordham labels a 1497 voyage",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Amerigo Vespucci, account on Fordham",
+  "as_of_date": "1503",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.columbus-letter-1493"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "early-modern",
+    "eyewitness"
+  ],
+  "read_time_min": 1
+}

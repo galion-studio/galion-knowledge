@@ -1,0 +1,34 @@
+{
+  "id": "world.history.mcmahon-arab-independence",
+  "title": "The McMahon letter offers British support for an independent Arab state, with a reservation about France",
+  "section": "world",
+  "category": "history",
+  "summary": "McMahon's 1915 letter offers support for an independent Arab state, except where France's interests constrain Britain.",
+  "body": "McMahon's letter, as Fordham prints it, speaks of British support of an independent Arab state, and limits that support to regions where Britain is free to act without detriment to the interests of her ally, France. The letter is one side of the Husayn-McMahon correspondence. Arab and British readers later disputed which districts were excluded. This card quotes the support and the French reservation that are on the page. The wording on the page includes: \"The following excerpt is from a letter from October 24, 1915. The implied promise is of British support of an independent Arab state. As for those regions lying within those frontiers wherein Great Britain is free to act without detriment to the interests of her ally, France, I am empowered in the name of the Government of Great Britain to give the following assurances and make the\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "McMahon letter, 24 October 1915",
+      "url": "https://sourcebooks.fordham.edu/halsall/mod/1915mcmahon.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1915-10-24",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Henry McMahon to Sharif Husayn, Fordham text",
+  "as_of_date": "1915",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.balfour-national-home",
+    "world.history.sykes-picot-zones"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

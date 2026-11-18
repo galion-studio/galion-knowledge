@@ -1,0 +1,33 @@
+{
+  "id": "world.religion.rsv-good-samaritan",
+  "title": "Luke 10 in the RSV answers 'who is my neighbor' with a Samaritan",
+  "section": "world",
+  "category": "religion",
+  "summary": "The RSV of Luke 10 makes a Samaritan the neighbor in the parable.",
+  "body": "The Revised Standard Version of Luke 10 tells of a Samaritan who helps a wounded man after a priest and a Levite pass by. The story is the text's answer to a question about the neighbor. The wording on the page includes: \"CNVT CSBS CSBT CUVS CUV CUVMPS CUVMPT RCU17SS RCU17TS Update The Parable of the Good Samaritan 25 And behold, a lawyer stood up to put him to the test, saying, “Teacher, what shall I do to inherit eternal life?” 26 He said to him, “What is written in the law? How do you read?” 27 And he answered, “You shall love the Lord your God with all your heart\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Luke 10:25-37 (RSV)",
+      "url": "https://www.biblegateway.com/passage/?search=Luke+10%3A25-37&version=RSV",
+      "author": "Revised Standard Version, via Bible Gateway",
+      "date": "RSV translation; Gospel of Luke",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Luke 10:25-37, Revised Standard Version",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.rsv-beatitudes"
+  ],
+  "tags": [
+    "religion",
+    "christianity",
+    "scripture",
+    "ethics"
+  ],
+  "read_time_min": 1
+}

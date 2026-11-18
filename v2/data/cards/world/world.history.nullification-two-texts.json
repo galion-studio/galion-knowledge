@@ -1,0 +1,52 @@
+{
+  "id": "world.history.nullification-two-texts",
+  "title": "Nullification in 1832 is a state ordinance and a presidential proclamation, and they contradict each other",
+  "section": "world",
+  "category": "history",
+  "summary": "In 1832 South Carolina declared the tariffs null, and Jackson's proclamation rejected that declaration.",
+  "body": "Two official texts of 1832 are both on Avalon. South Carolina's ordinance declares the tariffs null in the state. Jackson's proclamation rejects that claim and defends the Union. This card does not award a constitutional theory. It records that the state and the president issued opposing instruments. The wording on the page includes: \"1800 - 1899 20th Century 1900 - 1999 21st Century 2000 - South Carolina Ordinance of Nullification, November 24, 1832 An ordinance to nullify certain acts of the Congress of the United States, purporting to be laws laying duties and imposts on the importation of foreign commodities. Whereas the Congress of the United States by various acts, purporting to\". A further page states: \"20th Century 1900 - 1999 21st Century 2000 - President Jackson's Proclamation Regarding Nullification, December 10, 1832(1) Whereas a convention, assembled in the State of South Carolina, have passed an ordinance, by which they declare that the several acts and parts of acts of the Congress of the United States, purporting to be laws for the imposing of\".",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "South Carolina Ordinance of Nullification",
+      "url": "https://avalon.law.yale.edu/19th_century/ordnull.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1832-11-24",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Jackson's proclamation, 10 December 1832",
+      "url": "https://avalon.law.yale.edu/19th_century/jack01.asp",
+      "author": "Andrew Jackson; Avalon Project",
+      "date": "1832-12-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "South Carolina convention and Andrew Jackson",
+  "as_of_date": "1832",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "South Carolina ordinance",
+      "summary": "The state convention declares the federal tariff acts null within South Carolina.",
+      "status": "text of the ordinance"
+    },
+    {
+      "label": "Jackson's proclamation",
+      "summary": "The president answers nullification and defends federal authority.",
+      "status": "text of the proclamation"
+    }
+  ],
+  "related": [
+    "world.history.south-carolina-nullification",
+    "world.history.jackson-nullification-proclamation"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "nineteenth",
+    "contested"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world.history.aztec-motecuhzoma-greeting",
+  "title": "A Nahuatl-derived account has Motecuhzoma identify himself to Cortes",
+  "section": "world",
+  "category": "history",
+  "summary": "A Nahuatl-tradition account has Motecuhzoma answer Cortes that he is the king, and welcome him.",
+  "body": "Fordham's Aztec accounts, drawn from the Nahuatl tradition, have Cortes ask whether the speaker is Motecuhzoma and have the king say yes, then rise to welcome him. This is a later Indigenous narrative of the meeting, not Cortes's own letter and not a transcript from 1519. The wording on the page includes: \"Cortés When Motecuhzoma [Montezuma] had given necklaces to each one, Cortés asked him: \"Are you Motecuhzoma? Are you the king? Is it true that you are the king Motecuhzoma?\" And the king said: \"Yes, I am Motecuhzoma.\" Then he stood up to welcome Cortés; he came forward, bowed his head low and addressed him in these words: \"Our lord, you are weary. The journey has\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Aztec accounts of the conquest of Mexico",
+      "url": "https://sourcebooks.fordham.edu/mod/aztecs1.asp",
+      "author": "Nahuatl accounts in English, Fordham sourcebook",
+      "date": "sixteenth-century Nahuatl tradition",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Aztec account in the Florentine-tradition English on Fordham",
+  "as_of_date": "1519",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.cortes-second-letter",
+    "world.history.mexico-two-accounts-1519"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "mexica",
+    "early-modern",
+    "indigenous-account"
+  ],
+  "read_time_min": 1
+}

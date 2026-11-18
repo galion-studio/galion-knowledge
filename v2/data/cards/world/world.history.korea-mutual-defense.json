@@ -1,0 +1,34 @@
+{
+  "id": "world.history.korea-mutual-defense",
+  "title": "The 1953 mutual defense treaty is between the United States and the Republic of Korea",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1 October 1953 mutual defense treaty binds the United States and the Republic of Korea.",
+  "body": "Avalon prints the mutual defense treaty of 1 October 1953 between the United States and the Republic of Korea. The party is the Republic of Korea, not the northern government. The treaty is a Cold War alliance after the armistice, not the armistice itself. The wording on the page includes: \"meet the common danger in accordance with its constitutional processes. ARTICLE IV The Republic of Korea grants, and the United States of America accepts, the right to dispose United States land, air and sea forces in and about the territory of the Republic of Korea as determined by mutual agreement. ARTICLE V This Treaty shall be ratified by the United States\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Mutual Defense Treaty, 1 October 1953",
+      "url": "https://avalon.law.yale.edu/20th_century/kor001.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1953-10-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States and the Republic of Korea, Avalon Project",
+  "as_of_date": "1953",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.korea-gromyko-1950",
+    "world.history.cairo-korea"
+  ],
+  "tags": [
+    "history",
+    "korea",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.history.arab-league-pact",
+  "title": "The Pact of the League of Arab States is dated 22 March 1945",
+  "section": "world",
+  "category": "history",
+  "summary": "The League of Arab States was founded by a pact dated 22 March 1945.",
+  "body": "Avalon prints the Pact of the League of Arab States of 22 March 1945. The pact is the league's founding instrument. It is not the Alexandria Protocol of the year before and not a later defense treaty. The wording on the page includes: \"1700 - 1799 19th Century 1800 - 1899 20th Century 1900 - 1999 21st Century 2000 - Pact of the League of Arab States, March 22, 1945 (1) Art 1 Art 2 Art 3 Art 4 Art 5 Art 6 Art 7 Art 8 Art 9 Art 10 Art 11 Art 12 Art 13 Art 14 Art 15 Art 16 Art 17 Art 18 Art 19 Art 20 See also The Alexandria Protocol His Excellency the President of the Syrian Republic, His Royal Highness the Emir of\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Pact of the League of Arab States",
+      "url": "https://avalon.law.yale.edu/20th_century/arableag.asp",
+      "author": "League of Arab States, Avalon Project",
+      "date": "1945-03-22",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "League of Arab States, Avalon Project",
+  "as_of_date": "1945",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.alexandria-protocol"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

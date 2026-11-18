@@ -1,0 +1,34 @@
+{
+  "id": "world.history.bull-adrian-ireland",
+  "title": "Avalon prints a bull of Adrian IV empowering Henry II regarding Ireland",
+  "section": "world",
+  "category": "history",
+  "summary": "Avalon prints a 1155 bull in which Adrian IV authorizes Henry II in Ireland.",
+  "body": "Avalon titles a document the bull of Pope Adrian IV empowering Henry II to conquer Ireland, and dates it 1155. The page is that Latin privilege in English. Historians have argued about the text's transmission. This card records the document Avalon prints under that title, not a finding that every later invasion followed the bull. The wording on the page includes: \"and termination. There is indeed no doubt, as thy Highness doth also acknowledge, that Ireland and all other islands which Christ the Sun of Righteousness has illumined, and which have received the doctrines of the Christian faith, belong to the jurisdiction of St. Peter and of the holy Roman Church. Wherefore, so much the more willingly do we grant\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Bull of Pope Adrian IV Empowering Henry II to Conquer Ireland",
+      "url": "https://avalon.law.yale.edu/medieval/bullad.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1155",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Bull attributed to Adrian IV, Avalon Project English",
+  "as_of_date": "1155",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.arbroath-edward"
+  ],
+  "tags": [
+    "history",
+    "ireland",
+    "papacy",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

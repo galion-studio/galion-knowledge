@@ -1,0 +1,33 @@
+{
+  "id": "world.religion.manu-varna-words",
+  "title": "The Laws of Manu, in this English, use the words Brahmana and Sudra",
+  "section": "world",
+  "category": "religion",
+  "summary": "The Fordham English of Manu speaks of Brahmana and Sudra as ranked groups with stated duties.",
+  "body": "The Fordham English of the Laws of Manu uses the ranks Brahmana and Sudra. The book states duties by rank. This card records that the text does so. It does not treat those ranks as a description of every person in India, and it does not endorse them. The wording on the page includes: \"that (offence) is equal to the slaughter of a son. 42. Those who, obtaining wealth from Sudras, (and using that) offer an Agnihotra, are priests officiating for Sudras, (and hence) censured among those who recite the Veda. 43. Treading with his foot on the heads of those fools who worship a fire (kindled at the expense) of a Sudra, the giver (of the\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Laws of Manu",
+      "url": "https://sourcebooks.fordham.edu/india/manu-full.html",
+      "author": "English translation hosted by Fordham",
+      "date": "classical Sanskrit law book, English translation",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Laws of Manu, English text on Fordham",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.manu-dharma-ages"
+  ],
+  "tags": [
+    "religion",
+    "hinduism",
+    "manu",
+    "varna"
+  ],
+  "read_time_min": 1
+}

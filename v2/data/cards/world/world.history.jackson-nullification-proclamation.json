@@ -1,0 +1,33 @@
+{
+  "id": "world.history.jackson-nullification-proclamation",
+  "title": "Jackson's 1832 proclamation answers South Carolina's nullification",
+  "section": "world",
+  "category": "history",
+  "summary": "Jackson's 10 December 1832 proclamation is the presidential answer to nullification.",
+  "body": "Avalon prints Jackson's proclamation of 10 December 1832 regarding nullification. It is the president's reply to South Carolina's ordinance. The two documents are the two official sides of that crisis. The wording on the page includes: \"20th Century 1900 - 1999 21st Century 2000 - President Jackson's Proclamation Regarding Nullification, December 10, 1832(1) Whereas a convention, assembled in the State of South Carolina, have passed an ordinance, by which they declare that the several acts and parts of acts of the Congress of the United States, purporting to be laws for the imposing of\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Jackson's proclamation on nullification, 10 December 1832",
+      "url": "https://avalon.law.yale.edu/19th_century/jack01.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1832-12-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Andrew Jackson, Avalon Project",
+  "as_of_date": "1832",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.south-carolina-nullification"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "nineteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

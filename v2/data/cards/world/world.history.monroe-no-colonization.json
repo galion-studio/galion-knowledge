@@ -1,0 +1,33 @@
+{
+  "id": "world.history.monroe-no-colonization",
+  "title": "The Monroe message says the American continents are not subjects for future European colonization",
+  "section": "world",
+  "category": "history",
+  "summary": "Monroe's 1823 message says the American continents are closed to future European colonization.",
+  "body": "Monroe's 2 December 1823 message says the American continents, by the free and independent condition they have assumed, are henceforth not to be considered as subjects for future colonization by any European powers. The sentence is a presidential message. It is not a treaty, and it was not a statute. The wording on the page includes: \"the free and independent condition which they have assumed and maintain, are henceforth not to be considered as subjects for future colonization by any European powers. . . It was stated at the commencement of the last session that a great effort was then making in Spain and Portugal to improve the condition of the people of those countries, and that it appeared to be conducted with extraordinary moderation. It need\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Monroe Doctrine, 2 December 1823",
+      "url": "https://avalon.law.yale.edu/19th_century/monroe.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1823-12-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "James Monroe, annual message, Avalon Project",
+  "as_of_date": "1823",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.adams-onis-florida"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "nineteenth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

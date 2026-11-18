@@ -1,0 +1,33 @@
+{
+  "id": "world.history.bernier-mogul",
+  "title": "Bernier's 1650s account describes the extent of the Great Mogul's empire",
+  "section": "world",
+  "category": "history",
+  "summary": "Bernier describes the Great Mogul's empire as vast and says he has not measured it mathematically.",
+  "body": "Bernier writes that the reader may have seen by the maps of Asia how great is the extent of the empire of the Great Mogul, commonly called India or Indostan, and that he has not measured it mathematically. The sentence is a European traveler's description. It is not an imperial farman. The wording on the page includes: \"have seen before this, by the maps of Asia, how great every way is the extent of the empire of the Great Mogul, which is commonly called India or Indostan. I have not measured it mathematically; but to speak of it according to the ordinary journeys of the country, after the rate of three whole months' march, traversing from the frontiers of the kingdom of Golconda\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "An Account of India and the Great Moghul",
+      "url": "https://sourcebooks.fordham.edu/india/1655bernier.html",
+      "author": "Francois Bernier, Fordham text",
+      "date": "1655",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Francois Bernier, Fordham text",
+  "as_of_date": "1655",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.arthashastra-duties"
+  ],
+  "tags": [
+    "history",
+    "south-asia",
+    "early-modern",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world.history.westphalia-religious-exercise",
+  "title": "The Treaty of Westphalia, in Avalon's English, addresses the free exercise of religion",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1648 Treaty of Westphalia, in Avalon's English, contains a clause on free exercise of religion.",
+  "body": "Avalon's English of the 1648 Treaty of Westphalia contains a clause on the free exercise of religion. The treaty is a peace among the emperor, France, and their allies after the Thirty Years' War. One clause on worship is not the whole settlement of territory and amnesty. The wording on the page includes: \"that all others of the said Confession of Augsburg, who shall demand it, shall have the free Exercise of their Religion, as well in publick Churches at the appointed Hours, as in private in their own Houses, or in others chosen for this purpose by their Ministers, or by those of their Neighbours, preaching the Word of God. XXIX. That the Paragraphs, Prince Lewis Philip, &c.\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of Westphalia, 24 October 1648",
+      "url": "https://avalon.law.yale.edu/17th_century/westphal.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1648-10-24",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Treaty of Westphalia, Avalon Project English",
+  "as_of_date": "1648",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.golden-bull-electors"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "early-modern",
+    "treaty",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

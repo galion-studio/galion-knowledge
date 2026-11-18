@@ -1,0 +1,65 @@
+{
+  "id": "world.history.vietnam-three-readings",
+  "title": "Geneva, de Gaulle, and the 1965 State Department paper describe the Indochina war differently",
+  "section": "world",
+  "category": "history",
+  "summary": "Geneva's peace declaration, de Gaulle's 1964 reading, and the 1965 U.S. 'aggression' paper do not say the same thing.",
+  "body": "Three opened texts do not tell one story. The 1954 Geneva declaration is a conference statement on restoring peace. De Gaulle in 1964 says those agreements excluded outside intervention. The February 1965 State Department paper is titled aggression from the North. A Vietnamese communist statement of the same months was not the page opened here. The card lines the three Western-published texts up and does not pick one. The wording on the page includes: \"1954 Final declaration, dated July 21, 1954, of the Geneva Conference on the problem of restoring peace in Indochina, in which the representatives of Cambodia, the Democratic Republic of Viet-Nam, France, Laos, the People's Republic of China, the State of Viet-Nam, the Union of Soviet Socialist Republics, the United Kingdom and the United States of America took part. 1.\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording. A further page states: \"which varied according to the countries in question, but which had in common the absolute exclusion of all outside intervention. Cambodia pledged not to enter into any alliance and not to allow any base on its territory. Laos was to prohibit the presence of any foreign troops, with the exception of a French military mission and an airfield used by France in Seno. The two Vietnams\". A further page states: \"Internet Modern History Sourcebook US State Dept: Aggression from the North, February 27, 1965 February 27, 1965 South Vietnam is fighting for its life against a brutal campaign of terror and armed attack inspired, directed, supplied, and controlled by the Communist regime in Hanoi. This flagrant aggression has been going on for\".",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Geneva final declaration, 21 July 1954",
+      "url": "https://sourcebooks.fordham.edu/mod/1954-geneva-indochina.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1954-07-21",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "De Gaulle, 23 July 1964",
+      "url": "https://sourcebooks.fordham.edu/mod/1964degaulle-vietnam.asp",
+      "author": "Fordham",
+      "date": "1964-07-23",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "U.S. State Department paper, February 1965",
+      "url": "https://sourcebooks.fordham.edu/mod/USStateDept-vietnamfeb1965.asp",
+      "author": "Fordham copy",
+      "date": "1965-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Geneva declaration; Charles de Gaulle; U.S. Department of State",
+  "as_of_date": "1965",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "Geneva, 1954",
+      "summary": "A final declaration on restoring peace in Indochina, with the named governments represented.",
+      "status": "text of the declaration"
+    },
+    {
+      "label": "De Gaulle, 1964",
+      "summary": "The agreements excluded outside intervention.",
+      "status": "text of the press conference"
+    },
+    {
+      "label": "U.S. State Department, 1965",
+      "summary": "The paper is titled aggression from the North.",
+      "status": "title and text of the department paper"
+    }
+  ],
+  "related": [
+    "world.history.geneva-indochina-1954",
+    "world.history.de-gaulle-vietnam-1964",
+    "world.history.us-white-paper-vietnam-1965"
+  ],
+  "tags": [
+    "history",
+    "southeast-asia",
+    "twentieth",
+    "contested"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.history.saxons-wergild-note",
+  "title": "Avalon's Anglo-Saxon laws page lists wergild among the institutions in the extracts",
+  "section": "world",
+  "category": "history",
+  "summary": "Avalon's Anglo-Saxon extracts page names wergild, ordeal, and compurgation as institutions in the texts.",
+  "body": "Avalon's page of extracts from early English laws says the extracts show compurgation, ordeal, wergild, and the sanctity of holy places. Wergild is a priced compensation for a killing. The page is a selection with an editor's list, not every clause of every code. The wording on the page includes: \"Of Wergilds. 1. The north people's king's gild is 30,000 thrymsas; 15,000 are for the wergild, and 15,000 for the cynedom. The wer belongs to the kindred and the cynebot to the people. 2. An archbishop's and an aetheling's wergild is 15,000 thrymsas. 3. A bishop's and ealdorman's, 8000 thrymsas. 4. A hold's and a king's high reeve's, 4000 thrymsas.\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Anglo-Saxon Law, extracts",
+      "url": "https://avalon.law.yale.edu/medieval/saxlaw.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "early English laws",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Avalon Project introduction to early English laws",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.salic-wergeld-count"
+  ],
+  "tags": [
+    "history",
+    "england",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

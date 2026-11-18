@@ -1,0 +1,33 @@
+{
+  "id": "world.history.moscow-austria-1943",
+  "title": "The 1943 Moscow declaration says Austria was the first free country to fall to aggression and shall be liberated",
+  "section": "world",
+  "category": "history",
+  "summary": "At Moscow in 1943 the three powers say Austria shall be liberated from German domination.",
+  "body": "The Moscow declaration says the three governments agree that Austria, the first free country to fall a victim to aggression, shall be liberated from German domination. The sentence is their agreed description of Austria. It is not an Austrian plebiscite. The wording on the page includes: \"the United Kingdom, the Soviet Union and the United States of America are agreed that Austria, the first free country to fall a victim to Hitlerite aggression, shall be liberated from German domination. They regard the annexation imposed on Austria by Germany on March 15, 1938, as null and void. They consider themselves as in no way bound by any charges effected in Austria since that date.\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Moscow Conference declaration on Austria",
+      "url": "https://avalon.law.yale.edu/wwii/moscow.asp",
+      "author": "United Kingdom, Soviet Union, and United States, Avalon Project",
+      "date": "1943-11",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United Kingdom, Soviet Union, and United States, Avalon Project",
+  "as_of_date": "1943",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.potsdam-oder-neisse"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

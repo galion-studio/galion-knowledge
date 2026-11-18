@@ -1,0 +1,33 @@
+{
+  "id": "world.history.mandela-1990-domination",
+  "title": "Mandela says he fought white domination and black domination",
+  "section": "world",
+  "category": "history",
+  "summary": "Mandela says he fought both white domination and black domination.",
+  "body": "Mandela's speech, as Fordham prints it, says he has fought against white domination and against black domination, and that he has cherished a democratic and free society in which all persons live together in harmony. The speech is his statement. It is not Geyer's 1953 case. The wording on the page includes: \"go to my own words during my trial in 1964 - they are as true today as they were then: I have fought against white domination, and I have fought against black domination. I have cherished the ideal of a democratic and free society in which all persons live together in harmony and with equal opportunity. It is an ideal which I hope to live for and to achieve. But, if need be, it is an ideal for which I am prepared to die.\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Speech on release from jail",
+      "url": "https://sourcebooks.fordham.edu/mod/1990MANDELA.asp",
+      "author": "Nelson Mandela, Fordham text",
+      "date": "1990",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Nelson Mandela, Fordham text",
+  "as_of_date": "1990",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.geyer-apartheid-1953"
+  ],
+  "tags": [
+    "history",
+    "africa",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

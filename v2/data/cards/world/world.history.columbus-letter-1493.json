@@ -1,0 +1,35 @@
+{
+  "id": "world.history.columbus-letter-1493",
+  "title": "Columbus's 1493 letter to Santangel describes islands and people he claims to have found",
+  "section": "world",
+  "category": "history",
+  "summary": "Columbus's 1493 letter reports 'islands of India' and is his account, not a local one.",
+  "body": "Columbus's 1493 letter, in Fordham's English, says he writes of the islands of India lately discovered beyond the Ganges, and describes people and gold. The letter is his report to a Spanish courtier. It calls the islands India. It is not a Taino account. The wording on the page includes: \"of Spain, by Christopher Columbus, to whom our age is greatly indebted, treating of the islands of India secently discovered beyond the Ganges, to explore which he had been sent eight months before under the auspices and at the expense of their said Majesties. KNOWING that it will afford you pleasure to learn that I have brought my undertaking to a successful\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Letter to Lord Raphael Sanchez",
+      "url": "https://sourcebooks.fordham.edu/source/1493-columbustosanchez.asp",
+      "author": "Christopher Columbus; Fordham sourcebook",
+      "date": "1493",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Christopher Columbus, letter of 1493, Fordham English",
+  "as_of_date": "1493",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.columbus-1492-privileges",
+    "world.history.vespucci-account",
+    "world.history.aztec-motecuhzoma-greeting"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "early-modern",
+    "eyewitness"
+  ],
+  "read_time_min": 1
+}

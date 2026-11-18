@@ -1,0 +1,35 @@
+{
+  "id": "world.religion.quran-fatiha-bismillah",
+  "title": "Sahih International opens the Quran with the name of God and a request for the straight path",
+  "section": "world",
+  "category": "religion",
+  "summary": "Sahih International renders Quran 1:1 as 'In the name of Allah, the Entirely Merciful, the Especially Merciful.'",
+  "body": "The Sahih International translation of Quran 1:1 begins 'In the name of Allah, the Entirely Merciful, the Especially Merciful.' The same API response includes the Uthmani Arabic of that ayah. A translation is not the Arabic. The wording on the page includes: \"In the name of Allah, the Entirely Merciful, the Especially Merciful.\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Quran 1:1, Uthmani and Sahih International",
+      "url": "https://api.alquran.cloud/v1/ayah/1:1/editions/quran-uthmani,en.sahih",
+      "author": "Sahih International translation; Uthmani Arabic text; served by alquran.cloud",
+      "date": "Quran, surah al-Fatiha",
+      "accessed": "2026-11-18",
+      "note": "JSON from the Al Quran Cloud API, opened directly. It returns the Uthmani Arabic and the Sahih International English for 1:1."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Quran 1, Sahih International English translation, Al Quran Cloud",
+  "as_of_date": "",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.religion.quran-fatiha-fordham",
+    "world.religion.quran-ikhlas"
+  ],
+  "tags": [
+    "religion",
+    "islam",
+    "quran",
+    "scripture"
+  ],
+  "read_time_min": 1
+}

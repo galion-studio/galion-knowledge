@@ -1,0 +1,34 @@
+{
+  "id": "world.history.molotov-ribbentrop-article-2",
+  "title": "The 1939 non-aggression treaty says neither party will support a third power that attacks the other",
+  "section": "world",
+  "category": "history",
+  "summary": "The August 1939 non-aggression treaty forbids either party to aid a third power that attacks the other.",
+  "body": "Article II of the 23 August 1939 treaty says that if one party becomes the object of belligerent action by a third power, the other shall in no manner lend its support to that third power. The public treaty is a non-aggression pact. The secret protocol on spheres is a separate instrument on another page. The wording on the page includes: \"the object of belligerent action by a third power, the other High Contracting Party shall in no manner lend its support to this third power. ARTICLE III The Governments of the two High Contracting Parties shall in the future maintain continual contact with one another for the purpose of consultation in order to exchange information on problems affecting their common interests. ARTICLE IV\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of Nonaggression, 23 August 1939",
+      "url": "https://avalon.law.yale.edu/20th_century/nonagres.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1939-08-23",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Germany and the USSR, Avalon Project",
+  "as_of_date": "1939",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.secret-protocol-1939",
+    "world.poland-invasion-1939"
+  ],
+  "tags": [
+    "history",
+    "europe",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

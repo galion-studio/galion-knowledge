@@ -1,0 +1,33 @@
+{
+  "id": "world.history.geyer-apartheid-1953",
+  "title": "Geyer's 1953 London speech is a defense of apartheid in the speaker's own words",
+  "section": "world",
+  "category": "history",
+  "summary": "Geyer's 1953 speech argues for apartheid as policy. The card records his case, not a finding that the policy was just.",
+  "body": "Fordham prints A. L. Geyer's 19 August 1953 speech to the Rotary Club of London, and its headnote says a supporter of apartheid explains why it is the best policy for all races. The speech is the policy's own case. Mandela's later rejection is a different document. The wording on the page includes: \"before the Rotary Club of London on August 19, 1953. A supporter of apartheid explains why it is the best policy for all races in South Africa. As one of the aftermaths of the last war, many people seem to suffer from a neurotic guiltcomplex with regard to colonies. This has led to a strident denunciation of the Black African's wrongs, real or imaginary, under the white man's rule\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Case for Apartheid",
+      "url": "https://sourcebooks.fordham.edu/mod/1953geyer.asp",
+      "author": "A. L. Geyer, Fordham text",
+      "date": "1953-08-19",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "A. L. Geyer, Fordham text",
+  "as_of_date": "1953",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.mandela-1990-domination"
+  ],
+  "tags": [
+    "history",
+    "africa",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

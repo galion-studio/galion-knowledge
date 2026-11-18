@@ -1,0 +1,33 @@
+{
+  "id": "world.history.tehran-iran-1943",
+  "title": "The Tehran communique says the three leaders met in the capital of their ally Iran",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1943 Tehran communique says the three leaders met in the capital of their ally, Iran.",
+  "body": "The Tehran communique says the three leaders met in the capital of their ally, Iran, and shaped a common policy. The sentence records the meeting place and the claim of alliance with Iran. It is the communique, not an Iranian parliamentary record. The wording on the page includes: \"and the Premier of the Soviet Union, have met these four days past, in this, the Capital of our Ally, Iran, and have shaped and confirmed our common policy. We express our determination that our nations shall work together in war and in the peace that will follow.. As to war-our military staffs have joined in our round table discussions, and we have concerted\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Tehran Conference communique",
+      "url": "https://avalon.law.yale.edu/wwii/tehran.asp",
+      "author": "Roosevelt, Churchill, and Stalin, Avalon Project",
+      "date": "1943-12-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Roosevelt, Churchill, and Stalin, Avalon Project",
+  "as_of_date": "1943",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.yalta-poland"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

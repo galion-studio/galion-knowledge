@@ -1,0 +1,33 @@
+{
+  "id": "world.history.forced-labour-convention",
+  "title": "Avalon prints the convention on forced or compulsory labour as revised in 1946",
+  "section": "world",
+  "category": "history",
+  "summary": "Avalon prints the forced-labour convention in its 1946 revised form.",
+  "body": "Avalon prints the Convention concerning Forced or Compulsory Labour of 28 June 1930 as modified by the 1946 final articles revision. The page is that convention. It is not a national labor code and not a count of people compelled to work. The wording on the page includes: \"functions may, with the express permission of the competent authority, have recourse to forced or compulsory labour, subject to the provisions of Article 10 of this Convention. 3. Chiefs who are duly recognised and who do not receive adequate remuneration in other forms may have the enjoyment of personal services, subject to due regulation and provided that all necessary\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Convention concerning Forced or Compulsory Labour",
+      "url": "https://avalon.law.yale.edu/20th_century/forlab46.asp",
+      "author": "Forced Labour Convention, Avalon Project",
+      "date": "1946",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Forced Labour Convention, Avalon Project",
+  "as_of_date": "1946",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.supplementary-slavery-marriage"
+  ],
+  "tags": [
+    "history",
+    "global",
+    "twentieth",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "world.history.korea-two-accounts-1950",
+  "title": "Gromyko and the UN commission do not give the same account of how the Korean war started",
+  "section": "world",
+  "category": "history",
+  "summary": "Soviet and UN texts of 1950 give different accounts of why the Korean war began.",
+  "body": "Two opened documents disagree. Gromyko says the war broke out on 25 June because South Korean troops attacked the North. The UN commission says a unified independent Korea had not come into existence and that this failure made the conflict possible. Neither page opened here is a North Korean army war diary. The card does not choose a first shot. The wording on the page includes: \"4,1950 The events now taking place in Korea broke out on June 25 as the result of a provocative attack by the troops of the South Korean authorities on the frontier areas of the Korean People's Democratic Republic. This attack was the outcome of a premeditated plan. From time to time Syngman Rhee himself and other representatives of the South Korean authorities had blurted out the fact that the South\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording. A further page states: \"supervised elections been allowed to take place in the whole of Korea, and had a unified and independent Korea thereby come into existence, the present conflict could never have arisen. C. Prospects of unification. The Korean people, one in race, language and culture, fervently desire to live in a unified and independent Korea. Unification can be the only aim\".",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Gromyko statement, 4 July 1950",
+      "url": "https://sourcebooks.fordham.edu/mod/1950-gromyko-korea.asp",
+      "author": "Fordham Internet History Sourcebooks",
+      "date": "1950-07-04",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Report of the UN Commission on Korea",
+      "url": "https://sourcebooks.fordham.edu/mod/1950-korea-un1.asp",
+      "author": "Fordham copy",
+      "date": "1950",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Andrei Gromyko; United Nations Commission on Korea",
+  "as_of_date": "1950",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "Gromyko, 4 July 1950",
+      "summary": "The war began with a provocative South Korean attack on the North.",
+      "status": "text of the Soviet statement"
+    },
+    {
+      "label": "UN Commission on Korea",
+      "summary": "The conflict arose because a unified independent Korea had not come into existence.",
+      "status": "text of the commission report"
+    }
+  ],
+  "related": [
+    "world.history.korea-gromyko-1950",
+    "world.history.korea-un-commission"
+  ],
+  "tags": [
+    "history",
+    "korea",
+    "twentieth",
+    "contested"
+  ],
+  "read_time_min": 1
+}

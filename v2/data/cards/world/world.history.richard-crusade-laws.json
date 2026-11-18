@@ -1,0 +1,32 @@
+{
+  "id": "world.history.richard-crusade-laws",
+  "title": "Richard I's 1189 ordinances regulate crusaders who were to travel by sea",
+  "section": "world",
+  "category": "history",
+  "summary": "Richard I's 1189 sea laws are ordinances for crusaders, printed by Avalon.",
+  "body": "Avalon prints Richard I's 1189 laws for crusaders going by sea. They are ship's rules for a departing army, including penalties. They are not a theology of the crusade and not a Muslim account of the same voyage. The wording on the page includes: \"Century 1900 - 1999 21st Century 2000 - Laws of Richard I (Coeur de Lion) Concerning Crusaders Who Were to Go by Sea. 1189 A.D. (\"Roger of Hoveden,\" III p. 36 [Rolls Series].) Richard by the grace of God king of England, and duke of Normandy and Aquitaine, and count of Anjou, to all his subjects who are about to go by sea to Jerusalem, greeting. know\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Laws of Richard I concerning crusaders who were to go by sea",
+      "url": "https://avalon.law.yale.edu/medieval/richard.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1189",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Ordinances of Richard I, Avalon Project English",
+  "as_of_date": "1189",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "history",
+    "crusades",
+    "england",
+    "medieval",
+    "primary-document"
+  ],
+  "read_time_min": 1
+}

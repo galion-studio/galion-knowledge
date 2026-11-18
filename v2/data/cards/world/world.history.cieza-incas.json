@@ -1,0 +1,34 @@
+{
+  "id": "world.history.cieza-incas",
+  "title": "Cieza de Leon's chronicle describes Inca rule from a Spanish soldier's report",
+  "section": "world",
+  "category": "history",
+  "summary": "Cieza's chronicle is a Spanish soldier's description of Inca rule, not an Inca record.",
+  "body": "Fordham prints Cieza de Leon on the Incas, introduced as a conquistador's view that includes the economy of redistribution. Cieza is a Spanish observer writing after the conquest. He is not an Inca quipu keeper, and the page is not a khipu transcription. The wording on the page includes: \"ordered by the governor in the matter of finding the soldiers or supplying whomever the Inca ordered, or making delivery to Cuzco; but when they came from the city of Cuzco to go over the accounts, or they were ordered to go to Cuzco to give an accounting, the accountants themselves gave it by the quipus, or went to give it where there could be no\". The evidence label is the truth-gate ceiling for this host. The host is not on the gate's primary-text or official list, so the label is weak. The quotation is still the page's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Chronicles of the Incas",
+      "url": "https://sourcebooks.fordham.edu/mod/1540cieza.asp",
+      "author": "Pedro de Cieza de Leon; Fordham sourcebook",
+      "date": "mid-sixteenth century",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Pedro de Cieza de Leon, Fordham English",
+  "as_of_date": "1553",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.cortes-second-letter"
+  ],
+  "tags": [
+    "history",
+    "americas",
+    "andes",
+    "early-modern",
+    "eyewitness"
+  ],
+  "read_time_min": 1
+}

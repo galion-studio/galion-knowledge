@@ -1,0 +1,35 @@
+{
+  "id": "world.history.tordesillas-line",
+  "title": "The Treaty of Tordesillas draws a north-south line 370 leagues west of the Cape Verde Islands",
+  "section": "world",
+  "category": "history",
+  "summary": "Tordesillas sets a pole-to-pole line 370 leagues west of the Cape Verde Islands.",
+  "body": "The Treaty of Tordesillas, in Avalon's English, agrees that a boundary line be drawn north and south, from pole to pole, at a distance of 370 leagues west of the Cape Verde Islands. Spain and Portugal divided claims by that line. The treaty does not ask the consent of any people already living west of it. The wording on the page includes: \"although the said one hundred and twenty leagues are within the said bound of the said three hundred and seventy leagues pertaining to the said King of Portugal, the Algarves, etc., as aforesaid. And if, up to the said twentieth day of this said month of June, no lands are discovered by the said ships of their Highnesses within the said one hundred and twenty leagues, and are\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of Tordesillas, 7 June 1494",
+      "url": "https://avalon.law.yale.edu/15th_century/mod001.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1494-06-07",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Treaty of Tordesillas, Avalon Project English",
+  "as_of_date": "1494",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.alcacovas-canaries",
+    "world.history.columbus-1492-privileges"
+  ],
+  "tags": [
+    "history",
+    "iberia",
+    "americas",
+    "early-modern",
+    "treaty"
+  ],
+  "read_time_min": 1
+}

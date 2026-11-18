@@ -1,0 +1,33 @@
+{
+  "id": "world.history.jordan-peace-1994",
+  "title": "The 1994 Israel-Jordan treaty says the parties will refrain from the threat or use of force",
+  "section": "world",
+  "category": "history",
+  "summary": "The 1994 Israel-Jordan peace treaty renounces the threat or use of force between them.",
+  "body": "Article 2 of the 1994 peace treaty says Israel and Jordan will refrain from the threat or use of force against each other and will settle disputes by peaceful means. The treaty is a bilateral peace. It does not settle the Palestinian question. The wording on the page includes: \"neighbourly relations of co-operation between them to ensure lasting security, will refrain from the threat or use of force against each other and will settle all disputes between them by peaceful means; 4. They respect and recognise the sovereignty, territorial integrity and political independence of every state in the region; 5. They respect and recognise the pivotal role of human development\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of Peace between Israel and Jordan, 26 October 1994",
+      "url": "https://avalon.law.yale.edu/20th_century/jordan_treaty.asp",
+      "author": "Avalon Project, Yale Law School",
+      "date": "1994-10-26",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Israel and Jordan, Avalon Project",
+  "as_of_date": "1994",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.camp-david-framework"
+  ],
+  "tags": [
+    "history",
+    "middle-east",
+    "twentieth",
+    "treaty"
+  ],
+  "read_time_min": 1
+}
