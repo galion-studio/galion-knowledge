@@ -1,0 +1,23 @@
+{
+  "id": "world.unsourced-rwanda-toll",
+  "title": "A Rwandan death toll is not stored",
+  "section": "world",
+  "category": "history",
+  "summary": "The tribunal page we opened did not state a number of people killed.",
+  "body": "Public accounts of the 1994 genocide in Rwanda often cite a death toll around 800,000 in about one hundred days. The IRMCT page opened for this pack dated the plane and used the word genocide, and it did not state a toll. Leave the number unsourced until it is copied from a named demographic or judicial source.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "not established in this pass",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.rwanda-april-1994"
+  ],
+  "tags": [
+    "history",
+    "needs-review"
+  ],
+  "read_time_min": 1
+}

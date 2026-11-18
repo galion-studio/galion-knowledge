@@ -1,0 +1,38 @@
+{
+  "id": "world.gallup-mirror-1970",
+  "title": "Gallup's 1970 mirror test with chimpanzees",
+  "section": "world",
+  "category": "biology",
+  "summary": "The Science paper reports self-directed behavior toward a mark seen only in a mirror.",
+  "body": "Gordon G. Gallup Jr., \"Chimpanzees: Self-Recognition\" (Science, 1970), reported that chimpanzees used a mirror to investigate a mark on themselves. The mirror test is one operational criterion. It is not a definition of consciousness, and failing it does not prove an animal has no experience. The Cambridge Declaration on Consciousness (2012) is named in the v1 article and was not opened, so it stays unsourced.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Chimpanzees: Self-Recognition",
+      "url": "https://doi.org/10.1126/science.167.3914.86",
+      "author": "Gordon G. Gallup Jr.",
+      "date": "1970",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gordon G. Gallup Jr.",
+  "as_of_date": "1970",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.hard-problem",
+    "world.unsourced-cambridge-declaration"
+  ],
+  "tags": [
+    "biology",
+    "consciousness"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "25",
+    "v1_slug": "consciousness",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

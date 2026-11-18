@@ -1,0 +1,38 @@
+{
+  "id": "world.hgp-2003-coverage",
+  "title": "The 2003 Human Genome Project sequence covered over 90 percent",
+  "section": "world",
+  "category": "biology",
+  "summary": "NHGRI says the 2003 sequence accounted for over 90 percent, not a gapless genome.",
+  "body": "The National Human Genome Research Institute's Human Genome Project fact sheet says the project's signature goal was the first sequence of the human genome, that in 2001 a draft was announced, and that in 2003 the project produced a sequence accounting for over 90 percent of the human genome, as complete as the technology then allowed. The v1 line \"2003: Human Genome Project completed\" overstates a draft that the institute itself describes as over 90 percent. A later telomere-to-telomere sequence is a different paper.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Human Genome Project Fact Sheet",
+      "url": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genome-project",
+      "author": "National Human Genome Research Institute",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Human Genome Research Institute",
+  "as_of_date": "2003",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.human-genome-2001",
+    "world.t2t-2022"
+  ],
+  "tags": [
+    "biology",
+    "genomics"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "8",
+    "v1_slug": "dna-genetics",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

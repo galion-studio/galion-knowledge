@@ -1,0 +1,45 @@
+{
+  "id": "world.law.cultural-relativist-objection-1947",
+  "title": "A 1947 anthropological objection to a universal rights list",
+  "section": "world",
+  "category": "law",
+  "summary": "While the Universal Declaration was being drafted, the American Anthropologist published a 1947 \"Statement on Human Rights.\" The statement is a cultural-relativist intervention. It",
+  "body": "While the Universal Declaration was being drafted, the American Anthropologist published a 1947 \"Statement on Human Rights.\" The statement is a cultural-relativist intervention. It argues that moral standards grow inside cultures, and that a declaration written as if one list of rights were simply human, without that history, risks treating one society's norms as everyone's. The Universal Declaration, proclaimed the next year, states rights as a common standard for all peoples. These are two positions in a real dispute, not two wordings of one idea. The 1947 statement does not show that no right can be shared across cultures. The declaration does not show, just by being proclaimed, that every culture already agreed to it. Later anthropologists have disagreed with the 1947 statement. That later history is not this document. The document is the objection, and it should stay visible beside the declaration rather than being smoothed away.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Statement on Human Rights",
+      "url": "https://doi.org/10.1525/aa.1947.49.4.02a00020",
+      "author": "American Anthropological Association, executive board, published in American Anthropologist",
+      "date": "1947",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Universal Declaration of Human Rights",
+      "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+      "author": "United Nations General Assembly",
+      "date": "1948-12-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "1947 Statement on Human Rights, set beside the 1948 Universal Declaration",
+  "as_of_date": "1948-12-10",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "Rights can be stated as a common standard for all peoples.",
+      "summary": "Rights can be stated as a common standard for all peoples.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "A universal list detached from cultural difference risks imposing one society's norms.",
+      "summary": "A universal list detached from cultural difference risks imposing one society's norms.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.law.udhr-1948"
+  ],
+  "read_time_min": 1
+}

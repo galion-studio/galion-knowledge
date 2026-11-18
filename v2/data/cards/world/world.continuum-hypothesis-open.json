@@ -1,0 +1,40 @@
+{
+  "id": "world.continuum-hypothesis-open",
+  "title": "Koellner calls the continuum hypothesis a central open problem",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The SEP entry's first sentence calls CH open. The v1 claim that Gödel and Cohen 'proved it undecidable' is not copied as that sentence.",
+  "body": "Peter Koellner's Stanford Encyclopedia entry begins by calling the continuum hypothesis one of the most central open problems in set theory. Cantor asked whether any infinite set of reals is strictly between the naturals and the reals in size. The v1 article says Gödel and Cohen proved the hypothesis undecidable. Independence from the standard axioms and \"still an open problem\" can both be defended, and they are not the same sentence. This card stores Koellner's wording. The Gödel-Cohen claim stays on an unsourced card because their papers were not opened.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "The Continuum Hypothesis",
+      "url": "https://plato.stanford.edu/entries/continuum-hypothesis/",
+      "author": "Peter Koellner",
+      "date": "2013-05-22",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Peter Koellner",
+  "as_of_date": "2013-05-22",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.infinity-two-sizes",
+    "world.unsourced-ch-independence",
+    "world.mathematics.goedel-undecidability"
+  ],
+  "tags": [
+    "mathematics",
+    "set-theory",
+    "not-settled"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "32",
+    "v1_slug": "infinity",
+    "v1_category": "mathematics",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

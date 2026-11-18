@@ -1,0 +1,68 @@
+{
+  "id": "world.miller-1953",
+  "title": "Miller produced amino acids under one set of conditions",
+  "section": "world",
+  "category": "biology",
+  "summary": "The 1953 Science paper is a simulation experiment, not a demonstration of how life began.",
+  "body": "Stanley L. Miller, \"A Production of Amino Acids Under Possible Primitive Earth Conditions\" (Science, 1953), reported amino acids from a spark-discharge experiment meant to imitate one picture of the early atmosphere. That is evidence that some building blocks can form abiotically under those conditions. It is not a reconstruction of the origin of life. The origin of life is not settled. Walter Gilbert's 1986 note \"Origin of life: The RNA world\" is a different proposal, that early genetics was RNA, and it is a proposal.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A Production of Amino Acids Under Possible Primitive Earth Conditions",
+      "url": "https://doi.org/10.1126/science.117.3046.528",
+      "author": "Stanley L. Miller",
+      "date": "1953",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Origin of life: The RNA world",
+      "url": "https://doi.org/10.1038/319618a0",
+      "author": "Walter Gilbert",
+      "date": "1986",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Stanley L. Miller",
+  "as_of_date": "1953",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Spark-discharge amino acids",
+      "summary": "Miller showed amino acids can form in one laboratory setup. That does not identify the historical path.",
+      "status": "kept from a duplicate card",
+      "sources": [
+        {
+          "title": "A Production of Amino Acids Under Possible Primitive Earth Conditions",
+          "url": "https://doi.org/10.1126/science.117.3046.528",
+          "author": "Stanley L. Miller",
+          "date": "1953",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "label": "RNA world",
+      "summary": "Gilbert 1986 argued for an early stage in which RNA both stored information and catalyzed reactions. It is a research program, not a completed history.",
+      "status": "kept from a duplicate card",
+      "sources": [
+        {
+          "title": "Origin of life: The RNA world",
+          "url": "https://doi.org/10.1038/319618a0",
+          "author": "Walter Gilbert",
+          "date": "1986",
+          "accessed": "2026-11-18"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "world.origin-1859"
+  ],
+  "tags": [
+    "biology",
+    "origin-of-life",
+    "not-settled"
+  ],
+  "read_time_min": 1
+}

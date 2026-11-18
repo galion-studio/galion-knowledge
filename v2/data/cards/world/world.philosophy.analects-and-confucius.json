@@ -1,0 +1,46 @@
+{
+  "id": "world.philosophy.analects-and-confucius",
+  "title": "The Analects are sayings attributed to Confucius",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "The Chinese Text Project publishes the Analects, the collected sayings and short dialogues associated with Confucius (Kongzi) and his students. The Stanford Encyclopedia entry on C",
+  "body": "The Chinese Text Project publishes the Analects, the collected sayings and short dialogues associated with Confucius (Kongzi) and his students. The Stanford Encyclopedia entry on Confucius surveys the text and the ethical vocabulary in it, especially ren, often translated humaneness or benevolence, and li, ritual propriety. The Analects are not a single treatise with a table of contents written by one hand on one day. They are a composite. Which passages go back to Confucius himself, and which were added by later hands, is not settled. Quoting one line as \"what Confucius believed\" without saying which passage, and in which translation, overstates the source. The ethical picture the tradition drew from the book centers on cultivated character, family and public roles, and ritual, rather than on a lawlike proof.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Analects",
+      "url": "https://ctext.org/analects",
+      "author": "Chinese Text Project edition of the Analects",
+      "date": "Warring States period compilation",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Confucius",
+      "url": "https://plato.stanford.edu/entries/confucius/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "The Analects tradition; scholarly survey in the Stanford Encyclopedia",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "The Analects are the main window onto Confucius's ethical teaching, organized around ren and ritual.",
+      "summary": "The Analects are the main window onto Confucius's ethical teaching, organized around ren and ritual.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "The book is composite, and authorship of particular sayings is not settled.",
+      "summary": "The book is composite, and authorship of particular sayings is not settled.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.philosophy.four-noble-truths",
+    "world.philosophy.aristotle-four-causes"
+  ],
+  "read_time_min": 1
+}

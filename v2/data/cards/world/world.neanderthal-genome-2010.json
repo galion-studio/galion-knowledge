@@ -1,0 +1,33 @@
+{
+  "id": "world.neanderthal-genome-2010",
+  "title": "A draft Neanderthal genome was published in 2010",
+  "section": "world",
+  "category": "biology",
+  "summary": "Green and colleagues published a draft sequence and compared it with present-day humans.",
+  "body": "Richard E. Green and colleagues, \"A Draft Sequence of the Neandertal Genome\" (Science, 2010), published a draft genome from Neanderthal bones. The paper is the primary source for genetic comparison between Neanderthals and living people, including the finding of shared ancestry that later work discusses as admixture. This card does not restate a percentage of Neanderthal ancestry, because that number was not re-read from the tables.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A Draft Sequence of the Neandertal Genome",
+      "url": "https://doi.org/10.1126/science.1188021",
+      "author": "Richard E. Green and colleagues",
+      "date": "2010",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Richard E. Green and colleagues",
+  "as_of_date": "2010",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.denisova-2010",
+    "world.jebel-irhoud-2017"
+  ],
+  "tags": [
+    "biology",
+    "human-origins",
+    "ancient-dna"
+  ],
+  "read_time_min": 1
+}

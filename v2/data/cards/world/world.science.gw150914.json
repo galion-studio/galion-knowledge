@@ -1,0 +1,28 @@
+{
+  "id": "world.science.gw150914",
+  "title": "First direct detection of gravitational waves",
+  "section": "world",
+  "category": "science",
+  "summary": "On 14 September 2015 at 09:50:45 UTC the two LIGO detectors both recorded a transient. The signal rose in frequency from 35 to 250 Hz, with a peak strain of 1.0×10^-21. The LIGO an",
+  "body": "On 14 September 2015 at 09:50:45 UTC the two LIGO detectors both recorded a transient. The signal rose in frequency from 35 to 250 Hz, with a peak strain of 1.0×10^-21. The LIGO and Virgo paper reports that it matches the waveform general relativity predicts for the inspiral and merger of two black holes and the ringdown of the black hole left behind. The matched-filter signal-to-noise ratio was 24, and the false-alarm rate was estimated at less than one event per 203,000 years, a significance greater than 5.1 sigma. In the source frame the initial masses were 36 (+5/−4) and 29 (+4/−4) solar masses, the final mass 62 (+4/−4) solar masses, and about 3.0 (±0.5) solar masses were radiated. Intervals are 90 percent credible intervals. The paper calls this the first direct detection of gravitational waves and the first observation of a binary black hole merger. The luminosity distance was 410 (+160/−180) megaparsecs.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+      "url": "https://doi.org/10.1103/PhysRevLett.116.061102",
+      "author": "B. P. Abbott and the LIGO Scientific Collaboration and the Virgo Collaboration",
+      "date": "2016",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "LIGO Scientific Collaboration and Virgo Collaboration, Physical Review Letters, 2016",
+  "as_of_date": "2015-09-14",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.science.general-relativity-1916",
+    "world.science.stellar-element-synthesis"
+  ],
+  "read_time_min": 1
+}

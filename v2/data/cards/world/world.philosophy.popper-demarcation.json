@@ -1,0 +1,38 @@
+{
+  "id": "world.philosophy.popper-demarcation",
+  "title": "Popper's falsifiability is a proposed line around science",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "The Stanford Encyclopedia entry on Karl Popper presents his demarcation proposal. A theory is scientific, on his account, if it sticks its neck out: it forbids some observable stat",
+  "body": "The Stanford Encyclopedia entry on Karl Popper presents his demarcation proposal. A theory is scientific, on his account, if it sticks its neck out: it forbids some observable states of affairs, so evidence could refute it. Confirmations that a theory can always absorb do not, for him, count as the mark of science. He treats the growth of knowledge as conjectures offered and then tested, not as the piling up of certain truths. The entry also records objections. Theories are often tested in bundles, together with assumptions about instruments and initial conditions, so a failed prediction does not point to a single sentence. Falsifiability is Popper's criterion. Whether it draws the line he wanted, between science and non-science, is not settled by announcing the criterion. This card reports the proposal and the fact that it is disputed.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Karl Popper",
+      "url": "https://plato.stanford.edu/entries/popper/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Karl Popper, as surveyed in the Stanford Encyclopedia of Philosophy",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "A claim is scientific if it is open to refutation by observation.",
+      "summary": "A claim is scientific if it is open to refutation by observation.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "Tests hit groups of assumptions at once, so a failed prediction does not cleanly falsify one theory.",
+      "summary": "Tests hit groups of assumptions at once, so a failed prediction does not cleanly falsify one theory.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.history.scientific-revolutions-contested"
+  ],
+  "read_time_min": 1
+}

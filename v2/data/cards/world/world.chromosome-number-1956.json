@@ -1,0 +1,40 @@
+{
+  "id": "world.chromosome-number-1956",
+  "title": "Tjio and Levan reported 46 human chromosomes",
+  "section": "world",
+  "category": "biology",
+  "summary": "Their Hereditas paper is the count of 46. Crossref's online date is a later digitization.",
+  "body": "Joe Hin Tjio and Albert Levan, \"The Chromosome Number of Man,\" is the paper that established the human diploid count as 46, correcting the long-taught count of 48. The DOI 10.1111/j.1601-5223.1956.tb03010.x encodes the 1956 Hereditas publication. Crossref's issued date is 9 July 2010, which is an online republication date, not the year of the count. The v1 article's \"humans have 46 chromosomes (23 pairs)\" matches this result. It is a cytogenetic count, not a statement about every developmental anomaly.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Chromosome Number of Man",
+      "url": "https://doi.org/10.1111/j.1601-5223.1956.tb03010.x",
+      "author": "Joe Hin Tjio and Albert Levan",
+      "date": "1956",
+      "accessed": "2026-11-18",
+      "note": "Crossref lists an online date of 2010-07-09 for the digitized article. The journal year in the DOI is 1956."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Joe Hin Tjio and Albert Levan",
+  "as_of_date": "1956",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.genetic-code-codons",
+    "world.hgp-2003-coverage"
+  ],
+  "tags": [
+    "biology",
+    "genetics",
+    "chromosomes"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "8",
+    "v1_slug": "dna-genetics",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

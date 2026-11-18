@@ -1,0 +1,30 @@
+{
+  "id": "world.unsourced-brain-slogan",
+  "title": "'The most complex organ' and the v1 brain-health list are unsourced",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The slogan is not a measurement. WHO's dementia risks are a different, narrower list.",
+  "body": "The v1 brain article calls the brain the most complex organ and lists sleep, stress, diet, inactivity, and isolation as risk factors, with exercise, stimulation, social life, diet, and sleep as protective. \"Most complex\" is a slogan without a unit. WHO's dementia fact sheet, a different document, lists smoking, harmful alcohol use, physical inactivity, social isolation, low educational attainment, poor sleep, and traumatic brain injury among factors linked to dementia risk. That WHO list is sourced on the dementia card. The v1 slogan and any health claim not on the WHO list stay unsourced.",
+  "claim_type": "opinion",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.dementia-risks-who",
+    "world.brain-regions-ninds"
+  ],
+  "tags": [
+    "medicine",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "20",
+    "v1_slug": "human-brain",
+    "v1_category": "medicine",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

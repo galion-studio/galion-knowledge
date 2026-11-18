@@ -1,0 +1,68 @@
+{
+  "id": "world.money-boe",
+  "title": "The Bank of England's account of money",
+  "section": "world",
+  "category": "economics",
+  "summary": "The Bank says most money is bank deposits, and that modern fiat money depends on trust in the issuer.",
+  "body": "The Bank of England's explainer, last updated 27 February 2025 according to the page, says money has taken many forms and that today it is mostly cash and bank deposits, the vast majority being deposits. It describes fiat money as relying on public trust in the issuer rather than on a fixed quantity of a metal. That is a central bank's account. Commodity theories, which tie money's value to a good such as gold, are the historical alternative Smith and others discussed. Boudewijn de Bruin and colleagues' SEP entry on money and finance is a philosophical map of those arguments. Neither source ends the dispute between people who treat money as a token of a commodity and people who treat it as a credit relationship.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "What is money?",
+      "url": "https://www.bankofengland.co.uk/explainers/what-is-money",
+      "author": "Bank of England",
+      "date": "2025-02-27",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Philosophy of Money and Finance",
+      "url": "https://plato.stanford.edu/entries/money-finance/",
+      "author": "Boudewijn de Bruin, Lisa Herzog, Martin O'Neill, and Joakim Sandberg",
+      "date": "2018-11-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Bank of England",
+  "as_of_date": "2025-02-27",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Central-bank account",
+      "summary": "Most contemporary money is deposit money, and fiat notes depend on the issuer and on trust.",
+      "status": "kept from a duplicate card",
+      "sources": [
+        {
+          "title": "What is money?",
+          "url": "https://www.bankofengland.co.uk/explainers/what-is-money",
+          "author": "Bank of England",
+          "date": "2025-02-27",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "label": "Commodity and credit theories",
+      "summary": "Other accounts ground money in a traded good or in a credit relation. The SEP entry maps the philosophical dispute rather than settling it.",
+      "status": "kept from a duplicate card",
+      "sources": [
+        {
+          "title": "Philosophy of Money and Finance",
+          "url": "https://plato.stanford.edu/entries/money-finance/",
+          "author": "de Bruin, Herzog, O'Neill, and Sandberg",
+          "date": "2018-11-02",
+          "accessed": "2026-11-18"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "world.smith-wealth-of-nations"
+  ],
+  "tags": [
+    "economics",
+    "money",
+    "not-settled"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,17 @@
+{% from "icon.njk" import icon with context %}
+{% macro tile(card) %}
+{% set cat = card.category | categoryOf(catalog) %}
+<a class="tile" href="{{ ("/article/" + card.id + "/") | url }}">
+  <div class="tile-top">
+    <span class="pill" style="color: {{ cat.color }}; background: {{ cat.color }}22">{{ cat.name }}</span>
+    <span class="status status-{{ "unsourced" if "unsourced" in card.status else "other" }}">{{ card.status }}</span>
+  </div>
+  <h2>{{ card.title }}</h2>
+  <p>{{ card.summary }}</p>
+  <div class="tile-meta">
+    <span>{{ icon("clock", "icon-xs") }} {{ card.read_time_min }} min</span>
+    <span>{{ card.claim_type }}</span>
+    <span class="tile-more">{{ icon("arrow-right", "icon-xs") }}</span>
+  </div>
+</a>
+{% endmacro %}

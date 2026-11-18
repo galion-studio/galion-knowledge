@@ -1,0 +1,28 @@
+{
+  "id": "world.geography.monsoon-processes",
+  "title": "Monsoons are seasonal reversals, and their forecast is limited",
+  "section": "world",
+  "category": "geography",
+  "summary": "A monsoon is a seasonal reversal of the prevailing winds and of the rainfall that comes with them, driven largely by the different heating of land and ocean. Webster, Magaña, Palme",
+  "body": "A monsoon is a seasonal reversal of the prevailing winds and of the rainfall that comes with them, driven largely by the different heating of land and ocean. Webster, Magaña, Palmer, Shukla, Tomas, Yanai, and Yasunari reviewed the subject in 1998 under the title \"Monsoons: Processes, predictability, and the prospects for prediction.\" The title marks two different jobs. One is to describe the processes. The other is to say how far ahead the rains can be predicted. Predictability is not the same as understanding. A circulation can be well described and still be sensitive to ocean temperatures, soil moisture, and remote oscillations that are only partly known at the start of a season. The review is the source for treating monsoons as a prediction problem, not only as a map of wet and dry months.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Monsoons: Processes, predictability, and the prospects for prediction",
+      "url": "https://doi.org/10.1029/97JC02719",
+      "author": "P. J. Webster, V. O. Magaña, T. N. Palmer, J. Shukla, R. A. Tomas, M. Yanai, and T. Yasunari",
+      "date": "1998",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Webster and coauthors, Journal of Geophysical Research, 1998",
+  "as_of_date": "1998",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.nature.water-cycle",
+    "world.geography.koppen-geiger-map-2007"
+  ],
+  "read_time_min": 1
+}

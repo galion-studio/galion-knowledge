@@ -1,0 +1,39 @@
+{
+  "id": "world.who-amr",
+  "title": "WHO's definition of antimicrobial resistance",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO says bacteria, viruses, fungi, and parasites can stop responding to antimicrobial medicines.",
+  "body": "The World Health Organization's fact sheet says antimicrobial resistance occurs when bacteria, viruses, fungi, and parasites do not respond to antimicrobial medicines, so infections become difficult or impossible to treat. Fleming's 1929 paper is the historical observation of a Penicillium culture's antibacterial action, not this global surveillance definition. The v1 articles do not cover antibiotics; this card is a seed on how infection and medicine actually interact.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Antimicrobial resistance",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+      "author": "World Health Organization",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to their Use in the Isolation of B. influenzae",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2048009/",
+      "author": "Alexander Fleming",
+      "date": "1929",
+      "accessed": "2026-11-18",
+      "note": "British Journal of Experimental Pathology, 1929 Jun; 10(3):226-236. PMCID PMC2048009."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.who-vaccination"
+  ],
+  "tags": [
+    "medicine",
+    "antibiotics"
+  ],
+  "read_time_min": 1
+}

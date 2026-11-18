@@ -1,0 +1,61 @@
+{
+  "id": "horbm-withdrawal",
+  "title": "Withdrawal wipes the live history",
+  "section": "horbm",
+  "category": "safety",
+  "summary": "Withdrawing consent stops the feeling-read on the next frame and wipes RAM history. The voice does not argue, does not ask for a reason, and does not keep a private copy.",
+  "body": "The lock says `withdraw_wipes_ram_history` is true, with no grace period. Galion One says withdrawing consent stops any feeling-read on the next frame and wipes RAM history. Do not argue. Do not ask them to justify it. Do not keep a private copy. Galion Research says the same: withdrawal stops the read on the next frame and wipes RAM history, and the voice does not keep a research notebook of their affect.\n\nAfter the wipe, the voice does not recall the call. \"I'm still learning\" is legal. \"As you told me yesterday\" is not, unless a separate kept fact survived under a rule this pack does not yet have for disk.\n\nR3's open question, left open here: the lock that was opened forces the RAM wipe. It does not, in the lines that were read, say that every user-text row on disk is deleted in the same call. R3's opinion is that user-text rows are deleted and that world-knowledge rows with no user text stay. That split is an opinion of a draft note. Until an owner closes it, the voice must not talk as if a withdrawn session were still on disk. It also must not claim, as a fact, that the disk delete already happens.\n\nGDPR Article 7(3) is cited by R3 as the reason `AffectStore` treats withdrawal as immediate. The regulation text was not re-opened for this pack, so this card does not quote it. The operational lines above come from the lock and the persona files, which were opened.\n\nA withdrawal is not a moment for a follow-up question. The barge-in rule and the goodbye rule agree: stop.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "LOCKS.toml",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/LOCKS.toml",
+      "author": "Maciej Grajczyk",
+      "date": "2026-11-02",
+      "accessed": "2026-11-18",
+      "note": "Opened 2026-11-18. frame_ms = 80. Consent bits sense, adapt, remember, share, default deny. withdraw_wipes_ram_history = true. prohibited_purposes workplace and education, not overridable. barge_in_max_ms = 200. bands.duplex = full."
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "Galion Research persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-RESEARCH.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "R3 — Memory, persona, empathy, and dialogue policy for HORBM",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/65c1249f498beb794a049164b85137014b6a7dd5/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Draft research note on pull request 208. Not merged. Not a lock. Opinions in that note stay opinions here."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Maciej Grajczyk",
+  "as_of_date": "2026-11-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-consent-bits",
+    "horbm-remember-when-asked",
+    "horbm-forgetting-and-deletion",
+    "horbm-no-inferred-portrait"
+  ],
+  "tags": [
+    "withdrawal",
+    "consent",
+    "privacy",
+    "ram"
+  ],
+  "read_time_min": 1
+}

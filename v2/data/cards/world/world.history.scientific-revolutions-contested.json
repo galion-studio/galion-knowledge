@@ -1,0 +1,39 @@
+{
+  "id": "world.history.scientific-revolutions-contested",
+  "title": "Whether science changes by revolutions is contested",
+  "section": "world",
+  "category": "history",
+  "summary": "The Stanford Encyclopedia of Philosophy entry \"Scientific Revolutions\" surveys a dispute about how science changes. One account, associated with Thomas Kuhn's The Structure of Scie",
+  "body": "The Stanford Encyclopedia of Philosophy entry \"Scientific Revolutions\" surveys a dispute about how science changes. One account, associated with Thomas Kuhn's The Structure of Scientific Revolutions, says that normal research inside a shared framework is sometimes replaced wholesale when anomalies accumulate and a new framework takes over. Other historians and philosophers argue that the change is more continuous, that old and new practices overlap, and that the word revolution imports a political metaphor the record does not always fit. The label \"the Scientific Revolution\" for Europe in the sixteenth and seventeenth centuries is part of the same argument. It is a name for a cluster of changes in astronomy, mechanics, and method. It is not a date on which science began. This card does not decide the dispute. It marks the label as contested.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Scientific Revolutions",
+      "url": "https://plato.stanford.edu/entries/scientific-revolutions/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Historiographical dispute surveyed by the Stanford Encyclopedia of Philosophy",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "Science sometimes changes by revolutionary replacement of a framework, not only by accumulation.",
+      "summary": "Science sometimes changes by revolutionary replacement of a framework, not only by accumulation.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "The changes are more continuous, and revolution is a misleading metaphor.",
+      "summary": "The changes are more continuous, and revolution is a misleading metaphor.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.philosophy.popper-demarcation",
+    "world.mathematics.noneuclidean-geometry"
+  ],
+  "read_time_min": 1
+}

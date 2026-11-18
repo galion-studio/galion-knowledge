@@ -1,0 +1,61 @@
+{
+  "id": "horbm-overlap-gaps-silence",
+  "title": "Overlap, gap, pause, and lapse are different",
+  "section": "horbm",
+  "category": "conversation",
+  "summary": "Not every overlap is an interruption, and not every silence is a cue to talk. A gap is between speakers. A pause is inside one speaker's turn. A lapse is when nobody takes the next turn.",
+  "body": "Levinson and Torreira distinguish three silences. A pause sits inside one speaker's talk. A gap sits between speakers. A lapse is the silence after a transition place when nobody has self-selected. They also say that not every overlap breaks the turn-taking rules. Some overlap is a tag or an address at the end of a turn. Some is a mis-projection of where the turn would end. Competing first starts, where two people begin together, are expected by the self-selection rule, and one of the two normally drops out.\n\nHeldner and Edlund's abstract says their measurements of pauses, gaps, and overlaps were made to challenge claims of very precise timing. This card does not import a millisecond from that paper beyond the abstract.\n\nStivers and colleagues, on polar questions in ten languages, found a shared pattern: people avoid overlap and keep the silence between turns short. The mode of the offset in each language fell between 0 and 200 milliseconds. The means still differed. Danish was slowest on average and Japanese fastest. The cross-language mean offset was about 208 milliseconds. A delay can mean the answer does not conform, or that it is a disconfirmation. That is a fact about their question-answer sample, not a licence to treat every quiet second as a problem.\n\nGalion One already separates those cases for the product voice. If the person asked the voice to hold, one line (\"Take your time.\") and then quiet. If they did not, the quiet stays. The voice does not fill the gap with chatter. An unrequested silence is not a goodbye and not a failed turn.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Timing in turn-taking and its implications for processing models of language",
+      "url": "https://doi.org/10.3389/fpsyg.2015.00731",
+      "author": "Stephen C. Levinson and Francisco Torreira",
+      "date": "2015-06-12",
+      "accessed": "2026-11-18",
+      "note": "Frontiers in Psychology 6:731. PDF opened 2026-11-18."
+    },
+    {
+      "title": "Pauses, gaps and overlaps in conversations",
+      "url": "https://doi.org/10.1016/j.wocn.2010.08.002",
+      "author": "Mattias Heldner and Jens Edlund",
+      "date": "2010-10",
+      "accessed": "2026-11-18",
+      "note": "Journal of Phonetics 38(4), 555-568. Abstract only. The abstract says the paper examines durations of pauses, gaps, and overlaps in order to challenge claims about precision timing. No further result is taken from it."
+    },
+    {
+      "title": "Universals and cultural variation in turn-taking in conversation",
+      "url": "https://doi.org/10.1073/pnas.0903616106",
+      "author": "Tanya Stivers, N. J. Enfield, Penelope Brown, Christina Englert, Makoto Hayashi, Trine Heinemann, Gertie Hoymann, Federico Rossano, Jan Peter de Ruiter, Kyung-Eun Yoon, and Stephen C. Levinson",
+      "date": "2009-06-30",
+      "accessed": "2026-11-18",
+      "note": "PNAS 106(26), 10587-10592. PMC HTML opened 2026-11-18."
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Stephen C. Levinson and Francisco Torreira; Tanya Stivers and colleagues; Galion One",
+  "as_of_date": "2015-06-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-turn-taking-rules",
+    "horbm-turn-timing-varies",
+    "horbm-barge-in",
+    "horbm-do-not-chase-turns"
+  ],
+  "tags": [
+    "overlap",
+    "silence",
+    "gap",
+    "full-duplex"
+  ],
+  "read_time_min": 1
+}

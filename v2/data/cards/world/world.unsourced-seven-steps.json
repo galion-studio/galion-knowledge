@@ -1,0 +1,30 @@
+{
+  "id": "world.unsourced-seven-steps",
+  "title": "The v1 seven-step scientific method is an unsourced teaching outline",
+  "section": "world",
+  "category": "method",
+  "summary": "The numbered classroom list was not matched to a primary source.",
+  "body": "The v1 article presents seven steps and the slogans empiricism, falsifiability, reproducibility, peer review, and self-correction as \"the\" scientific method. The Stanford entry supports the weaker claim that there is no single canonical list. The seven steps themselves, and the claim that the method \"minimizes human bias,\" are unsourced as stated. Replication research shows that published results often fail to repeat. That is a different card, and it cuts against any story in which the method automatically produces truth.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.scientific-method-no-single-toolkit",
+    "world.replication-psychology-2015"
+  ],
+  "tags": [
+    "method",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "3",
+    "v1_slug": "scientific-method",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

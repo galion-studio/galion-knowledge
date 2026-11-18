@@ -1,0 +1,17 @@
+{
+  "id": "world.technology.artificial-intelligence",
+  "title": "Artificial Intelligence",
+  "section": "world",
+  "category": "technology",
+  "summary": "Artificial Intelligence (AI) refers to computer systems capable of performing tasks that normally require human intelligence. Designed for specific tasks All current AI systems Examples: voice assistants, chess programs, image recognition",
+  "body": "# Artificial Intelligence\n\nArtificial Intelligence (AI) refers to computer systems capable of performing tasks that normally require human intelligence.\n\n## Types of AI\n\n### Narrow AI (Weak AI)\n- Designed for specific tasks\n- All current AI systems\n- Examples: voice assistants, chess programs, image recognition\n\n### General AI (Strong AI)\n- Hypothetical human-level intelligence\n- Would understand and learn any intellectual task\n- Does not yet exist\n\n### Superintelligence\n- Theoretical AI surpassing human intelligence\n- Topic of philosophical debate\n\n## Key Technologies\n\n### Machine Learning\n- Systems learn from data\n- Improve without explicit programming\n- Subset: Deep Learning (neural networks)\n\n### Natural Language Processing\n- Understanding and generating human language\n- Powers chatbots, translation, search\n\n### Computer Vision\n- Interpreting visual information\n- Face recognition, autonomous vehicles\n\n## Applications\n\n- Healthcare: diagnosis, drug discovery\n- Transportation: self-driving cars\n- Finance: fraud detection, trading\n- Entertainment: recommendations, gaming\n- Science: protein folding, climate modeling\n\n## Ethical Concerns\n\n- Job displacement\n- Bias in algorithms\n- Privacy and surveillance\n- Autonomous weapons\n- Existential risk debates",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "read_time_min": 1
+}

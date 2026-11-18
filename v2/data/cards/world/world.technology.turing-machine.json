@@ -1,0 +1,28 @@
+{
+  "id": "world.technology.turing-machine",
+  "title": "Turing's 1936–37 account of computable numbers",
+  "section": "world",
+  "category": "technology",
+  "summary": "A. M. Turing, \"On Computable Numbers, with an Application to the Entscheidungsproblem,\" Proceedings of the London Mathematical Society, series 2, volume 42. Crossref dates the publication to 1937. The paper is often described as…",
+  "body": "## The paper\n\nA. M. Turing, \"On Computable Numbers, with an Application to the Entscheidungsproblem,\" Proceedings of the London Mathematical Society, series 2, volume 42. Crossref dates the publication to 1937. The paper is often described as submitted in 1936; this card uses the publication year on the Crossref record and does not invent a received date.\n\nThe Entscheidungsproblem is Hilbert's decision problem: is there a definite procedure that, given a statement of first-order logic, decides whether it is valid? The title says the paper applies the analysis of computable numbers to that problem.\n\n## The mechanism\n\nTuring's model of a definite procedure is a machine with a finite table of states and a tape of symbols. At each step the machine reads a symbol, writes a symbol, moves the tape, and changes state, all according to the table. A number is computable if some such machine writes out its digits. The model is meant to be wide enough to cover any procedure a person could carry out by a fixed finite set of rules, and narrow enough to be mathematical.\n\nThe application to the decision problem is that not every well-posed question about those machines has a machine that answers it. In particular, there is no general procedure of this kind that solves the Entscheidungsproblem. That is a negative result about procedures. It is the same family of result as Gödel's incompleteness theorem, reached by analyzing machines rather than by constructing an undecidable arithmetic sentence. They are not the same proof.\n\n**Fact:** the paper defines computable numbers by this machine model and applies the model to the decision problem.\n\n**Not the paper:** any particular programming language, the Church–Turing thesis as a later slogan, or a claim about what people can understand. The thesis — that the model catches the informal idea of a definite method — is an interpretation of why the definition matters. The theorems inside the paper are about the model.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+      "url": "https://doi.org/10.1112/plms/s2-42.1.230",
+      "author": "A. M. Turing",
+      "date": "1937",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "A. M. Turing",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.mathematics.goedel-incompleteness",
+    "world.technology.transformer-architecture"
+  ],
+  "read_time_min": 1
+}

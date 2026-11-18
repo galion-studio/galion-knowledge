@@ -1,0 +1,39 @@
+{
+  "id": "world.nature.orbital-pacemaker-ice-ages",
+  "title": "Orbital periods in the ice-age record",
+  "section": "world",
+  "category": "nature",
+  "summary": "Hays, Imbrie, and Shackleton's 1976 paper, \"Variations in the Earth's Orbit: Pacemaker of the Ice Ages,\" examined climate indices in Southern Hemisphere ocean sediments over about",
+  "body": "Hays, Imbrie, and Shackleton's 1976 paper, \"Variations in the Earth's Orbit: Pacemaker of the Ice Ages,\" examined climate indices in Southern Hemisphere ocean sediments over about 450,000 years. Climatic variance in the frequency band they studied concentrates in peaks near 23,000 years, 42,000 years, and about 100,000 years. Those match the dominant periods of precession, of the tilt of the Earth's axis, and of orbital eccentricity. The 42,000-year component stays in phase with obliquity. The shorter cycles can be explained if climate responds linearly to orbital forcing. The dominant 100,000-year component is close to eccentricity and in phase with it, but the paper does not give it the same linear explanation. The pacemaker link for the shorter cycles is strong in that record. The mechanism of the 100,000-year cycle is not settled by the linear account.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Variations in the Earth's Orbit: Pacemaker of the Ice Ages",
+      "url": "https://doi.org/10.1126/science.194.4270.1121",
+      "author": "J. D. Hays, John Imbrie, and N. J. Shackleton",
+      "date": "1976",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Hays, Imbrie, and Shackleton, Science, 1976",
+  "as_of_date": "1976",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "The 23,000- and 42,000-year climate peaks match orbital precession and obliquity and fit a linear response.",
+      "summary": "The 23,000- and 42,000-year climate peaks match orbital precession and obliquity and fit a linear response.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "The ~100,000-year component tracks eccentricity but was not explained by that same linear response.",
+      "summary": "The ~100,000-year component tracks eccentricity but was not explained by that same linear response.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.nature.seafloor-magnetic-stripes",
+    "world.nature.keeling-co2-1960"
+  ],
+  "read_time_min": 1
+}

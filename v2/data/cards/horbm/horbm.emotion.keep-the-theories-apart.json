@@ -1,0 +1,72 @@
+{
+  "id": "horbm.emotion.keep-the-theories-apart",
+  "title": "Four accounts of emotion stay side by side",
+  "section": "horbm",
+  "category": "emotion-space",
+  "summary": "These four accounts were each read at abstract or DOI-page level on 2026-11-18, and they disagree. Ekman (1992): a small set of evolved basic emotions with distinctive signals and",
+  "body": "These four accounts were each read at abstract or DOI-page level on 2026-11-18, and they disagree. Ekman (1992): a small set of evolved basic emotions with distinctive signals and coherent, brief responses. Barrett: emotion categories are constructed by a predictive brain, not found as natural kinds in the signal. Cowen and Keltner (2017), on self-report of videos: dozens of categories organize reported experience better than valence and arousal, and the categories blur into each other along gradients that still track valence and dominance. Cowen, Elfenbein, Laukka, and Keltner (2019), on vocal bursts from U.S. English speakers: at least 24 categories, again gradients, and categories organized recognition more than valence and arousal. None of these papers is a license to store a diagnosis. None of them is, by itself, the Galion state. The design choice is a separate card.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "An argument for basic emotions",
+      "url": "https://doi.org/10.1080/02699939208411068",
+      "author": "Paul Ekman",
+      "date": "1992",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The theory of constructed emotion: an active inference account of interoception and categorization",
+      "url": "https://doi.org/10.1093/scan/nsw154",
+      "author": "Lisa Feldman Barrett",
+      "date": "2016",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Self-report captures 27 distinct categories of emotion bridged by continuous gradients",
+      "url": "https://doi.org/10.1073/pnas.1702247114",
+      "author": "Alan S. Cowen and Dacher Keltner",
+      "date": "2017",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Mapping 24 emotions conveyed by brief human vocalization",
+      "url": "https://doi.org/10.1037/amp0000399",
+      "author": "Alan S. Cowen, Hillary Anger Elfenbein, Petri Laukka, and Dacher Keltner",
+      "date": "2019",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "The disagreement is in the sources named on this card",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [
+    {
+      "label": "Basic emotions are evolved kinds with their own signals.",
+      "summary": "Basic emotions are evolved kinds with their own signals.",
+      "status": "Ekman 1992."
+    },
+    {
+      "label": "Emotion categories are constructed, not natural kinds read out of the brain.",
+      "summary": "Emotion categories are constructed, not natural kinds read out of the brain.",
+      "status": "Barrett, DOI 10.1093/scan/nsw154."
+    },
+    {
+      "label": "Reported and recognized emotion is organized by many categories with fuzzy gradients, and those categories beat valence and arousal as a description of the reports.",
+      "summary": "Reported and recognized emotion is organized by many categories with fuzzy gradients, and those categories beat valence and arousal as a description of the reports.",
+      "status": "Cowen and Keltner 2017; Cowen, Elfenbein, Laukka, and Keltner 2019."
+    },
+    {
+      "label": "The state this system keeps is a continuous point in arousal, valence, and dominance. A category name is an optional pin on that point, not the state.",
+      "summary": "The state this system keeps is a continuous point in arousal, valence, and dominance. A category name is an optional pin on that point, not the state.",
+      "status": "Galion Labs, HORBM R3, reporting the MnE contract and galion-emotion."
+    }
+  ],
+  "related": [
+    "horbm.emotion.state-is-avd",
+    "horbm.emotion.ekman-basic",
+    "horbm.emotion.barrett-constructed",
+    "horbm.emotion.cowen-self-report"
+  ],
+  "read_time_min": 1
+}

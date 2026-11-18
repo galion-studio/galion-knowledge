@@ -1,0 +1,34 @@
+{
+  "id": "world.thirteenth-amendment",
+  "title": "The Thirteenth Amendment abolished slavery in the United States",
+  "section": "world",
+  "category": "law",
+  "summary": "The National Archives presents the amendment, ratified in 1865, as the constitutional abolition.",
+  "body": "The U.S. National Archives presents the Thirteenth Amendment as the abolition of slavery in 1865. It is a United States constitutional change. It does not date the end of slavery everywhere else. Britain's Slavery Abolition Act 1833 is a different statute, for a different empire, and it had its own exceptions and compensation to slaveholders that this card does not inventory because that detail was not read from the UK act's sections.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865)",
+      "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+      "author": "United States Congress, record held by the U.S. National Archives",
+      "date": "1865",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Congress and the ratifying states",
+  "as_of_date": "1865",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.emancipation-1863",
+    "world.uk-slavery-abolition-1833",
+    "world.unsourced-slave-trade-totals"
+  ],
+  "tags": [
+    "law",
+    "slavery",
+    "united-states"
+  ],
+  "read_time_min": 1
+}

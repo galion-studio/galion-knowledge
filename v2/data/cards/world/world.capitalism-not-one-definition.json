@@ -1,0 +1,51 @@
+{
+  "id": "world.capitalism-not-one-definition",
+  "title": "'Capitalism' is a contested name, not a natural kind",
+  "section": "world",
+  "category": "economics",
+  "summary": "Private ownership, markets, and wage labor are a cluster. Speakers draw the border in different places.",
+  "body": "The v1 article defines capitalism as private ownership of the means of production, free markets, the profit motive, and wage labor, then lists laissez-faire, welfare, state, and crony variants, and balances \"arguments for\" and \"arguments against.\" Daniel M. Hausman's SEP entry on philosophy of economics is a map of how economic claims are argued, not a verdict for one system. Nordic countries are described by some speakers as socialist and by others, including their own public finance, as capitalist economies with large welfare states. That definitional fight is not settled by a glossary. The World Bank poverty figures are a separate measurement and do not name a winner.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Philosophy of Economics",
+      "url": "https://plato.stanford.edu/entries/economics/",
+      "author": "Daniel M. Hausman",
+      "date": "2003-09-12",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Daniel M. Hausman, on the philosophy of the field; the definitional dispute is wider",
+  "as_of_date": "2003-09-12",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Market definition",
+      "summary": "Private property, voluntary exchange, and production for sale. Smith is a source for pieces of this picture, not for the nineteenth-century word.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "Welfare-state argument",
+      "summary": "Some speakers reserve 'capitalism' for laissez-faire and call large public sectors socialism. Others call those same countries capitalist. The v1 article notes both habits and then files the Nordic model under socialism.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.smith-wealth-of-nations",
+    "world.marx-gotha-needs",
+    "world.unsourced-nordic-model"
+  ],
+  "tags": [
+    "economics",
+    "politics",
+    "contested"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "27",
+    "v1_slug": "capitalism",
+    "v1_category": "society",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

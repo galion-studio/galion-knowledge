@@ -1,0 +1,42 @@
+{
+  "id": "world.science.mass-energy-1905",
+  "title": "Inertia depends on energy content",
+  "section": "world",
+  "category": "science",
+  "summary": "Einstein's short 1905 follow-up asks whether a body's inertia depends on its energy content. In the English translation dated 27 September 1905, if a body gives off energy L as rad",
+  "body": "Einstein's short 1905 follow-up asks whether a body's inertia depends on its energy content. In the English translation dated 27 September 1905, if a body gives off energy L as radiation, its mass diminishes by L/c². The translation then states a more general conclusion: the mass of a body is a measure of its energy content; if the energy changes by L, the mass changes in the same sense by L/9×10^20, with energy in ergs and mass in grams. That is the relation later written E=mc². The paper presents it as a theoretical conclusion and says it might be tested with bodies whose energy content varies a great deal, such as radium salts. The slogan E=mc² is a later compact notation, not a line of the 1905 title.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Ist die Trägheit eines Körpers von seinem Energieinhalt abhängig?",
+      "url": "https://doi.org/10.1002/andp.19053231314",
+      "author": "Albert Einstein",
+      "date": "1905",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Does the Inertia of a Body Depend upon its Energy-Content? (English translation)",
+      "url": "https://www.fourmilab.ch/etexts/einstein/E_mc2/www/",
+      "author": "Albert Einstein",
+      "date": "1905-09-27",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Albert Einstein, Annalen der Physik, 1905",
+  "as_of_date": "1905-09-27",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.science.special-relativity-1905"
+  ],
+  "tags": [
+    "physics",
+    "relativity",
+    "energy"
+  ],
+  "aliases": [
+    "world.mass-energy-1905"
+  ],
+  "read_time_min": 1
+}

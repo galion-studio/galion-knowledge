@@ -1,0 +1,21 @@
+{
+  "id": "world.history.scientific-revolution",
+  "title": "The Scientific Revolution",
+  "section": "world",
+  "category": "history",
+  "summary": "The Scientific Revolution (c. 1543-1687) marked a fundamental transformation in scientific thought, establishing the foundations of modern science. Copernicus (1473-1543) Heliocentric model",
+  "body": "# The Scientific Revolution\n\nThe Scientific Revolution (c. 1543-1687) marked a fundamental transformation in scientific thought, establishing the foundations of modern science.\n\n## Key Developments\n\n### Astronomy\n\n**Copernicus (1473-1543)**\n- Heliocentric model\n- Earth revolves around Sun\n- Published \"On the Revolutions\" (1543)\n- Challenged 1,400 years of geocentrism\n\n**Galileo (1564-1642)**\n- Telescope observations\n- Moons of Jupiter\n- Phases of Venus\n- Conflict with Church\n- \"Father of observational astronomy\"\n\n**Kepler (1571-1630)**\n- Three laws of planetary motion\n- Elliptical orbits\n- Mathematical astronomy\n- Harmony of the spheres\n\n### Physics\n\n**Newton (1643-1727)**\n- Laws of motion\n- Universal gravitation\n- Calculus\n- Optics\n- Principia Mathematica (1687)\n- \"Standing on shoulders of giants\"\n\n### Medicine and Biology\n\n**Vesalius (1514-1564)**\n- Human anatomy\n- Corrected Galen's errors\n- Detailed illustrations\n\n**Harvey (1578-1657)**\n- Circulation of blood\n- Heart as pump\n- Experimental method\n\n### Chemistry\n\n**Boyle (1627-1691)**\n- Boyle's Law (gases)\n- Element concept\n- Experimental chemistry\n- \"Father of modern chemistry\"\n\n## New Methods\n\n### Empiricism\n- Knowledge from observation\n- Experiment over authority\n- Francis Bacon's method\n- Inductive reasoning\n\n### Mathematics\n- Nature written in mathematics (Galileo)\n- Quantification\n- Mathematical laws\n- Predictive power\n\n### Instruments\n- Telescope\n- Microscope\n- Thermometer\n- Barometer\n- Air pump\n\n## Institutional Changes\n\n### Scientific Societies\n- Royal Society (1660)\n- French Academy (1666)\n- Peer review\n- Scientific journals\n\n### Universities\n- New subjects\n- Experimental teaching\n- Less theological focus\n\n## Why It Mattered\n\n### New Worldview\n- Mechanical universe\n- Natural laws\n- Human reason can understand nature\n- Progress possible\n\n### Separation from Religion\n- Nature as object of study\n- Not animate or ensouled\n- Gradual secularization\n- Conflict with Church authority\n\n### Foundation for Modern World\n- Industrial Revolution\n- Modern medicine\n- Technology\n- Scientific method established",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.science.scientific-method",
+    "world.history.renaissance",
+    "world.science.theory-of-relativity"
+  ],
+  "read_time_min": 1
+}

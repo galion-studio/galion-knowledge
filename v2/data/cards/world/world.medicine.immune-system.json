@@ -1,0 +1,19 @@
+{
+  "id": "world.medicine.immune-system",
+  "title": "The Immune System",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The immune system protects the body from pathogens (bacteria, viruses, fungi, parasites) and abnormal cells. Present from birth Non-specific response First line of defense Components: skin, mucous membranes, inflammation, fever",
+  "body": "# The Immune System\n\nThe immune system protects the body from pathogens (bacteria, viruses, fungi, parasites) and abnormal cells.\n\n## Two Main Branches\n\n### Innate Immunity\n- Present from birth\n- Non-specific response\n- First line of defense\n- Components: skin, mucous membranes, inflammation, fever\n\n### Adaptive Immunity\n- Develops through exposure\n- Highly specific\n- Has memory (basis for vaccines)\n- Takes days to weeks to activate\n\n## Key Cells\n\n### White Blood Cells (Leukocytes)\n- **B cells**: Produce antibodies\n- **T cells**: Kill infected cells, regulate immune response\n- **Macrophages**: Engulf pathogens\n- **Natural Killer cells**: Destroy virus-infected and cancer cells\n\n## How Vaccines Work\n\n1. Introduce harmless form of pathogen\n2. Immune system learns to recognize it\n3. Memory cells created\n4. Faster, stronger response to real infection\n\n## Immune Disorders\n\n### Autoimmune Diseases\n- Immune system attacks own tissues\n- Examples: lupus, rheumatoid arthritis, type 1 diabetes\n\n### Immunodeficiency\n- Weakened immune response\n- Can be inherited or acquired (HIV/AIDS)\n\n### Allergies\n- Overreaction to harmless substances\n- IgE antibody-mediated",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.biology.dna-genetics"
+  ],
+  "read_time_min": 1
+}

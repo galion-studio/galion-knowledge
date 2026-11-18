@@ -1,0 +1,30 @@
+{
+  "id": "world.unsourced-wwii-death-toll",
+  "title": "The v1 worldwide death toll of 70 to 85 million is unsourced",
+  "section": "world",
+  "category": "history",
+  "summary": "A global casualty range was in the older article and was not tied to a demographic source.",
+  "body": "The v1 World War II article says 70 to 85 million people died, about 3 percent of the world population, and it lists Stalingrad, Midway, D-Day, the fall of France, and the Battle of Britain as key events without documents. The dated facts we sourced are the invasion of Poland, Pearl Harbor, the atomic bombings, the surrender, and the Holocaust figures from USHMM. The global death range mixes military deaths, civilian deaths, famine, and disease, and estimates differ by method. Leave 70–85 million unsourced. Do not treat it as more precise than the institutionally documented Holocaust figure.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.holocaust-ushmm",
+    "world.poland-invasion-1939"
+  ],
+  "tags": [
+    "history",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "7",
+    "v1_slug": "world-war-two",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

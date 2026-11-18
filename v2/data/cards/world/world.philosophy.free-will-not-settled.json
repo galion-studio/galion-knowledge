@@ -1,0 +1,38 @@
+{
+  "id": "world.philosophy.free-will-not-settled",
+  "title": "Free will: compatibilists and incompatibilists still disagree",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "The Stanford Encyclopedia entry on free will lays out a disagreement that is not settled. One question is what free will requires. Compatibilist accounts say that acting freely is",
+  "body": "The Stanford Encyclopedia entry on free will lays out a disagreement that is not settled. One question is what free will requires. Compatibilist accounts say that acting freely is compatible with the world's causal order, including a deterministic one, if the action comes from the agent's own motives in the right way. Incompatibilist accounts, including libertarian ones, say that if every act is fixed by prior events, the agent does not have the kind of control moral responsibility needs. A further family of views, also surveyed there, says that if incompatibilism is true then responsibility fails. The entry treats arguments from experience, from a priori reflection, and from scientific findings as inputs to this dispute, not as a decision procedure that has already picked a winner. Neuroscience that finds brain activity before a reported urge does not, by itself, end the philosophical argument about what kind of control matters.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Free Will",
+      "url": "https://plato.stanford.edu/entries/freewill/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "The dispute as surveyed in the Stanford Encyclopedia of Philosophy",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "Freedom is compatible with a determined causal order if the agent acts from their own motives in the relevant way.",
+      "summary": "Freedom is compatible with a determined causal order if the agent acts from their own motives in the relevant way.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "The control required for responsibility is incompatible with determinism.",
+      "summary": "The control required for responsibility is incompatible with determinism.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.philosophy.kant-groundwork"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,29 @@
+{
+  "id": "world.unsourced-udhr-legal-status",
+  "title": "Whether the UDHR is 'not a treaty' is unsourced here",
+  "section": "world",
+  "category": "law",
+  "summary": "The v1 legal-status paragraph, and the claim that it inspired the 1966 covenants, was not read off a treaty page.",
+  "body": "The v1 article says the declaration is not a treaty, that many provisions have become customary international law, and that it inspired the 1966 covenants on civil and political rights and on economic, social, and cultural rights. Those are legal judgments. The UN page we opened states the proclamation and the \"common standard\" wording. It does not, in the sentences we used, settle customary-law status. Leave that paragraph unsourced.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.law.udhr-1948"
+  ],
+  "tags": [
+    "law",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "4",
+    "v1_slug": "human-rights-declaration",
+    "v1_category": "law",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

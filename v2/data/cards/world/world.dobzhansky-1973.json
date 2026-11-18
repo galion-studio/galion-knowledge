@@ -1,0 +1,38 @@
+{
+  "id": "world.dobzhansky-1973",
+  "title": "Dobzhansky's 1973 essay on evolution as biology's light",
+  "section": "world",
+  "category": "biology",
+  "summary": "The essay's title is a biologist's judgment that evolution organizes the rest of biology.",
+  "body": "Theodosius Dobzhansky, \"Nothing in Biology Makes Sense except in the Light of Evolution\" (The American Biology Teacher, 1973), is an essay, not a data paper. The title is his judgment that evolutionary biology is the framework that makes other biological facts cohere. The v1 claim that evolution is \"the unifying theory of biology\" echoes that judgment. It is an interpretation with wide professional uptake, and it is still an interpretation. Crossref records the paper. Treat the title as said by Dobzhansky, not as a measurement.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Nothing in Biology Makes Sense except in the Light of Evolution",
+      "url": "https://doi.org/10.2307/4444260",
+      "author": "Theodosius Dobzhansky",
+      "date": "1973",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Theodosius Dobzhansky",
+  "as_of_date": "1973",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.origin-1859",
+    "world.natural-selection-openstax"
+  ],
+  "tags": [
+    "biology",
+    "evolution"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "2",
+    "v1_slug": "evolution-natural-selection",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

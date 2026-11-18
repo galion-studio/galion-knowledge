@@ -1,0 +1,30 @@
+{
+  "id": "world.unsourced-prisoners-dilemma",
+  "title": "The v1 prisoner's-dilemma numbers are an unsourced illustration",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "One year, three years, and five years are a classroom matrix, not Nash's 1950 paper.",
+  "body": "The v1 game-theory article gives a prisoner's dilemma with sentences of 1, 3, and 5 years, and it describes chicken and the stag hunt. The structure (a dominant strategy that is worse for both than mutual cooperation) is the standard dilemma. The specific years were not found in a primary source we opened. A RAND memorandum URL we tried 404'd. Leave the payoff numbers unsourced. Nash's definition is sourced.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.nash-equilibrium-1950",
+    "world.game-theory-sep"
+  ],
+  "tags": [
+    "mathematics",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "37",
+    "v1_slug": "game-theory",
+    "v1_category": "mathematics",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

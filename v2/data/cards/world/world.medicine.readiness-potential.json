@@ -1,0 +1,64 @@
+{
+  "id": "world.medicine.readiness-potential",
+  "title": "Readiness potential and the reported time of intention: an experiment, and a rival model",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Libet and colleagues (1983) compared two clocks. One is the subject's report of when the urge or intention to move appeared. The other is the onset of the readiness potential, an electrical change recorded from the scalp before a…",
+  "body": "## The experiment\n\nLibet and colleagues (1983) compared two clocks. One is the subject's report of when the urge or intention to move appeared. The other is the onset of the readiness potential, an electrical change recorded from the scalp before a self-paced movement. The paper exists to put those times in order.\n\nA readiness potential is a measured trace. It is not, by itself, a thought you can read. The inference from \"the trace rose before the report\" to \"the brain decided and the person only noticed\" is an interpretation. It is the inference the experiment is famous for, and it is not forced by the existence of the trace.\n\n## The rival mechanism\n\nSchurger, Sitt, and Dehaene (2012) model the pre-movement activity as an accumulator: noisy activity that crosses a threshold and only then triggers movement. Averaging many trials, aligned on the movement, can manufacture a slow ramp even if no single trial contains an early, finished decision. That is a mechanism for the shape of the average. It is a challenge to the \"decision already made\" reading, not a proof that people never intend anything.\n\n**Not settled.** Both papers are real. Neither one ends the argument about free will. That argument is continued on the philosophy card, and it is not a medical finding.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Time of conscious intention to act in relation to onset of cerebral activity (readiness-potential)",
+      "url": "https://doi.org/10.1093/brain/106.3.623",
+      "author": "Benjamin Libet, Curtis A. Gleason, and Elwood W. Wright",
+      "date": "1983",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "An accumulator model for spontaneous neural activity prior to self-initiated movement",
+      "url": "https://doi.org/10.1073/pnas.1210467109",
+      "author": "Aaron Schurger, Jacobo D. Sitt, and Stanislas Dehaene",
+      "date": "2012",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "Cerebral activity begins before the reported moment of intention",
+      "summary": "Libet, Gleason, and Wright (Brain, 1983) measured the time of a reported conscious intention to act against the onset of the readiness potential, a scalp electrical change that precedes self-initiated movement. The paper's title states the relation they studied: intention's reported time versus the onset of that cerebral activity. A specific millisecond gap is not repeated here because it was not re-read from the article.",
+      "status": "kept from a duplicate card",
+      "sources": [
+        {
+          "title": "Time of conscious intention to act in relation to onset of cerebral activity (readiness-potential)",
+          "url": "https://doi.org/10.1093/brain/106.3.623",
+          "author": "Benjamin Libet and colleagues",
+          "date": "1983",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "label": "The slow buildup can be an accumulator crossing a threshold, not a decision already made",
+      "summary": "Schurger, Sitt, and Dehaene (PNAS, 2012) offer an accumulator model of spontaneous neural activity before self-initiated movement. On that reading, the readiness potential can be the average of noisy activity drifting toward a threshold, not evidence that a conscious choice was finished earlier. The Libet timing result and this model are both in the literature. They are not the same claim.",
+      "status": "kept from a duplicate card",
+      "sources": [
+        {
+          "title": "An accumulator model for spontaneous neural activity prior to self-initiated movement",
+          "url": "https://doi.org/10.1073/pnas.1210467109",
+          "author": "Aaron Schurger, Jacobo D. Sitt, and Stanislas Dehaene",
+          "date": "2012",
+          "accessed": "2026-11-18"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "world.philosophy.free-will",
+    "world.medicine.nerve-impulse"
+  ],
+  "read_time_min": 1
+}

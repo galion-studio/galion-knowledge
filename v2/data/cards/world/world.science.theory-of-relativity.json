@@ -1,0 +1,72 @@
+{
+  "id": "world.science.theory-of-relativity",
+  "title": "Special and general relativity: what the source papers actually argue",
+  "section": "world",
+  "category": "science",
+  "summary": "Einstein's 1905 paper *Zur Elektrodynamik bewegter Körper* (Annalen der Physik, vol. 322, pp. 891–921) is the special-relativity paper. A separate three-page paper the same year, *Ist die Trägheit eines Körpers von seinem Energieinhalt…",
+  "body": "## Two papers in 1905, not one slogan\n\nEinstein's 1905 paper *Zur Elektrodynamik bewegter Körper* (Annalen der Physik, vol. 322, pp. 891–921) is the special-relativity paper. A separate three-page paper the same year, *Ist die Trägheit eines Körpers von seinem Energieinhalt abhängig?* (pp. 639–641), is the one about inertia and energy. The mass-energy relation people now write as E = mc² comes from that second paper's argument, not from a line of algebra pasted into the first.\n\nIn the Saha English translation of the electrodynamics paper, Einstein defines two principles. First, the laws by which physical systems change do not depend on which of two coordinate systems, in uniform translational motion relative to each other, the changes are referred to. Second, every light ray moves in the \"stationary\" system at the same speed c, whether the emitting body is at rest or moving. He also writes that a luminiferous ether is superfluous: the theory does not need a space that is absolutely at rest. Wikisource warns that Saha shortened or altered some passages, so the German text is the primary source and the translation is an access copy.\n\n## What the kinematics does\n\nThe paper's opening move is about clocks. Time at one place can be read off a clock there. Time for two separated places is not given until you adopt a rule. Einstein's rule is a light-signal definition of synchrony: the time light takes from A to B equals the time from B to A. Once that definition is in place, two operations that classical kinematics treats as the same come apart. You can measure a rod in the frame where it is at rest, or you can mark, at one common time of the stationary clocks, where its ends are. The paper argues that those lengths disagree when the rod moves lengthwise. The translation says the disagreement grows as speed approaches c, and that the propositions become meaningless for a speed larger than the speed of light. That is a claim about the theory's domain, not a report that someone accelerated a rod to c.\n\n## Gravitation is a 1916 theory, tested in pieces\n\n*Die Grundlage der allgemeinen Relativitätstheorie* (1916) is Einstein's foundational paper for general relativity: gravitation is not an extra force painted onto special relativity but a theory of the geometry those clocks and rods measure.\n\nTests are separate papers, and they test different pieces:\n\n- Dyson, Eddington, and Davidson (1920) report a determination of the deflection of light by the Sun's gravitational field from the total eclipse of 29 May 1919. This card does not treat that one expedition as the moment the theory became certain.\n- Abbott and colleagues (2016) report the observation of gravitational waves from a binary black hole merger.\n- Ashby (2003) reviews relativity as it enters the Global Positioning System. This card does not copy a microsecond correction from memory; the review is the place that calculation is documented.\n\n## Fact, interpretation, and what is not claimed here\n\n**Fact:** these papers exist, say what their titles and the passages above say, and later work has kept using the theories.\n\n**Interpretation:** \"gravity is the curvature of spacetime\" is the reading of the 1916 theory, not a sentence a ruler prints out by itself.\n\n**Not claimed here:** a single experiment number for the 1919 deflection, a GPS clock budget, or the claim that every alternative gravitational theory is impossible.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Zur Elektrodynamik bewegter Körper",
+      "url": "https://doi.org/10.1002/andp.19053221004",
+      "author": "A. Einstein",
+      "date": "1905",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "On the Electrodynamics of Moving Bodies (1920 English translation by Meghnad Saha; Wikisource notes that some passages are shortened or altered)",
+      "url": "https://en.wikisource.org/wiki/On_the_Electrodynamics_of_Moving_Bodies",
+      "author": "Albert Einstein, translated by Meghnad Saha",
+      "date": "1920",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Ist die Trägheit eines Körpers von seinem Energieinhalt abhängig?",
+      "url": "https://doi.org/10.1002/andp.19053231314",
+      "author": "A. Einstein",
+      "date": "1905",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Die Grundlage der allgemeinen Relativitätstheorie",
+      "url": "https://doi.org/10.1002/andp.19163540702",
+      "author": "A. Einstein",
+      "date": "1916",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "A determination of the deflection of light by the sun's gravitational field, from observations made at the total eclipse of May 29, 1919",
+      "url": "https://doi.org/10.1098/rsta.1920.0009",
+      "author": "F. W. Dyson, A. S. Eddington, and C. Davidson",
+      "date": "1920",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+      "url": "https://doi.org/10.1103/PhysRevLett.116.061102",
+      "author": "B. P. Abbott and the LIGO Scientific Collaboration and Virgo Collaboration",
+      "date": "2016",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Relativity in the Global Positioning System",
+      "url": "https://doi.org/10.12942/lrr-2003-1",
+      "author": "Neil Ashby",
+      "date": "2003",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Albert Einstein",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.science.quantum-mechanics",
+    "world.science.black-holes",
+    "world.technology.relativity-in-gps",
+    "world.history.eclipse-1919-light-deflection"
+  ],
+  "read_time_min": 3
+}

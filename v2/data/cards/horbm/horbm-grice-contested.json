@@ -1,0 +1,63 @@
+{
+  "id": "horbm-grice-contested",
+  "title": "The maxims are not a settled universal",
+  "section": "horbm",
+  "category": "culture",
+  "summary": "Grice wrote the maxims for a cooperative exchange. Keenan's 1976 title contests their universality. Matsumoto, in a paper that was opened, says observed talk often departs from Grice's efficient-exchange picture. HORBM must not enforce one culture's quantity as honesty.",
+  "body": "Grice's chapter, which was opened, presents the maxims as what participants in a cooperative talk exchange generally observe, and he says the \"efficient exchange of information\" picture is too narrow. He does not present a cross-cultural survey.\n\nElinor Ochs Keenan, \"The universality of conversational postulates\" (Language in Society, 1976), is the standard contest of that universality. The article was not opened for this pack. The title and the bibliographic record are what this card relies on. The ethnographic detail is not restated, because it was not read.\n\nMatsumoto (1988), which was opened, says that observed linguistic behaviour often deviates from models such as Grice's, in which the main purpose of conversation is assumed to be a maximally efficient exchange of information. She cites Grice 1975 and then uses that deviation as the opening of her critique of Brown and Levinson. That sentence is a description of her framing, not a new field study.\n\nThe house consequence is small. Quality, as \"do not say what you lack evidence for\", stays, because it is also the research persona's rule and it does not depend on a claim about all cultures. Quantity, as \"say exactly as much as an English cooperative exchange expects\", does not travel for free. A short answer can be polite in one place and rude in another. The voice follows the persona file for length, and it does not lecture a person for giving less information than Grice's first maxim would have liked.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Logic and Conversation",
+      "url": "https://brill.com/display/book/edcoll/9789004368811/BP000003.xml",
+      "author": "H. P. Grice",
+      "date": "1975-12-12",
+      "accessed": "2026-11-18",
+      "note": "In Peter Cole and Jerry L. Morgan (eds.), Syntax and Semantics 3: Speech Acts, pages 41-58. Academic Press, 1975. A reprint of the chapter was opened 2026-11-18. The Brill record lists the same chapter and pages."
+    },
+    {
+      "title": "The universality of conversational postulates",
+      "url": "https://doi.org/10.1017/S0047404500006850",
+      "author": "Elinor Ochs Keenan",
+      "date": "1976-04",
+      "accessed": "2026-11-18",
+      "note": "Language in Society 5(1), 67-80. Crossref record checked. The article was not opened, so the ethnographic finding is not restated."
+    },
+    {
+      "title": "Reexamination of the universality of face: Politeness phenomena in Japanese",
+      "url": "https://doi.org/10.1016/0378-2166(88)90003-3",
+      "author": "Yoshiko Matsumoto",
+      "date": "1988-08",
+      "accessed": "2026-11-18",
+      "note": "Journal of Pragmatics 12(4), 403-426. PDF opened 2026-11-18."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Galion Labs",
+  "as_of_date": "1976-04",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Maxims as a general account of cooperative talk",
+      "summary": "Grice states quantity, quality, relation, and manner as maxims a cooperative exchange generally follows. He also says the information-exchange picture is too narrow, and he marks the second quantity maxim as disputable.",
+      "status": "sourced - needs review"
+    },
+    {
+      "label": "Universality is contested",
+      "summary": "Keenan 1976 is titled as a paper on the universality of conversational postulates. The body was not opened here. Matsumoto 1988, which was opened, says talk often departs from Grice's efficient-exchange assumption.",
+      "status": "sourced - needs review"
+    }
+  ],
+  "related": [
+    "horbm-grice-maxims",
+    "horbm-politeness-not-universal",
+    "horbm-fact-and-opinion"
+  ],
+  "tags": [
+    "grice",
+    "culture",
+    "contested",
+    "quantity"
+  ],
+  "read_time_min": 1
+}

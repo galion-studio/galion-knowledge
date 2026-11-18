@@ -1,0 +1,29 @@
+{
+  "id": "horbm.emotion.cowen-self-report",
+  "title": "Cowen and Keltner: 27 reported categories, with fuzzy gradients",
+  "section": "horbm",
+  "category": "emotion-space",
+  "summary": "Cowen and Keltner (2017) collected self-reports of emotion for 2,185 short videos. They report that the videos reliably elicited 27 distinct varieties of reported emotional experie",
+  "body": "Cowen and Keltner (2017) collected self-reports of emotion for 2,185 short videos. They report that the videos reliably elicited 27 distinct varieties of reported emotional experience. Categorical labels such as amusement captured those reports better than the commonly measured affective dimensions, and they give valence and arousal as the examples of those dimensions. The boundaries were fuzzy rather than discrete. Gradients ran, in their examples, from anxiety to fear to horror to disgust, and from calmness to aesthetic appreciation to awe, and those gradients corresponded to smooth variation in dimensions such as valence and dominance. Two claims are both in the abstract, and they must not be collapsed: categories organized the reports better than valence and arousal, and the categories were not discrete atoms. The sample is reported emotional experience of videos, not a wire format and not a diagnosis of a speaker.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Self-report captures 27 distinct categories of emotion bridged by continuous gradients",
+      "url": "https://doi.org/10.1073/pnas.1702247114",
+      "author": "Alan S. Cowen and Dacher Keltner",
+      "date": "2017",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Cowen and Keltner",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.emotion.cowen-vocal-bursts",
+    "horbm.emotion.keep-the-theories-apart",
+    "horbm.emotion.state-is-avd"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,76 @@
+{
+  "id": "world.dark-matter-cern",
+  "title": "CERN: dark matter is inferred, not identified",
+  "section": "world",
+  "category": "physics",
+  "summary": "CERN says unseen mass is used to explain extra gravity, that it is not visible, and that what it is remains unknown.",
+  "body": "CERN's dark-matter page says galaxies and clusters behave as if they contain unseen mass, that this matter was called dark because it is not visible, and that unlike ordinary matter it does not interact with the electromagnetic force in the same way. The page calls it unknown matter. Separately, Mordehai Milgrom's 1983 paper proposed a modification of Newtonian dynamics as a possible alternative to hidden mass. Galaxy rotation evidence of the kind Vera Rubin and W. Kent Ford reported for Andromeda in 1970 is part of the observational case and does not name the particle. The particle identity is not settled. MOND remains a minority alternative; this card does not pretend the two are equally successful on clusters and the cosmic microwave background, because that comparison was not re-derived here.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Dark matter",
+      "url": "https://home.cern/science/physics/dark-matter",
+      "author": "CERN",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Rotation of the Andromeda Nebula from a Spectroscopic Survey of Emission Regions",
+      "url": "https://doi.org/10.1086/150317",
+      "author": "Vera C. Rubin and W. Kent Ford, Jr.",
+      "date": "1970",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis",
+      "url": "https://doi.org/10.1086/161130",
+      "author": "M. Milgrom",
+      "date": "1983",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "CERN; Rubin and Ford; Milgrom",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Unseen mass",
+      "summary": "CERN's page presents dark matter as unseen mass that supplies extra gravity and does not interact with light the way ordinary matter does.",
+      "status": "kept from a duplicate card",
+      "sources": [
+        {
+          "title": "Dark matter",
+          "url": "https://home.cern/science/physics/dark-matter",
+          "author": "CERN",
+          "date": "2026-11-18",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "label": "Modified dynamics",
+      "summary": "Milgrom 1983 proposed changing the gravitational law at low acceleration instead of adding unseen mass. That proposal is a real published alternative; it is not the working assumption of the CERN page.",
+      "status": "kept from a duplicate card",
+      "sources": [
+        {
+          "title": "A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis",
+          "url": "https://doi.org/10.1086/161130",
+          "author": "M. Milgrom",
+          "date": "1983",
+          "accessed": "2026-11-18"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "world.planck-2018-lcdm",
+    "world.rubin-ford-1970"
+  ],
+  "tags": [
+    "cosmology",
+    "dark-matter",
+    "not-settled"
+  ],
+  "read_time_min": 1
+}

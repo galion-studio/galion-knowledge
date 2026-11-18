@@ -1,0 +1,27 @@
+{
+  "id": "world.philosophy.buddhism",
+  "title": "The four noble truths, as one English translation of SN 56.11 states them",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Access to Insight publishes Thanissaro Bhikkhu's 1993 English translation of the Dhammacakkappavattana Sutta, Saṃyutta Nikāya 56.11, and identifies it with the Pali Text Society reference S v 420. The page presents the discourse as the…",
+  "body": "## A text report, not a scientific finding\n\nAccess to Insight publishes Thanissaro Bhikkhu's 1993 English translation of the Dhammacakkappavattana Sutta, Saṃyutta Nikāya 56.11, and identifies it with the Pali Text Society reference S v 420. The page presents the discourse as the Buddha's first teaching, given at Isipatana near Varanasi to five monks. This card uses that page as the witness for what the sutta contains. It does not treat the narrative frame as minutes of a meeting, and it does not copy the translator's wording. The translation is offered under a Creative Commons Attribution-NonCommercial license, so the distinctive English is left on that site.\n\nThanissaro renders the term usually translated \"suffering\" as \"stress.\" That is a translation choice. Other English versions are linked from the same page; their wording was not the wording checked.\n\nIn this translation the discourse rejects two extremes, sensual indulgence and self-torment, and names a middle way. That way is an eight-part path: view, resolve, speech, action, livelihood, effort, mindfulness, and concentration, each qualified as \"right\" in the usual English rendering.\n\nIt then states four truths. First, the stressful or unsatisfactory condition of life, including birth, aging, death, grief, and not getting what one wants, summed up as clinging to the aggregates that make up a person. Second, the origin of that condition in craving, including craving for pleasure, for becoming, and for non-becoming. Third, the cessation of that condition by the ending of that craving. Fourth, the path already named as the way to that cessation.\n\n## What kind of claim this is\n\n**Fact:** this is the structure of SN 56.11 in the translation that was read.\n\n**Not an empirical finding:** that craving is the origin of pain, or that the path ends it. Those are the doctrine. They are not settled by a source cited here as science. Stoicism, on another card, also offers a discipline for distress and names virtue rather than the ending of craving. The comparison is between doctrines.\n\n**Not settled, and not attempted:** which Buddhist tradition's later reading of these four statements is authoritative. This card stops at one Pali discourse in one English translation.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Dhammacakkappavattana Sutta: Setting the Wheel of Dhamma in Motion (SN 56.11)",
+      "url": "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      "author": "Thanissaro Bhikkhu, from the Pali; Access to Insight",
+      "date": "1993",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Thanissaro Bhikkhu, translating the Pali",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.philosophy.stoicism"
+  ],
+  "read_time_min": 2
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world.nature.keeling-co2-1960",
+  "title": "Keeling's early carbon dioxide measurements",
+  "section": "world",
+  "category": "nature",
+  "summary": "Charles D. Keeling's 1960 paper, \"The Concentration and Isotopic Abundances of Carbon Dioxide in the Atmosphere,\" reports systematic measurements, not a one-time sample. He found a",
+  "body": "Charles D. Keeling's 1960 paper, \"The Concentration and Isotopic Abundances of Carbon Dioxide in the Atmosphere,\" reports systematic measurements, not a one-time sample. He found a seasonal and latitudinal variation of CO2 concentration and of its isotopic abundance in the Northern Hemisphere. In Antarctica he found a small but persistent increase. The seasonal swing fits the breathing of northern land plants: uptake in the growing season, release afterward. The persistent rise is the signal that the background concentration was increasing. The Scripps CO2 program is the continuation of that measurement series. This card does not quote a present-day concentration in parts per million. A current figure has to be read off the program's latest release, not memorized from 1960.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Concentration and Isotopic Abundances of Carbon Dioxide in the Atmosphere",
+      "url": "https://doi.org/10.1111/j.2153-3490.1960.tb01300.x",
+      "author": "Charles D. Keeling",
+      "date": "1960",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Scripps CO2 Program",
+      "url": "https://scrippsco2.ucsd.edu/",
+      "author": "Scripps Institution of Oceanography",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Charles D. Keeling, Tellus, 1960",
+  "as_of_date": "1960",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.nature.arrhenius-carbonic-acid-1896",
+    "world.nature.ocean-carbon-and-ph"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,43 @@
+{
+  "id": "horbm.culture.one-question",
+  "title": "One question, and only when the turn needs it",
+  "section": "horbm",
+  "category": "politeness-culture",
+  "summary": "Both product voices cap the question. Galion One: one question, and only when you need it to continue. Do not interview them. Galion Research: the one question that would change th",
+  "body": "Both product voices cap the question. Galion One: one question, and only when you need it to continue. Do not interview them. Galion Research: the one question that would change the answer, asked after what you can already say. Do not open with a questionnaire. R3 makes ask-one a legal move at most once in a turn. On Galion One it is legal only when the turn cannot continue without it. On Galion Research it is the question that would change the answer. A second question in the same turn fails the compile. This is how the product avoids turning curiosity into an imposition. It is not a claim that Brown and Levinson's negative-face calculus was applied, because that book was not re-opened.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk, Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Galion Research persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-RESEARCH.md",
+      "author": "Maciej Grajczyk, Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "HORBM R3: memory, persona, empathy, and dialogue policy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/cursor/horbm-r3-memory-persona-3e32/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Maciej Grajczyk; the once-per-turn cap is Galion Labs, R3",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.repair.one-question-do-not-invent",
+    "horbm.culture.face-and-discernment-unopened",
+    "horbm.closings.how-to-end"
+  ],
+  "read_time_min": 1
+}

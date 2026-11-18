@@ -1,0 +1,91 @@
+{
+  "id": "world.science.big-bang",
+  "title": "The hot expanding universe, and the Hubble constant that two methods do not share",
+  "section": "world",
+  "category": "science",
+  "summary": "\"Big Bang\" is a nickname for a family of cosmological models. The observations underneath it were published as separate papers, and they do not all measure the same thing. Hubble (1929) reported a relation between distance and radial…",
+  "body": "## Separate observations that later got one name\n\n\"Big Bang\" is a nickname for a family of cosmological models. The observations underneath it were published as separate papers, and they do not all measure the same thing.\n\nHubble (1929) reported a relation between distance and radial velocity among extra-galactic nebulae. That is a correlation between how far galaxies are and how their spectra are shifted. It is not, in the paper's title, a story about an explosion into pre-existing empty space.\n\nPenzias and Wilson (1965) measured an excess antenna temperature at 4080 Mc/s. Dicke, Peebles, Roll, and Wilkinson (1965), in a companion paper titled \"Cosmic Black-Body Radiation,\" supplied the cosmological reading: a cosmic black-body field. The measurement and the interpretation are different documents. Both are needed before the excess is evidence for a hot early universe rather than an instrumental leftover.\n\nAlpher, Bethe, and Gamow (1948), \"The Origin of Chemical Elements,\" is a paper about how chemical elements could have been formed. It is part of the history of the hot-early-universe idea. This card does not restate a table of abundances from it.\n\n## The mechanism, in one paragraph\n\nThe working model says space expands, so typical distances between unbound galaxies grow and light stretches. A hot, dense early stage leaves a nearly uniform bath of radiation, which is what the 1965 papers are about. Element formation is a further calculation about nuclear reactions in that early heat. None of those sentences requires the universe to have exploded from a point sitting in a larger room. That picture is a bad metaphor, not the model.\n\n## What is not settled\n\nThe two H0 numbers above, 67.4 ± 0.5 from Planck's 2018 base-ΛCDM fit and 74.03 ± 1.42 from the Riess and colleagues distance ladder, are not the same measurement. Planck's paper says that analysis does not show compelling evidence for extensions. The distance-ladder paper's title says the contrary. This card does not average them and does not declare a winner. The disagreement is not settled as of the papers cited here.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "A relation between distance and radial velocity among extra-galactic nebulae",
+      "url": "https://doi.org/10.1073/pnas.15.3.168",
+      "author": "Edwin Hubble",
+      "date": "1929",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "A Measurement of Excess Antenna Temperature at 4080 Mc/s",
+      "url": "https://doi.org/10.1086/148307",
+      "author": "A. A. Penzias and R. W. Wilson",
+      "date": "1965",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Cosmic Black-Body Radiation",
+      "url": "https://doi.org/10.1086/148306",
+      "author": "R. H. Dicke, P. J. E. Peebles, P. G. Roll, and D. T. Wilkinson",
+      "date": "1965",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Origin of Chemical Elements",
+      "url": "https://doi.org/10.1103/PhysRev.73.803",
+      "author": "R. A. Alpher, H. Bethe, and G. Gamow",
+      "date": "1948",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Planck 2018 results. VI. Cosmological parameters",
+      "url": "https://arxiv.org/abs/1807.06209",
+      "author": "Planck Collaboration (N. Aghanim and colleagues)",
+      "date": "2018",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Large Magellanic Cloud Cepheid Standards Provide a 1% Foundation for the Determination of the Hubble Constant and Stronger Evidence for Physics beyond ΛCDM",
+      "url": "https://arxiv.org/abs/1903.07603",
+      "author": "Adam G. Riess, Stefano Casertano, Wenlong Yuan, Lucas M. Macri, and colleagues",
+      "date": "2019",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "Planck 2018 base-ΛCDM parameters",
+      "summary": "The Planck 2018 cosmological-parameters paper, as read on arXiv:1807.06209, reports a Hubble constant H0 = 67.4 ± 0.5 km s−1 Mpc−1, a matter density parameter Ωm = 0.315 ± 0.007, and states that the collaboration finds no compelling evidence for extensions to the base-ΛCDM model in that analysis.",
+      "status": "kept from a duplicate card",
+      "sources": [
+        {
+          "title": "Planck 2018 results. VI. Cosmological parameters",
+          "url": "https://arxiv.org/abs/1807.06209",
+          "author": "Planck Collaboration",
+          "date": "2018",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "label": "A local distance-ladder Hubble constant is higher, and the authors treat that as evidence beyond ΛCDM",
+      "summary": "Riess and colleagues (arXiv:1903.07603) report a best estimate H0 = 74.03 ± 1.42 km/s/Mpc from a Cepheid distance ladder anchored by the Large Magellanic Cloud, masers in NGC 4258, and Milky Way parallaxes. The paper's title calls this stronger evidence for physics beyond ΛCDM. That is the authors' interpretation of the difference. It is not, by itself, a completed replacement for the Planck model.",
+      "status": "kept from a duplicate card",
+      "sources": [
+        {
+          "title": "Large Magellanic Cloud Cepheid Standards Provide a 1% Foundation for the Determination of the Hubble Constant and Stronger Evidence for Physics beyond ΛCDM",
+          "url": "https://arxiv.org/abs/1903.07603",
+          "author": "Adam G. Riess and colleagues",
+          "date": "2019",
+          "accessed": "2026-11-18"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "world.science.theory-of-relativity"
+  ],
+  "read_time_min": 2
+}

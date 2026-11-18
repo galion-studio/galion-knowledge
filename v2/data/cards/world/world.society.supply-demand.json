@@ -1,0 +1,30 @@
+{
+  "id": "world.society.supply-demand",
+  "title": "Supply and Demand",
+  "section": "world",
+  "category": "society",
+  "summary": "Supply and demand is the most fundamental concept in economics, explaining how prices and quantities are determined in markets. Quantity buyers want at various prices Demand curve slopes downward",
+  "body": "# Supply and Demand\n\nSupply and demand is the most fundamental concept in economics, explaining how prices and quantities are determined in markets.\n\n## The Basics\n\n### Demand\n- Quantity buyers want at various prices\n- Demand curve slopes downward\n- Lower price → higher quantity demanded\n- Law of Demand\n\n**Factors Shifting Demand:**\n- Income changes\n- Preferences\n- Price of substitutes/complements\n- Expectations\n- Number of buyers\n\n### Supply\n- Quantity sellers offer at various prices\n- Supply curve slopes upward\n- Higher price → higher quantity supplied\n- Law of Supply\n\n**Factors Shifting Supply:**\n- Input costs\n- Technology\n- Number of sellers\n- Expectations\n- Government policies\n\n## Market Equilibrium\n\n### How It Works\n- Where supply meets demand\n- Equilibrium price and quantity\n- No pressure to change\n- \"Clears\" the market\n\n### Disequilibrium\n\n**Surplus (price too high)**\n- Quantity supplied > demanded\n- Pressure to lower prices\n- Move toward equilibrium\n\n**Shortage (price too low)**\n- Quantity demanded > supplied\n- Pressure to raise prices\n- Move toward equilibrium\n\n## Price Elasticity\n\n### Elasticity of Demand\n- How much quantity responds to price changes\n- Elastic: large response\n- Inelastic: small response\n- Affects total revenue\n\n### Factors Affecting Elasticity\n- Availability of substitutes\n- Necessity vs. luxury\n- Time horizon\n- Proportion of budget\n\n## Real-World Applications\n\n### Price Controls\n\n**Price Ceilings** (rent control)\n- Maximum legal price\n- If below equilibrium → shortage\n- Unintended consequences\n\n**Price Floors** (minimum wage)\n- Minimum legal price\n- If above equilibrium → surplus\n- Effects debated\n\n### Market Efficiency\n- Prices convey information\n- Coordinate economic activity\n- Allocate resources\n- Signal scarcity\n\n## Limitations\n\n- Assumes perfect competition\n- Externalities not captured\n- Public goods\n- Information asymmetries\n- Market power",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.smith-wealth-of-nations",
+    "world.capitalism-not-one-definition",
+    "world.society.capitalism",
+    "world.society.socialism",
+    "world.mathematics.game-theory"
+  ],
+  "tags": [
+    "economics",
+    "needs-review"
+  ],
+  "aliases": [
+    "world.unsourced-supply-demand"
+  ],
+  "read_time_min": 1
+}

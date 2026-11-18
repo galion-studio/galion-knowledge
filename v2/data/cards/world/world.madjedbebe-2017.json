@@ -1,0 +1,52 @@
+{
+  "id": "world.madjedbebe-2017",
+  "title": "Clarkson and colleagues reported northern Australian occupation by 65,000 years ago",
+  "section": "world",
+  "category": "history",
+  "summary": "The claim is the paper's title. Early dates at this site have been argued over.",
+  "body": "Chris Clarkson and colleagues, \"Human occupation of northern Australia by 65,000 years ago\" (Nature, 2017), state the date in the title. Archaeological first-arrival dates are often revised when methods or associations are challenged. This pack did not open a later critique, so the card records the 2017 claim and flags the date as a research result rather than a settled clock. The broader point that stands without the exact millennium is that people reached Sahul by a Pleistocene sea crossing, which is a different history from a story that starts in Europe.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Human occupation of northern Australia by 65,000 years ago",
+      "url": "https://doi.org/10.1038/nature22968",
+      "author": "Chris Clarkson and colleagues",
+      "date": "2017",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Chris Clarkson and colleagues",
+  "as_of_date": "2017",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "The 2017 report",
+      "summary": "The Nature paper's title states occupation by 65,000 years ago.",
+      "status": "kept from a duplicate card",
+      "sources": [
+        {
+          "title": "Human occupation of northern Australia by 65,000 years ago",
+          "url": "https://doi.org/10.1038/nature22968",
+          "author": "Chris Clarkson and colleagues",
+          "date": "2017",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "label": "Later technical dispute",
+      "summary": "First-arrival dates at Madjedbebe have been disputed in the specialist literature. A specific critique was not opened in this pass, so that side is named only as a known class of dispute and needs its own source before it is quoted.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.jebel-irhoud-2017"
+  ],
+  "tags": [
+    "history",
+    "archaeology",
+    "not-settled"
+  ],
+  "read_time_min": 1
+}

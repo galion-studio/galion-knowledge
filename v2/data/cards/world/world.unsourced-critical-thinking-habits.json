@@ -1,0 +1,30 @@
+{
+  "id": "world.unsourced-critical-thinking-habits",
+  "title": "The v1 critical-thinking skill list is unsourced",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Analysis, evaluation, inference, and the habits-of-mind list were not tied to Dewey or Ennis.",
+  "body": "The v1 critical-thinking article lists analysis, evaluation, inference, self-regulation, and a set of intellectual virtues, and it says these skills are essential in an age of misinformation. That is a pedagogical program. John Dewey and Robert Ennis are the usual names and were not opened. The fallacy catalogs are sourced. The skill sermon is unsourced.",
+  "claim_type": "opinion",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.fallacies-catalog",
+    "world.scientific-method-no-single-toolkit"
+  ],
+  "tags": [
+    "philosophy",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "30",
+    "v1_slug": "critical-thinking",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

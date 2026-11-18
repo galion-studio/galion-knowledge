@@ -1,0 +1,54 @@
+{
+  "id": "horbm.turn-taking.overlap-targets-disagree",
+  "title": "Whether 'no gap and no overlap' is the real target is disputed",
+  "section": "horbm",
+  "category": "turn-taking",
+  "summary": "Levinson and Torreira (2015) report a disagreement and take a side. Heldner and Edlund (2010), as that review quotes them, found that gaps under 10 ms are less than 1 percent of tr",
+  "body": "Levinson and Torreira (2015) report a disagreement and take a side. Heldner and Edlund (2010), as that review quotes them, found that gaps under 10 ms are less than 1 percent of transitions and that overlaps average 40 percent of transitions, and concluded that the target cannot be one-speaker-at-a-time with no gap and no overlap. The review answers that a 10 ms acoustic zero is a stricter target than talkers can hit or hear: a perceptual 'no gap' had been estimated at about 150 to 250 ms, and Heldner (2011) is cited for the claim that a gap or overlap under 120 ms is not perceived as one. The review also says most transitions in those corpora still fall under 200 ms, and that many overlaps are continuers or tiny terminal overlaps rather than interruptions. When two people do compete for the floor, the review says, one of them drops out, often syllable by syllable (Schegloff 2000, as summarized there). This card does not re-open Heldner and Edlund or Schegloff. Both targets stay on the table: a statistical cloud of small gaps and small overlaps, and a social rule that competing overlap is exited.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Timing in turn-taking and its implications for processing models of language",
+      "url": "https://doi.org/10.3389/fpsyg.2015.00731",
+      "author": "Stephen C. Levinson and Francisco Torreira",
+      "date": "2015",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Pauses, gaps and overlaps in conversations",
+      "url": "https://doi.org/10.1016/j.wocn.2010.08.002",
+      "author": "Mattias Heldner and Jens Edlund",
+      "date": "2010",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Overlapping talk and the organization of turn-taking for conversation",
+      "url": "https://doi.org/10.1017/S0047404500001019",
+      "author": "Emanuel A. Schegloff",
+      "date": "2000",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Levinson and Torreira, reporting Heldner and Edlund and Schegloff",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [
+    {
+      "label": "The timing target is no gap and no overlap, with overlap usually brief and accountable.",
+      "summary": "The timing target is no gap and no overlap, with overlap usually brief and accountable.",
+      "status": "Sacks, Schegloff, and Jefferson 1974, as defended by Levinson and Torreira 2015."
+    },
+    {
+      "label": "Measured transitions are so often overlapped, and true zero-gaps so rare, that no-gap-no-overlap cannot be the target, and the measurements do not by themselves prove projection rather than reaction.",
+      "summary": "Measured transitions are so often overlapped, and true zero-gaps so rare, that no-gap-no-overlap cannot be the target, and the measurements do not by themselves prove projection rather than reaction.",
+      "status": "Heldner and Edlund 2010, as quoted by Levinson and Torreira 2015."
+    }
+  ],
+  "related": [
+    "horbm.turn-taking.one-at-a-time",
+    "horbm.turn-taking.continuers",
+    "horbm.turn-taking.duplex-conduct"
+  ],
+  "read_time_min": 1
+}

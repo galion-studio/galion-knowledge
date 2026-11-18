@@ -1,0 +1,38 @@
+{
+  "id": "world.avery-1944",
+  "title": "Avery, MacLeod, and McCarty on the transforming substance",
+  "section": "world",
+  "category": "biology",
+  "summary": "Their 1944 paper identifies DNA as the substance that transforms pneumococcal types.",
+  "body": "Oswald T. Avery, Colin M. MacLeod, and Maclyn McCarty, \"Studies on the Chemical Nature of the Substance Inducing Transformation of Pneumococcal Types\" (Journal of Experimental Medicine, 1944), reported that the transforming substance in their bacterial system was DNA. The v1 date \"1944: DNA identified as genetic material\" refers to this paper. It was a specific experimental system, not a universal proof announced in a single sentence, and it was not immediately accepted by everyone.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Studies on the Chemical Nature of the Substance Inducing Transformation of Pneumococcal Types",
+      "url": "https://doi.org/10.1084/jem.79.2.137",
+      "author": "Oswald T. Avery, Colin M. MacLeod, and Maclyn McCarty",
+      "date": "1944",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Oswald T. Avery, Colin M. MacLeod, and Maclyn McCarty",
+  "as_of_date": "1944",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.watson-crick-1953",
+    "world.chargaff-1950"
+  ],
+  "tags": [
+    "biology",
+    "dna"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "8",
+    "v1_slug": "dna-genetics",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

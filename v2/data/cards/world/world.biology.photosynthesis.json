@@ -1,0 +1,35 @@
+{
+  "id": "world.biology.photosynthesis",
+  "title": "Photosynthesis: oxygen from chloroplasts, and the path of carbon",
+  "section": "world",
+  "category": "biology",
+  "summary": "Photosynthesis is not one reaction called \"plants make food.\" The sources here split it. Hill (Nature, 1937), \"Oxygen Evolved by Isolated Chloroplasts,\" showed that chloroplasts removed from the rest of the cell can evolve oxygen. The…",
+  "body": "## Two separable pieces of the mechanism\n\nPhotosynthesis is not one reaction called \"plants make food.\" The sources here split it.\n\nHill (Nature, 1937), \"Oxygen Evolved by Isolated Chloroplasts,\" showed that chloroplasts removed from the rest of the cell can evolve oxygen. The oxygen-releasing machinery is in the chloroplast. It does not require the intact leaf as a black box. That is the part of the mechanism in which light-driven chemistry releases O2.\n\nThe carbon-fixing part is a different trail. The Nobel Prize in Chemistry 1961 was awarded to Melvin Calvin. The Nobel facts page states the prize motivation as research on carbon dioxide assimilation in plants, and summarizes the work this way: green plants use energy from sunlight to make carbohydrates out of water and carbon dioxide; in studies during the early 1950s, particularly of single-cell green algae, Calvin and his colleagues traced the path taken by carbon through different stages of photosynthesis, using radioactive isotopes and chromatography; the findings included the role of phosphorus compounds in the composition of carbohydrates.\n\n## What is not filled in from memory\n\nThis card does not list every intermediate of the cycle, because those names were not on the Nobel facts page that was checked. \"The Calvin cycle\" as a textbook diagram is a later packaging of the path those experiments traced. The mechanism the sources support is: light reactions associated with chloroplasts can release oxygen, and carbon from CO2 is tracked, step by step, into carbohydrates, with phosphorus compounds involved.\n\n**Fact:** those two results.\n\n**Interpretation:** describing the whole biosphere as \"running on photosynthesis\" is a summary of ecology, not a third experiment. It is reasonable, and it is not a substitute for the chloroplast and tracer evidence above.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Oxygen Evolved by Isolated Chloroplasts",
+      "url": "https://doi.org/10.1038/139881a0",
+      "author": "R. Hill",
+      "date": "1937",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Melvin Calvin – Facts",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1961/calvin/facts/",
+      "author": "Nobel Prize Outreach",
+      "date": "1961",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Melvin Calvin",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.dna-genetics",
+    "world.nature.climate-change"
+  ],
+  "read_time_min": 1
+}

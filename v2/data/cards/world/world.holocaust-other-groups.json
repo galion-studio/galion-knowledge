@@ -1,0 +1,37 @@
+{
+  "id": "world.holocaust-other-groups",
+  "title": "USHMM names other groups murdered by the Nazis, without a single combined total here",
+  "section": "world",
+  "category": "history",
+  "summary": "The museum lists Soviet prisoners of war, Poles, Roma, and people with disabilities among the other victims.",
+  "body": "The United States Holocaust Memorial Museum's numbers article says the Nazis and their allies also targeted other groups for persecution and mass murder, including Soviet prisoners of war, ethnic Poles, Roma, and people with disabilities. The v1 article says \"millions of others.\" The museum page we used names the groups and does not, in the sentence we read, add them into one second total. Do not invent that second total. Each group's documented count is its own research problem.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Documenting Numbers of Victims of the Holocaust and Nazi Persecution",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+      "author": "United States Holocaust Memorial Museum",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United States Holocaust Memorial Museum",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.holocaust-ushmm"
+  ],
+  "tags": [
+    "history",
+    "holocaust"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "7",
+    "v1_slug": "world-war-two",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

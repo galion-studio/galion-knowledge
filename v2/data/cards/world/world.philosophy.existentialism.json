@@ -1,0 +1,20 @@
+{
+  "id": "world.philosophy.existentialism",
+  "title": "Existentialism",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Existentialism is a philosophical movement that emerged in the 19th and 20th centuries, focusing on individual existence, freedom, and choice. Humans exist first, then define themselves",
+  "body": "# Existentialism\n\nExistentialism is a philosophical movement that emerged in the 19th and 20th centuries, focusing on individual existence, freedom, and choice.\n\n## Core Ideas\n\n### Existence Precedes Essence\n- Humans exist first, then define themselves\n- No predetermined human nature\n- We create our own meaning through choices\n- Jean-Paul Sartre's central concept\n\n### Radical Freedom\n- Humans are \"condemned to be free\" (Sartre)\n- Every choice defines who we are\n- Cannot escape the burden of choice\n- Even refusing to choose is a choice\n\n### Authenticity\n- Living according to one's own values\n- Not conforming to external expectations\n- Taking responsibility for one's choices\n- Being true to oneself\n\n### Absurdity\n- The conflict between seeking meaning and the universe's silence\n- Albert Camus: \"The Absurd\"\n- Response: create meaning despite absurdity\n- Rebellion against meaninglessness\n\n## Key Existentialist Thinkers\n\n### Soren Kierkegaard (1813-1855)\n- \"Father of Existentialism\"\n- Leap of faith\n- Anxiety and despair as human conditions\n\n### Friedrich Nietzsche (1844-1900)\n- \"God is dead\" - loss of absolute values\n- Will to power\n- Ubermensch (Overman)\n- Create your own values\n\n### Jean-Paul Sartre (1905-1980)\n- Being and Nothingness\n- Bad faith (self-deception)\n- Radical responsibility\n\n### Albert Camus (1913-1960)\n- The Myth of Sisyphus\n- The Stranger\n- Absurdism\n\n### Simone de Beauvoir (1908-1986)\n- Feminist existentialism\n- The Second Sex\n- Ethics of ambiguity\n\n## Existentialist Themes\n\n- Anxiety and dread (Angst)\n- Death and mortality\n- Alienation from society\n- The Other\n- Freedom and responsibility",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.philosophy.stoicism",
+    "world.philosophy.consciousness"
+  ],
+  "read_time_min": 1
+}

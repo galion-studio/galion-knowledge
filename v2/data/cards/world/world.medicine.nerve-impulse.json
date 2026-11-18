@@ -1,0 +1,27 @@
+{
+  "id": "world.medicine.nerve-impulse",
+  "title": "The nerve impulse as a problem in membrane current",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Hodgkin and Huxley (Journal of Physiology, 1952) published \"A quantitative description of membrane current and its application to conduction and excitation in nerve.\" A nerve impulse is not a spark in a wire. The axon membrane separates…",
+  "body": "## What the paper is for\n\nHodgkin and Huxley (Journal of Physiology, 1952) published \"A quantitative description of membrane current and its application to conduction and excitation in nerve.\"\n\nA nerve impulse is not a spark in a wire. The axon membrane separates charges. Current through that membrane, and the way the current depends on the membrane's state, is what moves the impulse along the fiber. The paper's job, as the title states it, is to describe that current quantitatively and to apply the description to conduction and excitation: how a local electrical change becomes a travelling signal.\n\n## What this card refuses to fake\n\nThe rate equations, the sodium and potassium conductances, and the numerical parameters of the model are the paper. They were not re-derived from the PDF in this pass, so they are not typed out here as if they had been. Citing the paper is not a license to recall a textbook from memory and call it a quotation.\n\n**Fact:** the 1952 paper is the quantitative link between membrane current and the conducted, excited nerve impulse.\n\n**Mechanism, at the level the title secures:** excitation and conduction are electrical events of the membrane, described by its current, not by a vague \"signal\" and not by the speed of electricity in copper.\n\n**Not this paper:** consciousness, the content of a thought, or a scan of a human decision. Those are different questions. One of them is the readiness-potential card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A quantitative description of membrane current and its application to conduction and excitation in nerve",
+      "url": "https://doi.org/10.1113/jphysiol.1952.sp004764",
+      "author": "A. L. Hodgkin and A. F. Huxley",
+      "date": "1952",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "A. L. Hodgkin and A. F. Huxley",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.medicine.readiness-potential"
+  ],
+  "read_time_min": 1
+}

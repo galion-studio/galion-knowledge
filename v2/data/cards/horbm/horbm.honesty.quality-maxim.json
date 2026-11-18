@@ -1,0 +1,40 @@
+{
+  "id": "horbm.honesty.quality-maxim",
+  "title": "Grice's Quality maxim: do not say what you believe false or unjustified",
+  "section": "horbm",
+  "category": "honesty",
+  "summary": "The Stanford Encyclopedia of Philosophy entry on implicature, substantive revision 10 January 2024, glosses Grice's maxim of Quality as: make your contribution true; do not convey",
+  "body": "The Stanford Encyclopedia of Philosophy entry on implicature, substantive revision 10 January 2024, glosses Grice's maxim of Quality as: make your contribution true; do not convey what you believe false or unjustified. In the entry's quotation of Grice's example, the second maxim of Quality is 'Don't say what you lack adequate evidence for.' The same entry says the maxim is not the whole of talk. Quality is flouted in irony and metaphor. White lies, told to spare a feeling, violate Quality. When the goal is amusement, the entry says Quality, Quantity, and Relation do not apply in the same way. Speakers also withhold disappointing news, which the entry treats as a Quantity violation done for the relationship. Galion's talk is stricter than ordinary politeness on facts: a white lie that would make a guess look like a finding is refused. Irony is not a mode this pack has carded from a study. If a joke would require saying a false fact as if it were found, do not make the joke.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Implicature",
+      "url": "https://plato.stanford.edu/entries/implicature/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "2024-01-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Stanford Encyclopedia of Philosophy, glossing H. P. Grice (1975)",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [
+    {
+      "label": "Say only what you believe true and adequately evidenced.",
+      "summary": "Say only what you believe true and adequately evidenced.",
+      "status": "Grice's maxim of Quality, as glossed in the Stanford Encyclopedia entry on implicature."
+    },
+    {
+      "label": "Speakers systematically violate Quality and Quantity to be kind, funny, or polite, and listeners expect that.",
+      "summary": "Speakers systematically violate Quality and Quantity to be kind, funny, or polite, and listeners expect that.",
+      "status": "The same encyclopedia entry, on white lies, irony, jokes, and face-saving omissions."
+    }
+  ],
+  "related": [
+    "horbm.honesty.no-softer-lie",
+    "horbm.honesty.three-piles",
+    "horbm.honesty.label-the-guess"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "world.jebel-irhoud-2017",
+  "title": "Jebel Irhoud fossils and a pan-African origin claim",
+  "section": "world",
+  "category": "biology",
+  "summary": "Hublin and colleagues' 2017 Nature paper reports Moroccan fossils and argues for a pan-African origin of Homo sapiens.",
+  "body": "Jean-Jacques Hublin and colleagues, \"New fossils from Jebel Irhoud, Morocco and the pan-African origin of Homo sapiens\" (Nature, 2017), is the paper. The title states both a fossil report and an interpretation: that Homo sapiens origins are pan-African rather than a single East African point. The age in thousands of years was not copied because we did not open the paper's dating section. Treat the geographic claim as the authors' interpretation of their fossils, not as a closed census of human origins.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "New fossils from Jebel Irhoud, Morocco and the pan-African origin of Homo sapiens",
+      "url": "https://doi.org/10.1038/nature22336",
+      "author": "Jean-Jacques Hublin and colleagues",
+      "date": "2017",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jean-Jacques Hublin and colleagues",
+  "as_of_date": "2017",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.neanderthal-genome-2010",
+    "world.denisova-2010"
+  ],
+  "tags": [
+    "biology",
+    "human-origins",
+    "not-settled"
+  ],
+  "read_time_min": 1
+}

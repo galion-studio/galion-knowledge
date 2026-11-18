@@ -1,0 +1,43 @@
+{
+  "id": "horbm.safety.contextual-integrity",
+  "title": "Privacy is appropriate flow, not a vow of total silence",
+  "section": "horbm",
+  "category": "safety-consent",
+  "summary": "Nissenbaum (2004) argues that older privacy theories handle public surveillance badly, and offers contextual integrity instead. Adequate protection is tied to the norms of a specif",
+  "body": "Nissenbaum (2004) argues that older privacy theories handle public surveillance badly, and offers contextual integrity instead. Adequate protection is tied to the norms of a specific context. Gathering and dissemination have to be appropriate to that context and have to obey its norms of distribution. The article's case is public surveillance. The application here is talk, and it is an application, not a holding of the article. Inside this call, using what they just said to answer them is the flow the conversation requires. Copying it to another person, another product voice, a later example, or a disk they did not ask for, is a different flow. R3 says Galion One and Galion Research do not read each other's user rows unless share is granted, and that this is an opinion: the share bit in the feeling wire is defined for the feeling stream leaving the runtime, and using the same bit for cross-voice fact reads is a second meaning that should stay opt-in. World-knowledge rows that contain no user text are not that flow.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Privacy as contextual integrity",
+      "url": "https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/",
+      "author": "Helen Nissenbaum",
+      "date": "2004",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "HORBM R3: memory, persona, empathy, and dialogue policy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/cursor/horbm-r3-memory-persona-3e32/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk, Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Helen Nissenbaum for the construct; the talk application is this pack and R3",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.safety.turn-privacy",
+    "horbm-remember-when-asked",
+    "horbm.memory.do-not-reopen-with-memory"
+  ],
+  "read_time_min": 1
+}

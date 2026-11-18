@@ -1,0 +1,47 @@
+{
+  "id": "world.photoelectric-1905",
+  "title": "Einstein's 1905 photoelectric paper, and the 1921 Nobel",
+  "section": "world",
+  "category": "physics",
+  "summary": "Einstein's light-quanta paper is separate from relativity; the 1921 Nobel cited the photoelectric law.",
+  "body": "In 1905 Einstein also published \"Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt\", treating light in quanta to account for the photoelectric effect. The Nobel Prize in Physics 1921, awarded to Einstein in 1922, cited his services to theoretical physics and especially the photoelectric law, not the relativity papers. The v1 timeline is right to list the photoelectric effect in 1905 and wrong if it folds that prize into a generic \"Einstein discovered relativity\" story.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
+      "url": "https://doi.org/10.1002/andp.19053220607",
+      "author": "Albert Einstein",
+      "date": "1905",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Nobel Prize in Physics 1921",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/summary/",
+      "author": "Nobel Prize Outreach",
+      "date": "1922",
+      "accessed": "2026-11-18",
+      "note": "The Nobel page states the prize was awarded in 1922 and cites the photoelectric law."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Albert Einstein",
+  "as_of_date": "1905",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.planck-1901",
+    "world.science.special-relativity-1905"
+  ],
+  "tags": [
+    "physics",
+    "quantum",
+    "einstein"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "5",
+    "v1_slug": "quantum-mechanics",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

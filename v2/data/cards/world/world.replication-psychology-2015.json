@@ -1,0 +1,34 @@
+{
+  "id": "world.replication-psychology-2015",
+  "title": "A 2015 project replicated 100 psychology experiments, with mixed results",
+  "section": "world",
+  "category": "method",
+  "summary": "The Science paper's abstract summary says about one-third to one-half of the findings were observed again.",
+  "body": "Open Science Collaboration, \"Estimating the reproducibility of psychological science\" (Science, 2015), replicated 100 experiments from 2008 papers in three psychology journals. The abstract carried by Crossref says that, by several criteria, about one-third to one-half of the original findings were also observed in the replication. That is not \"science is broken\" and it is not \"science always replicates.\" It is a measured result in one field, one year of journals, and one replication design. Medicine and physics were not this sample.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Estimating the reproducibility of psychological science",
+      "url": "https://doi.org/10.1126/science.aac4716",
+      "author": "Open Science Collaboration",
+      "date": "2015",
+      "accessed": "2026-11-18",
+      "note": "The one-third to one-half sentence is from the Crossref abstract."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Open Science Collaboration",
+  "as_of_date": "2015",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.scientific-method-no-single-toolkit",
+    "world.asa-p-values-2016"
+  ],
+  "tags": [
+    "method",
+    "replication",
+    "psychology"
+  ],
+  "read_time_min": 1
+}

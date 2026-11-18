@@ -1,0 +1,39 @@
+{
+  "id": "world.communist-manifesto-1848",
+  "title": "The Communist Manifesto, 1848",
+  "section": "world",
+  "category": "economics",
+  "summary": "Marx and Engels's manifesto is a political program and a theory of class conflict, not a dataset.",
+  "body": "Wikisource publishes the Manifesto of the Communist Party (1848) by Karl Marx and Friedrich Engels. The v1 socialism article is right about the year and wrong when it treats \"socialism\" as one system that includes both this program and Nordic welfare states. The Manifesto calls for revolutionary change and the abolition of bourgeois property. Social-democratic parties later rejected parts of that program. Those are different politics. Twentieth-century states that ruled in Marx's name had their own records of famine, repression, and industrialization. Those records are not in the 1848 pamphlet and are not invented here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Manifesto of the Communist Party",
+      "url": "https://en.wikisource.org/wiki/Manifesto_of_the_Communist_Party",
+      "author": "Karl Marx and Friedrich Engels",
+      "date": "1848",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Karl Marx and Friedrich Engels",
+  "as_of_date": "1848",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.marx-gotha-needs",
+    "world.unsourced-nordic-model"
+  ],
+  "tags": [
+    "economics",
+    "marx",
+    "history"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "28",
+    "v1_slug": "socialism",
+    "v1_category": "society",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

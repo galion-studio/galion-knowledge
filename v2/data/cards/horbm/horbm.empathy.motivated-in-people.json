@@ -1,0 +1,36 @@
+{
+  "id": "horbm.empathy.motivated-in-people",
+  "title": "Human empathy is motivated: people turn it up and down",
+  "section": "horbm",
+  "category": "empathy",
+  "summary": "Zaki (2014) reviews empathy as both reflexive and context-dependent. Motivation decides whether a person approaches or avoids someone else's emotion. Suffering, material cost, and",
+  "body": "Zaki (2014) reviews empathy as both reflexive and context-dependent. Motivation decides whether a person approaches or avoids someone else's emotion. Suffering, material cost, and interference with competition motivate avoidance. Positive affect, affiliation, and social desirability motivate approach. People carry those motives out by choosing situations, moving attention, and reappraising. The practical point for talk is that more empathic performance is not always what the other person wants, and a display done to look caring is one of the motives in his list. Galion already refuses the display: no script, no naming of their feeling, words on the matter. Do not store a judgment of how empathic they are. That would be a personality inference, which the user-model rule refuses.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Empathy: a motivated account",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25347133/",
+      "author": "Jamil Zaki",
+      "date": "2014",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "HORBM R3: memory, persona, empathy, and dialogue policy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/cursor/horbm-r3-memory-persona-3e32/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jamil Zaki; the storage refusal is Galion Labs, R3",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm.empathy.no-scripts",
+    "horbm-no-inferred-portrait",
+    "horbm-empathy-weight"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,39 @@
+{
+  "id": "world.heuristics-1974",
+  "title": "Tversky and Kahneman's 1974 heuristics paper",
+  "section": "world",
+  "category": "psychology",
+  "summary": "The Science paper names representativeness, availability, and anchoring as judgment heuristics.",
+  "body": "Amos Tversky and Daniel Kahneman, \"Judgment under Uncertainty: Heuristics and Biases\" (Science, 1974), argued that people estimate probability and number with a small set of heuristics, including representativeness, availability, and adjustment from an anchor, and that the heuristics produce systematic errors. The v1 article's availability and anchoring entries match this paper. Confirmation bias, the Dunning-Kruger effect, sunk costs, hindsight, and groupthink are not this paper. Loss aversion is the later prospect-theory paper.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Judgment under Uncertainty: Heuristics and Biases",
+      "url": "https://doi.org/10.1126/science.185.4157.1124",
+      "author": "Amos Tversky and Daniel Kahneman",
+      "date": "1974",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Amos Tversky and Daniel Kahneman",
+  "as_of_date": "1974",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.prospect-theory-1979",
+    "world.dunning-kruger-1999",
+    "world.unsourced-bias-remainder"
+  ],
+  "tags": [
+    "psychology",
+    "judgment"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "29",
+    "v1_slug": "cognitive-biases",
+    "v1_category": "society",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "world.camus-not-existentialist",
+  "title": "Camus separated himself from existentialism",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "Ronald Aronson's Stanford entry says Camus forcefully rejected the label and still posed a famous absurdity question.",
+  "body": "Ronald Aronson's Stanford Encyclopedia entry on Albert Camus says Camus forcefully separated himself from existentialism, and that he nevertheless posed one of the twentieth century's best-known questions in The Myth of Sisyphus, which the entry quotes only as far as the claim that suicide is the one really serious philosophical question. The v1 article files Camus under existentialism without that refusal. Both the refusal and the public association are real. This card keeps them side by side.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Albert Camus",
+      "url": "https://plato.stanford.edu/entries/camus/",
+      "author": "Ronald Aronson",
+      "date": "2011-10-27",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Ronald Aronson, reporting Camus",
+  "as_of_date": "2011-10-27",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Camus's own refusal",
+      "summary": "Aronson writes that Camus forcefully separated himself from existentialism.",
+      "status": "kept from a duplicate card",
+      "sources": [
+        {
+          "title": "Albert Camus",
+          "url": "https://plato.stanford.edu/entries/camus/",
+          "author": "Ronald Aronson",
+          "date": "2011-10-27",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "label": "The usual classification",
+      "summary": "Reference works and the v1 article still group him with existentialists because of the absurd and The Myth of Sisyphus.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.existentialism-label"
+  ],
+  "tags": [
+    "philosophy",
+    "camus"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "22",
+    "v1_slug": "existentialism",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

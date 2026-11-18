@@ -1,0 +1,38 @@
+{
+  "id": "world.nirenberg-1961",
+  "title": "Nirenberg and Matthaei linked RNA composition to protein synthesis",
+  "section": "world",
+  "category": "biology",
+  "summary": "Their 1961 PNAS paper is an early decoding experiment, not the finished codon table.",
+  "body": "Marshall W. Nirenberg and J. Heinrich Matthaei, \"The dependence of cell-free protein synthesis in E. coli upon naturally occurring or synthetic polyribonucleotides\" (Proceedings of the National Academy of Sciences, 1961), showed that synthetic RNA could direct amino-acid incorporation in a cell-free system. It is a founding decoding experiment. The full table of 64 codons was assembled across later papers. The v1 article's \"three bases = one codon\" and \"64 codons, 20 amino acids\" are stated as a finished code on the OpenStax and genome.gov cards, not as the whole content of this 1961 paper.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The dependence of cell-free protein synthesis in E. coli upon naturally occurring or synthetic polyribonucleotides",
+      "url": "https://doi.org/10.1073/pnas.47.10.1588",
+      "author": "Marshall W. Nirenberg and J. Heinrich Matthaei",
+      "date": "1961",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Marshall W. Nirenberg and J. Heinrich Matthaei",
+  "as_of_date": "1961",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.genetic-code-codons",
+    "world.biology.central-dogma-1970"
+  ],
+  "tags": [
+    "biology",
+    "genetics"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "8",
+    "v1_slug": "dna-genetics",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

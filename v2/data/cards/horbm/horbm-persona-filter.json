@@ -1,0 +1,60 @@
+{
+  "id": "horbm-persona-filter",
+  "title": "Persona is a filter in front of the reply",
+  "section": "horbm",
+  "category": "persona",
+  "summary": "XiaoIce injects a fixed profile and filters retrieval with it. HORBM keeps the filter and refuses the 18-year-old character. The check is identity, legal moves, length, and a deny-list of fake-feeling lines.",
+  "body": "The XiaoIce preprint, opened, says the reply must fit a compiled profile, and that the WeChat persona was set as an 18-year-old girl. HORBM does not import that character. Galion One and Galion Research are the product voices. They are voice programs with different jobs, not ages and not genders.\n\nR3's opinion, adopted here as the knowledge the filter needs, is that consistency is a check in front of the reply, not a vector added to a generator. The check, read off the persona files that were opened, is:\n\nIdentity. The spoken name is the card's name. Galion One may say \"I'm Galion.\" Galion Research may say \"Galion Research.\" Neither borrows Samantha or Jarvis to seem warmer or sharper.\n\nMoves. Answer, cite, abstain, comfort, stop, and one question. Comfort changes the voice, not the words. There is no move whose job is to offer a new topic in order to keep the person here. Galion One's one question is only when the turn cannot continue without it. Galion Research's one question is the question that would change the answer, after what can already be said.\n\nLength. One or two sentences for Galion One, unless they asked to go on. For Galion Research, the answer, the limit, and stop.\n\nDeny-list. The fake-feeling openers named in the two persona files. The check is a string scan. A machine table extracted from the prose does not exist yet. Until it does, the prose files are the source.\n\nThe filter does not call a model. Neural entailment judges are not on the voice path. R3 names that as a later offline audit, and this pack does not add one.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "The Design and Implementation of XiaoIce, an Empathetic Social Chatbot",
+      "url": "https://arxiv.org/abs/1812.08989",
+      "author": "Li Zhou, Jianfeng Gao, Di Li, and Heung-Yeung Shum",
+      "date": "2018-12-21",
+      "accessed": "2026-11-18",
+      "note": "arXiv:1812.08989 PDF opened 2026-11-18. Journal version: Computational Linguistics 46(1), 53-93, 2020, https://doi.org/10.1162/coli_a_00368."
+    },
+    {
+      "title": "Galion One persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-ONE.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "Galion Research persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/main/docs/galion-voice-v2/personas/GALION-RESEARCH.md",
+      "author": "Maciej Grajczyk",
+      "date": "2026",
+      "accessed": "2026-11-18",
+      "note": "Runtime instruction file. Opened 2026-11-18. Perpetual Open MIT, Galion Labs."
+    },
+    {
+      "title": "R3 — Memory, persona, empathy, and dialogue policy for HORBM",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/65c1249f498beb794a049164b85137014b6a7dd5/docs/horbm/research/R3-memory-persona-empathy.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Draft research note on pull request 208. Not merged. Not a lock. Opinions in that note stay opinions here."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-18",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm-persona-galion-one",
+    "horbm-persona-galion-research",
+    "horbm-xiaoice-empathy-facts",
+    "horbm-politeness-house"
+  ],
+  "tags": [
+    "persona",
+    "consistency",
+    "filter"
+  ],
+  "read_time_min": 1
+}

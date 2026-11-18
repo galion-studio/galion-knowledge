@@ -1,0 +1,37 @@
+{
+  "id": "world.water-cycle-usgs",
+  "title": "USGS names the main water-cycle fluxes",
+  "section": "world",
+  "category": "earth",
+  "summary": "Evaporation, evapotranspiration, precipitation, snowmelt, runoff, streamflow, and movement into the ground.",
+  "body": "The U.S. Geological Survey's fundamentals page says water moves between the atmosphere and the surface through evaporation, evapotranspiration, and precipitation, across the surface through snowmelt, runoff, and streamflow, and into the ground. That is the cycle as the survey states it. Solar heating is the energy source in the usual account; the page we used is the process list. Human changes to the cycle are discussed in climate cards, not by copying the v1 bullet list.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fundamentals of the Water Cycle",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/science/fundamentals-water-cycle",
+      "author": "U.S. Geological Survey",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.water-inventory-usgs"
+  ],
+  "tags": [
+    "earth",
+    "water"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "6",
+    "v1_slug": "water-cycle",
+    "v1_category": "nature",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

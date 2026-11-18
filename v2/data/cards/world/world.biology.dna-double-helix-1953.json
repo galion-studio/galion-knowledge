@@ -1,0 +1,53 @@
+{
+  "id": "world.biology.dna-double-helix-1953",
+  "title": "The 1953 DNA structure papers",
+  "section": "world",
+  "category": "biology",
+  "summary": "Three papers in Nature in 1953 belong together. Watson and Crick, \"Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid,\" proposed a double helix for DNA.",
+  "body": "Three papers in Nature in 1953 belong together. Watson and Crick, \"Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid,\" proposed a double helix for DNA. Franklin and Gosling, \"Molecular Configuration in Sodium Thymonucleate,\" reported X-ray evidence on the sodium salt of DNA. Wilkins, Stokes, and Wilson, \"Molecular Structure of Deoxypentose Nucleic Acids,\" reported further structural evidence. The model pairs the bases so that the sequence of one strand specifies the other, which supplies a way for the molecule to be copied. How credit was divided among the people who built the model and the people who made the diffraction measurements has been argued ever since. This card states what each paper is. It does not award the argument.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+      "url": "https://doi.org/10.1038/171737a0",
+      "author": "J. D. Watson and F. H. C. Crick",
+      "date": "1953",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Molecular Configuration in Sodium Thymonucleate",
+      "url": "https://doi.org/10.1038/171740a0",
+      "author": "Rosalind E. Franklin and R. G. Gosling",
+      "date": "1953",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Molecular Structure of Deoxypentose Nucleic Acids",
+      "url": "https://doi.org/10.1038/171738a0",
+      "author": "M. H. F. Wilkins, A. R. Stokes, and H. R. Wilson",
+      "date": "1953",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Watson and Crick; Franklin and Gosling; Wilkins, Stokes, and Wilson, Nature, 1953",
+  "as_of_date": "1953",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "label": "The double-helix model and the copying implication are in the Watson and Crick paper.",
+      "summary": "The double-helix model and the copying implication are in the Watson and Crick paper.",
+      "status": "kept from a duplicate card"
+    },
+    {
+      "label": "The diffraction evidence was published by Franklin and Gosling and by Wilkins, Stokes, and Wilson in the same issue. How credit should be shared is disputed.",
+      "summary": "The diffraction evidence was published by Franklin and Gosling and by Wilkins, Stokes, and Wilson in the same issue. How credit should be shared is disputed.",
+      "status": "kept from a duplicate card"
+    }
+  ],
+  "related": [
+    "world.biology.central-dogma-1970",
+    "world.biology.crispr-cas9-2012"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,38 @@
+{
+  "id": "world.smallpox-programme",
+  "title": "WHO's smallpox eradication programme, 1966–1980",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO describes a person-to-person disease whose last infected person was the last link in transmission.",
+  "body": "WHO's feature on the Smallpox Eradication Programme (SEP), titled with the years 1966–1980, says smallpox was transferred from person to person, so the last infected person was the last link in the chain. The page is WHO's account of a completed eradication programme. It is the strongest ordinary-language example that a vaccine campaign can end a human disease. It does not transfer automatically to every other infection, many of which have animal reservoirs or less durable immunity.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Smallpox Eradication Programme - SEP (1966-1980)",
+      "url": "https://www.who.int/news-room/feature-stories/detail/the-smallpox-eradication-programme---sep-(1966-1980)",
+      "author": "World Health Organization",
+      "date": "1980",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "1980",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.who-vaccination"
+  ],
+  "tags": [
+    "medicine",
+    "smallpox",
+    "public-health"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "14",
+    "v1_slug": "immune-system",
+    "v1_category": "medicine",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

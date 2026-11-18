@@ -1,0 +1,37 @@
+{
+  "id": "world.photosynthesis-oxygen-source",
+  "title": "The oxygen released in photosynthesis was traced to water",
+  "section": "world",
+  "category": "biology",
+  "summary": "Ruben, Randall, Kamen, and Hyde used oxygen-18 as a tracer in 1941.",
+  "body": "Samuel Ruben, Merle Randall, Martin Kamen, and James Logan Hyde, \"Heavy Oxygen (O-18) as a Tracer in the Study of Photosynthesis\" (Journal of the American Chemical Society, 1941), used labeled oxygen to see where the O2 comes from. The result that matters for retrieval is that the oxygen gas is traced to water, not to carbon dioxide. A classroom equation that writes 6 H2O on the left and 6 O2 on the right is easy to misread on this point. The paper is the tracer study.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Heavy Oxygen (O18) as a Tracer in the Study of Photosynthesis",
+      "url": "https://doi.org/10.1021/ja01848a512",
+      "author": "Samuel Ruben, Merle Randall, Martin Kamen, and James Logan Hyde",
+      "date": "1941",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Samuel Ruben, Merle Randall, Martin Kamen, and James Logan Hyde",
+  "as_of_date": "1941",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.photosynthesis-openstax"
+  ],
+  "tags": [
+    "biology",
+    "photosynthesis"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "12",
+    "v1_slug": "photosynthesis",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

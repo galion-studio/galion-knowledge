@@ -1,0 +1,28 @@
+{
+  "id": "world.law.geneva-civilians-1949",
+  "title": "The Fourth Geneva Convention protects civilians in war",
+  "section": "world",
+  "category": "law",
+  "summary": "The International Committee of the Red Cross publishes the Fourth Geneva Convention in its treaty database. The instrument's name, on that page, is the Geneva Convention relative t",
+  "body": "The International Committee of the Red Cross publishes the Fourth Geneva Convention in its treaty database. The instrument's name, on that page, is the Geneva Convention relative to the Protection of Civilian Persons in Time of War, dated 12 August 1949. It is one of the 1949 Geneva Conventions, and it is treaty text for the states party to it. Publishing a convention is not the same thing as a report that the rules were kept in any particular war. A violation does not erase the rule, and the existence of the rule does not describe what happened in a given campaign. This card identifies the instrument and the publisher of the text. It does not paraphrase the articles, because those articles were not copied out during source checking. Anyone applying a protection to a real case should read the article, not this summary.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Geneva Convention (IV) relative to the Protection of Civilian Persons in Time of War, 12 August 1949",
+      "url": "https://ihl-databases.icrc.org/en/ihl-treaties/gciv-1949",
+      "author": "Diplomatic Conference of 1949; text published by the International Committee of the Red Cross",
+      "date": "1949-08-12",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Fourth Geneva Convention, 1949, as published by the ICRC",
+  "as_of_date": "1949-08-12",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.law.icj-sources-of-law",
+    "world.history.holocaust-victim-counts"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,38 @@
+{
+  "id": "world.schrodinger-1926",
+  "title": "Schrödinger's 1926 wave equation paper",
+  "section": "world",
+  "category": "physics",
+  "summary": "The first 1926 'Quantisierung als Eigenwertproblem' paper is a founding paper of wave mechanics.",
+  "body": "Erwin Schrödinger published \"Quantisierung als Eigenwertproblem\" in Annalen der Physik in 1926. It is a founding paper of wave mechanics. The v1 line \"1925–1926: Heisenberg and Schrödinger develop quantum mechanics\" is a fair label for this period if it is read as a historical summary, not as a claim that one paper finished the subject. Matrix mechanics and wave mechanics were shown to be related; that equivalence is a further result, not this card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Quantisierung als Eigenwertproblem",
+      "url": "https://doi.org/10.1002/andp.19263840404",
+      "author": "Erwin Schrödinger",
+      "date": "1926",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Erwin Schrödinger",
+  "as_of_date": "1926",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.heisenberg-uncertainty-1927",
+    "world.bohr-1913"
+  ],
+  "tags": [
+    "physics",
+    "quantum"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "5",
+    "v1_slug": "quantum-mechanics",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "world.unsourced-photosynthesis-all-life",
+  "title": "'Photosynthesis powers almost all life' is unsourced here",
+  "section": "world",
+  "category": "biology",
+  "summary": "The v1 universal claim, and the rate factors, were not matched to a source we opened.",
+  "body": "The v1 photosynthesis article says the process produces the oxygen we breathe, is the base of most food chains, removes carbon dioxide, and powers almost all life, and it lists light, carbon dioxide, temperature, and water as rate factors. OpenStax supports the inputs and the oxygen output. The \"almost all life\" sentence excludes, or has to be reconciled with, ecosystems that do not start from sunlight. That reconciliation was not sourced in this pass. Leave the universal claim unsourced.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.photosynthesis-openstax"
+  ],
+  "tags": [
+    "biology",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "12",
+    "v1_slug": "photosynthesis",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

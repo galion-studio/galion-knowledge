@@ -1,0 +1,32 @@
+{
+  "id": "world.metre-speed-of-light",
+  "title": "The metre is defined from an exact speed of light",
+  "section": "world",
+  "category": "measurement",
+  "summary": "NIST states that c is fixed at 299,792,458 metres per second and the metre is derived from that and the second.",
+  "body": "NIST's page on the metre says the metre is defined by taking the fixed numerical value of the speed of light in vacuum to be 299,792,458 when expressed in metres per second, where the second is defined from the cesium frequency. The number is exact because it is part of the definition, not because a new experiment found an endless string of digits. Older definitions used a metal bar and then a wavelength. Everyday \"speed of light is about 300,000 kilometres per second\" is a rounding of this defined value.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "SI Units - Length",
+      "url": "https://www.nist.gov/pml/owm/si-units-length",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Institute of Standards and Technology",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.si-2019",
+    "world.second-cesium"
+  ],
+  "tags": [
+    "measurement",
+    "light"
+  ],
+  "read_time_min": 1
+}

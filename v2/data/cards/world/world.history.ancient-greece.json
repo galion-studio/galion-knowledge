@@ -1,0 +1,28 @@
+{
+  "id": "world.history.ancient-greece",
+  "title": "Ancient Greece",
+  "section": "world",
+  "category": "history",
+  "summary": "Ancient Greek civilization flourished from approximately 800 BCE to 146 BCE, laying foundations for Western philosophy, democracy, science, and arts. Development of the polis (city-state)",
+  "body": "# Ancient Greece\n\nAncient Greek civilization flourished from approximately 800 BCE to 146 BCE, laying foundations for Western philosophy, democracy, science, and arts.\n\n## Historical Periods\n\n### Archaic Period (800-480 BCE)\n- Development of the polis (city-state)\n- Colonization of Mediterranean\n- Homer's Iliad and Odyssey composed\n- First Olympic Games (776 BCE)\n\n### Classical Period (480-323 BCE)\n- Height of Athenian democracy\n- Persian Wars (490-479 BCE)\n- Peloponnesian War (431-404 BCE)\n- Golden Age of Athens\n- Alexander the Great's conquests\n\n### Hellenistic Period (323-146 BCE)\n- Greek culture spread across former Persian Empire\n- Alexandria as center of learning\n- Roman conquest ends Greek independence\n\n## Key Contributions\n\n### Philosophy\n- Socrates, Plato, Aristotle\n- Logic, ethics, metaphysics, epistemology\n- Foundations of Western philosophy\n\n### Democracy\n- Athens developed direct democracy (~507 BCE)\n- Citizens voted on laws and policies\n- Limited to free adult male citizens\n\n### Science and Mathematics\n- Pythagoras, Euclid, Archimedes\n- Geometry, astronomy, medicine\n- Hippocrates: father of medicine\n\n### Arts and Literature\n- Tragedy and comedy (Sophocles, Aristophanes)\n- Architecture (Parthenon)\n- Sculpture (idealized human form)\n- Historical writing (Herodotus, Thucydides)\n\n## Legacy\n\nGreek ideas profoundly influenced:\n- Roman civilization\n- Renaissance Europe\n- Modern democratic institutions\n- Western philosophy and science\n- Art and architecture\n\n## Key City-States\n\n- **Athens**: Democracy, philosophy, arts\n- **Sparta**: Military society\n- **Corinth**: Trade and commerce\n- **Thebes**: Military power (4th century BCE)",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.democracy-theory-sep",
+    "world.arabic-philosophy-transmission",
+    "world.society.democracy"
+  ],
+  "tags": [
+    "history",
+    "needs-review"
+  ],
+  "aliases": [
+    "world.unsourced-ancient-greece"
+  ],
+  "read_time_min": 1
+}
