@@ -19,10 +19,9 @@ import {
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../../..");
 const diagramFile = "v2/src/horbm/interactive/horbm.json";
 const paths = [
-  diagramFile,
-  "v2/src/horbm/horbm-layers-twoway.png",
-  "v2/src/horbm/interactive/diagram.js",
-  "v2/src/horbm/interactive/diagram.css",
+  "v2/src/horbm/",
+  "v2/tools/horbm-diagram/",
+  ".github/workflows/horbm-diagram.yml",
 ];
 
 function git(args) {
