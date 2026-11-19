@@ -8,6 +8,7 @@ const markdown = new MarkdownIt({
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
+  eleventyConfig.addPassthroughCopy({ "src/horbm": "horbm" });
   eleventyConfig.addWatchTarget("data/cards");
   eleventyConfig.addWatchTarget("shards");
   eleventyConfig.addWatchTarget("data/catalog.json");
