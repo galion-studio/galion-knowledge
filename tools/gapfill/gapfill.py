@@ -206,7 +206,7 @@ Rules (hard):
 - Attribute exactly: a quote from a preprint is the preprint's, not the journal version's; quote notation exactly as printed (or paraphrase without quotation marks). Do not state causal links ("so", "therefore") the source does not state.
 - If you cannot verify a primary source, output exactly {{"skip": "reason"}}.
 
-Output ONLY one JSON object, no markdown fence, with exactly these fields:
+Your FINAL message must be exactly one JSON object and nothing else (no prose before or after, no markdown fence), with exactly these fields:
 {{"id": "{cid}", "title": "...", "section": "world", "category": "{category}", "summary": "one or two sentences",
  "body": "Markdown, 60-160 words: the claim, who stated/proved it, where and when, and what the source itself says",
  "claim_type": "fact", "sources": [{{"title": "...", "url": "https://...", "author": "...", "date": "YYYY or YYYY-MM-DD (publication date)", "accessed": "{today}"}}],
@@ -215,13 +215,18 @@ Output ONLY one JSON object, no markdown fence, with exactly these fields:
 evidence_strength: strong only when the card states what the primary document itself says; moderate if it is a primary document that does not settle everything.
 """
 
-CARD_CAP = 0.08  # USD per author/revision call; above this the run is cut off
+CARD_CAP = 0.08   # USD per author/revision call; above this the run is cut off
+TOPIC_CAP = 0.10  # USD per topic, all calls (author, retry, reviews, revision)
 
 def session_usd(sid):
     try: return float(json.load(open(SPEND)).get("sessions", {}).get(sid, 0.0))
     except Exception: return 0.0
 
-def ask(key, model, prompt, sid, timeout):
+FORMAT_REMINDER = """Your last reply did not contain the card as one JSON object. Do not call any more tools.
+Using only the sources you already verified in this session, output NOW exactly one JSON object with the card
+(id "{cid}", all the fields listed before), or {{"skip": "reason"}}. No prose, no markdown fence, nothing before or after the JSON."""
+
+def ask(key, model, prompt, sid, timeout, cap=None):
     """Streamed call. Closing the stream makes the gateway cancel the run, so a
     client timeout or the per-call cost cap really stops spending (a
     non-streamed request keeps running server-side after the client gives up)."""
@@ -244,7 +249,7 @@ def ask(key, model, prompt, sid, timeout):
             if now - last > 10:
                 last = now
                 spent = session_usd(sid) - base
-                if spent > CARD_CAP: return "cap", None, {"cut_usd": round(spent, 4)}
+                if spent > (CARD_CAP if cap is None else cap): return "cap", None, {"cut_usd": round(spent, 4)}
                 if now - start > timeout: return "timeout", None, {}
             if line is None: continue
             if not line: break
@@ -265,13 +270,21 @@ def ask(key, model, prompt, sid, timeout):
         conn.close()
 
 def extract_json(txt):
+    """Find the card object in a reply: tolerate prose, markdown fences, smart
+    quotes and trailing commas; prefer an object that has "id" or "skip"."""
     if not txt: return None
-    t = txt.strip()
-    t = re.sub(r"^```(json)?", "", t).strip(); t = re.sub(r"```$", "", t).strip()
-    i, j = t.find("{"), t.rfind("}")
-    if i < 0 or j < 0: return None
-    try: return json.loads(t[i:j + 1])
-    except Exception: return None
+    t = re.sub(r"```(?:json)?", "", txt)
+    dec = json.JSONDecoder()
+    found = []
+    for cand in (t, re.sub(r",\s*([}\]])", r"\1", t.replace("\u201c", '"').replace("\u201d", '"'))):
+        for m in re.finditer(r"\{", cand):
+            try: obj, _ = dec.raw_decode(cand[m.start():])
+            except Exception: continue
+            if isinstance(obj, dict): found.append(obj)
+        if found: break
+    for o in found:
+        if "id" in o or "skip" in o: return o
+    return max(found, key=lambda o: len(o), default=None)
 
 REVIEW = """You are the fact-check reviewer for one Galion Knowledge card. Below are the card and the text of every source it cites, as fetched just now.
 Check every sentence of the card's title, summary and body against the SOURCE TEXTS ONLY (not your memory):
@@ -361,7 +374,7 @@ def run_topic(args, key, budget, t, existing, out_dir, log):
     prompt = PROMPT.format(topic=t["topic"], cid=t["cid"], category=t.get("category", "mathematics"),
                            area=t.get("area", "math"), today=today())
     for attempt in range(40):
-        code, txt, usage = ask(key, model, prompt, sid, args.timeout)
+        code, txt, usage = ask(key, model, prompt, sid, args.timeout, cap=CARD_CAP)
         if code != 429: break
         time.sleep(15)  # gateway run slots full (max_concurrent_runs): wait, do not spend
     time.sleep(0.5)
@@ -370,8 +383,16 @@ def run_topic(args, key, budget, t, existing, out_dir, log):
     rec = {"topic": t["cid"], "model": model, "session": sid, "http": code, "usd": round(usd, 6),
            "total_usd": total, "secs": round(time.time() - t0, 1), "usage": usage}
     card = extract_json(txt)
+    if card is None and code == "200" and session_cost(sid) < TOPIC_CAP - 0.01:
+        # one retry in the same session (the sources are already in context)
+        code, txt, _ = ask(key, model, FORMAT_REMINDER.format(cid=t["cid"]), sid, 300,
+                           cap=TOPIC_CAP - session_cost(sid))
+        card = extract_json(txt); rec["json_retry"] = True
     if card is None:
-        rec.update(result="no_json", raw=(txt or "")[:500]); log(rec); return "fail"
+        extra = session_cost(sid) - usd
+        if extra > 0: budget.commit(sid + "-retry", extra, {"topic": t["cid"], "model": model, "what": "json retry"})
+        rec.update(result="cost_cap" if code == "cap" else "no_json", http=code, raw=(txt or "")[:500],
+                   usd_total_incl_review=round(session_cost(sid), 6)); log(rec); return "fail"
     if "skip" in card:
         rec.update(result="skipped_by_agent", why=card["skip"]); log(rec); return "skip"
     good, probs, evid = verify_card(card, existing)
@@ -385,10 +406,13 @@ def run_topic(args, key, budget, t, existing, out_dir, log):
                 probs = ["review: " + x for x in (rv.get("problems") or ["reviewer did not confirm"])]
         if good or rnd == args.revisions:
             break
+        so_far = session_cost(sid) + sum(r["usd"] for r in rec["rounds"])
+        if so_far > TOPIC_CAP - 0.02:
+            probs.append(f"topic cost cap ${TOPIC_CAP} reached, no revision"); break
         fix = ("The checker and the fact-check reviewer found these problems in your card:\n- " + "\n- ".join(probs) +
                "\nFix them: delete or reword every unsupported sentence so that it says only what the cited sources (as fetched) support; "
                "you may verify an extra primary source with source_check and add it. Output ONLY the corrected card JSON (same id), or {\"skip\": \"reason\"}.")
-        code, txt, usage = ask(key, model, fix, sid, args.timeout)
+        code, txt, usage = ask(key, model, fix, sid, args.timeout, cap=max(0.01, TOPIC_CAP - so_far))
         c2 = extract_json(txt)
         if not c2 or "skip" in c2:
             probs.append("revision gave no card"); break
