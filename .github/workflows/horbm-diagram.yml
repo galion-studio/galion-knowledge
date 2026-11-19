@@ -46,7 +46,7 @@ jobs:
           node-version: "22"
 
       - name: Test the diagram renderer and GitHub links
-        run: node --test v2/tools/horbm-diagram/render.test.mjs v2/tools/horbm-diagram/github.test.mjs
+        run: node --test v2/tools/horbm-diagram/render.test.mjs v2/tools/horbm-diagram/github.test.mjs v2/tools/horbm-diagram/fit.test.mjs v2/tools/horbm-diagram/stamp-assets.test.mjs
 
       - name: Regenerate the PNG when the diagram source is newer
         id: png

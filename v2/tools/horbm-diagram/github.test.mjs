@@ -19,7 +19,7 @@ import {
   pullNumber,
   shortSha,
 } from "../../src/horbm/interactive/github.js";
-import { countStates, overallPercent } from "../../src/horbm/interactive/progress.js";
+import { OVERALL_UNAVAILABLE, countStates, overallLabel, overallPercent } from "../../src/horbm/interactive/progress.js";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const page = join(here, "../../src/horbm/interactive");
@@ -142,6 +142,8 @@ test("overall progress is the mean of the stored layer percents", () => {
   assert.deepEqual(countStates(data), { planned: 1, "in progress": 1, done: 0, blocked: 0 });
   const shipped = JSON.parse(readFileSync(join(page, "horbm.json"), "utf8"));
   assert.equal(overallPercent(shipped), 40);
+  assert.equal(overallLabel(shipped), "HORBM 40% complete");
+  assert.equal(/\.\.\.%|…%/.test(OVERALL_UNAVAILABLE), false);
   assert.equal(countStates(shipped).done, 0);
   assert.equal(countStates(shipped).blocked, 0);
 });

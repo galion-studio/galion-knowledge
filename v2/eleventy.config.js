@@ -31,6 +31,18 @@ function assetVersion() {
     "src/assets/app.js",
     "src/assets/globe.js",
     "src/assets/vendor/three.module.min.js",
+    "src/horbm/interactive/index.html",
+    "src/horbm/interactive/viewer.css",
+    "src/horbm/interactive/viewer.js",
+    "src/horbm/interactive/diagram.css",
+    "src/horbm/interactive/diagram.js",
+    "src/horbm/interactive/progress.js",
+    "src/horbm/interactive/github.js",
+    "src/horbm/interactive/fit.js",
+    "src/horbm/interactive/horbm.json",
+    "src/horbm/interactive/admin/index.html",
+    "src/horbm/interactive/admin/admin.css",
+    "src/horbm/interactive/admin/admin.js",
   ]) {
     hash.update(fs.readFileSync(path.join(__dirname, file)));
   }
@@ -155,6 +167,11 @@ module.exports = function (eleventyConfig) {
     execFileSync(process.execPath, [
       path.join(repoRoot, "v2/tools/horbm-diagram/write-development.mjs"),
       path.dirname(dest),
+    ], { cwd: repoRoot, stdio: "inherit", timeout: 20000 });
+    execFileSync(process.execPath, [
+      path.join(repoRoot, "v2/tools/horbm-diagram/stamp-assets.mjs"),
+      path.join(output, "horbm/interactive"),
+      assetVersion(),
     ], { cwd: repoRoot, stdio: "inherit", timeout: 20000 });
   });
 

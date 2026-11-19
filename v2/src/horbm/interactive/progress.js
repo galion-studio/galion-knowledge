@@ -18,6 +18,16 @@ export function overallPercent(data) {
   return Math.round(sum / layers.length);
 }
 
+export const OVERALL_UNAVAILABLE = "HORBM progress unavailable";
+
+export function overallLabel(data) {
+  const layers = layersOf(data);
+  if (!layers.length) return OVERALL_UNAVAILABLE;
+  const percent = overallPercent(data);
+  if (!Number.isFinite(percent)) return OVERALL_UNAVAILABLE;
+  return `HORBM ${percent}% complete`;
+}
+
 export function countStates(data) {
   const counts = { planned: 0, "in progress": 0, done: 0, blocked: 0 };
   for (const layer of layersOf(data)) {

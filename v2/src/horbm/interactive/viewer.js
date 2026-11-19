@@ -4,11 +4,9 @@ import {
   layerPlainText,
   renderInner,
 } from "./diagram.js";
+import { MAX_SCALE, MIN_SCALE, fitPlacement } from "./fit.js";
 import { commitUrl, historyUrl, shortSha } from "./github.js";
-import { overallPercent } from "./progress.js";
-
-const MIN_SCALE = 0.05;
-const MAX_SCALE = 4;
+import { OVERALL_UNAVAILABLE, overallLabel } from "./progress.js";
 const viewport = document.getElementById("viewport");
 const world = document.getElementById("world");
 const capture = document.getElementById("capture");
@@ -57,17 +55,70 @@ function zoomCenter(factor) {
   userMoved = true;
 }
 
+let fitting = true;
+let fitFrame = 0;
+let fitMisses = 0;
+
+function contentBox() {
+  const width = capture.offsetWidth;
+  const height = capture.offsetHeight;
+  if (capture.querySelector(".lrow")) {
+    if (width >= 1 && height >= 1) return { width, height };
+    return { width: 2060, height: 2540 };
+  }
+  return null;
+}
+
+function measureWindow() {
+  const width = window.innerWidth || 0;
+  const height = window.innerHeight || 0;
+  if (width < 64 || height < 64) return null;
+  const toolbar = document.querySelector(".toolbar");
+  const foot = document.querySelector(".pagefoot");
+  const chromeH = (toolbar ? toolbar.offsetHeight : 0) + (foot ? foot.offsetHeight : 0);
+  let chromeW = 0;
+  const inspector = document.getElementById("inspector");
+  const mobile = window.matchMedia("(max-width: 720px)").matches;
+  if (inspector && !mobile && !inspector.classList.contains("is-closed")) {
+    chromeW = inspector.getBoundingClientRect().width || 0;
+  }
+  return {
+    width: Math.max(0, width - chromeW),
+    height: Math.max(0, height - chromeH),
+  };
+}
+
+function scheduleFit() {
+  if (!fitting || userMoved || fitFrame) return;
+  fitFrame = requestAnimationFrame(() => {
+    fitFrame = 0;
+    if (!userMoved) fit();
+  });
+}
+
 function fit() {
-  const pad = 24;
-  const width = capture.offsetWidth || 2060;
-  const height = capture.offsetHeight || 2540;
-  const scale = Math.min(
-    (viewport.clientWidth - pad) / width,
-    (viewport.clientHeight - pad) / height
-  );
-  state.scale = clamp(scale, MIN_SCALE, MAX_SCALE);
-  state.x = (viewport.clientWidth - width * state.scale) / 2;
-  state.y = (viewport.clientHeight - height * state.scale) / 2;
+  const content = contentBox();
+  if (!content) {
+    scheduleFit();
+    return;
+  }
+  const view = { width: viewport.clientWidth, height: viewport.clientHeight };
+  let place = fitPlacement(view.width, view.height, content.width, content.height);
+  if (!place) {
+    const fallback = measureWindow();
+    if (fallback) place = fitPlacement(fallback.width, fallback.height, content.width, content.height);
+  }
+  if (!place) {
+    if (fitMisses < 60) {
+      fitMisses += 1;
+      scheduleFit();
+    }
+    return;
+  }
+  fitMisses = 0;
+  state.scale = place.scale;
+  state.x = place.x;
+  state.y = place.y;
   userMoved = false;
   apply();
 }
@@ -488,6 +539,12 @@ window.addEventListener("keydown", onKey);
 window.addEventListener("resize", () => {
   if (!userMoved) fit();
 });
+if (typeof ResizeObserver === "function") {
+  const observer = new ResizeObserver(() => {
+    if (!userMoved) fit();
+  });
+  observer.observe(viewport);
+}
 window.addEventListener("hashchange", () => {
   const id = hashLayer();
   if (id && knownLayer(id)) setPinned(id, { pan: true, replaceHash: false });
@@ -571,10 +628,9 @@ function showCommit(sha) {
   link.textContent = short;
 }
 
-function showOverall() {
+function showOverall(label) {
   const node = document.getElementById("overall");
-  if (!node || !data) return;
-  node.textContent = `HORBM ${overallPercent(data)}% complete`;
+  if (node) node.textContent = label;
 }
 
 async function loadCommit() {
@@ -668,30 +724,36 @@ function drawMinimap() {
 }
 
 function fail(message) {
+  fitting = false;
   capture.className = "";
   capture.innerHTML = `<p class="load-error">${escapeHtml(message)}</p>`;
 }
 
 async function start() {
+  fitting = true;
   try {
     const response = await fetch(new URL("horbm.json", import.meta.url), { cache: "no-cache" });
     if (!response.ok) throw new Error(`Could not load horbm.json (${response.status}).`);
     const jsonText = await response.text();
-    data = JSON.parse(jsonText);
-    if (!data || !Array.isArray(data.bands) || !Array.isArray(data.down)) {
+    const loaded = JSON.parse(jsonText);
+    if (!loaded || !Array.isArray(loaded.bands) || !Array.isArray(loaded.down)) {
       throw new Error("horbm.json is missing the layers.");
     }
+    data = loaded;
+    showOverall(overallLabel(data));
     capture.className = "wrap";
     capture.innerHTML = renderInner(data);
-    document.title = data.title;
-    if (document.fonts && document.fonts.ready) await document.fonts.ready;
+    document.title = data.title || document.title;
+    if (document.fonts && document.fonts.ready) {
+      try { await document.fonts.ready; } catch { /* draw with the fallback face */ }
+    }
     fit();
-    showOverall();
     updatePicked();
     loadCommit();
     const id = hashLayer();
     if (id && knownLayer(id)) setPinned(id, { pan: true, replaceHash: false });
   } catch (error) {
+    if (!data) showOverall(OVERALL_UNAVAILABLE);
     fail(error.message || "Could not draw the diagram.");
   }
 }

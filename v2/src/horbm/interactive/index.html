@@ -9,6 +9,15 @@
 <link rel="preload" href="fonts/HORBMSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="diagram.css">
 <link rel="stylesheet" href="viewer.css">
+<style>
+  /* In the page, not the cached stylesheet: a stale viewer.css must not collapse the pane. */
+  html, body { margin: 0; height: 100%; background: #01080f; }
+  body { overflow: hidden; }
+  .app { height: 100dvh; min-height: 100vh; display: flex; flex-direction: column; }
+  .viewer-stage { flex: 1 1 auto; min-height: 0; display: flex; position: relative; }
+  .viewport { flex: 1 1 auto; min-width: 0; min-height: 0; position: relative; overflow: hidden; }
+  .world { position: absolute; top: 0; left: 0; width: max-content; transform-origin: 0 0; }
+</style>
 </head>
 <body>
 <div class="app">
@@ -38,7 +47,7 @@
       <button type="button" class="tool" id="save-svg" title="Download an SVG of the current view">Download SVG</button>
     </div>
   </header>
-  <div class="stage">
+  <div class="viewer-stage">
     <div id="viewport" class="viewport" tabindex="-1">
       <div id="world" class="world">
         <div id="capture"></div>
@@ -56,7 +65,7 @@
     </aside>
   </div>
   <footer class="pagefoot">
-    <span id="overall">HORBM …% complete</span>
+    <span id="overall">HORBM progress unavailable</span>
     <span>Galion Labs · MIT License</span>
     <a id="sha-link" target="_blank" rel="noopener noreferrer">version</a>
     <a id="history-link" target="_blank" rel="noopener noreferrer">History</a>

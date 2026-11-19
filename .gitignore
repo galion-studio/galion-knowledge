@@ -5,6 +5,9 @@ node_modules/
 v2/memory/target/
 v2/node_modules/
 v2/_site/
+v2/test-results/
+v2/playwright-report/
+v2/blob-report/
 *.sqlite
 *.sqlite-wal
 *.sqlite-shm
