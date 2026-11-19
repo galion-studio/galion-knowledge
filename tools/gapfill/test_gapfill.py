@@ -508,6 +508,26 @@ class GapfillTest(unittest.TestCase):
         gapfill.release_run_slot("live")
 
 
+class JsonRetryTokensTest(unittest.TestCase):
+    def test_retry_gets_the_author_token_budget_and_names_truncation(self):
+        seen = []
+        card = sample_card()
+        cut = json.dumps({"id": card["id"], "sources": [{"title": "t", "url": "https://example.org/x"}],
+                          "title": card["title"]})[:-1] + ', "body": "Te Tiriti o Waitangi'
+        replies = [cut, json.dumps(card, ensure_ascii=False)]
+
+        def ask_fn(key, model, prompt, sid, timeout, cap=None, **kw):
+            seen.append({"prompt": prompt, "kw": kw})
+            return "200", replies.pop(0), {}
+
+        got, err, calls, raw = gapfill.obtain_card(
+            ask_fn, "k", "m", "p", "sid", 30, 0.08, card["id"], 4096, "sys")
+        self.assertIsNotNone(got, err)
+        self.assertEqual(seen[0]["kw"]["max_tokens"], 4096)
+        self.assertEqual(seen[1]["kw"]["max_tokens"], 4096)
+        self.assertIn("truncated", seen[1]["prompt"])
+
+
 class StreamIdleTest(unittest.TestCase):
     """The gateway is silent while the agent runs tools. A quiet gap longer than
     the connect timeout must not end the call (it used to raise OSError)."""

@@ -46,6 +46,7 @@ RUN_LIMIT = 3     # hermes-rs max_concurrent_runs
 RUN_STALE = 1200
 RUN_POLL = 2.0
 TOPIC_FLOOR = 0.005
+REVIEW_SOURCE_CHARS = 20000  # per source, sent to the fact-check reviewer
 JSON_OBJECT = {"type": "json_object"}
 _GATEWAY = {"json_object": True, "max_tokens": True}
 _GATEWAY_LOCK = threading.Lock()
@@ -752,7 +753,9 @@ def collect_objects(txt):
             found.append(obj)
         i = end
     if found:
-        return found, None
+        # Inner objects (a source, say) can parse while the card around them was cut off.
+        cut = [e for e in errors if e.startswith("truncated")]
+        return found, (cut[0] if cut else None)
     if errors:
         if all(e.startswith("truncated") for e in errors):
             return [], errors[0]
@@ -889,7 +892,10 @@ def parse_card_reply(txt):
         if "skip" in obj:
             return obj, None
     if first_errs:
-        return None, "card schema: " + "; ".join(first_errs[:8])
+        msg = "card schema: " + "; ".join(first_errs[:8])
+        if err:  # e.g. the card object itself was cut off; say so in the retry prompt
+            msg += "; " + err
+        return None, msg
     return None, err or "no JSON object found"
 
 def obtain_card(ask_fn, key, model, prompt, sid, timeout, cap, cid, max_tokens, system, what="author", budget_left=None):
@@ -913,7 +919,9 @@ def obtain_card(ask_fn, key, model, prompt, sid, timeout, cap, cid, max_tokens, 
         return card, None, calls, txt
     if budget_left is not None and budget_left() <= TOPIC_FLOOR:
         return None, err, calls, txt
-    retry_tokens = min(int(max_tokens or 2048), 2048)
+    # Same budget as the author call: a long card (Maori and English texts
+    # side by side) cut at 2048 tokens came back as a truncated object.
+    retry_tokens = int(max_tokens or 4096)
     code2, txt2 = once(what + "_json_retry", format_reminder(cid, err), retry_tokens)
     if code2 != "200":
         return None, err, calls, txt2
@@ -951,7 +959,9 @@ def source_texts(card):
             txt = f"REGISTRY RECORD ({r.get('registry')}): title={r.get('title')} | authors={', '.join(r.get('authors') or [])} | {mt}\nABSTRACT: {r.get('text','') or '(none in Crossref/OpenAlex)'}"
         else:
             txt = r.get("text", "")
-        flat = " ".join(txt.split())[:7000]
+        # 7,000 chars stopped inside the front matter of long papers and judgments
+        # (Michelson-Morley, Meselson-Stahl, Pringle), so true sentences were dropped.
+        flat = " ".join(txt.split())[:REVIEW_SOURCE_CHARS]
         parts.append(f"=== {url}\n{flat}")
     return "\n\n".join(parts)
 
