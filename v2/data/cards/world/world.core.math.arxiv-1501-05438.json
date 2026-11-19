@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.arxiv-1501-05438",
+  "title": "The ternary Goldbach problem: the arXiv abstract says The ternary Goldbach conjecture (or three-prime conjecture) states that every…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The ternary Goldbach problem: the arXiv abstract says The ternary Goldbach conjecture (or three-prime conjecture) states that every…",
+  "body": "The arXiv record https://arxiv.org/abs/1501.05438 for \"The ternary Goldbach problem\" abstracts the work as follows: \"The ternary Goldbach conjecture (or three-prime conjecture) states that every odd number greater than 5 can be written as the sum of three primes. The purpose of this book is to give the first proof of the conjecture, in full.\" This card quotes that abstract. A preprint is the authors' manuscript.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The ternary Goldbach problem",
+      "url": "https://arxiv.org/abs/1501.05438",
+      "author": "Harald Andres Helfgott",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Abstract text is the arXiv abstract, retrieved 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Harald Andres Helfgott",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "area:theorems"
+  ]
+}

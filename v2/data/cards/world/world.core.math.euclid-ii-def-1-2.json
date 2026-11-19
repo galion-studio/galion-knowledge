@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-ii-def-1-2",
+  "title": "Euclid II.Def.1-2: Any rectangular parallelogram is said to be contained by the two straight lines containing the right angle.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid II.Def.1-2: Any rectangular parallelogram is said to be contained by the two straight lines containing the right angle.",
+  "body": "Euclid, Book II, II.Def.1-2, as worded on this page: \"Any rectangular parallelogram is said to be contained by the two straight lines containing the right angle. And in any parallelogrammic area let any one whatever of the parallelograms about its diameter with the two complements be called a gnomon.\" The argument printed under that statement begins: \"Definition 1 Definition 2 Guide Euclid didn’t a single word for rectangle, but two words meaning right-angled parallelogram. According to the first definition, the rectangle ABCD illustrated on the left is contained by the lines AB and BC, and this rectangle can be called the rectangle AB by BC. Of course, it could also be called the rectangle BC by CD, or two other names. On the right, in the parallelogram EFGH, there is a diameter EG with a parallelogram LNGO about it and the two complements KLOF and MHNL, and these three parallelograms together make up the gnomon. In other words a gnomon is an L-shaped figure made by removing a parallelogram from a larger similar parallelogram. The word…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book II, II.Def.1-2",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/defII.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:algebra"
+  ]
+}

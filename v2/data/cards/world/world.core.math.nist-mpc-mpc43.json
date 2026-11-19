@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-mpc-mpc43",
+  "title": "NIST/SEMATECH handbook, 2.4.3. Data collection for time-related sources of variability: Data collection for time-related sources of variability 2.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 2.4.3. Data collection for time-related sources of variability: Data collection for time-related sources of variability 2.",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"2.4.3. Data collection for time-related sources of variability\" says: \"Data collection for time-related sources of variability 2. Measurement Process Characterization 2.4. Gauge R & R studies 2.4.3. Data collection for time-related sources of variability Time-related analysis The purpose of this page is to present several options for collecting data for estimating time-dependent effects in a measurement process. Time intervals The following levels of time-dependent errors are considered in this section based on the characteristics of many measurement systems and should be adapted to a specific measurement situation as needed. Level-1 Measurements taken over a short time to capture the precision of the gauge Level-2 Measurements taken over days (of other appropriate time increment) Level-3 Measurements taken over runs separated by months Time intervals Simple design for 2 levels of random error Nested design for 2 levels of random error Nested design for 3…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 2.4.3. Data collection for time-related sources of variability",
+      "url": "https://www.itl.nist.gov/div898/handbook/mpc/section4/mpc43.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:measurement"
+  ]
+}

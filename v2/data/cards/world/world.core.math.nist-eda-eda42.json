@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-eda-eda42",
+  "title": "NIST/SEMATECH handbook, 1.4.2. Case Studies: Case Studies Univariate Y i = C + E i Normal Random Numbers Uniform Random Numbers Random Walk Josephson…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 1.4.2. Case Studies: Case Studies Univariate Y i = C + E i Normal Random Numbers Uniform Random Numbers Random Walk Josephson…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"1.4.2. Case Studies\" says: \"Case Studies Univariate Y i = C + E i Normal Random Numbers Uniform Random Numbers Random Walk Josephson Junction Cryothermometry Beam Deflections Filter Transmittance Standard Resistor Heat Flow Meter 1 Reliability Fatigue Life of Aluminum Alloy Specimens Multi-Factor Ceramic Strength\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 1.4.2. Case Studies",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section4/eda42.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

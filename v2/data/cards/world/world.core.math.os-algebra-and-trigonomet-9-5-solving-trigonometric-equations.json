@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-9-5-solving-trigonometric-equations",
+  "title": "OpenStax Algebra and Trigonometry 2e, 9.5 Solving Trigonometric Equations: Solve linear trigonometric equations in sine and cosine.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 9.5 Solving Trigonometric Equations: Solve linear trigonometric equations in sine and cosine.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"9.5 Solving Trigonometric Equations\", prints these objectives: \"Solve linear trigonometric equations in sine and cosine.\" \"Solve equations involving a single trigonometric function.\" \"Solve trigonometric equations using a calculator.\" \"Solve trigonometric equations that are quadratic in form.\" \"Solve trigonometric equations using fundamental identities.\" \"Solve trigonometric equations with multiple angles.\". The section text says: \"Thales of Miletus (circa 625–547 BC) is known as the founder of geometry. The legend is that he calculated the height of the Great Pyramid of Giza in Egypt using the theory of similar triangles , which he developed by measuring the shadow of his staff. He reasoned that when the height of his staff's shadow was exactly equal to the actual height of the staff, then the height of the nearby pyramid's shadow must also be equal to the height of the actual pyramid. Since the structures and their…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 9.5 Solving Trigonometric Equations",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/9-5-solving-trigonometric-equations",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xi-24",
+  "title": "Euclid XI.24: If a solid is contained by parallel planes, then the opposite planes in it are equal and parallelogrammic.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XI.24: If a solid is contained by parallel planes, then the opposite planes in it are equal and parallelogrammic.",
+  "body": "Euclid, Book XI, XI.24, as worded on this page: \"If a solid is contained by parallel planes, then the opposite planes in it are equal and parallelogrammic.\" The argument printed under that statement begins: \"Definition 24 Let the solid CDHG be contained by the parallel planes AC, GF, AH, DF, BF, and AE. I say that the opposite planes in it are equal and parallelogrammic. XI.16 Since the two parallel planes BG and CE are cut by the plane AC, therefore their common sections are parallel. Therefore AB is parallel to DC. Again, since the two parallel planes BF and AE are cut by the plane AC, therefore their intersections are parallel. Therefore BC is parallel to AD. But AB was proved parallel to DC, therefore AC is a parallelogram. Similarly we can prove that each of the planes DF, FG, GB, BF, and AE is a parallelogram. Join AH and DF. XI.10 Then, since AB is parallel to DC, and BH is parallel to…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XI, XI.24",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXI/propXI24.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

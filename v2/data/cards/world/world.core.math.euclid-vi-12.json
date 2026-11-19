@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vi-12",
+  "title": "Euclid VI.12: To find a fourth proportional to three given straight lines.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VI.12: To find a fourth proportional to three given straight lines.",
+  "body": "Euclid, Book VI, VI.12, as worded on this page: \"To find a fourth proportional to three given straight lines.\" The argument printed under that statement begins: \"Proposition 12 Let A and B and C be the three given straight lines. It is required to find a fourth proportional to A, B, and C. I.3 I.31 Set out two straight lines DE and DF containing any angle EDF. Make DG equal to A, GE equal to B, and DH equal to C. Join GH, and draw EF through E parallel to it. VI.2 Then since GH is parallel to a side EF of the triangle DEF, therefore DG is to GE as DH is to HF. V.7 But DG equals A and GE to B, and DH to C, therefore A is to B as C is to HF. Therefore a fourth proportional HF has been found to the three given straight lines A, B, and C. Q.E.F.\" David E. Joyce's guide on the same page says: \"Of course, the previous proposition is a special case of this one. Descartes’ geometric algebra Descartes (1591–1661) is well known for his coordinate geometry which he and Fermat developed in the 16th century. This subject, also called analytic geometry, places an x-y -coordinate system on a plane so that a curve in the plane corresponds to an equation in two variables x and y. The usual way this correspondence is used is to convert a problem in geometry into an algebraic problem about…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VI, VI.12",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI12.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-def-15-18",
+  "title": "Euclid I.Def.15-18: A circle is a plane figure contained by one line such that all the straight lines falling upon it from one point among those lying within the figure…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.Def.15-18: A circle is a plane figure contained by one line such that all the straight lines falling upon it from one point among those lying within the figure…",
+  "body": "Euclid, Book I, I.Def.15-18, as worded on this page: \"A circle is a plane figure contained by one line such that all the straight lines falling upon it from one point among those lying within the figure equal one another. And the point is called the center of the circle. A diameter of the circle is any straight line drawn through the center and terminated in both directions by the circumference of the circle, and such a straight line also bisects the circle. A semicircle is the figure contained by the diameter and the circumference cut off by it. And the center of the semicircle is the same as that of the circle.\" David E. Joyce's guide on the same page says: \"A definition such as this describes what circles are. Definitions do not guarantee the existence of the things they define. The existence of circles follows from a postulate, namely, Post.3 . Note that a circle for Euclid is a two-dimensional figure. But in modern mathematics, usually the word circle refers to what Euclid calls the circumference of a circle. The center of the circle in the diagram is the point C. It’s interesting that the English word “center” derives from the Greek word which…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.Def.15-18",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/defI15.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

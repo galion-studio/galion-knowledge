@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-1-14",
+  "title": "DLMF 1.14 Integral Transforms: The Fourier transform of a real- or complex-valued function f(t) is defined by",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 1.14 Integral Transforms: The Fourier transform of a real- or complex-valued function f(t) is defined by",
+  "body": "NIST DLMF section 1.14 (Integral Transforms) says: \"The Fourier transform of a real- or complex-valued function f(t) is defined by (Some references replace \\mathrm{i}xt by -\\mathrm{i}xt ). The same notation \\mathscr{F} is used for Fourier transforms of functions of several variables and for Fourier transforms of distributions; see § 1.16(vii) . In this subsection we let F(x)=\\mathscr{F}\\left(f\\right)\\left(x\\right) . If f(t) is absolutely integrable on (-\\infty,\\infty) , then F(x) is continuous, F(x)\\to 0 as x\\to\\pm\\infty , and Suppose that f(t) is absolutely integrable on (-\\infty,\\infty) and of bounded variation in a neighborhood of t=u (§ 1.4(v) ). Then where the last integral denotes the Cauchy principal value ( 1.4.25 ). In many applications f(t) is absolutely integrable and f^{\\prime}(t) is continuous on (-\\infty,\\infty) . Then For Fourier transforms, the convolution (f*g)(t) of two functions f(t) and g(t) defined on (-\\infty,\\infty) is given by\" Equation 1.14.1 on the page has alt text \"\\mathscr{F}\\left(f\\right)\\left(x\\right)=\\mathscr{F}\\mskip-3.0muf\\mskip 3.0mu% \\left(x\\right)=\\frac{1}{\\sqrt{2\\pi}}\\int^{\\infty}_{-\\infty}f(t){\\mathrm{e}}^{% \\mathrm{i}xt}\\,\\mathrm{d}t.\". Equation 1.14.2 on the page has alt text \"\\left|F(x)\\right|\\leq\\frac{1}{\\sqrt{2\\pi}}\\int^{\\infty}_{-\\infty}\\left|f(t)% \\right|\\,\\mathrm{d}t.\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 1.14 Integral Transforms",
+      "url": "https://dlmf.nist.gov/1.14",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

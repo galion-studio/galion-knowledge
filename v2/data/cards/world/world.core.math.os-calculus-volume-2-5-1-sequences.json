@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-5-1-sequences",
+  "title": "OpenStax Calculus Volume 2, 5.1 Sequences: Find the formula for the general term of a sequence.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 5.1 Sequences: Find the formula for the general term of a sequence.",
+  "body": "OpenStax Calculus Volume 2, section \"5.1 Sequences\", prints these objectives: \"Find the formula for the general term of a sequence.\" \"Calculate the limit of a sequence if it exists.\" \"Determine the convergence or divergence of a given sequence.\". The section text says: \"In this section, we introduce sequences and define what it means for a sequence to converge or diverge. We show how to find limits of sequences that converge, often by using the properties of limits for functions discussed earlier. We close this section with the Monotone Convergence Theorem, a tool we can use to prove that certain types of sequences converge.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 5.1 Sequences",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/5-1-sequences",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

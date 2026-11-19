@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-square",
+  "title": "The Stanford Encyclopedia entry \"The Traditional Square of Opposition\" says: This entry traces the historical development of the Square of Opposition, a collection of logical…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"The Traditional Square of Opposition\" says: This entry traces the historical development of the Square of Opposition, a collection of logical…",
+  "body": "Parsons, Terence, Ciola, Graziana, in the Stanford Encyclopedia of Philosophy entry \"The Traditional Square of Opposition\" says: \"This entry traces the historical development of the Square of Opposition, a collection of logical relationships traditionally embodied in a square diagram. This body of doctrine provided a foundation for work in logic for over two millennia. For most of this history, logicians assumed that negative particular propositions (“Some S is not P ”) are vacuously true if their subjects are empty. This validates the logical laws embodied in the diagram, and preserves the doctrine against modern criticisms. Certain additional principles (“contraposition” and “obversion”) were sometimes adopted along with the Square, and they genuinely yielded inconsistency. By the nineteenth century an inconsistent set of doctrines was widely adopted. Strawson’s 1952 attempt to rehabilitate the Square does not apply to the traditional doctrine; it does salvage the nineteenth century version but at the cost of…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Traditional Square of Opposition (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/square/",
+      "author": "Parsons, Terence, Ciola, Graziana",
+      "date": "1997-08-08",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Parsons, Terence, Ciola, Graziana",
+  "as_of_date": "2025-05-19",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

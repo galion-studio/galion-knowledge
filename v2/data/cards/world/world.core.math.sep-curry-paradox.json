@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-curry-paradox",
+  "title": "The Stanford Encyclopedia entry \"Curry’s Paradox\" says: “Curry’s paradox”, as the term is used by philosophers today, refers to a wide variety of paradoxes of…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Curry’s Paradox\" says: “Curry’s paradox”, as the term is used by philosophers today, refers to a wide variety of paradoxes of…",
+  "body": "Shapiro, Lionel, Beall, Jc, in the Stanford Encyclopedia of Philosophy entry \"Curry’s Paradox\" says: \"“Curry’s paradox”, as the term is used by philosophers today, refers to a wide variety of paradoxes of self-reference or circularity that trace their modern ancestry to Curry (1942b) and Löb (1955). [ 1 ] The common characteristic of these so-called Curry paradoxes is the way they exploit a notion of implication, entailment, or consequence, either in the form of a connective or in the form of a predicate. Curry’s paradox arises in a number of different domains. Like Russell’s paradox , it can take the form of a paradox of set theory or the theory of properties. But it can also take the form of a semantic paradox, closely akin to the Liar paradox . Curry’s paradox differs from both Russell’s paradox and the Liar paradox in that it doesn’t essentially involve the notion of negation. Common truth-theoretic versions involve a sentence that says of itself that if it is true then an…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Curry’s Paradox (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/curry-paradox/",
+      "author": "Shapiro, Lionel, Beall, Jc",
+      "date": "2017-09-06",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Shapiro, Lionel, Beall, Jc",
+  "as_of_date": "2026-06-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

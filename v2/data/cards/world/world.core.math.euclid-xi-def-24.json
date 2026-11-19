@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xi-def-24",
+  "title": "Euclid XI.Def.24: Similar cones and cylinders are those in which the axes and the diameters of the bases are proportional.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XI.Def.24: Similar cones and cylinders are those in which the axes and the diameters of the bases are proportional.",
+  "body": "Euclid, Book XI, XI.Def.24, as worded on this page: \"Similar cones and cylinders are those in which the axes and the diameters of the bases are proportional.\"> A;0;0;black;0,40,100\"> D;point;extend;E,D,E,D;0\"> D;0;0;black;90,40,100\"> G;point;extend;H,G,H,G;0\"> G;0;0;black;180,40,100\"> L;point;extend;M,L,M,L;0\"> L;0;0;black;270,40,100\"> Two cones are similar if the axis of the first is to the axis of the second as the base diameter of the first is to the base diameter of the second. Likewise, two cylinders are similar if the axis of the first is to the axis of the second as the base diameter of the first is to the base diameter of the second. It can be shown that an equivalent condition is that the vertex angles of the cones are equal. Thus, all right-angled cones are similar.\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XI, XI.Def.24",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXI/defXI24.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

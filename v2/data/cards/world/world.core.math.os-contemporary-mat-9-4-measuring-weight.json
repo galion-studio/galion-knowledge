@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-9-4-measuring-weight",
+  "title": "OpenStax Contemporary Mathematics, 9.4 Measuring Weight: Identify reasonable values for weight applications.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 9.4 Measuring Weight: Identify reasonable values for weight applications.",
+  "body": "OpenStax Contemporary Mathematics, section \"9.4 Measuring Weight\", prints these objectives: \"Identify reasonable values for weight applications.\" \"Convert units of measures of weight.\" \"Solve application problems involving weight.\". The section text says: \"In the metric system, weight is expressed in terms of grams or kilograms, with a kilogram being equal to 1,000 grams. A paper clip weighs about 1 gram. A liter of water weighs about 1 kilogram. In fact, in the same way that 1 liter is equal in volume to 1 cubic decimeter, the kilogram was originally defined as the mass of 1 liter of water. In some cases, particularly in scientific or medical settings where small amounts of materials are used, the milligram is used to express weight. At the…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 9.4 Measuring Weight",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/9-4-measuring-weight",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

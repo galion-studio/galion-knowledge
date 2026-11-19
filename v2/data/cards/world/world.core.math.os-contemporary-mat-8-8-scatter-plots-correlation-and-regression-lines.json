@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-8-8-scatter-plots-correlation-and-regression-lines",
+  "title": "OpenStax Contemporary Mathematics, 8.8 Scatter Plots, Correlation, and Regression Lines: Construct a scatter plot for a dataset.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 8.8 Scatter Plots, Correlation, and Regression Lines: Construct a scatter plot for a dataset.",
+  "body": "OpenStax Contemporary Mathematics, section \"8.8 Scatter Plots, Correlation, and Regression Lines\", prints these objectives: \"Construct a scatter plot for a dataset.\" \"Interpret a scatter plot.\" \"Distinguish among positive, negative and no correlation.\" \"Compute the correlation coefficient.\" \"Estimate and interpret regression lines.\". The section text says: \"One of the most powerful tools statistics gives us is the ability to explore relationships between two datasets containing quantitative values, and then use that relationship to make predictions. For example, a student who wants to know how well they can expect to score on an upcoming final exam may consider reviewing the data on midterm and final exam scores for students who have previously taken the class. It seems reasonable to expect that there is a relationship between those two datasets…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 8.8 Scatter Plots, Correlation, and Regression Lines",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/8-8-scatter-plots-correlation-and-regression-lines",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

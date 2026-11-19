@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-arrows-theorem",
+  "title": "The Stanford Encyclopedia entry \"Arrow’s Theorem\" says: Kenneth Arrow’s “impossibility” theorem—the “general possibility” theorem, as he called it—answers a very…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Arrow’s Theorem\" says: Kenneth Arrow’s “impossibility” theorem—the “general possibility” theorem, as he called it—answers a very…",
+  "body": "Morreau, Michael, in the Stanford Encyclopedia of Philosophy entry \"Arrow’s Theorem\" says: \"Kenneth Arrow’s “impossibility” theorem—the “general possibility” theorem, as he called it—answers a very basic question in the theory of collective decision-making. Say there are some alternatives to choose among. They could be policies, public projects, candidates in an election, distributions of income and labour requirements or just about anything else. There are some people whose preferences among these alternatives will inform this choice, and the question is: which procedures are there for deriving, from what is known or can be found out about their preferences, a collective or “social” ordering of the alternatives from better to worse? The answer is startling. Arrow’s theorem says there are no such procedures at all—none, anyway, that meet certain conditions concerning the autonomy of the people and the rationality of their preferences. The technical framework in which Arrow…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Arrow’s Theorem (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/arrows-theorem/",
+      "author": "Morreau, Michael",
+      "date": "2014-10-13",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Morreau, Michael",
+  "as_of_date": "2025-12-07",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

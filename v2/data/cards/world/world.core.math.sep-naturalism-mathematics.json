@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-naturalism-mathematics",
+  "title": "The Stanford Encyclopedia entry \"Naturalism in the Philosophy of Mathematics\" says: Contemporary philosophy’s three main naturalisms are methodological, ontological and epistemological.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Naturalism in the Philosophy of Mathematics\" says: Contemporary philosophy’s three main naturalisms are methodological, ontological and epistemological.",
+  "body": "Paseau, Alexander, Marfori, Marianna Antonutti, in the Stanford Encyclopedia of Philosophy entry \"Naturalism in the Philosophy of Mathematics\" says: \"Contemporary philosophy’s three main naturalisms are methodological, ontological and epistemological. Methodological naturalism states that the only authoritative standards are those of science. Ontological and epistemological naturalism respectively state that all entities and all valid methods of inquiry are in some sense natural. In philosophy of mathematics of the past few decades methodological naturalism has received the lion’s share of the attention, so we concentrate on this. Ontological and epistemological naturalism in the philosophy of mathematics are discussed more briefly in section 6.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Naturalism in the Philosophy of Mathematics (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/naturalism-mathematics/",
+      "author": "Paseau, Alexander, Marfori, Marianna Antonutti",
+      "date": "2008-08-24",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Paseau, Alexander, Marfori, Marianna Antonutti",
+  "as_of_date": "2025-06-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

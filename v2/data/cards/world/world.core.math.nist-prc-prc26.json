@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-prc-prc26",
+  "title": "NIST/SEMATECH handbook, 7.2.6. What intervals contain a fixed percentage of the population values?: What intervals contain a fixed percentage of the population values?",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 7.2.6. What intervals contain a fixed percentage of the population values?: What intervals contain a fixed percentage of the population values?",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"7.2.6. What intervals contain a fixed percentage of the population values?\" says: \"What intervals contain a fixed percentage of the population values? 7. Product and Process Comparisons 7.2. Comparisons based on data from one process 7.2.6. What intervals contain a fixed percentage of the population values? Observations tend to cluster around the median or mean Empirical studies have demonstrated that it is typical for a large number of the observations in any study to cluster near the median. In right-skewed data this clustering takes place to the left of (i.e., below) the median and in left-skewed data the observations tend to cluster to the right (i.e., above) the median. In symmetrical data, where the median and the mean are the same, the observations tend to distribute equally around these measures of central tendency. Various methods Several types of intervals about the mean that contain a large percentage of the population values are discussed in this section.…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 7.2.6. What intervals contain a fixed percentage of the population values?",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc26.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

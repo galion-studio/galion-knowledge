@@ -1,0 +1,29 @@
+{
+  "id": "world.core.math.clay-yang-mills-the-maths-gap",
+  "title": "The Clay Mathematics Institute states the Yang–Mills existence and mass gap problem: Experiment and computer simulations suggest the existence of a “mass gap” in the solution to the quantum…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Clay Mathematics Institute states the Yang–Mills existence and mass gap problem: Experiment and computer simulations suggest the existence of a “mass gap” in the solution to the quantum…",
+  "body": "The Clay Mathematics Institute's page on the Yang–Mills existence and mass gap problem says: \"Experiment and computer simulations suggest the existence of a “mass gap” in the solution to the quantum versions of the Yang-Mills equations. But no proof of this property is known. The laws of quantum physics stand to the world of elementary particles in the way that Newton’s laws of classical mechanics stand to the macroscopic world. Almost half a century ago, Yang and Mills introduced a remarkable new framework to describe elementary particles using structures that also occur in geometry. Quantum Yang-Mills theory is now the foundation of most of elementary particle theory, and its predictions have been tested at many experimental laboratories, but its mathematical foundation is still unclear. The successful use of Yang-Mills theory to describe the strong interactions of elementary particles depends on a subtle quantum mechanical property called the “mass gap”: the quantum particles have positive masses, even though the classical waves travel at the speed of light. This property…\" This card records that page. It does not announce a solution the page does not announce.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Clay Mathematics Institute, the Yang–Mills existence and mass gap problem",
+      "url": "https://www.claymath.org/millennium/yang-mills-the-maths-gap/",
+      "author": "Clay Mathematics Institute",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Clay Mathematics Institute",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "area:foundations"
+  ]
+}

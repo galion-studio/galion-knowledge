@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-24-5",
+  "title": "DLMF 24.5 Recurrence Relations: In each of ( 24.5.9 ) and ( 24.5.10 ) the first identity implies the second one and vice-versa.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 24.5 Recurrence Relations: In each of ( 24.5.9 ) and ( 24.5.10 ) the first identity implies the second one and vice-versa.",
+  "body": "NIST DLMF section 24.5 (Recurrence Relations) says: \"In each of ( 24.5.9 ) and ( 24.5.10 ) the first identity implies the second one and vice-versa.\" Equation 24.5.1 on the page has alt text \"\\sum_{k=0}^{n-1}{n\\choose k}B_{k}\\left(x\\right)=nx^{n-1},\". Equation 24.5.2 on the page has alt text \"\\sum_{k=0}^{n}{n\\choose k}E_{k}\\left(x\\right)+E_{n}\\left(x\\right)=2x^{n},\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 24.5 Recurrence Relations",
+      "url": "https://dlmf.nist.gov/24.5",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-computational-complexity",
+  "title": "The Stanford Encyclopedia entry \"Computational Complexity Theory\" says: Computational complexity theory is a subfield of theoretical computer science one of whose primary goals is…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Computational Complexity Theory\" says: Computational complexity theory is a subfield of theoretical computer science one of whose primary goals is…",
+  "body": "Dean, Walter, in the Stanford Encyclopedia of Philosophy entry \"Computational Complexity Theory\" says: \"Computational complexity theory is a subfield of theoretical computer science one of whose primary goals is to classify and compare the practical difficulty of solving problems about finite combinatorial objects – e.g. given two natural numbers \\(n\\) and \\(m\\), are they relatively prime? Given a propositional formula \\(\\phi\\), does it have a satisfying assignment? If we were to play chess on a board of size \\(n \\times n\\), does white have a winning strategy from a given initial position? These problems are equally difficult from the standpoint of classical computability theory in the sense that they are all effectively decidable. Yet they still appear to differ significantly in practical difficulty. For having been supplied with a pair of numbers \\(m \\gt n \\gt 0\\), it is possible to determine their relative primality by a method (Euclid’s algorithm) which requires a number of steps…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Computational Complexity Theory (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/computational-complexity/",
+      "author": "Dean, Walter",
+      "date": "2015-07-27",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dean, Walter",
+  "as_of_date": "2016-07-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

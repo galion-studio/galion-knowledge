@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-pmd-pmd61",
+  "title": "NIST/SEMATECH handbook, 4.6.1. Load Cell Calibration: Load Cell Calibration Quadratic Calibration This example illustrates the construction of a linear regression…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 4.6.1. Load Cell Calibration: Load Cell Calibration Quadratic Calibration This example illustrates the construction of a linear regression…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"4.6.1. Load Cell Calibration\" says: \"Load Cell Calibration Quadratic Calibration This example illustrates the construction of a linear regression model for load cell data that relates a known load applied to a load cell to the deflection of the cell. The model is then used to calibrate future cell readings associated with loads of unknown magnitude. Background & Data Selection of Initial Model Model Fitting - Initial Model Graphical Residual Analysis - Initial Model Interpretation of Numerical Output - Initial Model Model Refinement Model Fitting - Model #2 Graphical Residual Analysis - Model #2 Interpretation of Numerical Output - Model #2 Use of the Model for Calibration Work This Example Yourself\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 4.6.1. Load Cell Calibration",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section6/pmd61.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

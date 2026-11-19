@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-8-1-graphs-of-the-sine-and-cosine-functions",
+  "title": "OpenStax Algebra and Trigonometry 2e, 8.1 Graphs of the Sine and Cosine Functions: Graph variations of y = sin ( x ) and y = cos ( x ) .",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 8.1 Graphs of the Sine and Cosine Functions: Graph variations of y = sin ( x ) and y = cos ( x ) .",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"8.1 Graphs of the Sine and Cosine Functions\", prints these objectives: \"Graph variations of y = sin ( x ) and y = cos ( x ) .\" \"Use phase shifts of sine and cosine curves.\". The section text says: \"White light, such as the light from the sun, is not actually white at all. Instead, it is a composition of all the colors of the rainbow in the form of waves. The individual colors can be seen only when white light passes through an optical prism that separates the waves according to their wavelengths to form a rainbow.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 8.1 Graphs of the Sine and Cosine Functions",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/8-1-graphs-of-the-sine-and-cosine-functions",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

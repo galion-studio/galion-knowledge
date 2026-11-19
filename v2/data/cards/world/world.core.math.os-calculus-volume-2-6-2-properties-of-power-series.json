@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-6-2-properties-of-power-series",
+  "title": "OpenStax Calculus Volume 2, 6.2 Properties of Power Series: Combine power series by addition or subtraction.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 6.2 Properties of Power Series: Combine power series by addition or subtraction.",
+  "body": "OpenStax Calculus Volume 2, section \"6.2 Properties of Power Series\", prints these objectives: \"Combine power series by addition or subtraction.\" \"Create a new power series by multiplication by a power of the variable or a constant, or by substitution.\" \"Multiply two power series together.\" \"Differentiate and integrate power series term-by-term.\". The section text says: \"In the preceding section on power series and functions we showed how to represent certain functions using power series. In this section we discuss how power series can be combined, differentiated, or integrated to create new power series. This capability is particularly useful for a couple of reasons. First, it allows us to find power series representations for certain elementary functions, by writing those functions in terms of functions with known power series. For example, given the power…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 6.2 Properties of Power Series",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/6-2-properties-of-power-series",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

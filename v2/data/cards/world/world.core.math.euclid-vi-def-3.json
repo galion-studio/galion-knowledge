@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vi-def-3",
+  "title": "Euclid VI.Def.3: A straight line is said to have been cut in extreme and mean ratio when, as the whole line is to the greater segment, so is the greater to the less.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VI.Def.3: A straight line is said to have been cut in extreme and mean ratio when, as the whole line is to the greater segment, so is the greater to the less.",
+  "body": "Euclid, Book VI, VI.Def.3, as worded on this page: \"A straight line is said to have been cut in extreme and mean ratio when, as the whole line is to the greater segment, so is the greater to the less.\" David E. Joyce's guide on the same page says: \"The line AB is cut in extreme and mean ratio at C since AB : AC = AC : CB. A construction to cut a line in this manner first appeared in Book II, proposition II.11 . Of course that was before ratios were defined, and there an equivalent condition was stated in terms of rectangles, namely, that the square on AC equal the rectangle AB by BC. That construction was later used in Book IV in order to construct regular pentagons and 15-sided polygons (propositions IV.10 through 12 and 16). Now that…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VI, VI.Def.3",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/defVI3.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

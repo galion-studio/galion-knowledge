@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-8-2-visualizing-data",
+  "title": "OpenStax Contemporary Mathematics, 8.2 Visualizing Data: Create charts and graphs to appropriately represent data.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 8.2 Visualizing Data: Create charts and graphs to appropriately represent data.",
+  "body": "OpenStax Contemporary Mathematics, section \"8.2 Visualizing Data\", prints these objectives: \"Create charts and graphs to appropriately represent data.\" \"Interpret visual representations of data.\" \"Determine misleading components in data displayed visually.\". The section text says: \"Summarizing raw data is the first step we must take when we want to communicate the results of a study or experiment to a broad audience. However, even organized data can be difficult to read; for example, if a frequency table is large, it can be tough to compare the first row to the last row. As the old saying goes: a picture is worth a thousand words (or, in this case, summary statistics)! Just as our techniques for organizing data depended on the type of data we were looking at, the methods…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 8.2 Visualizing Data",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/8-2-visualizing-data",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

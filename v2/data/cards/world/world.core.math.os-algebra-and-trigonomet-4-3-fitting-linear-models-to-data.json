@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-4-3-fitting-linear-models-to-data",
+  "title": "OpenStax Algebra and Trigonometry 2e, 4.3 Fitting Linear Models to Data: Draw and interpret scatter diagrams.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 4.3 Fitting Linear Models to Data: Draw and interpret scatter diagrams.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"4.3 Fitting Linear Models to Data\", prints these objectives: \"Draw and interpret scatter diagrams.\" \"Use a graphing utility to find the line of best fit.\" \"Distinguish between linear and nonlinear relations.\" \"Fit a regression line to a set of data and use the linear model to make predictions.\". The section text says: \"A professor is attempting to identify trends among final exam scores. His class has a mixture of students, so he wonders if there is any relationship between age and final exam scores. One way for him to analyze the scores is by creating a diagram that relates the age of each student to the exam score received. In this section, we will examine one such diagram known as a scatter plot.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 4.3 Fitting Linear Models to Data",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/4-3-fitting-linear-models-to-data",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

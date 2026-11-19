@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-mpc-mpc36",
+  "title": "NIST/SEMATECH handbook, 2.3.6. Instrument calibration over a regime: Instrument calibration over a regime Topics This section discusses the creation of a calibration curve for…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 2.3.6. Instrument calibration over a regime: Instrument calibration over a regime Topics This section discusses the creation of a calibration curve for…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"2.3.6. Instrument calibration over a regime\" says: \"Instrument calibration over a regime Topics This section discusses the creation of a calibration curve for calibrating instruments (gauges) whose responses cover a large range. Topics are: Models for instrument calibration Data collection Assumptions Conditions that can invalidate the calibration procedure Data analysis and model validation Calibration of future measurements Uncertainties of calibrated values Purpose of instrument calibration Instrument calibration is intended to eliminate or reduce bias in an instrument's readings over a range for all continuous values. For this purpose, reference standards with known values for selected points covering the range of interest are measured with the instrument in question. Then a functional relationship is established between the values of the standards and the corresponding measurements. There are two basic situations.…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 2.3.6. Instrument calibration over a regime",
+      "url": "https://www.itl.nist.gov/div898/handbook/mpc/section3/mpc36.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:measurement"
+  ]
+}

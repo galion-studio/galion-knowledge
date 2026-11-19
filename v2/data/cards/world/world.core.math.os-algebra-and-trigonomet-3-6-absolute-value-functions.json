@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-3-6-absolute-value-functions",
+  "title": "OpenStax Algebra and Trigonometry 2e, 3.6 Absolute Value Functions: Graph an absolute value function.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 3.6 Absolute Value Functions: Graph an absolute value function.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"3.6 Absolute Value Functions\", prints these objectives: \"Graph an absolute value function.\" \"Solve an absolute value equation.\". The section text says: \"Until the 1920s, the so-called spiral nebulae were believed to be clouds of dust and gas in our own galaxy, some tens of thousands of light years away. Then, astronomer Edwin Hubble proved that these objects are galaxies in their own right, at distances of millions of light years. Today, astronomers can detect galaxies that are billions of light years away. Distances in the universe can be measured in all directions. As such, it is useful to consider distance as an absolute value function. In…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 3.6 Absolute Value Functions",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-6-absolute-value-functions",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

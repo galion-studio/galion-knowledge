@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xi-2",
+  "title": "Euclid XI.2: If two straight lines cut one another, then they lie in one plane; and every triangle lies in one plane.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XI.2: If two straight lines cut one another, then they lie in one plane; and every triangle lies in one plane.",
+  "body": "Euclid, Book XI, XI.2, as worded on this page: \"If two straight lines cut one another, then they lie in one plane; and every triangle lies in one plane.\" The argument printed under that statement begins: \"Proposition 2 For let the two straight lines AB and CD cut one another at the point E. I say that AB and CD lie in one plane, and that every triangle lies in one plane. Take the points F and G at random on EC and EB, join CB and FG, and draw FH and GK across. I say first that the triangle ECB lies in one plane. For, if part of the triangle ECB, either FHC or GBK, is in the plane of reference, and the rest in another, then a part also of one of the straight lines EC or EB is in the plane of reference, and a part in another. XI.1 But, if the part FCBG of the triangle ECB is in the plane of reference, and the rest in another, then a part also of both the straight lines EC and EB is in the…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XI, XI.2",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXI/propXI2.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

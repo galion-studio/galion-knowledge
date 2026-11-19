@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-6-11-buying-or-leasing-a-car",
+  "title": "OpenStax Contemporary Mathematics, 6.11 Buying or Leasing a Car: Evaluate basics of car purchasing.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 6.11 Buying or Leasing a Car: Evaluate basics of car purchasing.",
+  "body": "OpenStax Contemporary Mathematics, section \"6.11 Buying or Leasing a Car\", prints these objectives: \"Evaluate basics of car purchasing.\" \"Compute purchase payments and identify the related interest cost.\" \"Evaluate the basics of leasing a car.\" \"Identify and contrast the pros and cons of purchasing versus leasing a car.\" \"Investigate the types of car insurance.\" \"Solve application problems involving owning and maintaining a car.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 6.11 Buying or Leasing a Car",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/6-11-buying-or-leasing-a-car",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

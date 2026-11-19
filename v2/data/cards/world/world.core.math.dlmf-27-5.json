@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-27-5",
+  "title": "DLMF 27.5 Inversion Formulas: If a Dirichlet series F(s) generates f(n) , and G(s) generates g(n) , then the product F(s)G(s) generates",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 27.5 Inversion Formulas: If a Dirichlet series F(s) generates f(n) , and G(s) generates g(n) , then the product F(s)G(s) generates",
+  "body": "NIST DLMF section 27.5 (Inversion Formulas) says: \"If a Dirichlet series F(s) generates f(n) , and G(s) generates g(n) , then the product F(s)G(s) generates called the Dirichlet product (or convolution ) of f and g . The set of all number-theoretic functions f with f(1)\\neq 0 forms an abelian group under Dirichlet multiplication, with the function \\left\\lfloor 1/n\\right\\rfloor in ( 27.2.5 ) as identity element; see Apostol ( 1976 , p. 129) . The multiplicative functions are a subgroup of this group. Generating functions yield many relations connecting number-theoretic functions. For example, the equation \\zeta\\left(s\\right)\\cdot(\\ifrac{1}{\\zeta\\left(s\\right)})=1 is equivalent to the identity which, in turn, is the basis for the Möbius inversion formula relating sums over divisors: Special cases of Möbius inversion pairs are: Other types of Möbius inversion formulas include: For a general theory of Möbius inversion with applications to combinatorial theory see Rota ( 1964 ) .\" Equation 27.5.1 on the page has alt text \"h(n)=\\sum_{d\\mathbin{|}n}f(d)g\\left(\\frac{n}{d}\\right),\". Equation 27.5.2 on the page has alt text \"\\sum_{d\\mathbin{|}n}\\mu\\left(d\\right)=\\left\\lfloor\\frac{1}{n}\\right\\rfloor,\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 27.5 Inversion Formulas",
+      "url": "https://dlmf.nist.gov/27.5",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-4-21",
+  "title": "DLMF 4.21 Identities: In ( 4.21.21 )–( 4.21.23 ) Table 4.16.1 and analytic continuation will assist in resolving sign ambiguities.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 4.21 Identities: In ( 4.21.21 )–( 4.21.23 ) Table 4.16.1 and analytic continuation will assist in resolving sign ambiguities.",
+  "body": "NIST DLMF section 4.21 (Identities) says: \"In ( 4.21.21 )–( 4.21.23 ) Table 4.16.1 and analytic continuation will assist in resolving sign ambiguities. This result is also valid when n is fractional or complex, provided that -\\pi\\leq\\Re z\\leq\\pi . If t=\\tan\\left(\\frac{1}{2}z\\right) , then\" Equation 4.21.1 on the page has alt text \"\\sin u\\pm\\cos u=\\sqrt{2}\\sin\\left(u\\pm\\tfrac{1}{4}\\pi\\right)=\\pm\\sqrt{2}\\cos% \\left(u\\mp\\tfrac{1}{4}\\pi\\right).\". Equation 4.21.12 on the page has alt text \"{\\sin}^{2}z+{\\cos}^{2}z=1,\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 4.21 Identities",
+      "url": "https://dlmf.nist.gov/4.21",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:trigonometry"
+  ]
+}

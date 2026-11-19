@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-elementary-algebra-2e-6-1-add-and-subtract-polynomials",
+  "title": "OpenStax Elementary Algebra 2e, 6.1 Add and Subtract Polynomials: Identify polynomials, monomials, binomials, and trinomials",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Elementary Algebra 2e, 6.1 Add and Subtract Polynomials: Identify polynomials, monomials, binomials, and trinomials",
+  "body": "OpenStax Elementary Algebra 2e, section \"6.1 Add and Subtract Polynomials\", prints these objectives: \"Identify polynomials, monomials, binomials, and trinomials\" \"Determine the degree of polynomials\" \"Add and subtract monomials\" \"Add and subtract polynomials\" \"Evaluate a polynomial for a given value\". The section text says: \"You have learned that a term is a constant or the product of a constant and one or more variables. The constant is called a coefficient. When it is of the form a x m , where a is a constant and m is a whole number, it is called a monomial. Some examples of monomial are 8 , −2 x 2 , 4 y 3 , and 11 z 7 .\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Elementary Algebra 2e, 6.1 Add and Subtract Polynomials",
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/6-1-add-and-subtract-polynomials",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:algebra"
+  ]
+}

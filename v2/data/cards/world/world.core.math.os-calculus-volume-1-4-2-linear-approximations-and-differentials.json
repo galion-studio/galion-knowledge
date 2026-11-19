@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-4-2-linear-approximations-and-differentials",
+  "title": "OpenStax Calculus Volume 1, 4.2 Linear Approximations and Differentials: Describe the linear approximation to a function at a point.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 4.2 Linear Approximations and Differentials: Describe the linear approximation to a function at a point.",
+  "body": "OpenStax Calculus Volume 1, section \"4.2 Linear Approximations and Differentials\", prints these objectives: \"Describe the linear approximation to a function at a point.\" \"Write the linearization of a given function.\" \"Draw a graph that illustrates the use of differentials to approximate the change in a quantity.\" \"Calculate the relative error and percentage error in using a differential approximation.\". The section text says: \"We have just seen how derivatives allow us to compare related quantities that are changing over time. In this section, we examine another application of derivatives: the ability to approximate functions locally by linear functions. Linear functions are the easiest functions with which to work, so they provide a useful tool for approximating function values. In addition, the ideas presented in this section are generalized later in the text when we study how to approximate functions by…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 4.2 Linear Approximations and Differentials",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/4-2-linear-approximations-and-differentials",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

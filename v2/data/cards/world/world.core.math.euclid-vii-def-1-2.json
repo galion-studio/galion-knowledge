@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vii-def-1-2",
+  "title": "Euclid VII.Def.1-2: A unit is that by virtue of which each of the things that exist is called one.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VII.Def.1-2: A unit is that by virtue of which each of the things that exist is called one.",
+  "body": "Euclid, Book VII, VII.Def.1-2, as worded on this page: \"A unit is that by virtue of which each of the things that exist is called one. A number is a multitude composed of units.\" David E. Joyce's guide on the same page says: \"These 23 definitions at the beginning of Book VII are the definitions for all three books VII through IX on number theory. Some won’t be used until Books VIII or IX. What are numbers? All the numbers Euclid deals with in Books VII through IX are whole positive numbers, but there are two kinds of them. On the one hand, he uses numbers as objects of a theory, the things that are defined in Definition 2 and appear in every proposition in these books. On the other hand, he uses numbers to talk…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VII, VII.Def.1-2",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVII/defVII1.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:number-theory"
+  ]
+}

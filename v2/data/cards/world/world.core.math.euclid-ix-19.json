@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-ix-19",
+  "title": "Euclid IX.19: Given three numbers, to investigate when it is possible to find a fourth proportional to them.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid IX.19: Given three numbers, to investigate when it is possible to find a fourth proportional to them.",
+  "body": "Euclid, Book IX, IX.19, as worded on this page: \"Given three numbers, to investigate when it is possible to find a fourth proportional to them.\" The argument printed under that statement begins: \"Proposition 19 Let A, B, and C be the given three numbers. It is required to investigate when it is possible to find a fourth proportional to them. [The Greek text of this Proposition is corrupt. However, analogously to Proposition 18 the condition that a fourth proportional to A, B, and C exists is that A measure the product of B and C. ] Q.E.D. Guide Note that a fourth proportional d to a, b and c has to satisfy a : b = c : d, so d would have to be bc / a. So the third proportional exists when a divides bc . No doubt that is what Euclid concludes in the missing part of this proposition.\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book IX, IX.19",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookIX/propIX19.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:number-theory"
+  ]
+}

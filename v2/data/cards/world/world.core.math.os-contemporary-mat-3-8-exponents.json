@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-3-8-exponents",
+  "title": "OpenStax Contemporary Mathematics, 3.8 Exponents: Apply the rules of exponents to simplifying expressions.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 3.8 Exponents: Apply the rules of exponents to simplifying expressions.",
+  "body": "OpenStax Contemporary Mathematics, section \"3.8 Exponents\", prints these objectives: \"Apply the rules of exponents to simplifying expressions.\". The section text says: \"The first rule we examine is the product rule, a n a m = a n + m . This rule means that when we multiply a base raised to a power times the same base to another power, the result is the base raised to the sum of the powers. To demonstrate, consider 9 3 × 9 5 . If we apply the product rule to that we get 9 3 × 9 5 = 9 3 + 5 = 9 8 . This can be tested by looking at the multiplications that are represented. The 9 3 is 9 times itself 3 times, while 9 5 is 9 times itself 5 times. Substituting those…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 3.8 Exponents",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/3-8-exponents",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

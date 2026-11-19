@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-6-7-integrals-exponential-functions-and-logarithms",
+  "title": "OpenStax Calculus Volume 1, 6.7 Integrals, Exponential Functions, and Logarithms: Write the definition of the natural logarithm as an integral.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 6.7 Integrals, Exponential Functions, and Logarithms: Write the definition of the natural logarithm as an integral.",
+  "body": "OpenStax Calculus Volume 1, section \"6.7 Integrals, Exponential Functions, and Logarithms\", prints these objectives: \"Write the definition of the natural logarithm as an integral.\" \"Recognize the derivative of the natural logarithm.\" \"Integrate functions involving the natural logarithmic function.\" \"Define the number e through an integral.\" \"Recognize the derivative and integral of the exponential function.\" \"Prove properties of logarithms and exponential functions using integrals.\". The section text says: \"We already examined exponential functions and logarithms in earlier chapters. However, we glossed over some key details in the previous discussions. For example, we did not study how to treat exponential functions with exponents that are irrational. The definition of the number e is another area where the previous development was somewhat incomplete. We now have the tools to deal with these concepts in a more mathematically rigorous way, and we do so in this section.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 6.7 Integrals, Exponential Functions, and Logarithms",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/6-7-integrals-exponential-functions-and-logarithms",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

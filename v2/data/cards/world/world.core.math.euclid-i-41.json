@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-41",
+  "title": "Euclid I.41: If a parallelogram has the same base with a triangle and is in the same parallels, then the parallelogram is double the triangle.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.41: If a parallelogram has the same base with a triangle and is in the same parallels, then the parallelogram is double the triangle.",
+  "body": "Euclid, Book I, I.41, as worded on this page: \"If a parallelogram has the same base with a triangle and is in the same parallels, then the parallelogram is double the triangle.\" The argument printed under that statement begins: \"Proposition 41 Let the parallelogram ABCD have the same base BC with the triangle EBC, and let it be in the same parallels BC and AE. I say that the parallelogram ABCD is double the triangle BEC. I.Post.1 Join AC. I.37 Then the triangle ABC equals the triangle EBC, for it is on the same base BC with it and in the same parallels BC and AE. I.34 But the parallelogram ABCD is double the triangle ABC, for the diameter AC bisects it, so that the parallelogram ABCD is also double the triangle EBC. Therefore if a parallelogram has the same base with a triangle and is in the same parallels, then the parallelogram is double the triangle. Q.E.D.\" David E. Joyce's guide on the same page says: \"This partially generalizes I.34 , that a parallelogram is twice the triangle by its diameter and two of its sides. A slightly more general statement would be that If a parallelogram has an equal base with a triangle and is in the same parallels, then the parallelogram is double the triangle. Use of Proposition 41 This proposition is used in the next one, I.47 , VI.1 , and X.38 .\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.41",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI41.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

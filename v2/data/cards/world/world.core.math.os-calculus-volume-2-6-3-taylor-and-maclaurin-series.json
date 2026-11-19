@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-6-3-taylor-and-maclaurin-series",
+  "title": "OpenStax Calculus Volume 2, 6.3 Taylor and Maclaurin Series: Describe the procedure for finding a Taylor polynomial of a given order for a function.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 6.3 Taylor and Maclaurin Series: Describe the procedure for finding a Taylor polynomial of a given order for a function.",
+  "body": "OpenStax Calculus Volume 2, section \"6.3 Taylor and Maclaurin Series\", prints these objectives: \"Describe the procedure for finding a Taylor polynomial of a given order for a function.\" \"Explain the meaning and significance of Taylor’s theorem with remainder.\" \"Estimate the remainder for a Taylor series approximation of a given function.\". The section text says: \"In the previous two sections we discussed how to find power series representations for certain types of functions––specifically, functions related to geometric series. Here we discuss power series representations for other types of functions. In particular, we address the following questions: Which functions can be represented by power series and how do we find such representations? If we can find a power series representation for a particular function f and the series converges on some…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 6.3 Taylor and Maclaurin Series",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/6-3-taylor-and-maclaurin-series",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

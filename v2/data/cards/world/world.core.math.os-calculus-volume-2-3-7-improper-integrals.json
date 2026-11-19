@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-3-7-improper-integrals",
+  "title": "OpenStax Calculus Volume 2, 3.7 Improper Integrals: Evaluate an integral over an infinite interval.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 3.7 Improper Integrals: Evaluate an integral over an infinite interval.",
+  "body": "OpenStax Calculus Volume 2, section \"3.7 Improper Integrals\", prints these objectives: \"Evaluate an integral over an infinite interval.\" \"Evaluate an integral over a closed interval with an infinite discontinuity within the interval.\" \"Use the comparison theorem to determine whether a definite integral is convergent.\". The section text says: \"Is the area between the graph of f ( x ) = 1 x and the x -axis over the interval [ 1 , + ∞ ) finite or infinite? If this same region is revolved about the x -axis, is the volume finite or infinite? Surprisingly, the area of the region described is infinite, but the volume of the solid obtained by revolving this region about the x -axis is finite.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 3.7 Improper Integrals",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/3-7-improper-integrals",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

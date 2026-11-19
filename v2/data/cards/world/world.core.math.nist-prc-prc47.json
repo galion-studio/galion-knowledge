@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-prc-prc47",
+  "title": "NIST/SEMATECH handbook, 7.4.7. How can we make multiple comparisons?: Comparisons based on data from more than two processes 7.4.7.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 7.4.7. How can we make multiple comparisons?: Comparisons based on data from more than two processes 7.4.7.",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"7.4.7. How can we make multiple comparisons?\" says: \"Comparisons based on data from more than two processes 7.4.7. How can we make multiple comparisons? What to do after equality of means is rejected When processes are compared and the null hypothesis of equality (or homogeneity) is rejected, all we know at that point is that there is no equality amongst them. But we do not know the form of the inequality. Typical questions Questions concerning the reason for the rejection of the null hypothesis arise in the form of: \"Which mean(s) or proportion (s) differ from a standard or from each other?\" \"Does the mean of treatment 1 differ from that of treatment 2?\" \"Does the average of treatments 1 and 2 differ from the average of treatments 3 and 4?\" Multiple Comparison test procedures are needed One popular way to investigate the cause of rejection of the null hypothesis is a Multiple Comparison Procedure. These are methods which examine or…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 7.4.7. How can we make multiple comparisons?",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section4/prc47.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

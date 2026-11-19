@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-pmd-pmd12",
+  "title": "NIST/SEMATECH handbook, 4.1.2. What terminology do statisticians use to describe process models?: What terminology do statisticians use to describe process models?",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 4.1.2. What terminology do statisticians use to describe process models?: What terminology do statisticians use to describe process models?",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"4.1.2. What terminology do statisticians use to describe process models?\" says: \"What terminology do statisticians use to describe process models? 4. Process Modeling 4.1. Introduction to Process Modeling 4.1.2. What terminology do statisticians use to describe process models? Model Components There are three main parts to every process model. These are the response variable, usually denoted by \\(y\\), , --> the mathematical function, usually denoted as \\(f(\\vec{x};\\vec{\\beta})\\), and , and --> the random errors, usually denoted by \\(\\varepsilon\\). . --> Form of Model The general form of the model is $$ y = f(\\vec{x};\\vec{\\beta}) + \\varepsilon $$ . --> All process models discussed in this chapter have this general form. As alluded to earlier , the random errors that are included in the model make the relationship between the response variable and the predictor variables a \"statistical\" one, rather than a perfect deterministic one. This is because the functional…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 4.1.2. What terminology do statisticians use to describe process models?",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd12.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

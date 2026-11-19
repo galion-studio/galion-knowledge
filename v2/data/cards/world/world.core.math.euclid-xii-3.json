@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xii-3",
+  "title": "Euclid XII.3: Any pyramid with a triangular base is divided into two pyramids equal and similar to one another, similar to the whole, and having triangular bases…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XII.3: Any pyramid with a triangular base is divided into two pyramids equal and similar to one another, similar to the whole, and having triangular bases…",
+  "body": "Euclid, Book XII, XII.3, as worded on this page: \"Any pyramid with a triangular base is divided into two pyramids equal and similar to one another, similar to the whole, and having triangular bases, and into two equal prisms, and the two prisms are greater than half of the whole pyramid.\" The argument printed under that statement begins: \"Proposition 3 Let there be a pyramid of with the triangular base ABC and vertex D. I say that the pyramid ABCD is divided into two pyramids equal to one another, having triangular bases and similar to the whole pyramid, and into two equal prisms, and the two prisms are greater than the half of the whole pyramid. I.10 Bisect AB, BC, CA, AD, DB, and DC at the points E, F, G, H, K, and L. Join HE, EG, GH, HK, KL, LH, KF, and FG . Since AE equals EB, and AH equals DH, therefore EH is parallel to DB. For the same reason HK is also parallel to AB. Therefore HEBK is a parallelogram. Therefore HK equals EB. VI.2 I.34 But EB equals EA, therefore AE also equals HK. I.4 But AH also equals HD…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XII, XII.3",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXII/propXII3.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

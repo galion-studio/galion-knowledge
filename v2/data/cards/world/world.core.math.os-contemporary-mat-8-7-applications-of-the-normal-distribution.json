@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-8-7-applications-of-the-normal-distribution",
+  "title": "OpenStax Contemporary Mathematics, 8.7 Applications of the Normal Distribution: Apply the normal distribution to real-world scenarios.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 8.7 Applications of the Normal Distribution: Apply the normal distribution to real-world scenarios.",
+  "body": "OpenStax Contemporary Mathematics, section \"8.7 Applications of the Normal Distribution\", prints these objectives: \"Apply the normal distribution to real-world scenarios.\". The section text says: \"According to the Digest of Education Statistics , composite scores on the SAT have mean 1060 and standard deviation 195, while composite scores on the ACT have mean 21 and standard deviation 5.\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 8.7 Applications of the Normal Distribution",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/8-7-applications-of-the-normal-distribution",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

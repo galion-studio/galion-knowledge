@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-def-13-14",
+  "title": "Euclid I.Def.13-14: A boundary is that which is an extremity of anything.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.Def.13-14: A boundary is that which is an extremity of anything.",
+  "body": "Euclid, Book I, I.Def.13-14, as worded on this page: \"A boundary is that which is an extremity of anything. A figure is that which is contained by any boundary or boundaries.\" David E. Joyce's guide on the same page says: \"These are rather nebulous definitions since they are based on the undefined terms “extremity” and “contained by.” Euclid deals with two kinds of figures in the Elements : plane figures and solid figures. Plane figures are defined in the upcoming definitions: circles and semicircles in I.Def.15 and I.Def.18, rectilinear figures in I.Def.19 and particular kinds of rectilinear figures such as triangles and quadrilaterals following that. Specific solid figures such as spheres, cones, pyramids, and…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.Def.13-14",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/defI13.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

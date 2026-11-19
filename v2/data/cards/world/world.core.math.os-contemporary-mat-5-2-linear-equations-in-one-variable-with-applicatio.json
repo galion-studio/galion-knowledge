@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-5-2-linear-equations-in-one-variable-with-applicatio",
+  "title": "OpenStax Contemporary Mathematics, 5.2 Linear Equations in One Variable with Applications: Solve linear equations in one variable using properties of equations.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 5.2 Linear Equations in One Variable with Applications: Solve linear equations in one variable using properties of equations.",
+  "body": "OpenStax Contemporary Mathematics, section \"5.2 Linear Equations in One Variable with Applications\", prints these objectives: \"Solve linear equations in one variable using properties of equations.\" \"Construct a linear equation to solve applications.\" \"Determine equations with no solution or infinitely many solutions.\" \"Solve a formula for a given variable.\". The section text says: \"Solving any equation is like discovering the answer to a puzzle. The purpose of solving an equation is to find the value or values of the variable that makes the equation a true statement. Any value of the variable that makes the equation true is called a solution to the equation. It is the answer to the puzzle! There are many types of equations that we will learn to solve. In this section, we will focus on a linear equation , which is an equation in one variable that can be written as\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 5.2 Linear Equations in One Variable with Applications",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/5-2-linear-equations-in-one-variable-with-applications",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

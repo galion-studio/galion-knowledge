@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-5-2-the-definite-integral",
+  "title": "OpenStax Calculus Volume 1, 5.2 The Definite Integral: State the definition of the definite integral.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 5.2 The Definite Integral: State the definition of the definite integral.",
+  "body": "OpenStax Calculus Volume 1, section \"5.2 The Definite Integral\", prints these objectives: \"State the definition of the definite integral.\" \"Explain the terms integrand, limits of integration, and variable of integration.\" \"Explain when a function is integrable.\" \"Describe the relationship between the definite integral and net area.\" \"Use geometry and the properties of definite integrals to evaluate them.\" \"Calculate the average value of a function.\". The section text says: \"However, this definition came with restrictions. We required f ( x ) to be continuous and nonnegative. Unfortunately, real-world problems don’t always meet these restrictions. In this section, we look at how to apply the concept of the area under the curve to a broader set of functions through the use of the definite integral.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 5.2 The Definite Integral",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-eda-eda13",
+  "title": "NIST/SEMATECH handbook, 1.1.3. How Does Exploratory Data Analysis Differ from Summary Analysis?: How Does Exploratory Data Analysis Differ from Summary Analysis?",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 1.1.3. How Does Exploratory Data Analysis Differ from Summary Analysis?: How Does Exploratory Data Analysis Differ from Summary Analysis?",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"1.1.3. How Does Exploratory Data Analysis Differ from Summary Analysis?\" says: \"How Does Exploratory Data Analysis Differ from Summary Analysis? 1. Exploratory Data Analysis 1.1. EDA Introduction 1.1.3. How Does Exploratory Data Analysis Differ from Summary Analysis? Summary A summary analysis is simply a numeric reduction of a historical data set. It is quite passive. Its focus is in the past. Quite commonly, its purpose is to simply arrive at a few key statistics (for example, mean and standard deviation) which may then either replace the data set or be added to the data set in the form of a summary table. Exploratory In contrast, EDA has as its broadest goal the desire to gain insight into the engineering/scientific process behind the data. Whereas summary statistics are passive and historical, EDA is active and futuristic. In an attempt to \"understand\" the process and improve it in the future, EDA uses the data as a \"window\" to peer into the heart of the…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 1.1.3. How Does Exploratory Data Analysis Differ from Summary Analysis?",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section1/eda13.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

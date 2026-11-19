@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-1-4-inverse-functions",
+  "title": "OpenStax Calculus Volume 1, 1.4 Inverse Functions: Determine the conditions for when a function has an inverse.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 1.4 Inverse Functions: Determine the conditions for when a function has an inverse.",
+  "body": "OpenStax Calculus Volume 1, section \"1.4 Inverse Functions\", prints these objectives: \"Determine the conditions for when a function has an inverse.\" \"Use the horizontal line test to recognize when a function is one-to-one.\" \"Find the inverse of a given function.\" \"Draw the graph of an inverse function.\" \"Evaluate inverse trigonometric functions.\". The section text says: \"An inverse function reverses the operation done by a particular function. In other words, whatever a function does, the inverse function undoes it. In this section, we define an inverse function formally and state the necessary conditions for an inverse function to exist. We examine how to find an inverse function and study the relationship between the graph of a function and the graph of its inverse. Then we apply these ideas to define and discuss properties of the inverse trigonometric…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 1.4 Inverse Functions",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/1-4-inverse-functions",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

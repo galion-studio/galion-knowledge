@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-elementary-algebra-2e-10-1-solve-quadratic-equations-using-the-square",
+  "title": "OpenStax Elementary Algebra 2e, 10.1 Solve Quadratic Equations Using the Square Root Property: Solve quadratic equations of the form a x 2 = k using the Square Root Property",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Elementary Algebra 2e, 10.1 Solve Quadratic Equations Using the Square Root Property: Solve quadratic equations of the form a x 2 = k using the Square Root Property",
+  "body": "OpenStax Elementary Algebra 2e, section \"10.1 Solve Quadratic Equations Using the Square Root Property\", prints these objectives: \"Solve quadratic equations of the form a x 2 = k using the Square Root Property\" \"Solve quadratic equations of the form a ( x − h ) 2 = k using the Square Root Property\". The section text says: \"Quadratic equations are equations of the form a x 2 + b x + c = 0 , where a ≠ 0 . They differ from linear equations by including a term with the variable raised to the second power. We use different methods to solve quadratic equation s than linear equations, because just adding, subtracting, multiplying, and dividing terms will not isolate the variable.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Elementary Algebra 2e, 10.1 Solve Quadratic Equations Using the Square Root Property",
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/10-1-solve-quadratic-equations-using-the-square-root-property",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:algebra"
+  ]
+}

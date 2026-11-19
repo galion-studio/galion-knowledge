@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-pmd-pmd2",
+  "title": "NIST/SEMATECH handbook, 4.2. Underlying Assumptions for Process Modeling: Underlying Assumptions for Process Modeling Implicit Assumptions Underlie Most Actions Most, if not all…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 4.2. Underlying Assumptions for Process Modeling: Underlying Assumptions for Process Modeling Implicit Assumptions Underlie Most Actions Most, if not all…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"4.2. Underlying Assumptions for Process Modeling\" says: \"Underlying Assumptions for Process Modeling Implicit Assumptions Underlie Most Actions Most, if not all, thoughtful actions that people take are based on ideas, or assumptions, about how those actions will affect the goals they want to achieve. The actual assumptions used to decide on a particular course of action are rarely laid out explicitly, however. Instead, they are only implied by the nature of the action itself. Implicit assumptions are inherent to process modeling actions, just as they are to most other types of action. It is important to understand what the implicit assumptions are for any process modeling method because the validity of these assumptions affect whether or not the goals of the analysis will be met. Checking Assumptions Provides Feedback on Actions If the implicit assumptions that underlie a particular action are not true, then that action is not likely to meet…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 4.2. Underlying Assumptions for Process Modeling",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section2/pmd2.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

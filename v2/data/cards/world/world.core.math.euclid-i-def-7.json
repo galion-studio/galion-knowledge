@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-def-7",
+  "title": "Euclid I.Def.7: A plane surface is a surface which lies evenly with the straight lines on itself.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.Def.7: A plane surface is a surface which lies evenly with the straight lines on itself.",
+  "body": "Euclid, Book I, I.Def.7, as worded on this page: \"A plane surface is a surface which lies evenly with the straight lines on itself.\" David E. Joyce's guide on the same page says: \"We see now that a plane surface, usually abbreviated to the single word “plane,” is a kind of surface. Perhaps the remainder of the statement is a definition of content, but, if so, some words are missing. One interpretation often given is that if a plane surface contains two points, then it contains the line connecting the two points. If that were the meaning, then it would be just as well to make that the explicit definition or to make it a postulate. But that does not seem to be Euclid’s…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.Def.7",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/defI7.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

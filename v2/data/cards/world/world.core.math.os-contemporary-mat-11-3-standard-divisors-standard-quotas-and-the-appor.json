@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-11-3-standard-divisors-standard-quotas-and-the-appor",
+  "title": "OpenStax Contemporary Mathematics, 11.3 Standard Divisors, Standard Quotas, and the Apportionment Problem: Analyze the apportionment problem and applications to representation.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 11.3 Standard Divisors, Standard Quotas, and the Apportionment Problem: Analyze the apportionment problem and applications to representation.",
+  "body": "OpenStax Contemporary Mathematics, section \"11.3 Standard Divisors, Standard Quotas, and the Apportionment Problem\", prints these objectives: \"Analyze the apportionment problem and applications to representation.\" \"Evaluate applications of standard divisors.\" \"Evaluate applications of standard quotas.\". The section text says: \"Fair division of a resource is not necessarily equal division of the resource like when distributing cake slices. When distributing airport terminals amongst airlines, there are many factors to consider such as the size of the airline, the number and types of aircraft they have, and the demand for the service. In most cases, fairness is defined as being proportional ; two quantities are proportional if they have the same relative size. In the case of the Covid-19 vaccine, the expectation would…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 11.3 Standard Divisors, Standard Quotas, and the Apportionment Problem",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/11-3-standard-divisors-standard-quotas-and-the-apportionment-problem",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

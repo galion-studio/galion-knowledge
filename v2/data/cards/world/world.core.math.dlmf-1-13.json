@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-1-13",
+  "title": "DLMF 1.13 Differential Equations: A domain in the complex plane is simply-connected if it has no “holes”; more precisely, if its complement in the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 1.13 Differential Equations: A domain in the complex plane is simply-connected if it has no “holes”; more precisely, if its complement in the…",
+  "body": "NIST DLMF section 1.13 (Differential Equations) says: \"A domain in the complex plane is simply-connected if it has no “holes”; more precisely, if its complement in the extended plane \\mathbb{C}\\cup\\{\\infty\\} is connected. where z\\in D , a simply-connected domain, and f(z) , g(z) are analytic in D , has an infinite number of analytic solutions in D . A solution becomes unique, for example, when w and \\ifrac{\\mathrm{d}w}{\\mathrm{d}z} are prescribed at a point in D . Two solutions w_{1}(z) and w_{2}(z) are called a fundamental pair if any other solution w(z) is expressible as where A and B are constants. A fundamental pair can be obtained, for example, by taking any z_{0}\\in D and requiring that The Wronskian of w_{1}(z) and w_{2}(z) is defined by (More generally \\mathscr{W}\\left\\{w_{1}(z),\\ldots,w_{n}(z)\\right\\}=\\det\\left[w_{k}^{(j-1)}(z)\\right] , where 1\\leq j,k\\leq n .) Then the following relation is known as Abel’s identity where c is independent of z and f(z) is defined in ( 1.13.1 ). (More generally in ( 1.13.5 ) for n th-order differential equations, f(z) is the coefficient multiplying the (n-1) th-order derivative of the solution…\" Equation 1.13.1 on the page has alt text \"\\frac{{\\mathrm{d}}^{2}w}{{\\mathrm{d}z}^{2}}+f(z)\\frac{\\mathrm{d}w}{\\mathrm{d}z% }+g(z)w=0,\". Equation 1.13.2 on the page has alt text \"w(z)=Aw_{1}(z)+Bw_{2}(z),\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 1.13 Differential Equations",
+      "url": "https://dlmf.nist.gov/1.13",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

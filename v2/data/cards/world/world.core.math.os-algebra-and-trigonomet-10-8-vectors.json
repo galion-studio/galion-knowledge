@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-10-8-vectors",
+  "title": "OpenStax Algebra and Trigonometry 2e, 10.8 Vectors: View vectors geometrically.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 10.8 Vectors: View vectors geometrically.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"10.8 Vectors\", prints these objectives: \"View vectors geometrically.\" \"Find magnitude and direction.\" \"Perform vector addition and scalar multiplication.\" \"Find the component form of a vector.\" \"Find the unit vector in the direction of v .\" \"Perform operations with vectors in terms of i and j .\". The section text says: \"An airplane is flying at an airspeed of 200 miles per hour headed on a SE bearing of 140°. A north wind (from north to south) is blowing at 16.2 miles per hour, as shown in Figure 1 . What are the ground speed and actual bearing of the plane?\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 10.8 Vectors",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-8-vectors",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

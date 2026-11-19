@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-prealgebra-2e-6-4-solve-simple-interest-applications",
+  "title": "OpenStax Prealgebra 2e, 6.4 Solve Simple Interest Applications: Use the simple interest formula",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Prealgebra 2e, 6.4 Solve Simple Interest Applications: Use the simple interest formula",
+  "body": "OpenStax Prealgebra 2e, section \"6.4 Solve Simple Interest Applications\", prints these objectives: \"Use the simple interest formula\" \"Solve simple interest applications\". The section text says: \"Do you know that banks pay you to let them keep your money? The money you put in the bank is called the principal , P , and the bank pays you interest , I . The interest is computed as a certain percent of the principal; called the rate of interest , r . The rate of interest is usually expressed as a percent per year, and is calculated by using the decimal equivalent of the percent. The variable for time, t , represents the number of years the money is left in the account.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Prealgebra 2e, 6.4 Solve Simple Interest Applications",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/6-4-solve-simple-interest-applications",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:arithmetic"
+  ]
+}

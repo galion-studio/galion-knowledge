@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-44",
+  "title": "Euclid I.44: To a given straight line in a given rectilinear angle, to apply a parallelogram equal to a given triangle.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.44: To a given straight line in a given rectilinear angle, to apply a parallelogram equal to a given triangle.",
+  "body": "Euclid, Book I, I.44, as worded on this page: \"To a given straight line in a given rectilinear angle, to apply a parallelogram equal to a given triangle.\" The argument printed under that statement begins: \"Proposition 44 Let AB be the given straight line, D the given rectilinear angle, and C the given triangle. It is required to apply a parallelogram equal to the given triangle C to the given straight line AB in an angle equal to D. I.42 Construct the parallelogram BEFG equal to the triangle C in the angle EBG which equals D, and let it be placed so that BE is in a straight line with AB. I.Post.2 I.31 , I.Post.1 Draw FG through to H, and draw AH through A parallel to either BG or EF. Join HB. I.29 I.Post.5 Since the straight line HF falls upon the parallels AH and EF, therefore the sum of the angles AHF and HFE equals two right angles. Therefore the sum of the angles BHG and GFE is less than…\" David E. Joyce's guide on the same page says: \"There are two steps in this construction. The first uses proposition I.42 to construct some parallelogram with the correct angle equal to the given triangle. The second uses I.43 to change its length to the proper length. To “apply an area to a line in an angle” means just what this construction accomplishes, namely, to construct a parallelogram equal to that area with one side as the given line and one angle equal to the given angle. In practice the angle is often a right angle. The given line…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.44",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI44.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

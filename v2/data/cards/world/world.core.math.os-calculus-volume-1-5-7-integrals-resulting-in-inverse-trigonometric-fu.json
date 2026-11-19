@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-5-7-integrals-resulting-in-inverse-trigonometric-fu",
+  "title": "OpenStax Calculus Volume 1, 5.7 Integrals Resulting in Inverse Trigonometric Functions: Integrate functions resulting in inverse trigonometric functions",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 5.7 Integrals Resulting in Inverse Trigonometric Functions: Integrate functions resulting in inverse trigonometric functions",
+  "body": "OpenStax Calculus Volume 1, section \"5.7 Integrals Resulting in Inverse Trigonometric Functions\", prints these objectives: \"Integrate functions resulting in inverse trigonometric functions\". The section text says: \"In this section we focus on integrals that result in inverse trigonometric functions. We have worked with these functions before. Recall from Functions and Graphs that trigonometric functions are not one-to-one unless the domains are restricted. When working with inverses of trigonometric functions, we always need to be careful to take these restrictions into account. Also in Derivatives , we developed formulas for derivatives of inverse trigonometric functions. The formulas developed there…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 5.7 Integrals Resulting in Inverse Trigonometric Functions",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/5-7-integrals-resulting-in-inverse-trigonometric-functions",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-5-5-substitution",
+  "title": "OpenStax Calculus Volume 1, 5.5 Substitution: Use substitution to evaluate indefinite integrals.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 5.5 Substitution: Use substitution to evaluate indefinite integrals.",
+  "body": "OpenStax Calculus Volume 1, section \"5.5 Substitution\", prints these objectives: \"Use substitution to evaluate indefinite integrals.\" \"Use substitution to evaluate definite integrals.\". The section text says: \"The Fundamental Theorem of Calculus gave us a method to evaluate integrals without using Riemann sums. The drawback of this method, though, is that we must be able to find an antiderivative, and this is not always easy. In this section we examine a technique, called integration by substitution , to help us find antiderivatives. Specifically, this method helps us find antiderivatives when the integrand is the result of a chain-rule derivative.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 5.5 Substitution",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/5-5-substitution",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

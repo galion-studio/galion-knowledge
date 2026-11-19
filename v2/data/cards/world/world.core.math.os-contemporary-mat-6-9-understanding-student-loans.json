@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-6-9-understanding-student-loans",
+  "title": "OpenStax Contemporary Mathematics, 6.9 Understanding Student Loans: Describe how to obtain a student loan.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 6.9 Understanding Student Loans: Describe how to obtain a student loan.",
+  "body": "OpenStax Contemporary Mathematics, section \"6.9 Understanding Student Loans\", prints these objectives: \"Describe how to obtain a student loan.\" \"Distinguish between federal and private student loans and state distinctions.\" \"Understand the limits on student loans.\" \"Summarize the standard prepayment plan.\" \"Understand student loan consolidation.\" \"Summarize and describe benefits or drawbacks of other repayment plans.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 6.9 Understanding Student Loans",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/6-9-understanding-student-loans",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

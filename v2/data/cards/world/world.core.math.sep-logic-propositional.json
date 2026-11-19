@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logic-propositional",
+  "title": "The Stanford Encyclopedia entry \"Propositional Logic\" says: Propositional logic is the study of the meanings of, and the inferential relationships that hold among…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Propositional Logic\" says: Propositional logic is the study of the meanings of, and the inferential relationships that hold among…",
+  "body": "Franks, Curtis, in the Stanford Encyclopedia of Philosophy entry \"Propositional Logic\" says: \"Propositional logic is the study of the meanings of, and the inferential relationships that hold among, sentences based on the role that a specific class of logical operators called the propositional connectives have in determining those sentences’ truth or assertability conditions. As early as Aristotle it was observed that propositional connectives have a logical significance, and over many centuries piecemeal observations about some of their properties were made. But propositional logic per se did not emerge until the nineteenth century with the appreciation of the value of studying the behavior of propositional connectives in isolation of other operators.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Propositional Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logic-propositional/",
+      "author": "Franks, Curtis",
+      "date": "2023-05-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Franks, Curtis",
+  "as_of_date": "2023-05-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

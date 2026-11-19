@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-prc-prc34",
+  "title": "NIST/SEMATECH handbook, 7.3.4. Assuming the observations are failure times, are the failure rates (or Mean Times To Failure) for two distributions the same?: Assuming the observations are failure…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 7.3.4. Assuming the observations are failure times, are the failure rates (or Mean Times To Failure) for two distributions the same?: Assuming the observations are failure…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"7.3.4. Assuming the observations are failure times, are the failure rates (or Mean Times To Failure) for two distributions the same?\" says: \"Assuming the observations are failure times, are the failure rates (or Mean Times To Failure) for two distributions the same? 7. Product and Process Comparisons 7.3. Comparisons based on data from two processes 7.3.4. Assuming the observations are failure times, are the failure rates (or Mean Times To Failure) for two distributions the same? Comparing two exponential distributions is to compare the means or hazard rates The comparison of two (or more) life distributions is a common objective when performing statistical analyses of lifetime data. Here we look at the one-parameter exponential distribution case. In this case, comparing two exponential distributions is equivalent to comparing their means (or the reciprocal of their means, known as their hazard rates). Type II Censored data Definition of Type II censored data Definition : Type II censored data occur when a life test is…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 7.3.4. Assuming the observations are failure times, are the failure rates (or Mean Times To Failure) for two distributions the same?",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section3/prc34.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

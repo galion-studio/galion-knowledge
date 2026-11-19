@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logic-conditionals",
+  "title": "The Stanford Encyclopedia entry \"The Logic of Conditionals\" says: This article provides a survey of classic and recent work in conditional logic.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"The Logic of Conditionals\" says: This article provides a survey of classic and recent work in conditional logic.",
+  "body": "Egré, Paul, Rott, Hans, in the Stanford Encyclopedia of Philosophy entry \"The Logic of Conditionals\" says: \"This article provides a survey of classic and recent work in conditional logic. We review the problems of a two-valued analysis and examine logics based on richer semantic frameworks that have been proposed to deal with conditional sentences of the form “if A , B ,” including trivalent semantics, possible-world semantics, premise semantics, and probabilistic semantics. We go on to examine theories of conditionals involving belief revision, and highlight recent approaches based on the idea that a conditional is assertable provided the truth of its antecedent makes a relevant difference to that of its consequent. We close with a brief discussion of systems accounting for the interaction of conditionals with modalities and speech act operators.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Logic of Conditionals (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logic-conditionals/",
+      "author": "Egr&eacute;, Paul, Rott, Hans",
+      "date": "2021-07-03",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Egr&eacute;, Paul, Rott, Hans",
+  "as_of_date": "2021-07-03",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

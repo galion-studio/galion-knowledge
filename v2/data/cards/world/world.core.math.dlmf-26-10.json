@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-26-10",
+  "title": "DLMF 26.10 Integer Partitions: Other Restrictions: p\\left(\\mathcal{D},n\\right) denotes the number of partitions of n into distinct parts.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 26.10 Integer Partitions: Other Restrictions: p\\left(\\mathcal{D},n\\right) denotes the number of partitions of n into distinct parts.",
+  "body": "NIST DLMF section 26.10 (Integer Partitions: Other Restrictions) says: \"p\\left(\\mathcal{D},n\\right) denotes the number of partitions of n into distinct parts. p_{m}\\left(\\mathcal{D},n\\right) denotes the number of partitions of n into at most m distinct parts. p\\left(\\mathcal{D}k,n\\right) denotes the number of partitions of n into parts with difference at least k . p\\left(\\mathcal{D}^{\\prime}3,n\\right) denotes the number of partitions of n into parts with difference at least 3, except that multiples of 3 must differ by at least 6. p\\left(\\mathcal{O},n\\right) denotes the number of partitions of n into odd parts. p\\left(\\in\\!S,n\\right) denotes the number of partitions of n into parts taken from the set S . The set \\{n\\geq 1\\>|\\>n\\equiv\\pm j\\ \\pmod{k}\\} is denoted by A_{j,k} . The set \\{2,3,4,\\ldots\\} is denoted by T . If more than one restriction applies, then the restrictions are separated by commas, for example, p\\left(\\mathcal{D}2,\\hbox{}\\!\\!\\in\\!T,n\\right) . See Table 26.10.1 .\" Equation 26.10.1 on the page has alt text \"p\\left(\\mathcal{D},0\\right)=p\\left(\\mathcal{D}k,0\\right)=p\\left(\\in\\!S,0\\right% )=1.\". Equation 26.10.2 on the page has alt text \"\\sum_{n=0}^{\\infty}p\\left(\\mathcal{D},n\\right)q^{n}=\\prod_{j=1}^{\\infty}(1+q^{% j})=\\prod_{j=1}^{\\infty}\\frac{1}{1-q^{2j-1}}=1+\\sum_{m=1}^{\\infty}\\frac{q^{m(m%…\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 26.10 Integer Partitions: Other Restrictions",
+      "url": "https://dlmf.nist.gov/26.10",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:combinatorics"
+  ]
+}

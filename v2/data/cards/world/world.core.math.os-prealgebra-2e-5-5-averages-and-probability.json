@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-prealgebra-2e-5-5-averages-and-probability",
+  "title": "OpenStax Prealgebra 2e, 5.5 Averages and Probability: Calculate the mean of a set of numbers",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Prealgebra 2e, 5.5 Averages and Probability: Calculate the mean of a set of numbers",
+  "body": "OpenStax Prealgebra 2e, section \"5.5 Averages and Probability\", prints these objectives: \"Calculate the mean of a set of numbers\" \"Find the median of a set of numbers\" \"Find the mode of a set of numbers\" \"Apply the basic definition of probability\". The section text says: \"One application of decimals that arises often is finding the average of a set of numbers. What do you think of when you hear the word average ? Is it your grade point average, the average rent for an apartment in your city, the batting average of a player on your favorite baseball team? The average is a typical value in a set of numerical data. Calculating an average sometimes involves working with decimal numbers. In this section, we will look at three different ways to calculate an average.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Prealgebra 2e, 5.5 Averages and Probability",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-5-averages-and-probability",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:arithmetic"
+  ]
+}

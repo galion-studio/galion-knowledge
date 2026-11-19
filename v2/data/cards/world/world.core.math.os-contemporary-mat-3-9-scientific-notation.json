@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-3-9-scientific-notation",
+  "title": "OpenStax Contemporary Mathematics, 3.9 Scientific Notation: Write numbers in standard or scientific notation.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 3.9 Scientific Notation: Write numbers in standard or scientific notation.",
+  "body": "OpenStax Contemporary Mathematics, section \"3.9 Scientific Notation\", prints these objectives: \"Write numbers in standard or scientific notation.\" \"Convert numbers between standard and scientific notation.\" \"Add and subtract numbers in scientific notation.\" \"Multiply and divide numbers in scientific notation.\" \"Use scientific notation in computing real-world applications.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 3.9 Scientific Notation",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/3-9-scientific-notation",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-6-5-logarithmic-properties",
+  "title": "OpenStax Algebra and Trigonometry 2e, 6.5 Logarithmic Properties: Use the product rule for logarithms.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 6.5 Logarithmic Properties: Use the product rule for logarithms.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"6.5 Logarithmic Properties\", prints these objectives: \"Use the product rule for logarithms.\" \"Use the quotient rule for logarithms.\" \"Use the power rule for logarithms.\" \"Expand logarithmic expressions.\" \"Condense logarithmic expressions.\" \"Use the change-of-base formula for logarithms.\". The section text says: \"In chemistry, pH is used as a measure of the acidity or alkalinity of a substance. The pH scale runs from 0 to 14. Substances with a pH less than 7 are considered acidic, and substances with a pH greater than 7 are said to be basic. Our bodies, for instance, must maintain a pH close to 7.35 in order for enzymes to work properly. To get a feel for what is acidic and what is basic, consider the following pH levels of some common substances:\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 6.5 Logarithmic Properties",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/6-5-logarithmic-properties",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

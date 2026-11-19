@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logic-paraconsistent",
+  "title": "The Stanford Encyclopedia entry \"Paraconsistent Logic\" says: A logical consequence relation is explosive if according to it any arbitrary contradiction \\(A\\), \\(\\neg A\\)…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Paraconsistent Logic\" says: A logical consequence relation is explosive if according to it any arbitrary contradiction \\(A\\), \\(\\neg A\\)…",
+  "body": "Priest, Graham, Tanaka, Koji, Weber, Zach, in the Stanford Encyclopedia of Philosophy entry \"Paraconsistent Logic\" says: \"A logical consequence relation is explosive if according to it any arbitrary contradiction \\(A\\), \\(\\neg A\\) entails any arbitrary conclusion \\(B\\) ( ex contradictione quodlibet (ECQ)). Classical logic, and most standard non-classical logics too such as intuitionist logic, are explosive. Inconsistency, according to a standard view about logic, cannot be coherently reasoned about.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Paraconsistent Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logic-paraconsistent/",
+      "author": "Priest, Graham, Tanaka, Koji, Weber, Zach",
+      "date": "1996-09-24",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Priest, Graham, Tanaka, Koji, Weber, Zach",
+  "as_of_date": "2026-04-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

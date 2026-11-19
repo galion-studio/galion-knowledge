@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-mpc-mpc56",
+  "title": "NIST/SEMATECH handbook, 2.5.6. Uncertainty budgets and sensitivity coefficients: Uncertainty budgets and sensitivity coefficients Case study showing uncertainty budget Uncertainty components…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 2.5.6. Uncertainty budgets and sensitivity coefficients: Uncertainty budgets and sensitivity coefficients Case study showing uncertainty budget Uncertainty components…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"2.5.6. Uncertainty budgets and sensitivity coefficients\" says: \"Uncertainty budgets and sensitivity coefficients Case study showing uncertainty budget Uncertainty components are listed in a table along with their corresponding sensitivity coefficients, standard deviations and degrees of freedom. A table of typical entries illustrates the concept. Typical budget of type A and type B uncertainty components Type A components Sensitivity coefficient Standard deviation Degrees freedom 1. Time (repeatability) \\(a_1\\) --> \\(s_1\\) --> \\(\\nu_1\\) v1 --> 2. Time (reproducibility) \\(a_2\\) --> \\(s_2\\) --> \\(\\nu_2\\) v2 --> 3. Time (long-term) \\(a_3\\) --> \\(s_3\\) --> \\(\\nu_3\\) v3 --> Type B components 4. Reference standard (nominal test / nominal ref) \\(s_4\\) --> \\(\\nu_4\\) v4 --> Sensitivity coefficients show how components are related to result The sensitivity coefficient shows the relationship of the individual uncertainty component…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 2.5.6. Uncertainty budgets and sensitivity coefficients",
+      "url": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc56.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:measurement"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-12-1-graph-basics",
+  "title": "OpenStax Contemporary Mathematics, 12.1 Graph Basics: Identify parts of a graph.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 12.1 Graph Basics: Identify parts of a graph.",
+  "body": "OpenStax Contemporary Mathematics, section \"12.1 Graph Basics\", prints these objectives: \"Identify parts of a graph.\" \"Model applications of graph basics.\". The section text says: \"In a graph , the objects are represented with dots and their connections are represented with lines like those in Figure 12.3 . Figure 12.3 displays a simple graph labeled G and a multigraph labeled H . The dots are called vertices ; an individual dot is a vertex , which is one object of a set of objects, some of which may be connected. We often label vertices with letters. For example, Graph G has vertices a, b, c , and d , and Multigraph H has vertices, e, f, g , and h . Each line segment or…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 12.1 Graph Basics",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/12-1-graph-basics",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

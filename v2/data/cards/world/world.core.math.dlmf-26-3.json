@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-26-3",
+  "title": "DLMF 26.3 Lattice Paths: Binomial Coefficients: \\genfrac{(}{)}{0.0pt}{}{m}{n} is the number of ways of choosing n objects from a collection of m distinct objects…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 26.3 Lattice Paths: Binomial Coefficients: \\genfrac{(}{)}{0.0pt}{}{m}{n} is the number of ways of choosing n objects from a collection of m distinct objects…",
+  "body": "NIST DLMF section 26.3 (Lattice Paths: Binomial Coefficients) says: \"\\genfrac{(}{)}{0.0pt}{}{m}{n} is the number of ways of choosing n objects from a collection of m distinct objects without regard to order. \\genfrac{(}{)}{0.0pt}{}{m+n}{n} is the number of lattice paths from (0,0) to (m,n) . See also 1.2(i) . The number of lattice paths from (0,0) to (m,n) , m\\leq n , that stay on or above the line y=x is \\genfrac{(}{)}{0.0pt}{}{m+n}{m}-\\genfrac{(}{)}{0.0pt}{}{m+n}{m-1}. For numerical values of \\genfrac{(}{)}{0.0pt}{}{m}{n} and \\genfrac{(}{)}{0.0pt}{}{m+n}{n} see Tables 26.3.1 and 26.3.2 .\" Equation 26.3.1 on the page has alt text \"\\genfrac{(}{)}{0.0pt}{}{m}{n}=\\genfrac{(}{)}{0.0pt}{}{m}{m-n}=\\frac{m!}{(m-n)!% \\,n!},\". Equation 26.3.2 on the page has alt text \"\\genfrac{(}{)}{0.0pt}{}{m}{n}=0,\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 26.3 Lattice Paths: Binomial Coefficients",
+      "url": "https://dlmf.nist.gov/26.3",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:combinatorics"
+  ]
+}

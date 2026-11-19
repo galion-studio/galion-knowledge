@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-prealgebra-2e-5-1-decimals",
+  "title": "OpenStax Prealgebra 2e, 5.1 Decimals: Name decimals",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Prealgebra 2e, 5.1 Decimals: Name decimals",
+  "body": "OpenStax Prealgebra 2e, section \"5.1 Decimals\", prints these objectives: \"Name decimals\" \"Write decimals\" \"Convert decimals to fractions or mixed numbers\" \"Locate decimals on the number line\" \"Order decimals\" \"Round decimals\". The section text says: \"You probably already know quite a bit about decimals based on your experience with money. Suppose you buy a sandwich and a bottle of water for lunch. If the sandwich costs $3.45 , the bottle of water costs $1.25 , and the total sales tax is $0.33 , what is the total cost of your lunch?\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Prealgebra 2e, 5.1 Decimals",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:arithmetic"
+  ]
+}

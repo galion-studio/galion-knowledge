@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-4-5-derivatives-and-the-shape-of-a-graph",
+  "title": "OpenStax Calculus Volume 1, 4.5 Derivatives and the Shape of a Graph: Explain how the sign of the first derivative affects the shape of a function’s graph.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 4.5 Derivatives and the Shape of a Graph: Explain how the sign of the first derivative affects the shape of a function’s graph.",
+  "body": "OpenStax Calculus Volume 1, section \"4.5 Derivatives and the Shape of a Graph\", prints these objectives: \"Explain how the sign of the first derivative affects the shape of a function’s graph.\" \"State the first derivative test for critical points.\" \"Use concavity and inflection points to explain how the sign of the second derivative affects the shape of a function’s graph.\" \"Explain the concavity test for a function over an open interval.\" \"Explain the relationship between a function and its first and second derivatives.\" \"State the second derivative test for local extrema.\". The section text says: \"Earlier in this chapter we stated that if a function f has a local extremum at a point c , then c must be a critical point of f . However, a function is not guaranteed to have a local extremum at a critical point. For example, f ( x ) = x 3 has a critical point at x = 0 since f ′ ( x ) = 3 x 2 is zero at x = 0 , but f does not have a local extremum at x = 0 . Using the results from the previous section, we are now able to determine whether a critical point of a function actually corresponds to…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 4.5 Derivatives and the Shape of a Graph",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/4-5-derivatives-and-the-shape-of-a-graph",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

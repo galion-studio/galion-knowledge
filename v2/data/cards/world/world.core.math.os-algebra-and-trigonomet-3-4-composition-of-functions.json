@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-3-4-composition-of-functions",
+  "title": "OpenStax Algebra and Trigonometry 2e, 3.4 Composition of Functions: Combine functions using algebraic operations.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 3.4 Composition of Functions: Combine functions using algebraic operations.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"3.4 Composition of Functions\", prints these objectives: \"Combine functions using algebraic operations.\" \"Create a new function by composition of functions.\" \"Evaluate composite functions.\" \"Find the domain of a composite function.\" \"Decompose a composite function into its component functions.\". The section text says: \"Suppose we want to calculate how much it costs to heat a house on a particular day of the year. The cost to heat a house will depend on the average daily temperature, and in turn, the average daily temperature depends on the particular day of the year. Notice how we have just defined two relationships: The cost depends on the temperature, and the temperature depends on the day.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 3.4 Composition of Functions",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-4-composition-of-functions",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

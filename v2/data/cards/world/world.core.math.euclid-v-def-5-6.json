@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-v-def-5-6",
+  "title": "Euclid V.Def.5-6: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever are taken of…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid V.Def.5-6: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever are taken of…",
+  "body": "Euclid, Book V, V.Def.5-6, as worded on this page: \"Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever are taken of the first and third, and any equimultiples whatever of the second and fourth, the former equimultiples alike exceed, are alike equal to, or alike fall short of, the latter equimultiples respectively taken in corresponding order. Let magnitudes which have the same ratio be called proportional.\" David E. Joyce's guide on the same page says: \"Definition 5 defines two ratios w : x and y : z to be the same, written w : x = y : z, when for all numbers n and m it is the case that if nw is greater, equal, or less than mx, then ny is greater, equal, or less than mz, respectively, that is, if nw > mx, then ny > mz, if nw = mx, then ny = mz, and if nw mx, then ny mz. It is very convenient to use the shorter notation if nw >= mx, then ny >= mz. Note that whenever the symbol >= The four magnitudes do not all have to be of the same kind, but…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book V, V.Def.5-6",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookV/defV5.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:algebra"
+  ]
+}

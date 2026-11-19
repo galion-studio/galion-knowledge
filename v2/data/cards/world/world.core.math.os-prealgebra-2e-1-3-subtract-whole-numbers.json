@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-prealgebra-2e-1-3-subtract-whole-numbers",
+  "title": "OpenStax Prealgebra 2e, 1.3 Subtract Whole Numbers: Use subtraction notation",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Prealgebra 2e, 1.3 Subtract Whole Numbers: Use subtraction notation",
+  "body": "OpenStax Prealgebra 2e, section \"1.3 Subtract Whole Numbers\", prints these objectives: \"Use subtraction notation\" \"Model subtraction of whole numbers\" \"Subtract whole numbers\" \"Translate word phrases to math notation\" \"Subtract whole numbers in applications\". The section text says: \"Suppose there are seven bananas in a bowl. Elana uses three of them to make a smoothie. How many bananas are left in the bowl? To answer the question, we subtract three from seven. When we subtract, we take one number away from another to find the difference . The notation we use to subtract 3 from 7 is\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Prealgebra 2e, 1.3 Subtract Whole Numbers",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/1-3-subtract-whole-numbers",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:arithmetic"
+  ]
+}

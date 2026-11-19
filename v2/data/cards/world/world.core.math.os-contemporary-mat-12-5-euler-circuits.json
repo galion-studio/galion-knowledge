@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-12-5-euler-circuits",
+  "title": "OpenStax Contemporary Mathematics, 12.5 Euler Circuits: Determine if a graph is connected.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 12.5 Euler Circuits: Determine if a graph is connected.",
+  "body": "OpenStax Contemporary Mathematics, section \"12.5 Euler Circuits\", prints these objectives: \"Determine if a graph is connected.\" \"State the Chinese postman problem.\" \"Describe and identify Euler Circuits.\" \"Apply the Euler Circuits Theorem.\" \"Eulerize graphs in real-world applications.\". The section text says: \"We can give an alternate definition of connected and disconnected using the idea of components. A graph is connected if it has only one component. A graph is disconnected if it has more than one component. These alternate definitions are equivalent to the previous definitions. This means that you can confirm a graph is connected or disconnected either by checking to see if there is a path between each vertex and each other vertex, or by identifying the number of components. A graph is connected…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 12.5 Euler Circuits",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/12-5-euler-circuits",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

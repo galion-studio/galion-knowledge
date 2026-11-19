@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-4-10",
+  "title": "DLMF 4.10 Integrals: The left-hand side of ( 4.10.7 ) is a Cauchy principal value (§ 1.4(v) ).",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 4.10 Integrals: The left-hand side of ( 4.10.7 ) is a Cauchy principal value (§ 1.4(v) ).",
+  "body": "NIST DLMF section 4.10 (Integrals) says: \"The left-hand side of ( 4.10.7 ) is a Cauchy principal value (§ 1.4(v) ). For \\operatorname{li}\\left(x\\right) see § 6.2(i) . Extensive compendia of indefinite and definite integrals of logarithms and exponentials include Apelblat ( 1983 , pp. 16–47) , Bierens de Haan ( 1939 ) , Gröbner and Hofreiter ( 1949 , pp. 107–116) , Gröbner and Hofreiter ( 1950 , pp. 52–90) , Gradshteyn and Ryzhik ( 2015 , Chapters 2–4) , and Prudnikov et al. ( 1986a , §§1.3, 1.6, 2.3, 2.6) .\" Equation 4.10.1 on the page has alt text \"\\int\\frac{\\,\\mathrm{d}z}{z}=\\ln z,\". Equation 4.10.2 on the page has alt text \"\\int\\ln z\\,\\mathrm{d}z=z\\ln z-z,\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 4.10 Integrals",
+      "url": "https://dlmf.nist.gov/4.10",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

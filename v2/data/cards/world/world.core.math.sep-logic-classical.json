@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logic-classical",
+  "title": "The Stanford Encyclopedia entry \"Classical Logic\" says: Typically, a logic consists of a formal or informal language together with a deductive system and/or a…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Classical Logic\" says: Typically, a logic consists of a formal or informal language together with a deductive system and/or a…",
+  "body": "Shapiro, Stewart, Kouri Kissel, Teresa, in the Stanford Encyclopedia of Philosophy entry \"Classical Logic\" says: \"Typically, a logic consists of a formal or informal language together with a deductive system and/or a model-theoretic semantics. The language has components that correspond to a part of a natural language like English or Greek. The deductive system is to capture, codify, or simply record arguments that are valid for the given language, and the semantics is to capture, codify, or record the meanings, or truth-conditions for at least part of the language.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Classical Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logic-classical/",
+      "author": "Shapiro, Stewart, Kouri Kissel, Teresa",
+      "date": "2000-09-16",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Shapiro, Stewart, Kouri Kissel, Teresa",
+  "as_of_date": "2026-06-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

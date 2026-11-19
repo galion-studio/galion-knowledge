@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-10-6-parametric-equations",
+  "title": "OpenStax Algebra and Trigonometry 2e, 10.6 Parametric Equations: Parameterize a curve.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 10.6 Parametric Equations: Parameterize a curve.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"10.6 Parametric Equations\", prints these objectives: \"Parameterize a curve.\" \"Eliminate the parameter.\" \"Find a rectangular equation for a curve defined parametrically.\" \"Find parametric equations for curves defined by rectangular equations.\". The section text says: \"Consider the path a moon follows as it orbits a planet, which simultaneously rotates around the sun, as seen in Figure 1 . At any moment, the moon is located at a particular spot relative to the planet. But how do we write and solve the equation for the position of the moon when the distance from the planet, the speed of the moon’s orbit around the planet, and the speed of rotation around the sun are all unknowns? We can solve only for one variable at a time.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 10.6 Parametric Equations",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-6-parametric-equations",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

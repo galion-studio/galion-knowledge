@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-2-5-equivalent-statements",
+  "title": "OpenStax Contemporary Mathematics, 2.5 Equivalent Statements: Determine whether two statements are logically equivalent using a truth table.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 2.5 Equivalent Statements: Determine whether two statements are logically equivalent using a truth table.",
+  "body": "OpenStax Contemporary Mathematics, section \"2.5 Equivalent Statements\", prints these objectives: \"Determine whether two statements are logically equivalent using a truth table.\" \"Compose the converse, inverse, and contrapositive of a conditional statement\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 2.5 Equivalent Statements",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/2-5-equivalent-statements",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

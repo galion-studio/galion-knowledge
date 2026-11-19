@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-3-6-numerical-integration",
+  "title": "OpenStax Calculus Volume 2, 3.6 Numerical Integration: Approximate the value of a definite integral by using the midpoint and trapezoidal rules.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 3.6 Numerical Integration: Approximate the value of a definite integral by using the midpoint and trapezoidal rules.",
+  "body": "OpenStax Calculus Volume 2, section \"3.6 Numerical Integration\", prints these objectives: \"Approximate the value of a definite integral by using the midpoint and trapezoidal rules.\" \"Determine the absolute and relative error in using a numerical integration technique.\" \"Estimate the absolute and relative error using an error-bound formula.\" \"Recognize when the midpoint and trapezoidal rules over- or underestimate the true value of an integral.\" \"Use Simpson’s rule to approximate the value of a definite integral to a given accuracy.\". The section text says: \"The antiderivatives of many functions either cannot be expressed or cannot be expressed easily in closed form (that is, in terms of known functions). Consequently, rather than evaluate definite integrals of these functions directly, we resort to various techniques of numerical integration to approximate their values. In this section we explore several of these techniques. In addition, we examine the process of estimating the error in using these techniques.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 3.6 Numerical Integration",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/3-6-numerical-integration",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

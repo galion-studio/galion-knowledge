@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xi-def-12-13",
+  "title": "Euclid XI.Def.12-13: A pyramid is a solid figure contained by planes which is constructed from one plane to one point.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XI.Def.12-13: A pyramid is a solid figure contained by planes which is constructed from one plane to one point.",
+  "body": "Euclid, Book XI, XI.Def.12-13, as worded on this page: \"A pyramid is a solid figure contained by planes which is constructed from one plane to one point. A prism is a solid figure contained by planes two of which, namely those which are opposite, are equal, similar, and parallel, while the rest are parallelograms.\" The argument printed under that statement begins: \"Definition 12 Definition 13 In the diagram below, ABCD is a pyramid with vertex D and triangular base ABC. Since it’s a tetrahedron, it’s still a triangular pyramid when any of the other three sides is considered the base. Also, EFGHKL is a prism with opposite triangular sides EFG and HKL. Definition 12 for pyramids is rather abbreviated, but the intention is clear. Note that in definition 13 the term “equal and similar” is used for congruence of plane figures. Prisms, by that name, are first discussed in proposition XI.39 . Pyramids are treated in propositions XII.3 through XII.9 in Book XII .\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XI, XI.Def.12-13",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXI/defXI12.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-26-17",
+  "title": "DLMF 26.17 The Twelvefold Way: The twelvefold way gives the number of mappings f from set N of n objects to set K of k objects (putting balls from set…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 26.17 The Twelvefold Way: The twelvefold way gives the number of mappings f from set N of n objects to set K of k objects (putting balls from set…",
+  "body": "NIST DLMF section 26.17 (The Twelvefold Way) says: \"The twelvefold way gives the number of mappings f from set N of n objects to set K of k objects (putting balls from set N into boxes in set K ). See Table 26.17.1 . In this table {\\left(k\\right)_{n}} is Pochhammer’s symbol, and S\\left(n,k\\right) and p_{k}\\left(n\\right) are defined in §§ 26.8(i) and 26.9(i) . Table 26.17.1 is reproduced (in modified form) from Stanley ( 1997 , p. 33) . See also Example 3 in § 26.18 .\" This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 26.17 The Twelvefold Way",
+      "url": "https://dlmf.nist.gov/26.17",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:combinatorics"
+  ]
+}

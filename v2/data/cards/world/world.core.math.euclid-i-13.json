@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-13",
+  "title": "Euclid I.13: If a straight line stands on a straight line, then it makes either two right angles or angles whose sum equals two right angles.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.13: If a straight line stands on a straight line, then it makes either two right angles or angles whose sum equals two right angles.",
+  "body": "Euclid, Book I, I.13, as worded on this page: \"If a straight line stands on a straight line, then it makes either two right angles or angles whose sum equals two right angles.\" The argument printed under that statement begins: \"Proposition 13 Let any straight line AB standing on the straight line CD make the angles CBA and ABD. I say that either the angles CBA and ABD are two right angles or their sum equals two right angles. I.Def.10 Now, if the angle CBA equals the angle ABD, then they are two right angles. I.11 But, if not, draw BE from the point B at right angles to CD. Therefore the angles CBE and EBD are two right angles. C.N.2 Since the angle CBE equals the sum of the two angles CBA and ABE, add the angle EBD to each, therefore the sum of the angles CBE and EBD equals the sum of the three angles CBA, ABE, and EBD. C.N.2 Again, since the angle DBA equals the sum of the two angles DBE and EBA, add the angle…\" David E. Joyce's guide on the same page says: \"With this proposition, we begin to see what the arithmetic of magnitudes means to Euclid, in particular, how to add angles. Euclid says that the angle CBE equals the sum of the two angles CBA and ABE. So, one way a sum of angles occurs is when the two angles have a common vertex ( B in this case) and a common side ( BA in this case), and the angles lie on opposite sides of their common side. Thus, addition of angles can be performed by joining adjacent angles. But that’s not the only addition…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.13",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI13.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

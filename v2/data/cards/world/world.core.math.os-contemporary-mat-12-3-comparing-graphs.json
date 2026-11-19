@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-12-3-comparing-graphs",
+  "title": "OpenStax Contemporary Mathematics, 12.3 Comparing Graphs: Identify the characteristics used to compare graphs.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 12.3 Comparing Graphs: Identify the characteristics used to compare graphs.",
+  "body": "OpenStax Contemporary Mathematics, section \"12.3 Comparing Graphs\", prints these objectives: \"Identify the characteristics used to compare graphs.\" \"Determine when two graphs represent the same relationships\" \"Explore real-world examples of graph isomorphisms\" \"Find the complement of a graph\". The section text says: \"Maps of the same region may not always look the same. For example, a map of Earth on a flat surface looks distorted at the poles. When the same regions are mapped on a spherical globe, the countries that are closer to the polls appear smaller without the distortion. Despite these differences, the two maps still communicate the same relationships between nations such as shared boundaries, and relative position on the earth. In essence, they are the same map. This means that for every point on…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 12.3 Comparing Graphs",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/12-3-comparing-graphs",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-27-10",
+  "title": "DLMF 27.10 Periodic Number-Theoretic Functions: If k is a fixed positive integer, then a number-theoretic function f is periodic (mod k ) if",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 27.10 Periodic Number-Theoretic Functions: If k is a fixed positive integer, then a number-theoretic function f is periodic (mod k ) if",
+  "body": "NIST DLMF section 27.10 (Periodic Number-Theoretic Functions) says: \"If k is a fixed positive integer, then a number-theoretic function f is periodic (mod k ) if Examples are the Dirichlet characters (mod k ) and the greatest common divisor \\left(n,k\\right) regarded as a function of n . Every function periodic (mod k ) can be expressed as a finite Fourier series of the form where g(m) is also periodic (mod k ), and is given by where \\chi_{1} is the principal character (mod k ). This is the sum of the n th powers of the primitive k th roots of unity. It can also be expressed in terms of the Möbius function as a divisor sum: More generally, if f and g are arbitrary, then the sum is a periodic function of n\\pmod{k} and has the finite Fourier-series expansion Another generalization of Ramanujan’s sum is the Gauss sum G\\left(n,\\chi\\right) associated with a Dirichlet character \\chi\\pmod{k} . It is defined by the relation In particular, G\\left(n,\\chi_{1}\\right)=c_{k}\\left(n\\right) .\" Equation 27.10.1 on the page has alt text \"f(n+k)=f(n),\". Equation 27.10.2 on the page has alt text \"f(n)=\\sum_{m=1}^{k}g(m)e^{2\\pi\\mathrm{i}mn/k},\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 27.10 Periodic Number-Theoretic Functions",
+      "url": "https://dlmf.nist.gov/27.10",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

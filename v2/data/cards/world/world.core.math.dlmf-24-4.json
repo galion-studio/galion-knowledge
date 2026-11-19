@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-24-4",
+  "title": "DLMF 24.4 Basic Properties: Let P(x) denote any polynomial in x , and after expanding set (B(x))^{n}=B_{n}\\left(x\\right) and…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 24.4 Basic Properties: Let P(x) denote any polynomial in x , and after expanding set (B(x))^{n}=B_{n}\\left(x\\right) and…",
+  "body": "NIST DLMF section 24.4 (Basic Properties) says: \"Let P(x) denote any polynomial in x , and after expanding set (B(x))^{n}=B_{n}\\left(x\\right) and (E(x))^{n}=E_{n}\\left(x\\right) . Then For these results and also connections with the umbral calculus see Gessel ( 2003 ) . For the relation of Bernoulli numbers to the Riemann zeta function see § 25.6 , and to the Eulerian numbers see ( 26.14.11 ).\" Equation 24.4.18 on the page has alt text \"B_{n}\\left(mx\\right)=m^{n-1}\\sum_{k=0}^{m-1}B_{n}\\left(x+\\frac{k}{m}\\right).\". Equation 24.4.19 on the page has alt text \"E_{n}\\left(mx\\right)=-\\frac{2m^{n}}{n+1}\\sum_{k=0}^{m-1}(-1)^{k}B_{n+1}\\left(x% +\\frac{k}{m}\\right),\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 24.4 Basic Properties",
+      "url": "https://dlmf.nist.gov/24.4",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

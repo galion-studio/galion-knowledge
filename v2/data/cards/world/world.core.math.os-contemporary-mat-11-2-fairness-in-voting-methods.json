@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-11-2-fairness-in-voting-methods",
+  "title": "OpenStax Contemporary Mathematics, 11.2 Fairness in Voting Methods: Compare and contrast fairness of voting using majority criterion.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 11.2 Fairness in Voting Methods: Compare and contrast fairness of voting using majority criterion.",
+  "body": "OpenStax Contemporary Mathematics, section \"11.2 Fairness in Voting Methods\", prints these objectives: \"Compare and contrast fairness of voting using majority criterion.\" \"Compare and contrast fairness of voting using head-to-head criterion.\" \"Compare and contrast fairness of voting using monotonicity criterion.\" \"Compare and contrast fairness of voting using irrelevant alternatives criterion.\" \"Apply Arrow’s Impossibility Theorem when evaluating voting fairness.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 11.2 Fairness in Voting Methods",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/11-2-fairness-in-voting-methods",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

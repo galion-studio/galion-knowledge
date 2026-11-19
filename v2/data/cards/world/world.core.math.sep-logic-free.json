@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logic-free",
+  "title": "The Stanford Encyclopedia entry \"Free Logic\" says: In most general terms, free logic is concerned with names that do not denote.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Free Logic\" says: In most general terms, free logic is concerned with names that do not denote.",
+  "body": "Gratzl, Norbert, Pavlović, Edi, Nolt, John, in the Stanford Encyclopedia of Philosophy entry \"Free Logic\" says: \"In most general terms, free logic is concerned with names that do not denote. Classical logic requires each singular term to denote an object in the domain of quantification — which is usually understood as the set of “existing” objects. Free logic does not. Free logic is therefore useful for analyzing discourse containing singular terms that either are or might be empty. Varying conventions for calculating the truth values of atomic formulas containing empty singular terms yield three distinct forms of free logic: negative, positive and neutral, which is why we commonly refer to them as free logics (in the plural) instead.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Free Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logic-free/",
+      "author": "Gratzl, Norbert, Pavlovi&#263;, Edi, Nolt, John",
+      "date": "2010-04-05",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Gratzl, Norbert, Pavlovi&#263;, Edi, Nolt, John",
+  "as_of_date": "2025-06-19",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

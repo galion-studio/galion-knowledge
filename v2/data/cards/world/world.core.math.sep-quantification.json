@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-quantification",
+  "title": "The Stanford Encyclopedia entry \"Quantifiers and Quantification\" says: Quantifier expressions are marks of generality.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Quantifiers and Quantification\" says: Quantifier expressions are marks of generality.",
+  "body": "Uzquiano, Gabriel, in the Stanford Encyclopedia of Philosophy entry \"Quantifiers and Quantification\" says: \"Quantifier expressions are marks of generality. They come in many syntactic categories in English, but determiners like “all”, “each”, “some”, “many”, “most”, and “few” provide some of the most common examples of quantification. [ 1 ] In English, they combine with singular or plural nouns, sometimes qualified by adjectives or relative clauses, to form explicitly restricted quantifier phrases such as “some apples”, “every material object”, or “most planets”. These quantifier phrases may in turn combine with predicates in order to form sentences such as “some apples are delicious”, “every material object is extended”, or “most planets are visible to the naked eye”. We may conceive of determiners like “every” and “some” as binary quantifiers of the form \\(Q(A,B)\\), which may operate on two predicates, \\(A\\) and \\(B\\), in order to form a sentence.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Quantifiers and Quantification (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/quantification/",
+      "author": "Uzquiano, Gabriel",
+      "date": "2014-09-03",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Uzquiano, Gabriel",
+  "as_of_date": "2022-12-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

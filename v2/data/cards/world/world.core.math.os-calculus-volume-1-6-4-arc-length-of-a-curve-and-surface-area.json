@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-6-4-arc-length-of-a-curve-and-surface-area",
+  "title": "OpenStax Calculus Volume 1, 6.4 Arc Length of a Curve and Surface Area: Determine the length of a curve, y = f ( x ) , between two points.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 6.4 Arc Length of a Curve and Surface Area: Determine the length of a curve, y = f ( x ) , between two points.",
+  "body": "OpenStax Calculus Volume 1, section \"6.4 Arc Length of a Curve and Surface Area\", prints these objectives: \"Determine the length of a curve, y = f ( x ) , between two points.\" \"Determine the length of a curve, x = g ( y ) , between two points.\" \"Find the surface area of a solid of revolution.\". The section text says: \"In this section, we use definite integrals to find the arc length of a curve. We can think of arc length as the distance you would travel if you were walking along the path of the curve. Many real-world applications involve arc length. If a rocket is launched along a parabolic path, we might want to know how far the rocket travels. Or, if a curve on a map represents a road, we might want to know how far we have to drive to reach our destination.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 6.4 Arc Length of a Curve and Surface Area",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/6-4-arc-length-of-a-curve-and-surface-area",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

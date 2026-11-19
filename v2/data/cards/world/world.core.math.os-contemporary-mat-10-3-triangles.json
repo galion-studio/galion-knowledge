@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-10-3-triangles",
+  "title": "OpenStax Contemporary Mathematics, 10.3 Triangles: Identify triangles by their sides.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 10.3 Triangles: Identify triangles by their sides.",
+  "body": "OpenStax Contemporary Mathematics, section \"10.3 Triangles\", prints these objectives: \"Identify triangles by their sides.\" \"Identify triangles by their angles.\" \"Determine if triangles are congruent.\" \"Determine if triangles are similar.\" \"Find the missing side of similar triangles.\". The section text says: \"We want to add a special note about right triangles here, as they are referred to more than any other triangle. The side opposite the right angle is its longest side and is called the hypotenuse , and the sides adjacent to the right angle are called the legs.\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 10.3 Triangles",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/10-3-triangles",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

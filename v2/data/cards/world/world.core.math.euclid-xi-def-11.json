@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xi-def-11",
+  "title": "Euclid XI.Def.11: A solid angle is the inclination constituted by more than two lines which meet one another and are not in the same surface, towards all the lines…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XI.Def.11: A solid angle is the inclination constituted by more than two lines which meet one another and are not in the same surface, towards all the lines…",
+  "body": "Euclid, Book XI, XI.Def.11, as worded on this page: \"A solid angle is the inclination constituted by more than two lines which meet one another and are not in the same surface, towards all the lines, that is, a solid angle is that which is contained by more than two plane angles which are not in the same plane and are constructed to one point.\" The argument printed under that statement begins: \"Definition 11 Guide A solid angle is intended to be bounded by three or more planes meeting at a point. The solid angle at A is bounded by the three planes ABC, ACD, and ADB. The figure ABCD is a triangular pyramid. Pyramids are defined in definition XI.Def.12 coming next. The two definitions given here for solid angle are not strictly equivalent. In the first the lines mentioned are not specified as being straight, and the surfaces are not specified as being planes. In the second the surfaces are specified as being planes, and since planes meet in straight lines ( XI.3 ), the lines must be straight. The difference, however, may well be an oversight.\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XI, XI.Def.11",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXI/defXI11.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

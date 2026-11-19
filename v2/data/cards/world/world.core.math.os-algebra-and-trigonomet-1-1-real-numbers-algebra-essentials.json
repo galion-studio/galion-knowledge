@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-1-1-real-numbers-algebra-essentials",
+  "title": "OpenStax Algebra and Trigonometry 2e, 1.1 Real Numbers: Algebra Essentials: Classify a real number as a natural, whole, integer, rational, or irrational number.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 1.1 Real Numbers: Algebra Essentials: Classify a real number as a natural, whole, integer, rational, or irrational number.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"1.1 Real Numbers: Algebra Essentials\", prints these objectives: \"Classify a real number as a natural, whole, integer, rational, or irrational number.\" \"Perform calculations using order of operations.\" \"Use the following properties of real numbers: commutative, associative, distributive, inverse, and identity.\" \"Evaluate algebraic expressions.\" \"Simplify algebraic expressions.\". The section text says: \"It is often said that mathematics is the language of science. If this is true, then an essential part of the language of mathematics is numbers. The earliest use of numbers occurred 100 centuries ago in the Middle East to count, or enumerate items. Farmers, cattle herders, and traders used tokens, stones, or markers to signify a single quantity—a sheaf of grain, a head of livestock, or a fixed length of cloth, for example. Doing so made commerce possible, leading to improved communications and…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 1.1 Real Numbers: Algebra Essentials",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-1-real-numbers-algebra-essentials",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-1",
+  "title": "Euclid I.1: To construct an equilateral triangle on a given finite straight line.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.1: To construct an equilateral triangle on a given finite straight line.",
+  "body": "Euclid, Book I, I.1, as worded on this page: \"To construct an equilateral triangle on a given finite straight line.\" The argument printed under that statement begins: \"Proposition 1 Let AB be the given finite straight line. It is required to construct an equilateral triangle on the straight line AB. I.Post.3 I.Post.1 Describe the circle BCD with center A and radius AB. Again describe the circle ACE with center B and radius BA. Join the straight lines CA and CB from the point C at which the circles cut one another to the points A and B. I.Def.15 Now, since the point A is the center of the circle CDB, therefore AC equals AB. Again, since the point B is the center of the circle CAE, therefore BC equals BA. But AC was proved equal to AB, therefore each of the straight lines AC and BC equals AB. C.N.1 And things which equal the same thing also equal one…\" David E. Joyce's guide on the same page says: \"This proposition is a very pleasant choice for the first proposition in the Elements. The construction of the triangle is clear, and the proof that it is an equilateral triangle is evident. Of course, there are two choices for the point C, but either one will do. Euclid could have chosen proposition I.4 to come first, since it doesn’t logically depend on the previous three, but there are some good reasons for putting I.1 first. For one thing, the Elements ends with constructions of the five…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.1",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI1.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

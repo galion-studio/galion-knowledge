@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-x-29",
+  "title": "Euclid X.29: To find two square numbers such that their sum is also square.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid X.29: To find two square numbers such that their sum is also square.",
+  "body": "Euclid, Book X, X.29, as worded on this page: \"To find two square numbers such that their sum is also square. To find two square numbers such that their sum is not square. To find two rational straight lines commensurable in square only such that the square on the greater is greater than the square on the less by the square on a straight line commensurable in length with the greater.\" The argument printed under that statement begins: \"Lemma 1. IX.24 IX.26 Set out two numbers AB and BC , and let them be either both even or both odd. Then since, whether an even number is subtracted from an even number, or an odd number from an odd number, the remainder is even, therefore the remainder AC is even. Bisect AC at D . Let AB and BC also be either similar plane numbers, or square numbers, which are themselves also similar plane numbers. II.6 IX.1 Now the product of AB and BC together with the square on CD equals the square on BD . And the product of AB and BC is square, inasmuch as it was proved that, if two similar plane numbers multiplied by one another make some number, the product is square. Therefore two square numbers, the…\" David E. Joyce's guide on the same page says: \"About Lemma 1 Euclid records in Lemma 1 a method to generate Pythagorean triples. As it depends only on the material in Book IX, logically, it could have appeared there rather than here in Book X. It appears here since it is needed in the proof of the proposition. It is likely much older than the rest of Book X. Here is a paraphrase of the method of lemma 1, written in a modern algebraic notation. Let n 2 (= AB ) and m 2 (= BC ) be two numbers of the same parity with n 2 larger. Then n 2 – m 2…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book X, X.29",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookX/propX29.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:number-theory"
+  ]
+}

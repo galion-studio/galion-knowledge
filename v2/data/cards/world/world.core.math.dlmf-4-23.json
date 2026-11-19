@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-4-23",
+  "title": "DLMF 4.23 Inverse Trigonometric Functions: The general values of the inverse trigonometric functions are defined by",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 4.23 Inverse Trigonometric Functions: The general values of the inverse trigonometric functions are defined by",
+  "body": "NIST DLMF section 4.23 (Inverse Trigonometric Functions) says: \"The general values of the inverse trigonometric functions are defined by In ( 4.23.1 ) and ( 4.23.2 ) the integration paths may not pass through either of the points t=\\pm 1 . The function (1-t^{2})^{1/2} assumes its principal value when t\\in(-1,1) ; elsewhere on the integration paths the branch is determined by continuity. In ( 4.23.3 ) the integration path may not intersect \\pm i . Each of the six functions is a multivalued function of z . \\operatorname{Arctan}z and \\operatorname{Arccot}z have branch points at z=\\pm\\mathrm{i} ; the other four functions have branch points at z=\\pm 1 . The principal values (or principal branches ) of the inverse sine, cosine, and tangent are obtained by introducing cuts in the z -plane as indicated in Figures 4.23.1 (i) and 4.23.1 (ii), and requiring the integration paths in ( 4.23.1 )–( 4.23.3 ) not to cross these cuts. Compare the principal value of the logarithm (§ 4.2(i) ). The principal branches are denoted by \\operatorname{arcsin}z , \\operatorname{arccos}z , \\operatorname{arctan}z , respectively. Each is two-valued on the corresponding cuts…\" Equation 4.23.19 on the page has alt text \"\\operatorname{arcsin}z=-i\\ln\\left((1-z^{2})^{1/2}+iz\\right),\". Equation 4.23.22 on the page has alt text \"\\operatorname{arccos}z=\\tfrac{1}{2}\\pi+i\\ln\\left((1-z^{2})^{1/2}+iz\\right),\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 4.23 Inverse Trigonometric Functions",
+      "url": "https://dlmf.nist.gov/4.23",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:trigonometry"
+  ]
+}

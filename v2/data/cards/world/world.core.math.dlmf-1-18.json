@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-1-18",
+  "title": "DLMF 1.18 Linear Second Order Differential Operators and Eigenfunction Expansions: A survey is given of the formal spectral theory of second order differential operators, typical results being…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 1.18 Linear Second Order Differential Operators and Eigenfunction Expansions: A survey is given of the formal spectral theory of second order differential operators, typical results being…",
+  "body": "NIST DLMF section 1.18 (Linear Second Order Differential Operators and Eigenfunction Expansions) says: \"A survey is given of the formal spectral theory of second order differential operators, typical results being presented in § 1.18(i) through § 1.18(viii) . The various types of spectra and the corresponding eigenfunction expansions are illustrated by examples. These are based on the Liouville normal form of ( 1.13.29 ). A more precise mathematical discussion then follows in § 1.18(ix) . A complex linear vector space V is called an inner product space if an inner product \\left\\langle u,v\\right\\rangle\\in\\mathbb{C} is defined for all u,v\\in V with the properties: (i) \\left\\langle u,v\\right\\rangle is complex linear in u ; (ii) \\left\\langle u,v\\right\\rangle=\\overline{\\left\\langle v,u\\right\\rangle} ; (iii) \\left\\langle v,v\\right\\rangle\\geq 0 ; (iv) if \\left\\langle v,v\\right\\rangle=0 then v=0 . With norm defined by V becomes a normed linear vector space. If \\left\\|{v}\\right\\|=1 then v is normalized . Two elements u and v in V are orthogonal if \\left\\langle u,v\\right\\rangle=0 . A (finite or countably infinite, generalizing the definition of ( 1.2.40 )) set \\{v_{n}\\} is an orthonormal set if…\" Equation 1.18.1 on the page has alt text \"\\left\\|{v}\\right\\|=\\sqrt{\\left\\langle v,v\\right\\rangle},\". Equation 1.18.2 on the page has alt text \"\\sum_{n}{\\left|c_{n}\\right|}^{2}\\leq{\\left\\|{v}\\right\\|}^{2},\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 1.18 Linear Second Order Differential Operators and Eigenfunction Expansions",
+      "url": "https://dlmf.nist.gov/1.18",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

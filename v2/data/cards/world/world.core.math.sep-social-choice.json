@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-social-choice",
+  "title": "The Stanford Encyclopedia entry \"Social Choice Theory\" says: Social choice theory is the study of collective decision procedures and mechanisms.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Social Choice Theory\" says: Social choice theory is the study of collective decision procedures and mechanisms.",
+  "body": "List, Christian, in the Stanford Encyclopedia of Philosophy entry \"Social Choice Theory\" says: \"Social choice theory is the study of collective decision procedures and mechanisms. It is not a single theory, but a cluster of models and results concerning the aggregation of individual inputs (e.g., votes, preferences, judgments, welfare) into collective outputs (e.g., collective decisions, preferences, judgments, welfare). Central questions are: How can a group of individuals choose a winning outcome (e.g., policy, electoral candidate) from a given set of options? What are the properties of different voting systems? When is a voting system democratic? How can a collective (e.g., electorate, legislature, collegial court, expert panel, or committee) arrive at coherent collective preferences or judgments on some issues, on the basis of its members’ individual preferences or judgments? How can we rank different social alternatives in an order of social welfare? Social choice theorists…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Social Choice Theory (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/social-choice/",
+      "author": "List, Christian",
+      "date": "2013-12-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "List, Christian",
+  "as_of_date": "2022-10-14",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

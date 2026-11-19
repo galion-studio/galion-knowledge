@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-4-24",
+  "title": "DLMF 4.24 Inverse Trigonometric Functions: Further Properties: which requires z (=x+iy) to lie between the two rectangular hyperbolas given by",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 4.24 Inverse Trigonometric Functions: Further Properties: which requires z (=x+iy) to lie between the two rectangular hyperbolas given by",
+  "body": "NIST DLMF section 4.24 (Inverse Trigonometric Functions: Further Properties) says: \"which requires z (=x+iy) to lie between the two rectangular hyperbolas given by The above equations are interpreted in the sense that every value of the left-hand side is a value of the right-hand side and vice versa. All square roots have either possible value.\" Equation 4.24.1 on the page has alt text \"\\operatorname{arcsin}z=z+\\frac{1}{2}\\frac{z^{3}}{3}+\\frac{1\\cdot 3}{2\\cdot 4}% \\frac{z^{5}}{5}+\\frac{1\\cdot 3\\cdot 5}{2\\cdot 4\\cdot 6}\\frac{z^{7}}{7}+\\cdots,\". Equation 4.24.2 on the page has alt text \"\\operatorname{arccos}z=(2(1-z))^{1/2}\\*\\left(1+\\sum_{n=1}^{\\infty}\\frac{1\\cdot 3% \\cdot 5\\cdots(2n-1)}{2^{2n}(2n+1)n!}(1-z)^{n}\\right),\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 4.24 Inverse Trigonometric Functions: Further Properties",
+      "url": "https://dlmf.nist.gov/4.24",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:trigonometry"
+  ]
+}

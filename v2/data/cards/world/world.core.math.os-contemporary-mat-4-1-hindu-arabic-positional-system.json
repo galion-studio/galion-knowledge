@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-4-1-hindu-arabic-positional-system",
+  "title": "OpenStax Contemporary Mathematics, 4.1 Hindu-Arabic Positional System: Evaluate an exponential expression.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 4.1 Hindu-Arabic Positional System: Evaluate an exponential expression.",
+  "body": "OpenStax Contemporary Mathematics, section \"4.1 Hindu-Arabic Positional System\", prints these objectives: \"Evaluate an exponential expression.\" \"Convert a Hindu-Arabic numeral to expanded form.\" \"Convert a number in expanded form to a Hindu-Arabic numeral.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 4.1 Hindu-Arabic Positional System",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/4-1-hindu-arabic-positional-system",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

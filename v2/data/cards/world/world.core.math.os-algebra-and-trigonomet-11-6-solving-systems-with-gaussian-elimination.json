@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-11-6-solving-systems-with-gaussian-elimination",
+  "title": "OpenStax Algebra and Trigonometry 2e, 11.6 Solving Systems with Gaussian Elimination: Write the augmented matrix of a system of equations.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 11.6 Solving Systems with Gaussian Elimination: Write the augmented matrix of a system of equations.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"11.6 Solving Systems with Gaussian Elimination\", prints these objectives: \"Write the augmented matrix of a system of equations.\" \"Write the system of equations from an augmented matrix.\" \"Perform row operations on a matrix.\" \"Solve a system of linear equations using matrices.\". The section text says: \"Carl Friedrich Gauss lived during the late 18th century and early 19th century, but he is still considered one of the most prolific mathematicians in history. His contributions to the science of mathematics and physics span fields such as algebra, number theory, analysis, differential geometry, astronomy, and optics, among others. His discoveries regarding matrix theory changed the way mathematicians have worked for the last two centuries.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 11.6 Solving Systems with Gaussian Elimination",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/11-6-solving-systems-with-gaussian-elimination",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

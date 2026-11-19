@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-12-2-graph-structures",
+  "title": "OpenStax Contemporary Mathematics, 12.2 Graph Structures: Describe and interpret relationships in graphs.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 12.2 Graph Structures: Describe and interpret relationships in graphs.",
+  "body": "OpenStax Contemporary Mathematics, section \"12.2 Graph Structures\", prints these objectives: \"Describe and interpret relationships in graphs.\" \"Model relationships with graphs.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 12.2 Graph Structures",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/12-2-graph-structures",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

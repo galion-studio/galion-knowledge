@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-elementary-algebra-2e-9-2-simplify-square-roots",
+  "title": "OpenStax Elementary Algebra 2e, 9.2 Simplify Square Roots: Use the Product Property to simplify square roots",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Elementary Algebra 2e, 9.2 Simplify Square Roots: Use the Product Property to simplify square roots",
+  "body": "OpenStax Elementary Algebra 2e, section \"9.2 Simplify Square Roots\", prints these objectives: \"Use the Product Property to simplify square roots\" \"Use the Quotient Property to simplify square roots\". The section text says: \"In the last section, we estimated the square root of a number between two consecutive whole numbers. We can say that 50 is between 7 and 8. This is fairly easy to do when the numbers are small enough that we can use Figure 9.2 .\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Elementary Algebra 2e, 9.2 Simplify Square Roots",
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/9-2-simplify-square-roots",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:algebra"
+  ]
+}

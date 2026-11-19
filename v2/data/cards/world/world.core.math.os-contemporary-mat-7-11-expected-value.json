@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-7-11-expected-value",
+  "title": "OpenStax Contemporary Mathematics, 7.11 Expected Value: Calculate the expected value of an experiment.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 7.11 Expected Value: Calculate the expected value of an experiment.",
+  "body": "OpenStax Contemporary Mathematics, section \"7.11 Expected Value\", prints these objectives: \"Calculate the expected value of an experiment.\" \"Interpret the expected value of an experiment.\" \"Use expected value to analyze applications.\". The section text says: \"The casino game roulette has dozens of different bets that can be made. These bets have different probabilities of winning but also have different payouts. In general, the lower the probability of winning a bet is, the more money a player wins for that bet. With so many options, is there one bet that’s “smarter” than the rest? What’s the best play to make at a roulette table? In this section, we’ll develop the tools we need to answer these questions.\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 7.11 Expected Value",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/7-11-expected-value",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

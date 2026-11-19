@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-mpc-mpc32",
+  "title": "NIST/SEMATECH handbook, 2.3.2. What is artifact (single-point) calibration?: Purpose Artifact calibration is a measurement process that assigns values to the property of an artifact…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 2.3.2. What is artifact (single-point) calibration?: Purpose Artifact calibration is a measurement process that assigns values to the property of an artifact…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"2.3.2. What is artifact (single-point) calibration?\" says: \"Purpose Artifact calibration is a measurement process that assigns values to the property of an artifact relative to a reference standard(s). The purpose of calibration is to eliminate or reduce bias in the user's measurement system relative to the reference base. The calibration procedure compares an \"unknown\" or test item(s) with a reference standard(s) of the same nominal value (hence, the term single-point calibration) according to a specific algorithm called a calibration design. Assumptions The calibration procedure is based on the assumption that individual readings on test items and reference standards are subject to: Bias that is a function of the measuring system or instrument Random error that may be uncontrollable What is bias? The operational definition of bias is that it is the difference between values that…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 2.3.2. What is artifact (single-point) calibration?",
+      "url": "https://www.itl.nist.gov/div898/handbook/mpc/section3/mpc32.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:measurement"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-turing-machine",
+  "title": "The Stanford Encyclopedia entry \"Turing Machines\" says: Turing machines, first described by Alan Turing in Turing 1936–7, are simple abstract computational devices…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Turing Machines\" says: Turing machines, first described by Alan Turing in Turing 1936–7, are simple abstract computational devices…",
+  "body": "De Mol, Liesbeth, in the Stanford Encyclopedia of Philosophy entry \"Turing Machines\" says: \"Turing machines, first described by Alan Turing in Turing 1936–7, are simple abstract computational devices intended to help investigate the extent and limitations of what can be computed. Turing’s ‘automatic machines’, as he termed them in 1936, were specifically devised for the computation of real numbers. They were first named ‘Turing machines’ by Alonzo Church in a review of Turing’s paper (Church 1937). Today, they are considered to be one of the foundational models of computability and (theoretical) computer science. [ 1 ]\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Turing Machines (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/turing-machine/",
+      "author": "De Mol, Liesbeth",
+      "date": "2018-09-24",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "De Mol, Liesbeth",
+  "as_of_date": "2025-05-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-pmd-pmd31",
+  "title": "NIST/SEMATECH handbook, 4.3.1. What is design of experiments (DOE)?: Systematic Approach to Data Collection Design of experiments (DOE) is a systematic, rigorous approach to…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 4.3.1. What is design of experiments (DOE)?: Systematic Approach to Data Collection Design of experiments (DOE) is a systematic, rigorous approach to…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"4.3.1. What is design of experiments (DOE)?\" says: \"Systematic Approach to Data Collection Design of experiments (DOE) is a systematic, rigorous approach to engineering problem-solving that applies principles and techniques at the data collection stage so as to ensure the generation of valid, defensible, and supportable engineering conclusions. In addition, all of this is carried out under the constraint of a minimal expenditure of engineering runs, time, and money. DOE Problem Areas There are four general engineering problem areas in which DOE may be applied: Comparative Screening/Characterizing Modeling Optimizing Comparative In the first case, the engineer is interested in assessing whether a change in a single factor has in fact resulted in a change/improvement to the process as a whole. Screening Characterization In the second case, the engineer is interested in \"understanding\" the…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 4.3.1. What is design of experiments (DOE)?",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section3/pmd31.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

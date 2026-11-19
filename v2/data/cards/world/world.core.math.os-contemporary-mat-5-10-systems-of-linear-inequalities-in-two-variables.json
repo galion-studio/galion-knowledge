@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-5-10-systems-of-linear-inequalities-in-two-variables",
+  "title": "OpenStax Contemporary Mathematics, 5.10 Systems of Linear Inequalities in Two Variables: Demonstrate whether an ordered pair is a solution to a system of linear inequalities.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 5.10 Systems of Linear Inequalities in Two Variables: Demonstrate whether an ordered pair is a solution to a system of linear inequalities.",
+  "body": "OpenStax Contemporary Mathematics, section \"5.10 Systems of Linear Inequalities in Two Variables\", prints these objectives: \"Demonstrate whether an ordered pair is a solution to a system of linear inequalities.\" \"Solve systems of linear inequalities using graphical methods.\" \"Graph systems of linear inequalities.\" \"Interpret and solve applications of linear inequalities.\". The section text says: \"The definition of a system of linear inequalities is similar to the definition of a system of linear equations. A system of linear inequalities looks like a system of linear equations, but it has inequalities instead of equations. A system of two linear inequalities is shown here.\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 5.10 Systems of Linear Inequalities in Two Variables",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/5-10-systems-of-linear-inequalities-in-two-variables",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

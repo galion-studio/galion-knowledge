@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-elementary-algebra-2e-2-3-solve-equations-with-variables-and-constant",
+  "title": "OpenStax Elementary Algebra 2e, 2.3 Solve Equations with Variables and Constants on Both Sides: Solve an equation with constants on both sides",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Elementary Algebra 2e, 2.3 Solve Equations with Variables and Constants on Both Sides: Solve an equation with constants on both sides",
+  "body": "OpenStax Elementary Algebra 2e, section \"2.3 Solve Equations with Variables and Constants on Both Sides\", prints these objectives: \"Solve an equation with constants on both sides\" \"Solve an equation with variables on both sides\" \"Solve an equation with variables and constants on both sides\". The section text says: \"In all the equations we have solved so far, all the variable terms were on only one side of the equation with the constants on the other side. This does not happen all the time—so now we will learn to solve equations in which the variable terms, or constant terms, or both are on both sides of the equation.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Elementary Algebra 2e, 2.3 Solve Equations with Variables and Constants on Both Sides",
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/2-3-solve-equations-with-variables-and-constants-on-both-sides",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:algebra"
+  ]
+}

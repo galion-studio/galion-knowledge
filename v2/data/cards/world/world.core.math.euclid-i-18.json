@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-18",
+  "title": "Euclid I.18: In any triangle the angle opposite the greater side is greater.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.18: In any triangle the angle opposite the greater side is greater.",
+  "body": "Euclid, Book I, I.18, as worded on this page: \"In any triangle the angle opposite the greater side is greater.\" The argument printed under that statement begins: \"Proposition 18 Let ABC be a triangle having the side AC greater than AB. I say that the angle ABC is also greater than the angle BCA. I.3 , I.Post.1 Since AC is greater than AB, make AD equal to AB, and join BD. I.16 Since the angle ADB is an exterior angle of the triangle BCD, therefore it is greater than the interior and opposite angle DCB. I.5 But the angle ADB equals the angle ABD, since the side AB equals AD, therefore the angle ABD is also greater than the angle ACB. Therefore the angle ABC is much greater than the angle ACB. Therefore in any triangle the angle opposite the greater side is greater. Q.E.D.\" David E. Joyce's guide on the same page says: \"On word order In this translation of Euclid’s Elements the order of the words differs from the original Greek. In each of Euclid’s Greek sentences, the data, that is the geometric objects given or already constructed, appear first, and the remaining geometric objects appear later. This is possible in Greek since it is an inflected language and the word order is very flexible. On the other hand, the word order in English is intrinsic to the syntax and semantics of the sentence and is not very…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.18",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI18.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

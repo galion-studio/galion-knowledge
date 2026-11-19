@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-1-15",
+  "title": "DLMF 1.15 Summability Methods: Methods of summation are regular if they are consistent with conventional summation.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 1.15 Summability Methods: Methods of summation are regular if they are consistent with conventional summation.",
+  "body": "NIST DLMF section 1.15 (Summability Methods) says: \"Methods of summation are regular if they are consistent with conventional summation. All of the methods described in § 1.15(i) are regular. For example if uniformly for \\theta\\in[\\delta,2\\pi-\\delta] . (Here and elsewhere in this subsection \\delta is a constant such that 0<\\delta<\\pi .) uniformly for \\theta\\in[\\delta,2\\pi-\\delta] . A(r,\\theta) is a harmonic function in polar coordinates ( 1.9.27 ), and If f(\\theta) is periodic and integrable on [0,2\\pi] , then as n\\to\\infty the Abel means A(r,\\theta) and the (C,1) means \\sigma_{n}(\\theta) converge to at every point \\theta where both limits exist. If f(\\theta) is also continuous, then the convergence is uniform for all \\theta . is the Fourier series of f(\\theta) , then the series can be extended to the interior of the unit circle as an analytic function Here u(x,y)=A(r,\\theta) is the Abel (or Poisson ) sum of f(\\theta) , and v(x,y) has the series representation\" Equation 1.15.1 on the page has alt text \"s_{n}=\\sum_{k=0}^{n}a_{k}.\". Equation 1.15.2 on the page has alt text \"\\sum^{\\infty}_{n=0}a_{n}=s\\;\\;\\;\\textit{(A)},\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 1.15 Summability Methods",
+      "url": "https://dlmf.nist.gov/1.15",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-x-108",
+  "title": "Euclid X.108: If a medial area is subtracted from a rational area, then the side of the remaining area becomes one of two irrational straight lines, either an…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid X.108: If a medial area is subtracted from a rational area, then the side of the remaining area becomes one of two irrational straight lines, either an…",
+  "body": "Euclid, Book X, X.108, as worded on this page: \"If a medial area is subtracted from a rational area, then the side of the remaining area becomes one of two irrational straight lines, either an apotome or a minor straight line.\" The argument printed under that statement begins: \"Proposition 108 Let the medial area BD be subtracted from the rational area BC . I say that the side of the remainder EC becomes one of two irrational straight lines, either an apotome or a minor straight line. Set out a rational straight line FG , to FG apply the rectangular parallelogram GH equal to BC , and subtract GK equal to DB . Then the remainder EC equals LH . Since, then, BC is rational, and BD medial, while BC equals GH , and BD equals GK , therefore GH is rational, and GK is medial. X.20 , X.22 X.13 And they are applied to the rational straight line FG , therefore FH is rational and commensurable in length with FG , while FK is rational and incommensurable in length with FG .…\" David E. Joyce's guide on the same page says: \"This proposition is not used in the rest of the Elements .\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book X, X.108",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookX/propX108.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:number-theory"
+  ]
+}

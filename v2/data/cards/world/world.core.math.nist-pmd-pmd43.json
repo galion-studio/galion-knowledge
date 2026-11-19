@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-pmd-pmd43",
+  "title": "NIST/SEMATECH handbook, 4.4.3. How are estimates of the unknown parameters obtained?: How are estimates of the unknown parameters obtained?",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 4.4.3. How are estimates of the unknown parameters obtained?: How are estimates of the unknown parameters obtained?",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"4.4.3. How are estimates of the unknown parameters obtained?\" says: \"How are estimates of the unknown parameters obtained? 4. Process Modeling 4.4. Data Analysis for Process Modeling 4.4.3. How are estimates of the unknown parameters obtained? Parameter Estimation in General After selecting the basic form of the functional part of the model, the next step in the model-building process is estimation of the unknown parameters in the function. In general, this is accomplished by solving an optimization problem in which the objective function (the function being minimized or maximized) relates the response variable and the functional part of the model containing the unknown parameters in a way that will produce parameter estimates that will be close to the true, unknown parameter values. The unknown parameters are, loosely speaking, treated as variables to be solved for in the optimization, and the data serve as known coefficients of the objective function…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 4.4.3. How are estimates of the unknown parameters obtained?",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section4/pmd43.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

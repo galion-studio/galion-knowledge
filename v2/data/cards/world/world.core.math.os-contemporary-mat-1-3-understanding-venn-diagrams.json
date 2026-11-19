@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-1-3-understanding-venn-diagrams",
+  "title": "OpenStax Contemporary Mathematics, 1.3 Understanding Venn Diagrams: Utilize a universal set with two sets to interpret a Venn diagram.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 1.3 Understanding Venn Diagrams: Utilize a universal set with two sets to interpret a Venn diagram.",
+  "body": "OpenStax Contemporary Mathematics, section \"1.3 Understanding Venn Diagrams\", prints these objectives: \"Utilize a universal set with two sets to interpret a Venn diagram.\" \"Utilize a universal set with two sets to create a Venn diagram.\" \"Determine the complement of a set.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 1.3 Understanding Venn Diagrams",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/1-3-understanding-venn-diagrams",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

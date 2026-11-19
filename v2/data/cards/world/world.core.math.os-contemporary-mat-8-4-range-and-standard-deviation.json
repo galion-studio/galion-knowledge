@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-8-4-range-and-standard-deviation",
+  "title": "OpenStax Contemporary Mathematics, 8.4 Range and Standard Deviation: Calculate the range of a dataset",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 8.4 Range and Standard Deviation: Calculate the range of a dataset",
+  "body": "OpenStax Contemporary Mathematics, section \"8.4 Range and Standard Deviation\", prints these objectives: \"Calculate the range of a dataset\" \"Calculate the standard deviation of a dataset\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 8.4 Range and Standard Deviation",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/8-4-range-and-standard-deviation",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

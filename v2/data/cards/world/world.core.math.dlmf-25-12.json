@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-25-12",
+  "title": "DLMF 25.12 Polylogarithms: The notation \\operatorname{Li}_{2}\\left(z\\right) was introduced in Lewin ( 1981 ) for a function discussed in Euler (…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 25.12 Polylogarithms: The notation \\operatorname{Li}_{2}\\left(z\\right) was introduced in Lewin ( 1981 ) for a function discussed in Euler (…",
+  "body": "NIST DLMF section 25.12 (Polylogarithms) says: \"The notation \\operatorname{Li}_{2}\\left(z\\right) was introduced in Lewin ( 1981 ) for a function discussed in Euler ( 1768 ) and called the dilogarithm in Hill ( 1828 ) : Other notations and names for \\operatorname{Li}_{2}\\left(z\\right) include S_{2}(z) ( Kölbig et al. ( 1970 ) ), Spence function \\mathrm{Sp}(z) ( ’t Hooft and Veltman ( 1979 ) ), and \\mathrm{L}_{2}(z) ( Maximon ( 2003 ) ). In the complex plane \\operatorname{Li}_{2}\\left(z\\right) has a branch point at z=1 . The principal branch has a cut along the interval [1,\\infty) and agrees with ( 25.12.1 ) when |z|\\leq 1 ; see also § 4.2(i) . The remainder of the equations in this subsection apply to principal branches. When z=e^{i\\theta} , 0\\leq\\theta\\leq 2\\pi , ( 25.12.1 ) becomes The cosine series in ( 25.12.7 ) has the elementary sum The right-hand side is called Clausen’s integral . For graphics see Figures 25.12.1 and 25.12.2 , and for further properties see Maximon ( 2003 ) , Kirillov ( 1995 ) , Lewin ( 1981 ) , Nielsen ( 1909 ) , and Zagier ( 1989 ) .\" Equation 25.12.1 on the page has alt text \"\\operatorname{Li}_{2}\\left(z\\right)\\equiv\\sum_{n=1}^{\\infty}\\frac{z^{n}}{n^{2}},\". Equation 25.12.2 on the page has alt text \"\\operatorname{Li}_{2}\\left(z\\right)=-\\int_{0}^{z}t^{-1}\\ln\\left(1-t\\right)\\,% \\mathrm{d}t,\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 25.12 Polylogarithms",
+      "url": "https://dlmf.nist.gov/25.12",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

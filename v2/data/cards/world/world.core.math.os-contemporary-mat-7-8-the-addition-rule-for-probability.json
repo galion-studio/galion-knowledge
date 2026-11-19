@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-7-8-the-addition-rule-for-probability",
+  "title": "OpenStax Contemporary Mathematics, 7.8 The Addition Rule for Probability: Identify mutually exclusive events.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 7.8 The Addition Rule for Probability: Identify mutually exclusive events.",
+  "body": "OpenStax Contemporary Mathematics, section \"7.8 The Addition Rule for Probability\", prints these objectives: \"Identify mutually exclusive events.\" \"Apply the Addition Rule to compute probability.\" \"Use the Inclusion/Exclusion Principle to compute probability.\". The section text says: \"Up to this point, we have looked at the probabilities of simple events. Simple events are those with a single, simple characterization. Sometimes, though, we want to investigate more complicated situations. For example, if we are choosing a college student at random, we might want to find the probability that the chosen student is a varsity athlete or in a Greek organization. This is a compound event : there are two possible criteria that might be met. We might instead try to identify the…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 7.8 The Addition Rule for Probability",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/7-8-the-addition-rule-for-probability",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

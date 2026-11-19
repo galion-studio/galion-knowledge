@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-16",
+  "title": "Euclid I.16: In any triangle, if one of the sides is produced, then the exterior angle is greater than either of the interior and opposite angles.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.16: In any triangle, if one of the sides is produced, then the exterior angle is greater than either of the interior and opposite angles.",
+  "body": "Euclid, Book I, I.16, as worded on this page: \"In any triangle, if one of the sides is produced, then the exterior angle is greater than either of the interior and opposite angles.\" The argument printed under that statement begins: \"Proposition 16 Let ABC be a triangle, and let one side of it BC be produced to D. I say that the exterior angle ACD is greater than either of the interior and opposite angles CBA and BAC. I.10 , I.Post.1 I.Post.2 Bisect AC at E. Join BE, and produce it in a straight line to F. I.3 , I.Post.1 I.Post.2 Make EF equal to BE, join FC, and draw AC through to G. I.15 I.4 Since AE equals EC, and BE equals EF, therefore the two sides AE and EB equal the two sides CE and EF respectively, and the angle AEB equals the angle FEC, for they are vertical angles. Therefore the base AB equals the base FC, the triangle ABE equals the triangle CFE, and the remaining angles equal the remaining angles…\" David E. Joyce's guide on the same page says: \"In the later proposition I.32 , after he invokes the parallel postulate I.Post.5 , Euclid shows the stronger result that the exterior angle of a triangle equals the sum of the interior, opposite angles. Elliptic geometry There are geometries besides Euclidean geometry. Two of the more important geometries are elliptic geometry and hyperbolic geometry, which were developed in the nineteenth century. The first 15 propositions in Book I hold in elliptic geometry, but not this one. (For more on…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.16",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI16.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

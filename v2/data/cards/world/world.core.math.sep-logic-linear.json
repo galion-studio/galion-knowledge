@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logic-linear",
+  "title": "The Stanford Encyclopedia entry \"Linear Logic\" says: Linear logic is a refinement of classical and intuitionistic logic.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Linear Logic\" says: Linear logic is a refinement of classical and intuitionistic logic.",
+  "body": "Di Cosmo, Roberto, Miller, Dale, in the Stanford Encyclopedia of Philosophy entry \"Linear Logic\" says: \"Linear logic is a refinement of classical and intuitionistic logic. Instead of emphasizing truth , as in classical logic, or proof , as in intuitionistic logic, linear logic emphasizes the role of formulas as resources . To achieve this focus, linear logic does not allow the usual structural rules of contraction and weakening to apply to all formulas but only those formulas marked with certain modals. Linear logic contains a fully involutive negation while maintaining a strong constructive interpretation. Linear logic also provides new insights into the nature of proofs in both classical and intuitionistic logic. Given its focus on resources, linear logic has found many applications in Computer Science.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Linear Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logic-linear/",
+      "author": "Di Cosmo, Roberto, Miller, Dale",
+      "date": "2006-09-06",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Di Cosmo, Roberto, Miller, Dale",
+  "as_of_date": "2023-09-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

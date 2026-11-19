@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-3-2-trigonometric-integrals",
+  "title": "OpenStax Calculus Volume 2, 3.2 Trigonometric Integrals: Solve integration problems involving products and powers of sin x and cos x .",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 3.2 Trigonometric Integrals: Solve integration problems involving products and powers of sin x and cos x .",
+  "body": "OpenStax Calculus Volume 2, section \"3.2 Trigonometric Integrals\", prints these objectives: \"Solve integration problems involving products and powers of sin x and cos x .\" \"Solve integration problems involving products and powers of tan x and sec x .\" \"Use reduction formulas to solve trigonometric integrals.\". The section text says: \"In this section we look at how to integrate a variety of products of trigonometric functions. These integrals are called trigonometric integrals . They are an important part of the integration technique called trigonometric substitution , which is featured in Trigonometric Substitution . This technique allows us to convert algebraic expressions that we may not be able to integrate into expressions involving trigonometric functions, which we may be able to integrate using the techniques…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 3.2 Trigonometric Integrals",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/3-2-trigonometric-integrals",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

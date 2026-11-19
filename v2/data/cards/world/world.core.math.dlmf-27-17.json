@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-27-17",
+  "title": "DLMF 27.17 Other Applications: Reed et al. ( 1990 , pp. 458–470) describes a number-theoretic approach to Fourier analysis (called the arithmetic…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 27.17 Other Applications: Reed et al. ( 1990 , pp. 458–470) describes a number-theoretic approach to Fourier analysis (called the arithmetic…",
+  "body": "NIST DLMF section 27.17 (Other Applications) says: \"Reed et al. ( 1990 , pp. 458–470) describes a number-theoretic approach to Fourier analysis (called the arithmetic Fourier transform ) that uses the Möbius inversion ( 27.5.7 ) to increase efficiency in computing coefficients of Fourier series. Congruences are used in constructing perpetual calendars, splicing telephone cables, scheduling round-robin tournaments, devising systematic methods for storing computer files, and generating pseudorandom numbers. Rosen ( 2004 , Chapters 5 and 10) describes many of these applications. Apostol and Zuckerman ( 1951 ) uses congruences to construct magic squares. There are also applications of number theory in many diverse areas, including physics, biology, chemistry, communications, and art. Schroeder ( 2006 ) describes many of these applications, including the design of concert hall ceilings to scatter sound into broad lateral patterns for improved acoustic quality, precise measurements of delays of radar echoes from Venus and Mercury to confirm one of the relativistic effects predicted by Einstein’s theory of general relativity, and the use of…\" This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 27.17 Other Applications",
+      "url": "https://dlmf.nist.gov/27.17",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

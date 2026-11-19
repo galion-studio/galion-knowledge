@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-5-3-the-divergence-and-integral-tests",
+  "title": "OpenStax Calculus Volume 2, 5.3 The Divergence and Integral Tests: Use the divergence test to demonstrate that a series diverges.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 5.3 The Divergence and Integral Tests: Use the divergence test to demonstrate that a series diverges.",
+  "body": "OpenStax Calculus Volume 2, section \"5.3 The Divergence and Integral Tests\", prints these objectives: \"Use the divergence test to demonstrate that a series diverges.\" \"Use the integral test to determine the convergence of a series.\" \"Estimate the value of a series by finding bounds on its remainder term.\". The section text says: \"In the previous section, we determined the convergence or divergence of several series by explicitly calculating the limit of the sequence of partial sums { S k } . In practice, explicitly calculating this limit can be difficult or impossible. Luckily, several tests exist that allow us to determine convergence or divergence for many types of series. In this section, we discuss two of these tests: the divergence test and the integral test. We will examine several other tests in the rest of this…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 5.3 The Divergence and Integral Tests",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/5-3-the-divergence-and-integral-tests",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

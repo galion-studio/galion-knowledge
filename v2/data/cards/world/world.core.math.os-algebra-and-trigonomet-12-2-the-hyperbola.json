@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-12-2-the-hyperbola",
+  "title": "OpenStax Algebra and Trigonometry 2e, 12.2 The Hyperbola: Locate a hyperbola’s vertices and foci.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 12.2 The Hyperbola: Locate a hyperbola’s vertices and foci.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"12.2 The Hyperbola\", prints these objectives: \"Locate a hyperbola’s vertices and foci.\" \"Write equations of hyperbolas in standard form.\" \"Graph hyperbolas centered at the origin.\" \"Graph hyperbolas not centered at the origin.\" \"Solve applied problems involving hyperbolas.\". The section text says: \"What do paths of comets, supersonic booms, ancient Grecian pillars, and natural draft cooling towers have in common? They can all be modeled by the same type of conic . For instance, when something moves faster than the speed of sound, a shock wave in the form of a cone is created. A portion of a conic is formed when the wave intersects the ground, resulting in a sonic boom. See Figure 1 .\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 12.2 The Hyperbola",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/12-2-the-hyperbola",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-10-2-angles",
+  "title": "OpenStax Contemporary Mathematics, 10.2 Angles: Identify and express angles using proper notation.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 10.2 Angles: Identify and express angles using proper notation.",
+  "body": "OpenStax Contemporary Mathematics, section \"10.2 Angles\", prints these objectives: \"Identify and express angles using proper notation.\" \"Classify angles by their measurement.\" \"Solve application problems involving angles.\" \"Compute angles formed by transversals to parallel lines.\" \"Solve application problems involving angles formed by parallel lines.\". The section text says: \"We begin our study of angles with a description of how angles are formed and how they are classified. An angle is the joining of two rays, which sweep out as the sides of the angle, with a common endpoint. The common endpoint is called the vertex . We will often need to refer to more than one vertex, so you will want to know the plural of vertex, which is vertices.\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 10.2 Angles",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/10-2-angles",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

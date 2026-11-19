@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-model-theory",
+  "title": "The Stanford Encyclopedia entry \"Model Theory\" says: Model theory began with the study of formal languages and their interpretations, and of the kinds of…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Model Theory\" says: Model theory began with the study of formal languages and their interpretations, and of the kinds of…",
+  "body": "Hodges, Wilfrid, in the Stanford Encyclopedia of Philosophy entry \"Model Theory\" says: \"Model theory began with the study of formal languages and their interpretations, and of the kinds of classification that a particular formal language can make. Mainstream model theory is now a sophisticated branch of mathematics (see the entry on first-order model theory ). But in a broader sense, model theory is the study of the interpretation of any language, formal or natural, by means of set-theoretic structures, with Alfred Tarski’s truth definition as a paradigm. In this broader sense, model theory meets philosophy at several points, for example in the theory of logical consequence and in the semantics of natural languages.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Model Theory (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/model-theory/",
+      "author": "Hodges, Wilfrid",
+      "date": "2001-11-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Hodges, Wilfrid",
+  "as_of_date": "2020-10-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

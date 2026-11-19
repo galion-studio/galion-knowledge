@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-3-5-other-strategies-for-integration",
+  "title": "OpenStax Calculus Volume 2, 3.5 Other Strategies for Integration: Use a table of integrals to solve integration problems.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 3.5 Other Strategies for Integration: Use a table of integrals to solve integration problems.",
+  "body": "OpenStax Calculus Volume 2, section \"3.5 Other Strategies for Integration\", prints these objectives: \"Use a table of integrals to solve integration problems.\" \"Use a computer algebra system (CAS) to solve integration problems.\". The section text says: \"In addition to the techniques of integration we have already seen, several other tools are widely available to assist with the process of integration. Among these tools are integration tables , which are readily available in many books, including the appendices to this one. Also widely available are computer algebra systems (CAS) , which are found on calculators and in many campus computer labs, and are free online.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 3.5 Other Strategies for Integration",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/3-5-other-strategies-for-integration",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

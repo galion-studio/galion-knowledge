@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-7-5-basic-concepts-of-probability",
+  "title": "OpenStax Contemporary Mathematics, 7.5 Basic Concepts of Probability: Define probability including impossible and certain events.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 7.5 Basic Concepts of Probability: Define probability including impossible and certain events.",
+  "body": "OpenStax Contemporary Mathematics, section \"7.5 Basic Concepts of Probability\", prints these objectives: \"Define probability including impossible and certain events.\" \"Calculate basic theoretical probabilities.\" \"Calculate basic empirical probabilities.\" \"Distinguish among theoretical, empirical, and subjective probability.\" \"Calculate the probability of the complement of an event.\". The section text says: \"Uncertainty is, almost by definition, a nebulous concept. In order to put enough constraints on it that we can mathematically study it, we will focus on uncertainty strictly in the context of experiments. Recall that experiments are processes whose outcomes are unknown; the sample space for the experiment is the collection of all those possible outcomes. When we want to talk about the likelihood of particular outcomes, we sometimes group outcomes together; for example, in the Monopoly example…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 7.5 Basic Concepts of Probability",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/7-5-basic-concepts-of-probability",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

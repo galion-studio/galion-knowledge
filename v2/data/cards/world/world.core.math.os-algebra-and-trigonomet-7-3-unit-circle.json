@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-7-3-unit-circle",
+  "title": "OpenStax Algebra and Trigonometry 2e, 7.3 Unit Circle: Find function values for the sine and cosine of 30° or ( π 6 ) , 45° or ( π 4 ) , and 60 ∘ or ( π 3…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 7.3 Unit Circle: Find function values for the sine and cosine of 30° or ( π 6 ) , 45° or ( π 4 ) , and 60 ∘ or ( π 3…",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"7.3 Unit Circle\", prints these objectives: \"Find function values for the sine and cosine of 30° or ( π 6 ) , 45° or ( π 4 ) , and 60 ∘ or ( π 3 ) .\" \"Identify the domain and range of sine and cosine functions.\" \"Find reference angles.\" \"Use reference angles to evaluate trigonometric functions.\". The section text says: \"Looking for a thrill? Then consider a ride on the Ain Dubai, the world's tallest Ferris wheel. Located in Dubai, the most populous city and the financial and tourism hub of the United Arab Emirates, the wheel soars to 820 feet, about 1.5 tenths of a mile. Described as an observation wheel, riders enjoy spectacular views of the Burj Khalifa (the world's tallest building) and the Palm Jumeirah (a human-made archipelago home to over 10,000 people and 20 resorts) as they travel from the ground to…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 7.3 Unit Circle",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-3-unit-circle",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-prc-prc1",
+  "title": "NIST/SEMATECH handbook, 7.1. Introduction: Introduction Goals of this section The primary goal of this section is to lay a foundation for understanding…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 7.1. Introduction: Introduction Goals of this section The primary goal of this section is to lay a foundation for understanding…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"7.1. Introduction\" says: \"Introduction Goals of this section The primary goal of this section is to lay a foundation for understanding statistical tests and confidence intervals that are useful for making decisions about processes and comparisons among processes. The materials covered are:� Scope Assumptions Introduction to hypothesis testing Introduction to confidence intervals Relationship between hypothesis testing and confidence intervals Outlier detection Detection of sequential trends in data or processes Hypothesis testing and confidence intervals This chapter explores the types of comparisons which can be made from data and explains hypothesis testing, confidence intervals, and the interpretation of each.\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 7.1. Introduction",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section1/prc1.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

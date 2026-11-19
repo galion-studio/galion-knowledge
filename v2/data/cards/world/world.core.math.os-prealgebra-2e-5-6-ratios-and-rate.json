@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-prealgebra-2e-5-6-ratios-and-rate",
+  "title": "OpenStax Prealgebra 2e, 5.6 Ratios and Rate: Write a ratio as a fraction",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Prealgebra 2e, 5.6 Ratios and Rate: Write a ratio as a fraction",
+  "body": "OpenStax Prealgebra 2e, section \"5.6 Ratios and Rate\", prints these objectives: \"Write a ratio as a fraction\" \"Write a rate as a fraction\" \"Find unit rates\" \"Find unit price\" \"Translate phrases to expressions with fractions\". The section text says: \"When you apply for a mortgage, the loan officer will compare your total debt to your total income to decide if you qualify for the loan. This comparison is called the debt-to-income ratio. A ratio compares two quantities that are measured with the same unit. If we compare a and b , the ratio is written as a to b , a b , or a : b .\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Prealgebra 2e, 5.6 Ratios and Rate",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-6-ratios-and-rate",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:arithmetic"
+  ]
+}

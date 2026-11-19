@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logical-consequence",
+  "title": "The Stanford Encyclopedia entry \"Logical Consequence\" says: A good argument is one whose conclusions follow from its premises; its conclusions are consequences of, or…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Logical Consequence\" says: A good argument is one whose conclusions follow from its premises; its conclusions are consequences of, or…",
+  "body": "Beall, Jc, Restall, Greg, Sagi, Gil, in the Stanford Encyclopedia of Philosophy entry \"Logical Consequence\" says: \"A good argument is one whose conclusions follow from its premises; its conclusions are consequences of, or entailed by , its premises. But in what sense do conclusions follow from premises? What is it for a conclusion to be a consequence of , or entailed by , premises? Those questions, in many respects, are at the heart of logic (as a philosophical discipline). In this entry we'll primarily talk in terms of conclusions following from or being a consequence of premises, since entailment is sometimes used elsewhere in philosophy and logic in a different or stronger sense.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Logical Consequence (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logical-consequence/",
+      "author": "Beall, Jc, Restall, Greg, Sagi, Gil",
+      "date": "2005-01-07",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Beall, Jc, Restall, Greg, Sagi, Gil",
+  "as_of_date": "2024-05-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

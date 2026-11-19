@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-1-2-exponents-and-scientific-notation",
+  "title": "OpenStax Algebra and Trigonometry 2e, 1.2 Exponents and Scientific Notation: Use the product rule of exponents.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 1.2 Exponents and Scientific Notation: Use the product rule of exponents.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"1.2 Exponents and Scientific Notation\", prints these objectives: \"Use the product rule of exponents.\" \"Use the quotient rule of exponents.\" \"Use the power rule of exponents.\" \"Use the zero exponent rule of exponents.\" \"Use the negative rule of exponents.\" \"Find the power of a product and a quotient.\". The section text says: \"Mathematicians, scientists, and economists commonly encounter very large and very small numbers. But it may not be obvious how common such figures are in everyday life. For instance, a pixel is the smallest unit of light that can be perceived and recorded by a digital camera. A particular camera might record an image that is 2,048 pixels by 1,536 pixels, which is a very high resolution picture. It can also perceive a color depth (gradations in colors) of up to 48 bits per pixel, and can shoot…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 1.2 Exponents and Scientific Notation",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-2-exponents-and-scientific-notation",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

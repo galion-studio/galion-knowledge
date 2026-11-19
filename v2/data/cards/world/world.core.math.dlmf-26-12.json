@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-26-12",
+  "title": "DLMF 26.12 Plane Partitions: A plane partition , \\pi , of a positive integer n , is a partition of n in which the parts have been arranged in a…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 26.12 Plane Partitions: A plane partition , \\pi , of a positive integer n , is a partition of n in which the parts have been arranged in a…",
+  "body": "NIST DLMF section 26.12 (Plane Partitions) says: \"A plane partition , \\pi , of a positive integer n , is a partition of n in which the parts have been arranged in a 2-dimensional array that is weakly decreasing (nonincreasing) across rows and down columns. Different configurations are counted as different plane partitions. As an example, there are six plane partitions of 3: An equivalent definition is that a plane partition is a finite subset of \\mathbb{N}\\times\\mathbb{N}\\times\\mathbb{N} with the property that if (r,s,t)\\in\\pi and (1,1,1)\\leq(h,j,k)\\leq(r,s,t) , then (h,j,k) must be an element of \\pi . Here (h,j,k)\\leq(r,s,t) means h\\leq r , j\\leq s , and k\\leq t . It is useful to be able to visualize a plane partition as a pile of blocks, one block at each lattice point (h,j,k)\\in\\pi . For example, Figure 26.12.1 depicts the pile of blocks that represents the plane partition of 75 given by ( 26.12.2 ). The number of plane partitions of n is denoted by \\operatorname{pp}\\left(n\\right) , with \\operatorname{pp}\\left(0\\right)=1 . See Table 26.12.1 .\" Equation 26.12.2 on the page has alt text \"\\begin{array}[]{cccccc}6&5&5&4&3&3\\\\ 6&4&3&3&1\\\\ 6&4&3&1&1\\\\ 4&2&2&1\\\\ 3&1&1\\\\ 1&1&1\\end{array}\". Equation 26.12.3 on the page has alt text \"B(r,s,t)=\\{(h,j,k)\\>|\\>1\\leq h\\leq r,1\\leq j\\leq s,1\\leq k\\leq t\\}.\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 26.12 Plane Partitions",
+      "url": "https://dlmf.nist.gov/26.12",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:combinatorics"
+  ]
+}

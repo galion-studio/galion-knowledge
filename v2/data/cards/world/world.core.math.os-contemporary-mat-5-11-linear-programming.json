@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-5-11-linear-programming",
+  "title": "OpenStax Contemporary Mathematics, 5.11 Linear Programming: Compose an objective function to be minimized or maximized.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 5.11 Linear Programming: Compose an objective function to be minimized or maximized.",
+  "body": "OpenStax Contemporary Mathematics, section \"5.11 Linear Programming\", prints these objectives: \"Compose an objective function to be minimized or maximized.\" \"Compose inequalities representing a system application.\" \"Apply linear programming to solve application problems.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 5.11 Linear Programming",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/5-11-linear-programming",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

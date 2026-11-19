@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vi-def-1",
+  "title": "Euclid VI.Def.1: Similar rectilinear figures are such as have their angles severally equal and the sides about the equal angles proportional.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VI.Def.1: Similar rectilinear figures are such as have their angles severally equal and the sides about the equal angles proportional.",
+  "body": "Euclid, Book VI, VI.Def.1, as worded on this page: \"Similar rectilinear figures are such as have their angles severally equal and the sides about the equal angles proportional.\" David E. Joyce's guide on the same page says: \"The words in this definition do not quite express its entire intent. It is apparent from its use that the notion of similarity assumes a specific correspondence of consecutive vertices and sides. Consider, for instance, pentagons. In order for the pentagons ABCDE and FGHKL to be similar, it is required that corresponding angles taken in order are equal, that is, A = F, B = G, C = H, D = K, and E = L, and the sides about their equal angles are proportional in the same order: EA : AB = LF : FG…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VI, VI.Def.1",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/defVI1.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

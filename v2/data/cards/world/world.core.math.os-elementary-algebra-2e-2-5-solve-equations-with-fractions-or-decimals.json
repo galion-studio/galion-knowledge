@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-elementary-algebra-2e-2-5-solve-equations-with-fractions-or-decimals",
+  "title": "OpenStax Elementary Algebra 2e, 2.5 Solve Equations with Fractions or Decimals: Solve equations with fraction coefficients",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Elementary Algebra 2e, 2.5 Solve Equations with Fractions or Decimals: Solve equations with fraction coefficients",
+  "body": "OpenStax Elementary Algebra 2e, section \"2.5 Solve Equations with Fractions or Decimals\", prints these objectives: \"Solve equations with fraction coefficients\" \"Solve equations with decimal coefficients\". The section text says: \"Let’s use the general strategy for solving linear equations introduced earlier to solve the equation, 1 8 x + 1 2 = 1 4 .\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Elementary Algebra 2e, 2.5 Solve Equations with Fractions or Decimals",
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/2-5-solve-equations-with-fractions-or-decimals",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:algebra"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-mpc-mpc64",
+  "title": "NIST/SEMATECH handbook, 2.6.4. Evaluation of type B uncertainty and propagation of error: Evaluation of type B uncertainty and propagation of error 2.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 2.6.4. Evaluation of type B uncertainty and propagation of error: Evaluation of type B uncertainty and propagation of error 2.",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"2.6.4. Evaluation of type B uncertainty and propagation of error\" says: \"Evaluation of type B uncertainty and propagation of error 2. Measurement Process Characterization 2.6. Case studies 2.6.4. Evaluation of type B uncertainty and propagation of error Focus of this case study The purpose of this case study is to demonstrate uncertainty analysis using statistical techniques coupled with type B analyses and propagation of error. It is a continuation of the case study of type A uncertainties . Background - description of measurements and constraints The measurements in question are volume resistivities (ohm.cm) of silicon wafers which have the following definition: \\( \\large{ \\rho = X \\cdot K_a \\cdot F_T \\cdot t \\cdot F_{t/s} } \\) = Xo . K a . F t . t . F t/s --> --> with explanations of the quantities and their nominal values shown below: \\( \\rho = resistivity = 0.00128 \\,\\, ohm.cm \\) = resistivity = 0.00128 ohm.cm --> \\( X = voltage/current \\,\\, (ohm) \\) X…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 2.6.4. Evaluation of type B uncertainty and propagation of error",
+      "url": "https://www.itl.nist.gov/div898/handbook/mpc/section6/mpc64.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:measurement"
+  ]
+}

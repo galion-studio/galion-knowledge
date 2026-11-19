@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-x-1",
+  "title": "Euclid X.1: Two unequal magnitudes being set out, if from the greater there is subtracted a magnitude greater than its half, and from that which is left a…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid X.1: Two unequal magnitudes being set out, if from the greater there is subtracted a magnitude greater than its half, and from that which is left a…",
+  "body": "Euclid, Book X, X.1, as worded on this page: \"Two unequal magnitudes being set out, if from the greater there is subtracted a magnitude greater than its half, and from that which is left a magnitude greater than its half, and if this process is repeated continually, then there will be left some magnitude less than the lesser magnitude set out.\" The argument printed under that statement begins: \"Proposition 1 Let AB and C be two unequal magnitudes of which AB is the greater. I say that, if from AB there is subtracted a magnitude greater than its half, and from that which is left a magnitude greater than its half, and if this process is repeated continually, then there will be left some magnitude which is less than the magnitude C . cf. V.Def.4 Some multiple DE of C is greater than AB . Divide DE into the parts DF , FG , and GE equal to C . From AB subtract BH greater than its half, and from AH subtract HK greater than its half, and repeat this process continually until the divisions in AB are equal in multitude with the divisions in DE . Let, then, AK , KH , and HB be divisions…\" David E. Joyce's guide on the same page says: \"The proof begins with two magnitudes C and AB and claims that some multiple of C is greater then AB . Definition V.Def.4 is not a justification for this statement. Euclid himself proved that a horn angle is less than any rectilinear angle in proposition III.16 and must have recognized that if the magnitude C is a horn angle, and the magnitude AB is a rectilinear angle, then no multiple of C is greater than AB . Nonetheless, he did not qualify this proposition to say that it only holds for…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book X, X.1",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookX/propX1.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:number-theory"
+  ]
+}

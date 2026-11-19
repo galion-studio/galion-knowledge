@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xii-13",
+  "title": "Euclid XII.13: If a cylinder is cut by a plane parallel to its opposite planes, then the cylinder is to the cylinder as the axis is to the axis.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XII.13: If a cylinder is cut by a plane parallel to its opposite planes, then the cylinder is to the cylinder as the axis is to the axis.",
+  "body": "Euclid, Book XII, XII.13, as worded on this page: \"If a cylinder is cut by a plane parallel to its opposite planes, then the cylinder is to the cylinder as the axis is to the axis.\" The argument printed under that statement begins: \"Proposition 13 Let the cylinder AD be cut by the plane GH parallel to the opposite planes AB and CD. Let the plane GH meet the axis at the point K. I say that the cylinder BG is to the cylinder GD as the axis EK is to the axis KF. Produce the axis EF in both directions to the points L and M. Set out any number whatever of axes EN and NL equal to the axis EK, and any number whatever FO and OM equal to FK. Construct the cylinder PW on the axis LM with the circles PQ and VW as bases. Carry the planes through the points N and O parallel to AB and CD and to the bases of the cylinder PW, and let them produce the circles RS and TU about the centers N, O. XII.11 Then, since the axes LN, NE, and EK…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XII, XII.13",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXII/propXII13.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

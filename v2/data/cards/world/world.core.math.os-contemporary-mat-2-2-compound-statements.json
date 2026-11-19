@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-2-2-compound-statements",
+  "title": "OpenStax Contemporary Mathematics, 2.2 Compound Statements: Translate compound statements into symbolic form.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 2.2 Compound Statements: Translate compound statements into symbolic form.",
+  "body": "OpenStax Contemporary Mathematics, section \"2.2 Compound Statements\", prints these objectives: \"Translate compound statements into symbolic form.\" \"Translate compound statements in symbolic form with parentheses into words.\" \"Apply the dominance of connectives.\". The section text says: \"Joining two logical statements with the word implies , or using the phrase “if first statement , then second statement,” is called a conditional or implication . The clause associated with the \"if\" statement is also called the hypothesis or antecedent , while the clause following the \"then\" statement or the word implies is called the conclusion or consequent . The conditional statement is like a one-way contract or promise. The only time the conditional statement is false, is if the hypothesis…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 2.2 Compound Statements",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/2-2-compound-statements",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

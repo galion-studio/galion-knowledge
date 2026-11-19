@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-mathematics-constructive",
+  "title": "The Stanford Encyclopedia entry \"Constructive Mathematics\" says: Constructive mathematics is distinguished from its traditional counterpart, classical mathematics, by the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Constructive Mathematics\" says: Constructive mathematics is distinguished from its traditional counterpart, classical mathematics, by the…",
+  "body": "Bridges, Douglas, Palmgren, Erik, Ishihara, Hajime, in the Stanford Encyclopedia of Philosophy entry \"Constructive Mathematics\" says: \"Constructive mathematics is distinguished from its traditional counterpart, classical mathematics, by the strict interpretation of the phrase “there exists” as “we can construct”. In order to work constructively, we need to re-interpret not only the existential quantifier but all the logical connectives and quantifiers as instructions on how to construct a proof of the statement involving these logical expressions.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Constructive Mathematics (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/mathematics-constructive/",
+      "author": "Bridges, Douglas, Palmgren, Erik, Ishihara, Hajime",
+      "date": "1997-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bridges, Douglas, Palmgren, Erik, Ishihara, Hajime",
+  "as_of_date": "2022-08-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

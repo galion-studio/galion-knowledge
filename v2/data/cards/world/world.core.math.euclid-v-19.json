@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-v-19",
+  "title": "Euclid V.19: If a whole is to a whole as a part subtracted is to a part subtracted, then the remainder is also to the remainder as the whole is to the whole.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid V.19: If a whole is to a whole as a part subtracted is to a part subtracted, then the remainder is also to the remainder as the whole is to the whole.",
+  "body": "Euclid, Book V, V.19, as worded on this page: \"If a whole is to a whole as a part subtracted is to a part subtracted, then the remainder is also to the remainder as the whole is to the whole. From this it is manifest that, if magnitudes are proportional taken jointly, then they are also proportional in conversion. V.Def.16\" The argument printed under that statement begins: \"Proposition 19 Let the whole AB be to the whole CD as the part AE subtracted is to the part CF subtracted. I say that the remainder EB is also to the remainder FD as the whole AB is to the whole CD. V.16 Since AB is to CD as AE is to CF, therefore alternately, BA is to AE as DC is to CF. V.17 V.16 And, since the magnitudes are proportional taken jointly, they are also proportional taken separately, that is, BE is to EA as DF is to CF, and, alternately, BE is to DF as EA is to FC. But, by hypothesis, AE is to CF as is the whole AB to the whole CD. V.11 Therefore the remainder EB is also to the remainder FD as the whole AB is to the whole CD. Therefore if a whole is to a whole as a part…\" David E. Joyce's guide on the same page says: \"This proposition says that if ( u + v ) : ( x + y ) equals v : y, then it also equals u : x. The transformations of proportions taken jointly, taken separately, and in conversion are summarized in the Guide for V.Def.14. The magnitudes in this proposition must all be of the same kind, but those in the corollary can be of two different kinds. Thus, the corollary is out of place. It should probably be after the last proposition since it follows from the previous two propositions by inversion. As…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book V, V.19",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookV/propV19.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:algebra"
+  ]
+}

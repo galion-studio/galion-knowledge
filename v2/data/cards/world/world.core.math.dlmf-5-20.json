@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-5-20",
+  "title": "DLMF 5.20 Physical Applications: In nonrelativistic quantum mechanics, collisions between two charged particles are described with the aid of the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 5.20 Physical Applications: In nonrelativistic quantum mechanics, collisions between two charged particles are described with the aid of the…",
+  "body": "NIST DLMF section 5.20 (Physical Applications) says: \"In nonrelativistic quantum mechanics, collisions between two charged particles are described with the aid of the Coulomb phase shift \\operatorname{ph}\\Gamma\\left(\\ell+1+\\mathrm{i}\\eta\\right) ; see ( 33.2.10 ) and Clark ( 1979 ) . Suppose the potential energy of a gas of n point charges with positions x_{1},x_{2},\\dots,x_{n} and free to move on the infinite line -\\infty<x<\\infty , is given by The probability density of the positions when the gas is in thermodynamic equilibrium is: where k is the Boltzmann constant, T the temperature and C a constant. Then the partition function (with \\beta=1/(kT) ) is given by For n charges free to move on a circular wire of radius 1 , For further information see Mehta ( 2004 ) . Veneziano ( 1968 ) identifies relationships between particle scattering amplitudes described by the beta function, an important early development in string theory. Carlitz ( 1972 ) describes the partition function of dense hadronic matter in terms of a gamma function.\" Equation 5.20.1 on the page has alt text \"W=\\frac{1}{2}\\sum_{\\ell=1}^{n}x_{\\ell}^{2}-\\sum_{1\\leq\\ell<j\\leq n}\\ln|x_{\\ell% }-x_{j}|.\". Equation 5.20.2 on the page has alt text \"P(x_{1},\\dots,x_{n})=C\\exp\\left(-W/(kT)\\right),\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 5.20 Physical Applications",
+      "url": "https://dlmf.nist.gov/5.20",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

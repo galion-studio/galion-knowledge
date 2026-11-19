@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-formalism-mathematics",
+  "title": "The Stanford Encyclopedia entry \"Formalism in the Philosophy of Mathematics\" says: One common understanding of formalism in the philosophy of mathematics takes it as holding that mathematics…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Formalism in the Philosophy of Mathematics\" says: One common understanding of formalism in the philosophy of mathematics takes it as holding that mathematics…",
+  "body": "Weir, Alan, in the Stanford Encyclopedia of Philosophy entry \"Formalism in the Philosophy of Mathematics\" says: \"One common understanding of formalism in the philosophy of mathematics takes it as holding that mathematics is not a body of propositions representing an abstract sector of reality but is much more akin to a game, bringing with it no more commitment to an ontology of objects or properties than playing ludo or chess are normally thought to have. This idea has some intuitive plausibility: consider the tyro toiling at multiplication tables or the student using a standard algorithm for differentiating or integrating a function. It also corresponds to some aspects of the practice of advanced mathematicians in some periods—for example, the treatment of imaginary numbers for some time after Bombelli’s introduction of them, and perhaps the attitude of some contemporary mathematicians towards the higher flights of set theory. Finally, it is often the position to which philosophically naïve…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Formalism in the Philosophy of Mathematics (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/formalism-mathematics/",
+      "author": "Weir, Alan",
+      "date": "2011-01-12",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Weir, Alan",
+  "as_of_date": "2024-02-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

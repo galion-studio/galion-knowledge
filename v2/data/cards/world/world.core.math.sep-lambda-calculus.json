@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-lambda-calculus",
+  "title": "The Stanford Encyclopedia entry \"The Lambda Calculus\" says: The \\(\\lambda\\)-calculus is, at heart, a simple notation for functions and application.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"The Lambda Calculus\" says: The \\(\\lambda\\)-calculus is, at heart, a simple notation for functions and application.",
+  "body": "Alama, Jesse, Korbmacher, Johannes, in the Stanford Encyclopedia of Philosophy entry \"The Lambda Calculus\" says: \"The \\(\\lambda\\)-calculus is, at heart, a simple notation for functions and application. The main ideas are applying a function to an argument and forming functions by abstraction . The syntax of basic \\(\\lambda\\)-calculus is quite sparse, making it an elegant, focused notation for representing functions. Functions and arguments are on a par with one another. The result is a non-extensional theory of functions as rules of computation, contrasting with an extensional theory of functions as sets of ordered pairs. Despite its sparse syntax, the expressiveness and flexibility of the \\(\\lambda\\)-calculus make it a cornucopia of logic and mathematics. This entry develops some of the central highlights of the field and prepares the reader for further study of the subject and its applications in philosophy, linguistics, computer science, and logic.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Lambda Calculus (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/lambda-calculus/",
+      "author": "Alama, Jesse, Korbmacher, Johannes",
+      "date": "2012-12-12",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Alama, Jesse, Korbmacher, Johannes",
+  "as_of_date": "2023-07-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

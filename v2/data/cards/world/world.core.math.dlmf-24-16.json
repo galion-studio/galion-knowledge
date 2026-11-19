@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-24-16",
+  "title": "DLMF 24.16 Generalizations: For \\ell=0,1,2,\\dotsc , Bernoulli and Euler polynomials of order \\ell are defined respectively by",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 24.16 Generalizations: For \\ell=0,1,2,\\dotsc , Bernoulli and Euler polynomials of order \\ell are defined respectively by",
+  "body": "NIST DLMF section 24.16 (Generalizations) says: \"For \\ell=0,1,2,\\dotsc , Bernoulli and Euler polynomials of order \\ell are defined respectively by When x=0 they reduce to the Bernoulli and Euler numbers of order \\ell : For this and other properties see Milne-Thomson ( 1933 , pp. 126–153) or Nörlund ( 1924 , pp. 144–162) . For extensions of B^{(\\ell)}_{n}\\left(x\\right) to complex values of x , n , and \\ell , and also for uniform asymptotic expansions for large x and large n , see Temme ( 1995b ) and López and Temme ( 1999b , 2010b ) . Here s\\left(n,m\\right) again denotes the Stirling number of the first kind. B^{(x)}_{n} is a polynomial in x of degree n . (This notation is consistent with ( 24.16.3 ) when x=\\ell .) Let \\chi be a primitive Dirichlet character \\mod f (see § 27.8 ). Then f is called the conductor of \\chi . Generalized Bernoulli numbers and polynomials belonging to \\chi are defined by Let \\chi_{0} be the trivial character and \\chi_{4} the unique (nontrivial) character with f=4 ; that is, \\chi_{4}(1)=1 , \\chi_{4}(3)=-1 , \\chi_{4}(2)=\\chi_{4}(4)=0 . Then\" Equation 24.16.3 on the page has alt text \"\\displaystyle B^{(\\ell)}_{n}\". Equation 24.16.4 on the page has alt text \"\\left(\\frac{\\ln\\left(1+t\\right)}{t}\\right)^{\\ell}=\\ell\\sum_{n=0}^{\\infty}\\frac% {B^{(\\ell+n)}_{n}}{\\ell+n}\\frac{t^{n}}{n!},\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 24.16 Generalizations",
+      "url": "https://dlmf.nist.gov/24.16",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

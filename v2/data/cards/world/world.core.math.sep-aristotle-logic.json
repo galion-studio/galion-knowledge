@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-aristotle-logic",
+  "title": "The Stanford Encyclopedia entry \"Aristotle’s Logic\" says: Aristotle’s logic, especially his theory of the syllogism, has had an unparalleled influence on the history…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Aristotle’s Logic\" says: Aristotle’s logic, especially his theory of the syllogism, has had an unparalleled influence on the history…",
+  "body": "Smith, Robin, in the Stanford Encyclopedia of Philosophy entry \"Aristotle’s Logic\" says: \"Aristotle’s logic, especially his theory of the syllogism, has had an unparalleled influence on the history of Western thought. It did not always hold this position: in the Hellenistic period, Stoic logic, and in particular the work of Chrysippus, took pride of place. However, in later antiquity, following the work of Aristotelian Commentators, Aristotle’s logic became dominant, and Aristotelian logic was what was transmitted to the Arabic and the Latin medieval traditions, while the works of Chrysippus have not survived.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Aristotle’s Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/aristotle-logic/",
+      "author": "Smith, Robin",
+      "date": "2000-03-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Smith, Robin",
+  "as_of_date": "2022-11-22",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-25-15",
+  "title": "DLMF 25.15 Dirichlet 𝐿-functions: The notation L\\left(s,\\chi\\right) was introduced by Dirichlet ( 1837 ) for the meromorphic continuation of the function…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 25.15 Dirichlet 𝐿-functions: The notation L\\left(s,\\chi\\right) was introduced by Dirichlet ( 1837 ) for the meromorphic continuation of the function…",
+  "body": "NIST DLMF section 25.15 (Dirichlet 𝐿-functions) says: \"The notation L\\left(s,\\chi\\right) was introduced by Dirichlet ( 1837 ) for the meromorphic continuation of the function defined by the series where \\chi(n) is a Dirichlet character \\pmod{k} (§ 27.8 ). For the principal character \\chi_{1}\\pmod{k} , L\\left(s,\\chi_{1}\\right) is analytic everywhere except for a simple pole at s=1 with residue \\phi\\left(k\\right)/k , where \\phi\\left(k\\right) is Euler’s totient function (§ 27.2 ). If \\chi\\neq\\chi_{1} , then L\\left(s,\\chi\\right) is an entire function of s . with the product taken over all primes p , beginning with p=2 . This implies that L\\left(s,\\chi\\right)\\neq 0 if \\Re s>1 . Equations ( 25.15.3 ) and ( 25.15.4 ) hold for all s if \\chi\\neq\\chi_{1} , and for all s ( \\neq 1 ) if \\chi=\\chi_{1} : where \\chi_{0} is a primitive character (mod d ) for some positive divisor d of k (§ 27.8 ). When \\chi is a primitive character (mod k ) the L -functions satisfy the functional equation:\" Equation 25.15.1 on the page has alt text \"L\\left(s,\\chi\\right)=\\sum_{n=1}^{\\infty}\\frac{\\chi(n)}{n^{s}},\". Equation 25.15.2 on the page has alt text \"L\\left(s,\\chi\\right)=\\prod_{p}\\left(1-\\frac{\\chi(p)}{p^{s}}\\right)^{-1},\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 25.15 Dirichlet 𝐿-functions",
+      "url": "https://dlmf.nist.gov/25.15",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

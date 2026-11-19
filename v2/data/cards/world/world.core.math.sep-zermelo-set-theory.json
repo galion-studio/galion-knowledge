@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-zermelo-set-theory",
+  "title": "The Stanford Encyclopedia entry \"Zermelo’s Axiomatization of Set Theory\" says: The first axiomatisation of set theory was given by Zermelo in his 1908 paper “ Untersuchungen über die…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Zermelo’s Axiomatization of Set Theory\" says: The first axiomatisation of set theory was given by Zermelo in his 1908 paper “ Untersuchungen über die…",
+  "body": "Hallett, Michael, in the Stanford Encyclopedia of Philosophy entry \"Zermelo’s Axiomatization of Set Theory\" says: \"The first axiomatisation of set theory was given by Zermelo in his 1908 paper “ Untersuchungen über die Grundlagen der Mengenlehre, I ” (Zermelo 1908b), which became the basis for the modern theory of sets. This entry focuses on the 1908 axiomatisation; a further entry will consider later axiomatisations of set theory in the period 1920–1940, including Zermelo's second axiomatisation of 1930.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Zermelo’s Axiomatization of Set Theory (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/zermelo-set-theory/",
+      "author": "Hallett, Michael",
+      "date": "2013-07-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Hallett, Michael",
+  "as_of_date": "2013-07-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

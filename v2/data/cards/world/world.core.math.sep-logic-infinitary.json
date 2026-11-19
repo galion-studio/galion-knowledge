@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logic-infinitary",
+  "title": "The Stanford Encyclopedia entry \"Infinitary Logic\" says: Traditionally, expressions in formal systems have been regarded as signifying finite inscriptions which…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Infinitary Logic\" says: Traditionally, expressions in formal systems have been regarded as signifying finite inscriptions which…",
+  "body": "Bell, John L., in the Stanford Encyclopedia of Philosophy entry \"Infinitary Logic\" says: \"Traditionally, expressions in formal systems have been regarded as signifying finite inscriptions which are—at least in principle—capable of actually being written out in primitive notation. However, the fact that (first-order) formulas may be identified with natural numbers (via “Gödel numbering”) and hence with finite sets makes it no longer necessary to regard formulas as inscriptions, and suggests the possibility of fashioning “languages” some of whose formulas would be naturally identified as infinite sets . A “language” of this kind is called an infinitary language : in this article I discuss those infinitary languages which can be obtained in a straightforward manner from first-order languages by allowing conjunctions, disjunctions and, possibly, quantifier sequences, to be of infinite length. In the course of the discussion it will be seen that, while the expressive power of…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Infinitary Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logic-infinitary/",
+      "author": "Bell, John L.",
+      "date": "2000-01-23",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bell, John L.",
+  "as_of_date": "2023-09-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

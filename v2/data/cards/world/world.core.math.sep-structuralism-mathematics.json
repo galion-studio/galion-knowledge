@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-structuralism-mathematics",
+  "title": "The Stanford Encyclopedia entry \"Structuralism in the Philosophy of Mathematics\" says: The core idea of structuralism concerning mathematics is that modern mathematical theories, always or in most…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Structuralism in the Philosophy of Mathematics\" says: The core idea of structuralism concerning mathematics is that modern mathematical theories, always or in most…",
+  "body": "Reck, Erich, Schiemer, Georg, in the Stanford Encyclopedia of Philosophy entry \"Structuralism in the Philosophy of Mathematics\" says: \"The core idea of structuralism concerning mathematics is that modern mathematical theories, always or in most cases, characterize abstract structures , instead of referring to more traditional kinds of objects, including sets, or of providing mere calculating techniques for applications. Thus, arithmetic characterizes the natural number structure, analysis the real number structure, and traditional geometry the structure of Euclidean space. As such, structuralism is a position about the subject matter and content of mathematics. But it also includes, or is closely connected with, views about its methodology, since studying such structures involves distinctive tools and strategies. Hence there are two related kinds of structuralism: metaphysical and methodological .\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Structuralism in the Philosophy of Mathematics (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/structuralism-mathematics/",
+      "author": "Reck, Erich, Schiemer, Georg",
+      "date": "2019-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Reck, Erich, Schiemer, Georg",
+  "as_of_date": "2025-09-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

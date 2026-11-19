@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logic-inductive",
+  "title": "The Stanford Encyclopedia entry \"Inductive Logic\" says: An inductive logic is a system of reasoning that articulates how evidence claims bear on the truth of…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Inductive Logic\" says: An inductive logic is a system of reasoning that articulates how evidence claims bear on the truth of…",
+  "body": "Hawthorne, James, in the Stanford Encyclopedia of Philosophy entry \"Inductive Logic\" says: \"An inductive logic is a system of reasoning that articulates how evidence claims bear on the truth of hypotheses. As with any logic, it does this via the evaluation of arguments. Each argument consists of premise statements and a conclusion statement. A logic employs principles and rules to evaluate the extent to which the truth of an argument’s premise statements support the truth of its conclusion statement.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Inductive Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logic-inductive/",
+      "author": "Hawthorne, James",
+      "date": "2004-09-06",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Hawthorne, James",
+  "as_of_date": "2025-02-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-7-7-what-are-the-odds",
+  "title": "OpenStax Contemporary Mathematics, 7.7 What Are the Odds?: Compute odds.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 7.7 What Are the Odds?: Compute odds.",
+  "body": "OpenStax Contemporary Mathematics, section \"7.7 What Are the Odds?\", prints these objectives: \"Compute odds.\" \"Determine odds from probabilities.\" \"Determine probabilities from odds.\". The section text says: \"The ratio of the number of equally likely outcomes in an event E to the number of equally likely outcomes not in the event E ′ is called the odds for (or odds in favor of) the event. The opposite ratio (the number of outcomes not in the event to the number in the event E ′ to the number in the event E is called the odds against the event.\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 7.7 What Are the Odds?",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/7-7-what-are-the-odds",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

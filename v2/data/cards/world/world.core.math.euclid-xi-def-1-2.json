@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xi-def-1-2",
+  "title": "Euclid XI.Def.1-2: A solid is that which has length, breadth, and depth.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XI.Def.1-2: A solid is that which has length, breadth, and depth.",
+  "body": "Euclid, Book XI, XI.Def.1-2, as worded on this page: \"A solid is that which has length, breadth, and depth. A face of a solid is a surface.\" The argument printed under that statement begins: \"Definition 1 Definition 2 Guide The 28 definitions at the beginning of Book XI serve Books XII and XIII as well. The first two definitions correspond to definitions I.Def.2 and I.Def.3 for a line and its ends, and definitions I.Def.5 and I.Def.6 for a surface and its edges. Some examples of solids that appear in Books XI through XII are: parallelepipedal solids. See proposition XI.24 and the following propositions prisms. XI.Def.13 and proposition XI.39 pyramids. XI.Def.12 , XII.3 and the following propositions cones and cylinders. XI.Def.18 through XI.Def.24, XII.10 and the following propositions spheres. XI.Def.14 through XI.Def.17, and propositions XII.17 and XII.18 octahedra. XI.Def.26…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XI, XI.Def.1-2",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXI/defXI1.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

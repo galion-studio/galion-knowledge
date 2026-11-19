@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-induction-problem",
+  "title": "The Stanford Encyclopedia entry \"The Problem of Induction\" says: We generally think that the observations we make are able to justify some expectations or predictions about…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"The Problem of Induction\" says: We generally think that the observations we make are able to justify some expectations or predictions about…",
+  "body": "Henderson, Leah, in the Stanford Encyclopedia of Philosophy entry \"The Problem of Induction\" says: \"We generally think that the observations we make are able to justify some expectations or predictions about observations we have not yet made, as well as general claims that go beyond the observed. For example, the observation that bread of a certain appearance has thus far been nourishing seems to justify the expectation that the next similar piece of bread I eat will also be nourishing, as well as the claim that bread of this sort is generally nourishing. Such inferences from the observed to the unobserved, or to general laws, are known as “inductive inferences”.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Problem of Induction (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/induction-problem/",
+      "author": "Henderson, Leah",
+      "date": "2018-03-21",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Henderson, Leah",
+  "as_of_date": "2022-11-22",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

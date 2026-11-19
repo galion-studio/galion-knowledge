@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-11-4-apportionment-methods",
+  "title": "OpenStax Contemporary Mathematics, 11.4 Apportionment Methods: Describe and interpret the apportionment problem.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 11.4 Apportionment Methods: Describe and interpret the apportionment problem.",
+  "body": "OpenStax Contemporary Mathematics, section \"11.4 Apportionment Methods\", prints these objectives: \"Describe and interpret the apportionment problem.\" \"Apply Hamilton’s Method.\" \"Describe and interpret the quota rule.\" \"Apply Jefferson’s Method.\" \"Apply Adams’s Method.\" \"Apply Webster’s Method.\". The section text says: \"One of the problems encountered when standard quotas are transformed into whole numbers using traditional rounding is that it is possible for the sum of the values to be greater than the number of seats available. A reasonable way to avoid this is to always round down, even when the first decimal place is five or greater. For example, a standard quota of 12.33 and a standard quota of 12.99 would both round down to 12. This is called the lower quota .\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 11.4 Apportionment Methods",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/11-4-apportionment-methods",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

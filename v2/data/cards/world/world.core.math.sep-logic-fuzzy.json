@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logic-fuzzy",
+  "title": "The Stanford Encyclopedia entry \"Fuzzy Logic\" says: Fuzzy logic is intended to model logical reasoning with vague or imprecise statements like “Petr is young…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Fuzzy Logic\" says: Fuzzy logic is intended to model logical reasoning with vague or imprecise statements like “Petr is young…",
+  "body": "Cintula, Petr, Fermüller, Christian G., Noguera, Carles, in the Stanford Encyclopedia of Philosophy entry \"Fuzzy Logic\" says: \"Fuzzy logic is intended to model logical reasoning with vague or imprecise statements like “Petr is young (rich, tall, hungry, etc.)”. It refers to a family of many-valued logics , where the truth-values are interpreted as degrees of truth. The truth-value of a logically compound proposition, like “Carles is tall and Chris is rich”, is determined by the truth-value of its components. In other words, like in classical logic, one imposes truth-functionality.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fuzzy Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logic-fuzzy/",
+      "author": "Cintula, Petr, Ferm&uuml;ller, Christian G., Noguera, Carles",
+      "date": "2016-11-15",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Cintula, Petr, Ferm&uuml;ller, Christian G., Noguera, Carles",
+  "as_of_date": "2021-11-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

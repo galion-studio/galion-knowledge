@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.arxiv-9811078",
+  "title": "The Kepler conjecture: the arXiv abstract says This is the eighth and final paper in a series giving a proof of the Kepler…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Kepler conjecture: the arXiv abstract says This is the eighth and final paper in a series giving a proof of the Kepler…",
+  "body": "The arXiv record https://arxiv.org/abs/math/9811078 for \"The Kepler conjecture\" abstracts the work as follows: \"This is the eighth and final paper in a series giving a proof of the Kepler conjecture, which asserts that the density of a packing of congruent spheres in three dimensions is never greater than $π/\\sqrt{18}\\approx 0.74048...$. This is the oldest problem in discrete geometry and is an important part of Hilbert's 18th problem. An example of a packing achieving this density is the face-centered cubic packing. This paper completes the fourth step of the program outlined in math.MG/9811073: A proof that if some standard region has more than four sides, then the star scores less than $8 \\pt$.\" This card quotes that abstract. A preprint is the authors' manuscript.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Kepler conjecture",
+      "url": "https://arxiv.org/abs/math/9811078",
+      "author": "Thomas C. Hales",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Abstract text is the arXiv abstract, retrieved 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Thomas C. Hales",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "area:theorems"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-def-21",
+  "title": "Euclid I.Def.21: Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.Def.21: Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone…",
+  "body": "Euclid, Book I, I.Def.21, as worded on this page: \"Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone equal, and a scalene triangle that which has its three sides unequal. Further, of trilateral figures, a right-angled triangle is that which has a right angle, an obtuse-angled triangle that which has an obtuse angle, and an acute-angled triangle that which has its three angles acute.\" David E. Joyce's guide on the same page says: \"About Definition 20 This definition classifies triangles by their symmetries, while definition 21 classifies them by the kinds of angles they contain. The scalene triangle C has no symmetries, but the isosceles triangle B has a bilateral symmetry. The equilateral triangle A not only has three bilateral symmetries, but also has 120°-rotational symmetries. According to this definition, an equilateral triangle is not to be considered as an isosceles triangle. The term isosceles triangle is first…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.Def.21",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/defI20.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

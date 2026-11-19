@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-10-1-points-lines-and-planes",
+  "title": "OpenStax Contemporary Mathematics, 10.1 Points, Lines, and Planes: Identify and describe points, lines, and planes.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 10.1 Points, Lines, and Planes: Identify and describe points, lines, and planes.",
+  "body": "OpenStax Contemporary Mathematics, section \"10.1 Points, Lines, and Planes\", prints these objectives: \"Identify and describe points, lines, and planes.\" \"Express points and lines using proper notation.\" \"Determine union and intersection of sets.\". The section text says: \"In this section, we will begin our exploration of geometry by looking at the basic definitions as defined by Euclid. These definitions form the foundation of the geometric theories that are applied in everyday life.\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 10.1 Points, Lines, and Planes",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/10-1-points-lines-and-planes",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

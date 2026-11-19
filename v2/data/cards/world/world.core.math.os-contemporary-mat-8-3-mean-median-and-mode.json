@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-8-3-mean-median-and-mode",
+  "title": "OpenStax Contemporary Mathematics, 8.3 Mean, Median and Mode: Calculate the mode of a dataset.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 8.3 Mean, Median and Mode: Calculate the mode of a dataset.",
+  "body": "OpenStax Contemporary Mathematics, section \"8.3 Mean, Median and Mode\", prints these objectives: \"Calculate the mode of a dataset.\" \"Calculate the median of a dataset.\" \"Calculate the mean of a dataset.\" \"Contrast measures of central tendency to identify the most representative average.\" \"Solve application problems involving mean, median, and mode.\". The section text says: \"Imagine a game where you and a friend are trying to guess the typical person’s height. Once the guesses are made, you bring in every person and measure their height. You and your friend figure out how far off each of your guesses were from the actual value, then square that number. The result is the number of points you earn for that person. After we check every height and award points accordingly, the person with the lower score wins (because a lower score means that person’s guess was…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 8.3 Mean, Median and Mode",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/8-3-mean-median-and-mode",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

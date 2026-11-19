@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vii-def-22",
+  "title": "Euclid VII.Def.22: A perfect number is that which is equal to the sum of its own parts.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VII.Def.22: A perfect number is that which is equal to the sum of its own parts.",
+  "body": "Euclid, Book VII, VII.Def.22, as worded on this page: \"A perfect number is that which is equal to the sum of its own parts.\" David E. Joyce's guide on the same page says: \"For example, the number 28 is perfect because its parts (that is, proper divisors) 1, 2, 4, 7, and 14 sum to 28. The four smallest perfect numbers were known to the ancient Greek mathematicians. They are 6, 28, 496, and 8128. In proposition IX.36 Euclid gives a construction of even perfect numbers. For more discussion on perfect numbers, see the Guide for the that proposition. The divisors of these even perfect numbers can be listed in two columns, illustrated here for the divisors of 496. 1 2…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VII, VII.Def.22",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVII/defVII22.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:number-theory"
+  ]
+}

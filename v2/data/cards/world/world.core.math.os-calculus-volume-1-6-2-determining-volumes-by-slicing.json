@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-6-2-determining-volumes-by-slicing",
+  "title": "OpenStax Calculus Volume 1, 6.2 Determining Volumes by Slicing: Determine the volume of a solid by integrating a cross-section (the slicing method).",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 6.2 Determining Volumes by Slicing: Determine the volume of a solid by integrating a cross-section (the slicing method).",
+  "body": "OpenStax Calculus Volume 1, section \"6.2 Determining Volumes by Slicing\", prints these objectives: \"Determine the volume of a solid by integrating a cross-section (the slicing method).\" \"Find the volume of a solid of revolution using the disk method.\" \"Find the volume of a solid of revolution with a cavity using the washer method.\". The section text says: \"In the preceding section, we used definite integrals to find the area between two curves. In this section, we use definite integrals to find volumes of three-dimensional solids. We consider three approaches—slicing, disks, and washers—for finding these volumes, depending on the characteristics of the solid.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 6.2 Determining Volumes by Slicing",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/6-2-determining-volumes-by-slicing",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

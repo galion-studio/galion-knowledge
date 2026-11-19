@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-12-4-rotation-of-axes",
+  "title": "OpenStax Algebra and Trigonometry 2e, 12.4 Rotation of Axes: Identify nondegenerate conic sections given their general form equations.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 12.4 Rotation of Axes: Identify nondegenerate conic sections given their general form equations.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"12.4 Rotation of Axes\", prints these objectives: \"Identify nondegenerate conic sections given their general form equations.\" \"Use rotation of axes formulas.\" \"Write equations of rotated conics in standard form.\" \"Identify conics without rotating axes.\". The section text says: \"As we have seen, conic sections are formed when a plane intersects two right circular cones aligned tip to tip and extending infinitely far in opposite directions, which we also call a cone . The way in which we slice the cone will determine the type of conic section formed at the intersection. A circle is formed by slicing a cone with a plane perpendicular to the axis of symmetry of the cone. An ellipse is formed by slicing a single cone with a slanted plane not perpendicular to the axis of…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 12.4 Rotation of Axes",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/12-4-rotation-of-axes",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

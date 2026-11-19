@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-1-2",
+  "title": "DLMF 1.2 Elementary Algebra: In ( 1.2.1 ) and ( 1.2.3 ) k and n are nonnegative integers and k\\leq n .",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 1.2 Elementary Algebra: In ( 1.2.1 ) and ( 1.2.3 ) k and n are nonnegative integers and k\\leq n .",
+  "body": "NIST DLMF section 1.2 (Elementary Algebra) says: \"In ( 1.2.1 ) and ( 1.2.3 ) k and n are nonnegative integers and k\\leq n . In ( 1.2.2 ), ( 1.2.4 ), and ( 1.2.5 ) n is a positive integer. See also § 26.3(i) . For complex z the binomial coefficient \\genfrac{(}{)}{0.0pt}{}{z}{k} is defined via ( 1.2.6 ). where \\ell is n or n-1 according as n is even or odd. In ( 1.2.6 )–( 1.2.9 ) k and m are nonnegative integers and z is complex. where \\ell = last term of the series = a+(n-1)d . Let \\alpha_{1},\\alpha_{2},\\dots,\\alpha_{n} be distinct constants, and f(x) be a polynomial of degree less than n . Then and f^{(k)} is the k -th derivative of f (§ 1.4(iii) ). If m_{1},m_{2},\\dots,m_{n} are positive integers and \\deg f<\\sum_{j=1}^{n}m_{j} , then there exist polynomials f_{j}(x) , \\deg f_{j}<m_{j} , such that To find the polynomials f_{j}(x) , j=1,2,\\dots,n , multiply both sides by the denominator of the left-hand side and equate coefficients. See Chrystal ( 1959a , pp. 151–159) .\" Equation 1.2.1 on the page has alt text \"\\genfrac{(}{)}{0.0pt}{}{n}{k}=\\frac{n!}{(n-k)!k!}=\\genfrac{(}{)}{0.0pt}{}{n}{n% -k}.\". Equation 1.2.2 on the page has alt text \"(a+b)^{n}=a^{n}+\\genfrac{(}{)}{0.0pt}{}{n}{1}a^{n-1}b+\\genfrac{(}{)}{0.0pt}{}{% n}{2}a^{n-2}b^{2}+\\dots+\\genfrac{(}{)}{0.0pt}{}{n}{n-1}ab^{n-1}+b^{n}.\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 1.2 Elementary Algebra",
+      "url": "https://dlmf.nist.gov/1.2",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-11-1-systems-of-linear-equations-two-variables",
+  "title": "OpenStax Algebra and Trigonometry 2e, 11.1 Systems of Linear Equations: Two Variables: Solve systems of equations by graphing.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 11.1 Systems of Linear Equations: Two Variables: Solve systems of equations by graphing.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"11.1 Systems of Linear Equations: Two Variables\", prints these objectives: \"Solve systems of equations by graphing.\" \"Solve systems of equations by substitution.\" \"Solve systems of equations by addition.\" \"Identify inconsistent systems of equations containing two variables.\" \"Express the solution of a system of dependent equations containing two variables.\". The section text says: \"A skateboard manufacturer introduces a new line of boards. The manufacturer tracks its costs, which is the amount it spends to produce the boards, and its revenue, which is the amount it earns through sales of its boards. How can the company determine if it is making a profit with its new line? How many skateboards must be produced and sold before a profit is possible? In this section, we will consider linear equations with two variables to answer these and similar questions.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 11.1 Systems of Linear Equations: Two Variables",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/11-1-systems-of-linear-equations-two-variables",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

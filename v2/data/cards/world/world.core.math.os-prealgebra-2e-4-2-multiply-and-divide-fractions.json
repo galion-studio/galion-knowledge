@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-prealgebra-2e-4-2-multiply-and-divide-fractions",
+  "title": "OpenStax Prealgebra 2e, 4.2 Multiply and Divide Fractions: Simplify fractions",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Prealgebra 2e, 4.2 Multiply and Divide Fractions: Simplify fractions",
+  "body": "OpenStax Prealgebra 2e, section \"4.2 Multiply and Divide Fractions\", prints these objectives: \"Simplify fractions\" \"Multiply fractions\" \"Find reciprocals\" \"Divide fractions\". The section text says: \"In working with equivalent fractions, you saw that there are many ways to write fractions that have the same value, or represent the same part of the whole. How do you know which one to use? Often, we’ll use the fraction that is in simplified form.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Prealgebra 2e, 4.2 Multiply and Divide Fractions",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:arithmetic"
+  ]
+}

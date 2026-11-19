@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-5-13",
+  "title": "DLMF 5.13 Integrals: In ( 5.13.1 ) the integration path is a straight line parallel to the imaginary axis.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 5.13 Integrals: In ( 5.13.1 ) the integration path is a straight line parallel to the imaginary axis.",
+  "body": "NIST DLMF section 5.13 (Integrals) says: \"In ( 5.13.1 ) the integration path is a straight line parallel to the imaginary axis. For compendia of integrals of gamma functions see Apelblat ( 1983 , pp. 124–127 and 129–130) , Erdélyi et al. ( 1954a , b ) , Gradshteyn and Ryzhik ( 2015 , §6.4) , Oberhettinger ( 1974 , pp. 191–204) , Oberhettinger and Badii ( 1973 , pp. 307–316) , Prudnikov et al. ( 1986b , pp. 57–64) , Prudnikov et al. ( 1992a , pp. 127–130) , and Prudnikov et al. ( 1992b , pp. 113–123) .\" Equation 5.13.1 on the page has alt text \"{\\frac{1}{2\\pi i}\\int_{c-i\\infty}^{c+i\\infty}\\Gamma\\left(s+a\\right)\\Gamma\\left% (b-s\\right)z^{-s}\\,\\mathrm{d}s=\\frac{\\Gamma\\left(a+b\\right)z^{a}}{(1+z)^{a+b}}},\". Equation 5.13.2 on the page has alt text \"{\\frac{1}{2\\pi}\\int_{-\\infty}^{\\infty}|\\Gamma\\left(a+it\\right)|^{2}e^{(2b-\\pi)% t}\\,\\mathrm{d}t=\\frac{\\Gamma\\left(2a\\right)}{(2\\sin b)^{2a}}},\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 5.13 Integrals",
+      "url": "https://dlmf.nist.gov/5.13",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

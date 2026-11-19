@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-27-14",
+  "title": "DLMF 27.14 Unrestricted Partitions: A fundamental problem studies the number of ways n can be written as a sum of positive integers \\leq n , that is, the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 27.14 Unrestricted Partitions: A fundamental problem studies the number of ways n can be written as a sum of positive integers \\leq n , that is, the…",
+  "body": "NIST DLMF section 27.14 (Unrestricted Partitions) says: \"A fundamental problem studies the number of ways n can be written as a sum of positive integers \\leq n , that is, the number of solutions of The number of summands is unrestricted, repetition is allowed, and the order of the summands is not taken into account. The corresponding unrestricted partition function is denoted by p\\left(n\\right) , and the summands are called parts ; see § 26.9(i) . For example, p\\left(5\\right)=7 because there are exactly seven partitions of 5 : 5=4+1=3+2=3+1+1=2+2+1=2+1+1+1=1+1+1+1+1 . The number of partitions of n into at most k parts is denoted by p_{k}\\left(n\\right) ; again see § 26.9(i) . Euler introduced the reciprocal of the infinite product as a generating function for the function p\\left(n\\right) defined in § 27.14(i) : with p\\left(0\\right)=1 . Euler’s pentagonal number theorem states that where the exponents 1 , 2 , 5 , 7 , 12 , 15 , \\dots are the pentagonal numbers , defined by\" Equation 27.14.1 on the page has alt text \"n=a_{1}+a_{2}+\\cdots,\". Equation 27.14.2 on the page has alt text \"\\mathit{f}\\left(x\\right)=\\prod_{m=1}^{\\infty}(1-x^{m})=\\left(x;x\\right)_{% \\infty},\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 27.14 Unrestricted Partitions",
+      "url": "https://dlmf.nist.gov/27.14",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

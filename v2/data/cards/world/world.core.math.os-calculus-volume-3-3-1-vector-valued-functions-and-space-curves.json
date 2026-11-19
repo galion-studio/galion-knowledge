@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-3-3-1-vector-valued-functions-and-space-curves",
+  "title": "OpenStax Calculus Volume 3, 3.1 Vector-Valued Functions and Space Curves: Write the general equation of a vector-valued function in component form and unit-vector form.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 3, 3.1 Vector-Valued Functions and Space Curves: Write the general equation of a vector-valued function in component form and unit-vector form.",
+  "body": "OpenStax Calculus Volume 3, section \"3.1 Vector-Valued Functions and Space Curves\", prints these objectives: \"Write the general equation of a vector-valued function in component form and unit-vector form.\" \"Recognize parametric equations for a space curve.\" \"Describe the shape of a helix and write its equation.\" \"Define the limit of a vector-valued function.\". The section text says: \"Our study of vector-valued functions combines ideas from our earlier examination of single-variable calculus with our description of vectors in three dimensions from the preceding chapter. In this section we extend concepts from earlier chapters and also examine new ideas concerning curves in three-dimensional space. These definitions and theorems support the presentation of material in the rest of this chapter and also in the remaining chapters of the text.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 3, 3.1 Vector-Valued Functions and Space Curves",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/3-1-vector-valued-functions-and-space-curves",
+      "author": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

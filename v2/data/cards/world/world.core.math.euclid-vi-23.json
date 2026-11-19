@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vi-23",
+  "title": "Euclid VI.23: Equiangular parallelograms have to one another the ratio compounded of the ratios of their sides.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VI.23: Equiangular parallelograms have to one another the ratio compounded of the ratios of their sides.",
+  "body": "Euclid, Book VI, VI.23, as worded on this page: \"Equiangular parallelograms have to one another the ratio compounded of the ratios of their sides.\" The argument printed under that statement begins: \"Proposition 23 Let AC and CF be equiangular parallelograms having the angle BCD equal to the angle ECG. I say that the parallelogram AC has to the parallelogram CF the ratio compounded of the ratios of the sides. I.14 Let them be placed so that BC is in a straight line with CG. Then DC is also in a straight line with CE. I.31 VI.12 Complete the parallelogram DG. Set out a straight line K, and make it so that BC is to CG as K is to L, and DC is to CE as L is to M. Then the ratios of K to L and of L to M are the same as the ratios of the sides, namely of BC to CG and of DC to CE. But the ratio of K to M is compounded of the ratio of K to L and of that of L to M, so that K has also to M the…\" David E. Joyce's guide on the same page says: \"This proposition is a generalization of the basic formula for the area of a rectangle, that is, the area of a rectangle is the product of its length and width. Such a formula depends on predetermined units of length and area so that the unit area is the area of a square whose sides have length equal to the unit length. Euclid and other Greek mathematicians did not use predetermined units of length or area, so they expressed this formula as a proportion. We would state that proportion as saying…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VI, VI.23",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI23.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

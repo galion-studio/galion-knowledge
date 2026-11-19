@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-mpc-mpc22",
+  "title": "NIST/SEMATECH handbook, 2.2.2. How are bias and variability controlled?: Bias and variability are controlled by monitoring measurements on a check standard over time Bias and…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 2.2.2. How are bias and variability controlled?: Bias and variability are controlled by monitoring measurements on a check standard over time Bias and…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"2.2.2. How are bias and variability controlled?\" says: \"Bias and variability are controlled by monitoring measurements on a check standard over time Bias and long-term variability are controlled by monitoring measurements on a check standard over time. A change in the measurement on the check standard that persists at a constant level over several measurement sequences indicates possible: Change or damage to the reference standards Change or damage to the check standard artifact Procedural change that vitiates the assumptions of the measurement process A change in the variability of the measurements on the check standard can be due to one of many causes such as: Loss of environmental controls Change in handling techniques Severe degradation in instrumentation. The control procedure monitors the progress of measurements on the check standard over time and…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 2.2.2. How are bias and variability controlled?",
+      "url": "https://www.itl.nist.gov/div898/handbook/mpc/section2/mpc22.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:measurement"
+  ]
+}

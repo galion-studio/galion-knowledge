@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-7-5-conic-sections",
+  "title": "OpenStax Calculus Volume 2, 7.5 Conic Sections: Identify the equation of a parabola in standard form with given focus and directrix.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 7.5 Conic Sections: Identify the equation of a parabola in standard form with given focus and directrix.",
+  "body": "OpenStax Calculus Volume 2, section \"7.5 Conic Sections\", prints these objectives: \"Identify the equation of a parabola in standard form with given focus and directrix.\" \"Identify the equation of an ellipse in standard form with given foci.\" \"Identify the equation of a hyperbola in standard form with given foci.\" \"Recognize a parabola, ellipse, or hyperbola from its eccentricity value.\" \"Write the polar equation of a conic section with eccentricity e .\" \"Identify when a general equation of degree two is a parabola, ellipse, or hyperbola.\". The section text says: \"Conic sections have been studied since the time of the ancient Greeks, and were considered to be an important mathematical concept. As early as 320 BCE, such Greek mathematicians as Menaechmus, Appollonius, and Archimedes were fascinated by these curves. Appollonius wrote an entire eight-volume treatise on conic sections in which he was, for example, able to derive a specific method for identifying a conic section through the use of geometry. Since then, important applications of conic sections…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 7.5 Conic Sections",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/7-5-conic-sections",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

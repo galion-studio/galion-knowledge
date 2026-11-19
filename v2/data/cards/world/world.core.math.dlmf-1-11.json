@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-1-11",
+  "title": "DLMF 1.11 Zeros of Polynomials: With b_{k} as in ( 1.11.1 )–( 1.11.3 ) let c_{n}=a_{n} and",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 1.11 Zeros of Polynomials: With b_{k} as in ( 1.11.1 )–( 1.11.3 ) let c_{n}=a_{n} and",
+  "body": "NIST DLMF section 1.11 (Zeros of Polynomials) says: \"With b_{k} as in ( 1.11.1 )–( 1.11.3 ) let c_{n}=a_{n} and More generally, for polynomials f(z) and g(z) , there are polynomials q(z) and r(z) , found by equating coefficients, such that A polynomial of degree n with real or complex coefficients has exactly n real or complex zeros counting multiplicity. Every monic (coefficient of highest power is one) polynomial of odd degree with real coefficients has at least one real zero with sign opposite to that of the constant term. A monic polynomial of even degree with real coefficients has at least two zeros of opposite signs when the constant term is negative. The number of positive zeros of a polynomial with real coefficients cannot exceed the number of times the coefficients change sign, and the two numbers have same parity. A similar relation holds for the changes in sign of the coefficients of f(-z) , and hence for the number of negative zeros of f(z) .\" Equation 1.11.1 on the page has alt text \"f(z)=a_{n}z^{n}+a_{n-1}z^{n-1}+\\dots+a_{0}.\". Equation 1.11.2 on the page has alt text \"f(z)=(z-\\alpha)(b_{n}z^{n-1}+b_{n-1}z^{n-2}+\\dots+b_{1})+b_{0},\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 1.11 Zeros of Polynomials",
+      "url": "https://dlmf.nist.gov/1.11",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

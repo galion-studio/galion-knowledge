@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-5-1-approximating-areas",
+  "title": "OpenStax Calculus Volume 1, 5.1 Approximating Areas: Use sigma (summation) notation to calculate sums and powers of integers.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 5.1 Approximating Areas: Use sigma (summation) notation to calculate sums and powers of integers.",
+  "body": "OpenStax Calculus Volume 1, section \"5.1 Approximating Areas\", prints these objectives: \"Use sigma (summation) notation to calculate sums and powers of integers.\" \"Use the sum of rectangular areas to approximate the area under a curve.\" \"Use Riemann sums to approximate area.\". The section text says: \"Archimedes was fascinated with calculating the areas of various shapes—in other words, the amount of space enclosed by the shape. He used a process that has come to be known as the method of exhaustion , which used smaller and smaller shapes, the areas of which could be calculated exactly, to fill an irregular region and thereby obtain closer and closer approximations to the total area. In this process, an area bounded by curves is filled with rectangles, triangles, and shapes with exact area…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 5.1 Approximating Areas",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/5-1-approximating-areas",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

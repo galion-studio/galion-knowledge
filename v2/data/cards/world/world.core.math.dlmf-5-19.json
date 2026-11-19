@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-5-19",
+  "title": "DLMF 5.19 Mathematical Applications: As shown in Temme ( 1996b , §3.4) , the results given in § 5.7(ii) can be used to sum infinite series of rational…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 5.19 Mathematical Applications: As shown in Temme ( 1996b , §3.4) , the results given in § 5.7(ii) can be used to sum infinite series of rational…",
+  "body": "NIST DLMF section 5.19 (Mathematical Applications) says: \"As shown in Temme ( 1996b , §3.4) , the results given in § 5.7(ii) can be used to sum infinite series of rational functions. By decomposition into partial fractions (§ 1.2(iii) ) Hence from ( 5.7.6 ), ( 5.4.13 ), and ( 5.4.19 ) Many special functions f(z) can be represented as a Mellin–Barnes integral , that is, an integral of a product of gamma functions, reciprocals of gamma functions, and a power of z , the integration contour being doubly-infinite and eventually parallel to the imaginary axis at both ends. The left-hand side of ( 5.13.1 ) is a typical example. By translating the contour parallel to itself and summing the residues of the integrand, asymptotic expansions of f(z) for large |z| , or small |z| , can be obtained complete with an integral representation of the error term. For further information and examples see § 2.5 and Paris and Kaminski ( 2001 , Chapters 5, 6, and 8) . The volume V and surface area S of the n -dimensional sphere of radius r are given by\" Equation 5.19.1 on the page has alt text \"\\displaystyle S\". Equation 5.19.2 on the page has alt text \"a_{k}=\\frac{2}{k+\\frac{2}{3}}-\\frac{1}{k+\\frac{1}{2}}-\\frac{1}{k+1}=\\left(% \\frac{1}{k+1}-\\frac{1}{k+\\frac{1}{2}}\\right)-2\\left(\\frac{1}{k+1}-\\frac{1}{k+% \\frac{2}{3}}\\right).\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 5.19 Mathematical Applications",
+      "url": "https://dlmf.nist.gov/5.19",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

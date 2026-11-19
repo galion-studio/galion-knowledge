@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vi-22",
+  "title": "Euclid VI.22: If four straight lines are proportional, then the rectilinear figures similar and similarly described upon them are also proportional; and, if the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VI.22: If four straight lines are proportional, then the rectilinear figures similar and similarly described upon them are also proportional; and, if the…",
+  "body": "Euclid, Book VI, VI.22, as worded on this page: \"If four straight lines are proportional, then the rectilinear figures similar and similarly described upon them are also proportional; and, if the rectilinear figures similar and similarly described upon them are proportional, then the straight lines are themselves also proportional.\" The argument printed under that statement begins: \"Proposition 22 Let the four straight lines AB, CD, EF, and GH be proportional, so that AB is to CD as EF is to GH. Let the similar and similarly situated rectilinear figures KAB and LCD be described on AB and CD, and the similar and similarly situated rectilinear figures MF and NH be described on EF and GH. I say that KAB is to LCD as MF is to NH. VI.11 Take a third proportional O to AB and CD, and a third proportional P to EF and GH. V.11 V.22 Then since AB is to CD as EF is to GH, therefore CD is to O as GH is to P. Therefore, ex aequali, AB is to O as EF is to P. VI.19,Cor V.11 But AB is to O as KAB is to LCD, and EF is to P as MF is to NH, therefore KAB is to LCD also as MF is to NH.…\" David E. Joyce's guide on the same page says: \"There is a missing step near the end of the proof, namely, the justification of the statement that GH equals QR is missing. Just before it we have NH and SR are similar equal rectilinear figures, and we want to conclude the corresponding sides GH and QR are equal. The needed demonstration is not difficult to supply. Use of this proposition This proposition is used in the proofs of several propositions in Book X and in XII.4 in Book XII.\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VI, VI.22",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI22.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

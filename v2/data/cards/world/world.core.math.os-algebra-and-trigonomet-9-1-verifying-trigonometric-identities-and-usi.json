@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-9-1-verifying-trigonometric-identities-and-usi",
+  "title": "OpenStax Algebra and Trigonometry 2e, 9.1 Verifying Trigonometric Identities and Using Trigonometric Identities to Simplify Trigonometric Expressions: Verify the fundamental trigonometric identities.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 9.1 Verifying Trigonometric Identities and Using Trigonometric Identities to Simplify Trigonometric Expressions: Verify the fundamental trigonometric identities.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"9.1 Verifying Trigonometric Identities and Using Trigonometric Identities to Simplify Trigonometric Expressions\", prints these objectives: \"Verify the fundamental trigonometric identities.\" \"Simplify trigonometric expressions using algebra and the identities.\". The section text says: \"In espionage movies, we see international spies with multiple passports, each claiming a different identity. However, we know that each of those passports represents the same person. The trigonometric identities act in a similar manner to multiple passports—there are many ways to represent the same trigonometric expression. Just as a spy will choose an Italian passport when traveling to Italy, we choose the identity that applies to the given scenario when solving a trigonometric equation.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 9.1 Verifying Trigonometric Identities and Using Trigonometric Identities to Simplify Trigonometric Expressions",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/9-1-verifying-trigonometric-identities-and-using-trigonometric-identities-to-simplify-trigonometric-expressions",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-13-6-binomial-theorem",
+  "title": "OpenStax Algebra and Trigonometry 2e, 13.6 Binomial Theorem: Apply the Binomial Theorem.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 13.6 Binomial Theorem: Apply the Binomial Theorem.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"13.6 Binomial Theorem\", prints these objectives: \"Apply the Binomial Theorem.\". The section text says: \"A polynomial with two terms is called a binomial. We have already learned to multiply binomials and to raise binomials to powers, but raising a binomial to a high power can be tedious and time-consuming. In this section, we will discuss a shortcut that will allow us to find ( x + y ) n without multiplying the binomial by itself n times.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 13.6 Binomial Theorem",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/13-6-binomial-theorem",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

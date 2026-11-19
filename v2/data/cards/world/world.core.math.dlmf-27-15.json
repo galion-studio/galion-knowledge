@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-27-15",
+  "title": "DLMF 27.15 Chinese Remainder Theorem: The Chinese remainder theorem states that a system of congruences x\\equiv a_{1}\\pmod{m_{1}},\\dots,x\\equiv…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 27.15 Chinese Remainder Theorem: The Chinese remainder theorem states that a system of congruences x\\equiv a_{1}\\pmod{m_{1}},\\dots,x\\equiv…",
+  "body": "NIST DLMF section 27.15 (Chinese Remainder Theorem) says: \"The Chinese remainder theorem states that a system of congruences x\\equiv a_{1}\\pmod{m_{1}},\\dots,x\\equiv a_{k}\\pmod{m_{k}} , always has a solution if the moduli are relatively prime in pairs; the solution is unique (mod m ), where m is the product of the moduli. This theorem is employed to increase efficiency in calculating with large numbers by making use of smaller numbers in most of the calculation. For example, suppose a lengthy calculation involves many 10-digit integers. Most of the calculation can be done with five-digit integers as follows. Choose four relatively prime moduli m_{1},m_{2},m_{3} , and m_{4} of five digits each, for example 2^{16}-3 , 2^{16}-1 , 2^{16}+1 , and 2^{16}+3 . Their product m has 20 digits, twice the number of digits in the data. By the Chinese remainder theorem each integer in the data can be uniquely represented by its residues (mod m_{1} ), (mod m_{2} ), (mod m_{3} ), and (mod m_{4} ), respectively. Because each residue has no more than five digits, the arithmetic can be performed efficiently on these residues with respect to each of the moduli…\" This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 27.15 Chinese Remainder Theorem",
+      "url": "https://dlmf.nist.gov/27.15",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

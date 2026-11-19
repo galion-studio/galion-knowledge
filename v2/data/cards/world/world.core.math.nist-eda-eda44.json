@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-eda-eda44",
+  "title": "NIST/SEMATECH handbook, 1.4.4. Dataplot Commands for EDA Techniques: Dataplot Commands for EDA Techniques This page documents the Dataplot commands that can be used for the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 1.4.4. Dataplot Commands for EDA Techniques: Dataplot Commands for EDA Techniques This page documents the Dataplot commands that can be used for the…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"1.4.4. Dataplot Commands for EDA Techniques\" says: \"Dataplot Commands for EDA Techniques This page documents the Dataplot commands that can be used for the graphical and analytical techniques discussed in this chapter. This is only meant to guide you to the appropriate commands. The complete documentation for these commands is available in the Dataplot Reference Manual . Dataplot Commands for 1-Factor ANOVA The Dataplot command for a one way analysis of variance is ANOVA Y X where Y is a response variable and X is a group identifier variable. Dataplot is currently limited to the balanced case (i.e., each level has the same number of observations) and it does not compute interaction effect estimates. Return to the One-Way Analysis of Variance Page Dataplot Commands for Multi-Factor ANOVA The Dataplot commands for generating multi-factor analysis of variance are: ANOVA Y X1 ANOVA Y X1 X2 ANOVA Y X1 X2 X3 ANOVA Y X1 X2 X3 X4 ANOVA Y X1 X2…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 1.4.4. Dataplot Commands for EDA Techniques",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section4/eda44.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

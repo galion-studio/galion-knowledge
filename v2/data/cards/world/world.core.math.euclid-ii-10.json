@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-ii-10",
+  "title": "Euclid II.10: If a straight line is bisected, and a straight line is added to it in a straight line, then the square on the whole with the added straight line and…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid II.10: If a straight line is bisected, and a straight line is added to it in a straight line, then the square on the whole with the added straight line and…",
+  "body": "Euclid, Book II, II.10, as worded on this page: \"If a straight line is bisected, and a straight line is added to it in a straight line, then the square on the whole with the added straight line and the square on the added straight line both together are double the sum of the square on the half and the square described on the straight line made up of the half and the added straight line as on one straight line.\" The argument printed under that statement begins: \"Proposition 10 Let a straight line AB be bisected at C, and let a straight line BD be added to it in a straight line. I say that the sum of the squares on AD and DB is double the sum of the squares on AC and CD. I.11 , I.3 I.31 Draw CE from the point C at right angles to AB and equal to either AC or CB. Join EA and EB. Draw EF through E parallel to AD, and draw FD through D parallel to CE. I.29 Then, since a straight line EF falls on the parallel straight lines EC and FD, the sum of the angles CEF and EFD equals two right angles. Therefore the sum of the angles FEB and EFD is less than two right angles. Post.5 But straight lines produced from angles less than two right angles meet.…\" David E. Joyce's guide on the same page says: \"Outline of the proof The proof is almost the same as the previous proposition. The entire situation is the same, except the point D is moved past the end B of the line AB. As before draw CE at right angles to AB and equal to half of it. Finish the diagram. That results in isosceles right triangles, ACE, ECB, and EFG, as well as two other right triangles, AEG and ADG. Then, AG 2 = AE 2 + EG 2 = ( AC 2 + CE 2 ) + ( EF 2 + FG 2 ) = 2( AC 2 + CD 2 ) But also, AG 2 = AD 2 + DG 2 = AD 2 + DB 2 Thus…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book II, II.10",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII10.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:algebra"
+  ]
+}

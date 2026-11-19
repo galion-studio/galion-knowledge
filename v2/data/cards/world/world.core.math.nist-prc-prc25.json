@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-prc-prc25",
+  "title": "NIST/SEMATECH handbook, 7.2.5. Does the defect density meet requirements?: Testing defect densities is based on the Poisson distribution The number of defects observed in an area of…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 7.2.5. Does the defect density meet requirements?: Testing defect densities is based on the Poisson distribution The number of defects observed in an area of…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"7.2.5. Does the defect density meet requirements?\" says: \"Testing defect densities is based on the Poisson distribution The number of defects observed in an area of size \\(A\\) A --> units is often assumed to have a Poisson distribution with parameter \\(A \\times D\\), A x D , --> where \\(D\\) D --> is the actual process defect density (\\(D\\) D --> is defects per unit area). In other words: $$ P(\\mbox{Number of Defects } = n) = \\frac{(AD)^n}{n!} e^{-AD} \\, . $$ --> The questions of primary interest for quality control are: Is the defect density within prescribed limits? Is the defect density less than a prescribed limit? Is the defect density greater than a prescribed limit? Normal approximation to the Poisson We assume that \\(AD\\) AD --> is large enough so that the normal approximation to the Poisson applies (in other words, \\(AD >\\) 10 AD > 10 --> for a reasonable…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 7.2.5. Does the defect density meet requirements?",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc25.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

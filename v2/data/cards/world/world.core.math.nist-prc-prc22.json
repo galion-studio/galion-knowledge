@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-prc-prc22",
+  "title": "NIST/SEMATECH handbook, 7.2.2. Are the data consistent with the assumed process mean?: Are the data consistent with the assumed process mean?",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 7.2.2. Are the data consistent with the assumed process mean?: Are the data consistent with the assumed process mean?",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"7.2.2. Are the data consistent with the assumed process mean?\" says: \"Are the data consistent with the assumed process mean? 7. Product and Process Comparisons 7.2. Comparisons based on data from one process 7.2.2. Are the data consistent with the assumed process mean? The testing of \\(H_0\\) 0 --> for a single population mean Given a random sample of measurements, \\(Y_1, \\, \\ldots, \\, Y_N\\), Y 1 , ..., Y N , --> ,--> there are three types of questions regarding the true mean of the population that can be addressed with the sample data. They are: Does the true mean agree with a known standard or assumed mean? Is the true mean of the population less than a given standard? Is the true mean of the population at least as large as a given standard? Typical null hypotheses The corresponding null hypotheses that test the true mean, \\(\\mu\\), , --> against the standard or assumed mean, \\(\\mu_0\\), --> are: \\(H_0: \\,\\, \\mu = \\mu_0\\) --> \\(H_0: \\,\\, \\mu \\le \\mu_0\\)…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 7.2.2. Are the data consistent with the assumed process mean?",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc22.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

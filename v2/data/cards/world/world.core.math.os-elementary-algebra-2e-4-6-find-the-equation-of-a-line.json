@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-elementary-algebra-2e-4-6-find-the-equation-of-a-line",
+  "title": "OpenStax Elementary Algebra 2e, 4.6 Find the Equation of a Line: Find an equation of the line given the slope and y -intercept",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Elementary Algebra 2e, 4.6 Find the Equation of a Line: Find an equation of the line given the slope and y -intercept",
+  "body": "OpenStax Elementary Algebra 2e, section \"4.6 Find the Equation of a Line\", prints these objectives: \"Find an equation of the line given the slope and y -intercept\" \"Find an equation of the line given the slope and a point\" \"Find an equation of the line given two points\" \"Find an equation of a line parallel to a given line\" \"Find an equation of a line perpendicular to a given line\". The section text says: \"How do online retailers know that ‘you may also like’ a particular item based on something you just ordered? How can economists know how a rise in the minimum wage will affect the unemployment rate? How do medical researchers create drugs to target cancer cells? How can traffic engineers predict the effect on your commuting time of an increase or decrease in gas prices? It’s all mathematics.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Elementary Algebra 2e, 4.6 Find the Equation of a Line",
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/4-6-find-the-equation-of-a-line",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:algebra"
+  ]
+}

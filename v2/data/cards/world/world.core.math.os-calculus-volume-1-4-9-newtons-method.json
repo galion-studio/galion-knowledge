@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-4-9-newtons-method",
+  "title": "OpenStax Calculus Volume 1, 4.9 Newton’s Method: Describe the steps of Newton’s method.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 4.9 Newton’s Method: Describe the steps of Newton’s method.",
+  "body": "OpenStax Calculus Volume 1, section \"4.9 Newton’s Method\", prints these objectives: \"Describe the steps of Newton’s method.\" \"Explain what an iterative process means.\" \"Recognize when Newton’s method does not work.\" \"Apply iterative processes to various situations.\". The section text says: \"In many areas of pure and applied mathematics, we are interested in finding solutions to an equation of the form f ( x ) = 0 . For most functions, however, it is difficult—if not impossible—to calculate their zeroes explicitly. In this section, we take a look at a technique that provides a very efficient way of approximating the zeroes of functions . This technique makes use of tangent line approximations and is behind the method used often by calculators and computers to find zeroes.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 4.9 Newton’s Method",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/4-9-newtons-method",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

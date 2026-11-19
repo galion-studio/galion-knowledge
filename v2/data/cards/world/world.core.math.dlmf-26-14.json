@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-26-14",
+  "title": "DLMF 26.14 Permutations: Order Notation: The set \\mathfrak{S}_{n} (§ 26.13 ) can be viewed as the collection of all ordered lists of elements of…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 26.14 Permutations: Order Notation: The set \\mathfrak{S}_{n} (§ 26.13 ) can be viewed as the collection of all ordered lists of elements of…",
+  "body": "NIST DLMF section 26.14 (Permutations: Order Notation) says: \"The set \\mathfrak{S}_{n} (§ 26.13 ) can be viewed as the collection of all ordered lists of elements of \\{1,2,\\ldots,n\\} : \\{\\sigma(1)\\sigma(2)\\cdots\\sigma(n)\\} . As an example, 35247816 is an element of \\mathfrak{S}_{8}. The inversion number is the number of pairs of elements for which the larger element precedes the smaller: Equivalently, this is the sum over 1\\leq j<n of the number of integers less than \\sigma(j) that lie in positions to the right of the j th position: \\mathop{\\mathrm{inv}}(35247816)=2+3+1+1+2+2+0=11. A descent of a permutation is a pair of adjacent elements for which the first is larger than the second. The permutation 35247816 has two descents: 52 and 81 . The major index is the sum of all positions that mark the first element of a descent: For example, \\mathop{\\mathrm{maj}}(35247816)=2+6=8 . The major index is also called the greater index of the permutation. The Eulerian number , denoted \\genfrac{<}{>}{0.0pt}{}{n}{k} , is the number of permutations in \\mathfrak{S}_{n} with exactly k descents. An excedance in \\sigma\\in\\mathfrak{S}_{n} is a position j for which…\" Equation 26.14.1 on the page has alt text \"\\mathop{\\mathrm{inv}}(\\sigma)=\\sum_{\\begin{subarray}{c}1\\leq j<k\\leq n\\\\[1.5pt% ] \\sigma(j)>\\sigma(k)\\end{subarray}}1.\". Equation 26.14.2 on the page has alt text \"\\mathop{\\mathrm{maj}}(\\sigma)=\\sum_{\\begin{subarray}{c}1\\leq j<n\\\\ \\sigma(j)>\\sigma(j+1)\\end{subarray}}j.\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 26.14 Permutations: Order Notation",
+      "url": "https://dlmf.nist.gov/26.14",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:combinatorics"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-9-1-the-metric-system",
+  "title": "OpenStax Contemporary Mathematics, 9.1 The Metric System: Identify units of measurement in the metric system and their uses.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 9.1 The Metric System: Identify units of measurement in the metric system and their uses.",
+  "body": "OpenStax Contemporary Mathematics, section \"9.1 The Metric System\", prints these objectives: \"Identify units of measurement in the metric system and their uses.\" \"Order the six common prefixes of the metric system.\" \"Convert between like unit values.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 9.1 The Metric System",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/9-1-the-metric-system",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

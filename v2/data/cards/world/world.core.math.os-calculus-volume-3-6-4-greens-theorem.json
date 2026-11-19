@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-3-6-4-greens-theorem",
+  "title": "OpenStax Calculus Volume 3, 6.4 Green’s Theorem: Apply the circulation form of Green’s theorem.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 3, 6.4 Green’s Theorem: Apply the circulation form of Green’s theorem.",
+  "body": "OpenStax Calculus Volume 3, section \"6.4 Green’s Theorem\", prints these objectives: \"Apply the circulation form of Green’s theorem.\" \"Apply the flux form of Green’s theorem.\" \"Calculate circulation and flux on more general regions.\". The section text says: \"In this section, we examine Green’s theorem, which is an extension of the Fundamental Theorem of Calculus to two dimensions. Green’s theorem has two forms: a circulation form and a flux form, both of which require region D in the double integral to be simply connected. However, we will extend Green’s theorem to regions that are not simply connected.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 3, 6.4 Green’s Theorem",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/6-4-greens-theorem",
+      "author": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

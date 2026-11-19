@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-24-18",
+  "title": "DLMF 24.18 Physical Applications: Bernoulli polynomials appear in statistical physics ( Ordóñez and Driebe ( 1996 ) ), in discussions of Casimir forces (…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 24.18 Physical Applications: Bernoulli polynomials appear in statistical physics ( Ordóñez and Driebe ( 1996 ) ), in discussions of Casimir forces (…",
+  "body": "NIST DLMF section 24.18 (Physical Applications) says: \"Bernoulli polynomials appear in statistical physics ( Ordóñez and Driebe ( 1996 ) ), in discussions of Casimir forces ( Li et al. ( 1991 ) ), and in a study of quark-gluon plasma ( Meisinger et al. ( 2002 ) ). Euler polynomials also appear in statistical physics as well as in semi-classical approximations to quantum probability distributions ( Ballentine and McRae ( 1998 ) ).\" This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 24.18 Physical Applications",
+      "url": "https://dlmf.nist.gov/24.18",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

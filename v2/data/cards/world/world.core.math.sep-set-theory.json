@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-set-theory",
+  "title": "The Stanford Encyclopedia entry \"Set Theory\" says: Set theory is the mathematical theory of well-determined collections, called sets , of objects that are…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Set Theory\" says: Set theory is the mathematical theory of well-determined collections, called sets , of objects that are…",
+  "body": "Bagaria, Joan, in the Stanford Encyclopedia of Philosophy entry \"Set Theory\" says: \"Set theory is the mathematical theory of well-determined collections, called sets , of objects that are called members , or elements , of the set. Pure set theory deals exclusively with sets, so the only sets under consideration are those whose members are also sets. The theory of the hereditarily-finite sets, namely those finite sets whose elements are also finite sets, the elements of which are also finite, and so on, is formally equivalent to arithmetic. So, the essence of set theory is the study of infinite sets, and therefore it can be defined as the mathematical theory of the actual—as opposed to potential—infinite.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Set Theory (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/set-theory/",
+      "author": "Bagaria, Joan",
+      "date": "2014-10-08",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bagaria, Joan",
+  "as_of_date": "2023-01-31",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

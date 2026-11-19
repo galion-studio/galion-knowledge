@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-3-5-7-change-of-variables-in-multiple-integrals",
+  "title": "OpenStax Calculus Volume 3, 5.7 Change of Variables in Multiple Integrals: Determine the image of a region under a given transformation of variables.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 3, 5.7 Change of Variables in Multiple Integrals: Determine the image of a region under a given transformation of variables.",
+  "body": "OpenStax Calculus Volume 3, section \"5.7 Change of Variables in Multiple Integrals\", prints these objectives: \"Determine the image of a region under a given transformation of variables.\" \"Compute the Jacobian of a given transformation.\" \"Evaluate a double integral using a change of variables.\" \"Evaluate a triple integral using a change of variables.\". The section text says: \"Recall from Substitution Rule the method of integration by substitution. When evaluating an integral such as ∫ 2 3 x ( x 2 − 4 ) 5 d x , we substitute u = g ( x ) = x 2 − 4 . Then d u = 2 x d x or x d x = 1 2 d u and the limits change to u = g ( 2 ) = 2 2 − 4 = 0 and u = g ( 3 ) = 9 − 4 = 5 . Thus the integral becomes ∫ 0 5 1 2 u 5 d u and this integral is much simpler to evaluate. In other words, when solving integration problems, we make appropriate substitutions to obtain an integral that…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 3, 5.7 Change of Variables in Multiple Integrals",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/5-7-change-of-variables-in-multiple-integrals",
+      "author": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-25-16",
+  "title": "DLMF 25.16 Mathematical Applications: In studying the distribution of primes p\\leq x , Chebyshev ( 1851 ) introduced a function \\psi\\left(x\\right) (not to be…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 25.16 Mathematical Applications: In studying the distribution of primes p\\leq x , Chebyshev ( 1851 ) introduced a function \\psi\\left(x\\right) (not to be…",
+  "body": "NIST DLMF section 25.16 (Mathematical Applications) says: \"In studying the distribution of primes p\\leq x , Chebyshev ( 1851 ) introduced a function \\psi\\left(x\\right) (not to be confused with the digamma function used elsewhere in this chapter), given by which is related to the Riemann zeta function by where the sum is taken over the nontrivial zeros \\rho of \\zeta\\left(s\\right) . The prime number theorem ( 27.2.3 ) is equivalent to the statement The Riemann hypothesis is equivalent to the statement H\\left(s\\right) is analytic for \\Re s>1 , and can be extended meromorphically into the half-plane \\Re s>-2k for every positive integer k by use of the relations For integer s ( \\geq 2 ), H\\left(s\\right) can be evaluated in terms of the zeta function: H\\left(s\\right) has a simple pole with residue \\zeta\\left(1-2r\\right) ( =-B_{2r}/(2r) ) at each odd negative integer s=1-2r , r=1,2,3,\\dots . H\\left(s\\right) is the special case H\\left(s,1\\right) of the function\" Equation 25.16.1 on the page has alt text \"\\psi\\left(x\\right)=\\sum_{m=1}^{\\infty}\\sum_{p^{m}\\leq x}\\ln p,\". Equation 25.16.2 on the page has alt text \"\\psi\\left(x\\right)=x-\\frac{\\zeta'\\left(0\\right)}{\\zeta\\left(0\\right)}-\\sum_{% \\rho}\\frac{x^{\\rho}}{\\rho}+o\\left(1\\right),\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 25.16 Mathematical Applications",
+      "url": "https://dlmf.nist.gov/25.16",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

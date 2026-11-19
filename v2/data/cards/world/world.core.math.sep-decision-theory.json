@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-decision-theory",
+  "title": "The Stanford Encyclopedia entry \"Decision Theory\" says: Decision theory is concerned with the reasoning underlying an agent’s choices, whether this is a mundane…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Decision Theory\" says: Decision theory is concerned with the reasoning underlying an agent’s choices, whether this is a mundane…",
+  "body": "Steele, Katie, Stefánsson, H. Orri, in the Stanford Encyclopedia of Philosophy entry \"Decision Theory\" says: \"Decision theory is concerned with the reasoning underlying an agent’s choices, whether this is a mundane choice between taking the bus or getting a taxi, or a more far-reaching choice made by a powerful agent about whether to pursue significant social change. (Note that “agent” here stands for an entity, usually an individual person, that is capable of deliberation and action.) Standard thinking is that what an agent chooses to do on any given occasion is completely determined by her beliefs and desires or values, but this is not uncontroversial, as will be noted below. In any case, decision theory is as much a theory of beliefs, desires and other relevant attitudes as it is a theory of choice; what matters is how these various attitudes (call them “preference attitudes”) cohere together.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Decision Theory (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/decision-theory/",
+      "author": "Steele, Katie, Stef&aacute;nsson, H. Orri",
+      "date": "2015-12-16",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Steele, Katie, Stef&aacute;nsson, H. Orri",
+  "as_of_date": "2025-08-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

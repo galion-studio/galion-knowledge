@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-5-8-graphing-functions",
+  "title": "OpenStax Contemporary Mathematics, 5.8 Graphing Functions: Graph functions using intercepts.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 5.8 Graphing Functions: Graph functions using intercepts.",
+  "body": "OpenStax Contemporary Mathematics, section \"5.8 Graphing Functions\", prints these objectives: \"Graph functions using intercepts.\" \"Compute slope.\" \"Graph functions using slope and y -intercept.\" \"Graph horizontal and vertical lines.\" \"Interpret graphs of functions.\" \"Model applications using slope and y -intercept.\". The section text says: \"Every linear equation can be represented by a unique line that shows all the solutions of the equation. We have seen that when graphing a line by plotting points, you can use any three solutions to graph. This means that two people graphing the line might use different sets of three points. At first glance, their two lines might not appear to be the same, since they would have different points labeled. But if all the work was done correctly, the lines should be exactly the same. One way to…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 5.8 Graphing Functions",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/5-8-graphing-functions",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-27-12",
+  "title": "DLMF 27.12 Asymptotic Formulas: Primes: p_{n} is the n th prime, beginning with p_{1}=2 .",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 27.12 Asymptotic Formulas: Primes: p_{n} is the n th prime, beginning with p_{1}=2 .",
+  "body": "NIST DLMF section 27.12 (Asymptotic Formulas: Primes) says: \"p_{n} is the n th prime, beginning with p_{1}=2 . \\pi\\left(x\\right) is the number of primes less than or equal to x . where the series terminates when the product of the first r primes exceeds x . There exists a positive constant c such that For the logarithmic integral \\operatorname{li}\\left(x\\right) see ( 6.2.8 ). The best available asymptotic error estimate (2009) appears in Korobov ( 1958 ) and Vinogradov ( 1958 ) : there exists a positive constant d such that \\pi\\left(x\\right)-\\operatorname{li}\\left(x\\right) changes sign infinitely often as x\\to\\infty ; see Littlewood ( 1914 ) , Bays and Hudson ( 2000 ) . The Riemann hypothesis (§ 25.10(i) ) is equivalent to the statement that for every x\\geq 2657 , If a is relatively prime to the modulus m , then there are infinitely many primes congruent to a\\pmod{m} . The number of such primes not exceeding x is where \\lambda(\\alpha) depends only on \\alpha , and \\phi\\left(m\\right) is the Euler totient function (§ 27.2 ).\" Equation 27.12.1 on the page has alt text \"\\lim_{n\\to\\infty}\\frac{p_{n}}{n\\ln n}=1,\". Equation 27.12.2 on the page has alt text \"p_{n}>n\\ln n,\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 27.12 Asymptotic Formulas: Primes",
+      "url": "https://dlmf.nist.gov/27.12",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

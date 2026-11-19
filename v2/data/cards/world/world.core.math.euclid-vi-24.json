@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vi-24",
+  "title": "Euclid VI.24: In any parallelogram the parallelograms about the diameter are similar both to the whole and to one another.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VI.24: In any parallelogram the parallelograms about the diameter are similar both to the whole and to one another.",
+  "body": "Euclid, Book VI, VI.24, as worded on this page: \"In any parallelogram the parallelograms about the diameter are similar both to the whole and to one another.\" The argument printed under that statement begins: \"Proposition 24 Let ABCD be a parallelogram, and AC its diameter, and let EG and HK be parallelograms about AC. I say that each of the parallelograms EG and HK is similar both to the whole ABCD and to the other. VI.2 For, since EF is parallel to a side BC of the triangle ABC, proportionally, BE is to EA as CF is to FA. VI.2 Again, since FG is parallel to a side CD of the triangle ACD, proportionally, CF is to FA as DG is to GA. V.18 V.16 But it was proved that CF is to FA as BE is to EA, therefore BE is to EA as DG is to GA. Therefore, taken jointly, BA is to AE as DA is to AG, and, alternately, BA is to AD as EA is to AG. Therefore in the parallelograms ABCD and EG, the sides about the…\" David E. Joyce's guide on the same page says: \"With this proposition Euclid returns to applications of areas. Back in proposition I.45 rectilinear areas were applied to lines. In the upcoming propositions VI.28 and VI.29 , rectilinear areas will be applied to lines but the areas will fall short of or extend beyond the end of the lines. Those propositions geometric solve two kinds of quadratic equations. This proposition is preparatory to them. It is used in the proofs of VI.26 (its converse) and VI.29.\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VI, VI.24",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI24.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

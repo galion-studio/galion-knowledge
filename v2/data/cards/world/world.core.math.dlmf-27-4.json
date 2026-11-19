@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-27-4",
+  "title": "DLMF 27.4 Euler Products and Dirichlet Series: The fundamental theorem of arithmetic is linked to analysis through the concept of the Euler product.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 27.4 Euler Products and Dirichlet Series: The fundamental theorem of arithmetic is linked to analysis through the concept of the Euler product.",
+  "body": "NIST DLMF section 27.4 (Euler Products and Dirichlet Series) says: \"The fundamental theorem of arithmetic is linked to analysis through the concept of the Euler product. Every multiplicative f satisfies the identity if the series on the left is absolutely convergent. In this case the infinite product on the right (extended over all primes p ) is also absolutely convergent and is called the Euler product of the series. If f(n) is completely multiplicative, then each factor in the product is a geometric series and the Euler product becomes Euler products are used to find series that generate many functions of multiplicative number theory. The completely multiplicative function f(n)=n^{-s} gives the Euler product representation of the Riemann zeta function \\zeta\\left(s\\right) (§ 25.2(i) ): The Riemann zeta function is the prototype of series of the form called Dirichlet series with coefficients f(n) . The function F(s) is a generating function , or more precisely, a Dirichlet generating function , for the coefficients. The following examples have generating functions related to the zeta function:\" Equation 27.4.1 on the page has alt text \"\\sum_{n=1}^{\\infty}f(n)=\\prod_{p}\\left(1+\\sum_{r=1}^{\\infty}f(p^{r})\\right),\". Equation 27.4.2 on the page has alt text \"\\sum_{n=1}^{\\infty}f(n)=\\prod_{p}(1-f(p))^{-1}.\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 27.4 Euler Products and Dirichlet Series",
+      "url": "https://dlmf.nist.gov/27.4",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

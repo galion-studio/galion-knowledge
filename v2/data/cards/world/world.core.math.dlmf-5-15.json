@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-5-15",
+  "title": "DLMF 5.15 Polygamma Functions: The functions \\psi^{(n)}\\left(z\\right) , n=1,2,\\dots , are called the polygamma functions .",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 5.15 Polygamma Functions: The functions \\psi^{(n)}\\left(z\\right) , n=1,2,\\dots , are called the polygamma functions .",
+  "body": "NIST DLMF section 5.15 (Polygamma Functions) says: \"The functions \\psi^{(n)}\\left(z\\right) , n=1,2,\\dots , are called the polygamma functions . In particular, \\psi'\\left(z\\right) is the trigamma function ; \\psi'' , \\psi^{(3)} , \\psi^{(4)} are the tetra-, penta-, and hexagamma functions respectively. Most properties of these functions follow straightforwardly by differentiation of properties of the psi function. This includes asymptotic expansions: compare §§ 2.1(ii) – 2.1(iii) . In ( 5.15.2 )–( 5.15.7 ) n,m=1,2,3,\\dots , and for \\zeta\\left(n+1\\right) see § 25.6(i) . As z\\to\\infty in |\\operatorname{ph}z|\\leq\\pi-\\delta For continued fractions for \\psi'\\left(z\\right) and \\psi''\\left(z\\right) see Cuyt et al. ( 2008 , pp. 231–238) .\" Equation 5.15.1 on the page has alt text \"\\psi'\\left(z\\right)=\\sum_{k=0}^{\\infty}\\frac{1}{(k+z)^{2}},\". Equation 5.15.2 on the page has alt text \"\\psi^{(n)}\\left(1\\right)=(-1)^{n+1}n!\\zeta\\left(n+1\\right),\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 5.15 Polygamma Functions",
+      "url": "https://dlmf.nist.gov/5.15",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-25-11",
+  "title": "DLMF 25.11 Hurwitz Zeta Function: The function \\zeta\\left(s,a\\right) was introduced in Hurwitz ( 1882 ) and defined by the series expansion",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 25.11 Hurwitz Zeta Function: The function \\zeta\\left(s,a\\right) was introduced in Hurwitz ( 1882 ) and defined by the series expansion",
+  "body": "NIST DLMF section 25.11 (Hurwitz Zeta Function) says: \"The function \\zeta\\left(s,a\\right) was introduced in Hurwitz ( 1882 ) and defined by the series expansion \\zeta\\left(s,a\\right) has a meromorphic continuation in the s -plane, its only singularity in \\mathbb{C} being a simple pole at s=1 with residue 1 . As a function of a , with s ( \\neq 1 ) fixed, \\zeta\\left(s,a\\right) is analytic in the half-plane \\Re a>0 . The Riemann zeta function is a special case: For most purposes it suffices to restrict 0<\\Re a\\leq 1 because of the following straightforward consequences of ( 25.11.1 ): Most references treat real a with 0<a\\leq 1 . For \\widetilde{B}_{n}\\left(x\\right) see § 24.2(iii) . When a=\\frac{1}{2} , ( 25.11.10 ) reduces to ( 25.8.3 ); compare ( 25.11.11 ). For other series expansions similar to ( 25.11.10 ) see Coffey ( 2008 ) . In ( 25.11.18 )–( 25.11.24 ) primes on \\zeta denote derivatives with respect to s . Similarly in §§ 25.11(viii) and 25.11(xii) .\" Equation 25.11.1 on the page has alt text \"\\zeta\\left(s,a\\right)=\\sum_{n=0}^{\\infty}\\frac{1}{(n+a)^{s}},\". Equation 25.11.2 on the page has alt text \"\\zeta\\left(s,1\\right)=\\zeta\\left(s\\right).\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 25.11 Hurwitz Zeta Function",
+      "url": "https://dlmf.nist.gov/25.11",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

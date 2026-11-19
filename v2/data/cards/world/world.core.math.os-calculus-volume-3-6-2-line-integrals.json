@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-3-6-2-line-integrals",
+  "title": "OpenStax Calculus Volume 3, 6.2 Line Integrals: Calculate a scalar line integral along a curve.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 3, 6.2 Line Integrals: Calculate a scalar line integral along a curve.",
+  "body": "OpenStax Calculus Volume 3, section \"6.2 Line Integrals\", prints these objectives: \"Calculate a scalar line integral along a curve.\" \"Calculate a vector line integral along an oriented curve in space.\" \"Use a line integral to compute the work done in moving an object along a curve in a vector field.\" \"Describe the flux and circulation of a vector field.\". The section text says: \"We are familiar with single-variable integrals of the form ∫ a b f ( x ) d x , where the domain of integration is an interval [ a , b ] . Such an interval can be thought of as a curve in the xy -plane, since the interval defines a line segment with endpoints ( a , 0 ) and ( b , 0 ) —in other words, a line segment located on the x -axis. Suppose we want to integrate over any curve in the plane, not just over a line segment on the x -axis. Such a task requires a new kind of integral, called a…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 3, 6.2 Line Integrals",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/6-2-line-integrals",
+      "author": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

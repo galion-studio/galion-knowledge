@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-3-6-5-divergence-and-curl",
+  "title": "OpenStax Calculus Volume 3, 6.5 Divergence and Curl: Determine divergence from the formula for a given vector field.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 3, 6.5 Divergence and Curl: Determine divergence from the formula for a given vector field.",
+  "body": "OpenStax Calculus Volume 3, section \"6.5 Divergence and Curl\", prints these objectives: \"Determine divergence from the formula for a given vector field.\" \"Determine curl from the formula for a given vector field.\" \"Use the properties of curl and divergence to determine whether a vector field is conservative.\". The section text says: \"In this section, we examine two important operations on a vector field: divergence and curl. They are important to the field of calculus for several reasons, including the use of curl and divergence to develop some higher-dimensional versions of the Fundamental Theorem of Calculus. In addition, curl and divergence appear in mathematical descriptions of fluid mechanics, electromagnetism, and elasticity theory, which are important concepts in physics and engineering. We can also apply curl and…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 3, 6.5 Divergence and Curl",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/6-5-divergence-and-curl",
+      "author": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

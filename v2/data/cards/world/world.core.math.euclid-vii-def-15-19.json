@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vii-def-15-19",
+  "title": "Euclid VII.Def.15-19: 15. A number is said to multiply a number when the latter is added as many times as there are units in the former.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VII.Def.15-19: 15. A number is said to multiply a number when the latter is added as many times as there are units in the former.",
+  "body": "Euclid, Book VII, VII.Def.15-19, as worded on this page: \"15. A number is said to multiply a number when the latter is added as many times as there are units in the former. 16. And, when two numbers having multiplied one another make some number, the number so produced be called plane, and its sides are the numbers which have multiplied one another. 17. And, when three numbers having multiplied one another make some number, the number so produced be called solid, and its sides are the numbers which have multiplied one another. 18. A square number is equal multiplied by equal, or a number which is contained by two equal numbers. 19. And a cube is equal multiplied by equal and again by equal, or a number which is contained by three equal numbers.\" David E. Joyce's guide on the same page says: \"Notice that Euclid doesn’t define addition and subtraction. For an example where addition of numbers appears, see VII.28 . Formal definitions for them could be given, but those operations are assumed to be understood in the same way that any number a is a multiple of units u . Multiplication and proportion are formally defined, and proportion is defined next in VII.Def.20 . On Definition 15 Definition 15 defines multiplication in terms of addition as a kind of composition. For instance, to…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VII, VII.Def.15-19",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVII/defVII15.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:number-theory"
+  ]
+}

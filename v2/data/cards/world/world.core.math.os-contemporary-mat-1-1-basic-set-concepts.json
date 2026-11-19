@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-1-1-basic-set-concepts",
+  "title": "OpenStax Contemporary Mathematics, 1.1 Basic Set Concepts: Represent sets in a variety of ways.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 1.1 Basic Set Concepts: Represent sets in a variety of ways.",
+  "body": "OpenStax Contemporary Mathematics, section \"1.1 Basic Set Concepts\", prints these objectives: \"Represent sets in a variety of ways.\" \"Represent well-defined sets and the empty set with proper set notation.\" \"Compute the cardinal value of a set.\" \"Differentiate between finite and infinite sets.\" \"Differentiate between equal and equivalent sets.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 1.1 Basic Set Concepts",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

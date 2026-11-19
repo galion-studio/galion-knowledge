@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-4-6-limits-at-infinity-and-asymptotes",
+  "title": "OpenStax Calculus Volume 1, 4.6 Limits at Infinity and Asymptotes: Calculate the limit of a function as x increases or decreases without bound.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 4.6 Limits at Infinity and Asymptotes: Calculate the limit of a function as x increases or decreases without bound.",
+  "body": "OpenStax Calculus Volume 1, section \"4.6 Limits at Infinity and Asymptotes\", prints these objectives: \"Calculate the limit of a function as x increases or decreases without bound.\" \"Recognize a horizontal asymptote on the graph of a function.\" \"Estimate the end behavior of a function as x increases or decreases without bound.\" \"Recognize an oblique asymptote on the graph of a function.\" \"Analyze a function and its derivatives to draw its graph.\". The section text says: \"We have shown how to use the first and second derivatives of a function to describe the shape of a graph. To graph a function f defined on an unbounded domain, we also need to know the behavior of f as x → ± ∞ . In this section, we define limits at infinity and show how these limits affect the graph of a function. At the end of this section, we outline a strategy for graphing an arbitrary function f .\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 4.6 Limits at Infinity and Asymptotes",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/4-6-limits-at-infinity-and-asymptotes",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

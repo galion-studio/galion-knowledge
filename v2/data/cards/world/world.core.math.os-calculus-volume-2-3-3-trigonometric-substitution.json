@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-3-3-trigonometric-substitution",
+  "title": "OpenStax Calculus Volume 2, 3.3 Trigonometric Substitution: Solve integration problems involving the square root of a sum or difference of two squares.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 3.3 Trigonometric Substitution: Solve integration problems involving the square root of a sum or difference of two squares.",
+  "body": "OpenStax Calculus Volume 2, section \"3.3 Trigonometric Substitution\", prints these objectives: \"Solve integration problems involving the square root of a sum or difference of two squares.\". The section text says: \"In this section, we explore integrals containing expressions of the form a 2 − x 2 , a 2 + x 2 , and x 2 − a 2 , where the values of a are positive. We have already encountered and evaluated integrals containing some expressions of this type, but many still remain inaccessible. The technique of trigonometric substitution comes in very handy when evaluating these integrals. This technique uses substitution to rewrite these integrals as trigonometric integrals.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 3.3 Trigonometric Substitution",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/3-3-trigonometric-substitution",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

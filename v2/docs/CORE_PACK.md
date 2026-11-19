@@ -2,7 +2,7 @@
 
 Perpetual Open MIT License. Copyright (c) 2026 Galion Labs.
 
-This file is the map of core knowledge for knowledge.galion.app. Four sections are filled. Physics, constants and SI, matter and energy, chemistry, and astronomy and cosmology are one. Mathematics, evidence, money, law, and technology are another. History and religions are another, merged from master. Earth systems, climate, nature and ecology, biology, the body, and health are the section from this branch.
+This file is the map of core knowledge for knowledge.galion.app. Four sections are filled. Physics, constants and SI, matter and energy, chemistry, and astronomy and cosmology are one. Mathematics, evidence, money, law, and technology are another. History and religions are another, merged from master. Earth systems, climate, nature and ecology, biology, the body, and health are the section from this branch. Mathematics and logic is a later section of its own.
 
 The whole core pack is aimed at about 50,000 to 200,000 cards. That band is the owner's target for the core, not a count of cards that exist. Counts below that are labeled **estimates**. The first tranche in this pull request is 133 cards. It is a start, not the section.
 
@@ -117,6 +117,29 @@ A second independent copy was not opened for most single-document claims. The ga
 Every card has a source URL. Evidence on these 214 cards: 92 `strong`, 4 `moderate`, 118 `weak`. Claim types: 212 `fact`, 1 `interpretation` (the 2 percent targets are not one index), 1 `contested` (Card and Krueger 1993, with the negative-employment prediction as that paper describes it).
 
 Not in this batch, because the page was not opened: the German Basic Law, an IMF fact sheet, the BLS handbook, and a clean copy of the Bradford Hill lecture. Those claims were not filled in from memory.
+
+## Mathematics and logic
+
+537 new cards, ids `world.core.math.*`, added on 18 November 2026. The three mathematics cards already in the pack (Euclid I.47, the OpenStax derivative objective, and the Clay statement of P versus NP) were not rewritten. Euclid IX.20 is already `world.mathematics.infinitude-of-primes` and was not carded again. Gödel's 1931 paper, the Riemann hypothesis, Bayes, Nash, and Shannon were already carded and were not repeated.
+
+Every new card quotes a page that was opened. 537 of 537 are `fact`. Evidence: 302 `strong`, 235 `moderate`, 0 `weak`. Moderate is OpenStax, which the gate classes as a textbook. Strong is the host's ceiling for Joyce's Euclid, NIST, the Stanford Encyclopedia, Clay, arXiv, and Wikisource. No label was raised past that ceiling.
+
+| Source | Cards | What they are |
+| --- | ---: | --- |
+| Euclid, David E. Joyce's text | 93 | Propositions, definitions, postulates, and common notions whose wording is on the page. Joyce describes the text as similar to Heath's translation of Heiberg, and slightly less literal. I.47 and IX.20 are not repeated. |
+| NIST DLMF | 77 | Elementary functions, trigonometric functions, the gamma function, Bernoulli and Euler polynomials, the zeta function, combinatorial analysis, and functions of number theory, in the section's own prose and equation alt text. |
+| NIST/SEMATECH handbook | 46 | Exploratory data analysis, measurement-process characterization (including propagation of error and standard uncertainty), comparisons, hypothesis tests, and confidence intervals. |
+| OpenStax algebra, trigonometry, and arithmetic | 93 | Section objectives from Elementary Algebra 2e, Prealgebra 2e, and Algebra and Trigonometry 2e. |
+| OpenStax calculus | 75 | Section objectives from Calculus Volumes 1–3. The existing derivative card is not repeated. |
+| OpenStax Contemporary Mathematics | 67 | Section objectives, including sets, counting, and graphs. |
+| Stanford Encyclopedia of Philosophy | 70 | Preambles of entries on classical and non-classical logics, set theory, proof, computability, and related foundations. The card says what the entry says. |
+| Clay Mathematics Institute | 5 | Birch and Swinnerton-Dyer, Hodge, Navier–Stokes, Poincaré, and Yang–Mills, in the Institute's wording. P versus NP and the Riemann hypothesis were already carded. |
+| arXiv abstracts | 7 | Perelman's three Ricci-flow preprints, Green–Tao on primes in arithmetic progression, Helfgott on ternary Goldbach, Maynard on small gaps, and Hales on the Kepler conjecture. The card quotes the abstract. |
+| Wikisource, Laplace | 4 | Chapters of the 1902 Truscott and Emory translation of *A Philosophical Essay on Probabilities*. |
+
+Project Gutenberg was down for maintenance on 18 November 2026, so Boole, Euler's *Elements of Algebra*, and Dedekind were not opened. The 1729 Principia transcription that was opened had broken long-s OCR, so those pages were not carded. A statistics textbook pass was dropped where the extracted sentence was a course exercise rather than a definition. The NIST handbook is the statistics source that was kept.
+
+Still open in this area: a clean primary text of Boole's *Laws of Thought*, Euler's algebra, Dedekind's essays, Peano's axioms in his own notation, a linear-algebra text the gate can class above `weak`, and the original journal abstracts that Crossref did not return (Wiles, Zhang's bounded gaps, Cohen on the continuum). Those claims were not filled in from memory.
 
 `src/` was not changed.
 

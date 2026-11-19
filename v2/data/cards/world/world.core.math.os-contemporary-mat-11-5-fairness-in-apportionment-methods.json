@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-11-5-fairness-in-apportionment-methods",
+  "title": "OpenStax Contemporary Mathematics, 11.5 Fairness in Apportionment Methods: Describe and illustrate the Alabama paradox.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 11.5 Fairness in Apportionment Methods: Describe and illustrate the Alabama paradox.",
+  "body": "OpenStax Contemporary Mathematics, section \"11.5 Fairness in Apportionment Methods\", prints these objectives: \"Describe and illustrate the Alabama paradox.\" \"Describe and illustrate the population paradox.\" \"Describe and illustrate the new-states paradox.\" \"Identify ways to promote fairness in apportionment methods.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 11.5 Fairness in Apportionment Methods",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/11-5-fairness-in-apportionment-methods",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

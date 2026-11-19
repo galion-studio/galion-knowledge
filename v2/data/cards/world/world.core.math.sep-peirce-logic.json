@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-peirce-logic",
+  "title": "The Stanford Encyclopedia entry \"Peirce’s Deductive Logic\" says: Charles Sanders Peirce was a philosopher, but it is not easy to classify him in philosophy because of the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Peirce’s Deductive Logic\" says: Charles Sanders Peirce was a philosopher, but it is not easy to classify him in philosophy because of the…",
+  "body": "Shin, Sun-Joo, in the Stanford Encyclopedia of Philosophy entry \"Peirce’s Deductive Logic\" says: \"Charles Sanders Peirce was a philosopher, but it is not easy to classify him in philosophy because of the breadth of his work. (Please refer to the table of contents of the entry Charles Sanders Peirce. ) Logic was one of the main topics on which Peirce wrote. If we focus on logic, however, it becomes apparent that both Peirce’s concept of logic and his work on logic were much broader than his predecessors’, his contemporaries’, and ours. First, Peirce located logic in his large architectonic framework of philosophy, which is why some strongly believe that Peirce’s logic cannot be properly understood without understanding his pragmatism and his semiotics, to mention but two of his other contributions. Even within the traditional boundaries of logic, Peirce made too many contributions to outline in a single article.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Peirce’s Deductive Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/peirce-logic/",
+      "author": "Shin, Sun-Joo",
+      "date": "1995-12-15",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Shin, Sun-Joo",
+  "as_of_date": "2022-05-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

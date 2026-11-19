@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-prealgebra-2e-7-1-rational-and-irrational-numbers",
+  "title": "OpenStax Prealgebra 2e, 7.1 Rational and Irrational Numbers: Identify rational numbers and irrational numbers",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Prealgebra 2e, 7.1 Rational and Irrational Numbers: Identify rational numbers and irrational numbers",
+  "body": "OpenStax Prealgebra 2e, section \"7.1 Rational and Irrational Numbers\", prints these objectives: \"Identify rational numbers and irrational numbers\" \"Classify different types of real numbers\". The section text says: \"Congratulations! You have completed the first six chapters of this book! It's time to take stock of what you have done so far in this course and think about what is ahead. You have learned how to add, subtract, multiply, and divide whole numbers, fractions, integers , and decimals. You have become familiar with the language and symbols of algebra, and have simplified and evaluated algebraic expressions. You have solved many different types of applications. You have established a good solid…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Prealgebra 2e, 7.1 Rational and Irrational Numbers",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/7-1-rational-and-irrational-numbers",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:arithmetic"
+  ]
+}

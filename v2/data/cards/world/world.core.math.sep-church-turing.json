@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-church-turing",
+  "title": "The Stanford Encyclopedia entry \"The Church-Turing Thesis\" says: The Church-Turing thesis (or Turing-Church thesis) is a fundamental claim in the theory of computability.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"The Church-Turing Thesis\" says: The Church-Turing thesis (or Turing-Church thesis) is a fundamental claim in the theory of computability.",
+  "body": "Copeland, B. Jack, in the Stanford Encyclopedia of Philosophy entry \"The Church-Turing Thesis\" says: \"The Church-Turing thesis (or Turing-Church thesis) is a fundamental claim in the theory of computability. It was advanced independently by Church and Turing in the mid 1930s. There are various equivalent formulations of the thesis. A common one is that every effective computation can be carried out by a Turing machine (i.e., by Turing’s abstract computing machine, which in its universal form encapsulates the fundamental logical principles of the stored-program all-purpose digital computer). Modern reimaginings of the Church-Turing thesis transform it, extending it to fundamental physics, complexity theory, exotic algorithms, and cognitive science. It is important to be aware though that some of the theses nowadays referred to as the Church-Turing thesis are at best very distant relatives of the thesis advanced by Church and Turing.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Church-Turing Thesis (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/church-turing/",
+      "author": "Copeland, B. Jack",
+      "date": "1997-01-08",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Copeland, B. Jack",
+  "as_of_date": "2023-12-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

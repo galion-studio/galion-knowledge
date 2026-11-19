@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-1-10",
+  "title": "DLMF 1.10 Functions of a Complex Variable: Let f(z) be analytic on the disk \\left|z-z_{0}\\right|<R .",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 1.10 Functions of a Complex Variable: Let f(z) be analytic on the disk \\left|z-z_{0}\\right|<R .",
+  "body": "NIST DLMF section 1.10 (Functions of a Complex Variable) says: \"Let f(z) be analytic on the disk \\left|z-z_{0}\\right|<R . Then The right-hand side is the Taylor series for f(z) at z=z_{0} , and its radius of convergence is at least R . Note that ( 1.10.4 ) is a generalization of the binomial expansion ( 1.2.2 ) with the binomial coefficients defined in ( 1.2.6 ). Again, in these examples \\ln\\left(1+z\\right) and (1-z)^{-\\alpha} have their principal values; see §§ 4.2(i) and 4.2(iv) . An analytic function f(z) has a zero of order (or multiplicity ) m ( \\geq\\!1 ) at z_{0} if the first nonzero coefficient in its Taylor series at z_{0} is that of (z-z_{0})^{m} . When m=1 the zero is simple . Let f_{1}(z) be analytic in a domain D_{1} . If f_{2}(z) , analytic in D_{2} , equals f_{1}(z) on an arc in D=D_{1}\\cap D_{2} , or on just an infinite number of points with a limit point in D , then they are equal throughout D and f_{2}(z) is called an analytic continuation of f_{1}(z) . We write (f_{1},D_{1}) , (f_{2},D_{2}) to signify this continuation.\" Equation 1.10.1 on the page has alt text \"f(z)=\\sum^{\\infty}_{n=0}\\frac{f^{(n)}(z_{0})}{n!}(z-z_{0})^{n}.\". Equation 1.10.2 on the page has alt text \"{\\mathrm{e}}^{z}=1+\\frac{z}{1!}+\\frac{z^{2}}{2!}+\\cdots,\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 1.10 Functions of a Complex Variable",
+      "url": "https://dlmf.nist.gov/1.10",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

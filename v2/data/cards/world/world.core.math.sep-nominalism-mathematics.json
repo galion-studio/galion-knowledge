@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-nominalism-mathematics",
+  "title": "The Stanford Encyclopedia entry \"Nominalism in the Philosophy of Mathematics\" says: Nominalism about mathematics (or mathematical nominalism) is the view according to which either mathematical…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Nominalism in the Philosophy of Mathematics\" says: Nominalism about mathematics (or mathematical nominalism) is the view according to which either mathematical…",
+  "body": "Bueno, Otávio, in the Stanford Encyclopedia of Philosophy entry \"Nominalism in the Philosophy of Mathematics\" says: \"Nominalism about mathematics (or mathematical nominalism) is the view according to which either mathematical objects, relations, and structures do not exist at all, or they do not exist as abstract objects (they are neither located in space-time nor do they have causal powers). In the latter case, some suitable concrete replacement for mathematical objects is provided. Broadly speaking, there are two forms of mathematical nominalism: those views that require the reformulation of mathematical (or scientific) theories in order to avoid the commitment to mathematical objects (e.g., Field 1980; Hellman 1989), and those views that do not reformulate mathematical or scientific theories and offer instead an account of how no commitment to mathematical objects is involved when these theories are used (e.g., Azzouni 2004). Both forms of nominalism are examined, and they are assessed in light of…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Nominalism in the Philosophy of Mathematics (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/nominalism-mathematics/",
+      "author": "Bueno, Ot&aacute;vio",
+      "date": "2013-09-16",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bueno, Ot&aacute;vio",
+  "as_of_date": "2013-09-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

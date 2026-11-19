@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-3-7-3-applications",
+  "title": "OpenStax Calculus Volume 3, 7.3 Applications: Solve a second-order differential equation representing simple harmonic motion.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 3, 7.3 Applications: Solve a second-order differential equation representing simple harmonic motion.",
+  "body": "OpenStax Calculus Volume 3, section \"7.3 Applications\", prints these objectives: \"Solve a second-order differential equation representing simple harmonic motion.\" \"Solve a second-order differential equation representing damped simple harmonic motion.\" \"Solve a second-order differential equation representing forced simple harmonic motion.\" \"Solve a second-order differential equation representing charge and current in an RLC series circuit.\". The section text says: \"We saw in the chapter introduction that second-order linear differential equations are used to model many situations in physics and engineering. In this section, we look at how this works for systems of an object with mass attached to a vertical spring and an electric circuit containing a resistor, an inductor, and a capacitor connected in series. Models such as these can be used to approximate other more complicated situations; for example, bonds between atoms or molecules are often modeled as…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 3, 7.3 Applications",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/7-3-applications",
+      "author": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

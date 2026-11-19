@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-26-8",
+  "title": "DLMF 26.8 Set Partitions: Stirling Numbers: s\\left(n,k\\right) denotes the Stirling number of the first kind : (-1)^{n-k} times the number of permutations of…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 26.8 Set Partitions: Stirling Numbers: s\\left(n,k\\right) denotes the Stirling number of the first kind : (-1)^{n-k} times the number of permutations of…",
+  "body": "NIST DLMF section 26.8 (Set Partitions: Stirling Numbers) says: \"s\\left(n,k\\right) denotes the Stirling number of the first kind : (-1)^{n-k} times the number of permutations of \\{1,2,\\ldots,n\\} with exactly k cycles. See Table 26.8.1 . S\\left(n,k\\right) denotes the Stirling number of the second kind : the number of partitions of \\{1,2,\\ldots,n\\} into exactly k nonempty subsets. See Table 26.8.2 . where the summation is over all nonnegative integers c_{1},c_{2},\\ldots,c_{k} such that c_{1}+c_{2}+\\cdots+c_{k}=n-k. where {\\left(x\\right)_{n}} is the Pochhammer symbol: x(x+1)\\cdots(x+n-1) . when f(x) is analytic for all x , and the series converges, where when f(x) is analytic for all x , and the series converges. Let A and B be the n\\times n matrices with (j,k) th elements s\\left(j,k\\right) , and S\\left(j,k\\right) , respectively. Then uniformly for k=o\\left(\\ln n\\right) , where \\gamma is Euler’s constant (§ 5.2(ii) ). For asymptotic approximations for s\\left(n+1,k+1\\right) and S\\left(n,k\\right) that apply uniformly for 1\\leq k\\leq n as n\\to\\infty see Temme ( 1993 ) and Temme ( 2015 , Chapter 34) .\" Equation 26.8.3 on the page has alt text \"(-1)^{n-k}s\\left(n,k\\right)=\\sum_{1\\leq b_{1}<\\cdots<b_{n-k}\\leq n-1}b_{1}b_{2% }\\cdots b_{n-k},\". Equation 26.8.4 on the page has alt text \"S\\left(n,n\\right)=1,\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 26.8 Set Partitions: Stirling Numbers",
+      "url": "https://dlmf.nist.gov/26.8",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:combinatorics"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-7-4-tree-diagrams-tables-and-outcomes",
+  "title": "OpenStax Contemporary Mathematics, 7.4 Tree Diagrams, Tables, and Outcomes: Determine the sample space of single stage experiment.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 7.4 Tree Diagrams, Tables, and Outcomes: Determine the sample space of single stage experiment.",
+  "body": "OpenStax Contemporary Mathematics, section \"7.4 Tree Diagrams, Tables, and Outcomes\", prints these objectives: \"Determine the sample space of single stage experiment.\" \"Use tables to list possible outcomes of a multistage experiment.\" \"Use tree diagrams to list possible outcomes of a multistage experiment.\". The section text says: \"When we are talking about combinatorics or probability, the word “ experiment ” has a slightly different meaning than it does in the sciences. Experiments can range from very simple (“flip a coin”) to very complex (“count the number of uranium atoms that undergo nuclear fission in a sample of a given size over the course of an hour”). Experiments have unknown outcomes that generally rely on something random, so that if the experiment is repeated (or replicated ) the outcome might be different.…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 7.4 Tree Diagrams, Tables, and Outcomes",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/7-4-tree-diagrams-tables-and-outcomes",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

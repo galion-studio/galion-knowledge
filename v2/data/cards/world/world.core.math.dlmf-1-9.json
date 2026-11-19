@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-1-9",
+  "title": "DLMF 1.9 Calculus of a Complex Variable: according as z lies in the 1st, 2nd, 3rd, or 4th quadrants.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 1.9 Calculus of a Complex Variable: according as z lies in the 1st, 2nd, 3rd, or 4th quadrants.",
+  "body": "NIST DLMF section 1.9 (Calculus of a Complex Variable) says: \"according as z lies in the 1st, 2nd, 3rd, or 4th quadrants. Here The principal value of \\operatorname{ph}z corresponds to n=0 , that is, -\\pi\\leq\\operatorname{ph}z\\leq\\pi . It is single-valued on \\mathbb{C}\\setminus\\{0\\} , except on the interval (-\\infty,0) where it is discontinuous and two-valued. Unless indicated otherwise , these principal values are assumed throughout the DLMF. (However, if we require a principal value to be single-valued, then we can restrict -\\pi<\\operatorname{ph}z\\leq\\pi .) If z_{1}=x_{1}+\\mathrm{i}y_{1} , z_{2}=x_{2}+\\mathrm{i}y_{2} , then Equations ( 1.9.18 ) and ( 1.9.20 ) hold for general values of the phases, but not necessarily for the principal values. A function f(z) is continuous at a point z_{0} if \\lim\\limits_{z\\to z_{0}}f(z)=f(z_{0}) . That is, given any positive number \\epsilon , however small, we can find a positive number \\delta such that \\left|f(z)-f(z_{0})\\right|<\\epsilon for all z in the open disk \\left|z-z_{0}\\right|<\\delta .\" Equation 1.9.1 on the page has alt text \"z=x+\\mathrm{i}y,\". Equation 1.9.2 on the page has alt text \"\\displaystyle\\Re z\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 1.9 Calculus of a Complex Variable",
+      "url": "https://dlmf.nist.gov/1.9",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

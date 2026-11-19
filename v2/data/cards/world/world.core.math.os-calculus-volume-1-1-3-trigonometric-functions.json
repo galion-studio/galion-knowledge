@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-1-3-trigonometric-functions",
+  "title": "OpenStax Calculus Volume 1, 1.3 Trigonometric Functions: Convert angle measures between degrees and radians.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 1.3 Trigonometric Functions: Convert angle measures between degrees and radians.",
+  "body": "OpenStax Calculus Volume 1, section \"1.3 Trigonometric Functions\", prints these objectives: \"Convert angle measures between degrees and radians.\" \"Recognize the triangular and circular definitions of the basic trigonometric functions.\" \"Write the basic trigonometric identities.\" \"Identify the graphs and periods of the trigonometric functions.\" \"Describe the shift of a sine or cosine graph from the equation of the function.\". The section text says: \"Trigonometric functions are used to model many phenomena, including sound waves, vibrations of strings, alternating electrical current, and the motion of pendulums. In fact, almost any repetitive, or cyclical, motion can be modeled by some combination of trigonometric functions. In this section, we define the six basic trigonometric functions and look at some of the main identities involving these functions.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 1.3 Trigonometric Functions",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/1-3-trigonometric-functions",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

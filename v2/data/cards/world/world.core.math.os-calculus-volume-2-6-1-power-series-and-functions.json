@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-6-1-power-series-and-functions",
+  "title": "OpenStax Calculus Volume 2, 6.1 Power Series and Functions: Identify a power series and provide examples of them.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 6.1 Power Series and Functions: Identify a power series and provide examples of them.",
+  "body": "OpenStax Calculus Volume 2, section \"6.1 Power Series and Functions\", prints these objectives: \"Identify a power series and provide examples of them.\" \"Determine the radius of convergence and interval of convergence of a power series.\" \"Use a power series to represent a function.\". The section text says: \"A power series is a type of series with terms involving a variable. More specifically, if the variable is x , then all the terms of the series involve powers of x . As a result, a power series can be thought of as an infinite polynomial. Power series are used to represent common functions and also to define new functions. In this section we define power series and show how to determine when a power series converges and when it diverges. We also show how to represent certain functions using…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 6.1 Power Series and Functions",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/6-1-power-series-and-functions",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

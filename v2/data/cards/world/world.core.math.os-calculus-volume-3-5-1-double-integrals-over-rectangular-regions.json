@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-3-5-1-double-integrals-over-rectangular-regions",
+  "title": "OpenStax Calculus Volume 3, 5.1 Double Integrals over Rectangular Regions: Recognize when a function of two variables is integrable over a rectangular region.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 3, 5.1 Double Integrals over Rectangular Regions: Recognize when a function of two variables is integrable over a rectangular region.",
+  "body": "OpenStax Calculus Volume 3, section \"5.1 Double Integrals over Rectangular Regions\", prints these objectives: \"Recognize when a function of two variables is integrable over a rectangular region.\" \"Recognize and use some of the properties of double integrals.\" \"Evaluate a double integral over a rectangular region by writing it as an iterated integral.\" \"Use a double integral to calculate the area of a region, volume under a surface, or average value of a function over a plane region.\". The section text says: \"In this section we investigate double integrals and show how we can use them to find the volume of a solid over a rectangular region in the x y -plane. Many of the properties of double integrals are similar to those we have already discussed for single integrals.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 3, 5.1 Double Integrals over Rectangular Regions",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/5-1-double-integrals-over-rectangular-regions",
+      "author": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}
