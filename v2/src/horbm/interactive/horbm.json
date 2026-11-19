@@ -1,0 +1,995 @@
+{
+  "$schema": "./horbm.schema.json",
+  "version": "1.0.0",
+  "updated": "2026-11-19T12:00:00+01:00",
+  "updatedLabel": "19 Nov 2026, Europe/Zagreb",
+  "kicker": "Galion Labs · HORBM",
+  "title": "HORBM layered architecture: one turn, both ways",
+  "subtitle": "A conversationalist first, grounded in sourced truth",
+  "lead": "Heuristic Open Retrieval Brain Models. The twelve layers sit in the middle. The left path is your words going down, in the order the turn really reaches each layer. The right path is the reply coming back up. They are not mirror images: the lookup in 7 and 8 runs before the dialogue manager picks a move, because the move filter needs the evidence, and the reply is checked by safety, persona and empathy on the way up. Numbers like (12) match the notes on the full plate. As of 19 Nov 2026, Europe/Zagreb.",
+  "statuses": {
+    "B": {
+      "label": "Built"
+    },
+    "A": {
+      "label": "Accepted"
+    },
+    "R": {
+      "label": "Recommended"
+    },
+    "C": {
+      "label": "If needed"
+    }
+  },
+  "kinds": {
+    "main": {
+      "label": ""
+    },
+    "rec": {
+      "label": "Recommended"
+    },
+    "cond": {
+      "label": "Only if needed"
+    },
+    "skip": {
+      "label": "Skipped"
+    }
+  },
+  "legend": [
+    {
+      "swatch": "b",
+      "label": "Built"
+    },
+    {
+      "swatch": "c",
+      "label": "Conditional step: only if needed"
+    },
+    {
+      "swatch": "a",
+      "label": "Accepted by Mate"
+    },
+    {
+      "swatch": "s",
+      "label": "Skipped: the turn passes, nothing runs"
+    },
+    {
+      "swatch": "r",
+      "label": "Recommended, awaiting Mate"
+    },
+    {
+      "swatch": "pills",
+      "down": "4",
+      "up": "2",
+      "label": "step number on each path"
+    },
+    {
+      "note": "A whole step in dashed gold means its main action is recommended, not yet accepted. Key parts only; the full plate has all 91."
+    }
+  ],
+  "input": {
+    "kicker": "Input",
+    "title": "Speak or type",
+    "detail": "Your words go down through the layers, step by step, to the machines."
+  },
+  "guide": {
+    "title": "0 North star",
+    "text": "guides every step; it is not a step."
+  },
+  "output": {
+    "kicker": "Output",
+    "title": "Speak or type",
+    "detail": "The reply comes back up from the machines and is checked on the way."
+  },
+  "after": {
+    "kicker": "Then, after it speaks",
+    "detail": "Off the hot path, so the voice never waits on it.",
+    "items": [
+      {
+        "layer": "4",
+        "text": "State tracker adds the turn to the 32-turn ring",
+        "refs": "(28)",
+        "status": "B"
+      },
+      {
+        "layer": "7",
+        "text": "Memory write: stated facts and pins; a contradiction becomes a revision; credentials never kept",
+        "refs": "(53)(54)(73)",
+        "status": "A"
+      },
+      {
+        "layer": "7",
+        "text": "Moment records: outcome written back as counts and weights",
+        "refs": "(39)",
+        "status": "R"
+      },
+      {
+        "layer": "10",
+        "text": "Evals score after the call: quality turns, truth rate, good endings",
+        "refs": "(77)(78)(79)",
+        "status": "R"
+      }
+    ]
+  },
+  "down": [
+    {
+      "layer": "1",
+      "title": "Voice and senses",
+      "kind": "main",
+      "parts": [
+        {
+          "text": "Ear: VAD on each 80 ms frame, Vosk streaming speech recognition",
+          "refs": "(6)",
+          "status": "B"
+        },
+        {
+          "text": "Feeling read from the voice every 80 ms",
+          "refs": "(7)",
+          "status": "A"
+        },
+        {
+          "text": "Conductor handles turn-taking and barge-in",
+          "refs": "(8)",
+          "status": "A"
+        },
+        {
+          "text": "Stable partial words start the lookup while you still talk",
+          "refs": "(6)(36)",
+          "status": "R"
+        }
+      ]
+    },
+    {
+      "layer": "2",
+      "title": "Persona and inner life",
+      "kind": "skip",
+      "note": "Passed, not a step. The persona card is loaded at boot (15). Its rules act at layer 4 and on the way up (18)."
+    },
+    {
+      "layer": "3",
+      "title": "Empathy",
+      "kind": "main",
+      "parts": [
+        {
+          "text": "Mood point: arousal, valence, dominance, every 80 ms",
+          "refs": "(23)",
+          "status": "A"
+        },
+        {
+          "text": "Query rewrite: \"him\" becomes the name, before lookup",
+          "refs": "(22)",
+          "status": "R"
+        },
+        {
+          "text": "Intent: chat, ask, task, vent or goodbye",
+          "refs": "(24)",
+          "status": "R"
+        },
+        {
+          "text": "Open wants list: open, met, dropped",
+          "refs": "(25)",
+          "status": "R"
+        }
+      ]
+    },
+    {
+      "layer": "5",
+      "title": "Core chat engine: router",
+      "kind": "main",
+      "parts": [
+        {
+          "text": "HORBM answers first; S0 fills gaps as marked guesses; Galion Research takes deep questions, 3 s cap. Router not built yet",
+          "refs": "(35)",
+          "status": "A"
+        }
+      ]
+    },
+    {
+      "layer": "7",
+      "title": "Memory and relationship",
+      "kind": "main",
+      "tagline": "one query with layer 8",
+      "parts": [
+        {
+          "text": "Lane A: one query over memory and cards, at most 4 hits, under 10 ms",
+          "refs": "(36)",
+          "status": "B"
+        },
+        {
+          "text": "Working memory: the last 32 turns of this call",
+          "refs": "(52)",
+          "status": "B"
+        },
+        {
+          "text": "Ranked by relevance, recency and importance, pins boosted",
+          "refs": "(55)",
+          "status": "B"
+        }
+      ]
+    },
+    {
+      "layer": "8",
+      "title": "Knowledge and truth",
+      "kind": "main",
+      "tagline": "same query as layer 7",
+      "parts": [
+        {
+          "text": "Cards: the core pack plus at most 3 shards",
+          "refs": "(40)(62)",
+          "status": "B"
+        },
+        {
+          "text": "No card means \"I don't know\"; the miss joins the gap queue",
+          "refs": "(65)",
+          "status": "B"
+        }
+      ]
+    },
+    {
+      "layer": "4",
+      "title": "Dialogue manager and policy",
+      "kind": "rec",
+      "parts": [
+        {
+          "text": "State tracker holds this call",
+          "refs": "(28)",
+          "status": "B"
+        },
+        {
+          "text": "Legal-move filter: persona and truth gate drop bad moves, e.g. a cite with no evidence",
+          "refs": "(30)",
+          "status": "R"
+        },
+        {
+          "text": "Policy picks one move: answer, cite, abstain, ask_one, comfort, offer_topic, stop",
+          "refs": "(29)(31)",
+          "status": "R"
+        },
+        {
+          "text": "Topic manager: at most one new topic, at a lull",
+          "refs": "(32)",
+          "status": "R"
+        }
+      ]
+    },
+    {
+      "layer": "6",
+      "title": "Skills",
+      "kind": "cond",
+      "tagline": "only if the move needs a lookup or an action",
+      "parts": [
+        {
+          "text": "Galion Research on the 3 s side band",
+          "refs": "(46)",
+          "status": "B"
+        },
+        {
+          "text": "Eureka Moment Pipelines chain retrieved claims there",
+          "refs": "(44)",
+          "status": "A"
+        },
+        {
+          "text": "Tools run in agentic sandboxes, off the 80 ms clock",
+          "refs": "(47)",
+          "status": "A"
+        }
+      ]
+    },
+    {
+      "layer": "9",
+      "title": "Safety and ethics",
+      "kind": "skip",
+      "note": "Not on the way down. It checks the reply on the way up."
+    },
+    {
+      "layer": "10",
+      "title": "Evals and metrics",
+      "kind": "skip",
+      "note": "Off the hot path. Nothing is logged during the turn (R4); scoring comes after."
+    },
+    {
+      "layer": "11",
+      "title": "Machines and infrastructure",
+      "kind": "main",
+      "parts": [
+        {
+          "text": "Core map: lookup on core 0, ASR on 1, reasoning on 2 to 5",
+          "refs": "(82)",
+          "status": "A"
+        },
+        {
+          "text": "CPU-only mode calls no API model",
+          "refs": "(83)",
+          "status": "A"
+        },
+        {
+          "text": "Titan, only if layer 6 ran: the Galion Research gateway",
+          "refs": "(84)",
+          "status": "C"
+        }
+      ]
+    }
+  ],
+  "up": [
+    {
+      "layer": "11",
+      "title": "Machines and infrastructure",
+      "kind": "main",
+      "parts": [
+        {
+          "text": "Reasoning cores 2 to 5 hand back the candidates; voices sit on cores 6 and 7",
+          "refs": "(82)",
+          "status": "A"
+        }
+      ]
+    },
+    {
+      "layer": "6",
+      "title": "Skills",
+      "kind": "cond",
+      "tagline": "only if layer 6 ran on the way down",
+      "parts": [
+        {
+          "text": "Galion Research answer arrives as a later clause, within 3 s",
+          "refs": "(46)",
+          "status": "B"
+        },
+        {
+          "text": "Eureka result is spoken only after the checks pass",
+          "refs": "(44)",
+          "status": "A"
+        }
+      ]
+    },
+    {
+      "layer": "8",
+      "title": "Knowledge and truth",
+      "kind": "skip",
+      "note": "Not passed again: card facts already sit in the candidates. The truth gate (63) checks cards at publication, not per turn."
+    },
+    {
+      "layer": "5",
+      "title": "Core chat engine: ranker and reply builder",
+      "kind": "rec",
+      "parts": [
+        {
+          "text": "Ranker: boosted tree on stored and truth features",
+          "refs": "(41)",
+          "status": "R"
+        },
+        {
+          "text": "Reply builder: slot filling, \"On {date}, {who} said {span}\"",
+          "refs": "(42)",
+          "status": "R"
+        },
+        {
+          "text": "S0 lines stay marked as guesses",
+          "refs": "(43)",
+          "status": "A"
+        }
+      ]
+    },
+    {
+      "layer": "9",
+      "title": "Safety and ethics",
+      "kind": "main",
+      "parts": [
+        {
+          "text": "Every world claim: cited with source, date and who, said as a guess, or not said",
+          "refs": "(70)",
+          "status": "A"
+        },
+        {
+          "text": "Harm limits",
+          "refs": "(71)",
+          "status": "R"
+        },
+        {
+          "text": "Says it is an AI when asked",
+          "refs": "(72)",
+          "status": "R"
+        }
+      ]
+    },
+    {
+      "layer": "2",
+      "title": "Persona and inner life",
+      "kind": "rec",
+      "parts": [
+        {
+          "text": "Persona filter in front of every reply",
+          "refs": "(18)",
+          "status": "R"
+        },
+        {
+          "text": "Character: warm, curious, honest, dry humour",
+          "refs": "(17)",
+          "status": "R"
+        }
+      ]
+    },
+    {
+      "layer": "3",
+      "title": "Empathy",
+      "kind": "main",
+      "parts": [
+        {
+          "text": "Empathy is a weight: it changes how it sounds, no scripted lines",
+          "refs": "(26)",
+          "status": "A"
+        },
+        {
+          "text": "Names a feeling only when invited",
+          "refs": "(27)",
+          "status": "R"
+        }
+      ]
+    },
+    {
+      "layer": "1",
+      "title": "Voice and senses",
+      "kind": "main",
+      "parts": [
+        {
+          "text": "Intent message to the mouth",
+          "refs": "(20)",
+          "status": "A"
+        },
+        {
+          "text": "Mouth MnE V2; interim voice is our custom Piper on CPU",
+          "refs": "(10)(11)",
+          "status": "A"
+        },
+        {
+          "text": "Conductor: you can cut in, silence within 200 ms",
+          "refs": "(8)",
+          "status": "A"
+        }
+      ]
+    }
+  ],
+  "bands": [
+    {
+      "title": "Conversationalist",
+      "layers": [
+        {
+          "n": "0",
+          "title": "North star",
+          "purpose": "A conversationalist first, grounded in sourced truth",
+          "columns": 4,
+          "chips": [
+            {
+              "label": "Conversationalist first",
+              "ref": "(1)",
+              "sub": "a friend you want to talk to",
+              "status": "A"
+            },
+            {
+              "label": "Not an LLM",
+              "ref": "(2)",
+              "sub": "retrieval and heuristics",
+              "status": "A"
+            },
+            {
+              "label": "HORBM, named",
+              "ref": "(3)",
+              "sub": "Heuristic Open Retrieval Brain Models",
+              "status": "A"
+            },
+            {
+              "label": "Truth over propaganda",
+              "ref": "(4)",
+              "sub": "source, date, who said it",
+              "status": "A"
+            }
+          ],
+          "guide": true,
+          "guideLabel": "guide, not a step"
+        },
+        {
+          "n": "1",
+          "title": "Voice and senses",
+          "purpose": "Galion Voice, full duplex: it hears while it speaks",
+          "columns": 3,
+          "chips": [
+            {
+              "label": "Channels",
+              "ref": "(5)",
+              "sub": "voice first, then text, then image",
+              "status": "R"
+            },
+            {
+              "label": "Ear",
+              "ref": "(6)",
+              "sub": "VAD every 80 ms, Vosk streaming ASR",
+              "status": "B"
+            },
+            {
+              "label": "Feeling from the voice",
+              "ref": "(7)",
+              "sub": "mood read every 80 ms",
+              "status": "A"
+            },
+            {
+              "label": "Conductor",
+              "ref": "(8)",
+              "sub": "turn-taking, barge-in at most 200 ms",
+              "status": "A"
+            },
+            {
+              "label": "Mouth: MnE V2",
+              "ref": "(10)",
+              "sub": "breath, throat, mouth, nose",
+              "status": "A"
+            },
+            {
+              "label": "End-goal voice",
+              "ref": "(12)",
+              "sub": "our own RL Moshi / PersonaPlex, dual band",
+              "status": "A"
+            }
+          ]
+        },
+        {
+          "n": "2",
+          "title": "Persona and inner life",
+          "purpose": "Who it is, every turn",
+          "columns": 3,
+          "chips": [
+            {
+              "label": "Persona cards",
+              "ref": "(15)",
+              "sub": "Galion One, Galion Research, Samantha, Jarvis",
+              "status": "B"
+            },
+            {
+              "label": "Default talker",
+              "ref": "(16)",
+              "sub": "Galion One companion, voice pluggable",
+              "status": "R"
+            },
+            {
+              "label": "Character",
+              "ref": "(17)",
+              "sub": "warm, curious, honest, dry humour",
+              "status": "R"
+            },
+            {
+              "label": "Persona filter",
+              "ref": "(18)",
+              "sub": "a check in front of every reply",
+              "status": "R"
+            },
+            {
+              "label": "Inner life",
+              "ref": "(19)",
+              "sub": "what it cares about, wants, expects",
+              "status": "A"
+            },
+            {
+              "label": "Intent messages",
+              "ref": "(20)",
+              "sub": "inner life to MnE, simple format",
+              "status": "A"
+            }
+          ]
+        },
+        {
+          "n": "3",
+          "title": "Empathy",
+          "purpose": "Understand the person, then answer with care",
+          "columns": 3,
+          "chips": [
+            {
+              "label": "Query rewrite",
+              "ref": "(22)",
+              "sub": "'him' becomes the name",
+              "status": "R"
+            },
+            {
+              "label": "Mood point",
+              "ref": "(23)",
+              "sub": "3 numbers every 80 ms",
+              "status": "A"
+            },
+            {
+              "label": "Intent detection",
+              "ref": "(24)",
+              "sub": "chat, ask, task, vent, goodbye",
+              "status": "R"
+            },
+            {
+              "label": "Open wants",
+              "ref": "(25)",
+              "sub": "what they still need from this call",
+              "status": "R"
+            },
+            {
+              "label": "Empathy is a weight",
+              "ref": "(26)",
+              "sub": "on tone, never a script",
+              "status": "A"
+            },
+            {
+              "label": "Naming feelings",
+              "ref": "(27)",
+              "sub": "only when invited",
+              "status": "R"
+            }
+          ]
+        },
+        {
+          "n": "4",
+          "title": "Dialogue manager and policy",
+          "purpose": "Decide the next move and keep the talk alive",
+          "columns": 3,
+          "chips": [
+            {
+              "label": "State tracker",
+              "ref": "(28)",
+              "sub": "32-turn ring, mood, names",
+              "status": "B"
+            },
+            {
+              "label": "Moves",
+              "ref": "(29)",
+              "sub": "answer, cite, ask, comfort, offer topic, stop",
+              "status": "R"
+            },
+            {
+              "label": "Legal-move filter",
+              "ref": "(30)",
+              "sub": "persona and truth gate remove bad moves",
+              "status": "R"
+            },
+            {
+              "label": "Policy learner",
+              "ref": "(31)",
+              "sub": "small bandit, learns offline",
+              "status": "R"
+            },
+            {
+              "label": "Topic manager",
+              "ref": "(32)",
+              "sub": "when to switch, what to bring up",
+              "status": "R"
+            },
+            {
+              "label": "Callbacks",
+              "ref": "(33)",
+              "sub": "'how did the interview go?'",
+              "status": "R"
+            }
+          ]
+        },
+        {
+          "n": "5",
+          "title": "Core chat engine",
+          "purpose": "Find candidates, rank them, build the reply",
+          "columns": 3,
+          "chips": [
+            {
+              "label": "Reasoning router",
+              "ref": "(35)",
+              "sub": "HORBM first, S0 guesses, Research 3 s",
+              "status": "A"
+            },
+            {
+              "label": "Lane A: diary",
+              "ref": "(36)",
+              "sub": "BM25 + int8 vectors, fused",
+              "status": "B"
+            },
+            {
+              "label": "Cards",
+              "ref": "(40)",
+              "sub": "core pack + up to 3 shards",
+              "status": "B"
+            },
+            {
+              "label": "Ranker",
+              "ref": "(41)",
+              "sub": "boosted tree, then a threshold",
+              "status": "R"
+            },
+            {
+              "label": "Reply builder",
+              "ref": "(42)",
+              "sub": "fills slots from sourced spans",
+              "status": "R"
+            },
+            {
+              "label": "Eureka Moment Pipelines",
+              "ref": "(44)",
+              "sub": "prepare, incubate, illuminate, verify",
+              "status": "A"
+            }
+          ]
+        },
+        {
+          "n": "6",
+          "title": "Skills",
+          "purpose": "Things it can do beyond talk",
+          "columns": 3,
+          "chips": [
+            {
+              "label": "Galion Research",
+              "ref": "(46)",
+              "sub": "deep questions, 3 s cap",
+              "status": "B"
+            },
+            {
+              "label": "Agentic sandboxes",
+              "ref": "(47)",
+              "sub": "every tool runs isolated",
+              "status": "A"
+            },
+            {
+              "label": "Image talk",
+              "ref": "(48)",
+              "sub": "comments on a photo",
+              "status": "R"
+            },
+            {
+              "label": "Creative",
+              "ref": "(49)",
+              "sub": "stories, poems, songs",
+              "status": "R"
+            },
+            {
+              "label": "Comfort",
+              "ref": "(50)",
+              "sub": "stays with hard moments",
+              "status": "R"
+            },
+            {
+              "label": "Tasks",
+              "ref": "(51)",
+              "sub": "Hermes tools, no money by voice",
+              "status": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The person and the truth",
+      "layers": [
+        {
+          "n": "7",
+          "title": "Memory and relationship",
+          "purpose": "Remembers you, and never rewrites the past",
+          "columns": 3,
+          "chips": [
+            {
+              "label": "Working memory",
+              "ref": "(52)",
+              "sub": "the current call in RAM",
+              "status": "B"
+            },
+            {
+              "label": "Long-term hybrid A",
+              "ref": "(53)",
+              "sub": "pins + scored facts + optional session",
+              "status": "A"
+            },
+            {
+              "label": "Revisions",
+              "ref": "(54)",
+              "sub": "new fact archives the old one",
+              "status": "B"
+            },
+            {
+              "label": "Memory ranking",
+              "ref": "(55)",
+              "sub": "relevance x recency x importance",
+              "status": "B"
+            },
+            {
+              "label": "Relationship timeline",
+              "ref": "(56)",
+              "sub": "call summaries and milestones",
+              "status": "R"
+            },
+            {
+              "label": "Fading",
+              "ref": "(57)",
+              "sub": "old rows leave live use, stay archived",
+              "status": "R"
+            }
+          ]
+        },
+        {
+          "n": "8",
+          "title": "Knowledge and truth",
+          "purpose": "Sourced cards the talk is grounded in",
+          "columns": 3,
+          "chips": [
+            {
+              "label": "One card, one claim",
+              "ref": "(60)",
+              "sub": "type and evidence labelled",
+              "status": "B"
+            },
+            {
+              "label": "Core pack",
+              "ref": "(61)",
+              "sub": "about 1,500 now, target 50k to 200k",
+              "status": "A"
+            },
+            {
+              "label": "Shards",
+              "ref": "(62)",
+              "sub": "34 add-on packs by hash",
+              "status": "B"
+            },
+            {
+              "label": "Truth gate",
+              "ref": "(63)",
+              "sub": "Rust check on every pull request",
+              "status": "B"
+            },
+            {
+              "label": "Source rules",
+              "ref": "(64)",
+              "sub": "no Wikipedia; one government, one media",
+              "status": "A"
+            },
+            {
+              "label": "I don't know + gap queue",
+              "ref": "(65)",
+              "sub": "misses drive new cards",
+              "status": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Guard rails and proof",
+      "layers": [
+        {
+          "n": "9",
+          "title": "Safety and ethics",
+          "purpose": "Lines it never crosses",
+          "columns": 3,
+          "chips": [
+            {
+              "label": "Consent",
+              "ref": "(69)",
+              "sub": "using it is consent; archive, not delete",
+              "status": "A"
+            },
+            {
+              "label": "Every world claim",
+              "ref": "(70)",
+              "sub": "cited, marked as a guess, or withheld",
+              "status": "A"
+            },
+            {
+              "label": "Harm limits",
+              "ref": "(71)",
+              "sub": "no harm methods, no romance under 21",
+              "status": "R"
+            },
+            {
+              "label": "Says it is an AI",
+              "ref": "(72)",
+              "sub": "never pretends to be human",
+              "status": "R"
+            },
+            {
+              "label": "Credentials never kept",
+              "ref": "(73)",
+              "sub": "stay in the transcript only",
+              "status": "A"
+            },
+            {
+              "label": "No voice clones",
+              "ref": "(75)",
+              "sub": "no real third-party voice",
+              "status": "A"
+            }
+          ]
+        },
+        {
+          "n": "10",
+          "title": "Evals and metrics",
+          "purpose": "How we know it is a good conversationalist",
+          "columns": 3,
+          "chips": [
+            {
+              "label": "Earned return",
+              "ref": "(76)",
+              "sub": "comes back by choice within 7 days",
+              "status": "R"
+            },
+            {
+              "label": "Quality turns",
+              "ref": "(77)",
+              "sub": "CPS that counts only real turns",
+              "status": "R"
+            },
+            {
+              "label": "Truth rate",
+              "ref": "(78)",
+              "sub": "0 unsourced world claims",
+              "status": "R"
+            },
+            {
+              "label": "Good endings",
+              "ref": "(79)",
+              "sub": "calls end with the want met",
+              "status": "R"
+            },
+            {
+              "label": "Feels heard",
+              "ref": "(80)",
+              "sub": "blind human ratings",
+              "status": "R"
+            },
+            {
+              "label": "Speed",
+              "ref": "(81)",
+              "sub": "lookup 10 ms; first audio 200 ms",
+              "status": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Platform",
+      "layers": [
+        {
+          "n": "11",
+          "title": "Machines and infrastructure",
+          "purpose": "Rust, Linux, CPU first",
+          "columns": 3,
+          "chips": [
+            {
+              "label": "Core map v3",
+              "ref": "(82)",
+              "sub": "bus+retrieval 0, ASR 1, reasoning 2-5, voices 6-7",
+              "status": "A"
+            },
+            {
+              "label": "galion-boot",
+              "ref": "(83)",
+              "sub": "hardware probe; CPU-only is local-only",
+              "status": "A"
+            },
+            {
+              "label": "Titan",
+              "ref": "(84)",
+              "sub": "Galion Research gateway and the site",
+              "status": "B"
+            },
+            {
+              "label": "Laptop G:\\galion",
+              "ref": "(85)",
+              "sub": "main storage and CPU runs",
+              "status": "A"
+            },
+            {
+              "label": "GitHub, MIT",
+              "ref": "(86)",
+              "sub": "Galion Labs copyright",
+              "status": "A"
+            },
+            {
+              "label": "Build order",
+              "ref": "(91)",
+              "sub": "R4's 9 phases, gate per phase",
+              "status": "R"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "sources": "Sources: the full HORBM plate and notes (1) to (91); turn order from R3 and R4 (galion-one-voice draft PRs #208 and #207) and the plate's \"one turn, end to end\" strip. Key parts only. Status as of 19 Nov 2026, Europe/Zagreb.",
+    "credit": "Galion Labs",
+    "license": "MIT License"
+  }
+}

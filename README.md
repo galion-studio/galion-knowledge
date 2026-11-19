@@ -24,6 +24,10 @@ npm run build
 
 Output is `v2/_site/`. `npm run dev` previews it on port 3016.
 
+### HORBM diagram
+
+The two-way layer diagram is [`v2/src/horbm/interactive/horbm.json`](v2/src/horbm/interactive/horbm.json). The page is `/horbm/interactive/`. How to update it, validate it, and regenerate the PNG is [v2/src/horbm/interactive/README.md](v2/src/horbm/interactive/README.md).
+
 The truth gate is a separate check. From the repository root, with Rust 1.85 or newer:
 
 ```bash

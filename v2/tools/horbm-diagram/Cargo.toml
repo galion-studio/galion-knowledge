@@ -1,0 +1,18 @@
+[package]
+name = "horbm-diagram"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Galion Labs"]
+description = "Validates the HORBM two-way diagram data."
+publish = false
+rust-version = "1.85"
+
+[[bin]]
+name = "horbm-diagram"
+path = "src/main.rs"
+
+[dependencies]
+jsonschema = { version = "0.61.2", default-features = false }
+regex = "1"
+serde_json = "1"

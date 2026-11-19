@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HORBM layered architecture: one turn, both ways</title>
+<meta name="description" content="HORBM layered architecture: one conversation turn going down through the layers and back up again. Zoom, pan, and share a layer.">
+<link rel="icon" href="/assets/favicon.svg">
+<link rel="preload" href="fonts/HORBMSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="diagram.css">
+<link rel="stylesheet" href="viewer.css">
+</head>
+<body>
+<div class="app">
+  <header class="toolbar">
+    <div class="brand">
+      <a href="../">HORBM</a>
+      <strong>Interactive layers</strong>
+    </div>
+    <p id="picked" class="picked">Select a layer to copy it or share it.</p>
+    <div class="tools" role="group" aria-label="Zoom">
+      <button type="button" class="tool" id="zoom-out" aria-label="Zoom out" title="Zoom out (−)">−</button>
+      <span id="zoomread" class="zoomread" aria-live="polite">100%</span>
+      <button type="button" class="tool" id="zoom-in" aria-label="Zoom in" title="Zoom in (+)">+</button>
+      <button type="button" class="tool" id="fit" title="Fit the diagram (F)">Fit</button>
+      <button type="button" class="tool" id="reset" title="Native size (0)">Reset</button>
+    </div>
+    <div class="tools" role="group" aria-label="Copy and download">
+      <button type="button" class="tool" id="copy-layer" disabled>Copy layer</button>
+      <button type="button" class="tool" id="copy-link" disabled>Copy link</button>
+      <button type="button" class="tool" id="copy-md">Copy Markdown</button>
+      <button type="button" class="tool" id="save-png" title="Download a PNG of the current view">Download PNG</button>
+      <button type="button" class="tool" id="save-svg" title="Download an SVG of the current view">Download SVG</button>
+    </div>
+  </header>
+  <div id="viewport" class="viewport" tabindex="-1">
+    <div id="world" class="world">
+      <div id="capture"></div>
+    </div>
+  </div>
+</div>
+<p id="status" class="sr" role="status"></p>
+<div id="toast" class="toast" role="status"></div>
+<noscript><p class="load-error">This diagram is drawn from horbm.json and needs JavaScript.</p></noscript>
+<script type="module" src="viewer.js"></script>
+</body>
+</html>

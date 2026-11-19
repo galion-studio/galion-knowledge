@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: HORBM layers, two-way flow
-description: HORBM layers, two-way flow: one conversation turn going down through the layers and back up again.
+description: "HORBM layers, two-way flow: one conversation turn going down through the layers and back up again."
 permalink: horbm/index.html
 ---
 <style>
@@ -14,6 +14,28 @@ permalink: horbm/index.html
     border: 1px solid var(--line);
     background: #0a0f1c;
   }
+  .diagram-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.1rem;
+    align-items: center;
+    margin: 0.25rem 0 0;
+  }
+  .diagram-open {
+    display: inline-flex;
+    align-items: center;
+    background: #2563eb;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 999px;
+    padding: 0.65rem 1.1rem;
+  }
+  .diagram-open:hover { background: #3b82f6; }
+  .diagram-actions a:not(.diagram-open) {
+    color: #93c5fd;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+  }
 </style>
 <article class="article diagram-page">
   <p class="crumbs">
@@ -25,7 +47,10 @@ permalink: horbm/index.html
   </p>
   <h1>HORBM layers, two-way flow</h1>
   <p class="lede">One conversation turn, going down through the layers and back up again. A conversationalist first, grounded in sourced truth.</p>
-  <p><a href="{{ "/horbm/horbm-layers-twoway.png" | url }}">Open the full-size diagram (PNG)</a></p>
+  <p class="diagram-actions">
+    <a class="diagram-open" href="{{ "/horbm/interactive/" | url }}">Open interactive diagram</a>
+    <a href="{{ "/horbm/horbm-layers-twoway.png" | url }}">Open the full-size diagram (PNG)</a>
+  </p>
   <img class="diagram" src="{{ "/horbm/horbm-layers-twoway.png" | url }}" alt="HORBM layered architecture: one turn, both ways. Speak or type on the left going down through the layers; the reply comes back up on the right." width="4120" height="5082">
   <p class="quiet">Heuristic Open Retrieval Brain Model. Diagram published 19 November 2026, Europe/Zagreb. Galion Labs. MIT licence.</p>
 </article>

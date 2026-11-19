@@ -23,6 +23,10 @@ jobs:
         working-directory: v2/memory
         run: cargo test --locked
 
+      - name: Validate the HORBM diagram
+        working-directory: v2/tools/horbm-diagram
+        run: cargo test --locked
+
       - name: Run the truth gate
         working-directory: v2/tools/truth-gate
         run: >
@@ -50,6 +54,9 @@ jobs:
           node-version: "22"
           cache: npm
           cache-dependency-path: v2/package-lock.json
+
+      - name: Test the HORBM diagram renderer
+        run: node --test v2/tools/horbm-diagram/render.test.mjs
 
       - name: Build the static site
         working-directory: v2
