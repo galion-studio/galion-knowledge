@@ -1,0 +1,36 @@
+{
+  "id": "world.core.math.cooley-tukey-fft-1965",
+  "title": "Cooley and Tukey, an algorithm for the machine calculation of complex Fourier series (1965)",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Cooley and Tukey's 1965 Mathematics of Computation paper derives a method for computing complex Fourier series in fewer operations than direct summation, done in place in the array holding the coefficients. The paper credits earlier work by Yates, Box et al. and Good.",
+  "body": "James W. Cooley and John W. Tukey published \"An algorithm for the machine calculation of complex Fourier series\" in Mathematics of Computation, volume 19, in 1965. The paper opens by crediting prior work: an efficient method for 2^m factorial experiments introduced by Yates, its generalization to 3^m given by Box et al., and Good's algorithms, one class of whose applications is the calculation of Fourier series. Cooley and Tukey state that their procedure requires a number of operations proportional to N log N rather than N squared, and that it is useful where the number of data points is, or can be chosen to be, a highly composite number. They write that the calculation proceeds \"without requiring more data storage than is required for the given array\" of Fourier coefficients. The text is marked \"Received August 17, 1964\", with research in part at Princeton University under Army Research Office (Durham) sponsorship.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "An algorithm for the machine calculation of complex Fourier series",
+      "url": "https://doi.org/10.1090/S0025-5718-1965-0178586-1",
+      "author": "James W. Cooley; John W. Tukey",
+      "date": "1965",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "An algorithm for the machine calculation of complex Fourier series (Mathematics of Computation 19, pp. 297-301; AMS PDF copy)",
+      "url": "https://web.archive.org/web/20210120064423id_/https://www.ams.org/journals/mcom/1965-19-090/S0025-5718-1965-0178586-1/S0025-5718-1965-0178586-1.pdf",
+      "author": "James W. Cooley; John W. Tukey",
+      "date": "1965",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "James W. Cooley and John W. Tukey, Mathematics of Computation (American Mathematical Society)",
+  "as_of_date": "1965",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:math",
+    "mathematics"
+  ]
+}

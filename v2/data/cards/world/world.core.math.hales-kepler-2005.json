@@ -1,0 +1,36 @@
+{
+  "id": "world.core.math.hales-kepler-2005",
+  "title": "Hales's 2005 proof of the Kepler conjecture",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Thomas C. Hales's paper in Annals of Mathematics in 2005 states that no packing of congruent balls in three-dimensional Euclidean space has density greater than the face-centered cubic packing, a density the paper gives as π/√18, approximately 0.74.",
+  "body": "Thomas C. Hales's paper \"A proof of the Kepler conjecture\", published in Annals of Mathematics 162 (2005), 1065–1185, states as Theorem 1.1: \"No packing of congruent balls in Euclidean three space has density greater than that of the face-centered cubic packing.\" The paper gives the density of that packing as π/√18, approximately 0.74. It describes its own scope plainly: \"The current paper presents an abridged form of the proof. The full proof appears in [Hal06a].\" Hales also records that Samuel P. Ferguson contributed a difficult part through his Michigan thesis, and that Chapter 5 of the paper is coauthored with Ferguson.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A proof of the Kepler conjecture",
+      "url": "https://doi.org/10.4007/annals.2005.162.1065",
+      "author": "Thomas Hales",
+      "date": "2005-11-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "A proof of the Kepler conjecture (Annals of Mathematics 162, 1065–1185, PDF)",
+      "url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v162-n3-p01.pdf",
+      "author": "Thomas C. Hales",
+      "date": "2005",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Thomas C. Hales, Annals of Mathematics",
+  "as_of_date": "2005",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:math",
+    "mathematics"
+  ]
+}

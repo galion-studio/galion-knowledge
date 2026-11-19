@@ -1,0 +1,36 @@
+{
+  "id": "world.core.math.aks-primes-in-p-2004",
+  "title": "PRIMES is in P: deterministic polynomial-time primality testing (Agrawal, Kayal, Saxena, 2004)",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Agrawal, Kayal and Saxena proved in 2004 that deciding whether a number is prime admits an unconditional deterministic polynomial-time algorithm.",
+  "body": "The claim: the set of prime numbers (PRIMES) can be decided by an unconditional deterministic algorithm running in polynomial time. Manindra Agrawal, Neeraj Kayal and Nitin Saxena of IIT Kanpur stated it in the abstract of the official preprint of their paper: \"We present an unconditional deterministic polynomial-time algorithm that determines whether an input number is prime or composite.\" They give a deterministic algorithm running in Õ(log^(15/2) n) time, based on a generalization of Fermat's Little Theorem to polynomial rings over finite fields, with a heuristic bound of Õ(log^6 n) under a conjecture on Sophie Germain prime density. The peer-reviewed version appeared in the Annals of Mathematics in 2004 under the title \"PRIMES is in P\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "PRIMES is in P",
+      "url": "https://doi.org/10.4007/annals.2004.160.781",
+      "author": "Manindra Agrawal, Neeraj Kayal, Nitin Saxena",
+      "date": "2004",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "PRIMES is in P (official IIT Kanpur text, primality_v6)",
+      "url": "https://www.cse.iitk.ac.in/users/manindra/algebra/primality_v6.pdf",
+      "author": "Manindra Agrawal, Neeraj Kayal, Nitin Saxena",
+      "date": "2004",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Manindra Agrawal, Neeraj Kayal and Nitin Saxena",
+  "as_of_date": "2004",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:math",
+    "mathematics"
+  ]
+}

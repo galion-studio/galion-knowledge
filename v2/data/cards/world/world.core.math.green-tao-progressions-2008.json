@@ -1,0 +1,36 @@
+{
+  "id": "world.core.math.green-tao-progressions-2008",
+  "title": "The primes contain arbitrarily long arithmetic progressions (Green and Tao, 2008)",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Ben Green and Terence Tao's paper in the Annals of Mathematics proves that there are arbitrarily long arithmetic progressions of primes. Its proof combines Szemerédi's theorem, a transference principle the authors call the main new ingredient, and a result of Goldston and Yıldırım.",
+  "body": "The paper \"The primes contain arbitrarily long arithmetic progressions\" by Ben Green and Terence Tao was published in the Annals of Mathematics, volume 167 (2008), pages 481-547. The abstract states: \"We prove that there are arbitrarily long arithmetic progressions of primes.\" The authors list three ingredients. The first is Szemerédi's theorem, which they say asserts that any subset of the integers of positive density contains progressions of arbitrary length. The second, described in the abstract as \"the main new ingredient of this paper\", is \"a certain transference principle\". The third is \"a recent result of Goldston and Yıldırım, which we reproduce here\". The abstract says that with this, \"one may place (a large fraction of) the primes inside a pseudorandom set of \"almost primes\" (or more precisely, a pseudorandom measure concentrated on almost primes) with positive relative density.\"",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The primes contain arbitrarily long arithmetic progressions",
+      "url": "https://doi.org/10.4007/annals.2008.167.481",
+      "author": "Benjamin Green, Terence Tao",
+      "date": "2008-03-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "The primes contain arbitrarily long arithmetic progressions (full text, Annals of Mathematics 167, 481-547)",
+      "url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v167-n2-p03.pdf",
+      "author": "Ben Green, Terence Tao",
+      "date": "2008",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Ben Green and Terence Tao",
+  "as_of_date": "2008",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:math",
+    "mathematics"
+  ]
+}

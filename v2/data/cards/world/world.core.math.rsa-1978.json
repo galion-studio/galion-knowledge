@@ -1,0 +1,36 @@
+{
+  "id": "world.core.math.rsa-1978",
+  "title": "Rivest, Shamir and Adleman, \"A method for obtaining digital signatures and public-key cryptosystems\" (1978)",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Rivest, Shamir and Adleman published a public-key encryption and signature method in Communications of the ACM in February 1978, in which publishing the encryption key does not reveal the decryption key. The paper describes the scheme and states that its security rests in part on the difficulty of factoring the published modulus.",
+  "body": "The paper presents a public-key encryption method in which the encryption key can be published without revealing the decryption key. R. L. Rivest, A. Shamir and L. Adleman published it in *Communications of the ACM* in February 1978. The abstract states: \"An encryption method is presented with the novel property that publicly revealing an encryption key does not thereby reveal the corresponding decryption key.\" The authors write that a message is encrypted by representing it as a number M, raising M to a publicly specified power e, and taking the remainder when divided by the publicly specified product n of two large secret primes p and q. Decryption uses a secret power d, where e · d ≡ 1 (mod (p − 1) · (q − 1)). They state that the security of the system \"rests in part on the difficulty of factoring the published divisor, n.\" The abstract adds that a message can be signed using a privately held decryption key.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A method for obtaining digital signatures and public-key cryptosystems",
+      "url": "https://doi.org/10.1145/359340.359342",
+      "author": "R. L. Rivest, A. Shamir, L. Adleman",
+      "date": "1978-02",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems (author copy, PDF)",
+      "url": "https://people.csail.mit.edu/rivest/Rsapaper.pdf",
+      "author": "R. L. Rivest, A. Shamir, L. Adleman",
+      "date": "1978",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "R. L. Rivest, A. Shamir and L. Adleman, Communications of the ACM (February 1978)",
+  "as_of_date": "1978-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:math",
+    "mathematics"
+  ]
+}

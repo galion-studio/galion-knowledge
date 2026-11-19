@@ -1,0 +1,43 @@
+{
+  "id": "world.core.math.dlmf-gamma-definition",
+  "title": "DLMF definition of the gamma function as Euler's integral (5.2.1)",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The NIST Digital Library of Mathematical Functions defines the gamma function in §5.2(i), under the heading \"Euler’s integral\", by the integral of e^(−t)·t^(z−1) from 0 to infinity for ℜz > 0, and extends it to other z by analytic continuation.",
+  "body": "In §5.2(i) of the NIST Digital Library of Mathematical Functions, under the heading \"Euler’s integral\", equation 5.2.1 defines the gamma function for ℜz > 0 as the integral from 0 to infinity of e^(−t) t^(z−1) dt, written Γ(z). The chapter is Chapter 5, Gamma Function, whose page lists its authors as R. A. Askey (University of Wisconsin, Madison) and R. Roy (Beloit College). The same section states that when ℜz ≤ 0 the function is defined by analytic continuation, that it is meromorphic with no zeros, and that it has simple poles of residue (−1)^n/n! at z = −n. The online edition carrying this text is version 1.2.8, release date 2026-09-15; the project also publishes the material in book form as the NIST Handbook of Mathematical Functions (Cambridge University Press).",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "DLMF: §5.2 Definitions ‣ Properties ‣ Chapter 5 Gamma Function",
+      "url": "https://dlmf.nist.gov/5.2",
+      "author": "R. A. Askey; R. Roy",
+      "date": "2026-09-15",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "DLMF: Chapter 5 Gamma Function",
+      "url": "https://dlmf.nist.gov/5",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-09-15",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "DLMF: About the Project",
+      "url": "https://dlmf.nist.gov/about/",
+      "author": "NIST",
+      "date": "2026-09-15",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions, Chapter 5 (R. A. Askey and R. Roy)",
+  "as_of_date": "2026-09-15",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:math",
+    "mathematics"
+  ]
+}
