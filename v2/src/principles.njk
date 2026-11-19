@@ -95,13 +95,40 @@ permalink: principles/index.html
     <p>On a card, the truth gate today counts independent sources by website, not by voice. Two pages on the same host count as one. Two different DOIs count as two. Two agencies of the same government, on different hosts, still count as two. Two news outlets also count as two, even when they repeat the same line or the same wire copy. News on its own cannot support a label above weak, but those separate hosts can still make a contested card look as if it has more than one source.</p>
     <p>There is a second, weaker check at the category level, not on the card itself. The gate warns if one website is at least 60% of a category's source URLs, or if one government or international body is at least 75%. That category check does already group some government hosts into one voice — for example United States <code>.gov</code> and <code>.mil</code> sites, or United Kingdom <code>.gov.uk</code> sites. It does not group the mainstream media as one voice, and it does not apply that government grouping when it decides whether a single card has two independent sources.</p>
     <p>So the rule above — a whole government as one source, and the mainstream media as one source — is decided, and it is stated on this page. It is not yet what the published truth gate enforces on a card. The gate was not changed in this revision. Closing that gap is planned work.</p>
-    <p>We have not yet built a separate check that follows the money or the incentives behind a source. What a reader can already see is who published it, when, which class it falls in, and whether one outlet or one official voice dominates a category. That is not the same as a funding or interest disclosure, and we do not pretend it is.</p>
+    <p>We have not yet built a separate check that follows the money or the incentives behind a source. The rule itself is stated below. It is decided, and it is not yet a check. What a reader can already see is who published it, when, which class it falls in, and whether one outlet or one official voice dominates a category. That is not the same as a funding or interest disclosure, and we do not pretend it is.</p>
 
     <h3>Judge it yourself</h3>
     <p>Each article lists the sources it actually has: the title, the link, the author, the date, and when it was accessed. If there is no source, the page says so, and the card is not ready to be repeated as fact. Contested views are shown on the same page. So is the record of changes. The point of this pack is not that you should take our word for it. It is that you can open what we opened, and decide.</p>
   </div>
 
   <div class="prose">
+    <h2>More rules we hold ourselves to</h2>
+    <p>These sit beside the rules already on this page. For each one we say what is already done, and what is decided but not yet built.</p>
+
+    <h3>Follow the money</h3>
+    <p>Each source should carry a note on who funds it, and what it gains if the claim is believed. That rule is decided. We have not yet required that note on the card, and the truth gate does not check for it. A reader can already see who published the source and which class it falls in. That is not a funding disclosure.</p>
+
+    <h3>Show the dissent</h3>
+    <p>When an official view has serious critics with real evidence, their strongest case goes on the card too — never a weak version of it. We already keep contested views side by side, from sources that were opened, and we do not invent a side or pick a winner. The further rule, that the critic's case must be their strongest one and not a weakened sketch, is decided. The gate does not yet check that an official view has its critics attached, or that the opposing case is their best one.</p>
+
+    <h3>Track record</h3>
+    <p>A source later proven wrong should lose weight over time, and a source proven right should gain it, and that history should be visible. This is decided. It is not built. Today a source is weighed by its class and its independence, not by a public record of how often it was later borne out.</p>
+
+    <h3>Raw data over conclusions</h3>
+    <p>Wherever we can, we link the raw dataset or the original document, so anyone can check. We already prefer original documents, official texts, and papers with their data, and we put the URL that was opened on the card. A dataset is a class of source that can support a strong label. We do not yet require a raw dataset on every card that has one, and the gate does not fail a card for citing a conclusion without the underlying data.</p>
+
+    <h3>Date how sure we are</h3>
+    <p>Every card should state how certain we are, and when that was last checked. Old claims should be rechecked, not trusted forever. What a card already carries is an evidence label — none, weak, moderate, or strong — the date the claim is stated as of, the source's own date, and the date we accessed that source. When the claim itself changes, the "as of" date becomes the review date. There is no separate "last checked" field, and there is no gate that forces an old card to be opened again after a set time. Regular rechecking is decided, and is not yet a running process.</p>
+
+    <h3>Name what's unknown</h3>
+    <p>Open questions and missing evidence should be written down. That is already how the pack works when we have no source: we say "I don't know," we leave empty fields empty, and a miss goes on the gap queue, which decides what should be written next. The queue item is not itself a fact. We have not added a required "open questions" field on every card.</p>
+
+    <h3>No hidden edits</h3>
+    <p>Every change should show who made it, when, and why, including our own mistakes. We already refuse silent edits: a change appends a history entry with the date, what changed, and a note that keeps the previous wording and the reason; the old text stays in the revision archive; a card file is not deleted. The article page shows that record of changes. The history schema does not yet require the name of the person who made the edit. That name is in git. Showing who on the card itself is decided, and is not yet a required field.</p>
+
+    <h3>Translations are labelled</h3>
+    <p>We should read a source in the original language where we can. When we use a translation, it should be marked as a translation, and the translator should be named. Some cards already name the translation they used, such as a named scripture rendering. The schema has no translation field, and the gate does not check that a translation is labelled or that the translator is named. That rule is decided. It is not yet enforced.</p>
+
     <h2>Memory</h2>
     <p>Beside the cards there is a memory of the conversation, kept in a separate pool so that something a person said is never returned as a world card. Short-term memory is a ring of the last 32 turns in RAM, with an append-only transcript that survives the ring. A person can pin a fact. In the background, the stack may extract a candidate fact — a name, a preference, a plan — with an importance score. A joke, or a line that looks like a credential, stays in the transcript only. A session can be kept as a short summary of what the call meant, together with the transcript; that switch is off unless it is turned on. Contradictions become revisions: the new row is current, and the old text is archived with its original source, date, and speaker. Ranking uses relevance, recency, and importance, and a pin is boosted. Extraction, summaries, and revision writes run in the background, not on the lookup path. The summaries and the candidate extraction are local, deterministic rules. They are not a learned model, and this crate does not call one.</p>
 
@@ -119,6 +146,11 @@ permalink: principles/index.html
         <span>2026-11-19</span>
         <span> — this page</span>
         <span class="source-note">Added the rule that a whole government counts as one source, and that the mainstream media counts as one source, when we ask whether a claim is independently confirmed. The earlier page, first published with master 40f7c16b on 19 November 2026, described independence as two sources and as the existing host and category warnings. It did not state this grouping. The previous wording remains in git. The truth gate was not changed in this revision: on a card it still counts independence per host, or per DOI, so two agencies or two news outlets can still count as two. This note is the record. The page was not silently rewritten.</span>
+      </li>
+      <li>
+        <span>2026-11-19</span>
+        <span> — this page</span>
+        <span class="source-note">Added eight further rules: follow the money; show the dissent at its strongest; a visible track record for sources; raw data over conclusions; dating how sure we are and rechecking old claims; naming what is unknown; no hidden edits, including who made a change; and labelling translations with the translator named. For each, the page states what is already done and what is decided but not yet built. The earlier text of this page remains in git. The truth gate and the card schema were not changed in this revision.</span>
       </li>
     </ul>
   </section>
