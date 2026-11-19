@@ -151,7 +151,8 @@ def usage_brief(usage):
     if not isinstance(usage, dict):
         return {}
     out = {}
-    for key in ("cost", "cost_usd", "total_cost", "prompt_tokens", "completion_tokens", "total_tokens"):
+    for key in ("cost", "cost_usd", "total_cost", "prompt_tokens", "completion_tokens", "total_tokens",
+                "reason", "gateway_error"):
         if usage.get(key) is not None:
             out[key] = usage[key]
     return out
@@ -472,6 +473,62 @@ def _names_max_tokens(text):
     blob = (text or "").lower()
     return "max_tokens" in blob or "max_completion_tokens" in blob
 
+# A 200 stream can still carry no model output. hermes-rs ends a refused turn
+# with finish_reason "error" and an "error" object in the last chunk, for
+# example when its daily provider call cap (HERMES_RS_DAILY_CALL_CAP) is used
+# up. Such a reply is a gateway/upstream error, not a model reply.
+GATEWAY_ERROR = "gw_error"   # 200 stream whose final chunk reports an error, no text
+EMPTY_200 = "empty200"       # 200 stream with no text, no tokens and no error
+GATEWAY_ERROR_CODES = {GATEWAY_ERROR, EMPTY_200}
+_GATEWAY_LIMITS = (
+    ("daily provider call cap", "daily_calls"),
+    ("daily spend cap", "daily_usd"),
+    ("session spend cap", "session"),
+)
+
+def gateway_limit_reason(message):
+    """'daily_calls', 'daily_usd' or 'session' when the gateway names one of its caps."""
+    blob = (message or "").lower()
+    for needle, reason in _GATEWAY_LIMITS:
+        if needle in blob:
+            return reason
+    return None
+
+def stream_error(event):
+    """Error text carried by one stream chunk, or None."""
+    err = event.get("error")
+    if isinstance(err, dict):
+        msg = err.get("message") or err.get("type")
+        if msg:
+            return str(msg)
+    elif isinstance(err, str) and err:
+        return err
+    extra = event.get("hermes")
+    if isinstance(extra, dict) and extra.get("failed") and extra.get("error"):
+        return str(extra["error"])
+    return None
+
+def _tokens(usage):
+    total = 0
+    for key in ("prompt_tokens", "completion_tokens", "total_tokens"):
+        try:
+            total += int((usage or {}).get(key) or 0)
+        except (TypeError, ValueError):
+            pass
+    return total
+
+def classify_stream(text, usage, error, finish):
+    """Status for a finished 200 stream: '200', GATEWAY_ERROR or EMPTY_200."""
+    if (text or "").strip():
+        return "200", text, usage
+    if error or finish == "error":
+        msg = error or "finish_reason error with no message"
+        reason = gateway_limit_reason(msg) or "gateway_error"
+        return GATEWAY_ERROR, msg, dict(usage or {}, gateway_error=msg[:300], reason=reason)
+    if _tokens(usage) == 0:
+        return EMPTY_200, "", dict(usage or {}, reason="empty_reply")
+    return "200", text, usage
+
 CONNECT_TIMEOUT = 15   # seconds to connect and to get response headers
 STREAM_TICK = 5.0      # seconds between cap/timeout checks while the stream is idle
 
@@ -519,6 +576,7 @@ def _http_stream(key, payload, sid, timeout, cap):
 
         threading.Thread(target=pump, name="gapfill-stream", daemon=True).start()
         parts, usage, last = [], {}, 0.0
+        gw_err, finish = None, None
         while True:
             try:
                 line = lines.get(timeout=STREAM_TICK)
@@ -549,7 +607,11 @@ def _http_stream(key, payload, sid, timeout, cap):
                 parts.append(piece)
             if isinstance(event.get("usage"), dict):
                 usage = event["usage"]
-        return "200", "".join(parts), usage
+            gw_err = stream_error(event) or gw_err
+            ch = (event.get("choices") or [{}])[0]
+            if isinstance(ch, dict) and ch.get("finish_reason"):
+                finish = ch["finish_reason"]
+        return classify_stream("".join(parts), usage, gw_err, finish)
     except Exception as e:
         return "err:" + type(e).__name__, None, {}
     finally:
@@ -913,6 +975,8 @@ def obtain_card(ask_fn, key, model, prompt, sid, timeout, cap, cid, max_tokens, 
     code, txt = once(what, prompt, max_tokens)
     if code != "200":
         why = "cost cap" if code == "cap" else f"gateway {code}"
+        if code in GATEWAY_ERROR_CODES:
+            why = f"gateway {code}: {txt or 'empty 200 reply, no model output'}"
         return None, why, calls, txt
     card, err = parse_card_reply(txt)
     if card is not None:
@@ -1032,7 +1096,12 @@ def plan_topics(a, key, budget, area, desc, prefix, category, existing_titles, n
 
 def _fail_result(err, calls):
     last = calls[-1]["code"] if calls else None
+    if last in GATEWAY_ERROR_CODES:
+        return "gateway_error"
     if last == "cap":
+        reason = (calls[-1].get("usage") or {}).get("reason")
+        if reason in ("daily_calls", "daily_usd"):
+            return "gateway_limit"
         return "cost_cap"
     if err and str(err).startswith("card schema:"):
         return "invalid_card"
@@ -1094,7 +1163,7 @@ def run_topic(args, key, budget, t, existing, out_dir, log):
            "secs": round(time.time() - t0, 1), "calls": calls,
            "usage": calls[-1]["usage"] if calls else {}}
     if card is None:
-        rec.update(result=_fail_result(err, card_calls), parse_error=err, raw=(raw or "")[:500],
+        rec.update(result=_fail_result(err, card_calls), parse_error=err, why=err, raw=(raw or "")[:500],
                    usd_total_incl_review=round(spent["usd"], 6))
         log(rec); return "fail"
     if "skip" in card:
