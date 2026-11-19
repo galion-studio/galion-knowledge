@@ -19,9 +19,9 @@
           </svg>
         </button>
         <div class="nav-drop-menu" id="nav-drop-horbm">
-          <a href="{{ "/section/horbm/" | url }}">HORBM</a>
-          <a href="{{ "/horbm/" | url }}">Layers diagram</a>
-          <a href="{{ "/horbm/interactive/" | url }}">Interactive diagram</a>
+          <a href="{{ "/section/horbm/" | url }}"{% if page.url == "/section/horbm/" %} aria-current="page"{% endif %}>HORBM overview</a>
+          <a href="{{ "/horbm/" | url }}"{% if page.url == "/horbm/" %} aria-current="page"{% endif %}>Layers diagram</a>
+          <a href="{{ "/horbm/interactive/" | url }}"{% if page.url == "/horbm/interactive/" %} aria-current="page"{% endif %}>Interactive diagram</a>
         </div>
       </div>
       <a href="{{ "/section/diary/" | url }}">Diary</a>

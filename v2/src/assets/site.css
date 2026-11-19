@@ -52,7 +52,8 @@ img, svg { display: block; }
 
 .nav {
   position: relative;
-  z-index: 20;
+  /* Above the sticky .subhead (20) so the HORBM menu is never painted over; below the mobile panel (40/50). */
+  z-index: 30;
   padding: 1rem 1.5rem;
 }
 
@@ -117,14 +118,19 @@ img, svg { display: block; }
 .nav-drop.is-shut .nav-drop-toggle { color: inherit; }
 .nav-drop-toggle:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; border-radius: 0.25rem; }
 .nav-drop-menu {
-  display: none; position: absolute; top: calc(100% + 0.35rem); left: 0; min-width: 12rem;
-  margin: 0; padding: 0.35rem; background: var(--card); color: var(--muted);
-  border: 1px solid var(--line); border-radius: 0.75rem; box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5); z-index: 30;
+  display: none; position: absolute; top: calc(100% + 0.35rem); left: 0; min-width: 13rem;
+  margin: 0; padding: 0.35rem; background: #0f1626; color: #e6edf7;
+  border: 1px solid #263244; border-radius: 0.75rem; box-shadow: 0 12px 30px rgba(0, 0, 0, 0.55); z-index: 30;
 }
 .nav-drop-menu::before { content: ""; position: absolute; left: 0; right: 0; top: -0.45rem; height: 0.45rem; }
-.nav-drop-menu a { display: block; padding: 0.5rem 0.75rem; border-radius: 0.5rem; white-space: nowrap; color: var(--muted); }
-.nav-drop-menu a:first-child { color: white; font-weight: 500; }
-.nav-drop-menu a:hover, .nav-drop-menu a:focus-visible { background: #1f2937; color: white; }
+.nav-links .nav-drop-menu a {
+  display: block; margin: 0; padding: 0.5rem 0.75rem; border-radius: 0.5rem; white-space: nowrap;
+  color: #e6edf7; background: transparent; font-weight: 400; opacity: 1;
+}
+.nav-links .nav-drop-menu a + a { margin-top: 0.125rem; }
+.nav-links .nav-drop-menu a:hover, .nav-links .nav-drop-menu a:focus-visible { background: #1f2a3c; color: #ffffff; outline: none; }
+.nav-links .nav-drop-menu a[aria-current="page"] { background: rgba(59, 130, 246, 0.18); color: #ffffff; font-weight: 500; box-shadow: inset 2px 0 0 #3b82f6; }
+.nav-links .nav-drop-menu a[aria-current="page"]:hover { background: rgba(59, 130, 246, 0.28); }
 .nav-drop:hover > .nav-drop-menu,
 .nav-drop:focus-within > .nav-drop-menu,
 .nav-drop.is-open > .nav-drop-menu { display: block; }
