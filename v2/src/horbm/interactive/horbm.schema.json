@@ -1,0 +1,308 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://knowledge.galion.app/horbm/interactive/horbm.schema.json",
+  "title": "HORBM two-way layer diagram",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "updated",
+    "updatedLabel",
+    "kicker",
+    "title",
+    "subtitle",
+    "lead",
+    "statuses",
+    "kinds",
+    "legend",
+    "input",
+    "guide",
+    "output",
+    "after",
+    "down",
+    "up",
+    "bands",
+    "footer"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "description": "Semver bumped on every diagram change."
+    },
+    "updated": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(Z|[+-][0-9]{2}:[0-9]{2})$",
+      "description": "ISO-8601 timestamp with a timezone."
+    },
+    "updatedLabel": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Date shown in the footer, for example 19 Nov 2026, Europe/Zagreb."
+    },
+    "kicker": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "subtitle": { "type": "string", "minLength": 1 },
+    "lead": { "type": "string", "minLength": 1 },
+    "statuses": { "$ref": "#/$defs/statuses" },
+    "kinds": { "$ref": "#/$defs/kinds" },
+    "legend": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/legendItem" }
+    },
+    "input": { "$ref": "#/$defs/sideHead" },
+    "output": { "$ref": "#/$defs/sideHead" },
+    "guide": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "text"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "text": { "type": "string", "minLength": 1 }
+      }
+    },
+    "after": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kicker", "detail", "items"],
+      "description": "Off the hot path, after the reply is spoken. Each item connects to a layer.",
+      "properties": {
+        "kicker": { "type": "string", "minLength": 1 },
+        "detail": { "type": "string", "minLength": 1 },
+        "items": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/afterItem" }
+        }
+      }
+    },
+    "down": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Left path, top to bottom. Array order is the step number. Each step.layer connects the step to a center layer.",
+      "items": { "$ref": "#/$defs/step" }
+    },
+    "up": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Right path in time order, from the machines upward. The page draws the list from the bottom. The first object is step 1.",
+      "items": { "$ref": "#/$defs/step" }
+    },
+    "bands": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Center layers, top to bottom, grouped under band titles.",
+      "items": { "$ref": "#/$defs/band" }
+    },
+    "footer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sources", "credit", "license"],
+      "properties": {
+        "sources": { "type": "string", "minLength": 1 },
+        "credit": { "type": "string", "minLength": 1 },
+        "license": { "type": "string", "minLength": 1 }
+      }
+    }
+  },
+  "$defs": {
+    "statuses": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["B", "A", "R", "C"],
+      "properties": {
+        "B": { "$ref": "#/$defs/labeled" },
+        "A": { "$ref": "#/$defs/labeled" },
+        "R": { "$ref": "#/$defs/labeled" },
+        "C": { "$ref": "#/$defs/labeled" }
+      }
+    },
+    "labeled": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 }
+      }
+    },
+    "kinds": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["main", "rec", "cond", "skip"],
+      "properties": {
+        "main": { "$ref": "#/$defs/kindLabel" },
+        "rec": { "$ref": "#/$defs/kindLabel" },
+        "cond": { "$ref": "#/$defs/kindLabel" },
+        "skip": { "$ref": "#/$defs/kindLabel" }
+      }
+    },
+    "kindLabel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label"],
+      "properties": {
+        "label": {
+          "type": "string",
+          "description": "Badge on a whole step. Empty for a normal main step."
+        }
+      }
+    },
+    "legendItem": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["note"],
+          "properties": {
+            "note": { "type": "string", "minLength": 1 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["swatch", "label"],
+          "properties": {
+            "swatch": { "enum": ["b", "a", "r", "c", "s"] },
+            "label": { "type": "string", "minLength": 1 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["swatch", "down", "up", "label"],
+          "properties": {
+            "swatch": { "const": "pills" },
+            "down": { "type": "string", "minLength": 1 },
+            "up": { "type": "string", "minLength": 1 },
+            "label": { "type": "string", "minLength": 1 }
+          }
+        }
+      ]
+    },
+    "sideHead": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kicker", "title", "detail"],
+      "properties": {
+        "kicker": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "detail": { "type": "string", "minLength": 1 }
+      }
+    },
+    "part": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "refs", "status"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "refs": { "type": "string", "minLength": 1 },
+        "status": { "enum": ["B", "A", "R", "C"] }
+      }
+    },
+    "afterItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["layer", "text", "refs", "status"],
+      "properties": {
+        "layer": { "type": "string", "pattern": "^[0-9]+$" },
+        "text": { "type": "string", "minLength": 1 },
+        "refs": { "type": "string", "minLength": 1 },
+        "status": { "enum": ["B", "A", "R", "C"] }
+      }
+    },
+    "step": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["layer", "title", "kind"],
+      "properties": {
+        "layer": {
+          "type": "string",
+          "pattern": "^[0-9]+$",
+          "description": "Center layer this step connects to."
+        },
+        "title": { "type": "string", "minLength": 1 },
+        "kind": { "enum": ["main", "rec", "cond", "skip"] },
+        "tagline": { "type": "string", "minLength": 1 },
+        "note": { "type": "string", "minLength": 1 },
+        "parts": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/part" }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "kind": { "const": "skip" } },
+            "required": ["kind"]
+          },
+          "then": {
+            "required": ["note"],
+            "properties": { "parts": { "maxItems": 0 } }
+          }
+        },
+        {
+          "if": {
+            "properties": { "kind": { "enum": ["main", "rec", "cond"] } },
+            "required": ["kind"]
+          },
+          "then": {
+            "required": ["parts"],
+            "properties": { "parts": { "minItems": 1 } }
+          }
+        }
+      ]
+    },
+    "chip": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "ref", "sub", "status"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "ref": { "type": "string", "minLength": 1 },
+        "sub": { "type": "string", "minLength": 1 },
+        "status": { "enum": ["B", "A", "R", "C"] }
+      }
+    },
+    "layer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["n", "title", "purpose", "columns", "chips"],
+      "properties": {
+        "n": { "type": "string", "pattern": "^[0-9]+$" },
+        "title": { "type": "string", "minLength": 1 },
+        "purpose": { "type": "string", "minLength": 1 },
+        "columns": { "type": "integer", "minimum": 1, "maximum": 6 },
+        "guide": { "type": "boolean" },
+        "guideLabel": { "type": "string", "minLength": 1 },
+        "chips": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/chip" }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "guide": { "const": true } },
+            "required": ["guide"]
+          },
+          "then": { "required": ["guideLabel"] }
+        }
+      ]
+    },
+    "band": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "layers"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "layers": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/layer" }
+        }
+      }
+    }
+  }
+}

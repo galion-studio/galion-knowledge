@@ -8,7 +8,12 @@ const markdown = new MarkdownIt({
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
-  eleventyConfig.addPassthroughCopy({ "src/horbm": "horbm" });
+  // Static diagram files. HTML here is not a Nunjucks template.
+  eleventyConfig.ignores.add("src/horbm/**");
+  eleventyConfig.addPassthroughCopy({
+    "src/horbm/horbm-layers-twoway.png": "horbm/horbm-layers-twoway.png",
+  });
+  eleventyConfig.addPassthroughCopy({ "src/horbm/interactive": "horbm/interactive" });
   eleventyConfig.addWatchTarget("data/cards");
   eleventyConfig.addWatchTarget("shards");
   eleventyConfig.addWatchTarget("data/catalog.json");
