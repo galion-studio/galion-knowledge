@@ -18,6 +18,10 @@
       <strong>Interactive layers</strong>
     </div>
     <p id="picked" class="picked">Select a layer to copy it or share it.</p>
+    <label class="find">
+      <span class="sr">Find a layer</span>
+      <input id="find" type="search" placeholder="Find a layer" autocomplete="off" enterkeyhint="search">
+    </label>
     <div class="tools" role="group" aria-label="Zoom">
       <button type="button" class="tool" id="zoom-out" aria-label="Zoom out" title="Zoom out (−)">−</button>
       <span id="zoomread" class="zoomread" aria-live="polite">100%</span>
@@ -26,6 +30,7 @@
       <button type="button" class="tool" id="reset" title="Native size (0)">Reset</button>
     </div>
     <div class="tools" role="group" aria-label="Copy and download">
+      <button type="button" class="tool" id="layers-toggle" aria-expanded="true" aria-controls="inspector">Layers</button>
       <button type="button" class="tool" id="copy-layer" disabled>Copy layer</button>
       <button type="button" class="tool" id="copy-link" disabled>Copy link</button>
       <button type="button" class="tool" id="copy-md">Copy Markdown</button>
@@ -33,11 +38,29 @@
       <button type="button" class="tool" id="save-svg" title="Download an SVG of the current view">Download SVG</button>
     </div>
   </header>
-  <div id="viewport" class="viewport" tabindex="-1">
-    <div id="world" class="world">
-      <div id="capture"></div>
+  <div class="stage">
+    <div id="viewport" class="viewport" tabindex="-1">
+      <div id="world" class="world">
+        <div id="capture"></div>
+      </div>
+      <div id="minimap" class="minimap" title="Map of the diagram">
+        <canvas id="minimap-canvas" width="112" height="148"></canvas>
+      </div>
     </div>
+    <aside id="inspector" class="inspector" aria-label="Layers">
+      <div class="inspector-bar">
+        <strong id="inspector-heading">Layers</strong>
+        <button type="button" class="tool" id="inspector-close">Close</button>
+      </div>
+      <div id="inspector-body"></div>
+    </aside>
   </div>
+  <footer class="pagefoot">
+    <span id="overall">HORBM …% complete</span>
+    <span>Galion Labs · MIT License</span>
+    <a id="sha-link" target="_blank" rel="noopener noreferrer">version</a>
+    <a id="history-link" target="_blank" rel="noopener noreferrer">History</a>
+  </footer>
 </div>
 <p id="status" class="sr" role="status"></p>
 <div id="toast" class="toast" role="status"></div>

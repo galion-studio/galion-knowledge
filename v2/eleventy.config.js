@@ -1,7 +1,7 @@
 const crypto = require("crypto");
+const { execFileSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
-const { execFileSync } = require("child_process");
 const MarkdownIt = require("markdown-it");
 
 const markdown = new MarkdownIt({
@@ -46,6 +46,8 @@ module.exports = function (eleventyConfig) {
     "src/horbm/horbm-layers-twoway.png": "horbm/horbm-layers-twoway.png",
   });
   eleventyConfig.addPassthroughCopy({ "src/horbm/interactive": "horbm/interactive" });
+  eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
+  eleventyConfig.addPassthroughCopy({ "src/site-headers": "_headers" });
   eleventyConfig.addWatchTarget("data/cards");
   eleventyConfig.addWatchTarget("shards");
   eleventyConfig.addWatchTarget("data/catalog.json");
@@ -129,6 +131,33 @@ module.exports = function (eleventyConfig) {
         !card._placeholder && (card.sources || []).some((source) => source.url)
     ).length
   );
+  eleventyConfig.on("eleventy.after", ({ dir }) => {
+    const repoRoot = path.resolve(__dirname, "..");
+    const file = "v2/src/horbm/interactive/horbm.json";
+    const git = (args) => {
+      try {
+        return execFileSync("git", args, { cwd: repoRoot, encoding: "utf8" }).trim();
+      } catch {
+        return "";
+      }
+    };
+    const sha = git(["log", "-1", "--format=%H", "--", file]) || git(["rev-parse", "HEAD"]);
+    const output = path.isAbsolute(dir.output) ? dir.output : path.join(process.cwd(), dir.output);
+    const dest = path.join(output, "horbm/interactive/build.json");
+    fs.mkdirSync(path.dirname(dest), { recursive: true });
+    fs.writeFileSync(dest, `${JSON.stringify({
+      sha,
+      short: sha.slice(0, 7),
+      committed: git(["log", "-1", "--format=%cI", "--", file]),
+      repo: "galion-studio/galion-knowledge",
+      file,
+    })}\n`);
+    execFileSync(process.execPath, [
+      path.join(repoRoot, "v2/tools/horbm-diagram/write-development.mjs"),
+      path.dirname(dest),
+    ], { cwd: repoRoot, stdio: "inherit", timeout: 20000 });
+  });
+
   eleventyConfig.addFilter("searchIndex", (cards) =>
     (cards || [])
       .filter((card) => !card._placeholder)

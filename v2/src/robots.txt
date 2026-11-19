@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Disallow: /horbm/interactive/admin/

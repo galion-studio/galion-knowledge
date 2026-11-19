@@ -4,6 +4,8 @@ import {
   layerPlainText,
   renderInner,
 } from "./diagram.js";
+import { commitUrl, historyUrl, shortSha } from "./github.js";
+import { overallPercent } from "./progress.js";
 
 const MIN_SCALE = 0.05;
 const MAX_SCALE = 4;
@@ -17,6 +19,7 @@ const toastEl = document.getElementById("toast");
 
 const state = { x: 0, y: 0, scale: 1 };
 let data = null;
+let query = "";
 let pinned = null;
 let hover = null;
 let userMoved = false;
@@ -33,6 +36,7 @@ function clamp(value, min, max) {
 function apply() {
   world.style.transform = `translate(${state.x}px, ${state.y}px) scale(${state.scale})`;
   zoomread.textContent = `${Math.round(state.scale * 100)}%`;
+  scheduleMinimap();
 }
 
 function zoomAt(clientX, clientY, nextScale) {
@@ -111,6 +115,7 @@ function applyHot(id) {
   for (const node of capture.querySelectorAll(selector)) node.classList.add("is-hot");
   const row = document.getElementById(`layer-${id}`);
   if (row) row.setAttribute("aria-pressed", "true");
+  scheduleMinimap();
 }
 
 function updatePicked() {
@@ -121,6 +126,8 @@ function updatePicked() {
     picked.textContent = "Select a layer to copy it or share it.";
     copyLayer.disabled = true;
     copyLink.disabled = true;
+    renderInspector();
+    applyFind();
     return;
   }
   const layer = layerRecord(id);
@@ -129,6 +136,8 @@ function updatePicked() {
     : `Layer ${id}`;
   copyLayer.disabled = false;
   copyLink.disabled = false;
+  renderInspector();
+  applyFind();
 }
 
 function showHot() {
@@ -314,6 +323,9 @@ function onKey(event) {
     fit();
   } else if (event.key === "Escape") {
     clearPinned();
+  } else if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+    event.preventDefault();
+    moveLayer(event.key === "ArrowDown" ? 1 : -1);
   } else if ((event.key === "Enter" || event.key === " ") && layerIdFrom(event.target)) {
     event.preventDefault();
     setPinned(layerIdFrom(event.target), { pan: false, replaceHash: true });
@@ -446,6 +458,32 @@ document.getElementById("save-png").addEventListener("click", () => {
 document.getElementById("save-svg").addEventListener("click", () => {
   downloadSvg();
 });
+document.getElementById("layers-toggle").addEventListener("click", () => toggleInspector());
+document.getElementById("inspector-close").addEventListener("click", () => toggleInspector(false));
+document.getElementById("find").addEventListener("input", (event) => {
+  query = event.target.value;
+  updatePicked();
+});
+document.getElementById("find").addEventListener("keydown", (event) => {
+  if (event.key !== "Enter") return;
+  const hit = layersFlat().find((item) => matchesQuery(item.layer));
+  if (!hit) return;
+  event.preventDefault();
+  setPinned(hit.layer.n, { pan: true, replaceHash: true });
+});
+document.getElementById("minimap").addEventListener("pointerdown", (event) => {
+  const canvas = document.getElementById("minimap-canvas");
+  const rect = canvas.getBoundingClientRect();
+  const worldW = world.offsetWidth || 1;
+  const worldH = world.offsetHeight || 1;
+  const scale = Math.min(canvas.width / worldW, canvas.height / worldH);
+  const wx = ((event.clientX - rect.left) * (canvas.width / rect.width)) / scale;
+  const wy = ((event.clientY - rect.top) * (canvas.height / rect.height)) / scale;
+  state.x = viewport.clientWidth / 2 - wx * state.scale;
+  state.y = viewport.clientHeight / 2 - wy * state.scale;
+  userMoved = true;
+  apply();
+});
 window.addEventListener("keydown", onKey);
 window.addEventListener("resize", () => {
   if (!userMoved) fit();
@@ -456,6 +494,179 @@ window.addEventListener("hashchange", () => {
   else if (!id) clearPinned();
 });
 
+function layersFlat() {
+  const list = [];
+  for (const band of data.bands) {
+    for (const layer of band.layers) list.push({ band: band.title, layer });
+  }
+  return list.sort((a, b) => Number(a.layer.n) - Number(b.layer.n));
+}
+
+function matchesQuery(layer) {
+  const needle = query.trim().toLowerCase();
+  if (needle.length < 2) return true;
+  const hay = [
+    layer.n,
+    layer.title,
+    layer.purpose,
+    ...(layer.chips || []).map((chip) => `${chip.label} ${chip.sub}`),
+  ].join(" ").toLowerCase();
+  return hay.includes(needle);
+}
+
+function statusSummary(layer) {
+  const labels = [];
+  for (const chip of layer.chips || []) {
+    const label = data.statuses[chip.status] && data.statuses[chip.status].label;
+    if (label && !labels.includes(label)) labels.push(label);
+  }
+  return labels.join(" · ");
+}
+
+function rowHtml(item) {
+  return `<div class="layer-item"><button type="button" data-pick="${escapeHtml(item.layer.n)}"><b>${escapeHtml(item.layer.n)}. ${escapeHtml(item.layer.title)}</b><span class="meta">${escapeHtml(item.band)}</span></button></div>`;
+}
+
+function detailHtml(layer) {
+  const chips = (layer.chips || []).map((chip) => {
+    const label = data.statuses[chip.status] ? data.statuses[chip.status].label : chip.status;
+    return `<li><b>${escapeHtml(chip.label)}</b> ${escapeHtml(chip.ref)}<span class="meta">${escapeHtml(label)}</span><p>${escapeHtml(chip.sub)}</p></li>`;
+  }).join("");
+  return `<div class="layer-detail"><h2>${escapeHtml(layer.n)}. ${escapeHtml(layer.title)}</h2><p>${escapeHtml(layer.purpose)}</p><p class="meta">${escapeHtml(statusSummary(layer))}</p><ul class="chip-list">${chips}</ul></div>`;
+}
+
+function renderInspector() {
+  if (!data) return;
+  const body = document.getElementById("inspector-body");
+  const heading = document.getElementById("inspector-heading");
+  const parts = [];
+  const current = pinned ? layerRecord(pinned) : null;
+  heading.textContent = current ? `Layer ${current.n}` : "Layers";
+  if (current) parts.push(detailHtml(current));
+  const items = layersFlat().filter((item) => matchesQuery(item.layer) && item.layer.n !== pinned);
+  if (query.trim().length >= 2 && !items.length && !current) parts.push("<p>No layer matches.</p>");
+  for (const item of items) parts.push(rowHtml(item));
+  body.innerHTML = parts.join("");
+  for (const button of body.querySelectorAll("[data-pick]")) {
+    button.addEventListener("click", () => {
+      setPinned(button.dataset.pick, { pan: true, replaceHash: true });
+    });
+  }
+}
+
+function applyFind() {
+  if (!data) return;
+  const needle = query.trim().toLowerCase();
+  for (const row of capture.querySelectorAll(".lrow")) {
+    const layer = layerRecord(row.dataset.layer);
+    row.classList.toggle("is-find", Boolean(layer) && needle.length >= 2 && matchesQuery(layer));
+  }
+}
+
+function showCommit(sha) {
+  const link = document.getElementById("sha-link");
+  const short = shortSha(sha);
+  if (!short) return;
+  link.href = commitUrl(sha);
+  link.textContent = short;
+}
+
+function showOverall() {
+  const node = document.getElementById("overall");
+  if (!node || !data) return;
+  node.textContent = `HORBM ${overallPercent(data)}% complete`;
+}
+
+async function loadCommit() {
+  const history = document.getElementById("history-link");
+  history.href = historyUrl();
+  try {
+    const response = await fetch(new URL("build.json", import.meta.url), { cache: "no-cache" });
+    if (response.ok) {
+      const baked = await response.json();
+      if (baked && baked.sha) showCommit(baked.sha);
+    }
+  } catch {
+    /* the public commit lookup below still runs */
+  }
+  try {
+    const response = await fetch(
+      "https://api.github.com/repos/galion-studio/galion-knowledge/commits?path=v2/src/horbm/interactive/horbm.json&sha=master&per_page=1",
+      { headers: { Accept: "application/vnd.github+json" } },
+    );
+    if (!response.ok) return;
+    const commits = await response.json();
+    const sha = commits && commits[0] && commits[0].sha;
+    if (sha) showCommit(sha);
+  } catch {
+    /* the baked commit stays */
+  }
+}
+
+function moveLayer(step) {
+  const ids = layersFlat().map((item) => item.layer.n);
+  if (!ids.length) return;
+  const at = ids.indexOf(pinned);
+  const next = ids[(Math.max(0, at) + step + ids.length) % ids.length];
+  setPinned(next, { pan: true, replaceHash: true });
+}
+
+function inspectorIsOpen() {
+  const node = document.getElementById("inspector");
+  const mobile = window.matchMedia("(max-width: 720px)").matches;
+  return mobile ? node.classList.contains("is-open") : !node.classList.contains("is-closed");
+}
+
+function toggleInspector(force) {
+  const node = document.getElementById("inspector");
+  const mobile = window.matchMedia("(max-width: 720px)").matches;
+  const open = force == null ? !inspectorIsOpen() : force;
+  node.classList.toggle("is-open", mobile && open);
+  node.classList.toggle("is-closed", !mobile && !open);
+  document.getElementById("layers-toggle").setAttribute("aria-expanded", open ? "true" : "false");
+  if (!userMoved) fit();
+}
+
+let mapFrame = 0;
+function scheduleMinimap() {
+  if (mapFrame) return;
+  mapFrame = requestAnimationFrame(() => {
+    mapFrame = 0;
+    drawMinimap();
+  });
+}
+
+function drawMinimap() {
+  const canvas = document.getElementById("minimap-canvas");
+  if (!canvas || !capture.querySelector(".lrow")) return;
+  const ctx = canvas.getContext("2d");
+  const worldW = world.offsetWidth || 1;
+  const worldH = world.offsetHeight || 1;
+  const scale = Math.min(canvas.width / worldW, canvas.height / worldH);
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = "#01080f";
+  ctx.fillRect(0, 0, worldW * scale, worldH * scale);
+  const origin = world.getBoundingClientRect();
+  for (const node of capture.querySelectorAll(".lrow, .step")) {
+    const rect = node.getBoundingClientRect();
+    ctx.fillStyle = node.classList.contains("is-hot") ? "#58c4ff" : "#1f4670";
+    ctx.fillRect(
+      ((rect.left - origin.left) / state.scale) * scale,
+      ((rect.top - origin.top) / state.scale) * scale,
+      Math.max(1, (rect.width / state.scale) * scale),
+      Math.max(1, (rect.height / state.scale) * scale),
+    );
+  }
+  ctx.strokeStyle = "#f2a93b";
+  ctx.lineWidth = 1;
+  ctx.strokeRect(
+    (-state.x / state.scale) * scale,
+    (-state.y / state.scale) * scale,
+    (viewport.clientWidth / state.scale) * scale,
+    (viewport.clientHeight / state.scale) * scale,
+  );
+}
+
 function fail(message) {
   capture.className = "";
   capture.innerHTML = `<p class="load-error">${escapeHtml(message)}</p>`;
@@ -465,7 +676,8 @@ async function start() {
   try {
     const response = await fetch(new URL("horbm.json", import.meta.url), { cache: "no-cache" });
     if (!response.ok) throw new Error(`Could not load horbm.json (${response.status}).`);
-    data = await response.json();
+    const jsonText = await response.text();
+    data = JSON.parse(jsonText);
     if (!data || !Array.isArray(data.bands) || !Array.isArray(data.down)) {
       throw new Error("horbm.json is missing the layers.");
     }
@@ -474,6 +686,9 @@ async function start() {
     document.title = data.title;
     if (document.fonts && document.fonts.ready) await document.fonts.ready;
     fit();
+    showOverall();
+    updatePicked();
+    loadCommit();
     const id = hashLayer();
     if (id && knownLayer(id)) setPinned(id, { pan: true, replaceHash: false });
   } catch (error) {

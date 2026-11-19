@@ -1,12 +1,12 @@
 {
   "$schema": "./horbm.schema.json",
-  "version": "1.0.0",
-  "updated": "2026-11-19T12:00:00+01:00",
+  "version": "1.2.0",
+  "updated": "2026-11-19T18:54:00+01:00",
   "updatedLabel": "19 Nov 2026, Europe/Zagreb",
   "kicker": "Galion Labs · HORBM",
   "title": "HORBM layered architecture: one turn, both ways",
   "subtitle": "A conversationalist first, grounded in sourced truth",
-  "lead": "Heuristic Open Retrieval Brain Models. The twelve layers sit in the middle. The left path is your words going down, in the order the turn really reaches each layer. The right path is the reply coming back up. They are not mirror images: the lookup in 7 and 8 runs before the dialogue manager picks a move, because the move filter needs the evidence, and the reply is checked by safety, persona and empathy on the way up. Numbers like (12) match the notes on the full plate. As of 19 Nov 2026, Europe/Zagreb.",
+  "lead": "Heuristic Open Retrieval Brain Models. The twelve layers sit in the middle. The left path is your words going down, in the order the turn really reaches each layer. The right path is the reply coming back up. They are not mirror images: the lookup in 7 and 8 runs before the dialogue manager picks a move, because the move filter needs the evidence, and the reply is checked by safety, persona and empathy on the way up. Numbers like (12) match the notes on the full plate. As of 19 Nov 2026, Europe/Zagreb. Mate accepted every recommended option on 19 Nov 2026.",
   "statuses": {
     "B": {
       "label": "Built"
@@ -63,7 +63,7 @@
       "label": "step number on each path"
     },
     {
-      "note": "A whole step in dashed gold means its main action is recommended, not yet accepted. Key parts only; the full plate has all 91."
+      "note": "Dashed gold marks a recommendation that is not accepted yet. Mate accepted the open recommendations on 19 Nov 2026, so those parts are now Accepted. Key parts only; the full plate has all 91."
     }
   ],
   "input": {
@@ -100,13 +100,13 @@
         "layer": "7",
         "text": "Moment records: outcome written back as counts and weights",
         "refs": "(39)",
-        "status": "R"
+        "status": "A"
       },
       {
         "layer": "10",
         "text": "Evals score after the call: quality turns, truth rate, good endings",
         "refs": "(77)(78)(79)",
-        "status": "R"
+        "status": "A"
       }
     ]
   },
@@ -134,7 +134,7 @@
         {
           "text": "Stable partial words start the lookup while you still talk",
           "refs": "(6)(36)",
-          "status": "R"
+          "status": "A"
         }
       ]
     },
@@ -157,17 +157,17 @@
         {
           "text": "Query rewrite: \"him\" becomes the name, before lookup",
           "refs": "(22)",
-          "status": "R"
+          "status": "A"
         },
         {
           "text": "Intent: chat, ask, task, vent or goodbye",
           "refs": "(24)",
-          "status": "R"
+          "status": "A"
         },
         {
           "text": "Open wants list: open, met, dropped",
           "refs": "(25)",
-          "status": "R"
+          "status": "A"
         }
       ]
     },
@@ -227,7 +227,7 @@
     {
       "layer": "4",
       "title": "Dialogue manager and policy",
-      "kind": "rec",
+      "kind": "main",
       "parts": [
         {
           "text": "State tracker holds this call",
@@ -237,17 +237,17 @@
         {
           "text": "Legal-move filter: persona and truth gate drop bad moves, e.g. a cite with no evidence",
           "refs": "(30)",
-          "status": "R"
+          "status": "A"
         },
         {
           "text": "Policy picks one move: answer, cite, abstain, ask_one, comfort, offer_topic, stop",
           "refs": "(29)(31)",
-          "status": "R"
+          "status": "A"
         },
         {
           "text": "Topic manager: at most one new topic, at a lull",
           "refs": "(32)",
-          "status": "R"
+          "status": "A"
         }
       ]
     },
@@ -349,17 +349,17 @@
     {
       "layer": "5",
       "title": "Core chat engine: ranker and reply builder",
-      "kind": "rec",
+      "kind": "main",
       "parts": [
         {
           "text": "Ranker: boosted tree on stored and truth features",
           "refs": "(41)",
-          "status": "R"
+          "status": "A"
         },
         {
           "text": "Reply builder: slot filling, \"On {date}, {who} said {span}\"",
           "refs": "(42)",
-          "status": "R"
+          "status": "A"
         },
         {
           "text": "S0 lines stay marked as guesses",
@@ -381,29 +381,29 @@
         {
           "text": "Harm limits",
           "refs": "(71)",
-          "status": "R"
+          "status": "A"
         },
         {
           "text": "Says it is an AI when asked",
           "refs": "(72)",
-          "status": "R"
+          "status": "A"
         }
       ]
     },
     {
       "layer": "2",
       "title": "Persona and inner life",
-      "kind": "rec",
+      "kind": "main",
       "parts": [
         {
           "text": "Persona filter in front of every reply",
           "refs": "(18)",
-          "status": "R"
+          "status": "A"
         },
         {
           "text": "Character: warm, curious, honest, dry humour",
           "refs": "(17)",
-          "status": "R"
+          "status": "A"
         }
       ]
     },
@@ -420,7 +420,7 @@
         {
           "text": "Names a feeling only when invited",
           "refs": "(27)",
-          "status": "R"
+          "status": "A"
         }
       ]
     },
@@ -455,6 +455,13 @@
           "n": "0",
           "title": "North star",
           "purpose": "A conversationalist first, grounded in sourced truth",
+          "build": {
+            "percent": 25,
+            "state": "planned",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 4,
           "chips": [
             {
@@ -489,13 +496,20 @@
           "n": "1",
           "title": "Voice and senses",
           "purpose": "Galion Voice, full duplex: it hears while it speaks",
+          "build": {
+            "percent": 38,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
               "label": "Channels",
               "ref": "(5)",
               "sub": "voice first, then text, then image",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Ear",
@@ -533,6 +547,13 @@
           "n": "2",
           "title": "Persona and inner life",
           "purpose": "Who it is, every turn",
+          "build": {
+            "percent": 38,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -545,19 +566,19 @@
               "label": "Default talker",
               "ref": "(16)",
               "sub": "Galion One companion, voice pluggable",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Character",
               "ref": "(17)",
               "sub": "warm, curious, honest, dry humour",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Persona filter",
               "ref": "(18)",
               "sub": "a check in front of every reply",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Inner life",
@@ -577,13 +598,20 @@
           "n": "3",
           "title": "Empathy",
           "purpose": "Understand the person, then answer with care",
+          "build": {
+            "percent": 25,
+            "state": "planned",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
               "label": "Query rewrite",
               "ref": "(22)",
               "sub": "'him' becomes the name",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Mood point",
@@ -595,13 +623,13 @@
               "label": "Intent detection",
               "ref": "(24)",
               "sub": "chat, ask, task, vent, goodbye",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Open wants",
               "ref": "(25)",
               "sub": "what they still need from this call",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Empathy is a weight",
@@ -613,7 +641,7 @@
               "label": "Naming feelings",
               "ref": "(27)",
               "sub": "only when invited",
-              "status": "R"
+              "status": "A"
             }
           ]
         },
@@ -621,6 +649,13 @@
           "n": "4",
           "title": "Dialogue manager and policy",
           "purpose": "Decide the next move and keep the talk alive",
+          "build": {
+            "percent": 38,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -633,31 +668,31 @@
               "label": "Moves",
               "ref": "(29)",
               "sub": "answer, cite, ask, comfort, offer topic, stop",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Legal-move filter",
               "ref": "(30)",
               "sub": "persona and truth gate remove bad moves",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Policy learner",
               "ref": "(31)",
               "sub": "small bandit, learns offline",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Topic manager",
               "ref": "(32)",
               "sub": "when to switch, what to bring up",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Callbacks",
               "ref": "(33)",
               "sub": "'how did the interview go?'",
-              "status": "R"
+              "status": "A"
             }
           ]
         },
@@ -665,6 +700,13 @@
           "n": "5",
           "title": "Core chat engine",
           "purpose": "Find candidates, rank them, build the reply",
+          "build": {
+            "percent": 50,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -689,13 +731,13 @@
               "label": "Ranker",
               "ref": "(41)",
               "sub": "boosted tree, then a threshold",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Reply builder",
               "ref": "(42)",
               "sub": "fills slots from sourced spans",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Eureka Moment Pipelines",
@@ -709,6 +751,13 @@
           "n": "6",
           "title": "Skills",
           "purpose": "Things it can do beyond talk",
+          "build": {
+            "percent": 38,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -727,25 +776,25 @@
               "label": "Image talk",
               "ref": "(48)",
               "sub": "comments on a photo",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Creative",
               "ref": "(49)",
               "sub": "stories, poems, songs",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Comfort",
               "ref": "(50)",
               "sub": "stays with hard moments",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Tasks",
               "ref": "(51)",
               "sub": "Hermes tools, no money by voice",
-              "status": "R"
+              "status": "A"
             }
           ]
         }
@@ -758,6 +807,13 @@
           "n": "7",
           "title": "Memory and relationship",
           "purpose": "Remembers you, and never rewrites the past",
+          "build": {
+            "percent": 63,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -788,13 +844,13 @@
               "label": "Relationship timeline",
               "ref": "(56)",
               "sub": "call summaries and milestones",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Fading",
               "ref": "(57)",
               "sub": "old rows leave live use, stay archived",
-              "status": "R"
+              "status": "A"
             }
           ]
         },
@@ -802,6 +858,13 @@
           "n": "8",
           "title": "Knowledge and truth",
           "purpose": "Sourced cards the talk is grounded in",
+          "build": {
+            "percent": 75,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -851,6 +914,13 @@
           "n": "9",
           "title": "Safety and ethics",
           "purpose": "Lines it never crosses",
+          "build": {
+            "percent": 25,
+            "state": "planned",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -869,13 +939,13 @@
               "label": "Harm limits",
               "ref": "(71)",
               "sub": "no harm methods, no romance under 21",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Says it is an AI",
               "ref": "(72)",
               "sub": "never pretends to be human",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Credentials never kept",
@@ -895,37 +965,44 @@
           "n": "10",
           "title": "Evals and metrics",
           "purpose": "How we know it is a good conversationalist",
+          "build": {
+            "percent": 25,
+            "state": "planned",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
               "label": "Earned return",
               "ref": "(76)",
               "sub": "comes back by choice within 7 days",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Quality turns",
               "ref": "(77)",
               "sub": "CPS that counts only real turns",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Truth rate",
               "ref": "(78)",
               "sub": "0 unsourced world claims",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Good endings",
               "ref": "(79)",
               "sub": "calls end with the want met",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Feels heard",
               "ref": "(80)",
               "sub": "blind human ratings",
-              "status": "R"
+              "status": "A"
             },
             {
               "label": "Speed",
@@ -944,6 +1021,13 @@
           "n": "11",
           "title": "Machines and infrastructure",
           "purpose": "Rust, Linux, CPU first",
+          "build": {
+            "percent": 38,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -980,7 +1064,7 @@
               "label": "Build order",
               "ref": "(91)",
               "sub": "R4's 9 phases, gate per phase",
-              "status": "R"
+              "status": "A"
             }
           ]
         }

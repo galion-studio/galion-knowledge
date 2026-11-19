@@ -1,0 +1,85 @@
+name: HORBM diagram
+
+on:
+  pull_request:
+    paths:
+      - v2/src/horbm/interactive/horbm.json
+      - v2/src/horbm/interactive/diagram.js
+      - v2/src/horbm/interactive/diagram.css
+      - v2/src/horbm/horbm-layers-twoway.png
+      - v2/tools/horbm-diagram/**
+      - .github/workflows/horbm-diagram.yml
+  push:
+    branches: [master]
+    paths:
+      - v2/src/horbm/interactive/horbm.json
+      - v2/src/horbm/interactive/diagram.js
+      - v2/src/horbm/interactive/diagram.css
+      - v2/src/horbm/horbm-layers-twoway.png
+      - v2/tools/horbm-diagram/**
+      - .github/workflows/horbm-diagram.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: horbm-diagram-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  diagram:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - name: Validate horbm.json
+        working-directory: v2/tools/horbm-diagram
+        run: cargo test --locked
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Test the diagram renderer and GitHub links
+        run: node --test v2/tools/horbm-diagram/render.test.mjs v2/tools/horbm-diagram/github.test.mjs
+
+      - name: Regenerate the PNG when the diagram source is newer
+        id: png
+        run: |
+          set -euo pipefail
+          src=$(git log -1 --format=%H -- v2/src/horbm/interactive/horbm.json v2/src/horbm/interactive/diagram.js v2/src/horbm/interactive/diagram.css)
+          png=$(git log -1 --format=%H -- v2/src/horbm/horbm-layers-twoway.png)
+          if git merge-base --is-ancestor "$src" "$png"; then
+            echo "PNG already includes the latest diagram source."
+            echo "stale=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "stale=true" >> "$GITHUB_OUTPUT"
+          sudo apt-get update
+          sudo apt-get install -y wget
+          wget -q -O /tmp/chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo apt-get install -y /tmp/chrome.deb
+          node v2/tools/horbm-diagram/render-png.mjs v2/src/horbm/horbm-layers-twoway.png
+
+      - name: Commit the regenerated PNG
+        if: steps.png.outputs.stale == 'true'
+        run: |
+          set -euo pipefail
+          git add v2/src/horbm/horbm-layers-twoway.png
+          if git diff --cached --quiet; then
+            echo "The rendered PNG matches the file already in the branch."
+            exit 0
+          fi
+          if [ "${{ github.event_name }}" = "pull_request" ] && [ "${{ github.event.pull_request.head.repo.full_name }}" != "${{ github.repository }}" ]; then
+            echo "The PNG is stale. Run: node v2/tools/horbm-diagram/render-png.mjs"
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Regenerate the HORBM diagram PNG from horbm.json."
+          git push origin HEAD
