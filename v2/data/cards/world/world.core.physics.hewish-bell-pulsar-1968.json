@@ -1,0 +1,36 @@
+{
+  "id": "world.core.physics.hewish-bell-pulsar-1968",
+  "title": "Hewish, Bell and colleagues report a rapidly pulsating radio source (Nature, 1968)",
+  "section": "world",
+  "category": "physics",
+  "summary": "A 1968 Nature paper by A. Hewish, S. J. Bell and three co-authors reported unusual signals from pulsating radio sources recorded at the Mullard Radio Astronomy Observatory, and proposed they might be associated with oscillations of white dwarf or neutron stars.",
+  "body": "The paper \"Observation of a Rapidly Pulsating Radio Source\" was published in Nature on 24 February 1968, volume 217, pages 709–713; the article record gives a received date of 9 February 1968. Its authors are A. Hewish, S. J. Bell, J. D. H. Pilkington, P. F. Scott and R. A. Collins, listed with the Mullard Radio Astronomy Observatory, Cavendish Laboratory, University of Cambridge. The summary printed with the paper states: \"Unusual signals from pulsating radio sources have been recorded at the Mullard Radio Astronomy Observatory. The radiation seems to come from local objects within the galaxy, and may be associated with oscillations of white dwarf or neutron stars.\" The claim is framed tentatively by the authors: they proposed that possible association rather than asserting it.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Observation of a Rapidly Pulsating Radio Source",
+      "url": "https://doi.org/10.1038/217709a0",
+      "author": "A. Hewish, S. J. Bell, J. D. H. Pilkington, P. F. Scott, R. A. Collins",
+      "date": "1968-02-24",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Observation of a Rapidly Pulsating Radio Source (publisher article page, Nature 217, 709–713)",
+      "url": "https://www.nature.com/articles/217709a0",
+      "author": "A. Hewish, S. J. Bell, J. D. H. Pilkington, P. F. Scott, R. A. Collins",
+      "date": "1968-02-24",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "A. Hewish, S. J. Bell, J. D. H. Pilkington, P. F. Scott and R. A. Collins, Nature 217, 709–713 (1968)",
+  "as_of_date": "1968-02-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "physics"
+  ]
+}

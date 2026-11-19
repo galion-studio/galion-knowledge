@@ -1,0 +1,29 @@
+{
+  "id": "world.core.history.indian-independence-act-1947",
+  "title": "The Indian Independence Act 1947, section 1: two independent Dominions from 15 August 1947",
+  "section": "world",
+  "category": "history",
+  "summary": "Section 1 of the Indian Independence Act 1947 (1947 c. 30) provides that, as from 15 August 1947, two independent Dominions shall be set up in India, known respectively as India and Pakistan.",
+  "body": "The United Kingdom Parliament enacted the Indian Independence Act 1947 (1947 c. 30), given royal assent on 18 July 1947. Its long title states it is \"An Act to make provision for the setting up in India of two independent Dominions\". Section 1(1) reads: \"As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India, to be known respectively as India and Pakistan.\" Section 1(2) names the two states \"the new Dominions\" and 15 August 1947 \"the appointed day\". The claim here is the statutory text itself, verified on legislation.gov.uk in the original as-enacted version.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Indian Independence Act 1947 (1947 c. 30), original enacted text",
+      "url": "https://www.legislation.gov.uk/ukpga/Geo6/10-11/30/enacted",
+      "author": "UK Parliament (published by The National Archives, legislation.gov.uk)",
+      "date": "1947-07-18",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "UK Parliament, in the enacted text of the Indian Independence Act 1947",
+  "as_of_date": "1947-07-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:history",
+    "history"
+  ]
+}

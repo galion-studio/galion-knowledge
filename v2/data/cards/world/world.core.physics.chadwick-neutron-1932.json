@@ -1,0 +1,43 @@
+{
+  "id": "world.core.physics.chadwick-neutron-1932",
+  "title": "The Existence of a Neutron (Chadwick, 1932)",
+  "section": "world",
+  "category": "physics",
+  "summary": "In 1932 James Chadwick published in Proceedings of the Royal Society A a peer-reviewed paper, The Existence of a Neutron, reporting the proof of a neutral particle with about the same mass as a proton.",
+  "body": "James Chadwick, then at Cambridge, published the paper The Existence of a Neutron in Proceedings of the Royal Society of London, Series A, volume 136, pages 692-708, registered under DOI 10.1098/rspa.1932.0112, with the Crossref-issued date 1932-06-01 [1]. The INSPIRE-HEP bibliographic record lists it as a refereed, citeable 17-page article by Chadwick, J., affiliated with Cambridge U., with the title taken from CrossRef [2]. In 1932, Chadwick proved that the penetrating radiation earlier produced by bombarding beryllium with alpha particles consisted of a neutral particle with about the same mass as a proton, a particle earlier hypothesised by Ernest Rutherford to exist in atomic nuclei [3]. Chadwick was awarded the 1935 Nobel Prize in Physics, with prize motivation cited as for the discovery of the neutron [3].",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The existence of a neutron",
+      "url": "https://doi.org/10.1098/rspa.1932.0112",
+      "author": "James Chadwick",
+      "date": "1932-06-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "INSPIRE-HEP record 1477645 (The Existence of a Neutron)",
+      "url": "https://inspirehep.net/api/literature/1477645",
+      "author": "INSPIRE-HEP",
+      "date": "1932-06",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "James Chadwick – Facts (NobelPrize.org)",
+      "url": "https://www.nobelprize.org/prizes/physics/1935/chadwick/facts",
+      "author": "Nobel Prize Outreach",
+      "date": "2026",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "James Chadwick (paper, 1932); Nobel Prize Outreach (1935 prize facts page)",
+  "as_of_date": "1932-06-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "physics"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "world.core.physics.einstein-sr-1905",
+  "title": "Einstein's two postulates in 'Zur Elektrodynamik bewegter Körper' (1905)",
+  "section": "world",
+  "category": "physics",
+  "summary": "In his 1905 Annalen der Physik paper, A. Einstein raised the principle of relativity to the status of a postulate and added a second postulate: light in empty space propagates with velocity c independent of the motion of the emitting body.",
+  "body": "A. Einstein's paper \"Zur Elektrodynamik bewegter Körper\" appeared in Annalen der Physik in 1905 (doi 10.1002/andp.19053221004); Crossref registers A. Einstein as its author. In the English translation of the paper, Einstein states that he raises the conjecture which he says will be called the Principle of Relativity to the status of a postulate, and introduces a second postulate, namely \"that light is always propagated in empty space with a definite velocity c which is independent of the state of motion of the emitting body\". He adds: \"These two postulates suffice for the attainment of a simple and consistent theory of the electrodynamics of moving bodies based on Maxwell's theory for stationary bodies.\" Both postulates are stated by the paper itself, in its opening section, as the basis of the theory that follows.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Zur Elektrodynamik bewegter Körper",
+      "url": "https://doi.org/10.1002/andp.19053221004",
+      "author": "A. Einstein",
+      "date": "1905-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "On the Electrodynamics of Moving Bodies (English translation of the 1905 Annalen der Physik paper)",
+      "url": "https://www.fourmilab.ch/etexts/einstein/specrel/www/",
+      "author": "A. Einstein",
+      "date": "1905",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "A. Einstein, Annalen der Physik, 1905",
+  "as_of_date": "1905",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "physics"
+  ]
+}

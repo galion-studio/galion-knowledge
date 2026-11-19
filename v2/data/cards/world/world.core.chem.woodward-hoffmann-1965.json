@@ -1,0 +1,36 @@
+{
+  "id": "world.core.chem.woodward-hoffmann-1965",
+  "title": "Woodward and Hoffmann, \"Stereochemistry of Electrocyclic Reactions\" (JACS, 1965)",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "R. B. Woodward and Roald Hoffmann published a three-page communication titled \"Stereochemistry of Electrocyclic Reactions\" in the Journal of the American Chemical Society, volume 87, issue 2, pages 395-397, dated January 1965 (DOI 10.1021/ja01080a054).",
+  "body": "The registered record for DOI 10.1021/ja01080a054 identifies a journal article titled \"Stereochemistry of Electrocyclic Reactions\" by R. B. Woodward and Roald Hoffmann, published in the Journal of the American Chemical Society by the American Chemical Society, volume 87, issue 2, pages 395-397, with an issued date of January 1965. The article type recorded is journal-article. That is the bibliographic extent and placement of the communication: three pages in the January 1965 issue of the society's journal, authored by two named individuals. The record is maintained by Crossref, the DOI registration agency, and gives the landing resource as the publisher's article page, which returned a bot-check notice rather than text when opened, so the paper's own wording is not reproduced here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Stereochemistry of Electrocyclic Reactions",
+      "url": "https://doi.org/10.1021/ja01080a054",
+      "author": "R. B. Woodward; Roald Hoffmann",
+      "date": "1965-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Crossref REST API record for DOI 10.1021/ja01080a054",
+      "url": "https://api.crossref.org/works/10.1021/ja01080a054",
+      "author": "Crossref",
+      "date": "2026-11-18",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "R. B. Woodward and Roald Hoffmann, Journal of the American Chemical Society (record via Crossref DOI registry)",
+  "as_of_date": "1965-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "chemistry"
+  ]
+}

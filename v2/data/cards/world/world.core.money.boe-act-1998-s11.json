@@ -1,0 +1,29 @@
+{
+  "id": "world.core.money.boe-act-1998-s11",
+  "title": "Bank of England Act 1998, Section 11: price stability first, then government economic policy",
+  "section": "world",
+  "category": "economics",
+  "summary": "Section 11 of the UK Bank of England Act 1998 sets the Bank's monetary policy objectives: to maintain price stability and, subject to that, to support the economic policy of Her Majesty's Government, including its objectives for growth and employment.",
+  "body": "Section 11 (\"Objectives\") of the Bank of England Act 1998 (1998 c. 11), enacted by the UK Parliament in 1998, states that in relation to monetary policy the objectives of the Bank of England shall be: (a) \"to maintain price stability, and (b) subject to that, to support the economic policy of Her Majesty's Government, including its objectives for growth and employment.\" The legislation.gov.uk revised text, current as of 19 November 2026, confirms the section is up to date with all changes known to be in force. Price stability is therefore the primary objective, with support for government economic policy secondary and conditional on it.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Bank of England Act 1998, Section 11 (Objectives)",
+      "url": "https://www.legislation.gov.uk/ukpga/1998/11/section/11",
+      "author": "UK Parliament (The National Archives, legislation.gov.uk)",
+      "date": "1998",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "UK Parliament, in the Bank of England Act 1998",
+  "as_of_date": "1998",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:money",
+    "economics"
+  ]
+}

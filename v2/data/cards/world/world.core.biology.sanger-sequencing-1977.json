@@ -1,0 +1,43 @@
+{
+  "id": "world.core.biology.sanger-sequencing-1977",
+  "title": "Sanger, Nicklen and Coulson describe DNA sequencing with chain-terminating inhibitors (1977)",
+  "section": "world",
+  "category": "biology",
+  "summary": "A December 1977 paper in the Proceedings of the National Academy of Sciences by F. Sanger, S. Nicklen and A. R. Coulson described a method for determining DNA sequences that uses dideoxy and arabinonucleoside analogues acting as chain-terminating inhibitors of DNA polymerase.",
+  "body": "In December 1977 the Proceedings of the National Academy of Sciences published \"DNA sequencing with chain-terminating inhibitors\" by F. Sanger, S. Nicklen and A. R. Coulson, volume 74, pages 5463-5467. The abstract opens: \"A new method for determining nucleotide sequences in DNA is described.\" It states that the method is similar to the \"plus and minus\" method of Sanger and Coulson (1975, J. Mol. Biol. 94, 441-448) but uses the 2',3'-dideoxy and arabinonucleoside analogues of the normal deoxynucleoside triphosphates, which it describes as specific chain-terminating inhibitors of DNA polymerase. The abstract reports that the technique was applied to the DNA of bacteriophage ϕX174 and that it is \"more rapid and more accurate than either the plus or the minus method.\"",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "DNA sequencing with chain-terminating inhibitors",
+      "url": "https://doi.org/10.1073/pnas.74.12.5463",
+      "author": "F. Sanger; S. Nicklen; A. R. Coulson",
+      "date": "1977-12",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "DNA sequencing with chain-terminating inhibitors (PMC431765: abstract and record)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC431765/",
+      "author": "F. Sanger; S. Nicklen; A. R. Coulson",
+      "date": "1977-12",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "A rapid method for determining sequences in DNA by primed synthesis with DNA polymerase",
+      "url": "https://doi.org/10.1016/0022-2836(75)90213-2",
+      "author": "F. Sanger; A. R. Coulson",
+      "date": "1975-05",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "F. Sanger, S. Nicklen and A. R. Coulson, Proceedings of the National Academy of Sciences",
+  "as_of_date": "1977-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:life",
+    "biology"
+  ]
+}

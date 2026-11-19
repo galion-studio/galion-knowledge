@@ -1,0 +1,36 @@
+{
+  "id": "world.core.chem.wohler-urea-1828",
+  "title": "Wöhler reports the artificial formation of urea (1828)",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "In an 1828 paper in Annalen der Physik, Friedrich Wöhler reported that uniting cyanic acid with ammonia yields urea, and that comparative tests showed this product to be identical with urea separated from urine.",
+  "body": "Friedrich Wöhler's paper on the artificial formation of urea appeared in Annalen der Physik in 1828 (vol. 88, issue 2, pp. 253–256; DOI 10.1002/andp.18280880206). In the text Wöhler recalls an earlier note in volume II of the same journal, where cyan acting on liquid ammonia gave oxalic acid and a crystallizable white substance. His new investigation, he writes, gave the unexpected result that urea forms when cyanic acid is united with ammonia, and he calls this an example of the artificial production of an organic, so-called animal substance from inorganic substances. Comparative experiments with pure urea separated from urine showed, he states, that urea and that crystalline body, which one could call ammonium cyanate, \"vollkommen identische Stoffe sind\" — completely identical substances. He adds that the behaviour of the artificial urea agrees with what Proust, Prout and others report for urea from urine.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Ueber künstliche Bildung des Harnstoffs",
+      "url": "https://doi.org/10.1002/andp.18280880206",
+      "author": "F. Wöhler",
+      "date": "1828-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Annalen der Physik und Chemie 1828: Vol 12 — full text (article at pp. 252–256)",
+      "url": "https://ia800603.us.archive.org/fulltext/inside.php?item_id=sim_annalen-der-physik_1828_12&doc=sim_annalen-der-physik_1828_12&path=/33/items/sim_annalen-der-physik_1828_12&q=Harnstoff",
+      "author": "F. Wöhler; Internet Archive (digitized volume)",
+      "date": "1828",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Friedrich Wöhler",
+  "as_of_date": "1828",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "chemistry"
+  ]
+}

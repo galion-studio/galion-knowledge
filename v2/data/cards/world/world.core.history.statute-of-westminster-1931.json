@@ -1,0 +1,36 @@
+{
+  "id": "world.core.history.statute-of-westminster-1931",
+  "title": "Statute of Westminster 1931, section 4: no UK Act extends to a Dominion without its request and consent",
+  "section": "world",
+  "category": "history",
+  "summary": "Section 4 of the Statute of Westminster 1931 provides that a UK Act passed after the Act's commencement does not extend to a Dominion as part of its law unless the Act expressly declares that the Dominion requested and consented to it.",
+  "body": "Section 4 of the Statute of Westminster 1931, headed \"Parliament of United Kingdom not to legislate for Dominion except by consent\", reads: \"No Act of Parliament of the United Kingdom passed after the commencement of this Act shall extend, or be deemed to extend, to a Dominion as part of the law of that Dominion, unless it is expressly declared in that Act that that Dominion has requested, and consented to, the enactment thereof.\"\n\nThe quoted text is the original as-enacted version published on legislation.gov.uk. The same site's as-enacted whole Act headings record \"1931 CHAPTER 4\", the date \"[11th December 1931.]\", and a long title: \"An Act to give effect to certain resolutions passed by Imperial Conferences held in the years 1926 and 1930\" — and its preamble states the position that no law made by the UK Parliament shall extend to those Dominions \"otherwise than at the request and with the consent of that Dominion\". Section 1 defines \"Dominion\" as Canada, Australia, New Zealand, South Africa, the Irish Free State and Newfoundland.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Statute of Westminster 1931, Section 4 (original as enacted)",
+      "url": "https://www.legislation.gov.uk/ukpga/Geo5/22-23/4/section/4/enacted",
+      "author": "Parliament of the United Kingdom (published by The National Archives, legislation.gov.uk)",
+      "date": "1931-12-11",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Statute of Westminster 1931, 1931 Chapter 4 (whole Act, original as enacted)",
+      "url": "https://www.legislation.gov.uk/ukpga/Geo5/22-23/4/enacted",
+      "author": "Parliament of the United Kingdom (published by The National Archives, legislation.gov.uk)",
+      "date": "1931-12-11",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Parliament of the United Kingdom, Statute of Westminster 1931, section 4",
+  "as_of_date": "1931-12-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:history",
+    "history"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "world.core.health.doll-hill-smoking-1950",
+  "title": "Doll and Hill's 1950 British Medical Journal paper on smoking and carcinoma of the lung",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Richard Doll and A. Bradford Hill authored a paper carried in the British Medical Journal, volume 2, issue 4682, pages 739-748, in 1950; two index records for the same DOI give slightly different titles and dates.",
+  "body": "Richard Doll and A. Bradford Hill authored a paper in the *British Medical Journal*, volume 2, issue 4682, pages 739-748. The Crossref record registered for DOI 10.1136/bmj.2.4682.739 gives the title \"Smoking and Carcinoma of the Lung\", names Richard Doll and A. Bradford Hill as authors, records the container title as BMJ, the type as journal-article, and the issued date as 30 September 1950. The Europe PMC index record for the same DOI, PMID 14772469 and PMCID PMC2038856, gives the title \"Smoking and carcinoma of the lung; preliminary report.\" together with the same journal, volume, issue, pages and DOI. That record lists the journal issue date as September 1950 and the print publication date as 1 September 1950, which differs from the 30 September 1950 date in the Crossref record.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Smoking and Carcinoma of the Lung",
+      "url": "https://doi.org/10.1136/bmj.2.4682.739",
+      "author": "Richard Doll; A. Bradford Hill",
+      "date": "1950-09-30",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Smoking and carcinoma of the lung; preliminary report.",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:14772469&resultType=core&format=json",
+      "author": "DOLL R, HILL AB",
+      "date": "1950",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Crossref DOI registration record and Europe PMC index record for the same article",
+  "as_of_date": "1950-09-30",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:health",
+    "medicine"
+  ]
+}

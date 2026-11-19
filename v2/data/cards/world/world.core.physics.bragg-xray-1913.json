@@ -1,0 +1,36 @@
+{
+  "id": "world.core.physics.bragg-xray-1913",
+  "title": "Bragg and Bragg, 'The reflection of X-rays by crystals' (1913)",
+  "section": "world",
+  "category": "physics",
+  "summary": "William Henry Bragg and William Lawrence Bragg published in Proceedings of the Royal Society of London, Series A, in July 1913 a study of X-rays reflected from planes within a crystal, measured with a spectrometer-like apparatus in which an ionisation chamber replaced the telescope. The abstract reports a reflected pencil from mica's cleavage plane strong enough to impress a photographic plate in a few minutes' exposure.",
+  "body": "William Henry Bragg and William Lawrence Bragg published \"The reflection of X-rays by crystals\" in Proceedings of the Royal Society of London. Series A, volume 88, issue 605, pages 428–438, dated 1 July 1913. The abstract states that in a discussion of the Laue photographs it has been shown that they \"may conveniently be interpreted as due to the reflection of X-rays in such planes within the crystal as are rich in atoms\", which it says leads to the attempt to use cleavage planes as mirrors. It reports that mica \"gives a reflected pencil from its cleavage plane strong enough to make a visible impression on a photographic plate in a few minutes’ exposure\", and that the reflected pencil can also be detected by the ionisation method. For closer examination the authors used \"an apparatus resembling a spectrometer in form, an ionisation chamber taking the place of the telescope\", the chamber being tubular, 15 cm long and 5 cm in diameter and filled with sulphur dioxide to increase the ionisation current.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The reflection of X-rays by crystals",
+      "url": "https://doi.org/10.1098/rspa.1913.0040",
+      "author": "William Henry Bragg; William Lawrence Bragg",
+      "date": "1913-07-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "The reflection of X-rays by crystals",
+      "url": "https://api.crossref.org/works/10.1098/rspa.1913.0040",
+      "author": "Crossref record deposited by The Royal Society (William Henry Bragg; William Lawrence Bragg)",
+      "date": "1913-07-01",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "William Henry Bragg and William Lawrence Bragg, Proceedings of the Royal Society of London. Series A, vol. 88, no. 605, pp. 428–438",
+  "as_of_date": "1913-07-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "physics"
+  ]
+}

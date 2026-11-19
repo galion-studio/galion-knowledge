@@ -1,0 +1,50 @@
+{
+  "id": "world.core.physics.bcs-superconductivity-1957",
+  "title": "Theory of Superconductivity (Bardeen, Cooper, Schrieffer, 1957)",
+  "section": "world",
+  "category": "physics",
+  "summary": "J. Bardeen, L. N. Cooper and J. R. Schrieffer published 'Theory of Superconductivity' in Physical Review 108, pages 1175-1204, with an issue date of 1 December 1957. The paper is registered under DOI 10.1103/PhysRev.108.1175.",
+  "body": "The paper titled \"Theory of Superconductivity\" by J. Bardeen, L. N. Cooper and J. R. Schrieffer appeared in Physical Review, volume 108, issue 5, pages 1175-1204, with an issue date of 1 December 1957. The Crossref record registers it under DOI 10.1103/PhysRev.108.1175 and lists 46 references. In his Nobel lecture of 11 December 1972, Cooper described the work in his own words: \"The theory (1) we presented in 1957, applied to uniform materials in the weak coupling limit so defining an ideal superconductor, has been extended in almost every imaginable direction.\" Bardeen's lecture of the same date refers to the development of the microscopic theory in 1957 and to the introduction of the pairing theory that year. This card records the publication and the authors' own description of it; it does not restate the paper's equations.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Theory of Superconductivity",
+      "url": "https://doi.org/10.1103/PhysRev.108.1175",
+      "author": "J. Bardeen, L. N. Cooper, J. R. Schrieffer",
+      "date": "1957-12-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Crossref metadata record for DOI 10.1103/PhysRev.108.1175",
+      "url": "https://api.crossref.org/works/10.1103/PhysRev.108.1175",
+      "author": "Crossref (record deposited by the American Physical Society)",
+      "date": "1957-12-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Microscopic Quantum Interference Effects in the Theory of Superconductivity (Nobel Lecture)",
+      "url": "https://www.nobelprize.org/uploads/2018/06/cooper-lecture.pdf",
+      "author": "Leon N. Cooper",
+      "date": "1972-12-11",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Electron-Phonon Interactions and Superconductivity (Nobel Lecture)",
+      "url": "https://www.nobelprize.org/uploads/2018/06/bardeen-lecture-1.pdf",
+      "author": "John Bardeen",
+      "date": "1972-12-11",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "J. Bardeen, L. N. Cooper and J. R. Schrieffer (Physical Review, 1957); description quoted from L. N. Cooper's Nobel lecture, 1972",
+  "as_of_date": "1957-12-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "physics"
+  ]
+}

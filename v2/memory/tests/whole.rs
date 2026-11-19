@@ -393,7 +393,7 @@ fn measured_corpus_at_the_target_size() {
 /// grew. Publication 3 is the digest after the history and religion cards
 /// joined that pack. Publication 4 is the digest after the earth, life, and
 /// health cards joined that pack. Publication 5 is the digest after the
-/// physics, chemistry, astronomy, and energy gap fill. The version is looked up from the bundle, not copied back out of
+/// physics, chemistry, astronomy, and energy gap fill. Publication 7 adds the Galion Research core gap fill (physics, chemistry, earth, life, health, history, law, money, math). The version is looked up from the bundle, not copied back out of
 /// the manifest, and it is not the schema's trailing 1.
 struct CorePublication {
     version: &'static str,
@@ -438,6 +438,12 @@ const CORE_PUBLICATIONS: &[CorePublication] = &[
         sha256: "5dfa2a00ed3e64e079accae8f5a8ffb05cd2ffd37f7141bd6d7979fb3a60b44f",
         bytes: 3_060_127,
         cards: 1506,
+    },
+    CorePublication {
+        version: "7",
+        sha256: "8bb05579aaf30b0d763b4316d9206b5a938137644eb558d63b20611b387ea907",
+        bytes: 3_138_934,
+        cards: 1539,
     },
 ];
 

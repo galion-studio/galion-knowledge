@@ -1,0 +1,29 @@
+{
+  "id": "world.core.law.npt-article-6",
+  "title": "Article VI of the Nuclear Non-Proliferation Treaty: good-faith negotiations on disarmament",
+  "section": "world",
+  "category": "law",
+  "summary": "Article VI of the 1968 Treaty on the Non-Proliferation of Nuclear Weapons commits each party to pursue negotiations in good faith on effective measures relating to cessation of the nuclear arms race and to nuclear disarmament. The text was opened for signature on 1 July 1968 and entered into force on 5 March 1970.",
+  "body": "Article VI of the Treaty on the Non-Proliferation of Nuclear Weapons reads: \"Each of the Parties to the Treaty undertakes to pursue negotiations in good faith on effective measures relating to cessation of the nuclear arms race at an early date and to nuclear disarmament, and on a treaty on general and complete disarmament under strict and effective international control.\" The treaty was opened for signature at London, Moscow and Washington on 1 July 1968 and entered into force on 5 March 1970, after ratification by the three depositary governments and forty other signatory states. Those three governments registered it with the United Nations on 25 May 1970; the registered text is No. 10485 in volume 729 of the United Nations Treaty Series, which records the Chinese, English, French, Russian and Spanish texts as equally authentic.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty on the Non-Proliferation of Nuclear Weapons, United Nations Treaty Series, vol. 729, No. 10485",
+      "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20729/volume-729-I-10485-English.pdf",
+      "author": "United Nations (registered by the Union of Soviet Socialist Republics, the United Kingdom of Great Britain and Northern Ireland, and the United States of America)",
+      "date": "1970",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "The parties to the Treaty on the Non-Proliferation of Nuclear Weapons, Article VI",
+  "as_of_date": "1968-07-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:law",
+    "law"
+  ]
+}

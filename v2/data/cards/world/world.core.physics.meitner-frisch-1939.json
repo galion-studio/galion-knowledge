@@ -1,0 +1,36 @@
+{
+  "id": "world.core.physics.meitner-frisch-1939",
+  "title": "Meitner and Frisch's 1939 Nature letter on uranium under neutron bombardment",
+  "section": "world",
+  "category": "physics",
+  "summary": "Nature published a two-page letter by Lise Meitner and O. R. Frisch on 11 February 1939. Its abstract opens by recalling that neutron bombardment of uranium had produced at least four radioactive substances, two of them ascribed atomic numbers larger than 92.",
+  "body": "Lise Meitner and O. R. Frisch's letter \"Disintegration of Uranium by Neutrons: a New Type of Nuclear Reaction\" was published in Nature 143, 239–240 on 11 February 1939 (doi 10.1038/143239a0). Its abstract opens: \"ON bombarding uranium with neutrons, Fermi and collaborators [1] found that at least four radioactive substances were produced, to two of which atomic numbers larger than 92 were ascribed.\" It states that further investigations \"demonstrated the existence of at least nine radioactive periods, six of which were assigned to elements beyond uranium\", and that nuclear isomerism had to be assumed to account for their chemical behaviour together with their genetic relations. The INSPIRE-HEP record lists the item as a refereed two-page letter to the editor, with Meitner affiliated to the Royal Swedish Academy of Sciences and Frisch to Copenhagen University.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Disintegration of Uranium by Neutrons: a New Type of Nuclear Reaction",
+      "url": "https://doi.org/10.1038/143239a0",
+      "author": "Lise Meitner, O. R. Frisch",
+      "date": "1939-02-11",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "INSPIRE-HEP record (record 1479492) for Disintegration of Uranium by Neutrons: a New Type of Nuclear Reaction, with abstract",
+      "url": "https://inspirehep.net/api/literature?q=t%20Disintegration%20of%20Uranium%20by%20Neutrons&size=3",
+      "author": "Meitner, Lise; Frisch, Otto Robert",
+      "date": "1939-02",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lise Meitner and O. R. Frisch, Nature 143, 239–240",
+  "as_of_date": "1939-02-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "physics"
+  ]
+}

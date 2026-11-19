@@ -1,0 +1,36 @@
+{
+  "id": "world.core.physics.heisenberg-uncertainty-1927",
+  "title": "Heisenberg's 1927 paper: canonically conjugate quantities determinable simultaneously only with a characteristic imprecision",
+  "section": "world",
+  "category": "physics",
+  "summary": "Heisenberg's article in Zeitschrift für Physik 43 (1927), pages 172–198, states in its abstract that canonically conjugate quantities can be determined simultaneously only with a characteristic imprecision, which it calls the ground of statistical relations in quantum mechanics.",
+  "body": "W. Heisenberg's article \"Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik\" was published in Zeitschrift für Physik, volume 43, pages 172–198, dated 1927/03/01 in the publisher's citation record for DOI 10.1007/BF01397280. The abstract carried in that record says the paper sets up exact definitions of the words position, velocity, energy and so on, valid also in quantum mechanics, and that it is shown \"daß kanonisch konjugierte Größen simultan nur mit einer charakteristischen Ungenauigkeit bestimmt werden können\" (§ 1). The same abstract reads: \"Diese Ungenauigkeit ist der eigentliche Grund für das Auftreten statistischer Zusammenhänge in der Quantenmechanik\", with its mathematical formulation obtained \"mittels der Dirac-Jordanschen Theorie\" (§ 2).",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik",
+      "url": "https://doi.org/10.1007/BF01397280",
+      "author": "W. Heisenberg",
+      "date": "1927-03",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Citation record (RIS) for DOI 10.1007/BF01397280, Zeitschrift für Physik 43, 172–198",
+      "url": "https://citation-needed.springer.com/v2/references/10.1007/BF01397280?format=refman&flavour=citation",
+      "author": "W. Heisenberg",
+      "date": "1927-03-01",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "W. Heisenberg (Zeitschrift für Physik 43, 172–198)",
+  "as_of_date": "1927-03",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "physics"
+  ]
+}

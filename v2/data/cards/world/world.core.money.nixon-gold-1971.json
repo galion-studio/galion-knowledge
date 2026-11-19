@@ -1,0 +1,43 @@
+{
+  "id": "world.core.money.nixon-gold-1971",
+  "title": "Nixon, 15 August 1971: the directive suspending the dollar's convertibility into gold",
+  "section": "world",
+  "category": "economics",
+  "summary": "On the evening of 15 August 1971, President Richard M. Nixon announced a new economic policy in an address to the nation titled \"The Challenge of Peace\"; the Department of State's historian records that in that address he directed the suspension of the dollar's convertibility into gold.",
+  "body": "On 15 August 1971 President Richard M. Nixon announced his New Economic Policy in an address to the nation on \"The Challenge of Peace\", delivered on the evening of that date. In the account given by the Department of State's Office of the Historian, Nixon set out a three-fold task in the address, saying: \"We must create more and better jobs; we must stop the rise in the cost of living; we must protect the dollar from the attacks of international money speculators.\" For the third of these, that account states, \"Nixon directed the suspension of the dollar's convertibility into gold.\" A Department of State telegram of 16 August 1971 reproduces a message from Nixon to the German Chancellor referring to his directive that the \"convertibility of the dollar into gold or other reserve assets be suspended\". The same account records that he also ordered a 10 percent tariff on dutiable imports.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Address to the Nation Outlining a New Economic Policy: \"The Challenge of Peace.\"",
+      "url": "https://www.presidency.ucsb.edu/documents/address-the-nation-outlining-new-economic-policy-the-challenge-peace",
+      "author": "The American Presidency Project, University of California, Santa Barbara",
+      "date": "1971-08-15",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Nixon and the End of the Bretton Woods System, 1971-1973 (Milestones in the History of U.S. Foreign Relations)",
+      "url": "https://history.state.gov/milestones/1969-1976/nixon-shock",
+      "author": "Office of the Historian, U.S. Department of State",
+      "date": "2016",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "169. Telegram From the Department of State to the Embassy in Germany (Foreign Relations of the United States, 1969-1976, Volume III)",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76v03/d169",
+      "author": "U.S. Department of State, Office of the Historian",
+      "date": "1971-08-16",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "President Richard M. Nixon, in an address to the nation, 15 August 1971; as recorded by the Office of the Historian, U.S. Department of State",
+  "as_of_date": "1971-08-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:money",
+    "economics"
+  ]
+}

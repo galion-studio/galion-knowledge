@@ -1,0 +1,36 @@
+{
+  "id": "world.core.math.dijkstra-shortest-path-1959",
+  "title": "Dijkstra's 1959 paper on shortest paths and minimum-length trees",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "E. W. Dijkstra's 1959 Numerische Mathematik note states two graph problems and gives a construction for each: the tree of minimum total length between n nodes, and the path of minimum total length between two given nodes P and Q.",
+  "body": "E. W. Dijkstra's paper in Numerische Mathematik 1 (1959), pages 269–271, sets out two problems for n nodes joined by branches of given length. The first is stated as \"Problem 1. Construct the tree of minimum total length between the n nodes.\" The second as \"Problem 2. Find the path of minimum total length between two given nodes P and Q.\" For the second, Dijkstra writes that \"the minimal paths from P to the other nodes are constructed in order of increasing length until Q is reached\", with nodes divided into sets A, B, C and branches into sets I, II, III. For the first he states that his method stores data for at most n branches simultaneously, while the solutions of Kruskal and of Loberman and Weinberger first sort all branches by length. He cites Kruskal (1956), Loberman and Weinberger (1957), and Ford's 1956 Rand paper as described by Berge (1958).",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A note on two problems in connexion with graphs",
+      "url": "https://doi.org/10.1007/BF01386390",
+      "author": "E. W. Dijkstra",
+      "date": "1959-12",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "A Note on Two Problems in Connexion with Graphs (full text, Numerische Mathematik 1, 269-271)",
+      "url": "https://ir.cwi.nl/pub/9256/9256D.pdf",
+      "author": "E. W. Dijkstra",
+      "date": "1959",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "E. W. Dijkstra, Numerische Mathematik vol. 1 (1959)",
+  "as_of_date": "1959",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:math",
+    "mathematics"
+  ]
+}

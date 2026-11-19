@@ -1,0 +1,29 @@
+{
+  "id": "world.core.physics.compton-scattering-1923",
+  "title": "Compton's 1923 quantum theory of X-ray scattering",
+  "section": "world",
+  "category": "physics",
+  "summary": "Arthur H. Compton proposed in Physical Review in May 1923 that an X-ray quantum gives all its energy and momentum to a single electron, so the scattered ray has a longer wavelength that does not depend on the incident wavelength.",
+  "body": "In *Physical Review* 21(5), May 1923, pages 483–502, Arthur H. Compton proposed that an incident X-ray quantum transfers all its energy and momentum to one electron, which recoils. He wrote that a quantum \"spends all of its energy and momentum upon some particular electron\", and derived a scattered-wavelength increase of (2h/mc) sin²(θ/2) = 0.0484 sin²(θ/2) Å, adding that \"the increase is independent of the wave-length.\" The abstract reports unpublished measurements for graphite with Mo-K radiation giving a shift of .022 Å against a computed .024 Å. Compton states that the agreement between experiment and theory \"indicates clearly that scattering is a quantum phenomenon\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A Quantum Theory of the Scattering of X-rays by Light Elements",
+      "url": "https://doi.org/10.1103/PhysRev.21.483",
+      "author": "Arthur H. Compton",
+      "date": "1923-05-01",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Arthur H. Compton, Physical Review 21(5), 483-502",
+  "as_of_date": "1923-05-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "physics"
+  ]
+}

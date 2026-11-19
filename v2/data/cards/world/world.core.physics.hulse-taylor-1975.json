@@ -1,0 +1,36 @@
+{
+  "id": "world.core.physics.hulse-taylor-1975",
+  "title": "Hulse and Taylor report a pulsar in a binary system (1975)",
+  "section": "world",
+  "category": "physics",
+  "summary": "In a 1975 Astrophysical Journal letter, R. A. Hulse and J. H. Taylor reported the detection of the 59-ms pulsar PSR 1913+16 and period changes they attributed to orbital motion in a binary system.",
+  "body": "In a letter received 18 October 1974 and published in The Astrophysical Journal for 15 January 1975, R. A. Hulse and J. H. Taylor of the University of Massachusetts, Amherst, reported an unusual pulsar found during their survey at the Arecibo Observatory. The paper states: \"The 59-ms pulsar, PSR 1913 + 16, was first detected in 1974 July.\" From about 200 five-minute observations over 10 days they obtained elements of an eccentric binary orbit, with period 0.3230 d and eccentricity 0.615. Their abstract reads: \"We infer that the unseen companion is a compact object with mass comparable to that of the pulsar.\" They wrote that the discovery makes feasible studies involving compact objects, close binary systems, and special- and general-relativistic effects.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Discovery of a pulsar in a binary system",
+      "url": "https://doi.org/10.1086/181708",
+      "author": "R. A. Hulse; J. H. Taylor",
+      "date": "1975-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Discovery of a pulsar in a binary system (The Astrophysical Journal, 195, L51-L53)",
+      "url": "https://articles.adsabs.harvard.edu/pdf/1975ApJ...195L..51H",
+      "author": "R. A. Hulse; J. H. Taylor",
+      "date": "1975-01-15",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "R. A. Hulse and J. H. Taylor, The Astrophysical Journal",
+  "as_of_date": "1975-01-15",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "physics"
+  ]
+}

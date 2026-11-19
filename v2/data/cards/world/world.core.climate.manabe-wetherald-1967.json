@@ -1,0 +1,36 @@
+{
+  "id": "world.core.climate.manabe-wetherald-1967",
+  "title": "Manabe and Wetherald (1967): about 2 °C warming for doubled CO2",
+  "section": "world",
+  "category": "climate",
+  "summary": "In their 1967 Journal of the Atmospheric Sciences paper, Syukuro Manabe and Richard T. Wetherald estimated that doubling atmospheric CO2 raises the temperature of an atmosphere with fixed relative humidity by about 2 °C. The estimate comes from a radiative-convective equilibrium model.",
+  "body": "Syukuro Manabe and Richard T. Wetherald, both at the Geophysical Fluid Dynamics Laboratory of ESSA in Washington, D.C., published \"Thermal Equilibrium of the Atmosphere with a Given Distribution of Relative Humidity\" in the Journal of the Atmospheric Sciences, volume 24, issue 3, pages 241-259; it was received on 2 November 1966 and printed on 1 May 1967. The abstract describes a radiative convective equilibrium computed as the asymptotic state of an initial value problem. It reports that a doubling of the CO2 content has the effect of raising the temperature of the atmosphere whose relative humidity is fixed by about 2C, and that the surface equilibrium temperature in that case is almost twice as sensitive to changes in solar constant, CO2, O3 and cloudiness as with a given absolute humidity, because water vapour content adjusts to the temperature. The same abstract states the model does not have the extreme CO2 sensitivity adduced by Möller.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Thermal Equilibrium of the Atmosphere with a Given Distribution of Relative Humidity",
+      "url": "https://doi.org/10.1175/1520-0469(1967)024<0241:TEOTAW>2.0.CO;2",
+      "author": "Syukuro Manabe; Richard T. Wetherald",
+      "date": "1967-05",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Thermal Equilibrium of the Atmosphere with a Given Distribution of Relative Humidity (Journal of the Atmospheric Sciences, Volume 24, Issue 3, pp. 241-259)",
+      "url": "https://web.archive.org/web/20240107194634/https://journals.ametsoc.org/view/journals/atsc/24/3/1520-0469_1967_024_0241_teotaw_2_0_co_2.xml",
+      "author": "Syukuro Manabe; Richard T. Wetherald",
+      "date": "1967-05-01",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Syukuro Manabe and Richard T. Wetherald, Journal of the Atmospheric Sciences (American Meteorological Society)",
+  "as_of_date": "1967-05-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:earth",
+    "climate"
+  ]
+}

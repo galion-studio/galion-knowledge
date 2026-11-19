@@ -1,0 +1,65 @@
+{
+  "id": "world.core.history.waitangi-1840-texts",
+  "title": "Te Tiriti o Waitangi, Article 1: sovereignty and kāwanatanga",
+  "section": "world",
+  "category": "history",
+  "summary": "The English text of 6 February 1840 has the chiefs cede \"all the rights and powers of Sovereignty\" to the Queen; the Māori text has them give \"te Kawanatanga katoa o o ratou wenua\", the complete government over their lands. Which meaning binds is contested.",
+  "body": "The two texts differ at Article 1. The English text, in the first schedule to the Treaty of Waitangi Act 1975 and reproduced by the Waitangi Tribunal, has the chiefs \"cede to Her Majesty the Queen of England absolutely and without reservation all the rights and powers of Sovereignty\". The Māori text has them give \"te Kawanatanga katoa o o ratou wenua\", the complete kāwanatanga over their lands, while Article 2 guarantees \"te tino rangatiratanga\". The Tribunal page carries Hugh Kawharu's translation, which renders kāwanatanga as \"government\" and states there could be no possibility of Māori signatories understanding government \"in the sense of 'sovereignty'\". Dominic O'Sullivan (AlterNative, 2024) reads Te Tiriti as constituting a commonwealth with hapū as existing political communities \"and kāwanatanga (government) as a new one\".",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Māori and English texts",
+      "url": "https://www.waitangitribunal.govt.nz/en/about/the-treaty/maori-and-english-versions",
+      "author": "Waitangi Tribunal",
+      "date": "2026",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Te Tiriti o Waitangi—neither “one people” nor partners: rangatiratanga and inclusive democratic kāwanatanga",
+      "url": "https://doi.org/10.1177/11771801241279332",
+      "author": "Dominic O’Sullivan",
+      "date": "2024-09-26",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Waitangi Tribunal, reproducing the texts in the first schedule to the Treaty of Waitangi Act 1975; Dominic O’Sullivan, AlterNative, 2024",
+  "as_of_date": "2024-09-26",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Reading of the Māori text, as set out in Hugh Kawharu's translation published on the Waitangi Tribunal page",
+      "summary": "The Māori text transfers kāwanatanga (government) over the land, and the page states there could be no possibility of Māori signatories understanding government in the sense of sovereignty; tino rangatiratanga is guaranteed to chiefs and hapū in Article 2.",
+      "status": "open",
+      "sources": [
+        {
+          "title": "Māori and English texts",
+          "url": "https://www.waitangitribunal.govt.nz/en/about/the-treaty/maori-and-english-versions",
+          "author": "Waitangi Tribunal",
+          "date": "2026",
+          "accessed": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "label": "Reading of the English text, as reproduced from the first schedule to the Treaty of Waitangi Act 1975",
+      "summary": "Article 1 records the cession of all the rights and powers of sovereignty absolutely and without reservation, which is the wording the English text itself carries.",
+      "status": "open",
+      "sources": [
+        {
+          "title": "Māori and English texts",
+          "url": "https://www.waitangitribunal.govt.nz/en/about/the-treaty/maori-and-english-versions",
+          "author": "Waitangi Tribunal",
+          "date": "2026",
+          "accessed": "2026-11-19"
+        }
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:history",
+    "history"
+  ]
+}
