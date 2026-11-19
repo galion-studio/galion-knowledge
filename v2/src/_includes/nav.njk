@@ -13,11 +13,15 @@
       <a href="{{ "/section/world/" | url }}">World</a>
       <div class="nav-drop" data-nav-drop>
         <a href="{{ "/section/horbm/" | url }}">HORBM</a>
-        <button class="nav-drop-toggle" type="button" data-nav-drop-toggle aria-expanded="false" aria-controls="nav-drop-horbm" aria-label="More HORBM pages"></button>
+        <button class="nav-drop-toggle" type="button" data-nav-drop-toggle aria-expanded="false" aria-controls="nav-drop-horbm" aria-label="More HORBM pages">
+          <svg class="nav-caret" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <path d="M3.5 6 8 10.5 12.5 6"/>
+          </svg>
+        </button>
         <div class="nav-drop-menu" id="nav-drop-horbm">
-          <a href="{{ "/section/horbm/" | url }}">HORBM</a>
-          <a href="{{ "/horbm/" | url }}">Layers diagram</a>
-          <a href="{{ "/horbm/interactive/" | url }}">Interactive diagram</a>
+          <a href="{{ "/section/horbm/" | url }}"{% if page.url == "/section/horbm/" %} aria-current="page"{% endif %}>HORBM overview</a>
+          <a href="{{ "/horbm/" | url }}"{% if page.url == "/horbm/" %} aria-current="page"{% endif %}>Layers diagram</a>
+          <a href="{{ "/horbm/interactive/" | url }}"{% if page.url == "/horbm/interactive/" %} aria-current="page"{% endif %}>Interactive diagram</a>
         </div>
       </div>
       <a href="{{ "/section/diary/" | url }}">Diary</a>
