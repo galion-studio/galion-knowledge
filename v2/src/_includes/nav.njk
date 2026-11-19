@@ -11,7 +11,15 @@
       <a href="{{ "/principles/" | url }}">Principles</a>
       <a href="{{ "/category/science/" | url }}">Science</a>
       <a href="{{ "/section/world/" | url }}">World</a>
-      <a href="{{ "/section/horbm/" | url }}">HORBM</a>
+      <div class="nav-drop" data-nav-drop>
+        <a href="{{ "/section/horbm/" | url }}">HORBM</a>
+        <button class="nav-drop-toggle" type="button" data-nav-drop-toggle aria-expanded="false" aria-controls="nav-drop-horbm" aria-label="More HORBM pages"></button>
+        <div class="nav-drop-menu" id="nav-drop-horbm">
+          <a href="{{ "/section/horbm/" | url }}">HORBM</a>
+          <a href="{{ "/horbm/" | url }}">Layers diagram</a>
+          <a href="{{ "/horbm/interactive/" | url }}">Interactive diagram</a>
+        </div>
+      </div>
       <a href="{{ "/section/diary/" | url }}">Diary</a>
       <a href="{{ "/section/shards/" | url }}">Shards</a>
       <a class="nav-cta" href="{{ "/search/" | url }}">Get Started</a>
@@ -33,6 +41,8 @@
     <a href="{{ "/search/" | url }}">{{ icon("search", "") }} Search</a>
     <a href="{{ "/section/world/" | url }}">World Knowledge</a>
     <a href="{{ "/section/horbm/" | url }}">HORBM Internal</a>
+    <a class="nav-sub" href="{{ "/horbm/" | url }}">Layers diagram</a>
+    <a class="nav-sub" href="{{ "/horbm/interactive/" | url }}">Interactive diagram</a>
     <a href="{{ "/section/diary/" | url }}">Diary and Memory</a>
     <a href="{{ "/section/shards/" | url }}">Add-on shards</a>
   </div>
