@@ -25,6 +25,36 @@
     });
   }
 
+  document.querySelectorAll("[data-nav-drop]").forEach(function (drop) {
+    var toggle = drop.querySelector("[data-nav-drop-toggle]");
+    if (!toggle) return;
+    function setDrop(open) {
+      drop.classList.toggle("is-open", open);
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    }
+    toggle.addEventListener("click", function () {
+      var open = !drop.classList.contains("is-open") || drop.classList.contains("is-shut");
+      drop.classList.remove("is-shut");
+      setDrop(open);
+    });
+    drop.addEventListener("mouseenter", function () { toggle.setAttribute("aria-expanded", "true"); });
+    drop.addEventListener("mouseleave", function () {
+      drop.classList.remove("is-shut");
+      if (!drop.classList.contains("is-open")) toggle.setAttribute("aria-expanded", "false");
+    });
+    drop.addEventListener("focusout", function (event) {
+      if (!drop.contains(event.relatedTarget)) { drop.classList.remove("is-shut"); setDrop(false); }
+    });
+    drop.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") {
+        setDrop(false);
+        drop.classList.add("is-shut");
+        toggle.focus();
+      }
+    });
+    document.addEventListener("click", function (event) { if (!drop.contains(event.target)) setDrop(false); });
+  });
+
   var promptInput = document.querySelector("[data-prompts]");
   if (promptInput) {
     var prompts = JSON.parse(promptInput.getAttribute("data-prompts"));
