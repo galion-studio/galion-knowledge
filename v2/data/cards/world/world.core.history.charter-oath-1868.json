@@ -1,0 +1,29 @@
+{
+  "id": "world.core.history.charter-oath-1868",
+  "title": "The Charter Oath of 1868 (Imperial Oath of Five Articles)",
+  "section": "world",
+  "category": "history",
+  "summary": "Japan's National Diet Library describes the Charter Oath as promulgated in 1868, and states that its opening words had deliberative assemblies established and affairs of state decided by public opinion.",
+  "body": "In its online exhibition *Modern Japan in archives*, the National Diet Library of Japan writes: \"In 1868 (Keio 4), the Charter Oath (Imperial Oath of Five Articles) was promulgated; its opening words stated that deliberative assemblies would be established and affairs of state would be decided by public opinion.\" The same outline places the oath after the Taisei Hokan of 1867 (Keio 3), which it says was \"carried out in the name of founding a system of government based on public opinion centered on the Imperial Court\". The page gives the year in both the Japanese and Western calendars but does not reproduce the text of the five articles, so the wording of the articles themselves is not quoted here. This card records the library's description of the oath, not a reading of the document.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Initial Steps toward a Constitutional State : Outline | Modern Japan in archives",
+      "url": "https://www.ndl.go.jp/modern/e/cha1/index.html",
+      "author": "National Diet Library, Japan",
+      "date": "2010",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "National Diet Library of Japan (Modern Japan in archives exhibition)",
+  "as_of_date": "2010",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:history",
+    "history"
+  ]
+}

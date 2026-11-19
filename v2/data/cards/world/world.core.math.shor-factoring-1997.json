@@ -1,0 +1,36 @@
+{
+  "id": "world.core.math.shor-factoring-1997",
+  "title": "Shor's 1997 SIAM paper gives polynomial-time quantum algorithms for factoring and discrete logarithms",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Peter W. Shor's paper, published in SIAM Journal on Computing in October 1997, presents efficient randomized algorithms that factor integers and find discrete logarithms in polynomial time on a hypothetical quantum computer.",
+  "body": "In a paper published in the SIAM Journal on Computing in October 1997 (DOI 10.1137/S0097539795293172), Peter W. Shor presented polynomial-time algorithms for prime factorization and discrete logarithms on a quantum computer. The peer-reviewed paper is an expanded journal version of earlier work; a preprint version was submitted to arXiv on 30 August 1995 and revised on 25 January 1996. The preprint's abstract states: \"This paper considers factoring integers and finding discrete logarithms, two problems which are generally thought to be hard on a classical computer and have been used as the basis of several proposed cryptosystems.\" It also states: \"Efficient randomized algorithms are given for these two problems on a hypothetical quantum computer. These algorithms take a number of steps polynomial in the input size, e.g., the number of digits of the integer to be factored.\"",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+      "url": "https://doi.org/10.1137/S0097539795293172",
+      "author": "Peter W. Shor",
+      "date": "1997-10",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer (preprint, arXiv:quant-ph/9508027v2)",
+      "url": "https://arxiv.org/abs/quant-ph/9508027",
+      "author": "Peter W. Shor",
+      "date": "1996-01-25",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Peter W. Shor",
+  "as_of_date": "1997-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:math",
+    "mathematics"
+  ]
+}

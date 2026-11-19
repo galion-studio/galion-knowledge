@@ -1,0 +1,36 @@
+{
+  "id": "world.core.math.mandelbrot-coastline-1967",
+  "title": "How Long Is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "In a 1967 Science paper, Benoit Mandelbrot argued that the lengths of coastlines are typically undefinable because such curves are statistically self-similar, and that their complication is measured by a fractional exponent D, reading Lewis Fry Richardson's measurements as giving D = 1.25 for the west coast of Great Britain.",
+  "body": "Benoit Mandelbrot's paper, published in Science on 5 May 1967 (vol. 156, pp. 636-638), states that geographical curves are so involved in their detail that their lengths are \"often infinite or more accurately, undefinable\". It calls curves whose portions are, in a statistical sense, reduced-scale images of the whole statistically self-similar, and characterizes them by a similarity exponent D with many properties of a dimension, though a fractional one exceeding the value 1 of ordinary curves. Re-examining empirical observations from Richardson 1961, Mandelbrot interprets the data as implying that the dimension of the west coast of Great Britain is D = 1.25.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How Long Is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension",
+      "url": "https://doi.org/10.1126/science.156.3775.636",
+      "author": "Benoit Mandelbrot",
+      "date": "1967-05-05",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "How long is the coast of Britain? Statistical self-similarity and fractional dimension (full text, author's Yale page copy, retrieved via Internet Archive)",
+      "url": "https://web.archive.org/web/20211121211105id_/https://users.math.yale.edu/~bbm3/web_pdfs/howLongIsTheCoastOfBritain.pdf",
+      "author": "B. B. Mandelbrot",
+      "date": "1967",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Benoit Mandelbrot",
+  "as_of_date": "1967",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:math",
+    "mathematics"
+  ]
+}
