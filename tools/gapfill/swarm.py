@@ -384,7 +384,7 @@ class GatewayGuard:
             return "cap", None, {"reason": "daily_usd"}
         return None
 
-    def call(self, orig, key, model, prompt, sid, timeout, cap):
+    def call(self, orig, key, model, prompt, sid, timeout, cap, **kw):
         restarts = 0
         transient = 0
         while True:
@@ -393,7 +393,7 @@ class GatewayGuard:
                 return blocked
             if not self.calls.try_increment():
                 return "cap", None, {"reason": "daily_calls"}
-            code, txt, usage = orig(key, model, prompt, sid, timeout, cap=cap)
+            code, txt, usage = orig(key, model, prompt, sid, timeout, cap=cap, **kw)
             if code == "429":
                 transient += 1
                 if transient > 40:
@@ -424,8 +424,8 @@ def install_guard(guard):
         gapfill._swarm_orig_ask = gapfill.ask
         orig = gapfill.ask
 
-    def wrapped(key, model, prompt, sid, timeout, cap=None):
-        return guard.call(orig, key, model, prompt, sid, timeout, cap)
+    def wrapped(key, model, prompt, sid, timeout, cap=None, **kw):
+        return guard.call(orig, key, model, prompt, sid, timeout, cap, **kw)
 
     wrapped._swarm = True
     gapfill.ask = wrapped

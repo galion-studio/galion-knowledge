@@ -32,7 +32,30 @@ _REAL_COMMIT = gapfill.Budget.commit
 
 
 def card_sse(cid, cost):
-    card = {"id": cid, "title": "t", "section": "world", "body": "stated on the page", "summary": "s"}
+    # Must pass gapfill.validate_card (v2/data/schema.json); verify_card is faked per test.
+    card = {
+        "id": cid,
+        "title": "Test card",
+        "section": "world",
+        "category": "mathematics",
+        "summary": "A summary stated on the page.",
+        "body": "stated on the page",
+        "claim_type": "fact",
+        "sources": [{
+            "title": "Test source",
+            "url": "https://example.org/source",
+            "author": "Test Author",
+            "date": "2000",
+            "accessed": "2026-11-19",
+        }],
+        "evidence_strength": "strong",
+        "said_by": "Test Author",
+        "as_of_date": "2000",
+        "status": "sourced - needs review",
+        "contested_views": [],
+        "related": [],
+        "tags": ["core-pack", "area:math", "mathematics"],
+    }
     chunk = {
         "choices": [{"delta": {"content": json.dumps(card, ensure_ascii=False)}}],
         "usage": {"cost": cost},
@@ -116,7 +139,9 @@ class Gateway:
     def respond(self, sid, raw):
         try:
             req = json.loads(raw.decode("utf-8"))
-            prompt = req["messages"][0]["content"]
+            # gapfill.py sends a JSON-only system message first; the topic is in the user turn.
+            users = [m for m in req["messages"] if m.get("role") == "user"] or req["messages"]
+            prompt = users[-1]["content"]
         except Exception:
             prompt = raw.decode("utf-8", "replace")
         with self.lock:
