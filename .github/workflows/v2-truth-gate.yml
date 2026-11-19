@@ -56,7 +56,7 @@ jobs:
           cache-dependency-path: v2/package-lock.json
 
       - name: Test the HORBM diagram renderer
-        run: node --test v2/tools/horbm-diagram/render.test.mjs
+        run: node --test v2/tools/horbm-diagram/render.test.mjs v2/tools/horbm-diagram/github.test.mjs
 
       - name: Build the static site
         working-directory: v2

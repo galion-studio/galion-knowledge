@@ -2,6 +2,8 @@
 
 The interactive page at `/horbm/interactive/` fetches `horbm.json` when it loads. The static PNG is drawn with the same renderer. Edit the JSON, not the page code, when a layer, step, label, status, or connection changes.
 
+Mate accepted the open recommendations on 19 Nov 2026. Those parts are `status` `A` (Accepted). `R` remains in the schema for a future recommendation. A dashed gold step (`kind` `rec`) is still the mark for one that is not accepted yet.
+
 ## Edit
 
 1. Edit [`horbm.json`](horbm.json). The shape is [`horbm.schema.json`](horbm.schema.json).
@@ -54,6 +56,12 @@ node v2/tools/horbm-diagram/render-png.mjs
 ```
 
 That writes `v2/src/horbm/horbm-layers-twoway.png` from `horbm.json`. Commit the PNG in the same pull request as the JSON so the image and the interactive page do not drift.
+
+CI does the same check. The HORBM diagram workflow validates `horbm.json`, runs the renderer tests, and, when the JSON, `diagram.js`, or `diagram.css` is newer than the PNG, renders the PNG and commits it. A merged pull request therefore updates both the image and the page. The page reads `horbm.json` on each load.
+
+## GitHub links on the page
+
+Each layer has an Edit on GitHub link to its lines in `horbm.json`. The page footer shows the short commit SHA (baked at build time into `build.json`, then refreshed from the public commit list), a History link to the commits for that file, and Propose a change, which opens a prefilled issue. The links are public. The page has no token.
 
 `fonts/HORBMSans-Variable.woff2` is a Latin subset of Inter under the SIL Open Font License (`fonts/OFL.txt`). The family is renamed because a subset is a modified font.
 
