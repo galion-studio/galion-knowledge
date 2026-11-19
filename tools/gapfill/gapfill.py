@@ -356,7 +356,11 @@ def verify_card(card, existing_ids):
     if card["section"] != "world": probs.append("section must be world")
     if not card["sources"]: probs.append("no sources")
     evid = []; texts = []
-    for s in card["sources"]:
+    every = list(card["sources"])
+    for cv in card.get("contested_views") or []:
+        if isinstance(cv, dict):
+            every += [x for x in (cv.get("sources") or []) if isinstance(x, dict)]
+    for s in every:
         url = (s.get("url") or "").strip()
         if not url: probs.append("source without url"); continue
         d = doi_of(url)
@@ -402,6 +406,8 @@ Rules (hard):
 - One card = one claim. Say who said it and when. Neutral wording, no loaded words.
 - EVERY sentence must be supported by a source you cited and opened in this session. No background facts from memory, no "noted in the literature", no claims about other people's work unless you cite that work too.
 - Attribute exactly: a quote from a preprint is the preprint's, not the journal version's; quote notation exactly as printed (or paraphrase without quotation marks). Do not state causal links ("so", "therefore") the source does not state.
+- If the claim is contested, add each side to contested_views as {{"label": "who holds it", "summary": "what they say and when", "status": "open|minority|refuted-by-source", "sources": [same source shape, verified]}}. Do not pick a winner the sources do not settle.
+- Count sources honestly: a whole government (all its ministries, agencies and officials) counts as ONE source, and the whole mainstream media counts as ONE source. Several of them agreeing is still one source.
 - If you cannot verify a primary source, output exactly {{"skip": "reason"}}.
 
 Your FINAL message must be exactly one JSON object and nothing else (no prose before or after, no markdown fence), with exactly these fields:
