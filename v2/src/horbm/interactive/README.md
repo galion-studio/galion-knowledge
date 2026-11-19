@@ -59,11 +59,40 @@ That writes `v2/src/horbm/horbm-layers-twoway.png` from `horbm.json`. Commit the
 
 CI does the same check. The HORBM diagram workflow validates `horbm.json`, runs the renderer tests, and, when the JSON, `diagram.js`, or `diagram.css` is newer than the PNG, renders the PNG and commits it. A merged pull request therefore updates both the image and the page. The page reads `horbm.json` on each load.
 
-## Live development
+## Build progress
 
-The page is read-only. It does not offer edit or propose links. The Live development panel lists recent commits and open or merged pull requests that touched the diagram: time, short SHA, title, the layers that changed, and a link to view the commit or pull request. Changed layers are highlighted, with an "updated … ago" badge.
+Each layer has a `build` object in `horbm.json`:
 
-The build writes `development.json` from git, and adds public pull requests when the GitHub API answers. The page then refreshes that public data in the browser. No token is used. The footer SHA is the same commit, shortened.
+- `percent` is an integer from 0 to 100.
+- `state` is `planned`, `in progress`, `done`, or `blocked`.
+- `agent` is the name of the agent working on that layer, or an empty string.
+- `pr` is the pull request number, or `null`.
+- `note` is a short status line, or an empty string.
+
+The page reads those fields as written. It does not recompute them from the chip statuses. Change them in a pull request when an agent starts, finishes, or blocks a layer. Bump `version` and `updated` in the same edit.
+
+The numbers shipped on 19 Nov 2026 are a starting snapshot, not a live formula. A Built chip counted as 100, an Accepted chip as 25, and Recommended or If needed as 0. The layer percent is the rounded mean of its chips. The state is `done` only when every chip is Built, `in progress` when at least one chip is Built, and `planned` otherwise. `blocked` is left for an agent to set. No agent or pull request was assigned in that snapshot. The overall percent is the rounded mean of the twelve layer percents. That overall number is 40.
+
+The public page at `/horbm/interactive/` shows only that overall percent, next to the Galion Labs credit and the short commit SHA. It does not list per-layer progress, agents, pull requests, or CI.
+
+## Owner progress view
+
+`/horbm/interactive/admin/` is a read-only board for the owner: each layer’s percent and state, the assigned agent and pull request, recent commits, open and merged pull requests that touched the diagram, and the latest public GitHub Actions runs. It also reads `horbm.json` from an open diagram pull request, when the public contents API answers, and shows a layer whose progress differs from the published file. The board loads baked `development.json` immediately, then refreshes the public GitHub data every 5 minutes. A Refresh button reads again. There is no token and no edit control.
+
+The public pages do not link to this path. The admin page sends `noindex, nofollow`. That hides it from search. It does not stop someone who knows the URL.
+
+### Cloudflare Access
+
+Turning on the gate is a separate step and needs the owner’s yes. This pull request does not enable it, and the repository has no Access token or policy.
+
+When the owner says yes, add a self-hosted Cloudflare Access application:
+
+1. In Cloudflare Zero Trust, open Access, then Applications, then Add an application, then Self-hosted.
+2. Set the application domain to `knowledge.galion.app` and the path to `horbm/interactive/admin`.
+3. Add one Allow policy whose Include rule is the owner’s email, or the owner’s identity group. Do not add a Bypass policy, an Everyone policy, or a service token in the site files.
+4. Leave the session length as the owner chooses. Access prompts for that identity before the HTML is served.
+
+Until that application exists, the path is still a public static file. Do not treat the unlinked URL as a secret.
 
 `fonts/HORBMSans-Variable.woff2` is a Latin subset of Inter under the SIL Open Font License (`fonts/OFL.txt`). The family is renamed because a subset is a modified font.
 

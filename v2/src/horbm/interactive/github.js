@@ -149,6 +149,18 @@ export function normalizeApiCommit(item) {
   };
 }
 
+export function normalizeRun(run) {
+  return {
+    name: run.name || run.context || "Check",
+    status: run.status || "",
+    conclusion: run.conclusion || run.state || "",
+    at: run.updated_at || run.created_at || "",
+    sha: shortSha(run.head_sha || ""),
+    url: run.html_url || run.target_url || "",
+    branch: run.head_branch || "",
+  };
+}
+
 export function normalizePull(item) {
   const state = item.merged_at ? "merged" : item.state;
   return {
@@ -179,16 +191,27 @@ export function mergeFeed(baked, apiCommits, apiPulls) {
     .filter((commit) => commit.sha)
     .sort((a, b) => Date.parse(b.at || 0) - Date.parse(a.at || 0))
     .slice(0, 12);
-  const pulls = [];
-  const seen = new Set();
+  const byNumber = new Map();
   const addPull = (pull) => {
-    if (!pull || pull.state === "closed" || seen.has(pull.number)) return;
-    seen.add(pull.number);
-    pulls.push(pull);
+    if (!pull || pull.state === "closed" || pull.number == null) return;
+    const previous = byNumber.get(pull.number);
+    if (!previous) {
+      byNumber.set(pull.number, { ...pull, layers: pull.layers || [], user: pull.user || "" });
+      return;
+    }
+    byNumber.set(pull.number, {
+      ...previous,
+      ...pull,
+      layers: (pull.layers && pull.layers.length) ? pull.layers : (previous.layers || []),
+      user: pull.user || previous.user || "",
+    });
   };
-  for (const pull of apiPulls || []) addPull(pull);
   for (const pull of (baked && baked.pulls) || []) addPull(pull);
-  for (const pull of pullsFromCommits(commits)) addPull(pull);
+  for (const pull of apiPulls || []) addPull(pull);
+  for (const pull of pullsFromCommits(commits)) {
+    if (!byNumber.has(pull.number)) addPull(pull);
+  }
+  const pulls = [...byNumber.values()];
   pulls.sort((a, b) => Date.parse(b.at || 0) - Date.parse(a.at || 0));
   const head = commits[0];
   return {

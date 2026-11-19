@@ -18,6 +18,8 @@ module.exports = function (eleventyConfig) {
     "src/horbm/horbm-layers-twoway.png": "horbm/horbm-layers-twoway.png",
   });
   eleventyConfig.addPassthroughCopy({ "src/horbm/interactive": "horbm/interactive" });
+  eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
+  eleventyConfig.addPassthroughCopy({ "src/site-headers": "_headers" });
   eleventyConfig.addWatchTarget("data/cards");
   eleventyConfig.addWatchTarget("shards");
   eleventyConfig.addWatchTarget("data/catalog.json");

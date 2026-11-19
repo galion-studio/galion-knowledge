@@ -4,16 +4,8 @@ import {
   layerPlainText,
   renderInner,
 } from "./diagram.js";
-import {
-  agoLabel,
-  commitUrl,
-  historyUrl,
-  isDiagramPull,
-  mergeFeed,
-  normalizeApiCommit,
-  normalizePull,
-  shortSha,
-} from "./github.js";
+import { commitUrl, historyUrl, shortSha } from "./github.js";
+import { overallPercent } from "./progress.js";
 
 const MIN_SCALE = 0.05;
 const MAX_SCALE = 4;
@@ -28,7 +20,6 @@ const toastEl = document.getElementById("toast");
 const state = { x: 0, y: 0, scale: 1 };
 let data = null;
 let query = "";
-let feed = null;
 let pinned = null;
 let hover = null;
 let userMoved = false;
@@ -532,35 +523,8 @@ function statusSummary(layer) {
   return labels.join(" · ");
 }
 
-function updatedAt(layerNumber) {
-  let best = "";
-  for (const commit of (feed && feed.commits) || []) {
-    if (!(commit.layers || []).map(String).includes(String(layerNumber))) continue;
-    if (!best || Date.parse(commit.at) > Date.parse(best)) best = commit.at;
-  }
-  return best;
-}
-
-function compactAgo(iso) {
-  const then = Date.parse(iso);
-  if (!Number.isFinite(then)) return "";
-  const minutes = Math.max(0, Math.round((Date.now() - then) / 60000));
-  if (minutes < 1) return "just now";
-  if (minutes < 60) return `${minutes}m ago`;
-  const hours = Math.round(minutes / 60);
-  if (hours < 48) return `${hours}h ago`;
-  const days = Math.round(hours / 24);
-  return `${days}d ago`;
-}
-
-function updatedNote(layerNumber) {
-  const at = updatedAt(layerNumber);
-  return at ? `updated ${agoLabel(at)}` : "";
-}
-
 function rowHtml(item) {
-  const note = updatedNote(item.layer.n);
-  return `<div class="layer-item"><button type="button" data-pick="${escapeHtml(item.layer.n)}"><b>${escapeHtml(item.layer.n)}. ${escapeHtml(item.layer.title)}</b><span class="meta">${escapeHtml(item.band)}${note ? ` · ${escapeHtml(note)}` : ""}</span></button></div>`;
+  return `<div class="layer-item"><button type="button" data-pick="${escapeHtml(item.layer.n)}"><b>${escapeHtml(item.layer.n)}. ${escapeHtml(item.layer.title)}</b><span class="meta">${escapeHtml(item.band)}</span></button></div>`;
 }
 
 function detailHtml(layer) {
@@ -568,8 +532,7 @@ function detailHtml(layer) {
     const label = data.statuses[chip.status] ? data.statuses[chip.status].label : chip.status;
     return `<li><b>${escapeHtml(chip.label)}</b> ${escapeHtml(chip.ref)}<span class="meta">${escapeHtml(label)}</span><p>${escapeHtml(chip.sub)}</p></li>`;
   }).join("");
-  const note = updatedNote(layer.n);
-  return `<div class="layer-detail"><h2>${escapeHtml(layer.n)}. ${escapeHtml(layer.title)}</h2><p>${escapeHtml(layer.purpose)}</p><p class="meta">${escapeHtml(statusSummary(layer))}${note ? ` · ${escapeHtml(note)}` : ""}</p><ul class="chip-list">${chips}</ul></div>`;
+  return `<div class="layer-detail"><h2>${escapeHtml(layer.n)}. ${escapeHtml(layer.title)}</h2><p>${escapeHtml(layer.purpose)}</p><p class="meta">${escapeHtml(statusSummary(layer))}</p><ul class="chip-list">${chips}</ul></div>`;
 }
 
 function renderInspector() {
@@ -608,81 +571,35 @@ function showCommit(sha) {
   link.textContent = short;
 }
 
-function renderLive(next) {
-  feed = next || { commits: [], pulls: [] };
-  const root = document.getElementById("live");
-  if (!root) return;
-  const commits = (feed.commits || []).slice(0, 8).map((commit) => {
-    const when = agoLabel(commit.at);
-    const layers = (commit.layers || []).map((n) => `layer ${n}`).join(", ");
-    const pr = commit.pr
-      ? `<a class="live-view" href="${escapeHtml(commit.prUrl || `https://github.com/galion-studio/galion-knowledge/pull/${commit.pr}`)}" target="_blank" rel="noopener noreferrer">View pull request</a>`
-      : "";
-    return `<li><span class="meta">${escapeHtml(when)} · ${escapeHtml(commit.short)}</span><a href="${escapeHtml(commit.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(commit.title)}</a>${layers ? `<span class="live-layers">${escapeHtml(layers)}</span>` : ""}${pr}</li>`;
-  }).join("");
-  const pulls = (feed.pulls || []).slice(0, 6).map((pull) => {
-    const label = pull.state === "merged" ? "Merged" : "Open";
-    return `<li><span class="meta">${escapeHtml(label)} · ${escapeHtml(agoLabel(pull.at))}</span><a href="${escapeHtml(pull.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(pull.title)}</a></li>`;
-  }).join("");
-  root.innerHTML = `<p class="live-note">Read-only. This follows the public repository as agents update the diagram.</p><ol class="live-list">${commits || "<li>No diagram commits yet.</li>"}</ol>${pulls ? `<p class="meta">Pull requests</p><ol class="live-list">${pulls}</ol>` : ""}`;
-  if (feed.version || feed.sha) showCommit(feed.version || feed.sha);
-  applyUpdateBadges();
-  renderInspector();
+function showOverall() {
+  const node = document.getElementById("overall");
+  if (!node || !data) return;
+  node.textContent = `HORBM ${overallPercent(data)}% complete`;
 }
 
-function refreshLiveTimes() {
-  if (!feed) return;
-  renderLive(feed);
-}
-
-function applyUpdateBadges() {
-  for (const node of capture.querySelectorAll(".updated-badge")) node.remove();
-  for (const node of capture.querySelectorAll(".lrow.is-updated")) node.classList.remove("is-updated");
-  if (!data) return;
-  for (const layer of data.bands.flatMap((band) => band.layers)) {
-    const note = updatedNote(layer.n);
-    if (!note) continue;
-    const row = document.getElementById(`layer-${layer.n}`);
-    if (!row) continue;
-    row.classList.add("is-updated");
-    const badge = document.createElement("span");
-    badge.className = "updated-badge";
-    badge.textContent = `updated ${compactAgo(updatedAt(layer.n))}`;
-    const pills = row.querySelector(".lpills");
-    if (pills) pills.appendChild(badge);
-    else (row.querySelector(".head") || row).appendChild(badge);
-  }
-}
-
-async function loadLive() {
+async function loadCommit() {
   const history = document.getElementById("history-link");
   history.href = historyUrl();
-  let baked = { commits: [], pulls: [] };
   try {
-    const response = await fetch(new URL("development.json", import.meta.url), { cache: "no-cache" });
-    if (response.ok) baked = await response.json();
+    const response = await fetch(new URL("build.json", import.meta.url), { cache: "no-cache" });
+    if (response.ok) {
+      const baked = await response.json();
+      if (baked && baked.sha) showCommit(baked.sha);
+    }
   } catch {
-    baked = { commits: [], pulls: [] };
+    /* the public commit lookup below still runs */
   }
-  renderLive(baked);
-  const headers = { Accept: "application/vnd.github+json" };
   try {
-    const [commitResponse, openResponse] = await Promise.all([
-      fetch("https://api.github.com/repos/galion-studio/galion-knowledge/commits?path=v2/src/horbm/interactive/horbm.json&sha=master&per_page=8", { headers }),
-      fetch("https://api.github.com/repos/galion-studio/galion-knowledge/pulls?state=open&sort=updated&direction=desc&per_page=20", { headers }),
-    ]);
-    const apiCommits = commitResponse.ok ? (await commitResponse.json()).map(normalizeApiCommit) : [];
-    const known = new Set(((baked && baked.pulls) || []).map((pull) => pull.number));
-    const pulls = openResponse.ok
-      ? (await openResponse.json())
-        .filter((item) => known.has(item.number) || isDiagramPull(item))
-        .map(normalizePull)
-      : [];
-    const merged = mergeFeed(baked, apiCommits, pulls);
-    if (apiCommits[0] && apiCommits[0].sha) merged.version = apiCommits[0].sha;
-    renderLive(merged);
+    const response = await fetch(
+      "https://api.github.com/repos/galion-studio/galion-knowledge/commits?path=v2/src/horbm/interactive/horbm.json&sha=master&per_page=1",
+      { headers: { Accept: "application/vnd.github+json" } },
+    );
+    if (!response.ok) return;
+    const commits = await response.json();
+    const sha = commits && commits[0] && commits[0].sha;
+    if (sha) showCommit(sha);
   } catch {
-    /* the baked feed stays */
+    /* the baked commit stays */
   }
 }
 
@@ -732,11 +649,7 @@ function drawMinimap() {
   const origin = world.getBoundingClientRect();
   for (const node of capture.querySelectorAll(".lrow, .step")) {
     const rect = node.getBoundingClientRect();
-    ctx.fillStyle = node.classList.contains("is-hot")
-      ? "#58c4ff"
-      : node.classList.contains("is-updated")
-        ? "#f2a93b"
-        : "#1f4670";
+    ctx.fillStyle = node.classList.contains("is-hot") ? "#58c4ff" : "#1f4670";
     ctx.fillRect(
       ((rect.left - origin.left) / state.scale) * scale,
       ((rect.top - origin.top) / state.scale) * scale,
@@ -773,9 +686,9 @@ async function start() {
     document.title = data.title;
     if (document.fonts && document.fonts.ready) await document.fonts.ready;
     fit();
+    showOverall();
     updatePicked();
-    loadLive();
-    setInterval(refreshLiveTimes, 60000);
+    loadCommit();
     const id = hashLayer();
     if (id && knownLayer(id)) setPinned(id, { pan: true, replaceHash: false });
   } catch (error) {

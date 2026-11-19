@@ -1,7 +1,7 @@
 {
   "$schema": "./horbm.schema.json",
-  "version": "1.1.0",
-  "updated": "2026-11-19T18:00:00+01:00",
+  "version": "1.2.0",
+  "updated": "2026-11-19T18:54:00+01:00",
   "updatedLabel": "19 Nov 2026, Europe/Zagreb",
   "kicker": "Galion Labs · HORBM",
   "title": "HORBM layered architecture: one turn, both ways",
@@ -455,6 +455,13 @@
           "n": "0",
           "title": "North star",
           "purpose": "A conversationalist first, grounded in sourced truth",
+          "build": {
+            "percent": 25,
+            "state": "planned",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 4,
           "chips": [
             {
@@ -489,6 +496,13 @@
           "n": "1",
           "title": "Voice and senses",
           "purpose": "Galion Voice, full duplex: it hears while it speaks",
+          "build": {
+            "percent": 38,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -533,6 +547,13 @@
           "n": "2",
           "title": "Persona and inner life",
           "purpose": "Who it is, every turn",
+          "build": {
+            "percent": 38,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -577,6 +598,13 @@
           "n": "3",
           "title": "Empathy",
           "purpose": "Understand the person, then answer with care",
+          "build": {
+            "percent": 25,
+            "state": "planned",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -621,6 +649,13 @@
           "n": "4",
           "title": "Dialogue manager and policy",
           "purpose": "Decide the next move and keep the talk alive",
+          "build": {
+            "percent": 38,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -665,6 +700,13 @@
           "n": "5",
           "title": "Core chat engine",
           "purpose": "Find candidates, rank them, build the reply",
+          "build": {
+            "percent": 50,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -709,6 +751,13 @@
           "n": "6",
           "title": "Skills",
           "purpose": "Things it can do beyond talk",
+          "build": {
+            "percent": 38,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -758,6 +807,13 @@
           "n": "7",
           "title": "Memory and relationship",
           "purpose": "Remembers you, and never rewrites the past",
+          "build": {
+            "percent": 63,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -802,6 +858,13 @@
           "n": "8",
           "title": "Knowledge and truth",
           "purpose": "Sourced cards the talk is grounded in",
+          "build": {
+            "percent": 75,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -851,6 +914,13 @@
           "n": "9",
           "title": "Safety and ethics",
           "purpose": "Lines it never crosses",
+          "build": {
+            "percent": 25,
+            "state": "planned",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -895,6 +965,13 @@
           "n": "10",
           "title": "Evals and metrics",
           "purpose": "How we know it is a good conversationalist",
+          "build": {
+            "percent": 25,
+            "state": "planned",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {
@@ -944,6 +1021,13 @@
           "n": "11",
           "title": "Machines and infrastructure",
           "purpose": "Rust, Linux, CPU first",
+          "build": {
+            "percent": 38,
+            "state": "in progress",
+            "agent": "",
+            "pr": null,
+            "note": ""
+          },
           "columns": 3,
           "chips": [
             {

@@ -37,10 +37,10 @@ function gitQuiet(args) {
 }
 
 export function commitsFromGit() {
-  const raw = git(["log", "-12", `--format=%H%x1f%cI%x1f%s`, "--", ...paths]).trim();
+  const raw = git(["log", "-12", `--format=%H%x1f%cI%x1f%an%x1f%s`, "--", ...paths]).trim();
   if (!raw) return [];
   return raw.split("\n").filter(Boolean).map((row) => {
-    const [sha, at, title] = row.split("\x1f");
+    const [sha, at, author, title] = row.split("\x1f");
     const file = gitQuiet(["show", `${sha}:${diagramFile}`]);
     const diff = gitQuiet(["diff", `${sha}^`, sha, "--", diagramFile]);
     const pr = pullNumber(title);
@@ -49,6 +49,7 @@ export function commitsFromGit() {
       short: shortSha(sha),
       at,
       title,
+      author: author || "",
       url: commitUrl(sha),
       pr,
       prUrl: pr ? pullUrl(pr) : "",
@@ -74,10 +75,24 @@ async function openDiagramPulls() {
       { headers, signal: AbortSignal.timeout(8000) },
     );
     if (!files.ok) continue;
-    if (!touchesDiagram(await files.json())) continue;
+    const fileList = await files.json();
+    if (!touchesDiagram(fileList)) continue;
     const pull = normalizePull(item);
     if (pull.state === "closed") continue;
-    pulls.push(pull);
+    const patch = fileList
+      .filter((file) => file.filename === diagramFile)
+      .map((file) => file.patch || "")
+      .join("\n");
+    let layers = [];
+    const sha = item.head && item.head.sha;
+    if (patch && sha) {
+      const raw = await fetch(`https://raw.githubusercontent.com/${REPO}/${sha}/${diagramFile}`, {
+        headers,
+        signal: AbortSignal.timeout(8000),
+      });
+      if (raw.ok) layers = layersTouchedByDiff(patch, await raw.text());
+    }
+    pulls.push({ ...pull, user: (item.user && item.user.login) || "", layers });
   }
   return pulls;
 }

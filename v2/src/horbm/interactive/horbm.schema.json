@@ -253,6 +253,19 @@
         }
       ]
     },
+    "build": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Build progress for this layer. Agents change these fields in a pull request. The page reads them as written and does not recompute them from chip statuses.",
+      "required": ["percent", "state", "agent", "pr", "note"],
+      "properties": {
+        "percent": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "state": { "enum": ["planned", "in progress", "done", "blocked"] },
+        "agent": { "type": "string" },
+        "pr": { "type": ["integer", "null"], "minimum": 1 },
+        "note": { "type": "string" }
+      }
+    },
     "chip": {
       "type": "object",
       "additionalProperties": false,
@@ -267,11 +280,12 @@
     "layer": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["n", "title", "purpose", "columns", "chips"],
+      "required": ["n", "title", "purpose", "build", "columns", "chips"],
       "properties": {
         "n": { "type": "string", "pattern": "^[0-9]+$" },
         "title": { "type": "string", "minLength": 1 },
         "purpose": { "type": "string", "minLength": 1 },
+        "build": { "$ref": "#/$defs/build" },
         "columns": { "type": "integer", "minimum": 1, "maximum": 6 },
         "guide": { "type": "boolean" },
         "guideLabel": { "type": "string", "minLength": 1 },

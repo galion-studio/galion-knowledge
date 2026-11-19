@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>HORBM build progress</title>
+<link rel="icon" href="/assets/favicon.svg">
+<link rel="preload" href="../fonts/HORBMSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<main class="sheet">
+  <header class="top">
+    <div>
+      <p class="kicker">Galion Labs · owner view</p>
+      <h1>HORBM build progress</h1>
+    </div>
+    <div class="actions">
+      <p id="stamp" class="stamp">Loading</p>
+      <button type="button" id="refresh">Refresh</button>
+    </div>
+  </header>
+  <p class="notice">Read-only. Progress numbers come from <code>horbm.json</code>. Commits, pull requests, and CI come from the public GitHub repository. This page is not linked from the public site. Cloudflare Access is not turned on by this repository; until that gate is enabled, anyone who knows this path can open it.</p>
+  <section class="summary" aria-label="Overall progress">
+    <p class="big"><span id="overall">…</span><small>% complete</small></p>
+    <ul id="counts" class="counts"></ul>
+    <div id="heads" class="heads"></div>
+  </section>
+  <section>
+    <h2>Layers</h2>
+    <div id="layers"></div>
+  </section>
+  <section>
+    <h2>Continuous integration</h2>
+    <div id="checks"></div>
+  </section>
+  <section>
+    <h2>Recent commits</h2>
+    <div id="commits"></div>
+  </section>
+  <section>
+    <h2>Pull requests</h2>
+    <div id="pulls"></div>
+  </section>
+  <p class="foot"><a href="../">Public diagram</a> · Galion Labs · MIT License</p>
+</main>
+<script type="module" src="admin.js"></script>
+</body>
+</html>
