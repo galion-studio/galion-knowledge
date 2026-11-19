@@ -1,4 +1,4 @@
-// Public GitHub links for the diagram. No token and no private data.
+// Read-only public GitHub facts for the diagram. No token and no private data.
 
 export const REPO = "galion-studio/galion-knowledge";
 export const FILE = "v2/src/horbm/interactive/horbm.json";
@@ -30,43 +30,172 @@ export function layerLineIndex(text) {
   return index;
 }
 
-export function editUrl(span) {
-  const base = `${ROOT}/blob/master/${FILE}`;
-  if (!span) return base;
-  const mark = span.start === span.end ? `L${span.start}` : `L${span.start}-L${span.end}`;
-  return `${base}#${mark}`;
+export function layersTouchedByDiff(diff, fileText) {
+  const spans = Object.entries(layerLineIndex(fileText)).map(([n, span]) => ({ n, ...span }));
+  const changed = new Set();
+  let newLine = 0;
+  const mark = (lineNo) => {
+    for (const span of spans) {
+      if (lineNo >= span.start && lineNo <= span.end) changed.add(span.n);
+    }
+  };
+  for (const line of String(diff).split("\n")) {
+    const hunk = line.match(/^@@ -\d+(?:,\d+)? \+(\d+)(?:,\d+)? @@/);
+    if (hunk) {
+      newLine = Number(hunk[1]);
+      continue;
+    }
+    if (line.startsWith("+++") || line.startsWith("---") || line.startsWith("diff ") || line.startsWith("index ")) {
+      continue;
+    }
+    if (line.startsWith("+")) {
+      mark(newLine);
+      const id = line.match(/"n": "(\d+)"/);
+      if (id) changed.add(id[1]);
+      newLine += 1;
+    } else if (line.startsWith("-")) {
+      const id = line.match(/"n": "(\d+)"/);
+      if (id) changed.add(id[1]);
+    } else if (!line.startsWith("\\")) {
+      newLine += 1;
+    }
+  }
+  return [...changed].sort((a, b) => Number(a) - Number(b));
 }
 
 export function historyUrl() {
   return `${ROOT}/commits/master/${FILE}`;
 }
 
-export function pullsUrl() {
-  return `${ROOT}/pulls?q=${encodeURIComponent("is:pr horbm.json")}`;
-}
-
 export function commitUrl(sha) {
   return `${ROOT}/commit/${sha}`;
+}
+
+export function pullUrl(number) {
+  return `${ROOT}/pull/${number}`;
 }
 
 export function shortSha(sha) {
   return String(sha || "").slice(0, 7);
 }
 
-export function proposeUrl(layer) {
-  const title = layer
-    ? `HORBM diagram: change layer ${layer.n}`
-    : "HORBM diagram: proposed change";
-  const where = layer ? `Layer ${layer.n}. ${layer.title}` : "The whole diagram";
-  const body = [
-    where,
-    "",
-    "What should change:",
-    "",
-    "",
-    `File: ${FILE}`,
-    "Edit that file in a pull request. CI checks the JSON and regenerates the PNG.",
-  ].join("\n");
-  const params = new URLSearchParams({ title, body });
-  return `${ROOT}/issues/new?${params.toString()}`;
+export function pullNumber(title) {
+  const match = String(title || "").match(/\(#(\d+)\)\s*$/);
+  return match ? Number(match[1]) : null;
+}
+
+export function agoLabel(iso, now = Date.now()) {
+  const then = Date.parse(iso);
+  if (!Number.isFinite(then)) return "";
+  const minutes = Math.max(0, Math.round((now - then) / 60000));
+  if (minutes < 1) return "just now";
+  if (minutes < 60) return `${minutes} minute${minutes === 1 ? "" : "s"} ago`;
+  const hours = Math.round(minutes / 60);
+  if (hours < 24) return `${hours} hour${hours === 1 ? "" : "s"} ago`;
+  const days = Math.round(hours / 24);
+  if (days < 30) return `${days} day${days === 1 ? "" : "s"} ago`;
+  return new Date(then).toISOString().slice(0, 10);
+}
+
+const DIAGRAM_PATHS = [
+  "v2/src/horbm/",
+  "v2/tools/horbm-diagram/",
+  ".github/workflows/horbm-diagram.yml",
+];
+
+export function touchesDiagram(files) {
+  return (files || []).some((file) => {
+    const name = typeof file === "string" ? file : file.filename;
+    return DIAGRAM_PATHS.some((prefix) => name === prefix || String(name || "").startsWith(prefix));
+  });
+}
+
+export function isDiagramPull(pull) {
+  const text = `${pull.title || ""}\n${pull.body || ""}`.toLowerCase();
+  return text.includes("horbm.json")
+    || text.includes("interactive diagram")
+    || text.includes("/horbm/interactive");
+}
+
+export function pullsFromCommits(commits) {
+  const pulls = [];
+  const seen = new Set();
+  for (const commit of commits || []) {
+    if (!commit.pr || seen.has(commit.pr)) continue;
+    seen.add(commit.pr);
+    pulls.push({
+      number: commit.pr,
+      title: String(commit.title || "").replace(/\s*\(#\d+\)\s*$/, ""),
+      state: "merged",
+      at: commit.at || "",
+      url: commit.prUrl || pullUrl(commit.pr),
+    });
+  }
+  return pulls;
+}
+
+export function normalizeApiCommit(item) {
+  const sha = item.sha || "";
+  const title = String((item.commit && item.commit.message) || "").split("\n")[0];
+  const at = item.commit && item.commit.committer && item.commit.committer.date;
+  return {
+    sha,
+    short: shortSha(sha),
+    at: at || "",
+    title,
+    url: commitUrl(sha),
+    pr: pullNumber(title),
+    layers: [],
+  };
+}
+
+export function normalizePull(item) {
+  const state = item.merged_at ? "merged" : item.state;
+  return {
+    number: item.number,
+    title: item.title,
+    state,
+    at: item.merged_at || item.updated_at || item.created_at || "",
+    url: item.html_url || pullUrl(item.number),
+  };
+}
+
+export function mergeFeed(baked, apiCommits, apiPulls) {
+  const bySha = new Map();
+  for (const commit of (baked && baked.commits) || []) bySha.set(commit.sha, { ...commit });
+  for (const commit of apiCommits || []) {
+    const existing = bySha.get(commit.sha);
+    if (existing) {
+      bySha.set(commit.sha, {
+        ...commit,
+        layers: existing.layers || [],
+        pr: existing.pr || commit.pr,
+      });
+    } else {
+      bySha.set(commit.sha, commit);
+    }
+  }
+  const commits = [...bySha.values()]
+    .filter((commit) => commit.sha)
+    .sort((a, b) => Date.parse(b.at || 0) - Date.parse(a.at || 0))
+    .slice(0, 12);
+  const pulls = [];
+  const seen = new Set();
+  const addPull = (pull) => {
+    if (!pull || pull.state === "closed" || seen.has(pull.number)) return;
+    seen.add(pull.number);
+    pulls.push(pull);
+  };
+  for (const pull of apiPulls || []) addPull(pull);
+  for (const pull of (baked && baked.pulls) || []) addPull(pull);
+  for (const pull of pullsFromCommits(commits)) addPull(pull);
+  pulls.sort((a, b) => Date.parse(b.at || 0) - Date.parse(a.at || 0));
+  const head = commits[0];
+  return {
+    sha: head ? head.sha : (baked && baked.sha) || "",
+    short: head ? head.short : (baked && baked.short) || "",
+    committed: head ? head.at : (baked && baked.committed) || "",
+    commits,
+    pulls: pulls.slice(0, 8),
+  };
 }

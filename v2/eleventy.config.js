@@ -122,6 +122,10 @@ module.exports = function (eleventyConfig) {
       repo: "galion-studio/galion-knowledge",
       file,
     })}\n`);
+    execFileSync(process.execPath, [
+      path.join(repoRoot, "v2/tools/horbm-diagram/write-development.mjs"),
+      path.dirname(dest),
+    ], { cwd: repoRoot, stdio: "inherit", timeout: 20000 });
   });
 
   eleventyConfig.addFilter("searchIndex", (cards) =>

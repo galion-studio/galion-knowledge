@@ -37,7 +37,7 @@ The check fails when the JSON does not match the schema, a step points at a miss
 The renderer check does not need Rust:
 
 ```bash
-node --test v2/tools/horbm-diagram/render.test.mjs
+node --test v2/tools/horbm-diagram/render.test.mjs v2/tools/horbm-diagram/github.test.mjs
 ```
 
 Build the site from `v2/`:
@@ -59,9 +59,11 @@ That writes `v2/src/horbm/horbm-layers-twoway.png` from `horbm.json`. Commit the
 
 CI does the same check. The HORBM diagram workflow validates `horbm.json`, runs the renderer tests, and, when the JSON, `diagram.js`, or `diagram.css` is newer than the PNG, renders the PNG and commits it. A merged pull request therefore updates both the image and the page. The page reads `horbm.json` on each load.
 
-## GitHub links on the page
+## Live development
 
-Each layer has an Edit on GitHub link to its lines in `horbm.json`. The page footer shows the short commit SHA (baked at build time into `build.json`, then refreshed from the public commit list), a History link to the commits for that file, and Propose a change, which opens a prefilled issue. The links are public. The page has no token.
+The page is read-only. It does not offer edit or propose links. The Live development panel lists recent commits and open or merged pull requests that touched the diagram: time, short SHA, title, the layers that changed, and a link to view the commit or pull request. Changed layers are highlighted, with an "updated … ago" badge.
+
+The build writes `development.json` from git, and adds public pull requests when the GitHub API answers. The page then refreshes that public data in the browser. No token is used. The footer SHA is the same commit, shortened.
 
 `fonts/HORBMSans-Variable.woff2` is a Latin subset of Inter under the SIL Open Font License (`fonts/OFL.txt`). The family is renamed because a subset is a modified font.
 
