@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.nasa-gistemp-2025",
+  "slug": "nasa-gistemp-2025",
+  "title": "NASA GISS: 2024 remains the hottest year in its record; 2025 was 1.19 °C above 1951–1980",
+  "section": "world",
+  "category": "climate",
+  "summary": "The vital-signs page gives the 2025 anomaly against the 1951–1980 baseline and says records begin in 1880.",
+  "body": "NASA's global-temperature vital-signs page, fetched 18 November 2026, says record-keeping in this analysis begins in 1880, that the hottest year on record remains 2024, and that global temperatures in 2025 were 2.14 degrees Fahrenheit (1.19 degrees Celsius) above the 1951–1980 average. These numbers are baseline-specific. They are not the same as an anomaly versus 1850–1900. They will be updated. The as-of date is the day the page was read, not a claim that 2025 is the last year that will ever be measured.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Global Temperature",
+      "url": "https://climate.nasa.gov/vital-signs/global-temperature/",
+      "author": "NASA Goddard Institute for Space Studies",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA GISS",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.noaa-2024-temperature",
+    "world.nasa-warming-attribution"
+  ],
+  "tags": [
+    "climate",
+    "temperature",
+    "data"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "9",
+    "v1_slug": "climate-change",
+    "v1_category": "nature",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

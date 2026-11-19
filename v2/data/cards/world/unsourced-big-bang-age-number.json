@@ -1,0 +1,31 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-big-bang-age-number",
+  "slug": "unsourced-big-bang-age-number",
+  "title": "The figure 13.8 billion years is not copied here",
+  "section": "world",
+  "category": "cosmology",
+  "summary": "A common age of the universe was in the v1 article. It was not in the Planck abstract we read.",
+  "body": "The v1 Big Bang article said the universe expanded from a hot dense state about 13.8 billion years ago, and it gave light-element percentages and a minute-by-minute timeline. The Planck 2018 abstract we read states consistency with flat ΛCDM and does not include the age numeral. Until a table is opened and the number is copied from it, the 13.8 billion year figure and the timeline numerals stay unsourced. Do not invent them.",
+  "claim_type": "fact",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.planck-2018-lcdm"
+  ],
+  "tags": [
+    "cosmology",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "31",
+    "v1_slug": "big-bang",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.four-noble-truths-sutta",
+  "slug": "four-noble-truths-sutta",
+  "title": "The Four Noble Truths in the Dhammacakkappavattana Sutta",
+  "section": "world",
+  "category": "religion",
+  "summary": "Thanissaro Bhikkhu's translation presents the truths as the Buddha's first discourse in the Pali Canon.",
+  "body": "Access to Insight publishes Thanissaro Bhikkhu's translation of the Dhammacakkappavattana Sutta (Samyutta Nikaya 56.11). The site's header says the sutta contains the Four Noble Truths and the Noble Eightfold Path. The translation we read states the origination truth as craving that makes for further becoming. This is a canonical Buddhist text in one English translation, from the Pali tradition. It is not a contemporary biography, and Mahayana and Vajrayana developments are not this sutta. The v1 survey of those traditions was not given a second source.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Dhammacakkappavattana Sutta: Setting the Wheel of Dhamma in Motion",
+      "url": "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+      "author": "translated by Thanissaro Bhikkhu",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "A translation of a canonical sutta, not a claim about the Buddha's birth year."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Pali Canon, Samyutta Nikaya 56.11, Thanissaro Bhikkhu translation",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.buddha-sep",
+    "world.unsourced-buddha-birth-year"
+  ],
+  "tags": [
+    "religion",
+    "buddhism"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "35",
+    "v1_slug": "buddhism",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

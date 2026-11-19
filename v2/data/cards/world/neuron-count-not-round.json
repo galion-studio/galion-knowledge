@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.neuron-count-not-round",
+  "slug": "neuron-count-not-round",
+  "title": "The round number '100 billion neurons' is what Herculano-Houzel argued against",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Her 2009 paper treats 100 billion neurons as a purported figure and applies a counting method.",
+  "body": "Suzana Herculano-Houzel, \"The human brain in numbers: a linearly scaled-up primate brain\" (Frontiers in Human Neuroscience, 2009), opens by noting the claim of a human cerebral cortex purportedly containing 100 billion neurons. The paper's point is that this round number was not a careful count, and that a different method was used to count cells. The v1 article says approximately 86 billion neurons. That newer figure is widely associated with this author, but it was not in the portion of the page we read, and Crossref had no abstract. Do not store 86 billion as a sourced number on this card. Store the negative result we did read: the round 100 billion was the claim under challenge.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The human brain in numbers: a linearly scaled-up primate brain",
+      "url": "https://doi.org/10.3389/neuro.09.031.2009",
+      "author": "Suzana Herculano-Houzel",
+      "date": "2009",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Suzana Herculano-Houzel",
+  "as_of_date": "2009",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.brain-regions-ninds",
+    "world.unsourced-brain-slogan"
+  ],
+  "tags": [
+    "medicine",
+    "brain",
+    "numbers"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "20",
+    "v1_slug": "human-brain",
+    "v1_category": "medicine",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

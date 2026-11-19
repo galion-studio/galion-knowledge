@@ -1,0 +1,34 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.asa-p-values-2016",
+  "slug": "asa-p-values-2016",
+  "title": "The American Statistical Association's 2016 statement on p-values",
+  "section": "world",
+  "category": "method",
+  "summary": "Wasserstein and Lazar published the ASA's warning about how p-values are used.",
+  "body": "Ronald L. Wasserstein and Nicole A. Lazar, \"The ASA Statement on p-Values: Context, Process, and Purpose\" (The American Statistician, 2016), is the association's public statement. A p-value is not the probability that a hypothesis is true, and a threshold such as 0.05 is a convention. The statement exists because those misreadings were common. This card records the document. It does not retype the six principles from memory.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The ASA Statement on p-Values: Context, Process, and Purpose",
+      "url": "https://doi.org/10.1080/00031305.2016.1154108",
+      "author": "Ronald L. Wasserstein and Nicole A. Lazar",
+      "date": "2016",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "American Statistical Association (Wasserstein and Lazar)",
+  "as_of_date": "2016",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.replication-psychology-2015",
+    "world.scientific-method-no-single-toolkit"
+  ],
+  "tags": [
+    "method",
+    "statistics"
+  ],
+  "read_time_min": 1
+}

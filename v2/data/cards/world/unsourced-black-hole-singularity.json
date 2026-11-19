@@ -1,0 +1,32 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-black-hole-singularity",
+  "slug": "unsourced-black-hole-singularity",
+  "title": "'Infinite density' at the center is not an observation",
+  "section": "world",
+  "category": "physics",
+  "summary": "The v1 article states a singularity of infinite density as a feature. That is a statement about where classical general relativity breaks down.",
+  "body": "The v1 article said the center of a black hole compresses matter to infinite density and that current physics breaks down there. The second half is the careful claim; the first half states a mathematical idealization as if it were a measured density. No source opened here reports an observed infinite density. Treat the sentence as unsourced interpretation until it is tied to a relativity text that distinguishes the singularity theorem from an instrument reading.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.black-hole-nasa",
+    "world.general-relativity-1916"
+  ],
+  "tags": [
+    "physics",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "11",
+    "v1_slug": "black-holes",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

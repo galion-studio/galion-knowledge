@@ -1,0 +1,42 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.declaration-independence",
+  "slug": "declaration-independence",
+  "title": "The Declaration of Independence's rights sentence",
+  "section": "world",
+  "category": "law",
+  "summary": "The National Archives transcript says the rights named include life, liberty, and the pursuit of happiness.",
+  "body": "The U.S. National Archives transcript of the Declaration of Independence is dated in Congress, 4 July 1776. The text says the truths are held to be self-evident, that all men are created equal, and that they are endowed with unalienable rights including life, liberty, and the pursuit of happiness, and that governments derive their just powers from the consent of the governed. This is what the document says. It is not a description of who was free in the colonies in 1776. Enslaved people were excluded in practice. The later Thirteenth Amendment and Emancipation Proclamation are separate documents. Jefferson's \"pursuit of happiness\" is not Locke's \"property\" even when the tradition is related.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Declaration of Independence transcript",
+      "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "author": "Continental Congress, transcript by the U.S. National Archives",
+      "date": "1776-07-04",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Continental Congress",
+  "as_of_date": "1776-07-04",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.french-declaration-1789",
+    "world.natural-law-sep",
+    "world.thirteenth-amendment"
+  ],
+  "tags": [
+    "law",
+    "rights",
+    "united-states"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "33",
+    "v1_slug": "natural-rights",
+    "v1_category": "law",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

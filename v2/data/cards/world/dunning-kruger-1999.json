@@ -1,0 +1,57 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.dunning-kruger-1999",
+  "slug": "dunning-kruger-1999",
+  "title": "Kruger and Dunning's 1999 paper, and the later argument about statistics",
+  "section": "world",
+  "category": "psychology",
+  "summary": "The original paper reports overconfidence among low performers. Later work has asked how much of the pattern is a statistical artifact.",
+  "body": "Justin Kruger and David Dunning, \"Unskilled and unaware of it: How difficulties in recognizing one's own incompetence lead to inflated self-assessments\" (Journal of Personality and Social Psychology, 1999), reported that people who scored low on certain tests overestimated their performance the most. The v1 article states that pattern as a fact about metacognition. Later papers have argued that part of the pattern can appear from regression and from noisy self-estimates even without a special metacognitive deficit. A specific critique was not opened, so that side is named and not quoted. The original claim stays tied to the 1999 paper. The interpretation is not settled.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Unskilled and unaware of it",
+      "url": "https://doi.org/10.1037/0022-3514.77.6.1121",
+      "author": "Justin Kruger and David Dunning",
+      "date": "1999",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Justin Kruger and David Dunning",
+  "as_of_date": "1999",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Kruger and Dunning 1999",
+      "summary": "Low performers overestimated themselves most, which the authors tied to a metacognitive deficit.",
+      "sources": [
+        {
+          "title": "Unskilled and unaware of it",
+          "url": "https://doi.org/10.1037/0022-3514.77.6.1121",
+          "author": "Justin Kruger and David Dunning",
+          "date": "1999",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "label": "Statistical-artifact critiques",
+      "summary": "Later methodological papers argue the graph can arise without that deficit. Those papers were not opened in this pass and need their own citations before they are quoted."
+    }
+  ],
+  "related": [
+    "world.heuristics-1974"
+  ],
+  "tags": [
+    "psychology",
+    "not-settled"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "29",
+    "v1_slug": "cognitive-biases",
+    "v1_category": "society",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

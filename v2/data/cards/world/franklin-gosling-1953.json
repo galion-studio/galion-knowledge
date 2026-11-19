@@ -1,0 +1,40 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.franklin-gosling-1953",
+  "slug": "franklin-gosling-1953",
+  "title": "Franklin and Gosling's 1953 diffraction paper",
+  "section": "world",
+  "category": "biology",
+  "summary": "Their Nature paper reports the molecular configuration of sodium thymonucleate from X-ray data.",
+  "body": "Rosalind E. Franklin and R. G. Gosling, \"Molecular Configuration in Sodium Thymonucleate\" (Nature, 25 April 1953), published the diffraction evidence alongside the Watson-Crick structure paper. Franklin's work is a paper in the same issue, not a footnote. This card does not retell the personal history beyond what the publication record shows.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Molecular Configuration in Sodium Thymonucleate",
+      "url": "https://doi.org/10.1038/171740a0",
+      "author": "Rosalind E. Franklin and R. G. Gosling",
+      "date": "1953-04-25",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Rosalind E. Franklin and R. G. Gosling",
+  "as_of_date": "1953-04-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.watson-crick-1953",
+    "world.wilkins-1953"
+  ],
+  "tags": [
+    "biology",
+    "dna"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "8",
+    "v1_slug": "dna-genetics",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

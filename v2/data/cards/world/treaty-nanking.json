@@ -1,0 +1,35 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.treaty-nanking",
+  "slug": "treaty-nanking",
+  "title": "The Treaty of Nanking, 1842, including the opium indemnity",
+  "section": "world",
+  "category": "history",
+  "summary": "The treaty text records a payment for the opium seized at Canton and the cession arrangements Britain imposed.",
+  "body": "Wikisource's Treaty of Nanking (1842) is the peace treaty after the first Opium War. The text includes a Chinese agreement to pay six million dollars as the value of opium delivered up at Canton in March 1839. Ratifications were exchanged in Hong Kong on 26 June 1843, according to the transcription's header. The treaty is the British-imposed settlement. Chinese and British accounts of the war emphasize different grievances: confiscated opium and sovereignty on one side, trade and diplomatic status on the other. The text itself shows that opium was not a side issue in the indemnity. A full military history of the war was not opened.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Treaty of Nanking",
+      "url": "https://en.wikisource.org/wiki/Treaty_of_Nanking",
+      "author": "Great Britain and the Qing Empire",
+      "date": "1842",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "the British and Qing signatories",
+  "as_of_date": "1842",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.treaty-versailles"
+  ],
+  "tags": [
+    "history",
+    "china",
+    "britain",
+    "opium"
+  ],
+  "read_time_min": 1
+}

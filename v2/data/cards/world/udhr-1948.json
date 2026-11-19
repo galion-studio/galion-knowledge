@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.udhr-1948",
+  "slug": "udhr-1948",
+  "title": "The Universal Declaration was proclaimed on 10 December 1948",
+  "section": "world",
+  "category": "law",
+  "summary": "The UN says the General Assembly proclaimed it in Paris as resolution 217 A, a common standard, not a statute recited here article by article.",
+  "body": "The United Nations says the Universal Declaration of Human Rights was proclaimed by the General Assembly in Paris on 10 December 1948 as resolution 217 A, as a common standard of achievement for all peoples and all nations. The v1 article's article-by-article list (life, slavery, torture, asylum, expression, work, education) tracks the declaration's structure. This card records the act of proclamation and the date. It does not decide which articles have become customary law. Eleanor Roosevelt's chairing of the drafting commission is widely stated and was not on the sentence we lifted, so it is not added.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Universal Declaration of Human Rights",
+      "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+      "author": "United Nations",
+      "date": "1948-12-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "United Nations General Assembly",
+  "as_of_date": "1948-12-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.genocide-convention",
+    "world.unsourced-udhr-legal-status",
+    "world.declaration-independence"
+  ],
+  "tags": [
+    "law",
+    "human-rights"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "4",
+    "v1_slug": "human-rights-declaration",
+    "v1_category": "law",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

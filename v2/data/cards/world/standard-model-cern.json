@@ -1,0 +1,34 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.standard-model-cern",
+  "slug": "standard-model-cern",
+  "title": "CERN's account of the Standard Model",
+  "section": "world",
+  "category": "physics",
+  "summary": "CERN describes matter as quarks and leptons, six of each, interacting by four forces, with the Higgs among the theory's particles.",
+  "body": "CERN's Standard Model page says the theories of thousands of physicists describe how the basic building blocks of matter interact, governed by four fundamental forces. It says those particles occur as quarks and leptons, each group consisting of six particles in three generations, and it lists the Higgs boson among key achievements. This is an institutional summary of the theory, current as of the page fetched on 18 November 2026. It is not a claim that gravity is unified with the other forces inside that same model. CERN lists four forces; how gravity sits relative to the quantum theory is a further, open problem and is not settled on this card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Standard Model",
+      "url": "https://home.cern/science/physics/standard-model",
+      "author": "CERN",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CERN",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.higgs-2012",
+    "world.dark-matter-cern"
+  ],
+  "tags": [
+    "physics",
+    "particles"
+  ],
+  "read_time_min": 1
+}

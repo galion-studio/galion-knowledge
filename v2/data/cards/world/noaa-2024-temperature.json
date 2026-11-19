@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.noaa-2024-temperature",
+  "slug": "noaa-2024-temperature",
+  "title": "NOAA: 2024 was the warmest year in its record since 1850",
+  "section": "world",
+  "category": "climate",
+  "summary": "Climate.gov states 2024 was 1.18 °C above the 20th-century average and 1.35 °C above the 1850–1900 average.",
+  "body": "NOAA Climate.gov's global-temperature page says 2024 was the warmest year since global records began in 1850, 2.32 °F (1.18 °C) above the 20th-century average, and 2.62 °F (1.35 °C) above the 1850–1900 average it uses as pre-industrial. A nearby sentence on the same page uses slightly different tenths for what may be another comparison. The sentences tied grammatically to 2024 are the ones stored here. NASA's 1.19 °C figure uses a different baseline and a different year. Do not average them into a third number.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Climate change: global temperature",
+      "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature",
+      "author": "NOAA Climate.gov",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.nasa-gistemp-2025",
+    "world.co2-2024-noaa"
+  ],
+  "tags": [
+    "climate",
+    "temperature",
+    "data"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "9",
+    "v1_slug": "climate-change",
+    "v1_category": "nature",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

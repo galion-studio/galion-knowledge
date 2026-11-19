@@ -1,0 +1,40 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.ocean-acidification",
+  "slug": "ocean-acidification",
+  "title": "NOAA: added CO2 makes seawater more acidic by forming carbonic acid",
+  "section": "world",
+  "category": "climate",
+  "summary": "Ocean acidification is a chemical consequence of dissolved CO2, distinct from the temperature record.",
+  "body": "NOAA's ocean-acidification page says carbon dioxide dissolved in seawater forms carbonic acid, a weak acid that dissociates into hydrogen ions and bicarbonate, and that higher atmospheric CO2 means more CO2 dissolving into the ocean. This is a chemistry claim. It is not the same statement as \"the surface is warmer.\" Impacts on shells and reefs are discussed by NOAA; this card stops at the reaction the page states.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Ocean acidification",
+      "url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-acidification",
+      "author": "NOAA",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Oceanic and Atmospheric Administration",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.co2-2024-noaa"
+  ],
+  "tags": [
+    "climate",
+    "ocean",
+    "chemistry"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "9",
+    "v1_slug": "climate-change",
+    "v1_category": "nature",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

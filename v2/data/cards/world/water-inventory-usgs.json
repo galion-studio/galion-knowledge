@@ -1,0 +1,40 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.water-inventory-usgs",
+  "slug": "water-inventory-usgs",
+  "title": "USGS: over 96 percent of Earth's water is saline",
+  "section": "world",
+  "category": "earth",
+  "summary": "The water-science page gives the saline share, the ice share of freshwater, and how little is in rivers and lakes.",
+  "body": "The U.S. Geological Survey says that of about 332.5 million cubic miles of water, over 96 percent is saline; of the freshwater, over 68 percent is locked in ice and glaciers and another 30 percent is underground; rivers and lakes hold about 22,300 cubic miles, about 1/150th of one percent of the total, and yet supply most of the water people use. The v1 article's \"97 percent oceans\" and \"less than 1 percent available freshwater\" are rougher cousins of these sentences. Use the USGS figures. The v1 numbers for evaporation share, atmospheric residence time, and ocean-circulation time were not on this page.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Where is Earth's Water?",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/science/where-earths-water",
+      "author": "U.S. Geological Survey",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.water-cycle-usgs",
+    "world.unsourced-water-cycle-numbers"
+  ],
+  "tags": [
+    "earth",
+    "water"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "6",
+    "v1_slug": "water-cycle",
+    "v1_category": "nature",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

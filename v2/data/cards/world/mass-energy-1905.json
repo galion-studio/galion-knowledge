@@ -1,0 +1,40 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.mass-energy-1905",
+  "slug": "mass-energy-1905",
+  "title": "The 1905 mass-energy paper",
+  "section": "world",
+  "category": "physics",
+  "summary": "Einstein's 1905 paper argues that a body's mass is a measure of its energy content.",
+  "body": "Later in 1905 Einstein published \"Ist die Trägheit eines Körpers von seinem Energieinhalt abhängig?\" The title asks whether the inertia of a body depends on its energy content. The relation people now write as E = mc² is the familiar form of that result. The paper is a derivation inside special relativity, not a laboratory report. Calling the equation a separate experimental fact, without naming a test, overstates what this document itself is.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Ist die Trägheit eines Körpers von seinem Energieinhalt abhängig?",
+      "url": "https://doi.org/10.1002/andp.19053231314",
+      "author": "Albert Einstein",
+      "date": "1905",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Albert Einstein",
+  "as_of_date": "1905",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.special-relativity-1905"
+  ],
+  "tags": [
+    "physics",
+    "relativity",
+    "energy"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "1",
+    "v1_slug": "theory-of-relativity",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

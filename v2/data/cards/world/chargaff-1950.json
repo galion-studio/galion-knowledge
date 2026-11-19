@@ -1,0 +1,39 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.chargaff-1950",
+  "slug": "chargaff-1950",
+  "title": "Chargaff's 1950 paper on the chemistry of nucleic acids",
+  "section": "world",
+  "category": "biology",
+  "summary": "Chargaff published on the base composition of nucleic acids before the double-helix paper.",
+  "body": "Erwin Chargaff, \"Chemical specificity of nucleic acids and mechanism of their enzymatic degradation\" (Experientia, 1950), is a primary paper on base composition. The pairing rules A with T and G with C in the Watson-Crick model use regularities of the kind Chargaff reported. This card cites his paper and does not restate numerical base ratios that were not re-read from it.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Chemical specificity of nucleic acids and mechanism of their enzymatic degradation",
+      "url": "https://doi.org/10.1007/BF02173653",
+      "author": "Erwin Chargaff",
+      "date": "1950",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Erwin Chargaff",
+  "as_of_date": "1950",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.watson-crick-1953"
+  ],
+  "tags": [
+    "biology",
+    "dna"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "8",
+    "v1_slug": "dna-genetics",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

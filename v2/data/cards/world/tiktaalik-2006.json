@@ -1,0 +1,40 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.tiktaalik-2006",
+  "slug": "tiktaalik-2006",
+  "title": "Tiktaalik is a published Devonian fossil, not a slogan",
+  "section": "world",
+  "category": "biology",
+  "summary": "Daeschler, Shubin, and Jenkins described a Devonian tetrapod-like fish in Nature in 2006.",
+  "body": "Edward B. Daeschler, Neil H. Shubin, and Farish A. Jenkins, Jr., \"A Devonian tetrapod-like fish and the evolution of the tetrapod body plan\" (Nature, 2006), described Tiktaalik. The v1 article lists it as a transitional fossil. The paper is one fossil study in a larger body of evidence. A single fossil does not carry the whole theory. Archaeopteryx is also named in the v1 article; a specimen page was not successfully opened in this pass, so Archaeopteryx is not given a source here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A Devonian tetrapod-like fish and the evolution of the tetrapod body plan",
+      "url": "https://doi.org/10.1038/nature04639",
+      "author": "Edward B. Daeschler, Neil H. Shubin, and Farish A. Jenkins, Jr.",
+      "date": "2006",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Edward B. Daeschler, Neil H. Shubin, and Farish A. Jenkins, Jr.",
+  "as_of_date": "2006",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.origin-1859"
+  ],
+  "tags": [
+    "biology",
+    "fossils",
+    "evolution"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "2",
+    "v1_slug": "evolution-natural-selection",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

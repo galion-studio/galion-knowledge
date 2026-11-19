@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.searles-chinese-room",
+  "slug": "searles-chinese-room",
+  "title": "Searle's Chinese Room argument",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "The 1980 Behavioral and Brain Sciences paper argues that syntax is not semantics.",
+  "body": "John R. Searle, \"Minds, brains, and programs\" (Behavioral and Brain Sciences, 1980), is the Chinese Room paper. Searle argues that running a program does not, by itself, produce understanding. The paper is an argument with many published replies in the same journal. It is not an experimental result about current language models. The v1 article is right to list it as an argument and wrong if a retrieval system stores it as a proven limit.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Minds, brains, and programs",
+      "url": "https://doi.org/10.1017/S0140525X00005756",
+      "author": "John R. Searle",
+      "date": "1980",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "John R. Searle",
+  "as_of_date": "1980",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.hard-problem",
+    "world.turing-1950"
+  ],
+  "tags": [
+    "philosophy",
+    "ai",
+    "consciousness"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "25",
+    "v1_slug": "consciousness",
+    "v1_category": "philosophy",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unrwa-1949",
+  "slug": "unrwa-1949",
+  "title": "UNRWA's mandate and Resolution 194, as UNRWA states them",
+  "section": "world",
+  "category": "history",
+  "summary": "UNRWA says the Assembly created it in 1949 and that Resolution 194 of 1948 addressed return.",
+  "body": "UNRWA's site says it is the United Nations Relief and Works Agency for Palestine Refugees in the Near East, established by the General Assembly in 1949 to provide assistance, and that in 1948 the Assembly adopted Resolution 194 (III), resolving that refugees wishing to return to their homes and live at peace should be permitted to do so. This is the agency's account of its mandate and of that resolution. It is one institutional record. It is not a complete history of the 1948 war, and it is not a finding about current negotiations. Refugee definitions used by UNRWA have themselves been politically disputed; that dispute is not re-litigated from a second source here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "UNRWA: who we are",
+      "url": "https://www.unrwa.org/who-we-are",
+      "author": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+      "date": "1949",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "UNRWA",
+  "as_of_date": "1949",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.unga-181"
+  ],
+  "tags": [
+    "history",
+    "palestine",
+    "refugees",
+    "united-nations"
+  ],
+  "read_time_min": 1
+}

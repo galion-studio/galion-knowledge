@@ -1,0 +1,35 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.arabic-philosophy-transmission",
+  "slug": "arabic-philosophy-transmission",
+  "title": "Arabic philosophy shaped medieval Latin thought, in specified fields",
+  "section": "world",
+  "category": "history",
+  "summary": "Dag Nikolaus Hasse's SEP entry names al-Fārābī, Avicenna, and Averroes and the fields they affected.",
+  "body": "Dag Nikolaus Hasse's Stanford Encyclopedia entry on the influence of Arabic and Islamic philosophy on the Latin West says that influence covered natural philosophy, psychology, metaphysics, logic, and ethics, and it names al-Fārābī, Avicenna, and Averroes. This is a corrective to a story in which Greek science jumps to Renaissance Europe. It is not a claim that a single \"House of Wisdom\" invented science. That institutional picture is itself disputed by specialists and was not the sentence in Hasse's entry we are using. The entry is about transmission and argument, in both directions of credit and criticism.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Influence of Arabic and Islamic Philosophy on the Latin West",
+      "url": "https://plato.stanford.edu/entries/arabic-islamic-influence/",
+      "author": "Dag Nikolaus Hasse",
+      "date": "2008-09-19",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Dag Nikolaus Hasse",
+  "as_of_date": "2008-09-19",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.unsourced-scientific-revolution-bracket",
+    "world.unsourced-ancient-greece"
+  ],
+  "tags": [
+    "history",
+    "philosophy",
+    "islamic-world"
+  ],
+  "read_time_min": 1
+}

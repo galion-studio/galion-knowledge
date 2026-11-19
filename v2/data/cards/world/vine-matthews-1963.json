@@ -1,0 +1,39 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.vine-matthews-1963",
+  "slug": "vine-matthews-1963",
+  "title": "Vine and Matthews on magnetic stripes over ocean ridges",
+  "section": "world",
+  "category": "earth",
+  "summary": "Their 1963 Nature paper connected seafloor magnetic anomalies to spreading and reversals.",
+  "body": "F. J. Vine and D. H. Matthews, \"Magnetic Anomalies Over Oceanic Ridges\" (Nature, 1963), interpreted symmetric magnetic stripes as records of seafloor spreading during geomagnetic reversals. The v1 article lists \"seafloor spreading\" and \"matching coastlines\" as evidence. Coastline fit was noticed early and is not, by itself, a proof. The magnetic anomalies are a stronger, dated observation. Wegener's name was not in the USGS historical sentences we lifted, so he is not added here from memory.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Magnetic Anomalies Over Oceanic Ridges",
+      "url": "https://doi.org/10.1038/199947a0",
+      "author": "F. J. Vine and D. H. Matthews",
+      "date": "1963",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "F. J. Vine and D. H. Matthews",
+  "as_of_date": "1963",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.plate-motions-usgs"
+  ],
+  "tags": [
+    "earth",
+    "geology"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "18",
+    "v1_slug": "plate-tectonics",
+    "v1_category": "nature",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

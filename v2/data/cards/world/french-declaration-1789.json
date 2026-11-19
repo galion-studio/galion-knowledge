@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.french-declaration-1789",
+  "slug": "french-declaration-1789",
+  "title": "The Declaration of the Rights of Man and of the Citizen, 26 August 1789",
+  "section": "world",
+  "category": "law",
+  "summary": "The French constitutional council publishes the text. Article 1 says people are born and remain free and equal in rights.",
+  "body": "The Conseil constitutionnel publishes the Declaration of Human and Civic Rights of 26 August 1789. Article 1 says men are born and remain free and equal in rights, and that social distinctions may be based only on the common good. The v1 French Revolution article is right about this document and its date. The storming of the Bastille, the Terror's death toll, and the causal list (debt, estates, bread, Enlightenment, weak king) were not on this page. Those stay unsourced. The declaration is one document inside a revolution, not the whole revolution.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Declaration of Human and Civic Rights of 26 August 1789",
+      "url": "https://www.conseil-constitutionnel.fr/en/declaration-of-human-and-civic-rights-of-26-august-1789",
+      "author": "National Constituent Assembly, text via the Conseil constitutionnel",
+      "date": "1789-08-26",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Constituent Assembly of France",
+  "as_of_date": "1789-08-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.declaration-independence",
+    "world.unsourced-french-revolution-terror"
+  ],
+  "tags": [
+    "law",
+    "france",
+    "revolution"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "19",
+    "v1_slug": "french-revolution",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

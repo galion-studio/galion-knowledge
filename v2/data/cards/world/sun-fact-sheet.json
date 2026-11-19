@@ -1,0 +1,40 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.sun-fact-sheet",
+  "slug": "sun-fact-sheet",
+  "title": "NASA's Sun fact sheet: mass, radius, and central temperature",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The sheet lists the Sun's mass, a Sun-to-Earth mass ratio of 332,900, a volumetric mean radius, and a central temperature.",
+  "body": "NASA's Sun fact sheet lists the Sun's mass as 1,988,400 × 10^24 kg, Earth's mass as 5.9722 × 10^24 kg, and the Sun/Earth mass ratio as 332,900. It lists a volumetric mean radius of 695,700 km for the Sun and a central temperature of 1.571 × 10^7 K. The v1 claims \"99.86 percent of the system's mass,\" \"diameter 1.4 million km,\" and \"core temperature 15 million °C\" are roundings in the neighborhood of these figures and are not copied as if they were the sheet. Use the sheet's numbers. The v1 spectral type \"G-type main-sequence star\" was not on the rows we read.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sun Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+      "author": "NASA Goddard Space Flight Center",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA Goddard Space Flight Center",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.solar-system-formation",
+    "world.eight-planets"
+  ],
+  "tags": [
+    "astronomy",
+    "sun"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "15",
+    "v1_slug": "solar-system",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

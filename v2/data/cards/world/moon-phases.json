@@ -1,0 +1,34 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.moon-phases",
+  "slug": "moon-phases",
+  "title": "Moon phases are how much of the sunlit half we see",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "NASA describes moonlight as sunlight reflected from the Moon as it orbits.",
+  "body": "NASA's Moon-phases page says light from the Sun illuminates half of the Moon and that we see different portions of that sunlit face as the Moon orbits. Phases are geometry. They are not the Earth's shadow. A lunar eclipse, when the Earth does block sunlight from the Moon, is a different event and is not what this card describes.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Moon Phases",
+      "url": "https://science.nasa.gov/moon/moon-phases/",
+      "author": "NASA",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.tides",
+    "world.seasons-axial-tilt"
+  ],
+  "tags": [
+    "astronomy",
+    "moon"
+  ],
+  "read_time_min": 1
+}

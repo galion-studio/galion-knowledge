@@ -1,0 +1,42 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.general-relativity-1916",
+  "slug": "general-relativity-1916",
+  "title": "Einstein's 1916 review of general relativity",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 1916 Annalen paper is Einstein's systematic account of general relativity.",
+  "body": "In 1916 Einstein published \"Die Grundlage der allgemeinen Relativitätstheorie\". It presents gravitation as spacetime curvature tied to mass and energy, rather than as a force in the Newtonian sense. That is the theory's own description. Whether particular predictions hold is a different question, answered by later observations such as the 1919 eclipse expedition and, much later, gravitational-wave detections.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Die Grundlage der allgemeinen Relativitätstheorie",
+      "url": "https://doi.org/10.1002/andp.19163540702",
+      "author": "Albert Einstein",
+      "date": "1916",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Albert Einstein",
+  "as_of_date": "1916",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.light-deflection-1919",
+    "world.ligo-gw150914",
+    "world.oppenheimer-snyder-1939"
+  ],
+  "tags": [
+    "physics",
+    "gravity",
+    "einstein"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "1",
+    "v1_slug": "theory-of-relativity",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

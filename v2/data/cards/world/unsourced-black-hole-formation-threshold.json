@@ -1,0 +1,32 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-black-hole-formation-threshold",
+  "slug": "unsourced-black-hole-formation-threshold",
+  "title": "The v1 '>20 solar masses' formation rule is unsourced",
+  "section": "world",
+  "category": "physics",
+  "summary": "The older article's stellar-mass threshold and Cygnus X-1 confirmation were not matched to a paper in this pass.",
+  "body": "The v1 black-hole article said stellar black holes form when stars above 20 solar masses die, and it named Cygnus X-1 as the first confirmed black hole. Those specific claims were not tied to a paper or a NASA sentence opened in this pass. Formation thresholds depend on stellar models and are revised. Leave both claims unsourced until a named source is attached. Supermassive-black-hole formation is also described in the v1 text as still debated; that open question is real in the literature, but this card does not invent a citation for the debate.",
+  "claim_type": "fact",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.black-hole-nasa",
+    "world.oppenheimer-snyder-1939"
+  ],
+  "tags": [
+    "astronomy",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "11",
+    "v1_slug": "black-holes",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

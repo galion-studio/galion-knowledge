@@ -1,0 +1,33 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-scientific-revolution-bracket",
+  "slug": "unsourced-scientific-revolution-bracket",
+  "title": "The bracket 1543–1687 is a textbook frame, not a document",
+  "section": "world",
+  "category": "history",
+  "summary": "Calling one European period 'the' scientific revolution leaves out other places and is an interpretation.",
+  "body": "The v1 article defines the Scientific Revolution as roughly 1543 to 1687, from Copernicus's book to Newton's Principia, and credits Galileo, Kepler, Vesalius, Harvey, Boyle, and Bacon with founding modern science. Principia and the Royal Society are sourced. The period label, the claim that this was a single revolution, and the omission of mathematics and astronomy in the Islamic world, India, and China are historiographical choices. Some historians have argued the label hides continuity. No page of that debate was opened. Leave the bracket and the hero list unsourced as an interpretation. The transmission of Greek and Arabic learning into Latin Europe is a separate, sourced card.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.newton-principia-text",
+    "world.arabic-philosophy-transmission",
+    "world.royal-society-1660"
+  ],
+  "tags": [
+    "history",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "40",
+    "v1_slug": "scientific-revolution",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

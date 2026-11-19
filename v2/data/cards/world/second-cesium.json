@@ -1,0 +1,35 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.second-cesium",
+  "slug": "second-cesium",
+  "title": "The second is a count of cesium microwave oscillations",
+  "section": "world",
+  "category": "measurement",
+  "summary": "NIST says atomic clocks count 9,192,631,770 oscillations of a cesium transition and call that interval a second.",
+  "body": "NIST's page on the second says the second is currently defined using cesium atoms, which absorb and emit microwave radiation at a specific frequency, and that atomic clocks count 9,192,631,770 of those oscillations and call the elapsed interval a second. The second is a human convention anchored to an atomic frequency. It is the base of the metre definition as well.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Second: Introduction",
+      "url": "https://www.nist.gov/si-redefinition/second",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Institute of Standards and Technology",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.metre-speed-of-light",
+    "world.si-2019",
+    "world.gps-relativity"
+  ],
+  "tags": [
+    "measurement",
+    "time"
+  ],
+  "read_time_min": 1
+}

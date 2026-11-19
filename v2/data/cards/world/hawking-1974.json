@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.hawking-1974",
+  "slug": "hawking-1974",
+  "title": "Hawking's 1974 argument for black-hole radiation",
+  "section": "world",
+  "category": "physics",
+  "summary": "Hawking's Nature paper argues that black holes radiate. That radiation has not been the same kind of detection as LIGO or the EHT.",
+  "body": "S. W. Hawking, \"Black hole explosions?\" (Nature, 1974), argued that black holes emit radiation and can lose mass. The v1 article calls Hawking radiation a theoretical prediction from 1974. That label is right: the paper is a theoretical argument. This pack does not cite a detection of Hawking radiation from an astrophysical black hole. Evidence for the published argument is strong; evidence that the radiation has been seen is not established on this card.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Black hole explosions?",
+      "url": "https://doi.org/10.1038/248030a0",
+      "author": "S. W. Hawking",
+      "date": "1974",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Stephen Hawking",
+  "as_of_date": "1974",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.black-hole-nasa",
+    "world.ligo-gw150914"
+  ],
+  "tags": [
+    "physics",
+    "black-holes",
+    "theory"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "11",
+    "v1_slug": "black-holes",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

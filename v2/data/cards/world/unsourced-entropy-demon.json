@@ -1,0 +1,32 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-entropy-demon",
+  "slug": "unsourced-entropy-demon",
+  "title": "Maxwell's demon and the low-entropy Big Bang are not sourced here",
+  "section": "world",
+  "category": "physics",
+  "summary": "The v1 entropy article's demon resolution and its cosmological arrow-of-time story were not tied to a located paper.",
+  "body": "The v1 entropy article explains Maxwell's demon by saying the demon must use information, and it says the universe began in a low-entropy state whose reason is unknown. Both are serious topics. This pass did not attach a located paper to the demon resolution or to the \"why was the early universe low entropy?\" question. Leave them unsourced. Do not treat the cake and perfume examples as measurements.",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.boltzmann-entropy-almost-always",
+    "world.landauer-1961"
+  ],
+  "tags": [
+    "physics",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "38",
+    "v1_slug": "entropy",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

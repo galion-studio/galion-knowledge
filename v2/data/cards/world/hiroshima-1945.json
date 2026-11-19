@@ -1,0 +1,67 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.hiroshima-1945",
+  "slug": "hiroshima-1945",
+  "title": "The U.S. atomic bombing of Hiroshima on 6 August 1945, and Nagasaki on 9 August",
+  "section": "world",
+  "category": "history",
+  "summary": "The Department of Energy's Manhattan Project history dates both bombings and Japan's mid-August surrender decision.",
+  "body": "The U.S. Department of Energy's Manhattan Project history dates the atomic bombing of Hiroshima to 6 August 1945 and the bombing of Nagasaki to 9 August 1945, and it titles a following section \"Japan Surrenders, August 10–15, 1945.\" The instrument of surrender signed on 2 September 1945 is a National Archives document. Casualty figures for the two cities vary by source and by whether later radiation deaths are included; no casualty total was taken from the DOE page's sentences we used, so none is stored. Whether the bombings were militarily necessary, or were also a signal to the Soviet Union, is a historians' argument and is not decided by the dates.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Atomic Bombing of Hiroshima, August 6, 1945",
+      "url": "https://www.osti.gov/opennet/manhattan-project-history/Events/1945/hiroshima.htm",
+      "author": "U.S. Department of Energy, Office of History and Heritage Resources",
+      "date": "1945-08-06",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Surrender of Japan (1945)",
+      "url": "https://www.archives.gov/milestone-documents/surrender-of-japan",
+      "author": "U.S. National Archives",
+      "date": "1945-09-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Department of Energy and the National Archives",
+  "as_of_date": "1945-09-02",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "The dates",
+      "summary": "The DOE history places the two bombings on 6 and 9 August 1945 and Japan's surrender decision in 10–15 August, with the formal instrument on 2 September.",
+      "sources": [
+        {
+          "title": "Hiroshima",
+          "url": "https://www.osti.gov/opennet/manhattan-project-history/Events/1945/hiroshima.htm",
+          "author": "U.S. Department of Energy",
+          "date": "1945-08-06",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "label": "The decision",
+      "summary": "Historians disagree about whether Japan was about to surrender anyway, what the Soviet declaration of war on 8 August changed, and how to judge the civilian deaths. Those arguments need their own documents. This card does not pick a moral verdict."
+    }
+  ],
+  "related": [
+    "world.pearl-harbor-1941",
+    "world.japan-surrender-1945",
+    "world.unsourced-wwii-death-toll"
+  ],
+  "tags": [
+    "history",
+    "world-war-ii",
+    "nuclear"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "7",
+    "v1_slug": "world-war-two",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

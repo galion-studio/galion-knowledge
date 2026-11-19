@@ -1,0 +1,40 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.immune-innate-adaptive",
+  "slug": "immune-innate-adaptive",
+  "title": "OpenStax: innate immunity is fast and nonspecific; adaptive immunity is slower and specific",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The textbook distinguishes barriers, a rapid innate response, and a slower adaptive response.",
+  "body": "OpenStax Anatomy and Physiology 2e, section 21.1, describes barriers to invasion, a rapid but nonspecific innate immune response, and a slower, more specific adaptive immune response controlled largely by white blood cells. NIAID's immune-system overview page was fetched but the sentences we searched did not cleanly state the cell list, so B cells, T cells, macrophages, and NK cells are not itemized from that page. The v1 list of those cells is left for a sourced anatomy card only where OpenStax's wording supports the distinction above.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "21.1 Anatomy of the Lymphatic and Immune Systems",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+      "author": "OpenStax Anatomy and Physiology 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "OpenStax Anatomy and Physiology 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.who-vaccination",
+    "world.unsourced-immune-disorders"
+  ],
+  "tags": [
+    "medicine",
+    "immunity"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "14",
+    "v1_slug": "immune-system",
+    "v1_category": "medicine",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

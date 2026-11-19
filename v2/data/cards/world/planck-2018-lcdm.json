@@ -1,0 +1,43 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.planck-2018-lcdm",
+  "slug": "planck-2018-lcdm",
+  "title": "Planck 2018 reports consistency with flat base ΛCDM",
+  "section": "world",
+  "category": "cosmology",
+  "summary": "The collaboration's cosmological-parameter paper says the maps fit a six-parameter flat ΛCDM model.",
+  "body": "The Planck Collaboration's paper \"Planck 2018 results\" (Astronomy & Astrophysics, 2020; DOI 10.1051/0004-6361/201833910) presents cosmological parameters from the full-mission cosmic-microwave-background maps. Its abstract says the results are in good consistency with the standard spatially flat six-parameter ΛCDM cosmology. This card does not restate a numerical age of the universe, because that figure was not in the abstract we read. A v1 age of 13.8 billion years is left on the unsourced age card until it is copied from a table that was actually opened.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Planck 2018 results. VI. Cosmological parameters",
+      "url": "https://doi.org/10.1051/0004-6361/201833910",
+      "author": "Planck Collaboration",
+      "date": "2020",
+      "accessed": "2026-11-18",
+      "note": "Crossref title is shortened to 'Planck 2018 results'. The abstract sentence about flat six-parameter ΛCDM was read from Crossref."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Planck Collaboration",
+  "as_of_date": "2020",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.cmb-1965",
+    "world.hubble-tension",
+    "world.accelerating-expansion-2011"
+  ],
+  "tags": [
+    "cosmology",
+    "planck",
+    "cmb"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "31",
+    "v1_slug": "big-bang",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

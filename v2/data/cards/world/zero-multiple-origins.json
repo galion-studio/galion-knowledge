@@ -1,0 +1,34 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.zero-multiple-origins",
+  "slug": "zero-multiple-origins",
+  "title": "Zero was not invented once",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "MacTutor separates a Babylonian placeholder story from Indian numerals and from the Maya.",
+  "body": "The MacTutor history of zero, by the St Andrews history-of-mathematics project, says a placeholder zero is not the same as a number that can be calculated with, notes that the Babylonian place-value system went a long time without a full zero, and treats the Indian numeral system and the Maya system as separate developments. The v1 pack does not cover this. A single \"who invented zero\" question usually hides at least three different inventions. The MacTutor page is a secondary history. It is enough to reject a one-origin story, and not enough to date every inscription.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "A history of Zero",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Zero/",
+      "author": "MacTutor History of Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "MacTutor History of Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.infinity-two-sizes"
+  ],
+  "tags": [
+    "mathematics",
+    "history",
+    "numerals"
+  ],
+  "read_time_min": 1
+}

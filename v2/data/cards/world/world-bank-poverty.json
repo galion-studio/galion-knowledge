@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.world-bank-poverty",
+  "slug": "world-bank-poverty",
+  "title": "World Bank: extreme poverty fell, on its own line, and the cause is not named capitalism here",
+  "section": "world",
+  "category": "economics",
+  "summary": "The Bank reports a fall from about 2.3 billion to 811 million people under a $3-a-day line. Attribution to one economic system is a further claim.",
+  "body": "The World Bank's poverty overview, fetched 18 November 2026, says the number of people living in extreme poverty fell from around 2.3 billion to 811 million, each on less than $3 a day, and that the decline was largely driven by broad growth. The page is the Bank's statistic and the Bank's stated threshold. The v1 capitalism article says the system \"lifted billions from poverty.\" That sentence names a cause the Bank page, in the words we used, does not name. Measurement choices (the dollar line, purchasing-power parity, who is counted) change the level. The decline under the Bank's line is the sourced fact. The ideological attribution is not.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Poverty overview",
+      "url": "https://www.worldbank.org/en/topic/poverty/overview",
+      "author": "World Bank",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "World Bank",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.unsourced-capitalism-lifted-billions",
+    "world.smith-wealth-of-nations"
+  ],
+  "tags": [
+    "economics",
+    "poverty",
+    "data"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "27",
+    "v1_slug": "capitalism",
+    "v1_category": "society",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

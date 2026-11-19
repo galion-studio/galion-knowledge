@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.aspect-1982",
+  "slug": "aspect-1982",
+  "title": "Aspect, Grangier, and Roger violated a Bell inequality",
+  "section": "world",
+  "category": "physics",
+  "summary": "Their 1982 Physical Review Letters paper reports a Bell-inequality violation with photon pairs.",
+  "body": "Alain Aspect, Philippe Grangier, and Gérard Roger published \"Experimental Realization of Einstein-Podolsky-Rosen-Bohm Gedankenexperiment: A New Violation of Bell's Inequalities\" in 1982. The paper reports a laboratory violation of a Bell inequality. That is evidence against local hidden-variable models of the kind Bell defined. It is not, by itself, a demonstration that people can send messages faster than light. The no-signaling reading is the standard textbook caution and is easy to lose in the phrase \"instantly affects.\"",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Experimental Realization of Einstein-Podolsky-Rosen-Bohm Gedankenexperiment: A New Violation of Bell's Inequalities",
+      "url": "https://doi.org/10.1103/PhysRevLett.49.91",
+      "author": "Alain Aspect, Philippe Grangier, and Gérard Roger",
+      "date": "1982",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Alain Aspect, Philippe Grangier, and Gérard Roger",
+  "as_of_date": "1982",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.bell-1964",
+    "world.entanglement-wording"
+  ],
+  "tags": [
+    "physics",
+    "quantum",
+    "experiment"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "5",
+    "v1_slug": "quantum-mechanics",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

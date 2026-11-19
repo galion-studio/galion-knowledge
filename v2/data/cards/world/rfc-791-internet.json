@@ -1,0 +1,33 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.rfc-791-internet",
+  "slug": "rfc-791-internet",
+  "title": "Internet Protocol is specified in RFC 791",
+  "section": "world",
+  "category": "technology",
+  "summary": "Jon Postel edited the 1981 specification of IP. The internet's invention has more than one author.",
+  "body": "RFC 791, \"Internet Protocol,\" September 1981, edited by Jon Postel, is the specification of IP. It is a primary technical document, freely published by the RFC Editor. The internet's history also includes packet-switching work by Paul Baran and Donald Davies, the ARPANET, and Cerf and Kahn's internetworking papers. Credit is shared. This card does not award the invention to one person. It identifies the specification a machine actually implements.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "RFC 791: Internet Protocol",
+      "url": "https://www.rfc-editor.org/rfc/rfc791",
+      "author": "Jon Postel (editor)",
+      "date": "1981-09",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Jon Postel, as editor of RFC 791",
+  "as_of_date": "1981-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.turing-1950"
+  ],
+  "tags": [
+    "technology",
+    "internet"
+  ],
+  "read_time_min": 1
+}

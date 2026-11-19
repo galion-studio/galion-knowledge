@@ -1,0 +1,47 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.watson-crick-1953",
+  "slug": "watson-crick-1953",
+  "title": "Watson and Crick's 1953 structure paper",
+  "section": "world",
+  "category": "biology",
+  "summary": "The Nature paper proposes the double helix. It is one of three related papers in that issue.",
+  "body": "J. D. Watson and F. H. C. Crick, \"Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid\" (Nature, 25 April 1953), proposed a double helix with specific base pairing. The v1 article says the structure was discovered by Watson and Crick, built on work by Rosalind Franklin and others. The same issue contains Franklin and Gosling's paper and Wilkins, Stokes, and Wilson's paper. The 1962 Nobel in Physiology or Medicine went to Watson, Crick, and Wilkins. Franklin had died in 1958 and was not a recipient. Leaving her out of the discovery sentence is how the v1 article becomes misleading even when it mentions her.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+      "url": "https://doi.org/10.1038/171737a0",
+      "author": "J. D. Watson and F. H. C. Crick",
+      "date": "1953-04-25",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 1962",
+      "url": "https://www.nobelprize.org/prizes/medicine/1962/summary/",
+      "author": "Nobel Prize Outreach",
+      "date": "1962",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "James Watson and Francis Crick",
+  "as_of_date": "1953-04-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.franklin-gosling-1953",
+    "world.wilkins-1953"
+  ],
+  "tags": [
+    "biology",
+    "dna"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "8",
+    "v1_slug": "dna-genetics",
+    "v1_category": "biology",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

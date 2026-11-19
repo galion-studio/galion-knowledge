@@ -1,0 +1,33 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.godel-entry",
+  "slug": "godel-entry",
+  "title": "Gödel's incompleteness theorems have an SEP entry",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Panu Raatikainen's entry is the pointer. The theorems are not restated from memory as a formal result.",
+  "body": "Panu Raatikainen's Stanford Encyclopedia entry on Gödel's incompleteness theorems is the secondary account used here. The usual informal statement is that any consistent formal system capable of a certain amount of arithmetic is incomplete, and that such a system cannot prove its own consistency. A precise statement has definitions the v1 pack does not contain. This card points at the entry rather than pretending a one-sentence version is the theorem. It is a seed, not a v1 conversion.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Gödel's Incompleteness Theorems",
+      "url": "https://plato.stanford.edu/entries/goedel-incompleteness/",
+      "author": "Panu Raatikainen",
+      "date": "2013-11-11",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Panu Raatikainen",
+  "as_of_date": "2013-11-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.continuum-hypothesis-open"
+  ],
+  "tags": [
+    "mathematics",
+    "logic"
+  ],
+  "read_time_min": 1
+}

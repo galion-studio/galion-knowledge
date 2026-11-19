@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.heisenberg-uncertainty-1927",
+  "slug": "heisenberg-uncertainty-1927",
+  "title": "Heisenberg's 1927 paper on the uncertainty relation",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 1927 Zeitschrift für Physik paper is the primary source of Heisenberg's uncertainty argument.",
+  "body": "Werner Heisenberg's 1927 paper, Crossref title \"Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik\", is the primary publication of his uncertainty argument. The relation constrains pairs of quantities in the quantum formalism. The v1 gloss that this \"is not a measurement problem\" and that the system \"genuinely has no definite value\" is an interpretation. Other interpretations of the same formalism, including Bohmian mechanics, disagree about definite values. See the interpretations card. Kennard's later formal inequality is not this card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik",
+      "url": "https://doi.org/10.1007/BF01397280",
+      "author": "Werner Heisenberg",
+      "date": "1927",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Werner Heisenberg",
+  "as_of_date": "1927",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.superposition-interpretations",
+    "world.schrodinger-1926"
+  ],
+  "tags": [
+    "physics",
+    "quantum",
+    "uncertainty"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "5",
+    "v1_slug": "quantum-mechanics",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

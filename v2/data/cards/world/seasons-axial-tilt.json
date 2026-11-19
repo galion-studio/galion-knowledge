@@ -1,0 +1,42 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.seasons-axial-tilt",
+  "slug": "seasons-axial-tilt",
+  "title": "Seasons come from axial tilt, not from distance to the Sun",
+  "section": "world",
+  "category": "earth",
+  "summary": "NASA says Earth's tilted axis causes the seasons, and that the yearly change in distance is not the cause.",
+  "body": "NASA Space Place says Earth's tilted axis causes the seasons: through the year, different parts of Earth receive the Sun's most direct rays. The same page says Earth is not closest to the Sun in northern summer, and that the change in distance is small compared with how far away the Sun is, so it does not make much difference to the weather. NASA's Earth-facts page states the tilt as 23.4 degrees relative to the plane of Earth's orbit, and says one rotation takes about 23.9 hours and one orbit about 365.25 days. Distance-caused seasons are a common error.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Causes the Seasons?",
+      "url": "https://spaceplace.nasa.gov/seasons/en/",
+      "author": "NASA Space Place",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Earth facts",
+      "url": "https://science.nasa.gov/earth/facts/",
+      "author": "NASA",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.sky-scattering",
+    "world.tides"
+  ],
+  "tags": [
+    "earth",
+    "seasons",
+    "astronomy"
+  ],
+  "read_time_min": 1
+}

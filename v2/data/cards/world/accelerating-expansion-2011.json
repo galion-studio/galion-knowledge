@@ -1,0 +1,56 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.accelerating-expansion-2011",
+  "slug": "accelerating-expansion-2011",
+  "title": "The 2011 Nobel was for accelerating expansion, not for a finished account of its cause",
+  "section": "world",
+  "category": "cosmology",
+  "summary": "Perlmutter, Schmidt, and Riess were cited for supernova evidence that the expansion is accelerating.",
+  "body": "The Nobel Prize in Physics 2011 awarded Saul Perlmutter one half, and Brian P. Schmidt and Adam G. Riess the other half jointly, \"for the discovery of the accelerating expansion of the Universe through observations of distant supernovae.\" The underlying papers include Riess and colleagues 1998, \"Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant,\" and Perlmutter and colleagues 1999, \"Measurements of Ω and Λ from 42 High-Redshift Supernovae.\" The prize citation does not say the physical nature of the cause is known. Calling the cause \"dark energy\" names a research program. What that component is, is not settled.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Nobel Prize in Physics 2011",
+      "url": "https://www.nobelprize.org/prizes/physics/2011/summary/",
+      "author": "Nobel Prize Outreach",
+      "date": "2011",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant",
+      "url": "https://doi.org/10.1086/300499",
+      "author": "Adam G. Riess and colleagues",
+      "date": "1998",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Measurements of Ω and Λ from 42 High-Redshift Supernovae",
+      "url": "https://doi.org/10.1086/307221",
+      "author": "S. Perlmutter and colleagues",
+      "date": "1999",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Nobel Prize Outreach; Riess and colleagues; Perlmutter and colleagues",
+  "as_of_date": "2011",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.hubble-1929",
+    "world.planck-2018-lcdm",
+    "world.hubble-tension"
+  ],
+  "tags": [
+    "cosmology",
+    "dark-energy",
+    "not-settled"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "31",
+    "v1_slug": "big-bang",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

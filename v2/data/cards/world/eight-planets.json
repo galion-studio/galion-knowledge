@@ -1,0 +1,47 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.eight-planets",
+  "slug": "eight-planets",
+  "title": "NASA lists eight planets and five dwarf planets",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The working public count is eight planets. Pluto is grouped with the dwarf planets on NASA's fact sheet.",
+  "body": "NASA's planetary fact sheet is headed Mercury, Venus, Earth, Moon, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, and gives masses and diameters. The solar-system facts page separately says five dwarf planets. The 2006 International Astronomical Union vote that reclassified Pluto is not given a working resolution URL in this pass, so this card follows NASA's published count rather than paraphrasing a resolution we did not open. The v1 list of eight planets plus Pluto, Eris, Ceres, Haumea, and Makemake matches NASA's \"eight\" and \"five\" wording. Surface trivia in the v1 article (backward rotation, Great Red Spot, wind records) is not re-sourced here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Planetary Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "author": "NASA Goddard Space Flight Center",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Solar System Facts",
+      "url": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "author": "NASA",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.solar-system-formation",
+    "world.sun-fact-sheet"
+  ],
+  "tags": [
+    "astronomy",
+    "planets"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "15",
+    "v1_slug": "solar-system",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

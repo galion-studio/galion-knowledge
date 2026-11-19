@@ -1,0 +1,41 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.game-theory-sep",
+  "slug": "game-theory-sep",
+  "title": "Game theory studies strategic interaction, with stated assumptions",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Don Ross's Stanford entry is the map. Rational, informed players are an assumption, not a finding about everyone.",
+  "body": "Don Ross's Stanford Encyclopedia entry on game theory presents the field as the study of strategic interaction. The usual model assumes players, strategies, and payoffs. Real people violate the assumptions often enough that experimental economics exists. The v1 article's applications (auctions, evolution, international relations) are uses of the toolkit, not proofs that those domains are games in the strict sense. Von Neumann and Morgenstern's 1944 book is the usual book-length origin and was not opened.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Game Theory",
+      "url": "https://plato.stanford.edu/entries/game-theory/",
+      "author": "Don Ross",
+      "date": "1997-01-25",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Don Ross",
+  "as_of_date": "1997-01-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.nash-equilibrium-1950",
+    "world.unsourced-prisoners-dilemma"
+  ],
+  "tags": [
+    "mathematics",
+    "game-theory",
+    "economics"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "37",
+    "v1_slug": "game-theory",
+    "v1_category": "mathematics",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

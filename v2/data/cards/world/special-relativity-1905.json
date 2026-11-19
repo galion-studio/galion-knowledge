@@ -1,0 +1,43 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.special-relativity-1905",
+  "slug": "special-relativity-1905",
+  "title": "Einstein's 1905 paper states special relativity",
+  "section": "world",
+  "category": "physics",
+  "summary": "The 1905 paper 'Zur Elektrodynamik bewegter Körper' is the primary statement of special relativity.",
+  "body": "In 1905 Albert Einstein published \"Zur Elektrodynamik bewegter Körper\" in Annalen der Physik. That paper is the primary source for what is now called the special theory of relativity. Later textbooks compress it into two postulates (the laws of physics are the same in inertial frames, and the speed of light in vacuum does not depend on the motion of the source) and into consequences such as time dilation and length contraction. Those classroom lists are readings of this paper, not a second experiment. Tests of the consequences are separate cards.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Zur Elektrodynamik bewegter Körper",
+      "url": "https://doi.org/10.1002/andp.19053221004",
+      "author": "Albert Einstein",
+      "date": "1905",
+      "accessed": "2026-11-18",
+      "note": "Confirmed in Crossref: Annalen der Physik, 1905."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Albert Einstein",
+  "as_of_date": "1905",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.mass-energy-1905",
+    "world.general-relativity-1916",
+    "world.hafele-keating-1972"
+  ],
+  "tags": [
+    "physics",
+    "relativity",
+    "einstein"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "1",
+    "v1_slug": "theory-of-relativity",
+    "v1_category": "science",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

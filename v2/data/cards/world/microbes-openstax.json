@@ -1,0 +1,34 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.microbes-openstax",
+  "slug": "microbes-openstax",
+  "title": "Bacteria, archaea, and viruses are not one kind of thing",
+  "section": "world",
+  "category": "biology",
+  "summary": "OpenStax Microbiology distinguishes bacteria from archaea and notes that viruses are much smaller.",
+  "body": "OpenStax Microbiology, section 1.3, treats archaea and bacteria as distinct groups of cells and says bacterial cells are typically about 1 micrometre while viruses can be about ten times smaller. A virus is not a small bacterium. Antimicrobial drugs and vaccines are matched to the kind of microbe. WHO's antimicrobial-resistance page includes viruses among microbes that can stop responding to the drugs aimed at them; that is a different claim from the classroom rule about which drugs are antibacterial.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "1.3 Types of Microorganisms",
+      "url": "https://openstax.org/books/microbiology/pages/1-3-types-of-microorganisms",
+      "author": "OpenStax Microbiology",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "OpenStax Microbiology",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.who-amr",
+    "world.who-vaccination"
+  ],
+  "tags": [
+    "biology",
+    "microbiology"
+  ],
+  "read_time_min": 1
+}

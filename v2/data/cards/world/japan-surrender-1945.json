@@ -1,0 +1,40 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.japan-surrender-1945",
+  "slug": "japan-surrender-1945",
+  "title": "The Japanese instrument of surrender, 2 September 1945",
+  "section": "world",
+  "category": "history",
+  "summary": "The National Archives holds the instrument signed on 2 September 1945.",
+  "body": "The U.S. National Archives cites the Instrument of Surrender of 2 September 1945 in Record Group 218. The v1 article's \"Japan surrenders (September)\" matches this document. The DOE history's \"August 10–15\" heading is the earlier decision to surrender. Both dates are used because they are different events. The v1 article's claim that the war killed 70 to 85 million people is not on either page.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Surrender of Japan (1945)",
+      "url": "https://www.archives.gov/milestone-documents/surrender-of-japan",
+      "author": "U.S. National Archives",
+      "date": "1945-09-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "signatories of the instrument; record held by the U.S. National Archives",
+  "as_of_date": "1945-09-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.hiroshima-1945",
+    "world.udhr-1948"
+  ],
+  "tags": [
+    "history",
+    "world-war-ii"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "7",
+    "v1_slug": "world-war-two",
+    "v1_category": "history",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}

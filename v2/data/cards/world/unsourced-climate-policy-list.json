@@ -1,0 +1,33 @@
+{
+  "schema_version": "knowledge-card/2",
+  "id": "world.unsourced-climate-policy-list",
+  "slug": "unsourced-climate-policy-list",
+  "title": "The v1 mitigation list and the Paris temperature goals are not sourced here",
+  "section": "world",
+  "category": "climate",
+  "summary": "Renewables, electrification, and the 1.5 °C goal were not copied from a treaty text we successfully read.",
+  "body": "The v1 climate article recommends renewable energy, efficiency, electrification, land use, and carbon capture, and it says the 2015 Paris Agreement limits warming to 1.5–2 °C. Those are policy choices and a treaty clause. The UNFCCC Paris HTML page returned almost no text to this fetcher, so the clause was not read off the page. Do not store the temperature goal, or the technology list, as if it had been verified in this pass. Observations and attribution are on other cards.",
+  "claim_type": "opinion",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "v1 knowledge article (unsourced compilation)",
+  "as_of_date": "",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.nasa-warming-attribution",
+    "world.co2-2024-noaa"
+  ],
+  "tags": [
+    "climate",
+    "policy",
+    "needs-review"
+  ],
+  "read_time_min": 1,
+  "legacy": {
+    "v1_article_id": "9",
+    "v1_slug": "climate-change",
+    "v1_category": "nature",
+    "note": "v1 truthScore and source-count fields are not evidence and are not copied."
+  }
+}
