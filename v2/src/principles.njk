@@ -22,6 +22,7 @@ permalink: principles/index.html
   </p>
   <h1>How this knowledge is built</h1>
   <p class="lede">We build this pack without agendas. A claim stays with its source, its date, and who said it. When people disagree, we show the sides. When we do not know, we say so.</p>
+  <p class="quiet">Revised 19 November 2026. A short record of what changed is at the end of this page.</p>
 
   <div class="prose">
     <h2>Without agendas</h2>
@@ -32,13 +33,18 @@ permalink: principles/index.html
     <p>A card is written from a span that exists in a source that was opened. No span, no card. We do not fill a hole from memory, and we do not invent a citation. An empty source list is the honest value.</p>
     <p>The sources we prefer are original documents and scans, official texts, standards bodies, peer-reviewed papers and their data, official measurement publications, and more than one independent archive when history is contested. Money and law are taken from the official texts themselves: the statute, the charter, the central-bank page, the court or treasury document, not a later commentary on them.</p>
     <p>Wikipedia is not a source, and neither is anything written by rewriting it. A Wikipedia URL, or a listed mirror or derivative, is a hard failure in the truth gate. Wikisource is not Wikipedia: it is a transcription of a named primary text, and the scan or edition remains the source. Wikidata is only an identifier crosswalk, not evidence for a claim.</p>
+    <h3>What counts as one source</h3>
+    <p>Independence means sources with different origins, interests and methods. Counting websites is not enough.</p>
+    <p>A whole government counts as one source. Its ministries, agencies, officials, state media, and official statistics are one voice when we ask whether a claim has been independently confirmed. A government's own document is still a valid primary source for what that government said or decided. It cannot confirm itself. A contested claim needs sources from outside that one voice.</p>
+    <p>The mainstream media also counts as one source. Many outlets repeating the same line, or reprinting the same wire or agency copy, are one source, not many.</p>
+    <p>This is the standard we have decided to hold. What the truth gate already enforces, and what it does not yet group this way, is stated under Knowledge integrity.</p>
 
     <h2>Source, date, and who said it</h2>
     <p>Every claim carries three things: the source, the date, and who said it. On a card that is the source title and URL, the source's own date, the date we accessed it, the date the claim is stated as of, and the author, body, or speaker named on that source. If the speaker or the date is unknown, the field stays empty. We do not invent a name to complete the record.</p>
 
     <h2>What a card is</h2>
     <p>One card is one claim. It has a short title, a summary, and a body. It is labelled as a <strong>fact</strong>, an <strong>interpretation</strong>, an <strong>opinion</strong>, or a <strong>contested</strong> claim, and those four stay distinct. A fact is the wording or the measured quantity of an opened source. An interpretation is a reading across opened sources, or a later summary of a primary text, and it is labelled as such. An opinion includes house design choices; a house rule is not a research finding. A contested card is one where the opened evidence disagrees.</p>
-    <p>Evidence is also labelled: <strong>none</strong>, <strong>weak</strong>, <strong>moderate</strong>, or <strong>strong</strong>. None means no source is attached. Weak means a draft note, a single secondary mention, or a house rule. Moderate means a primary document that does not settle the whole question, a self-reported figure, or a textbook in the gate's secondary class. Strong means the claim is the wording of the primary document itself, or several independent sources agree. A high number carried over from an earlier version of the site is not evidence, and it is not shown as a truth score.</p>
+    <p>Evidence is also labelled: <strong>none</strong>, <strong>weak</strong>, <strong>moderate</strong>, or <strong>strong</strong>. None means no source is attached. Weak means a draft note, a single secondary mention, or a house rule. Moderate means a primary document that does not settle the whole question, a self-reported figure, or a textbook in the gate's secondary class. Strong means the claim is the wording of the primary document itself, or several independent sources agree. Independent, here, means different origins, interests and methods, not merely different websites. A high number carried over from an earlier version of the site is not evidence, and it is not shown as a truth score.</p>
 
     <h2>The core pack and the shards</h2>
     <p>The core is the small set of sourced cards a person needs first: constants and measurements, Earth and life, history from primary documents, money and law from official texts, and how we know what we know. A shard is everything that can wait: a catalogue row, a local statute, a single paper that does not change the picture, or a specialist field such as clinical medicine.</p>
@@ -67,7 +73,7 @@ permalink: principles/index.html
     <h3>How knowledge gets corrupted, and what we do about it</h3>
     <p>These are the failure modes we have already encoded checks for, and the limits of those checks.</p>
     <ul>
-      <li><strong>A single source, or a single voice, standing in for the record.</strong> Two independent sources are the usual bar for a strong card. One primary can still be strong when the claim is that document's own wording, but the gate warns when a strong card has only one independent source, and when a contested card has fewer than two. It also warns when one outlet is at least 60% of a category's source URLs, or when one government or international body is at least 75%. Those are warnings, not hard blocks. They stay in the report so a reviewer can see the concentration.</li>
+      <li><strong>A single source, or a single voice, standing in for the record.</strong> Two independent sources are the usual bar for a strong card. One primary can still be strong when the claim is that document's own wording, but it cannot corroborate itself. We have decided that a whole government is one source, and that the mainstream media is one source, in that count. The truth gate does not yet apply that grouping to a card; what it counts today is set out below. It does warn when a strong card has only one independent source as it currently counts them, and when a contested card has fewer than two. It also warns when one outlet is at least 60% of a category's source URLs, or when one government or international body is at least 75%. Those are warnings, not hard blocks. They stay in the report so a reviewer can see the concentration.</li>
       <li><strong>Copied secondary summaries treated as the thing itself.</strong> A textbook, a museum encyclopedia, or another scholarly secondary source has a ceiling of moderate. The claim does not become strong by being well written. Where a page is a later summary of a primary text, the card is an interpretation, not a fact.</li>
       <li><strong>Wikipedia, or text derived from it.</strong> A Wikipedia host, mirror, or listed derivative is a hard failure. A card that merely names Wikipedia in its wording is a warning, even when the sentence says it was not used.</li>
       <li><strong>A citation a model made up.</strong> We do not invent a citation, and we do not fill an empty list from memory. A fact needs at least one real http or https URL. An unsourced card must have an empty source list. The pages used for the core pack were opened, and that access date is stored. The gate can also request each source URL, but that live check is off unless it is turned on, and it is not part of the default run or of CI, so the checks stay usable offline. A live request that fails is a warning. A host that refuses the request is not proof the source is false. Requiring a fetched, checked URL on every new card, as a hard rule, is a decision for new writing; it is not how the published gate behaves today.</li>
@@ -86,6 +92,9 @@ permalink: principles/index.html
 
     <h3>The class of a source, and what we do not yet check</h3>
     <p>Every source is classed: peer-reviewed, preprint, official, primary text, dataset, scholarly secondary, house, news, or other. That class sets a ceiling on how strong the card may be. A house page on our own sites cannot support a strong factual claim on its own. News, and any host the configuration does not name, also ceiling at weak. A preprint can be strong, but a strong card that rests only on a preprint is a warning.</p>
+    <p>On a card, the truth gate today counts independent sources by website, not by voice. Two pages on the same host count as one. Two different DOIs count as two. Two agencies of the same government, on different hosts, still count as two. Two news outlets also count as two, even when they repeat the same line or the same wire copy. News on its own cannot support a label above weak, but those separate hosts can still make a contested card look as if it has more than one source.</p>
+    <p>There is a second, weaker check at the category level, not on the card itself. The gate warns if one website is at least 60% of a category's source URLs, or if one government or international body is at least 75%. That category check does already group some government hosts into one voice — for example United States <code>.gov</code> and <code>.mil</code> sites, or United Kingdom <code>.gov.uk</code> sites. It does not group the mainstream media as one voice, and it does not apply that government grouping when it decides whether a single card has two independent sources.</p>
+    <p>So the rule above — a whole government as one source, and the mainstream media as one source — is decided, and it is stated on this page. It is not yet what the published truth gate enforces on a card. The gate was not changed in this revision. Closing that gap is planned work.</p>
     <p>We have not yet built a separate check that follows the money or the incentives behind a source. What a reader can already see is who published it, when, which class it falls in, and whether one outlet or one official voice dominates a category. That is not the same as a funding or interest disclosure, and we do not pretend it is.</p>
 
     <h3>Judge it yourself</h3>
@@ -102,6 +111,17 @@ permalink: principles/index.html
     <h2>Open licence, and where the pack lives</h2>
     <p>The cards live in this public repository, under <a href="https://github.com/galion-studio/galion-knowledge">github.com/galion-studio/galion-knowledge</a>. A device can keep the core pack and the shards it has chosen. The work is released under the MIT License. Copyright (c) 2024–2026 Galion Labs.</p>
   </div>
+
+  <section class="source-box">
+    <h2>Record of changes</h2>
+    <ul class="source-list">
+      <li>
+        <span>2026-11-19</span>
+        <span> — this page</span>
+        <span class="source-note">Added the rule that a whole government counts as one source, and that the mainstream media counts as one source, when we ask whether a claim is independently confirmed. The earlier page, first published with master 40f7c16b on 19 November 2026, described independence as two sources and as the existing host and category warnings. It did not state this grouping. The previous wording remains in git. The truth gate was not changed in this revision: on a card it still counts independence per host, or per DOI, so two agencies or two news outlets can still count as two. This note is the record. The page was not silently rewritten.</span>
+      </li>
+    </ul>
+  </section>
 
   <section class="source-box">
     <h2>Where these rules are written</h2>
