@@ -77,6 +77,7 @@ class Gateway:
         self.cost = 0.01
         self.fail_first = 0
         self.fail_status = 503
+        self.fail_body = b"unavailable"
         self.counts = {}
         self.requests = 0
         self.cids = []
@@ -152,7 +153,7 @@ class Gateway:
         if self.parallel_target:
             self.parallel.wait(2.0)
         if n < self.fail_first:
-            return self.fail_status, b"unavailable"
+            return self.fail_status, self.fail_body
         if self.hold:
             time.sleep(self.hold)
         match = re.search(r"Card id to use:\s*(\S+)", prompt)
@@ -523,6 +524,104 @@ class CallCapTest(SwarmCase):
             data = json.loads(open(failed_state, encoding="utf-8").read())
             self.assertNotEqual(data.get("status"), "failed")
         self.assertFalse(os.path.isfile(os.path.join(self.state, "runs", "calls", "kept", "world.core.test.call-b.json")))
+
+
+def hermes_error_sse(message):
+    """What hermes-rs streams when a turn is refused before any model call."""
+    head = {"choices": [{"index": 0, "delta": {"role": "assistant"}, "finish_reason": None}]}
+    fin = {
+        "choices": [{"index": 0, "delta": {}, "finish_reason": "error"}],
+        "usage": {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0},
+        "error": {"message": message, "type": "agent_error"},
+        "hermes": {"completed": False, "partial": False, "failed": True, "error": message},
+    }
+    return ("data: " + json.dumps(head) + "\n\ndata: " + json.dumps(fin) + "\n\ndata: [DONE]\n\n").encode()
+
+
+EMPTY_SSE = (
+    b'data: {"choices":[{"index":0,"delta":{"role":"assistant"},"finish_reason":null}]}\n\n'
+    b'data: {"choices":[{"index":0,"delta":{},"finish_reason":"stop"}],'
+    b'"usage":{"prompt_tokens":0,"completion_tokens":0,"total_tokens":0}}\n\n'
+    b"data: [DONE]\n\n"
+)
+
+
+class GatewayErrorTest(SwarmCase):
+    def topics_n(self, n, tag):
+        self.write_topics([
+            {"cid": f"world.core.test.{tag}-{i}", "topic": f"claim {i}", "category": "mathematics", "area": "math"}
+            for i in range(n)
+        ])
+
+    def state_of(self, run, cid):
+        path = os.path.join(self.state, "runs", run, "state", cid + ".json")
+        return json.loads(open(path, encoding="utf-8").read())
+
+    def test_gateway_daily_call_cap_in_a_200_pauses_and_keeps_topics_pending(self):
+        self.topics_n(4, "gwcap")
+        self.gw.fail_first = 100
+        self.gw.fail_status = 200
+        self.gw.fail_body = hermes_error_sse("daily provider call cap reached (2000 of 2000)")
+        code, out = self.run_swarm("gwcap", workers=1)
+        self.assertEqual(code, 0, out)
+        self.assertEqual(self.gw.requests, 1, out)
+        self.assertIn("stopped daily_calls", out)
+        self.assertRegex(out, r"failed=0")
+        st = self.state_of("gwcap", "world.core.test.gwcap-0")
+        self.assertEqual(st["status"], "pending")
+        self.assertEqual(st.get("note"), "daily_calls")
+
+    def test_empty_200_is_retried_with_backoff_then_kept(self):
+        self.topics_n(1, "empty")
+        self.gw.fail_first = 2
+        self.gw.fail_status = 200
+        self.gw.fail_body = EMPTY_SSE
+        code, out = self.run_swarm("empty", workers=1, test=1)
+        self.assertEqual(code, 0, out)
+        self.assertEqual(self.gw.requests, 3, out)
+        self.assertRegex(out, r"kept=1 dropped=0 failed=0")
+
+    def test_consecutive_gateway_errors_pause_the_run(self):
+        self.topics_n(6, "streak")
+        self.gw.fail_first = 100
+        self.gw.fail_status = 200
+        self.gw.fail_body = hermes_error_sse("provider: upstream unavailable")
+        code, out = self.run_swarm("streak", workers=1, gateway_retries=1, max_gateway_errors=3)
+        self.assertEqual(code, 0, out)
+        self.assertIn("stopped gateway_errors", out)
+        # 3 topics x (1 call + 1 retry); the rest of the queue is never sent
+        self.assertEqual(self.gw.requests, 6, out)
+        self.assertRegex(out, r"failed=0")
+        st = self.state_of("streak", "world.core.test.streak-0")
+        self.assertEqual(st["status"], "pending")
+        self.assertIn("upstream unavailable", st.get("why", ""))
+        self.assertFalse(os.path.exists(os.path.join(self.state, "runs", "streak", "state", "world.core.test.streak-5.json")))
+
+    def test_topic_is_failed_after_its_gateway_attempts(self):
+        self.topics_n(1, "attempts")
+        self.gw.fail_first = 100
+        self.gw.fail_status = 200
+        self.gw.fail_body = EMPTY_SSE
+        code, out = self.run_swarm("attempts", workers=1, gateway_retries=0, max_gateway_errors=10,
+                                   gateway_attempts=2)
+        self.assertEqual(self.gw.requests, 2, out)
+        self.assertRegex(out, r"failed=1")
+        st = self.state_of("attempts", "world.core.test.attempts-0")
+        self.assertEqual(st["status"], "failed")
+        self.assertEqual(st["result"], "gateway_error")
+
+    def test_spend_file_day_calls_stop_the_run_before_any_call(self):
+        self.topics_n(2, "pre")
+        with open(self.spend, "w", encoding="utf-8") as handle:
+            json.dump({"day": gapfill.today(), "day_calls": 1850, "sessions": {}}, handle)
+        code, out = self.run_swarm("pre", workers=1, gateway_call_cap=2000, gateway_call_reserve=200)
+        self.assertEqual(self.gw.requests, 0, out)
+        self.assertIn("stopped daily_calls", out)
+        self.assertEqual(swarm.gateway_calls_today(self.spend), 1850)
+        with open(self.spend, "w", encoding="utf-8") as handle:
+            json.dump({"day": "2000-01-01", "day_calls": 5000, "sessions": {}}, handle)
+        self.assertIsNone(swarm.gateway_calls_today(self.spend))
+        self.assertTrue(swarm.gateway_call_room(2000, 200, self.spend))
 
 
 class ReservationTest(unittest.TestCase):

@@ -589,5 +589,92 @@ class StreamIdleTest(unittest.TestCase):
         self.assertLess(time.time() - t0, 2.5)
 
 
+class GatewayErrorStreamTest(unittest.TestCase):
+    """hermes-rs answers 200 and ends the stream with finish_reason "error" when it
+    refuses a turn (seen on Titan 2026-11-19: "daily provider call cap reached
+    (2000 of 2000)"). That is not a model reply."""
+
+    def setUp(self):
+        from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+        test = self
+        self.body = b""
+
+        class Handler(BaseHTTPRequestHandler):
+            protocol_version = "HTTP/1.1"
+
+            def do_POST(self):
+                n = int(self.headers.get("Content-Length", "0") or 0)
+                self.rfile.read(n)
+                self.send_response(200)
+                self.send_header("Content-Type", "text/event-stream")
+                self.send_header("Content-Length", str(len(test.body)))
+                self.end_headers()
+                self.wfile.write(test.body)
+
+            def log_message(self, *a):
+                return
+
+        self.httpd = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+        self.httpd.daemon_threads = True
+        threading.Thread(target=self.httpd.serve_forever, daemon=True).start()
+        self.tmp = tempfile.TemporaryDirectory()
+        self.saved = (gapfill.GW, gapfill.SPEND)
+        host, port = self.httpd.server_address
+        gapfill.GW = f"http://{host}:{port}"
+        gapfill.SPEND = os.path.join(self.tmp.name, "spend.json")
+
+    def tearDown(self):
+        gapfill.GW, gapfill.SPEND = self.saved
+        self.httpd.shutdown()
+        self.httpd.server_close()
+        self.tmp.cleanup()
+
+    def sse(self, *events):
+        return b"".join(b"data: " + json.dumps(e).encode() + b"\n\n" for e in events) + b"data: [DONE]\n\n"
+
+    def test_call_cap_error_chunk_is_a_gateway_limit(self):
+        msg = "daily provider call cap reached (2001 of 2000)"
+        self.body = self.sse(
+            {"choices": [{"index": 0, "delta": {"role": "assistant"}, "finish_reason": None}]},
+            {"choices": [{"index": 0, "delta": {}, "finish_reason": "error"}],
+             "usage": {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0},
+             "error": {"message": msg, "type": "agent_error"}},
+        )
+        code, txt, usage = gapfill._http_stream("k", {"model": "m", "messages": []}, "sid-cap", 30, 1.0)
+        self.assertEqual(code, gapfill.GATEWAY_ERROR)
+        self.assertEqual(txt, msg)
+        self.assertEqual(usage["reason"], "daily_calls")
+        self.assertEqual(gapfill.usage_brief(usage)["reason"], "daily_calls")
+
+    def test_empty_stream_with_zero_tokens_is_not_a_model_reply(self):
+        self.body = self.sse(
+            {"choices": [{"index": 0, "delta": {}, "finish_reason": "stop"}],
+             "usage": {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}},
+        )
+        code, txt, usage = gapfill._http_stream("k", {"model": "m", "messages": []}, "sid-empty", 30, 1.0)
+        self.assertEqual(code, gapfill.EMPTY_200)
+        self.assertEqual(usage["reason"], "empty_reply")
+
+    def test_text_with_a_late_error_stays_a_reply(self):
+        code, txt, usage = gapfill.classify_stream('{"id": "x"}', {"total_tokens": 9}, "tool failed", "error")
+        self.assertEqual(code, "200")
+        self.assertEqual(gapfill.gateway_limit_reason("daily spend cap reached ($21.5 of $21.50)"), "daily_usd")
+        self.assertEqual(gapfill.gateway_limit_reason("session spend cap reached"), "session")
+        self.assertIsNone(gapfill.gateway_limit_reason("upstream 502"))
+
+    def test_obtain_card_does_not_spend_a_json_retry_on_a_gateway_error(self):
+        sent = []
+
+        def fake(key, model, message, sid, timeout, cap=None, **kw):
+            sent.append(kw.get("what"))
+            return gapfill.EMPTY_200, "", {"reason": "empty_reply"}
+
+        card, err, calls, raw = gapfill.obtain_card(fake, "k", "m", "p", "sid", 30, 0.08, "c", 4096, None)
+        self.assertIsNone(card)
+        self.assertEqual(sent, ["author"])
+        self.assertIn("gateway empty200", err)
+        self.assertEqual(gapfill._fail_result(err, calls), "gateway_error")
+
+
 if __name__ == "__main__":
     unittest.main()

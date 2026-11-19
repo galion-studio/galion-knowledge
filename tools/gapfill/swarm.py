@@ -57,6 +57,16 @@ RESTART_ERRORS = {
     "err:TimeoutError",
 }
 LIMIT_REASONS = {"daily_calls", "daily_usd"}
+# A 200 reply with no model output (gapfill.GATEWAY_ERROR_CODES) is retried this
+# many times with backoff; after this many topics in a row end that way the run
+# pauses (the topics stay pending) instead of burning through the queue.
+DEFAULT_GATEWAY_RETRIES = 3
+DEFAULT_MAX_GATEWAY_ERRORS = 3
+DEFAULT_GATEWAY_ATTEMPTS = 3   # a topic is marked failed after this many gateway-error attempts
+# hermes-rs HERMES_RS_DAILY_CALL_CAP on Titan (counts every provider call,
+# tool steps included, per Zagreb day). Calls kept free for the owner's chats.
+DEFAULT_GATEWAY_CALL_CAP = 2000
+DEFAULT_GATEWAY_CALL_RESERVE = 200
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 
@@ -341,6 +351,34 @@ def ledger_room(budget, daily_cap):
     return "ok"
 
 
+def gateway_calls_today(spend_path=None):
+    """Provider calls the gateway counted today (Zagreb day), from its spend file.
+
+    None when the file is missing or written for another day."""
+    try:
+        with open(spend_path or gapfill.SPEND, encoding="utf-8") as handle:
+            data = json.load(handle)
+    except Exception:
+        return None
+    if not isinstance(data, dict) or data.get("day") != gapfill.today():
+        return None
+    try:
+        return int(data.get("day_calls") or 0)
+    except (TypeError, ValueError):
+        return None
+
+
+def gateway_call_room(cap, reserve, spend_path=None):
+    """False when the gateway's own daily provider call cap (minus the owner's
+    reserve) is used up. cap 0 turns the check off."""
+    if not cap:
+        return True
+    used = gateway_calls_today(spend_path)
+    if used is None:
+        return True
+    return used < max(1, cap - reserve)
+
+
 def spent_today(budget):
     with budget._lock() as b:
         day = gapfill.today()
@@ -358,7 +396,9 @@ class GatewayGuard:
     wrapper does not take it again (that would deadlock when the limit is 1).
     """
 
-    def __init__(self, run, calls, session_cap, daily_cap, backoff_initial, backoff_cap):
+    def __init__(self, run, calls, session_cap, daily_cap, backoff_initial, backoff_cap,
+                 gateway_retries=DEFAULT_GATEWAY_RETRIES):
+        self.gateway_retries = gateway_retries
         self.run = run
         self.calls = calls
         self.session_cap = session_cap
@@ -387,6 +427,7 @@ class GatewayGuard:
     def call(self, orig, key, model, prompt, sid, timeout, cap, **kw):
         restarts = 0
         transient = 0
+        gw_errors = 0
         while True:
             blocked = self._blocked(sid)
             if blocked:
@@ -394,6 +435,18 @@ class GatewayGuard:
             if not self.calls.try_increment():
                 return "cap", None, {"reason": "daily_calls"}
             code, txt, usage = orig(key, model, prompt, sid, timeout, cap=cap, **kw)
+            if code in gapfill.GATEWAY_ERROR_CODES:
+                reason = (usage or {}).get("reason")
+                if reason in LIMIT_REASONS:
+                    # The gateway's own daily cap: retrying cannot help today.
+                    return "cap", txt, dict(usage or {}, reason=reason)
+                if reason == "session":
+                    return code, txt, usage
+                gw_errors += 1
+                if gw_errors > self.gateway_retries:
+                    return code, txt, usage
+                self.pause(gw_errors)
+                continue
             if code == "429":
                 transient += 1
                 if transient > 40:
@@ -551,6 +604,7 @@ class Swarm:
         self.results = []
         self.last = {}
         self.restarts = 0
+        self.gateway_streak = 0
         self.reservations = Reservations()
         self.existing = set()
         self.key = ""
@@ -617,6 +671,10 @@ class Swarm:
         The caller owns the gateway slot and releases it around a wait.
         """
         cid = topic["cid"]
+        if not gateway_call_room(self.args.gateway_call_cap, self.args.gateway_call_reserve):
+            self.queue.put(topic)
+            self.note_stop("daily_calls")
+            return "halt"
         if self.calls.remaining() < 1:
             self.queue.put(topic)
             self.note_stop("daily_calls")
@@ -656,6 +714,26 @@ class Swarm:
             self.state.update(cid, status="pending", note=reason)
             self.note_stop(reason)
             return "halt"
+        if result == "fail" and rec.get("result") == "gateway_error":
+            attempts = int((self.state.read(cid) or {}).get("attempts") or 1)
+            with self.lock:
+                self.gateway_streak += 1
+                streak = self.gateway_streak
+            if attempts < self.args.gateway_attempts:
+                self.state.update(cid, status="pending", note="gateway_error",
+                                  why=str(rec.get("why") or "")[:300])
+                self.queue.put(topic)
+                if streak >= self.args.max_gateway_errors:
+                    self.note_stop("gateway_errors")
+                    return "halt"
+                return "wait"
+            self.record(topic, result, rec)
+            if streak >= self.args.max_gateway_errors:
+                self.note_stop("gateway_errors")
+                return "halt"
+            return "done"
+        with self.lock:
+            self.gateway_streak = 0
         self.record(topic, result, rec)
         return "done"
 
@@ -781,6 +859,16 @@ def parse_args(argv=None):
     ap.add_argument("--session-cap", type=float, default=DEFAULT_SESSION_CAP, help="USD per gateway session")
     ap.add_argument("--daily-cap", type=float, default=DEFAULT_DAILY_CAP, help="USD per Zagreb day")
     ap.add_argument("--max-calls", type=positive_int, default=DEFAULT_MAX_CALLS, help="gateway calls per Zagreb day")
+    ap.add_argument("--gateway-retries", type=non_negative_int, default=DEFAULT_GATEWAY_RETRIES,
+                    help="retries with backoff for a 200 reply with no model output (default 3)")
+    ap.add_argument("--max-gateway-errors", type=positive_int, default=DEFAULT_MAX_GATEWAY_ERRORS,
+                    help="pause the run after this many topics in a row end in a gateway error (default 3)")
+    ap.add_argument("--gateway-attempts", type=positive_int, default=DEFAULT_GATEWAY_ATTEMPTS,
+                    help="mark a topic failed after this many gateway-error attempts (default 3)")
+    ap.add_argument("--gateway-call-cap", type=non_negative_int, default=DEFAULT_GATEWAY_CALL_CAP,
+                    help="gateway HERMES_RS_DAILY_CALL_CAP, read against day_calls in the spend file; 0 = off")
+    ap.add_argument("--gateway-call-reserve", type=non_negative_int, default=DEFAULT_GATEWAY_CALL_RESERVE,
+                    help="gateway calls per day left for the owner's chats (default 200)")
     ap.add_argument("--revisions", type=int, default=1)
     ap.add_argument("--no-review", action="store_true")
     ap.add_argument("--existing-ids", default="", help="file of card ids already in the pack")
@@ -814,7 +902,8 @@ def run(args):
     swarm = Swarm(args, budget, calls, guard=None)
     install_budget_tracker(swarm.reservations)
     guard = GatewayGuard(
-        swarm, calls, args.session_cap, args.daily_cap, args.backoff_initial, args.backoff_cap
+        swarm, calls, args.session_cap, args.daily_cap, args.backoff_initial, args.backoff_cap,
+        gateway_retries=args.gateway_retries,
     )
     swarm.guard = guard
     install_guard(guard)

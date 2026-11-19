@@ -94,6 +94,30 @@ result: FAIL (truth gate)
 
 Scale up only after a batch prints `result: PASS`.
 
+## Gateway errors inside a 200 reply
+
+hermes-rs answers `200` and ends the stream with `finish_reason: "error"` and an
+`error` object when it refuses a turn before any model call, for example
+`daily provider call cap reached (2000 of 2000)` (HERMES_RS_DAILY_CALL_CAP,
+counted per Zagreb day, every provider call including tool steps). Before this
+fix the runner read that as an empty model reply and marked the topic
+`no_json`, so one cap hit failed the rest of the queue in about a minute.
+
+Now:
+
+- `gapfill.py` returns `gw_error` (error chunk, no text) or `empty200` (no
+  text, zero tokens) instead of `200`, with `reason` `daily_calls`,
+  `daily_usd`, `session` or `gateway_error`, and skips the JSON retry.
+- `swarm.py` stops the run at once on the gateway's daily caps and leaves the
+  topic `pending`. Other gateway errors are retried with backoff
+  (`--gateway-retries`, default 3). After `--max-gateway-errors` topics in a row
+  (default 3) end in a gateway error the run pauses with `stopped
+  gateway_errors`; those topics stay `pending` until they reach
+  `--gateway-attempts` (default 3).
+- Before each topic `swarm.py` reads `day_calls` in the gateway spend file and
+  stops with `stopped daily_calls` when it reaches `--gateway-call-cap` (2000)
+  minus `--gateway-call-reserve` (200 calls left for the owner's chats).
+
 ## Offline tests
 
 No gateway and no network. A small `http.server` stands in for `:8642` and
