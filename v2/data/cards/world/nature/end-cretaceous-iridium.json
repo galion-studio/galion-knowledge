@@ -1,0 +1,48 @@
+{
+  "id": "world.nature.end-cretaceous-iridium",
+  "title": "Iridium at the Cretaceous–Tertiary boundary: the 1980 extraterrestrial argument",
+  "section": "world",
+  "category": "nature",
+  "body": "## The measurement\n\nAlvarez, Alvarez, Asaro, and Michel (Science, 1980), \"Extraterrestrial Cause for the Cretaceous-Tertiary Extinction,\" argue from a chemical anomaly.\n\nThe abstract states the reasoning. Platinum-group metals are depleted in Earth's crust relative to their cosmic abundance, so concentrations in deep-sea sediments can mark an influx of extraterrestrial material. Deep-sea limestones in Italy, Denmark, and New Zealand show iridium increases of about 30, 160, and 20 times the background, at the time of the Cretaceous–Tertiary extinctions, which the abstract places at 65 million years ago. The abstract says reasons are given that this iridium is extraterrestrial.\n\n## Mechanism and limit\n\nThe proposed mechanism is an impact: extraterrestrial material delivered at the boundary, marked by iridium that Earth's crust is poor in. The extinctions and the chemical spike line up in the sections they measured.\n\n**Fact:** those enrichment factors, in those three places, at that boundary, and the authors' argument that the iridium is extraterrestrial.\n\n**Not copied here:** a crater diameter, a kill mechanism (darkness, acid, fire), or a claim that every species died the same way. The paper's title states an extraterrestrial cause. The abstract that was checked states the iridium evidence and the age. Later identification of a crater is a further paper and is not this one.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Extraterrestrial Cause for the Cretaceous-Tertiary Extinction",
+      "url": "https://doi.org/10.1126/science.208.4448.1095",
+      "author": "Luis W. Alvarez, Walter Alvarez, Frank Asaro, and Helen V. Michel",
+      "date": "1980",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Luis W. Alvarez, Walter Alvarez, Frank Asaro, and Helen V. Michel",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.nature.plate-tectonics"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Iridium at the Cretaceous–Tertiary boundary: the 1980 extraterrestrial argument",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "world.society.cognitive-biases",
+  "title": "Three heuristics in judgment under uncertainty",
+  "section": "world",
+  "category": "society",
+  "body": "## What the 1974 paper says it studied\n\nTversky and Kahneman, Science (1974), \"Judgment under Uncertainty: Heuristics and Biases.\" The Crossref abstract states three heuristics used in judgments under uncertainty:\n\n1. Representativeness, usually when people judge the probability that an object or event A belongs to a class or process B.\n2. Availability of instances or scenarios, often when people assess the frequency of a class or the plausibility of a development.\n3. Adjustment from an anchor, usually in numerical estimates: people start from a value and adjust, and the adjustment is typically insufficient.\n\nThe mechanism is substitution. A hard probability question is answered by an easier one: how similar this case feels to the stereotype, how easily examples come to mind, or how far one moves from a number that happened to be in view. The easier question is often correlated with the harder one and is not the same question. That gap is the bias.\n\n## How hard to lean on it\n\n**Fact:** the 1974 paper described these three heuristics in those terms.\n\n**Not a permanent effect size.** The Open Science Collaboration (Science, 2015) estimated the reproducibility of psychological science by replicating 100 experiments from 2008 papers in three journals. The summary in the Crossref record says about one-third to one-half of the original findings were also observed in the replication. That study is not a replication of Tversky and Kahneman 1974 in particular. It is a warning about treating every classic effect size as durable. The heuristics paper is a real paper. A number you remember from a textbook illustration is not, unless the textbook's source was checked.\n\n**Not the same as a logical fallacy.** A fallacy, on the philosophy card, is a pattern in an argument. A heuristic is a psychological procedure. People can use a heuristic and still state a valid argument, or state a fallacy without using one of these three shortcuts.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Judgment under Uncertainty: Heuristics and Biases",
+      "url": "https://doi.org/10.1126/science.185.4157.1124",
+      "author": "Amos Tversky and Daniel Kahneman",
+      "date": "1974",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Estimating the reproducibility of psychological science",
+      "url": "https://doi.org/10.1126/science.aac4716",
+      "author": "Open Science Collaboration",
+      "date": "2015",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Amos Tversky and Daniel Kahneman",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.society.psychology-replication",
+    "world.philosophy.logical-fallacies"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_qids": [
+      "Q1127759"
+    ],
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Three heuristics in judgment under uncertainty",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "moderate",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "moderate"
+      }
+    }
+  }
+}

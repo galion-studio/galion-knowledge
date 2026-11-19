@@ -1,0 +1,56 @@
+{
+  "id": "world.biology.evolution-natural-selection",
+  "title": "Natural selection: the 1858 argument, and one Devonian fossil paper",
+  "section": "world",
+  "category": "biology",
+  "body": "## The mechanism named in 1858\n\nThe paper read to the Linnean Society and published in 1858 is jointly Darwin's and Wallace's: *On the Tendency of Species to form Varieties; and on the Perpetuation of Varieties and Species by Natural Means of Selection* (Journal of the Proceedings of the Linnean Society, Zoology, vol. 3, pp. 45–62).\n\nThe mechanism in the title is specific. Organisms vary. Variations are inherited. More offspring are produced than survive and reproduce. Variants that leave more offspring become more common. Over many generations the population changes. Nothing in that argument requires a designer, and nothing in it requires that every trait you notice is an adaptation. \"Natural selection did it\" as a guess about one organ, with no hereditary variation and no differential reproduction, is not the 1858 mechanism.\n\nDarwin's later book *On the Origin of Species* is a different, longer document. This card does not cite a particular edition of it, so it does not pretend to quote the book.\n\n## One morphological paper, not the whole fossil record\n\nDaeschler, Shubin, and Jenkins (Nature, 2006) describe a Devonian tetrapod-like fish and discuss the evolution of the tetrapod body plan. A tetrapod-like fish is evidence about the structure of an animal that sits, anatomically, between fishes and limbed vertebrates. It is one paper about one body plan.\n\n**Fact:** the 1858 paper states selection as a natural means by which varieties are perpetuated, and the 2006 paper presents a Devonian animal relevant to the tetrapod body plan.\n\n**Not established by these two sources alone:** a complete phylogeny of life, a moral ranking of species, or the claim that every popular \"transitional fossil\" story has been checked here. Those need their own papers. This card leaves them out on purpose.\n\n**Interpretation, labeled as such:** selection is the main population-level mechanism in modern evolutionary biology, alongside mutation, drift, and other processes. That broader synthesis is not the text of the 1858 paper.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On the Tendency of Species to form Varieties; and on the Perpetuation of Varieties and Species by Natural Means of Selection",
+      "url": "https://doi.org/10.1111/j.1096-3642.1858.tb02500.x",
+      "author": "Charles Darwin and Alfred Wallace",
+      "date": "1858",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "A Devonian tetrapod-like fish and the evolution of the tetrapod body plan",
+      "url": "https://doi.org/10.1038/nature04639",
+      "author": "Edward B. Daeschler, Neil H. Shubin, and Farish A. Jenkins Jr.",
+      "date": "2006",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Charles Darwin and Alfred Russel Wallace",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.dna-genetics",
+    "world.biology.endosymbiotic-origin"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Natural selection: the 1858 argument, and one Devonian fossil paper",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

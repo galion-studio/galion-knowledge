@@ -1,0 +1,49 @@
+{
+  "id": "world.law.nuremberg-responsibility",
+  "title": "Individual responsibility in the 1950 Nuremberg principles",
+  "section": "world",
+  "category": "law",
+  "body": "## The text\n\nThe International Law Commission, at its second session in 1950, adopted \"Principles of International Law Recognized in the Charter of the Nürnberg Tribunal and in the Judgment of the Tribunal,\" and submitted them to the General Assembly as part of that session's report. The copy read is the United Nations publication of that text. The principles are a formulation of what the Commission took the tribunal's charter and judgment to have recognized. They are not the judgment transcript itself.\n\nPrinciple I: any person who commits an act that constitutes a crime under international law is responsible and liable to punishment.\n\nPrinciple II: that internal law does not impose a penalty for the act does not relieve the person of responsibility under international law.\n\nPrinciple III: acting as Head of State or responsible government official does not relieve the person of responsibility under international law.\n\nPrinciple IV: acting pursuant to an order of one's government or of a superior does not relieve responsibility, provided a moral choice was in fact possible.\n\nPrinciple V: any person charged with a crime under international law has the right to a fair trial on the facts and law.\n\nPrinciple VII: complicity in a crime against peace, a war crime, or a crime against humanity, as set out in Principle VI, is itself a crime under international law.\n\n## The mechanism\n\nThe principles attach the crime to the person who committed it. Domestic legality, high office, and superior orders are rejected as automatic excuses. Principle IV's proviso — \"provided a moral choice was in fact possible\" — is part of the text. It is not a blanket \"following orders is never relevant.\" Principle V is the constraint on the other side: responsibility is paired with a fair trial. A summary execution is not what Principle V describes.\n\n**Fact:** the 1950 text says this.\n\n**Not a claim about every later statute.** Whether a given present-day court uses the same proviso on superior orders depends on that court's statute. Principle VI, the list of crimes, is a separate card, because its definition of crimes against humanity contains a limitation that is easy to miss.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Principles of International Law Recognized in the Charter of the Nürnberg Tribunal and in the Judgment of the Tribunal",
+      "url": "https://legal.un.org/ilc/texts/instruments/english/draft_articles/7_1_1950.pdf",
+      "author": "International Law Commission",
+      "date": "1950",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "International Law Commission",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.law.nuremberg-crimes",
+    "world.history.holocaust-documentation"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Individual responsibility in the 1950 Nuremberg principles",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

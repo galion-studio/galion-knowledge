@@ -1,0 +1,49 @@
+{
+  "id": "world.history.declaration-of-the-rights-of-man-1789",
+  "title": "What the National Assembly proclaimed on 26 August 1789",
+  "section": "world",
+  "category": "history",
+  "body": "## The text that was checked\n\nThe Avalon Project at Yale Law School hosts an English text of the Declaration of the Rights of Man, and states that it was approved by the National Assembly of France on 26 August 1789. This card uses that English text. It is a translation, not the French original.\n\nThe preamble in that text says the representatives, \"organized as a National Assembly,\" set forth \"the natural, unalienable, and sacred rights of man,\" and that the Assembly recognizes and proclaims them \"in the presence and under the auspices of the Supreme Being.\"\n\nArticles read in full from that page include:\n\n1. \"Men are born and remain free and equal in rights. Social distinctions may be founded only upon the general good.\"\n2. The aim of political association is the preservation of \"the natural and imprescriptible rights of man.\" Those rights are \"liberty, property, security, and resistance to oppression.\"\n3. Sovereignty resides in the nation.\n4. Liberty is the freedom to do everything which injures no one else; the limits are set by law.\n6. \"Law is the expression of the general will.\" Citizens have a right to participate in its foundation, personally or through a representative. Law is the same for all.\n7. No person shall be accused, arrested, or imprisoned except in the cases and forms prescribed by law.\n9. \"As all persons are held innocent until they shall have been declared guilty...\"\n10. No one shall be disquieted on account of opinions, including religious views, provided their manifestation does not disturb public order established by law.\n11. Free communication of ideas and opinions is named as one of the most precious rights; citizens may speak, write, and print, and are responsible for abuses defined by law.\n\n## Fact about a proclamation, not a proof of natural rights\n\n**Fact:** the Assembly approved this declaration on the date Avalon states, and the English text says what is quoted.\n\n**Not a fact established by the proclamation:** that rights of that kind exist in nature, independent of any legal act. The Assembly asserts it. Assertion is the document's job. Whether \"natural rights\" names something real, or only something law creates, is a philosophical dispute. This card does not cite Bentham or Burke, so it does not stage their objections as if their books had been opened.\n\n**Not established by articles 1 through 11:** who, in 1789 France, was actually protected. Article 1 in this English text says \"Men.\" Article 9 says \"all persons.\" The text that was read does not settle the status of women or of enslaved people in the colonies. A full political history of the Revolution — the Terror, the wars, Napoleon — is not this document and is not written here.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Declaration of the Rights of Man - 1789",
+      "url": "https://avalon.law.yale.edu/18th_century/rightsof.asp",
+      "author": "National Assembly of France, English text at the Avalon Project, Yale Law School",
+      "date": "1789",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Assembly of France",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.law.presumption-of-innocence",
+    "world.law.human-rights-declaration"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "What the National Assembly proclaimed on 26 August 1789",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

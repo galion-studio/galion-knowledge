@@ -1,0 +1,52 @@
+{
+  "id": "world.nature.water-cycle",
+  "title": "The water cycle: pools, fluxes, and what drives them",
+  "section": "world",
+  "category": "nature",
+  "body": "## Pools and fluxes\n\nThe U.S. Geological Survey Water Science School describes the water cycle as where water is and how it moves. Water is stored in pools and moves by fluxes. The page states that oceans store 96 percent of all water on Earth, and that this ocean water is saline. Fresh water, on the same accounting, is what remains: liquid water in lakes, rivers, reservoirs, and wetlands; ice in ice sheets, glaciers, and snowpack; vapor in the atmosphere; soil moisture and permafrost; and groundwater in aquifers, held in cracks and pores.\n\nThe same page says that, viewed from space, water in liquid and frozen form covers 75 percent of Earth's surface. That sentence is in a USGS caption that credits NASA. It is a coverage figure, not the same fact as the 96 percent volume figure. One is \"how much of the water\" and the other is \"how much of the surface.\"\n\nFluxes the page names: evaporation, evapotranspiration, and precipitation between atmosphere and surface; snowmelt, runoff, and streamflow across the surface; infiltration and groundwater recharge into the ground; flow inside aquifers; and discharge back to rivers, the ocean, and springs. Water changes phase among liquid, solid, and gas while it moves.\n\n## What drives it\n\nThe page's mechanism is short. Energy from the Sun and the force of gravity drive the movement. The Sun's energy evaporates liquid water. Evapotranspiration is the main path from land surface and oceans into the atmosphere. Gravity pulls water downhill on land and pulls rain, snow, and hail out of clouds.\n\n## Humans and climate, as this page states them\n\nThe page says human water use also moves and stores water: dams, diverted rivers, drained wetlands, withdrawals for homes, irrigation, livestock, and industry. It says climate change is affecting quantity, timing, and quality, including precipitation patterns, extremes, sea level, ocean acidification, and wildfire ash in water. Those are the agency's claims on that page. This card does not add a separate temperature number here; the climate card cites the IPCC statements that were checked.\n\n**Fact:** the pool-and-flux description and the Sun-and-gravity driver, as USGS states them.\n\n**Not a closed inventory:** residence times in years for each pool were not on the page that was read, so none are repeated.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Water cycle",
+      "url": "https://www.usgs.gov/water-science-school/water-cycle",
+      "author": "U.S. Geological Survey, Water Science School",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey Water Science School",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.nature.climate-change",
+    "world.geography.earth-shape"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_qids": [
+      "Q81041"
+    ],
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "The water cycle: pools, fluxes, and what drives them",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

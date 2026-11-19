@@ -1,0 +1,67 @@
+{
+  "id": "world.mathematics.infinity",
+  "title": "Infinity is more than one idea: Euclid, Dedekind, and Cantor's two sizes",
+  "section": "world",
+  "category": "mathematics",
+  "body": "## Three different claims that all get called \"infinity\"\n\nEuclid's *Elements* IX.20 shows there are more primes than any assigned finite multitude. That is infinity as \"no last one.\" It does not compare the size of one infinite collection with another. Joyce's page is the English presentation used here.\n\nThe Stanford Encyclopedia entry \"Infinity\" (Easwaran, Hájek, Mancosu, and Oppy; first published 29 April 2021, substantive revision 2 May 2025) reports a second definition. In the early 1820s Bolzano arrived at the idea that an infinite set is one that can be put in bijection with a proper subset of itself. Dedekind (1884) gave that as a definition of being infinite. A set that matches a proper subset is, in that sense, Dedekind-infinite. Galileo's paradox — the squares seem both fewer than the whole numbers and pairable with them — is the kind of pairing this definition takes as the mark of infinity rather than as a contradiction.\n\nJoan Bagaria's Stanford Encyclopedia entry \"Set Theory\" (first published 8 October 2014, substantive revision 31 January 2023) states a third claim. Set theory as a separate discipline begins with Georg Cantor. In late 1873 Cantor found that the real line is not countable: its points cannot be counted using the natural numbers. The natural numbers and the real numbers are both infinite, and there are more real numbers than natural numbers.\n\nThe infinity entry adds the vocabulary Cantor used. Countable infinite sets are those that pair with the natural numbers. Sets that do not, including the reals and the power set of the naturals, are uncountable. The first infinite cardinal, that of the natural numbers and of every countable set, is aleph-null. There is then a hierarchy of larger cardinals, not a single infinite size.\n\n## What is not settled in this card\n\nWhether there is a size strictly between the naturals and the reals is the continuum hypothesis. Bagaria's entry has a section on it. This card does not decide it and does not state an independence proof that was not read out of the entry. **Not settled here.**\n\n**Fact:** \"no last prime,\" \"pairs with a proper subset,\" and \"the reals are a larger infinity than the naturals\" are three theorems with three different contents. Using one word for all three is a convenience. It is not an argument that they are the same result.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book IX, Proposition 20",
+      "url": "https://mathcs.clarku.edu/~djoyce/java/elements/bookIX/propIX20.html",
+      "author": "Euclid, English presentation by David E. Joyce",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Infinity",
+      "url": "https://plato.stanford.edu/entries/infinity/",
+      "author": "Kenny Easwaran, Alan Hájek, Paolo Mancosu, and Graham Oppy",
+      "date": "2021",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Set Theory",
+      "url": "https://plato.stanford.edu/entries/set-theory/",
+      "author": "Joan Bagaria",
+      "date": "2014",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Georg Cantor",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.mathematics.infinitude-of-primes",
+    "world.mathematics.goedel-incompleteness"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_qids": [
+      "Q76420"
+    ],
+    "wikidata_note": "Q76420 is Wikidata's item for Georg Cantor the mathematician, not for a single theorem.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Infinity is more than one idea: Euclid, Dedekind, and Cantor's two sizes",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

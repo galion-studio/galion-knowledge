@@ -1,0 +1,49 @@
+{
+  "id": "world.geography.prime-meridian-1884",
+  "title": "Longitude needs a chosen zero: the 1884 resolutions",
+  "section": "world",
+  "category": "geography",
+  "body": "## Why longitude is a convention and latitude is not\n\nThe Greenwich Meridian article on the 1884 conference says latitude has always been measured from the equator, and that there is no equivalent natural point from which to measure longitude. Any meridian can be zero. The choice is a convention, fixed by agreement and by who already publishes the charts.\n\nThe article says the International Meridian Conference met in October 1884, with 41 delegates from 25 nations, and passed seven resolutions. The text of the first five, as the article quotes them:\n\n1. It is desirable to adopt a single prime meridian for all nations, in place of the multiplicity of initial meridians which then existed.\n2. The conference proposes to the governments represented the meridian through the centre of the transit instrument at the Observatory of Greenwich as the initial meridian for longitude.\n3. From that meridian, longitude is counted in two directions up to 180 degrees, east positive and west negative.\n4. The conference proposes a universal day for purposes for which it is convenient, without interfering with local or other standard time where that is desirable.\n5. That universal day is a mean solar day, begins for the whole world at mean midnight on the initial meridian, coincides with the civil day of that meridian, and is counted from zero to twenty-four hours.\n\nThe sixth resolution, in the part quoted, expresses the hope that astronomical and nautical days will be arranged to match. This card does not invent the seventh.\n\n## Mechanism\n\nA prime meridian is the half of a great circle chosen as longitude zero. Once it is chosen, every other place has an east or west angle from it, and a mean solar day can be counted from its midnight. The resolution's own verb is \"proposes.\" Adoption by states is a later history, on the companion card.\n\nThe page that was read does not contain the word \"Washington.\" The city of the meeting is therefore not stated in this card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The adoption of a Prime Meridian and the International Meridian Conference of 1884",
+      "url": "https://www.thegreenwichmeridian.org/tgm/articles.php?article=10",
+      "author": "The Greenwich Meridian",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "International Meridian Conference",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.greenwich-time-adoption",
+    "world.geography.map-projections"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Longitude needs a chosen zero: the 1884 resolutions",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

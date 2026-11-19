@@ -1,0 +1,53 @@
+{
+  "id": "world.geography.earth-shape",
+  "title": "Earth's measured shape, mass, and standard gravity",
+  "section": "world",
+  "category": "geography",
+  "body": "## The numbers on NASA's Earth Fact Sheet\n\nDavid R. Williams's NASA Goddard Earth Fact Sheet, read on 18 November 2026, lists:\n\n- Equatorial radius 6378.137 km\n- Polar radius 6356.752 km\n- Ellipticity (flattening) 0.003353\n- Volumetric mean radius 6371.000 km\n- Mass 5.9722 × 10^24 kg\n- Mean density 5513 kg/m³\n- Mean surface gravity 9.820 m/s², equatorial surface acceleration 9.780 m/s², polar surface acceleration 9.832 m/s²\n\nThe page states that the standard acceleration of gravity is defined, by CODATA 2018, as exactly 9.80665 m/s², and that this standard is not the same as the equatorial or polar accelerations it also lists.\n\n## What the difference between the radii means\n\nThe equatorial radius is larger than the polar radius. The flattening is the measured oblateness, (difference of the radii) scaled in the way the sheet's ellipticity number records. The sheet is a compilation of measured bulk parameters. It does not, on the page that was read, derive the bulge from the physics of a spinning fluid body. That derivation is real mechanics, and it is not attributed to a sentence that was not there.\n\n**Fact:** the parameters above, as of the fact sheet that was read. A fact sheet is revised. These are not eternal constants except where the page itself says \"exact,\" which it says for the CODATA standard gravity.\n\n**Not from this sheet:** a history of Eratosthenes. His estimate is a different source and is not mixed in.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Earth Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "author": "David R. Williams, NASA Goddard Space Flight Center, NSSDCA",
+      "date": "n.d.",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "David R. Williams, NASA Goddard Space Flight Center",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.geography.earth-orbit",
+    "world.geography.earth-atmosphere",
+    "world.nature.plate-tectonics"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_qids": [
+      "Q2"
+    ],
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Earth's measured shape, mass, and standard gravity",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

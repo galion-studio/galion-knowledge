@@ -1,0 +1,53 @@
+{
+  "id": "world.philosophy.social-contract",
+  "title": "Contractarianism: consent theories, and two strains that are not the same",
+  "section": "world",
+  "category": "philosophy",
+  "body": "## What the name covers\n\nAnn Cudd and Seena Eftekhari, \"Contractarianism,\" Stanford Encyclopedia of Philosophy (first published 18 June 2000, substantive revision 22 August 2025), say the name covers two projects. One is a political theory: legitimate authority of government must derive from the consent of the governed. The other is a moral theory about the origin or legitimate content of moral norms.\n\nThe entry lists, as contract theorists in the history of political thought, Hobbes, Locke, Kant, and Rousseau. It names John Rawls as the most important contemporary political social-contract theorist, and David Gauthier as primarily a moral contractarian. It says a person can be a contractarian about politics without being one about morality, though most contemporary contractarians are both.\n\nIt also says there are two strains, now usually called contractarianism and contractualism. Contractarianism stems from Hobbes. The entry was not asked, in the passage that was read, to pretend these authors signed one contract with one set of terms. They did not. Hobbes, Locke, and Rousseau argue different things about the state of nature, about who consents, and about what can be consented away.\n\n## A mechanism of justification, not a historical meeting\n\nThe mechanism is justificatory. Instead of deriving authority from conquest, ancestry, or a sacred office, the theory asks whether the people who are ruled could have agreed, or would agree under stated conditions. \"Could have\" and \"would under ideal conditions\" are already different tests. A historical meeting in a forest is not required. When someone points to a real constitution and calls it \"the social contract,\" that is a further, empirical claim about a document. The 1789 declaration and the 1948 Universal Declaration are real documents. They are not the same object as Hobbes's argument.\n\n**Not settled.** Which version, if any, justifies a state is the dispute the entry organizes. This card does not pick Hobbes over Rawls or the reverse.\n",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Contractarianism",
+      "url": "https://plato.stanford.edu/entries/contractarianism/",
+      "author": "Ann Cudd and Seena Eftekhari",
+      "date": "2000",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "not-settled",
+  "said_by": "Ann Cudd and Seena Eftekhari",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.declaration-of-the-rights-of-man-1789",
+    "world.society.democracy",
+    "world.law.human-rights-declaration"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_qids": [
+      "Q1326430"
+    ],
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Contractarianism: consent theories, and two strains that are not the same",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "not-settled",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "not-settled"
+      }
+    }
+  }
+}

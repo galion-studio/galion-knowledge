@@ -1,0 +1,53 @@
+{
+  "id": "world.society.giffen-behavior",
+  "title": "Giffen behavior: upward-sloping demand among very poor households in two Chinese provinces",
+  "section": "world",
+  "category": "society",
+  "body": "## The usual slope, and a reported exception\n\nA standard demand model says that, other things equal, people buy less of a good when its price rises. The slope is a modeling choice that fits many goods and fails for some. A Giffen good is the textbook name for the failure in which the quantity demanded rises when the price rises, because the good is such a large part of a poor budget that the income effect runs the other way.\n\nJensen and Miller (American Economic Review, 2008), \"Giffen Behavior and Subsistence Consumption,\" say their paper provides what they call the first real-world evidence of Giffen behavior, meaning upward-sloping demand. They subsidized the prices of dietary staples for extremely poor households in two provinces of China. The abstract reports strong evidence of Giffen behavior for rice in Hunan, and weaker evidence for wheat in Gansu. They interpret the households as maximizing utility subject to subsistence concerns, and they say the elasticity of demand depends significantly on that constraint.\n\n## How to weigh one paper\n\n**Fact:** that study, in those provinces, reports the pattern above, with the authors' own distinction between strong and weaker evidence.\n\n**Not a repeal of demand theory.** One staple, among extremely poor households, under a subsidy experiment, is not \"the law of demand is false.\" It is evidence that the income effect can dominate for a subsistence staple. The model with a downward slope is still the relevant model where that condition does not hold.\n\n**Not settled as a universal Chinese result, or a universal poverty result.** The paper's claim is about Hunan rice and Gansu wheat in the sample they ran. Extending it further is an interpretation.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Giffen Behavior and Subsistence Consumption",
+      "url": "https://doi.org/10.1257/aer.98.4.1553",
+      "author": "Robert T. Jensen and Nolan H. Miller",
+      "date": "2008",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Robert T. Jensen and Nolan H. Miller",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.society.cognitive-biases",
+    "world.society.marx-historical-materialism"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_qids": [
+      "Q166656"
+    ],
+    "wikidata_note": "Q166656 is the supply-and-demand model. This card is an empirical exception reported inside that model, not a restatement of the model as a law.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Giffen behavior: upward-sloping demand among very poor households in two Chinese provinces",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "moderate",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "moderate"
+      }
+    }
+  }
+}

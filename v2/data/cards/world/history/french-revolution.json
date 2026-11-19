@@ -1,0 +1,44 @@
+{
+  "id": "world.history.french-revolution",
+  "title": "The French Revolution",
+  "section": "world",
+  "category": "history",
+  "body": "# The French Revolution (1789-1799)\n\nThe French Revolution was a period of radical political and social change that fundamentally altered French society and had worldwide influence.\n\n## Causes\n\n- Financial crisis and debt\n- Social inequality (Three Estates system)\n- Enlightenment ideas\n- Food shortages\n- Weak leadership of Louis XVI\n\n## Key Events\n\n### 1789\n- Storming of the Bastille (July 14)\n- Declaration of Rights of Man and Citizen\n- Women's March on Versailles\n\n### 1791-1792\n- Constitutional monarchy established\n- War with Austria and Prussia\n- Monarchy abolished, Republic declared\n\n### The Terror (1793-1794)\n- Robespierre and Committee of Public Safety\n- Mass executions (guillotine)\n- 16,000-40,000 killed\n- Ended with Robespierre's execution\n\n### 1795-1799\n- Directory government\n- Military campaigns\n- Napoleon's coup (1799)\n\n## Major Figures\n\n- Louis XVI and Marie Antoinette\n- Robespierre\n- Danton\n- Marat\n- Napoleon Bonaparte\n\n## Legacy\n\n- End of absolute monarchy in France\n- Declaration of Rights of Man\n- Nationalism and citizenship concepts\n- Inspired revolutions worldwide\n- Metric system adopted\n",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": null,
+  "as_of_date": null,
+  "status": "unsourced-needs-review",
+  "contested_views": [],
+  "related": [
+    "world.society.democracy"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract. The meta object is additive.",
+    "legacy_v1": {
+      "v1_id": "19",
+      "slug": "french-revolution",
+      "summary": "The 1789-1799 period of radical political and social change in France that ended the monarchy.",
+      "tags": [
+        "revolution",
+        "18th-century",
+        "france",
+        "politics"
+      ],
+      "related_slugs": [
+        "world-war-one",
+        "democracy",
+        "napoleon"
+      ],
+      "legacy_truth_score_unverified": 100,
+      "legacy_source_count_unverified": 456,
+      "legacy_last_verified_unverified": "2024-12-09",
+      "legacy_read_time_minutes_unverified": 9,
+      "migration_note": "Body text is preserved from V1 src/lib/knowledge-data.ts. No sources were attached because they were not independently checked. Legacy truth scores and source counts are not evidence."
+    }
+  }
+}

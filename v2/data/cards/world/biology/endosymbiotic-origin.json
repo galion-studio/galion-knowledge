@@ -1,0 +1,53 @@
+{
+  "id": "world.biology.endosymbiotic-origin",
+  "title": "The 1967 proposal that mitosing cells began as a merger",
+  "section": "world",
+  "category": "biology",
+  "body": "## What this paper is\n\nLynn Sagan (later known as Lynn Margulis) published \"On the origin of mitosing cells\" in the Journal of Theoretical Biology in 1967. The title states the proposal: cells that divide by mitosis had an origin that needs explaining, and the paper offers an account of that origin.\n\nThe account associated with this paper is endosymbiosis, or symbiogenesis: some organelles of eukaryotic cells began as free-living cells that came to live inside other cells. This card cites the proposal. It does not cite the later genomic papers that compared organelle genomes with bacterial genomes. Those papers matter, and they are not loaded here. A proposal is not the same thing as a closed case.\n\n## How to weigh it\n\n**Fact:** a 1967 theoretical paper argues for a symbiotic origin of mitosing cells.\n\n**Not settled inside this card:** how strong the present evidence is. Calling the theory \"hypothetical\" because a database gloss says so, or calling it \"proved\" because textbooks say so, both skip the papers. The honest status of this card is limited: one foundational argument, no confirmatory genome paper attached.\n\n**Interpretation:** if the proposal is right, mitochondria and chloroplasts are evidence that major cell parts are acquired, not only gradually sculpted inside one lineage. That changes what \"the tree of life\" can mean. It is a consequence of the proposal, and it stands or falls with evidence this card does not pretend to finish.\n",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "On the origin of mitosing cells",
+      "url": "https://doi.org/10.1016/0022-5193(67)90079-3",
+      "author": "Lynn Sagan",
+      "date": "1967",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "limited",
+  "said_by": "Lynn Sagan",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.evolution-natural-selection",
+    "world.biology.dna-genetics"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_qids": [
+      "Q2030494"
+    ],
+    "wikidata_note": "Q2030494 is Wikidata's item for symbiogenesis. The card does not adopt Wikidata's one-line wording as a verdict.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "The 1967 proposal that mitosing cells began as a merger",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "limited",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "limited"
+      }
+    }
+  }
+}

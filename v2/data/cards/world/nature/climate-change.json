@@ -1,0 +1,107 @@
+{
+  "id": "world.nature.climate-change",
+  "title": "Greenhouse gases and warming: what is measured, what is a best estimate, what is not a headcount",
+  "section": "world",
+  "category": "nature",
+  "body": "## The physical mechanism, from the nineteenth century forward\n\nTyndall's Bakerian Lecture (1861) is on the absorption and radiation of heat by gases and vapours. Arrhenius (1896) is titled \"On the influence of carbonic acid in the air upon the temperature of the ground.\" Carbonic acid, in that period's language, is carbon dioxide. The mechanism those papers opened is: some gases absorb heat radiation, and CO2 in the air is a candidate for changing the temperature of the ground. This card does not repeat Arrhenius's numerical prediction. The modern assessment is the IPCC's, not an 1896 extrapolation.\n\n## What the 2021 physical-science headlines say\n\nThe IPCC Working Group I headline statements, checked on the IPCC site, include these approved sentences:\n\n- \"It is unequivocal that human influence has warmed the atmosphere, ocean and land.\"\n- Improved knowledge \"gives a best estimate of equilibrium climate sensitivity of 3°C, with a narrower range compared to AR5.\"\n- Global surface temperature \"will continue to increase until at least mid-century under all emissions scenarios considered.\" Warming of 1.5°C and 2°C \"will be exceeded during the 21st century unless deep reductions in carbon dioxide (CO2) and other greenhouse gas emissions occur in the coming decades.\"\n- \"From a physical science perspective, limiting human-induced global warming to a specific level requires limiting cumulative CO2 emissions, reaching at least net zero CO2 emissions, along with strong reductions in other greenhouse gas emissions.\"\n- Low-likelihood outcomes, \"such as ice-sheet collapse, abrupt ocean circulation changes, some compound extreme events, and warming substantially larger than the assessed very likely range of future warming, cannot be ruled out.\"\n\n## What is not settled, and what is not science\n\nThe headline page gives the 3°C best estimate and says the range is narrower than in the previous assessment. It does not, on that page, print the full likely interval. That interval lives in the Summary for Policymakers proper. This card does not invent it.\n\nEquilibrium sensitivity, ice-sheet collapse, and regional detail are not single settled numbers. The headlines say so in the phrases quoted above.\n\nCook et al. 2013 is a study of abstracts, with the split quoted in the contested view. Using \"97 percent of climate scientists\" as if it were that paper's result drops the denominator. The paper's result is about abstracts that took a position.\n\n**Policy** — which taxes, which treaties, which technologies — is not fixed by the radiative physics. The physical statement that was checked is about cumulative CO2 and net zero if a temperature level is chosen. Choosing the level is a decision. The physics of greenhouse absorption is not.\n",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "The Bakerian Lecture: On the absorption and radiation of heat by gases and vapours, and on the physical connexion of radiation, absorption, and conduction",
+      "url": "https://doi.org/10.1098/rstl.1861.0001",
+      "author": "John Tyndall",
+      "date": "1861",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "On the influence of carbonic acid in the air upon the temperature of the ground",
+      "url": "https://doi.org/10.1080/14786449608620846",
+      "author": "Svante Arrhenius",
+      "date": "1896",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Climate Change 2021: The Physical Science Basis. Working Group I Summary for Policymakers, headline statements",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/resources/spm-headline-statements/",
+      "author": "Intergovernmental Panel on Climate Change",
+      "date": "2021",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Quantifying the consensus on anthropogenic global warming in the scientific literature",
+      "url": "https://doi.org/10.1088/1748-9326/8/2/024024",
+      "author": "John Cook, Dana Nuccitelli, Sarah A. Green, Mark Richardson, and colleagues",
+      "date": "2013",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Intergovernmental Panel on Climate Change, Working Group I",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "position": "IPCC AR6 Working Group I physical-science assessment",
+      "claim_type": "fact",
+      "summary": "The approved headline statements say it is unequivocal that human influence has warmed the atmosphere, ocean, and land, give a best estimate of equilibrium climate sensitivity of 3°C with a narrower range than AR5, and say that limiting warming to a specific level requires limiting cumulative CO2 emissions, reaching at least net zero CO2, along with strong reductions in other greenhouse gases. They also say low-likelihood outcomes such as ice-sheet collapse cannot be ruled out.",
+      "evidence_strength": "strong",
+      "said_by": "IPCC Working Group I",
+      "sources": [
+        {
+          "title": "WGI Summary for Policymakers headline statements",
+          "url": "https://www.ipcc.ch/report/ar6/wg1/resources/spm-headline-statements/",
+          "author": "Intergovernmental Panel on Climate Change",
+          "date": "2021",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "position": "Cook et al. 2013 counted abstracts, and the 97 percent figure has a denominator",
+      "claim_type": "fact",
+      "summary": "Cook and colleagues rated 11,944 abstracts from 1991–2011. They report that 66.4 percent expressed no position on anthropogenic global warming, 32.6 percent endorsed it, 0.7 percent rejected it, and 0.3 percent were uncertain. Among abstracts that expressed a position, 97.1 percent endorsed the consensus. Among self-rated papers that expressed a position, 97.2 percent endorsed it. The 97 percent is not a percentage of all abstracts, and it is not a headcount of scientists.",
+      "evidence_strength": "moderate",
+      "said_by": "John Cook and colleagues",
+      "sources": [
+        {
+          "title": "Quantifying the consensus on anthropogenic global warming in the scientific literature",
+          "url": "https://doi.org/10.1088/1748-9326/8/2/024024",
+          "author": "John Cook and colleagues",
+          "date": "2013",
+          "accessed": "2026-11-18"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "world.nature.water-cycle",
+    "world.nature.milankovitch-cycles",
+    "world.biology.photosynthesis"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_qids": [
+      "Q41560"
+    ],
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Greenhouse gases and warming: what is measured, what is a best estimate, what is not a headcount",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

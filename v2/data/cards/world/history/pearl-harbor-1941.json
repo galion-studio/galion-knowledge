@@ -1,0 +1,50 @@
+{
+  "id": "world.history.pearl-harbor-1941",
+  "title": "7 and 8 December 1941: the attack on Pearl Harbor and the U.S. declaration of war",
+  "section": "world",
+  "category": "history",
+  "body": "## What the National Archives page documents\n\nThe U.S. National Archives milestone-document page on Franklin D. Roosevelt's 8 December 1941 address states the sequence as follows.\n\nOn 7 December 1941 the U.S. naval base on Oahu, Hawaii, was attacked. The page says the attack lasted less than two hours, devastated the U.S. Pacific Fleet, and killed or wounded more than 3,500 Americans. It says diplomatic relations with Japan had been deteriorating and had not yet been broken off. Early the next afternoon — the page dates Roosevelt's address 8 December 1941, \"the day after\" the attack — Roosevelt delivered the address to Congress. The archive's citation for the speech is: \"Day of Infamy\" Speech by Franklin D. Roosevelt, December 8, 1941; SEN 77A-H1, Records of the United States Senate; Record Group 46. Immediately afterward, the page says, Congress declared war and the United States entered World War II.\n\n## What this one page does not carry\n\n**Fact:** the dates, the casualty phrase \"more than 3,500 Americans were killed or wounded,\" the fleet damage as the archive describes it, and the constitutional sequence of an address followed by a congressional declaration.\n\n**Not on this page, and not invented here:** a full order of battle, a Japanese government document stating Tokyo's aims, or a worldwide death toll for the war. Those need their own sources. The Holocaust accounting is a different card, from the United States Holocaust Memorial Museum, and it is not a subset of the Pearl Harbor casualty figure.\n\n**Interpretation the archive itself offers:** the page calls the attack one of the greatest military surprises in the history of warfare. That is the archive's characterization of the event. It is not a theorem.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Joint Address to Congress Leading to a Declaration of War Against Japan (1941)",
+      "url": "https://www.archives.gov/milestone-documents/joint-address-to-congress-declaration-of-war-against-japan",
+      "author": "U.S. National Archives",
+      "date": "1941",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. National Archives",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.holocaust-documentation",
+    "world.history.greenwich-time-adoption"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_note": "Wikidata Q362 is the item for World War II as a whole. This card is only the Pearl Harbor attack and the U.S. declaration of war on Japan.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "7 and 8 December 1941: the attack on Pearl Harbor and the U.S. declaration of war",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

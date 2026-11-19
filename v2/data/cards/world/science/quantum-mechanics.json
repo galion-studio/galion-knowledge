@@ -1,0 +1,185 @@
+{
+  "id": "world.science.quantum-mechanics",
+  "title": "Quantum mechanics: formalism, experiment, and interpretations that do not agree",
+  "section": "world",
+  "category": "science",
+  "body": "## What was built, in order\n\nPlanck's 1901 paper states a law for the energy distribution of black-body radiation. That is a result about spectra, not yet a mechanics of atoms.\n\nSchrödinger's 1926 papers, both titled *Quantisierung als Eigenwertproblem*, turn quantization into an eigenvalue problem for a wave function. Born's 1926 paper on collision processes is the statistical reading: the wave function is used to give probabilities. Heisenberg's 1927 paper is the uncertainty argument, about what the new kinematics allows one to mean by simultaneous values of quantities such as position and momentum.\n\nThose papers are the machinery. They are not an agreement about what the machinery says the world is doing between measurements.\n\n## What experiment has actually closed\n\nEinstein, Podolsky, and Rosen (1935) asked whether the quantum description is complete. Bell (1964) turned a version of that question into an inequality that local hidden-variable theories must satisfy. Aspect, Grangier, and Roger (1982) reported a violation of a Bell inequality in an optical experiment.\n\n**Fact:** that class of local hidden-variable theories does not fit those results.\n\n**Not settled:** which of the remaining interpretations is right. Everett's relative-state formulation and Bohm's hidden-variable theory are both published alternatives. Neither is selected by the Bell test alone. Calling one of them \"the\" meaning of quantum mechanics is an interpretation, not a further measurement.\n\n## Mechanism, stated narrowly\n\nThe predictive mechanism that working physics uses is: write the wave function from Schrödinger's equation (or an equivalent formalism), and read probabilities from it in the way Born's rule specifies. The uncertainty paper limits how sharp a joint classical picture of the same system can be. Everything past that sentence — collapse, many branches, guiding waves — is a contested reading of the same predictions.\n",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Ueber das Gesetz der Energieverteilung im Normalspectrum",
+      "url": "https://doi.org/10.1002/andp.19013090310",
+      "author": "Max Planck",
+      "date": "1901",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Quantisierung als Eigenwertproblem",
+      "url": "https://doi.org/10.1002/andp.19263840404",
+      "author": "E. Schrödinger",
+      "date": "1926",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Zur Quantenmechanik der Stoßvorgänge",
+      "url": "https://doi.org/10.1007/BF01397477",
+      "author": "Max Born",
+      "date": "1926",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik",
+      "url": "https://doi.org/10.1007/BF01397280",
+      "author": "W. Heisenberg",
+      "date": "1927",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+      "url": "https://doi.org/10.1103/PhysRev.47.777",
+      "author": "A. Einstein, B. Podolsky, and N. Rosen",
+      "date": "1935",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "On the Einstein Podolsky Rosen paradox",
+      "url": "https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195",
+      "author": "J. S. Bell",
+      "date": "1964",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Experimental Realization of Einstein-Podolsky-Rosen-Bohm Gedankenexperiment: A New Violation of Bell's Inequalities",
+      "url": "https://doi.org/10.1103/PhysRevLett.49.91",
+      "author": "Alain Aspect, Philippe Grangier, and Gérard Roger",
+      "date": "1982",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "\"Relative State\" Formulation of Quantum Mechanics",
+      "url": "https://doi.org/10.1103/RevModPhys.29.454",
+      "author": "Hugh Everett III",
+      "date": "1957",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "A Suggested Interpretation of the Quantum Theory in Terms of \"Hidden\" Variables. I",
+      "url": "https://doi.org/10.1103/PhysRev.85.166",
+      "author": "David Bohm",
+      "date": "1952",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "not-settled",
+  "said_by": null,
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "position": "The wave function is a probability tool, not a catalog of hidden positions",
+      "claim_type": "interpretation",
+      "summary": "Born's 1926 paper treats the quantum description of collisions statistically. In the reading that became textbook quantum mechanics, the wave function is used to compute probabilities of outcomes, and Heisenberg's 1927 paper argues that the kinematics itself limits how sharp simultaneous values can be. This is an interpretation of the formalism plus an argument about measurement, not an extra experimental object.",
+      "evidence_strength": "strong",
+      "said_by": "Max Born; Werner Heisenberg",
+      "sources": [
+        {
+          "title": "Zur Quantenmechanik der Stoßvorgänge",
+          "url": "https://doi.org/10.1007/BF01397477",
+          "author": "Max Born",
+          "date": "1926",
+          "accessed": "2026-11-18"
+        },
+        {
+          "title": "Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik",
+          "url": "https://doi.org/10.1007/BF01397280",
+          "author": "W. Heisenberg",
+          "date": "1927",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "position": "The description is incomplete unless extra variables exist",
+      "claim_type": "interpretation",
+      "summary": "Einstein, Podolsky, and Rosen (1935) argued that the quantum-mechanical description of physical reality is not complete. Bohm (1952) wrote an explicit hidden-variable interpretation. Bell (1964) then showed that a local hidden-variable account of the EPR setup has to obey inequalities. Aspect, Grangier, and Roger (1982) reported an experimental violation of a Bell inequality. That rules out a class of local hidden-variable theories. It does not by itself pick a single remaining interpretation.",
+      "evidence_strength": "strong",
+      "said_by": "Einstein, Podolsky, Rosen; David Bohm; John Bell; Alain Aspect and colleagues",
+      "sources": [
+        {
+          "title": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+          "url": "https://doi.org/10.1103/PhysRev.47.777",
+          "author": "A. Einstein, B. Podolsky, and N. Rosen",
+          "date": "1935",
+          "accessed": "2026-11-18"
+        },
+        {
+          "title": "A Suggested Interpretation of the Quantum Theory in Terms of \"Hidden\" Variables. I",
+          "url": "https://doi.org/10.1103/PhysRev.85.166",
+          "author": "David Bohm",
+          "date": "1952",
+          "accessed": "2026-11-18"
+        },
+        {
+          "title": "On the Einstein Podolsky Rosen paradox",
+          "url": "https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195",
+          "author": "J. S. Bell",
+          "date": "1964",
+          "accessed": "2026-11-18"
+        },
+        {
+          "title": "Experimental Realization of Einstein-Podolsky-Rosen-Bohm Gedankenexperiment: A New Violation of Bell's Inequalities",
+          "url": "https://doi.org/10.1103/PhysRevLett.49.91",
+          "author": "Alain Aspect, Philippe Grangier, and Gérard Roger",
+          "date": "1982",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "position": "The wave function never collapses; branching relative states are enough",
+      "claim_type": "interpretation",
+      "summary": "Everett's 1957 paper formulates quantum mechanics in terms of relative states, without adding a separate collapse postulate. Whether that formulation matches what an observer should expect is still argued. The paper is a real alternative, not a settled replacement.",
+      "evidence_strength": "moderate",
+      "said_by": "Hugh Everett III",
+      "sources": [
+        {
+          "title": "\"Relative State\" Formulation of Quantum Mechanics",
+          "url": "https://doi.org/10.1103/RevModPhys.29.454",
+          "author": "Hugh Everett III",
+          "date": "1957",
+          "accessed": "2026-11-18"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "world.science.theory-of-relativity",
+    "world.philosophy.free-will"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_qids": [
+      "Q944"
+    ],
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Quantum mechanics: formalism, experiment, and interpretations that do not agree",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "not-settled",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "not-settled"
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "world.philosophy.critical-thinking",
+  "title": "Critical Thinking",
+  "section": "world",
+  "category": "philosophy",
+  "body": "# Critical Thinking\n\nCritical thinking is the disciplined process of actively analyzing, synthesizing, and evaluating information to guide beliefs and actions.\n\n## Core Components\n\n### Analysis\n- Breaking down complex information\n- Identifying arguments and evidence\n- Understanding relationships between ideas\n- Recognizing assumptions\n\n### Evaluation\n- Assessing the quality of evidence\n- Judging the strength of arguments\n- Identifying strengths and weaknesses\n- Weighing competing claims\n\n### Inference\n- Drawing reasonable conclusions\n- Connecting evidence to claims\n- Recognizing what follows logically\n- Avoiding unwarranted leaps\n\n### Self-Regulation\n- Monitoring one's own thinking\n- Recognizing personal biases\n- Adjusting beliefs with new evidence\n- Intellectual humility\n\n## Key Skills\n\n### Identifying Arguments\n- What is the main claim?\n- What reasons support it?\n- What evidence is offered?\n- What is assumed but not stated?\n\n### Evaluating Evidence\n- Is the source reliable?\n- Is the evidence relevant?\n- Is it sufficient?\n- Are there alternative explanations?\n\n### Recognizing Fallacies\n\n**Formal Fallacies** (logical structure)\n- Affirming the consequent\n- Denying the antecedent\n\n**Informal Fallacies** (content)\n- Ad hominem (attacking the person)\n- Straw man (misrepresenting argument)\n- False dichotomy (either/or)\n- Appeal to authority\n- Slippery slope\n- Circular reasoning\n- Red herring\n\n## Habits of Mind\n\n- Intellectual curiosity\n- Open-mindedness\n- Systematic approach\n- Persistence in inquiry\n- Confidence in reason\n- Fair-mindedness\n- Willingness to revise views\n\n## Applications\n\n- Academic research\n- Media literacy\n- Professional decisions\n- Personal choices\n- Civic engagement\n- Scientific inquiry\n\n## Why It Matters\n\nIn an age of information overload and misinformation, critical thinking is essential for:\n- Distinguishing fact from fiction\n- Making informed decisions\n- Participating in democracy\n- Solving complex problems\n",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": null,
+  "as_of_date": null,
+  "status": "unsourced-needs-review",
+  "contested_views": [],
+  "related": [
+    "world.science.scientific-method",
+    "world.society.cognitive-biases",
+    "world.philosophy.logical-fallacies"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract. The meta object is additive.",
+    "legacy_v1": {
+      "v1_id": "30",
+      "slug": "critical-thinking",
+      "summary": "The objective analysis and evaluation of information to form a reasoned judgment.",
+      "tags": [
+        "thinking",
+        "logic",
+        "rationality",
+        "education"
+      ],
+      "related_slugs": [
+        "scientific-method",
+        "cognitive-biases",
+        "logical-fallacies"
+      ],
+      "legacy_truth_score_unverified": 100,
+      "legacy_source_count_unverified": 234,
+      "legacy_last_verified_unverified": "2024-12-17",
+      "legacy_read_time_minutes_unverified": 8,
+      "migration_note": "Body text is preserved from V1 src/lib/knowledge-data.ts. No sources were attached because they were not independently checked. Legacy truth scores and source counts are not evidence."
+    }
+  }
+}

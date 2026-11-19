@@ -1,0 +1,45 @@
+{
+  "id": "world.science.scientific-method",
+  "title": "The Scientific Method",
+  "section": "world",
+  "category": "science",
+  "body": "# The Scientific Method\n\nThe scientific method is a systematic approach to understanding the natural world through observation, experimentation, and evidence-based reasoning.\n\n## Steps of the Scientific Method\n\n### 1. Observation\nCareful observation of natural phenomena leads to questions about how things work.\n\n### 2. Question\nFormulate a specific, testable question based on observations.\n\n### 3. Hypothesis\nPropose a tentative explanation that can be tested. A good hypothesis is:\n- Testable\n- Falsifiable\n- Based on existing knowledge\n\n### 4. Experiment\nDesign and conduct experiments to test the hypothesis:\n- Control variables\n- Use control groups\n- Replicate results\n- Record data systematically\n\n### 5. Analysis\nAnalyze data using statistical methods to determine if results support or refute the hypothesis.\n\n### 6. Conclusion\nDraw conclusions based on evidence. Accept, reject, or modify the hypothesis.\n\n### 7. Communication\nShare findings through peer-reviewed publication so others can verify and build upon the work.\n\n## Key Principles\n\n- **Empiricism**: Knowledge comes from sensory experience\n- **Falsifiability**: Scientific claims must be testable\n- **Reproducibility**: Results must be replicable by others\n- **Peer Review**: Independent verification of findings\n- **Self-Correction**: Science updates with new evidence\n\n## Why It Works\n\nThe scientific method minimizes human bias and error through systematic procedures and independent verification. It has produced our most reliable knowledge about the natural world.\n",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": null,
+  "as_of_date": null,
+  "status": "unsourced-needs-review",
+  "contested_views": [],
+  "related": [
+    "world.philosophy.logical-fallacies",
+    "world.philosophy.critical-thinking"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract. The meta object is additive.",
+    "legacy_v1": {
+      "v1_id": "3",
+      "slug": "scientific-method",
+      "summary": "The systematic approach used to investigate phenomena, acquire knowledge, and correct errors.",
+      "tags": [
+        "methodology",
+        "research",
+        "experiments",
+        "evidence"
+      ],
+      "related_slugs": [
+        "peer-review",
+        "logical-fallacies",
+        "critical-thinking"
+      ],
+      "legacy_truth_score_unverified": 100,
+      "legacy_source_count_unverified": 156,
+      "legacy_last_verified_unverified": "2024-12-18",
+      "legacy_read_time_minutes_unverified": 7,
+      "migration_note": "Body text is preserved from V1 src/lib/knowledge-data.ts. No sources were attached because they were not independently checked. Legacy truth scores and source counts are not evidence."
+    }
+  }
+}

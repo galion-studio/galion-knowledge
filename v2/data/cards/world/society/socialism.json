@@ -1,0 +1,46 @@
+{
+  "id": "world.society.socialism",
+  "title": "Socialism",
+  "section": "world",
+  "category": "society",
+  "body": "# Socialism\n\nSocialism encompasses various economic and political systems characterized by social ownership of the means of production and democratic control of the economy.\n\n## Core Principles\n\n### Social Ownership\n- Means of production owned collectively\n- Could be state, worker, or community owned\n- Not privately held for profit\n\n### Economic Planning\n- Production for use, not profit\n- Coordination of economic activity\n- Reduce waste and inefficiency\n\n### Equality\n- Reduce economic inequality\n- Meet basic needs of all\n- \"From each according to ability, to each according to need\"\n\n### Democratic Control\n- Workers participate in decisions\n- Economic democracy\n- Collective decision-making\n\n## Varieties of Socialism\n\n### Democratic Socialism\n- Achieve socialism through democratic means\n- Strong welfare state\n- Mixed economy with social ownership\n- Examples: Nordic model elements\n\n### Marxism\n- Scientific analysis of capitalism\n- Historical materialism\n- Class struggle\n- Predicted capitalism's collapse\n\n### Market Socialism\n- Markets for goods and services\n- But social ownership of enterprises\n- Worker cooperatives\n\n### Anarcho-Socialism\n- Socialism without state\n- Decentralized, voluntary cooperation\n- Community ownership\n\n## Historical Developments\n\n### Early Socialists\n- Robert Owen, Saint-Simon, Fourier\n- Utopian socialists\n- Experimental communities\n\n### Marx and Engels\n- Communist Manifesto (1848)\n- Das Kapital\n- Revolutionary socialism\n\n### 20th Century\n- Russian Revolution (1917)\n- Soviet model\n- Social democracy in Europe\n- Various implementations globally\n\n## Arguments For\n\n- Greater equality\n- Basic needs guaranteed\n- Democratic economy\n- Environmental sustainability\n- Workers' dignity\n\n## Arguments Against\n\n- Inefficiency without market signals\n- Threats to individual freedom\n- Historical failures\n- Concentration of power\n- Reduced innovation incentives\n",
+  "claim_type": "interpretation",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": null,
+  "as_of_date": null,
+  "status": "unsourced-needs-review",
+  "contested_views": [],
+  "related": [
+    "world.society.capitalism",
+    "world.society.democracy",
+    "world.history.french-revolution"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract. The meta object is additive.",
+    "legacy_v1": {
+      "v1_id": "28",
+      "slug": "socialism",
+      "summary": "An economic and political system advocating collective or governmental ownership and democratic control of production.",
+      "tags": [
+        "economics",
+        "politics",
+        "equality",
+        "workers"
+      ],
+      "related_slugs": [
+        "capitalism",
+        "democracy",
+        "french-revolution"
+      ],
+      "legacy_truth_score_unverified": 96,
+      "legacy_source_count_unverified": 389,
+      "legacy_last_verified_unverified": "2024-12-12",
+      "legacy_read_time_minutes_unverified": 8,
+      "migration_note": "Body text is preserved from V1 src/lib/knowledge-data.ts. No sources were attached because they were not independently checked. Legacy truth scores and source counts are not evidence."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "world.medicine.penicillin",
+  "title": "Penicillin: a 1928 observation, a 1929 paper, and a shared 1945 prize",
+  "section": "world",
+  "category": "medicine",
+  "body": "## Two layers of the record\n\nThe scientific report is Fleming's 1929 paper in the British Journal of Experimental Pathology, volume 10, issue 3, pages 226–236: \"On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to their Use in the Isolation of B. influenzae.\" The title's claim is antibacterial action of cultures of a Penicillium mold, and a use in isolating a bacterium. The full experimental narrative was not re-read from the PDF in this pass, so this card does not invent a methods paragraph.\n\nThe Nobel Prize in Physiology or Medicine 1945 facts page, checked on nobelprize.org, says the prize was awarded jointly to Sir Alexander Fleming, Ernst Boris Chain, and Sir Howard Walter Florey \"for the discovery of penicillin and its curative effect in various infectious diseases.\" Fleming's prize share is given as one third. The same facts page tells the observation this way: in 1928 Fleming saw that a mold fungus had begun to grow in a bowl of bacteria and that bacterial growth was impeded near the mold; he concluded that the mold contained a substance effective against bacteria; the substance was named penicillin and became the basis for medication against bacterial infections.\n\n## Mechanism\n\nA mold makes a substance that stops bacteria growing near it. That is an antibiotic mechanism: a microbe's chemistry interfering with another microbe's growth. Turning that observation into a medicine that could be given to patients is why the prize is shared with Chain and Florey, not awarded for the bowl alone. This card does not reconstruct the Oxford purification chemistry, which is not in the two sources' text that was read.\n\n**Fact:** the 1929 paper, the 1928 observation as the Nobel facts page states it, and the shared 1945 prize for discovery and curative effect.\n\n**Not a claim that resistance does not exist.** Resistance is a later evolutionary fact about use under selection. It is not addressed by the 1929 title or the prize citation checked here.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to their Use in the Isolation of B. influenzae",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2048009/",
+      "author": "Alexander Fleming",
+      "date": "1929",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Sir Alexander Fleming – Facts",
+      "url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/facts/",
+      "author": "Nobel Prize Outreach",
+      "date": "1945",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Alexander Fleming",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.crispr-adaptive-immunity"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_qids": [
+      "Q12190"
+    ],
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Penicillin: a 1928 observation, a 1929 paper, and a shared 1945 prize",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

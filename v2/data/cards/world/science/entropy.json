@@ -1,0 +1,60 @@
+{
+  "id": "world.science.entropy",
+  "title": "Entropy as Clausius defined it in 1865",
+  "section": "world",
+  "category": "science",
+  "body": "## The definition is a state function built from heat and temperature\n\nIn 1865 Clausius wrote *Ueber verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie* (Annalen der Physik, pages 353–400 in the Crossref record). The English excerpt at Le Moyne, taken from that paper, states the structure he was using.\n\nFor a body that changes state, he writes the heat absorbed as split between a change in internal energy and external work. That is the first law in his notation: heat and work are commensurate, and energy does not depend on the path, only on the end states.\n\nFor a cyclic process he uses a second relation. Take each bit of heat absorbed, divide by the absolute temperature at which it is absorbed, and integrate around the cycle. The excerpt says the integral is zero when every step is reversible, and that the inequality goes the other way when the cycle is not reversible. Because the reversible integral around every closed path vanishes, the quantity dQ/T is the differential of a state function. He calls that function S.\n\nHe then names it. The excerpt says he wants a word from a classical language so it can be shared, takes the Greek for transformation, and proposes \"entropy.\"\n\n## What this mechanism is, and is not\n\n**Fact, from this paper:** entropy is defined so that, for a reversible change, its differential is heat absorbed divided by absolute temperature, and a reversible cycle returns S to itself. Irreversible cycles are constrained by an inequality, not by a path-independent heat.\n\n**Not in this card:** the later statistical reading that ties S to a count of microstates. That is a different argument and needs Boltzmann's or Planck's papers, which are not the source used here. Wikidata's one-line gloss of entropy as a \"measure of disorder\" is not Clausius's definition and is not used as one.\n\n**Not a slogan this paper earns:** \"everything tends to disorder\" as a theory of history, society, or the heat death of a particular universe. The 1865 paper is about the state function of a thermodynamic body and, at the close, about the energy and entropy of \"the world\" as a thermodynamic statement. Extending it into a moral or political claim is an interpretation this card does not make.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Ueber verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie",
+      "url": "https://doi.org/10.1002/andp.18652010702",
+      "author": "R. Clausius",
+      "date": "1865",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "English excerpt of Clausius 1865, from Annalen der Physik und der Chemie",
+      "url": "https://web.lemoyne.edu/giunta/Clausius1865.pdf",
+      "author": "Rudolf Clausius, excerpt hosted by Carmen Giunta",
+      "date": "1865",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Rudolf Clausius",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.science.theory-of-relativity",
+    "world.science.black-holes"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "wikidata_qids": [
+      "Q45003"
+    ],
+    "wikidata_note": "Q45003 is Wikidata's item for thermodynamic entropy. Its short gloss is not a substitute for Clausius's definition.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "Entropy as Clausius defined it in 1865",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}

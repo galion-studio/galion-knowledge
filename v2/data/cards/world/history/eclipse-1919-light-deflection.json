@@ -1,0 +1,48 @@
+{
+  "id": "world.history.eclipse-1919-light-deflection",
+  "title": "The 1919 eclipse expedition and the deflection of light",
+  "section": "world",
+  "category": "history",
+  "body": "## The expedition as a document\n\nFrank Watson Dyson, Arthur Stanley Eddington, and C. Davidson published, in Philosophical Transactions of the Royal Society (1920), \"A determination of the deflection of light by the sun's gravitational field, from observations made at the total eclipse of May 29, 1919.\"\n\nThe mechanism being tested is a prediction of general relativity: a massive body bends the path of light, so stars whose light passes near the Sun should appear shifted when the Sun's glare is blocked by an eclipse. The paper is the reduction of plates from that eclipse into a determination of the deflection.\n\n## What is not added from later retellings\n\nThis card does not quote an arc-second result, because that number was not re-read from the article. It does not call the expedition the moment physics ended. Later measurements, and the 2016 gravitational-wave detection cited on the relativity card, are other tests of other predictions.\n\n**Fact:** an expedition observed the 29 May 1919 eclipse in order to measure light deflection by the Sun, and the 1920 paper reports that determination.\n\n**Interpretation, which historians still discuss and which this card does not settle:** how decisive those particular plates were, given the difficulty of the measurement. \"Not settled\" applies to the historiography of the data reduction, not to the existence of the paper. A claim that the expedition was fabricated would need evidence this card does not have, and the paper's existence is not in doubt.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A determination of the deflection of light by the sun's gravitational field, from observations made at the total eclipse of May 29, 1919",
+      "url": "https://doi.org/10.1098/rsta.1920.0009",
+      "author": "Frank Watson Dyson, Arthur Stanley Eddington, and C. Davidson",
+      "date": "1920",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "F. W. Dyson, A. S. Eddington, and C. Davidson",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.science.theory-of-relativity"
+  ],
+  "meta": {
+    "license": "MIT",
+    "copyright": "Galion Labs",
+    "pack": "world-knowledge",
+    "schema_note": "Sibling S1 had not published v2/data/SCHEMA.md or schema.json on origin when this card was written (origin had only master). Fields follow the swarm fallback contract: id, title, section, category, body, claim_type, sources, evidence_strength, said_by, as_of_date, status, contested_views, related. The meta object is additive.",
+    "claim_review": {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "claimReviewed": "The 1919 eclipse expedition and the deflection of light",
+      "author": {
+        "@type": "Organization",
+        "name": "Galion Labs"
+      },
+      "datePublished": "2026-11-18",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "strong",
+        "bestRating": "strong",
+        "worstRating": "none",
+        "alternateName": "strong"
+      }
+    }
+  }
+}
