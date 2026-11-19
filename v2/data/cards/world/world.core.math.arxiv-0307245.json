@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.arxiv-0307245",
+  "title": "Finite extinction time for the solutions to the Ricci flow on certain three-manifolds: the arXiv abstract says Let M be a closed oriented three-manifold, whose prime decomposition contains…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Finite extinction time for the solutions to the Ricci flow on certain three-manifolds: the arXiv abstract says Let M be a closed oriented three-manifold, whose prime decomposition contains…",
+  "body": "The arXiv record https://arxiv.org/abs/math/0307245 for \"Finite extinction time for the solutions to the Ricci flow on certain three-manifolds\" abstracts the work as follows: \"Let M be a closed oriented three-manifold, whose prime decomposition contains no aspherical factors. We show that for any initial riemannian metric on M the solution to the Ricci flow with surgery, defined in our previous paper math.DG/0303109, becomes extinct in finite time. The proof uses a version of the minimal disk argument from 1999 paper by Richard Hamilton, and a regularization of the curve shortening flow, worked out by Altschuler and Grayson.\" This card quotes that abstract. A preprint is the authors' manuscript.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Finite extinction time for the solutions to the Ricci flow on certain three-manifolds",
+      "url": "https://arxiv.org/abs/math/0307245",
+      "author": "Grisha Perelman",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Abstract text is the arXiv abstract, retrieved 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Grisha Perelman",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "area:theorems"
+  ]
+}

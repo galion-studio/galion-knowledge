@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-common-notions",
+  "title": "Euclid Common Notions: 1. Things which equal the same thing also equal one another.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid Common Notions: 1. Things which equal the same thing also equal one another.",
+  "body": "Euclid, Book I, Common Notions, as worded on this page: \"1. Things which equal the same thing also equal one another. 2. If equals are added to equals, then the wholes are equal. 3. If equals are subtracted from equals, then the remainders are equal. 4. Things which coincide with one another equal one another. 5. The whole is greater than the part.\" David E. Joyce's guide on the same page says: \"These common notions, sometimes called axioms, refer to magnitudes of one kind. The various kinds of magnitudes that occur in the Elements include lines, angles, plane figures, and solid figures. The first Common Notion could be applied to plane figures to say, for instance, that if a triangle equals a rectangle, and the rectangle equals a square, then the triangle also equals the square. Magnitudes of the same kind can be compared and added, but magnitudes of different kinds cannot. For…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, Common Notions",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/cn.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

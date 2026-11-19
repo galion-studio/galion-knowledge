@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-elementary-algebra-2e-8-1-simplify-rational-expressions",
+  "title": "OpenStax Elementary Algebra 2e, 8.1 Simplify Rational Expressions: Determine the values for which a rational expression is undefined",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Elementary Algebra 2e, 8.1 Simplify Rational Expressions: Determine the values for which a rational expression is undefined",
+  "body": "OpenStax Elementary Algebra 2e, section \"8.1 Simplify Rational Expressions\", prints these objectives: \"Determine the values for which a rational expression is undefined\" \"Evaluate rational expressions\" \"Simplify rational expressions\" \"Simplify rational expressions with opposite factors\". The section text says: \"In Chapter 1, we reviewed the properties of fractions and their operations. We introduced rational numbers, which are just fractions where the numerators and denominators are integers, and the denominator is not zero.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Elementary Algebra 2e, 8.1 Simplify Rational Expressions",
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/8-1-simplify-rational-expressions",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:algebra"
+  ]
+}

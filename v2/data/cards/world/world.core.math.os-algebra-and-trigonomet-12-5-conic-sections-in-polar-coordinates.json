@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-12-5-conic-sections-in-polar-coordinates",
+  "title": "OpenStax Algebra and Trigonometry 2e, 12.5 Conic Sections in Polar Coordinates: Identify a conic in polar form.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 12.5 Conic Sections in Polar Coordinates: Identify a conic in polar form.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"12.5 Conic Sections in Polar Coordinates\", prints these objectives: \"Identify a conic in polar form.\" \"Graph the polar equations of conics.\" \"Deﬁne conics in terms of a focus and a directrix.\". The section text says: \"Most of us are familiar with orbital motion, such as the motion of a planet around the sun or an electron around an atomic nucleus. Within the planetary system, orbits of planets, asteroids, and comets around a larger celestial body are often elliptical. Comets, however, may take on a parabolic or hyperbolic orbit instead. And, in reality, the characteristics of the planets’ orbits may vary over time. Each orbit is tied to the location of the celestial body being orbited and the distance and…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 12.5 Conic Sections in Polar Coordinates",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/12-5-conic-sections-in-polar-coordinates",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

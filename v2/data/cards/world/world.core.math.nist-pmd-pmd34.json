@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-pmd-pmd34",
+  "title": "NIST/SEMATECH handbook, 4.3.4. I've heard some people refer to \"optimal\" designs, shouldn't I use those?: I've heard some people refer to \"optimal\" designs, shouldn't I use those?",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 4.3.4. I've heard some people refer to \"optimal\" designs, shouldn't I use those?: I've heard some people refer to \"optimal\" designs, shouldn't I use those?",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"4.3.4. I've heard some people refer to \"optimal\" designs, shouldn't I use those?\" says: \"I've heard some people refer to \"optimal\" designs, shouldn't I use those? 4. Process Modeling 4.3. Data Collection for Process Modeling 4.3.4. I've heard some people refer to \"optimal\" designs, shouldn't I use those? Classical Designs Heavily Used in Industry The most heavily used designs in industry are the \"classical designs\" (full factorial designs, fractional factorial designs, Latin square designs, Box-Behnken designs, etc.). They are so heavily used because they are optimal in their own right and have served superbly well in providing efficient insight into the underlying structure of industrial processes. Reasons Classical Designs May Not Work Cases do arise, however, for which the tabulated classical designs do not cover a particular practical situation. That is, user constraints preclude the use of tabulated classical designs because such classical designs do not accommodate…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 4.3.4. I've heard some people refer to \"optimal\" designs, shouldn't I use those?",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section3/pmd34.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

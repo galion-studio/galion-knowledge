@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-1-7",
+  "title": "DLMF 1.7 Inequalities: In this subsection A and B are positive constants.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 1.7 Inequalities: In this subsection A and B are positive constants.",
+  "body": "NIST DLMF section 1.7 (Inequalities) says: \"In this subsection A and B are positive constants. Equality holds iff a_{j}=cb_{j} , \\forall j ; c=\\text{ constant} . Conversely, if \\left(\\sum^{n}_{j=1}a_{j}b_{j}\\right)^{2}\\leq AB for all b_{j} such that \\sum^{n}_{j=1}b_{j}^{2}\\leq B , then \\sum^{n}_{j=1}a_{j}^{2}\\leq A . For p>1 , \\dfrac{1}{p}+\\dfrac{1}{q}=1 , a_{j}\\geq 0 , b_{j}\\geq 0 , Equality holds iff a_{j}^{p}=cb_{j}^{q} , \\forall j ; c=\\text{ constant} . Conversely, if \\sum^{n}_{j=1}a_{j}b_{j}\\leq A^{1/p}B^{1/q} for all b_{j} such that \\sum^{n}_{j=1}b_{j}^{q}\\leq B , then \\sum^{n}_{j=1}a_{j}^{p}\\leq A . The direction of the inequality is reversed, that is, \\geq , when 0<p<1 . Equality holds iff a_{j}=cb_{j} , \\forall j ; c=\\text{ constant} . In this subsection a and b ( >a ) are real constants that can be \\mp\\infty , provided that the corresponding integrals converge. Also A and B are constants that are not simultaneously zero. Equality holds iff Af(x)=Bg(x) for all x .\" Equation 1.7.1 on the page has alt text \"\\left(\\sum^{n}_{j=1}a_{j}b_{j}\\right)^{2}\\leq\\left(\\sum^{n}_{j=1}a_{j}^{2}% \\right)\\left(\\sum^{n}_{j=1}b_{j}^{2}\\right).\". Equation 1.7.2 on the page has alt text \"\\sum^{n}_{j=1}a_{j}b_{j}\\leq\\left(\\sum^{n}_{j=1}a_{j}^{p}\\right)^{1/p}\\left(% \\sum^{n}_{j=1}b_{j}^{q}\\right)^{1/q}.\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 1.7 Inequalities",
+      "url": "https://dlmf.nist.gov/1.7",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

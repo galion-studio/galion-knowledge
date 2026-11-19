@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-24-12",
+  "title": "DLMF 24.12 Zeros: In the interval 0\\leq x\\leq 1 the only zeros of B_{2n+1}\\left(x\\right) , n=1,2,\\dotsc , are 0,\\tfrac{1}{2},1 , and the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 24.12 Zeros: In the interval 0\\leq x\\leq 1 the only zeros of B_{2n+1}\\left(x\\right) , n=1,2,\\dotsc , are 0,\\tfrac{1}{2},1 , and the…",
+  "body": "NIST DLMF section 24.12 (Zeros) says: \"In the interval 0\\leq x\\leq 1 the only zeros of B_{2n+1}\\left(x\\right) , n=1,2,\\dotsc , are 0,\\tfrac{1}{2},1 , and the only zeros of B_{2n}\\left(x\\right)-B_{2n} , n=1,2,\\dotsc , are 0,1 . For the interval \\tfrac{1}{2}\\leq x<\\infty denote the zeros of B_{n}\\left(x\\right) by x_{j}^{(n)} , j=1,2,\\dotsc , with Then the zeros in the interval -\\infty<x\\leq\\frac{1}{2} are 1-x_{j}^{(n)} . When n is odd x^{(n)}_{1}=\\frac{1}{2} , x^{(n)}_{2}=1 (n\\geq 3) , and as n\\to\\infty with m(\\geq 1) fixed, Let R(n) be the total number of real zeros of B_{n}\\left(x\\right) . Then R(n)=n when 1\\leq n\\leq 5 , and For the interval \\frac{1}{2}\\leq x<\\infty denote the zeros of E_{n}\\left(x\\right) by y^{(n)}_{j} , j=1,2,\\dotsc , with Then the zeros in the interval -\\infty<x\\leq\\frac{1}{2} are 1-y^{(n)}_{j} . When n(\\geq 2) is even y^{(n)}_{1}=1 , and as n\\to\\infty with m(\\geq 1) fixed, For complex zeros of Bernoulli and Euler polynomials, see Delange ( 1987 ) and Dilcher ( 1988 ) . A related topic is the irreducibility of Bernoulli and Euler polynomials. For details and references, see Dilcher ( 1987b ) , Kimura…\" Equation 24.12.1 on the page has alt text \"\\tfrac{1}{2}\\leq x_{1}^{(n)}\\leq x_{2}^{(n)}\\leq\\cdots.\". Equation 24.12.4 on the page has alt text \"\\displaystyle x^{(n)}_{2m-1}\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 24.12 Zeros",
+      "url": "https://dlmf.nist.gov/24.12",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

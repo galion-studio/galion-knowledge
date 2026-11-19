@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-settheory-alternative",
+  "title": "The Stanford Encyclopedia entry \"Alternative Axiomatic Set Theories\" says: By “alternative set theories” we mean systems of set theory differing significantly from the dominant ZF…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Alternative Axiomatic Set Theories\" says: By “alternative set theories” we mean systems of set theory differing significantly from the dominant ZF…",
+  "body": "Holmes, M. Randall, in the Stanford Encyclopedia of Philosophy entry \"Alternative Axiomatic Set Theories\" says: \"By “alternative set theories” we mean systems of set theory differing significantly from the dominant ZF (Zermelo-Frankel set theory) and its close relatives (though we will review these systems in the article). Among the systems we will review are typed theories of sets, Zermelo set theory and its variations, New Foundations and related systems, positive set theories, and constructive set theories. An interest in the range of alternative set theories does not presuppose an interest in replacing the dominant set theory with one of the alternatives; acquainting ourselves with foundations of mathematics formulated in terms of an alternative system can be instructive as showing us what any set theory (including the usual one) is supposed to do for us. The study of alternative set theories can dispel a facile identification of “set theory” with “Zermelo-Fraenkel set theory”; they are not…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Alternative Axiomatic Set Theories (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/settheory-alternative/",
+      "author": "Holmes, M. Randall",
+      "date": "2006-05-30",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Holmes, M. Randall",
+  "as_of_date": "2021-09-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

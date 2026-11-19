@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-7-4-the-other-trigonometric-functions",
+  "title": "OpenStax Algebra and Trigonometry 2e, 7.4 The Other Trigonometric Functions: Find exact values of the trigonometric functions secant, cosecant, tangent, and cotangent of π 3…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 7.4 The Other Trigonometric Functions: Find exact values of the trigonometric functions secant, cosecant, tangent, and cotangent of π 3…",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"7.4 The Other Trigonometric Functions\", prints these objectives: \"Find exact values of the trigonometric functions secant, cosecant, tangent, and cotangent of π 3 , π 4 , and π 6 .\" \"Use reference angles to evaluate the trigonometric functions secant, tangent, and cotangent.\" \"Use properties of even and odd trigonometric functions.\" \"Recognize and use fundamental identities.\" \"Evaluate trigonometric functions with a calculator.\". The section text says: \"A wheelchair ramp that meets the standards of the Americans with Disabilities Act must make an angle with the ground whose tangent is 1 12 or less, regardless of its length. A tangent represents a ratio, so this means that for every 1 inch of rise, the ramp must have 12 inches of run. Trigonometric functions allow us to specify the shapes and proportions of objects independent of exact dimensions. We have already defined the sine and cosine functions of an angle. Though sine and cosine are the…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 7.4 The Other Trigonometric Functions",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-4-the-other-trigonometric-functions",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

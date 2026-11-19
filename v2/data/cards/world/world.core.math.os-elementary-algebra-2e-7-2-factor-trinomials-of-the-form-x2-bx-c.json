@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-elementary-algebra-2e-7-2-factor-trinomials-of-the-form-x2-bx-c",
+  "title": "OpenStax Elementary Algebra 2e, 7.2 Factor Trinomials of the Form x 2 +bx+c: Factor trinomials of the form x 2 + b x + c",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Elementary Algebra 2e, 7.2 Factor Trinomials of the Form x 2 +bx+c: Factor trinomials of the form x 2 + b x + c",
+  "body": "OpenStax Elementary Algebra 2e, section \"7.2 Factor Trinomials of the Form x 2 +bx+c\", prints these objectives: \"Factor trinomials of the form x 2 + b x + c\" \"Factor trinomials of the form x 2 + b x y + c y 2\". The section text says: \"You have already learned how to multiply binomials using FOIL. Now you’ll need to “undo” this multiplication—to start with the product and end up with the factors. Let’s look at an example of multiplying binomials to refresh your memory.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Elementary Algebra 2e, 7.2 Factor Trinomials of the Form x 2 +bx+c",
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/7-2-factor-trinomials-of-the-form-x2-bx-c",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:algebra"
+  ]
+}

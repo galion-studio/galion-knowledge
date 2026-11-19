@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-3-4-1-functions-of-several-variables",
+  "title": "OpenStax Calculus Volume 3, 4.1 Functions of Several Variables: Recognize a function of two variables and identify its domain and range.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 3, 4.1 Functions of Several Variables: Recognize a function of two variables and identify its domain and range.",
+  "body": "OpenStax Calculus Volume 3, section \"4.1 Functions of Several Variables\", prints these objectives: \"Recognize a function of two variables and identify its domain and range.\" \"Sketch a graph of a function of two variables.\" \"Sketch several traces or level curves of a function of two variables.\" \"Recognize a function of three or more variables and identify its level surfaces.\". The section text says: \"Our first step is to explain what a function of more than one variable is, starting with functions of two independent variables. This step includes identifying the domain and range of such functions and learning how to graph them. We also examine ways to relate the graphs of functions in three dimensions to graphs of more familiar planar functions.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 3, 4.1 Functions of Several Variables",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/4-1-functions-of-several-variables",
+      "author": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

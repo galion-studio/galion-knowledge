@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xi-29",
+  "title": "Euclid XI.29: Parallelepipedal solids which are on the same base and of the same height, and in which the ends of their edges which stand up are on the same…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XI.29: Parallelepipedal solids which are on the same base and of the same height, and in which the ends of their edges which stand up are on the same…",
+  "body": "Euclid, Book XI, XI.29, as worded on this page: \"Parallelepipedal solids which are on the same base and of the same height, and in which the ends of their edges which stand up are on the same straight lines, equal one another.\" The argument printed under that statement begins: \"Proposition 29 Let CM and CN be parallelepipedal solids on the same base AB and of the same height, and let the ends of their edges which stand up, namely AG, AF, LM, LN, CD, CE, BH, and BK, be on the same straight lines FN and DK. I say that the solid CM equals the solid CN. I.34 Since each of the figures CH and CK is a parallelogram, therefore CB equals each of the straight lines DH and EK. Therefore DH also equals EK. I.8 , I.4 I.36 Subtract EH from each, therefore the remainder DE equals the remainder HK. Therefore the triangle DCE also equals the triangle HBK, and the parallelogram DG equals the parallelogram HN. For the same reason the triangle AFG equals the triangle MLN. XI.Def.10…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XI, XI.29",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXI/propXI29.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

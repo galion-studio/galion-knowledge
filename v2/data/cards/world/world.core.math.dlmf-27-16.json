@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-27-16",
+  "title": "DLMF 27.16 Cryptography: Applications to cryptography rely on the disparity in computer time required to find large primes and to factor large…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 27.16 Cryptography: Applications to cryptography rely on the disparity in computer time required to find large primes and to factor large…",
+  "body": "NIST DLMF section 27.16 (Cryptography) says: \"Applications to cryptography rely on the disparity in computer time required to find large primes and to factor large integers. For example, a code maker chooses two large primes p and q of about 400 decimal digits each. Procedures for finding such primes require very little computer time. The primes are kept secret but their product n=pq , an 800-digit number, is made public. For this reason, these are often called public key codes. Messages are coded by a method (described below) that requires only the knowledge of n . But to decode, both factors p and q must be known. With the most efficient computer techniques devised to date (2010), factoring an 800-digit number may require billions of years on a single computer. For this reason, the codes are considered unbreakable, at least with the current state of knowledge on factoring large numbers. To code a message by this method, we replace each letter by two digits, say A=01 , B=02 , \\dots , Z=26 , and divide the message into pieces of convenient length smaller than the public value n=pq . Choose a prime r that does not divide either…\" This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 27.16 Cryptography",
+      "url": "https://dlmf.nist.gov/27.16",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

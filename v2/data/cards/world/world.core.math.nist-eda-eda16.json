@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-eda-eda16",
+  "title": "NIST/SEMATECH handbook, 1.1.6. An EDA/Graphics Example: An EDA/Graphics Example Anscombe Example A simple, classic ( Anscombe ) example of the central role that…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 1.1.6. An EDA/Graphics Example: An EDA/Graphics Example Anscombe Example A simple, classic ( Anscombe ) example of the central role that…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"1.1.6. An EDA/Graphics Example\" says: \"An EDA/Graphics Example Anscombe Example A simple, classic ( Anscombe ) example of the central role that graphics play in terms of providing insight into a data set starts with the following data set : Data X Y 10.00 8.04 8.00 6.95 13.00 7.58 9.00 8.81 11.00 8.33 14.00 9.96 6.00 7.24 4.00 4.26 12.00 10.84 7.00 4.82 5.00 5.68 Summary Statistics If the goal of the analysis is to compute summary statistics plus determine the best linear fit for Y as a function of X , the results might be given as: N = 11 Mean of X = 9.0 Mean of Y = 7.5 Intercept = 3 Slope = 0.5 Residual standard deviation = 1.237 Correlation = 0.816 The above quantitative analysis, although valuable, gives us only limited insight into the data. Scatter Plot In contrast, the following simple scatter plot of the data --> suggests the following: The data set \"behaves like\" a linear curve with some scatter; there is no…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 1.1.6. An EDA/Graphics Example",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section1/eda16.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

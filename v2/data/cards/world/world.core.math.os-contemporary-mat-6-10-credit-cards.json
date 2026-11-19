@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-6-10-credit-cards",
+  "title": "OpenStax Contemporary Mathematics, 6.10 Credit Cards: Apply for a credit card armed with basic knowledge.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 6.10 Credit Cards: Apply for a credit card armed with basic knowledge.",
+  "body": "OpenStax Contemporary Mathematics, section \"6.10 Credit Cards\", prints these objectives: \"Apply for a credit card armed with basic knowledge.\" \"Distinguish between three basic types of credit cards.\" \"Compare and contrast the benefits and drawbacks of credit cards.\" \"Read and understand the basic parts of a credit card statement.\" \"Compute interest, balance due, and minimum payment due for a credit card.\". The section text says: \"Store-issued credit cards are issued by retailers. One can hardly walk into a store these days without being offered a discount on purchases if one applies for the store credit card. These cards can only be used in that store or family of stores that issues the card. However, if a store credit card is associated with Visa, MasterCard, or American Express, then the card might be used the same way that the bank-issued cards are used. This is called cobranding. The logo of the bank-issued card…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 6.10 Credit Cards",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/6-10-credit-cards",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

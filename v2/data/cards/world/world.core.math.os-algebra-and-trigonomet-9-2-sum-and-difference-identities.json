@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-9-2-sum-and-difference-identities",
+  "title": "OpenStax Algebra and Trigonometry 2e, 9.2 Sum and Difference Identities: Use sum and difference formulas for cosine.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 9.2 Sum and Difference Identities: Use sum and difference formulas for cosine.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"9.2 Sum and Difference Identities\", prints these objectives: \"Use sum and difference formulas for cosine.\" \"Use sum and difference formulas for sine.\" \"Use sum and difference formulas for tangent.\" \"Use sum and difference formulas for cofunctions.\" \"Use sum and difference formulas to verify identities.\". The section text says: \"How can the height of a mountain be measured? What about the distance from Earth to the sun? Like many seemingly impossible problems, we rely on mathematical formulas to find the answers. The trigonometric identities, commonly used in mathematical proofs, have had real-world applications for centuries, including their use in calculating long distances.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 9.2 Sum and Difference Identities",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/9-2-sum-and-difference-identities",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

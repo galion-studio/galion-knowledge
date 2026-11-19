@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-ix-21",
+  "title": "Euclid IX.21: If as many even numbers as we please are added together, then the sum is even.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid IX.21: If as many even numbers as we please are added together, then the sum is even.",
+  "body": "Euclid, Book IX, IX.21, as worded on this page: \"If as many even numbers as we please are added together, then the sum is even.\" The argument printed under that statement begins: \"Proposition 21 Let as many even numbers as we please, AB, BC, CD, and DE, be added together. I say that the sum AE is even. VII.Def.6 Since each of the numbers AB, BC, CD, and DE is even, therefore each has a half part, so that the sum AE also has a half part. But an even number is that which is divisible into two equal parts, therefore AE is even. Therefore, if as many even numbers as we please are added together, then the sum is even. Q.E.D. Guide With this proposition, Euclid commences the study of even and odd numbers. The study continues through proposition IX.34 . The statements of these propositions probably constitute the oldest part of the Elements and date back to the…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book IX, IX.21",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookIX/propIX21.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:number-theory"
+  ]
+}

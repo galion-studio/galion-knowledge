@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-2-1-statements-and-quantifiers",
+  "title": "OpenStax Contemporary Mathematics, 2.1 Statements and Quantifiers: Identify logical statements.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 2.1 Statements and Quantifiers: Identify logical statements.",
+  "body": "OpenStax Contemporary Mathematics, section \"2.1 Statements and Quantifiers\", prints these objectives: \"Identify logical statements.\" \"Represent statements in symbolic form.\" \"Negate statements in words.\" \"Negate statements symbolically.\" \"Translate negations between words and symbols.\" \"Express statements with quantifiers of all, some, and none.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 2.1 Statements and Quantifiers",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

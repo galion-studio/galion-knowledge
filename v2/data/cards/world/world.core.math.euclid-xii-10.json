@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xii-10",
+  "title": "Euclid XII.10: Any cone is a third part of the cylinder with the same base and equal height.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XII.10: Any cone is a third part of the cylinder with the same base and equal height.",
+  "body": "Euclid, Book XII, XII.10, as worded on this page: \"Any cone is a third part of the cylinder with the same base and equal height.\" The argument printed under that statement begins: \"Proposition 10 Let a cone have the same base, namely the circle ABCD, with a cylinder and equal height. I say that the cone is a third part of the cylinder, that is, that the cylinder is triple the cone. For if the cylinder is not triple the cone, then the cylinder will be either greater than triple or less than triple the cone. First let it be greater than triple. IV.6 Inscribe the square ABCD in the circle ABCD. Then the square ABCD is greater than half of the circle ABCD. From the square ABCD set up a prism of equal height with the cylinder. IV.7 XI.32 XI.28 or XII.6 and XII.7.Cor Then the prism so set up is greater than the half of the cylinder, for if we also circumscribe a square…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XII, XII.10",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXII/propXII10.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

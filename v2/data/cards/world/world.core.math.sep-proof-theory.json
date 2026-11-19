@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-proof-theory",
+  "title": "The Stanford Encyclopedia entry \"Proof Theory\" says: Proof theory is not an esoteric technical subject that was invented to support a formalist doctrine in the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Proof Theory\" says: Proof theory is not an esoteric technical subject that was invented to support a formalist doctrine in the…",
+  "body": "Rathjen, Michael, Sieg, Wilfried, in the Stanford Encyclopedia of Philosophy entry \"Proof Theory\" says: \"Proof theory is not an esoteric technical subject that was invented to support a formalist doctrine in the philosophy of mathematics; rather, it has been developed as an attempt to analyze aspects of mathematical experience and to isolate, possibly overcome, methodological problems in the foundations of mathematics. The origins of those problems, forcefully and sometimes contentiously formulated in the 1920s, are traceable to the transformation of mathematics in the nineteenth century: the emergence of abstract mathematics, its reliance on set theoretic notions, and its focus on logic in a broad, foundational sense. Substantive issues came to the fore already in the mathematical work and the foundational essays of Dedekind and Kronecker; they concerned the legitimacy of undecidable concepts, the existence of infinite mathematical objects, and the sense of non-constructive proofs of…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Proof Theory (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/proof-theory/",
+      "author": "Rathjen, Michael, Sieg, Wilfried",
+      "date": "2018-08-13",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Rathjen, Michael, Sieg, Wilfried",
+  "as_of_date": "2024-02-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

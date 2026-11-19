@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-ii-14",
+  "title": "Euclid II.14: To construct a square equal to a given rectilinear figure.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid II.14: To construct a square equal to a given rectilinear figure.",
+  "body": "Euclid, Book II, II.14, as worded on this page: \"To construct a square equal to a given rectilinear figure.\" The argument printed under that statement begins: \"Proposition 14 Let A be the given rectilinear figure. It is required to construct a square equal to the rectilinear figure A. I.45 Construct the rectangular parallelogram BD equal to the rectilinear figure A. Then, if BE equals ED, then that which was proposed is done, for a square BD has been constructed equal to the rectilinear figure A. But, if not, one of the straight lines BE or ED is greater. I.3 , I.10 Let BE be greater, and produce it to F. Make EF equal to ED, and bisect BF at G. I.Def.18 Describe the semicircle BHF with center G and radius one of the straight lines GB or GF. Produce DE to H, and join GH. II.5 Then, since the straight line BF has been cut into equal segments at G…\" David E. Joyce's guide on the same page says: \"The construction of a square equal to a given rectilinear figure is short as described in the proof. The verification that this construction works is also short with the help of Proposition II.5 and Proposition I.47 , the Pythagorean theorem. First, Prop. II.5 allows us to convert the rectangle, BE by ED, into the difference of two squares, GF 2 – GE 2 . Note that GF equals GH, the hypotenuse of a right triangle GHE. Using I.47 we can replace the difference of two squares, GH 2 – GE 2 , by the…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book II, II.14",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII14.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:algebra"
+  ]
+}

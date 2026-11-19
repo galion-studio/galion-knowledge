@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-3-2-6-quadric-surfaces",
+  "title": "OpenStax Calculus Volume 3, 2.6 Quadric Surfaces: Identify a cylinder as a type of three-dimensional surface.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 3, 2.6 Quadric Surfaces: Identify a cylinder as a type of three-dimensional surface.",
+  "body": "OpenStax Calculus Volume 3, section \"2.6 Quadric Surfaces\", prints these objectives: \"Identify a cylinder as a type of three-dimensional surface.\" \"Recognize the main features of ellipsoids, paraboloids, and hyperboloids.\" \"Use traces to draw the intersections of quadric surfaces with the coordinate planes.\". The section text says: \"We have been exploring vectors and vector operations in three-dimensional space, and we have developed equations to describe lines, planes, and spheres. In this section, we use our knowledge of planes and spheres, which are examples of three-dimensional figures called surfaces , to explore a variety of other surfaces that can be graphed in a three-dimensional coordinate system.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 3, 2.6 Quadric Surfaces",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/2-6-quadric-surfaces",
+      "author": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

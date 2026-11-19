@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-descriptions",
+  "title": "The Stanford Encyclopedia entry \"Descriptions\" says: The analysis of descriptions has played an important role in debates about metaphysics, epistemology…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Descriptions\" says: The analysis of descriptions has played an important role in debates about metaphysics, epistemology…",
+  "body": "Ludlow, Peter, in the Stanford Encyclopedia of Philosophy entry \"Descriptions\" says: \"The analysis of descriptions has played an important role in debates about metaphysics, epistemology, semantics, psychology, logic and linguistics ever since the publication of Bertrand Russell’s paper “On Denoting,” in 1905. Despite the apparent simplicity of definite and indefinite descriptions, the past 100+ years have seen heated debates about their proper analysis. For example, some philosophers and linguists treat definite descriptions as referential expressions, others treat them as quantificational expressions, and some treat them as predicational expressions. Other analyses of descriptions have held that the determiners ‘the’ and ‘a’ do not make a semantical contribution, but rather a pragmatic contribution to what is communicated. Some recent work in linguistics has even called into question the idea that definite and indefinite determiners correspond to logical elements in…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Descriptions (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/descriptions/",
+      "author": "Ludlow, Peter",
+      "date": "2004-03-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Ludlow, Peter",
+  "as_of_date": "2022-09-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

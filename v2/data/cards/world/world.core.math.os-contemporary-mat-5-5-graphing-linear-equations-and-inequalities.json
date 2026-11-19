@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-5-5-graphing-linear-equations-and-inequalities",
+  "title": "OpenStax Contemporary Mathematics, 5.5 Graphing Linear Equations and Inequalities: Graph linear equations and inequalities in two variables.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 5.5 Graphing Linear Equations and Inequalities: Graph linear equations and inequalities in two variables.",
+  "body": "OpenStax Contemporary Mathematics, section \"5.5 Graphing Linear Equations and Inequalities\", prints these objectives: \"Graph linear equations and inequalities in two variables.\" \"Solve applications of linear equations and inequalities.\". The section text says: \"The rectangular coordinate system is formed by two intersecting number lines, one horizontal and one vertical. The horizontal number line is called the x -axis. The vertical number line is called the y -axis. These axes divide a plane into four regions, called quadrants. The quadrants are identified by Roman numerals, beginning on the upper right and proceeding counterclockwise. See Figure 5.19 .\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 5.5 Graphing Linear Equations and Inequalities",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/5-5-graphing-linear-equations-and-inequalities",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-connectives-logic",
+  "title": "The Stanford Encyclopedia entry \"Sentence Connectives in Formal Logic\" says: Natural language sentence-linking words (like “and”, “or”) have traditionally had aspects of their use…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Sentence Connectives in Formal Logic\" says: Natural language sentence-linking words (like “and”, “or”) have traditionally had aspects of their use…",
+  "body": "Humberstone, Lloyd, in the Stanford Encyclopedia of Philosophy entry \"Sentence Connectives in Formal Logic\" says: \"Natural language sentence-linking words (like “and”, “or”) have traditionally had aspects of their use simulated by corresponding connectives in various systems of formal logic. (In fact we use the word “connective” more generously, so that there don’t have to be two or more sentences linked, allowing us to consider the analogues of words like “not” and “necessarily” as connectives too.) Among the questions this enterprise has raised are the following. (1) Which such naturally occurring sentence connectives call for a treatment of this kind? (Which of them should be counted as ‘logical constants’?) (2) Do the aspects of their use which are simulated in that process exhaust what we might think of as their meanings , or is there typically some mismatch here? Of course this second question depends on the particular formal treatment given, since different logics may disagree on the formal…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sentence Connectives in Formal Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/connectives-logic/",
+      "author": "Humberstone, Lloyd",
+      "date": "2010-05-04",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Humberstone, Lloyd",
+  "as_of_date": "2024-06-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

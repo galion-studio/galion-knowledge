@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-27-8",
+  "title": "DLMF 27.8 Dirichlet Characters: If k (>1) is a given integer, then a function \\chi\\left(n\\right) is called a Dirichlet character (mod k ) if it is…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 27.8 Dirichlet Characters: If k (>1) is a given integer, then a function \\chi\\left(n\\right) is called a Dirichlet character (mod k ) if it is…",
+  "body": "NIST DLMF section 27.8 (Dirichlet Characters) says: \"If k (>1) is a given integer, then a function \\chi\\left(n\\right) is called a Dirichlet character (mod k ) if it is completely multiplicative, periodic with period k , and vanishes when \\left(n,k\\right)>1 . In other words, Dirichlet characters (mod k ) satisfy the four conditions: An example is the principal character (mod k ): For any character \\chi\\pmod{k} , \\chi\\left(n\\right)\\neq 0 if and only if \\left(n,k\\right)=1 , in which case the Euler–Fermat theorem ( 27.2.8 ) implies \\left(\\chi\\left(n\\right)\\right)^{\\phi\\left(k\\right)}=1 . There are exactly \\phi\\left(k\\right) different characters (mod k ), which can be labeled as \\chi_{1},\\dots,\\chi_{\\phi\\left(k\\right)} . If \\chi is a character (mod k ), so is its complex conjugate \\overline{\\chi} . If \\left(n,k\\right)=1 , then the characters satisfy the orthogonality relation A Dirichlet character \\chi\\pmod{k} is called primitive (mod k ) if for every proper divisor d of k (that is, a divisor d<k ), there exists an integer a\\equiv 1\\pmod{d} , with \\left(a,k\\right)=1 and \\chi\\left(a\\right)\\neq 1 . If k is prime, then every nonprincipal…\" Equation 27.8.5 on the page has alt text \"\\chi_{1}\\left(n\\right)=\\begin{cases}1,&\\left(n,k\\right)=1,\\\\ 0,&\\left(n,k\\right)>1.\\end{cases}\". Equation 27.8.6 on the page has alt text \"\\sum_{r=1}^{\\phi\\left(k\\right)}\\chi_{r}\\left(m\\right)\\overline{\\chi}_{r}(n)=% \\begin{cases}\\phi\\left(k\\right),&m\\equiv n\\pmod{k},\\\\ 0,&\\mbox{otherwise}.\\end{cases}\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 27.8 Dirichlet Characters",
+      "url": "https://dlmf.nist.gov/27.8",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

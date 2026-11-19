@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-v-def-11-13",
+  "title": "Euclid V.Def.11-13: Antecedents are said to correspond to antecedents, and consequents to consequents.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid V.Def.11-13: Antecedents are said to correspond to antecedents, and consequents to consequents.",
+  "body": "Euclid, Book V, V.Def.11-13, as worded on this page: \"Antecedents are said to correspond to antecedents, and consequents to consequents. Alternate ratio means taking the antecedent in relation to the antecedent and the consequent in relation to the consequent. Inverse ratio means taking the consequent as antecedent in relation to the antecedent as consequent.\" David E. Joyce's guide on the same page says: \"The figure illustrates the proportion A : B = C : D. Thus, A and C are corresponding terms since they’re the antecedents. Also, B and D are corresponding terms since they’re the consequents. Note that for alternate ratios to exist, all four magnitudes must be of the same kind. The alternate ratios in this proportion are A : C and B : D. Euclid proves these are the same ratio in proposition V.16 . Thereafter, given one proportion A : B = C : D, he concludes alternately the alternate proportion A…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book V, V.Def.11-13",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookV/defV11.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:algebra"
+  ]
+}

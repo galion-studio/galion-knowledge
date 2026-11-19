@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-4-4-the-logistic-equation",
+  "title": "OpenStax Calculus Volume 2, 4.4 The Logistic Equation: Describe the concept of environmental carrying capacity in the logistic model of population growth.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 4.4 The Logistic Equation: Describe the concept of environmental carrying capacity in the logistic model of population growth.",
+  "body": "OpenStax Calculus Volume 2, section \"4.4 The Logistic Equation\", prints these objectives: \"Describe the concept of environmental carrying capacity in the logistic model of population growth.\" \"Draw a direction field for a logistic equation and interpret the solution curves.\" \"Solve a logistic equation and interpret the results.\". The section text says: \"Differential equations can be used to represent the size of a population as it varies over time. We saw this in an earlier chapter in the section on exponential growth and decay, which is the simplest model. A more realistic model includes other factors that affect the growth of the population. In this section, we study the logistic differential equation and see how it applies to the study of population dynamics in the context of biology.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 4.4 The Logistic Equation",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/4-4-the-logistic-equation",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

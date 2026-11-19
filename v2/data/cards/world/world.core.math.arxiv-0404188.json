@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.arxiv-0404188",
+  "title": "The primes contain arbitrarily long arithmetic progressions: the arXiv abstract says We prove that there are arbitrarily long arithmetic progressions of primes.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The primes contain arbitrarily long arithmetic progressions: the arXiv abstract says We prove that there are arbitrarily long arithmetic progressions of primes.",
+  "body": "The arXiv record https://arxiv.org/abs/math/0404188 for \"The primes contain arbitrarily long arithmetic progressions\" abstracts the work as follows: \"We prove that there are arbitrarily long arithmetic progressions of primes. There are three major ingredients. The first is Szemeredi's theorem, which asserts that any subset of the integers of positive density contains progressions of arbitrary length. The second, which is the main new ingredient of this paper, is a certain transference principle. This allows us to deduce from Szemeredi's theorem that any subset of a sufficiently pseudorandom set of positive relative density contains progressions of arbitrary length. The third ingredient is a recent result of Goldston and Yildirim. Using this, one may place the primes inside a pseudorandom set of ``almost primes'' with positive relative density.\" This card quotes that abstract. A preprint is the authors' manuscript.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The primes contain arbitrarily long arithmetic progressions",
+      "url": "https://arxiv.org/abs/math/0404188",
+      "author": "Ben Green, Terence Tao",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Abstract text is the arXiv abstract, retrieved 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Ben Green, Terence Tao",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "area:theorems"
+  ]
+}

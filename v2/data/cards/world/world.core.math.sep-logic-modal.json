@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logic-modal",
+  "title": "The Stanford Encyclopedia entry \"Modal Logic\" says: A modal is an expression (like ‘necessarily’ or ‘possibly’) that is used to qualify the truth of a judgement.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Modal Logic\" says: A modal is an expression (like ‘necessarily’ or ‘possibly’) that is used to qualify the truth of a judgement.",
+  "body": "Garson, James, in the Stanford Encyclopedia of Philosophy entry \"Modal Logic\" says: \"A modal is an expression (like ‘necessarily’ or ‘possibly’) that is used to qualify the truth of a judgement. Modal logic is, strictly speaking, the study of the deductive behavior of the expressions ‘it is necessary that’ and ‘it is possible that’. However, the term ‘modal logic’ may be used more broadly for a family of related systems. These include logics for belief, for tense and other temporal expressions, for the deontic (moral) expressions such as ‘it is obligatory that’ and ‘it is permitted that’, and many others. An understanding of modal logic is particularly valuable in the formal analysis of philosophical argument, where expressions from the modal family are both common and confusing. Modal logic also has important applications in computer science.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Modal Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logic-modal/",
+      "author": "Garson, James",
+      "date": "2000-02-29",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Garson, James",
+  "as_of_date": "2023-01-23",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

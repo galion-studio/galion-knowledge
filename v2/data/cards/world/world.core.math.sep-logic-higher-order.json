@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logic-higher-order",
+  "title": "The Stanford Encyclopedia entry \"Second-order and Higher-order Logic\" says: Second-order logic has a subtle role in the philosophy of mathematics.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Second-order and Higher-order Logic\" says: Second-order logic has a subtle role in the philosophy of mathematics.",
+  "body": "Väänänen, Jouko, in the Stanford Encyclopedia of Philosophy entry \"Second-order and Higher-order Logic\" says: \"Second-order logic has a subtle role in the philosophy of mathematics. It is stronger than first order logic in that it incorporates “for all properties” into the syntax, while first order logic can only say “for all elements”. At the same time it is arguably weaker than set theory in that its quantifiers range over one limited domain at a time, while set theory has the universalist approach in that its quantifiers range over all possible domains. This stronger-than-first-order-logic/weaker-than-set-theory duality is the source of lively debate, not least because set theory is usually construed as based on first order logic. How can second-order logic be at the same time stronger and weaker? To make the situation even more complex, it was suggested early on that in order that the strength of second-order logic can be exploited to its full extent and in order that “for all properties”…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Second-order and Higher-order Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logic-higher-order/",
+      "author": "V&auml;&auml;n&auml;nen, Jouko",
+      "date": "2019-08-01",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "V&auml;&auml;n&auml;nen, Jouko",
+  "as_of_date": "2024-08-31",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

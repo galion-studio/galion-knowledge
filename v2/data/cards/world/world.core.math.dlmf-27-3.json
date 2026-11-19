@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-27-3",
+  "title": "DLMF 27.3 Multiplicative Properties: Except for \\nu\\left(n\\right) , \\Lambda\\left(n\\right) , p_{n} , and \\pi\\left(x\\right) , the functions in § 27.2 are…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 27.3 Multiplicative Properties: Except for \\nu\\left(n\\right) , \\Lambda\\left(n\\right) , p_{n} , and \\pi\\left(x\\right) , the functions in § 27.2 are…",
+  "body": "NIST DLMF section 27.3 (Multiplicative Properties) says: \"Except for \\nu\\left(n\\right) , \\Lambda\\left(n\\right) , p_{n} , and \\pi\\left(x\\right) , the functions in § 27.2 are multiplicative , which means f(1)=1 and If f is multiplicative, then the values f(n) for n>1 are determined by the values at the prime powers. Specifically, if n is factored as in ( 27.2.1 ), then A function f is completely multiplicative if f(1)=1 and Examples are \\left\\lfloor 1/n\\right\\rfloor and \\lambda\\left(n\\right) , and the Dirichlet characters, defined in § 27.8 . If f is completely multiplicative, then ( 27.3.2 ) becomes\" Equation 27.3.1 on the page has alt text \"f(mn)=f(m)f(n),\". Equation 27.3.2 on the page has alt text \"f(n)=\\prod_{r=1}^{\\nu\\left(n\\right)}f(p^{a_{r}}_{r}).\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 27.3 Multiplicative Properties",
+      "url": "https://dlmf.nist.gov/27.3",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

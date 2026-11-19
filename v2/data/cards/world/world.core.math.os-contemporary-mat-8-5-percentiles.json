@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-8-5-percentiles",
+  "title": "OpenStax Contemporary Mathematics, 8.5 Percentiles: Compute percentiles.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 8.5 Percentiles: Compute percentiles.",
+  "body": "OpenStax Contemporary Mathematics, section \"8.5 Percentiles\", prints these objectives: \"Compute percentiles.\" \"Solve application problems involving percentiles.\". The section text says: \"A college admissions officer is comparing two students. The first, Anna, finished 12th in her class of 235 people. The second, Brian, finished 10th in his class of 170 people. Which of these outcomes is better? Certainly 10 is less than 12, which favors Brian, but Anna’s class was much bigger. In fact, Anna beat out 223 of her classmates, which is 223 235 ≈ 95 % of her classmates, while Brian bested 160 out of 170 people, or 94%. Comparing the proportions of the data values that are below a…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 8.5 Percentiles",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/8-5-percentiles",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

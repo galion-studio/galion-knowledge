@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-6-7-investments",
+  "title": "OpenStax Contemporary Mathematics, 6.7 Investments: Distinguish between basic forms of investments including stocks, bonds, and mutual funds.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 6.7 Investments: Distinguish between basic forms of investments including stocks, bonds, and mutual funds.",
+  "body": "OpenStax Contemporary Mathematics, section \"6.7 Investments\", prints these objectives: \"Distinguish between basic forms of investments including stocks, bonds, and mutual funds.\" \"Understand what bonds are and how bond investments work.\" \"Understand how stocks are purchased and gain or lose value.\" \"Read and derive information from a stock table.\" \"Define a mutual fund and how to invest.\" \"Compute return on investment for basic forms of investments.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 6.7 Investments",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/6-7-investments",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

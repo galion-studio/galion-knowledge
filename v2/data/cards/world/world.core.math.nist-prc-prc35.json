@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-prc-prc35",
+  "title": "NIST/SEMATECH handbook, 7.3.5. Do two arbitrary processes have the same central tendency?: Do two arbitrary processes have the same central tendency?",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 7.3.5. Do two arbitrary processes have the same central tendency?: Do two arbitrary processes have the same central tendency?",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"7.3.5. Do two arbitrary processes have the same central tendency?\" says: \"Do two arbitrary processes have the same central tendency? 7. Product and Process Comparisons 7.3. Comparisons based on data from two processes 7.3.5. Do two arbitrary processes have the same central tendency? The nonparametric equivalent of the \\(t\\) test is due to Mann and Whitney, called the \\(U\\) test By \"arbitrary\" we mean that we make no underlying assumptions about normality or any other distribution. The test is called the Mann-Whitney U Test , which is the nonparametric equivalent of the \\(t\\) t --> test for means. The \\(U\\)-test U -test --> (as the majority of nonparametric tests) uses the rank sums of the two samples. Procedure The test is implemented as follows. Rank all \\((n_1 + n_2)\\) n 1 + n 2 ) --> observations in ascending order. Ties receive the average of their observations. Calculate the sum of the ranks, call these \\(T_a\\) and \\(T_b\\). T a and T b --> Calculate the…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 7.3.5. Do two arbitrary processes have the same central tendency?",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section3/prc35.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

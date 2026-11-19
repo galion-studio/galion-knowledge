@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-25-14",
+  "title": "DLMF 25.14 Lerch’s Transcendent: If s is not an integer then \\left|\\operatorname{ph}a\\right|<\\pi ; if s is a positive integer then a\\neq 0,-1,-2,\\dots…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 25.14 Lerch’s Transcendent: If s is not an integer then \\left|\\operatorname{ph}a\\right|<\\pi ; if s is a positive integer then a\\neq 0,-1,-2,\\dots…",
+  "body": "NIST DLMF section 25.14 (Lerch’s Transcendent) says: \"If s is not an integer then \\left|\\operatorname{ph}a\\right|<\\pi ; if s is a positive integer then a\\neq 0,-1,-2,\\dots ; if s is a non-positive integer then a can be any complex number. For other values of z , \\Phi\\left(z,s,a\\right) is defined by analytic continuation. This is the notation used in Erdélyi et al. ( 1953a , p. 27) . Lerch ( 1887 ) used \\mathfrak{K}(a,x,s)=\\Phi\\left(e^{2\\pi ix},s,a\\right) . The Hurwitz zeta function \\zeta\\left(s,a\\right) (§ 25.11 ) and the polylogarithm \\operatorname{Li}_{s}\\left(z\\right) (§ 25.12(ii) ) are special cases: Here the prime signifies that the term for n=m-1 is to be omitted. In the case s=1 we have For hypergeometric function F see 15.2(i) . With the conditions of ( 25.14.1 ) and m=1,2,3,\\dots , For these and further properties see Erdélyi et al. ( 1953a , pp. 27–31) . with \\max(-\\Re{a},-1)<\\sigma<0 . This Mellin–Barnes integral representation is used in Olde Daalhuis ( 2024 ) to obtain large \\left|z\\right| asymptotic approximations for \\Phi\\left(-z,s,a\\right) . In the special case s=m an integer these asymptotic approximations simplify\" Equation 25.14.1 on the page has alt text \"{\\Phi\\left(z,s,a\\right)\\equiv\\sum_{n=0}^{\\infty}\\frac{z^{n}}{(a+n)^{s}}},\". Equation 25.14.2 on the page has alt text \"\\zeta\\left(s,a\\right)=\\Phi\\left(1,s,a\\right),\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 25.14 Lerch’s Transcendent",
+      "url": "https://dlmf.nist.gov/25.14",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

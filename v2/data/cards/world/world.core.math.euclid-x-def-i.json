@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-x-def-i",
+  "title": "Euclid X.Def.I: Those magnitudes are said to be commensurable which are measured by the same measure, and those incommensurable which cannot have any common measure.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid X.Def.I: Those magnitudes are said to be commensurable which are measured by the same measure, and those incommensurable which cannot have any common measure.",
+  "body": "Euclid, Book X, X.Def.I, as worded on this page: \"Those magnitudes are said to be commensurable which are measured by the same measure, and those incommensurable which cannot have any common measure. Straight lines are commensurable in square when the squares on them are measured by the same area, and incommensurable in square when the squares on them cannot possibly have any area as a common measure. With these hypotheses, it is proved that there exist straight lines infinite in multitude which are commensurable and incommensurable respectively, some in length only, and others in square also, with an assigned straight line. Let then the assigned straight line be called rational, and those straight lines which are commensurable with it, whether in length and in square, or in square only, rational, but those that are incommensurable with it irrational. And the let the square on the assigned straight line be called rational, and those areas which are commensurable with it rational, but those which are incommensurable with it irrational, and the straight lines which produce them irrational, that is, in case the areas are squares, the sides themselves, but in case they are any other rectilineal figures, the straight lines on which are described squares equal to them.\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book X, X.Def.I",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookX/defX.I.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:number-theory"
+  ]
+}

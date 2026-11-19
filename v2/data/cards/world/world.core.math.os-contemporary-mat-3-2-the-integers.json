@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-3-2-the-integers",
+  "title": "OpenStax Contemporary Mathematics, 3.2 The Integers: Define and identify numbers that are integers.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 3.2 The Integers: Define and identify numbers that are integers.",
+  "body": "OpenStax Contemporary Mathematics, section \"3.2 The Integers\", prints these objectives: \"Define and identify numbers that are integers.\" \"Graph integers on a number line.\" \"Compare integers.\" \"Compute the absolute value of an integer.\" \"Add and subtract integers.\" \"Multiply and divide integers.\". The section text says: \"Integers are often imagined as steps along a path. You start at 0, and going to the left is going backward, or in the negative direction, while going to the right is going forward, or in the positive direction. A number line ( Figure 3.12 ) helps envision the integers. This also means that an integer gives magnitude (size) and direction (positive is to the right, negative is to the left). Graphing an integer on the number line means placing a solid dot at the integer on the number line.\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 3.2 The Integers",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/3-2-the-integers",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

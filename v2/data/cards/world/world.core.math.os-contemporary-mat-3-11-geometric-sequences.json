@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-3-11-geometric-sequences",
+  "title": "OpenStax Contemporary Mathematics, 3.11 Geometric Sequences: Identify geometric sequences.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 3.11 Geometric Sequences: Identify geometric sequences.",
+  "body": "OpenStax Contemporary Mathematics, section \"3.11 Geometric Sequences\", prints these objectives: \"Identify geometric sequences.\" \"Find a given term in a geometric sequence.\" \"Find the n th term of a geometric sequence.\" \"Find the sum of a finite geometric sequence.\" \"Use geometric sequences to solve real-world applications.\". The section text says: \"As with arithmetic sequences, the first term of a geometric sequence is labeled a 1 . The number that is multiplied by each term is called the common ratio and is denoted r . So, if the first term is known, a 1 , and the common ratio is known, r , then the n th term, a n , can be calculated with the formula a n = a 1 r n − 1 .\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 3.11 Geometric Sequences",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/3-11-geometric-sequences",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

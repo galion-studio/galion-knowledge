@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-4-2-direction-fields-and-numerical-methods",
+  "title": "OpenStax Calculus Volume 2, 4.2 Direction Fields and Numerical Methods: Draw the direction field for a given first-order differential equation.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 4.2 Direction Fields and Numerical Methods: Draw the direction field for a given first-order differential equation.",
+  "body": "OpenStax Calculus Volume 2, section \"4.2 Direction Fields and Numerical Methods\", prints these objectives: \"Draw the direction field for a given first-order differential equation.\" \"Use a direction field to draw a solution curve of a first-order differential equation.\" \"Use Euler’s Method to approximate the solution to a first-order differential equation.\". The section text says: \"For the rest of this chapter we will focus on various methods for solving differential equations and analyzing the behavior of the solutions. In some cases it is possible to predict properties of a solution to a differential equation without knowing the actual solution. We will also study numerical methods for solving differential equations, which can be programmed by using various computer languages or even by using a spreadsheet program, such as Microsoft Excel.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 4.2 Direction Fields and Numerical Methods",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/4-2-direction-fields-and-numerical-methods",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

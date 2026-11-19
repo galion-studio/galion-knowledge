@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-mpc-mpc61",
+  "title": "NIST/SEMATECH handbook, 2.6.1. Gauge study of resistivity probes: Gauge study of resistivity probes Purpose The purpose of this case study is to outline the analysis of a…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 2.6.1. Gauge study of resistivity probes: Gauge study of resistivity probes Purpose The purpose of this case study is to outline the analysis of a…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"2.6.1. Gauge study of resistivity probes\" says: \"Gauge study of resistivity probes Purpose The purpose of this case study is to outline the analysis of a gauge study that was undertaken to identify the sources of uncertainty in resistivity measurements of silicon wafers. Outline Background and data Analysis and interpretation Graphs showing repeatability standard deviations Graphs showing day-to-day variability Graphs showing differences among gauges Run this example yourself with Dataplot Dataplot macros\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 2.6.1. Gauge study of resistivity probes",
+      "url": "https://www.itl.nist.gov/div898/handbook/mpc/section6/mpc61.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:measurement"
+  ]
+}

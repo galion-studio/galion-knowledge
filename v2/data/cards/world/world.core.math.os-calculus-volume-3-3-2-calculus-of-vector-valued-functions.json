@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-3-3-2-calculus-of-vector-valued-functions",
+  "title": "OpenStax Calculus Volume 3, 3.2 Calculus of Vector-Valued Functions: Write an expression for the derivative of a vector-valued function.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 3, 3.2 Calculus of Vector-Valued Functions: Write an expression for the derivative of a vector-valued function.",
+  "body": "OpenStax Calculus Volume 3, section \"3.2 Calculus of Vector-Valued Functions\", prints these objectives: \"Write an expression for the derivative of a vector-valued function.\" \"Find the tangent vector at a point for a given position vector.\" \"Find the unit tangent vector at a point for a given position vector and explain its significance.\" \"Calculate the definite integral of a vector-valued function.\". The section text says: \"To study the calculus of vector-valued functions, we follow a similar path to the one we took in studying real-valued functions. First, we define the derivative, then we examine applications of the derivative , then we move on to defining integrals. However, we will find some interesting new ideas along the way as a result of the vector nature of these functions and the properties of space curves.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 3, 3.2 Calculus of Vector-Valued Functions",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/3-2-calculus-of-vector-valued-functions",
+      "author": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

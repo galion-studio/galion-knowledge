@@ -1,0 +1,29 @@
+{
+  "id": "world.core.math.clay-navier-stokes-equation",
+  "title": "The Clay Mathematics Institute states the Navier–Stokes existence and smoothness problem: This is the equation which governs the flow of fluids such as water and air.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Clay Mathematics Institute states the Navier–Stokes existence and smoothness problem: This is the equation which governs the flow of fluids such as water and air.",
+  "body": "The Clay Mathematics Institute's page on the Navier–Stokes existence and smoothness problem says: \"This is the equation which governs the flow of fluids such as water and air. However, for many decades no proof was found answering the most basic questions one can ask: do solutions exist, and are they unique? Why ask for a proof? Because a proof gives not only certitude, but also understanding. Waves follow our boat as we meander across the lake, and turbulent air currents follow our flight in a modern jet. Mathematicians and physicists believe that an explanation for and the prediction of both the breeze and the turbulence can be found through an understanding of solutions to the Navier-Stokes equations. Although these equations were written down in the 19th Century, our understanding of them remains minimal. The challenge is to make substantial progress toward a mathematical theory which will unlock the secrets hidden in the Navier-Stokes equations. Waves follow our boat as we meander across the lake, and turbulent air currents follow our flight in a modern jet. Mathematicians and…\" This card records that page. It does not announce a solution the page does not announce.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Clay Mathematics Institute, the Navier–Stokes existence and smoothness problem",
+      "url": "https://www.claymath.org/millennium/navier-stokes-equation/",
+      "author": "Clay Mathematics Institute",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Clay Mathematics Institute",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "area:foundations"
+  ]
+}

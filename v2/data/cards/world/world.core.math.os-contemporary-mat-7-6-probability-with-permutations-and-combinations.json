@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-7-6-probability-with-permutations-and-combinations",
+  "title": "OpenStax Contemporary Mathematics, 7.6 Probability with Permutations and Combinations: Calculate probabilities with permutations.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 7.6 Probability with Permutations and Combinations: Calculate probabilities with permutations.",
+  "body": "OpenStax Contemporary Mathematics, section \"7.6 Probability with Permutations and Combinations\", prints these objectives: \"Calculate probabilities with permutations.\" \"Calculate probabilities with combinations.\". The section text says: \"In our earlier discussion of theoretical probabilities, the first step we took was to write out the sample space for the experiment in question. For many experiments, that method just isn’t practical. For example, we might want to find the probability of drawing a particular 5-card poker hand. Since there are 52 cards in a deck and the order of cards doesn’t matter, the sample space for this experiment has 52 C 5 = 2,598,960 possible 5-card hands. Even if we had the patience and space to write…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 7.6 Probability with Permutations and Combinations",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/7-6-probability-with-permutations-and-combinations",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-8-3-inverse-trigonometric-functions",
+  "title": "OpenStax Algebra and Trigonometry 2e, 8.3 Inverse Trigonometric Functions: Understand and use the inverse sine, cosine, and tangent functions.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 8.3 Inverse Trigonometric Functions: Understand and use the inverse sine, cosine, and tangent functions.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"8.3 Inverse Trigonometric Functions\", prints these objectives: \"Understand and use the inverse sine, cosine, and tangent functions.\" \"Find the exact value of expressions involving the inverse sine, cosine, and tangent functions.\" \"Use a calculator to evaluate inverse trigonometric functions.\" \"Find exact values of composite functions with inverse trigonometric functions.\". The section text says: \"For any right triangle , given one other angle and the length of one side, we can figure out what the other angles and sides are. But what if we are given only two sides of a right triangle? We need a procedure that leads us from a ratio of sides to an angle. This is where the notion of an inverse to a trigonometric function comes into play. In this section, we will explore the inverse trigonometric functions .\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 8.3 Inverse Trigonometric Functions",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/8-3-inverse-trigonometric-functions",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

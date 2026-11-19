@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-type-theory",
+  "title": "The Stanford Encyclopedia entry \"Type Theory\" says: The topic of type theory is fundamental both in logic and computer science.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Type Theory\" says: The topic of type theory is fundamental both in logic and computer science.",
+  "body": "Coquand, Thierry, in the Stanford Encyclopedia of Philosophy entry \"Type Theory\" says: \"The topic of type theory is fundamental both in logic and computer science. We limit ourselves here to sketch some aspects that are important in logic. For the importance of types in computer science, we refer the reader for instance to Reynolds 1983 and 1985.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Type Theory (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/type-theory/",
+      "author": "Coquand, Thierry",
+      "date": "2006-02-08",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Coquand, Thierry",
+  "as_of_date": "2022-09-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

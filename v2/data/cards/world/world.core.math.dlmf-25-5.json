@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-25-5",
+  "title": "DLMF 25.5 Integral Representations: For \\theta_{3} see § 20.2(i) . For similar representations involving other theta functions see Erdélyi et al.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 25.5 Integral Representations: For \\theta_{3} see § 20.2(i) . For similar representations involving other theta functions see Erdélyi et al.",
+  "body": "NIST DLMF section 25.5 (Integral Representations) says: \"For \\theta_{3} see § 20.2(i) . For similar representations involving other theta functions see Erdélyi et al. ( 1954a , p. 339) . In ( 25.5.15 )–( 25.5.19 ), 0<\\Re s<1 , \\psi\\left(x\\right) is the digamma function, and \\gamma is Euler’s constant (§ 5.2 ). ( 25.5.16 ) is also valid for 0<\\Re s<2 , s\\neq 1 . where the integration contour is a loop around the negative real axis; it starts at -\\infty , encircles the origin once in the positive direction without enclosing any of the points z=\\pm 2\\pi\\mathrm{i} , \\pm 4\\pi\\mathrm{i} , …, and returns to -\\infty . Equivalently, The contour here is any loop that encircles the origin in the positive direction not enclosing any of the points \\pm\\pi\\mathrm{i} , \\pm 3\\pi\\mathrm{i} , …. For the contour of integration in ( 25.5.20 ) and ( 25.5.21 ) see Figure 5.9.1 .\" Equation 25.5.5 on the page has alt text \"\\zeta\\left(s\\right)=-s\\int_{0}^{\\infty}\\frac{x-\\left\\lfloor x\\right\\rfloor-% \\frac{1}{2}}{x^{s+1}}\\,\\mathrm{d}x,\". Equation 25.5.6 on the page has alt text \"\\zeta\\left(s\\right)=\\frac{1}{2}+\\frac{1}{s-1}+\\frac{1}{\\Gamma\\left(s\\right)}% \\int_{0}^{\\infty}\\left(\\frac{1}{e^{x}-1}-\\frac{1}{x}+\\frac{1}{2}\\right)\\frac{x% ^{s-1}}{e^{x}}\\,\\mathrm{d}x,\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 25.5 Integral Representations",
+      "url": "https://dlmf.nist.gov/25.5",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-4-13",
+  "title": "DLMF 4.13 Lambert 𝑊-Function: The Lambert W -function W\\left(z\\right) is the solution of the equation",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 4.13 Lambert 𝑊-Function: The Lambert W -function W\\left(z\\right) is the solution of the equation",
+  "body": "NIST DLMF section 4.13 (Lambert 𝑊-Function) says: \"The Lambert W -function W\\left(z\\right) is the solution of the equation On the z -interval [0,\\infty) there is one real solution, and it is nonnegative and increasing. On the z -interval (-{\\mathrm{e}}^{-1},0) there are two real solutions, one increasing and the other decreasing. We call the increasing solution for which W\\left(z\\right)\\geq W\\left(-{\\mathrm{e}}^{-1}\\right)=-1 the principal branch and denote it by W_{0}\\left(z\\right) . See Figure 4.13.1 . The decreasing solution can be identified as W_{\\pm 1}\\left(x\\mp 0\\mathrm{i}\\right) . Other solutions of ( 4.13.1 ) are other branches of W\\left(z\\right) . They are denoted by W_{k}\\left(z\\right) , k\\in\\mathbb{Z} , and have the property where {\\rm ln}_{k}(z)=\\ln\\left(z\\right)+2\\pi\\mathrm{i}k . W_{0}\\left(z\\right) is a single-valued analytic function on \\mathbb{C}\\setminus(-\\infty,-{\\mathrm{e}}^{-1}] , real-valued when z>-{\\mathrm{e}}^{-1} , and has a square root branch point at z=-{\\mathrm{e}}^{-1} . See ( 4.13.6 ) and ( 4.13.9_1 ). The other branches W_{k}\\left(z\\right) are single-valued analytic functions on…\" Equation 4.13.1 on the page has alt text \"W{\\mathrm{e}}^{W}=z.\". Equation 4.13.2 on the page has alt text \"\\displaystyle W_{0}\\left(-{\\mathrm{e}}^{-1}\\right)\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 4.13 Lambert 𝑊-Function",
+      "url": "https://dlmf.nist.gov/4.13",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

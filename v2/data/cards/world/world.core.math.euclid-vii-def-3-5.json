@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vii-def-3-5",
+  "title": "Euclid VII.Def.3-5: 3. A number is a part of a number, the less of the greater, when it measures the greater; 4.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VII.Def.3-5: 3. A number is a part of a number, the less of the greater, when it measures the greater; 4.",
+  "body": "Euclid, Book VII, VII.Def.3-5, as worded on this page: \"3. A number is a part of a number, the less of the greater, when it measures the greater; 4. But parts when it does not measure it. 5. The greater number is a multiple of the less when it is measured by the less.\" David E. Joyce's guide on the same page says: \"These definitions are in preparation for the definition of proportion of numbers given in VII.Def.20 . In the current definitions, the possible relations between a pair of numbers, a and b, are classified. Later in Book VII, the term “ratio” will be used for this relation. In all three of these definitions, the concept of “measures“ is assumed to be understood. There is more to these definitions than meets the eye, though, at least part of the intent is evident. On Definitions 3 and 5 To…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VII, VII.Def.3-5",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVII/defVII3.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:number-theory"
+  ]
+}

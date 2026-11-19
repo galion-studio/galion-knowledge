@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-recursive-functions",
+  "title": "The Stanford Encyclopedia entry \"Recursive Functions\" says: The recursive functions are a class of functions on the natural numbers studied in computability theory , a…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Recursive Functions\" says: The recursive functions are a class of functions on the natural numbers studied in computability theory , a…",
+  "body": "Dean, Walter, Naibo, Alberto, in the Stanford Encyclopedia of Philosophy entry \"Recursive Functions\" says: \"The recursive functions are a class of functions on the natural numbers studied in computability theory , a branch of contemporary mathematical logic which was originally known as recursive function theory . Such functions take their name from the process of recursion by which the value of a function is defined by the application of the same function applied to smaller arguments.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Recursive Functions (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/recursive-functions/",
+      "author": "Dean, Walter, Naibo, Alberto",
+      "date": "2020-04-23",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Dean, Walter, Naibo, Alberto",
+  "as_of_date": "2024-03-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

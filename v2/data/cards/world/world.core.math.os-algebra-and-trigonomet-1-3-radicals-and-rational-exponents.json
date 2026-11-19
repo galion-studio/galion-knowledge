@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-1-3-radicals-and-rational-exponents",
+  "title": "OpenStax Algebra and Trigonometry 2e, 1.3 Radicals and Rational Exponents: Evaluate square roots.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 1.3 Radicals and Rational Exponents: Evaluate square roots.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"1.3 Radicals and Rational Exponents\", prints these objectives: \"Evaluate square roots.\" \"Use the product rule to simplify square roots.\" \"Use the quotient rule to simplify square roots.\" \"Add and subtract square roots.\" \"Rationalize denominators.\" \"Use rational roots.\". The section text says: \"A hardware store sells 16-ft ladders and 24-ft ladders. A window is located 12 feet above the ground. A ladder needs to be purchased that will reach the window from a point on the ground 5 feet from the building. To find out the length of ladder needed, we can draw a right triangle as shown in Figure 1 , and use the Pythagorean Theorem.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 1.3 Radicals and Rational Exponents",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

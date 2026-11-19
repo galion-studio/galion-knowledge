@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-2-6-other-types-of-equations",
+  "title": "OpenStax Algebra and Trigonometry 2e, 2.6 Other Types of Equations: Solve equations involving rational exponents.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 2.6 Other Types of Equations: Solve equations involving rational exponents.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"2.6 Other Types of Equations\", prints these objectives: \"Solve equations involving rational exponents.\" \"Solve equations using factoring.\" \"Solve radical equations.\" \"Solve absolute value equations.\" \"Solve other types of equations.\". The section text says: \"We have solved linear equations, rational equations, and quadratic equations using several methods. However, there are many other types of equations, and we will investigate a few more types in this section. We will look at equations involving rational exponents, polynomial equations, radical equations, absolute value equations, equations in quadratic form, and some rational equations that can be transformed into quadratics. Solving any equation, however, employs the same basic algebraic rules.…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 2.6 Other Types of Equations",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-6-other-types-of-equations",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-3-7-clock-arithmetic",
+  "title": "OpenStax Contemporary Mathematics, 3.7 Clock Arithmetic: Add, subtract, and multiply using clock arithmetic.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 3.7 Clock Arithmetic: Add, subtract, and multiply using clock arithmetic.",
+  "body": "OpenStax Contemporary Mathematics, section \"3.7 Clock Arithmetic\", prints these objectives: \"Add, subtract, and multiply using clock arithmetic.\" \"Apply clock arithmetic to calculate real-world applications.\". The section text says: \"When we do arithmetic, numbers can become larger and larger. But when we work with time, specifically with clocks, the numbers cycle back on themselves. It will never be 49 o’clock. Once 12 o’clock is reached, we go back to 1 and repeat the numbers. If it's 11 AM and someone says, “See you in four hours,” you know that 11 AM plus 4 hours is 3 PM, not 15 AM (ignoring military time for now). Math worked on the clock, where numbers restart after passing 12, is called clock arithmetic .\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 3.7 Clock Arithmetic",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/3-7-clock-arithmetic",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

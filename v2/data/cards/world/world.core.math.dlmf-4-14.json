@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-4-14",
+  "title": "DLMF 4.14 Definitions and Periodicity: The functions \\sin z and \\cos z are entire.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 4.14 Definitions and Periodicity: The functions \\sin z and \\cos z are entire.",
+  "body": "NIST DLMF section 4.14 (Definitions and Periodicity) says: \"The functions \\sin z and \\cos z are entire. In \\mathbb{C} the zeros of \\sin z are z=k\\pi , k\\in\\mathbb{Z} ; the zeros of \\cos z are z=\\left(k+\\tfrac{1}{2}\\right)\\pi , k\\in\\mathbb{Z} . The functions \\tan z , \\csc z , \\sec z , and \\cot z are meromorphic, and the locations of their zeros and poles follow from ( 4.14.4 ) to ( 4.14.7 ).\" This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 4.14 Definitions and Periodicity",
+      "url": "https://dlmf.nist.gov/4.14",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:trigonometry"
+  ]
+}

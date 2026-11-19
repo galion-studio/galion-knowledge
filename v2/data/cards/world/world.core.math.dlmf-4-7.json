@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-4-7",
+  "title": "DLMF 4.7 Derivatives and Differential Equations: For a nonvanishing analytic function f(z) , the general solution of the differential equation",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 4.7 Derivatives and Differential Equations: For a nonvanishing analytic function f(z) , the general solution of the differential equation",
+  "body": "NIST DLMF section 4.7 (Derivatives and Differential Equations) says: \"For a nonvanishing analytic function f(z) , the general solution of the differential equation When a^{z} is a general power, \\ln a is replaced by the branch of \\operatorname{Ln}a used in constructing a^{z} . The general solution of the differential equation The general solution of the differential equation For other differential equations see Kamke ( 1977 , pp. 396–413) .\" Equation 4.7.1 on the page has alt text \"\\frac{\\mathrm{d}}{\\mathrm{d}z}\\ln z=\\frac{1}{z},\". Equation 4.7.2 on the page has alt text \"\\frac{\\mathrm{d}}{\\mathrm{d}z}\\operatorname{Ln}z=\\frac{1}{z},\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 4.7 Derivatives and Differential Equations",
+      "url": "https://dlmf.nist.gov/4.7",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vi-27",
+  "title": "Euclid VI.27: Of all the parallelograms applied to the same straight line falling short by parallelogrammic figures similar and similarly situated to that…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VI.27: Of all the parallelograms applied to the same straight line falling short by parallelogrammic figures similar and similarly situated to that…",
+  "body": "Euclid, Book VI, VI.27, as worded on this page: \"Of all the parallelograms applied to the same straight line falling short by parallelogrammic figures similar and similarly situated to that described on the half of the straight line, that parallelogram is greatest which is applied to the half of the straight line and is similar to the difference.\" The argument printed under that statement begins: \"Proposition 27 Let AB be a straight line and let it be bisected at C. Let there be applied to the straight line AB the parallelogram AD falling short by the parallelogrammic figure DB described on the half of AB, that is, CB. I say that, of all the parallelograms applied to AB falling short by parallelogrammic figures similar and similarly situated to DB, AD is greatest. Let there be applied to the straight line AB the parallelogram AF falling short by the parallelogrammic figure FB similar and similarly situated to DB. I say that AD is greater than AF. VI.26 Since the parallelogram DB is similar to the parallelogram FB, therefore they are about the same diameter. Draw their diameter DB…\" David E. Joyce's guide on the same page says: \"This proposition clarifies the limitations of the next one, VI.28 . In VI.28 a construction is made to apply a parallelogram equal to a given rectilinear figure to a line falling short by a parallelogrammic figure. This proposition implies that that construction cannot be made if the given rectilinear figure is too large. When that proposition is applied, the part which falls short is usually a square, not just any parallelogram, and this and the next proposition are much more easily understood…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VI, VI.27",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI27.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

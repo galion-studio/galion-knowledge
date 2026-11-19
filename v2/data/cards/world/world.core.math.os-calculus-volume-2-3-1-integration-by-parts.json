@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-3-1-integration-by-parts",
+  "title": "OpenStax Calculus Volume 2, 3.1 Integration by Parts: Recognize when to use integration by parts.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 3.1 Integration by Parts: Recognize when to use integration by parts.",
+  "body": "OpenStax Calculus Volume 2, section \"3.1 Integration by Parts\", prints these objectives: \"Recognize when to use integration by parts.\" \"Use the integration-by-parts formula to solve integration problems.\" \"Use the integration-by-parts formula for definite integrals.\". The section text says: \"By now we have a fairly thorough procedure for how to evaluate many basic integrals. However, although we can integrate ∫ x sin ( x 2 ) d x by using the substitution, u = x 2 , something as simple looking as ∫ x sin x d x defies us. Many students want to know whether there is a product rule for integration. There isn’t, but there is a technique based on the product rule for differentiation that allows us to exchange one integral for another. We call this technique integration by parts .\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 3.1 Integration by Parts",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/3-1-integration-by-parts",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

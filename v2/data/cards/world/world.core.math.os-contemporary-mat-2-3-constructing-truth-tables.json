@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-2-3-constructing-truth-tables",
+  "title": "OpenStax Contemporary Mathematics, 2.3 Constructing Truth Tables: Interpret and apply negations, conjunctions, and disjunctions.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 2.3 Constructing Truth Tables: Interpret and apply negations, conjunctions, and disjunctions.",
+  "body": "OpenStax Contemporary Mathematics, section \"2.3 Constructing Truth Tables\", prints these objectives: \"Interpret and apply negations, conjunctions, and disjunctions.\" \"Construct a truth table using negations, conjunctions, and disjunctions.\" \"Construct a truth table for a compound statement and interpret its validity.\". The section text says: \"A disjunction is a logical inclusive or statement, which means that a disjunction is true if one or both statements that form it are true. The only way a logical inclusive or statement is false is if both statements that form the disjunction are false.\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 2.3 Constructing Truth Tables",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/2-3-constructing-truth-tables",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

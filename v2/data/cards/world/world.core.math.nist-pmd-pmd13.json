@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-pmd-pmd13",
+  "title": "NIST/SEMATECH handbook, 4.1.3. What are process models used for?: Three Main Purposes Process models are used for four main purposes: estimation, prediction, calibration, and…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 4.1.3. What are process models used for?: Three Main Purposes Process models are used for four main purposes: estimation, prediction, calibration, and…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"4.1.3. What are process models used for?\" says: \"Three Main Purposes Process models are used for four main purposes: estimation, prediction, calibration, and optimization. The rest of this page lists brief explanations of the different uses of process models. More detailed explanations of the uses for process models are given in the subsections of this section listed at the bottom of this page. Estimation The goal of estimation is to determine the value of the regression function (i.e., the average value of the response variable), for a particular combination of the values of the predictor variables. Regression function values can be estimated for any combination of predictor variable values, including values for which no data have been measured or observed. Function values estimated for points within the observed space of predictor variable values are sometimes called interpolations. Estimation…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 4.1.3. What are process models used for?",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd13.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

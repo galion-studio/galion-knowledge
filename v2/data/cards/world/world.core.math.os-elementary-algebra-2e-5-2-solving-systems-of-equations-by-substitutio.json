@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-elementary-algebra-2e-5-2-solving-systems-of-equations-by-substitutio",
+  "title": "OpenStax Elementary Algebra 2e, 5.2 Solving Systems of Equations by Substitution: Solve a system of equations by substitution",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Elementary Algebra 2e, 5.2 Solving Systems of Equations by Substitution: Solve a system of equations by substitution",
+  "body": "OpenStax Elementary Algebra 2e, section \"5.2 Solving Systems of Equations by Substitution\", prints these objectives: \"Solve a system of equations by substitution\" \"Solve applications of systems of equations by substitution\". The section text says: \"Solving systems of linear equations by graphing is a good way to visualize the types of solutions that may result. However, there are many cases where solving a system by graphing is inconvenient or imprecise. If the graphs extend beyond the small grid with x and y both between −10 and 10, graphing the lines may be cumbersome. And if the solutions to the system are not integers, it can be hard to read their values precisely from a graph.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Elementary Algebra 2e, 5.2 Solving Systems of Equations by Substitution",
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/5-2-solving-systems-of-equations-by-substitution",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:algebra"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-10-3-polar-coordinates",
+  "title": "OpenStax Algebra and Trigonometry 2e, 10.3 Polar Coordinates: Plot points using polar coordinates.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 10.3 Polar Coordinates: Plot points using polar coordinates.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"10.3 Polar Coordinates\", prints these objectives: \"Plot points using polar coordinates.\" \"Convert from polar coordinates to rectangular coordinates.\" \"Convert from rectangular coordinates to polar coordinates.\" \"Transform equations between polar and rectangular forms.\" \"Identify and graph polar equations by converting to rectangular equations.\". The section text says: \"Over 12 kilometers from port, a sailboat encounters rough weather and is blown off course by a 16-knot wind (see Figure 1 ). How can the sailor indicate his location to the Coast Guard? In this section, we will investigate a method of representing location that is different from a standard coordinate grid.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 10.3 Polar Coordinates",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-3-polar-coordinates",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

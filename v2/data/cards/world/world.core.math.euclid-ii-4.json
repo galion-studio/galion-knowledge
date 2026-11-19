@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-ii-4",
+  "title": "Euclid II.4: If a straight line is cut at random, then the square on the whole equals the sum of the squares on the segments plus twice the rectangle contained by…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid II.4: If a straight line is cut at random, then the square on the whole equals the sum of the squares on the segments plus twice the rectangle contained by…",
+  "body": "Euclid, Book II, II.4, as worded on this page: \"If a straight line is cut at random, then the square on the whole equals the sum of the squares on the segments plus twice the rectangle contained by the segments.\" The argument printed under that statement begins: \"Proposition 4 Let the straight line AB be cut at random at C. I say that the square on AB equals the sum of the squares on AC and CB plus twice the rectangle AC by CB. I.46 I.31 Describe the square ADEB on AB. Join BD. Draw CF through C parallel to either AD or EB, and draw HK through G parallel to either AB or DE. I.29 Then, since CF is parallel to AD, and BD falls on them, the exterior angle CGB equals the interior and opposite angle ADB. I.5 I.6 But the angle ADB equals the angle ABD, since the side BA also equals AD. Therefore the angle CGB also equals the angle GBC, so that the side BC also equals the side CG. I.34 But CB equals GK, and CG to KB. Therefore GK also equals KB. Therefore…\" David E. Joyce's guide on the same page says: \"The statement of the proposition can be interpreted in modern notation as saying that if x = y + z, then x 2 = y 2 + z 2 + 2 yz. More simply, as an identity, it says ( y + z ) 2 = y 2 + z 2 + 2 yz. Use of this proposition This is one of the more frequently used propositions of Book II. It is used in II.12 later in this book, frequently in BookX , and in XIII.2 . Also, the analogous statement for numbers is used in IX15 ,\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book II, II.4",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII4.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:algebra"
+  ]
+}

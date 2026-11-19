@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-1-17",
+  "title": "DLMF 1.17 Integral and Series Representations of the Dirac Delta: In applications in physics, engineering, and applied mathematics, (see Friedman ( 1990 ) ), the Dirac delta…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 1.17 Integral and Series Representations of the Dirac Delta: In applications in physics, engineering, and applied mathematics, (see Friedman ( 1990 ) ), the Dirac delta…",
+  "body": "NIST DLMF section 1.17 (Integral and Series Representations of the Dirac Delta) says: \"In applications in physics, engineering, and applied mathematics, (see Friedman ( 1990 ) ), the Dirac delta distribution (§ 1.16(iii) ) is historically and customarily replaced by the Dirac delta (or Dirac delta function ) \\delta\\left(x\\right) . This is a symbolic function with the properties: subject to certain conditions on the function \\phi(x) . From the mathematical standpoint the left-hand side of ( 1.17.2 ) can be interpreted as a generalized integral in the sense that for a suitably chosen sequence of functions \\delta_{n}\\left(x\\right) , n=1,2,\\dots . Such a sequence is called a delta sequence and we write, symbolically, An example of a delta sequence is provided by for all functions \\phi(x) that are continuous when x\\in(-\\infty,\\infty) , and for each a , \\int_{-\\infty}^{\\infty}{\\mathrm{e}}^{-n(x-a)^{2}}\\phi(x)\\,\\mathrm{d}x converges absolutely for all sufficiently large values of n . The last condition is satisfied, for example, when \\phi(x)=O\\left({\\mathrm{e}}^{\\alpha x^{2}}\\right) as x\\to\\pm\\infty , where \\alpha is a real constant.\" Equation 1.17.1 on the page has alt text \"\\delta\\left(x\\right)=0,\". Equation 1.17.2 on the page has alt text \"\\int_{-\\infty}^{\\infty}\\delta\\left(x-a\\right)\\phi(x)\\,\\mathrm{d}x=\\phi(a),\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 1.17 Integral and Series Representations of the Dirac Delta",
+      "url": "https://dlmf.nist.gov/1.17",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

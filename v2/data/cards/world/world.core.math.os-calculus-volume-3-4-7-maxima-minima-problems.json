@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-3-4-7-maxima-minima-problems",
+  "title": "OpenStax Calculus Volume 3, 4.7 Maxima/Minima Problems: Use partial derivatives to locate critical points for a function of two variables.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 3, 4.7 Maxima/Minima Problems: Use partial derivatives to locate critical points for a function of two variables.",
+  "body": "OpenStax Calculus Volume 3, section \"4.7 Maxima/Minima Problems\", prints these objectives: \"Use partial derivatives to locate critical points for a function of two variables.\" \"Apply a second derivative test to identify a critical point as a local maximum, local minimum, or saddle point for a function of two variables.\" \"Examine critical points and boundary points to find absolute maximum and minimum values for a function of two variables.\". The section text says: \"One of the most useful applications for derivatives of a function of one variable is the determination of maximum and/or minimum values. This application is also important for functions of two or more variables, but as we have seen in earlier sections of this chapter, the introduction of more independent variables leads to more possible outcomes for the calculations. The main ideas of finding critical points and using derivative tests are still valid, but new wrinkles appear when assessing the…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 3, 4.7 Maxima/Minima Problems",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/4-7-maxima-minima-problems",
+      "author": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

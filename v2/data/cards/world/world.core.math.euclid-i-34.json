@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-34",
+  "title": "Euclid I.34: In parallelogrammic areas the opposite sides and angles equal one another, and the diameter bisects the areas.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.34: In parallelogrammic areas the opposite sides and angles equal one another, and the diameter bisects the areas.",
+  "body": "Euclid, Book I, I.34, as worded on this page: \"In parallelogrammic areas the opposite sides and angles equal one another, and the diameter bisects the areas.\" The argument printed under that statement begins: \"Proposition 34 Let ACDB be a parallelogrammic area, and BC its diameter. I say that the opposite sides and angles of the parallelogram ACDB equal one another, and the diameter BC bisects it. I.29 Since AB is parallel to CD, and the straight line BC falls upon them, therefore the alternate angles ABC and BCD equal one another. I.29 Again, since AC is parallel to BD, and BC falls upon them, therefore the alternate angles ACB and CBD equal one another. I.26 Therefore ABC and DCB are two triangles having the two angles ABC and BCA equal to the two angles DCB and CBD respectively, and one side equal to one side, namely that adjoining the equal angles and common to both of them, BC. Therefore…\" David E. Joyce's guide on the same page says: \"In this proposition Euclid uses the term “parallelogrammic area” rather than the word “parallelogram” which first occurs in the next proposition. Proclus indicated that the word “parallelogram” was created by Euclid. This proposition begins the study of areas of rectilinear figures. It is a modest beginning, but it allows the comparison of triangles and parallelograms so that problems and results concerning one can be converted to problems and results concerning the other. Use of Proposition 34…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.34",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI34.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

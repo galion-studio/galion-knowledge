@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-russell-paradox",
+  "title": "The Stanford Encyclopedia entry \"Russell’s Paradox\" says: Russell’s paradox is a contradiction—a logical impossibility—of concern to the foundations of set theory and…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Russell’s Paradox\" says: Russell’s paradox is a contradiction—a logical impossibility—of concern to the foundations of set theory and…",
+  "body": "Deutsch, Harry, Marshall, Oliver, Irvine, Andrew David, in the Stanford Encyclopedia of Philosophy entry \"Russell’s Paradox\" says: \"Russell’s paradox is a contradiction—a logical impossibility—of concern to the foundations of set theory and logical reasoning generally. It was discovered by Bertrand Russell in or around 1901. In a letter to Gottlob Frege, Russell outlined the problem as it affects Frege’s major work Grundgesetze der Arithmetik . Frege responded with both dismay and admiration, and never recovered from the blow dealt to his life’s work. Russell was also alarmed by the extent to which the paradox threatened his own project. Struggling to solve the paradox during a period of intensive work and emotional upheaval, he made some of his most important discoveries including his theory of denoting phrases and definite descriptions, and his theory of types. Since then, the paradox has prompted major advances in logic, set theory and the philosophy and foundations of mathematics . Although Russell is justly…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Russell’s Paradox (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/russell-paradox/",
+      "author": "Deutsch, Harry, Marshall, Oliver, Irvine, Andrew David",
+      "date": "1995-12-08",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Deutsch, Harry, Marshall, Oliver, Irvine, Andrew David",
+  "as_of_date": "2026-03-13",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

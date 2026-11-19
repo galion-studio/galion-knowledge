@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vii-19",
+  "title": "Euclid VII.19: If four numbers are proportional, then the number produced from the first and fourth equals the number produced from the second and third; and, if…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VII.19: If four numbers are proportional, then the number produced from the first and fourth equals the number produced from the second and third; and, if…",
+  "body": "Euclid, Book VII, VII.19, as worded on this page: \"If four numbers are proportional, then the number produced from the first and fourth equals the number produced from the second and third; and, if the number produced from the first and fourth equals that produced from the second and third, then the four numbers are proportional.\" The argument printed under that statement begins: \"Proposition 19 Let A, B, C, and D be four numbers in proportion, so that A is to B as C is to D, and let A multiplied by D make E, and let B multiplied by C make F. I say that E equals F. VII.17 ( V.11 ) Multiply A by C to make G. Since, then, A multiplied by C makes G, and multiplied by D makes E, therefore the number A multiplied by the two numbers C and D makes G and E. Therefore C is to D as G is to E. But C is to D as A is to B, therefore A is to B as G is to E. VII.18 Again, since A multiplied by C makes G, but, further, B multiplied by C makes F, therefore the two numbers A and B multiplied by a certain number C make G and F. Therefore A is to B as G is to F. ( V.11 ) ( V.9 ) But…\" David E. Joyce's guide on the same page says: \"Symbolically, a : b = c : d if and only if ad = bc. These algebraic expressions are meaningful when the variables are all numbers, but not when they are magnitudes in general. They can be interpreted, however, when they are lines, and proposition VI.16 is the analogue in that case. Twice in this proof Euclid makes conclusions about proportions for numbers that he has neither stated nor proved. These places are indicated by (V.11), (V.9), and (V.7) in the margins, the analogous justifications…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VII, VII.19",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVII/propVII19.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:number-theory"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-5-11",
+  "title": "DLMF 5.11 Asymptotic Expansions: As z\\to\\infty in the sector |\\operatorname{ph}z|\\leq\\pi-\\delta ,",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 5.11 Asymptotic Expansions: As z\\to\\infty in the sector |\\operatorname{ph}z|\\leq\\pi-\\delta ,",
+  "body": "NIST DLMF section 5.11 (Asymptotic Expansions) says: \"As z\\to\\infty in the sector |\\operatorname{ph}z|\\leq\\pi-\\delta , For the Bernoulli numbers B_{2k} , see § 24.2(i) . The scaled gamma function \\Gamma^{*}\\left(z\\right) is defined in ( 5.11.3 ) and its main property is \\Gamma^{*}\\left(z\\right)\\sim 1 as z\\to\\infty in the sector |\\operatorname{ph}z|\\leq\\pi-\\delta . Wrench ( 1968 ) gives exact values of g_{k} up to g_{20} . Spira ( 1971 ) corrects errors in Wrench’s results and also supplies exact and 45D values of g_{k} for k=21,22,\\dots,30 . For explicit formulas for g_{k} in terms of Stirling numbers see Nemes ( 2013a ) , and for asymptotic expansions of g_{k} as k\\to\\infty see Boyd ( 1994 ) and Nemes ( 2015a ) . The expansion ( 5.11.1 ) is called Stirling’s series ( Whittaker and Watson ( 1927 , §12.33) ), whereas the expansion ( 5.11.3 ), or sometimes just its leading term, is known as Stirling’s formula ( Abramowitz and Stegun ( 1964 , §6.1) , Olver ( 1997b , p. 88) ).\" Equation 5.11.1 on the page has alt text \"\\operatorname{Ln}\\Gamma\\left(z\\right)\\sim\\left(z-\\tfrac{1}{2}\\right)\\ln z-z+% \\tfrac{1}{2}\\ln\\left(2\\pi\\right)+\\sum_{k=1}^{\\infty}\\frac{B_{2k}}{2k(2k-1)z^{2% k-1}}\". Equation 5.11.2 on the page has alt text \"\\psi\\left(z\\right)\\sim\\ln z-\\frac{1}{2z}-\\sum_{k=1}^{\\infty}\\frac{B_{2k}}{2kz^% {2k}}.\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 5.11 Asymptotic Expansions",
+      "url": "https://dlmf.nist.gov/5.11",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

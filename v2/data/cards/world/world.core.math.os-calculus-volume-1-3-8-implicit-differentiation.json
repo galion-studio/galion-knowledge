@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-3-8-implicit-differentiation",
+  "title": "OpenStax Calculus Volume 1, 3.8 Implicit Differentiation: Find the derivative of a complicated function by using implicit differentiation.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 3.8 Implicit Differentiation: Find the derivative of a complicated function by using implicit differentiation.",
+  "body": "OpenStax Calculus Volume 1, section \"3.8 Implicit Differentiation\", prints these objectives: \"Find the derivative of a complicated function by using implicit differentiation.\" \"Use implicit differentiation to determine the equation of a tangent line.\". The section text says: \"We have already studied how to find equations of tangent lines to functions and the rate of change of a function at a specific point. In all these cases we had the explicit equation for the function and differentiated these functions explicitly. Suppose instead that we want to determine the equation of a tangent line to an arbitrary curve or the rate of change of an arbitrary curve at a point. In this section, we solve these problems by finding the derivatives of functions that define y…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 3.8 Implicit Differentiation",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/3-8-implicit-differentiation",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

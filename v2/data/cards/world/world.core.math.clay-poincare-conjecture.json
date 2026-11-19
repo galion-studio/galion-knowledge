@@ -1,0 +1,29 @@
+{
+  "id": "world.core.math.clay-poincare-conjecture",
+  "title": "The Clay Mathematics Institute states the Poincaré conjecture: In 1904 the French mathematician Henri Poincaré asked if the three dimensional sphere is characterized as the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Clay Mathematics Institute states the Poincaré conjecture: In 1904 the French mathematician Henri Poincaré asked if the three dimensional sphere is characterized as the…",
+  "body": "The Clay Mathematics Institute's page on the Poincaré conjecture says: \"In 1904 the French mathematician Henri Poincaré asked if the three dimensional sphere is characterized as the unique simply connected three manifold. This question, the Poincaré conjecture, was a special case of Thurston’s geometrization conjecture. Perelman’s proof tells us that every three manifold is built from a set of standard pieces, each with one of eight well-understood geometries. If we stretch a rubber band around the surface of an apple, then we can shrink it down to a point by moving it slowly, without tearing it and without allowing it to leave the surface. On the other hand, if we imagine that the same rubber band has somehow been stretched in the appropriate direction around a doughnut, then there is no way of shrinking it to a point without breaking either the rubber band or the doughnut. We say the surface of the apple is “simply connected,” but that the surface of the doughnut is not. Poincaré, almost a hundred years ago, knew that a two dimensional sphere is…\" This card records that page. It does not announce a solution the page does not announce.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Clay Mathematics Institute, the Poincaré conjecture",
+      "url": "https://www.claymath.org/millennium/poincare-conjecture/",
+      "author": "Clay Mathematics Institute",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Clay Mathematics Institute",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "area:foundations"
+  ]
+}

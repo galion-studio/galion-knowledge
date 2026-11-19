@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-4-44",
+  "title": "DLMF 4.44 Other Applications: The Einstein functions and Planck’s radiation function are elementary combinations of exponentials, or exponentials and…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 4.44 Other Applications: The Einstein functions and Planck’s radiation function are elementary combinations of exponentials, or exponentials and…",
+  "body": "NIST DLMF section 4.44 (Other Applications) says: \"The Einstein functions and Planck’s radiation function are elementary combinations of exponentials, or exponentials and logarithms. See Abramowitz and Stegun ( 1964 , pp. 999–1000) and Ashcroft and Mermin ( 1976 , Chapter 23) . For applications of generalized exponentials and generalized logarithms to computer arithmetic see § 3.1(iv) . For an application of the Lambert W -function to generalized Gaussian noise see Chapeau-Blondeau and Monir ( 2002 ) . For other applications of the Lambert W -function see Corless et al. ( 1996 ) .\" This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 4.44 Other Applications",
+      "url": "https://dlmf.nist.gov/4.44",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-10-5-tessellations",
+  "title": "OpenStax Contemporary Mathematics, 10.5 Tessellations: Apply translations, rotations, and reflections.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 10.5 Tessellations: Apply translations, rotations, and reflections.",
+  "body": "OpenStax Contemporary Mathematics, section \"10.5 Tessellations\", prints these objectives: \"Apply translations, rotations, and reflections.\" \"Determine if a shape tessellates.\". The section text says: \"A regular tessellation means that the pattern is made up of congruent regular polygons, same size and shape, including some type of movement ; that is, some type of transformation or symmetry. Here we consider the rigid motions of translations, rotations, reflections, or glide reflections. A plane of tessellations has the following properties:\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 10.5 Tessellations",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/10-5-tessellations",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

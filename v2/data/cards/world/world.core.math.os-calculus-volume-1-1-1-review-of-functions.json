@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-1-1-review-of-functions",
+  "title": "OpenStax Calculus Volume 1, 1.1 Review of Functions: Use functional notation to evaluate a function.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 1.1 Review of Functions: Use functional notation to evaluate a function.",
+  "body": "OpenStax Calculus Volume 1, section \"1.1 Review of Functions\", prints these objectives: \"Use functional notation to evaluate a function.\" \"Determine the domain and range of a function.\" \"Draw the graph of a function.\" \"Find the zeros of a function.\" \"Recognize a function from a table of values.\" \"Make new functions from two or more given functions.\". The section text says: \"In this section, we provide a formal definition of a function and examine several ways in which functions are represented—namely, through tables, formulas, and graphs. We study formal notation and terms related to functions. We also define composition of functions and symmetry properties. Most of this material will be a review for you, but it serves as a handy reference to remind you of some of the algebraic techniques useful for working with functions.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 1.1 Review of Functions",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/1-1-review-of-functions",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-4-3-converting-with-base-systems",
+  "title": "OpenStax Contemporary Mathematics, 4.3 Converting with Base Systems: Convert another base to base 10.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 4.3 Converting with Base Systems: Convert another base to base 10.",
+  "body": "OpenStax Contemporary Mathematics, section \"4.3 Converting with Base Systems\", prints these objectives: \"Convert another base to base 10.\" \"Write numbers in different base systems.\" \"Convert base 10 to other bases.\" \"Determine errors in converting between bases.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 4.3 Converting with Base Systems",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/4-3-converting-with-base-systems",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

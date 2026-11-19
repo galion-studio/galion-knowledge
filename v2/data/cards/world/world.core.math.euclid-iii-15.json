@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-iii-15",
+  "title": "Euclid III.15: Of straight lines in a circle the diameter is greatest, and of the rest the nearer to the center is always greater than the more remote.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid III.15: Of straight lines in a circle the diameter is greatest, and of the rest the nearer to the center is always greater than the more remote.",
+  "body": "Euclid, Book III, III.15, as worded on this page: \"Of straight lines in a circle the diameter is greatest, and of the rest the nearer to the center is always greater than the more remote.\" The argument printed under that statement begins: \"Proposition 15 Let ABCD be a circle, AD its diameter, and E its center. Let BC be nearer to the center AD, and FG more remote. I say that AD is greatest and BC greater than FG. I.12 Draw EH and EK from the center E perpendicular to BC and FG. III.Def.5 Then, since BC is nearer to the center and FG more remote, EK is greater than EH. I.3 I.11 Make EL equal to EH. Draw LM through L at right angles to EK, and carry it through to N. Join ME, EN, FE, and EG. III.14 Then, since EH equals EL, BC also equals MN. Again, since AE equals EM, and ED equals EN, AD equals the sum of ME and EN. I.20 But the sum of ME and EN is greater than MN, and MN equals BC, therefore AD is greater than BC. I.24 And…\" David E. Joyce's guide on the same page says: \"This proposition is not used in the rest of the Elements.\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book III, III.15",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookIII/propIII15.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

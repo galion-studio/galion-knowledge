@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-27-11",
+  "title": "DLMF 27.11 Asymptotic Formulas: Partial Sums: The behavior of a number-theoretic function f(n) for large n is often difficult to determine because the function…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 27.11 Asymptotic Formulas: Partial Sums: The behavior of a number-theoretic function f(n) for large n is often difficult to determine because the function…",
+  "body": "NIST DLMF section 27.11 (Asymptotic Formulas: Partial Sums) says: \"The behavior of a number-theoretic function f(n) for large n is often difficult to determine because the function values can fluctuate considerably as n increases. It is more fruitful to study partial sums and seek asymptotic formulas of the form where F(x) is a known function of x , and O\\left(g(x)\\right) represents the error, a function of smaller order than F(x) for all x in some prescribed range. For example, Dirichlet ( 1849 ) proves that for all x\\geq 1 , where \\gamma is Euler’s constant (§ 5.2(ii) ). Dirichlet’s divisor problem (unsolved as of 2022) is to determine the least number \\theta_{0} such that the error term in ( 27.11.2 ) is O\\left(x^{\\theta}\\right) for all \\theta>\\theta_{0} . Huxley ( 2003 ) proves that \\theta_{0}\\leq\\frac{131}{416} . Equations ( 27.11.3 )–( 27.11.11 ) list further asymptotic formulas related to some of the functions listed in § 27.2 . They are valid for all x\\geq 2 . The error terms given here are not necessarily the best known.\" Equation 27.11.1 on the page has alt text \"\\sum_{n\\leq x}f(n)=F(x)+O\\left(g(x)\\right),\". Equation 27.11.2 on the page has alt text \"\\sum_{n\\leq x}d\\left(n\\right)=x\\ln x+(2\\gamma-1)x+O\\left(\\sqrt{x}\\right),\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 27.11 Asymptotic Formulas: Partial Sums",
+      "url": "https://dlmf.nist.gov/27.11",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

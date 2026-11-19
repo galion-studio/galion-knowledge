@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logic-nonmonotonic",
+  "title": "The Stanford Encyclopedia entry \"Non-monotonic Logic\" says: Non-monotonic logic ( NML ) is a family of formal logics designed to model and better understand defeasible…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Non-monotonic Logic\" says: Non-monotonic logic ( NML ) is a family of formal logics designed to model and better understand defeasible…",
+  "body": "Strasser, Christian, Antonelli, G. Aldo, in the Stanford Encyclopedia of Philosophy entry \"Non-monotonic Logic\" says: \"Non-monotonic logic ( NML ) is a family of formal logics designed to model and better understand defeasible reasoning . Reasoners draw conclusions in a defeasible manner when they retain the right to retract these inferences upon the acquisition of further information. Numerous instances can be found, ranging from inductive generalizations to reasoning based on the best explanation, as well as inferences grounded on expert opinion. Defeasible inferences are prevalent in everyday reasoning, expert reasoning such as medical diagnosis, and scientific reasoning.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Non-monotonic Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logic-nonmonotonic/",
+      "author": "Strasser, Christian, Antonelli, G. Aldo",
+      "date": "2001-12-11",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Strasser, Christian, Antonelli, G. Aldo",
+  "as_of_date": "2024-11-23",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

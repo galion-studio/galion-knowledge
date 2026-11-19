@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-frege-theorem",
+  "title": "The Stanford Encyclopedia entry \"Frege’s Theorem and Foundations for Arithmetic\" says: Over the course of his life, Gottlob Frege formulated two logical systems in his attempts to define basic…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Frege’s Theorem and Foundations for Arithmetic\" says: Over the course of his life, Gottlob Frege formulated two logical systems in his attempts to define basic…",
+  "body": "Zalta, Edward N., in the Stanford Encyclopedia of Philosophy entry \"Frege’s Theorem and Foundations for Arithmetic\" says: \"Over the course of his life, Gottlob Frege formulated two logical systems in his attempts to define basic concepts of mathematics and to derive mathematical laws from the laws of logic. In his book of 1879, Begriffsschrift: eine der arithmetischen nachgebildete Formelsprache des reinen Denkens , he developed a second-order predicate calculus and used it both to define interesting mathematical concepts and to state and prove mathematically interesting propositions. However, in his two-volume work of 1893/1903, Grundgesetze der Arithmetik , Frege added (as an axiom) what he thought was a logical proposition (Basic Law V) and tried to derive the fundamental axioms and theorems of number theory from the resulting system. Unfortunately, not only did Basic Law V fail to be a logical proposition, but the resulting system proved to be inconsistent, for it was subject to Russell’s Paradox.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Frege’s Theorem and Foundations for Arithmetic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/frege-theorem/",
+      "author": "Zalta, Edward N.",
+      "date": "1998-06-10",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Zalta, Edward N.",
+  "as_of_date": "2023-08-05",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

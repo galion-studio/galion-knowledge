@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-chance-randomness",
+  "title": "The Stanford Encyclopedia entry \"Chance versus Randomness\" says: Randomness, as we ordinarily think of it, exists when some outcomes occur haphazardly, unpredictably, or by…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Chance versus Randomness\" says: Randomness, as we ordinarily think of it, exists when some outcomes occur haphazardly, unpredictably, or by…",
+  "body": "Eagle, Antony, in the Stanford Encyclopedia of Philosophy entry \"Chance versus Randomness\" says: \"Randomness, as we ordinarily think of it, exists when some outcomes occur haphazardly, unpredictably, or by chance. These latter three notions are all distinct, but all have some kind of close connection to probability. Notoriously, there are many kinds of probability: subjective probabilities (‘degrees of belief’), evidential probabilities, and objective chances, to name a few (Hájek 2012), and we might enquire into the connections between randomness and any of these species of probability. In this entry, we focus on the potential connections between randomness and chance, or physical probability. The ordinary way that the word ‘random’ gets used is more or less interchangeable with ‘chancy’, which suggests this Commonplace Thesis—a useful claim to target in our discussion:\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Chance versus Randomness (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/chance-randomness/",
+      "author": "Eagle, Antony",
+      "date": "2010-08-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Eagle, Antony",
+  "as_of_date": "2018-02-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

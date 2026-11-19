@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vi-def-4",
+  "title": "Euclid VI.Def.4: The height of any figure is the perpendicular drawn from the vertex to the base.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VI.Def.4: The height of any figure is the perpendicular drawn from the vertex to the base.",
+  "body": "Euclid, Book VI, VI.Def.4, as worded on this page: \"The height of any figure is the perpendicular drawn from the vertex to the base.\" David E. Joyce's guide on the same page says: \"Evidently, what is meant by “vertex” is the highest point in the figure, or a highest point when many points are equally high. But to define “height” in terms of “highest point” would be a circular definition. Indeed, this definition only suggests what “height” might mean without defining it at all. Still, by the way the term is used in the Elements, we can determine its meaning. The only planar figures where heights are used in the Elements are triangles and parallelograms. If the figure is a…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VI, VI.Def.4",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/defVI4.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

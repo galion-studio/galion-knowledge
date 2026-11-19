@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-10-7-parametric-equations-graphs",
+  "title": "OpenStax Algebra and Trigonometry 2e, 10.7 Parametric Equations: Graphs: Graph plane curves described by parametric equations by plotting points.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 10.7 Parametric Equations: Graphs: Graph plane curves described by parametric equations by plotting points.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"10.7 Parametric Equations: Graphs\", prints these objectives: \"Graph plane curves described by parametric equations by plotting points.\" \"Graph parametric equations.\". The section text says: \"While not every fan (or team manager) appreciates it, baseball and many other sports have become dependent on analytics, which involve complex data recording and quantitative evaluation used to understand and predict behavior. The earliest influence of analytics was mostly statistical; more recently, physics and other sciences have come into play. Foremost among these is the focus on launch angle and exit velocity, which when at certain values can almost guarantee a home run. On the other hand…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 10.7 Parametric Equations: Graphs",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-7-parametric-equations-graphs",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

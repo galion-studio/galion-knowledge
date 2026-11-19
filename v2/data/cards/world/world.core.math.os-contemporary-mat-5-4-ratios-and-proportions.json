@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-5-4-ratios-and-proportions",
+  "title": "OpenStax Contemporary Mathematics, 5.4 Ratios and Proportions: Construct ratios to express comparison of two quantities.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 5.4 Ratios and Proportions: Construct ratios to express comparison of two quantities.",
+  "body": "OpenStax Contemporary Mathematics, section \"5.4 Ratios and Proportions\", prints these objectives: \"Construct ratios to express comparison of two quantities.\" \"Use and apply proportional relationships to solve problems.\" \"Determine and apply a constant of proportionality.\" \"Use proportions to solve scaling problems.\". The section text says: \"Using the definition of ratio, let a = 1 U.S. dollar and let b = 0.82 Euros. Then the ratio can be written as either 1 to 0.82; or 1:0.82; or 1 0.82 .\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 5.4 Ratios and Proportions",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/5-4-ratios-and-proportions",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

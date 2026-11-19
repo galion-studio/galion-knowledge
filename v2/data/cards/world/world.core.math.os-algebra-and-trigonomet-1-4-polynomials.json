@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-1-4-polynomials",
+  "title": "OpenStax Algebra and Trigonometry 2e, 1.4 Polynomials: Identify the degree and leading coefficient of polynomials.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 1.4 Polynomials: Identify the degree and leading coefficient of polynomials.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"1.4 Polynomials\", prints these objectives: \"Identify the degree and leading coefficient of polynomials.\" \"Add and subtract polynomials.\" \"Multiply polynomials.\" \"Use FOIL to multiply binomials.\" \"Perform operations with polynomials of several variables.\". The section text says: \"Maahi is building a little free library (a small house-shaped book repository), whose front is in the shape of a square topped with a triangle. There will be a rectangular door through which people can take and donate books. Maahi wants to find the area of the front of the library so that they can purchase the correct amount of paint. Using the measurements of the front of the house, shown in Figure 1 , we can create an expression that combines several variable terms, allowing us to solve this…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 1.4 Polynomials",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-4-polynomials",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

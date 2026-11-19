@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-prc-prc21",
+  "title": "NIST/SEMATECH handbook, 7.2.1. Do the observations come from a particular distribution?: Do the observations come from a particular distribution?",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 7.2.1. Do the observations come from a particular distribution?: Do the observations come from a particular distribution?",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"7.2.1. Do the observations come from a particular distribution?\" says: \"Do the observations come from a particular distribution? 7. Product and Process Comparisons 7.2. Comparisons based on data from one process 7.2.1. Do the observations come from a particular distribution? Data are often assumed to come from a particular distribution. Goodness-of-fit tests indicate whether or not it is reasonable to assume that a random sample comes from a specific distribution. Statistical techniques often rely on observations having come from a population that has a distribution of a specific form (e.g., normal, lognormal, Poisson, etc.). Standard control charts for continuous measurements, for instance, require that the data come from a normal distribution. Accurate lifetime modeling requires specifying the correct distributional model. There may be historical or theoretical reasons to assume that a sample comes from a particular population, as well. Past data may have…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 7.2.1. Do the observations come from a particular distribution?",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc21.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

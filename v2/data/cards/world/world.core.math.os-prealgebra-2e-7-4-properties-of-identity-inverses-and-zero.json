@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-prealgebra-2e-7-4-properties-of-identity-inverses-and-zero",
+  "title": "OpenStax Prealgebra 2e, 7.4 Properties of Identity, Inverses, and Zero: Recognize the identity properties of addition and multiplication",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Prealgebra 2e, 7.4 Properties of Identity, Inverses, and Zero: Recognize the identity properties of addition and multiplication",
+  "body": "OpenStax Prealgebra 2e, section \"7.4 Properties of Identity, Inverses, and Zero\", prints these objectives: \"Recognize the identity properties of addition and multiplication\" \"Use the inverse properties of addition and multiplication\" \"Use the properties of zero\" \"Simplify expressions using the properties of identities, inverses, and zero\". The section text says: \"What happens when we add zero to any number? Adding zero doesn’t change the value. For this reason, we call 0 the additive identity .\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Prealgebra 2e, 7.4 Properties of Identity, Inverses, and Zero",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/7-4-properties-of-identity-inverses-and-zero",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:arithmetic"
+  ]
+}

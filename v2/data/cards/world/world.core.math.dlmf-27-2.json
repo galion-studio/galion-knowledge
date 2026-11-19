@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-27-2",
+  "title": "DLMF 27.2 Functions: Functions in this section derive their properties from the fundamental theorem of arithmetic , which states that every…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 27.2 Functions: Functions in this section derive their properties from the fundamental theorem of arithmetic , which states that every…",
+  "body": "NIST DLMF section 27.2 (Functions) says: \"Functions in this section derive their properties from the fundamental theorem of arithmetic , which states that every integer n>1 can be represented uniquely as a product of prime powers, where p_{1},p_{2},\\dots,p_{\\nu\\left(n\\right)} are the distinct prime factors of n , each exponent a_{r} is positive, and \\nu\\left(n\\right) is the number of distinct primes dividing n . ( \\nu\\left(1\\right) is defined to be 0.) Euclid’s Elements ( Euclid ( 1908 , Book IX, Proposition 20) ) gives an elegant proof that there are infinitely many primes. Tables of primes (§ 27.21 ) reveal great irregularity in their distribution. They tend to thin out among the large integers, but this thinning out is not completely regular. There is great interest in the function \\pi\\left(x\\right) that counts the number of primes not exceeding x . It can be expressed as a sum over all primes p\\leq x : Gauss and Legendre conjectured that \\pi\\left(x\\right) is asymptotic to x/\\ln x as x\\to\\infty :\" Equation 27.2.1 on the page has alt text \"n=\\prod_{r=1}^{\\nu\\left(n\\right)}p^{a_{r}}_{r},\". Equation 27.2.2 on the page has alt text \"\\pi\\left(x\\right)=\\sum_{p\\leq x}1.\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 27.2 Functions",
+      "url": "https://dlmf.nist.gov/27.2",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

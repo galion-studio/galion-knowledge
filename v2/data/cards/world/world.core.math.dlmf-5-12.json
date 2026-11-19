@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-5-12",
+  "title": "DLMF 5.12 Beta Function: In this section all fractional powers have their principal values, except where noted otherwise.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 5.12 Beta Function: In this section all fractional powers have their principal values, except where noted otherwise.",
+  "body": "NIST DLMF section 5.12 (Beta Function) says: \"In this section all fractional powers have their principal values, except where noted otherwise. In ( 5.12.1 )–( 5.12.4 ) it is assumed \\Re a>0 and \\Re b>0 . In ( 5.12.8 ) the fractional powers have their principal values when w>0 and z>0 , and are continued via continuity. with the contour as shown in Figure 5.12.1 . In ( 5.12.11 ) and ( 5.12.12 ) the fractional powers are continuous on the integration paths and take their principal values at the beginning. when \\Re b>0 , a is not an integer and the contour cuts the real axis between -1 and the origin. See Figure 5.12.2 . where the contour starts from an arbitrary point P in the interval (0,1) , circles 1 and then 0 in the positive sense, circles 1 and then 0 in the negative sense, and returns to P . It can always be deformed into the contour shown in Figure 5.12.3 .\" Equation 5.12.1 on the page has alt text \"\\mathrm{B}\\left(a,b\\right)=\\int_{0}^{1}t^{a-1}(1-t)^{b-1}\\,\\mathrm{d}t=\\frac{% \\Gamma\\left(a\\right)\\Gamma\\left(b\\right)}{\\Gamma\\left(a+b\\right)}.\". Equation 5.12.2 on the page has alt text \"\\int_{0}^{\\pi/2}{\\sin}^{2a-1}\\theta{\\cos}^{2b-1}\\theta\\,\\mathrm{d}\\theta=% \\tfrac{1}{2}\\mathrm{B}\\left(a,b\\right).\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 5.12 Beta Function",
+      "url": "https://dlmf.nist.gov/5.12",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

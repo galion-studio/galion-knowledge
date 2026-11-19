@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-epistemology-geometry",
+  "title": "The Stanford Encyclopedia entry \"Epistemology of Geometry\" says: Geometrical knowledge typically concerns two kinds of things: theoretical or abstract knowledge contained in…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Epistemology of Geometry\" says: Geometrical knowledge typically concerns two kinds of things: theoretical or abstract knowledge contained in…",
+  "body": "Gray, Jeremy, Ferreirós, José, in the Stanford Encyclopedia of Philosophy entry \"Epistemology of Geometry\" says: \"Geometrical knowledge typically concerns two kinds of things: theoretical or abstract knowledge contained in the definitions, axioms, theorems, and proofs in a system of geometry; and some knowledge of the external world, such as is expressed in terms of a system of physical geometry. The nature of the relation between the abstract geometry and its practical expression has also to be considered.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Epistemology of Geometry (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/epistemology-geometry/",
+      "author": "Gray, Jeremy, Ferreir&oacute;s, Jos&eacute;",
+      "date": "2013-10-14",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Gray, Jeremy, Ferreir&oacute;s, Jos&eacute;",
+  "as_of_date": "2025-09-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

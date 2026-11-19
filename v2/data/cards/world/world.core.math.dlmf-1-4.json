@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-1-4",
+  "title": "DLMF 1.4 Calculus of One Variable: If f(x_{1})\\leq f(x_{2}) for every pair x_{1} , x_{2} in an interval I such that x_{1}<x_{2} , then f(x) is…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 1.4 Calculus of One Variable: If f(x_{1})\\leq f(x_{2}) for every pair x_{1} , x_{2} in an interval I such that x_{1}<x_{2} , then f(x) is…",
+  "body": "NIST DLMF section 1.4 (Calculus of One Variable) says: \"If f(x_{1})\\leq f(x_{2}) for every pair x_{1} , x_{2} in an interval I such that x_{1}<x_{2} , then f(x) is nondecreasing on I . If the \\leq sign is replaced by < , then f(x) is increasing (also called strictly increasing ) on I . Similarly for nonincreasing and decreasing ( strictly decreasing ) functions. Each of the preceding four cases is classified as monotonic ; sometimes strictly monotonic is used for the strictly increasing or strictly decreasing cases. A function f(x) is continuous on the right (or from above ) at x=c if that is, for every arbitrarily small positive constant \\epsilon there exists \\delta ( >0 ) such that for all \\alpha such that 0\\leq\\alpha<\\delta . Similarly, it is continuous on the left (or from below ) at x=c if And f(x) is continuous at c when both ( 1.4.1 ) and ( 1.4.3 ) apply. If f(x) is continuous at each point c\\in(a,b) , then f(x) is continuous on the interval (a,b) and we write f\\in C(a,b) . If also f(x) is continuous on the right at x=a , and continuous on the left at x=b , then f(x) is continuous on the interval [a,b] , and we write f(x)\\in…\" Equation 1.4.1 on the page has alt text \"f(c+)\\equiv\\lim_{x\\to c+}f(x)=f(c),\". Equation 1.4.2 on the page has alt text \"\\left|f(c+\\alpha)-f(c)\\right|<\\epsilon,\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 1.4 Calculus of One Variable",
+      "url": "https://dlmf.nist.gov/1.4",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-2-4-complex-numbers",
+  "title": "OpenStax Algebra and Trigonometry 2e, 2.4 Complex Numbers: Add and subtract complex numbers.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 2.4 Complex Numbers: Add and subtract complex numbers.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"2.4 Complex Numbers\", prints these objectives: \"Add and subtract complex numbers.\" \"Multiply and divide complex numbers.\" \"Simplify powers of i\". The section text says: \"Discovered by Benoit Mandelbrot around 1980, the Mandelbrot Set is one of the most recognizable fractal images. The image is built on the theory of self-similarity and the operation of iteration. Zooming in on a fractal image brings many surprises, particularly in the high level of repetition of detail that appears as magnification increases. The equation that generates this image turns out to be rather simple.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 2.4 Complex Numbers",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-4-complex-numbers",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

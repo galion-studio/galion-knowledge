@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-2-4-continuity",
+  "title": "OpenStax Calculus Volume 1, 2.4 Continuity: Explain the three conditions for continuity at a point.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 2.4 Continuity: Explain the three conditions for continuity at a point.",
+  "body": "OpenStax Calculus Volume 1, section \"2.4 Continuity\", prints these objectives: \"Explain the three conditions for continuity at a point.\" \"Describe three kinds of discontinuities.\" \"Define continuity on an interval.\" \"State the theorem for limits of composite functions.\" \"Provide an example of the intermediate value theorem.\". The section text says: \"Many functions have the property that their graphs can be traced with a pencil without lifting the pencil from the page. Such functions are called continuous . Other functions have points at which a break in the graph occurs, but satisfy this property over intervals contained in their domains. They are continuous on these intervals and are said to have a discontinuity at a point where a break occurs.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 2.4 Continuity",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/2-4-continuity",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

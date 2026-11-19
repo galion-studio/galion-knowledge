@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-3-2-7-cylindrical-and-spherical-coordinates",
+  "title": "OpenStax Calculus Volume 3, 2.7 Cylindrical and Spherical Coordinates: Convert from cylindrical to rectangular coordinates.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 3, 2.7 Cylindrical and Spherical Coordinates: Convert from cylindrical to rectangular coordinates.",
+  "body": "OpenStax Calculus Volume 3, section \"2.7 Cylindrical and Spherical Coordinates\", prints these objectives: \"Convert from cylindrical to rectangular coordinates.\" \"Convert from rectangular to cylindrical coordinates.\" \"Convert from spherical to rectangular coordinates.\" \"Convert from rectangular to spherical coordinates.\". The section text says: \"The Cartesian coordinate system provides a straightforward way to describe the location of points in space. Some surfaces, however, can be difficult to model with equations based on the Cartesian system. This is a familiar problem; recall that in two dimensions, polar coordinates often provide a useful alternative system for describing the location of a point in the plane, particularly in cases involving circles. In this section, we look at two different ways of describing the location of…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 3, 2.7 Cylindrical and Spherical Coordinates",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/2-7-cylindrical-and-spherical-coordinates",
+      "author": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xi-38",
+  "title": "Euclid XI.38: If the sides of the opposite planes of a cube are bisected, and the planes are carried through the points of section, then the intersection of the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XI.38: If the sides of the opposite planes of a cube are bisected, and the planes are carried through the points of section, then the intersection of the…",
+  "body": "Euclid, Book XI, XI.38, as worded on this page: \"If the sides of the opposite planes of a cube are bisected, and the planes are carried through the points of section, then the intersection of the planes and the diameter of the cube bisect one another.\" The argument printed under that statement begins: \"Proposition 38 Let the sides of the opposite planes CF and AH of the cube AF be bisected at the points K, L, M, N, O, Q, P, and R, and through the points of section let the planes KN and OR be carried. Let US be the common section of the planes, and DG the diameter of the cube AF. I say that UT equals TS, and DT equals TG. Join DU, UE, BS, and SG. I.29 Then, since DO is parallel to PE, therefore the alternate angles DOU and UPE equal one another. I.4 Since DO equals PE, and OU equals UP, and they contain equal angles, therefore the base DU equals the base UE, the triangle DOU equals the triangle PUE, and the remaining angles equal the remaining angles. Therefore the angle OUD equals the…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XI, XI.38",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXI/propXI38.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

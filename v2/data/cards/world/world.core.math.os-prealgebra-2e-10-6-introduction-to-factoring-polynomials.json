@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-prealgebra-2e-10-6-introduction-to-factoring-polynomials",
+  "title": "OpenStax Prealgebra 2e, 10.6 Introduction to Factoring Polynomials: Find the greatest common factor of two or more expressions",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Prealgebra 2e, 10.6 Introduction to Factoring Polynomials: Find the greatest common factor of two or more expressions",
+  "body": "OpenStax Prealgebra 2e, section \"10.6 Introduction to Factoring Polynomials\", prints these objectives: \"Find the greatest common factor of two or more expressions\" \"Factor the greatest common factor from a polynomial\". The section text says: \"Earlier we multiplied factors together to get a product. Now, we will be reversing this process; we will start with a product and then break it down into its factors. Splitting a product into factors is called factoring.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Prealgebra 2e, 10.6 Introduction to Factoring Polynomials",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/10-6-introduction-to-factoring-polynomials",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:arithmetic"
+  ]
+}

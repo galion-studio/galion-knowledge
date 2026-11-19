@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-prc-prc15",
+  "title": "NIST/SEMATECH handbook, 7.1.5. What is the relationship between a test and a confidence interval?: What is the relationship between a test and a confidence interval?",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 7.1.5. What is the relationship between a test and a confidence interval?: What is the relationship between a test and a confidence interval?",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"7.1.5. What is the relationship between a test and a confidence interval?\" says: \"What is the relationship between a test and a confidence interval? ---> 7. Product and Process Comparisons 7.1. Introduction 7.1.5. What is the relationship between a test and a confidence interval? There is a correspondence between hypothesis testing and confidence intervals In general, for every test of hypothesis there is an equivalent statement about whether the hypothesized parameter value is included in a confidence interval. For example, consider the previous example of linewidths where photomasks are tested to ensure that their linewidths have a mean of 500 micrometers. The null and alternative hypotheses are: \\(H_0\\): 0 : --> mean linewidth = 500 micrometers \\(H_a\\): a : --> mean linewidth \\(\\ne\\) \"> --> 500 micrometers Hypothesis test for the mean For the test, the sample mean, \\(\\bar{Y}\\), , --> is calculated from \\(N\\) N --> linewidths chosen at random positions on each…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 7.1.5. What is the relationship between a test and a confidence interval?",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section1/prc15.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

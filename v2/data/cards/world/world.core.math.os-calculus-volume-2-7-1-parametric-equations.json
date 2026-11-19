@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-7-1-parametric-equations",
+  "title": "OpenStax Calculus Volume 2, 7.1 Parametric Equations: Plot a curve described by parametric equations.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 7.1 Parametric Equations: Plot a curve described by parametric equations.",
+  "body": "OpenStax Calculus Volume 2, section \"7.1 Parametric Equations\", prints these objectives: \"Plot a curve described by parametric equations.\" \"Convert the parametric equations of a curve into the form y = f ( x ) .\" \"Recognize the parametric equations of basic curves, such as a line and a circle.\" \"Recognize the parametric equations of a cycloid.\". The section text says: \"In this section we examine parametric equations and their graphs. In the two-dimensional coordinate system, parametric equations are useful for describing curves that are not necessarily functions. The parameter is an independent variable that both x and y depend on, and as the parameter increases, the values of x and y trace out a path along a plane curve. For example, if the parameter is t (a common choice), then t might represent time. Then x and y are defined as functions of time, and ( x (…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 7.1 Parametric Equations",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/7-1-parametric-equations",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

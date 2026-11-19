@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-hilbert-program",
+  "title": "The Stanford Encyclopedia entry \"Hilbert’s Program\" says: In the early 1920s, the German mathematician David Hilbert (1862–1943) put forward a new proposal for the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Hilbert’s Program\" says: In the early 1920s, the German mathematician David Hilbert (1862–1943) put forward a new proposal for the…",
+  "body": "Zach, Richard, in the Stanford Encyclopedia of Philosophy entry \"Hilbert’s Program\" says: \"In the early 1920s, the German mathematician David Hilbert (1862–1943) put forward a new proposal for the foundation of classical mathematics which has come to be known as Hilbert’s Program. It calls for a formalization of all of mathematics in axiomatic form, together with a proof that this axiomatization of mathematics is consistent. The consistency proof itself was to be carried out using only what Hilbert called “finitary” methods. The special epistemological character of finitary reasoning then yields the required justification of classical mathematics. Although Hilbert proposed his program in this form only in 1921, various facets of it are rooted in foundational work of his going back until around 1900, when he first pointed out the necessity of giving a direct consistency proof of analysis. Work on the program progressed significantly in the 1920s with contributions from…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Hilbert’s Program (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/hilbert-program/",
+      "author": "Zach, Richard",
+      "date": "2003-07-31",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Zach, Richard",
+  "as_of_date": "2023-09-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-iv-10",
+  "title": "Euclid IV.10: To construct an isosceles triangle having each of the angles at the base double the remaining one.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid IV.10: To construct an isosceles triangle having each of the angles at the base double the remaining one.",
+  "body": "Euclid, Book IV, IV.10, as worded on this page: \"To construct an isosceles triangle having each of the angles at the base double the remaining one.\" The argument printed under that statement begins: \"Proposition 10 II.11 IV.1 Set out any straight line AB, and cut it at the point C so that the rectangle AB by BC equals the square on CA. Describe the circle BDE with center A and radius AB. Fit in the circle BDE the straight line BD equal to the straight line AC which is not greater than the diameter of the circle BDE. IV.5 Join AD and DC, and circumscribe the circle ACD about the triangle ACD. Then, since the rectangle AB by BC equals the square on AC, and AC equals BD, therefore the rectangle AB by BC equals the square on BD. III.37 And, since a point B was taken outside the circle ACD, and from B the two straight lines BA and BD fall on the circle ACD, and one of them cuts it while the…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book IV, IV.10",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookIV/propIV10.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-12-3-the-parabola",
+  "title": "OpenStax Algebra and Trigonometry 2e, 12.3 The Parabola: Graph parabolas with vertices at the origin.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 12.3 The Parabola: Graph parabolas with vertices at the origin.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"12.3 The Parabola\", prints these objectives: \"Graph parabolas with vertices at the origin.\" \"Write equations of parabolas in standard form.\" \"Graph parabolas with vertices not at the origin.\" \"Solve applied problems involving parabolas.\". The section text says: \"Katherine Johnson is the pioneering NASA mathematician who was integral to the successful and safe flight and return of many human missions as well as satellites. Prior to the work featured in the movie Hidden Figures , she had already made major contributions to the space program. She provided trajectory analysis for the Mercury mission, in which Alan Shepard became the first American to reach space, and she and engineer Ted Sopinski authored a monumental paper regarding placing an object in a…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 12.3 The Parabola",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/12-3-the-parabola",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vi-3",
+  "title": "Euclid VI.3: If an angle of a triangle is bisected by a straight line cutting the base, then the segments of the base have the same ratio as the remaining sides…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VI.3: If an angle of a triangle is bisected by a straight line cutting the base, then the segments of the base have the same ratio as the remaining sides…",
+  "body": "Euclid, Book VI, VI.3, as worded on this page: \"If an angle of a triangle is bisected by a straight line cutting the base, then the segments of the base have the same ratio as the remaining sides of the triangle; and, if segments of the base have the same ratio as the remaining sides of the triangle, then the straight line joining the vertex to the point of section bisects the angle of the triangle.\" The argument printed under that statement begins: \"Proposition 3 Let ABC be a triangle, and let the angle BAC be bisected by the straight line AD. I say that DB is to DC as AB is to AC. I.31 Draw CE through C parallel to DA, and carry AB through to meet it at E. I.29 Then, since the straight line AC falls upon the parallels AD and EC, the angle ACE equals the angle CAD. But the angle CAD equals the angle BAD by hypothesis, therefore the angle BAD also equals the angle ACE. I.29 Again, since the straight line BAE falls upon the parallels AD and EC, the exterior angle BAD equals the interior angle AEC. I.6 But the angle ACE was also proved equal to the angle BAD, therefore the angle ACE also equals the angle AEC, so that the side AE also…\" David E. Joyce's guide on the same page says: \"This proposition characterizes an angle bisector of an angle in a triangle as the line that partitions the base into parts proportional to the adjacent sides. The second part of the statement of the proposition is the converse of the first part of the statement. The proof relies on basic properties of triangles and parallel lines developed in Book I along with the result of the previous proposition VI.2 . Use of this proposition This proposition is not used in the remainder of the Elements.\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VI, VI.3",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI3.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

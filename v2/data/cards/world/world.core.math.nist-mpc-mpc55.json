@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-mpc-mpc55",
+  "title": "NIST/SEMATECH handbook, 2.5.5. Propagation of error considerations: Propagation of error considerations Top-down approach consists of estimating the uncertainty from direct…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 2.5.5. Propagation of error considerations: Propagation of error considerations Top-down approach consists of estimating the uncertainty from direct…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"2.5.5. Propagation of error considerations\" says: \"Propagation of error considerations Top-down approach consists of estimating the uncertainty from direct repetitions of the measurement result The approach to uncertainty analysis that has been followed up to this point in the discussion has been what is called a top-down approach. Uncertainty components are estimated from direct repetitions of the measurement result. To contrast this with a propagation of error approach, consider the simple example where we estimate the area of a rectangle from replicate measurements of length and width. The area $$ area = length \\cdot width $$ area = length x width --> can be computed from each replicate. The standard deviation of the reported area is estimated directly from the replicates of area. Advantages of top-down approach This approach has the following advantages: proper treatment of covariances between measurements of…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 2.5.5. Propagation of error considerations",
+      "url": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc55.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:measurement"
+  ]
+}

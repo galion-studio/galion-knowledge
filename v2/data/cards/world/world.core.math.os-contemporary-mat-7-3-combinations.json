@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-7-3-combinations",
+  "title": "OpenStax Contemporary Mathematics, 7.3 Combinations: Distinguish between permutation and combination uses.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 7.3 Combinations: Distinguish between permutation and combination uses.",
+  "body": "OpenStax Contemporary Mathematics, section \"7.3 Combinations\", prints these objectives: \"Distinguish between permutation and combination uses.\" \"Compute combinations.\" \"Apply combinations to solve applications.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 7.3 Combinations",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/7-3-combinations",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-mpc-mpc57",
+  "title": "NIST/SEMATECH handbook, 2.5.7. Standard and expanded uncertainties: Standard and expanded uncertainties Definition of standard uncertainty The sensitivity coefficients and…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 2.5.7. Standard and expanded uncertainties: Standard and expanded uncertainties Definition of standard uncertainty The sensitivity coefficients and…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"2.5.7. Standard and expanded uncertainties\" says: \"Standard and expanded uncertainties Definition of standard uncertainty The sensitivity coefficients and standard deviations are combined by root sum of squares to obtain a 'standard uncertainty'. Given \\(R\\) components, the standard uncertainty is: $$ u = \\sqrt{\\sum_{i=1}^R a_i^2 s_i^2} $$ --> Expanded uncertainty assures a high level of confidence If the purpose of the uncertainty statement is to provide coverage with a high level of confidence, an expanded uncertainty is computed as $$ U = k \\cdot u $$ --> where \\(k\\) is chosen to be the \\( t_{1-\\alpha/2, \\,\\nu}\\) t 1- α /2, ν --> critical value from the t -table with \\(\\nu\\) degrees of freedom . For large degrees of freedom, \\(k = 2\\) approximates 95 % coverage. Interpretation of uncertainty statement The expanded uncertainty defined above is assumed to provide a high level of coverage for the unknown true value of…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 2.5.7. Standard and expanded uncertainties",
+      "url": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc57.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:measurement"
+  ]
+}

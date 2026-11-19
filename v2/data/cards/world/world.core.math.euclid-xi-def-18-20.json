@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xi-def-18-20",
+  "title": "Euclid XI.Def.18-20: When a right triangle with one side of those about the right angle remains fixed is carried round and restored again to the same position from which…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XI.Def.18-20: When a right triangle with one side of those about the right angle remains fixed is carried round and restored again to the same position from which…",
+  "body": "Euclid, Book XI, XI.Def.18-20, as worded on this page: \"When a right triangle with one side of those about the right angle remains fixed is carried round and restored again to the same position from which it began to be moved, the figure so comprehended is a cone. And, if the straight line which remains fixed equals the remaining side about the right angle which is carried round, the cone will be right-angled; if less, obtuse-angled; and if greater, acute-angled. The axis of the cone is the straight line which remains fixed and about which the triangle is turned. And the base is the circle described by the straight line which is carried round.\" The argument printed under that statement begins: \"Definition 18 Definition 19 Definition 20 Guide The right triangle ABC with right angle at A is rotated about the side AC to produce a cone. The axis of the cone is AC, and its base is the circle with center at A and radius AB. The three different kinds of cone are not used by Euclid in the Elements, but they were important in the theory of conic sections until Apollonius’ work Conics. In Euclid’s time conic sections were taken as the intersections of a plane at right angles to an edge (straight line from the vertex) of a cone. When the cone is acute-angled, the section is an ellipse; when right-angled, a parabola; and when obtuse-angle, a hyperbola. Even the names of these three curves…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XI, XI.Def.18-20",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXI/defXI18.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logic-probability",
+  "title": "The Stanford Encyclopedia entry \"Logic and Probability\" says: Logic and probability theory are two of the main tools in the formal study of reasoning, and have been…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Logic and Probability\" says: Logic and probability theory are two of the main tools in the formal study of reasoning, and have been…",
+  "body": "Demey, Lorenz, Kooi, Barteld, Sack, Joshua, in the Stanford Encyclopedia of Philosophy entry \"Logic and Probability\" says: \"Logic and probability theory are two of the main tools in the formal study of reasoning, and have been fruitfully applied in areas as diverse as philosophy, artificial intelligence, cognitive science and mathematics. This entry discusses the major proposals to combine logic and probability theory, and attempts to provide a classification of the various approaches in this rapidly developing field.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Logic and Probability (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logic-probability/",
+      "author": "Demey, Lorenz, Kooi, Barteld, Sack, Joshua",
+      "date": "2013-03-07",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Demey, Lorenz, Kooi, Barteld, Sack, Joshua",
+  "as_of_date": "2023-08-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

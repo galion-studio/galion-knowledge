@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vi-31",
+  "title": "Euclid VI.31: In right-angled triangles the figure on the side opposite the right angle equals the sum of the similar and similarly described figures on the sides…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VI.31: In right-angled triangles the figure on the side opposite the right angle equals the sum of the similar and similarly described figures on the sides…",
+  "body": "Euclid, Book VI, VI.31, as worded on this page: \"In right-angled triangles the figure on the side opposite the right angle equals the sum of the similar and similarly described figures on the sides containing the right angle.\" The argument printed under that statement begins: \"Proposition 31 Let ABC be a right-angled triangle having the angle BAC right. I say that the figure on BC equals the sum of the similar and similarly described figures on BA and AC. I.12 Draw the perpendicular AD. VI.8 Then, since in the right-angled triangle ABC, AD has been drawn from the right angle at A perpendicular to the base BC, therefore the triangles DBA and DAC adjoining the perpendicular are similar both to the whole ABC and to one another. VI.Def.1 And, since ABC is similar to DBA, therefore BC is to BA as BA is to BD. VI.19,Cor And, since three straight lines are proportional, the first is to the third as the figure on the first is to the similar and similarly described figure…\" David E. Joyce's guide on the same page says: \"This proposition is a generalization of I.47 where the squares in I.47 are replaced by any similar rectilinear figures. Hippocrates’ quadrature of lunes Proclus says that this proposition is Euclid’s own, and the proof may be his, but the result, if not the proof, was known long before Euclid, at least in the time of Hippocrates a century before Euclid. The broad problem Hippocrates was investigating was that of quadrature of a circle, also called squaring a circle, which is to find a square…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VI, VI.31",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI31.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

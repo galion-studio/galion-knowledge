@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-prealgebra-2e-7-5-systems-of-measurement",
+  "title": "OpenStax Prealgebra 2e, 7.5 Systems of Measurement: Make unit conversions in the U.S. system",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Prealgebra 2e, 7.5 Systems of Measurement: Make unit conversions in the U.S. system",
+  "body": "OpenStax Prealgebra 2e, section \"7.5 Systems of Measurement\", prints these objectives: \"Make unit conversions in the U.S. system\" \"Use mixed units of measurement in the U.S. system\" \"Make unit conversions in the metric system\" \"Use mixed units of measurement in the metric system\" \"Convert between the U.S. and the metric systems of measurement\" \"Convert between Fahrenheit and Celsius temperatures\". The section text says: \"In this section we will see how to convert among different types of units, such as feet to miles or kilograms to pounds. The basic idea in all of the unit conversions will be to use a form of 1 , the multiplicative identity, to change the units but not the value of a quantity.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Prealgebra 2e, 7.5 Systems of Measurement",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/7-5-systems-of-measurement",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:arithmetic"
+  ]
+}

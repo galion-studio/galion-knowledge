@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-1-16",
+  "title": "DLMF 1.16 Distributions: Let \\phi be a function defined on an open interval I=(a,b) , which can be infinite.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 1.16 Distributions: Let \\phi be a function defined on an open interval I=(a,b) , which can be infinite.",
+  "body": "NIST DLMF section 1.16 (Distributions) says: \"Let \\phi be a function defined on an open interval I=(a,b) , which can be infinite. The closure of the set of points where \\phi\\not=0 is called the support of \\phi . If the support of \\phi is a compact set (§ 1.9(vii) ), then \\phi is called a function of compact support . A test function is an infinitely differentiable function of compact support. A sequence \\{\\phi_{n}\\} of test functions converges to a test function \\phi if the support of every \\phi_{n} is contained in a fixed compact set K and as n\\to\\infty the sequence \\{\\phi_{n}^{(k)}\\} converges uniformly on K to \\phi^{(k)} for k=0,1,2,\\dots . The linear space of all test functions with the above definition of convergence is called a test function space . We denote it by \\mathcal{D}(I) . A mapping \\Lambda:\\mathcal{D}(I)\\rightarrow\\mathbb{C} is a linear functional if where \\alpha_{1} and \\alpha_{2} are real or complex constants. \\Lambda:\\mathcal{D}(I)\\rightarrow\\mathbb{C} is called a distribution , or generalized function , if it is a continuous linear functional on \\mathcal{D}(I) , that is, it is a linear functional and for…\" Equation 1.16.1 on the page has alt text \"\\Lambda(\\alpha_{1}\\phi_{1}+\\alpha_{2}\\phi_{2})=\\alpha_{1}\\Lambda(\\phi_{1})+% \\alpha_{2}\\Lambda(\\phi_{2}),\". Equation 1.16.2 on the page has alt text \"\\lim_{n\\to\\infty}\\Lambda(\\phi_{n})=\\Lambda(\\phi).\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 1.16 Distributions",
+      "url": "https://dlmf.nist.gov/1.16",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

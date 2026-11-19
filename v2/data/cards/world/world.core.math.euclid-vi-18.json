@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vi-18",
+  "title": "Euclid VI.18: To describe a rectilinear figure similar and similarly situated to a given rectilinear figure on a given straight line.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VI.18: To describe a rectilinear figure similar and similarly situated to a given rectilinear figure on a given straight line.",
+  "body": "Euclid, Book VI, VI.18, as worded on this page: \"To describe a rectilinear figure similar and similarly situated to a given rectilinear figure on a given straight line.\" The argument printed under that statement begins: \"Proposition 18 Let AB be the given straight line and CE the given rectilinear figure. It is required to describe on the straight line AB a rectilinear figure similar and similarly situated to the rectilinear figure CE. I.23 Join DF. Construct the angle GAB equal to the angle at C, and the angle ABG equal to the angle CDF, on the straight line AB at the points A and B on it. I.32 Therefore the remaining angle CFD equals the angle AGB. Therefore the triangle FCD is equiangular with the triangle GAB. VI.4 V.16 Therefore, proportionally, FD is to GB as FC is to GA, and as CD is to AB. I.23 Again, construct the angle BGH equal to the angle DFE, and the angle GBH equal to the angle FDE, on the…\" David E. Joyce's guide on the same page says: \"It is evident from the diagram, if not from the text, that AB should correspond to CD. Although the figure has only four sides, it is clear that the method applies to figures with more than four sides. This proposition is used in the proofs of propositions VI.22 , VI.25 , and VI.28 , and the corollary is used in XII.17 .\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VI, VI.18",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI18.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

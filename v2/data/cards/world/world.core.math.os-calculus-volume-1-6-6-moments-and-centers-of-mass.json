@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-6-6-moments-and-centers-of-mass",
+  "title": "OpenStax Calculus Volume 1, 6.6 Moments and Centers of Mass: Find the center of mass of objects distributed along a line.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 6.6 Moments and Centers of Mass: Find the center of mass of objects distributed along a line.",
+  "body": "OpenStax Calculus Volume 1, section \"6.6 Moments and Centers of Mass\", prints these objectives: \"Find the center of mass of objects distributed along a line.\" \"Locate the center of mass of a thin plate.\" \"Use symmetry to help locate the centroid of a thin plate.\" \"Apply the theorem of Pappus for volume.\". The section text says: \"In this section, we consider centers of mass (also called centroids , under certain conditions) and moments. The basic idea of the center of mass is the notion of a balancing point. Many of us have seen performers who spin plates on the ends of sticks. The performers try to keep several of them spinning without allowing any of them to drop. If we look at a single plate (without spinning it), there is a sweet spot on the plate where it balances perfectly on the stick. If we put the stick…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 6.6 Moments and Centers of Mass",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/6-6-moments-and-centers-of-mass",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

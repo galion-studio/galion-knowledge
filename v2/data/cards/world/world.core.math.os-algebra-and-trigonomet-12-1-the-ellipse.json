@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-12-1-the-ellipse",
+  "title": "OpenStax Algebra and Trigonometry 2e, 12.1 The Ellipse: Write equations of ellipses in standard form.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 12.1 The Ellipse: Write equations of ellipses in standard form.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"12.1 The Ellipse\", prints these objectives: \"Write equations of ellipses in standard form.\" \"Graph ellipses centered at the origin.\" \"Graph ellipses not centered at the origin.\" \"Solve applied problems involving ellipses.\". The section text says: \"Can you imagine standing at one end of a large room and still being able to hear a whisper from a person standing at the other end? The National Statuary Hall in Washington, D.C., shown in Figure 1 , is such a room. 1 It is an semi-circular room called a whispering chamber because the shape makes it possible for sound to travel along the walls and dome. In this section, we will investigate the shape of this room and its real-world applications, including how far apart two people in Statuary…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 12.1 The Ellipse",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/12-1-the-ellipse",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

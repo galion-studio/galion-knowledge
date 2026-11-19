@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-5-17",
+  "title": "DLMF 5.17 Barnes’ 𝐺-Function (Double Gamma Function): In this equation (and in ( 5.17.5 ) below), the \\operatorname{Ln} ’s have their principal values on the positive real…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 5.17 Barnes’ 𝐺-Function (Double Gamma Function): In this equation (and in ( 5.17.5 ) below), the \\operatorname{Ln} ’s have their principal values on the positive real…",
+  "body": "NIST DLMF section 5.17 (Barnes’ 𝐺-Function (Double Gamma Function)) says: \"In this equation (and in ( 5.17.5 ) below), the \\operatorname{Ln} ’s have their principal values on the positive real axis and are continued via continuity, as in § 4.2(i) . When z\\to\\infty in |\\operatorname{ph}z|\\leq\\pi-\\delta\\;(<\\pi) , For error bounds and an exponentially-improved extension, see Nemes ( 2014a ) . Here B_{2k+2} is the Bernoulli number (§ 24.2(i) ), and A is Glaisher’s constant , given by and \\zeta' is the derivative of the zeta function (Chapter 25 ). For Glaisher’s constant see also Greene and Knuth ( 1982 , p. 100) and § 2.10(i) .\" Equation 5.17.1 on the page has alt text \"\\displaystyle G\\left(z+1\\right)\". Equation 5.17.2 on the page has alt text \"G\\left(n\\right)=(n-2)!(n-3)!\\cdots 1!,\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 5.17 Barnes’ 𝐺-Function (Double Gamma Function)",
+      "url": "https://dlmf.nist.gov/5.17",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

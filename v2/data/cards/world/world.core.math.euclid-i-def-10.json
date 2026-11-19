@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-def-10",
+  "title": "Euclid I.Def.10: When a straight line standing on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.Def.10: When a straight line standing on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight…",
+  "body": "Euclid, Book I, I.Def.10, as worded on this page: \"When a straight line standing on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is called a perpendicular to that on which it stands.\" David E. Joyce's guide on the same page says: \"In the figure, the two angles DBA and DBC are equal, so they are right angles by definition, and so the line BD set up on the line AC is perpendicular to it. Later there will be a postulate ( Post.4 ) which states that all right angles are equal, and after a few propositions, it can be shown that AC is also perpendicular to BD. There are no postulates that explicitly state perpendiculars exist. Instead a construction for them is given and proved in proposition I.11 . The word orthogonal is…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.Def.10",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/defI10.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

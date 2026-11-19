@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-2-3-models-and-applications",
+  "title": "OpenStax Algebra and Trigonometry 2e, 2.3 Models and Applications: Set up a linear equation to solve a real-world application.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 2.3 Models and Applications: Set up a linear equation to solve a real-world application.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"2.3 Models and Applications\", prints these objectives: \"Set up a linear equation to solve a real-world application.\" \"Use a formula to solve a real-world application.\". The section text says: \"Neka is hoping to get an A in his college algebra class. He has scores of 75, 82, 95, 91, and 94 on his first five tests. Only the final exam remains, and the maximum number of points that can be earned is 100. Is it possible for Neka to end the course with an A? A simple linear equation will give Neka his answer.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 2.3 Models and Applications",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-3-models-and-applications",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

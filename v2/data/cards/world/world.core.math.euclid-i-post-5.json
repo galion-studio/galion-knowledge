@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-post-5",
+  "title": "Euclid I.Post.5: That, if a straight line falling on two straight lines makes the interior angles on the same side less than two right angles, the two straight lines…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.Post.5: That, if a straight line falling on two straight lines makes the interior angles on the same side less than two right angles, the two straight lines…",
+  "body": "Euclid, Book I, I.Post.5, as worded on this page: \"That, if a straight line falling on two straight lines makes the interior angles on the same side less than two right angles, the two straight lines, if produced indefinitely, meet on that side on which are the angles less than the two right angles.\" David E. Joyce's guide on the same page says: \"Of course, this is a postulate for plane geometry. It should include the condition that the two straight lines lie in a plane, otherwise, skew lines in space would satisfy the hypotheses. Also, without an ambient plane, the term “that side [of the straight line]” has no meaning. In the diagram, if angle ABE plus angle BED is less than two right angles (180°), then lines AC and DF will meet when extended in the direction of A and D. This postulate is usually called the “parallel postulate” since…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.Post.5",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/post5.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

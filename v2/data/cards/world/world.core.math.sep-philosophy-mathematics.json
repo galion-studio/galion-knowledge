@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-philosophy-mathematics",
+  "title": "The Stanford Encyclopedia entry \"Philosophy of Mathematics\" says: If mathematics is regarded as a science, then the philosophy of mathematics can be regarded as a branch of…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Philosophy of Mathematics\" says: If mathematics is regarded as a science, then the philosophy of mathematics can be regarded as a branch of…",
+  "body": "Horsten, Leon, in the Stanford Encyclopedia of Philosophy entry \"Philosophy of Mathematics\" says: \"If mathematics is regarded as a science, then the philosophy of mathematics can be regarded as a branch of the philosophy of science, next to disciplines such as the philosophy of physics and the philosophy of biology. However, because of its subject matter, the philosophy of mathematics occupies a special place in the philosophy of science. Whereas the natural sciences investigate entities that are located in space and time, it is not at all obvious that this is also the case for the objects that are studied in mathematics. In addition to that, the methods of investigation of mathematics differ markedly from the methods of investigation in the natural sciences. Whereas the latter acquire general knowledge using inductive methods, mathematical knowledge appears to be acquired in a different way: by deduction from basic principles. The status of mathematical knowledge also appears to…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Philosophy of Mathematics (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/philosophy-mathematics/",
+      "author": "Horsten, Leon",
+      "date": "2007-09-25",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Horsten, Leon",
+  "as_of_date": "2022-01-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

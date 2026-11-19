@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-3-6-6-surface-integrals",
+  "title": "OpenStax Calculus Volume 3, 6.6 Surface Integrals: Find the parametric representations of a cylinder, a cone, and a sphere.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 3, 6.6 Surface Integrals: Find the parametric representations of a cylinder, a cone, and a sphere.",
+  "body": "OpenStax Calculus Volume 3, section \"6.6 Surface Integrals\", prints these objectives: \"Find the parametric representations of a cylinder, a cone, and a sphere.\" \"Describe the surface integral of a scalar-valued function over a parametric surface.\" \"Use a surface integral to calculate the area of a given surface.\" \"Explain the meaning of an oriented surface, giving an example.\" \"Describe the surface integral of a vector field.\" \"Use surface integrals to solve applied problems.\". The section text says: \"We have seen that a line integral is an integral over a path in a plane or in space. However, if we wish to integrate over a surface (a two-dimensional object) rather than a path (a one-dimensional object) in space, then we need a new kind of integral that can handle integration over objects in higher dimensions. We can extend the concept of a line integral to a surface integral to allow us to perform this integration.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 3, 6.6 Surface Integrals",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/6-6-surface-integrals",
+      "author": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, OpenStax Calculus Volume 3",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-mpc-mpc46",
+  "title": "NIST/SEMATECH handbook, 2.4.6. Quantifying uncertainties from a gauge study: Quantifying uncertainties from a gauge study Gauge studies can be used as the basis for uncertainty…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 2.4.6. Quantifying uncertainties from a gauge study: Quantifying uncertainties from a gauge study Gauge studies can be used as the basis for uncertainty…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"2.4.6. Quantifying uncertainties from a gauge study\" says: \"Quantifying uncertainties from a gauge study Gauge studies can be used as the basis for uncertainty assessment One reason for conducting a gauge study is to quantify uncertainties in the measurement process that would be difficult to quantify under conditions of actual measurement. This is a reasonable approach to take if the results are truly representative of the measurement process in its working environment. Consideration should be given to all sources of error, particularly those sources of error which do not exhibit themselves in the short-term run. Potential problem with this approach The potential problem with this approach is that the calculation of uncertainty depends totally on the gauge study. If the measurement process changes its characteristics over time, the standard deviation from the gauge study will not be the correct standard deviation for the…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 2.4.6. Quantifying uncertainties from a gauge study",
+      "url": "https://www.itl.nist.gov/div898/handbook/mpc/section4/mpc46.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:measurement"
+  ]
+}

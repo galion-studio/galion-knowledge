@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-prc-prc2",
+  "title": "NIST/SEMATECH handbook, 7.2. Comparisons based on data from one process: Comparisons based on data from one process Questions answered in this section For a single process, the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 7.2. Comparisons based on data from one process: Comparisons based on data from one process Questions answered in this section For a single process, the…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"7.2. Comparisons based on data from one process\" says: \"Comparisons based on data from one process Questions answered in this section For a single process, the current state of the process can be compared with a nominal or hypothesized state. This section outlines techniques for answering the following questions from data gathered from a single process: Do the observations come from a particular distribution? Chi-Square Goodness-of-Fit test for a continuous or discrete distribution Kolmogorov- Smirnov test for a continuous distribution Anderson-Darling and Shapiro-Wilk tests for a continuous distribution Are the data consistent with the assumed process mean? Confidence interval approach Sample sizes required Are the data consistent with a nominal standard deviation? Confidence interval approach Sample sizes required Does the proportion of defectives meet requirements? Confidence intervals Sample sizes required Does the defect density meet…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 7.2. Comparisons based on data from one process",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc2.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

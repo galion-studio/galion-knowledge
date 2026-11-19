@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-def-3",
+  "title": "Euclid I.Def.3: The ends of a line are points.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.Def.3: The ends of a line are points.",
+  "body": "Euclid, Book I, I.Def.3, as worded on this page: \"The ends of a line are points.\" David E. Joyce's guide on the same page says: \"This statement can be taken as indicating that between certain lines and points a relation holds, that a point can be an end of a line. It doesn’t say what ends are. It also doesn’t indicate how many ends a line can have. For instance, the circumference of a circle has no ends, but a finite line has its two end points.\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.Def.3",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/defI3.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

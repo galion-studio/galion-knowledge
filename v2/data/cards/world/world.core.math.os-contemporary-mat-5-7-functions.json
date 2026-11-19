@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-5-7-functions",
+  "title": "OpenStax Contemporary Mathematics, 5.7 Functions: Use function notation.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 5.7 Functions: Use function notation.",
+  "body": "OpenStax Contemporary Mathematics, section \"5.7 Functions\", prints these objectives: \"Use function notation.\" \"Determine if a relation is a function with different representations.\" \"Apply the vertical line test.\" \"Determine the domain and range of a function.\". The section text says: \"The set of all the names of the students in the class is called the domain of the relation and the set of all student ID numbers paired with these students is the range of the relation. In general terms, a relation is any set of ordered pairs, ( x , y ). All the x -values in the ordered pairs together make up the domain . All the y -values in the ordered pairs together make up the range.\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 5.7 Functions",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/5-7-functions",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

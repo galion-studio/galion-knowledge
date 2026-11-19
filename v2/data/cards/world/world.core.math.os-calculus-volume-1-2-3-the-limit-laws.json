@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-2-3-the-limit-laws",
+  "title": "OpenStax Calculus Volume 1, 2.3 The Limit Laws: Recognize the basic limit laws.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 2.3 The Limit Laws: Recognize the basic limit laws.",
+  "body": "OpenStax Calculus Volume 1, section \"2.3 The Limit Laws\", prints these objectives: \"Recognize the basic limit laws.\" \"Use the limit laws to evaluate the limit of a function.\" \"Evaluate the limit of a function by factoring.\" \"Use the limit laws to evaluate the limit of a polynomial or rational function.\" \"Evaluate the limit of a function by factoring or by using conjugates.\" \"Evaluate the limit of a function by using the squeeze theorem.\". The section text says: \"In the previous section, we evaluated limits by looking at graphs or by constructing a table of values. In this section, we establish laws for calculating limits and learn how to apply these laws. In the Student Project at the end of this section, you have the opportunity to apply these limit laws to derive the formula for the area of a circle by adapting a method devised by the Greek mathematician Archimedes. We begin by restating two useful limit results from the previous section. These two…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 2.3 The Limit Laws",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/2-3-the-limit-laws",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

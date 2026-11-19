@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vii-21",
+  "title": "Euclid VII.21: Numbers relatively prime are the least of those which have the same ratio with them.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VII.21: Numbers relatively prime are the least of those which have the same ratio with them.",
+  "body": "Euclid, Book VII, VII.21, as worded on this page: \"Numbers relatively prime are the least of those which have the same ratio with them.\" The argument printed under that statement begins: \"Proposition 21 Let A and B be numbers relatively prime. I say that A and B are the least of those which have the same ratio with them. If not, there are some numbers less than A and B in the same ratio with A and B. Let them be C and D. VII.20 Since, then, the least numbers of those which have the same ratio measure those which have the same ratio the same number of times, the greater the greater, and the less the less, that is, the antecedent the antecedent and the consequent the consequent, therefore C measures A the same number of times that D measures B. Let there be as many units in E as the times that C measures A. Then D also measures B according to the units in E. VII.16 And, since…\" David E. Joyce's guide on the same page says: \"The next proposition is the converse of this one. Together they say that a ratio a : b is reduced to lowest terms if and only if a is relatively prime to b. Although it appears that this proposition is about pairs of numbers and their ratios, it is used in proposition VII.33 with any quantity of numbers. Stated in terms of three numbers a, b, and c, that proposition says that of all triples with the same ratio as a, b, and c, have, the triple of relatively prime numbers is least. Use of this…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VII, VII.21",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVII/propVII21.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:number-theory"
+  ]
+}

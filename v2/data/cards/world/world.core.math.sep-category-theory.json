@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-category-theory",
+  "title": "The Stanford Encyclopedia entry \"Category Theory\" says: Category theory has come to occupy a central position in contemporary mathematics and theoretical computer…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Category Theory\" says: Category theory has come to occupy a central position in contemporary mathematics and theoretical computer…",
+  "body": "Marquis, Jean-Pierre, in the Stanford Encyclopedia of Philosophy entry \"Category Theory\" says: \"Category theory has come to occupy a central position in contemporary mathematics and theoretical computer science, and is also applied to mathematical physics. Roughly, it is a general mathematical theory of structures and of systems of structures. As category theory is still evolving, its functions are correspondingly developing, expanding and multiplying. At minimum, it is a powerful language, or conceptual framework, allowing us to see the universal components of a family of structures of a given kind, and how structures of different kinds are interrelated. Category theory is both an interesting object of philosophical study, and a potentially powerful formal tool for philosophical investigations of concepts such as space, system, and even truth. It can be applied to the study of logical systems in which case category theory is called “categorical doctrines” at the syntactic…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Category Theory (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/category-theory/",
+      "author": "Marquis, Jean-Pierre",
+      "date": "1996-12-06",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Marquis, Jean-Pierre",
+  "as_of_date": "2019-08-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-3-6-the-chain-rule",
+  "title": "OpenStax Calculus Volume 1, 3.6 The Chain Rule: State the chain rule for the composition of two functions.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 3.6 The Chain Rule: State the chain rule for the composition of two functions.",
+  "body": "OpenStax Calculus Volume 1, section \"3.6 The Chain Rule\", prints these objectives: \"State the chain rule for the composition of two functions.\" \"Apply the chain rule together with the power rule.\" \"Apply the chain rule and the product/quotient rules correctly in combination when both are necessary.\" \"Recognize the chain rule for a composition of three or more functions.\" \"Describe the proof of the chain rule.\". The section text says: \"We have seen the techniques for differentiating basic functions ( x n , sin x , cos x , etc . ) as well as sums, differences, products, quotients, and constant multiples of these functions. However, these techniques do not allow us to differentiate compositions of functions, such as h ( x ) = sin ( x 3 ) or k ( x ) = 3 x 2 + 1 . In this section, we study the rule for finding the derivative of the composition of two or more functions.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 3.6 The Chain Rule",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/3-6-the-chain-rule",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

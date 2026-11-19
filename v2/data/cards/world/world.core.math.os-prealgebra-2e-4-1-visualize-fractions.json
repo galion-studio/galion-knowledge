@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-prealgebra-2e-4-1-visualize-fractions",
+  "title": "OpenStax Prealgebra 2e, 4.1 Visualize Fractions: Understand the meaning of fractions",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Prealgebra 2e, 4.1 Visualize Fractions: Understand the meaning of fractions",
+  "body": "OpenStax Prealgebra 2e, section \"4.1 Visualize Fractions\", prints these objectives: \"Understand the meaning of fractions\" \"Model improper fractions and mixed numbers\" \"Convert between improper fractions and mixed numbers\" \"Model equivalent fractions\" \"Find equivalent fractions\" \"Locate fractions and mixed numbers on the number line\". The section text says: \"Andy and Bobby love pizza. On Monday night, they share a pizza equally. How much of the pizza does each one get? Are you thinking that each boy gets half of the pizza? That’s right. There is one whole pizza, evenly divided into two parts, so each boy gets one of the two equal parts.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Prealgebra 2e, 4.1 Visualize Fractions",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Prealgebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:arithmetic"
+  ]
+}

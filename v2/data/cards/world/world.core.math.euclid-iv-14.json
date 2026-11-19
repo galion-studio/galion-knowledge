@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-iv-14",
+  "title": "Euclid IV.14: To circumscribe a circle about a given equilateral and equiangular pentagon.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid IV.14: To circumscribe a circle about a given equilateral and equiangular pentagon.",
+  "body": "Euclid, Book IV, IV.14, as worded on this page: \"To circumscribe a circle about a given equilateral and equiangular pentagon.\" The argument printed under that statement begins: \"Proposition 14 Let ABCDE be the given pentagon, which is equilateral and equiangular. It is required to circumscribe a circle about the pentagon ABCDE. I.9 Bisect the angles BCD and CDE by the straight lines CF and DF respectively. Join the straight lines FB, FA, and FE from the point F at which the straight lines meet to the points B, A, and E. As in IV.13 Then in manner similar to the preceding it can be proved that the angles CBA, BAE, and AED are also bisected by the straight lines FB, FA, and FE respectively. I.6 Now, since the angle BCD equals the angle CDE, and the angle FCD is half of the angle BCD, and the angle CDF half of the angle CDE, therefore the angle FCD also equals the…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book IV, IV.14",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookIV/propIV14.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

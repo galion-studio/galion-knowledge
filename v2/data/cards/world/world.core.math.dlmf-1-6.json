@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-1-6",
+  "title": "DLMF 1.6 Vectors and Vector-Valued Functions: \\theta is the angle between \\mathbf{a} and \\mathbf{b} .",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 1.6 Vectors and Vector-Valued Functions: \\theta is the angle between \\mathbf{a} and \\mathbf{b} .",
+  "body": "NIST DLMF section 1.6 (Vectors and Vector-Valued Functions) says: \"\\theta is the angle between \\mathbf{a} and \\mathbf{b} . where \\mathbf{n} is the unit vector normal to \\mathbf{a} and \\mathbf{b} whose direction is determined by the right-hand rule; see Figure 1.6.1 . Area of parallelogram with vectors \\mathbf{a} and \\mathbf{b} as sides =\\left\\|{\\mathbf{a}\\times\\mathbf{b}}\\right\\| . Volume of a parallelepiped with vectors \\mathbf{a} , \\mathbf{b} , and \\mathbf{c} as edges =\\left|\\mathbf{a}\\cdot(\\mathbf{b}\\times\\mathbf{c})\\right| . The following notations are often used in the physics literature; see for example Lorentz et al. ( 1923 , pp. 122–123) . Much vector algebra involves summation over suffices of products of vector components. In almost all cases of repeated suffices, we can suppress the summation notation entirely, if it is understood that an implicit sum is to be taken over any repeated suffix. Thus pairs of indefinite suffices in an expression are resolved by being summed over (or “traced” over).\" Equation 1.6.1 on the page has alt text \"\\displaystyle\\mathbf{a}\". Equation 1.6.2 on the page has alt text \"\\mathbf{a}\\cdot\\mathbf{b}=a_{1}b_{1}+a_{2}b_{2}+a_{3}b_{3}.\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 1.6 Vectors and Vector-Valued Functions",
+      "url": "https://dlmf.nist.gov/1.6",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

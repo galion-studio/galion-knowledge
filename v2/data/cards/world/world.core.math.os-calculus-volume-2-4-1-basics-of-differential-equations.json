@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-4-1-basics-of-differential-equations",
+  "title": "OpenStax Calculus Volume 2, 4.1 Basics of Differential Equations: Identify the order of a differential equation.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 4.1 Basics of Differential Equations: Identify the order of a differential equation.",
+  "body": "OpenStax Calculus Volume 2, section \"4.1 Basics of Differential Equations\", prints these objectives: \"Identify the order of a differential equation.\" \"Explain what is meant by a solution to a differential equation.\" \"Distinguish between the general solution and a particular solution of a differential equation.\" \"Identify an initial-value problem.\" \"Identify whether a given function is a solution to a differential equation or an initial-value problem.\". The section text says: \"Calculus is the mathematics of change, and rates of change are expressed by derivatives. Thus, one of the most common ways to use calculus is to set up an equation containing an unknown function y = f ( x ) and its derivative, known as a differential equation . Solving such equations often provides information about how quantities change and frequently provides insight into how and why the changes occur.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 4.1 Basics of Differential Equations",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/4-1-basics-of-differential-equations",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

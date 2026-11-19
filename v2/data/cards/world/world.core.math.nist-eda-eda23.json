@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-eda-eda23",
+  "title": "NIST/SEMATECH handbook, 1.2.3. Techniques for Testing Assumptions: Techniques for Testing Assumptions Testing Underlying Assumptions Helps Assure the Validity of Scientific and…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 1.2.3. Techniques for Testing Assumptions: Techniques for Testing Assumptions Testing Underlying Assumptions Helps Assure the Validity of Scientific and…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"1.2.3. Techniques for Testing Assumptions\" says: \"Techniques for Testing Assumptions Testing Underlying Assumptions Helps Assure the Validity of Scientific and Engineering Conclusions Because the validity of the final scientific/engineering conclusions is inextricably linked to the validity of the underlying univariate assumptions, it naturally follows that there is a real necessity that each and every one of the above four assumptions be routinely tested. Four Techniques to Test Underlying Assumptions The following EDA techniques are simple, efficient, and powerful for the routine testing of underlying assumptions: run sequence plot ( Y i versus i ) lag plot ( Y i versus Y i -1 ) histogram (counts versus subgroups of Y ) normal probability plot (ordered Y versus theoretical ordered Y ) Plot on a Single Page for a Quick Characterization of the Data The four EDA plots can be juxtaposed for a quick look at the characteristics of the…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 1.2.3. Techniques for Testing Assumptions",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section2/eda23.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-24-17",
+  "title": "DLMF 24.17 Mathematical Applications: See § 2.10(i) . For a generalization see Olver ( 1997b , p.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 24.17 Mathematical Applications: See § 2.10(i) . For a generalization see Olver ( 1997b , p.",
+  "body": "NIST DLMF section 24.17 (Mathematical Applications) says: \"See § 2.10(i) . For a generalization see Olver ( 1997b , p. 284) . Let 0\\leq h\\leq 1 and a,m , and n be integers such that n>a , m>0 , and f^{(m)}(x) is absolutely integrable over [a,n] . Then with the notation of § 24.2(iii) See Milne-Thomson ( 1933 ) , Nörlund ( 1924 ) , or Jordan ( 1965 ) . For a more modern perspective see Graham et al. ( 1994 ) . Let \\mathcal{S}_{n} denote the class of functions that have n-1 continuous derivatives on \\mathbb{R} and are polynomials of degree at most n in each interval (k,k+1) , k\\in\\mathbb{Z} . The members of \\mathcal{S}_{n} are called cardinal spline functions . The functions are called Euler splines of degree n . For each n , S_{n}(x) is the unique bounded function such that S_{n}(x)\\in\\mathcal{S}_{n} and The function S_{n}(x) is also optimal in a certain sense; see Schoenberg ( 1971 ) . A function of the form x^{n}-S(x) , with S(x)\\in\\mathcal{S}_{n-1} is called a cardinal monospline of degree n . Again with the notation of § 24.2(iii) define\" Equation 24.17.1 on the page has alt text \"\\sum_{j=a}^{n-1}(-1)^{j}f(j+h)=\\frac{1}{2}\\sum_{k=0}^{m-1}\\frac{E_{k}\\left(h% \\right)}{k!}\\left((-1)^{n-1}f^{(k)}(n)+(-1)^{a}f^{(k)}(a)\\right)+R_{m}(n),\". Equation 24.17.2 on the page has alt text \"R_{m}(n)=\\frac{1}{2(m-1)!}\\int_{a}^{n}f^{(m)}(x)\\widetilde{E}_{m-1}\\left(h-x% \\right)\\,\\mathrm{d}x.\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 24.17 Mathematical Applications",
+      "url": "https://dlmf.nist.gov/24.17",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

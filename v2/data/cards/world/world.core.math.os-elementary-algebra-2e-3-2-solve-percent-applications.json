@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-elementary-algebra-2e-3-2-solve-percent-applications",
+  "title": "OpenStax Elementary Algebra 2e, 3.2 Solve Percent Applications: Translate and solve basic percent equations",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Elementary Algebra 2e, 3.2 Solve Percent Applications: Translate and solve basic percent equations",
+  "body": "OpenStax Elementary Algebra 2e, section \"3.2 Solve Percent Applications\", prints these objectives: \"Translate and solve basic percent equations\" \"Solve percent applications\" \"Find percent increase and percent decrease\" \"Solve simple interest applications\" \"Solve applications with discount or mark-up\". The section text says: \"We will solve percent equations using the methods we used to solve equations with fractions or decimals. Without the tools of algebra, the best method available to solve percent problems was by setting them up as proportions. Now as an algebra student, you can just translate English sentences into algebraic equations and then solve the equations.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Elementary Algebra 2e, 3.2 Solve Percent Applications",
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/3-2-solve-percent-applications",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:algebra"
+  ]
+}

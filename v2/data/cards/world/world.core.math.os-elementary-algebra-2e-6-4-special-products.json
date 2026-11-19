@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-elementary-algebra-2e-6-4-special-products",
+  "title": "OpenStax Elementary Algebra 2e, 6.4 Special Products: Square a binomial using the Binomial Squares Pattern",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Elementary Algebra 2e, 6.4 Special Products: Square a binomial using the Binomial Squares Pattern",
+  "body": "OpenStax Elementary Algebra 2e, section \"6.4 Special Products\", prints these objectives: \"Square a binomial using the Binomial Squares Pattern\" \"Multiply conjugates using the Product of Conjugates Pattern\" \"Recognize and use the appropriate special product pattern\". The section text says: \"Mathematicians like to look for patterns that will make their work easier. A good example of this is squaring binomials. While you can always get the product by writing the binomial twice and using the methods of the last section, there is less work to do if you learn to use a pattern.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Elementary Algebra 2e, 6.4 Special Products",
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/6-4-special-products",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:algebra"
+  ]
+}

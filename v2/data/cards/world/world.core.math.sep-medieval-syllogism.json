@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-medieval-syllogism",
+  "title": "The Stanford Encyclopedia entry \"Medieval Theories of the Syllogism\" says: Aristotle’s theory of the syllogism played an important role in the Western and Near Eastern intellectual…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Medieval Theories of the Syllogism\" says: Aristotle’s theory of the syllogism played an important role in the Western and Near Eastern intellectual…",
+  "body": "Lagerlund, Henrik, in the Stanford Encyclopedia of Philosophy entry \"Medieval Theories of the Syllogism\" says: \"Aristotle’s theory of the syllogism played an important role in the Western and Near Eastern intellectual traditions for more than two thousand years, but it was during the Middle Ages that it became the dominant model of correct argumentation. Historically, medieval logic is divided into the old logic ( logica vetus ), the tradition stretching from Boethius (c. 480–525) until Abelard (1079–1142), and the new logic ( logica nova ), from the late twelfth century until the Renaissance. The division reflects the availability of ancient logical texts. Before Abelard, medieval logicians were only familiar with Aristotle’s Categories and On Interpretation and Porphyry’s Isagoge or Introduction to the Categories and not the Prior Analytics , where Aristotle develops the theory of the syllogism—though they did know something of his theory through secondary sources. Once the Prior Analytics…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Medieval Theories of the Syllogism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/medieval-syllogism/",
+      "author": "Lagerlund, Henrik",
+      "date": "2004-02-02",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Lagerlund, Henrik",
+  "as_of_date": "2026-01-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

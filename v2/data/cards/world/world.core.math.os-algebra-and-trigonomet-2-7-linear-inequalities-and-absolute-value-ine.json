@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-2-7-linear-inequalities-and-absolute-value-ine",
+  "title": "OpenStax Algebra and Trigonometry 2e, 2.7 Linear Inequalities and Absolute Value Inequalities: Use interval notation",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 2.7 Linear Inequalities and Absolute Value Inequalities: Use interval notation",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"2.7 Linear Inequalities and Absolute Value Inequalities\", prints these objectives: \"Use interval notation\" \"Use properties of inequalities.\" \"Solve inequalities in one variable algebraically.\" \"Solve absolute value inequalities.\". The section text says: \"It is not easy to make the honor roll at most top universities. Suppose students were required to carry a course load of at least 12 credit hours and maintain a grade point average of 3.5 or above. How could these honor roll requirements be expressed mathematically? In this section, we will explore various ways to express different sets of numbers, inequalities, and absolute value inequalities.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 2.7 Linear Inequalities and Absolute Value Inequalities",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

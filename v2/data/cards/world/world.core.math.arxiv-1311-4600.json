@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.arxiv-1311-4600",
+  "title": "Small gaps between primes: the arXiv abstract says We introduce a refinement of the GPY sieve method for studying prime $k$-tuples…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Small gaps between primes: the arXiv abstract says We introduce a refinement of the GPY sieve method for studying prime $k$-tuples…",
+  "body": "The arXiv record https://arxiv.org/abs/1311.4600 for \"Small gaps between primes\" abstracts the work as follows: \"We introduce a refinement of the GPY sieve method for studying prime $k$-tuples and small gaps between primes. This refinement avoids previous limitations of the method, and allows us to show that for each $k$, the prime $k$-tuples conjecture holds for a positive proportion of admissible $k$-tuples. In particular, $\\liminf_{n}(p_{n+m}-p_n)<\\infty$ for any integer $m$. We also show that $\\liminf(p_{n+1}-p_n)\\le 600$, and, if we assume the Elliott-Halberstam conjecture, that $\\liminf_n(p_{n+1}-p_n)\\le 12$ and $\\liminf_n (p_{n+2}-p_n)\\le 600$.\" This card quotes that abstract. A preprint is the authors' manuscript.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Small gaps between primes",
+      "url": "https://arxiv.org/abs/1311.4600",
+      "author": "James Maynard",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18",
+      "note": "Abstract text is the arXiv abstract, retrieved 2026-11-18."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "James Maynard",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "area:theorems"
+  ]
+}

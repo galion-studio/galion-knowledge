@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-5-7-inverses-and-radical-functions",
+  "title": "OpenStax Algebra and Trigonometry 2e, 5.7 Inverses and Radical Functions: Find the inverse of an invertible polynomial function.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 5.7 Inverses and Radical Functions: Find the inverse of an invertible polynomial function.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"5.7 Inverses and Radical Functions\", prints these objectives: \"Find the inverse of an invertible polynomial function.\" \"Restrict the domain to find the inverse of a polynomial function.\". The section text says: \"Park rangers and other trail managers may construct rock piles, stacks, or other arrangements, usually called cairns, to mark trails or other landmarks. (Rangers and environmental scientists discourage hikers from doing the same, in order to avoid confusion and preserve the habitats of plants and animals.) A cairn in the form of a mound of gravel is in the shape of a cone with the height equal to twice the radius.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 5.7 Inverses and Radical Functions",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-7-inverses-and-radical-functions",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

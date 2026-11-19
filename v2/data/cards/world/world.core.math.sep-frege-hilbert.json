@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-frege-hilbert",
+  "title": "The Stanford Encyclopedia entry \"The Frege-Hilbert Controversy\" says: In the early years of the twentieth century, Gottlob Frege and David Hilbert, two titans of mathematical…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"The Frege-Hilbert Controversy\" says: In the early years of the twentieth century, Gottlob Frege and David Hilbert, two titans of mathematical…",
+  "body": "Blanchette, Patricia, in the Stanford Encyclopedia of Philosophy entry \"The Frege-Hilbert Controversy\" says: \"In the early years of the twentieth century, Gottlob Frege and David Hilbert, two titans of mathematical logic, engaged in a controversy regarding the correct understanding of the role of axioms in mathematical theories, and the correct way to demonstrate consistency and independence results for such axioms. The controversy touches on a number of difficult questions in logic and the philosophy of logic, and marks an important turning-point in the development of modern logic. This entry gives an overview of that controversy and of its philosophical underpinnings.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Frege-Hilbert Controversy (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/frege-hilbert/",
+      "author": "Blanchette, Patricia",
+      "date": "2007-09-23",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Blanchette, Patricia",
+  "as_of_date": "2024-03-07",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

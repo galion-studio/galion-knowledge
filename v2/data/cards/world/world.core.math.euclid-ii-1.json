@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-ii-1",
+  "title": "Euclid II.1: If there are two straight lines, and one of them is cut into any number of segments whatever, then the rectangle contained by the two straight lines…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid II.1: If there are two straight lines, and one of them is cut into any number of segments whatever, then the rectangle contained by the two straight lines…",
+  "body": "Euclid, Book II, II.1, as worded on this page: \"If there are two straight lines, and one of them is cut into any number of segments whatever, then the rectangle contained by the two straight lines equals the sum of the rectangles contained by the uncut straight line and each of the segments.\" The argument printed under that statement begins: \"Proposition 1 Let A and BC be two straight lines, and let BC be cut at random at the points D and E. I say that the rectangle A by BC equals the sum of the rectangle A by BD, the rectangle A by DE, and the rectangle A by EC. I.11 , I.3 I.31 Draw BF from B at right angles to BC. Make BG equal to A. Draw GH through G parallel to BC. Through D, E, and C draw DK, EL, and CH parallel to BG. Then BH equals the sum of BK, DL, and EH. II.Def.1 I.34 Now BH is the rectangle A by BC, for it is contained by GB and BC, and BG equals A ; BK is the rectangle A by BD, for it is contained by GB and BD, and BG equals A ; and DL is the rectangle A by DE, for DK, that is BG, equals A. Similarly also EH is the…\" David E. Joyce's guide on the same page says: \"As described in II.Def.1 , the phrase “the rectangle contained by the two straight lines” means any rectangle constructed with two sides equal to the two given sides. In some sense this is the product of the two lines. When the sides have names, such as A and BC, we will refer to that rectangle by “the rectangle A by BC ” since that is a little clearer than Euclid’s terse “the rectangle A, BC. ” In this proposition Euclid proves that if BC = BD + DE + EC, then ( A by BC ) = ( A by BD ) + ( A by…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book II, II.1",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII1.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:algebra"
+  ]
+}

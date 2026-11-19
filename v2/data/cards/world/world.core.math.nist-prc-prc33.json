@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-prc-prc33",
+  "title": "NIST/SEMATECH handbook, 7.3.3. How can we determine whether two processes produce the same proportion of defectives?: How can we determine whether two processes produce the same proportion of…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 7.3.3. How can we determine whether two processes produce the same proportion of defectives?: How can we determine whether two processes produce the same proportion of…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"7.3.3. How can we determine whether two processes produce the same proportion of defectives?\" says: \"How can we determine whether two processes produce the same proportion of defectives? 7. Product and Process Comparisons 7.3. Comparisons based on data from two processes 7.3.3. How can we determine whether two processes produce the same proportion of defectives? Case 1: Large Samples (Normal Approximation to Binomial) The hypothesis of equal proportions can be tested using a \\(z\\) statistic If the samples are reasonably large we can use the normal approximation to the binomial to develop a test similar to testing whether two normal means are equal. Let sample 1 have \\(x_1\\) x 1 --> defects out of \\(n_1\\) n 1 --> and sample 2 have \\(x_2\\) x 2 --> defects out of \\(n_2\\). n 2 . --> Calculate the proportion of defects for each sample and the \\(z\\) statistic below: $$ z = \\frac{\\hat{p}_1 - \\hat{p}_2}{\\sqrt{ \\hat{p}(1-\\hat{p})(1/n_1 + 1/n_2) }} \\, , $$ --> where $$ \\hat{p} = \\frac{n_1…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 7.3.3. How can we determine whether two processes produce the same proportion of defectives?",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section3/prc33.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

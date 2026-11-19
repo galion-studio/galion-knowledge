@@ -1,0 +1,29 @@
+{
+  "id": "world.core.math.clay-birch-and-swinnerton-dyer-conjecture",
+  "title": "The Clay Mathematics Institute states the Birch and Swinnerton-Dyer conjecture: Supported by much experimental evidence, this conjecture relates the number of points on an elliptic curve…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Clay Mathematics Institute states the Birch and Swinnerton-Dyer conjecture: Supported by much experimental evidence, this conjecture relates the number of points on an elliptic curve…",
+  "body": "The Clay Mathematics Institute's page on the Birch and Swinnerton-Dyer conjecture says: \"Supported by much experimental evidence, this conjecture relates the number of points on an elliptic curve mod p to the rank of the group of rational points. Elliptic curves, defined by cubic equations in two variables, are fundamental mathematical objects that arise in many areas: Wiles’ proof of the Fermat Conjecture, factorization of numbers into primes, and cryptography, to name three. Mathematicians have always been fascinated by the problem of describing all solutions in whole numbers x,y,z to algebraic equations like x 2 + y 2 = z 2 . Euclid gave the complete solution for that equation, but for more complicated equations this becomes extremely difficult. Indeed, in 1970 Yu. V. Matiyasevich showed that Hilbert’s tenth problem is unsolvable, i.e., there is no general method for determining when such equations have a solution in whole numbers. But in special cases one can hope to say something. When the solutions are the points of an abelian variety, the Birch and Swinnerton-Dyer…\" This card records that page. It does not announce a solution the page does not announce.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Clay Mathematics Institute, the Birch and Swinnerton-Dyer conjecture",
+      "url": "https://www.claymath.org/millennium/birch-and-swinnerton-dyer-conjecture/",
+      "author": "Clay Mathematics Institute",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Clay Mathematics Institute",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "area:foundations"
+  ]
+}

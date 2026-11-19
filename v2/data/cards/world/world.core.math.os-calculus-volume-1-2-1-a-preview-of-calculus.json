@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-2-1-a-preview-of-calculus",
+  "title": "OpenStax Calculus Volume 1, 2.1 A Preview of Calculus: Describe the tangent problem and how it led to the idea of a derivative.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 2.1 A Preview of Calculus: Describe the tangent problem and how it led to the idea of a derivative.",
+  "body": "OpenStax Calculus Volume 1, section \"2.1 A Preview of Calculus\", prints these objectives: \"Describe the tangent problem and how it led to the idea of a derivative.\" \"Explain how the idea of a limit is involved in solving the tangent problem.\" \"Recognize a tangent to a curve at a point as the limit of secant lines.\" \"Identify instantaneous velocity as the limit of average velocity over a small time interval.\" \"Describe the area problem and how it was solved by the integral.\" \"Explain how the idea of a limit is involved in solving the area problem.\". The section text says: \"As we embark on our study of calculus, we shall see how its development arose from common solutions to practical problems in areas such as engineering physics—like the space travel problem posed in the chapter opener. Two key problems led to the initial formulation of calculus: (1) the tangent problem, or how to determine the slope of a line tangent to a curve at a point; and (2) the area problem, or how to determine the area under a curve.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 2.1 A Preview of Calculus",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/2-1-a-preview-of-calculus",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

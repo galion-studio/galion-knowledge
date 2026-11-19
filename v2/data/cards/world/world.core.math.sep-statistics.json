@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-statistics",
+  "title": "The Stanford Encyclopedia entry \"Philosophy of Statistics\" says: Statistics investigates and develops specific methods for evaluating hypotheses in the light of empirical…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Philosophy of Statistics\" says: Statistics investigates and develops specific methods for evaluating hypotheses in the light of empirical…",
+  "body": "Romeijn, Jan-Willem, in the Stanford Encyclopedia of Philosophy entry \"Philosophy of Statistics\" says: \"Statistics investigates and develops specific methods for evaluating hypotheses in the light of empirical facts. A method is called statistical, and thus the subject of study in statistics, if it relates facts and hypotheses of a particular kind: the empirical facts must be codified and structured into data sets, and the hypotheses must be formulated in terms of probability distributions over possible data sets. The philosophy of statistics concerns the foundations and the proper interpretation of statistical methods, their input, and their results. Since statistics is relied upon in almost all empirical scientific research, serving to support and communicate scientific findings, the philosophy of statistics is of key importance to the philosophy of science. It is part of the philosophical appraisal of scientific method, and it impacts the debate over the epistemic and ontological…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Philosophy of Statistics (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/statistics/",
+      "author": "Romeijn, Jan-Willem",
+      "date": "2014-08-19",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Romeijn, Jan-Willem",
+  "as_of_date": "2025-10-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

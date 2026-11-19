@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-3-4-derivatives-as-rates-of-change",
+  "title": "OpenStax Calculus Volume 1, 3.4 Derivatives as Rates of Change: Determine a new value of a quantity from the old value and the amount of change.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 3.4 Derivatives as Rates of Change: Determine a new value of a quantity from the old value and the amount of change.",
+  "body": "OpenStax Calculus Volume 1, section \"3.4 Derivatives as Rates of Change\", prints these objectives: \"Determine a new value of a quantity from the old value and the amount of change.\" \"Calculate the average rate of change and explain how it differs from the instantaneous rate of change.\" \"Apply rates of change to displacement, velocity, and acceleration of an object moving along a straight line.\" \"Predict the future population from the present value and the population growth rate.\" \"Use derivatives to calculate marginal cost and revenue in a business situation.\". The section text says: \"In this section we look at some applications of the derivative by focusing on the interpretation of the derivative as the rate of change of a function. These applications include acceleration and velocity in physics, population growth rates in biology, and marginal functions in economics.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 3.4 Derivatives as Rates of Change",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/3-4-derivatives-as-rates-of-change",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

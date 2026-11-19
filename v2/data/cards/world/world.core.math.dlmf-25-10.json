@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-25-10",
+  "title": "DLMF 25.10 Zeros: The product representation ( 25.2.11 ) implies \\zeta\\left(s\\right)\\neq 0 for \\Re s>1 .",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 25.10 Zeros: The product representation ( 25.2.11 ) implies \\zeta\\left(s\\right)\\neq 0 for \\Re s>1 .",
+  "body": "NIST DLMF section 25.10 (Zeros) says: \"The product representation ( 25.2.11 ) implies \\zeta\\left(s\\right)\\neq 0 for \\Re s>1 . Also, \\zeta\\left(s\\right)\\neq 0 for \\Re s=1 , a property first established in Hadamard ( 1896 ) and de la Vallée Poussin ( 1896a , b ) in the proof of the prime number theorem ( 25.16.3 ). The functional equation ( 25.4.1 ) implies \\zeta\\left(-2n\\right)=0 for n=1,2,3,\\dots . These are called the trivial zeros . Except for the trivial zeros, \\zeta\\left(s\\right)\\neq 0 for \\Re s\\leq 0 . In the region 0<\\Re s<1 , called the critical strip , \\zeta\\left(s\\right) has infinitely many zeros, distributed symmetrically about the real axis and about the critical line \\Re s=\\frac{1}{2} . The Riemann hypothesis states that all nontrivial zeros lie on this line. Calculations relating to the zeros on the critical line make use of the real-valued function is chosen to make Z(t) real, and \\operatorname{ph}\\Gamma\\left(\\frac{1}{4}+\\frac{1}{2}it\\right) assumes its principal value. Because |Z(t)|=|\\zeta\\left(\\frac{1}{2}+it\\right)| , Z(t) vanishes at the zeros of \\zeta\\left(\\frac{1}{2}+it\\right) , which can be separated…\" Equation 25.10.1 on the page has alt text \"Z(t)\\equiv\\exp\\left(i\\vartheta(t)\\right)\\zeta\\left(\\tfrac{1}{2}+it\\right),\". Equation 25.10.2 on the page has alt text \"\\vartheta(t)\\equiv\\operatorname{ph}\\Gamma\\left(\\tfrac{1}{4}+\\tfrac{1}{2}it% \\right)-\\tfrac{1}{2}t\\ln\\pi\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 25.10 Zeros",
+      "url": "https://dlmf.nist.gov/25.10",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:number-theory"
+  ]
+}

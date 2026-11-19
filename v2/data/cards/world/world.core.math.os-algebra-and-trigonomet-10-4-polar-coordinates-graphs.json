@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-algebra-and-trigonomet-10-4-polar-coordinates-graphs",
+  "title": "OpenStax Algebra and Trigonometry 2e, 10.4 Polar Coordinates: Graphs: Test polar equations for symmetry.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Algebra and Trigonometry 2e, 10.4 Polar Coordinates: Graphs: Test polar equations for symmetry.",
+  "body": "OpenStax Algebra and Trigonometry 2e, section \"10.4 Polar Coordinates: Graphs\", prints these objectives: \"Test polar equations for symmetry.\" \"Graph polar equations by plotting points.\". The section text says: \"The planets move through space in elliptical, periodic orbits about the sun, as shown in Figure 1 . They are in constant motion, so fixing an exact position of any planet is valid only for a moment. In other words, we can fix only a planet’s instantaneous position. This is one application of polar coordinates , represented as ( r , θ ) . We interpret r as the distance from the center of the sun and θ as the planet’s angular bearing, or its direction from the center of the sun. In this section…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Algebra and Trigonometry 2e, 10.4 Polar Coordinates: Graphs",
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-4-polar-coordinates-graphs",
+      "author": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Jay Abramson, Valeree Falduto, Rachael Gross, OpenStax Algebra and Trigonometry 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:trigonometry"
+  ]
+}

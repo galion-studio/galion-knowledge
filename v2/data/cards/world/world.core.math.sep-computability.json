@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-computability",
+  "title": "The Stanford Encyclopedia entry \"Computability and Complexity\" says: A mathematical problem is computable if it can be solved in principle by a computing device.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Computability and Complexity\" says: A mathematical problem is computable if it can be solved in principle by a computing device.",
+  "body": "Immerman, Neil, in the Stanford Encyclopedia of Philosophy entry \"Computability and Complexity\" says: \"A mathematical problem is computable if it can be solved in principle by a computing device. Some common synonyms for “computable” are “solvable”, “decidable”, and “recursive”. Hilbert believed that all mathematical problems were solvable, but in the 1930’s Gödel, Turing, and Church showed that this is not the case. There is an extensive study and classification of which mathematical problems are computable and which are not. In addition, there is an extensive classification of computable problems into computational complexity classes according to how much computation—as a function of the size of the problem instance—is needed to answer that instance. It is striking how clearly, elegantly, and precisely these classifications have been drawn.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Computability and Complexity (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/computability/",
+      "author": "Immerman, Neil",
+      "date": "2004-06-24",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Immerman, Neil",
+  "as_of_date": "2021-10-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

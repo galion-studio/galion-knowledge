@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-def-19",
+  "title": "Euclid I.Def.19: Rectilinear figures are those which are contained by straight lines, trilateral figures being those contained by three, quadrilateral those contained…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.Def.19: Rectilinear figures are those which are contained by straight lines, trilateral figures being those contained by three, quadrilateral those contained…",
+  "body": "Euclid, Book I, I.Def.19, as worded on this page: \"Rectilinear figures are those which are contained by straight lines, trilateral figures being those contained by three, quadrilateral those contained by four, and multilateral those contained by more than four straight lines.\" David E. Joyce's guide on the same page says: \"This definition was probably not in Euclid’s original Elements . It classifies rectilinear figures by their number of sides. Euclid names polygons by the number of their angles. For example, Book IV includes constructions of regular pentagons, hexagons, and pentadecagons (15-angled figures) in which those terms are used. The modern English names are also based an the number of angles (except quadrilateral): triangle, pentagon, hexagon, heptagon, octagon, etc. Quadrilaterals can also be called…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.Def.19",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/defI19.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

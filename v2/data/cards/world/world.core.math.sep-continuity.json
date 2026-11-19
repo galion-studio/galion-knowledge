@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-continuity",
+  "title": "The Stanford Encyclopedia entry \"Continuity and Infinitesimals\" says: The usual meaning of the word continuous is “unbroken” or “uninterrupted”: thus a continuous entity—a…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Continuity and Infinitesimals\" says: The usual meaning of the word continuous is “unbroken” or “uninterrupted”: thus a continuous entity—a…",
+  "body": "Bell, John L., in the Stanford Encyclopedia of Philosophy entry \"Continuity and Infinitesimals\" says: \"The usual meaning of the word continuous is “unbroken” or “uninterrupted”: thus a continuous entity—a continuum —has no “gaps”. We commonly suppose that space and time are continuous, and certain philosophers have maintained that all natural processes occur continuously: witness, for example, Leibniz’s famous apothegm natura non facit saltus —“nature makes no jump”. In mathematics the word is used in the same general sense, but has had to be furnished with increasingly precise definitions. So, for instance, in the later eighteenth century continuity of a function was taken to mean that infinitesimal changes in the value of the argument induced infinitesimal changes in the value of the function. With the abandonment of infinitesimals in the nineteenth century this definition came to be replaced by one employing the more precise concept of limit .\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Continuity and Infinitesimals (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/continuity/",
+      "author": "Bell, John L.",
+      "date": "2005-07-27",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bell, John L.",
+  "as_of_date": "2022-03-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

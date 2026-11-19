@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-4-1-related-rates",
+  "title": "OpenStax Calculus Volume 1, 4.1 Related Rates: Express changing quantities in terms of derivatives.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 4.1 Related Rates: Express changing quantities in terms of derivatives.",
+  "body": "OpenStax Calculus Volume 1, section \"4.1 Related Rates\", prints these objectives: \"Express changing quantities in terms of derivatives.\" \"Find relationships among the derivatives in a given problem.\" \"Use the chain rule to find the rate of change of one quantity that depends on the rate of change of other quantities.\". The section text says: \"We have seen that for quantities that are changing over time, the rates at which these quantities change are given by derivatives. If two related quantities are changing over time, the rates at which the quantities change are related. For example, if a balloon is being filled with air, both the radius of the balloon and the volume of the balloon are increasing. In this section, we consider several problems in which two or more related quantities are changing and we study how to determine the…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 4.1 Related Rates",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/4-1-related-rates",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

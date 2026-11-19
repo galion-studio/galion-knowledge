@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-11-1-voting-methods",
+  "title": "OpenStax Contemporary Mathematics, 11.1 Voting Methods: Apply plurality voting to determine a winner.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 11.1 Voting Methods: Apply plurality voting to determine a winner.",
+  "body": "OpenStax Contemporary Mathematics, section \"11.1 Voting Methods\", prints these objectives: \"Apply plurality voting to determine a winner.\" \"Apply runoff voting to determine a winner.\" \"Apply ranked-choice voting to determine a winner.\" \"Apply Borda count voting to determine a winner.\" \"Apply pairwise comparison and Condorcet voting to determine a winner.\" \"Apply approval voting to determine a winner.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 11.1 Voting Methods",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/11-1-voting-methods",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

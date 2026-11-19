@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-post-2",
+  "title": "Euclid I.Post.2: To produce a finite straight line continuously in a straight line.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.Post.2: To produce a finite straight line continuously in a straight line.",
+  "body": "Euclid, Book I, I.Post.2, as worded on this page: \"To produce a finite straight line continuously in a straight line.\" David E. Joyce's guide on the same page says: \"Here we have the second ability of a straightedge, namely, to extend a given line AB to CD. This postulate does not say how far a line can be extended. Sometimes it is used so that the extension equals some other line. Other times it is extended arbitrarily far. As with the first postulate, it is implicitly assumed in the books on plane geometry that when a line is extended, it remains in the plane of discussion. The first proposition on solid geometry, proposition XI.1 , claims that line can’t…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.Post.2",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/post2.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

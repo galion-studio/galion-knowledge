@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-4-4-the-mean-value-theorem",
+  "title": "OpenStax Calculus Volume 1, 4.4 The Mean Value Theorem: Explain the meaning of Rolle’s theorem.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 4.4 The Mean Value Theorem: Explain the meaning of Rolle’s theorem.",
+  "body": "OpenStax Calculus Volume 1, section \"4.4 The Mean Value Theorem\", prints these objectives: \"Explain the meaning of Rolle’s theorem.\" \"Describe the significance of the Mean Value Theorem.\" \"State three important consequences of the Mean Value Theorem.\". The section text says: \"The Mean Value Theorem is one of the most important theorems in calculus. We look at some of its implications at the end of this section. First, let’s start with a special case of the Mean Value Theorem, called Rolle’s theorem.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 4.4 The Mean Value Theorem",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/4-4-the-mean-value-theorem",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-6-13-income-tax",
+  "title": "OpenStax Contemporary Mathematics, 6.13 Income Tax: Determine gross, adjusted gross, and taxable income.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 6.13 Income Tax: Determine gross, adjusted gross, and taxable income.",
+  "body": "OpenStax Contemporary Mathematics, section \"6.13 Income Tax\", prints these objectives: \"Determine gross, adjusted gross, and taxable income.\" \"Apply exemptions, deductions, and credits to basic income tax calculations.\" \"Compute FICA tax.\" \"Solve tax application problems for working students.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 6.13 Income Tax",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/6-13-income-tax",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

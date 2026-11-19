@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xii-17",
+  "title": "Euclid XII.17: Given two spheres about the same center, to inscribe in the greater sphere a polyhedral solid which does not touch the lesser sphere at its surface.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XII.17: Given two spheres about the same center, to inscribe in the greater sphere a polyhedral solid which does not touch the lesser sphere at its surface.",
+  "body": "Euclid, Book XII, XII.17, as worded on this page: \"Given two spheres about the same center, to inscribe in the greater sphere a polyhedral solid which does not touch the lesser sphere at its surface. But if in another sphere a polyhedral solid is inscribed similar to the solid in the sphere BCDE, then the polyhedral solid in the sphere BCDE has to the polyhedral solid in the other sphere the ratio triplicate of that which the diameter of the sphere BCDE has to the diameter of the other sphere.\" The argument printed under that statement begins: \"Proposition 17 Let there be two spheres about the same center A. It is required to inscribe in the greater sphere a polyhedral solid which does not touch the lesser sphere at its surface. Cut the spheres by any plane through the center. Then the sections are circles, for as a sphere is produced by the diameter remaining fixed and the semicircle being carried round it, hence, in whatever position we conceive the semicircle to be, the plane carried through it produces a circle on the circumference of the sphere. XI.Def.14 And it is clear that this circle is the greatest possible, for the diameter of the sphere, which is of course the diameter both of the semicircle and of the circle, is…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XII, XII.17",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXII/propXII17.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

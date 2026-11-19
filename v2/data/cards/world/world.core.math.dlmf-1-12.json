@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-1-12",
+  "title": "DLMF 1.12 Continued Fractions: The notation used throughout the DLMF for the continued fraction",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 1.12 Continued Fractions: The notation used throughout the DLMF for the continued fraction",
+  "body": "NIST DLMF section 1.12 (Continued Fractions) says: \"The notation used throughout the DLMF for the continued fraction C_{n} is called the n th approximant or convergent to C . A_{n} and B_{n} are called the n th (canonical) numerator and denominator respectively. Two continued fractions are equivalent if they have the same convergents. b_{0}+\\displaystyle{\\cfrac{a_{1}}{b_{1}+\\cfrac{a_{2}}{b_{2}+\\cdots}}} is equivalent to b^{\\prime}_{0}+\\displaystyle{\\cfrac{a^{\\prime}_{1}}{b^{\\prime}_{1}+\\cfrac{a^{% \\prime}_{2}}{b^{\\prime}_{2}+\\cdots}}} if there is a sequence \\{d_{n}\\}^{\\infty}_{n=0} , d_{0}=1 , d_{n}\\neq 0 , such that A sequence \\{C_{n}\\} in the extended complex plane, \\mathbb{C}\\cup\\{\\infty\\} , can be a sequence of convergents of the continued fraction ( 1.12.3 ) iff A contraction of a continued fraction C is a continued fraction C^{\\prime} whose convergents \\{C^{\\prime}_{n}\\} form a subsequence of the convergents \\{C_{n}\\} of C . Conversely, C is called an extension of C^{\\prime} . If C^{\\prime}_{n}=C_{2n} , n=0,1,2,\\dots , then C^{\\prime} is called the even part of C . The even part of C exists iff b_{2k}\\not=0 , k=1,2,\\dots , and…\" Equation 1.12.1 on the page has alt text \"\\cfracstyle{d}b_{0}+\\cfrac{a_{1}}{b_{1}+\\cfrac{a_{2}}{b_{2}+\\raisebox{-6.0pt}{% $\\ddots$}}}\". Equation 1.12.2 on the page has alt text \"b_{0}+\\cfrac{a_{1}}{b_{1}+\\cfrac{a_{2}}{b_{2}+}}\\cdots.\". This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 1.12 Continued Fractions",
+      "url": "https://dlmf.nist.gov/1.12",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:analysis"
+  ]
+}

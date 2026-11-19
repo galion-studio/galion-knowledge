@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vi-20",
+  "title": "Euclid VI.20: Similar polygons are divided into similar triangles, and into triangles equal in multitude and in the same ratio as the wholes, and the polygon has…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VI.20: Similar polygons are divided into similar triangles, and into triangles equal in multitude and in the same ratio as the wholes, and the polygon has…",
+  "body": "Euclid, Book VI, VI.20, as worded on this page: \"Similar polygons are divided into similar triangles, and into triangles equal in multitude and in the same ratio as the wholes, and the polygon has to the polygon a ratio duplicate of that which the corresponding side has to the corresponding side. Similarly also it can be proved in the case of quadrilaterals that they are in the duplicate ratio of the corresponding sides. And it was also proved in the case of triangles, therefore also, generally, similar rectilinear figures are to one another in the duplicate ratio of the corresponding sides.\" The argument printed under that statement begins: \"Proposition 20 Let ABCDE and FGHKL be similar polygons, and let AB correspond to FG. I say that the polygons ABCDE and FGHKL are divided into similar triangles, and into triangles equal in multitude and in the same ratio as the wholes, and the polygon ABCDE has to the polygon FGHKL a ratio duplicate of that which AB has to FG. Join BE, CE, GL, and HL. VI.Def.1 Now, since the polygon ABCDE is similar to the polygon FGHKL, therefore the angle BAE equals the angle GFL, and AB is to AE as GF is to FL. VI.6 VI.4 VI.Def.1 Since then ABE and FGL are two triangles having one angle equal to one angle and the sides about the equal angles proportional, therefore the triangle ABE is equiangular with…\" David E. Joyce's guide on the same page says: \"This proposition and its corollary are used occasionally in Books X, XII, and XIII, in particular, XII.1 and XII.8 .\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VI, VI.20",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI20.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

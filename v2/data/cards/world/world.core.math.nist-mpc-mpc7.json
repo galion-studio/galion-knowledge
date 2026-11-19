@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-mpc-mpc7",
+  "title": "NIST/SEMATECH handbook, 2.7. References: Statistical Theory and Methodology in Science and Engineering, John Wiley & Sons, Inc., New York, p.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 2.7. References: Statistical Theory and Methodology in Science and Engineering, John Wiley & Sons, Inc., New York, p.",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"2.7. References\" says: \"Statistical Theory and Methodology in Science and Engineering, John Wiley & Sons, Inc., New York, p. 236. Calibration designs J. M. Cameron, M. C. Croarkin and R. C. Raybold (1977). Designs for the Calibration of Standards of Mass, NBS Technical Note 952, U.S. Dept. Commerce, 58 pages. Calibration designs for eliminating drift J. M. Cameron and G. E. Hailes (1974). Designs for the Calibration of Small Groups of Standards in the Presence of Drift , Technical Note 844, U.S. Dept. Commerce, 31 pages. Measurement assurance for measurements on ICs Carroll Croarkin and Ruth Varner (1982). Measurement Assurance for Dimensional Measurements on Integrated-circuit Photomasks, NBS Technical Note 1164, U.S. Dept. Commerce, 44 pages. Calibration designs for gauge blocks Ted Doiron (1993). Drift Eliminating Designs for Non-Simultaneous Comparison Calibrations , J Research National…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 2.7. References",
+      "url": "https://www.itl.nist.gov/div898/handbook/mpc/section7/mpc7.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:measurement"
+  ]
+}

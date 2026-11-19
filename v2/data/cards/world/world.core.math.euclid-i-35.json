@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-35",
+  "title": "Euclid I.35: Parallelograms which are on the same base and in the same parallels equal one another.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.35: Parallelograms which are on the same base and in the same parallels equal one another.",
+  "body": "Euclid, Book I, I.35, as worded on this page: \"Parallelograms which are on the same base and in the same parallels equal one another.\" The argument printed under that statement begins: \"Proposition 35 Let ABCD and EBCF be parallelograms on the same base BC and in the same parallels AF and BC. I say that ABCD equals the parallelogram EBCF. I.34 Since ABCD is a parallelogram, therefore AD equals BC. C.N.1 C.N.2 For the same reason EF equals BC, so that AD also equals EF. And DE is common, therefore the whole AE equals the whole DF. I.34 I.29 I.4 But AB also equals DC. Therefore the two sides EA and AB equal the two sides FD and DC respectively, and the angle FDC equals the angle EAB, the exterior equals the interior. Therefore the base EB equals the base FC, and the triangle EAB equals the triangle FDC. C.N.3 Subtract DGE from each. Then the trapezium ABGD which remains…\" David E. Joyce's guide on the same page says: \"Euclid’s proof specifically treats the case when the point D lies between A and E in which case subtraction of a triangle is necessary. There are other cases to consider, for instance, when E lies between A and D. In that case the point G is irrelevant and the trapezium BCED may be added to the congruent triangles ABE and DCF to derive the conclusion. Euclid often supplies a proof for only one case, although occasionally he gives proofs for two or three cases. Rectilinear figures as magnitudes…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.35",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI35.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-4-8-lhopitals-rule",
+  "title": "OpenStax Calculus Volume 1, 4.8 L’Hôpital’s Rule: Recognize when to apply L’Hôpital’s rule.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 4.8 L’Hôpital’s Rule: Recognize when to apply L’Hôpital’s rule.",
+  "body": "OpenStax Calculus Volume 1, section \"4.8 L’Hôpital’s Rule\", prints these objectives: \"Recognize when to apply L’Hôpital’s rule.\" \"Identify indeterminate forms produced by quotients, products, subtractions, and powers, and apply L’Hôpital’s rule in each case.\" \"Describe the relative growth rates of functions.\". The section text says: \"In this section, we examine a powerful tool for evaluating limits. This tool, known as L’Hôpital’s rule , uses derivatives to calculate limits. With this rule, we will be able to evaluate many limits we have not yet been able to determine. Instead of relying on numerical evidence to conjecture that a limit exists, we will be able to show definitively that a limit exists and to determine its exact value.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 4.8 L’Hôpital’s Rule",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/4-8-lhopitals-rule",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

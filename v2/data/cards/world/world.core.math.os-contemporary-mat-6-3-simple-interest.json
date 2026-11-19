@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-6-3-simple-interest",
+  "title": "OpenStax Contemporary Mathematics, 6.3 Simple Interest: Compute simple interest.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 6.3 Simple Interest: Compute simple interest.",
+  "body": "OpenStax Contemporary Mathematics, section \"6.3 Simple Interest\", prints these objectives: \"Compute simple interest.\" \"Understand and compute future value.\" \"Compute simple interest loans with partial payments.\" \"Understand and compute present value.\". The section text says: \"Let’s get some terminology understood. Interest to be paid by a borrower is often expressed as an annual percentage rate , which is the percent of the principal that is paid as interest for each year the money is borrowed. This means that the more that is borrowed, the more that must be paid back. Sometimes, the interest to be paid back is simple interest , which means that the interest is calculated on the amount borrowed only.\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 6.3 Simple Interest",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/6-3-simple-interest",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xiii-10",
+  "title": "Euclid XIII.10: If an equilateral pentagon is inscribed in a circle, then the square on the side of the pentagon equals the sum of the squares on the sides of the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XIII.10: If an equilateral pentagon is inscribed in a circle, then the square on the side of the pentagon equals the sum of the squares on the sides of the…",
+  "body": "Euclid, Book XIII, XIII.10, as worded on this page: \"If an equilateral pentagon is inscribed in a circle, then the square on the side of the pentagon equals the sum of the squares on the sides of the hexagon and the decagon inscribed in the same circle.\" The argument printed under that statement begins: \"Proposition 10 Let ABCDE be a circle, and let the equilateral pentagon ABCDE be inscribed in the circle ABCDE. I say that the square on the side of the pentagon ABCDE equals the sum of the squares on the side of the hexagon and on that of the decagon inscribed in the circle ABCDE. III.1 I.12 Take the center F of the circle, join AF and carry it through to the point G, and join FB. Draw FH from F perpendicular to AB and carry it through to K, join AK and KB, draw FL from F perpendicular to AK, carry it through to M, and join KN. Since the circumference ABCG equals the circumference AEDG, and in them ABC equals AED, therefore the remainder, the circumference CG, equals the remainder GD. But…\" David E. Joyce's guide on the same page says: \"The diagram is a little small to see detail. Part of it is expanded to the right Use of this proposition This result is used in XIII.16 for the construction of an icosahedron and later in XIII.18 when an icosahedron is compared to the other four regular polyhedra.\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XIII, XIII.10",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXIII/propXIII10.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

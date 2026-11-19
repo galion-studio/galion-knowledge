@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-8-6-the-normal-distribution",
+  "title": "OpenStax Contemporary Mathematics, 8.6 The Normal Distribution: Describe the characteristics of the normal distribution.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 8.6 The Normal Distribution: Describe the characteristics of the normal distribution.",
+  "body": "OpenStax Contemporary Mathematics, section \"8.6 The Normal Distribution\", prints these objectives: \"Describe the characteristics of the normal distribution.\" \"Apply the 68-95-99.7 percent groups to normal distribution datasets.\" \"Use the normal distribution to calculate a z -score.\" \"Find and interpret percentiles and quartiles.\". The section text says: \"Many datasets that result from natural phenomena tend to have histograms that are symmetric and bell-shaped. Imagine finding yourself with a whole lot of time on your hands, and nothing to keep you entertained but a coin, a pencil, and paper. You decide to flip that coin 100 times and record the number of heads. With nothing else to do, you repeat the experiment ten times total. Using a computer to simulate this series of experiments, here’s a sample for the number of heads in each trial:\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 8.6 The Normal Distribution",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/8-6-the-normal-distribution",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

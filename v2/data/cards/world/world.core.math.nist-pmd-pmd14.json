@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-pmd-pmd14",
+  "title": "NIST/SEMATECH handbook, 4.1.4. What are some of the different statistical methods for model building?: What are some of the different statistical methods for model building?",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 4.1.4. What are some of the different statistical methods for model building?: What are some of the different statistical methods for model building?",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"4.1.4. What are some of the different statistical methods for model building?\" says: \"What are some of the different statistical methods for model building? 4. Process Modeling 4.1. Introduction to Process Modeling 4.1.4. What are some of the different statistical methods for model building? Selecting an Appropriate Stat Method: General Case For many types of data analysis problems there are no more than a couple of general approaches to be considered on the route to the problem's solution. For example, there is often a dichotomy between highly-efficient methods appropriate for data with noise from a normal distribution and more general methods for data with other types of noise. Within the different approaches for a specific problem type, there are usually at most a few competing statistical tools that can be used to obtain an appropriate solution. The bottom line for most types of data analysis problems is that selection of the best statistical method to solve the…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 4.1.4. What are some of the different statistical methods for model building?",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd14.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

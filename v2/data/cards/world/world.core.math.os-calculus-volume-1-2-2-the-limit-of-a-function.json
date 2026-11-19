@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-2-2-the-limit-of-a-function",
+  "title": "OpenStax Calculus Volume 1, 2.2 The Limit of a Function: Using correct notation, describe the limit of a function.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 2.2 The Limit of a Function: Using correct notation, describe the limit of a function.",
+  "body": "OpenStax Calculus Volume 1, section \"2.2 The Limit of a Function\", prints these objectives: \"Using correct notation, describe the limit of a function.\" \"Use a table of values to estimate the limit of a function or to identify when the limit does not exist.\" \"Use a graph to estimate the limit of a function or to identify when the limit does not exist.\" \"Define one-sided limits and provide examples.\" \"Explain the relationship between one-sided and two-sided limits.\" \"Using correct notation, describe an infinite limit.\". The section text says: \"The concept of a limit or limiting process, essential to the understanding of calculus, has been around for thousands of years. In fact, early mathematicians used a limiting process to obtain better and better approximations of areas of circles. Yet, the formal definition of a limit—as we know and understand it today—did not appear until the late 19th century. We therefore begin our quest to understand limits, as our mathematical ancestors did, by using an intuitive approach. At the end of this…\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 2.2 The Limit of a Function",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

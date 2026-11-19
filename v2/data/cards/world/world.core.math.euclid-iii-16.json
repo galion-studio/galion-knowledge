@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-iii-16",
+  "title": "Euclid III.16: The straight line drawn at right angles to the diameter of a circle from its end will fall outside the circle, and into the space between the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid III.16: The straight line drawn at right angles to the diameter of a circle from its end will fall outside the circle, and into the space between the…",
+  "body": "Euclid, Book III, III.16, as worded on this page: \"The straight line drawn at right angles to the diameter of a circle from its end will fall outside the circle, and into the space between the straight line and the circumference another straight line cannot be interposed, further the angle of the semicircle is greater, and the remaining angle less, than any acute rectilinear angle. From this it is clear that the straight line drawn at right angles to the diameter of a circle from its end touches the circle.\" The argument printed under that statement begins: \"Proposition 16 Let ABC be a circle about D as center and AB as diameter. I say that the straight line drawn from A at right angles to AB from its end will fall outside the circle. For suppose it does not, but, if possible, let it fall within as CA, and join DC. I.5 Since DA equals DC, the angle DAC also equals the angle ACD. I.17 But the angle DAC is right, therefore the angle ACD is also right. Thus, in the triangle ACD, the two angles DAC and ACD equal two right angles, which is impossible. Therefore the straight line drawn from the point A at right angles to BA will not fall within the circle. Similarly we can prove that neither will it fall on the circumference, therefore it will fall…\" David E. Joyce's guide on the same page says: \"Horn angles Back in Book I, I.Def.8 , Euclid defined an angle and included the possibility that the sides were not straight lines. Those whose sides were straight were called rectilinear angles in I.Def.9 . Until this proposition we only saw rectilinear angles. In this proposition Euclid showed that the angle contained by the circumference CHA and the tangent straight line AE is less than any acute rectilinear angle. An angle of that sort is commonly called a horn angle . Its complement, the…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book III, III.16",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookIII/propIII16.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

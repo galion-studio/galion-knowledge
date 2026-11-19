@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-2-7-logical-arguments",
+  "title": "OpenStax Contemporary Mathematics, 2.7 Logical Arguments: Apply the law of detachment to determine the conclusion of a pair of statements.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 2.7 Logical Arguments: Apply the law of detachment to determine the conclusion of a pair of statements.",
+  "body": "OpenStax Contemporary Mathematics, section \"2.7 Logical Arguments\", prints these objectives: \"Apply the law of detachment to determine the conclusion of a pair of statements.\" \"Apply the law of denying the consequent to determine the conclusion for pairs of statements.\" \"Apply the chain rule to determine valid conclusions for pairs of true statements.\". The section text says: \"The previous sections of this chapter provide the foundational skills for constructing and analyzing logical arguments. All logical arguments include a set of premises that support a claim or conclusion; but not all logical arguments are valid and sound. A logical argument is valid if its conclusion follows from the premises, and it is sound if it is valid and all of its premises are true. A false or deceptive argument is called a fallacy . Many types of fallacies are so common that they have…\" This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 2.7 Logical Arguments",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/2-7-logical-arguments",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

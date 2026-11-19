@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-pmd-pmd42",
+  "title": "NIST/SEMATECH handbook, 4.4.2. How do I select a function to describe my process?: Synthesis of Process Information Necessary Selecting a model of the right form to fit a set of data usually…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 4.4.2. How do I select a function to describe my process?: Synthesis of Process Information Necessary Selecting a model of the right form to fit a set of data usually…",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"4.4.2. How do I select a function to describe my process?\" says: \"Synthesis of Process Information Necessary Selecting a model of the right form to fit a set of data usually requires the use of empirical evidence in the data, knowledge of the process and some trial-and-error experimentation. As mentioned on the previous page, model building is always an iterative process. Much of the need to iterate stems from the difficulty in initially selecting a function that describes the data well. Details about the data are often not easily visible in the data as originally observed. The fine structure in the data can usually only be elicited by use of model-building tools such as residual plots and repeated refinement of the model form. As a result, it is important not to overlook any of the sources of information that indicate what the form of the model should be. Answer Not Provided…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 4.4.2. How do I select a function to describe my process?",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section4/pmd42.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

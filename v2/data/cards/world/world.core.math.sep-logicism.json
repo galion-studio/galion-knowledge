@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logicism",
+  "title": "The Stanford Encyclopedia entry \"Logicism and Neologicism\" says: Logicism is a philosophical, foundational, and foundationalist doctrine that can be advanced with respect to…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Logicism and Neologicism\" says: Logicism is a philosophical, foundational, and foundationalist doctrine that can be advanced with respect to…",
+  "body": "Tennant, Neil, in the Stanford Encyclopedia of Philosophy entry \"Logicism and Neologicism\" says: \"Logicism is a philosophical, foundational, and foundationalist doctrine that can be advanced with respect to any branch of mathematics. Traditionally, logicism has concerned itself especially with arithmetic and real analysis. It comes in a stronger and a weaker version. The strong version of logicism maintains that all mathematical truths in the chosen branch(es) form a species of logical truth. The weak version of logicism, by contrast, maintains only that all the theorems do. (By ‘theorems’ we mean results that are provable within the branch of mathematics in question.) The foundationalism is with respect to those parts of mathematics that the logicist reconstructs. Success in this regard is compatible, however, with a non-foundationalist (e.g., coherentist) view of the parts of mathematics that cannot be so reconstructed.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Logicism and Neologicism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logicism/",
+      "author": "Tennant, Neil",
+      "date": "2013-08-21",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Tennant, Neil",
+  "as_of_date": "2023-12-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

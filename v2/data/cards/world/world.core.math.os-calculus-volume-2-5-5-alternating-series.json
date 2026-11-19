@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-2-5-5-alternating-series",
+  "title": "OpenStax Calculus Volume 2, 5.5 Alternating Series: Use the alternating series test to test an alternating series for convergence.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 2, 5.5 Alternating Series: Use the alternating series test to test an alternating series for convergence.",
+  "body": "OpenStax Calculus Volume 2, section \"5.5 Alternating Series\", prints these objectives: \"Use the alternating series test to test an alternating series for convergence.\" \"Estimate the sum of an alternating series.\" \"Explain the meaning of absolute convergence and conditional convergence.\". The section text says: \"So far in this chapter, we have primarily discussed series with positive terms. In this section we introduce alternating series—those series whose terms alternate in sign. We will show in a later chapter that these series often arise when studying power series. After defining alternating series, we introduce the alternating series test to determine whether such a series converges.\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 2, 5.5 Alternating Series",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/5-5-alternating-series",
+      "author": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "William Radulovich, Erica M. Rutter, David Smith, OpenStax Calculus Volume 2",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-contemporary-mat-7-1-the-multiplication-rule-for-counting",
+  "title": "OpenStax Contemporary Mathematics, 7.1 The Multiplication Rule for Counting: Apply the Multiplication Rule for Counting to solve problems.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Contemporary Mathematics, 7.1 The Multiplication Rule for Counting: Apply the Multiplication Rule for Counting to solve problems.",
+  "body": "OpenStax Contemporary Mathematics, section \"7.1 The Multiplication Rule for Counting\", prints these objectives: \"Apply the Multiplication Rule for Counting to solve problems.\". This card reports that page.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Contemporary Mathematics, 7.1 The Multiplication Rule for Counting",
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/7-1-the-multiplication-rule-for-counting",
+      "author": "OpenStax, Contemporary Mathematics",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax, Contemporary Mathematics",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:logic"
+  ]
+}

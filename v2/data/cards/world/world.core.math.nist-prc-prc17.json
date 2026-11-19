@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-prc-prc17",
+  "title": "NIST/SEMATECH handbook, 7.1.7. What are trends in sequential process or product data?: What are trends in sequential process or product data?",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 7.1.7. What are trends in sequential process or product data?: What are trends in sequential process or product data?",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"7.1.7. What are trends in sequential process or product data?\" says: \"What are trends in sequential process or product data? 7. Product and Process Comparisons 7.1. Introduction 7.1.7. What are trends in sequential process or product data? Detecting trends by plotting the data points to see if a line with an obviously non-zero slope fits the points Detecting trends is equivalent to comparing the process values to what we would expect a series of numbers to look like if there were no trends. If we see a significant departure from a model where the next observation is equally likely to go up or down, then we would reject the hypothesis of \"no trend\". A common way of investigating for trends is to fit a straight line to the data and observe the line's direction (or slope). If the line looks horizontal, then there is no evidence of a trend; otherwise there is. Formally, this is done by testing whether the slope of the line is significantly different from…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 7.1.7. What are trends in sequential process or product data?",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section1/prc17.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

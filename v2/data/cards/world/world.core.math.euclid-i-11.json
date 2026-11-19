@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-11",
+  "title": "Euclid I.11: To draw a straight line at right angles to a given straight line from a given point on it.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.11: To draw a straight line at right angles to a given straight line from a given point on it.",
+  "body": "Euclid, Book I, I.11, as worded on this page: \"To draw a straight line at right angles to a given straight line from a given point on it.\" The argument printed under that statement begins: \"Proposition 11 Let AB be the given straight line, and C the given point on it. It is required to draw a straight line at right angles to the straight line AB from the point C. I.3 , I.1 I.Post.1 Take an arbitrary point D on AC. Make CE equal to CD. Construct the equilateral triangle FDE on DE, and join CF. I say that the straight line CF has been drawn at right angles to the given straight line AB from C the given point on it. I.Def.20 I.8 Since CD equals CE, and CF is common, therefore the two sides CD and CF equal the two sides CE and CF respectively, and the base DF equals the base EF. Therefore the angle DCF equals the angle ECF, and they are adjacent angles. I.Def.10 But, when a…\" David E. Joyce's guide on the same page says: \"This and the next proposition both construct a perpendicular to a line through a given point. The difference is that the given point lies on the line in this proposition but doesn’t in the next. Construction steps The actual construction here is the same double-equilateral-triangle construction of the previous proposition that is used to bisect the line DE, except that it is preceded by the selection of points D and E on AB equidistant from C. This construction actually only requires drawing…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.11",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI11.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

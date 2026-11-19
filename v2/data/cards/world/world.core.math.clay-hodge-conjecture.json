@@ -1,0 +1,29 @@
+{
+  "id": "world.core.math.clay-hodge-conjecture",
+  "title": "The Clay Mathematics Institute states the Hodge conjecture: The answer to this conjecture determines how much of the topology of the solution set of a system of…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Clay Mathematics Institute states the Hodge conjecture: The answer to this conjecture determines how much of the topology of the solution set of a system of…",
+  "body": "The Clay Mathematics Institute's page on the Hodge conjecture says: \"The answer to this conjecture determines how much of the topology of the solution set of a system of algebraic equations can be defined in terms of further algebraic equations. The Hodge conjecture is known in certain special cases, e.g., when the solution set has dimension less than four. But in dimension four it is unknown. In the twentieth century mathematicians discovered powerful ways to investigate the shapes of complicated objects. The basic idea is to ask to what extent we can approximate the shape of a given object by gluing together simple geometric building blocks of increasing dimension. This technique turned out to be so useful that it got generalized in many different ways, eventually leading to powerful tools that enabled mathematicians to make great progress in cataloging the variety of objects they encountered in their investigations. Unfortunately, the geometric origins of the procedure became obscured in this generalization. In some sense it was necessary to add…\" This card records that page. It does not announce a solution the page does not announce.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Clay Mathematics Institute, the Hodge conjecture",
+      "url": "https://www.claymath.org/millennium/hodge-conjecture/",
+      "author": "Clay Mathematics Institute",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Clay Mathematics Institute",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "area:foundations"
+  ]
+}

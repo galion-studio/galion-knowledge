@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-vii-1",
+  "title": "Euclid VII.1: When two unequal numbers are set out, and the less is continually subtracted in turn from the greater, if the number which is left never measures the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VII.1: When two unequal numbers are set out, and the less is continually subtracted in turn from the greater, if the number which is left never measures the…",
+  "body": "Euclid, Book VII, VII.1, as worded on this page: \"When two unequal numbers are set out, and the less is continually subtracted in turn from the greater, if the number which is left never measures the one before it until a unit is left, then the original numbers are relatively prime.\" The argument printed under that statement begins: \"Proposition 1 The less of two unequal numbers AB and CD being continually subtracted from the greater, let the number which is left never measure the one before it until a unit is left. VII.Def.12 I say that AB and CD are relatively prime, that is, that a unit alone measures AB and CD. If AB and CD are not relatively prime, then some number E measures them. Let CD, measuring BF, leave FA less than itself, let AF, measuring DG, leave GC less than itself, and let GC, measuring FH, leave a unit HA. Since, then, E measures CD, and CD measures BF, therefore E also measures BF. But it also measures the whole BA, therefore it measures the remainder AF. But AF measures DG, therefore E also measures…\" David E. Joyce's guide on the same page says: \"Example Following the algorithm described in this proposition, the numbers 54 and 85 are relatively prime as the following computations show. 85 – 2 · 31 = 23 31 – 23 = 8 23 – 2 · 8 = 7 8 – 7 = 1 Antenaresis, the Euclidean algorithm Modern terminology uses the word “divides” rather than “measures,” and the notation a | b is used to abbreviate the phrase \" a divides b. \" This proposition assumes that 1 is the result of an antenaresis process. Antenaresis, also called the Euclidean algorithm, is…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VII, VII.1",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVII/propVII1.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:number-theory"
+  ]
+}

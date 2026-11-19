@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-fictionalism-mathematics",
+  "title": "The Stanford Encyclopedia entry \"Fictionalism in the Philosophy of Mathematics\" says: Mathematical fictionalism (hereafter, simply fictionalism ) is best thought of as a reaction to mathematical…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Fictionalism in the Philosophy of Mathematics\" says: Mathematical fictionalism (hereafter, simply fictionalism ) is best thought of as a reaction to mathematical…",
+  "body": "Balaguer, Mark, in the Stanford Encyclopedia of Philosophy entry \"Fictionalism in the Philosophy of Mathematics\" says: \"Mathematical fictionalism (hereafter, simply fictionalism ) is best thought of as a reaction to mathematical platonism. Platonism is the view that (a) there exist abstract mathematical objects (i.e., nonspatiotemporal mathematical objects), and (b) our mathematical sentences and theories provide true descriptions of such objects. So, for instance, on the platonist view, the sentence ‘3 is prime’ provides a straightforward description of a certain object—namely, the number 3—in much the same way that the sentence ‘Mars is red’ provides a description of Mars. But whereas Mars is a physical object, the number 3 is (according to platonism) an abstract object. And abstract objects, platonists tell us, are wholly nonphysical, nonmental, nonspatial, nontemporal, and noncausal. Thus, on this view, the number 3 exists independently of us and our thinking, but it does not exist in space or time…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fictionalism in the Philosophy of Mathematics (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/fictionalism-mathematics/",
+      "author": "Balaguer, Mark",
+      "date": "2008-04-22",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Balaguer, Mark",
+  "as_of_date": "2018-07-23",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

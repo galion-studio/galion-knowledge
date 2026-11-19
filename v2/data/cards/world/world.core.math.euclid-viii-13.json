@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-viii-13",
+  "title": "Euclid VIII.13: If there are as many numbers as we please in continued proportion, and each multiplied by itself makes some number, then the products are…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid VIII.13: If there are as many numbers as we please in continued proportion, and each multiplied by itself makes some number, then the products are…",
+  "body": "Euclid, Book VIII, VIII.13, as worded on this page: \"If there are as many numbers as we please in continued proportion, and each multiplied by itself makes some number, then the products are proportional; and, if the original numbers multiplied by the products make certain numbers, then the latter are also proportional.\" The argument printed under that statement begins: \"Proposition 13 Let there be as many numbers as we please, A, B, and C, in continued proportion, so that A is to B as B is to C. Let A, B, and C multiplied by themselves make D, E, and F, and multiplied by D, E, and F let them make G, H, and K. I say that D, E, and F and G, H, and K are in continued proportion. Multiply A by B to make L, and multiply the numbers A and B by L to make M and N respectively. Also multiply B by C to make O, and multiply the numbers B and C by O to make P and Q respectively. Then, in manner similar to the foregoing, we can prove that D, L, and E and G, M, N, and H are continuously proportional in the ratio of A to B, and further E, O, and F and H, P, Q, and K are…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book VIII, VIII.13",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVIII/propVIII13.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:number-theory"
+  ]
+}

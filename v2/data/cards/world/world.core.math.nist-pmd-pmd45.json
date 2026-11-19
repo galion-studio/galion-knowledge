@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.nist-pmd-pmd45",
+  "title": "NIST/SEMATECH handbook, 4.4.5. If my current model does not fit the data well, how can I improve it?: If my current model does not fit the data well, how can I improve it?",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "NIST/SEMATECH handbook, 4.4.5. If my current model does not fit the data well, how can I improve it?: If my current model does not fit the data well, how can I improve it?",
+  "body": "The NIST/SEMATECH e-Handbook of Statistical Methods page \"4.4.5. If my current model does not fit the data well, how can I improve it?\" says: \"If my current model does not fit the data well, how can I improve it? 4. Process Modeling 4.4. Data Analysis for Process Modeling 4.4.5. If my current model does not fit the data well, how can I improve it? What Next? Validating a model using residual plots, formal hypothesis tests and descriptive statistics would be quite frustrating if discovery of a problem meant restarting the modeling process back at square one. Fortunately, however, there are also techniques and tools to remedy many of the problems uncovered using residual analysis. In some cases the model validation methods themselves suggest appropriate changes to a model at the same time problems are uncovered. This is especially true of the graphical tools for model validation, though tests on the parameters in the regression function also offer insight into model refinement. Treatments for the various model deficiencies that…\" This card records that page. It does not add a data set the page did not print.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH e-Handbook: 4.4.5. If my current model does not fit the data well, how can I improve it?",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section4/pmd45.htm",
+      "author": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "statistics",
+    "area:statistics"
+  ]
+}

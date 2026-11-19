@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-i-22",
+  "title": "Euclid I.22: To construct a triangle out of three straight lines which equal three given straight lines: thus it is necessary that the sum of any two of the…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid I.22: To construct a triangle out of three straight lines which equal three given straight lines: thus it is necessary that the sum of any two of the…",
+  "body": "Euclid, Book I, I.22, as worded on this page: \"To construct a triangle out of three straight lines which equal three given straight lines: thus it is necessary that the sum of any two of the straight lines should be greater than the remaining one. I.20\" The argument printed under that statement begins: \"Proposition 22 Let the three given straight lines be A, B, and C, and let the sum of any two of these be greater than the remaining one, namely, A plus B greater than C, A plus C greater than B, and B plus C greater than B. It is required to construct a triangle out of straight lines equal to A, B, and C. I.Post.2 I.3 Set out a straight line DE, terminated at D but of infinite length in the direction of E. Make DF equal to A, FG equal to B, and GH equal to C. I.Post.3 I.Post.1 Describe the circle DKL with center F and radius FD. Again, describe the circle KLH with center G and radius GH. Join KF and KG. I say that the triangle KFG has been constructed out of three straight lines equal to A…\" David E. Joyce's guide on the same page says: \"(Be sure to change the lengths of B , C , and D in the diagram to see what effect that has. You can drag their ends to change their lengths.) The qualifier in the statement of the proposition, “thus it is necessary that the sum of any two of the straight lines should be greater than the remaining one,” refers to the triangle inequality, Proposition I.20 . This condition is, indeed, necessary. It is also sufficient, but Euclid failed to show that sufficiency. Perhaps Euclid (or some later…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book I, I.22",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI22.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

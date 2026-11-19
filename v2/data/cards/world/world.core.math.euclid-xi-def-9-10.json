@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xi-def-9-10",
+  "title": "Euclid XI.Def.9-10: Similar solid figures are those contained by similar planes equal in multitude.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XI.Def.9-10: Similar solid figures are those contained by similar planes equal in multitude.",
+  "body": "Euclid, Book XI, XI.Def.9-10, as worded on this page: \"Similar solid figures are those contained by similar planes equal in multitude. Equal and similar solid figures are those contained by similar planes equal in multitude and magnitude.\" The argument printed under that statement begins: \"Definition 9 Definition 10 Guide While definition 9 defines similar solid figures, definition 10 describes what is commonly called congruent solid figures. Euclid uses “equal and similar” plane figures for congruent plane figures in these later books, but that could not be done for plane figures before Book VI where similarity of plane figures was defined. These definitions are incomplete as was VI.Def.1 for similar rectilinear figures. The notion of similarity for plane figures implicitly assumed a correspondence of consecutive vertices and sides. This notion of similar solid figures assumes a correspondence of of adjacent edges and faces. Different solid figures can sometimes be…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XI, XI.Def.9-10",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXI/defXI9.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

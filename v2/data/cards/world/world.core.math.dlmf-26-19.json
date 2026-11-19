@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.dlmf-26-19",
+  "title": "DLMF 26.19 Mathematical Applications: Combinatorics has applications to analysis, algebra, and geometry.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "DLMF 26.19 Mathematical Applications: Combinatorics has applications to analysis, algebra, and geometry.",
+  "body": "NIST DLMF section 26.19 (Mathematical Applications) says: \"Combinatorics has applications to analysis, algebra, and geometry. Examples can be found in Beckenbach ( 1981 ) , Billera et al. ( 1996 ) , and Lovász et al. ( 1995 ) . Partitions and plane partitions have applications to representation theory ( Bressoud ( 1999 ) , Macdonald ( 1995 ) , and Sagan ( 2001 ) ) and to special functions ( Andrews et al. ( 1999 ) and Gasper and Rahman ( 2004 ) ). Other areas of combinatorial analysis include graph theory, coding theory, and combinatorial designs. These have applications in operations research, probability theory, and statistics. See Graham et al. ( 1995 ) and Rosen et al. ( 2000 ) .\" This card records that section's wording and equation alt text. It does not retypeset a formula the alt text did not carry.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NIST DLMF 26.19 Mathematical Applications",
+      "url": "https://dlmf.nist.gov/26.19",
+      "author": "NIST Digital Library of Mathematical Functions",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST Digital Library of Mathematical Functions",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "dlmf",
+    "area:combinatorics"
+  ]
+}

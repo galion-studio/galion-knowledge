@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-elementary-algebra-2e-6-2-use-multiplication-properties-of-exponents",
+  "title": "OpenStax Elementary Algebra 2e, 6.2 Use Multiplication Properties of Exponents: Simplify expressions with exponents",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Elementary Algebra 2e, 6.2 Use Multiplication Properties of Exponents: Simplify expressions with exponents",
+  "body": "OpenStax Elementary Algebra 2e, section \"6.2 Use Multiplication Properties of Exponents\", prints these objectives: \"Simplify expressions with exponents\" \"Simplify expressions using the Product Property for Exponents\" \"Simplify expressions using the Power Property for Exponents\" \"Simplify expressions using the Product to a Power Property\" \"Simplify expressions by applying several properties\" \"Multiply monomials\". The section text says: \"Remember that an exponent indicates repeated multiplication of the same quantity. For example, 2 4 means to multiply 2 by itself 4 times, so 2 4 means 2 · 2 · 2 · 2 .\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Elementary Algebra 2e, 6.2 Use Multiplication Properties of Exponents",
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/6-2-use-multiplication-properties-of-exponents",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:algebra"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-elementary-algebra-2e-4-2-graph-linear-equations-in-two-variables",
+  "title": "OpenStax Elementary Algebra 2e, 4.2 Graph Linear Equations in Two Variables: Recognize the relationship between the solutions of an equation and its graph",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Elementary Algebra 2e, 4.2 Graph Linear Equations in Two Variables: Recognize the relationship between the solutions of an equation and its graph",
+  "body": "OpenStax Elementary Algebra 2e, section \"4.2 Graph Linear Equations in Two Variables\", prints these objectives: \"Recognize the relationship between the solutions of an equation and its graph\" \"Graph a linear equation by plotting points\" \"Graph vertical and horizontal lines\". The section text says: \"In the previous section, we found several solutions to the equation 3 x + 2 y = 6 . They are listed in Table 4.10 . So, the ordered pairs ( 0 , 3 ) , ( 2 , 0 ) , and ( 1 , 3 2 ) are some solutions to the equation 3 x + 2 y = 6 . We can plot these solutions in the rectangular coordinate system as shown in Figure 4.5 .\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Elementary Algebra 2e, 4.2 Graph Linear Equations in Two Variables",
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/4-2-graph-linear-equations-in-two-variables",
+      "author": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Lynn Marecek, MaryAnne Anthony-Smith, Andrea Honeycutt Mathis, OpenStax Elementary Algebra 2e",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:algebra"
+  ]
+}

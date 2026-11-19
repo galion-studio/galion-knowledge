@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-xi-35",
+  "title": "Euclid XI.35: If there are two equal plane angles, and on their vertices there are set up elevated straight lines containing equal angles with the original…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid XI.35: If there are two equal plane angles, and on their vertices there are set up elevated straight lines containing equal angles with the original…",
+  "body": "Euclid, Book XI, XI.35, as worded on this page: \"If there are two equal plane angles, and on their vertices there are set up elevated straight lines containing equal angles with the original straight lines respectively, if on the elevated straight lines points are taken at random and perpendiculars are drawn from them to the planes in which the original angles are, and if from the points so arising in the planes straight lines are joined to the vertices of the original angles, then they contain with the elevated straight lines equal angles. From this it is clear that, if there are two equal plane angles, and if elevated straight lines set up on them which are equal and contain equal angles with the original straight lines respectively, then the perpendiculars drawn from their ends to the planes in which are the original angles equal one another.\" The argument printed under that statement begins: \"Proposition 35 Let the angles BAC and EDF be two equal rectilinear angles, and from the points A and D let the elevated straight lines AG and DM be set up containing, with the original straight lines, equal angles respectively, namely, the angle MDE equal to the angle GAB and the angle MDF equal to the angle GAC. XI.11 Take the points G and M at random on AG and DM. Draw GL and MN from the points G and M perpendicular to the plane through BA and AC and the plane through ED and DF, and let them meet the planes at L and N. Join LA and ND. I say that the angle GAL equals the angle MDN. I.3 , I.31 Make AH equal to DM, and draw HK through the point H parallel to GL. XI.8 Since GL is…\" The page is David E. Joyce's text of the Elements. He describes that text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book XI, XI.35",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookXI/propXI35.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:geometry"
+  ]
+}

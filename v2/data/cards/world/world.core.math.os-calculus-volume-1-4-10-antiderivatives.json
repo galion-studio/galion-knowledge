@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.os-calculus-volume-1-4-10-antiderivatives",
+  "title": "OpenStax Calculus Volume 1, 4.10 Antiderivatives: Find the general antiderivative of a given function.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "OpenStax Calculus Volume 1, 4.10 Antiderivatives: Find the general antiderivative of a given function.",
+  "body": "OpenStax Calculus Volume 1, section \"4.10 Antiderivatives\", prints these objectives: \"Find the general antiderivative of a given function.\" \"Explain the terms and notation used for an indefinite integral.\" \"State the power rule for integrals.\" \"Use antidifferentiation to solve simple initial-value problems.\". The section text says: \"At this point, we have seen how to calculate derivatives of many functions and have been introduced to a variety of their applications. We now ask a question that turns this process around: Given a function f , how do we find a function with the derivative f and why would we be interested in such a function?\" This card reports that page. The objectives are the book's learning statements, not a separate proof.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calculus Volume 1, 4.10 Antiderivatives",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/4-10-antiderivatives",
+      "author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, OpenStax Calculus Volume 1",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "openstax",
+    "area:calculus"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-dutch-book",
+  "title": "The Stanford Encyclopedia entry \"Dutch Book Arguments\" says: The Dutch Book argument (DBA) for probabilism (namely the view that an agent’s degrees of belief should…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Dutch Book Arguments\" says: The Dutch Book argument (DBA) for probabilism (namely the view that an agent’s degrees of belief should…",
+  "body": "Vineberg, Susan, in the Stanford Encyclopedia of Philosophy entry \"Dutch Book Arguments\" says: \"The Dutch Book argument (DBA) for probabilism (namely the view that an agent’s degrees of belief should satisfy the axioms of probability) traces to Ramsey’s work in “Truth and Probability”. He mentioned only in passing that an agent who violates the probability axioms would be vulnerable to having a book made against him and this has led to considerable debate and confusion both about exactly what Ramsey intended to show and about if, and how, a cogent version of the argument can be given. The basic idea behind the argument has also been applied in defense of a variety of principles, some of which place additional constraints on an agent’s current beliefs, with others, such as Conditionalization, purporting to govern how degrees of belief should evolve over time.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Dutch Book Arguments (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/dutch-book/",
+      "author": "Vineberg, Susan",
+      "date": "2011-06-15",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Vineberg, Susan",
+  "as_of_date": "2022-05-14",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

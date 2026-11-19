@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.euclid-v-1",
+  "title": "Euclid V.1: If any number of magnitudes are each the same multiple of the same number of other magnitudes, then the sum is that multiple of the sum.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Euclid V.1: If any number of magnitudes are each the same multiple of the same number of other magnitudes, then the sum is that multiple of the sum.",
+  "body": "Euclid, Book V, V.1, as worded on this page: \"If any number of magnitudes are each the same multiple of the same number of other magnitudes, then the sum is that multiple of the sum.\" The argument printed under that statement begins: \"Proposition 2 V.Def.2 Let any number of magnitudes AB and CD each be the same multiple of magnitudes E and F respectively. I say that the sum of AB and CD is the same multiple of the sum of E and F that AB is of E. Since AB is the same multiple of E that CD is of F, therefore there are as many magnitudes in AB equal to E as there are in CD equal to F. Divide AB into magnitudes AG and GB equal to E, and divide CD into CH and HD equal to F. Then the number of the magnitudes AG and GB equals the number of the magnitudes CH and HD. Now, since AG equals E, and CH equals F, therefore the sum of AG and CH equals the sum of E and F. For the same reason GB equals E, and the sum of GB and HD equals…\" David E. Joyce's guide on the same page says: \"In modern terminology, this proposition states that multiplication by numbers distributes over addition of magnitudes, that is, m ( x 1 + x 2 + ... + x n ) = m x 1 + m x 2 + ... + m x n . Here, the m is a number, and all the x i ’s are magnitudes of the same kind. Euclid always displays his magnitudes as lines, but they could be magnitudes of other kinds, like plane regions, for instance. In this proposition, all the magnitudes are of the same kind. Euclid’s proof is only for the simplest…\" Joyce describes his text as similar to Heath's translation of Heiberg, and slightly less literal.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Euclid's Elements, Book V, V.1",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookV/propV1.html",
+      "author": "Euclid, David E. Joyce's text",
+      "date": "2026-11-18",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Euclid, in David E. Joyce's text of the Elements at Clark University",
+  "as_of_date": "2026-11-18",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "euclid",
+    "area:algebra"
+  ]
+}

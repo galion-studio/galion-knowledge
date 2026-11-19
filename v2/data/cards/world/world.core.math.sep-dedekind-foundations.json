@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-dedekind-foundations",
+  "title": "The Stanford Encyclopedia entry \"Dedekind’s Contributions to the Foundations of Mathematics\" says: Richard Dedekind (1831–1916) was one of the greatest mathematicians of the nineteenth-century, as…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Dedekind’s Contributions to the Foundations of Mathematics\" says: Richard Dedekind (1831–1916) was one of the greatest mathematicians of the nineteenth-century, as…",
+  "body": "Reck, Erich, in the Stanford Encyclopedia of Philosophy entry \"Dedekind’s Contributions to the Foundations of Mathematics\" says: \"Richard Dedekind (1831–1916) was one of the greatest mathematicians of the nineteenth-century, as well as one of the most important contributors to algebra and number theory of all time. Any comprehensive history of mathematics will mention him for his investigation of the notions of algebraic number, field, group, module, lattice, etc., and especially for the invention of his theory of ideals (see, e.g., Dieudonné 1985, Stillwell 2000, Kolmogorov & Yushkevich 2001, Boyer & Merzbach 2011, Wussing 2012, Katz 2017). Dedekind’s more foundational work in mathematics is also widely known. Often acknowledged in that connection are: his analysis of the notion of continuity, his introduction of the real numbers by means of Dedekind cuts, his formulation of the Dedekind-Peano axioms for the natural numbers, his proof of the categoricity of these axioms, and his contributions to the early…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Dedekind’s Contributions to the Foundations of Mathematics (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/dedekind-foundations/",
+      "author": "Reck, Erich",
+      "date": "2008-04-22",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Reck, Erich",
+  "as_of_date": "2025-10-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

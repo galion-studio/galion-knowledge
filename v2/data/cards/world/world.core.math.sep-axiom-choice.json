@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-axiom-choice",
+  "title": "The Stanford Encyclopedia entry \"The Axiom of Choice\" says: The principle of set theory known as the Axiom of Choice has been hailed as “probably the most interesting…",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"The Axiom of Choice\" says: The principle of set theory known as the Axiom of Choice has been hailed as “probably the most interesting…",
+  "body": "Bell, John L., in the Stanford Encyclopedia of Philosophy entry \"The Axiom of Choice\" says: \"The principle of set theory known as the Axiom of Choice has been hailed as “probably the most interesting and, in spite of its late appearance, the most discussed axiom of mathematics, second only to Euclid’s axiom of parallels which was introduced more than two thousand years ago” (Fraenkel, Bar-Hillel & Levy 1973, §II.4). The fulsomeness of this description might lead those unfamiliar with the axiom to expect it to be as startling as, say, the Principle of the Constancy of the Velocity of Light or the Heisenberg Uncertainty Principle. But in fact the Axiom of Choice as it is usually stated appears humdrum, even self-evident. For it amounts to nothing more than the claim that, given any collection of mutually disjoint nonempty sets, it is possible to assemble a new set—a transversal or choice set —containing exactly one element from each member of the given collection. Nevertheless…\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Axiom of Choice (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/axiom-choice/",
+      "author": "Bell, John L.",
+      "date": "2008-01-08",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bell, John L.",
+  "as_of_date": "2021-12-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "world.core.math.sep-logic-relevance",
+  "title": "The Stanford Encyclopedia entry \"Relevance Logic\" says: Relevance logics are non-classical logics.",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Stanford Encyclopedia entry \"Relevance Logic\" says: Relevance logics are non-classical logics.",
+  "body": "Mares, Edwin, in the Stanford Encyclopedia of Philosophy entry \"Relevance Logic\" says: \"Relevance logics are non-classical logics. Called ‘relevant logics’ in Britain and Australasia, these systems developed as attempts to avoid the paradoxes of material and strict implication. These so-called paradoxes are valid conclusions that follow from the definitions of material and strict implication but are seen, by some, as problematic.\" This card reports that entry's preamble. It does not treat the entry as the original paper it cites.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Relevance Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logic-relevance/",
+      "author": "Mares, Edwin",
+      "date": "1998-06-17",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Mares, Edwin",
+  "as_of_date": "2020-11-13",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "mathematics",
+    "core-pack",
+    "logic",
+    "area:logic"
+  ]
+}
