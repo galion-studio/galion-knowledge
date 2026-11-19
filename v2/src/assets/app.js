@@ -34,7 +34,7 @@
     }
     toggle.addEventListener("click", function () {
       var open = !drop.classList.contains("is-open") || drop.classList.contains("is-shut");
-      drop.classList.remove("is-shut");
+      drop.classList.toggle("is-shut", !open);
       setDrop(open);
     });
     drop.addEventListener("mouseenter", function () { toggle.setAttribute("aria-expanded", "true"); });
