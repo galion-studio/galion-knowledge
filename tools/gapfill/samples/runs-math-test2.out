@@ -1,0 +1,21 @@
+2026-11-19T00:11:16+00:00 world.core.math.appel-haken-four-color-1977 zai-org/GLM-5.3-Flash kept $0.0071 total=$0.189095
+2026-11-19T00:12:27+00:00 world.core.math.wiles-fermat-1995 deepseek-ai/DeepSeek-V4.1-Flash-1017 kept $0.0129 total=$0.205804
+2026-11-19T00:12:37+00:00 world.core.math.hales-kepler-2005 deepseek-ai/DeepSeek-V4.1-Flash-1017 kept $0.0040 total=$0.20978
+2026-11-19T00:13:15+00:00 world.core.math.flyspeck-formal-kepler-2017 zai-org/GLM-5.3-Flash kept $0.0038 total=$0.215444
+2026-11-19T00:18:26+00:00 world.core.math.cantor-1874-uncountable deepseek-ai/DeepSeek-V4.1-Flash-1017 dropped $0.0179 total=$0.234562
+2026-11-19T00:22:36+00:00 world.core.math.goedel-ch-consistency-1938 deepseek-ai/DeepSeek-V4.1-Flash-1017 dropped $0.0057 total=$0.250556
+2026-11-19T00:23:08+00:00 world.core.math.aks-primes-in-p-2004 zai-org/GLM-5.3-Flash kept $0.0042 total=$0.260672
+2026-11-19T00:23:16+00:00 world.core.math.cohen-continuum-independence-1963 zai-org/GLM-5.3-Flash no_json $0.2228 total=$0.484325
+2026-11-19T00:24:01+00:00 world.core.math.zhang-bounded-gaps-2014 zai-org/GLM-5.3-Flash kept $0.0027 total=$0.487016
+2026-11-19T00:24:40+00:00 world.core.math.green-tao-progressions-2008 deepseek-ai/DeepSeek-V4.1-Flash-1017 kept $0.0066 total=$0.495769
+2026-11-19T00:24:42+00:00 world.core.math.rsa-1978 deepseek-ai/DeepSeek-V4.1-Flash-1017 kept $0.0027 total=$0.498506
+2026-11-19T00:25:07+00:00 world.core.math.diffie-hellman-1976 zai-org/GLM-5.3-Flash kept $0.0016 total=$0.505763
+2026-11-19T00:25:42+00:00 world.core.math.cooley-tukey-fft-1965 deepseek-ai/DeepSeek-V4.1-Flash-1017 kept $0.0040 total=$0.510592
+2026-11-19T00:27:21+00:00 world.core.math.lindemann-pi-transcendental-1882 zai-org/GLM-5.3-Flash no_json $0.0184 total=$0.530234
+2026-11-19T00:28:36+00:00 world.core.math.viazovska-e8-2017 zai-org/GLM-5.3-Flash dropped $0.0040 total=$0.534278
+2026-11-19T00:31:09+00:00 world.core.math.hilbert-problems-1902 deepseek-ai/DeepSeek-V4.1-Flash-1017 no_json $0.0096 total=$0.545951
+2026-11-19T00:31:09+00:00 world.core.math.mihailescu-catalan-2004 deepseek-ai/DeepSeek-V4.1-Flash-1017 no_json $0.0062 total=$0.552164
+2026-11-19T00:32:09+00:00 world.core.math.dlmf-gamma-definition deepseek-ai/DeepSeek-V4.1-Flash-1017 kept $0.0052 total=$0.557318
+2026-11-19T00:34:46+00:00 world.core.math.kolmogorov-chaitin-random-1966 zai-org/GLM-5.3-Flash kept $0.0049 total=$0.563321
+2026-11-19T00:35:05+00:00 world.core.math.perelman-poincare-clay-2010 zai-org/GLM-5.3-Flash dropped $0.0515 total=$0.615859
+spent_total 0.626511
