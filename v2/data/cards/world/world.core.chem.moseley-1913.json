@@ -1,0 +1,43 @@
+{
+  "id": "world.core.chem.moseley-1913",
+  "title": "Moseley 1913: a photographic method for X-ray spectra, read as bearing on atomic structure",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "H. G. J. Moseley's 1913 Philosophical Magazine paper describes a method of photographing the high-frequency (X-ray) spectra of the elements. Its abstract states that the results bore on the internal structure of the atom and supported the views of Rutherford and Bohr.",
+  "body": "Moseley's \"XCIII. The high-frequency spectra of the elements\" appeared in The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science, series 6, volume 26, issue 156, 1913, pages 1024–1034; the article is credited to H.G.J. Moseley, M.A., Physical Laboratory, University of Manchester. The abstract states: \"The present paper contains a description of a method of photographing these spectra, which makes the analysis of the X-rays as simple as an other branch of spectroscopy.\" It adds: \"The results already obtained show that such data have an important bearing on the question of the internal structure of the atom, and strongly support the views of Rutherford and of Bohr.\" The same abstract describes the rays falling on the cleavage face of a crystal of potassium ferrocyanide mounted on the prism-table of a spectrometer.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "XCIII. The high-frequency spectra of the elements",
+      "url": "https://doi.org/10.1080/14786441308635052",
+      "author": "H.G.J. Moseley",
+      "date": "1913-12",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "XCIII. The high-frequency spectra of the elements: The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science: Vol 26, No 156",
+      "url": "https://web.archive.org/web/20230410223028/https://www.tandfonline.com/doi/abs/10.1080/14786441308635052",
+      "author": "H.G.J. Moseley",
+      "date": "1913",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "XCIII. The high-frequency spectra of the elements (record description)",
+      "url": "https://zenodo.org/api/records/1430926",
+      "author": "Moseley, H. G. J.",
+      "date": "1912-11-30",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "H. G. J. Moseley, Physical Laboratory, University of Manchester",
+  "as_of_date": "1913-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "chemistry"
+  ]
+}

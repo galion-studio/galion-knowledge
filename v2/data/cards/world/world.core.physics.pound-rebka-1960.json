@@ -1,0 +1,36 @@
+{
+  "id": "world.core.physics.pound-rebka-1960",
+  "title": "Pound and Rebka, \"Apparent Weight of Photons\" (1960)",
+  "section": "world",
+  "category": "physics",
+  "summary": "R. V. Pound and G. A. Rebka reported in Physical Review Letters in April 1960 a measurement of the effect of gravitational potential on the apparent frequency of electromagnetic radiation, using recoil-free 14.4 keV gamma rays from Co-57 absorbed in Fe-57.",
+  "body": "In Physical Review Letters volume 4, pages 337–341, dated 1 April 1960, R. V. Pound and G. A. Rebka of Harvard University published \"Apparent Weight of Photons\". The abstract reproduced in the U.S. Department of Energy OSTI record states: \"The effect of gravitational potential on the apparent frequency of electro-magnetic radiation was measured by using the sharply defined energy of recoil-free 14.4kev gamma rays emitted by Co/sup 57/ and absorbed in Fe/sup 57/.\" That abstract also gives a measured mean gravitational shift in frequency together with a stated uncertainty of 0.6. The DOI registration record supplies the title, both authors, the journal name, the volume and the page range 337–341. The paper is five pages long.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Apparent Weight of Photons",
+      "url": "https://doi.org/10.1103/physrevlett.4.337",
+      "author": "R. V. Pound; G. A. Rebka",
+      "date": "1960-04-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "APPARENT WEIGHT OF PHOTONS",
+      "url": "https://www.osti.gov/biblio/4170594",
+      "author": "Pound, R V; Rebka, Jr, G A",
+      "date": "1960-04-01",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "R. V. Pound and G. A. Rebka, Physical Review Letters 4, 337 (1960)",
+  "as_of_date": "1960-04-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "physics"
+  ]
+}

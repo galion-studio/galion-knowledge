@@ -1,0 +1,43 @@
+{
+  "id": "world.core.health.lav-isolation-1983",
+  "title": "Isolation of a T-lymphotropic retrovirus from a patient at risk for AIDS (Science, 1983)",
+  "section": "world",
+  "category": "medicine",
+  "summary": "In Science of 20 May 1983, Barré-Sinoussi, Chermann, Montagnier and nine co-authors reported isolating a retrovirus distinct from earlier HTLV isolates from a patient with signs that often precede AIDS.",
+  "body": "Barré-Sinoussi, Chermann, Montagnier and nine co-authors reported in Science on 20 May 1983 (vol. 220, pp. 868-871) the isolation of a retrovirus from a patient with signs that often precede AIDS. Their abstract states that a virus \"belonging to the family of recently discovered human T-cell leukemia viruses (HTLV), but clearly distinct from each previous isolate, has been isolated from a Caucasian patient with signs and symptoms that often precede the acquired immune deficiency syndrome (AIDS)\". The authors describe a type-C particle budding from the cell membrane, with an internal p25 antigen similar to HTLV p24, transmitted into cord blood lymphocytes; they conclude that such T-lymphotropic retroviruses \"may be involved in several pathological syndromes, including AIDS\". A separate 1984 Science paper by Gallo and colleagues reported cytopathic isolates designated HTLV-III from 48 subjects.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Isolation of a T-Lymphotropic Retrovirus from a Patient at Risk for Acquired Immune Deficiency Syndrome (AIDS)",
+      "url": "https://doi.org/10.1126/science.6189183",
+      "author": "F. Barré-Sinoussi, J. C. Chermann, F. Rey, M. T. Nugeyre, S. Chamaret, J. Gruest, C. Dauguet, C. Axler-Blin, F. Vézinet-Brun, C. Rouzioux, W. Rozenbaum, L. Montagnier",
+      "date": "1983-05-20",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Europe PMC record for PMID 6189183 (Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS))",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1126/science.6189183%22&resultType=core&format=json",
+      "author": "Europe PMC, EMBL-EBI",
+      "date": "1983-05-20",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Frequent Detection and Isolation of Cytopathic Retroviruses (HTLV-III) from Patients with AIDS and at Risk for AIDS",
+      "url": "https://doi.org/10.1126/science.6200936",
+      "author": "Robert C. Gallo, Syed Z. Salahuddin, Mikulas Popovic, Gene M. Shearer, Mark Kaplan, Barton F. Haynes, Thomas J. Palker, Robert Redfield, James Oleske, Bijan Safai, Gilbert White, Paul Foster",
+      "date": "1984-05-04",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Françoise Barré-Sinoussi, Jean-Claude Chermann, Luc Montagnier and co-authors, Science, 20 May 1983",
+  "as_of_date": "1983-05-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:health",
+    "medicine"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "world.core.chem.iijima-nanotubes-1991",
+  "title": "\"Helical microtubules of graphitic carbon\" (Iijima, Nature 1991)",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "DOI 10.1038/354056a0 resolves to a journal article titled \"Helical microtubules of graphitic carbon\", authored by Sumio Iijima, in Nature volume 354, pages 56-58, with a print date of November 1991.",
+  "body": "Crossref's registered record for DOI 10.1038/354056a0 lists a journal article titled \"Helical microtubules of graphitic carbon\" with Sumio Iijima as its author. The record gives the journal as Nature, volume 354, issue 6348, pages 56-58, with a print publication date of November 1991 and the work type journal-article. It names Springer Science and Business Media LLC as publisher and points to the nature.com article page as the resource. The deposited record also carries eleven cited references. The registered title describes the subject as helical microtubules of graphitic carbon; the registry metadata itself carries no abstract text, so this card reports the bibliographic claim only.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Helical microtubules of graphitic carbon",
+      "url": "https://doi.org/10.1038/354056a0",
+      "author": "Sumio Iijima",
+      "date": "1991-11",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Crossref REST API record for DOI 10.1038/354056a0",
+      "url": "https://api.crossref.org/works/10.1038/354056a0",
+      "author": "Crossref",
+      "date": "1991-11",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Crossref registry record for Nature 354, 56-58 (1991)",
+  "as_of_date": "1991-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "chemistry"
+  ]
+}

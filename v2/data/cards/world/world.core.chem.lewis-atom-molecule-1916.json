@@ -1,0 +1,43 @@
+{
+  "id": "world.core.chem.lewis-atom-molecule-1916",
+  "title": "Lewis, 'The atom and the molecule' (1916): cubical atom and the eight-electron shell",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "In a Journal of the American Chemical Society article of April 1916, Gilbert N. Lewis published a theory of atomic structure in which the atom tends to hold eight electrons in its outer shell, normally arranged at the eight corners of a cube. He used that picture to treat the difference between polar and nonpolar compounds.",
+  "body": "Gilbert N. Lewis published \"The atom and the molecule\" in the Journal of the American Chemical Society in April 1916. Lewis wrote that he had employed a theory of atomic structure for a number of years in interpreting chemical phenomena but had not previously published it, and that he presented it in this paper. Among its postulates: the atom has an inner kernel of positive charge and an outer shell whose electrons may vary between zero and eight in chemical change; and the atom tends to hold an even number of electrons, especially eight, normally arranged symmetrically at the eight corners of a cube. He applied the theory to the distinction between polar and nonpolar compounds, stating that the differing properties he tabulated are all due to a single cause. The article records receipt on January 26, 1916.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "THE ATOM AND THE MOLECULE.",
+      "url": "https://doi.org/10.1021/ja02261a002",
+      "author": "Gilbert N. Lewis",
+      "date": "1916-04",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "The Atom and the Molecule.",
+      "url": "https://zenodo.org/api/records/1429068",
+      "author": "Lewis, Gilbert N.",
+      "date": "1916-04-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "The Atom and the Molecule. (article.pdf, full text)",
+      "url": "https://zenodo.org/api/records/1429068/files/article.pdf/content",
+      "author": "Gilbert N. Lewis",
+      "date": "1916-04-01",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Gilbert N. Lewis",
+  "as_of_date": "1916-04",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:chemistry",
+    "chemistry"
+  ]
+}

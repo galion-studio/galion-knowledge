@@ -1,0 +1,36 @@
+{
+  "id": "world.core.physics.michelson-morley-1887",
+  "title": "Michelson and Morley reported no ether drift on the expected scale (1887)",
+  "section": "world",
+  "category": "physics",
+  "summary": "In the November 1887 American Journal of Science, Michelson and Morley reported that the measured fringe displacement was far smaller than the predicted one. From that, they put the earth's velocity relative to the luminiferous ether at probably less than one sixth of its orbital velocity, and certainly less than one fourth.",
+  "body": "Albert A. Michelson and Edward W. Morley published the paper in the American Journal of Science in November 1887, series 3, volume 34, issue 203, pages 333 to 345. In their account of the measurement, the observed displacement was certainly less than the twentieth part of the predicted one, and probably less than the fortieth part. Because the displacement is proportional to the square of the velocity, they wrote that the relative velocity of the earth and the ether is probably less than one sixth of the earth's orbital velocity, and certainly less than one fourth. The paper thus reported a motion far below the expected size, not a detected drift.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On the relative motion of the Earth and the luminiferous ether",
+      "url": "https://doi.org/10.2475/ajs.s3-34.203.333",
+      "author": "A. A. Michelson, E. W. Morley",
+      "date": "1887-11-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "American Journal of Science, Vol. 34, Iss. 203 (November 1887): full-text index hit for the passage on the relative velocity of the earth and the ether (Internet Archive scan)",
+      "url": "https://ia600109.us.archive.org/fulltext/inside.php?item_id=sim_american-journal-of-science_1887-11_34_203&doc=sim_american-journal-of-science_1887-11_34_203&path=/14/items/sim_american-journal-of-science_1887-11_34_203&q=%22relative+velocity+of+the+earth+and+the+ether%22",
+      "author": "A. A. Michelson, E. W. Morley (article); Internet Archive (scan and OCR index)",
+      "date": "1887-11",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "A. A. Michelson and E. W. Morley, American Journal of Science, November 1887",
+  "as_of_date": "1887-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "physics"
+  ]
+}

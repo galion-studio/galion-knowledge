@@ -1,0 +1,43 @@
+{
+  "id": "world.core.physics.higgs-1964",
+  "title": "Higgs, 'Broken Symmetries and the Masses of Gauge Bosons' (Physical Review Letters, 1964)",
+  "section": "world",
+  "category": "physics",
+  "summary": "Peter W. Higgs published a two-page article titled 'Broken Symmetries and the Masses of Gauge Bosons' in Physical Review Letters volume 13, pages 508-509, issued 19 October 1964. The title names the paper's two subjects: broken symmetries and the masses of gauge bosons.",
+  "body": "Peter W. Higgs published \"Broken Symmetries and the Masses of Gauge Bosons\" in *Physical Review Letters* volume 13, pages 508-509. Crossref registers the article under DOI 10.1103/PhysRevLett.13.508 with the issue date 1964-10-19. The OSTI record for the same DOI gives the date 19 October 1964 and names the journal as Phys. Rev. Letters. INSPIRE literature record 11883 for the article lists his affiliation as Edinburgh U., marks it refereed, records two pages, and assigns keywords including spontaneous symmetry breaking, gauge boson mass and the Goldstone theorem; those keywords are the database's own indexing, not wording printed in the article. The article's title names broken symmetries and the masses of gauge bosons as its subject. These bibliographic records support the publication facts stated here and no further claim.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Broken Symmetries and the Masses of Gauge Bosons",
+      "url": "https://doi.org/10.1103/PhysRevLett.13.508",
+      "author": "Peter W. Higgs",
+      "date": "1964-10-19",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "BROKEN SYMMETRIES AND THE MASSES OF GAUGE BOSONS (Journal Article) | OSTI.GOV",
+      "url": "https://www.osti.gov/biblio/4001997",
+      "author": "Higgs, P W (record by U.S. Department of Energy, OSTI)",
+      "date": "1964-10-19",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "INSPIRE literature record 11883: Broken Symmetries and the Masses of Gauge Bosons",
+      "url": "https://inspirehep.net/api/literature/11883",
+      "author": "Higgs, Peter W. (record maintained by INSPIRE-HEP, CERN)",
+      "date": "1964-10-19",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Peter W. Higgs, in Physical Review Letters (American Physical Society)",
+  "as_of_date": "1964-10-19",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "physics"
+  ]
+}

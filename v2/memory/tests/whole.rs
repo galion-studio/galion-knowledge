@@ -441,9 +441,9 @@ const CORE_PUBLICATIONS: &[CorePublication] = &[
     },
     CorePublication {
         version: "7",
-        sha256: "dd07f6a6d81a637a0c7272220fb4e7210a7a0e907bfa1a1c95fa614387ddd676",
-        bytes: 3_082_738,
-        cards: 1516,
+        sha256: "8bb05579aaf30b0d763b4316d9206b5a938137644eb558d63b20611b387ea907",
+        bytes: 3_138_934,
+        cards: 1539,
     },
 ];
 

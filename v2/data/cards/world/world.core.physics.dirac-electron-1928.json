@@ -1,0 +1,36 @@
+{
+  "id": "world.core.physics.dirac-electron-1928",
+  "title": "Dirac, 'The quantum theory of the electron' (Proceedings of the Royal Society A, 1928)",
+  "section": "world",
+  "category": "physics",
+  "summary": "Paul Adrien Maurice Dirac's 1928 paper attributes the failure of point-charge quantum mechanics to reproduce observed duplexity phenomena to its disagreement with relativity, and states that the simplest Hamiltonian satisfying both relativity and the general transformation theory explains those phenomena without further assumption.",
+  "body": "Paul Adrien Maurice Dirac's paper \"The quantum theory of the electron\" appeared in Proceedings of the Royal Society of London, Series A, volume 117, issue 778, pages 610-624, dated 1 February 1928. The abstract registered for the DOI opens from the observation that quantum mechanics applied to point-charge electrons gave half the observed number of stationary states, and states that \"the incompleteness of the previous theories lying in their disagreement with relativity\". It continues: \"It appears that the simplest Hamiltonian for a point-charge electron satisfying the requirements of both relativity and the general transformation theory leads to an explanation of all duplexity phenomena without further assumption.\" The same abstract records that the paper still finds the spinning-electron model largely valid as a first approximation, and that the model's most important failure concerns the orbital angular momentum of an electron in a central field.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The quantum theory of the electron",
+      "url": "https://doi.org/10.1098/rspa.1928.0023",
+      "author": "Paul Adrien Maurice Dirac",
+      "date": "1928-02-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Crossref registered record and abstract for DOI 10.1098/rspa.1928.0023 (The quantum theory of the electron)",
+      "url": "https://api.crossref.org/works/10.1098/rspa.1928.0023",
+      "author": "Crossref, deposited by The Royal Society",
+      "date": "1928-02-01",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Paul Adrien Maurice Dirac",
+  "as_of_date": "1928-02-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:physics",
+    "physics"
+  ]
+}
