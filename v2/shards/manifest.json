@@ -7,8 +7,8 @@
     "id": "core",
     "section": "core",
     "category": "core",
-    "sha256": "77d3a45c0454f4b3c7a5100471b387c1bd190e997945094906822c140c158cbf",
-    "bytes": 3082742,
+    "sha256": "dd07f6a6d81a637a0c7272220fb4e7210a7a0e907bfa1a1c95fa614387ddd676",
+    "bytes": 3082738,
     "payload": "card-bundle/1",
     "card_count": 1516
   },
