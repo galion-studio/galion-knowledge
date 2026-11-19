@@ -1,0 +1,25 @@
+{
+  "id": "world.mathematics.riemann-hypothesis-open",
+  "title": "The Riemann hypothesis is unsolved",
+  "section": "world",
+  "category": "mathematics",
+  "body": "The Clay Mathematics Institute lists the Riemann hypothesis as unsolved. It was formulated in Bernhard Riemann's 1859 paper on the number of primes below a given magnitude. The prime number theorem describes the average distribution of primes. The hypothesis says how far the count of primes departs from that average. In the institute's statement, it asserts that all the non-obvious zeros of the zeta function are complex numbers with real part 1/2. Many zeros have been checked numerically. A large finite check is not a proof. The hypothesis is a precise mathematical claim. It is not a vague hunch that primes are mysterious, and it is not known to be true. Calling it true because it is widely believed confuses reputation with proof.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Riemann Hypothesis",
+      "url": "https://www.claymath.org/millennium/riemann-hypothesis/",
+      "author": "Clay Mathematics Institute",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bernhard Riemann, 1859; status recorded by the Clay Mathematics Institute",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.mathematics.goedel-undecidability"
+  ]
+}

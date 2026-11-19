@@ -1,0 +1,41 @@
+{
+  "id": "world.science.general-relativity-1916",
+  "title": "General relativity treats gravity as geometry",
+  "section": "world",
+  "category": "science",
+  "body": "Einstein's 1916 review \"Die Grundlage der allgemeinen Relativitätstheorie\" sets out the general theory. Gravitation is described by the geometry of spacetime rather than by a force acting at a distance, and the field equations connect that geometry to the distribution of energy and momentum. An English text is available under the title \"The Foundation of the Generalised Theory of Relativity.\" The 1916 paper is the theoretical statement. How well later measurements match the theory is a separate literature. Clifford Will's 2014 review, \"The Confrontation between General Relativity and Experiment,\" surveys those tests. This card does not restate his numerical bounds. Agreement with experiment on the tests that have been done does not mean every proposed extension of the theory has been ruled out.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Die Grundlage der allgemeinen Relativitätstheorie",
+      "url": "https://doi.org/10.1002/andp.19163540702",
+      "author": "Albert Einstein",
+      "date": "1916",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Foundation of the Generalised Theory of Relativity",
+      "url": "https://en.wikisource.org/wiki/The_Foundation_of_the_Generalised_Theory_of_Relativity",
+      "author": "Albert Einstein",
+      "date": "1916",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Confrontation between General Relativity and Experiment",
+      "url": "https://doi.org/10.12942/lrr-2014-4",
+      "author": "Clifford M. Will",
+      "date": "2014",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Albert Einstein, 1916; experimental review by Clifford Will, 2014",
+  "as_of_date": "2014",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.science.special-relativity-1905",
+    "world.science.gw150914",
+    "world.technology.gps-needs-relativity"
+  ]
+}

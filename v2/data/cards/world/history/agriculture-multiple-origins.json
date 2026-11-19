@@ -1,0 +1,26 @@
+{
+  "id": "world.history.agriculture-multiple-origins",
+  "title": "Farming began in more than one place",
+  "section": "world",
+  "category": "history",
+  "body": "The introduction by T. Douglas Price and Ofer Bar-Yosef to the 2011 Current Anthropology issue on the origins of agriculture reports the state of a symposium, not a single excavation. They write that there are at least ten different places around the world where agriculture was independently developed, and that new finds were pushing the antiquity of domestication earlier. The issue is organized by region. A single \"invention of farming\" in one river valley does not fit that summary. Dates and crops differ by region, and the introduction treats the count and the dates as still moving. \"At least ten\" is their 2011 synthesis of the meeting. It is not a permanent census of origins. Independent development means people in separated regions domesticated local plants or animals, not that they copied one package.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "The Origins of Agriculture: New Data, New Ideas",
+      "url": "https://doi.org/10.1086/659964",
+      "author": "T. Douglas Price and Ofer Bar-Yosef",
+      "date": "2011",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "T. Douglas Price and Ofer Bar-Yosef, Current Anthropology, 2011",
+  "as_of_date": "2011",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.natural-selection-1859",
+    "world.society.demographic-transition-1996"
+  ]
+}

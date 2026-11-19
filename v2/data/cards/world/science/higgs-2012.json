@@ -1,0 +1,39 @@
+{
+  "id": "world.science.higgs-2012",
+  "title": "ATLAS and CMS reported a new boson near 125 GeV",
+  "section": "world",
+  "category": "science",
+  "body": "In 2012 two independent LHC collaborations published observations of a new particle in the search for the Standard Model Higgs boson. The ATLAS paper is titled \"Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC.\" The CMS paper is titled \"Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC.\" The mass figure 125 GeV is in the CMS title. The 2013 Nobel Prize in Physics was awarded to François Englert and Peter Higgs. That prize is not the same thing as the experimental papers: the papers report the observation, and the prize went to Englert and Higgs. Later measurements of the particle's properties are outside this card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+      "url": "https://doi.org/10.1016/j.physletb.2012.08.020",
+      "author": "ATLAS Collaboration",
+      "date": "2012",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC",
+      "url": "https://doi.org/10.1016/j.physletb.2012.08.021",
+      "author": "CMS Collaboration",
+      "date": "2012",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Nobel Prize in Physics 2013",
+      "url": "https://www.nobelprize.org/prizes/physics/2013/summary/",
+      "author": "Nobel Prize Outreach",
+      "date": "2013",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "ATLAS and CMS, Physics Letters B, 2012",
+  "as_of_date": "2012",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.science.neutrino-flavor-change"
+  ]
+}

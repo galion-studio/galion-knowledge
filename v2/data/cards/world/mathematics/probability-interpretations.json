@@ -1,0 +1,42 @@
+{
+  "id": "world.mathematics.probability-interpretations",
+  "title": "The axioms of probability do not say what probability means",
+  "section": "world",
+  "category": "mathematics",
+  "body": "The Stanford Encyclopedia entry \"Interpretations of Probability\" separates a formal theory from its readings. Kolmogorov's axiomatization is the usual formal theory: a function on events obeying stated rules. The entry then distinguishes interpretations that say what that function is about. Frequency interpretations tie probability to long-run relative frequency. Subjective interpretations tie it to degrees of belief, updated as evidence comes in. Propensity interpretations tie it to a physical tendency of a setup. Best-system interpretations tie it to the role of probability in a simple strong summary of the world. The axioms constrain all of these. They do not choose among them. A calculation can be correct under the axioms and still be attached to a disputed meaning. This card does not pick an interpretation.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Interpretations of Probability",
+      "url": "https://plato.stanford.edu/entries/probability-interpret/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "disputed",
+  "said_by": "The survey of interpretations in the Stanford Encyclopedia of Philosophy",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "position": "Probability is a long-run frequency.",
+      "held_by": "Frequency interpretations",
+      "source_url": "https://plato.stanford.edu/entries/probability-interpret/"
+    },
+    {
+      "position": "Probability is a degree of belief.",
+      "held_by": "Subjective interpretations",
+      "source_url": "https://plato.stanford.edu/entries/probability-interpret/"
+    },
+    {
+      "position": "Probability is a physical propensity of a chance setup.",
+      "held_by": "Propensity interpretations",
+      "source_url": "https://plato.stanford.edu/entries/probability-interpret/"
+    }
+  ],
+  "related": [
+    "world.mathematics.bayes-doctrine-of-chances",
+    "world.philosophy.hume-induction"
+  ]
+}

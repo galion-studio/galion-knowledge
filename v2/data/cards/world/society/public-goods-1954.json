@@ -1,0 +1,26 @@
+{
+  "id": "world.society.public-goods-1954",
+  "title": "Samuelson's collective consumption goods",
+  "section": "world",
+  "category": "society",
+  "body": "Paul Samuelson's 1954 paper \"The Pure Theory of Public Expenditure\" defines a kind of good for which one person's consumption does not subtract from anyone else's. A lighthouse beam and a mathematical theorem are the usual teaching examples of the idea, though the paper is an abstract theory, not a study of lighthouses. For ordinary goods, what one person uses another cannot. For these collective goods, the same unit is available to all. Samuelson then shows, inside that model, that a market of separate buyers will not in general provide the amount that equates the sum of what people would pay with the cost. The result is a theorem under the paper's assumptions. It is not a measurement of any government's budget, and it does not say that every public program fits the definition. Many things called public are partly rival or partly excludable. The paper's value is the distinction.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "The Pure Theory of Public Expenditure",
+      "url": "https://doi.org/10.2307/1925895",
+      "author": "Paul A. Samuelson",
+      "date": "1954",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Paul A. Samuelson, The Review of Economics and Statistics, 1954",
+  "as_of_date": "1954",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.society.bank-money-creation",
+    "world.society.smith-division-of-labor"
+  ]
+}

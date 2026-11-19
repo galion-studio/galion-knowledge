@@ -1,0 +1,26 @@
+{
+  "id": "world.society.smith-division-of-labor",
+  "title": "Smith's pin factory is an illustration, with his own numbers",
+  "section": "world",
+  "category": "society",
+  "body": "Book I, Chapter 1 of The Wealth of Nations is titled \"Of the Division of Labour.\" Adam Smith argues that splitting a craft into distinct operations raises what a group can produce. His illustration is a small pin works. Ten people, he writes, could make among them upwards of forty-eight thousand pins in a day, so that each might be considered as making four thousand eight hundred. If they had worked separately, without having been educated to that particular business, they certainly could not each have made twenty, perhaps not one pin in a day. Those numbers are Smith's example, not a modern time-and-motion study. The mechanism he points to is specialization: saving the time lost in switching tasks, and gaining skill by repeating one operation. The chapter is an argument in political economy. It is not a claim that every division of labor improves the worker's life. Smith himself, later in the book, worries about repetitive work. That later worry is not this chapter.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Wealth of Nations, Book I, Chapter 1",
+      "url": "https://en.wikisource.org/wiki/The_Wealth_of_Nations/Book_I/Chapter_1",
+      "author": "Adam Smith",
+      "date": "1776",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, 1776",
+  "as_of_date": "1776",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.society.bank-money-creation",
+    "world.society.public-goods-1954"
+  ]
+}

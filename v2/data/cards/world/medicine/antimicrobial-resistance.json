@@ -1,0 +1,26 @@
+{
+  "id": "world.medicine.antimicrobial-resistance",
+  "title": "What antimicrobial resistance is",
+  "section": "world",
+  "category": "medicine",
+  "body": "The World Health Organization fact sheet on antimicrobial resistance, dated 16 July 2026 on the page consulted, defines it this way: antimicrobial resistance occurs when bacteria, viruses, fungi, and parasites do not respond to antimicrobial medicines. Infections then become difficult or impossible to treat, and the risk of spread, severe illness, disability, and death rises. The mechanism is selection. When a drug kills susceptible microbes, lineages that can grow in its presence are the ones left to multiply. That is an evolutionary process inside a medical setting, not a moral failing of the microbe and not proof that the drug never worked. This card uses the WHO definition and does not quote a death toll, because tolls in the fact sheet were not copied into the card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Antimicrobial resistance",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+      "author": "World Health Organization",
+      "date": "2026-07-16",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization fact sheet, 16 July 2026",
+  "as_of_date": "2026-07-16",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.medicine.penicillin-1929",
+    "world.biology.natural-selection-1859"
+  ]
+}

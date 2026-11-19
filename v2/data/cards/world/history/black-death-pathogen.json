@@ -1,0 +1,36 @@
+{
+  "id": "world.history.black-death-pathogen",
+  "title": "Yersinia pestis in identified Black Death burials",
+  "section": "world",
+  "category": "history",
+  "body": "Bos and coauthors reconstructed a draft genome of Yersinia pestis from people buried at East Smithfield in London, a cemetery where more than 2,000 victims of the Black Death were buried in 1348 and 1349. The DNA came from four individuals. The paper identifies the bacterium of bubonic plague in those victims of the fourteenth-century pandemic. The draft genome does not differ substantially from modern Y. pestis strains, and the authors say this does not answer why the Black Death killed a larger share of people than modern outbreaks. The result ties that London cemetery to plague. It does not, by itself, give a death rate for Europe, and European mortality estimates remain disputed among historians. Medieval chronicles describe a mass death. They do not name the bacterium. The bacterium comes from the ancient DNA.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A draft genome of Yersinia pestis from victims of the Black Death",
+      "url": "https://doi.org/10.1038/nature10549",
+      "author": "Kirsten I. Bos and coauthors",
+      "date": "2011",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bos and coauthors, Nature, 2011",
+  "as_of_date": "2011",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "position": "The people sampled at East Smithfield who died in 1348–1349 carried Yersinia pestis.",
+      "held_by": "Bos and coauthors 2011",
+      "source_url": "https://doi.org/10.1038/nature10549"
+    },
+    {
+      "position": "How large a fraction of Europe's population died in the pandemic is not settled by this genome.",
+      "held_by": "A limit of the study; demographic estimates remain a separate historical argument",
+      "source_url": "https://doi.org/10.1038/nature10549"
+    }
+  ],
+  "related": [
+    "world.medicine.penicillin-1929"
+  ]
+}

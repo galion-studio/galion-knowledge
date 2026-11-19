@@ -1,0 +1,25 @@
+{
+  "id": "world.biology.endosymbiosis-1967",
+  "title": "Eukaryotic cells from symbiotic microbes",
+  "section": "world",
+  "category": "biology",
+  "body": "In 1967 Lynn Sagan, later known as Lynn Margulis, published \"On the origin of mitosing cells.\" The paper argues that eukaryotic cells, the cells that divide by mitosis, arose when previously free-living microbes became symbionts inside a host cell. Mitochondria and chloroplasts are the organelles at the center of that account: they have their own genetic material and they resemble bacteria in ways the paper marshals as evidence. The 1967 paper is a proposal with a comparative argument, not a genome sequence. Later sequencing made the bacterial ancestry of those organelles much harder to dismiss, but that later work is not this paper. Endosymbiosis explains the origin of those organelles. It does not by itself explain every feature of eukaryotic cells.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On the origin of mitosing cells",
+      "url": "https://doi.org/10.1016/0022-5193(67)90079-3",
+      "author": "Lynn Sagan (Lynn Margulis)",
+      "date": "1967",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Lynn Sagan (Margulis), Journal of Theoretical Biology, 1967",
+  "as_of_date": "1967",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.chemiosmotic-coupling-1961"
+  ]
+}

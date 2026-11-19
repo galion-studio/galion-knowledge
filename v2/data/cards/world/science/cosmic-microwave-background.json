@@ -1,0 +1,46 @@
+{
+  "id": "world.science.cosmic-microwave-background",
+  "title": "The microwave background: excess noise, then a blackbody spectrum",
+  "section": "world",
+  "category": "science",
+  "body": "In 1965 Penzias and Wilson reported that the zenith noise temperature of their horn antenna at 4080 Mc/s was about 3.5 K higher than expected. Within their observations the excess was isotropic, unpolarized, and free of seasonal variation from July 1964 to April 1965. They pointed to a possible explanation in the companion paper by Dicke, Peebles, Roll, and Wilkinson, \"Cosmic Black-Body Radiation,\" rather than declaring a finished cosmology themselves. The excess antenna temperature is not the same number as the later thermodynamic temperature. The COBE FIRAS instrument measured the spectrum. Fixsen and coauthors, using the full FIRAS data, reported an absolute temperature of 2.728 ± 0.004 K (95 percent confidence). Mather and coauthors had earlier reported 2.726 ± 0.010 K (95 percent confidence, systematic). Those are the temperatures in those papers, not a promise that no later reduction exists.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A Measurement of Excess Antenna Temperature at 4080 Mc/s",
+      "url": "https://doi.org/10.1086/148307",
+      "author": "A. A. Penzias and R. W. Wilson",
+      "date": "1965",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Cosmic Black-Body Radiation",
+      "url": "https://doi.org/10.1086/148306",
+      "author": "R. H. Dicke, P. J. E. Peebles, P. G. Roll, and D. T. Wilkinson",
+      "date": "1965",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Measurement of the cosmic microwave background spectrum by the COBE FIRAS instrument",
+      "url": "https://doi.org/10.1086/173574",
+      "author": "J. C. Mather and coauthors",
+      "date": "1994",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Cosmic Microwave Background Spectrum from the Full COBE FIRAS Data Set",
+      "url": "https://doi.org/10.1086/178173",
+      "author": "D. J. Fixsen and coauthors",
+      "date": "1996",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Penzias and Wilson 1965; Dicke and coauthors 1965; FIRAS analyses 1994 and 1996",
+  "as_of_date": "1996",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.science.stellar-element-synthesis"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "world.biology.natural-selection-1859",
+  "title": "Natural selection in the 1859 Origin of Species",
+  "section": "world",
+  "category": "biology",
+  "body": "Charles Darwin's On the Origin of Species, in the 1859 edition preserved on Wikisource, argues that populations change across generations by natural selection. Individuals vary. Some of that variation is heritable. More offspring are produced than survive and reproduce. Heritable differences that affect survival and reproduction therefore become more or less common. The book presents this as a mechanism of descent with modification, and it assembles evidence from domestication, biogeography, morphology, and the fossil record as Darwin understood them. It does not contain Mendelian genetics or DNA. Those came later and explain inheritance, which the 1859 book left unresolved. Alfred Russel Wallace reached a similar mechanism independently; his 1858 paper is not linked in this card, so the card rests on Darwin's 1859 book.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On the Origin of Species (1859)",
+      "url": "https://en.wikisource.org/wiki/On_the_Origin_of_Species_(1859)",
+      "author": "Charles Darwin",
+      "date": "1859",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Charles Darwin, On the Origin of Species, 1859",
+  "as_of_date": "1859",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.dna-double-helix-1953",
+    "world.biology.mendelian-proportions-1908",
+    "world.history.agriculture-multiple-origins"
+  ]
+}

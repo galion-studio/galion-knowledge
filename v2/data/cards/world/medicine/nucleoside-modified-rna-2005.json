@@ -1,0 +1,25 @@
+{
+  "id": "world.medicine.nucleoside-modified-rna-2005",
+  "title": "Nucleoside changes and innate recognition of RNA",
+  "section": "world",
+  "category": "medicine",
+  "body": "Karikó, Buckstein, Ni, and Weissman published \"Suppression of RNA Recognition by Toll-like Receptors: The Impact of Nucleoside Modification and the Evolutionary Origin of RNA\" in Immunity in 2005. The title states the finding this card uses. Cells detect some RNA as foreign through Toll-like receptors, which is part of innate immunity. The paper reports that nucleoside modification of RNA suppresses that recognition. The evolutionary point in the title is that the chemical differences between RNA kinds are part of how cells tell self from non-self. The paper is an immunology paper. It is not a trial of a vaccine. Later use of modified nucleosides in mRNA vaccines is a further history and is not documented in this card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Suppression of RNA Recognition by Toll-like Receptors: The Impact of Nucleoside Modification and the Evolutionary Origin of RNA",
+      "url": "https://doi.org/10.1016/j.immuni.2005.06.008",
+      "author": "Katalin Karikó, Michael Buckstein, Houping Ni, and Drew Weissman",
+      "date": "2005",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Karikó, Buckstein, Ni, and Weissman, Immunity, 2005",
+  "as_of_date": "2005",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.central-dogma-1970"
+  ]
+}

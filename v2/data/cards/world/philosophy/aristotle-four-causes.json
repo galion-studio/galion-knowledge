@@ -1,0 +1,26 @@
+{
+  "id": "world.philosophy.aristotle-four-causes",
+  "title": "Aristotle's four causes are four kinds of explanation",
+  "section": "world",
+  "category": "philosophy",
+  "body": "The Stanford Encyclopedia article on Aristotle presents his doctrine of the four causes. They are not four competing physical forces. They are four questions a full explanation can answer. The material cause is what something is made of. The formal cause is its pattern or definition. The efficient cause is what brought it about. The final cause is the end toward which it develops or is used. A modern physical explanation often stops at material and efficient causes and treats purposes in nature with suspicion. Aristotle's scheme counts the end as part of the explanation of living things and of artifacts. The four causes are his framework, written in the fourth century BCE and transmitted through a long commentarial tradition. They are not a result of an experiment. Using them as if they were a rival to chemistry confuses a theory of explanation with a theory of matter.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Aristotle",
+      "url": "https://plato.stanford.edu/entries/aristotle/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Aristotle, as presented in the Stanford Encyclopedia of Philosophy",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.history.pericles-funeral-oration",
+    "world.philosophy.analects-and-confucius"
+  ]
+}

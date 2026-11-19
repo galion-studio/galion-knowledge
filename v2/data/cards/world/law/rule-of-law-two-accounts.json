@@ -1,0 +1,44 @@
+{
+  "id": "world.law.rule-of-law-two-accounts",
+  "title": "Two live meanings of the rule of law",
+  "section": "world",
+  "category": "law",
+  "body": "The United Nations describes the rule of law as a principle of governance in which all persons, institutions, and entities, public and private, including the state itself, are accountable to laws that are publicly promulgated, equally enforced, and independently adjudicated, and that are consistent with international human rights norms and standards. That definition builds human rights into the idea. The Stanford Encyclopedia entry on the rule of law records a different insistence. Joseph Raz, in particular, argues that the rule of law should be distinguished from democracy, human rights, and social justice, or the phrase stops identifying anything of its own. Both uses are current. One folds several political ideals together. The other tries to keep a thinner ideal: laws that are prospective, public, and capable of being followed, applied by accessible courts. This card does not pick a definition. Using the phrase as if it had only one meaning hides the disagreement.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "What is the rule of law",
+      "url": "https://www.un.org/ruleoflaw/what-is-the-rule-of-law/",
+      "author": "United Nations",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Rule of Law",
+      "url": "https://plato.stanford.edu/entries/rule-of-law/",
+      "author": "Stanford Encyclopedia of Philosophy",
+      "date": "accessed 2026",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "disputed",
+  "said_by": "United Nations definition, contrasted with the Razian distinction in the Stanford Encyclopedia",
+  "as_of_date": "2026-11-18",
+  "status": "sourced",
+  "contested_views": [
+    {
+      "position": "The rule of law includes equal enforcement, independent adjudication, and consistency with international human rights.",
+      "held_by": "United Nations",
+      "source_url": "https://www.un.org/ruleoflaw/what-is-the-rule-of-law/"
+    },
+    {
+      "position": "The rule of law should be kept distinct from democracy, human rights, and social justice.",
+      "held_by": "Joseph Raz, as discussed in the Stanford Encyclopedia entry",
+      "source_url": "https://plato.stanford.edu/entries/rule-of-law/"
+    }
+  ],
+  "related": [
+    "world.law.icj-sources-of-law",
+    "world.history.magna-carta-1215-1225"
+  ]
+}

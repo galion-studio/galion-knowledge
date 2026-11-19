@@ -1,0 +1,39 @@
+{
+  "id": "world.science.neutrino-flavor-change",
+  "title": "Neutrino flavor change and a nonzero mass splitting",
+  "section": "world",
+  "category": "science",
+  "body": "Super-Kamiokande's 1998 analysis of atmospheric neutrinos found a zenith-angle deficit of muon neutrinos that flux and cross-section uncertainties did not explain. The data fit two-flavor muon-to-tau oscillation with sin²2θ > 0.82 and 5×10^-4 < Δm² < 6×10^-3 eV² at 90 percent confidence. A nonzero mass-squared splitting means at least one neutrino mass is not zero. Those bounds are that paper's interval, not a current global fit. In 2002 the Sudbury Neutrino Observatory reported neutral-current interactions on deuterium. Assuming the standard boron-8 spectrum, the non-electron flavor component of the flux was 5.3 sigma above zero, which the paper calls strong evidence that solar electron neutrinos change flavor. The 2015 Nobel Prize in Physics went to Takaaki Kajita and Arthur B. McDonald; the Nobel site's scientific background for the prize is on neutrino oscillations. Oscillation measures mass differences, not the absolute mass scale.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Evidence for Oscillation of Atmospheric Neutrinos",
+      "url": "https://doi.org/10.1103/PhysRevLett.81.1562",
+      "author": "Y. Fukuda and the Super-Kamiokande Collaboration",
+      "date": "1998",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Direct Evidence for Neutrino Flavor Transformation from Neutral-Current Interactions in the Sudbury Neutrino Observatory",
+      "url": "https://doi.org/10.1103/PhysRevLett.89.011301",
+      "author": "Q. R. Ahmad and the SNO Collaboration",
+      "date": "2002",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "The Nobel Prize in Physics 2015",
+      "url": "https://www.nobelprize.org/prizes/physics/2015/summary/",
+      "author": "Nobel Prize Outreach",
+      "date": "2015",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Super-Kamiokande 1998; SNO 2002",
+  "as_of_date": "2002",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.science.higgs-2012"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "world.nature.human-domination-1997",
+  "title": "A 1997 estimate of human alteration of ecosystems",
+  "section": "world",
+  "category": "nature",
+  "body": "Vitousek, Mooney, Lubchenco, and Melillo's 1997 Science paper, \"Human Domination of Earth's Ecosystems,\" is a synthesis, and its numbers are 1997 estimates, not a 2026 census. The abstract states that between one-third and one-half of the land surface had been transformed by human action; that atmospheric carbon dioxide had increased by nearly 30 percent since the start of the Industrial Revolution; that humanity fixed more atmospheric nitrogen than all natural terrestrial sources combined; that more than half of accessible surface fresh water was put to human use; and that about one-quarter of bird species had been driven to extinction. Those are the authors' summary claims. The bird figure in particular is easy to repeat as if it were a current headcount of extinctions. It should stay attached to this 1997 paper. The paper's point is the scale of human alteration across land, atmosphere, nitrogen, water, and biota at once.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Human Domination of Earth's Ecosystems",
+      "url": "https://doi.org/10.1126/science.277.5325.494",
+      "author": "Peter M. Vitousek, Harold A. Mooney, Jane Lubchenco, and Jerry M. Melillo",
+      "date": "1997",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Vitousek, Mooney, Lubchenco, and Melillo, Science, 1997",
+  "as_of_date": "1997",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.nature.keeling-co2-1960",
+    "world.society.demographic-transition-1996"
+  ]
+}

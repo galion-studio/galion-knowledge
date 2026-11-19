@@ -1,0 +1,26 @@
+{
+  "id": "world.biology.central-dogma-1970",
+  "title": "What Crick's central dogma forbids",
+  "section": "world",
+  "category": "biology",
+  "body": "Francis Crick's 1970 Nature article is titled \"Central Dogma of Molecular Biology.\" It is his statement of the idea, written after reverse transcriptase was already known, so it is a clarification rather than the first time anyone had discussed information in the cell. Popular slogans sometimes flatten the claim into \"DNA makes RNA makes protein\" and then treat any exception as a collapse of the dogma. The article itself is the place where Crick says which transfers of sequence information he regards as forbidden. The transfer he treats as forbidden is from the sequence of a protein back into a nucleic acid. A flow from RNA into DNA does not, on that formulation, break the rule. Readers should use the 1970 paper for the exact statement. This card is a warning about the slogan, not a substitute for the paper.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Central Dogma of Molecular Biology",
+      "url": "https://doi.org/10.1038/227561a0",
+      "author": "Francis Crick",
+      "date": "1970",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Francis Crick, Nature, 1970",
+  "as_of_date": "1970",
+  "status": "sourced",
+  "contested_views": [],
+  "related": [
+    "world.biology.dna-double-helix-1953",
+    "world.medicine.nucleoside-modified-rna-2005"
+  ]
+}
