@@ -1,0 +1,36 @@
+{
+  "id": "world.core.math.diffie-hellman-1976",
+  "title": "Diffie and Hellman (1976): public key distribution over an insecure channel",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "In their November 1976 IEEE Transactions on Information Theory paper, Whitfield Diffie and Martin E. Hellman proposed public key distribution systems in which two users communicate over a public channel until they arrive at a key in common that an eavesdropper cannot feasibly compute.",
+  "body": "The claim: two users can arrive at a key in common by communicating back and forth over a public channel, in such a way that a third party eavesdropping on the exchange cannot feasibly compute the key from what it overhears. Whitfield Diffie and Martin E. Hellman stated this in 'New Directions in Cryptography', published in IEEE Transactions on Information Theory, vol. IT-22, no. 6, November 1976. The paper says: \"Public key distribution systems offer a different approach to eliminating the need for a secure key distribution channel. In such a system, two users who wish to exchange a key communicate back and forth until they arrive at a key in common.\" It adds that an eavesdropping third party must find it computationally infeasible to compute the key from the information overheard, and gives a possible solution in its Section III.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "New directions in cryptography",
+      "url": "https://doi.org/10.1109/tit.1976.1055638",
+      "author": "W. Diffie; M. Hellman",
+      "date": "1976-11",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "New Directions in Cryptography (IEEE Transactions on Information Theory, Vol. IT-22, No. 6, November 1976, full text)",
+      "url": "https://ee.stanford.edu/~hellman/publications/24.pdf",
+      "author": "Whitfield Diffie and Martin E. Hellman",
+      "date": "1976-11",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Whitfield Diffie and Martin E. Hellman",
+  "as_of_date": "1976-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:math",
+    "mathematics"
+  ]
+}

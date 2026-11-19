@@ -1,0 +1,43 @@
+{
+  "id": "world.core.math.appel-haken-four-color-1977",
+  "title": "Appel and Haken: every planar map is four colorable (Illinois Journal of Mathematics, 1977)",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Kenneth Appel and Wolfgang Haken published a two-part paper in the Illinois Journal of Mathematics in September 1977 titled 'Every planar map is four colorable', with John Koch a co-author of Part II.",
+  "body": "The claim is stated in the title of the paper itself: every planar map is four colorable. The DOI registry (Crossref) records 'Every planar map is four colorable. Part I: Discharging' by K. Appel and W. Haken in the Illinois Journal of Mathematics, volume 21, issue 3, pages 429–490, dated 1 September 1977, with publisher Duke University Press. It records 'Every planar map is four colorable. Part II: Reducibility' by K. Appel, W. Haken and J. Koch in the same journal, volume and issue, pages 491–567, dated 1 September 1977. The registry also records a 'Microfiche supplement to \"Every planar map is four colorable\"' by K. Appel and W. Haken in the same volume and issue.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Every planar map is four colorable. Part I: Discharging",
+      "url": "https://doi.org/10.1215/ijm/1256049011",
+      "author": "K. Appel, W. Haken",
+      "date": "1977-09-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Every planar map is four colorable. Part II: Reducibility",
+      "url": "https://doi.org/10.1215/ijm/1256049012",
+      "author": "K. Appel, W. Haken, J. Koch",
+      "date": "1977-09-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Microfiche supplement to \"Every planar map is four colorable\"",
+      "url": "https://doi.org/10.1215/ijm/1256049024",
+      "author": "K. Appel, W. Haken",
+      "date": "1977-09-01",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Kenneth Appel and Wolfgang Haken (Part II with John Koch), in the Illinois Journal of Mathematics",
+  "as_of_date": "1977-09-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:math",
+    "mathematics"
+  ]
+}

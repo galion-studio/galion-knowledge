@@ -1,0 +1,50 @@
+{
+  "id": "world.core.math.wiles-fermat-1995",
+  "title": "Wiles's 1995 Annals paper 'Modular elliptic curves and Fermat's Last Theorem', with the companion Taylor–Wiles paper",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "The Annals of Mathematics published Wiles's paper 'Modular Elliptic Curves and Fermat's Last Theorem' in May 1995, with the companion paper 'Ring-Theoretic Properties of Certain Hecke Algebras' by Taylor and Wiles in the same issue.",
+  "body": "Andrew Wiles's article \"Modular Elliptic Curves and Fermat's Last Theorem\" appeared in The Annals of Mathematics, volume 141, issue 3, in May 1995, starting at page 443, with Wiles as sole listed author. The same issue carries the companion paper \"Ring-Theoretic Properties of Certain Hecke Algebras\" by Richard Taylor and Andrew Wiles, starting at page 553. Both registered records name The Annals of Mathematics, published by JSTOR, ISSN 0003-486X, as the container. The registered titles are those quoted, so the pairing of modular elliptic curves with Fermat's Last Theorem is the title the journal published; this card records the publication record, not a reading of the proof text.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Modular Elliptic Curves and Fermat's Last Theorem",
+      "url": "https://doi.org/10.2307/2118559",
+      "author": "Andrew Wiles",
+      "date": "1995-05",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Ring-Theoretic Properties of Certain Hecke Algebras",
+      "url": "https://doi.org/10.2307/2118560",
+      "author": "Richard Taylor, Andrew Wiles",
+      "date": "1995-05",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Crossref metadata record for 10.2307/2118559",
+      "url": "https://api.crossref.org/works/10.2307/2118559",
+      "author": "Crossref",
+      "date": "1995-05",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Crossref metadata record for 10.2307/2118560",
+      "url": "https://api.crossref.org/works/10.2307/2118560",
+      "author": "Crossref",
+      "date": "1995-05",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Andrew Wiles; with Richard Taylor for the companion paper",
+  "as_of_date": "1995-05",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:math",
+    "mathematics"
+  ]
+}

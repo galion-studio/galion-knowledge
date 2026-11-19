@@ -1,0 +1,36 @@
+{
+  "id": "world.core.math.kolmogorov-chaitin-random-1966",
+  "title": "On the Length of Programs for Computing Finite Binary Sequences (Chaitin, 1966)",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "In his October 1966 Journal of the ACM paper, Gregory J. Chaitin studied how long programs (measured in instructions) must be for Turing machines to compute finite binary sequences, and proposed an application of the concepts developed to the problem of defining a patternless sequence.",
+  "body": "In the October 1966 issue of the Journal of the ACM, Gregory J. Chaitin (The City College of the City University of New York) published \"On the Length of Programs for Computing Finite Binary Sequences\" (Journal of the ACM 13(4), pages 547-569). The paper's abstract states: \"The use of Turing machines for calculating finite binary sequences is studied from the point of view of information theory and the theory of recursive functions.\" It continues: \"Various results are obtained concerning the number of instructions in programs. A modified form of Turing machine is studied from the same point of view. An application to the problem of defining a patternless sequence is proposed in terms of the concepts here developed.\"",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "On the Length of Programs for Computing Finite Binary Sequences",
+      "url": "https://doi.org/10.1145/321356.321363",
+      "author": "Gregory J. Chaitin",
+      "date": "1966-10",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Crossref metadata record for DOI 10.1145/321356.321363 (includes the publisher-deposited abstract)",
+      "url": "https://api.crossref.org/works/10.1145/321356.321363",
+      "author": "Crossref (registration agency); work by Gregory J. Chaitin",
+      "date": "1966",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Gregory J. Chaitin",
+  "as_of_date": "1966-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:math",
+    "mathematics"
+  ]
+}

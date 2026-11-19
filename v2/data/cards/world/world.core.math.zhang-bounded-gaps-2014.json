@@ -1,0 +1,36 @@
+{
+  "id": "world.core.math.zhang-bounded-gaps-2014",
+  "title": "Bounded gaps between primes (Zhang, Annals of Mathematics 2014)",
+  "section": "world",
+  "category": "mathematics",
+  "summary": "Yitang Zhang proved in the Annals of Mathematics (2014) that infinitely many pairs of consecutive primes differ by less than 7×10^7.",
+  "body": "In the Annals of Mathematics, Volume 179, Issue 3 (pages 1121–1174, published online 1 May 2014), Yitang Zhang of the University of New Hampshire proved that lim inf as n goes to infinity of (p_{n+1} − p_n) is less than 7×10^7, where p_n is the n-th prime. The paper's abstract states the result as a theorem: \"It is proved that\" the lim inf of the consecutive prime gap is below 7×10^7. On the method, the abstract describes it as a refinement of recent work of Goldston, Pintz and Yıldırım on small gaps between consecutive primes, and says that a major ingredient of the proof is a stronger version of the Bombieri-Vinogradov theorem, applicable when the moduli are free from large prime divisors only. The paper was received 17 April 2013 and accepted 21 May 2013.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Bounded gaps between primes",
+      "url": "https://doi.org/10.4007/annals.2014.179.3.7",
+      "author": "Yitang Zhang",
+      "date": "2014-05-01",
+      "accessed": "2026-11-19"
+    },
+    {
+      "title": "Bounded gaps between primes | Annals of Mathematics (official journal page, Vol. 179, Issue 3)",
+      "url": "https://annals.math.princeton.edu/2014/179-3/p07",
+      "author": "Yitang Zhang",
+      "date": "2014",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Yitang Zhang, in the peer-reviewed paper 'Bounded gaps between primes', Annals of Mathematics 179(3), 2014",
+  "as_of_date": "2014-05-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:math",
+    "mathematics"
+  ]
+}
