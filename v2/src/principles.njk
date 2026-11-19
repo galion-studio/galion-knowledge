@@ -1,0 +1,126 @@
+---
+layout: base.njk
+title: How this knowledge is built
+description: How we build Galion Knowledge without agendas. Sources, provenance, the truth gate, revisions, and how the pack stays open to judgement.
+permalink: principles/index.html
+---
+{% from "icon.njk" import icon with context %}
+{% set pack = cards | real %}
+<header class="subhead">
+  <div class="subhead-inner">
+    <div class="subhead-left">
+      <button type="button" data-back aria-label="Back">{{ icon("arrow-left", "") }}</button>
+      <a class="brand" href="{{ "/" | url }}">{{ icon("book-open", "icon-brand") }} Knowledge</a>
+    </div>
+  </div>
+</header>
+<article class="article">
+  <p class="crumbs">
+    <a href="{{ "/" | url }}">Knowledge</a>
+    <span aria-hidden="true">/</span>
+    <span>Principles</span>
+  </p>
+  <h1>How this knowledge is built</h1>
+  <p class="lede">We build this pack without agendas. A claim stays with its source, its date, and who said it. When people disagree, we show the sides. When we do not know, we say so.</p>
+
+  <div class="prose">
+    <h2>Without agendas</h2>
+    <p>This is a library of claims, not a verdict on the world. We want the history that the documents themselves record, not only the story that later won. We want science and physics from official measurements and from papers whose pages were opened, not from a second-hand gloss. We want a clear account of how the world actually works, with the limits of that account left in view.</p>
+    <p>HORBM retrieves these cards. It is not a large language model, and it does not get to invent a source in order to sound complete.</p>
+
+    <h2>Sources, and what we will not use</h2>
+    <p>A card is written from a span that exists in a source that was opened. No span, no card. We do not fill a hole from memory, and we do not invent a citation. An empty source list is the honest value.</p>
+    <p>The sources we prefer are original documents and scans, official texts, standards bodies, peer-reviewed papers and their data, official measurement publications, and more than one independent archive when history is contested. Money and law are taken from the official texts themselves: the statute, the charter, the central-bank page, the court or treasury document, not a later commentary on them.</p>
+    <p>Wikipedia is not a source, and neither is anything written by rewriting it. A Wikipedia URL, or a listed mirror or derivative, is a hard failure in the truth gate. Wikisource is not Wikipedia: it is a transcription of a named primary text, and the scan or edition remains the source. Wikidata is only an identifier crosswalk, not evidence for a claim.</p>
+
+    <h2>Source, date, and who said it</h2>
+    <p>Every claim carries three things: the source, the date, and who said it. On a card that is the source title and URL, the source's own date, the date we accessed it, the date the claim is stated as of, and the author, body, or speaker named on that source. If the speaker or the date is unknown, the field stays empty. We do not invent a name to complete the record.</p>
+
+    <h2>What a card is</h2>
+    <p>One card is one claim. It has a short title, a summary, and a body. It is labelled as a <strong>fact</strong>, an <strong>interpretation</strong>, an <strong>opinion</strong>, or a <strong>contested</strong> claim, and those four stay distinct. A fact is the wording or the measured quantity of an opened source. An interpretation is a reading across opened sources, or a later summary of a primary text, and it is labelled as such. An opinion includes house design choices; a house rule is not a research finding. A contested card is one where the opened evidence disagrees.</p>
+    <p>Evidence is also labelled: <strong>none</strong>, <strong>weak</strong>, <strong>moderate</strong>, or <strong>strong</strong>. None means no source is attached. Weak means a draft note, a single secondary mention, or a house rule. Moderate means a primary document that does not settle the whole question, a self-reported figure, or a textbook in the gate's secondary class. Strong means the claim is the wording of the primary document itself, or several independent sources agree. A high number carried over from an earlier version of the site is not evidence, and it is not shown as a truth score.</p>
+
+    <h2>The core pack and the shards</h2>
+    <p>The core is the small set of sourced cards a person needs first: constants and measurements, Earth and life, history from primary documents, money and law from official texts, and how we know what we know. A shard is everything that can wait: a catalogue row, a local statute, a single paper that does not change the picture, or a specialist field such as clinical medicine.</p>
+    <p>The owner's target for the core is about 50,000 to 200,000 well-sourced cards. That is a target, not a count of cards that exist. This build has <strong>{{ pack | length }}</strong> core cards, <strong>{{ cards | sourcedCount }}</strong> of them with a source URL. <strong>{{ shardPack.shards | length }}</strong> add-on shards are named; <strong>{{ shardPack.cards | length }}</strong> shard cards are seeded. A device keeps the core and loads a shard when a question falls outside it.</p>
+
+    <h2>How a card is written and published</h2>
+    <p>This site reads cards. It does not author them. Each area is filled from pages that were opened. The claim is copied or tightly paraphrased from a span in that source. The URL that was opened goes on the card, with the author, the date, and the date it was accessed. A number that a page prints with a gap is not completed from memory. A disagreement whose other side was not opened is not invented.</p>
+    <p>A card is published when the site builds and the truth gate exits with no hard failure. Both checks run on every pull request, together with the tests for the gate and the memory crate. Warnings stay in the report. They are part of the record, not something we hide by the exit code. Anyone may challenge a published card by proposing a change to the file, naming the card, the sentence, and the evidence. Wikipedia is not evidence for a challenge either.</p>
+
+    <h2>When we don't know</h2>
+    <p>If no knowledge card covers the question, the answer is “I don't know.” A memory of something the user said does not fill that in, and we do not invent the source. The miss is written to a gap queue after the answer has already been given, with the most repeated question first. The queue can point to a card that should be revised, a shard that is named but not loaded, or Galion Research, when nothing in the pack is close. The queue item is not itself a fact. Nothing is generated just to close the gap.</p>
+
+    <h2>Nothing is silently rewritten</h2>
+    <p>When a published field changes, we append a history entry: the date, what changed, the old and new values, and a note that keeps the previous wording and the source that justified the change. Older history is not edited and not removed. The previous card text also remains in the revision archive, with its source, date, and speaker. Search reads the latest copy; the older copies can still be read.</p>
+    <p>A card file is not deleted. To retire one, we mark it archived, record the reason, and leave the text in the pack. Git history is a second archive, not a reason to delete the file. The truth-gate workflow rejects a pull request that deletes a card file.</p>
+  </div>
+
+  <div class="prose">
+    <h2>Knowledge integrity</h2>
+    <p>How we keep the pack healthy, resist corruption, and leave more than one view in sight.</p>
+
+    <h3>Keeping the pack healthy</h3>
+    <p>A healthy card is dated and attributed. The source has its own date, the card records when that source was accessed, and the claim has an “as of” date. When the claim itself changes, that “as of” date becomes the review date. The source's own date is left on the source.</p>
+    <p>Health is also a refusal to tidy the past. Silent edits are not allowed: a change is a revision, the old text stays, and a gap is logged rather than papered over. We do not run a silent rewrite of the library when a new page appears. Freshness comes from a dated record and from a later review that leaves its trail, not from an unnoticed replacement.</p>
+
+    <h3>How knowledge gets corrupted, and what we do about it</h3>
+    <p>These are the failure modes we have already encoded checks for, and the limits of those checks.</p>
+    <ul>
+      <li><strong>A single source, or a single voice, standing in for the record.</strong> Two independent sources are the usual bar for a strong card. One primary can still be strong when the claim is that document's own wording, but the gate warns when a strong card has only one independent source, and when a contested card has fewer than two. It also warns when one outlet is at least 60% of a category's source URLs, or when one government or international body is at least 75%. Those are warnings, not hard blocks. They stay in the report so a reviewer can see the concentration.</li>
+      <li><strong>Copied secondary summaries treated as the thing itself.</strong> A textbook, a museum encyclopedia, or another scholarly secondary source has a ceiling of moderate. The claim does not become strong by being well written. Where a page is a later summary of a primary text, the card is an interpretation, not a fact.</li>
+      <li><strong>Wikipedia, or text derived from it.</strong> A Wikipedia host, mirror, or listed derivative is a hard failure. A card that merely names Wikipedia in its wording is a warning, even when the sentence says it was not used.</li>
+      <li><strong>A citation a model made up.</strong> We do not invent a citation, and we do not fill an empty list from memory. A fact needs at least one real http or https URL. An unsourced card must have an empty source list. The pages used for the core pack were opened, and that access date is stored. The gate can also request each source URL, but that live check is off unless it is turned on, and it is not part of the default run or of CI, so the checks stay usable offline. A live request that fails is a warning. A host that refuses the request is not proof the source is false. Requiring a fetched, checked URL on every new card, as a hard rule, is a decision for new writing; it is not how the published gate behaves today.</li>
+      <li><strong>Popularity standing in for truth.</strong> Evidence strength comes from the class of the sources and from their independence, not from how often a claim is repeated, and not from a score inherited from an earlier version of the site.</li>
+      <li><strong>The winner's history.</strong> History is taken from the wording of treaties, laws, letters, and eyewitness pages. When the opened texts disagree, the card is contested, both views stay, and we do not pick a winner. For contested history we prefer more than one independent archive. A side that was not opened is not invented so that the page looks balanced.</li>
+    </ul>
+
+    <h3>Many perspectives</h3>
+    <p>A contested card keeps the views side by side, each with a label and a short account, and with the opened sources on the card. We do not delete the earlier view when new evidence arrives: we add the new view and keep the old one. If both are real, the claim type is contested. We do not invent a side that neither the card nor the new source states.</p>
+    <p>History in the core pack already draws on documents from many regions and eras. When accounts from different sides were opened — for example two reports of the same meeting, or a set of letters and treaties that do not say the same thing — they stay together, labelled, without a verdict. That is the method. It is not a promise that every region or every era is already filled.</p>
+    <p>On religions, we quote a named translation or a named selection of the text itself, not a reference encyclopedia. A later summary is labelled as an interpretation. A compilation is labelled as a compilation. Where two passages in the same tradition stand in tension, they are left side by side and are not resolved. Believers' wording and a scholar's later reading are not collapsed into one voice.</p>
+    <p>Uncertainty is stated plainly. Empty speaker and date fields stay empty. A card may say it does not know. Evidence can be weak or moderate, and a warning can remain after the card is published. The pack is allowed to be unfinished.</p>
+
+    <h3>Fact, interpretation, and opinion stay apart</h3>
+    <p>We do not let a design choice, a house rule, or a later reading dress itself as a measured fact. The gate will warn when an opinion is labelled strong, even if a qualifying source is attached, so that a person still has to say whether the claim is that source's finding or our own rule. A loaded word on a fact is a flag for a reviewer. It is not an automatic rewrite and not an automatic rejection; sometimes the word is the document's own.</p>
+
+    <h3>The class of a source, and what we do not yet check</h3>
+    <p>Every source is classed: peer-reviewed, preprint, official, primary text, dataset, scholarly secondary, house, news, or other. That class sets a ceiling on how strong the card may be. A house page on our own sites cannot support a strong factual claim on its own. News, and any host the configuration does not name, also ceiling at weak. A preprint can be strong, but a strong card that rests only on a preprint is a warning.</p>
+    <p>We have not yet built a separate check that follows the money or the incentives behind a source. What a reader can already see is who published it, when, which class it falls in, and whether one outlet or one official voice dominates a category. That is not the same as a funding or interest disclosure, and we do not pretend it is.</p>
+
+    <h3>Judge it yourself</h3>
+    <p>Each article lists the sources it actually has: the title, the link, the author, the date, and when it was accessed. If there is no source, the page says so, and the card is not ready to be repeated as fact. Contested views are shown on the same page. So is the record of changes. The point of this pack is not that you should take our word for it. It is that you can open what we opened, and decide.</p>
+  </div>
+
+  <div class="prose">
+    <h2>Memory</h2>
+    <p>Beside the cards there is a memory of the conversation, kept in a separate pool so that something a person said is never returned as a world card. Short-term memory is a ring of the last 32 turns in RAM, with an append-only transcript that survives the ring. A person can pin a fact. In the background, the stack may extract a candidate fact — a name, a preference, a plan — with an importance score. A joke, or a line that looks like a credential, stays in the transcript only. A session can be kept as a short summary of what the call meant, together with the transcript; that switch is off unless it is turned on. Contradictions become revisions: the new row is current, and the old text is archived with its original source, date, and speaker. Ranking uses relevance, recency, and importance, and a pin is boosted. Extraction, summaries, and revision writes run in the background, not on the lookup path. The summaries and the candidate extraction are local, deterministic rules. They are not a learned model, and this crate does not call one.</p>
+
+    <h2>Fast enough for voice</h2>
+    <p>Lookup has to be fast enough for a live voice conversation. The requirement is a p95 of at most 10 milliseconds at 200,000 cards, with heavy work kept off that path. On 18 November 2026 a release test measured this on 200,000 generated cards, not on the knowledge pack itself, including while a background writer was enqueueing memory jobs: 6.0 ms p95 for a selective query (6,043 µs) and 8.3 ms p95 for a broad one (8,282 µs). Both are under the 10 ms limit. The test asserts those p95 figures are at most 10,000 µs.</p>
+
+    <h2>Open licence, and where the pack lives</h2>
+    <p>The cards live in this public repository, under <a href="https://github.com/galion-studio/galion-knowledge">github.com/galion-studio/galion-knowledge</a>. A device can keep the core pack and the shards it has chosen. The work is released under the MIT License. Copyright (c) 2024–2026 Galion Labs.</p>
+  </div>
+
+  <section class="source-box">
+    <h2>Where these rules are written</h2>
+    <ul class="source-list">
+      <li><a href="https://github.com/galion-studio/galion-knowledge/blob/master/v2/data/SCHEMA.md">Card schema</a></li>
+      <li><a href="https://github.com/galion-studio/galion-knowledge/blob/master/v2/docs/TRUTH_GATE.md">Truth gate</a></li>
+      <li><a href="https://github.com/galion-studio/galion-knowledge/blob/master/v2/docs/REVIEW_POLICY.md">How a card is challenged and updated</a></li>
+      <li><a href="https://github.com/galion-studio/galion-knowledge/blob/master/v2/docs/CORE_PACK.md">Base World Core Pack</a></li>
+      <li><a href="https://github.com/galion-studio/galion-knowledge/blob/master/v2/docs/SHARDS.md">Add-on shards</a></li>
+      <li><a href="https://github.com/galion-studio/galion-knowledge/blob/master/v2/docs/MEMORY_STACK.md">Memory and knowledge stack</a></li>
+      <li><a href="https://github.com/galion-studio/galion-knowledge/blob/master/LICENSE">MIT License</a></li>
+    </ul>
+    <p class="source-note">The figures on this page for card counts are from this build. The lookup times are the measured release-test figures of 18 November 2026.</p>
+  </section>
+
+  <p class="footer-links">
+    <a href="{{ "/" | url }}">Home</a>
+    <a href="{{ "/search/" | url }}">Search</a>
+    <a href="https://github.com/galion-studio/galion-knowledge">GitHub</a>
+    <a href="https://galion.app/research">Galion Research</a>
+  </p>
+</article>
