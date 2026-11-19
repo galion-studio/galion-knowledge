@@ -471,33 +471,62 @@ def _names_max_tokens(text):
     blob = (text or "").lower()
     return "max_tokens" in blob or "max_completion_tokens" in blob
 
+CONNECT_TIMEOUT = 15   # seconds to connect and to get response headers
+STREAM_TICK = 5.0      # seconds between cap/timeout checks while the stream is idle
+
 def _http_stream(key, payload, sid, timeout, cap):
     """Streamed call. Closing the stream makes the gateway cancel the run, so a
     client timeout or the per-call cost cap really stops spending (a
-    non-streamed request keeps running server-side after the client gives up)."""
-    import http.client, socket
+    non-streamed request keeps running server-side after the client gives up).
+
+    The gateway can be silent for minutes while the agent runs tools. A socket
+    read timeout cannot be used for the idle ticks: after one timeout the
+    buffered reader raises OSError ("cannot read from timed out object") on
+    every later read. So a reader thread does blocking reads and the caller
+    polls a queue; on cap or timeout the socket is shut down, which also ends
+    the reader."""
+    import http.client, queue as _queue, socket
     data = encode_payload(payload)
     u = urllib.parse.urlparse(GW)
-    conn = http.client.HTTPConnection(u.hostname, u.port, timeout=15)
+    conn = http.client.HTTPConnection(u.hostname, u.port, timeout=CONNECT_TIMEOUT)
     start, base = time.time(), session_usd(sid)
+    sock = None
     try:
         conn.request("POST", "/v1/chat/completions", body=data, headers={
             "Content-Type": "application/json; charset=utf-8",
             "Authorization": "Bearer " + key,
             "X-Hermes-Session-Id": sid,
         })
+        sock = conn.sock
         r = conn.getresponse()
         if r.status != 200:
             err = r.read(8000).decode("utf-8", errors="replace")
             return str(r.status), err, {}
+        if sock is not None:
+            sock.settimeout(None)
+        lines = _queue.Queue()
+
+        def pump():
+            try:
+                while True:
+                    ln = r.fp.readline()
+                    lines.put(ln)
+                    if not ln:
+                        return
+            except Exception as exc:  # socket shut down by the caller, or a real error
+                lines.put(exc)
+
+        threading.Thread(target=pump, name="gapfill-stream", daemon=True).start()
         parts, usage, last = [], {}, 0.0
         while True:
             try:
-                line = r.fp.readline()
-            except socket.timeout:
+                line = lines.get(timeout=STREAM_TICK)
+            except _queue.Empty:
                 line = None
+            if isinstance(line, Exception):
+                raise line
             tick = time.time()
-            if tick - last > 10:
+            if line is None or tick - last > 10:
                 last = tick
                 spent = session_usd(sid) - base
                 if spent > cap:
@@ -523,6 +552,11 @@ def _http_stream(key, payload, sid, timeout, cap):
     except Exception as e:
         return "err:" + type(e).__name__, None, {}
     finally:
+        if sock is not None:
+            try:
+                sock.shutdown(socket.SHUT_RDWR)
+            except OSError:
+                pass
         conn.close()
 
 def _one_call(key, payload, sid, timeout, cap, transport):

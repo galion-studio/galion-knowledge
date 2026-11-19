@@ -508,5 +508,66 @@ class GapfillTest(unittest.TestCase):
         gapfill.release_run_slot("live")
 
 
+class StreamIdleTest(unittest.TestCase):
+    """The gateway is silent while the agent runs tools. A quiet gap longer than
+    the connect timeout must not end the call (it used to raise OSError)."""
+
+    def setUp(self):
+        from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+        self.gap = 1.2
+
+        test = self
+
+        class Handler(BaseHTTPRequestHandler):
+            protocol_version = "HTTP/1.1"
+
+            def do_POST(self):
+                n = int(self.headers.get("Content-Length", "0") or 0)
+                self.rfile.read(n)
+                self.send_response(200)
+                self.send_header("Content-Type", "text/event-stream")
+                self.send_header("Connection", "close")
+                self.end_headers()
+                self.wfile.write(b": started\n\n")
+                self.wfile.flush()
+                time.sleep(test.gap)
+                chunk = {"choices": [{"delta": {"content": "après la pause"}}], "usage": {"cost": 0.001}}
+                self.wfile.write(("data: " + json.dumps(chunk) + "\n\n").encode("utf-8"))
+                self.wfile.write(b"data: [DONE]\n\n")
+                self.wfile.flush()
+
+            def log_message(self, *a):
+                return
+
+        self.httpd = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+        self.httpd.daemon_threads = True
+        threading.Thread(target=self.httpd.serve_forever, daemon=True).start()
+        self.tmp = tempfile.TemporaryDirectory()
+        self.saved = (gapfill.GW, gapfill.SPEND, gapfill.CONNECT_TIMEOUT, gapfill.STREAM_TICK)
+        host, port = self.httpd.server_address
+        gapfill.GW = f"http://{host}:{port}"
+        gapfill.SPEND = os.path.join(self.tmp.name, "spend.json")
+        gapfill.CONNECT_TIMEOUT = 0.4
+        gapfill.STREAM_TICK = 0.1
+
+    def tearDown(self):
+        gapfill.GW, gapfill.SPEND, gapfill.CONNECT_TIMEOUT, gapfill.STREAM_TICK = self.saved
+        self.httpd.shutdown()
+        self.httpd.server_close()
+        self.tmp.cleanup()
+
+    def test_quiet_gap_longer_than_connect_timeout(self):
+        code, txt, usage = gapfill._http_stream("k", {"model": "m", "messages": []}, "sid-idle", 30, 1.0)
+        self.assertEqual(code, "200", txt)
+        self.assertEqual(txt, "après la pause")
+
+    def test_client_timeout_still_stops_a_silent_stream(self):
+        self.gap = 3.0
+        t0 = time.time()
+        code, txt, usage = gapfill._http_stream("k", {"model": "m", "messages": []}, "sid-slow", 0.5, 1.0)
+        self.assertEqual(code, "timeout")
+        self.assertLess(time.time() - t0, 2.5)
+
+
 if __name__ == "__main__":
     unittest.main()
