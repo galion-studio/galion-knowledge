@@ -1,3 +1,7 @@
+const crypto = require("crypto");
+const fs = require("fs");
+const path = require("path");
+const { execFileSync } = require("child_process");
 const MarkdownIt = require("markdown-it");
 
 const markdown = new MarkdownIt({
@@ -6,7 +10,35 @@ const markdown = new MarkdownIt({
   typographer: false,
 });
 
+// Commit when git is available, otherwise a hash of the CSS and JS the query
+// string is there to refresh. Either value changes the asset URL.
+function assetVersion() {
+  const fromEnv = (process.env.ASSET_VERSION || "").trim();
+  if (/^[A-Za-z0-9._-]{4,64}$/.test(fromEnv)) return fromEnv;
+  try {
+    const sha = execFileSync("git", ["rev-parse", "--short=12", "HEAD"], {
+      cwd: path.join(__dirname, ".."),
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+    }).trim();
+    if (/^[0-9a-f]{7,40}$/.test(sha)) return sha;
+  } catch {
+    // A packager without a .git directory still needs a stable query string.
+  }
+  const hash = crypto.createHash("sha256");
+  for (const file of [
+    "src/assets/site.css",
+    "src/assets/app.js",
+    "src/assets/globe.js",
+    "src/assets/vendor/three.module.min.js",
+  ]) {
+    hash.update(fs.readFileSync(path.join(__dirname, file)));
+  }
+  return hash.digest("hex").slice(0, 12);
+}
+
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addGlobalData("assetVersion", assetVersion());
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   // Static diagram files. HTML here is not a Nunjucks template.
   eleventyConfig.ignores.add("src/horbm/**");
