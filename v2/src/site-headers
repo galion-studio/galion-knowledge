@@ -1,2 +1,17 @@
+/horbm/interactive/
+  Cache-Control: no-cache
+
+/horbm/interactive/index.html
+  Cache-Control: no-cache
+
+/horbm/interactive/admin/
+  Cache-Control: no-cache
+  X-Robots-Tag: noindex, nofollow
+
+/horbm/interactive/admin/index.html
+  Cache-Control: no-cache
+  X-Robots-Tag: noindex, nofollow
+
 /horbm/interactive/admin/*
+  Cache-Control: no-cache
   X-Robots-Tag: noindex, nofollow

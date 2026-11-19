@@ -37,7 +37,15 @@ The check fails when the JSON does not match the schema, a step points at a miss
 The renderer check does not need Rust:
 
 ```bash
-node --test v2/tools/horbm-diagram/render.test.mjs v2/tools/horbm-diagram/github.test.mjs
+node --test v2/tools/horbm-diagram/render.test.mjs v2/tools/horbm-diagram/github.test.mjs v2/tools/horbm-diagram/fit.test.mjs v2/tools/horbm-diagram/stamp-assets.test.mjs
+```
+
+After `npm run build`, the interactive page test loads the built site:
+
+```bash
+cd v2
+npx playwright install chromium
+npx playwright test
 ```
 
 Build the site from `v2/`:

@@ -43,6 +43,7 @@ function assignment(build) {
 function render() {
   if (!published) return;
   text("overall", String(overallPercent(published)));
+  text("overall-unit", "% complete");
   const counts = countStates(published);
   document.getElementById("counts").innerHTML = Object.entries(counts).map(([state, count]) =>
     `<li><b>${count}</b>${escapeHtml(stateLabel(state))}</li>`).join("");
@@ -161,6 +162,10 @@ async function load() {
     render();
   } catch (error) {
     text("stamp", error.message || "Could not load progress.");
+    if (!published) {
+      text("overall", "—");
+      text("overall-unit", "");
+    }
   } finally {
     loading = false;
   }

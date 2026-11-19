@@ -188,7 +188,7 @@ a.tool { color: #e6f1fb; }
   pointer-events: none;
 }
 
-.stage {
+.viewer-stage {
   flex: 1;
   min-height: 0;
   display: flex;

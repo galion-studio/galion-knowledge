@@ -56,8 +56,12 @@ jobs:
           cache-dependency-path: v2/package-lock.json
 
       - name: Test the HORBM diagram renderer
-        run: node --test v2/tools/horbm-diagram/render.test.mjs v2/tools/horbm-diagram/github.test.mjs
+        run: node --test v2/tools/horbm-diagram/render.test.mjs v2/tools/horbm-diagram/github.test.mjs v2/tools/horbm-diagram/fit.test.mjs v2/tools/horbm-diagram/stamp-assets.test.mjs
 
       - name: Build the static site
         working-directory: v2
         run: npm ci && npm run build
+
+      - name: Test the interactive diagram page
+        working-directory: v2
+        run: npx playwright install --with-deps chromium && npx playwright test
