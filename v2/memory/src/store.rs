@@ -887,16 +887,30 @@ impl Store {
     }
 
     pub fn search(&self, query: &str) -> Result<SearchResponse> {
-        self.search_filtered(query, false)
+        self.search_filtered(query, false, true)
     }
 
     /// Ring, episodes, and diary only. Knowledge cards in this file are left out
     /// so a caller can rank them on their own.
     pub fn search_memory(&self, query: &str) -> Result<SearchResponse> {
-        self.search_filtered(query, true)
+        self.search_filtered(query, true, true)
     }
 
-    fn search_filtered(&self, query: &str, memory_only: bool) -> Result<SearchResponse> {
+    /// FTS5, the transcript, and the RAM ring. Does not scan the int8 arena.
+    ///
+    /// [`Store::search`] still fuses that arena and is unchanged. The voice
+    /// retrieval thread calls this so a mapped key scan can be added beside
+    /// the diary instead of inside it.
+    pub fn search_lexical(&self, query: &str) -> Result<SearchResponse> {
+        self.search_filtered(query, false, false)
+    }
+
+    fn search_filtered(
+        &self,
+        query: &str,
+        memory_only: bool,
+        scan_vectors: bool,
+    ) -> Result<SearchResponse> {
         let started = Instant::now();
         let mut lexical = match self.lexical_ids(query, memory_only) {
             Ok(ids) => ids,
@@ -910,7 +924,11 @@ impl Store {
             Err(err) => return Err(err),
         }
         lexical.retain(|id| !self.hidden.contains(id));
-        let dense = self.dense_ids(query, memory_only);
+        let dense = if scan_vectors {
+            self.dense_ids(query, memory_only)
+        } else {
+            Vec::new()
+        };
         let ring_lex = self.ring_lexical_ids(query);
         // The lexical list is counted twice so a rare exact term beats a tied vector neighbor.
         let fused = fuse(&[lexical.clone(), lexical, dense, ring_lex], RRF_K);
@@ -2263,5 +2281,22 @@ mod tests {
         assert_eq!(hit.pool, "memory");
         drop(store);
         let _ = fs::remove_dir_all(&dir);
+    }
+
+    #[test]
+    fn lexical_search_finds_a_card_without_scanning_as_a_second_index() {
+        let mut store = Store::open_in_memory().unwrap();
+        store.upsert_cards(&[crate::synthetic_card(742)]).unwrap();
+        let found = store.search_lexical("m742").unwrap();
+        assert!(
+            found.hits.iter().any(|hit| hit.item_id == "sample-742"),
+            "lexical search missed sample-742: {:?}",
+            found
+                .hits
+                .iter()
+                .map(|hit| &hit.item_id)
+                .collect::<Vec<_>>()
+        );
+        assert!(found.hits.len() <= MAX_HITS);
     }
 }
