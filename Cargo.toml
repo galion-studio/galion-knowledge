@@ -1,0 +1,27 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Galion Labs
+# Git-dependency face for `horbm-memory`.
+#
+# Cargo resolves a git dependency from the repository root. The sources stay
+# in `v2/memory`. This file is not a workspace: `v2/memory` and the other
+# crates under `v2/tools` keep their own manifests and lockfiles.
+# Keep `[dependencies]` identical to `v2/memory/Cargo.toml`.
+
+[package]
+name = "horbm-memory"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Galion Labs"]
+description = "HORBM memory and knowledge: FTS5 BM25, int8 vectors, core pack, shards, gap log."
+publish = false
+rust-version = "1.83"
+
+[lib]
+path = "v2/memory/src/lib.rs"
+
+[dependencies]
+rusqlite = { version = "0.32.1", features = ["bundled"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"

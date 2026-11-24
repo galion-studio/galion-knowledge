@@ -13,4 +13,6 @@ cargo run --release -- --db /tmp/horbm.sqlite search "bm25"
 
 Design and measured latency: [`../docs/MEMORY_STACK.md`](../docs/MEMORY_STACK.md).
 
+A git dependency cannot point at this subdirectory. The `Cargo.toml` at the repository root is the same library (`lib` path `v2/memory/src/lib.rs`) so another crate can depend on `horbm-memory` by git revision. `cd v2/memory` is still how this crate is tested. `Store::search` fuses FTS5 with the int8 arena. `Store::search_lexical` is the FTS5 leg alone.
+
 MIT License. Copyright (c) 2026 Galion Labs.
