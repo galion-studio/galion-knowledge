@@ -47,6 +47,7 @@ pub use queue::QueueHandle;
 pub use rank::{recency_factor, rescale, DEFAULT_IMPORTANCE, PIN_BOOST, RECENCY_HALF_LIFE_DAYS};
 pub use scale::{rss_bytes, ScaleIndex, ScaleReport, ShardManifest, CATEGORIES};
 pub use session::{estimate_tokens, fit_context, ContextMessage, SessionRing, Turn};
+pub use text::index_tokens;
 pub use stack::{synthetic_card, ImportReport, QueryResponse, Stack, StoredRevision};
 pub use store::{
     ArchivedRow, CardRevision, DiaryEntry, GapRank, Hit, IngestReport, MemoryRevision,
