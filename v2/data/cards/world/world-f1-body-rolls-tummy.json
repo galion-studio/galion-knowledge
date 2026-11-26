@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-body-rolls-tummy",
+  "title": "Rolling from the belly onto the back is a CDC line at about 6 months",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Most babies roll from tummy to back by about 6 months, the US CDC says.",
+  "body": "One CDC 6-month movement line is rolls from tummy to back. The direction named is belly to back only. The opposite direction is not printed on that list. The page files the line with what most babies do by six months. A baby who rolls later is outside what this sentence classifies. Checklists written in other countries need not use six months.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 6 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Movement line: Rolls from tummy to back."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-milestone-meaning"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "roll",
+    "tummy"
+  ],
+  "read_time_min": 1
+}

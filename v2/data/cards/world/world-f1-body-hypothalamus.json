@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-body-hypothalamus",
+  "title": "The hypothalamus helps keep body conditions in balance through nerves and hormones",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says the hypothalamus coordinates internal balance through the autonomic nervous system and hormones.",
+  "body": "OpenStax says the hypothalamus coordinates homeostatic functions through the autonomic and endocrine systems. Homeostasis, in that book's terms, means keeping internal conditions in balance. The autonomic system is the part a person does not consciously direct, and the endocrine system works by hormones. The chapter places the hypothalamus in the diencephalon, beside the thalamus, which it calls a relay. This card is that balance job. Region names for the cerebrum and cerebellum are a different card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "13.2 The Central Nervous System, chapter review",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/13-chapter-review",
+      "author": "OpenStax",
+      "date": "n.d.",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, first edition, web view, CC BY 4.0. Paraphrase: the hypothalamus coordinates homeostatic functions through the autonomic and endocrine systems. The thalamus-as-relay sentence is context, not a second claim."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.brain-regions-ninds"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "hypothalamus",
+    "homeostasis"
+  ],
+  "read_time_min": 1
+}

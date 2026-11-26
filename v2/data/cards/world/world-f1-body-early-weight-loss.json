@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-early-weight-loss",
+  "title": "MedlinePlus says newborns often lose about a tenth of birth weight, then gain",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says a newborn normally loses about 10 to 12 percent of birth weight, and that gain is under way by about 2 weeks.",
+  "body": "The MedlinePlus growth page says that soon after birth an infant normally loses about 10 to 12 percent of birth weight. It says that by about age 2 weeks the infant starts to gain weight and grow quickly. Normally, on that page, describes the early loss. The two-week mark is when the page says gain begins. This is one encyclopedia's account of the usual pattern. It is not a target for one newborn, and a clinician reads the baby's own record.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Normal growth and development",
+      "url": "https://medlineplus.gov/ency/article/002456.htm",
+      "author": "MedlinePlus",
+      "date": "2026-01-01",
+      "accessed": "2026-11-26",
+      "note": "Supports the early loss of about 10 to 12 percent of birth weight and the start of gain by about 2 weeks."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2026-01-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-doubles-birth-weight",
+    "world-f1-body-growth-standards"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "weight",
+    "newborn"
+  ],
+  "read_time_min": 1
+}

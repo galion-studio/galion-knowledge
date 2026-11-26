@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-walks-alone",
+  "title": "Getting around with empty hands is the CDC line at about 18 months",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Most children walk without holding on to anyone or anything by about 18 months, the US CDC says.",
+  "body": "Nobody to clutch and nothing to lean on: that is the CDC wording, walks without holding on to anyone or anything. The 18-month page places it among things most children do by then. This is independent walking, a real way of getting around, not a two-step burst and not a jog. Arriving at the skill later is not diagnosed here. The month is an American checklist month.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 18 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Movement line: Walks without holding on to anyone or anything."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-milestone-meaning",
+    "world-f1-body-first-steps"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "walking",
+    "alone"
+  ],
+  "read_time_min": 1
+}

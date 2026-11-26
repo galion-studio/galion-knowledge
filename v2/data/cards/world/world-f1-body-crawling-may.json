@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-crawling-may",
+  "title": "MedlinePlus says crawling may begin between about 6 and 9 months",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says crawling may begin between about 6 and 9 months. The word on the page is may.",
+  "body": "Under 6 to 9 months, the MedlinePlus infant page says crawling may begin. May begin is the page's wording. It does not say that most infants crawl by a set month, and it does not say that every infant crawls. Some babies scoot or roll instead. This card is that may-begin line from one US encyclopedia. It is not a diagnosis, and it does not give the age window used on a WHO chart.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Infant - newborn development",
+      "url": "https://medlineplus.gov/ency/article/002004.htm",
+      "author": "MedlinePlus",
+      "date": "2025-01-01",
+      "accessed": "2026-11-26",
+      "note": "Under 6 to 9 months: Crawling may begin."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2025-01-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-motor-windows",
+    "world-f1-body-milestone-meaning"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "crawling",
+    "scoot"
+  ],
+  "read_time_min": 1
+}

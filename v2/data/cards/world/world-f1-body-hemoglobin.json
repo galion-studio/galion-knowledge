@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-hemoglobin",
+  "title": "Hemoglobin in red blood cells carries oxygen and also carbon dioxide",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says hemoglobin in red blood cells picks up oxygen in the lungs and the protein part carries carbon dioxide back.",
+  "body": "OpenStax says erythrocytes, the red cells, are packed with hemoglobin. Hemoglobin holds iron in a heme pigment. In the bloodstream, iron picks up oxygen in the lungs and drops it off in the tissues. The amino acids in hemoglobin then transport carbon dioxide from the tissues back to the lungs. Red cells live about 120 days on average, so they are replaced. This card is the carrying job. It is not a definition of anemia.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "18.3 Erythrocytes, chapter review",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/18-chapter-review",
+      "author": "OpenStax",
+      "date": "n.d.",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, first edition, web view, CC BY 4.0. Paraphrase: hemoglobin's iron picks up oxygen in the lungs and drops it in the tissues; amino acids carry carbon dioxide back; red cells live about 120 days."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-blood-transport",
+    "world.core.body.lungs-gas-exchange"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "hemoglobin",
+    "oxygen"
+  ],
+  "read_time_min": 1
+}

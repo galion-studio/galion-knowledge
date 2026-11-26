@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-body-hand-to-hand",
+  "title": "Most babies move an object from one hand to the other by about 9 months",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Most babies move things from one hand to the other hand by about 9 months, the US CDC says.",
+  "body": "The CDC 9-month movement list includes moves things from one hand to her other hand. Passing an object across the midline of the body is the skill that wording names. The page places it with what most babies do by nine months. This card is that pass, not a pinch of a tiny bit of food, which is a later list. The month is the US CDC figure, and other lists can differ.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Movement line: Moves things from one hand to her other hand."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-milestone-meaning"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "hands",
+    "pass"
+  ],
+  "read_time_min": 1
+}

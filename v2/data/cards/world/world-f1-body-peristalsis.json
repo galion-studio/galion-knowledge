@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-peristalsis",
+  "title": "Peristalsis is the smooth-muscle wave that moves a meal along the gut",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIAMS says waves of smooth muscle called peristalsis move food through the digestive system.",
+  "body": "NIAMS says smooth muscle works without a person choosing the movement. Waves of those contractions, called peristalsis, help move food through the digestive system. The lesson also says smooth muscle at the far end helps push waste out. This card is the wave that carries a meal along. It is not a menu and not treatment for an upset gut.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Health Lesson: Learning About Muscles",
+      "url": "https://www.niams.nih.gov/health-topics/educational-resources/health-lesson-learning-about-muscles",
+      "author": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+      "date": "2025-06",
+      "accessed": "2026-11-26",
+      "note": "US government page, public domain. Last Updated June 2025. Smooth muscle section: peristalsis is waves of smooth-muscle contraction that help move food through the digestive system."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIAMS",
+  "as_of_date": "2025-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-stomach-chyme",
+    "world-f1-body-small-intestine"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "peristalsis",
+    "gut"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-growth-curve",
+  "title": "MedlinePlus says a healthy child follows an individual growth curve",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says a healthy child follows an individual growth curve, so one child's path is not copied from another child's.",
+  "body": "The MedlinePlus growth page says a healthy child will follow an individual growth curve. It also says the needed nutrient intake may differ for each child. This card is the curve sentence. It does not print a chart, a percentile, or a weight. The WHO standards, on another card, are one set of reference charts. An individual curve is the page's way of saying children do not all trace the same line. It is not a judgment about one child.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Normal growth and development",
+      "url": "https://medlineplus.gov/ency/article/002456.htm",
+      "author": "MedlinePlus",
+      "date": "2026-01-01",
+      "accessed": "2026-11-26",
+      "note": "Supports the sentence that a healthy child will follow an individual growth curve."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2026-01-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-growth-standards",
+    "world-f1-body-doubles-birth-weight"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "curve",
+    "growth"
+  ],
+  "read_time_min": 1
+}

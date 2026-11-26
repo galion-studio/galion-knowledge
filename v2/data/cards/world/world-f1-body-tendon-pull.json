@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-tendon-pull",
+  "title": "Muscles pull bones closer by shortening through tendons",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIAMS says muscles join bones by tendons, and a shortening muscle pulls those bones closer together.",
+  "body": "The NIAMS muscle lesson says muscles help you move because they connect to bones with a tendon. Muscle fibers contract and relax. When the fibers contract, they get shorter, which pulls the bones they are connected to closer together. There are more than 650 muscles in the human body, on that page. This card is the tendon-and-shortening account of movement. It is not an exercise plan.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Health Lesson: Learning About Muscles",
+      "url": "https://www.niams.nih.gov/health-topics/educational-resources/health-lesson-learning-about-muscles",
+      "author": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+      "date": "2025-06",
+      "accessed": "2026-11-26",
+      "note": "US government page, public domain. Last Updated June 2025. Supports tendons connecting muscle to bone, shortening that pulls bones closer, and the figure of more than 650 muscles."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIAMS",
+  "as_of_date": "2025-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-bones-support",
+    "world-f1-body-heart-muscle"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "tendon",
+    "muscles"
+  ],
+  "read_time_min": 1
+}

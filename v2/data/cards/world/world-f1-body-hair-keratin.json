@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-hair-keratin",
+  "title": "Hair is made of dead cells filled with keratin, and melanin colors it",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says hair is made of dead keratinized cells and gets its color from melanin.",
+  "body": "OpenStax lists hair among accessory structures of the body covering. Hair is made of dead keratinized cells. Melanin pigments give it color. The chapter review does not give a count of hairs or a rule for cutting them. This card is what hair is made of and why it has color. It is not a claim about baldness.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "5.2 Accessory Structures of the Skin, chapter review",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/5-chapter-review",
+      "author": "OpenStax",
+      "date": "n.d.",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, first edition, web view, CC BY 4.0. Paraphrase: hair is dead keratinized cells and gets its color from melanin."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-nails-protect",
+    "world-f1-body-skin-barrier"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "hair",
+    "keratin"
+  ],
+  "read_time_min": 1
+}

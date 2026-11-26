@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-body-head-up-tummy",
+  "title": "Lifting the head while face down is a CDC line at about 2 months",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Most babies hold their head up when on their tummy by about 2 months, the US CDC says.",
+  "body": "Face down on a tummy, the neck does the work of lifting. The CDC 2-month movement line names that lift: holds head up when on tummy. The page treats it as something most babies do by two months. Doing the lift later is not a label this card applies. Ages on lists from outside the United States can be printed differently.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Movement line: Holds head up when on tummy, under what most babies do by 2 months."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-milestone-meaning"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "tummy",
+    "head"
+  ],
+  "read_time_min": 1
+}

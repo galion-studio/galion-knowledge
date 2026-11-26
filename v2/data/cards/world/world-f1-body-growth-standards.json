@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-growth-standards",
+  "title": "WHO Child Growth Standards are growth charts built from a multicountry study",
+  "section": "world",
+  "category": "measurement",
+  "summary": "The WHO Child Growth Standards are charts of child growth, drawn from the Multicentre Growth Reference Study, for children up to 5 years.",
+  "body": "The WHO Child Growth Standards site says the standards were developed using data collected in the WHO Multicentre Growth Reference Study. It presents charts for girls and boys up to 5 years, which it also states as 60 completed months. The measures it names include length or height for age, weight for age, weight for length or height, and body mass index for age, plus head circumference, arm circumference, and skinfold measures. This card says what those standards are. It does not read a number off a chart. WHO wording here is paraphrased, not quoted.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Child growth standards",
+      "url": "https://www.who.int/tools/child-growth-standards",
+      "author": "World Health Organization",
+      "date": "2026-11-17",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only; the WHO page is not CC BY. Supports that the standards come from the Multicentre Growth Reference Study and names the chart types for children up to 5 years. No chart value is copied."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "WHO",
+  "as_of_date": "2026-11-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-growth-curve",
+    "world.core.health.child-undernutrition"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "standards",
+    "charts"
+  ],
+  "read_time_min": 1
+}

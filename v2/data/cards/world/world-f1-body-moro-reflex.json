@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-body-moro-reflex",
+  "title": "A newborn Moro reflex flings the arms out, then pulls them in",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says a newborn Moro, or startle, reflex extends the arms and then pulls them in, often with a brief cry.",
+  "body": "MedlinePlus lists a Moro reflex, also called a startle reflex, among primitive reflexes in the newborn to 2 month span. A loud sound or a sudden movement often triggers it. The infant extends the arms, then bends and pulls them in toward the body, with a brief cry. This card is that pattern. How long the pattern stays is a different card. The description is one encyclopedia entry, not a test result for a named baby.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Infant - newborn development",
+      "url": "https://medlineplus.gov/ency/article/002004.htm",
+      "author": "MedlinePlus",
+      "date": "2025-01-01",
+      "accessed": "2026-11-26",
+      "note": "Primitive reflexes bullet: Moro reflex (startle reflex), extends arms then bends and pulls them in toward body with a brief cry; often triggered by loud sounds or sudden movements."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2025-01-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-reflex-fade"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "moro",
+    "startle"
+  ],
+  "read_time_min": 1
+}

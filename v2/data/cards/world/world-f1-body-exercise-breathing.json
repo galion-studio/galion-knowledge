@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-exercise-breathing",
+  "title": "Exercise speeds and deepens breathing from the moment the effort starts",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says exercise raises the rate and depth of breathing, and that this change starts when the exercise starts.",
+  "body": "OpenStax says exercise results in increased ventilation. It names hyperpnea as a rise in the rate and depth of ventilation. It says hyperpnea tied to exercise is initiated when exercise begins, rather than when tissue oxygen demand actually increases. Three neural inputs are part of that account: a psychological stimulus, motor signals to skeletal muscle, and sensors in muscles, joints, and tendons. This card is why breathing changes with effort. It is not a training plan, and the page does not single out running.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "22.6 Modifications in Respiratory Functions, chapter review",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/22-chapter-review",
+      "author": "OpenStax",
+      "date": "n.d.",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, first edition, web view, CC BY 4.0. Paraphrase: exercise increases ventilation; hyperpnea is a rise in rate and depth; exercise hyperpnea starts when exercise begins, not when tissue oxygen demand rises."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-diaphragm",
+    "world.core.body.lungs-gas-exchange"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "hyperpnea",
+    "exercise"
+  ],
+  "read_time_min": 1
+}

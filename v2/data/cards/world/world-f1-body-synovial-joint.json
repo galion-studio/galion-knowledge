@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-synovial-joint",
+  "title": "A synovial joint lets bones move inside a fluid-filled cavity",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says a synovial joint lets bones move freely against each other inside a cavity of lubricating fluid.",
+  "body": "OpenStax says synovial joints are the most common joints. The bone surfaces are not stuck directly together. They meet inside a joint cavity. Articular cartilage and synovial fluid reduce friction. Ligaments hold the bones together and resist excessive movement. A freely movable joint of this kind is called a diarthrosis. The elbow and knee are hinge examples on the page. This card is how a movable joint is built. It is not a treatment for a sprain.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "9.1 and 9.4, chapter review",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/9-chapter-review",
+      "author": "OpenStax",
+      "date": "n.d.",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, first edition, web view, CC BY 4.0. Paraphrase: synovial joints have a fluid-filled cavity, articular cartilage, synovial fluid, and ligaments; they are diarthroses, freely movable."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-bones-support",
+    "world-f1-body-tendon-pull"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "joint",
+    "synovial"
+  ],
+  "read_time_min": 1
+}

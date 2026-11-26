@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-bone-count",
+  "title": "NIAMS says a baby is born with about 300 bones and an adult has 206",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIAMS says a baby is born with about 300 bones, and many later fuse into the 206 bones of an adult.",
+  "body": "The NIAMS bones lesson says a baby is born with about 300 bones. Many of them eventually fuse, which the lesson glosses as grow together, to form the 206 bones that adults have. About 300 is the lesson's figure, not an exact census of one baby. The 206 is the adult count on that page. Fusion over childhood is the claim. The lesson is a US school resource, not a count from every anatomy book.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Health Lesson: Learning About Bones",
+      "url": "https://www.niams.nih.gov/health-topics/educational-resources/health-lesson-learning-about-bones",
+      "author": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+      "date": "2025-06",
+      "accessed": "2026-11-26",
+      "note": "US government page, public domain. Last Updated June 2025. Did You Know box: a baby is born with about 300 bones, many of which fuse to form the 206 adult bones."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIAMS",
+  "as_of_date": "2025-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-growth-plates",
+    "world-f1-body-fontanelles"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "count",
+    "fuse"
+  ],
+  "read_time_min": 1
+}

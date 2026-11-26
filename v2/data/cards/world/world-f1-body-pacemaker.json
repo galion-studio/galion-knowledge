@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-pacemaker",
+  "title": "The sinoatrial node is the heart's pacemaker and sets the usual rhythm",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says the sinoatrial node is the heart's pacemaker because it fires fastest and starts the usual rhythm.",
+  "body": "OpenStax says cardiac muscle can start an electrical potential at a fixed rate that spreads from cell to cell. It calls that property autorhythmicity, and it says neither smooth nor skeletal muscle can do it. The sinoatrial node, a clump of conducting cells in the right atrium, has the highest built-in rate and is called the pacemaker. It starts the sinus rhythm. Without nervous or hormone control, the text says that node would fire about 80 to 100 times a minute. Those systems do change the rate. This card names the pacemaker. It is not a device implanted by a surgeon.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "19.2 Cardiac Muscle and Electrical Activity",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/19-2-cardiac-muscle-and-electrical-activity",
+      "author": "OpenStax",
+      "date": "n.d.",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, first edition, web view, CC BY 4.0. Paraphrase: autorhythmicity; the SA node is the pacemaker with the highest inherent rate and starts sinus rhythm; about 80 to 100 impulses a minute without nervous or endocrine control."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-heart-muscle",
+    "world.core.body.heart-pump"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "pacemaker",
+    "sinoatrial"
+  ],
+  "read_time_min": 1
+}

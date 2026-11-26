@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-body-bladder-urine",
+  "title": "Bladder muscle holds urine in and can push it out",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIAMS says smooth muscle in the bladder contracts and relaxes to hold urine in or push it out.",
+  "body": "NIAMS says smooth muscle in the bladder contracts and relaxes so urine is held in or pushed out. A person does not flex it the way an arm is flexed. The lesson files the bladder with other smooth muscle that works on its own. This card is the hold-or-empty job. It does not describe an infection, a test, or a toilet schedule.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Health Lesson: Learning About Muscles",
+      "url": "https://www.niams.nih.gov/health-topics/educational-resources/health-lesson-learning-about-muscles",
+      "author": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+      "date": "2025-06",
+      "accessed": "2026-11-26",
+      "note": "US government page, public domain. Last Updated June 2025. Smooth muscle section: bladder muscles contract and relax to hold in or push out urine."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIAMS",
+  "as_of_date": "2025-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-kidney-filter"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "bladder",
+    "urine"
+  ],
+  "read_time_min": 1
+}

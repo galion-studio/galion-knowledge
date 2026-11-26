@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-doubles-birth-weight",
+  "title": "MedlinePlus says weight is often double the birth weight by about 4 to 6 months",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says that by about 4 to 6 months an infant's weight is double the birth weight.",
+  "body": "The MedlinePlus growth page states that by age 4 to 6 months, an infant's weight is double the birth weight. It says growth in the second half of the first year is not as rapid. This card is the doubling statement. The page's wording is a usual pattern in that article, not a goal this card sets for one baby. A growth chart, described on another card, is a different tool. Other references can describe the pattern differently.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Normal growth and development",
+      "url": "https://medlineplus.gov/ency/article/002456.htm",
+      "author": "MedlinePlus",
+      "date": "2026-01-01",
+      "accessed": "2026-11-26",
+      "note": "Supports doubling of birth weight by age 4 to 6 months, and slower growth in the second half of the first year."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2026-01-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-early-weight-loss",
+    "world-f1-body-growth-curve"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "doubling",
+    "weight"
+  ],
+  "read_time_min": 1
+}

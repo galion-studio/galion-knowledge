@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-body-head-to-feet",
+  "title": "MedlinePlus says infant movement starts at the head and moves downward",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says an infant's physical development begins at the head and then moves to other parts of the body.",
+  "body": "MedlinePlus says physical development begins at the head, then moves to other parts of the body. The example on the page puts sucking first, a sit next, and getting around on the feet after that. The sentence is an order, not a month. CDC ages for separate skills are other cards. This card is only that head-first order. It is one encyclopedia's description, not a timetable for one infant.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Infant - newborn development",
+      "url": "https://medlineplus.gov/ency/article/002004.htm",
+      "author": "MedlinePlus",
+      "date": "2025-01-01",
+      "accessed": "2026-11-26",
+      "note": "Opening physical-development sentence: development begins at the head, then moves to other parts of the body, with sucking before sitting before walking."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2025-01-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-head-up-tummy",
+    "world-f1-body-sits-unsupported",
+    "world-f1-body-walks-alone"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "order",
+    "downward"
+  ],
+  "read_time_min": 1
+}

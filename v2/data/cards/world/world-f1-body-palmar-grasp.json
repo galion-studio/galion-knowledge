@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-palmar-grasp",
+  "title": "A newborn palmar grasp closes the hand around a finger",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says a newborn palmar grasp closes the hand and grips a finger.",
+  "body": "MedlinePlus lists a palmar hand grasp among primitive reflexes in the newborn to 2 month span. The infant closes the hand and grips a finger that is placed there. The grip is automatic. This card is that early closure of the hand. A purposeful hold that comes months afterward is a different card, and this sentence is not a result for one baby.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Infant - newborn development",
+      "url": "https://medlineplus.gov/ency/article/002004.htm",
+      "author": "MedlinePlus",
+      "date": "2025-01-01",
+      "accessed": "2026-11-26",
+      "note": "Primitive reflexes bullet: Palmar hand grasp, infant closes hand and grips your finger."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2025-01-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-reflex-fade",
+    "world-f1-body-holds-toy"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "palmar",
+    "grasp"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-diaphragm",
+  "title": "The diaphragm is the chest muscle that helps the lungs fill with air",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIAMS says the diaphragm, a muscle in the chest, helps the lungs fill with air when a person breathes.",
+  "body": "NIAMS calls the diaphragm a special muscle in the chest. That muscle helps the lungs fill with air during breathing. The same lesson says muscle also moves air for speech. This card is the filling job of the diaphragm. The swap of gases in the lungs is a different card.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Health Lesson: Learning About Muscles",
+      "url": "https://www.niams.nih.gov/health-topics/educational-resources/health-lesson-learning-about-muscles",
+      "author": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+      "date": "2025-06",
+      "accessed": "2026-11-26",
+      "note": "US government page, public domain. Last Updated June 2025. Supports the diaphragm as a chest muscle that helps the lungs fill with air when you breathe."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIAMS",
+  "as_of_date": "2025-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.body.lungs-gas-exchange",
+    "world.core.body.alveoli"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "diaphragm",
+    "lungs"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-body-sits-unsupported",
+  "title": "Most babies sit without support by about 9 months",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Most babies sit without support by about 9 months, the US CDC says.",
+  "body": "Sitting without support is a movement line on the CDC 9-month page, grouped with what most babies do by that age. The page also lists getting to a sitting position by herself as a separate line. This card is only the unsupported sit, not the getting-there line. An American checklist printed this age. It is not a posture score, and another country may print a different month.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Movement line: Sits without support. Getting to sitting is a different line and is not the claim."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-milestone-meaning"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "sitting",
+    "unsupported"
+  ],
+  "read_time_min": 1
+}

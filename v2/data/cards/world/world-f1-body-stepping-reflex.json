@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-stepping-reflex",
+  "title": "Supported newborns take brisk steps when their feet touch a surface",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says a supported newborn takes brisk steps when both feet are placed on a surface.",
+  "body": "MedlinePlus describes a stepping reflex in the newborn to 2 month span. With the body supported and both feet placed on a surface, the infant takes brisk steps. The page gives that pattern a second label as well, but the body is held the whole time. This card is that supported pattern only. It is not the later skill of crossing a room with empty hands, and it is not a finding about one baby.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Infant - newborn development",
+      "url": "https://medlineplus.gov/ency/article/002004.htm",
+      "author": "MedlinePlus",
+      "date": "2025-01-01",
+      "accessed": "2026-11-26",
+      "note": "Primitive reflexes bullet: Stepping and walking, takes brisk steps when both feet are placed on a surface, with body supported."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2025-01-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-reflex-fade",
+    "world-f1-body-walks-alone"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "stepping",
+    "reflex"
+  ],
+  "read_time_min": 1
+}
