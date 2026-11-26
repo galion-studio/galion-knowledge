@@ -1,0 +1,36 @@
+{
+  "id": "horbm-part-learn-pack",
+  "title": "A taught clause is sealed into a capped learn pack",
+  "section": "horbm",
+  "category": "memory",
+  "summary": "The learn pack stores clauses a person taught. A session seal writes one held clause, the pack is capped, and a clause can be retracted. The learn grant defaults to deny.",
+  "body": "The learn module is an offline pass for clauses a person taught. Every clause carries a source. Session, time, and a consent record must be non-empty, or the write is unsourced. A session seal keeps one clause in plain memory. It is not encrypted. A second note replaces the first, and nothing is written by the note itself. Seal writes that held clause once and then clears the slot, so a later seal writes nothing. An empty slot writes nothing. The module says not to call the seal from the turn, and the call never waits on this pass.\n\nThe live pack holds at most 256 rows. A further distinct clause is refused, and a sourced row is never dropped to make room. An identical clause, the same trimmed speaker and the same trimmed text, is not added twice. Retract takes one clause back by that speaker and that text and leaves the other rows. Removing the last row leaves an empty pack file, which is not a withdrawal. Withdrawal removes the pack directories and leaves no row. The learn grant defaults to false. The only grant value, after trim, is the word grant. Any other flag, including an unset flag, stays denied and creates no file. Learn is not recall, and this config has no recall field.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "HORBM learn pack, learn.rs",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/learn.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d170d60977752456d45c5782d49088db1f8. Module docs and the public learn pass and session seal. MIT, Galion Labs. The pack cap 256 is the LEARN_PACK_CAP constant in this file."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-what-is-horbm",
+    "horbm-memory-stores",
+    "horbm-remember-when-asked",
+    "horbm-forgetting-and-deletion"
+  ],
+  "tags": [
+    "learn-pack",
+    "sealed",
+    "retract"
+  ],
+  "read_time_min": 2
+}

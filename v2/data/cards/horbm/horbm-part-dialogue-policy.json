@@ -1,0 +1,44 @@
+{
+  "id": "horbm-part-dialogue-policy",
+  "title": "Dialogue policy reads an intent and keeps an honest miss",
+  "section": "horbm",
+  "category": "conversation",
+  "summary": "The dialogue layer reads one intent for the heard line, including ask, recall, correct, forget, and goodbye. Recall needs one person-memory source. Otherwise the reply is the honest miss.",
+  "body": "The dialogue module decides the next move after retrieval has already produced a clause or an honest miss. The heard line is read once as an intent. Labels kept from the earlier layer are chat, ask, task, vent, and goodbye. A fixed English phrase table then refines the line to recall, correct, or forget. Precedence is correction, then forget, then recall. A forget phrase sitting against a negation does not count as forget. An unknown label is chat.\n\nRecall speaks a person-memory source, prefixed memory or learned and carrying an id, or the honest miss when the gathered sources are not one. A correction or a forget becomes that same miss and does not repeat the last sourced clause. Check-ins stay off until the person turns them on. A callback is stored only when remember is granted. The heuristic is the policy. An offline counter does not change the move, and a correction or a forget is not counted. Nothing in this layer writes a file or reads the diary.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "HORBM dialogue policy, mod.rs",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/dialogue/mod.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d170d60977752456d45c5782d49088db1f8. Module docs for the move and the honest miss. MIT, Galion Labs."
+    },
+    {
+      "title": "HORBM dialogue intents, intent.rs",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/dialogue/intent.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at the same commit. The closed intent labels and the phrase-table precedence: correction, then forget, then recall."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-what-is-horbm",
+    "horbm.honesty.i-dont-know",
+    "horbm.closings.how-to-end",
+    "horbm-repair"
+  ],
+  "tags": [
+    "dialogue",
+    "intent",
+    "goodbye"
+  ],
+  "read_time_min": 1
+}
