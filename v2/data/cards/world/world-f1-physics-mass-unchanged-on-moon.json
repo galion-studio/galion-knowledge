@@ -1,0 +1,42 @@
+{
+  "id": "world-f1-physics-mass-unchanged-on-moon",
+  "title": "Mass stays the same on Earth, in orbit, and on the Moon",
+  "section": "world",
+  "category": "physics",
+  "summary": "The mass of an object is the same on Earth, in orbit, and on the Moon. Weight is what changes.",
+  "body": "OpenStax Physics says mass does not depend on gravity. The mass of an object is the same on Earth, in orbit, or on the surface of the Moon. Weight, the page says, changes if the gravitational force changes. NASA Glenn's weight guide says the same contrast for Earth, the Moon, and Mars: mass remains the same and weight changes. The textbook date is 26 March 2020. The Glenn page was last updated 20 November 2023.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.2 Newton's First Law of Motion: Inertia",
+      "url": "https://openstax.org/books/physics/pages/4-2-newtons-first-law-of-motion-inertia",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only, not a quotation. OpenStax Physics, Paul Peter Urone and Roger Hinrichs, published 26 March 2020. The assigned licence for /books/physics/ is CC BY 4.0; the page footer also prints a noncommercial clause, so this card does not copy the sentence. Supports 'the mass of an object is the same on Earth, in orbit, or on the surface of the moon'."
+    },
+    {
+      "title": "Weight Equation",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/weight-equation-2/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2023-11-20",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 20 November 2023. Paraphrase: mass remains the same on Earth, the Moon, and Mars, while weight changes."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2023-11-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.moon-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "mass",
+    "unchanged"
+  ],
+  "read_time_min": 1
+}

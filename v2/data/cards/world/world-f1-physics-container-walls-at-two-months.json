@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-container-walls-at-two-months",
+  "title": "At about 2.5 months, infants looked longer at two impossible container events",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Baillargeon reports that 2.5-month-olds looked longer when an object passed through a closed container top, and when a moved container left the object behind.",
+  "body": "In a 2004 review, Renée Baillargeon reports work with Sue Hespos. Infants of about 2.5 months looked reliably longer at two containment events than at similar expected ones. In one, an object was lowered into a container through a top that had been shown closed. In the other, an object was lowered into an open container, and the container was then slid aside, leaving the object where it had started. The review reads those longer looks as the infants treating the object as still existing and as unable to pass through the closed top or the walls. This is the review's report of that study. It is not a claim about every infant.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Infants' reasoning about hidden objects",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4215973/",
+      "author": "Renée Baillargeon",
+      "date": "2004-09",
+      "accessed": "2026-11-26",
+      "note": "Peer-reviewed Developmental Science review, September 2004, PMC4215973. Paraphrase of the two 2.5-month containment violations and the author's reading of them."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Renée Baillargeon",
+  "as_of_date": "2004-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "container",
+    "walls"
+  ],
+  "read_time_min": 1
+}

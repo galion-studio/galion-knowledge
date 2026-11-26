@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-thrown-ball-keeps-sideways",
+  "title": "A thrown ball keeps moving sideways while gravity pulls it down",
+  "section": "world",
+  "category": "physics",
+  "summary": "After a ball is thrown, if air resistance is small, it keeps its sideways motion while gravity pulls it downward, and the two parts do not change each other.",
+  "body": "OpenStax Physics describes projectile motion as the path of an object thrown into the air when, after the launch, air resistance is negligible and the other force is gravity. The page's main point is that the horizontal and vertical motions are independent. A cannonball dropped straight down and a cannonball launched sideways fall downward at the same rate in that comparison, while the launched one also travels sideways. Air resistance, the page says, is a frictional force that can change the path, and the textbook sets it aside when the change is small. Urone and Hinrichs, 26 March 2020.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "5.3 Projectile Motion",
+      "url": "https://openstax.org/books/physics/pages/5-3-projectile-motion",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only, not a quotation. OpenStax Physics, Paul Peter Urone and Roger Hinrichs, published 26 March 2020. The assigned licence for /books/physics/ is CC BY 4.0; the page footer also prints a noncommercial clause, so this card does not copy the sentence. Supports independence of horizontal and vertical motion, and the dropped-versus-launched cannonball comparison."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "thrown",
+    "sideways"
+  ],
+  "read_time_min": 1
+}

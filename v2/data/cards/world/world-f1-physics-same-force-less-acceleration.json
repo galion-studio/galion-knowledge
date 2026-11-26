@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-same-force-less-acceleration",
+  "title": "The same net force accelerates a larger mass less",
+  "section": "world",
+  "category": "physics",
+  "summary": "Newton's second law, as OpenStax states it, says acceleration is smaller when the mass is larger, for the same net force.",
+  "body": "OpenStax Physics writes Newton's second law as net force equals mass times acceleration. Acceleration is a change in velocity: faster, slower, or a new direction. The page says a net outside force causes that change, and the acceleration is in the direction of the net force and inversely proportional to the mass. So the same push changes the speed of a light object more than the speed of a heavy one. Urone and Hinrichs, 26 March 2020. The page is the textbook relation, not a measured trial.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.3 Newton's Second Law of Motion",
+      "url": "https://openstax.org/books/physics/pages/4-3-newtons-second-law-of-motion",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only, not a quotation. OpenStax Physics, Paul Peter Urone and Roger Hinrichs, published 26 March 2020. The assigned licence for /books/physics/ is CC BY 4.0; the page footer also prints a noncommercial clause, so this card does not copy the sentence. Supports Fnet = ma and the inverse dependence of acceleration on mass."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "acceleration",
+    "heavier"
+  ],
+  "read_time_min": 1
+}

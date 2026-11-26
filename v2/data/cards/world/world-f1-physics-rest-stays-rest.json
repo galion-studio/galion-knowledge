@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-rest-stays-rest",
+  "title": "An object at rest stays at rest until a net force acts",
+  "section": "world",
+  "category": "physics",
+  "summary": "An object at rest tends to stay at rest until a net outside force acts on it.",
+  "body": "OpenStax Physics states Newton's first law in two parts. The first is that a body at rest tends to remain at rest. A net outside force is what changes that. The book says the laws are treated as holding on Earth and in space. Urone and Hinrichs, 26 March 2020. Everyday life is full of friction, so the 'until a force acts' clause is the part that keeps a resting cup on the table until something pushes it.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.2 Newton's First Law of Motion: Inertia",
+      "url": "https://openstax.org/books/physics/pages/4-2-newtons-first-law-of-motion-inertia",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only, not a quotation. OpenStax Physics, Paul Peter Urone and Roger Hinrichs, published 26 March 2020. The assigned licence for /books/physics/ is CC BY 4.0; the page footer also prints a noncommercial clause, so this card does not copy the sentence. Supports the first clause: a body at rest tends to remain at rest unless a net external force acts."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.newton-principia-text"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "rest",
+    "stays"
+  ],
+  "read_time_min": 1
+}

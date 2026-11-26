@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-drag-through-fluid",
+  "title": "Drag slows something moving through a liquid or a gas",
+  "section": "world",
+  "category": "physics",
+  "summary": "Drag is a force that opposes and slows an object moving through a fluid such as air or water.",
+  "body": "OpenStax Physics says drag opposes and slows the motion of an object through a fluid. On the same page, air resistance is named as a form of friction. The point for everyday motion is that moving through air or water costs speed unless something keeps pushing. The book does not give a drag formula on this page. Urone and Hinrichs, 26 March 2020.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.2 Newton's First Law of Motion: Inertia",
+      "url": "https://openstax.org/books/physics/pages/4-2-newtons-first-law-of-motion-inertia",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only, not a quotation. OpenStax Physics, Paul Peter Urone and Roger Hinrichs, published 26 March 2020. The assigned licence for /books/physics/ is CC BY 4.0; the page footer also prints a noncommercial clause, so this card does not copy the sentence. Supports the sentence that drag opposes motion through a fluid, and that air resistance is a form of friction."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "drag",
+    "fluid"
+  ],
+  "read_time_min": 1
+}

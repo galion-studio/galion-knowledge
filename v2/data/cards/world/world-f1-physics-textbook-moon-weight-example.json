@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-textbook-moon-weight-example",
+  "title": "A textbook example puts a 1 kilogram mass at about 1.7 newtons on the Moon",
+  "section": "world",
+  "category": "physics",
+  "summary": "OpenStax Physics prints a Moon example in which a 1 kilogram mass weighs about 1.7 newtons, against 9.8 newtons on Earth.",
+  "body": "OpenStax Physics says gravity varies slightly from place to place on Earth, and varies a great deal away from Earth. In the example on the second-law page, acceleration due to gravity on the Moon is given as 1.67 metres per second squared, so a 1.0 kilogram mass weighs 9.8 newtons on Earth and only about 1.7 newtons on the Moon in that example. A NASA Moon fact sheet is a different card and is not copied here. The book date is 26 March 2020. The figures are the textbook's example, not a new measurement.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.3 Newton's Second Law of Motion",
+      "url": "https://openstax.org/books/physics/pages/4-3-newtons-second-law-of-motion",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only, not a quotation. OpenStax Physics, Paul Peter Urone and Roger Hinrichs, published 26 March 2020. The assigned licence for /books/physics/ is CC BY 4.0; the page footer also prints a noncommercial clause, so this card does not copy the sentence. Supports the printed Moon example: 1.67 m/s^2, and about 1.7 N versus 9.8 N for a 1.0 kg mass."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.moon-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "textbook",
+    "newtons"
+  ],
+  "read_time_min": 1
+}

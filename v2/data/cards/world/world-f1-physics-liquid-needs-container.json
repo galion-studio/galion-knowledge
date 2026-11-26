@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-liquid-needs-container",
+  "title": "Pour a liquid into a jug and the amount stays put",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "A liquid flows until it matches the jug, and squeezing it barely changes how much there is.",
+  "body": "In the OpenStax chemistry chapter on phases, a liquid is the state that flows. Under ordinary gravity its top surface sits flat or slightly curved, rather than climbing the walls. Pressure hardly changes how much liquid is in the sample, which is why a cup of water is still a cup of water after you tip the cup. Carrying it still requires a jug, because the liquid does not hold a shape of its own. Flowers, Robinson, Langley, and Theopold wrote that chapter for the 11 March 2015 edition. A remark on the same page about a round drop with no gravity is a different claim.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "1.2 Phases and Classification of Matter",
+      "url": "https://openstax.org/books/chemistry/pages/1-2-phases-and-classification-of-matter",
+      "author": "Paul Flowers, William R. Robinson, Richard Langley, and Klaus Theopold",
+      "date": "2015-03-11",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only. OpenStax Chemistry, Paul Flowers, William R. Robinson, Richard Langley, and Klaus Theopold, published 11 March 2015. First-edition /books/chemistry/ is CC BY 4.0; the footer also prints a noncommercial clause, so no sentence is copied. Supports the liquid-shape and fixed-volume sentences, including the flat upper surface under gravity."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2015-03-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "liquid",
+    "container"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-push-or-pull",
+  "title": "A force is a push or a pull",
+  "section": "world",
+  "category": "physics",
+  "summary": "A force is a push or a pull on an object, and it has a size and a direction.",
+  "body": "OpenStax Physics says a force pushes or pulls an object. The object can be a table or a person, and the push or pull can come from a person or from Earth's gravitational pull. Forces differ in size and direction: a cannon's push on a cannonball is large, and a mosquito landing on an arm is small. Urone and Hinrichs published the text on 26 March 2020. This is a classroom definition, not a laboratory log.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.1 Force",
+      "url": "https://openstax.org/books/physics/pages/4-1-force",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only, not a quotation. OpenStax Physics, Paul Peter Urone and Roger Hinrichs, published 26 March 2020. The assigned licence for /books/physics/ is CC BY 4.0; the page footer also prints a noncommercial clause, so this card does not copy the sentence. Supports the definition that a force pushes or pulls, with the cannon and mosquito size contrast."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "push",
+    "pull"
+  ],
+  "read_time_min": 1
+}

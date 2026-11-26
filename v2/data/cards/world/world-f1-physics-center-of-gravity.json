@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-center-of-gravity",
+  "title": "The center of gravity is the average place of an object's weight",
+  "section": "world",
+  "category": "physics",
+  "summary": "The center of gravity is the average location of an object's weight, and the weight acts through that place.",
+  "body": "NASA Glenn says the center of gravity is a geometric property of any object: the average location of its weight. The page says the weight always acts through that place, which is why the trim of a kite still depends on where the center of gravity sits relative to the bridle point. Finding that place for an aircraft can be complicated when the mass is uneven. The page was last updated 17 July 2024. It does not, on the page that was read, give a rule for when a stack of blocks tips.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Center of Gravity",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/center-of-gravity/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2024-07-17",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 17 July 2024. Paraphrase of the definition: average location of the weight, and weight acts through that point."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2024-07-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "center",
+    "gravity"
+  ],
+  "read_time_min": 1
+}

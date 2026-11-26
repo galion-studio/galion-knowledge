@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-gas-fills-container",
+  "title": "A gas spreads until it occupies the whole vessel",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "A gas has no amount of its own: it expands to the outline and the capacity of whatever holds it.",
+  "body": "The same OpenStax chemistry chapter treats a gas as the state that adopts both the outline and the capacity of its vessel. The picture on the page is a balloon. If the gas did not occupy space, the balloon would stay limp instead of puffing out when filled. That is why a covered pot holds steam only until the lid is off. Flowers, Robinson, Langley, and Theopold, edition of 11 March 2015. This is the phase classification, not a numbered gas law.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "1.2 Phases and Classification of Matter",
+      "url": "https://openstax.org/books/chemistry/pages/1-2-phases-and-classification-of-matter",
+      "author": "Paul Flowers, William R. Robinson, Richard Langley, and Klaus Theopold",
+      "date": "2015-03-11",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only. OpenStax Chemistry, Paul Flowers, William R. Robinson, Richard Langley, and Klaus Theopold, published 11 March 2015. First-edition /books/chemistry/ is CC BY 4.0; the footer also prints a noncommercial clause, so no sentence is copied. Supports 'a gas takes both the shape and volume of its container' and the balloon sentence."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2015-03-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "gas",
+    "balloon"
+  ],
+  "read_time_min": 1
+}

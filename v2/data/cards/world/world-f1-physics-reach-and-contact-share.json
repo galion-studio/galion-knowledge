@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-reach-and-contact-share",
+  "title": "At 6.5 months, but not at 5.5, reaches tracked how much of the toy was supported",
+  "section": "world",
+  "category": "psychology",
+  "summary": "In the same action study, 6.5-month-olds reached more for a fully supported toy than for one with little of its bottom on the surface, and 5.5-month-olds did not.",
+  "body": "Hespos and Baillargeon also compared a toy with all of its bottom on a surface to a toy with 15 percent of its bottom on the surface. Infants of 6.5 months were more likely to reach for the fully supported toy. Infants of 5.5 months were not. The paper presents this as the same pattern earlier looking-time studies had reported: the amount of contact comes in later than the simple on-versus-against contrast. Published in Cognition in 2007. The ages are the groups that were tested.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Young infants' actions reveal their developing knowledge of support variables",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2359484/",
+      "author": "Susan J. Hespos and Renée Baillargeon",
+      "date": "2007-09-07",
+      "accessed": "2026-11-26",
+      "note": "Peer-reviewed Cognition paper, 7 September 2007, PMC2359484. Paraphrase of the 100 percent versus 15 percent reaching contrast."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Susan J. Hespos and Renée Baillargeon",
+  "as_of_date": "2007-09-07",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "percent",
+    "contact"
+  ],
+  "read_time_min": 1
+}

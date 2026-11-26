@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-reach-for-supported-toy",
+  "title": "At 5.5 and 6.5 months, infants reached more for a toy resting on a surface",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Hespos and Baillargeon found that 5.5- and 6.5-month-olds reached more often for a toy resting on a surface than for one resting against it.",
+  "body": "Susan Hespos and Renée Baillargeon asked whether reaching would match earlier looking-time reports about support. Infants at 5.5 months and at 6.5 months were more likely to reach for a toy that rested on a surface than for a toy that rested against a surface. The authors read the reach as the infants using support knowledge to judge which toy could be retrieved. The paper was published in Cognition in 2007. It is about the infants in the action task, not about every child of those ages.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Young infants' actions reveal their developing knowledge of support variables",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2359484/",
+      "author": "Susan J. Hespos and Renée Baillargeon",
+      "date": "2007-09-07",
+      "accessed": "2026-11-26",
+      "note": "Peer-reviewed Cognition paper, 7 September 2007, PMC2359484. Paraphrase of the on-versus-against reaching result at 5.5 and 6.5 months."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Susan J. Hespos and Renée Baillargeon",
+  "as_of_date": "2007-09-07",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "reach",
+    "supported"
+  ],
+  "read_time_min": 1
+}

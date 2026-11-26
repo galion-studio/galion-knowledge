@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-truck-harder-to-change",
+  "title": "A more massive object is harder to speed up or slow down",
+  "section": "world",
+  "category": "physics",
+  "summary": "Inertia grows with mass, so changing the motion of a large truck is harder than changing the motion of a toy truck.",
+  "body": "OpenStax Physics says some objects have more inertia than others. Its example is that changing the motion of a large truck is more difficult than changing the motion of a toy truck. The page says the inertia of an object is proportional to its mass. Mass here is the amount of matter, and it does not depend on gravity. Urone and Hinrichs, 26 March 2020. The example is about how hard the motion is to change, not about which truck is stronger.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.2 Newton's First Law of Motion: Inertia",
+      "url": "https://openstax.org/books/physics/pages/4-2-newtons-first-law-of-motion-inertia",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only, not a quotation. OpenStax Physics, Paul Peter Urone and Roger Hinrichs, published 26 March 2020. The assigned licence for /books/physics/ is CC BY 4.0; the page footer also prints a noncommercial clause, so this card does not copy the sentence. Supports the truck comparison and the statement that inertia is proportional to mass."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "truck",
+    "inertia"
+  ],
+  "read_time_min": 1
+}

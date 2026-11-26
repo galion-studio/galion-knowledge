@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-mars-weight-about-a-third",
+  "title": "Weight on Mars is roughly one-third of weight on Earth",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "NASA Glenn says that, roughly, weight on Mars is one-third of weight on Earth, while mass stays the same.",
+  "body": "NASA Glenn's weight guide says an object has a different weight on Earth, the Moon, and Mars because Earth, the Moon, and Mars differ in mass and in radius. The object's mass stays the same in all three places. Roughly, the page says, weight on the Moon is one-sixth of Earth weight and weight on Mars is one-third. This card is the Mars fraction. The Moon fraction is on a NASA Science page of its own. The Glenn page was last updated 20 November 2023. A Mars fact sheet lists a surface-gravity number separately.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Weight Equation",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/weight-equation-2/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2023-11-20",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 20 November 2023. Paraphrase of the sentence that weight on Mars is roughly 1/3 of weight on Earth, and that mass stays the same."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2023-11-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.mars-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "mars",
+    "third"
+  ],
+  "read_time_min": 1
+}

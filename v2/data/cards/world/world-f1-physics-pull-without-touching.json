@@ -1,0 +1,40 @@
+{
+  "id": "world-f1-physics-pull-without-touching",
+  "title": "Gravity can pull without the two objects touching",
+  "section": "world",
+  "category": "physics",
+  "summary": "Two things do not have to touch for one to exert a force on the other. Gravity pulls with no contact.",
+  "body": "OpenStax Physics says two bodies do not have to be in physical contact to exert a force. It names gravity as a field force that pulls without contact, and contrasts that with a push you can feel by hand. NASA Glenn's weight guide says the same kind of thing in its own words: gravity is a field force, and the source does not have to touch the object, unlike lift, drag, or thrust. The textbook date is 26 March 2020. The Glenn page was last updated 20 November 2023. Both are general descriptions, not a new experiment.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.1 Force",
+      "url": "https://openstax.org/books/physics/pages/4-1-force",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only, not a quotation. OpenStax Physics, Paul Peter Urone and Roger Hinrichs, published 26 March 2020. The assigned licence for /books/physics/ is CC BY 4.0; the page footer also prints a noncommercial clause, so this card does not copy the sentence. Supports the check-your-understanding answer that gravity does not require contact."
+    },
+    {
+      "title": "Weight Equation",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/weight-equation-2/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2023-11-20",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 20 November 2023. Paraphrase: gravitational force is a field force and does not require contact."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2023-11-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "contact",
+    "field"
+  ],
+  "read_time_min": 1
+}
