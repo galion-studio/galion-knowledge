@@ -4,6 +4,8 @@ Perpetual Open MIT License. Copyright (c) 2026 Galion Labs.
 
 Swarm S3 of 4 for knowledge.galion.app V2. This file is the outline. The cards under `v2/data/cards/horbm/` are the seed. HORBM means Heuristic Open Retrieval Brain Model: Galion's retrieval-based brain, not a large language model, CPU-first, with short-term and long-term memory, a persona, an inner-life layer, and real-time full-duplex voice.
 
+The name in the sentence above is "Heuristic Open Retrieval Brain Model". When this file was added (commit `1ee5d4c`), that sentence said "Heuristic Open Retrieval Brain Models". Commit `18484cf` changed the plural to the singular and records that Mate confirmed the singular name. This note records the drift between "Models" and "Model". It does not rewrite the sentence again.
+
 This pack answers one question: **what must that brain know in order to communicate with a person?** It does not design the retriever, the ranker, the diary store, or the mouth. Those belong to other notes and other swarms.
 
 ## What was followed
@@ -33,11 +35,14 @@ S1's unpublished catalog, as read from that run, listed HORBM categories `conver
 
 The brain needs eight kinds of knowledge. The leaves are the card ids.
 
+The seed list had 34 ids. Publication 6 adds 17, so this outline names 51. The folder `v2/data/cards/horbm/` holds more card files than this list.
+
 ### 0. Scope
 
 What this pack is, and what it refuses to be.
 
 - `horbm-pack-scope`
+- `horbm-what-is-horbm` — What HORBM is
 
 ### 1. Conversation — category `conversation`
 
@@ -50,6 +55,13 @@ Turn-taking, overlap, backchannels, barge-in, repair, and grounding, for a full-
 - `horbm-repair` — prefer fixing a miss over inventing the sentence; "huh?" is a repair initiator, not chatter
 - `horbm-grounding` — a claim is shared only once it has been accepted; a continuer is not that acceptance
 - `horbm-full-duplex-duties` — what the cards above require of a voice that can hear while it speaks
+- `horbm-part-dialogue-policy` — Dialogue policy reads an intent and keeps an honest miss
+- `horbm-part-duplex-voice` — The full-duplex loop hears during speech and yields on barge-in
+- `horbm-part-ear` — The ear reads prosody from each 80 ms frame
+- `horbm-access-relay-callers` — Some callers reach a voice line through a relay service or captions
+- `horbm-access-plain-language` — Plain language: short sentences, common words, one idea at a time
+- `horbm-access-repeat-and-slow-down` — When asked to repeat or slow down, repeat the same content more slowly
+- `horbm-access-do-not-guess-disability` — Do not infer a disability from voice, pace, or speech; answer the request
 
 ### 2. Honesty — category `honesty`
 
@@ -60,6 +72,7 @@ How to say "I don't know", and how to keep a fact, a guess, and an opinion apart
 - `horbm-fact-and-opinion` — fact, interpretation, opinion, contested
 - `horbm-hedge-a-guess` — one deliberate hedge, in the same sentence as the guess
 - `horbm-attribution-gate` — a claim about the world is cited, marked as a guess, or withheld
+- `horbm-part-card-retrieval` — Card lookup keeps the smallest unique covering card
 
 ### 3. Affect — category `affect`
 
@@ -70,6 +83,7 @@ Emotion is a point in arousal, valence, and dominance, stepped on the 80 ms fram
 - `horbm-categories-contested` — Ekman, Barrett, and Cowen do not agree; Cowen names stay optional pins
 - `horbm-empathy-weight` — empathy is a weight on the voice, not a script, and anger is answered rather than copied
 - `horbm-xiaoice-empathy-facts` — what the XiaoIce paper actually reports
+- `horbm-part-inner-life` — The inner life keeps a mood and an intent, not spoken words
 
 ### 4. Persona — category `persona`
 
@@ -79,6 +93,7 @@ The same voice, every turn. Not an 18-year-old character, and not a contest to k
 - `horbm-persona-galion-research` — the research voice
 - `horbm-persona-filter` — consistency is a filter in front of the reply, not a learned embedding
 - `horbm-do-not-chase-turns` — a finished call can be the success; length is not
+- `horbm-part-persona` — The configured persona is a toml file, and style caps sentences
 
 ### 5. Culture — category `culture`
 
@@ -106,6 +121,16 @@ Remember a fact about the person only when they asked. The session dies at hang-
 - `horbm-remember-when-asked` — the `remember` bit, and the three kinds of row that may be kept
 - `horbm-memory-stores` — session ring, episodic rows, semantic claims; no second portrait
 - `horbm-forgetting-and-deletion` — use and time may fade a row; withdrawal does not wait for the fade
+- `horbm-part-person-memory` — Person memory pins, recalls, lists, and forgets only under a grant
+- `horbm-part-learn-pack` — A taught clause is sealed into a capped learn pack
+- `horbm-memory-how-to-pin` — How to ask HORBM to remember something, and what is never kept
+- `horbm-memory-how-to-recall` — Which words ask HORBM to say a kept fact back
+- `horbm-memory-how-to-correct` — How to correct HORBM, and what a correction does today
+- `horbm-memory-how-to-forget` — The exact phrases that make HORBM forget
+
+## Gaps filled in publication 6
+
+Two gaps named in `HORBM_CARDS_OUTLINE.md` are filled. The closed phrase list for `forget that`, as distinct from consent withdrawal, is `horbm-memory-how-to-forget`. Accessibility is `horbm-access-relay-callers`, `horbm-access-plain-language`, `horbm-access-repeat-and-slow-down`, and `horbm-access-do-not-guess-disability`. The open questions below stay open.
 
 ## Where the design already lives
 
