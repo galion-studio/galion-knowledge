@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-cdc-face-two-months",
+  "title": "Looking at a face is on the CDC list for two months",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Most babies look at a face by two months, the CDC says.",
+  "body": "The US Centers for Disease Control and Prevention puts 'looks at your face' on the social milestones for two months. A milestone, on that page, is something most children, 75 percent or more, do by the stated age. The Learn the Signs materials are not a substitute for a standardized, validated developmental screening tool. Other countries publish other lists, so this line is the American checklist, not a verdict on one baby.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports 'Looks at your face' as a milestone most children (75% or more) do by two months, and the screening-tool disclaimer."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-cdc-watch-movement-two-months",
+    "world-f1-senses-newborn-near-visual-range"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "face",
+    "months"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-iris-controls-pupil",
+  "title": "The iris decides how much light the pupil lets in",
+  "section": "world",
+  "category": "biology",
+  "summary": "The iris, the colored part of the eye, controls how much light passes through the pupil.",
+  "body": "On the National Eye Institute's how-the-eyes-work page, the pupil is the opening, and the iris is the colored part around it. That colored ring controls how much light the opening admits. The sentence is about the healthy eye's anatomy. It does not say why the opening changes in bright or dim rooms.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How the Eyes Work",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+      "author": "National Eye Institute",
+      "date": "2022-04-20",
+      "accessed": "2026-11-26",
+      "note": "Supports the iris, the colored part, controlling how much light the pupil lets in."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Eye Institute",
+  "as_of_date": "2022-04-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-cornea-bends-light",
+    "world-f1-senses-photoreceptors-electrical"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "iris",
+    "pupil"
+  ],
+  "read_time_min": 1
+}

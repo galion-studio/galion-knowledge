@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-touch-spread-receptors",
+  "title": "Touch uses receptors spread through the skin, not a single organ",
+  "section": "world",
+  "category": "biology",
+  "summary": "Touch, or somatosensation, is a general sense: its receptors are distributed through the skin and body rather than gathered in one organ.",
+  "body": "OpenStax Anatomy and Physiology contrasts a general sense, distributed through the body, with a special sense that has its own organ, such as the eye or the inner ear. Somatosensation is the general group people call touch. It includes pressure, vibration, light touch, temperature, and pain, with many receptors in the skin and others in muscles, tendons, and joints. This card is that classification. Each sub-sense is not spelled out here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "14.1 Sensory Perception",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, section 14.1, CC BY 4.0. No revision date was printed on the page. Supports somatosensation as a general sense distributed through skin and body, unlike a special-sense organ."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-temperature-receptors",
+    "world-f1-senses-pain-nociceptors"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "somatosensation",
+    "skin"
+  ],
+  "read_time_min": 1
+}

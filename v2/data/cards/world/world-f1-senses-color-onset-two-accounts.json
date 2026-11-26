@@ -1,0 +1,44 @@
+{
+  "id": "world-f1-senses-color-onset-two-accounts",
+  "title": "An encyclopedia and a review give different ages for the start of color vision",
+  "section": "world",
+  "category": "psychology",
+  "summary": "MedlinePlus says color vision develops between four and six months, while a 2022 review describes color detection at birth and trichromacy by about three months.",
+  "body": "MedlinePlus states that color vision develops between four and six months. Skelton, Maule, and Franklin's review states that newborns can already detect some highly saturated color and that both cone-opponent channels are active by about three months. Read side by side, the encyclopedia line and the review are not measuring the same level of color vision. This card does not pick one age as the start, and neither source is a test of one child. The review's samples were mostly from Western, educated, industrialized countries.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Infant - newborn development",
+      "url": "https://medlineplus.gov/ency/article/002004.htm",
+      "author": "MedlinePlus",
+      "date": "2025-01-01",
+      "accessed": "2026-11-26",
+      "note": "The encyclopedia sentence that color vision develops between 4 and 6 months."
+    },
+    {
+      "title": "Infant color perception: Insight into perceptual development",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9314692/",
+      "author": "Skelton, Maule, and Franklin",
+      "date": "2022",
+      "accessed": "2026-11-26",
+      "note": "Child Development Perspectives, 2022, opened at the PMC full text. Paraphrase of what that review states. The review's statements that neonates detect some saturated color and that infants are trichromatic by 3 months."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "MedlinePlus and Skelton, Maule, and Franklin",
+  "as_of_date": "2025-01-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-color-vision-four-to-six-months",
+    "world-f1-senses-trichromatic-by-three-months",
+    "world-f1-senses-newborn-color-detection"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "onset",
+    "accounts"
+  ],
+  "read_time_min": 1
+}

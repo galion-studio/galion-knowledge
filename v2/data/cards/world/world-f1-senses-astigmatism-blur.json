@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-astigmatism-blur",
+  "title": "Astigmatism can blur or distort both near and far objects",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Astigmatism can make far-away and nearby objects look blurry or distorted.",
+  "body": "The National Eye Institute says astigmatism can make far-away and nearby objects look blurry or distorted. It lists astigmatism among four common refractive errors, caused in general by eyeball length, corneal shape, or aging of the lens. This card keeps only the astigmatism description from the page updated on 19 December 2025.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Refractive Errors",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+      "author": "National Eye Institute",
+      "date": "2025-12-19",
+      "accessed": "2026-11-26",
+      "note": "Supports astigmatism making far and near objects look blurry or distorted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Eye Institute",
+  "as_of_date": "2025-12-19",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-nearsighted-blur",
+    "world-f1-senses-farsighted-blur"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "astigmatism",
+    "distorted"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-glasses-do-not-weaken",
+  "title": "Wearing glasses does not make the eyes weaker",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Glasses clear vision while they are worn, and the National Eye Institute says they do not change the eyes or make vision worse.",
+  "body": "The National Eye Institute says glasses make vision clearer while you are wearing them, but they do not change your eyes at all. Wearing glasses does not make the eyes weaker or the vision worse. The sentence is on the eyeglasses page last updated 8 July 2019. It answers that one worry. It does not say how often to replace a pair.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Eyeglasses for Refractive Errors",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors/eyeglasses-refractive-errors",
+      "author": "National Eye Institute",
+      "date": "2019-07-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the statement that wearing glasses does not change the eyes or make vision worse."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Eye Institute",
+  "as_of_date": "2019-07-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-glasses-bend-light",
+    "world-f1-senses-refractive-error"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "weaker",
+    "worn"
+  ],
+  "read_time_min": 1
+}

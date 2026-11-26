@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-stereocilia-signal",
+  "title": "Bending stereocilia opens channels and starts an electrical signal",
+  "section": "world",
+  "category": "biology",
+  "summary": "When stereocilia on the hair cells bend, channels at their tips open and an electrical signal begins.",
+  "body": "NIDCD says microscopic hair-like projections, stereocilia, perch on the hair cells. As the cells move, those projections bump an overlying structure and bend. Bending opens pore-like channels at the tips. Chemicals rush in and create an electrical signal. The page is describing that transduction step, not damage from loud noise.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How Do We Hear?",
+      "url": "https://www.nidcd.nih.gov/health/how-do-we-hear",
+      "author": "NIDCD",
+      "date": "2022-03-16",
+      "accessed": "2026-11-26",
+      "note": "Supports bending of stereocilia opening tip channels and creating an electrical signal."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2022-03-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-cochlea-pitch-place",
+    "world-f1-senses-auditory-nerve-brain"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "stereocilia",
+    "channels"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-cdc-mirror-six-months",
+  "title": "A mirror draws most babies by six months on the CDC list",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Most babies like to look at themselves in a mirror by six months, the CDC says.",
+  "body": "Liking a look at oneself in a mirror sits on CDC's six-month social checklist. Curiosity about the reflection is the skill, not saying a name. CDC reviewed that page on 16 May 2026 and warns that Learn the Signs pages are not validated screening instruments.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 6 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports 'Likes to look at self in a mirror' by six months for most children (75% or more)."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-cdc-face-two-months",
+    "world-f1-senses-cdc-hands-four-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "mirror",
+    "reflection"
+  ],
+  "read_time_min": 1
+}

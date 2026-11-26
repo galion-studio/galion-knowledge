@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-auditory-nerve-brain",
+  "title": "The auditory nerve carries the ear's signal into the brain",
+  "section": "world",
+  "category": "biology",
+  "summary": "The auditory nerve carries the cochlea's electrical signal to the brain, which turns it into a sound a person recognizes.",
+  "body": "NIDCD says the auditory nerve carries the electrical signal to the brain. The brain turns it into a sound that we recognize and understand. That is the last step on the institute's how-we-hear page. Recognition here is the page's wording for that arrival, not a theory of attention.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How Do We Hear?",
+      "url": "https://www.nidcd.nih.gov/health/how-do-we-hear",
+      "author": "NIDCD",
+      "date": "2022-03-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the auditory nerve carrying the electrical signal to the brain, which turns it into a recognized sound."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2022-03-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-stereocilia-signal",
+    "world-f1-senses-sensation-versus-perception"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "auditory",
+    "recognize"
+  ],
+  "read_time_min": 1
+}

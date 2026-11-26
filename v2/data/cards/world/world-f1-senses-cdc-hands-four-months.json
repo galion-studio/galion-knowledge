@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-cdc-hands-four-months",
+  "title": "Interest in one's own hands is on the four-month CDC list",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Most babies look at their hands with interest by four months, the CDC says.",
+  "body": "By four months, CDC says most babies study their own hands. Grasping is a different skill and is not this item. The bar is three quarters of children on a United States checklist, and CDC says that checklist cannot stand in for a formal developmental screen.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 4 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/4-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports 'Looks at her hands with interest' by four months for most children (75% or more)."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-cdc-watch-movement-two-months",
+    "world-f1-senses-cdc-mirror-six-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "hands",
+    "interest"
+  ],
+  "read_time_min": 1
+}

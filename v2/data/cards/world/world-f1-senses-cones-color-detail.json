@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-cones-color-detail",
+  "title": "Cone cells handle bright light, sharp detail, and color",
+  "section": "world",
+  "category": "biology",
+  "summary": "Cone cells work best in bright light, support fine detail, and take part in color vision.",
+  "body": "OpenStax Psychology says cone cells are concentrated in the fovea, where images are focused. They work best in bright light, are sensitive to acute detail, and are directly involved in color. The same chapter is teaching text under CC BY 4.0. It is not a diagnosis of color vision deficiency.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "5.3 Vision",
+      "url": "https://openstax.org/books/psychology/pages/5-3-vision",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology, first edition, section 5.3, CC BY 4.0. No revision date was printed on the page. Supports cones in the fovea working in bright light, with high detail and a role in color."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-rods-dim-light",
+    "world-f1-senses-three-cone-opsins"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "cones",
+    "fovea"
+  ],
+  "read_time_min": 1
+}

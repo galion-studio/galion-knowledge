@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-track-moving-object",
+  "title": "By two months a baby can follow a moving object across a wide arc",
+  "section": "world",
+  "category": "psychology",
+  "summary": "MedlinePlus says that by two months an infant can track a moving object up to 180 degrees and prefers faces.",
+  "body": "In the sensory section of its newborn-development page, MedlinePlus says that by two months an infant can track moving objects up to 180 degrees, and prefers faces. The page was reviewed on 1 January 2025. The line is broader than a brief glance at a toy, and it is an encyclopedia summary rather than a pass-fail screening result for one child.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Infant - newborn development",
+      "url": "https://medlineplus.gov/ency/article/002004.htm",
+      "author": "MedlinePlus",
+      "date": "2025-01-01",
+      "accessed": "2026-11-26",
+      "note": "Supports tracking moving objects up to 180 degrees by two months, and a preference for faces."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2025-01-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-newborn-near-visual-range",
+    "world-f1-senses-cdc-watch-movement-two-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "track",
+    "degrees"
+  ],
+  "read_time_min": 1
+}

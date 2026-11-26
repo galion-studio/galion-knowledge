@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-senses-refractive-error",
+  "title": "A refractive error means the eye does not focus light on the retina",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Refractive errors happen when the shape of the eye keeps light from focusing correctly on the retina.",
+  "body": "The National Eye Institute says refractive errors are vision problems that make it hard to see clearly. They happen when the shape of the eye keeps light from focusing correctly on the retina, which the page again calls a light-sensitive layer at the back of the eye. The institute calls them the most common type of vision problem. An eye doctor can prescribe eyeglasses or contact lenses. This card is that definition, not a prescription.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Refractive Errors",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+      "author": "National Eye Institute",
+      "date": "2025-12-19",
+      "accessed": "2026-11-26",
+      "note": "Supports refractive error as the eye's shape keeping light from focusing on the retina."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Eye Institute",
+  "as_of_date": "2025-12-19",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-lens-focuses-retina",
+    "world-f1-senses-glasses-bend-light",
+    "world-f1-senses-nearsighted-blur"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "refractive",
+    "shape"
+  ],
+  "read_time_min": 1
+}

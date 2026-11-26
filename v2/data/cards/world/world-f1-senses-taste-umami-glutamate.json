@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-taste-umami-glutamate",
+  "title": "Umami is the savory taste of glutamate",
+  "section": "world",
+  "category": "biology",
+  "summary": "Umami, often called savory, is the taste of the amino acid L-glutamate, and OpenStax counts it with sweet, salty, sour, and bitter.",
+  "body": "OpenStax Anatomy and Physiology says only four tastes were recognized until research led to a fifth, umami, in the mid-1980s. Umami is a Japanese word the book translates as delicious taste, often meaning savory. The receptor is activated by L-glutamate, so the flavor shows up in protein-rich foods. The chapter is CC BY 4.0. It also says very recent research has suggested a possible further taste for fats, which this card does not adopt as established.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "14.1 Sensory Perception",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, section 14.1, CC BY 4.0. No revision date was printed on the page. Supports umami as the fifth taste, savory, activated by L-glutamate, listed with sweet, salty, sour, and bitter."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-taste-salty-sodium",
+    "world-f1-senses-flavor-taste-and-smell"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "umami",
+    "glutamate"
+  ],
+  "read_time_min": 1
+}

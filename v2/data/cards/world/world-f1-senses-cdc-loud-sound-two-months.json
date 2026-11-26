@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-cdc-loud-sound-two-months",
+  "title": "A loud sound draws a reaction from most infants by two months",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Most babies react to loud sounds by two months, the CDC says.",
+  "body": "Any reaction to a loud noise is the two-month communication item from CDC. No single movement, startle or otherwise, is required. Three in four children is the bar CDC used, and the sheet is an American conversation aid rather than a diagnosis.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports 'Reacts to loud sounds' by two months for most children (75% or more), plus the disclaimer that the materials are not a screening tool."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-cdc-turn-voice-four-months",
+    "world-f1-senses-hearing-mature-at-birth"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "loud",
+    "reacts"
+  ],
+  "read_time_min": 1
+}

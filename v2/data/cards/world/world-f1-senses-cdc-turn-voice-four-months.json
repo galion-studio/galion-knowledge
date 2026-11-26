@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-cdc-turn-voice-four-months",
+  "title": "Turning toward a voice is a four-month CDC milestone",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Most babies turn their head toward the sound of your voice by four months, the CDC says.",
+  "body": "CDC places head-turning toward a caregiver voice at four months. Household clatter is not the stimulus. Ages on the page mark what a large majority can do, and missing the item is a prompt to speak with a doctor, not a label by itself.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 4 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/4-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports 'Turns head towards the sound of your voice' by four months for most children (75% or more)."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-cdc-loud-sound-two-months",
+    "world-f1-senses-cdc-name-nine-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "voice",
+    "turns"
+  ],
+  "read_time_min": 1
+}

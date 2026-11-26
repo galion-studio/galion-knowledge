@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-newborn-hearing-screen-rate",
+  "title": "About 98 percent of babies in the US have a hearing screen in the first month",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIDCD says about 98 percent of babies in the United States have their hearing screened before one month of age.",
+  "body": "NIDCD says universal newborn hearing screening programs operate in all US states and most US territories. As a result, about 98 percent of babies have their hearing screened before one month of age. The page times that screen for before the baby leaves the hospital or birthing center, or during the first month. The figure is for the United States. The page was updated on 10 June 2024.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Your Baby's Hearing Screening and Next Steps",
+      "url": "https://www.nidcd.nih.gov/health/your-babys-hearing-screening-and-next-steps",
+      "author": "NIDCD",
+      "date": "2024-06-10",
+      "accessed": "2026-11-26",
+      "note": "Supports screening in all US states and about 98 percent of babies screened before one month of age."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2024-06-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-hearing-loss-at-birth",
+    "world-f1-senses-hearing-mature-at-birth"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "screened",
+    "percent"
+  ],
+  "read_time_min": 1
+}

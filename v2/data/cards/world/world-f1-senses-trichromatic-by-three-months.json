@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-senses-trichromatic-by-three-months",
+  "title": "A 2022 review puts three-cone color vision at about three months",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Skelton, Maule, and Franklin say infants are trichromatic by about three months, after a red-green channel and then a blue-yellow one.",
+  "body": "The 2022 review says converging evidence from psychophysics and visual evoked potentials indicates that the red-green mechanism develops first and the blue-yellow mechanism about four to eight weeks later. Infants are trichromatic, with both channels active, by three months. The authors are summarizing that literature, including an earlier review, rather than reporting a single new experiment. They add that sensitivity to washed-out color is still poor then, and that the underlying studies are mostly from Western, educated, industrialized settings.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Infant color perception: Insight into perceptual development",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9314692/",
+      "author": "Skelton, Maule, and Franklin",
+      "date": "2022",
+      "accessed": "2026-11-26",
+      "note": "Child Development Perspectives, 2022, opened at the PMC full text. Paraphrase of what that review states. Supports red-green before blue-yellow, trichromacy by 3 months, and still-poor saturation sensitivity, as the review's summary."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Skelton, Maule, and Franklin",
+  "as_of_date": "2022",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-newborn-color-detection",
+    "world-f1-senses-color-onset-two-accounts",
+    "world-f1-senses-three-cone-opsins"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "trichromatic",
+    "channels"
+  ],
+  "read_time_min": 1
+}

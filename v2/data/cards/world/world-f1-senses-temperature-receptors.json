@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-temperature-receptors",
+  "title": "Some skin receptors answer to heat and others to cold",
+  "section": "world",
+  "category": "biology",
+  "summary": "Thermoreceptors respond when local temperature differs from body temperature, some to heat and some to cold.",
+  "body": "OpenStax Anatomy and Physiology says temperature and pain are transduced by free nerve endings. Temperature receptors are stimulated when local temperatures differ from body temperature. Some thermoreceptors are sensitive only to cold and others only to heat. The chapter is CC BY 4.0 and describes the split, not a burn protocol.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "14.1 Sensory Perception",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, section 14.1, CC BY 4.0. No revision date was printed on the page. Supports separate thermoreceptors for heat and for cold, active when local temperature differs from body temperature."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-touch-spread-receptors",
+    "world-f1-senses-pain-nociceptors"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "thermoreceptors",
+    "cold"
+  ],
+  "read_time_min": 1
+}

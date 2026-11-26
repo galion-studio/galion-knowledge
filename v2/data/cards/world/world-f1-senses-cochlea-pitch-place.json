@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-cochlea-pitch-place",
+  "title": "Along the cochlea, place marks pitch",
+  "section": "world",
+  "category": "biology",
+  "summary": "Hair cells near the wide end of the cochlea detect higher pitches, and hair cells nearer the center detect lower pitches.",
+  "body": "NIDCD calls the cochlea a snail-shaped, fluid-filled structure. A traveling wave along the basilar membrane moves hair cells that sit on it. Hair cells near the wide end detect higher-pitched sounds, such as an infant crying. Hair cells closer to the center detect lower-pitched sounds, such as a large dog barking. The examples are the page's, updated in 2022, not a hearing test.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How Do We Hear?",
+      "url": "https://www.nidcd.nih.gov/health/how-do-we-hear",
+      "author": "NIDCD",
+      "date": "2022-03-16",
+      "accessed": "2026-11-26",
+      "note": "Supports place along the cochlea: wide-end hair cells for higher pitch, central hair cells for lower pitch."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2022-03-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-ossicles-amplify",
+    "world-f1-senses-stereocilia-signal"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "cochlea",
+    "pitch"
+  ],
+  "read_time_min": 1
+}

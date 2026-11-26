@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-taste-bitter-alkaloid",
+  "title": "Bitter taste often flags plant alkaloids",
+  "section": "world",
+  "category": "biology",
+  "summary": "Many bitter molecules are alkaloids from plants, and the densest bitter receptors sit toward the back of the tongue.",
+  "body": "OpenStax Anatomy and Physiology groups many bitter-tasting molecules as alkaloids, nitrogen-containing compounds in coffee, hops, tea, and similar plant products. It says bitter taste may mainly drive a gag so a poison is not swallowed. The highest concentration of bitter receptors appears on the posterior tongue, where that gag could still spit the food out. The function sentence is the textbook's suggestion, marked here as the book's wording, under CC BY 4.0.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "14.1 Sensory Perception",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, section 14.1, CC BY 4.0. No revision date was printed on the page. Supports bitter taste, alkaloids, and the posterior tongue as the site of the densest bitter receptors."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-taste-sweet-sugar",
+    "world-f1-senses-taste-umami-glutamate"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "bitter",
+    "alkaloids"
+  ],
+  "read_time_min": 1
+}

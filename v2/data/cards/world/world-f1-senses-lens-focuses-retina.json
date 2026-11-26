@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-senses-lens-focuses-retina",
+  "title": "The lens and cornea focus light on the retina",
+  "section": "world",
+  "category": "biology",
+  "summary": "The lens works with the cornea to focus light on the retina, the light-sensitive layer at the back of the eye.",
+  "body": "The National Eye Institute says light next passes through the lens, a clear inner part. The lens and the cornea together focus that light on the retina. The institute calls the retina a light-sensitive layer of tissue at the back of the eye. This is the focusing step only. The signals that leave the retina are a different claim.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How the Eyes Work",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+      "author": "National Eye Institute",
+      "date": "2022-04-20",
+      "accessed": "2026-11-26",
+      "note": "Supports the lens working with the cornea to focus light on the retina."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Eye Institute",
+  "as_of_date": "2022-04-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-cornea-bends-light",
+    "world-f1-senses-photoreceptors-electrical",
+    "world-f1-senses-refractive-error"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "lens",
+    "retina"
+  ],
+  "read_time_min": 1
+}

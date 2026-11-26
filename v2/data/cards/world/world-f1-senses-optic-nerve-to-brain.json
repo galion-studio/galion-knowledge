@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-optic-nerve-to-brain",
+  "title": "The optic nerve carries eye signals, and the brain makes the image",
+  "section": "world",
+  "category": "biology",
+  "summary": "Electrical signals travel from the retina through the optic nerve, and the brain turns them into the images a person sees.",
+  "body": "The National Eye Institute says those electrical signals travel from the retina through the optic nerve to the brain. Then the brain turns the signals into the images you see. The page also says the eyes need tears to work correctly, which is a separate requirement and not part of this claim. The description is general anatomy, not a map of one person's sight.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How the Eyes Work",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+      "author": "National Eye Institute",
+      "date": "2022-04-20",
+      "accessed": "2026-11-26",
+      "note": "Supports signals traveling from the retina through the optic nerve, with the brain turning them into images."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Eye Institute",
+  "as_of_date": "2022-04-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-photoreceptors-electrical",
+    "world-f1-senses-sensation-versus-perception"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "optic",
+    "images"
+  ],
+  "read_time_min": 1
+}
