@@ -1,0 +1,45 @@
+{
+  "id": "horbm-part-duplex-voice",
+  "title": "The full-duplex loop hears during speech and yields on barge-in",
+  "section": "horbm",
+  "category": "turn-taking",
+  "summary": "One duplex tick is an 80 ms frame at 16 kHz. The configured persona can be speaking while a new frame is still recognized. Overlap other than a listed backchannel is a barge-in.",
+  "body": "The duplex crate is a closed full-duplex loop. One tick is one 80 ms frame at 16 kHz. The you band and the me band are both stepped on that call, so the loop keeps listening while the configured persona is speaking. A new frame can still be recognized during that speech. A listed backchannel does not cancel the turn. Any other overlap stops the me band on the frame that starts at 160 ms, inside the 200 ms barge-in lock.\n\nThe voice crate's own tick is also one 80 ms frame. Its fixed order is the previous mouth frame, then the ear, then the brain on a transcript, then one mouth frame. While the user holds the turn, the voice loop may play one short nod on the me band. That nod does not start a reply and does not count as a barge-in. A denied ear does not nod. This duplex tick is not the heartbeat frame step. It does not read a wall clock, open a socket, or load a weight.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "horbm-duplex crate, lib.rs",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-duplex/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d170d60977752456d45c5782d49088db1f8. Crate docs: 80 ms frames, listening while speaking, and overlap inside the 200 ms lock. MIT, Galion Labs."
+    },
+    {
+      "title": "horbm-voice crate, lib.rs",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-voice/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at the same commit. Voice-loop tick order, and the short nod that does not count as a barge-in. MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-what-is-horbm",
+    "horbm-barge-in",
+    "horbm-full-duplex-duties",
+    "horbm-backchannel-not-floor",
+    "horbm.turn-taking.duplex-conduct"
+  ],
+  "tags": [
+    "duplex",
+    "barge-in",
+    "frame"
+  ],
+  "read_time_min": 1
+}

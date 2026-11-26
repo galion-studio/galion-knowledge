@@ -1,0 +1,36 @@
+{
+  "id": "horbm-part-inner-life",
+  "title": "The inner life keeps a mood and an intent, not spoken words",
+  "section": "horbm",
+  "category": "affect",
+  "summary": "The inner life moves care, curiosity, help, and expectation as a mood. The message it sends is an intent. That message has no transcript.",
+  "body": "The inner-life crate is the slow layer for whatever persona the host configured. It is not the steady voice baseline, and it is not the 80 ms moment, though its tick quantum is that same 80 ms. Care, curiosity, wanting to help, and expecting an answer move on a turn and decay on a tick. The per-tick keep is 997 over 1000, described in the crate as the discrete form of a 20 second mood half-life at an 80 ms tick. The note they send is an intent message. Its verb is one of comfort, ask, wait, with, answer, check-in, hold, or heard. Strength, care, curiosity, help, and expect sit beside valence, arousal, dominance, and approach. The documented object is one level and has no transcript field, so the message is not the spoken words.\n\nA step does not write the baseline. This crate does not read a persona file and does not name one. Nothing about the person is stored. The remember lock stays deny. Home values come from the host as plain numbers taken from the configured persona's baseline, and that persona's id is copied in by the host. The standalone constructor uses an empty persona id. Outbound fields are a pull. An inbound heard verb carries a listener point in those slots. This crate does not apply those slots to the voice body.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "horbm-inner crate, lib.rs",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-inner/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d170d60977752456d45c5782d49088db1f8. Crate docs and public constants, including the mood half-life comment and the intent message fields. MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-what-is-horbm",
+    "horbm-mood-point-80ms",
+    "horbm.emotion.state-is-avd",
+    "horbm-empathy-weight"
+  ],
+  "tags": [
+    "inner-life",
+    "mood",
+    "intent-message"
+  ],
+  "read_time_min": 2
+}

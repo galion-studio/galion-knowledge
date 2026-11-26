@@ -1,0 +1,44 @@
+{
+  "id": "horbm-part-persona",
+  "title": "The configured persona is a toml file, and style caps sentences",
+  "section": "horbm",
+  "category": "persona",
+  "summary": "A persona file is toml, loaded once at boot. Any schema-valid persona matches. Style caps the spoken reply at the configured sentence count.",
+  "body": "The persona crate describes the steady character. A persona file is toml, schema galion-horbm-persona/1, read once at boot. Traits are open numbers. Honesty is fixed: never fabricate, and the miss line is the fixed sentence \"I don't know.\" A file may also set short lines. An unset line stays absent. Boundaries are open tokens the legal-move port reads. The boot check accepts any schema-valid persona. No id is special. The configured persona is the one the boot names, loaded from that id's toml file. A missing file is unreadable. Style is a voice hook with no audio.\n\nThe style hook records how many sentences one turn may spend. Cap sentences borrows the spoken reply down to that maximum and does not allocate. A sentence ends at a full stop, an exclamation, or a question mark, followed by whitespace or the end of the text. A decimal and a single-letter initial do not split the sentence. A budget of zero still keeps one sentence, so a non-empty reply never becomes an empty prefix. Text with no terminal stop is one sentence. The cap is applied to the spoken reply only. Sources and evidence stay untouched, and the honest unknown line is one sentence and passes unchanged. Verdict and style do not allocate. The same input is the same output. The crate does no model work, no audio, and no thread.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "horbm-persona crate, lib.rs",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-persona/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d170d60977752456d45c5782d49088db1f8. Crate docs and public persona load. MIT, Galion Labs. The unknown line in this file is \"I don't know.\""
+    },
+    {
+      "title": "horbm-persona style hook, style.rs",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-persona/src/style.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at the same commit. Public StyleHook::cap_sentences, re-exported from the crate root. The cap is a sentence count on the spoken reply."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-what-is-horbm",
+    "horbm-persona-filter",
+    "horbm-persona-galion-one",
+    "horbm-persona-galion-research"
+  ],
+  "tags": [
+    "persona",
+    "toml",
+    "sentences"
+  ],
+  "read_time_min": 2
+}

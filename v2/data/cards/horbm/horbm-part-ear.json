@@ -1,0 +1,36 @@
+{
+  "id": "horbm-part-ear",
+  "title": "The ear reads prosody from each 80 ms frame",
+  "section": "horbm",
+  "category": "listening-repair",
+  "summary": "The ear turns one 80 ms frame at 16 kHz into prosody features. Sensing starts on. The result is an acoustic offer, not a category list.",
+  "body": "The ear crate documents one call as one 80 ms frame: 16 kHz, 1280 mono samples. Those three numbers are the public capture rate, frame length, and sample count. The ear starts on. A new ear senses, and the default configuration has sense set true. Unset leaves it on. A deny call, a configuration with sense false, or the off values close it. While sensing is off, or the purpose is workplace or education, push returns denied and does not read the samples. A denied frame has no listener offer.\n\nA heard frame carries prosody: pitch in hertz, a voiced flag, voicing as a normalised autocorrelation, full-frame energy, a speaking-rate estimate, the trailing pause, jitter, and shimmer. The open-space point is a fixed coupling, not a category list. The offer can expose valence, arousal, and strength, or nothing when one of them is non-finite. Push does not step the emotion core, and neither does that read. An id with no emotion profile is not given another persona's profile. The configured persona has its own listener path, and that path does not write the baseline.\n\nThe end-of-turn scorer turns those scalars, plus the latest partial, into a turn message. A denied frame is pause-only. A listen cue can mark a clause-final fall that is still a hold, a question rise, or a filler. The scorer does not read a weight or a sound file, and it does not play a backchannel. This crate writes no file, opens no socket, and keeps no copy of the samples. Retained samples stay at zero. The layer does not persist, and remember does not open a store.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "horbm-ear crate, lib.rs",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/crates/horbm-ear/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d170d60977752456d45c5782d49088db1f8. Crate docs and public items. MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-what-is-horbm",
+    "horbm-mood-point-80ms",
+    "horbm-consent-bits",
+    "horbm.safety.no-workplace-or-school-affect"
+  ],
+  "tags": [
+    "ear",
+    "prosody",
+    "frame"
+  ],
+  "read_time_min": 2
+}
