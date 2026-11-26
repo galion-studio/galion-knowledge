@@ -4,7 +4,7 @@
   "section": "world",
   "category": "medicine",
   "summary": "NIDCR says the first permanent molars, called 6-year molars, come in between the ages of 5 and 7.",
-  "body": "The NIDCR parent fact sheet says the first permanent molars, called 6-year molars, come in between the ages of 5 and 7. It says the second permanent molars, called 12-year molars, come in between the ages of 11 and 14. Those are the sheet's ages for those back teeth. This card reports the ages. It does not turn them into a rule that every child matches the nickname, and it does not repeat the sheet's sealant advice.\n",
+  "body": "The NIDCR parent fact sheet says the first permanent molars, called 6-year molars, come in between the ages of 5 and 7. It says the second permanent molars, called 12-year molars, come in between the ages of 11 and 14. Those are the sheet's ages for those back teeth. This card reports the ages. It does not them into a rule that every child matches the nickname, and it does not repeat the sheet's sealant advice.\n",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,7 +22,7 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-body-baby-teeth-space"
+    "world-f1-body-primary-teeth"
   ],
   "tags": [
     "core-pack",

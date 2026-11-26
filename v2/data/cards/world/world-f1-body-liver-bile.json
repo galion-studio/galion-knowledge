@@ -4,7 +4,7 @@
   "section": "world",
   "category": "medicine",
   "summary": "OpenStax says the liver makes bile, and bile salts split large fat globules into tiny droplets so fat can be digested.",
-  "body": "OpenStax says chemical digestion in the small intestine cannot proceed without the liver and the pancreas. The liver produces bile and delivers it to the common hepatic duct. Bile salts and phospholipids emulsify large lipid globules into tiny lipid droplets, a step the text calls necessary for fat digestion and absorption. The gallbladder stores and concentrates bile. This card is the liver's bile job. It is not a list of liver diseases.\n",
+  "body": "OpenStax says chemical digestion in the small cannot proceed without the liver and the pancreas. The liver produces bile and delivers it to the common hepatic duct. Bile salts and phospholipids emulsify large lipid globules into tiny lipid droplets, a step the text calls necessary for fat digestion and absorption. The gallbladder stores and concentrates bile. This card is the liver's bile job. It is not a list of liver diseases.\n",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,7 +22,7 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-body-small-intestine"
+    "world-f1-body-villus-uptake"
   ],
   "tags": [
     "core-pack",

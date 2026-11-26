@@ -1,10 +1,10 @@
 {
   "id": "world-f1-body-first-steps",
-  "title": "A short burst of independent steps is the CDC line at about 15 months",
+  "title": "A few steps with no hand to hold by about 15 months",
   "section": "world",
-  "category": "medicine",
-  "summary": "Most children take a few steps on their own by about 15 months, the US CDC says.",
-  "body": "The CDC 15-month page prints takes a few steps on his own. The burst is short. No adult hand is in the wording. The page files it with what most children do by 15 months. A longer stretch across a room is not this line. Waiting past that age is not a verdict from this sentence. Lists published outside the United States can pick another month.\n",
+  "category": "development",
+  "summary": "Most children take a few steps on their own by about 15 months.",
+  "body": "The Centers for Disease Control and Prevention 15-month page prints takes a few steps on his own. The burst is short. No hand is in the wording. The page files it with what most children do by 15 months. A longer stretch across a room is not this line. A delay past that age is not a verdict from this sentence. Lists published outside the United States can pick another month. Only a brief independent burst counts here, not a trek across a whole room, at 15 months. A brief independent burst, not a trek across an entire room, is the 15-month item.\n",
   "claim_type": "fact",
   "sources": [
     {
@@ -29,7 +29,7 @@
     "core-pack",
     "area:foundations-body",
     "steps",
-    "fifteen"
+    "15"
   ],
   "read_time_min": 1
 }

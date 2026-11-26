@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-saliva-digestion",
+  "title": "The tongue and the teeth start mechanical digestion, and saliva starts the chemical work",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says the tongue and the teeth begin mechanical digestion, and saliva begins chemical digestion.",
+  "body": "OpenStax says the tongue and the teeth begin mechanical digestion, and saliva begins chemical digestion. The chapter lists teeth as accessory structures, not as part of the food tube itself. Saliva starts the chemical work. This card is that first stage of digestion. It does not say when the first tooth appears.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "23.1 and 23.3, chapter review",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/23-chapter-review",
+      "author": "OpenStax",
+      "date": "n.d.",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, first edition, web view, CC BY 4.0. Paraphrase: teeth and tongue begin mechanical digestion; saliva begins chemical digestion; teeth are accessory structures."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-primary-teeth",
+    "world-f1-body-stomach-chyme"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "saliva",
+    "teeth"
+  ],
+  "read_time_min": 1
+}

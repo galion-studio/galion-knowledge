@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-villus-uptake",
+  "title": "The duodenum, jejunum, and ileum complete digestion and absorb the nutrients",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says digestion is completed, and nearly all absorption happens, in the duodenum, jejunum, and ileum.",
+  "body": "OpenStax says digestion is completed and virtually all absorption occurs in that long coiled region. Circular folds, villi, and microvilli enlarge the surface. Segmentation shifts the contents back and forth so mixing has more chances. The three regions the chapter names are the duodenum, the jejunum, and the ileum. This card is that completing-and-absorbing job. It does not list foods.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "23.5 The Small and Large Intestines, chapter review",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/23-chapter-review",
+      "author": "OpenStax",
+      "date": "n.d.",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, first edition, web view, CC BY 4.0. Paraphrase of the small-intestine paragraphs: digestion completed, virtually all absorption, villi, and the three regions."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-stomach-chyme",
+    "world-f1-body-colon-water"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "villi",
+    "absorption"
+  ],
+  "read_time_min": 1
+}

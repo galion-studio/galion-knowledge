@@ -1,10 +1,10 @@
 {
   "id": "world-f1-body-runs",
-  "title": "Most children run by about 2 years",
+  "title": "Running by about 2 years",
   "section": "world",
-  "category": "medicine",
-  "summary": "Most children run by about 2 years, the US CDC says.",
-  "body": "Runs is a movement line on the CDC 2-year page, listed with what most children do by 2 years. The page prints that single word for the skill. It does not describe speed or distance. Kicking a ball is a different line on the same page and is not this claim. The age comes from the US CDC list. It is not a fitness grade, and other countries' lists can differ.\n",
+  "category": "development",
+  "summary": "Most children run by about 2 years.",
+  "body": "Runs is a movement line on the Centers for Disease Control and Prevention 2-year page, listed with what most children do by 2 years. The page prints that single word for the skill. It does not describe speed or distance. Kicking a ball is a different line on the same page and is not this claim. The age comes from the US Centers for Disease Control and Prevention list. It is not a fitness grade, and other countries' lists can differ. Neither speed nor distance is printed beside that two-year word. Neither velocity nor a measured distance accompanies the two-year word.\n",
   "claim_type": "fact",
   "sources": [
     {

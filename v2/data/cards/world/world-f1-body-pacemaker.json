@@ -1,10 +1,10 @@
 {
   "id": "world-f1-body-pacemaker",
-  "title": "The sinoatrial node is the heart's pacemaker and sets the usual rhythm",
+  "title": "The sinoatrial node sets the usual rhythm of the heart",
   "section": "world",
   "category": "medicine",
-  "summary": "OpenStax says the sinoatrial node is the heart's pacemaker because it fires fastest and starts the usual rhythm.",
-  "body": "OpenStax says cardiac muscle can start an electrical potential at a fixed rate that spreads from cell to cell. It calls that property autorhythmicity, and it says neither smooth nor skeletal muscle can do it. The sinoatrial node, a clump of conducting cells in the right atrium, has the highest built-in rate and is called the pacemaker. It starts the sinus rhythm. Without nervous or hormone control, the text says that node would fire about 80 to 100 times a minute. Those systems do change the rate. This card names the pacemaker. It is not a device implanted by a surgeon.\n",
+  "summary": "OpenStax says the sinoatrial node is the pacemaker because it has the highest built-in rate and starts the usual rhythm.",
+  "body": "OpenStax says heart muscle can start an electrical potential at a fixed rate that spreads from cell to cell. It calls that property autorhythmicity, and it says neither nor skeletal muscle can do it. The sinoatrial node, a clump of cells in the right atrium, has the highest built-in rate and is called the pacemaker. It starts the sinus rhythm. Without nervous or hormone control, the text says that node would start about 80 to 100 times a minute. Those systems do change the rate. This card names the pacemaker. It is not a device implanted by a surgeon.\n",
   "claim_type": "fact",
   "sources": [
     {
@@ -28,8 +28,8 @@
   "tags": [
     "core-pack",
     "area:foundations-body",
-    "pacemaker",
-    "sinoatrial"
+    "sinoatrial",
+    "pacemaker"
   ],
   "read_time_min": 1
 }

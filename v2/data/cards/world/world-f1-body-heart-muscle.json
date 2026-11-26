@@ -1,10 +1,10 @@
 {
   "id": "world-f1-body-heart-muscle",
-  "title": "The heart is cardiac muscle that pumps blood without a conscious command",
+  "title": "The heart is a muscle that pumps blood without a conscious command",
   "section": "world",
   "category": "medicine",
-  "summary": "The heart is cardiac muscle that pumps blood through the body without a person deciding each beat, NIAMS says.",
-  "body": "NIAMS says cardiac muscle makes up the heart. It contracts and relaxes on its own to pump blood through the body. A person does not need to think about telling it to beat. This card is that plain account. A chamber diagram sits on another card.\n",
+  "summary": "NIAMS says the heart is muscle that pumps blood through the body without a person deciding each beat.",
+  "body": "NIAMS says muscle makes up the heart. It contracts and relaxes on its own to pump blood through the body. A person does not need to think about telling it to beat. This card is that account. A chamber diagram sits on another card.\n",
   "claim_type": "fact",
   "sources": [
     {
@@ -30,7 +30,7 @@
     "core-pack",
     "area:foundations-body",
     "heart",
-    "cardiac"
+    "muscle"
   ],
   "read_time_min": 1
 }

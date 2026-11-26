@@ -1,10 +1,10 @@
 {
   "id": "world-f1-body-blood-vessels",
-  "title": "Arteries carry blood away from the heart, capillaries exchange, and veins return it",
+  "title": "Arteries carry blood from the heart, capillaries exchange, and veins return it",
   "section": "world",
   "category": "medicine",
-  "summary": "OpenStax says arteries carry blood away from the heart, capillaries exchange with tissues, and veins carry blood back.",
-  "body": "OpenStax says blood leaving the pump travels through arteries, arterioles, capillaries, venules, and veins before it returns. Arteries carry it away and branch into arterioles. Arterioles feed capillary beds, where exchange with body tissues happens. Capillaries lead into venules, then larger veins, and eventually back. This card is that route only. It does not give a pressure number, a disease name, or a count of vessels.\n",
+  "summary": "OpenStax says arteries carry blood from the heart, capillaries exchange with tissues, and veins carry blood back.",
+  "body": "OpenStax says blood leaving the pump travels through arteries, arterioles, capillaries, venules, and veins before it returns. Arteries carry it and branch into arterioles. Arterioles feed capillary beds, where exchange with body tissues happens. Capillaries lead into venules, then larger veins, and eventually back. This card is that route only. It does not give a pressure number, a disease name, or a count of vessels.\n",
   "claim_type": "fact",
   "sources": [
     {

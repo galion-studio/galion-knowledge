@@ -3,8 +3,8 @@
   "title": "Skin is the outer barrier against drying, infection, and injury",
   "section": "world",
   "category": "medicine",
-  "summary": "OpenStax says skin is the first layer of defense against dehydration, infection, and injury to the rest of the body.",
-  "body": "OpenStax says skin is the first layer of defense against dehydration, infection, and injury to the rest of the body. An outer epidermis and a deeper dermis make up that covering. This card is the barrier job. Touch, rashes, and burn care are other topics.\n",
+  "summary": "OpenStax says skin is the first defense against drying, infection, and injury to the rest of the body.",
+  "body": "OpenStax says skin is the first defense against drying, infection, and injury to the rest of the body. An outer epidermis and a deeper dermis make up that defense. This card is the barrier job. Rashes are a different topic. The wording is a paraphrase of the integument chapter.\n",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,7 +22,7 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-body-sweat-cooling",
+    "world-f1-body-perspiration-cooling",
     "world-f1-body-bruise"
   ],
   "tags": [

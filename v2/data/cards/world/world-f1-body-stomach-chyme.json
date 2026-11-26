@@ -4,7 +4,7 @@
   "section": "world",
   "category": "medicine",
   "summary": "OpenStax says the stomach churns food, starts protein digestion, and stores the mix as an acidic liquid called chyme.",
-  "body": "OpenStax says the stomach takes part in digestion except for taking food in and passing waste out. It churns food vigorously and secretes gastric juices that break food down. It begins protein digestion and continues work on carbohydrates and fats. It stores the food as an acidic liquid called chyme and releases that liquid gradually into the small intestine through the pyloric sphincter. This is the textbook's account of the stomach's job. It is not a diet.\n",
+  "body": "OpenStax says the stomach takes part in digestion except for taking food in and passing waste out. It churns food vigorously and secretes gastric juices that break food down. It begins protein digestion and continues work on carbohydrates and fats. It stores the food as an acidic liquid called chyme and releases that liquid gradually into the small through the pyloric sphincter. This is the textbook's account of the stomach's job. It is not a diet.\n",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,7 +22,7 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-body-small-intestine",
+    "world-f1-body-villus-uptake",
     "world.core.body.pavlov-digestion"
   ],
   "tags": [

@@ -1,10 +1,10 @@
 {
   "id": "world-f1-body-platelets",
-  "title": "Platelets help a bleed stop by forming a plug that leads to a clot",
+  "title": "Platelets form a plug on the way to a clot",
   "section": "world",
   "category": "medicine",
-  "summary": "OpenStax says platelets are cell fragments that help bleeding stop, as part of a plug and then a clot.",
-  "body": "OpenStax says platelets are fragments of large cells called megakaryocytes in the bone marrow. They are essential for hemostasis, the process by which bleeding ceases. That process has three steps in the chapter: a vascular spasm, a platelet plug, and coagulation that builds a fibrin clot. This card is the platelet part of stopping a bleed. It is not first-aid instruction for a wound.\n",
+  "summary": "OpenStax says platelets are cell fragments that take part in stopping bleeding, first as a plug and then in a clot.",
+  "body": "OpenStax says platelets are fragments of large cells called megakaryocytes in the bone marrow. They are essential for hemostasis, the process by which bleeding ceases. That process has three steps in the chapter: a vascular spasm, a platelet plug, and coagulation that builds a fibrin clot. This card is the platelet part of that process. It is not care for a cut.\n",
   "claim_type": "fact",
   "sources": [
     {

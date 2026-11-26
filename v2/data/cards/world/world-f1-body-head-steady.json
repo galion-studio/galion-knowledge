@@ -1,10 +1,10 @@
 {
   "id": "world-f1-body-head-steady",
-  "title": "A head that stays steady without help is a 4-month CDC line",
+  "title": "Holding the head steady without help by about 4 months",
   "section": "world",
-  "category": "medicine",
-  "summary": "Most babies hold their head steady without support when held, by about 4 months, the US CDC says.",
-  "body": "The CDC 4-month movement list includes holds head steady without support when you are holding him. That is steadiness while a caregiver holds the baby, not the tummy-time lift from the earlier list. The page presents it as something most babies do by four months. This card reports that line only. It does not grade neck strength, and a different national list can name another month.\n",
+  "category": "development",
+  "summary": "Most children hold their head steady without support when held, by about 4 months.",
+  "body": "The Centers for Disease Control and Prevention 4-month movement list includes holds head steady without support when you are holding him. That is steadiness while a caregiver holds the newborn, not the tummy-time lift from the earlier list. The page presents it as something most children do by four months. This card reports that line only. It does not grade nape strength, and a different national list can name another month.\n",
   "claim_type": "fact",
   "sources": [
     {
@@ -29,7 +29,7 @@
     "core-pack",
     "area:foundations-body",
     "steady",
-    "neck"
+    "nape"
   ],
   "read_time_min": 1
 }
