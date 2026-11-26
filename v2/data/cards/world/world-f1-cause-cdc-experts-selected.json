@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-cdc-experts-selected",
+  "title": "The CDC says experts reviewed data and chose the milestone items",
+  "section": "world",
+  "category": "method",
+  "summary": "The CDC credits subject matter experts with reviewing data and selecting the developmental milestones on these lists.",
+  "body": "The acknowledgments on the CDC's nine-month page thank subject matter experts who contributed to the review of data and the selection of developmental milestones. The items are an expert-chosen set. The page says the information was reviewed on 16 May 2026. It does not present the list as a measurement taken on every child in the country.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. Supports the acknowledgment that experts contributed to review of data and selection of the milestones, and the reviewed date."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-cdc-most-not-every",
+    "world-f1-cause-cdc-not-a-screen",
+    "world-f1-cause-ages-two-sources"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "experts",
+    "selection"
+  ],
+  "read_time_min": 1
+}

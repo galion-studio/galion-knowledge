@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-cdc-drop-game",
+  "title": "The CDC calls handing back a dropped toy a cause and effect game",
+  "section": "world",
+  "category": "psychology",
+  "summary": "The CDC says that picking up a toy a six-month-old drops, and giving it back, helps the baby learn cause and effect.",
+  "body": "On the six-month page, the CDC suggests a game: when the baby drops a toy on the floor, pick it up and give it back. The page says this game helps him learn cause and effect. The sentence is an activity idea, not a milestone most babies must already show. It is the US CDC's wording for that game.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 6 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. Supports the activity sentence that giving back a dropped toy helps the baby learn cause and effect."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-cdc-dropped-spoon",
+    "world-f1-cause-erikson-results",
+    "world-f1-cause-correlation-not-production"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "effect",
+    "drops"
+  ],
+  "read_time_min": 1
+}

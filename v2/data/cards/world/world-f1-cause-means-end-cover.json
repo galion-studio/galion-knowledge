@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-means-end-cover",
+  "title": "Getting a fully hidden toy takes a means-end link between moving the cover and the goal",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Moore and Meltzoff say that recovering a fully hidden object requires coordinating the act of moving the cover with the goal of getting the object.",
+  "body": "In that 2008 search paper, Moore and Meltzoff say that to recover a totally hidden object, infants must grasp and move the cover and also coordinate that act with the goal of getting the object. They call the coordination a coordination of means and ends. They used a partly covered object as the check on whether that coordination was already available. The sentence is their description of the skill the hand must link to a goal. It is not the age result from the trials.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Factors affecting infants' manual search for occluded objects and the genesis of object permanence",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2697063/",
+      "author": "M. Keith Moore and Andrew N. Meltzoff",
+      "date": "2008-04",
+      "accessed": "2026-11-26",
+      "note": "Supports their means-end sentence: manual recovery of a total occlusion requires coordinating removal of the occluder with the goal of obtaining the object."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Moore and Meltzoff",
+  "as_of_date": "2008-04",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-partial-hiding",
+    "world-f1-cause-cdc-two-hands",
+    "world-f1-cause-cdc-reach-grab"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "means",
+    "ends"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-ice-cream-weather",
+  "title": "Ice cream sales and crime can rise together because the weather changed",
+  "section": "world",
+  "category": "method",
+  "summary": "OpenStax uses ice cream sales and crime rates as a pair that can rise together because warm weather moves both.",
+  "body": "OpenStax Psychology notes that ice cream sales and crime rates rise together, then warns against deciding that one brought about the other. It says warmer temperature can send people outdoors, where conflicts happen, and can also send them after a cold treat. Temperature is the confounding variable in the example: an outside factor that moves both measures. The story is a teaching example. It is not a crime table.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 2.3 Analyzing Findings",
+      "url": "https://openstax.org/books/psychology/pages/2-3-analyzing-findings",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the ice-cream and crime example and the identification of temperature as a confounding variable."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-correlation-not-production",
+    "world-f1-cause-several-explanations",
+    "world.asa-p-values-2016"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "icecream",
+    "temperature"
+  ],
+  "read_time_min": 1
+}

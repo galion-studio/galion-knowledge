@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-metaphysics-causation",
+  "title": "Philosophers ask what would make a causal sentence true",
+  "section": "world",
+  "category": "philosophy",
+  "summary": "The Stanford Encyclopedia says the metaphysics of causation asks what it takes for a sentence such as 'the drought caused the famine' to be true, and it records deep disagreement.",
+  "body": "J. Dmitri Gallow's Stanford Encyclopedia entry, first published on 14 April 2022, says the metaphysics of causation asks what kind of relation everyday causal sentences are about, and in virtue of what the relation would hold. The entry separates a particular case, one drought and one famine, from a general claim, such as drowsy driving and crashes. It also records that philosophers do not all agree the relation exists. Russell's denial, that there are no causal relations, is part of that map. The entry does not crown a winner. This card paraphrases the entry.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Metaphysics of Causation",
+      "url": "https://plato.stanford.edu/entries/causation-metaphysics/",
+      "author": "J. Dmitri Gallow",
+      "date": "2022-04-14",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase of the opening: the question the metaphysics of causation asks, the token-versus-type contrast in claims 1 and 2, and Russell's denial. No quotation. First published 14 April 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Stanford Encyclopedia of Philosophy",
+  "as_of_date": "2022-04-14",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.philosophy.aristotle-four-causes",
+    "world.philosophy.free-will",
+    "world-f1-cause-correlation-not-production"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "metaphysics",
+    "drought"
+  ],
+  "read_time_min": 1
+}

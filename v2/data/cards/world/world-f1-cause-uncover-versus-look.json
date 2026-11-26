@@ -1,0 +1,44 @@
+{
+  "id": "world-f1-cause-uncover-versus-look",
+  "title": "Pulling a cover off a fully hidden toy is not the same act as looking for a dropped one",
+  "section": "world",
+  "category": "psychology",
+  "summary": "A search study found full hiding harder than partial hiding at 8.75 months, while the CDC lists looking for a dropped object by nine months. The acts differ.",
+  "body": "Moore and Meltzoff reported that infants at 8.75 months could remove a cover when part of an object still showed, and usually could not when it was fully hidden. The CDC says most babies look for an object dropped out of sight by nine months. A look toward a dropped spoon and a hand pulling a cover off a fully hidden toy are different acts, from different kinds of sources. This reading does not turn either report into the other's age.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Factors affecting infants' manual search for occluded objects and the genesis of object permanence",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2697063/",
+      "author": "M. Keith Moore and Andrew N. Meltzoff",
+      "date": "2008-04",
+      "accessed": "2026-11-26",
+      "note": "Paper side: partial success and total-occlusion failure at 8.75 months."
+    },
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. CDC side: looking for an object dropped out of sight by nine months."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Moore and Meltzoff; CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-partial-hiding",
+    "world-f1-cause-cdc-dropped-spoon",
+    "world-f1-cause-ages-two-sources"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "uncovering",
+    "acts"
+  ],
+  "read_time_min": 1
+}

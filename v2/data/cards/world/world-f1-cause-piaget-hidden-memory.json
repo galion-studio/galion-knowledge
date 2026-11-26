@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-piaget-hidden-memory",
+  "title": "Piaget held that young infants forget a toy once it is hidden",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says that, in Piaget's view, young infants do not remember an object after it has been removed from sight.",
+  "body": "OpenStax Psychology states Piaget's view directly: young infants do not remember an object after it has been removed from sight. That claim is why he treated the early months as coming before the hidden-object understanding. The sentence is the textbook's report of Piaget. It is not OpenStax's last word, and it is not a camera study.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 9.2 Lifespan Theories",
+      "url": "https://openstax.org/books/psychology/pages/9-2-lifespan-theories",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports Piaget's claim, as the textbook states it, that young infants do not remember an object removed from sight."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-hidden-still-there",
+    "world-f1-cause-early-watching",
+    "world-f1-cause-blanket-reach"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "piaget",
+    "memory"
+  ],
+  "read_time_min": 1
+}

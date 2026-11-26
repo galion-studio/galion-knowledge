@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-limb-two-reports",
+  "title": "A 2021 review records two findings about which limb moves in the mobile game",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Sen and Gredebäck's review reports both limb-specific kicking and later work in which two-month-olds moved every limb more.",
+  "body": "Sen and Gredebäck (2021) say early mobile evidence showed extra movement specific to the limb tied to the mobile, which was used against the idea that babies were only excited. The same review then reports Watanabe and Taga (2006): around two months, movement rose in every limb, and a rise specific to the connected limb was described nearer four months. Both reports are the review's account of other papers. This card did not open those papers, and it does not decide between them.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Making the world behave: a new embodied account on mobile paradigm",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7956955/",
+      "author": "Umay Sen and Gustaf Gredebäck",
+      "date": "2021-03-01",
+      "accessed": "2026-11-26",
+      "note": "Supports both passages in this review: limb-specific kicking cited from Rovee-Collier and colleagues 1978, and the Watanabe and Taga 2006 general-to-specific pattern. Frontiers in Systems Neuroscience 2021;15:643526. CC BY 4.0; paraphrase."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Sen and Gredebäck",
+  "as_of_date": "2021-03-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-mobile-kicks",
+    "world-f1-cause-older-faster",
+    "world-f1-cause-looking-disagreement"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "limb",
+    "watanabe"
+  ],
+  "read_time_min": 1
+}

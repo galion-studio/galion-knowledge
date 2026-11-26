@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-cdc-switches",
+  "title": "By two years, most children try switches, knobs, or buttons on a toy",
+  "section": "world",
+  "category": "psychology",
+  "summary": "The CDC says that by two years, most children try to use switches, knobs, or buttons on a toy.",
+  "body": "The CDC's cognitive list for two years includes trying to use switches, knobs, or buttons on a toy. The page groups the item with learning and problem solving. It is what the page says most children do by a second birthday, on the US list. The line is not a claim that every button toy is safe.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. Supports the cognitive item 'Tries to use switches, knobs, or buttons on a toy.'"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-cdc-button-happens",
+    "world-f1-cause-cdc-usual-use",
+    "world-f1-cause-cdc-two-hands"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "switches",
+    "knobs"
+  ],
+  "read_time_min": 1
+}

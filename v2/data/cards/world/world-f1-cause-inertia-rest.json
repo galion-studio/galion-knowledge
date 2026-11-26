@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-inertia-rest",
+  "title": "A resting body stays at rest until a net outside force acts",
+  "section": "world",
+  "category": "physics",
+  "summary": "OpenStax Physics states Newton's first law: a body at rest stays at rest, and a moving body keeps a constant velocity, unless a net external force acts.",
+  "body": "OpenStax Physics states Newton's first law in two parts. A body at rest tends to remain at rest. A body in motion tends to keep a constant velocity unless a net external force acts on it. Constant velocity, the page says, means a straight line at a steady speed. The law is also called the law of inertia, the tendency to stay still or to keep going straight at that steady speed. Slowing in ordinary rooms is not, on this page, a failure of the law. Some force is still acting. This card does not name that slowing force.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Physics, 4.2 Newton's First Law of Motion: Inertia",
+      "url": "https://openstax.org/books/physics/pages/4-2-newtons-first-law-of-motion-inertia",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Physics web page (/books/physics/), CC BY 4.0. Paraphrase; credit OpenStax. Supports the two-part statement of Newton's first law and the definition of inertia. The slowing force is left to the friction card."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-friction-slows",
+    "world-f1-cause-push-or-pull",
+    "world-f1-cause-greater-force"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "inertia",
+    "newton"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-cdc-cloth-peekaboo",
+  "title": "The CDC suggests a peekaboo game that covers your head with a cloth",
+  "section": "world",
+  "category": "psychology",
+  "summary": "The CDC's nine-month tips suggest playing peekaboo by covering your head with a cloth and seeing if the baby pulls it off.",
+  "body": "Among activities for nine months, the CDC suggests peekaboo played by covering your head with a cloth, then seeing if the baby pulls the cloth off. That sentence is a suggested game. It is not a milestone the page says most babies already pass. It is an idea from the US page, not an instruction that a particular baby must succeed.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. Supports the activity tip about peek-a-boo with a cloth over the head."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-cdc-peekaboo-laugh",
+    "world-f1-cause-cdc-find-behind-chair",
+    "world-f1-cause-toddler-hiding-games"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "cloth",
+    "pulls"
+  ],
+  "read_time_min": 1
+}

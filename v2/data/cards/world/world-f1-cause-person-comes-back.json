@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-person-comes-back",
+  "title": "OpenStax says toddlers expect a person who leaves the room to return",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says toddlers who have mastered object permanence realize that a person who leaves the room will come back.",
+  "body": "The same OpenStax paragraph says those toddlers, about 12 to 24 months old, realize that when someone leaves the room, that person will come back. The book ties the realization to mastery of object permanence and cites Loop (2013). This card did not open that article. The sentence is about expecting a return. It is not an account of affection or comfort.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 9.3 Stages of Development",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the sentence that toddlers realize a person who leaves the room will come back, with the Loop 2013 citation as printed."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-toddler-hiding-games",
+    "world-f1-cause-hidden-still-there",
+    "world-f1-cause-cdc-familiar-people"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "returns",
+    "room"
+  ],
+  "read_time_min": 1
+}

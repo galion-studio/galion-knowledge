@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-illusory-link",
+  "title": "People can feel sure two things go together when they do not",
+  "section": "world",
+  "category": "method",
+  "summary": "OpenStax says an illusory correlation is a belief that two things are related when no such relationship exists.",
+  "body": "OpenStax Psychology says illusory correlations, also called false correlations, happen when people believe a relationship exists between two things and no such relationship exists. The belief can grow from a hunch, from whatever comes easily to mind, or from a story heard again. A pattern someone keeps meeting is not proof the pattern is real. The page illustrates this with a popular belief about behavior and the lunar cycle. This card states the definition, not that illustration.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 2.3 Analyzing Findings",
+      "url": "https://openstax.org/books/psychology/pages/2-3-analyzing-findings",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the definition of illusory correlation. The lunar-cycle illustration is named only as the page's example and is not the claim."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-anecdote-not-test",
+    "world-f1-cause-correlation-not-production",
+    "world.replication-psychology-2015"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "illusory",
+    "hunch"
+  ],
+  "read_time_min": 1
+}

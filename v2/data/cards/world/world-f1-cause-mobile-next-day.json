@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-mobile-next-day",
+  "title": "Many of those infants still kicked more a day later, before the mobile was reconnected",
+  "section": "world",
+  "category": "psychology",
+  "summary": "In the same lab study, the next day's opening kick rate was higher than the first baseline, which the authors read as memory of the link a day later.",
+  "body": "On the second day, before the ribbon was joined to the mobile again, the group's mean kick rate was higher than the first day's baseline. The authors report that 69 percent of the infants were above their own first baseline on that check. They treated a retention ratio near one as keeping the previous day's rate. The result is memory across a day in this lab group. It is not a promise about every baby.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The mobile conjugate reinforcement paradigm in a lab setting",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5716629/",
+      "author": "Emily C. Merz, Laraine McDonough, Yong Lin Huang, Sophie Foss, Elizabeth Werner, and Catherine Monk",
+      "date": "2017-04-24",
+      "accessed": "2026-11-26",
+      "note": "Supports the 24-hour retention result: Day 2 baseline above Day 1 baseline, and 69 percent of infants with a baseline ratio above 1."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Merz and colleagues",
+  "as_of_date": "2017-04-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-mobile-kicks",
+    "world-f1-cause-delay-minutes",
+    "world-f1-cause-mother-voice"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "retention",
+    "percent"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-bat-hit",
+  "title": "A bat can change the speed and the direction of a pitched ball",
+  "section": "world",
+  "category": "physics",
+  "summary": "OpenStax Physics uses a pitched ball struck by a bat as an example of an outside force changing speed and direction.",
+  "body": "OpenStax Physics, opening Newton's second law, says a change in motion is caused by an external force. The instance is a pitched ball that changes speed and direction when a bat hits it. A change in motion, the section says, is a change in velocity: speed, direction, or both. Only a nonzero net external force produces that change, and the page calls the change an acceleration. The bat is an illustration. The page does not time a swing.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Physics, 4.3 Newton's Second Law of Motion",
+      "url": "https://openstax.org/books/physics/pages/4-3-newtons-second-law-of-motion",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Physics web page (/books/physics/), CC BY 4.0. Paraphrase; credit OpenStax. Supports the pitched-ball and bat example and the statement that a nonzero net external force causes acceleration."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-greater-force",
+    "world-f1-cause-push-or-pull",
+    "world-f1-cause-cdc-push-car"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "pitched",
+    "bat"
+  ],
+  "read_time_min": 1
+}

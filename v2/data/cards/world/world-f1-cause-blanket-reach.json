@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-blanket-reach",
+  "title": "Piaget counted a reach under the blanket as a sign the toy remained",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says Piaget hid a toy under a blanket and treated a reach for it as a sign the infant knew the toy still existed.",
+  "body": "OpenStax Psychology describes Piaget's check. A toy was shown, then hidden under a blanket. Infants who already had the understanding reached for the hidden toy. Infants who did not have it appeared confused. Reaching was the sign this passage uses. A longer look at a scene is not the measure described there.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 9.2 Lifespan Theories",
+      "url": "https://openstax.org/books/psychology/pages/9-2-lifespan-theories",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the blanket-hiding description and the reach as Piaget's sign."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-hidden-still-there",
+    "world-f1-cause-cdc-hidden-blanket",
+    "world-f1-cause-partial-hiding"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "blanket",
+    "piaget"
+  ],
+  "read_time_min": 1
+}

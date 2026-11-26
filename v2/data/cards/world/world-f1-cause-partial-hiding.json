@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-partial-hiding",
+  "title": "In one study, infants near nine months uncovered a partly hidden toy but not a fully hidden one",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Moore and Meltzoff found that 8.75-month-olds removed a cover when part of the object still showed, but usually did not when the object was fully hidden.",
+  "body": "Moore and Meltzoff, in a 2008 paper, tested 32 infants at 8.75 months. Those infants solved partial hiding by removing the cover and uncovering the object. The same infants generally failed to use that skill when the object was totally hidden. Full hiding was harder than partial hiding in this sample. The finding is these experiments. It is not a rule for every baby.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Factors affecting infants' manual search for occluded objects and the genesis of object permanence",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2697063/",
+      "author": "M. Keith Moore and Andrew N. Meltzoff",
+      "date": "2008-04",
+      "accessed": "2026-11-26",
+      "note": "Supports Experiment 1 as reported: 8.75-month-olds solved partial occlusions by removing the occluder and failed to use that skill on total occlusions. Infant Behavior and Development 2008;31(2):168-180."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Moore and Meltzoff",
+  "as_of_date": "2008-04",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-means-end-cover",
+    "world-f1-cause-sound-clue",
+    "world-f1-cause-uncover-versus-look"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "partial",
+    "uncovered"
+  ],
+  "read_time_min": 1
+}

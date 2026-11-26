@@ -1,0 +1,75 @@
+{
+  "id": "world-f1-cause-looking-disagreement",
+  "title": "Researchers disagree on whether a longer look means the baby keeps the hidden object in mind",
+  "section": "world",
+  "category": "psychology",
+  "summary": "One opened paper reads longer looking at an impossible hiding as an expectation about a hidden object, and another says a longer look can be a path expectation without permanence.",
+  "body": "Two opened papers disagree about what a longer look at an 'impossible' hiding shows, and they do not report the same display. This card keeps both readings and does not choose one. Wang and colleagues measured a wide object behind a narrow screen. Meltzoff and Moore discuss a tall rabbit that fails to appear in a gap, and they say looking time alone cannot separate a path expectation from permanence.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Young infants' reasoning about hidden objects: evidence from violation-of-expectation tasks with test trials only",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4215956/",
+      "author": "Su-hua Wang, Renée Baillargeon, and Laura Brueckner",
+      "date": "2004-10",
+      "accessed": "2026-11-26",
+      "note": "One side: the authors' reading that longer looking indexed an expectation about a hidden object."
+    },
+    {
+      "title": "Object representation, identity, and the paradox of early permanence",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4137884/",
+      "author": "Andrew N. Meltzoff and M. Keith Moore",
+      "date": "1998",
+      "accessed": "2026-11-26",
+      "note": "Other side: longer looking at the tall-rabbit event can follow from trajectory extrapolation without permanence, and looking time does not separate the two."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Wang, Baillargeon, and Brueckner; Meltzoff and Moore",
+  "as_of_date": "2004-10",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "Longer looking shows a hidden-object expectation",
+      "summary": "Wang, Baillargeon, and Brueckner read longer looking when a wide object vanished behind a too-narrow screen as evidence the infants represented the hidden object.",
+      "status": "sourced - needs review",
+      "sources": [
+        {
+          "title": "Young infants' reasoning about hidden objects: evidence from violation-of-expectation tasks with test trials only",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4215956/",
+          "author": "Su-hua Wang, Renée Baillargeon, and Laura Brueckner",
+          "date": "2004-10",
+          "accessed": "2026-11-26",
+          "note": "Their conclusion from Experiment 1."
+        }
+      ]
+    },
+    {
+      "label": "Longer looking can be a path expectation",
+      "summary": "Meltzoff and Moore argue that longer looking when a tall rabbit fails to appear in a gap can come from expecting the object along its path, without permanence, and that looking time does not separate the readings.",
+      "status": "sourced - needs review",
+      "sources": [
+        {
+          "title": "Object representation, identity, and the paradox of early permanence",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4137884/",
+          "author": "Andrew N. Meltzoff and M. Keith Moore",
+          "date": "1998",
+          "accessed": "2026-11-26",
+          "note": "Their alternative to Baillargeon's tall-and-short rabbit reading. Infant Behavior and Development 1998;21(2):201-235."
+        }
+      ]
+    }
+  ],
+  "related": [
+    "world-f1-cause-narrow-screen",
+    "world-f1-cause-look-versus-search",
+    "world-f1-cause-early-watching"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "rabbit",
+    "disagreement"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-groups-one-change",
+  "title": "In the textbook's basic experiment, the groups differ by only one change",
+  "section": "world",
+  "category": "method",
+  "summary": "OpenStax says a basic experiment uses two groups that match except for the manipulation, so a later difference can be tied to that one change.",
+  "body": "OpenStax Psychology describes a basic experiment with an experimental group and a control group. The groups are designed to match except for one difference, the manipulation. The experimental group receives the treatment under test, and the control group does not. If that really is the only difference, the textbook says a later difference between the groups is due to the manipulation rather than chance. That is the page's ideal. Real studies can miss it, and this sentence does not deny that.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 2.3 Analyzing Findings",
+      "url": "https://openstax.org/books/psychology/pages/2-3-analyzing-findings",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the experimental-group and control-group contrast and the single-manipulation ideal."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-experiment-only",
+    "world-f1-cause-several-explanations",
+    "world.core.know.consort-reporting"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "manipulation",
+    "control"
+  ],
+  "read_time_min": 1
+}

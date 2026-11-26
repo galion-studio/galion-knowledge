@@ -1,0 +1,52 @@
+{
+  "id": "world-f1-cause-ages-two-sources",
+  "title": "A textbook age band and a CDC checklist line are not the same measurement",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax gives a five-to-eight-month band for object permanence, while the CDC lists looking for a dropped object by nine months and a hidden toy by one year as separate checklist items.",
+  "body": "OpenStax Psychology puts the hidden-object understanding between five and eight months in its Piaget section. The CDC, a different publisher, lists two behaviors: by nine months, most babies look for an object dropped out of sight, and by one year, most babies look for a toy they saw hidden. One source is a theory band. The other is a checklist of what most children do. This reading does not average them into a single age, and it does not treat the checklist as a test of the textbook's term.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 9.2 Lifespan Theories",
+      "url": "https://openstax.org/books/psychology/pages/9-2-lifespan-theories",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. OpenStax side: the five-to-eight-month band."
+    },
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. CDC side: looking for a dropped object by nine months."
+    },
+    {
+      "title": "Milestones by 1 Year",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. CDC side: looking for a hidden toy by one year."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax and CDC",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-piaget-five-eight",
+    "world-f1-cause-cdc-dropped-spoon",
+    "world-f1-cause-cdc-hidden-blanket"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "band",
+    "checklist"
+  ],
+  "read_time_min": 1
+}

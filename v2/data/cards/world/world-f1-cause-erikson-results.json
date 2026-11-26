@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-erikson-results",
+  "title": "Erikson said toddlers learn that their own actions get results",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says Erikson described ages one to three as a time when children learn they can act on the surroundings and get results.",
+  "body": "OpenStax Psychology summarizes Erikson on toddlerhood, from about one year to three years. As toddlers explore, they learn that they can control their actions and act on the environment to get results. The textbook calls the task of this age autonomy versus shame and doubt, and it glosses the age as the me-do-it stage. The passage is his psychosocial theory as the book reports it. It is not a list of skills a child must already show.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 9.2 Lifespan Theories",
+      "url": "https://openstax.org/books/psychology/pages/9-2-lifespan-theories",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the Erikson toddler passage: control of actions, acting on the environment to get results, and autonomy versus shame and doubt."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-sensorimotor-years",
+    "world-f1-cause-cdc-drop-game",
+    "world-f1-cause-older-faster"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "erikson",
+    "autonomy"
+  ],
+  "read_time_min": 1
+}

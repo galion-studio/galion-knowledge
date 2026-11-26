@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-early-watching",
+  "title": "OpenStax says three-month-olds already showed knowledge of objects they had only watched",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says researchers found that children as young as three months knew properties of objects they had only viewed, and that this undercuts Piaget's slow timetable.",
+  "body": "OpenStax Psychology says developmental psychologists now think Piaget was incorrect about how slowly children come to understand objects. It reports that even very young children understand objects and how they work long before they have handled them. The example is children as young as three months who showed knowledge of properties of objects they had only viewed. The page cites Baillargeon (1987) and a 2011 chapter. This card did not open those papers. It records the textbook, and it does not close arguments about looking time.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 9.3 Stages of Development",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the claim that OpenStax says Piaget was incorrect here and reports three-month-olds' knowledge of viewed objects."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-piaget-hidden-memory",
+    "world-f1-cause-looking-disagreement",
+    "world-f1-cause-narrow-screen"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "watched",
+    "three"
+  ],
+  "read_time_min": 1
+}

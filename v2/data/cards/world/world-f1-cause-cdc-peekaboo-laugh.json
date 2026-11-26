@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-cdc-peekaboo-laugh",
+  "title": "By nine months, most babies smile or laugh at peekaboo",
+  "section": "world",
+  "category": "psychology",
+  "summary": "The CDC says that by nine months, most babies smile or laugh when you play peekaboo.",
+  "body": "Under social and emotional milestones at nine months, the CDC lists a smile or a laugh when you play peekaboo. The page spells the game peek-a-boo. The line is one item for most babies by that age on the US list. It does not say the game is a lesson with a passing score.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. Supports the social item 'Smiles or laughs when you play peek-a-boo.'"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-cdc-cloth-peekaboo",
+    "world-f1-cause-toddler-hiding-games",
+    "world-f1-cause-hidden-still-there"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "peekaboo",
+    "laugh"
+  ],
+  "read_time_min": 1
+}

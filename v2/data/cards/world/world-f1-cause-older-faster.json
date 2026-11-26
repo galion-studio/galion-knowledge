@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-older-faster",
+  "title": "A 2025 review says older infants pick up action contingencies faster",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Cuevas and Colombo's 2025 review says older infants acquire operant contingencies more rapidly than younger infants.",
+  "body": "Cuevas and Colombo, reviewing infant contingency learning, say decades of work found that even very young infants learn response-reinforcement contingencies. They also say the work found an age change: older infants acquire operant contingencies more rapidly than younger infants. They cite Davis and Rovee-Collier (1983) among others. This card did not open those studies. It records the review's summary, not a new count.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "A quarter century of research on infant contingency learning: current and future directions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12354038/",
+      "author": "Kimberly Cuevas and John Colombo",
+      "date": "2025-05-23",
+      "accessed": "2026-11-26",
+      "note": "Supports the review's statement that older infants acquire operant contingencies more rapidly than younger infants. Infant Behavior and Development 2025;80:102068."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Cuevas and Colombo",
+  "as_of_date": "2025-05-23",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-mobile-kicks",
+    "world-f1-cause-erikson-results",
+    "world-f1-cause-limb-two-reports"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "rapidly",
+    "operant"
+  ],
+  "read_time_min": 1
+}

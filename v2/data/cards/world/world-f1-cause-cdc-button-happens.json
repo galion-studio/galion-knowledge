@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-cdc-button-happens",
+  "title": "The CDC suggests a toy where a button press makes something happen",
+  "section": "world",
+  "category": "psychology",
+  "summary": "The CDC's two-year tips suggest toys where the child pushes a button and something happens, to learn how things work.",
+  "body": "In the activities for a two-year-old, the CDC says to give toys that teach how to make things work and how to solve problems. Its example is a toy where the child pushes a button and something happens. That is a suggested activity. It is not the milestone line about switches and knobs. The suggestion comes from the US page, and it is not a required purchase.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. Supports the activity sentence about toys where the child pushes a button and something happens."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-cdc-switches",
+    "world-f1-cause-cdc-drop-game",
+    "world-f1-cause-erikson-results"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "button",
+    "happens"
+  ],
+  "read_time_min": 1
+}
