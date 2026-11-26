@@ -1,0 +1,46 @@
+{
+  "id": "horbm-memory-how-to-pin",
+  "title": "How to ask HORBM to remember something, and what is never kept",
+  "section": "horbm",
+  "category": "memory",
+  "summary": "A pin is an explicit command that begins with \"please remember\", \"remember this\", or \"remember\", and it is written only when remember is granted. The library default is deny. A fact that contains a secret marker is not written.",
+  "body": "On galion-one-voice commit 021e4d17 a pin is an explicit command at the start of the line. After trimming, the comparison is lowercase. The line must begin with \"please remember\" or with \"remember\". If the next character is a letter or a digit, it is not a command, so \"remembering\" pins nothing. A leading \"this\" or \"that\" is removed when the next character is not a letter or a digit, and so is a leading colon, hyphen, comma, or semicolon. The fact is whatever remains. A line that is only the command has an empty remainder, and nothing is pinned.\n\nWhen two pins are compared, the text is lowercased, whitespace is collapsed, edge punctuation is removed, and one leading prefix is taken off. Those prefixes, quoted from the list, are \"please remember\", \"remember this\", and \"remember\". A fact whose normalised text is already live is not inserted a second time.\n\nThe diary grants remember only when the flag, after trim, is the word \"grant\". Any other flag, including an absent flag, opens as deny. Deny does not create the file. A pin on a denied store is refused. The library default is deny.\n\nAn explicit command is still skipped, and not written, when the fact contains any of these markers: \"password\", \"passphrase\", \"api key\", \"api_key\", \"apikey\", \"secret key\", \"access token\", \"private key\", \"credential\", \"social security\", \"credit card\", or \"card number\".\n\nA sentence that does not begin with those prefixes is not a pin. \"my sister's name is the one I use\" is not kept by this path. \"remember this: my sister's name is the one I use\" is the explicit request, and the stored wording is the part after the prefix.\n\nWhether a person may be asked, and which kinds of row the etiquette allows, is a different card. This one is the command the code accepts and the text it refuses.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "HORBM person diary: pin_command, normalise_fact, and the remember grant",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/memory.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. pin_command reads a leading please remember or remember. normalise_fact strips the prefixes please remember, remember this, and remember. remember defaults to deny. open_from_flag grants only when the trimmed flag is the word grant. looks_like_secret skips the write."
+    },
+    {
+      "title": "HORBM brain: a pin is called only for an explicit command",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/brain.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. observe_memory calls pin only when pin_command returns the text after the command. A line that is not that command is not pinned."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-remember-when-asked",
+    "horbm-consent-bits",
+    "horbm-memory-stores",
+    "horbm.memory.allowed-rows"
+  ],
+  "tags": [
+    "pin-command",
+    "secret-marker-skip"
+  ],
+  "aliases": [
+    "explicit-remember-prefixes"
+  ],
+  "read_time_min": 2
+}

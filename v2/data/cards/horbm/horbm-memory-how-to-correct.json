@@ -1,0 +1,79 @@
+{
+  "id": "horbm-memory-how-to-correct",
+  "title": "How to correct HORBM, and what a correction does today",
+  "section": "horbm",
+  "category": "memory",
+  "summary": "Nine phrases are a correction. The reply is the honest miss \"I don't know.\", and the turn does not argue. A taught clause comes out only through retract_clause, which the turn does not call.",
+  "body": "On galion-one-voice commit 021e4d17 a correction is a closed table. Matching ignores case, and each row has to sit on a word boundary. The nine rows, quoted from the table, are \"that's wrong\", \"thats wrong\", \"that is wrong\", \"actually it's\", \"actually its\", \"actually it is\", \"actually, it's\", \"actually, its\", and \"actually, it is\". The comma inside a spoken \"no, that's wrong\" is not part of the match. \"that's wrong\" is the row. \"that's wrongful\" does not match, and neither does \"actually it isn't\", because the row has to end on a word boundary.\n\nThis read wins over a forget phrase and over a recall cue on the same line.\n\nThe policy answers with the honest miss \"I don't know.\" The move is ask. It does not argue, and it does not repeat the previous sourced clause. The offline counter does not count the turn, and learn consent is left where the previous turn put it.\n\nSaying one of those rows does not, inside the turn, replace a pin, and the turn does not call the learn pass. A taught clause can be taken back by retract_clause. The key is the trimmed speaker together with the trimmed text. The row id is not the key, because a rewrite allocates a fresh id for every copied row. Learn defaults to deny. The only grant is the trimmed word \"grant\". Without that grant the call is denied and the pack is not rewritten. When a live row has that speaker and that text, the other rows are copied in their live order and that one clause is removed. When none matches, the result is false and the pack is left untouched. Removing the last clause leaves an empty live pack, and the file stays. That call is not a withdrawal. The turn does not invoke it.\n\nA line \"forget that\" also leaves a \"learned:\" snap in place. Taking the taught clause back is retract_clause, not the forget phrase.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "HORBM dialogue intent: the CORRECT phrase table",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/dialogue/intent.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. The CORRECT array is the nine phrases. The comma in \"no, that's wrong\" is not part of the match. Correction is read before forget and before recall."
+    },
+    {
+      "title": "HORBM dialogue policy: a correction is the honest miss and never an argument",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/dialogue/policy.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. A correction intent uses the ask miss. It does not keep a card, and it does not repeat a ring clause."
+    },
+    {
+      "title": "HORBM dialogue layer: a correction is not counted",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/dialogue/mod.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. decide reads the heard line as a turn intent. A correction or a forget is not counted by the offline bandit, and learn consent is not changed by that turn."
+    },
+    {
+      "title": "HORBM learn pass: retract_clause",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/learn.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. retract_clause removes one taught clause keyed by trimmed speaker and trimmed text. Learn defaults to deny. The only grant flag is the trimmed word grant. Brain::turn does not call this function. It is not withdraw."
+    },
+    {
+      "title": "HORBM brain: a learned snap is left for retract_clause",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/brain.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. archive_forgotten leaves a learned: snap for LearnPass::retract_clause. The turn does not call the learn pass."
+    },
+    {
+      "title": "HORBM spoken miss",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/route.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. UNKNOWN_REPLY is the sentence \"I don't know.\""
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm.memory.allowed-rows",
+    "horbm-remember-when-asked",
+    "horbm-say-i-dont-know",
+    "horbm-memory-how-to-forget",
+    "horbm.honesty.i-dont-know"
+  ],
+  "tags": [
+    "correction-phrases",
+    "retract-clause"
+  ],
+  "aliases": [
+    "thats-wrong-honest-miss"
+  ],
+  "read_time_min": 2
+}
