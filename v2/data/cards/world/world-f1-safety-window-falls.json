@@ -4,7 +4,7 @@
   "section": "world",
   "category": "medicine",
   "summary": "CPSC says window screens do not prevent falls, and it says to limit openings to four inches while keeping one window available as a fire exit.",
-  "body": "CPSC says to use window guards and safety netting to help prevent falls from windows, balconies, decks, and landings, because screens are not effective at keeping children from falling out. It says to limit openings to four inches or less, including the space between the bars of a guard, and to check that the devices stay secure. If guards are used, at least one window in each room must still be easy to open for escape in a fire. WHO's falls sheet names unprotected windows as a child hazard in global language. This card is the US product-safety reason screens are not enough. Care after a fall is on the first-aid cards.",
+  "body": "CPSC says to use window guards and safety netting to help prevent falls from windows, balconies, decks, and landings, because screens are not effective at keeping children from falling out. It says to limit openings to four inches or less, including the space between the bars of a guard, and to check that the devices stay secure. If guards are used, at least one window in each room must still be easy to open for escape in a fire. This card is the US product-safety reason screens are not enough. Care after a fall is on the first-aid cards.",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,7 +22,6 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-safety-child-fall-heights",
     "first-aid.head-injury",
     "world-f1-safety-fire-escape-plan"
   ],

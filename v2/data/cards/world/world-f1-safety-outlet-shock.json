@@ -4,7 +4,7 @@
   "section": "world",
   "category": "technology",
   "summary": "CPSC says outlet covers and tamper-resistant receptacles help prevent electrical shock, and that a cover must not be easy for a child to pull off and choke on.",
-  "body": "CPSC says outlet covers and outlet plates help protect children from electrical shock and possible electrocution. The cover should not be easy for a child to remove, and it should be large enough that a child cannot choke on it. If receptacles are being replaced, the page says to use a tamper-resistant type. That is a prevention device, not a rescue method. What to do after an electric shock is on the electrocution first-aid card. The advice is from a US product-safety page.",
+  "body": "CPSC says outlet covers and outlet plates help protect children from electrical shock, including a shock severe enough to stop the heart. The cover should not be easy for a child to remove, and it should be large enough that a child cannot choke on it. If receptacles are being replaced, the page says to use a tamper-resistant type. That is a prevention device, not a rescue method. What to do after an electric shock is on the linked first-aid card. The advice is from a US product-safety page.",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,8 +22,7 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "first-aid.electrocution",
-    "world-f1-safety-mouthing-choking"
+    "first-aid.electrocution"
   ],
   "tags": [
     "core-pack",

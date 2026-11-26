@@ -4,7 +4,7 @@
   "section": "world",
   "category": "medicine",
   "summary": "CPSC says to stay within reach at bath time because a child can drown quickly, and that the water heater can be set to 120 degrees Fahrenheit or lower.",
-  "body": "In the bath section, CPSC says to give constant supervision and stay within reach when a baby is bathing, because children can drown in moments. To prevent burns, it says the water heater can be set to 120 degrees Fahrenheit or lower. Anti-scald devices on faucets and shower heads are another option it names. UNICEF's parenting page, a different voice, talks about a child's thinner skin and a bath near body temperature. This card is only the US heater figure and the paired warning to stay within reach. It is not a treatment for a burn. Burn first aid is on the first-aid burn card.",
+  "body": "In the bath section, CPSC says to give constant supervision and stay within reach when a baby is bathing, because children can drown in moments. To prevent scalding, it says the water heater can be set to 120 degrees Fahrenheit or lower. Anti-scald devices on faucets and shower heads are another option it names. This card is only the US heater figure and the paired warning to stay within reach. It is not treatment after a scald. That care is on the linked first-aid card.",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,14 +22,12 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-safety-child-skin-burns",
-    "first-aid.burns-sja",
-    "world-f1-safety-shallow-drowning"
+    "first-aid.burns-sja"
   ],
   "tags": [
     "core-pack",
     "area:foundations-safety",
-    "burns",
+    "scald",
     "bath"
   ],
   "read_time_min": 1

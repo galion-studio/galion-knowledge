@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-safety-bathtub-supervision",
+  "title": "CDC includes the bathtub in the water an adult has to watch",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says a responsible adult should supervise closely and constantly when children are in or near water, and it names bathtubs.",
+  "body": "On the drowning-prevention page, CDC says to designate a responsible adult to supervise closely and constantly when children are in or near water, and the parenthesis on that line includes bathtubs. After swim time, the same page says to shut and lock doors that give access to water. A lifeguard does not replace that adult: the page says adults should still supervise closely when lifeguards are present. This is the US page's bathtub line. It is not a depth measurement, and pulling a child out is not described here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Preventing Drowning",
+      "url": "https://www.cdc.gov/drowning/prevention/",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2025-09-29",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Page dated 29 September 2025. Supports the bathtub supervision sentence and the lock-the-door sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2025-09-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-bath-water-heat",
+    "world-f1-safety-drowning-often-silent",
+    "first-aid.drowning-breaths-first"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "drowning",
+    "bathtub"
+  ],
+  "read_time_min": 1
+}

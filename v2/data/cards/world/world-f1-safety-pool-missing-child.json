@@ -4,7 +4,7 @@
   "section": "world",
   "category": "medicine",
   "summary": "CPSC says most toddler drownings happen in the family's own backyard pool, and that a missing child should be looked for in the pool first.",
-  "body": "CPSC says most toddler drownings occur in the child's own backyard pool. If the child goes missing, check the pool first. It describes layers of protection: the door from the house may need to delay access, with self-closing, self-locking hardware or a door alarm, plus gates, fences, covers, and alarms. After each use, the barrier has to be put back so the child reaches the water only while an adult is supervising. WHO and UNICEF describe wells, buckets, and shallow water in other settings. This card is the US commission's backyard-pool point. Rescue steps are on the drowning first-aid cards, not here.",
+  "body": "CPSC says most toddler drownings occur in the child's own backyard pool. If the child goes missing, check the pool first. It describes layers of protection: the door from the house may need to delay access, with self-closing, self-locking hardware or a door alarm, plus gates, fences, covers, and alarms. After each use, the barrier has to be put back so the child reaches the water only while an adult is supervising. This card is the US commission's backyard-pool point. Rescue steps are on the drowning first-aid cards, not here.",
   "claim_type": "fact",
   "sources": [
     {
@@ -23,8 +23,7 @@
   "contested_views": [],
   "related": [
     "first-aid.drowning-who-deaths",
-    "first-aid.drowning-breaths-first",
-    "world-f1-safety-water-barriers"
+    "first-aid.drowning-breaths-first"
   ],
   "tags": [
     "core-pack",

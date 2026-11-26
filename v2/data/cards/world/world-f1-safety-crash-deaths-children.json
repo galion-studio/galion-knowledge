@@ -4,7 +4,7 @@
   "section": "world",
   "category": "medicine",
   "summary": "NHTSA says car seats and boosters protect infants and children in a crash, and that car crashes are a leading cause of death for children ages 1 to 13.",
-  "body": "The National Highway Traffic Safety Administration's car-seat page says car seats and booster seats provide protection in a crash, yet car crashes are a leading cause of death for children ages 1 to 13. It says to choose a seat for the child's age and size, use a seat that fits the vehicle, and use it every time. A separate line on the page says that in 2024, 39 percent of children killed in car crashes were unrestrained, and that car seats saved 325 children under 5 in one year. Those two figures are what the page displays. This card does not open the tables behind the word Source. WHO's road-injury sheet uses a different age band. The US sentence here is ages 1 to 13.",
+  "body": "The National Highway Traffic Safety Administration's car-seat page says car seats and booster seats provide protection in a crash, yet car crashes are a leading cause of death for children ages 1 to 13. It says to choose a seat for the child's age and size, use a seat that fits the vehicle, and use it every time. A separate line on the page says that in 2024, 39 percent of children killed in car crashes were unrestrained, and that car seats saved 325 children under 5 in one year. Those two figures are what the page displays. This card does not open the tables behind the word Source. The age band on this page is 1 to 13, and it is a US agency's statement.",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,8 +22,7 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-safety-rear-facing-seat",
-    "world-f1-safety-child-restraint-deaths"
+    "world-f1-safety-rear-facing-seat"
   ],
   "tags": [
     "core-pack",
