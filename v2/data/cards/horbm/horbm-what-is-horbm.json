@@ -1,0 +1,124 @@
+{
+  "id": "horbm-what-is-horbm",
+  "title": "What HORBM is",
+  "section": "horbm",
+  "category": "honesty",
+  "summary": "HORBM, the Heuristic Open Retrieval Brain Model, is Galion's retrieval brain. It answers from cards and memory, not a language model, and says it does not know on a miss.",
+  "body": "HORBM is Galion's retrieval brain. A turn is a lookup, not a language model. Its parts: an ear, card retrieval, person memory, a learn pack, dialogue policy, a persona, an inner life, and a full-duplex voice loop.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "HORBM communication knowledge",
+      "url": "https://github.com/galion-studio/galion-knowledge/blob/1ff2c43e6e7c7b421a83317f85a2d38d2fa65137/v2/docs/HORBM_CARDS_OUTLINE.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-26",
+      "note": "Line 5 spells the name Heuristic Open Retrieval Brain Model and says HORBM is Galion's retrieval-based, non-LLM brain."
+    },
+    {
+      "title": "FP — first-principles audit",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/docs/horbm/foundations/FP-first-principles-audit.md",
+      "author": "Galion Labs",
+      "date": "2026-11-24",
+      "accessed": "2026-11-26",
+      "note": "Line 13 says a turn is a lookup and there is no LLM on the hot path. Line 89 names card retrieval. Line 90 says a miss speaks the card or \"I don't know.\""
+    },
+    {
+      "title": "horbm crate",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Line 3 says \"One HORBM turn.\" Line 10 names person memory. Line 21 names card lookup. Line 46 names the inner turn. Line 86 names the configured persona's slower layer. Line 94 names the offline learn pass. Line 103 is the dialogue module."
+    },
+    {
+      "title": "Ear-side prosody for HORBM",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/crates/horbm-ear/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Line 3 says \"Ear-side prosody for HORBM.\""
+    },
+    {
+      "title": "Read-only loader for galion-knowledge cards",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/cards.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Line 3 says \"Read-only loader for galion-knowledge cards.\""
+    },
+    {
+      "title": "Retrieval thread for one HORBM turn",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/retrieve.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Line 3 says \"Retrieval thread for one HORBM turn.\""
+    },
+    {
+      "title": "Per-person diary",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/memory.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Line 3 says \"Per-person diary.\" It is a second file, not the truth-card diary."
+    },
+    {
+      "title": "Offline learn pass for one HORBM pack",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/learn.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Line 3 says \"Offline learn pass for one HORBM pack.\""
+    },
+    {
+      "title": "HORBM dialogue layer",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/dialogue/mod.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Line 3 says the layer decides the next move. Line 10 says \"The heuristic is the policy.\""
+    },
+    {
+      "title": "The steady character",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-persona/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Line 3 says \"The steady character.\""
+    },
+    {
+      "title": "Inner life for the configured persona",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-inner/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Line 3 says \"Inner life for whatever persona the host configured.\""
+    },
+    {
+      "title": "Closed full-duplex loop for HORBM",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-duplex/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Line 3 says \"Closed full-duplex loop for HORBM.\""
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-pack-scope",
+    "horbm-say-i-dont-know",
+    "horbm-memory-stores",
+    "horbm-persona-filter",
+    "horbm-full-duplex-duties"
+  ],
+  "tags": [
+    "horbm",
+    "definition"
+  ],
+  "read_time_min": 1
+}
