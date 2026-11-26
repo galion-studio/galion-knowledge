@@ -3,8 +3,8 @@
   "title": "Strong feelings come with a faster heart and other body signs",
   "section": "world",
   "category": "medicine",
-  "summary": "OpenStax says strong emotional responses go with strong body arousal, including a faster heart rate, faster breathing, and sweating.",
-  "body": "OpenStax Psychology says strong emotional responses are associated with strong physiological arousal. The signs it names include increased heart rate, respiration rate, and sweating. The James-Lange account on the same page treats that arousal as coming before the feeling, while other accounts on the page do not. The page also says a polygraph, which reads arousal, is a weak way to judge honesty, because there is no evidence that lying has one particular arousal pattern. Body signs show arousal. They do not name the feeling, and they do not prove a lie.",
+  "summary": "OpenStax says strong emotional responses go with strong body activation, including a faster heart rate, faster breathing, and perspiration.",
+  "body": "OpenStax Psychology says strong emotional responses are associated with strong physiological activation. The signs it names include increased heart rate, respiration rate, and perspiration. The James-Lange account on the same page treats that activation as coming before the feelings, while other accounts on the page do not. The page also says a polygraph, which reads activation, is a weak way to judge honesty, because there is no evidence that dishonesty has one particular activation pattern. Body signs show activation. They do not name the feelings, and they do not prove a lie.",
   "claim_type": "fact",
   "sources": [
     {
@@ -30,7 +30,7 @@
     "core-pack",
     "area:foundations-people",
     "heart",
-    "sweating"
+    "perspiration"
   ],
   "read_time_min": 1
 }

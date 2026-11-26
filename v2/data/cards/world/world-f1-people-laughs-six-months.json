@@ -2,9 +2,9 @@
   "id": "world-f1-people-laughs-six-months",
   "title": "Outright laughter by about 6 months",
   "section": "world",
-  "category": "psychology",
-  "summary": "Most babies laugh by about 6 months, CDC says.",
-  "body": "Laughter is a separate 6-month social entry, after the 4-month chuckle that CDC said was not yet a full laugh. The page does not require one pitch or one length of sound. Its 'most' is 75 percent or more, the materials are not a screening instrument, and a quieter baby is not diagnosed by this card. The month is the US month.",
+  "category": "development",
+  "summary": "Most children giggle by about 6 months, the milestone sheet says.",
+  "body": "Laughter is a separate 6-month social entry, after the 4-month chuckle that sheet said was not yet a full giggle. The page does not require one timbre or one length of sound. Its 'most' is 75 percent or more, the materials are not a screening instrument, and a hushed child is not diagnosed by this card. The month is the US month.",
   "claim_type": "fact",
   "sources": [
     {
@@ -29,7 +29,7 @@
     "core-pack",
     "area:foundations-people",
     "laughs",
-    "amusement"
+    "giggle"
   ],
   "read_time_min": 1
 }

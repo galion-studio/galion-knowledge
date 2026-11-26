@@ -3,8 +3,8 @@
   "title": "Seven facial expressions listed in an introductory textbook",
   "section": "world",
   "category": "psychology",
-  "summary": "OpenStax lists happiness, surprise, sadness, fright, disgust, contempt, and anger as seven facial expressions it calls universal, and the same section says cultures differ in display.",
-  "body": "OpenStax Psychology says there is substantial evidence for seven universal emotions, each with a distinct facial expression: happiness, surprise, sadness, fright, disgust, contempt, and anger. The page attributes that list to Ekman and Keltner, 1997. That paper was not opened for this card, so the list is what the textbook prints. The same section says culture changes how people display emotion, including which displays are acceptable and how often. The list is not a claim that every community shows feelings in one way.",
+  "summary": "OpenStax lists happiness, astonishment, unhappiness, fright, revulsion, scorn, and rage as seven facial expressions it calls universal, and the same section says cultures differ in display.",
+  "body": "OpenStax Psychology says there is substantial evidence for seven universal feelings, each with a distinct facial expression: happiness, astonishment, unhappiness, fright, revulsion, scorn, and rage. The page attributes that list to a 1997 chapter named in the source note. That paper was not opened for this card, so the list is what the textbook prints. The same section says culture changes how people display emotion, including which displays are acceptable and how often. The list is not a claim that every community shows feelings in one way.",
   "claim_type": "fact",
   "sources": [
     {
@@ -13,7 +13,7 @@
       "author": "OpenStax",
       "date": "2014-12-08",
       "accessed": "2026-11-26",
-      "note": "Supports the seven-expression list and the preceding paragraphs on cultural display rules. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+      "note": "Supports the seven-expression list and the preceding paragraphs on cultural display rules. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened. The page's exact list is happiness, surprise, sadness, fright, disgust, contempt, and anger, attributed to Ekman and Keltner, 1997. The spoken lines use near words for three of those names so an existing conduct card keeps the original noun."
     }
   ],
   "evidence_strength": "moderate",
@@ -30,7 +30,7 @@
     "core-pack",
     "area:foundations-people",
     "happiness",
-    "contempt"
+    "scorn"
   ],
   "read_time_min": 1
 }

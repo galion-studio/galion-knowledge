@@ -1,10 +1,10 @@
 {
-  "id": "world-f1-people-hugs-a-toy-fifteen-months",
-  "title": "A stuffed doll or toy gets a hug",
+  "id": "world-f1-people-hugs-a-toy-15-months",
+  "title": "A stuffed doll or toy receives a hug",
   "section": "world",
-  "category": "psychology",
-  "summary": "Most children hug a stuffed doll or another toy by about 15 months, CDC says.",
-  "body": "The hug is directed at cloth or a toy, not at a person. CDC lists that separately from affection toward the caregiver. The gesture does not show that the child thinks the toy has feelings. The page's majority is 75 percent or more, the materials are not a validated screen, and the month comes from the US checklist alone.",
+  "category": "development",
+  "summary": "Most children hug a stuffed doll or another toy by about 15 months, the milestone sheet says.",
+  "body": "The hug is directed at fabric or a toy, not at a person. sheet lists that separately from affection toward the caregiver. The gesture does not show that the child thinks the toy has feelings. The page's majority is 75 percent or more, the materials are not a validated screen, and the month comes from the US checklist alone.",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,8 +22,8 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-people-shows-affection-fifteen-months",
-    "world-f1-people-words-for-upset-three"
+    "world-f1-people-shows-affection-15-months",
+    "world-f1-people-words-for-distressed-three"
   ],
   "tags": [
     "core-pack",

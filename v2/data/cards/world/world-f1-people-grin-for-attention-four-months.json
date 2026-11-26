@@ -1,10 +1,10 @@
 {
-  "id": "world-f1-people-smile-for-attention-four-months",
-  "title": "A smile the baby starts, to be noticed",
+  "id": "world-f1-people-grin-for-attention-four-months",
+  "title": "A grin the child starts, to be spotted",
   "section": "world",
-  "category": "psychology",
-  "summary": "By about 4 months, most babies smile on their own to get attention, CDC says.",
-  "body": "Here the baby opens the exchange. That is a different line from the 2-month reply to someone else's smile. CDC files the self-started smile with the 4-month social items, next to a chuckle that is not yet a full laugh. The agency's bar is most children, not every child, and the sheet is not a screening test. Ages outside this US page are not copied here.",
+  "category": "development",
+  "summary": "By about 4 months, most children grin on their own to get attention, the milestone sheet says.",
+  "body": "Here the child opens the exchange. That is a different line from the 2-month reply to someone else's grin. sheet files the self-started grin with the 4-month social items, next to a chuckle that is not yet a full giggle. The agency's bar is most children, not every child, and the sheet is not a screening test. Ages outside this US page are not copied here.",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,14 +22,14 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-people-social-smile-two-months",
+    "world-f1-people-answers-with-a-grin-two-months",
     "world-f1-people-chuckle-four-months"
   ],
   "tags": [
     "core-pack",
     "area:foundations-people",
     "attention",
-    "smile"
+    "grin"
   ],
   "read_time_min": 1
 }

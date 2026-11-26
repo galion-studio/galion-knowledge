@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-read-child-clue",
+  "title": "A child's clue can mean play, or a need to halt",
+  "section": "world",
+  "category": "psychology",
+  "summary": "The milestone sheet says to notice a child's clue: noises and looking can be a welcome to play, while turning away, yawning, or fussing can mean the child needs a break.",
+  "body": "On the United States milestone sheet for 2-month page, caregivers are told to learn the child's clue in order to know what the child feels and needs. The page's example of wishing to play is making noises and looking at the person. The example of needing a break is turning the head away, yawning, or becoming fussy. The same note says the caregiver will feel good and the child will feel safe and loved when those clue are answered. The examples are illustrations. A yawn can also have other causes the page does not list. The note is not a full code of every clue.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports the tip on noticing signals for play versus a break."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-inborn-from-birth",
+    "world-f1-people-soft-voice-calms-child",
+    "world-f1-people-holding-does-not-spoil"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "clue",
+    "yawn"
+  ],
+  "read_time_min": 1
+}

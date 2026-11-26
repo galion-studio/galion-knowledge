@@ -1,10 +1,10 @@
 {
   "id": "world-f1-people-emotion-theory-order",
-  "title": "Three textbook accounts of body arousal and feeling",
+  "title": "Three textbook accounts of body activation and feelings",
   "section": "world",
   "category": "psychology",
-  "summary": "OpenStax sets out three accounts of how body arousal and a feeling fit together, and it does not treat any one of them as complete.",
-  "body": "OpenStax Psychology describes the James-Lange account as the view that emotions arise from physiological arousal, so a racing heart and faster breathing would come before the feeling of fear, and different feelings would go with different body patterns. The Cannon-Bard account, as the page states it, says arousal and the emotional experience happen at the same time and independently. The Schachter-Singer two-factor account says a feeling is arousal plus a cognitive label from the situation, so the same arousal can be read differently depending on context. The page also reports that people who cannot receive autonomic feedback can still feel emotion, while less awareness of arousal tended to go with less intense emotion. None of the three is presented as the finished account.",
+  "summary": "OpenStax sets out three accounts of how body activation and feelings fit together, and it does not treat any one of them as complete.",
+  "body": "OpenStax Psychology describes the James-Lange account as the view that feelings arise from physiological activation, so a racing heart and faster breathing would come before the feelings of fear, and different feelings would go with different body patterns. The Cannon-Bard account, as the page states it, says activation and the emotional experience occur at the same time and independently. The Schachter-Singer two-factor account says feelings is activation plus a cognitive label from the situation, so the same activation can be read differently depending on context. The page also reports that people who cannot receive autonomic feedback can still feel emotion, while less awareness of activation tended to go with less intense emotion. None of the three is presented as the finished account.",
   "claim_type": "fact",
   "sources": [
     {

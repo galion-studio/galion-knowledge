@@ -1,10 +1,10 @@
 {
-  "id": "world-f1-people-notices-upset-two-years",
-  "title": "A pause or a sad look when another person weeps",
+  "id": "world-f1-people-notices-distressed-two-years",
+  "title": "A halt or a unhappy glance when another person weeps",
   "section": "world",
-  "category": "psychology",
-  "summary": "By about 2 years, most children register that someone else is hurt or upset, CDC says, for instance by stopping or looking sad.",
-  "body": "Stopping for a moment, or wearing a sorrowful look, while another person weeps is the picture CDC gives for this second-year line. The skill is registering another person's distress. The line does not ask the child to repair it. The publisher's majority for the series is at least three in four, the sheet is not a diagnosis, and the birthday is the American one.",
+  "category": "development",
+  "summary": "By about 2 years, most children register that someone else is harmed or distressed, the milestone sheet says, for instance by stopping or looking unhappy.",
+  "body": "Stopping for a moment, or wearing a sorrowful glance, while another person weeps is the picture sheet gives for this second-year line. The skill is registering another person's distress. The line does not ask the child to mend it. The publisher's majority for the series is at least three in four, the sheet is not a diagnosis, and the birthday is the American one.",
   "claim_type": "fact",
   "sources": [
     {
@@ -29,7 +29,7 @@
     "core-pack",
     "area:foundations-people",
     "notices",
-    "upset"
+    "distressed"
   ],
   "read_time_min": 1
 }

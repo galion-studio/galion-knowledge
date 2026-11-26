@@ -1,10 +1,10 @@
 {
-  "id": "world-f1-people-shows-affection-fifteen-months",
+  "id": "world-f1-people-shows-affection-15-months",
   "title": "Hugs, cuddles, or kisses offered to a person",
   "section": "world",
-  "category": "psychology",
-  "summary": "Most children show affection, for example with a hug, a cuddle, or a kiss, by about 15 months, CDC says.",
-  "body": "The gestures on this line are aimed at the caregiver. Hugging a stuffed toy is a different line on the same page. CDC does not rank hug above kiss. Its bar is most children, written as 75 percent or more, and a child who shows fondness in some other way is not failed by this card. The list is American, and it is not a screening instrument.",
+  "category": "development",
+  "summary": "Most children show affection, for example with a hug, a cuddle, or a kiss, by about 15 months, the milestone sheet says.",
+  "body": "The gestures on this line are aimed at the caregiver. Hugging a stuffed toy is a different line on the same page. sheet does not rank hug above kiss. Its bar is most children, written as 75 percent or more, and a child who shows fondness in some other way is not failed by this card. The list is American, and it is not a screening instrument.",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,7 +22,7 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-people-hugs-a-toy-fifteen-months",
+    "world-f1-people-hugs-a-toy-15-months",
     "world-f1-people-comforts-others-four-years"
   ],
   "tags": [

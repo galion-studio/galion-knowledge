@@ -1,10 +1,10 @@
 {
-  "id": "world-f1-people-harlow-cloth-comfort",
-  "title": "Infant monkeys clung to a soft figure that gave no milk",
+  "id": "world-f1-people-harlow-fabric-comfort",
+  "title": "child monkeys clung to a soft figure that gave no nourishment",
   "section": "world",
   "category": "psychology",
-  "summary": "OpenStax says Harlow's infant monkeys preferred a soft cloth figure over a wire figure that gave milk, and that the studies are now widely considered unethical.",
-  "body": "OpenStax Psychology recounts Harry Harlow's 1950s monkey studies. Newborn monkeys were separated from their mothers and given two substitute figures. One was wire and could give milk. The other was soft cloth and gave no milk. The infants clung to the cloth figure and went to the wire figure to feed. Harlow's conclusion, as the page states it, was that comfort and security matter to the bond, not nourishment alone. OpenStax says the studies were done before modern ethics rules and are now widely considered unethical. The finding is about those monkeys. It is not a feeding instruction for a human infant.",
+  "summary": "OpenStax says Harlow's child monkeys favoured a soft fabric figure over a wire figure that gave nourishment, and that the studies are now widely considered unethical.",
+  "body": "OpenStax Psychology recounts Harry Harlow's 1950s monkey studies. Newborn monkeys were separated from their mothers and given two substitute figures. One was wire and could give nourishment. The other was soft fabric and gave no nourishment. The infants clung to the fabric figure and went to the wire figure to feed. Harlow's conclusion, as the page states it, was that comfort and security matter to the bond, not nourishment alone. OpenStax says the studies were done before modern ethics rules and are now widely considered unethical. The finding is about those monkeys. It is not a feeding instruction for a human child.",
   "claim_type": "fact",
   "sources": [
     {
@@ -28,7 +28,7 @@
   "tags": [
     "core-pack",
     "area:foundations-people",
-    "cloth",
+    "fabric",
     "harlow"
   ],
   "read_time_min": 1

@@ -1,10 +1,10 @@
 {
-  "id": "world-f1-people-resistant-attachment",
-  "title": "Resistant attachment and care that comes and goes",
+  "id": "world-f1-people-ambivalent-attachment",
+  "title": "ambivalent attachment and care that comes and goes",
   "section": "world",
   "category": "psychology",
-  "summary": "OpenStax says resistant attachment is clingy and then rejecting, with extreme distress at separation and difficulty being comforted, linked on the page to inconsistent care.",
-  "body": "OpenStax Psychology says that in resistant attachment, children tend to be clingy and then reject the caregiver's attempts to interact. They do not explore the toys because they are too fearful. During separation they become extremely disturbed and angry, and when the parent returns they are difficult to comfort. The page says this pattern is the result of an inconsistent level of response from caregivers. The description is Ainsworth's category as the textbook reports it. Inconsistent care in that sentence is the book's explanation, not a finding about a named family.",
+  "summary": "OpenStax says ambivalent attachment is clingy and then rejecting, with extreme distress at separation and difficulty being comforted, linked on the page to inconsistent care.",
+  "body": "OpenStax Psychology says that in ambivalent attachment, children tend to be clingy and then reject the caregiver's efforts to interact. They do not explore the toys because they are too fearful. During separation they become extremely disturbed and mad, and when the parent returns they are difficult to comfort. The page says this pattern is the result of an inconsistent level of response from caregivers. The description is Ainsworth's category as the textbook reports it. Inconsistent care in that sentence is the book's explanation, not a finding about a named family.",
   "claim_type": "fact",
   "sources": [
     {
@@ -29,7 +29,7 @@
   "tags": [
     "core-pack",
     "area:foundations-people",
-    "resistant",
+    "ambivalent",
     "inconsistent"
   ],
   "read_time_min": 1

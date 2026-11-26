@@ -1,10 +1,10 @@
 {
-  "id": "world-f1-people-social-smile-two-months",
-  "title": "A smile that answers someone, around 2 months",
+  "id": "world-f1-people-answers-with-a-grin-two-months",
+  "title": "A grin that answers someone, around 2 months",
   "section": "world",
-  "category": "psychology",
-  "summary": "CDC says most babies answer talk, or a smile, with a smile of their own by about 2 months.",
-  "body": "Someone speaks, or offers a smile, and the baby smiles back. That exchange is the 2-month social item on the CDC sheet. The sheet counts an item when at least three quarters of children do it, and it says the leaflet is not a validated screen. A baby without this reply yet is not called ill here. The ages are the United States list.",
+  "category": "development",
+  "summary": "The milestone sheet says most children answer chatting, or a grin, with a grin of their own by about 2 months.",
+  "body": "Someone speaks, or offers a grin, and the child smiles back. That exchange is the 2-month social item on the milestone sheet. The sheet counts an item when at least three quarters of children do it, and it says the leaflet is not a validated screen. A child without this reply yet is not called ill here. The ages are the United States list.",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,13 +22,13 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-people-smile-for-attention-four-months",
+    "world-f1-people-grin-for-attention-four-months",
     "world-f1-people-seven-facial-expressions"
   ],
   "tags": [
     "core-pack",
     "area:foundations-people",
-    "smile",
+    "grin",
     "months"
   ],
   "read_time_min": 1

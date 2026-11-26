@@ -1,10 +1,10 @@
 {
   "id": "world-f1-people-comforts-others-four-years",
-  "title": "Helping a crying friend by about 4 years",
+  "title": "aiding a crying playmate by about 4 years",
   "section": "world",
-  "category": "psychology",
-  "summary": "CDC says that by about 4 years, most children try to help a person who is hurt or sad, and its example is a hug.",
-  "body": "The 4-year line is an action toward a friend, and the printed example is a hug. An earlier CDC age only records that the child notices distress. This later line is the attempt to make someone feel better. One hug is the illustration, not a required script. The series includes a child when three quarters or more show the behavior, and the leaflet is not a clinical instrument. A child who does not hug is not called unkind here.",
+  "category": "development",
+  "summary": "The milestone sheet says that by about 4 years, most children make an effort to help a person who is harmed or unhappy, and its example is a hug.",
+  "body": "The 4-year line is an action toward a playmate, and the printed example is a hug. An earlier sheet age only records that the child notices distress. This later line is the effort to make someone feel better. One hug is the illustration, not a required wording. The series includes a child when three quarters or more show the behavior, and the leaflet is not a clinical instrument. A child who does not hug is not called unkind here.",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,14 +22,14 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-people-notices-upset-two-years",
-    "world-f1-people-shows-affection-fifteen-months"
+    "world-f1-people-notices-distressed-two-years",
+    "world-f1-people-shows-affection-15-months"
   ],
   "tags": [
     "core-pack",
     "area:foundations-people",
     "comforts",
-    "friend"
+    "playmate"
   ],
   "read_time_min": 1
 }

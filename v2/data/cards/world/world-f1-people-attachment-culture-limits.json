@@ -1,6 +1,6 @@
 {
   "id": "world-f1-people-attachment-culture-limits",
-  "title": "Inborn style and culture are named limits on attachment categories",
+  "title": "Inborn style and culture are named limits on attachment groupings",
   "section": "world",
   "category": "psychology",
   "summary": "OpenStax says later work both supports and criticizes Ainsworth: a child's inborn style may shape the bond, and the bond varies across cultures.",
@@ -22,7 +22,7 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-people-temperament-from-birth",
+    "world-f1-people-inborn-from-birth",
     "world-f1-people-secure-attachment",
     "world-f1-people-cultural-display-rules"
   ],

@@ -1,10 +1,10 @@
 {
   "id": "world-f1-people-emotion-three-parts",
-  "title": "A feeling has a body part, an appraisal, and an experience",
+  "title": "feelings has a body part, an evaluation, and an experience",
   "section": "world",
   "category": "psychology",
-  "summary": "OpenStax says an emotional state combines physiological arousal, a psychological appraisal, and a subjective experience.",
-  "body": "In OpenStax Psychology, emotional states are combinations of physiological arousal, psychological appraisal, and subjective experience, and those three together are called the components of emotion. The page says appraisals are informed by a person's experiences, background, and culture, so two people can have different emotional experiences in similar circumstances. That is a textbook account of why the same event need not produce the same feeling. It does not list a required set of feelings. Treating arousal alone as the whole state would leave out appraisal, the part the page says can differ with background and culture.",
+  "summary": "OpenStax says an emotional state combines physiological activation, a psychological evaluation, and a subjective experience.",
+  "body": "In OpenStax Psychology, emotional states are combinations of physiological activation, psychological evaluation, and subjective experience, and those three together are called the components of emotion. The page says evaluation are informed by a person's experiences, background, and culture, so two people can have different emotional experiences in similar circumstances. That is a textbook account of why the same event need not produce the same feelings. It does not list a required set of feelings. Treating activation alone as the whole state would leave out evaluation, the part the page says can differ with background and culture.",
   "claim_type": "fact",
   "sources": [
     {
@@ -29,8 +29,8 @@
   "tags": [
     "core-pack",
     "area:foundations-people",
-    "appraisal",
-    "arousal"
+    "evaluation",
+    "activation"
   ],
   "read_time_min": 1
 }

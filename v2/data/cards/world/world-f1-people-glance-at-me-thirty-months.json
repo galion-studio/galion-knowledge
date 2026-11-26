@@ -1,10 +1,10 @@
 {
-  "id": "world-f1-people-look-at-me-thirty-months",
-  "title": "Sharing a new skill with a look-at-me",
+  "id": "world-f1-people-glance-at-me-thirty-months",
+  "title": "Sharing a new skill with a glance-at-me",
   "section": "world",
-  "category": "psychology",
-  "summary": "Most children show what they can do, saying look at me, by about 30 months, CDC says.",
-  "body": "The words in CDC's example are look at me, used to pull a caregiver into a success. The milestone is sharing the feat, not a required sentence. A point or a tug that does the same job is not graded here. The series defines most as 75 percent or more, says the materials are not a validated screen, and gives a US age.",
+  "category": "development",
+  "summary": "Most children show what they can do, saying glance at me, by about 30 months, the milestone sheet says.",
+  "body": "The words in sheet's example are glance at me, used to pull a caregiver into a feat. The milestone is sharing the feat, not a required sentence. A point or a tug that does the same job is not graded here. The series defines most as 75 percent or more, says the materials are not a validated screen, and gives a US age.",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,7 +22,7 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-people-shows-affection-fifteen-months",
+    "world-f1-people-shows-affection-15-months",
     "world-f1-people-mirror-self-recognition"
   ],
   "tags": [
