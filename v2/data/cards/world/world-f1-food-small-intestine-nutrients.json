@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-small-intestine-nutrients",
+  "title": "Most nutrients pass into the blood from the small intestine",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIDDK says the small intestine absorbs most nutrients, and the blood carries many of them to the liver.",
+  "body": "NIDDK says the small intestine absorbs most of the nutrients in food, and the circulation passes them on to be stored or used. Special cells help the absorbed nutrients cross the intestinal lining into the bloodstream. The blood carries simple sugars, amino acids, glycerol, and some vitamins and salts to the liver, which stores, processes, and delivers nutrients when they are needed. Fatty acids and some vitamins are described as entering the lymph instead. This is the December 2017 page's account of where absorption happens.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Your Digestive System & How it Works",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "author": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "date": "2017-12",
+      "accessed": "2026-11-26",
+      "note": "Supports absorption in the small intestine and delivery toward the liver. Public-domain NIH page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDDK",
+  "as_of_date": "2017-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.body.pavlov-digestion",
+    "world-f1-food-digestion-purpose"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "digestion",
+    "absorption"
+  ],
+  "read_time_min": 1
+}

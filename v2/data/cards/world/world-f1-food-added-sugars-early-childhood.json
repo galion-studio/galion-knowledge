@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-added-sugars-early-childhood",
+  "title": "CDC says infants and young children do not need foods or drinks with added sugars",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says added sugars do not belong in infants' and young children's diets, and names muffins, flavored yogurt, cookies, and sugary drinks as examples.",
+  "body": "The CDC avoid-or-limit page, dated 14 April 2026, says infants and young children should not have added sugars. Foods it gives as examples include muffins, flavored yogurts, and cookies. It points readers to the Nutrition Facts label to find foods with none. For drinks, it says sugar-sweetened drinks such as soda, flavored milk, sports drinks, and juice drinks contain added sugars, and that children younger than 24 months should not have added sugars. The page says these are examples, not a complete catalogue. This is United States guidance. A WHO definition of free sugars is a different card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Foods and Drinks to Avoid or Limit",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/foods-and-drinks-to-avoid-or-limit.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-04-14",
+      "accessed": "2026-11-26",
+      "note": "Supports the added-sugar sentences for young children. Public-domain CDC page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-04-14",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.diet-limits",
+    "world-f1-food-free-sugars-defined"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "sugars",
+    "toddlers"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-breastfeeding-and-growth",
+  "title": "WHO links early breastfeeding with healthy growth and cognitive development",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The healthy-diet fact sheet says breastfeeding fosters healthy growth and improves cognitive development.",
+  "body": "The World Health Organization's healthy-diet fact sheet, dated 26 January 2026, says healthy dietary practices start early in life. It says breastfeeding fosters healthy growth and improves cognitive development. The sentence sits in the sheet's overview of diet across life, not in a table of test scores. This card does not turn that sentence into an IQ number, and it does not say a child who is not breastfed cannot grow well. The sheet's claim is the direction of the benefit it states.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Healthy diet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "author": "World Health Organization",
+      "date": "2026-01-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase of the fact sheet. WHO text is not used under a CC BY licence, so this card does not quote it. Supports the sentence on breastfeeding, growth, and cognitive development."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-01-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.diet-principles",
+    "world-f1-food-breast-milk-only"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "breastfeeding",
+    "growth"
+  ],
+  "read_time_min": 1
+}

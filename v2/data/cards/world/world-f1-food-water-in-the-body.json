@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-water-in-the-body",
+  "title": "Water is more than two-thirds of body weight, and cells need it",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The MedlinePlus encyclopedia says water is the basis of body fluids and makes up more than two-thirds of body weight.",
+  "body": "The MedlinePlus medical encyclopedia says water is a combination of hydrogen and oxygen and is the basis for the fluids of the body. It says water makes up more than two-thirds of the weight of the human body, and that all cells and organs need water to function. It also says that without consuming water, most people would die in three to seven days. That span is the encyclopedia's general statement, reviewed 9 July 2025. It is not a timed record of one person, and it is not a drinking schedule for a particular baby.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Water in diet",
+      "url": "https://medlineplus.gov/ency/article/002471.htm",
+      "author": "National Library of Medicine",
+      "date": "2025-07-09",
+      "accessed": "2026-11-26",
+      "note": "Supports the two-thirds and three-to-seven-day sentences. Public-domain MedlinePlus encyclopedia. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2025-07-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.dehydration",
+    "world-f1-food-adult-water-intake"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "water",
+    "hydration"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-three-kinds-of-carbohydrate",
+  "title": "Sugars, starches, and fiber are the three kinds of carbohydrate",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus divides carbohydrates into sugars, starches, and fiber, and says the body cannot break down most fiber.",
+  "body": "MedlinePlus says there are three main types of carbohydrates. Sugars, also called simple carbohydrates, are the basic form, whether added to foods or already in some foods. Starches are complex carbohydrates, many simple sugars strung together, and the body must break them down before using them for energy. Fiber is also a complex carbohydrate. The body cannot break down most fibers, so fiber-containing foods can help a person feel full. The page was updated 25 March 2024. Feeling full is the page's point about fiber. A separate card covers fiber as a plant substance.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Carbohydrates",
+      "url": "https://medlineplus.gov/carbohydrates.html",
+      "author": "National Library of Medicine",
+      "date": "2024-03-25",
+      "accessed": "2026-11-26",
+      "note": "Supports the three-type split. Public-domain MedlinePlus page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2024-03-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-carbohydrates-to-glucose",
+    "world-f1-food-dietary-fibre-fullness"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "carbohydrates",
+    "fiber"
+  ],
+  "read_time_min": 1
+}

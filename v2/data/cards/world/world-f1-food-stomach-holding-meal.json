@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-stomach-holding-meal",
+  "title": "The stomach holds a meal and mixes it into chyme before the intestine",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says the stomach is a temporary holding chamber that turns a meal into chyme, not the place where all digestion finishes.",
+  "body": "OpenStax Anatomy and Physiology says popular talk sometimes treats the stomach as the place where all digestion happens, and that this is not true. An important job is to be a temporary holding chamber, because a person can swallow a meal faster than the small intestine can digest and absorb it. Food is mixed with digestive juices until it becomes chyme, which is released into the small intestine. The textbook says little nutrient absorption occurs in the stomach, aside from a negligible amount in alcohol. It also says body weight does not correlate with stomach size. This is the 25 April 2013 textbook, paraphrased.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Anatomy and Physiology, 23.4 The Stomach",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/23-4-the-stomach",
+      "author": "OpenStax",
+      "date": "2013-04-25",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase of the named section. OpenStax Anatomy and Physiology, publication date 25 April 2013. The page's reuse notice describes CC BY-NC-SA terms for redistribution. This card does not quote the textbook. Supports the holding-chamber and chyme sentences."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2013-04-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.body.pavlov-digestion",
+    "world-f1-food-stomach-protein-acid"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "digestion",
+    "stomach"
+  ],
+  "read_time_min": 1
+}

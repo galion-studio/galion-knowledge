@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-solids-around-six-months",
+  "title": "US guidance cited by CDC starts other foods at about six months, not before four",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says the Dietary Guidelines for Americans and the American Academy of Pediatrics put first solids at about six months.",
+  "body": "The CDC page on introducing solid foods, dated 14 April 2026, says the Dietary Guidelines for Americans and the American Academy of Pediatrics recommend introducing foods other than breast milk or infant formula at about six months. The same page says a child can begin solid foods at about six months, and that introducing foods before four months is not recommended. Breast milk or formula is still the drink in that framing. This is United States guidance as CDC prints it. Other countries publish their own timing. It is not a prediction for one baby's calendar.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "When, What, and How to Introduce Solid Foods",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/when-what-and-how-to-introduce-solid-foods.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-04-14",
+      "accessed": "2026-11-26",
+      "note": "Supports the about-six-months and not-before-four-months sentences. Public-domain CDC page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-04-14",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-foods-beside-milk",
+    "world-f1-food-signs-ready-for-solids"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "solids",
+    "infants"
+  ],
+  "read_time_min": 1
+}

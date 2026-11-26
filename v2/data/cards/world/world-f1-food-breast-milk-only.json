@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-food-breast-milk-only",
+  "title": "WHO and UNICEF recommend only breast milk for the first six months",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The infant-feeding fact sheet says exclusive breastfeeding means breast milk alone for the first six months of life.",
+  "body": "The World Health Organization and UNICEF, on the infant and young child feeding fact sheet dated 4 August 2026, recommend that infants breastfeed exclusively for the first six months of life. The sheet explains exclusive breastfeeding as being fed only breast milk. Other foods and drinks wait until after that stretch, in this recommendation. The sheet is global guidance for populations. It is not a judgment of a family that uses infant formula, and it does not say every baby on earth is fed this way.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Infant and young child feeding",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding",
+      "author": "World Health Organization",
+      "date": "2026-08-04",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase of the fact sheet. WHO text is not used under a CC BY licence, so this card does not quote it. Supports the exclusive-breastfeeding recommendation for six months."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-08-04",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.diarrhoea-who",
+    "world.core.health.child-undernutrition",
+    "world-f1-food-breast-milk-or-formula"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "breastfeeding",
+    "infants"
+  ],
+  "read_time_min": 1
+}

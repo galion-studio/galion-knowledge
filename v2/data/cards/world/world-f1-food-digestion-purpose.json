@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-digestion-purpose",
+  "title": "Digestion breaks nutrients into pieces used for energy, growth, and repair",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIDDK says food and drink supply nutrients that digestion splits so the body can absorb them.",
+  "body": "The National Institute of Diabetes and Digestive and Kidney Diseases says digestion matters because the body needs nutrients from food and drink in order to work and stay healthy. It names proteins, fats, carbohydrates, vitamins, minerals, and water as nutrients. Proteins are broken into amino acids, fats into fatty acids and glycerol, and carbohydrates into simple sugars. Those smaller pieces are what the body absorbs and then uses for energy, growth, and cell repair. This is that institute's description, last reviewed in December 2017. It is not a meal plan.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Your Digestive System & How it Works",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "author": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "date": "2017-12",
+      "accessed": "2026-11-26",
+      "note": "Supports the sentences on why digestion matters and how proteins, fats, and carbohydrates are split. Public-domain NIH page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDDK",
+  "as_of_date": "2017-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.body.pavlov-digestion",
+    "world-f1-food-small-intestine-nutrients"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "digestion",
+    "nutrients"
+  ],
+  "read_time_min": 1
+}

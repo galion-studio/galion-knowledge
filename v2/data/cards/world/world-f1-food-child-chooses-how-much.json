@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-child-chooses-how-much",
+  "title": "CDC says a child need not finish the bottle or the plate, and food is not a prize",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says to let the child decide how much to eat, and that food is not a good reward or punishment.",
+  "body": "The CDC hunger and fullness page, dated 11 March 2026, says to let the child decide how much they want. A child does not need to finish a bottle or all of the food in the jar or on the plate. Food is not a good reward or punishment. The page says to talk with the child's doctor or nurse if a caregiver is concerned about how much or how little the child is eating. That last step is a conversation, not a diagnosis printed by the page. The advice is from a United States infant and toddler nutrition page. It is not a rule for every culture's table.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Signs Your Child Is Hungry or Full",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/mealtime/signs-your-child-is-hungry-or-full.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-03-11",
+      "accessed": "2026-11-26",
+      "note": "Supports the child-decides and not-a-reward sentences. Public-domain CDC page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-03-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-toddler-fullness-cues",
+    "world-f1-food-responsive-feeding"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "feeding",
+    "portions"
+  ],
+  "read_time_min": 1
+}

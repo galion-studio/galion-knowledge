@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-held-cup-one-year",
+  "title": "An adult still steadies the lidless cup at the first birthday",
+  "section": "world",
+  "category": "psychology",
+  "summary": "CDC's one-year checklist includes drinking from a cup with no lid while a caregiver holds it.",
+  "body": "The CDC one-year movement list has a drinking item with the caregiver still in the sentence: the baby drinks from a cup without a lid, as you hold it. The adult hand is part of the skill. Nothing on that line says the baby balances the vessel alone or keeps every drop inside. CDC selects checklist items that most children, which it defines as 75 percent or more, can do by the age. A missing line is something to raise at a checkup. The same pages say they are not a substitute for a standardized developmental screen, and this card does not forbid every other drinking cup.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 1 Year",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the held-cup milestone. Public-domain CDC page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-open-cup-eighteen-months",
+    "world-f1-food-pincer-food-one-year"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "milestones",
+    "cups"
+  ],
+  "read_time_min": 1
+}

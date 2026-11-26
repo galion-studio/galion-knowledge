@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-breastfeeding-two-years",
+  "title": "WHO recommends keeping breast milk going up to age two or beyond",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The same infant-feeding sheet says breastfeeding continues up to two years of age or beyond, together with other foods.",
+  "body": "On the 4 August 2026 infant and young child feeding fact sheet, WHO and UNICEF recommend that breastfeeding continue up to two years of age or beyond. During that longer stretch, nutritionally adequate and safe complementary foods are also part of the recommendation, starting from six months. The duration claim is the continued milk, not a rule that milk is the only food in the second year. Countries and families differ in how this is practiced. The sheet states a recommendation, not a census of what every toddler drinks.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Infant and young child feeding",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding",
+      "author": "World Health Organization",
+      "date": "2026-08-04",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase of the fact sheet. WHO text is not used under a CC BY licence, so this card does not quote it. Supports continued breastfeeding up to two years or beyond."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-08-04",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.child-undernutrition",
+    "world-f1-food-breast-milk-only"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "breastfeeding",
+    "toddlers"
+  ],
+  "read_time_min": 1
+}

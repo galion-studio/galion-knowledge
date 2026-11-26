@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-calcium-bones-nerves",
+  "title": "Calcium builds bone and also carries signals in nerves, muscles, and the heartbeat",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The MedlinePlus encyclopedia says calcium is the most plentiful mineral in the body and that teeth and bones hold most of it.",
+  "body": "The MedlinePlus encyclopedia entry on calcium in the diet, reviewed 21 January 2025, says calcium is the most plentiful mineral in the human body. Teeth and bones contain the most of it. Nerve cells, tissues, blood, and other fluids contain the rest. The page says calcium helps form and maintain teeth and bones, and also helps clot blood, send and receive nerve signals, squeeze and relax muscles, release hormones, and keep a normal heartbeat. Dairy foods are described as a rich and readily used source, not the only source. This is one mineral's job list, not a dose for a child.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Calcium in diet",
+      "url": "https://medlineplus.gov/ency/article/002412.htm",
+      "author": "National Library of Medicine",
+      "date": "2025-01-21",
+      "accessed": "2026-11-26",
+      "note": "Supports the bone and signaling sentences. Public-domain MedlinePlus encyclopedia. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2025-01-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-minerals-macro-trace",
+    "world-f1-food-breast-milk-or-formula"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "calcium",
+    "minerals"
+  ],
+  "read_time_min": 1
+}

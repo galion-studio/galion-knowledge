@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-protein-builds-cells",
+  "title": "Protein is a chain of amino acids used to repair cells and build new ones",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The MedlinePlus encyclopedia says every cell contains protein and that children need it for growth.",
+  "body": "The MedlinePlus encyclopedia page on protein in the diet says proteins are the building blocks of life and that every cell in the human body contains protein. The basic structure is a chain of amino acids. During digestion, food protein is broken into those amino acids. The body needs protein in the diet to repair cells and make new ones. The page also says protein matters for growth and development in children, teens, and pregnant women. Amino acids come from animal foods and from plant foods such as soy, beans, and some grains. The page was reviewed 1 April 2025. It does not say a child must eat meat.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Protein in diet",
+      "url": "https://medlineplus.gov/ency/article/002467.htm",
+      "author": "National Library of Medicine",
+      "date": "2025-04-01",
+      "accessed": "2026-11-26",
+      "note": "Supports the amino-acid and repair sentences. Public-domain MedlinePlus encyclopedia. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2025-04-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-essential-amino-acids",
+    "world-f1-food-stomach-protein-acid"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "protein",
+    "growth"
+  ],
+  "read_time_min": 1
+}

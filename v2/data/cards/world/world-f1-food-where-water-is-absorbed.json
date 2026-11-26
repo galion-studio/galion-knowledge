@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-where-water-is-absorbed",
+  "title": "Most water in the intestine is absorbed before the colon finishes the rest",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says about 90 percent of the water entering the small intestine is absorbed there, and the colon takes up much of what remains.",
+  "body": "OpenStax Anatomy and Physiology says about nine liters of fluid enter the small intestine each day. About 2.3 liters of that are ingested in foods and beverages, and the rest comes from gastrointestinal secretions. About 90 percent of this water is absorbed in the small intestine, following the concentration gradient from chyme into the lining cells. Much of the remaining water is then absorbed in the colon. The textbook also says almost all ingested food is absorbed in the small intestine, while plant fibers such as cellulose largely stay as residue. These figures are the 25 April 2013 textbook's account.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Anatomy and Physiology, 23.7 Chemical Digestion and Absorption",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/23-7-chemical-digestion-and-absorption-a-closer-look",
+      "author": "OpenStax",
+      "date": "2013-04-25",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase of the named section. OpenStax Anatomy and Physiology, publication date 25 April 2013. The page's reuse notice describes CC BY-NC-SA terms for redistribution. This card does not quote the textbook. Supports the water-absorption figures."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2013-04-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.dehydration",
+    "world-f1-food-water-in-the-body"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "digestion",
+    "water"
+  ],
+  "read_time_min": 1
+}

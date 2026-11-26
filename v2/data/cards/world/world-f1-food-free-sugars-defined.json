@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-free-sugars-defined",
+  "title": "WHO counts added sugars and the sugars in juice and honey as free sugars",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The healthy-diet sheet defines free sugars as sugars added to foods plus sugars naturally present in honey, syrups, and fruit juices.",
+  "body": "The World Health Organization's healthy-diet fact sheet, dated 26 January 2026, describes free sugars as monosaccharides and disaccharides, for example sucrose and fructose, added to foods and beverages by the manufacturer, the cook, or the consumer, together with sugars naturally present in honey, syrups, fruit juices, and fruit juice concentrates. The sheet says consumption of free sugars should be limited throughout life. This card is the definition. The sheet's numeric limit for adults is a different card already in the pack. Sugars locked inside intact fruit are not what this definition calls free sugars.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Healthy diet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "author": "World Health Organization",
+      "date": "2026-01-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase of the fact sheet. WHO text is not used under a CC BY licence, so this card does not quote it. Supports the free-sugars definition."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "World Health Organization",
+  "as_of_date": "2026-01-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.diet-limits",
+    "world-f1-food-juice-has-free-sugars"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "sugars",
+    "diet"
+  ],
+  "read_time_min": 1
+}

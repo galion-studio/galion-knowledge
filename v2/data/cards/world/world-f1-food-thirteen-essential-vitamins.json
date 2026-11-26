@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-thirteen-essential-vitamins",
+  "title": "Thirteen vitamins are essential, and vitamin B12 is the water-soluble one the liver can store",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says thirteen vitamins are required for the body to work, four stored with fat and nine that mostly leave in urine.",
+  "body": "The MedlinePlus vitamin encyclopedia, reviewed 21 January 2025, says there are 13 essential vitamins, meaning they are required for the body to work properly. Fat-soluble vitamins A, D, E, and K are stored in the liver, fatty tissue, and muscles, and they are absorbed more easily when dietary fat is present. The nine water-soluble vitamins are vitamin C and the B vitamins. Leftover amounts of those generally leave in the urine, so they need to be eaten regularly. The page's exception is vitamin B12, which can be stored in the liver for years. The best way the page gives to obtain them is a varied diet, not a high-dose pill.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Vitamins",
+      "url": "https://medlineplus.gov/ency/article/002399.htm",
+      "author": "National Library of Medicine",
+      "date": "2025-01-21",
+      "accessed": "2026-11-26",
+      "note": "Supports the count, the two groups, and the B12 exception. Public-domain MedlinePlus encyclopedia. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2025-01-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-dietary-fat-calories",
+    "world-f1-food-minerals-macro-trace"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "vitamins",
+    "nutrients"
+  ],
+  "read_time_min": 1
+}

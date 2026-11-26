@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-signs-ready-for-solids",
+  "title": "CDC lists body skills that show a baby may be ready for solid food",
+  "section": "world",
+  "category": "psychology",
+  "summary": "CDC says readiness for solids is a set of skills, and that every child is different.",
+  "body": "On the 14 April 2026 solids page, CDC says every child is different and names signs that a child is developmentally ready to begin food besides breast milk or formula. The signs are sitting up alone or with support, controlling head and neck, opening the mouth when food is offered, swallowing food rather than pushing it back out onto the chin, bringing objects to the mouth, trying to grasp small objects such as toys or food, and moving food from the front to the back of the tongue to swallow. These are readiness signs on a US page. They are not the CDC milestone checklists that use a 75 percent cutoff, and they are not a diagnosis.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "When, What, and How to Introduce Solid Foods",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/when-what-and-how-to-introduce-solid-foods.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-04-14",
+      "accessed": "2026-11-26",
+      "note": "Supports the readiness-sign list. Public-domain CDC page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-04-14",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-solids-around-six-months",
+    "world-f1-food-raking-food-nine-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "solids",
+    "readiness"
+  ],
+  "read_time_min": 1
+}

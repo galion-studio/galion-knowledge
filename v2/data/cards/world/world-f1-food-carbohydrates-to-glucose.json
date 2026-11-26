@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-carbohydrates-to-glucose",
+  "title": "Carbohydrates are broken into glucose, the sugar cells use for energy",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says the body breaks carbohydrates into glucose, which cells can use at once or store.",
+  "body": "MedlinePlus says carbohydrates, or carbs, are sugar molecules. Along with proteins and fats, they are one of three main nutrients in foods and drinks. The body breaks carbohydrates down into glucose. Glucose, also called blood sugar, is the main source of energy for the body's cells, tissues, and organs. Glucose can be used immediately or stored in the liver and muscles for later. The page, updated 25 March 2024, is a United States National Library of Medicine summary. It is not a target for a particular child's blood sugar, not a laboratory reference interval, and not the catalog formula or CAS registry entry for the molecule. A low reading on a meter is a different question.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Carbohydrates",
+      "url": "https://medlineplus.gov/carbohydrates.html",
+      "author": "National Library of Medicine",
+      "date": "2024-03-25",
+      "accessed": "2026-11-26",
+      "note": "Supports the glucose sentences. Public-domain MedlinePlus page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2024-03-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.diet-limits",
+    "world-f1-food-three-kinds-of-carbohydrate"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "carbohydrates",
+    "glucose"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-peristalsis",
+  "title": "Muscles in the gut squeeze food forward and mix it",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIDDK calls the pushing movement peristalsis: muscle behind the food tightens and muscle ahead of it relaxes.",
+  "body": "NIDDK says food moves through the gastrointestinal tract by peristalsis. The hollow organs have a muscle layer in the wall. That muscle pushes food and liquid along and also mixes what is inside each organ. The muscle behind the food contracts and squeezes it forward, while the muscle in front relaxes so the food can move. Swallowing starts the trip, and once swallowing begins the esophageal part becomes automatic. This is the institute's December 2017 account of movement, not a treatment for a blockage.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Your Digestive System & How it Works",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "author": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "date": "2017-12",
+      "accessed": "2026-11-26",
+      "note": "Supports the peristalsis description. Public-domain NIH page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDDK",
+  "as_of_date": "2017-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.body.pavlov-digestion",
+    "world-f1-food-swallow-windpipe"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "digestion",
+    "swallowing"
+  ],
+  "read_time_min": 1
+}

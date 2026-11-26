@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-toddler-fullness-cues",
+  "title": "A toddler shows fullness by pushing food away, shutting the mouth, or turning aside",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says a child from 6 to 23 months may be full when they push food away, close the mouth, turn the head, or signal with hands or sounds.",
+  "body": "For ages 6 to 23 months, the CDC page dated 11 March 2026 says a child may be full if they push food away, close the mouth when food is offered, turn the head away from food, or use hand motions or sounds to show they are full. The page tells caregivers to look for those signs. Pushing a spoon away is treated as a stop signal on this page. The list is American guidance for that age span. It does not diagnose a small appetite, and it does not replace a clinician if a caregiver is worried about growth. Families elsewhere may show or read refusal differently. Finishing a serving is not required by this page.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Signs Your Child Is Hungry or Full",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/mealtime/signs-your-child-is-hungry-or-full.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-03-11",
+      "accessed": "2026-11-26",
+      "note": "Supports the later fullness cues. Public-domain CDC page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-03-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-toddler-hunger-cues",
+    "world-f1-food-child-chooses-how-much"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "fullness",
+    "toddlers"
+  ],
+  "read_time_min": 1
+}

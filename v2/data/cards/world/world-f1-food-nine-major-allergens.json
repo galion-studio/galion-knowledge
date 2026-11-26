@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-nine-major-allergens",
+  "title": "US law lists nine major food allergens, and sesame joined the list in 2023",
+  "section": "world",
+  "category": "law",
+  "summary": "FDA says the major food allergens are milk, eggs, fish, crustacean shellfish, tree nuts, peanuts, wheat, soybeans, and sesame.",
+  "body": "The US Food and Drug Administration's food-allergies page says food allergies happen when the immune system reacts to certain proteins in food. Reactions range from mild symptoms such as hives and lip swelling to severe, life-threatening symptoms often called anaphylaxis. The page says nine foods are the major food allergens identified in US law: milk, eggs, fish, crustacean shellfish, tree nuts, peanuts, wheat, soybeans, and sesame. Sesame became the ninth under the FASTER Act, effective 1 January 2023. The page also says more than 160 foods have been identified as causes of allergy in sensitive people, and that food allergies currently cannot be cured. This is the United States legal list. Other countries' lists differ. The page does not give rescue steps.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Food Allergies",
+      "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
+      "author": "U.S. Food and Drug Administration",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Supports the nine-allergen list and the sesame effective date. The page did not show a single updated date, so the source date is the access date. Public-domain FDA page. Paraphrased. No treatment steps."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "FDA",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.anaphylaxis",
+    "world-f1-food-food-allergy-immune-reaction"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "allergy",
+    "labels"
+  ],
+  "read_time_min": 1
+}

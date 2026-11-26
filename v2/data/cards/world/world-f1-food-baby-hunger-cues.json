@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-baby-hunger-cues",
+  "title": "Before crying, a newborn roots, smacks the lips, and brings fists to the mouth",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says crying is often a late hunger sign in the first five months, after quieter mouth and hand cues.",
+  "body": "The CDC mealtime page dated 11 March 2026 says babies show hunger with sounds and movements long before words. From birth through five months, the earlier cues are hands brought up to the mouth, the head turning toward breast or bottle, lips that pucker, smack, or lick, and fists that clench. Crying comes later, so the page suggests offering a feed while the baby is still calm. Another discomfort can also produce tears, so crying alone is not proof of an empty stomach. These cues are the United States list for that age band. They are not a scored appetite test.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Signs Your Child Is Hungry or Full",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/mealtime/signs-your-child-is-hungry-or-full.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-03-11",
+      "accessed": "2026-11-26",
+      "note": "Supports the early hunger cues and the late-crying sentence. Public-domain CDC page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-03-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-baby-fullness-cues",
+    "world-f1-food-responsive-feeding"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "hunger",
+    "infants"
+  ],
+  "read_time_min": 1
+}

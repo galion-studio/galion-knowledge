@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-foods-that-can-choke",
+  "title": "Whole grapes, nuts, hot dogs, and hard raw apple are on the CDC choking list",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC reprints a USDA WIC list of choking foods and says the list may not include every risky food.",
+  "body": "The CDC choking page, dated 11 March 2026, says the USDA Special Supplemental Nutrition Program for Women, Infants, and Children made a list of foods to avoid because of choking, and that the list may not include every food that could cause choking. Examples on the page include uncut grapes, pieces of hard raw apple or carrot, whole or chopped nuts, chunks or spoonfuls of peanut butter, hot dogs and sausages, popcorn, and round or hard candy. The page also says cutting food smaller and mashing it can help. This is a United States list of examples, not a complete world catalogue, and it is not a set of rescue instructions.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Choking Hazards",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/choking-hazards.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-03-11",
+      "accessed": "2026-11-26",
+      "note": "Supports the example foods and the incomplete-list sentence. Public-domain CDC page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-03-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.choking-baby",
+    "world-f1-food-choking-while-eating"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "choking",
+    "grapes"
+  ],
+  "read_time_min": 1
+}

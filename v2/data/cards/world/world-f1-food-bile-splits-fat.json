@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-bile-splits-fat",
+  "title": "Bile from the liver breaks large fat droplets into tiny ones",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says the liver makes bile, the gallbladder stores it, and bile salts emulsify fats in the small intestine.",
+  "body": "OpenStax Anatomy and Physiology says chemical digestion in the small intestine depends on the liver, pancreas, and gallbladder. The liver's digestive role is to produce bile and send it toward the duodenum. The gallbladder stores, concentrates, and releases that bile. Bile salts and phospholipids pull large fat globules apart into many tiny fragments, which gives fat-digesting enzymes much more surface to work on. The textbook compares the effect to dish soap on fat in water. This is a paraphrase of the 25 April 2013 text.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Anatomy and Physiology, 23.6 Accessory Organs in Digestion",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+      "author": "OpenStax",
+      "date": "2013-04-25",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase of the named section. OpenStax Anatomy and Physiology, publication date 25 April 2013. The page's reuse notice describes CC BY-NC-SA terms for redistribution. This card does not quote the textbook. Supports the bile and emulsification sentences."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2013-04-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.body.pavlov-digestion",
+    "world-f1-food-dietary-fat-calories"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "digestion",
+    "fat"
+  ],
+  "read_time_min": 1
+}

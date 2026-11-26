@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-essential-amino-acids",
+  "title": "Essential amino acids must come from food, and the whole day matters more than one meal",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says essential amino acids cannot be made by the body and must be supplied by food.",
+  "body": "The MedlinePlus protein encyclopedia, reviewed 1 April 2025, sorts amino acids into essential, nonessential, and conditional groups. Essential amino acids cannot be made by the body. They must be supplied by food. They do not need to be eaten at every meal. The balance over the whole day is more important. Nonessential amino acids are made by the body from essential ones or from the ordinary breakdown of proteins. Conditional amino acids are needed in times of illness and stress. This is a classification from that page. It is not a supplement dose.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Protein in diet",
+      "url": "https://medlineplus.gov/ency/article/002467.htm",
+      "author": "National Library of Medicine",
+      "date": "2025-04-01",
+      "accessed": "2026-11-26",
+      "note": "Supports the essential-amino-acid sentences. Public-domain MedlinePlus encyclopedia. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2025-04-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-protein-builds-cells",
+    "world.core.health.diet-principles"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "protein",
+    "amino"
+  ],
+  "read_time_min": 1
+}
