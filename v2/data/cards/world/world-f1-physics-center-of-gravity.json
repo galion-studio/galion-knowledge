@@ -25,8 +25,8 @@
   "tags": [
     "core-pack",
     "area:foundations-physics",
-    "center",
-    "gravity"
+    "bridle",
+    "geometric"
   ],
   "read_time_min": 1
 }

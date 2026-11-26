@@ -1,27 +1,19 @@
 {
   "id": "world-f1-physics-weight-equals-mg",
-  "title": "Weight is the gravitational force, mass times g",
+  "title": "Weight equals mass times the local gravitational acceleration",
   "section": "world",
   "category": "physics",
-  "summary": "Weight is the gravitational force on an object, equal to its mass times the local gravitational acceleration.",
-  "body": "OpenStax Physics defines weight as the force of gravity on a mass. From the second law, if the only force is that pull, weight equals mass times g, and the direction is the direction of the pull, usually called down. NASA Glenn's guide states the same relation: weight is mass times the gravitational acceleration. On Earth the textbook uses 9.80 metres per second squared in an example, so a 1.0 kilogram object weighs 9.8 newtons there. A standards table's exact conventional value is a different card. Urone and Hinrichs, 26 March 2020. The Glenn page was last updated 20 November 2023.",
+  "summary": "NASA Glenn writes weight as mass times g, and uses 9.8 metres per second squared at Earth's surface in that guide.",
+  "body": "NASA Glenn combines the gravitational constant, Earth's mass, and the square of Earth's radius into a surface acceleration ge. The guide prints that surface value as 9.8 metres per second squared, or 32.2 feet per second squared. Weight is then the object's mass times that acceleration. The page says this is a working description for a rocket near Earth, not a claim that every hillside has exactly the same number. A conventional exact standard is a different card. Page last updated 20 November 2023.",
   "claim_type": "fact",
   "sources": [
-    {
-      "title": "4.3 Newton's Second Law of Motion",
-      "url": "https://openstax.org/books/physics/pages/4-3-newtons-second-law-of-motion",
-      "author": "Paul Peter Urone and Roger Hinrichs",
-      "date": "2020-03-26",
-      "accessed": "2026-11-26",
-      "note": "Paraphrase only, not a quotation. OpenStax Physics, Paul Peter Urone and Roger Hinrichs, published 26 March 2020. The assigned licence for /books/physics/ is CC BY 4.0; the page footer also prints a noncommercial clause, so this card does not copy the sentence. Supports W = mg and the 1.0 kg, 9.8 N Earth example."
-    },
     {
       "title": "Weight Equation",
       "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/weight-equation-2/",
       "author": "Nancy Hall, NASA Glenn Research Center",
       "date": "2023-11-20",
       "accessed": "2026-11-26",
-      "note": "Public-domain NASA Glenn page, last updated 20 November 2023. Paraphrase: weight is mass times gravitational acceleration, and the guide uses 9.8 m/s^2 at Earth's surface."
+      "note": "Public-domain NASA Glenn page, last updated 20 November 2023. Paraphrase of W = m g and of ge = 9.8 m/s^2 at Earth's surface in the guide."
     }
   ],
   "evidence_strength": "strong",
@@ -35,8 +27,8 @@
   "tags": [
     "core-pack",
     "area:foundations-physics",
-    "newtons",
-    "weight"
+    "kilogram",
+    "acceleration"
   ],
   "read_time_min": 1
 }

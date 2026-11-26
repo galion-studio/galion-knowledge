@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-ballistic-same-regardless-of-mass",
+  "title": "If drag is ignored, objects of different mass follow the same ballistic path",
+  "section": "world",
+  "category": "physics",
+  "summary": "NASA Glenn says the ballistic flight equation has no size, shape, or mass in it, so all such objects fly the same when drag is ignored.",
+  "body": "The same ballistic page says the flight equation includes no information about size, shape, or mass. All objects fly the same in purely ballistic flight. The guide compares that to Galileo's principle that all objects fall at the same rate in a vacuum. If drag can be ignored, the flight depends only on the starting velocity and the gravitational acceleration. A real ball in air is a different case, treated on the drag page. Page last updated 15 July 2024.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Ballistic Flight Equations",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/ballistic-flight-equations/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2024-07-15",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 15 July 2024. Paraphrase of the sentence that the equation omits size, shape, and mass, and the comparison with falling in a vacuum."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2024-07-15",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "ballistic",
+    "vacuum"
+  ],
+  "read_time_min": 1
+}

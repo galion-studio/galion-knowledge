@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-baseball-not-strictly-ballistic",
+  "title": "A baseball in flight is not strictly ballistic, because of drag",
+  "section": "world",
+  "category": "physics",
+  "summary": "A baseball or a soccer ball pushes enough air to leave the ideal no-drag path, and a light object can settle at a terminal speed.",
+  "body": "On the flight-with-drag page, updated 21 June 2024, NASA Glenn says a ball with no engine is only approximately the path of a cannon shot. A baseball or a soccer ball generates a moderate aerodynamic drag, so the path is not strictly that ideal. For a light object on the way down, weight and drag become equal and opposite. Net force and vertical acceleration are then both zero. The guide names that constant speed terminal velocity.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Flight Equations with Drag",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/flight-equations-with-drag/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2024-06-21",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 21 June 2024. Paraphrase of the baseball-not-ballistic sentence and the terminal-velocity balance of weight and drag."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2024-06-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "baseball",
+    "drag"
+  ],
+  "read_time_min": 1
+}
