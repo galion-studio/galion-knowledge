@@ -2,7 +2,7 @@
   "id": "world-f1-words-early-nouns-for-things",
   "title": "OpenStax says early words are often nouns for familiar objects or events",
   "section": "world",
-  "category": "psychology",
+  "category": "development",
   "summary": "OpenStax says the early vocabulary is limited to familiar objects or events, and is often nouns.",
   "body": "In the one-word stage, OpenStax Psychology 7.2 says the child's early vocabulary is limited to familiar objects or events, often nouns. The textbook does not print a count of nouns or a list of which nouns come first. It points to Fernandez and Cairns, 2011, for the stage description. This is a textbook summary, not the CDC 15-month milestone and not a laboratory count of nouns. The book is the CC BY 4.0 first edition.",
   "claim_type": "fact",
@@ -22,8 +22,7 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-words-first-spoken-word-window",
-    "world-f1-words-food-and-body-words"
+    "world-f1-words-first-spoken-word-window"
   ],
   "tags": [
     "core-pack",

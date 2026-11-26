@@ -2,7 +2,7 @@
   "id": "world-f1-words-syntax-builds-sentences",
   "title": "Syntax, in the OpenStax chapter, is how words are arranged in a sentence",
   "section": "world",
-  "category": "society",
+  "category": "language",
   "summary": "OpenStax says syntax is the organization of words into sentences, and it points to Chomsky's 1965 discussion.",
   "body": "The chapter's word for sentence arrangement is syntax. It points to Chomsky's 1965 discussion and to Fernandez and Cairns, 2011. Putting words so that a question differs from a statement is the kind of job the term names. The chapter does not print a parse of an English sentence, and it does not claim every language orders words the same way. What a sentence is about is treated as a neighboring topic, not as this definition. The text is the first-edition psychology web view.",
   "claim_type": "fact",

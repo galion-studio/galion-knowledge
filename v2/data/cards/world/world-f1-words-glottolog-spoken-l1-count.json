@@ -2,7 +2,7 @@
   "id": "world-f1-words-glottolog-spoken-l1-count",
   "title": "Glottolog 5.4 counted 7,685 spoken first languages on 10 November 2026",
   "section": "world",
-  "category": "geography",
+  "category": "language",
   "summary": "On 10 November 2026, Glottolog 5.4 listed 7,685 spoken L1 languages, and called the classification its best guess.",
   "body": "The Glottolog 5.4 information page says that currently, on 10 November 2026, there are 7,685 spoken L1 languages, meaning spoken languages traditionally used by a community as their first language. The editors say the classification is their best guess, and that for many groups there is little historical-comparative research, so classifications can change. Distinct, on that page, means not mutually intelligible with any other language. The page also says Glottolog is complete only for classifiable languages. A round number without the version and the date would hide those limits. Another catalogue can draw the language-versus-dialect line differently.",
   "claim_type": "fact",
@@ -13,7 +13,7 @@
       "author": "Glottolog editors",
       "date": "2026-11-10",
       "accessed": "2026-11-26",
-      "note": "Opened 2026-11-26. The page dates its counts 'Currently 2026-11-10'. Supports the 7,685 spoken L1 count dated 2026-11-10, the best-guess caveat, the mutual-intelligibility criterion, and the statement that Glottolog is complete only for classifiable languages."
+      "note": "Opened 2026-11-26. The page dates its counts 'Currently 2026-11-10'. Supports the 7,685 spoken L1 count dated 2026-11-10, the best-guess caveat, the mutual-intelligibility criterion, and the statement that Glottolog is complete only for classifiable languages. The Glottolog 5.4 release is CC BY 4.0: the v5.4 LICENSE file and the Zenodo record 10.5281/zenodo.24100665 both say Creative Commons Attribution 4.0 International. Opened 2026-11-26."
     }
   ],
   "evidence_strength": "strong",
