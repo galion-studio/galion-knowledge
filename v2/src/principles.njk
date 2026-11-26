@@ -22,7 +22,7 @@ permalink: principles/index.html
   </p>
   <h1>How this knowledge is built</h1>
   <p class="lede">We build this pack without agendas. A claim stays with its source, its date, and who said it. When people disagree, we show the sides. When we do not know, we say so.</p>
-  <p class="quiet">Revised 19 November 2026. A short record of what changed is at the end of this page.</p>
+  <p class="quiet">Revised 26 November 2026. A short record of what changed is at the end of this page.</p>
 
   <div class="prose">
     <h2>Without agendas</h2>
@@ -38,6 +38,8 @@ permalink: principles/index.html
     <p>A whole government counts as one source. Its ministries, agencies, officials, state media, and official statistics are one voice when we ask whether a claim has been independently confirmed. A government's own document is still a valid primary source for what that government said or decided. It cannot confirm itself. A contested claim needs sources from outside that one voice.</p>
     <p>The mainstream media also counts as one source. Many outlets repeating the same line, or reprinting the same wire or agency copy, are one source, not many.</p>
     <p>This is the standard we have decided to hold. What the truth gate already enforces, and what it does not yet group this way, is stated under Knowledge integrity.</p>
+    <h3>Source licences</h3>
+    <p>A card source is only a public-domain work, a work under CC BY, or a work under a licence more permissive than CC BY. A CC BY-NC page, a CC BY-NC-SA page, or an all-rights-reserved page is not a card source. This rule is decided. The truth gate does not yet read a source's licence, and this revision does not change the gate.</p>
 
     <h2>Source, date, and who said it</h2>
     <p>Every claim carries three things: the source, the date, and who said it. On a card that is the source title and URL, the source's own date, the date we accessed it, the date the claim is stated as of, and the author, body, or speaker named on that source. If the speaker or the date is unknown, the field stays empty. We do not invent a name to complete the record.</p>
@@ -129,11 +131,19 @@ permalink: principles/index.html
     <h3>Translations are labelled</h3>
     <p>We should read a source in the original language where we can. When we use a translation, it should be marked as a translation, and the translator should be named. Some cards already name the translation they used, such as a named scripture rendering. The schema has no translation field, and the gate does not check that a translation is labelled or that the translator is named. That rule is decided. It is not yet enforced.</p>
 
+    <h3>Foundations first</h3>
+    <p>From now on, new cards follow the order a child learns the world in: body and senses; objects and what they are made of; cause and effect and basic physics (gravity, support, containment, push and pull); people, faces and feelings; turn-taking and social cues; first words and naming; basic needs (food, sleep, safety); then the preschool layer (colours, shapes, counting, time and routine, space and direction, animals, plants, weather, home, family); then the early-school layer (reading, arithmetic, seasons, maps, materials, health and hygiene, community); then the broader adult domains.</p>
+    <p>The learner this models is an ultra-advanced child of the year 3000. The HORBM artificial brain follows the same foundations-first order a human child does, but learns far faster and deeper, so the cards go deep, are precise and sourced, and are not dumbed down. Order means foundations first, not childish content.</p>
+    <p>The child-learning order is guidance for which cards to write first, not a categorisation scheme: every card is categorised by its real subject (numbers to mathematics, gravity to physics, animals to biology, and so on), using the existing catalog categories, the way a subject expert would file it. Development is only for cards about how minds and bodies develop and learn. Language is for words, speech, and linguistics. Everyday is only for daily-life knowledge that has no better subject.</p>
+    <p>All other rules still apply: sources are opened, evidence stays inside its ceiling, Wikipedia is not a source, the wording stays plain and neutral, and one card is one claim.</p>
+    <p>This writing order is decided. The truth gate does not check it, and this revision does not change the gate.</p>
+
     <h2>Memory</h2>
     <p>Beside the cards there is a memory of the conversation, kept in a separate pool so that something a person said is never returned as a world card. Short-term memory is a ring of the last 32 turns in RAM, with an append-only transcript that survives the ring. A person can pin a fact. In the background, the stack may extract a candidate fact — a name, a preference, a plan — with an importance score. A joke, or a line that looks like a credential, stays in the transcript only. A session can be kept as a short summary of what the call meant, together with the transcript; that switch is off unless it is turned on. Contradictions become revisions: the new row is current, and the old text is archived with its original source, date, and speaker. Ranking uses relevance, recency, and importance, and a pin is boosted. Extraction, summaries, and revision writes run in the background, not on the lookup path. The summaries and the candidate extraction are local, deterministic rules. They are not a learned model, and this crate does not call one.</p>
 
     <h2>Fast enough for voice</h2>
     <p>Lookup has to be fast enough for a live voice conversation. The requirement is a p95 of at most 10 milliseconds at 200,000 cards, with heavy work kept off that path. On 18 November 2026 a release test measured this on 200,000 generated cards, not on the knowledge pack itself, including while a background writer was enqueueing memory jobs: 6.0 ms p95 for a selective query (6,043 µs) and 8.3 ms p95 for a broad one (8,282 µs). Both are under the 10 ms limit. The test asserts those p95 figures are at most 10,000 µs.</p>
+    <p>A new, simpler card may take over the spoken answer for an everyday word only when its pull request lists every query it takes over. Gravity is one such word: the spoken answer today is the card <code>world.core.earth.escape-velocity</code>. Ties are not allowed. This rule is decided. The lookup code was not changed in this revision, and the truth gate does not yet check that the pull request listed those queries.</p>
 
     <h2>Open licence, and where the pack lives</h2>
     <p>The cards live in this public repository, under <a href="https://github.com/galion-studio/galion-knowledge">github.com/galion-studio/galion-knowledge</a>. A device can keep the core pack and the shards it has chosen. The work is released under the MIT License. Copyright (c) 2024–2026 Galion Labs.</p>
@@ -151,6 +161,11 @@ permalink: principles/index.html
         <span>2026-11-19</span>
         <span> — this page</span>
         <span class="source-note">Added eight further rules: follow the money; show the dissent at its strongest; a visible track record for sources; raw data over conclusions; dating how sure we are and rechecking old claims; naming what is unknown; no hidden edits, including who made a change; and labelling translations with the translator named. For each, the page states what is already done and what is decided but not yet built. The earlier text of this page remains in git. The truth gate and the card schema were not changed in this revision.</span>
+      </li>
+      <li>
+        <span>2026-11-26</span>
+        <span> — this page</span>
+        <span class="source-note">Added the foundations-first rule. New cards are written in the order a child learns the world. That order is guidance for which cards to write first, not a categorisation scheme. A card is still filed by its real subject in the existing catalog: numbers to mathematics, gravity to physics, animals to biology, and so on. Development, language, and everyday were added to the world catalog in the same revision, and this page states how narrow each one is. Added the lookup rule: a simpler card may take over the spoken answer for an everyday word only when its pull request lists every query it takes over, and ties are not allowed. Gravity is the example, answered today by world.core.earth.escape-velocity. Added the source-licence rule: a card source is public domain, CC BY, or a more permissive licence. CC BY-NC, CC BY-NC-SA, and all-rights-reserved pages are not card sources. The earlier text of this page remains in git. The truth gate and the card schema were not changed in this revision.</span>
       </li>
     </ul>
   </section>
