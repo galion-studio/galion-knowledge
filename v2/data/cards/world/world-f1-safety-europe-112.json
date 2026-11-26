@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-safety-europe-112",
+  "title": "112 is the European Union emergency number, free from phones across the EU",
+  "section": "world",
+  "category": "politics",
+  "summary": "The European Commission says 112 is the EU emergency number, free everywhere in the EU, for ambulance, fire, or police.",
+  "body": "The European Commission's digital-policy page says 112 is the European emergency phone number, available everywhere in the European Union, free of charge, from fixed and mobile phones. A caller can reach an ambulance, the fire brigade, or the police. A trained operator answers and either handles the call or passes it to the right service. The page says 112 works alongside national numbers in many countries. Denmark, Estonia, Finland, Malta, the Netherlands, Portugal, Romania, and Sweden use 112 as their only national emergency number. It is also used in some places outside the EU, including Switzerland and South Africa, and on GSM mobile networks more widely. 112 is not the United States number. Ready.gov prints 9-1-1 for a US home fire. Operators respond to real emergencies, not to general questions.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "112: the EU's emergency phone number",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112",
+      "author": "European Commission",
+      "date": "2026-11-23",
+      "accessed": "2026-11-26",
+      "note": "European Commission page. Paraphrase. Page last update 23 November 2026. Supports the 112 description. 112 is the EU number, not a worldwide number."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "European Commission",
+  "as_of_date": "2026-11-23",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-fire-escape-plan",
+    "first-aid.uk-numbers",
+    "world-f1-safety-locked-poisons"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "emergency",
+    "europe"
+  ],
+  "read_time_min": 1
+}

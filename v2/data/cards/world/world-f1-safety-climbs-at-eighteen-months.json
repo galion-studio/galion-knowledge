@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-climbs-at-eighteen-months",
+  "title": "Most children climb on and off a couch or chair by about 18 months",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says most children, 75 percent or more, climb on and off a couch or chair without help by 18 months.",
+  "body": "CDC's milestone page for 18 months lists, under movement, climbs on and off a couch or chair without help. The page says developmental milestones are things most children, 75 percent or more, can do by a given age. It also says the Learn the Signs materials are not a substitute for a standardized, validated developmental screening tool. A child who is not climbing yet is not given a diagnosis by this list. The page says to talk with a doctor if a milestone is missing, a skill is lost, or something else worries the family. Climbing is why furniture that can tip matters. The anchor advice is the CPSC card, not a medical label.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 18 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Reviewed 16 May 2026. Milestone means most children (75 percent or more), not every child, and the page says the materials are not a screening tool."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-furniture-tipover",
+    "world-f1-safety-reaches-from-a-stool"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "milestones",
+    "climbing"
+  ],
+  "read_time_min": 1
+}

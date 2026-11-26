@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-safety-silent-drowning",
+  "title": "A young child can drown silently in about 25 seconds, UNICEF says",
+  "section": "world",
+  "category": "medicine",
+  "summary": "UNICEF says young children can drown silently in as little as 25 seconds, so an adult needs to be close and undistracted.",
+  "body": "UNICEF's drowning tips say young children can drown silently in as little as 25 seconds, so supervision in and around water needs to be close, constant, and attentive. The page says not to rely on other adults or children nearby, not to be distracted by a phone or a conversation, and to be at arm's reach when a child is in the water. If the child is lost from sight, call for help immediately. The babyproofing page says never to leave a young child in the bath, even for a moment. The 25-second line is why the watching has to be that close. It is not a rescue method. The first-aid cards cover what to do after someone is out of the water.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Drowning prevention tips",
+      "url": "https://www.unicef.org/parenting/safety/drowning-prevention-tips",
+      "author": "UNICEF",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "UNICEF Parenting page, not CC BY. Paraphrase only, no quotation. No update date was printed. Supports the water sentence named in the card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "UNICEF",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-shallow-drowning",
+    "world-f1-safety-drowning-young-skills",
+    "first-aid.drowning-who-deaths"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "drowning",
+    "silence"
+  ],
+  "read_time_min": 1
+}

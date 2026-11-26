@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-safety-water-barriers",
+  "title": "Covering wells and fencing pools cuts drowning risk by keeping children from the water",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO says covering wells, using doorway barriers and playpens, and fencing pools greatly reduces drowning risk by limiting access to water.",
+  "body": "The drowning sheet says many actions prevent drowning. Covering wells, using doorway barriers and playpens, fencing swimming pools, and otherwise controlling access to water greatly reduces exposure and risk. The page also describes supervised childcare for preschool children, and swim teaching for school-age children that has to be run with a tested curriculum, a safe place, screening, and safe instructor ratios. Those programs are named so the barrier line is not read as the only step. The claim is the access control. UNICEF's pages add shallow water and silence. The global death totals stay on the existing drowning card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Drowning",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/drowning",
+      "author": "World Health Organization",
+      "date": "2026-05-01",
+      "accessed": "2026-11-26",
+      "note": "WHO fact sheet, not CC BY. Paraphrase only. Page timestamp 1 May 2026. Supports the prevention sentence, not the death-count lines already on first-aid.drowning-who-deaths."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "WHO",
+  "as_of_date": "2026-05-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-drowning-young-skills",
+    "world-f1-safety-pool-missing-child",
+    "first-aid.drowning-breaths-first"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "drowning",
+    "fencing"
+  ],
+  "read_time_min": 1
+}

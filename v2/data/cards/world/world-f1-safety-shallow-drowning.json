@@ -1,0 +1,44 @@
+{
+  "id": "world-f1-safety-shallow-drowning",
+  "title": "UNICEF says a child can drown in water only five centimetres deep",
+  "section": "world",
+  "category": "medicine",
+  "summary": "UNICEF's drowning tips say a toddler or child can drown in 5 centimetres of water, so a shallow container still counts as a hazard.",
+  "body": "UNICEF's drowning-prevention page says a toddler or child can drown in 5 centimetres of water, and that every exposed water source, however shallow, is a serious danger. The babyproofing page says the same depth in a shorter line, and it says a drowning can happen silently within seconds. The tips page tells families to empty buckets, containers, and portable pools after use, to keep toilet lids and bathroom doors closed, and to fence a pool, pond, or well. Five centimetres is the figure those pages state. It is UNICEF's wording, paraphrased, not a physics measurement done for this card. Pulling someone out is not described here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Drowning prevention tips",
+      "url": "https://www.unicef.org/parenting/safety/drowning-prevention-tips",
+      "author": "UNICEF",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "UNICEF Parenting page, not CC BY. Paraphrase only, no quotation. No update date was printed. Supports the water sentence named in the card."
+    },
+    {
+      "title": "How to babyproof your home",
+      "url": "https://www.unicef.org/parenting/safety/how-to-babyproof-your-home",
+      "author": "UNICEF",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "UNICEF Parenting page, not CC BY. Paraphrase only, no quotation. No update date was printed. Supports the home-hazard sentence named in the card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "UNICEF",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-silent-drowning",
+    "world-f1-safety-water-barriers",
+    "first-aid.drowning-breaths-first"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "drowning",
+    "shallow"
+  ],
+  "read_time_min": 1
+}

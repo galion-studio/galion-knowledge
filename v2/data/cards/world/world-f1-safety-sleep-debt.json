@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-sleep-debt",
+  "title": "Lost sleep adds up, and NHLBI says a nap does not repay the whole debt",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NHLBI calls the total sleep lost a sleep debt, and gives two lost hours a night as fourteen hours after a week.",
+  "body": "The sleep-deprivation page says that if a person regularly loses sleep, or chooses to sleep less than needed, the loss adds up. It calls that total a sleep debt. Its example is that losing 2 hours each night leaves a debt of 14 hours after a week. Naps, it says, may give a short-term boost in alertness and performance, but napping does not supply all the other benefits of nighttime sleep, so a person cannot really make up for lost sleep that way. The arithmetic is the page's illustration. It is not a score for a child.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sleep Deprivation and Deficiency: How Much Sleep Is Enough",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/how-much-sleep",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the adult row and the sleep-debt example. Page last updated 24 March 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHLBI",
+  "as_of_date": "2022-03-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-adult-hour-ranges",
+    "world-f1-safety-sleep-deficiency"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "debt"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-firm-flat-crib",
+  "title": "A baby's sleep surface should be firm and flat, not tilted",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says to use a firm, flat sleep surface that is not at an angle, such as a mattress in a safety-approved crib with a fitted sheet.",
+  "body": "The safe-sleep page's next action is the surface. It says to use a firm, flat sleep surface, and it says flat means not at an angle or inclined. The example is a mattress in a safety-approved crib, covered by a fitted sheet. The page is stating a US recommendation CDC ties to the 2022 pediatrics guidance. It does not review a particular product by name, and a firm mattress is a different question from what belongs in the crib, which is the next card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Providing Care for Babies to Sleep Safely",
+      "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2024-09-17",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. CDC says it supports the 2022 AAP recommendations. Page updated 17 September 2024."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2024-09-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-back-to-sleep",
+    "world-f1-safety-clear-crib"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "crib"
+  ],
+  "read_time_min": 1
+}

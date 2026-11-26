@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-nonrem-stages",
+  "title": "Non-REM sleep has three stages, and the deepest one comes mostly early",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NHLBI says non-REM sleep has three stages, and that stage 3, deep or slow-wave sleep, usually takes more of the early night.",
+  "body": "NHLBI defines the three non-REM stages from brain-activity measurements in sleep studies. Stage 1 is the transition between wakefulness and sleep. Stage 2 is when the person is asleep. Stage 3 is called deep sleep or slow-wave sleep, after a pattern in those measurements, and a person usually spends more time in it early in the night. An OpenStax psychology chapter divides non-REM differently. That difference is its own card. This card is only the three-stage account NHLBI prints.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How Sleep Works: Sleep Phases and Stages",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the stage or REM sentence named in the card. Page last updated 24 March 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHLBI",
+  "as_of_date": "2022-03-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-rem-dreams",
+    "world-f1-safety-stage-counts-differ"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "slow-wave"
+  ],
+  "read_time_min": 1
+}

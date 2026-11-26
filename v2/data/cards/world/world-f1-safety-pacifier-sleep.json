@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-pacifier-sleep",
+  "title": "CDC's safe-sleep page includes offering a pacifier at naps and bedtime",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says one added recommendation is to offer a pacifier at nap time and bedtime, and that a breastfeeding family may wait until feeding is established.",
+  "body": "After the sleep-area steps, CDC's page lists further recommendations it attributes to the American Academy of Pediatrics. One is to offer the baby a pacifier at nap time and bedtime. If the baby is breastfeeding, the page says a family may want to wait until breastfeeding is well established. The pacifier line is a risk-reduction suggestion on that US page. It is not a requirement that a baby who spits the pacifier out be put back on it, and the page does not say a pacifier replaces a clear crib.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Providing Care for Babies to Sleep Safely",
+      "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2024-09-17",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. CDC says it supports the 2022 AAP recommendations. Page updated 17 September 2024."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2024-09-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-back-to-sleep",
+    "world-f1-safety-smoke-near-baby"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "pacifier"
+  ],
+  "read_time_min": 1
+}

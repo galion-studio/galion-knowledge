@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-safety-scald-drinks",
+  "title": "Hot drinks and cooking liquids are a main burn hazard for children at home",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO says many burns happen at home, children are particularly at risk of scalds, and home hazards include hot drinks, cooking liquids, and hot tap water.",
+  "body": "WHO's burns fact sheet says a burn is an injury to skin or other tissue from heat, electricity, chemicals, friction, or radiation. Thermal burns include hot liquids, which it calls scalds, hot objects, and flames. Many burns happen in homes and workplaces, and children are particularly at risk of scalds. In homes, the hazards it names include hot drinks and cooking liquids, unguarded stoves, open fires, unsafe heating, and excessively hot tap water. The sheet's death figures use a narrower category, fire, heat, and hot substances, and the page says that category is not a complete count of every chemical or electrical burn. Cooling a burn is first aid and is not repeated here. The first-aid burn card covers care after an injury.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Burns",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/burns",
+      "author": "World Health Organization",
+      "date": "2026-10-21",
+      "accessed": "2026-11-26",
+      "note": "WHO fact sheet, not CC BY. Paraphrase only. Page timestamp 21 October 2026. Supports the home-scald sentence. Cooling steps are not copied."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "WHO",
+  "as_of_date": "2026-10-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-child-skin-burns",
+    "first-aid.burns-sja",
+    "world-f1-safety-heater-distance"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "burns",
+    "scalds"
+  ],
+  "read_time_min": 1
+}

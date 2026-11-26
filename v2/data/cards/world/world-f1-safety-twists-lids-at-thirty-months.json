@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-twists-lids-at-thirty-months",
+  "title": "Most children can turn doorknobs or unscrew lids by about 30 months",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says most children, 75 percent or more, use their hands to twist things, such as doorknobs or lids, by 30 months.",
+  "body": "CDC's 30-month movement list includes using the hands to twist things, like turning doorknobs or unscrewing lids. That is something most children, 75 percent or more, do by that age on this checklist. The page says the materials are not a screening test and are not a substitute for one. Being able to open a knob or a lid is why a latch that only looks closed can fail, which is the point of the poison-storage cards. This list does not say that a child who cannot yet twist a lid has a disorder. Families with a worry are told to talk with the child's doctor.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 30 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Reviewed 16 May 2026. Milestone means most children (75 percent or more), not every child, and the page says the materials are not a screening tool."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-locked-poisons",
+    "world-f1-safety-medicine-looks-like-food"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "milestones",
+    "doorknobs"
+  ],
+  "read_time_min": 1
+}

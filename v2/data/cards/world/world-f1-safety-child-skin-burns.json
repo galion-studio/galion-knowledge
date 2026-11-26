@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-safety-child-skin-burns",
+  "title": "A child's thinner skin burns faster, and at a lower temperature, than an adult's",
+  "section": "world",
+  "category": "medicine",
+  "summary": "UNICEF says a child's thinner skin burns more quickly and at lower temperatures than an adult's, so hot drinks and bath water are major dangers.",
+  "body": "UNICEF's babyproofing page says hot drinks, stoves, and bath water are among the biggest dangers for small children, because a child's thinner skin burns more quickly and at lower temperatures than an adult's. It says to keep hot drinks and food away from the edges of tables, to use the back burners, and to turn pot handles inward. For the bath, it says to test the water with an open hand or a thermometer before the child gets in, and it calls 37 to 38 degrees Celsius, also printed as 98.6 to 100.4 degrees Fahrenheit, body temperature, ideal. That bath figure is UNICEF's, not the US heater setting of 120 degrees Fahrenheit. Burn treatment steps are not copied. The first-aid burn card is the place for care after an injury.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How to babyproof your home",
+      "url": "https://www.unicef.org/parenting/safety/how-to-babyproof-your-home",
+      "author": "UNICEF",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "UNICEF Parenting page, not CC BY. Paraphrase only, no quotation. No update date was printed. Supports the home-hazard sentence named in the card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "UNICEF",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-scald-drinks",
+    "world-f1-safety-bath-water-heat",
+    "first-aid.burns-sja"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "burns",
+    "skin"
+  ],
+  "read_time_min": 1
+}

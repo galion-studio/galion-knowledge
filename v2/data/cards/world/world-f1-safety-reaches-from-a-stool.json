@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-reaches-from-a-stool",
+  "title": "Most children will stand on a stool to reach something by about 30 months",
+  "section": "world",
+  "category": "psychology",
+  "summary": "CDC says most children, 75 percent or more, show simple problem-solving such as standing on a small stool to reach something, by 30 months.",
+  "body": "Under thinking skills at 30 months, CDC lists simple problem-solving, and the example is standing on a small stool to reach something. The item is one of the things most children, 75 percent or more, do by that age. It is not a test score, and the page says these materials are not a substitute for a validated screening tool. Reaching from a stool is why a high shelf is not the same as a locked cupboard. The storage advice is on the poison cards. A child who does not do this yet is not labeled by the checklist.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 30 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Reviewed 16 May 2026. Milestone means most children (75 percent or more), not every child, and the page says the materials are not a screening tool."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-locked-poisons",
+    "world-f1-safety-furniture-tipover"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "milestones",
+    "stool"
+  ],
+  "read_time_min": 1
+}

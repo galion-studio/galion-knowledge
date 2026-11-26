@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-safety-child-fall-heights",
+  "title": "For children, WHO points to windows, stairs, and balconies, not the older-adult fall total",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO says children's falls go with climbing and exploring, and it names unprotected windows, stairs, and balconies as hazards.",
+  "body": "WHO's falls sheet says a fall is coming to rest by accident on the ground or a lower level. For children and adolescents, it ties falls to climbing, playing, and exploration. Hazards it names are unprotected windows, stairs and balconies, unsafe playgrounds, and inadequate supervision. The prevention lines for that age include protecting windows, stairs, and balconies, safer playground surfaces and fall heights, and enforcing product and building standards. Most of the sheet's 2023 death total is among adults 60 and older, about 71 percent, so that global number is not a child figure. This card is the child hazard list. Care after a head injury or a broken bone is on the first-aid cards.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Falls",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/falls",
+      "author": "World Health Organization",
+      "date": "2026-10-21",
+      "accessed": "2026-11-26",
+      "note": "WHO fact sheet, not CC BY. Paraphrase only. Page timestamp 21 October 2026. Supports the child-hazard sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "WHO",
+  "as_of_date": "2026-10-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-window-falls",
+    "world-f1-safety-stair-gates",
+    "first-aid.head-injury"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "falls",
+    "balconies"
+  ],
+  "read_time_min": 1
+}

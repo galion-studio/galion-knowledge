@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-baby-overheating",
+  "title": "A hot chest or sweating can mean a sleeping baby is too warm",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says not to cover a baby's head or let the baby get too hot, and it names sweating or a hot chest as signs.",
+  "body": "The safe-sleep page says not to cover the baby's head and not to allow the baby to get too hot. Signs it names that the baby may be getting too hot are sweating, or a chest that feels hot. The page does not give a room thermometer setting. Overheating is one of the risk points CDC lists with the 2022 pediatrics recommendations. It is not a diagnosis from one warm night, and it is separate from the REM temperature note on the NHLBI stages page.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Providing Care for Babies to Sleep Safely",
+      "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2024-09-17",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. CDC says it supports the 2022 AAP recommendations. Page updated 17 September 2024."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2024-09-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-clear-crib",
+    "world-f1-safety-rem-and-cold"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "overheating"
+  ],
+  "read_time_min": 1
+}

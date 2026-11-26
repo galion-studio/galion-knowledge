@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-slow-wave-age",
+  "title": "Slow-wave sleep peaks in early childhood and drops in the teenage years",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NHLBI says slow-wave sleep peaks in early childhood, drops sharply in the teenage years, and may be absent in older people.",
+  "body": "The stages page follows the newborn REM note with a second age pattern. The amount of slow-wave sleep peaks in early childhood and then drops sharply in the teenage years. It continues to decrease through adulthood, and older people may not have any slow-wave sleep at all. NHLBI is describing a typical shift across ages. It is not a test result for one child, and a missing stretch of deep sleep on one night is not what this sentence measures.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How Sleep Works: Sleep Phases and Stages",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the stage or REM sentence named in the card. Page last updated 24 March 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHLBI",
+  "as_of_date": "2022-03-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-nonrem-stages",
+    "world-f1-safety-newborn-rem"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "childhood"
+  ],
+  "read_time_min": 1
+}

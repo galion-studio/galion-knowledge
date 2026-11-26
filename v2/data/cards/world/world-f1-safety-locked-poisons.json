@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-safety-locked-poisons",
+  "title": "In the United States, CPSC prints the poison line as 800-222-1222",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CPSC says to lock medicines and cleaning products away, because child-resistant caps are often not childproof, and it prints the US poison line 800-222-1222.",
+  "body": "CPSC says latches and locks on cabinets and drawers help keep children from medicines, laundry detergent, household cleaners, matches, and cigarette lighters, and from knives. Even products with child-resistant packaging should be locked and kept out of reach, because that packaging is often not childproof. If a caregiver suspects a child swallowed a poisonous substance, the page says to contact the poison control hotline at 800-222-1222. That number is the United States line as this page prints it. It is not the world's number. Europe's emergency number, on a European Commission page, is 112. What to do after a poisoning, including the UK instruction not to cause vomiting, is on the first-aid poisoning card, not here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Childproofing Your Home",
+      "url": "https://www.cpsc.gov/safety-education/safety-guides/kids-and-babies/Childproofing-Your-Home",
+      "author": "U.S. Consumer Product Safety Commission",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. No update date was printed. Supports the device or hazard sentence named in the card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CPSC",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-medicine-looks-like-food",
+    "first-aid.poisoning",
+    "world-f1-safety-europe-112"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "poison",
+    "hotline"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-safety-heater-distance",
+  "title": "The US Fire Administration says to keep children three feet from heaters and stoves",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The US Fire Administration's caregiver checklist says to keep children at least three feet from space heaters, stovetops, and anything that gets hot.",
+  "body": "On the same checklist, a short line says to keep children 3 feet from heat sources. It says space heaters and stovetops can burn, and to keep children at least 3 feet away from anything that gets hot. The cooking lines add that someone should stay in the kitchen while frying, grilling, boiling, or broiling, and that pot handles should be turned toward the back of the stove. The three-foot distance is the claim. It is a US checklist figure, not a medical burn classification. Care after a burn is on the first-aid burn card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fire Safety Checklist for Caregivers of Babies and Toddlers",
+      "url": "https://www.usfa.fema.gov/downloads/fief/up_in_smoke_caregivers_checklist.pdf",
+      "author": "U.S. Fire Administration",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "US federal checklist, public domain. No date was printed on the PDF. Supports the child fire-risk or distance sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Fire Administration",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-toddler-fire-risk",
+    "first-aid.burns-sja",
+    "world-f1-safety-scald-drinks"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "burns",
+    "heaters"
+  ],
+  "read_time_min": 1
+}

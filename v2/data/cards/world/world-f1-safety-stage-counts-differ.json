@@ -1,0 +1,43 @@
+{
+  "id": "world-f1-safety-stage-counts-differ",
+  "title": "NHLBI counts three non-REM stages, and OpenStax Psychology counts four",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NHLBI describes three non-REM stages plus REM. OpenStax Psychology describes four non-REM stages and then REM as a fifth stage.",
+  "body": "Read side by side, the two opened texts do not use the same stage count. NHLBI's stages page says non-REM sleep has three stages, then describes REM separately. OpenStax Psychology, in the stages section of the first-edition path, says sleep divides into REM and non-REM, and that the first four stages are non-REM while the fifth is REM. Both texts tie ordinary dreaming to the REM phase. The card records the difference in how the pages divide the night. It does not decide which count a sleep lab should use. The OpenStax page was paraphrased, not quoted. Evidence stays at moderate because that host's ceiling is moderate.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "How Sleep Works: Sleep Phases and Stages",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the stage or REM sentence named in the card. Page last updated 24 March 2022."
+    },
+    {
+      "title": "Psychology: 4.3 Stages of Sleep",
+      "url": "https://openstax.org/books/psychology/pages/4-3-stages-of-sleep",
+      "author": "OpenStax",
+      "date": "2022-02-09",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology, path /books/psychology/. The live footer names an Attribution license and also CC BY-NC-SA terms, so this card paraphrases and does not quote. Supports the four-stage non-REM description. Footer date 9 February 2022."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "NHLBI and OpenStax",
+  "as_of_date": "2022-03-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-nonrem-stages",
+    "world-f1-safety-rem-dreams"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "stages"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-blind-cords",
+  "title": "Window-blind cords can strangle a child, so CPSC prefers cordless coverings",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CPSC says children can wrap blind cords around the neck, and it says to use cordless window coverings where young children live.",
+  "body": "CPSC says cordless window coverings help prevent strangulation in homes with young children. A child can wrap a cord around the neck, or pull a cord that is hard to see and become caught in a loop. If corded coverings cannot be replaced, the page says to call the Window Covering Safety Council at 800-506-4636 for a free repair kit in the United States. That line is a product-repair number, not an emergency number. The page also says tension devices do not fix a dangling pull cord, and that dangling cords should be made as short as possible. Cribs should not sit against those cords. This is prevention. It is not a rescue procedure.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Childproofing Your Home",
+      "url": "https://www.cpsc.gov/safety-education/safety-guides/kids-and-babies/Childproofing-Your-Home",
+      "author": "U.S. Consumer Product Safety Commission",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. No update date was printed. Supports the device or hazard sentence named in the card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CPSC",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-clear-crib",
+    "world-f1-safety-mouthing-choking"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "strangulation",
+    "cords"
+  ],
+  "read_time_min": 1
+}

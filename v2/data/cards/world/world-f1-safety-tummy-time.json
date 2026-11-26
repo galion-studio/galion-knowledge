@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-tummy-time",
+  "title": "Tummy time is for when the baby is awake and someone is watching",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NICHD says a baby should have tummy time while awake and watched, to strengthen the neck and shoulders and to help prevent flat spots.",
+  "body": "The FAQ says yes, a baby should have tummy time when awake and when someone is watching. Supervised tummy time, it says, helps strengthen the neck and shoulder muscles, build motor skills, and prevent flat spots on the back of the head. The same campaign still says sleep itself is on the back. Tummy time is the awake practice, not a sleep position. The page does not give a minute quota in the answer that was opened, and it does not treat flat spots as a reason to stop back sleeping.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Safe to Sleep: Frequently Asked Questions",
+      "url": "https://safetosleep.nichd.nih.gov/reduce-risk/FAQ",
+      "author": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "US federal campaign page, public domain. No review date was printed on the page. Supports the FAQ answer named in the card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NICHD",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-back-to-sleep",
+    "world-f1-safety-swaddle-and-rolling"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "tummy"
+  ],
+  "read_time_min": 1
+}

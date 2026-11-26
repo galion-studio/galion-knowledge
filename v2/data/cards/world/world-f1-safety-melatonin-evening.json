@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-melatonin-evening",
+  "title": "The brain's master clock raises melatonin in the evening, and that brings sleepiness",
+  "section": "world",
+  "category": "biology",
+  "summary": "NIGMS says the suprachiasmatic nucleus times melatonin from the light the eyes receive, and that more melatonin in the evening causes sleepiness.",
+  "body": "NIGMS calls the system that keeps an organism's inner time a biological clock, and the coordinator of those clocks a master clock. In people, that master clock is a large group of nerve cells called the suprachiasmatic nucleus. Among its jobs, it controls melatonin production based on how much light the eyes receive. In the evening it tells the brain to make more melatonin, which causes sleepiness. It also lines up the rhythms of different organs. The sheet is describing a typical day-night link. It is not a melatonin dose, and it does not say a supplement is required.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Circadian Rhythms",
+      "url": "https://www.nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms.aspx",
+      "author": "National Institute of General Medical Sciences",
+      "date": "2025-05-20",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the clock sentence named in the card. Page last updated 20 May 2025. Content reviewed September 2023."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIGMS",
+  "as_of_date": "2025-05-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-circadian-rhythm",
+    "world-f1-safety-night-device-light"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "melatonin",
+    "clock"
+  ],
+  "read_time_min": 1
+}

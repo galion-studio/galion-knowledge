@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-child-restraint-deaths",
+  "title": "WHO says child restraints are linked to a large drop in infant deaths in crashes",
+  "section": "world",
+  "category": "medicine",
+  "summary": "WHO's road-injury fact sheet says the use of child restraints can lead to a 71 percent reduction in deaths among infants.",
+  "body": "WHO's road-traffic fact sheet, a source outside the US government, says the use of child restraints can lead to a 71 percent reduction in deaths among infants. On the same page, a seat-belt can reduce the risk of death among vehicle occupants by up to half, and correct helmet use cuts motorcyclist deaths by a larger factor. The infant figure is the child-restraint sentence. It is a global fact sheet's statement about restraints, not NHTSA's age rules, and it is not a promise for one journey. The sheet was paraphrased. NHTSA's page is the one that says which direction a US seat should face.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Road traffic injuries",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries",
+      "author": "World Health Organization",
+      "date": "2026-07-20",
+      "accessed": "2026-11-26",
+      "note": "WHO fact sheet, not CC BY. Paraphrase only. Page timestamp 20 July 2026. Supports the child-restraint sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "WHO",
+  "as_of_date": "2026-07-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-crash-deaths-children",
+    "world-f1-safety-rear-facing-seat"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "car",
+    "restraints"
+  ],
+  "read_time_min": 1
+}
