@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-food-stomach-protein-acid",
+  "title": "Protein digestion begins in the stomach with acid and pepsin",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says stomach acid activates pepsin, which starts breaking proteins apart.",
+  "body": "OpenStax Anatomy and Physiology, first edition, says the breakdown of protein begins in the stomach through hydrochloric acid and the enzyme pepsin. The acid makes the stomach contents very acidic, about pH 1.5 to 3.5, and is needed to activate pepsin from an inactive form. The same acidity kills much of the bacteria swallowed with food and helps denature proteins so enzymes can reach them. A coating of mucus protects the stomach lining from that acid. This is the textbook's account of the start of protein digestion, published 25 April 2013, not advice about antacid medicine. Credit: OpenStax, CC BY 4.0.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Anatomy and Physiology, 23.4 The Stomach",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/23-4-the-stomach",
+      "author": "OpenStax",
+      "date": "2013-04-25",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase. OpenStax Anatomy and Physiology, first edition, published 25 April 2013. The OpenStax CMS book record for slug anatomy-and-physiology, checked 2026-11-26, names Creative Commons Attribution License version 4.0 (https://creativecommons.org/licenses/by/4.0/). The URL is /books/anatomy-and-physiology/, not Anatomy and Physiology 2e. Supports the acid and pepsin sentences."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2013-04-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.body.pavlov-digestion",
+    "world-f1-food-protein-builds-cells",
+    "world-f1-food-stomach-holding-meal"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "digestion",
+    "protein"
+  ],
+  "read_time_min": 1
+}

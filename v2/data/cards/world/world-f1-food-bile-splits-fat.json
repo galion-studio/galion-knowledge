@@ -4,7 +4,7 @@
   "section": "world",
   "category": "medicine",
   "summary": "On the NIDDK digestion page, bile from the liver helps with fats and some vitamins, and the gallbladder holds it between meals.",
-  "body": "Bile is the liver's juice on the NIDDK page last reviewed in December 2017. The page gives it one digestive job: help with fats and some vitamins. Ducts can park it in the gallbladder, which keeps it between meals, or send it onward for use. At a meal the gallbladder squeezes the stored juice out. The page stops at that help. It does not explain how fat droplets come apart. The text is a public-domain NIH description.",
+  "body": "Bile is the liver's secretion on the NIDDK page last reviewed in December 2017. The page gives it one digestive job: help with fats and some vitamins. Ducts can park it in the gallbladder, which keeps it between meals, or send it onward for use. At a meal the gallbladder squeezes the stored bile out. The page stops at that help. It does not explain how fat droplets come apart. The text is a public-domain NIH description.",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,7 +22,7 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-food-pancreas-digestive-juice",
+    "world-f1-food-pancreas-enzymes",
     "world-f1-food-dietary-fat-calories"
   ],
   "tags": [

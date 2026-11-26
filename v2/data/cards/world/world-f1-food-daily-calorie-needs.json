@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-daily-calorie-needs",
+  "title": "Daily food energy depends on body size, age, height, sex, and activity",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says an average person needs about 1500 to 2000 calories a day, and that the real number varies.",
+  "body": "OpenStax Anatomy and Physiology, first edition, says that, on average, a person needs 1500 to 2000 calories per day to carry out daily activities. The total one person needs depends on body mass, age, height, gender, and activity level. The textbook also says drinks must be counted, because calories are in almost everything ingested, not only in solid food. In general, it says weight follows the balance of calories eaten and calories burned. The 1500 to 2000 figure is an average in the 25 April 2013 text. It is not a target printed for infants, and it is not a promise about weight change. Credit: OpenStax, CC BY 4.0.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Anatomy and Physiology, 24.7 Nutrition and Diet",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/24-7-nutrition-and-diet",
+      "author": "OpenStax",
+      "date": "2013-04-25",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase. OpenStax Anatomy and Physiology, first edition, published 25 April 2013. The OpenStax CMS book record for slug anatomy-and-physiology, checked 2026-11-26, names Creative Commons Attribution License version 4.0 (https://creativecommons.org/licenses/by/4.0/). The URL is /books/anatomy-and-physiology/, not Anatomy and Physiology 2e. Supports the 1500 to 2000 sentence and the factors that change it."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2013-04-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-nutritional-calorie",
+    "world.core.health.diet-principles"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "calories",
+    "energy"
+  ],
+  "read_time_min": 1
+}

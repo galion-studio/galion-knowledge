@@ -1,10 +1,10 @@
 {
-  "id": "world-f1-food-pancreas-digestive-juice",
-  "title": "The pancreas sends enzyme-rich juice into the small intestine",
+  "id": "world-f1-food-pancreas-enzymes",
+  "title": "The pancreas sends an enzyme-rich secretion into the small intestine",
   "section": "world",
   "category": "medicine",
-  "summary": "NIDDK says the pancreas makes a juice whose enzymes break down carbohydrates, fats, and proteins, and sends it through ducts.",
-  "body": "Enzymes are the working part of pancreatic juice, as NIDDK describes them: they take apart carbohydrates, fats, and proteins. The gland delivers that juice through ducts into the intestine. On the December 2017 page this juice is one of three that meet there, beside bile and the intestine's own juice, to finish those three nutrients. No daily volume and no acidity figure are printed. The description is not a disease guide.",
+  "summary": "NIDDK says the pancreas makes a secretion whose enzymes break down carbohydrates, fats, and proteins, and sends it through ducts.",
+  "body": "Enzymes are the working part of the pancreatic secretion, as NIDDK describes them: they take apart carbohydrates, fats, and proteins. The gland delivers that secretion through ducts into the intestine. On the December 2017 page this secretion is one of three that meet there, beside bile and the intestine's own secretion, to finish those three nutrients. No daily volume and no acidity figure are printed. The description is not a disease guide.",
   "claim_type": "fact",
   "sources": [
     {

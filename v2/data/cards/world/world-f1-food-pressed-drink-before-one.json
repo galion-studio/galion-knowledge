@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-food-pressed-drink-before-one",
+  "title": "CDC says no pressed drink from produce before 12 months, and at most 4 ounces later",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says children younger than 12 months should not drink the liquid pressed from produce, and cites a 4-ounce cap after that.",
+  "body": "The CDC page dated 14 April 2026 says children younger than 12 months should not drink the liquid pressed from produce. It says that drink after 12 months is unnecessary. It reports the American Academy of Pediatrics recommendation of no more than 4 ounces a day of a drink that is entirely that pressed liquid, for children ages 1 through 3 years. Drinks that only taste like the food, and mixes with added sugars, are ones the page says children should not have. The page suggests the whole food instead of the drink. This is United States guidance as CDC prints it, including the Academy line it repeats. It is not a cup rule for the whole world.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Foods and Drinks to Avoid or Limit",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/foods-and-drinks-to-avoid-or-limit.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-04-14",
+      "accessed": "2026-11-26",
+      "note": "Supports the under-12-months ban and the 4-ounce sentence. Public-domain CDC page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-04-14",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-added-sugars-early-childhood"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "produce",
+    "infants"
+  ],
+  "read_time_min": 1
+}
