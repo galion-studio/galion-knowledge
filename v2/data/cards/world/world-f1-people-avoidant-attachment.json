@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-avoidant-attachment",
+  "title": "Avoidant attachment, as a textbook describes the reunion pattern",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says avoidant attachment is an unresponsive pattern: the child does not use the parent as a base and does not seem to care if the parent leaves.",
+  "body": "In OpenStax Psychology's account of the Strange Situation, avoidant attachment means the child is unresponsive to the parent, does not use the parent as a secure base, and does not care if the parent leaves. The toddler reacts to the parent in the same way as to a stranger, and is slow to show a positive reaction when the parent returns. Ainsworth's theory, as the page states it, was that these children were most likely to have a caregiver who was insensitive and inattentive. That is a research interpretation of a lab pattern. It is not a judgment this card makes about any household.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "9.3 Stages of Development",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the avoidant-attachment paragraph. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-secure-attachment",
+    "world-f1-people-resistant-attachment"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "avoidant",
+    "unresponsive"
+  ],
+  "read_time_min": 1
+}

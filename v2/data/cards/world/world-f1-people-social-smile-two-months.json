@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-social-smile-two-months",
+  "title": "A smile that answers someone, around 2 months",
+  "section": "world",
+  "category": "psychology",
+  "summary": "CDC says most babies answer talk, or a smile, with a smile of their own by about 2 months.",
+  "body": "Someone speaks, or offers a smile, and the baby smiles back. That exchange is the 2-month social item on the CDC sheet. The sheet counts an item when at least three quarters of children do it, and it says the leaflet is not a validated screen. A baby without this reply yet is not called ill here. The ages are the United States list.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports the social/emotional milestone 'Smiles when you talk to or smile at her', the 75 percent definition, and the screening-tool sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-smile-for-attention-four-months",
+    "world-f1-people-seven-facial-expressions"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "smile",
+    "months"
+  ],
+  "read_time_min": 1
+}

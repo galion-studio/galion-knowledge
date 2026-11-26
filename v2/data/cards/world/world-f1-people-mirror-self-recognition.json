@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-mirror-self-recognition",
+  "title": "A paint spot on the nose, and knowing the reflection is you",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says that around 18 months a toddler knows the mirror image is themselves, because children in a cited study touched a paint spot on their own nose.",
+  "body": "OpenStax Psychology says infants do not have a self-concept, an understanding of who they are. A baby in front of a mirror reaches toward the image as if it were another baby. By about 18 months, the page says, a toddler recognizes that the person in the mirror is themselves. The evidence it describes is a study that put a red dot of paint on children's noses: at 18 months they touched their own noses when they saw the spot. By 24 to 36 months, the page says, children can name or point to themselves in pictures. The study named is Amsterdam, 1972, which was not opened here. Liking a mirror at 6 months, on a CDC checklist, is a different claim and does not say the baby knows the reflection is theirs.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "9.3 Stages of Development",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the mirror-test paragraph in the self-concept section, including the 18-month and 24-to-36-month statements. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-mirror-interest-six-months",
+    "world-f1-people-look-at-me-thirty-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "nose",
+    "recognition"
+  ],
+  "read_time_min": 1
+}

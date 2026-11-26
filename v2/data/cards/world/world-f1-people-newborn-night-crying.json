@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-newborn-night-crying",
+  "title": "Leaving a newborn to cry at night is not how UNICEF says they learn a routine",
+  "section": "world",
+  "category": "psychology",
+  "summary": "UNICEF says babies from newborn to about four months cannot learn a routine by being left to cry, and that ignoring night crying at that stage makes them feel they do not matter.",
+  "body": "UNICEF Parenting says a newborn who cries at night needs to be looked after. It says letting the baby cry and ignoring them at this stage makes them feel that nothing they do makes a difference and that they do not matter. The page says young babies from the newborn period to four months are not capable of learning a routine at that age. Responding to cues for feeding and comfort, it says, helps babies feel secure and reduces the crying. This is UNICEF's guidance for that age span. It is not a sleep plan for an older child, and it is not a judgment of a caregiver who is asking for help.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Why do babies cry?",
+      "url": "https://www.unicef.org/parenting/child-care/why-babies-cry",
+      "author": "UNICEF",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "Supports the night-crying paragraph for newborns through four months. Paraphrase only. This UNICEF page is not CC BY, so no quotation is copied."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "UNICEF",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-crying-communicates",
+    "world-f1-people-holding-does-not-spoil",
+    "world-f1-people-stress-response-soothing"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "night",
+    "routine"
+  ],
+  "read_time_min": 1
+}

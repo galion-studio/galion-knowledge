@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-looks-at-face-two-months",
+  "title": "Gaze toward a caregiver at 2 months",
+  "section": "world",
+  "category": "psychology",
+  "summary": "By about 2 months, most babies look at a person's face, CDC says.",
+  "body": "Watching the person who is there is its own early social marker, beside calming and beside an answering grin. The marker is interest in that person. It does not mean the infant knows a reflection is their own body. CDC's cutoff for the series is 75 percent or more, and missing the marker is not a diagnosis. Other countries print other timetables.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports the social/emotional milestone 'Looks at your face', plus the 75 percent definition and the screening-tool sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-newborns-prefer-faces",
+    "world-f1-people-social-smile-two-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "face",
+    "looking"
+  ],
+  "read_time_min": 1
+}

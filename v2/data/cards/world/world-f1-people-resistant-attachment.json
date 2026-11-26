@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-resistant-attachment",
+  "title": "Resistant attachment and care that comes and goes",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says resistant attachment is clingy and then rejecting, with extreme distress at separation and difficulty being comforted, linked on the page to inconsistent care.",
+  "body": "OpenStax Psychology says that in resistant attachment, children tend to be clingy and then reject the caregiver's attempts to interact. They do not explore the toys because they are too fearful. During separation they become extremely disturbed and angry, and when the parent returns they are difficult to comfort. The page says this pattern is the result of an inconsistent level of response from caregivers. The description is Ainsworth's category as the textbook reports it. Inconsistent care in that sentence is the book's explanation, not a finding about a named family.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "9.3 Stages of Development",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the resistant-attachment paragraph. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-avoidant-attachment",
+    "world-f1-people-disorganized-attachment",
+    "world-f1-people-secure-attachment"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "resistant",
+    "inconsistent"
+  ],
+  "read_time_min": 1
+}

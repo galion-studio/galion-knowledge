@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-soft-voice-calms-baby",
+  "title": "A soft voice, holding, rocking, or singing can help a baby settle",
+  "section": "world",
+  "category": "psychology",
+  "summary": "CDC says that staying calm and talking softly, holding, rocking, or singing helps a baby calm down and lessens stress and fears.",
+  "body": "The CDC 2-month page tells caregivers to practice staying calm when the baby is upset, by talking softly, holding, rocking, or singing. The page says this will help the baby calm down and lessen stress and fears. The same family of actions appears again on later CDC age pages, but this card is the 2-month wording. It describes what the page says a calm adult can do. It does not say the crying will stop on a schedule.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports the tip to talk softly, hold, rock, or sing so the baby can calm down."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-calms-when-held-two-months",
+    "world-f1-people-calm-adult-calm-baby",
+    "world-f1-people-stress-response-soothing"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "rocking",
+    "singing"
+  ],
+  "read_time_min": 1
+}

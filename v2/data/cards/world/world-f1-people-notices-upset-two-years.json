@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-notices-upset-two-years",
+  "title": "A pause or a sad look when another person weeps",
+  "section": "world",
+  "category": "psychology",
+  "summary": "By about 2 years, most children register that someone else is hurt or upset, CDC says, for instance by stopping or looking sad.",
+  "body": "Stopping for a moment, or wearing a sorrowful look, while another person weeps is the picture CDC gives for this second-year line. The skill is registering another person's distress. The line does not ask the child to repair it. The publisher's majority for the series is at least three in four, the sheet is not a diagnosis, and the birthday is the American one.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports 'Notices when others are hurt or upset, like pausing or looking sad when someone is crying'."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-comforts-others-four-years",
+    "world-f1-people-others-have-feelings"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "notices",
+    "upset"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-comforts-others-four-years",
+  "title": "Helping a crying friend by about 4 years",
+  "section": "world",
+  "category": "psychology",
+  "summary": "CDC says that by about 4 years, most children try to help a person who is hurt or sad, and its example is a hug.",
+  "body": "The 4-year line is an action toward a friend, and the printed example is a hug. An earlier CDC age only records that the child notices distress. This later line is the attempt to make someone feel better. One hug is the illustration, not a required script. The series includes a child when three quarters or more show the behavior, and the leaflet is not a clinical instrument. A child who does not hug is not called unkind here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 4 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports 'Comforts others who are hurt or sad, like hugging a crying friend'."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-notices-upset-two-years",
+    "world-f1-people-shows-affection-fifteen-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "comforts",
+    "friend"
+  ],
+  "read_time_min": 1
+}

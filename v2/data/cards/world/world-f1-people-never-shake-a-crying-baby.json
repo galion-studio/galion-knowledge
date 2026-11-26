@@ -1,0 +1,44 @@
+{
+  "id": "world-f1-people-never-shake-a-crying-baby",
+  "title": "Never shake a crying baby, and step away if you are overwhelmed",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Both the US CDC and UNICEF say never to shake a baby, and both say that if crying overwhelms you, put the baby in a safe place and step away briefly.",
+  "body": "The CDC 2-month page says never to shake a baby, because shaking can damage the brain or cause death. If the caregiver is getting upset while the baby is crying, CDC says to put the baby in a safe place, walk away, and check every 5 to 10 minutes. It adds that infant crying is often worse in the first few months and then gets better. UNICEF Parenting says that no matter how upset a caregiver feels, never shake, hit, or shout at the baby, and that if you are upset, put the baby in a safe place and take a short break of 5 to 10 minutes before trying again. Neither page prints an emergency telephone number in those sentences. This is what those two pages say. It is not a treatment protocol, and it is not advice written for one household.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports the do-not-shake tip, the safe-place step, the 5-to-10-minute check, and the sentence that crying is often worse in the first months."
+    },
+    {
+      "title": "Why do babies cry?",
+      "url": "https://www.unicef.org/parenting/child-care/why-babies-cry",
+      "author": "UNICEF",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "Supports the sentences never to shake, hit, or shout, and to take a 5-to-10-minute break with the baby in a safe place. Paraphrase only. This UNICEF page is not CC BY, so no quotation is copied."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "CDC and UNICEF",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-crying-communicates",
+    "world-f1-people-colic-pattern",
+    "world-f1-people-crying-hours-early-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "shake",
+    "break"
+  ],
+  "read_time_min": 1
+}

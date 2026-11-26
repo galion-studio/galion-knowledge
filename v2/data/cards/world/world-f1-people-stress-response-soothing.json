@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-stress-response-soothing",
+  "title": "A caregiver's comfort is how UNICEF says a baby's stress response settles",
+  "section": "world",
+  "category": "psychology",
+  "summary": "UNICEF says a baby's stress response turns on when they are frightened or their needs are unmet, and that a caregiver's job is to help that response calm.",
+  "body": "On a UNICEF Parenting class page about a baby's mental health, a stress response is described as turning on when babies become frightened or worry that someone has forgotten them or that their needs are not being met. The page says a parent's job is to help calm that response. When it calms, the page says, the baby learns that the world is a safe and reliable place. It also says that when children are under stress and do not have a loving adult to help them feel better, that can lay the groundwork for emotional difficulties later. The page is parenting teaching. It does not name a disorder, and it does not say a hard day predicts a later illness.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How to build your baby's mental health",
+      "url": "https://www.unicef.org/parenting/health/building-your-babys-mental-health",
+      "author": "UNICEF",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "Supports the answer on how stress affects emotional development. Paraphrase only. This UNICEF page is not CC BY, so no quotation is copied."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "UNICEF",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-newborn-night-crying",
+    "world-f1-people-soft-voice-calms-baby",
+    "world-f1-people-hug-and-stress-chemicals"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "stress",
+    "reliable"
+  ],
+  "read_time_min": 1
+}

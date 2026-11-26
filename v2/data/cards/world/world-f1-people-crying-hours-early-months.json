@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-crying-hours-early-months",
+  "title": "Long stretches of crying are common in the first months",
+  "section": "world",
+  "category": "medicine",
+  "summary": "UNICEF says that by one month it is common for babies to cry for two or more hours a day, and that the amount of crying goes down as babies reach two to four months.",
+  "body": "UNICEF Parenting says that by the time babies are one month old, it is common for them to cry for two or more hours each day. The page calls that ordinary, and says that as babies reach two to four months the amount of crying goes down. Two hours is the page's example of a common amount, not a cutoff that separates well babies from ill babies. The page has no date of review printed on it. This is parenting guidance, not a screening score.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Why do babies cry?",
+      "url": "https://www.unicef.org/parenting/child-care/why-babies-cry",
+      "author": "UNICEF",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "Supports the one-month crying-duration sentence and the statement that crying decreases as babies reach two to four months. Paraphrase only. This UNICEF page is not CC BY, so no quotation is copied."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "UNICEF",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-crying-communicates",
+    "world-f1-people-colic-pattern"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "hours",
+    "month"
+  ],
+  "read_time_min": 1
+}

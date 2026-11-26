@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-smile-for-attention-four-months",
+  "title": "A smile the baby starts, to be noticed",
+  "section": "world",
+  "category": "psychology",
+  "summary": "By about 4 months, most babies smile on their own to get attention, CDC says.",
+  "body": "Here the baby opens the exchange. That is a different line from the 2-month reply to someone else's smile. CDC files the self-started smile with the 4-month social items, next to a chuckle that is not yet a full laugh. The agency's bar is most children, not every child, and the sheet is not a screening test. Ages outside this US page are not copied here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 4 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/4-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports 'Smiles on his own to get your attention'. The chuckle is a separate card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-social-smile-two-months",
+    "world-f1-people-chuckle-four-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "attention",
+    "smile"
+  ],
+  "read_time_min": 1
+}

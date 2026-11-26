@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-stranger-wariness-nine-months",
+  "title": "Shyness, clinging, or fear with unfamiliar people",
+  "section": "world",
+  "category": "psychology",
+  "summary": "By about 9 months, most babies are shy, clingy, or fearful around strangers, CDC says.",
+  "body": "Any of those three reactions meets the way CDC writes the line. A baby can cling, or go quiet, or look afraid, and still fit the item as the page states it. The reaction is to someone unfamiliar. The sheet's cutoff is most children, set at 75 percent or more, and it is not a tool that diagnoses anxiety. Caregivers with a worry are told to talk with a doctor.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports 'Is shy, clingy, or fearful around strangers'."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-knows-familiar-six-months",
+    "world-f1-people-reacts-to-leaving-nine-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "strangers",
+    "wariness"
+  ],
+  "read_time_min": 1
+}

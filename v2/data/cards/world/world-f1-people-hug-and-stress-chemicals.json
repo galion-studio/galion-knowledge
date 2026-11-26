@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-hug-and-stress-chemicals",
+  "title": "UNICEF's account of a hug, oxytocin, and cortisol",
+  "section": "world",
+  "category": "medicine",
+  "summary": "UNICEF says that as a child gets older, a hug can help them regulate emotion, because a hug releases oxytocin and calms the release of cortisol.",
+  "body": "UNICEF Parenting says cuddling and skin-to-skin contact comfort a baby, who is described as being comforted by the caregiver's heartbeat and as getting to know the caregiver's smell. For a somewhat older child, the page says hugging can help them learn to regulate emotions and manage stress. The reason it gives is that a hug leads the brain to release oxytocin and calms the release of cortisol. That chemical sentence is UNICEF's explanation for families. A laboratory paper measuring those chemicals was not opened for this card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What you need to know about parent-child attachment",
+      "url": "https://www.unicef.org/parenting/child-care/what-you-need-know-about-parent-child-attachment",
+      "author": "UNICEF",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "Supports the hold-them-close paragraph on heartbeat, smell, oxytocin, and cortisol. Paraphrase only. This UNICEF page is not CC BY, so no quotation is copied."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "UNICEF",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-stress-response-soothing",
+    "world-f1-people-emotion-heart-rate",
+    "world-f1-people-holding-does-not-spoil"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "oxytocin",
+    "cortisol"
+  ],
+  "read_time_min": 1
+}

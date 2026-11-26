@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-crying-communicates",
+  "title": "Crying is how a baby communicates a need",
+  "section": "world",
+  "category": "psychology",
+  "summary": "UNICEF says crying is how babies communicate their needs, and that the task is to find the cause rather than only to stop the tears.",
+  "body": "UNICEF Parenting says crying is how babies communicate their needs, and that paying attention to the cry helps a caregiver understand the baby and bond. The page suggests looking for a cause, such as how long it has been since the baby ate or slept, or whether the baby is wearing too much or too little. Reasons it lists include overstimulation, boredom, exhaustion, hunger, a diaper change, gas, wanting to be held, feeling sick or in pain, and feeling too hot or too cold. The list is UNICEF's examples, not a complete medical catalogue. A caregiver who is worried is told on that page to contact a health care provider.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Why do babies cry?",
+      "url": "https://www.unicef.org/parenting/child-care/why-babies-cry",
+      "author": "UNICEF",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "Supports the sentences that crying communicates needs and the listed reasons. Paraphrase only. This UNICEF page is not CC BY, so no quotation is copied."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "UNICEF",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-crying-hours-early-months",
+    "world-f1-people-calms-when-held-two-months",
+    "world-f1-people-never-shake-a-crying-baby"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "crying",
+    "needs"
+  ],
+  "read_time_min": 1
+}

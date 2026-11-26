@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-checks-you-are-close-eighteen-months",
+  "title": "Wandering off, then glancing back to check",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Most children move away and look to be sure you are still close by about 18 months, CDC says.",
+  "body": "The child leaves the caregiver's side and then checks that the person is near. CDC treats that glance-back as a social milestone of this age. A laboratory separation procedure, with its named attachment patterns, is a different kind of description and is not what this line measures. Most means 75 percent or more on this series, and the sheet is not a diagnosis.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 18 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports 'Moves away from you, but looks to make sure you are close by'."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-secure-base",
+    "world-f1-people-reacts-to-leaving-nine-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "exploring",
+    "close"
+  ],
+  "read_time_min": 1
+}

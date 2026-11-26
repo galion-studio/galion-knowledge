@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-others-have-feelings",
+  "title": "Between about 3 and 5, children grasp that others have their own thoughts and feelings",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says that between 3 and 5 years old, children come to understand that other people have thoughts, feelings, and beliefs different from their own.",
+  "body": "OpenStax Psychology says Piaget described 2- and 3-year-olds as egocentric, without an awareness of other people's points of view. Between 3 and 5 years, the page says, children come to understand that people have thoughts, feelings, and beliefs different from their own. It calls that understanding theory of mind, and says children can then recognize that others have false beliefs. This is a textbook summary of that change. It is not the CDC milestone that most children notice someone else's upset by about 2 years, and it is not a test score.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "9.3 Stages of Development",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the theory-of-mind paragraph in the early-childhood cognitive section. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-notices-upset-two-years",
+    "world-f1-people-comforts-others-four-years"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "beliefs",
+    "egocentric"
+  ],
+  "read_time_min": 1
+}

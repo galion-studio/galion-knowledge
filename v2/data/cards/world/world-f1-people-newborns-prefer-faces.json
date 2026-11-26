@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-newborns-prefer-faces",
+  "title": "Newborns already prefer faces, in a textbook summary",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says vision is a newborn's least developed sense, and that newborns already show a preference for faces.",
+  "body": "OpenStax Psychology says a newborn's senses are significant but not fully developed, and that vision is the least developed sense. Even so, the page says newborns already show a preference for faces, and that many inborn preferences support interaction with caregivers. This card is that textbook sentence. A separate laboratory paper, opened on its own, tests when an upright face-like pattern actually draws longer looking. The textbook line does not state the age in hours or the contrast conditions of that paper.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "9.3 Stages of Development",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the sentence that newborns already show a preference for faces, in the infancy sensory paragraph. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-face-contrast-polarity",
+    "world-f1-people-looks-at-face-two-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "newborns",
+    "preference"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,44 @@
+{
+  "id": "world-f1-people-holding-does-not-spoil",
+  "title": "Holding and answering a baby does not spoil them",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Both the US CDC and UNICEF say you will not spoil a baby by holding them and responding, and both tie that response to the baby feeling secure.",
+  "body": "The CDC 2-month page says to spend time cuddling and holding the baby so the baby feels safe and cared for, and it says you will not spoil a baby by holding or responding. UNICEF Parenting says there is no such thing as spoiling a baby by holding them too much or giving too much attention, and that responding to cues for feeding and comfort makes babies feel secure. Read together, the two pages agree that prompt holding and response are not spoiling. They are guidance pages from two organizations, not one shared experiment. UNICEF also says babies who are routinely left alone can become more clingy and insecure when the parent returns. That further sentence is UNICEF's, not CDC's.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports the tips that cuddling helps the baby feel safe and cared for and that holding or responding will not spoil the baby."
+    },
+    {
+      "title": "What you need to know about parent-child attachment",
+      "url": "https://www.unicef.org/parenting/child-care/what-you-need-know-about-parent-child-attachment",
+      "author": "UNICEF",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "Supports the sentences that holding and attention do not spoil a baby and that responding to feeding and comfort cues supports security. Paraphrase only. This UNICEF page is not CC BY, so no quotation is copied."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "CDC and UNICEF",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-bowlby-responsive-bond",
+    "world-f1-people-harlow-cloth-comfort",
+    "world-f1-people-newborn-night-crying"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "spoil",
+    "cuddling"
+  ],
+  "read_time_min": 1
+}

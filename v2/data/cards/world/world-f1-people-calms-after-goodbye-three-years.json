@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-calms-after-goodbye-three-years",
+  "title": "Settling within 10 minutes after a drop-off",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Most children calm within 10 minutes after you leave, such as at childcare, by about 3 years, CDC says.",
+  "body": "Ten minutes is the figure printed on the CDC 3-year line, and the example is a childcare drop-off. The line is about recovery after a parting, not about whether the child cried at the door. A longer upset is not named as an illness. Most, for this publisher, is 75 percent or more, and the sheet does not replace screening.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 3 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports 'Calms down within 10 minutes after you leave her, like at a childcare drop off'."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-cheerful-goodbye",
+    "world-f1-people-reacts-to-leaving-nine-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "goodbye",
+    "childcare"
+  ],
+  "read_time_min": 1
+}

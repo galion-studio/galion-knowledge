@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-limbic-and-amygdala",
+  "title": "Limbic structures take part in emotion, the amygdala especially in fear",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says the limbic system, including the hypothalamus, thalamus, amygdala, and hippocampus, is involved in emotion and memory, and that the amygdala is studied especially for fear and anxiety.",
+  "body": "OpenStax Psychology describes the limbic system as a brain area involved in emotion and memory. It includes the hypothalamus, which plays a role in turning on the sympathetic nervous system during an emotional reaction; the thalamus, a sensory relay toward the amygdala and cortex; the amygdala, which processes emotional information and sends it on; and the hippocampus, which ties emotional experience to cognition. The page says the amygdala has received a great deal of research attention for fear and anxiety. This is a textbook map of those structures. It is not a scan result for any one person.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "10.4 Emotion",
+      "url": "https://openstax.org/books/psychology/pages/10-4-emotion",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the limbic-system paragraph and the amygdala sentences on fear and anxiety. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-emotion-heart-rate",
+    "world.brain-regions-ninds"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "amygdala",
+    "limbic"
+  ],
+  "read_time_min": 1
+}

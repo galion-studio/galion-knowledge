@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-face-check-new-situation-two-years",
+  "title": "Reading a caregiver's face before reacting to something new",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Most children look at your face to decide how to react in a new situation by about 2 years, CDC says.",
+  "body": "The child borrows a cue from the adult's expression when the setting is unfamiliar. CDC places that look on the 2-year social list, next to noticing that someone else is hurt or upset. The two lines are not the same skill. Most children, at 75 percent or more, is the series rule, and the page is not a clinical test. Only this country's chart is cited.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports 'Looks at your face to see how to react in a new situation'."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-notices-upset-two-years",
+    "world-f1-people-several-expressions-nine-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "situation",
+    "cue"
+  ],
+  "read_time_min": 1
+}

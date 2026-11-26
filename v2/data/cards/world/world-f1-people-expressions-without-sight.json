@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-expressions-without-sight",
+  "title": "Facial patterns in people who have never seen a face",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says people who are blind from birth still produce the same facial expressions of emotion, which the page reads as evidence that the muscle pattern is not only copied by watching.",
+  "body": "OpenStax Psychology says congenitally blind people produce the same facial expression of emotions even though they have never seen those displays. The page treats that as a reason to think the pattern of facial-muscle activity is widely shared, and it mentions Darwin's 1872 book as an early statement of the idea. The blind-expression studies and the Darwin book were not opened for this card. This is the textbook's summary, and the same section still describes cultural rules for when a display is shown.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "10.4 Emotion",
+      "url": "https://openstax.org/books/psychology/pages/10-4-emotion",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the paragraph on congenitally blind individuals and Darwin's 1872 book as named on the page. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-seven-facial-expressions",
+    "world-f1-people-cultural-display-rules"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "blind",
+    "muscles"
+  ],
+  "read_time_min": 1
+}

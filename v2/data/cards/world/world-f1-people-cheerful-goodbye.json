@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-cheerful-goodbye",
+  "title": "A short cheerful goodbye, even if the baby cries",
+  "section": "world",
+  "category": "psychology",
+  "summary": "CDC says to give a 9-month-old a quick cheerful goodbye instead of sneaking away, even if the baby cries, so the baby learns you are leaving and will return.",
+  "body": "The CDC 9-month page says to say a quick and cheerful goodbye instead of sneaking away, so the baby knows the caregiver is leaving, even if the baby cries. The page says the baby will learn to calm and will learn what to expect, and it gives an example of saying you are back when you return. Sneaking out is the practice the page asks caregivers not to use. Crying at the goodbye is allowed for in the tip. The tip is not the 9-month milestone about reacting to a leaving, and it is not a 3-year time limit.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports the tip to say a quick cheerful goodbye instead of sneaking away, even if the baby cries."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-reacts-to-leaving-nine-months",
+    "world-f1-people-calms-after-goodbye-three-years"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "sneaking",
+    "return"
+  ],
+  "read_time_min": 1
+}

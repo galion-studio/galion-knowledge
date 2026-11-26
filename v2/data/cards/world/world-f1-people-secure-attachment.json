@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-secure-attachment",
+  "title": "Secure attachment in the Strange Situation, as a textbook describes it",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says securely attached toddlers use the caregiver as a base, are distressed when the caregiver leaves, and are happy when the caregiver returns.",
+  "body": "OpenStax Psychology describes Mary Ainsworth's Strange Situation with a caregiver and an infant about 12 to 18 months old. After time with toys, a stranger enters, the caregiver leaves, and then the caregiver returns. In the secure pattern, the most common one and the one the page calls the healthiest, the toddler prefers the parent over a stranger, uses the parent as a base for exploration, seeks the parent when stressed, is distressed by the leaving, and is happy at the return. The page says securely attached children have caregivers who are sensitive and responsive. This is a description of a laboratory pattern, not a rating of a child at home.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "9.3 Stages of Development",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the Strange Situation procedure and the secure-attachment paragraph. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-secure-base",
+    "world-f1-people-avoidant-attachment",
+    "world-f1-people-attachment-is-a-bond"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "strange",
+    "reunion"
+  ],
+  "read_time_min": 1
+}

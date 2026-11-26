@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-face-lit-from-above",
+  "title": "Newborns looked longer at a face lit from above",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Farroni and colleagues report that newborns looked longer at a photograph of a face lit from above than at the same face lit from below.",
+  "body": "In the same 2005 study, Farroni and colleagues showed newborns one woman's face under two lighting directions, with average brightness matched. The babies looked longer, and oriented more times, toward the face lit from above than toward the face lit from below. The authors read that bias, together with the contrast result, as a preference for face-like patterns whose upper parts are darker than their background. They still leave open whether the function is finding a face under daylight or finding a pattern consistent with someone looking at the baby. Lighting direction changed looking in this newborn sample. It is one experiment, not a rule for every lighting condition in a home.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Newborns' preference for face-relevant stimuli: Effects of contrast polarity",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1287965/",
+      "author": "Teresa Farroni, Mark H. Johnson, Enrica Menon, Luisa Zulian, Dino Faraguna, and Gergely Csibra",
+      "date": "2005-11-11",
+      "accessed": "2026-11-26",
+      "note": "Supports Experiment 2b: longer looking and more orientations toward the top-lit face than the bottom-lit face. Paraphrase of the opened PMC full text. A copyright line granting CC BY was not on the page, so no sentence is quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Teresa Farroni and colleagues",
+  "as_of_date": "2005-11-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-face-contrast-polarity",
+    "world-f1-people-newborns-prefer-faces"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "overhead",
+    "lighting"
+  ],
+  "read_time_min": 1
+}
