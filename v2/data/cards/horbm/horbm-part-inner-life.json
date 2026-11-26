@@ -1,0 +1,36 @@
+{
+  "id": "horbm-part-inner-life",
+  "title": "What the inner life holds",
+  "section": "horbm",
+  "category": "affect",
+  "summary": "The inner life holds a mood state and an intent verb. The message has no transcript field, so the state is not words.",
+  "body": "Inner life is the slow layer for the configured persona. It is not the steady voice baseline, and it is not the 80 ms moment. Care, curiosity, wanting to help, and expecting an answer move on a turn and decay on a tick. The note they send is an inner message. That message converts to the intent record the emotion core already speaks, so the moment can step it. A step does not write the baseline.\n\nThe message is one level and has no transcript field. Direction is out or in. The verb is comfort, ask, wait, with, answer, check-in, hold, or heard. Strength, care, curiosity, help, and expect are numbers from zero to one. Valence, arousal, dominance, and approach are pulls on the way out, and a listener point on the way in for pleasure and activation. Sense is the ear switch. Those fields are the mood and the intent. They are not a sentence and not a stored transcript.\n\nThis crate does not read a persona file and does not name one. Nothing about the person is stored. The remember lock stays deny. State is the struct the caller holds for the session. Home numbers come from the configured persona's baseline when the caller passes them.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "horbm-inner crate",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-inner/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d170d60977752456d45c5782d49088db1f8. Module docs and the inner-message fields. MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-what-is-horbm",
+    "horbm-mood-point-80ms",
+    "horbm.emotion.state-is-avd",
+    "horbm-empathy-weight"
+  ],
+  "tags": [
+    "mood",
+    "intent",
+    "transcript"
+  ],
+  "read_time_min": 1
+}

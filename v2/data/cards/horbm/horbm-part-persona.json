@@ -1,0 +1,45 @@
+{
+  "id": "horbm-part-persona",
+  "title": "How the configured persona is loaded",
+  "section": "horbm",
+  "category": "persona",
+  "summary": "The persona is a TOML file read once at boot. Any schema-valid persona matches, and no id is special. Style will cap the spoken reply to a sentence budget.",
+  "body": "A persona file is TOML, schema galion-horbm-persona/1, read once at boot. Traits are open numbers. Honesty is fixed: never fabricate, and the miss is the unknown line, \"I don't know.\" A file may also set short lines. An unset line stays unset. Boundaries are open tokens the legal-move port reads.\n\nThe id inside the file must be the configured id. Any schema-valid persona matches. No id is special. The configured persona is whichever id boot names. A missing file is unreadable. This crate does not reserve one name as the only voice.\n\nStyle is a voice hook with no audio. The hook will cap the spoken reply to the longest prefix that stays inside the sentence budget. A sentence ends at a stop followed by whitespace or the end of the text. A decimal and a single-letter initial do not split the sentence. A budget of zero still keeps one sentence, so a non-empty reply is not cut to nothing. The cap touches the spoken reply only. Sources and evidence stay whole, and the unknown line is one sentence and passes unchanged. Verdict and style do not allocate.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "horbm-persona crate",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-persona/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d170d60977752456d45c5782d49088db1f8. Module docs and public persona load. MIT, Galion Labs."
+    },
+    {
+      "title": "horbm-persona style hook",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-persona/src/style.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at the same commit. StyleHook::cap_sentences limits the spoken reply. MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-what-is-horbm",
+    "horbm-persona-filter",
+    "horbm-persona-galion-one",
+    "horbm-persona-galion-research",
+    "horbm.persona.stay-the-voice"
+  ],
+  "tags": [
+    "toml",
+    "persona",
+    "style"
+  ],
+  "read_time_min": 1
+}

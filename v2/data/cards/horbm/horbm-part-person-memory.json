@@ -1,0 +1,37 @@
+{
+  "id": "horbm-part-person-memory",
+  "title": "What person memory pins, recalls, lists, and forgets",
+  "section": "horbm",
+  "category": "memory",
+  "summary": "Person memory pins only the text after an explicit remember command. Recall, list, and forget run on that diary. The remember consent is denied by default.",
+  "body": "This module is a per-person diary, a second memory file, not the truth-card diary. Pins, the extractive session summary, and name or mood lines from the state tracker live here. Each row keeps who, when, and source. Search stays on this file. Truth cards are not ingested.\n\nRemember defaults to deny. Opening the store follows the consent remember lock, and false is deny. A flag grants only when the trimmed flag is the word grant. Any other flag, including an absent one, stays denied and does not create the file. Denied means this type does not open the file and does not run the session summary.\n\nA pin is the text after an explicit remember command. The command helper returns nothing when the line is not that command, so the line is not a pin. While the grant is denied, pin, recall, list, and forget do not write or return rows.\n\nRecall searches that person's diary. List returns live episode and diary rows for one person, newest source date first. It is not a search. Forgotten rows stay out. Forget copies the row into the diary archive and drops it from search. The archive is the tombstone. This module has no delete of that table.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "HORBM person memory",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/memory.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d170d60977752456d45c5782d49088db1f8. Module docs and pin, recall, list, and forget. MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-what-is-horbm",
+    "horbm-memory-stores",
+    "horbm-remember-when-asked",
+    "horbm-forgetting-and-deletion",
+    "horbm-consent-bits"
+  ],
+  "tags": [
+    "pin",
+    "recall",
+    "forget"
+  ],
+  "read_time_min": 1
+}

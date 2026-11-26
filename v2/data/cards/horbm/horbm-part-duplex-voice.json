@@ -1,0 +1,45 @@
+{
+  "id": "horbm-part-duplex-voice",
+  "title": "How the full-duplex loop hears while it speaks",
+  "section": "horbm",
+  "category": "turn-taking",
+  "summary": "The full-duplex loop steps one 80 ms frame at 16 kHz. The configured persona can be speaking while a new frame is still recognized. Overlap that is not a listed backchannel is a barge-in.",
+  "body": "The duplex crate is a closed full-duplex loop. One call to tick is one 80 ms frame at 16 kHz, 1280 samples. The you band and the me band are both stepped on that call. The configured persona can be speaking while a new frame is still recognized, so the loop hears during its own speech. A listed backchannel does not cancel that turn. Any other overlap stops the me band on the frame that starts at 160 ms, inside the 200 ms lock. That stop is the barge-in.\n\nThe voice loop uses the same 80 ms conductor frame. While the user holds the turn, its listen tick may play one short nod on the me band. The nod does not start a reply and does not count as a barge-in. The duplex tick is not the heartbeat frame step. It does not read a wall clock and does not load a weight.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "horbm-duplex crate",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-duplex/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d170d60977752456d45c5782d49088db1f8. Module docs: 80 ms frames, overlap, and the 200 ms lock. MIT, Galion Labs."
+    },
+    {
+      "title": "horbm-voice crate",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-voice/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at the same commit. The voice tick is the same 80 ms frame, and a listen nod is not a barge-in. MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-what-is-horbm",
+    "horbm-barge-in",
+    "horbm-full-duplex-duties",
+    "horbm.turn-taking.duplex-conduct",
+    "horbm-backchannel-not-floor"
+  ],
+  "tags": [
+    "duplex",
+    "barge-in",
+    "frame"
+  ],
+  "read_time_min": 1
+}

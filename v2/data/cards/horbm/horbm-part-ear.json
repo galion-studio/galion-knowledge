@@ -1,0 +1,36 @@
+{
+  "id": "horbm-part-ear",
+  "title": "What the ear hears in one frame",
+  "section": "horbm",
+  "category": "listening-repair",
+  "summary": "The ear uses prosody from one 80 ms frame at 16 kHz. It starts sensing on. The point it offers is a fixed coupling, not a category list.",
+  "body": "The ear crate is ear-side prosody. One call is one 80 ms frame: 16 kHz and 1280 mono samples. That frame is the capture quantum beside the locked heartbeat. Playback stays outside this crate.\n\nThe ear starts on. A new ear senses. The default config leaves sense true, and an unset switch leaves sensing on. Closing it is an explicit deny, a config with sense false, or the off values 0, off, and deny. While sensing is off, or the purpose is workplace or education, a push is denied and the samples are not read. The pitch detector and the scalar rings drop when the switch closes. Nothing in this crate writes a file or keeps a copy of the PCM. This layer has no store, and the count of retained samples stays zero.\n\nWhat the ear can hear on a granted frame is pitch in hertz, a voiced flag, voicing, energy, a speaking-rate estimate, pause, jitter, and shimmer. Voicing is the normalised autocorrelation at the period the pitch detector returned. The open-space point is a fixed coupling, not a category list. The listener offer reads valence, arousal, and strength, or nothing when one of them is non-finite. A denied frame has no offer. Push does not step the emotion core, and neither does that read. The ear can use these prosody features as the acoustic point a later listener takes. It does not publish a named category for the frame.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "horbm-ear crate",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/crates/horbm-ear/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d170d60977752456d45c5782d49088db1f8. Module docs and public items. MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-what-is-horbm",
+    "horbm-mood-point-80ms",
+    "horbm-consent-bits",
+    "horbm.safety.no-workplace-or-school-affect"
+  ],
+  "tags": [
+    "ear",
+    "prosody",
+    "frame"
+  ],
+  "read_time_min": 1
+}

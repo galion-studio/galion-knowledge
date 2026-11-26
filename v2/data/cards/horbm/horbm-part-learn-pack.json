@@ -1,0 +1,36 @@
+{
+  "id": "horbm-part-learn-pack",
+  "title": "What the learn pack stores",
+  "section": "horbm",
+  "category": "memory",
+  "summary": "The learn pack stores a sourced clause a person taught, writes it when the session slot is sealed, and can retract that clause. The pack is capped at 256 clauses. Learn is denied by default.",
+  "body": "This is an offline learn pass for one pack. Learn consent is not recall. The granted field defaults to false. The only grant flag is the word grant. Any other flag, including an absent one, is a fresh config, and a write then reports that learn consent is deny. A denied seal creates no file.\n\nThe session seal keeps one clause in RAM. A second note replaces that clause. Nothing is written until seal. Seal writes the held clause once and clears the slot, so the clause is sealed at that call. A later seal, with the slot empty, writes nothing. The slot is plain text and is not encrypted. A taught line is kept only when it teaches the previous miss: the miss is non-empty, the heard line is not a question, and the heard line covers the missed tokens.\n\nThe live pack keeps every sourced clause, up to the cap of 256. A further distinct clause is refused. A sourced row is never dropped to make room. An identical clause, the same trimmed text and the same trimmed speaker, is not added twice. The pass can retract one clause by that speaker and text and leave the rest. Removing the last row leaves an empty live pack. Withdraw deletes the pack directories. The pass does not read or write audio.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "HORBM learn pack",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/learn.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d170d60977752456d45c5782d49088db1f8. Module docs, the session seal, the cap, and retract. MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-what-is-horbm",
+    "horbm-memory-stores",
+    "horbm-remember-when-asked",
+    "horbm-forgetting-and-deletion"
+  ],
+  "tags": [
+    "learn",
+    "sealed",
+    "retract"
+  ],
+  "read_time_min": 1
+}

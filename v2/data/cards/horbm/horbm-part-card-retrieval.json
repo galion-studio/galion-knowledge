@@ -1,0 +1,44 @@
+{
+  "id": "horbm-part-card-retrieval",
+  "title": "How card retrieval picks one card",
+  "section": "horbm",
+  "category": "honesty",
+  "summary": "Card retrieval answers only when every content token of the query is in the card. The smallest unique card wins. A tie does not give an answer, and a miss does not give one either.",
+  "body": "The card loader is read-only. It reads cards. It does not write a card, and it does not build the sqlite file the memory stack would create. The spoken match is the covering lookup. Every content token of the query must sit in the card, and the smallest unique haystack wins. A tie is not a guess.\n\nThe lookup gives no answer when the query has no content token, when any token is missing, when no indexed card holds every token, or when the two smallest matches have the same token count. An empty gist is also no answer. A card with research-only set, or with answer in its not-for list, is not indexed and cannot be spoken as a fact.\n\nThe same cover rule is the predicate on a hit: every content token of the query is in the haystack, and an empty term list does not match. Among the cards that cover the query, the fewest distinct tokens win. If that smallest size is shared, retrieval returns nothing rather than pick one.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "HORBM card loader",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/cards.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d170d60977752456d45c5782d49088db1f8. Module docs and the covering lookup. MIT, Galion Labs."
+    },
+    {
+      "title": "HORBM retrieval cover predicate",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/retrieve.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at the same commit. covers requires every content token of the query in the haystack. MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-what-is-horbm",
+    "horbm-say-i-dont-know",
+    "horbm.honesty.i-dont-know",
+    "horbm-pack-scope"
+  ],
+  "tags": [
+    "retrieval",
+    "smallest",
+    "tie"
+  ],
+  "read_time_min": 1
+}

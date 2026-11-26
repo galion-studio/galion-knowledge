@@ -1,0 +1,45 @@
+{
+  "id": "horbm-part-dialogue-policy",
+  "title": "Which intent the dialogue policy reads",
+  "section": "horbm",
+  "category": "conversation",
+  "summary": "Dialogue policy reads one intent for the turn: ask, recall, correct, forget, or goodbye, among the labels it keeps. A recall that is not one person source, and a correction or a forget, become the honest miss.",
+  "body": "Dialogue layer 4 decides the next move after empathy has stepped the mood and after retrieval has already produced a clause or an honest miss. The heuristic is the policy. An offline count of moves does not change the move. A correction or a forget is not counted. Nothing here writes a file or reads the diary.\n\nThe heard line is one intent. The labels kept from the earlier pass are chat, ask, task, vent, and goodbye. A fixed English phrase table then refines recall, forget, and correction. Precedence is correction, then forget, then recall. An unknown label is chat.\n\nRecall speaks a person-memory source or a learned source, or the honest miss when the gathered sources are not one. A correction or a forget becomes that same miss and does not repeat the last sourced clause. Check-ins stay off until the person turns them on. A callback is stored only when remember is granted.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "HORBM dialogue policy",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/dialogue/mod.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d170d60977752456d45c5782d49088db1f8. Dialogue module docs: intents and the honest miss. MIT, Galion Labs."
+    },
+    {
+      "title": "HORBM turn intent",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/dialogue/intent.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at the same commit. Intent labels and the phrase-table precedence. MIT, Galion Labs."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-what-is-horbm",
+    "horbm-say-i-dont-know",
+    "horbm.honesty.i-dont-know",
+    "horbm.closings.how-to-end",
+    "horbm-repair"
+  ],
+  "tags": [
+    "intent",
+    "goodbye",
+    "miss"
+  ],
+  "read_time_min": 1
+}
