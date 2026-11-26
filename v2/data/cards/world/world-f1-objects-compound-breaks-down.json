@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-compound-breaks-down",
+  "title": "A compound can be broken into simpler substances by a chemical change",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "A compound can be broken down by a chemical change, sometimes into elements and sometimes into other compounds.",
+  "body": "OpenStax Chemistry says compounds are pure substances that chemical changes can break down. The breakdown may yield elements, other compounds, or both. Heating orange mercury(II) oxide is the page's example: it separates into liquid mercury and oxygen gas. The same section says the properties of elements change when they combine. Black carbon, plus hydrogen and oxygen gases, become white sugar. Soft shiny sodium and yellow-green chlorine become table salt. This card does not list a recipe for either change.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Chemistry",
+      "url": "https://openstax.org/books/chemistry/pages/1-2-phases-and-classification-of-matter",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Chemistry, first-edition path /books/chemistry/, CC BY 4.0. Supports the compound definition and the mercury oxide, sugar, and salt examples in section 1.2. Paraphrase only; the section was not copied."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "compound",
+    "chemical"
+  ],
+  "read_time_min": 1
+}
