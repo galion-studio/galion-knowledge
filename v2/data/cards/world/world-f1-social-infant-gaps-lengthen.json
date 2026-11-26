@@ -2,7 +2,7 @@
   "id": "world-f1-social-infant-gaps-lengthen",
   "title": "Babies' pauses before answering a mother grow longer around 9 months",
   "section": "world",
-  "category": "psychology",
+  "category": "development",
   "summary": "In a study of twelve pairs, infants' gaps before a vocal turn were longer at 9 and 12 months than at 5 months, while the mothers' gaps did not shift with age.",
   "body": "Hilbrink, Gattis, and Levinson measured the silence from the end of a mother's utterance to the baby's next vocalization. Infant gaps grew longer with age. Follow-up checks found the babies faster at 5 months than at 9 and at 12 months, and not reliably different at 18 months from that 5-month speed. Every infant slowed somewhere between 9 and 12 months, and eight of the twelve had their longest wait at 9 months. Separate checks found no age change in the mothers' gaps. The authors treat the slowdown as earlier than a simple first-word account predicted. Twelve pairs, and some month contrasts were exploratory, so this is one study's pattern.",
   "claim_type": "fact",
@@ -22,7 +22,6 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-social-baby-pauses-differ-from-adult-gaps",
     "world-f1-social-sound-turns-six-months",
     "horbm.turn-taking.ten-languages"
   ],

@@ -2,7 +2,7 @@
   "id": "world-f1-social-shares-a-book",
   "title": "Looking at a few book pages together is listed at 18 months",
   "section": "world",
-  "category": "psychology",
+  "category": "development",
   "summary": "Most children look at a few pages in a book with a caregiver by about 18 months, CDC says.",
   "body": "CDC lists looking at a few pages in a book with you among 18-month social milestones. The shared look is joint attention on a page, not a reading score. Most means 75 percent or more. The page says the materials are not a validated screening tool. A textbook line that toddlers point at pictures in books is a wider age window and a different source.",
   "claim_type": "fact",
@@ -22,7 +22,6 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-social-points-at-book-pictures",
     "world-f1-social-show-a-liked-object"
   ],
   "tags": [

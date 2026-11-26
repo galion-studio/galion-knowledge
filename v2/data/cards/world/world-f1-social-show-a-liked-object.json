@@ -2,7 +2,7 @@
   "id": "world-f1-social-show-a-liked-object",
   "title": "Holding up a favorite toy for a caregiver is listed at 15 months",
   "section": "world",
-  "category": "psychology",
+  "category": "development",
   "summary": "CDC says most children hold up an object they like so a caregiver can see it, by about 15 months.",
   "body": "The social list at 15 months includes showing you an object she likes. The child offers the thing itself, in the hand, for the other person to notice. That display lines up two people's attention without requiring a word. CDC ties most to 75 percent or more, and it says these materials do not replace a validated screen. The month is taken from the US checklist alone.",
   "claim_type": "fact",
@@ -22,8 +22,7 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-social-points-to-show",
-    "world-f1-social-respond-or-start-shared-attention"
+    "world-f1-social-points-to-show"
   ],
   "tags": [
     "core-pack",

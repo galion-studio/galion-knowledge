@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-shows-a-new-skill",
+  "title": "Showing off a new skill is listed at 30 months",
+  "section": "world",
+  "category": "development",
+  "summary": "By about 30 months, CDC says most children call a caregiver over to watch something they can do.",
+  "body": "The 30-month social list includes showing a caregiver what the child can do, using a short call that asks the adult to watch. CDC's most means 75 percent or more, so the line is not a test of one fixed sentence. The sheet is not a diagnosis. The example on the US page is the checklist's own example.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 30-month social milestone about showing what she can do with a short call for the adult to watch. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-show-a-liked-object",
+    "world-f1-social-two-talk-exchanges"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "showing",
+    "skill"
+  ],
+  "read_time_min": 1
+}
