@@ -1,0 +1,44 @@
+{
+  "id": "horbm-access-relay-callers",
+  "title": "Some callers reach a voice line through a relay service or captions",
+  "section": "horbm",
+  "category": "conversation",
+  "summary": "A telephone call can arrive through a telecommunications relay service or a captioned telephone. A communications assistant may be on the call, turning type or sign into speech and speech into type. Caption text can follow the speech after a short delay.",
+  "body": "The Federal Communications Commission consumer guide on telecommunications relay service says that service lets a person with a hearing disability or a speech disability place and receive telephone calls. In the text form, the caller types to a communications assistant at a relay center. The assistant places the voice call and relays it back and forth, speaking what the text user typed and typing what the voice user said. The guide's minimum standards say assistants generally must relay the conversation verbatim unless the user specifically asks for a summary, and that the conversation must be relayed in real time. The same guide says assistants may not intentionally alter the content. Video relay, for a caller whose primary language is American Sign Language, has the assistant speak what is signed and sign the other party's response. The guide says that form flows in near real time and is faster than text-based relay. Captioned telephone, on the guide, is a telephone with a text screen. The user speaks to the other party and can listen and read captions of what that party is saying. The assistant re-voices the other party, and speech recognition turns that voice into text on the display. A 17 January 2024 order from the Commission's Consumer and Governmental Affairs Bureau states the caption standard this way: captions must keep up with the speed of the other party's speech, although a short delay is inevitable. The consumer guide asks the person who answers not to hang up on hearing \"Hello. This is the relay service.\" Those words mean the assistant is connecting the line to a person who is deaf, hard-of-hearing, or has a speech disability. The guide says dialing 711 reaches certain forms of the service in the United States, and that this access number is not available for captioned telephone, internet captioned telephone, video relay, or internet-protocol relay. This card reports those two Commission texts. It does not decide that any particular caller is using a relay, and it does not name a product.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Consumer Guide: Telecommunications Relay Service - TRS",
+      "url": "https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs",
+      "author": "Federal Communications Commission",
+      "date": "2022-08-16",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. U.S. federal government work, in the public domain. Paraphrase of the guide: a communications assistant relays between the parties, generally verbatim and in real time; captioned telephone shows the other party's words as text; the answered call may begin with the relay greeting. Last reviewed date on the page is 16 August 2022."
+    },
+    {
+      "title": "Order DA 24-48, Telecommunications Relay Services and Speech-to-Speech Services for Individuals with Hearing and Speech Disabilities",
+      "url": "https://docs.fcc.gov/public/attachments/DA-24-48A1.txt",
+      "author": "Federal Communications Commission, Consumer and Governmental Affairs Bureau",
+      "date": "2024-01-17",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. U.S. federal government work, in the public domain. Same agency as the consumer guide, so not a second government. The card uses the order's caption-delay standard only: captions must keep up with the other party's speech, although a short delay is inevitable. The order quotes that standard from a 2007 ruling this card did not open separately. The applicant is not named here."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Federal Communications Commission",
+  "as_of_date": "2024-01-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-repair",
+    "horbm-access-do-not-guess-disability",
+    "horbm-access-repeat-and-slow-down"
+  ],
+  "tags": [
+    "accessibility",
+    "relay",
+    "captions",
+    "telephone"
+  ],
+  "read_time_min": 2
+}

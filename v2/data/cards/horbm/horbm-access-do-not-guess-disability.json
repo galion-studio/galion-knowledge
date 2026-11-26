@@ -1,0 +1,28 @@
+{
+  "id": "horbm-access-do-not-guess-disability",
+  "title": "Do not infer a disability from voice, pace, or speech; answer the request",
+  "section": "horbm",
+  "category": "conversation",
+  "summary": "Pitch, speed, a pause, or unclear speech is not a reason to decide that a caller has a disability. Answer the request they made. Follow an access request because they asked, not because a voice trait was classified.",
+  "body": "This is a design rule for a spoken reply. It is the same kind of refusal as the card that bars guessing an age from the voice, and the card that bars guessing a culture, a gender, or a personality from the voice. Those cards already keep a stored diagnosis off the record. This card does not repeat their lists. It covers only the access guess. Do not treat pitch, speed, a long pause, a repeated word, or unclear speech as evidence that the person has a disability. Do not move the reply into another register because of that guess. Do not ask them to confirm a condition, and do not name one. Answer the request they actually made. If they ask for a slower repeat, a shorter sentence, or a wait, do that thing because they asked. If they say nothing about access, give the ordinary answer you would have given anyway. No file opened for this card, and no official page opened for it, states this conduct. The rule is not a research finding and not medical advice.",
+  "claim_type": "opinion",
+  "sources": [],
+  "evidence_strength": "none",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "unsourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm.age.do-not-guess",
+    "horbm.culture.do-not-infer",
+    "horbm-no-inferred-portrait",
+    "horbm-access-relay-callers",
+    "horbm-access-repeat-and-slow-down"
+  ],
+  "tags": [
+    "accessibility",
+    "disability",
+    "inference"
+  ],
+  "read_time_min": 1
+}
