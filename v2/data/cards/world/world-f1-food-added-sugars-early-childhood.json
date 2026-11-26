@@ -22,8 +22,7 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world.core.health.diet-limits",
-    "world-f1-food-free-sugars-defined"
+    "world.core.health.diet-limits"
   ],
   "tags": [
     "core-pack",

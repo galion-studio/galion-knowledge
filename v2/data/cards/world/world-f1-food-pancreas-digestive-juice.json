@@ -1,29 +1,29 @@
 {
   "id": "world-f1-food-pancreas-digestive-juice",
-  "title": "The pancreas sends enzymes and bicarbonate into the small intestine",
+  "title": "The pancreas sends enzyme-rich juice into the small intestine",
   "section": "world",
   "category": "medicine",
-  "summary": "OpenStax says pancreatic juice digests sugars, proteins, and fats and buffers acid coming from the stomach.",
-  "body": "OpenStax Anatomy and Physiology says the pancreas produces more than a liter of pancreatic juice a day. The juice is mostly water, with salts, sodium bicarbonate, and digestive enzymes. The bicarbonate makes the juice slightly alkaline so it can buffer acidic chyme, inactivate pepsin from the stomach, and give a better setting for enzymes that work in the small intestine. Those enzymes take part in digesting sugars, proteins, and fats. Protein-digesting enzymes are secreted in inactive forms so they do not digest the pancreas itself. This is the 25 April 2013 textbook, paraphrased.",
+  "summary": "NIDDK says the pancreas makes a juice whose enzymes break down carbohydrates, fats, and proteins, and sends it through ducts.",
+  "body": "Enzymes are the working part of pancreatic juice, as NIDDK describes them: they take apart carbohydrates, fats, and proteins. The gland delivers that juice through ducts into the intestine. On the December 2017 page this juice is one of three that meet there, beside bile and the intestine's own juice, to finish those three nutrients. No daily volume and no acidity figure are printed. The description is not a disease guide.",
   "claim_type": "fact",
   "sources": [
     {
-      "title": "Anatomy and Physiology, 23.6 Accessory Organs in Digestion",
-      "url": "https://openstax.org/books/anatomy-and-physiology/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
-      "author": "OpenStax",
-      "date": "2013-04-25",
+      "title": "Your Digestive System & How it Works",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "author": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "date": "2017-12",
       "accessed": "2026-11-26",
-      "note": "Paraphrase of the named section. OpenStax Anatomy and Physiology, publication date 25 April 2013. The page's reuse notice describes CC BY-NC-SA terms for redistribution. This card does not quote the textbook. Supports the pancreatic juice sentences."
+      "note": "US NIH page. Public domain. Paraphrased. Supports the pancreatic enzyme sentence."
     }
   ],
-  "evidence_strength": "moderate",
-  "said_by": "OpenStax",
-  "as_of_date": "2013-04-25",
+  "evidence_strength": "strong",
+  "said_by": "NIDDK",
+  "as_of_date": "2017-12",
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world.core.body.pavlov-digestion",
-    "world-f1-food-bile-splits-fat"
+    "world-f1-food-bile-splits-fat",
+    "world-f1-food-small-intestine-nutrients"
   ],
   "tags": [
     "core-pack",

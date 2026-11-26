@@ -1,29 +1,28 @@
 {
   "id": "world-f1-food-essential-amino-acids",
-  "title": "Essential amino acids must come from food, and the whole day matters more than one meal",
+  "title": "Animal foods supply amino acids the body cannot make; most plant proteins do not supply all of them",
   "section": "world",
   "category": "medicine",
-  "summary": "MedlinePlus says essential amino acids cannot be made by the body and must be supplied by food.",
-  "body": "The MedlinePlus protein encyclopedia, reviewed 1 April 2025, sorts amino acids into essential, nonessential, and conditional groups. Essential amino acids cannot be made by the body. They must be supplied by food. They do not need to be eaten at every meal. The balance over the whole day is more important. Nonessential amino acids are made by the body from essential ones or from the ordinary breakdown of proteins. Conditional amino acids are needed in times of illness and stress. This is a classification from that page. It is not a supplement dose.",
+  "summary": "MedlinePlus says proteins from animal foods are complete, and that most plant proteins are incomplete.",
+  "body": "The MedlinePlus dietary-proteins summary, updated 17 July 2024, says proteins from meat and other animal products are complete proteins. That means they supply all of the amino acids the body cannot make on its own. Most plant proteins are incomplete. The page says a person should eat different types of plant proteins every day to get all of the amino acids the body needs. It does not say animal foods are required. This is the health-topic summary, which the National Library of Medicine places in the public domain. It is not a meal plan.",
   "claim_type": "fact",
   "sources": [
     {
-      "title": "Protein in diet",
-      "url": "https://medlineplus.gov/ency/article/002467.htm",
+      "title": "Dietary Proteins",
+      "url": "https://medlineplus.gov/dietaryproteins.html",
       "author": "National Library of Medicine",
-      "date": "2025-04-01",
+      "date": "2024-07-17",
       "accessed": "2026-11-26",
-      "note": "Supports the essential-amino-acid sentences. Public-domain MedlinePlus encyclopedia. Paraphrased."
+      "note": "MedlinePlus health-topic summary. The National Library of Medicine states these summaries are public domain. Paraphrased. Supports the complete and incomplete protein sentences."
     }
   ],
   "evidence_strength": "strong",
   "said_by": "MedlinePlus",
-  "as_of_date": "2025-04-01",
+  "as_of_date": "2024-07-17",
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-food-protein-builds-cells",
-    "world.core.health.diet-principles"
+    "world-f1-food-protein-builds-cells"
   ],
   "tags": [
     "core-pack",

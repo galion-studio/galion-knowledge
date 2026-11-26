@@ -1,29 +1,29 @@
 {
   "id": "world-f1-food-breastfeeding-two-years",
-  "title": "WHO recommends keeping breast milk going up to age two or beyond",
+  "title": "CDC reports advice to keep breastfeeding going until age two or older",
   "section": "world",
   "category": "medicine",
-  "summary": "The same infant-feeding sheet says breastfeeding continues up to two years of age or beyond, together with other foods.",
-  "body": "On the 4 August 2026 infant and young child feeding fact sheet, WHO and UNICEF recommend that breastfeeding continue up to two years of age or beyond. During that longer stretch, nutritionally adequate and safe complementary foods are also part of the recommendation, starting from six months. The duration claim is the continued milk, not a rule that milk is the only food in the second year. Countries and families differ in how this is practiced. The sheet states a recommendation, not a census of what every toddler drinks.",
+  "summary": "CDC's 31 July 2026 breastfeeding page puts the longer duration at 2 years of age or older, with other foods alongside the milk.",
+  "body": "Past the early months, the duration on CDC's 31 July 2026 breastfeeding page runs until a child is 2 years old or older. The page ties that span to the Dietary Guidelines for Americans, the American Academy of Pediatrics, and the World Health Organization. Other foods enter around the middle of the first year and sit beside the milk rather than replacing it. This card is only that longer span. It is not the six-month exclusive period, and a household may not match the printed duration.",
   "claim_type": "fact",
   "sources": [
     {
-      "title": "Infant and young child feeding",
-      "url": "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding",
-      "author": "World Health Organization",
-      "date": "2026-08-04",
+      "title": "Breastfeeding Fast Facts",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/index.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-07-31",
       "accessed": "2026-11-26",
-      "note": "Paraphrase of the fact sheet. WHO text is not used under a CC BY licence, so this card does not quote it. Supports continued breastfeeding up to two years or beyond."
+      "note": "US CDC page. Public domain. Paraphrased. Supports continued breastfeeding until 2 years or older, with complementary foods around 6 months."
     }
   ],
   "evidence_strength": "strong",
-  "said_by": "World Health Organization",
-  "as_of_date": "2026-08-04",
+  "said_by": "CDC",
+  "as_of_date": "2026-07-31",
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world.core.health.child-undernutrition",
-    "world-f1-food-breast-milk-only"
+    "world-f1-food-breast-milk-only",
+    "world-f1-food-solids-around-six-months"
   ],
   "tags": [
     "core-pack",

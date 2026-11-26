@@ -1,28 +1,28 @@
 {
   "id": "world-f1-food-bile-splits-fat",
-  "title": "Bile from the liver breaks large fat droplets into tiny ones",
+  "title": "The liver makes bile, which helps digest fats, and the gallbladder stores it",
   "section": "world",
   "category": "medicine",
-  "summary": "OpenStax says the liver makes bile, the gallbladder stores it, and bile salts emulsify fats in the small intestine.",
-  "body": "OpenStax Anatomy and Physiology says chemical digestion in the small intestine depends on the liver, pancreas, and gallbladder. The liver's digestive role is to produce bile and send it toward the duodenum. The gallbladder stores, concentrates, and releases that bile. Bile salts and phospholipids pull large fat globules apart into many tiny fragments, which gives fat-digesting enzymes much more surface to work on. The textbook compares the effect to dish soap on fat in water. This is a paraphrase of the 25 April 2013 text.",
+  "summary": "On the NIDDK digestion page, bile from the liver helps with fats and some vitamins, and the gallbladder holds it between meals.",
+  "body": "Bile is the liver's juice on the NIDDK page last reviewed in December 2017. The page gives it one digestive job: help with fats and some vitamins. Ducts can park it in the gallbladder, which keeps it between meals, or send it onward for use. At a meal the gallbladder squeezes the stored juice out. The page stops at that help. It does not explain how fat droplets come apart. The text is a public-domain NIH description.",
   "claim_type": "fact",
   "sources": [
     {
-      "title": "Anatomy and Physiology, 23.6 Accessory Organs in Digestion",
-      "url": "https://openstax.org/books/anatomy-and-physiology/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
-      "author": "OpenStax",
-      "date": "2013-04-25",
+      "title": "Your Digestive System & How it Works",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "author": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "date": "2017-12",
       "accessed": "2026-11-26",
-      "note": "Paraphrase of the named section. OpenStax Anatomy and Physiology, publication date 25 April 2013. The page's reuse notice describes CC BY-NC-SA terms for redistribution. This card does not quote the textbook. Supports the bile and emulsification sentences."
+      "note": "US NIH page. Public domain. Paraphrased. Supports the bile and gallbladder sentences."
     }
   ],
-  "evidence_strength": "moderate",
-  "said_by": "OpenStax",
-  "as_of_date": "2013-04-25",
+  "evidence_strength": "strong",
+  "said_by": "NIDDK",
+  "as_of_date": "2017-12",
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world.core.body.pavlov-digestion",
+    "world-f1-food-pancreas-digestive-juice",
     "world-f1-food-dietary-fat-calories"
   ],
   "tags": [

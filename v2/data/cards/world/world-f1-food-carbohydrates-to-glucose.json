@@ -4,7 +4,7 @@
   "section": "world",
   "category": "medicine",
   "summary": "MedlinePlus says the body breaks carbohydrates into glucose, which cells can use at once or store.",
-  "body": "MedlinePlus says carbohydrates, or carbs, are sugar molecules. Along with proteins and fats, they are one of three main nutrients in foods and drinks. The body breaks carbohydrates down into glucose. Glucose, also called blood sugar, is the main source of energy for the body's cells, tissues, and organs. Glucose can be used immediately or stored in the liver and muscles for later. The page, updated 25 March 2024, is a United States National Library of Medicine summary. It is not a target for a particular child's blood sugar, not a laboratory reference interval, and not the catalog formula or CAS registry entry for the molecule. A low reading on a meter is a different question.",
+  "body": "MedlinePlus says carbohydrates, or carbs, are sugar molecules. Along with proteins and fats, they are one of three main nutrients in foods and drinks. The body breaks carbohydrates down into glucose. Glucose, also called blood sugar, is the main source of energy for the body's cells, tissues, and organs. Glucose can be used immediately or stored in the liver and muscles for later. The same health-topic page says a person does need some carbohydrates to give the body energy, and that there is no single amount that fits everyone. Age, sex, and health change that amount. The page was updated 25 March 2024. This summary is public domain. It is not a laboratory reference interval and not a meter reading for one child.",
   "claim_type": "fact",
   "sources": [
     {
@@ -13,7 +13,7 @@
       "author": "National Library of Medicine",
       "date": "2024-03-25",
       "accessed": "2026-11-26",
-      "note": "Supports the glucose sentences. Public-domain MedlinePlus page. Paraphrased."
+      "note": "MedlinePlus health-topic summary. The National Library of Medicine states these summaries are public domain. Paraphrased. Supports the glucose sentences and the statement that there is no single amount."
     }
   ],
   "evidence_strength": "strong",
