@@ -21,7 +21,10 @@
   "as_of_date": "2026-05-16",
   "status": "sourced - needs review",
   "contested_views": [],
-  "related": [],
+  "related": [
+    "world-f1-social-answers-a-wave-request",
+    "world-f1-social-waving-lists-differ"
+  ],
   "tags": [
     "core-pack",
     "area:foundations-social",
