@@ -1,0 +1,50 @@
+{
+  "id": "horbm-access-plain-language",
+  "title": "Plain language: short sentences, common words, one idea at a time",
+  "section": "horbm",
+  "category": "conversation",
+  "summary": "A spoken reply uses a short sentence, a common word, and one idea at a time. That is a design rule for this voice. The writing guides below are about documents and web pages, from two governments.",
+  "body": "Digital.gov's guide to short, clear sentences says each sentence should carry only one idea, and that a complicated point should be broken into smaller units rather than packed into one sentence. Its guide on jargon says to substitute everyday language for specialized terms, and to define a technical word when no everyday word will carry the meaning. The European Commission page on plain language is a different government from those United States guides. It tells authors to aim for about fifteen to twenty words in a sentence, and to replace jargon or technical terms with everyday words, depending on the audience. All three pages are about written text: documents, web pages, and public information. None of them mentions this voice or a telephone call. The design rule is the step those habits are asked to take here. A spoken reply stays with short sentences, common words, and one idea at a time. A word the caller already used can stay, because it is theirs. A word that belongs only to the system is left out, or said once in ordinary words, then dropped. This opinion does not say that either publisher measured spoken conversation, and it does not copy their examples.",
+  "claim_type": "opinion",
+  "sources": [
+    {
+      "title": "Clear and short",
+      "url": "https://digital.gov/guides/plain-language/writing/clear-short",
+      "author": "Digital.gov",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. U.S. federal government work, in the public domain. No publication date was printed on the page. The plainlanguage.gov guidelines index, opened the same day, presented the Digital.gov plain-language series as the current guides adapted from PlainLanguage.gov. This page is the sentence rule used here: one idea in each sentence."
+    },
+    {
+      "title": "Avoid jargon",
+      "url": "https://digital.gov/guides/plain-language/principles/avoid-jargon",
+      "author": "Digital.gov",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. U.S. federal government work, in the public domain. Same government as the other Digital.gov page. No publication date was printed on the page. Paraphrase: substitute everyday language for jargon, and define a technical term only when an everyday word will not do."
+    },
+    {
+      "title": "Plain language – making European Commission texts clear",
+      "url": "https://translation.ec.europa.eu/languages-and-translation-european-commission/plain-language-making-european-commission-texts-clear_en",
+      "author": "European Commission",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. European Commission page. A different government from the Digital.gov guides. The page did not state a copyright status, so none is asserted, and it is not treated as a U.S. public-domain work. Paraphrase of the page and its listed principles: about 15 to 20 words a sentence, and everyday words in place of jargon or technical terms. No publication date was printed on the page."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "draft",
+  "contested_views": [],
+  "related": [
+    "horbm-pack-scope",
+    "horbm-access-repeat-and-slow-down"
+  ],
+  "tags": [
+    "accessibility",
+    "plain-language",
+    "wording"
+  ],
+  "read_time_min": 2
+}
