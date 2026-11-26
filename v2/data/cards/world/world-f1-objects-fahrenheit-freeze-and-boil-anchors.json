@@ -1,23 +1,23 @@
 {
   "id": "world-f1-objects-fahrenheit-freeze-and-boil-anchors",
-  "title": "The Fahrenheit scale marks water's freeze at 32 degrees and its boil at 212",
+  "title": "NIST's approximate list pairs water's freeze with 32 Fahrenheit and its boil with 212",
   "section": "world",
   "category": "measurement",
-  "summary": "On the Fahrenheit scale, OpenStax sets water's freezing point at 32 degrees and its boiling point at 212 degrees.",
-  "body": "OpenStax Physics says that on the Fahrenheit scale the freezing point of water is at 32 degrees Fahrenheit and the boiling point is at 212 degrees Fahrenheit. It uses those two anchors to explain why one Celsius degree is a larger step than one Fahrenheit degree: 100 Celsius degrees span the same range as 180 Fahrenheit degrees. NIST's prose for the Celsius boil says about 100 degrees, and that wording stays on the linked card. This card reports the textbook's Fahrenheit anchors, not a new laboratory boiling point. A pressure other than the one assumed for those anchors is outside the page.",
+  "summary": "On NIST's approximate touchstone list, the freezing point of water is 32 degrees Fahrenheit and the boiling point is 212 degrees Fahrenheit.",
+  "body": "NIST's temperature page prints a table titled Touchstone Temperatures and labels the whole table approximate. In that table the freezing point of water is 32 degrees Fahrenheit and the boiling point of water is 212 degrees Fahrenheit. The Celsius wording on the same page, including the word about for the boil, already has its own card, so those Celsius figures are not rewritten here. This card is the Fahrenheit pair on the approximate list. It is not a new laboratory measurement, and a pressure other than the one assumed for the list is outside the page.",
   "claim_type": "fact",
   "sources": [
     {
-      "title": "OpenStax Physics",
-      "url": "https://openstax.org/books/physics/pages/11-1-temperature-and-thermal-energy",
-      "author": "OpenStax",
+      "title": "SI Units – Temperature",
+      "url": "https://www.nist.gov/pml/owm/si-units-temperature",
+      "author": "National Institute of Standards and Technology",
       "date": "2026-11-26",
       "accessed": "2026-11-26",
-      "note": "OpenStax Physics, path /books/physics/, CC BY 4.0. Supports 32 degrees Fahrenheit and 212 degrees Fahrenheit as the scale's freezing and boiling anchors for water, in section 11.1. Paraphrase only; the section was not copied."
+      "note": "NIST SI temperature page, U.S. government work, public domain. No review date was printed on the page opened 2026-11-26. Supports the approximate touchstone rows that pair the freezing point of water with 32 degrees Fahrenheit and the boiling point with 212 degrees Fahrenheit. Celsius prose is not repeated."
     }
   ],
-  "evidence_strength": "moderate",
-  "said_by": "OpenStax",
+  "evidence_strength": "strong",
+  "said_by": "NIST",
   "as_of_date": "2026-11-26",
   "status": "sourced - needs review",
   "contested_views": [],

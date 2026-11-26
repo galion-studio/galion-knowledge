@@ -1,24 +1,24 @@
 {
   "id": "world-f1-objects-water-two-hydrogen",
-  "title": "Each water molecule has two hydrogen atoms and one oxygen atom",
+  "title": "A water molecule is two hydrogen atoms and one oxygen atom",
   "section": "world",
   "category": "chemistry",
-  "summary": "A water molecule is one unit of two hydrogen atoms and one oxygen atom joined together.",
-  "body": "OpenStax Chemistry says a molecule is two or more atoms joined by chemical bonds, moving as a unit. A water molecule is the example that contains two hydrogen atoms and one oxygen atom. Glucose is a different molecule, with six carbon, twelve hydrogen, and six oxygen atoms. The page also says that if a glass of water were enlarged to the size of the Earth, the molecules inside would be about the size of golf balls. The catalog mass of water is a different card and is not repeated here. This card is only which atoms sit in one molecule.",
+  "summary": "A water molecule contains two hydrogen atoms and one oxygen atom, and NASA Glenn calls that combination H2O.",
+  "body": "NASA Glenn says water molecules contain two atoms of hydrogen and one atom of oxygen, and that this combination is chemically called H2O. Oxygen and nitrogen in air, by contrast, occur as two-atom molecules of one element. The catalog mass printed for water on the linked NIST card is a different field and is not repeated here. This card is only which atoms sit in one water molecule.",
   "claim_type": "fact",
   "sources": [
     {
-      "title": "OpenStax Chemistry",
-      "url": "https://openstax.org/books/chemistry/pages/1-2-phases-and-classification-of-matter",
-      "author": "OpenStax",
-      "date": "2026-11-26",
+      "title": "States of Matter",
+      "url": "https://www.grc.nasa.gov/WWW/K-12/BGP/state.html",
+      "author": "NASA Glenn Research Center",
+      "date": "2021-05-13",
       "accessed": "2026-11-26",
-      "note": "OpenStax Chemistry, first-edition path /books/chemistry/, CC BY 4.0. Supports the water-molecule count of two hydrogen atoms and one oxygen atom in section 1.2. Paraphrase only; the section was not copied."
+      "note": "NASA Glenn Beginner's Guide to Propulsion, U.S. government work, public domain. Page last updated 13 May 2021. Supports two hydrogen atoms and one oxygen atom in a water molecule, named H2O."
     }
   ],
-  "evidence_strength": "moderate",
-  "said_by": "OpenStax",
-  "as_of_date": "2026-11-26",
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2021-05-13",
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [

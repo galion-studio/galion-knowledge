@@ -3,21 +3,21 @@
   "title": "Like magnetic poles repel, and unlike poles attract",
   "section": "world",
   "category": "physics",
-  "summary": "The like poles of two magnets repel each other, and a north pole attracts a south pole.",
-  "body": "OpenStax Physics says the parts of a magnet that push or pull hardest are its poles. The north poles of two magnets repel, and so do the south poles. The north pole of one attracts the south pole of another. The page sums that up as like poles repel and unlike poles attract. It also says that if you cut a bar magnet in half, you do not get a north-only piece and a south-only piece. Each half still has both poles, and the page says no experiment has found an object with a single magnetic pole. The strength of Earth's field is a different card and is not restated.",
+  "summary": "The north end of a magnet repels another north end, south repels south, and north and south attract.",
+  "body": "NASA Goddard says a magnetized bar has its power concentrated at two ends, called the north and south poles, because a bar hung by its middle turns a north end northward and a south end southward. The north end repels the north end of another magnet, south repels south, and north and south attract. The page also says either pole can attract iron objects such as pins and paper clips, because the iron becomes a temporary magnet. Earth's field strength in gauss is a different card and is not restated.",
   "claim_type": "fact",
   "sources": [
     {
-      "title": "OpenStax Physics",
-      "url": "https://openstax.org/books/physics/pages/20-1-magnetic-fields-field-lines-and-force",
-      "author": "OpenStax",
+      "title": "Magnetic Fields",
+      "url": "https://pwg.gsfc.nasa.gov/Education/wmfield.html",
+      "author": "NASA Goddard Space Flight Center",
       "date": "2026-11-26",
       "accessed": "2026-11-26",
-      "note": "OpenStax Physics, path /books/physics/, CC BY 4.0. Supports like poles repelling, unlike poles attracting, and each cut half keeping two poles, in section 20.1. Paraphrase only; the section was not copied."
+      "note": "NASA Goddard education page by David P. Stern, U.S. government work, public domain. No review date was printed on the page opened 2026-11-26. Supports like poles repelling and unlike poles attracting, and either pole attracting iron pins and paper clips."
     }
   ],
-  "evidence_strength": "moderate",
-  "said_by": "OpenStax",
+  "evidence_strength": "strong",
+  "said_by": "NASA",
   "as_of_date": "2026-11-26",
   "status": "sourced - needs review",
   "contested_views": [],

@@ -1,29 +1,27 @@
 {
   "id": "world-f1-objects-heat-is-energy-shift",
-  "title": "Heat is energy moving because one thing is hotter than another",
+  "title": "Heat is thermal energy moving between things at different temperatures",
   "section": "world",
   "category": "physics",
-  "summary": "Heat is energy moving from place to place because of a temperature difference, and it is not the same thing as temperature.",
-  "body": "OpenStax Physics says it is tempting to say that temperature measures heat, but that is not strictly true. Heat is the transfer of energy due to a temperature difference. People say the heat was unbearable when they mean the temperature was high, because we feel the flow of energy. Heat, like work, transfers energy, and the SI unit named on the page is the joule. How hot or cold something is, as a reading on a scale, is a separate card. Nothing here says how many joules a warm mug holds.",
+  "summary": "Heat is thermal energy moving between two systems that are not at the same temperature.",
+  "body": "A NASA educator guide says heat describes the transfer of thermal energy between two systems of different temperatures. That transfer moves through solids, liquids, gases, and space. The guide's vocabulary ties thermal energy to faster movement of molecules in a substance. How much energy a particular mug holds is not on the page. A thermometer reading, as a scale, is a different card.",
   "claim_type": "fact",
   "sources": [
     {
-      "title": "OpenStax Physics",
-      "url": "https://openstax.org/books/physics/pages/11-1-temperature-and-thermal-energy",
-      "author": "OpenStax",
-      "date": "2026-11-26",
+      "title": "NASA's Our World: Insulators, educator guide EG-2010-06-008-LaRC",
+      "url": "https://assets.science.nasa.gov/content/dam/science/cds/eclips/assets/documents/educator-guide-our-world-insulators.pdf",
+      "author": "NASA",
+      "date": "2010-06",
       "accessed": "2026-11-26",
-      "note": "OpenStax Physics, path /books/physics/, CC BY 4.0. Supports heat as energy transfer due to a temperature difference, with the joule as its unit, in section 11.1. Paraphrase only; the section was not copied."
+      "note": "NASA eClips educator guide, U.S. government work, public domain. Product code dated June 2010. Supports heat as transfer of thermal energy between systems at different temperatures, and thermal energy as increased molecular movement."
     }
   ],
-  "evidence_strength": "moderate",
-  "said_by": "OpenStax",
-  "as_of_date": "2026-11-26",
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2010-06",
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world.constants.water-freeze-boil-nist",
-    "world.constants.celsius-offset",
     "world.constants.kelvin-boltzmann"
   ],
   "tags": [

@@ -1,24 +1,24 @@
 {
   "id": "world-f1-objects-solid-keeps-shape",
-  "title": "A solid is rigid and keeps a definite shape",
+  "title": "A solid holds its shape, and that shape fixes its volume",
   "section": "world",
   "category": "chemistry",
-  "summary": "A solid is rigid and keeps a definite shape, and its volume hardly changes when the pressure changes.",
-  "body": "OpenStax Chemistry says a solid is rigid and possesses a definite shape. The same section says both solid and liquid samples have volumes that are very nearly independent of pressure. A liquid, which flows and takes the container's shape, is a different card, and so is a gas, which takes the container's volume as well. Sand can be poured, but the page says that happens because sand is many small solid grains, not because a solid loses its shape. The page does not rank materials from soft to hard. Hardness is named elsewhere as a physical property, not measured here.",
+  "summary": "A solid holds its shape, and the volume of a solid is fixed by that shape.",
+  "body": "NASA Glenn says the molecules in a solid are closely bound to one another by molecular forces. A solid holds its shape, and the volume of a solid is fixed by the shape of the solid. A liquid, which borrows the outline of a holder, is a different claim. The page does not rank materials from hard to soft, and it does not say a solid can be poured.",
   "claim_type": "fact",
   "sources": [
     {
-      "title": "OpenStax Chemistry",
-      "url": "https://openstax.org/books/chemistry/pages/1-2-phases-and-classification-of-matter",
-      "author": "OpenStax",
-      "date": "2026-11-26",
+      "title": "States of Matter",
+      "url": "https://www.grc.nasa.gov/WWW/K-12/BGP/state.html",
+      "author": "NASA Glenn Research Center",
+      "date": "2021-05-13",
       "accessed": "2026-11-26",
-      "note": "OpenStax Chemistry, first-edition path /books/chemistry/, CC BY 4.0. Supports the rigid solid of definite shape, and the note that sand pours because it is many small solid grains, in section 1.2. Paraphrase only; the section was not copied."
+      "note": "NASA Glenn Beginner's Guide to Propulsion, U.S. government work, public domain. Page last updated 13 May 2021. Supports a solid holding its shape, with volume fixed by that shape."
     }
   ],
-  "evidence_strength": "moderate",
-  "said_by": "OpenStax",
-  "as_of_date": "2026-11-26",
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2021-05-13",
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [],
