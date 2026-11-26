@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-gaze-following-builds-slowly",
+  "title": "Following an adult's gaze rose gradually after 6 months in one lab study",
+  "section": "world",
+  "category": "psychology",
+  "summary": "In a monthly lab study of 43 infants, gaze-following and point-following did not beat chance until after 6 months, then rose slowly through 12 months.",
+  "body": "Tang, Gonzalez, and Deak tested 43 North American middle-class infants every month from 4 to 12 months. The babies learned that a correct location would play a reward video. Following an adult's gaze, a point, or both increased gradually from about 7 months. It did not exceed chance until after 6 months. A separate group tested only at 9 and 12 months suggested the rise was not just practice from monthly visits. Infants rarely followed a cue to a location behind them, even at 12 months. The authors limit the result to this controlled setting and this sample. The licence of the article is CC BY-NC-ND, so this card paraphrases and does not quote.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The slow emergence of gaze- and point-following",
+      "url": "https://doi.org/10.1111/desc.13457",
+      "author": "Yueyan Tang, Marybel Robledo Gonzalez, and Gedeon O. Deak",
+      "date": "2023-11-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the N=43 monthly result: no above-chance following until after 6 months, gradual rise from about 7 months, and rare following to locations behind the infant. Paraphrase only (CC BY-NC-ND)."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Yueyan Tang, Marybel Gonzalez, and Gedeon Deak",
+  "as_of_date": "2023-11-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-gaze-plus-point-beats-gaze",
+    "world-f1-social-respond-before-initiate"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "gaze-following",
+    "infancy"
+  ],
+  "read_time_min": 1
+}

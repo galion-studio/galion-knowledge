@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-answers-a-wave-request",
+  "title": "A textbook places answering a request to wave or blow a kiss around 9 to 12 months",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax Psychology says infants respond to requests such as wave bye-bye or blow a kiss around 9 to 12 months.",
+  "body": "In the lifespan chapter, OpenStax gives cognitive examples that include shaking the head for no around 6 to 9 months, and responding to verbal requests to wave bye-bye or blow a kiss around 9 to 12 months. The line is about answering the request, inside a range, in a textbook summary. It is not the CDC statement that most children produce a wave by the first birthday, and it is not a 75 percent cutoff. The book is a secondary text. Other lists use other ages.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2014",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only, no quotation. OpenStax Psychology web chapter at /books/psychology/, credited as the first-edition path (CC BY 4.0). Supports the 9-to-12-month example of responding to requests to wave bye-bye or blow a kiss."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-wave-bye-one-year",
+    "world-f1-social-waving-lists-differ"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "waving",
+    "requests"
+  ],
+  "read_time_min": 1
+}

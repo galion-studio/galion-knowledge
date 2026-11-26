@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-textbook-lists-taking-turns",
+  "title": "A textbook milestone table lists taking turns at age 3",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax Psychology's milestone table lists taking turns among the personal and social items at age 3.",
+  "body": "Table 9.4 in the lifespan chapter has a personal and social column. At age 3 that cell includes taking turns, along with expressing many emotions. The table is a compact textbook list of average-style ages. It does not say 75 percent, and it is not the CDC line that puts following rules or taking turns in games with other children at 5 years. Both can be true only as different lists. This card is the table's age-3 cell, not a screen.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2014",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only, no quotation. OpenStax Psychology web chapter at /books/psychology/, credited as the first-edition path (CC BY 4.0). Supports Table 9.4 personal/social cell at age 3, which includes taking turns."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-takes-turns-in-games",
+    "world-f1-social-textbook-prefers-group-play"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "turns",
+    "table"
+  ],
+  "read_time_min": 1
+}

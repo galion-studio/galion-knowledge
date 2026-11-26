@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-copy-sounds-back-and-forth",
+  "title": "CDC's baby tips include copying the baby's sounds",
+  "section": "world",
+  "category": "psychology",
+  "summary": "CDC's 2-month tips say to copy a baby's sounds and notice how long the baby keeps answering.",
+  "body": "The 2-month activities page tells caregivers to copy the baby's sounds and see how long the baby keeps the exchange going by making sounds back. A nearby tip says to act excited, smile, and talk when the baby makes sounds, because that teaches turn-taking in a back-and-forth 'conversation.' These are printed suggestions for play, not milestones with an age and a percent. They are not instructions for one particular baby, and the page still says the materials are not a screening tool.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the tips to copy the baby's sounds and to answer sounds so the baby practices back-and-forth turns. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-sound-turns-six-months",
+    "horbm.turn-taking.one-at-a-time"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "copying",
+    "sounds"
+  ],
+  "read_time_min": 1
+}

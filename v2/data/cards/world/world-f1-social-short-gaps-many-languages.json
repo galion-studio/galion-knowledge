@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-social-short-gaps-many-languages",
+  "title": "People usually leave a short quiet between turns, in many languages",
+  "section": "world",
+  "category": "society",
+  "summary": "In a ten-language study, people answering yes-or-no questions usually avoided talking over each other and kept the quiet between turns short.",
+  "body": "Stivers, Enfield, and colleagues videoed informal conversation in ten languages on five continents and timed the move from a yes-or-no question to its answer. Every language showed the same broad shape: people generally avoided overlap, and they kept the silence between turns short. The most common timing in each language was a tiny gap, not a long pause. Average waits still differed by language, so the shared shape is not a claim that every community pauses for one identical length. The authors treat question-and-answer pairs as a window on turn-taking, not as a recording of every kind of talk.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Universals and cultural variation in turn-taking in conversation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2705608/",
+      "author": "Tanya Stivers, N. J. Enfield, and colleagues",
+      "date": "2009-06-24",
+      "accessed": "2026-11-26",
+      "note": "Supports the ten-language finding of avoidance of overlap and minimization of silence, with modes between a zero gap and a short positive gap, and quantitative differences in averages. Peer-reviewed open copy."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Tanya Stivers and colleagues",
+  "as_of_date": "2009-06-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm.turn-taking.ten-languages",
+    "horbm.turn-taking.one-at-a-time",
+    "world-f1-social-baby-pauses-differ-from-adult-gaps"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "conversation",
+    "gaps"
+  ],
+  "read_time_min": 1
+}

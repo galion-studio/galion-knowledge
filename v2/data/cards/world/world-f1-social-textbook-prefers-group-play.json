@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-textbook-prefers-group-play",
+  "title": "A textbook table says 4-year-olds prefer playing with others over playing alone",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax's milestone table lists, at age 4, a preference for social play over playing alone.",
+  "body": "In Table 9.4 the age-4 personal and social cell says the child prefers social play to solo play, and knows likes and interests. That is the textbook's wording for a shift toward company. It is not the CDC 3-year line about joining children who are already playing, and it has no percent attached. The table is a teaching summary. Preferences vary, and the cell is not a diagnosis.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2014",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only, no quotation. OpenStax Psychology web chapter at /books/psychology/, credited as the first-edition path (CC BY 4.0). Supports Table 9.4 age-4 personal/social cell: prefers social play to solo play."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-joins-other-children",
+    "world-f1-social-asks-to-play"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "playmates",
+    "preference"
+  ],
+  "read_time_min": 1
+}

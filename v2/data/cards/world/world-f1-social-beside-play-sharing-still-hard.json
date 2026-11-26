@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-beside-play-sharing-still-hard",
+  "title": "CDC's 2-year tips say sharing is still hard beside other children",
+  "section": "world",
+  "category": "psychology",
+  "summary": "CDC's 2-year tips say children this age play next to each other but do not yet know how to share and settle conflicts.",
+  "body": "The 2-year activities tell caregivers to watch closely during playdates. They say children this age play next to each other, but do not know how to share and solve problems, and they suggest showing sharing, turn-taking, and words. That is a tip about this age band, not the 75-percent milestone list. It does not say no toddler ever hands over a toy. The page's materials are not a diagnosis. A later checklist line about sometimes playing with other children is a separate month.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 2-year tip that children play next to each other but do not know how to share and solve problems. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-plays-beside-and-with",
+    "world-f1-social-hands-over-a-reached-for-pen"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "sharing",
+    "playdates"
+  ],
+  "read_time_min": 1
+}

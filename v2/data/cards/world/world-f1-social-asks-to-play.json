@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-asks-to-play",
+  "title": "Requesting a playmate who is not in the room is listed at age 4",
+  "section": "world",
+  "category": "psychology",
+  "summary": "By about age 4, CDC says most children ask to go find other children to play with when nobody is nearby.",
+  "body": "The 4-year social list includes asking to go play with children if none are around. The page's sample question is 'Can I play with Alex?' The name is an illustration, not a real child. The skill is seeking company that is absent, out loud. CDC places milestones where it expects 75 percent or more of children to show them, and it says the sheets are not diagnostic tools. This wording is the US checklist's wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 4-year social milestone about asking to play with children if none are around, including the sample question. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-joins-other-children",
+    "world-f1-social-pretends-to-be-someone"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "inviting",
+    "playmates"
+  ],
+  "read_time_min": 1
+}

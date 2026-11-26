@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-changes-behavior-by-place",
+  "title": "Changing behavior by place is listed at 4 years",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Most children change how they act depending on the place, such as a library, playground, or place of worship, by about 4 years, CDC says.",
+  "body": "CDC's 4-year social list includes changing behavior based on where she is, and names a place of worship, a library, and a playground. The item is about fitting conduct to a setting. Most means 75 percent or more. It is not a claim that one set of manners is universal, and a separate card covers cultural differences in gaze and distance only where a paper states them. The CDC materials are not a screening test. The places are the US page's examples.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 4-year social milestone about changing behavior by place, with worship, library, and playground as examples. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-people-read-the-situation",
+    "world-f1-social-takes-turns-in-games"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "settings",
+    "conduct"
+  ],
+  "read_time_min": 1
+}

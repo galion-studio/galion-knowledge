@@ -1,0 +1,43 @@
+{
+  "id": "world-f1-social-beside-play-two-lists",
+  "title": "Two opened lists put beside-play near age 2, with different cutoffs",
+  "section": "world",
+  "category": "psychology",
+  "summary": "A teaching table says 2-year-olds play alongside other children, while CDC's three-quarters mark for playing next to them, and sometimes with them, is 30 months.",
+  "body": "OpenStax Table 9.4, in the personal and social column for age 2, includes playing alongside other children. The CDC milestone at 30 months says most children play next to other children and sometimes play with them, where most means at least three quarters. Both describe company that is not yet a full group game. They do not use the same cutoff, and the CDC line also allows occasional play together. This card does not collapse the two wordings into one birthday. The 2-year caregiving tip about sharing is a third sentence and is left out of the comparison.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestones by 30 months",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports playing next to other children and sometimes with them as a 30-month milestone for most children. US federal page, public domain. Paraphrased, not quoted."
+    },
+    {
+      "title": "OpenStax Psychology",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2014",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only, no quotation. OpenStax Psychology web chapter at /books/psychology/, credited as the first-edition path (CC BY 4.0). Supports Table 9.4 age-2 personal/social cell: plays alongside other children."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "CDC and OpenStax",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-plays-beside-and-with",
+    "world-f1-social-beside-play-sharing-still-hard"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "parallel",
+    "lists"
+  ],
+  "read_time_min": 1
+}

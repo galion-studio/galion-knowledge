@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-says-look-at-me",
+  "title": "Saying look at me to show a skill is listed at 30 months",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Most children show what they can do by saying look at me by about 30 months, CDC says.",
+  "body": "CDC's 30-month social milestones include showing you what she can do by saying look at me. The phrase pulls a partner's attention onto the child's own act. Most means 75 percent or more, so the line is not a vocabulary test and not a rule about one sentence. The materials are not a substitute for validated screening. The wording is the US checklist's example.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 30-month social milestone about saying look at me to show what she can do. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-show-a-liked-object",
+    "world-f1-social-two-talk-exchanges"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "showing",
+    "attention"
+  ],
+  "read_time_min": 1
+}

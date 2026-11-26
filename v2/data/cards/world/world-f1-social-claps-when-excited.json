@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-claps-when-excited",
+  "title": "Clapping from excitement is a 15-month social item",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Most children clap when they are excited by about 15 months, CDC says.",
+  "body": "CDC lists clapping when excited among 15-month social milestones. The clap here is tied to excitement, not to the partner song named on the first-birthday list. Most means 75 percent or more, so a child who claps later is not outside every possible path. The page says these materials are not a substitute for a validated developmental screen. The age comes from the US checklist.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 15-month social milestone 'Claps when excited.' US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-patacake-one-year",
+    "world-f1-social-show-a-liked-object"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "clapping",
+    "excitement"
+  ],
+  "read_time_min": 1
+}

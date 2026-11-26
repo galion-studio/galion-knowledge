@@ -1,0 +1,44 @@
+{
+  "id": "world-f1-social-baby-pauses-differ-from-adult-gaps",
+  "title": "The short adult gap between turns is not what one infant study found at 9 months",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Adults in a ten-language study kept gaps short, while infants in a twelve-pair study waited longer at 9 and 12 months than at 5 months.",
+  "body": "Stivers and colleagues found that, across ten languages, answers to yes-or-no questions usually came after a very short quiet, with overlap avoided. Hilbrink and colleagues found that the same babies who were relatively quick at 5 months left longer gaps at 9 and 12 months, even though their mothers' timing did not shift with age. Putting the two studies side by side: the adult short-gap pattern is not already the infant pattern at the end of the first year, in the infant sample. The studies differ in who was recorded and in what counted as a turn. Neither result is a rule for a single child.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "Universals and cultural variation in turn-taking in conversation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2705608/",
+      "author": "Tanya Stivers, N. J. Enfield, and colleagues",
+      "date": "2009-06-24",
+      "accessed": "2026-11-26",
+      "note": "Supports short gaps and avoidance of overlap in adult answers across ten languages."
+    },
+    {
+      "title": "Early developmental changes in the timing of turn-taking",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01492/full",
+      "author": "Elma E. Hilbrink, Merideth Gattis, and Stephen C. Levinson",
+      "date": "2015-09-29",
+      "accessed": "2026-11-26",
+      "note": "Supports longer infant gaps at 9 and 12 months than at 5 months. CC BY 4.0; paraphrased."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Tanya Stivers and colleagues; Elma Hilbrink and colleagues",
+  "as_of_date": "2015-09-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-short-gaps-many-languages",
+    "world-f1-social-infant-gaps-lengthen",
+    "horbm.turn-taking.ten-languages"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "gaps",
+    "development"
+  ],
+  "read_time_min": 1
+}

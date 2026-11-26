@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-pretends-to-be-someone",
+  "title": "Playing the part of a teacher, hero, or dog is listed at age 4",
+  "section": "world",
+  "category": "psychology",
+  "summary": "By about age 4, CDC says most children take on another identity in play, such as a teacher, a superhero, or a dog.",
+  "body": "The social section for 4 years includes pretending to be something else during play. The examples printed there are teacher, superhero, and dog. The child steps into a role another person could recognize. CDC counts the item at an age it ties to 75 percent or more of children, and it says the sheets are not a screening test. This role-taking line is the US page's own examples, not a script children must memorize.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 4-year social milestone about pretending to be something else, with the teacher, superhero, and dog examples. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-pretends-with-objects",
+    "world-f1-social-pretend-uses-symbols"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "pretense",
+    "roles"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-two-talk-exchanges",
+  "title": "A pair of replies counts as conversation on the third-birthday list",
+  "section": "world",
+  "category": "psychology",
+  "summary": "By about the third birthday, CDC says most children can keep a talk going for at least two rounds with a caregiver.",
+  "body": "On the page for 3 years, CDC's communication section says the child talks with you in conversation using at least two back-and-forth exchanges. Picture one remark from the adult, an answer, another remark, and another answer. That pair of rounds is the whole item. It does not score how many different words the child knows. On these sheets, most means 75 percent or more, and the sheets are not a medical label. The number two belongs only to this birthday's page.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 3-year communication milestone of at least two back-and-forth conversational exchanges. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-three-talk-exchanges",
+    "world-f1-social-sound-turns-six-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "rounds",
+    "caregiver"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-textbook-sorts-real-and-pretend",
+  "title": "A textbook table lists telling real from pretend at age 5",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax's milestone table lists, at age 5, telling real from pretend.",
+  "body": "Table 9.4's age-5 personal and social cell includes telling real from pretend, and liking to please friends. The contrast is the child's sorting of play from the actual world, in a textbook row. It is not the CDC 4-year line about pretending to be someone else, and it is not a percent. The table is a summary for teaching. A child who still blends play and reality at 5 is not labeled by this card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2014",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only, no quotation. OpenStax Psychology web chapter at /books/psychology/, credited as the first-edition path (CC BY 4.0). Supports Table 9.4 age-5 personal/social cell: distinguishes real from pretend."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-pretends-to-be-someone",
+    "world-f1-social-pretend-uses-symbols"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "pretense",
+    "reality"
+  ],
+  "read_time_min": 1
+}

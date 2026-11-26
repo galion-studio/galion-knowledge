@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-joint-attention-is-shared-focus",
+  "title": "A 2023 review calls joint attention a shared focus that starts in the first year",
+  "section": "world",
+  "category": "psychology",
+  "summary": "A 2023 scoping review defines joint attention as purposefully lining up one's focus with another person's, beginning in the first year of life.",
+  "body": "Bradley, Smith, and Wilson define joint attention as the purposeful coordination of one person's focus of attention with another person's. They say it begins to develop in the first year. Before speech, infants have nonverbal tools for it, and the review names pointing gestures and coordinated looking among those tools. The paper is a review of measurement methods, not a new count of children, and it says researchers have not used one method. A missing shared look on a checklist is not, by itself, a diagnosis.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Qualitative and quantitative measures of joint attention development in the first year of life",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10588805/",
+      "author": "Holly Bradley, Beth A. Smith, and Rujuta B. Wilson",
+      "date": "2023-04-21",
+      "accessed": "2026-11-26",
+      "note": "Supports the definition of joint attention, its start in the first year, and nonverbal cues including pointing and coordinated eye gaze. Peer-reviewed open copy."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Holly Bradley, Beth Smith, and Rujuta Wilson",
+  "as_of_date": "2023-04-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-respond-or-start-shared-attention",
+    "world-f1-social-start-age-not-settled"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "joint-attention",
+    "definition"
+  ],
+  "read_time_min": 1
+}

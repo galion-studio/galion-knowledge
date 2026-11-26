@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-pretends-with-objects",
+  "title": "Feeding a block to a doll stands in for early object pretense",
+  "section": "world",
+  "category": "psychology",
+  "summary": "By about 30 months, CDC says most children pretend with objects, for example by offering a block to a doll as food.",
+  "body": "Under learning and thinking at 30 months, CDC lists using things to pretend. The printed case is feeding a block to a doll as if the block were food. One toy stands in for another. The agency's most means at least three quarters of children, and the checklist is not a diagnosis. The block-and-doll scene is this page's illustration of substitution, from the US list only.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 30-month cognitive milestone about using things to pretend, with the block-and-doll example. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-pretends-to-be-someone",
+    "world-f1-social-caregivers-mark-pretend-snacks"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "pretense",
+    "objects"
+  ],
+  "read_time_min": 1
+}

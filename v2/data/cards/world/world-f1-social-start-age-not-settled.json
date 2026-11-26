@@ -1,0 +1,54 @@
+{
+  "id": "world-f1-social-start-age-not-settled",
+  "title": "Opened papers do not give one month when joint attention starts",
+  "section": "world",
+  "category": "psychology",
+  "summary": "One 2023 review says joint-attention behaviors have been shown from about 6 months, and a 2021 paper says the ability emerges around 9 months.",
+  "body": "Bradley, Smith, and Wilson write that joint-attention behaviors have been shown to emerge at about 6 months in typically developing children, citing a 2014 chapter this card did not open on its own. Gabouer and Bortfeld write that the ability emerges early, at around 9 months, citing Mundy and colleagues. Both sentences report the literature rather than a new birthday count. This card does not average 6 and 9 into a single onset, and it does not turn either month into a test result.",
+  "claim_type": "contested",
+  "sources": [
+    {
+      "title": "Qualitative and quantitative measures of joint attention development in the first year of life",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10588805/",
+      "author": "Holly Bradley, Beth A. Smith, and Rujuta B. Wilson",
+      "date": "2023-04-21",
+      "accessed": "2026-11-26",
+      "note": "Supports the about-6-months emergence sentence, attributed by the review to Adamson 2014. Peer-reviewed open copy."
+    },
+    {
+      "title": "Revisiting how we operationalize joint attention",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8172475/",
+      "author": "Allison Gabouer and Heather Bortfeld",
+      "date": "2021-04-21",
+      "accessed": "2026-11-26",
+      "note": "Supports the around-9-months emergence sentence, attributed by the paper to Mundy and colleagues 2007. Peer-reviewed open copy."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Holly Bradley and colleagues; Allison Gabouer and Heather Bortfeld",
+  "as_of_date": "2023-04-21",
+  "status": "sourced - needs review",
+  "contested_views": [
+    {
+      "label": "About 6 months",
+      "summary": "The 2023 scoping review says joint-attention behaviors have been shown from about 6 months, citing Adamson 2014.",
+      "status": "opened"
+    },
+    {
+      "label": "Around 9 months",
+      "summary": "The 2021 operationalization paper says joint attention emerges around 9 months, citing Mundy and colleagues.",
+      "status": "opened"
+    }
+  ],
+  "related": [
+    "world-f1-social-joint-attention-is-shared-focus",
+    "world-f1-social-respond-before-initiate"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "joint-attention",
+    "onset"
+  ],
+  "read_time_min": 1
+}

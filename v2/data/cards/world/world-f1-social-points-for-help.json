@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-points-for-help",
+  "title": "A point that asks for help is on the 15-month communication list",
+  "section": "world",
+  "category": "psychology",
+  "summary": "CDC says most children point in order to request an object or assistance by about 15 months.",
+  "body": "The communication section at 15 months includes pointing to ask for something or to get help. The finger is doing the job of a request: bring that, or come help. CDC's most on milestone pages means 75 percent or more, so this is not a claim about every toddler. The 1-year activity tips mention that babies point when they want something, yet that birthday's milestone list does not include this request. The sheets are not a diagnosis. The month is the one printed in the United States.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 15-month communication milestone 'Points to ask for something or to get help.' US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-points-to-show",
+    "world-f1-social-pointing-ages-differ"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "pointing",
+    "requesting"
+  ],
+  "read_time_min": 1
+}

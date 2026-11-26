@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-cry-brings-company",
+  "title": "NIDCD calls a cry that brings comfort an early sign of communication",
+  "section": "world",
+  "category": "psychology",
+  "summary": "NIDCD says an early sign of communication is a baby learning that a cry brings food, comfort, and company.",
+  "body": "On its speech and language page, NIDCD says the first signs of communication occur when an infant learns that a cry will bring food, comfort, and companionship. The sentence is about the social use of a cry, not a schedule for how fast an adult must answer. The same page says the first three years are an intensive period for speech and language when the surroundings are full of sound and talk. It is a US institute description, not advice for one baby and not a diagnosis. Children vary, which that page also says.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Speech and language developmental milestones",
+      "url": "https://www.nidcd.nih.gov/health/speech-and-language",
+      "author": "NIDCD",
+      "date": "2022-10-13",
+      "accessed": "2026-11-26",
+      "note": "Supports the sentence that the first signs of communication are learning that a cry brings food, comfort, and companionship. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2022-10-13",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-copy-sounds-back-and-forth",
+    "world-f1-social-sound-turns-six-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "crying",
+    "communication"
+  ],
+  "read_time_min": 1
+}

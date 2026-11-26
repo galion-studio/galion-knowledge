@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-sound-turns-six-months",
+  "title": "Trading sounds with a caregiver is written as a 6-month skill",
+  "section": "world",
+  "category": "psychology",
+  "summary": "By about 6 months, CDC says most children take a turn making sounds after a caregiver's sounds.",
+  "body": "Language milestones at 6 months include taking turns making sounds with you. The baby vocalizes, then leaves room for the adult, then vocalizes again. That rhythm is social timing, not a word. The page's most means 75 percent or more. Caregiver tips at 2 months already suggest copying the baby's noises; this line is the later checklist item, not those tips. The sheets are not a diagnosis, and another country's chart may use a different month.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 6-month communication milestone 'Takes turns making sounds with you' and the 75 percent wording. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-copy-sounds-back-and-forth",
+    "world-f1-social-infant-gaps-lengthen"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "turns",
+    "sounds"
+  ],
+  "read_time_min": 1
+}

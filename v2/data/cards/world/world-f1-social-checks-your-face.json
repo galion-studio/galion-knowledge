@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-checks-your-face",
+  "title": "Checking your face in a new situation is listed at 2 years",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Most children look at a caregiver's face to see how to react in a new situation by about 2 years, CDC says.",
+  "body": "CDC's 2-year social list includes looking at your face to see how to react in a new situation. The glance borrows another person's reaction when the place is unfamiliar. Most means 75 percent or more on that page. It is not a claim that a child must stare, and a research review argues that eye contact is not the only sign of engagement across cultures. The CDC materials are not a screening test. The age is the US checklist's age.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 2-year social milestone 'Looks at your face to see how to react in a new situation.' US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-eye-contact-is-not-the-only-bond",
+    "world-f1-social-looks-at-faces-two-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "referencing",
+    "faces"
+  ],
+  "read_time_min": 1
+}

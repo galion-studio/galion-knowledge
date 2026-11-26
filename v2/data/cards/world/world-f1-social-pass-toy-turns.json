@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-pass-toy-turns",
+  "title": "A 9-month tip is a my-turn your-turn toy pass",
+  "section": "world",
+  "category": "psychology",
+  "summary": "CDC's 9-month tips suggest a my-turn, your-turn game of passing a toy back and forth.",
+  "body": "The 9-month activities include playing games such as my turn, your turn, by passing a toy back and forth. That is a play turn, not the vocal turn on the 6-month checklist. It is a suggestion printed for caregivers, not a milestone that names a percent of children who already pass toys. The page still says the program's materials are not a screening test. Families do this in many ways; the sentence is the US page's example.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the tip to play my-turn your-turn by passing a toy back and forth. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-peekaboo-smile-nine-months",
+    "world-f1-social-takes-turns-in-games"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "toys",
+    "turns"
+  ],
+  "read_time_min": 1
+}

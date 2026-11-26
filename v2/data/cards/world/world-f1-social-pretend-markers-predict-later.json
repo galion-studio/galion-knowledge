@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-pretend-markers-predict-later",
+  "title": "Mothers' pretend smiles and sound effects at 18 months predicted understanding at 24 months",
+  "section": "world",
+  "category": "psychology",
+  "summary": "In a follow-up of 20 of those pairs, more pretend smiles and more sound effects at 18 months predicted understanding a stranger's pretense at 24 months.",
+  "body": "Nakamichi's second experiment kept 20 of the original pairs. How often mothers smiled, and how many sound effects they used, during the pretend snack at 18 months predicted the toddlers' understanding of pretense acted by an unfamiliar adult at 24 months. The prediction is inside this sample, not a rule for every child. The outcome was understanding someone else's pretense, not a test score for school. Twenty pairs from one community is a narrow base.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Maternal behavior modifications during pretense and their long-term effects on toddlers' understanding of pretense",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4566882/",
+      "author": "Naoko Nakamichi",
+      "date": "2014-09-02",
+      "accessed": "2026-11-26",
+      "note": "Supports Experiment 2: smiles and sound effects at 18 months predicted understanding of a stranger's pretense at 24 months, in 20 pairs. Peer-reviewed open copy."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Naoko Nakamichi",
+  "as_of_date": "2014-09-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-caregivers-mark-pretend-snacks",
+    "world-f1-social-pretend-uses-symbols"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "pretense",
+    "prediction"
+  ],
+  "read_time_min": 1
+}

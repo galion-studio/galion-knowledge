@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-plays-beside-and-with",
+  "title": "Side-by-side play that sometimes becomes shared is a 30-month item",
+  "section": "world",
+  "category": "psychology",
+  "summary": "CDC says most children, by about 30 months, play next to other children and at times play with them.",
+  "body": "The 30-month social milestones say the child plays next to other children and sometimes plays with them. One sentence holds both the side-by-side scene and the occasional joint scene. CDC's most means 75 percent or more. Earlier tips for 2-year-olds had warned that sharing is still hard; this line is the later checklist, not that warning. The sheet is not a screening test. A textbook row that says age 2 plays alongside others is a different document.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 30-month social milestone 'Plays next to other children and sometimes plays with them.' US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-beside-play-sharing-still-hard",
+    "world-f1-social-beside-play-two-lists"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "parallel",
+    "playmates"
+  ],
+  "read_time_min": 1
+}
