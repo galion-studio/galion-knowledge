@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-first-spoken-word-window",
+  "title": "OpenStax puts a child's first spoken word between 1 year and 18 months",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says a child's first word is generally uttered sometime between 1 year and 18 months, in a one-word stage.",
+  "body": "OpenStax Psychology 7.2 says that generally a child's first word is uttered sometime between the ages of 1 year and 18 months, and that for the next few months the child stays in a one-word stage, producing one-word utterances. The word generally is the textbook's. The section's stage table labels 12 to 18 months as first words and 18 to 24 months as simple sentences of two words. Those ranges are the textbook's stages, not the CDC 75-percent checklist. The web view is the CC BY 4.0 first edition.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Psychology, section 7.2 Language",
+      "url": "https://openstax.org/books/psychology/pages/7-2-language",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "First-edition web view at /books/psychology/, which the preface licenses CC BY 4.0. Opened 2026-11-26. No review date was printed on the section, so the source date is the access date. Paraphrase, with credit to OpenStax Psychology. Supports the sentence that the first word generally comes between 1 year and 18 months, and Table 7.1 stages for first words and two-word sentences."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-ba-for-ball",
+    "world-f1-words-early-nouns-for-things"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "first",
+    "utterance"
+  ],
+  "read_time_min": 1
+}

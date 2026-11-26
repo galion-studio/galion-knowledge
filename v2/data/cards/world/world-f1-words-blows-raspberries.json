@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-blows-raspberries",
+  "title": "Blowing raspberries is a 6-month language item on the CDC list",
+  "section": "world",
+  "category": "psychology",
+  "summary": "The CDC 6-month language list says most babies blow raspberries, sticking the tongue out and blowing.",
+  "body": "Under language and communication at 6 months, the CDC lists blowing raspberries, and it explains the action as sticking the tongue out and blowing. Squealing is the next line and is not this claim. The raspberry line is filed with communication, next to taking turns making sounds, but it is its own item. The heading is what most babies do by 6 months. It is the United States checklist, not a judgment about one baby's mouth.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 6 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the language milestone 'Blows raspberries (sticks tongue out and blows).'"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-trades-sounds-back",
+    "world-f1-words-cooing-oooo-aahh"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "raspberries",
+    "tongue"
+  ],
+  "read_time_min": 1
+}

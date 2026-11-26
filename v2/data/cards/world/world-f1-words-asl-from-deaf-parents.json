@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-asl-from-deaf-parents",
+  "title": "NIDCD says a deaf child of deaf signing parents acquires ASL as hearing children acquire speech",
+  "section": "world",
+  "category": "psychology",
+  "summary": "NIDCD says a deaf child born to deaf parents who already use ASL begins to acquire it as naturally as a hearing child picks up spoken language.",
+  "body": "The NIDCD ASL page says parents are often the source of a child's early language. A deaf child born to parents who are deaf and who already use ASL will begin to acquire ASL as naturally as a hearing child picks up spoken language from hearing parents. The comparison is the page's. It is about children who have that language around them from the start. It is not a claim about children whose families do not sign, which the page discusses separately. The page was updated in 2021.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Is American Sign Language?",
+      "url": "https://www.nidcd.nih.gov/health/american-sign-language",
+      "author": "National Institute on Deafness and Other Communication Disorders",
+      "date": "2021-10-29",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Last updated date printed on the page: 29 October 2021. Supports the sentence comparing ASL acquisition by a deaf child of deaf signing parents to spoken-language acquisition by a hearing child."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2021-10-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-deaf-children-hearing-parents",
+    "world-f1-words-hands-babble-too"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "acquisition",
+    "deaf"
+  ],
+  "read_time_min": 1
+}

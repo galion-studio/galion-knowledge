@@ -1,0 +1,43 @@
+{
+  "id": "world-f1-words-looking-before-saying",
+  "title": "Looking to a named picture can come before the CDC age for extra spoken words",
+  "section": "world",
+  "category": "psychology",
+  "summary": "A lab study found understanding of some nouns at 6 to 9 months, while the CDC puts trying words besides mama or dada at about 15 months.",
+  "body": "Bergelson and Swingley reported that groups of 6- to 9-month-olds looked toward pictures of foods and body parts when a parent named them. The CDC 15-month page says most children try to say one or two words besides mama or dada. Read together, the laboratory looking result sits months earlier than that CDC speaking line. This is a reading across two different kinds of evidence, a looking-time study and a United States surveillance list. The study does not say how many words one baby knows, and the CDC line is not a test of understanding.",
+  "claim_type": "interpretation",
+  "sources": [
+    {
+      "title": "At 6-9 months, human infants know the meanings of many common nouns",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3295309/",
+      "author": "Elika Bergelson and Daniel Swingley",
+      "date": "2012-02-13",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. Supplies the looking result at 6 to 9 months. A different voice from the CDC page."
+    },
+    {
+      "title": "Milestones by 15 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supplies the 15-month speaking milestone used in the comparison. US federal page, public domain."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "Bergelson and Swingley",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-food-and-body-words",
+    "world-f1-words-ba-for-ball"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "comprehension",
+    "speaking"
+  ],
+  "read_time_min": 1
+}

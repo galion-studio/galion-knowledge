@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-cooing-oooo-aahh",
+  "title": "Cooing, sounds like oooo and aahh, is a 4-month CDC item",
+  "section": "world",
+  "category": "psychology",
+  "summary": "By 4 months, most babies coo, making sounds like oooo and aahh, on the CDC language list.",
+  "body": "The CDC 4-month page puts cooing in the language and communication list: makes sounds like oooo and aahh. The page's heading is what most babies do by 4 months. Cooing here is vowel-like sound, not a word and not the repeated syllables that show up on the 9-month page. A baby who is not yet making those vowels has not been given a diagnosis by this line. The age is the United States CDC mark.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 4 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/4-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the language milestone that most babies make sounds like oooo and aahh, labeled cooing."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-mamamama-bababababa",
+    "world-f1-words-three-quarters"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "cooing",
+    "vowels"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-words-not-a-screening-tool",
+  "title": "CDC milestone pages are not a substitute for a validated screening tool",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The CDC says its Learn the Signs materials are not a substitute for standardized, validated developmental screening tools.",
+  "body": "The CDC 2-month milestone page says, under keep in mind, that Learn the Signs. Act Early. materials are not a substitute for standardized, validated developmental screening tools. A checklist item is a prompt for a conversation with a clinician. It is not itself the screening instrument the page names. The page still says not to wait if a baby is missing a milestone, has lost a skill, or the caregiver is worried: talk with the doctor and ask about screening. That wording is the United States program's own limit on its materials.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the keep-in-mind sentence that the materials are not a substitute for standardized, validated developmental screening tools."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-three-quarters"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "screening",
+    "checklist"
+  ],
+  "read_time_min": 1
+}

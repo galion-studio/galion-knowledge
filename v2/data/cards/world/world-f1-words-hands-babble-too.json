@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-hands-babble-too",
+  "title": "OpenStax says babies in a signing home babble with their hands",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says babies raised where sign language is used also babble in hand gestures during the babbling stage.",
+  "body": "The same OpenStax section says babies raised in environments where sign language is used begin to show babbling in the gestures of their hands during the babbling stage. The textbook attributes that report to Petitto, Holowka, Sergio, Levy, and Ostry, 2004. This card does not reopen that paper. It reports what the textbook says. Hand babbling here is a developmental description in a psychology chapter. It does not describe the structure of any one signed language.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Psychology, section 7.2 Language",
+      "url": "https://openstax.org/books/psychology/pages/7-2-language",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "First-edition web view at /books/psychology/, which the preface licenses CC BY 4.0. Opened 2026-11-26. No review date was printed on the section, so the source date is the access date. Paraphrase, with credit to OpenStax Psychology. Supports the sentence that babies in sign-language environments babble with hand gestures, attributed to Petitto and colleagues, 2004. The Petitto paper itself was not opened for this card."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-babble-when-alone",
+    "world-f1-words-asl-is-a-full-language"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "signing",
+    "gestures"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-expose-early-to-a-language",
+  "title": "NIDCD tells families to give a deaf or hard-of-hearing child a language early",
+  "section": "world",
+  "category": "psychology",
+  "summary": "NIDCD tells families to give a deaf or hard-of-hearing child a spoken or signed language as soon as possible.",
+  "body": "The NIDCD ASL page tells parents to expose a deaf or hard-of-hearing child to a language, spoken or signed, as soon as possible. It says earlier exposure and an earlier start on acquiring that language go along with better language, cognitive, and social development. The page says research suggests the first few years are the most crucial, and that even the early months can matter for communication with caregivers. This is the institute's general statement. It is not a plan for one child, and it does not pick speaking over signing or signing over speaking.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Is American Sign Language?",
+      "url": "https://www.nidcd.nih.gov/health/american-sign-language",
+      "author": "National Institute on Deafness and Other Communication Disorders",
+      "date": "2021-10-29",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Last updated date printed on the page: 29 October 2021. Supports the section 'Why emphasize early language learning?' on early exposure to spoken or signed language. The page's newborn-screening sentences are not used here."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2021-10-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-intensive-early-years",
+    "world-f1-words-deaf-children-hearing-parents"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "exposure",
+    "early"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-gaze-follows-a-name",
+  "title": "A familiar thing gets a look when someone names it, by 15 months",
+  "section": "world",
+  "category": "psychology",
+  "summary": "CDC says that by 15 months most children look at a familiar object when a person names it.",
+  "body": "The 15-month CDC sheet has a comprehension entry that is only about looking. When a familiar object is named, the child looks at it. The entry does not ask for a pronunciation, and it does not say how large the set of known object names is. A cup, a shoe, or a pet could be the object. The sheet does not pick one. This looking entry is a United States group mark. It is not an eye exam, and it is not a score for any single child.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 15 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the language milestone 'Looks at a familiar object when you name it.'"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-ba-for-ball",
+    "world-f1-words-food-and-body-words"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "object",
+    "naming"
+  ],
+  "read_time_min": 1
+}

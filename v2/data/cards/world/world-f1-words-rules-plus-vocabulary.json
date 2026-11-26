@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-rules-plus-vocabulary",
+  "title": "OpenStax defines language as words plus systematic rules for passing information",
+  "section": "world",
+  "category": "society",
+  "summary": "OpenStax says language is a communication system that uses words and systematic rules to pass information from one person to another.",
+  "body": "OpenStax Psychology 7.2 says language is a communication system that involves using words and systematic rules to organize those words to transmit information from one individual to another. The same paragraph says language is a form of communication, and that not all communication is language. Postures, movements, odors, and many animal calls communicate without being language, in the textbook's account. The definition is the chapter's, in the CC BY 4.0 first edition. It is not a count of the world's languages.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Psychology, section 7.2 Language",
+      "url": "https://openstax.org/books/psychology/pages/7-2-language",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "First-edition web view at /books/psychology/, which the preface licenses CC BY 4.0. Opened 2026-11-26. No review date was printed on the section, so the source date is the access date. Paraphrase, with credit to OpenStax Psychology. Supports the opening definition of language and the sentence that not all communication is language."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-lexicon-versus-grammar",
+    "world-f1-words-shared-rules-including-sign"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "definition",
+    "rules"
+  ],
+  "read_time_min": 1
+}

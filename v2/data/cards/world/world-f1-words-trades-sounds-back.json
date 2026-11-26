@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-trades-sounds-back",
+  "title": "By 6 months, most babies take turns making sounds with a person",
+  "section": "world",
+  "category": "psychology",
+  "summary": "The CDC 6-month language list says most babies take turns making sounds with you.",
+  "body": "The CDC 6-month page lists, under language and communication, taking turns making sounds with you. The turn is sound for sound. It is not yet a sentence and not the later two-word phrase. A tip on the same page suggests copying the baby's sounds during back-and-forth play, which is a caregiver activity, not the milestone itself. The milestone is what most babies do by 6 months on the United States list.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 6 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the language milestone 'Takes turns making sounds with you.'"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-bababa-then-book",
+    "world-f1-words-answer-the-babble"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "turns",
+    "sounds"
+  ],
+  "read_time_min": 1
+}

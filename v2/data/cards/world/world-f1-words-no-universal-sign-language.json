@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-no-universal-sign-language",
+  "title": "NIDCD says there is no universal sign language, and BSL is not ASL",
+  "section": "world",
+  "category": "society",
+  "summary": "NIDCD says there is no universal sign language, and that British Sign Language is a different language from ASL.",
+  "body": "The NIDCD ASL page says there is no universal sign language. Different sign languages are used in different countries or regions. The example is that British Sign Language is a different language from ASL, and that people in the United States who know ASL may not understand BSL. The page adds that some countries adopt features of ASL in their sign languages. That is not a claim that those languages are ASL. The page was last updated on 29 October 2021.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Is American Sign Language?",
+      "url": "https://www.nidcd.nih.gov/health/american-sign-language",
+      "author": "National Institute on Deafness and Other Communication Disorders",
+      "date": "2021-10-29",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Last updated date printed on the page: 29 October 2021. Supports the section 'Is sign language the same in other countries?' including the BSL example."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2021-10-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-asl-is-a-full-language",
+    "world-f1-words-glottolog-sign-count"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "bsl",
+    "universal"
+  ],
+  "read_time_min": 1
+}

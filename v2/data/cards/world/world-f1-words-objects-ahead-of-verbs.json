@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-objects-ahead-of-verbs",
+  "title": "A follow-up study found early understanding stronger for concrete object words",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Bergelson and Swingley reported again that 6- to 9-month-olds understand some common object words, with weaker comprehension of other word types.",
+  "body": "A 2014 paper by Elika Bergelson and Daniel Swingley, published on PMC, tested 49 infants from 6 to 16 months with side-by-side videos. The authors say they show again that infants understand common words by 6 to 9 months, and that performance increases substantially around 14 months. In the 6- to 9-month group there were 12 infants. The abstract says those youngest infants' understanding included common words for concrete objects, while comprehension of other words was relatively impoverished. The paper is one replication. It does not say every infant knows the same objects.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Early Word Comprehension in Infants: Replication and Extension",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4671511/",
+      "author": "Elika Bergelson and Daniel Swingley",
+      "date": "2014-12-13",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at the PMC page. The PMC record dates publication 13 December 2014. Supports the abstract on 6- to 9-month comprehension of concrete-object words, the rise around 14 months, and the sample of 49 infants."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Bergelson and Swingley",
+  "as_of_date": "2014-12-13",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-food-and-body-words",
+    "world-f1-words-early-nouns-for-things"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "objects",
+    "verbs"
+  ],
+  "read_time_min": 1
+}

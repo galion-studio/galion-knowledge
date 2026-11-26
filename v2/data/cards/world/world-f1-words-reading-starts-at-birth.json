@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-reading-starts-at-birth",
+  "title": "NICHD lists reading to a child from birth as a way to help learning",
+  "section": "world",
+  "category": "psychology",
+  "summary": "NICHD says caregivers can help by reading to a child, beginning when the child is born.",
+  "body": "The NICHD page on promoting early learning says a caregiver can help by reading to the child, beginning when she or he is born. Reading sits in a short list with naming objects, listening and responding, and practicing counting. The page does not report a reading score or a required number of books. It presents the list as everyday opportunities, and it says home and daily life have a strong effect on learning. The page is a United States institute page.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How can parents and caregivers promote early learning?",
+      "url": "https://www.nichd.nih.gov/health/topics/early-learning/conditioninfo/promote",
+      "author": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. No updated date was printed on the page opened. Supports the bullet 'Reading to your child, beginning when she or he is born.'"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NICHD",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-talk-read-sing",
+    "world-f1-words-naming-things-around"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "reading",
+    "birth"
+  ],
+  "read_time_min": 1
+}

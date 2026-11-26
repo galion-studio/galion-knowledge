@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-morpheme-carries-meaning",
+  "title": "A morpheme, in that chapter, is the smallest piece that means something",
+  "section": "world",
+  "category": "society",
+  "summary": "OpenStax says a morpheme is the smallest unit that carries meaning, and that the English word I can be one.",
+  "body": "In the OpenStax psychology chapter on language, the smallest piece that still means something is called a morpheme. The illustration is the English word I, which the authors say can stand alone as a meaningful piece. An ending that marks more than one, or an ending that marks the past, can also be a meaningful piece even when it is not a whole word. The chapter's explicit example remains I. This is a teaching definition. It does not inventory the pieces of any one language.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Psychology, section 7.2 Language",
+      "url": "https://openstax.org/books/psychology/pages/7-2-language",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "First-edition web view at /books/psychology/, which the preface licenses CC BY 4.0. Opened 2026-11-26. No review date was printed on the section, so the source date is the access date. Paraphrase, with credit to OpenStax Psychology. Supports the morpheme definition and the example that I can be both a phoneme and a morpheme."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-phoneme-is-a-sound",
+    "world-f1-words-syntax-builds-sentences"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "morpheme",
+    "meaning"
+  ],
+  "read_time_min": 1
+}

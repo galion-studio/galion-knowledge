@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-glottolog-spoken-l1-count",
+  "title": "Glottolog 5.4 counted 7,685 spoken first languages on 10 November 2026",
+  "section": "world",
+  "category": "geography",
+  "summary": "On 10 November 2026, Glottolog 5.4 listed 7,685 spoken L1 languages, and called the classification its best guess.",
+  "body": "The Glottolog 5.4 information page says that currently, on 10 November 2026, there are 7,685 spoken L1 languages, meaning spoken languages traditionally used by a community as their first language. The editors say the classification is their best guess, and that for many groups there is little historical-comparative research, so classifications can change. Distinct, on that page, means not mutually intelligible with any other language. The page also says Glottolog is complete only for classifiable languages. A round number without the version and the date would hide those limits. Another catalogue can draw the language-versus-dialect line differently.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Glottolog 5.4, About Languoids",
+      "url": "https://glottolog.org/glottolog/glottologinformation",
+      "author": "Glottolog editors",
+      "date": "2026-11-10",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. The page dates its counts 'Currently 2026-11-10'. Supports the 7,685 spoken L1 count dated 2026-11-10, the best-guess caveat, the mutual-intelligibility criterion, and the statement that Glottolog is complete only for classifiable languages."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Glottolog",
+  "as_of_date": "2026-11-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.geography.glottolog-languages",
+    "world-f1-words-glottolog-sign-count"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "glottolog",
+    "count"
+  ],
+  "read_time_min": 1
+}

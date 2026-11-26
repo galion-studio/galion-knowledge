@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-words-gooses-and-mouses",
+  "title": "OpenStax uses gooses and mouses as examples of an over-applied plural rule",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says young children may add a regular plural ending to exceptions, saying forms like gooses or mouses.",
+  "body": "OpenStax Psychology 7.2 describes overgeneralization as extending a language rule to an exception. In English, a plural is often marked with an s, as in dogs, and the textbook says young children may say gooses or mouses before they learn the exceptions. It treats those mistakes as evidence that the regular rule is understood. The examples are the chapter's, credited in the section to Moskowitz, 1978. They are not errors to copy as standard English, and the book is the CC BY 4.0 first edition.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Psychology, section 7.2 Language",
+      "url": "https://openstax.org/books/psychology/pages/7-2-language",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "First-edition web view at /books/psychology/, which the preface licenses CC BY 4.0. Opened 2026-11-26. No review date was printed on the section, so the source date is the access date. Paraphrase, with credit to OpenStax Psychology. Supports the overgeneralization paragraph and the examples gooses and mouses, attributed to Moskowitz, 1978."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-lexicon-versus-grammar"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "plural",
+    "rule"
+  ],
+  "read_time_min": 1
+}

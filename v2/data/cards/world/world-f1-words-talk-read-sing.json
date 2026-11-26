@@ -1,0 +1,43 @@
+{
+  "id": "world-f1-words-talk-read-sing",
+  "title": "The CDC tells caregivers to talk, read, and sing to a 2-month-old",
+  "section": "world",
+  "category": "psychology",
+  "summary": "A CDC tip for 2-month-olds is to talk, read, and sing to the baby to help language develop.",
+  "body": "On the CDC 2-month tips, one line says to talk, read, and sing to your baby to help her develop and understand language. It is an activity for the adult, not a milestone the baby is expected to pass. The page does not measure how many minutes of reading change a later score. A 4-month tip uses similar words and adds that this helps the baby learn to speak and understand words later. Both lines are United States CDC suggestions.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the tip to talk, read, and sing to the baby to help her develop and understand language."
+    },
+    {
+      "title": "Milestones by 4 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/4-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the tip that talking, reading, and singing helps the baby learn to speak and understand words later."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-reading-starts-at-birth",
+    "world-f1-words-repeat-and-expand"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "singing",
+    "reading"
+  ],
+  "read_time_min": 1
+}

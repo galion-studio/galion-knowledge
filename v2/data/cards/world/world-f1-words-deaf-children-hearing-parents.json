@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-deaf-children-hearing-parents",
+  "title": "NIDCD says 9 out of 10 children born deaf are born to parents who hear",
+  "section": "world",
+  "category": "society",
+  "summary": "NIDCD says that 9 out of 10 children who are born deaf are born to parents who hear.",
+  "body": "On the ASL page, NIDCD states that 9 out of 10 children who are born deaf are born to parents who hear. The paragraph does not attach a separate study citation to that fraction. It uses the figure while describing how language learning can differ when hearing parents have no prior experience with ASL. Some hearing parents introduce sign language and often learn it along with the child. Children who are deaf and have hearing parents often learn sign language through deaf peers and become fluent, the page says. The fraction is the institute's statement, not a count from this card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Is American Sign Language?",
+      "url": "https://www.nidcd.nih.gov/health/american-sign-language",
+      "author": "National Institute on Deafness and Other Communication Disorders",
+      "date": "2021-10-29",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Last updated date printed on the page: 29 October 2021. Supports the sentence that 9 out of 10 children born deaf are born to parents who hear, and the following sentences about how those children may learn sign language."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2021-10-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-asl-from-deaf-parents",
+    "world-f1-words-expose-early-to-a-language"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "deaf",
+    "parents"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-bababa-then-book",
+  "title": "A CDC tip is to repeat bababa and then offer a real word",
+  "section": "world",
+  "category": "psychology",
+  "summary": "The CDC 9-month tips say to repeat a baby's bababa and then say a word such as book.",
+  "body": "A caregiver tip on the CDC 9-month page says to repeat the baby's sounds and then say simple words that use those sounds. The example is: if the baby says bababa, repeat bababa, then say book. That is a suggested activity, not a milestone the baby is scored on. The page does not claim the baby learns book from one repetition. It is one United States tip among others on that page.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the tip to repeat bababa and then say book."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-repeat-and-expand",
+    "world-f1-words-mamamama-bababababa"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "bababa",
+    "book"
+  ],
+  "read_time_min": 1
+}
