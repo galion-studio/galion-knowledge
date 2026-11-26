@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-friction-slows-sliding",
+  "title": "Friction is the force that slows a sliding object",
+  "section": "world",
+  "category": "physics",
+  "summary": "Friction is an outside force that acts against sliding and makes a sliding object slow down.",
+  "body": "OpenStax Physics uses a sliding box to show why motion dies away. A net outside force acts on the box and slows it. Without that force the box would keep a constant velocity. The page names the slowing force friction, and says kinetic friction is the surface force, parallel to the surface, that opposes a sliding object. Urone and Hinrichs, 26 March 2020. How large that force is depends on the surfaces, which the page treats through a coefficient.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.2 Newton's First Law of Motion: Inertia",
+      "url": "https://openstax.org/books/physics/pages/4-2-newtons-first-law-of-motion-inertia",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only. OpenStax Physics, first edition, Paul Peter Urone and Roger Hinrichs, published 26 March 2020, path /books/physics/. The OpenStax CMS lists this first edition as CC BY 4.0. The site footer also prints a general NC-SA line for textbooks except where otherwise noted; this card follows the first-edition CC BY grant and does not copy a sentence. Supports the sliding-box account and the definition of kinetic friction."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "friction",
+    "sliding"
+  ],
+  "read_time_min": 1
+}

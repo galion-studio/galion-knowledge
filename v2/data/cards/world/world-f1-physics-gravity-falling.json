@@ -28,7 +28,7 @@
     "core-pack",
     "area:foundations-physics",
     "gravity",
-    "drop"
+    "falling"
   ],
   "read_time_min": 1
 }
