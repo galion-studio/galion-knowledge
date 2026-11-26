@@ -2,7 +2,7 @@
 
 Perpetual Open MIT License. Copyright (c) 2026 Galion Labs.
 
-Swarm S3 of 4 for knowledge.galion.app V2. This file is the outline. The cards under `v2/data/cards/horbm/` are the seed. HORBM means Heuristic Open Retrieval Brain Models: Galion's retrieval-based brain, not a large language model, CPU-first, with short-term and long-term memory, a persona, an inner-life layer, and real-time full-duplex voice.
+Swarm S3 of 4 for knowledge.galion.app V2. This file is the outline. The cards under `v2/data/cards/horbm/` are the seed. HORBM means Heuristic Open Retrieval Brain Model: Galion's retrieval-based brain, not a large language model, CPU-first, with short-term and long-term memory, a persona, an inner-life layer, and real-time full-duplex voice.
 
 This pack answers one question: **what must that brain know in order to communicate with a person?** It does not design the retriever, the ranker, the diary store, or the mouth. Those belong to other notes and other swarms.
 
