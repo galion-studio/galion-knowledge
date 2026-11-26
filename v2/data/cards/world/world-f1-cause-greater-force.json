@@ -4,7 +4,7 @@
   "section": "world",
   "category": "physics",
   "summary": "OpenStax Physics says acceleration is directly proportional to the net external force, so a greater force accelerates the same mass more.",
-  "body": "OpenStax Physics says a nonzero net external force produces acceleration, and that acceleration is directly proportional to that force. If the force doubles and the mass stays the same, the acceleration doubles. The same section says a larger mass yields a smaller acceleration from a given force. A figure contrasts a basketball with a stalled car under the same push. This card is only that proportion. It leaves out weight and falling.",
+  "body": "OpenStax Physics says a nonzero net external force produces acceleration, and that acceleration is directly proportional to that force. If the force doubles and the mass stays the same, the acceleration doubles. The same section says a larger mass yields a smaller acceleration from a given force. A figure contrasts a basketball with a stalled car under the same push. This card is only that proportion. It leaves out weight and falling. Weight and falling are left out of this card.",
   "claim_type": "fact",
   "sources": [
     {

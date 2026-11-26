@@ -4,7 +4,7 @@
   "section": "world",
   "category": "physics",
   "summary": "OpenStax Physics says a force is a push or a pull, and that a ball moves only when it is pushed or pulled.",
-  "body": "OpenStax Physics says a force pushes or pulls an object. A teaching note on the same page uses a ball: it moves only when pushed or pulled, and that push or pull is the application of a force. Applying the force changes the ball's motion. The page also says some forces act with no contact. This card is only the push-or-pull idea. It is a textbook definition, not a reading from one ball.",
+  "body": "OpenStax Physics says a force pushes or pulls an object. A teaching note on the same page uses a ball: it moves only when pushed or pulled, and that push or pull is the application of a force. Applying the force changes the ball's motion. The page also says some forces act with no contact. This card is only the push-or-pull idea. It is a textbook definition, not a reading from one ball. This card is only the push or the pull.",
   "claim_type": "fact",
   "sources": [
     {

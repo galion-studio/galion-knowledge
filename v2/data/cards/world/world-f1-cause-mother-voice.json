@@ -2,9 +2,9 @@
   "id": "world-f1-cause-mother-voice",
   "title": "OpenStax reports that three-week-olds sucked harder for their mother's voice",
   "section": "world",
-  "category": "psychology",
+  "category": "development",
   "summary": "OpenStax reports that three-week-old babies sucked more strongly when a pacifier played their mother's voice than a stranger's voice.",
-  "body": "OpenStax Psychology says that in one experiment, three-week-old babies were given pacifiers that played a recording of the mother's voice and of a stranger's voice. When the infants heard the mother's voice, they sucked more strongly. The textbook cites Mills and Melhuish (1974). This card did not open that paper. The report is about recognizing a familiar voice in that study. It is not a description of how hearing works.",
+  "body": "OpenStax Psychology says that in one experiment, three-week-old babies were given pacifiers that played a recording of the mother's voice and of a stranger's voice. When the infants heard the mother's voice, they sucked more strongly. The textbook cites Mills and Melhuish (1974). This card did not open that paper. The report is about recognizing a familiar voice in that study. It is not a description of how hearing works. The 1974 paper was not opened, so the claim is the textbook's report of the pacifier recording.",
   "claim_type": "fact",
   "sources": [
     {
@@ -23,8 +23,7 @@
   "contested_views": [],
   "related": [
     "world-f1-cause-cdc-familiar-people",
-    "world-f1-cause-cdc-named-object",
-    "world-f1-cause-mobile-next-day"
+    "world-f1-cause-cdc-named-object"
   ],
   "tags": [
     "core-pack",

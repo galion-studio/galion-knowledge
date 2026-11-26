@@ -4,7 +4,7 @@
   "section": "world",
   "category": "physics",
   "summary": "OpenStax Physics uses a pitched ball struck by a bat as an example of an outside force changing speed and direction.",
-  "body": "OpenStax Physics, opening Newton's second law, says a change in motion is caused by an external force. The instance is a pitched ball that changes speed and direction when a bat hits it. A change in motion, the section says, is a change in velocity: speed, direction, or both. Only a nonzero net external force produces that change, and the page calls the change an acceleration. The bat is an illustration. The page does not time a swing.",
+  "body": "OpenStax Physics, opening Newton's second law, says a change in motion is caused by an external force. The instance is a pitched ball that changes speed and direction when a bat strikes it. A change in motion, the section says, is a change in velocity: speed, direction, or both. Only a nonzero net external force produces that change, and the page calls the change an acceleration. The bat is an illustration. The page does not time a swing.",
   "claim_type": "fact",
   "sources": [
     {

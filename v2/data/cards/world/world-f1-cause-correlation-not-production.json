@@ -4,7 +4,7 @@
   "section": "world",
   "category": "method",
   "summary": "OpenStax says a correlation is a relationship in which variables change together, and that this does not by itself show that one produces the other.",
-  "body": "OpenStax Psychology says correlation means a relationship between two or more variables, and that the relationship does not necessarily imply that one produces the other. When variables are correlated, as one changes, so does the other. The textbook's limit is that a tidy link still leaves the producing relation unsettled. The lesson is from its research-methods section. Linked method cards cover p-values and replication. This card does not restate them.",
+  "body": "OpenStax Psychology says correlation means a relationship between two or more variables, and that the relationship does not necessarily imply that one produces the other. When variables are correlated, as one changes, so does the other. The textbook's limit is that a tidy link still leaves the producing relation unsettled. The point is from its research-methods section. Linked method cards cover p-values and replication. This card does not restate them. Linked method cards cover probability thresholds and replication, and this card does not restate them.",
   "claim_type": "fact",
   "sources": [
     {

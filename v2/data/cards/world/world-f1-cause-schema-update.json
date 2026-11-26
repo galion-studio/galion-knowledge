@@ -2,9 +2,9 @@
   "id": "world-f1-cause-schema-update",
   "title": "Piaget said children fit a new experience in, or change the schema",
   "section": "world",
-  "category": "psychology",
+  "category": "development",
   "summary": "OpenStax says Piaget held that children assimilate a new experience into a current schema, or accommodate by changing the schema.",
-  "body": "OpenStax Psychology says Piaget's children build schemata, mental models for categorizing and interpreting information. Assimilation takes in information that fits what they already know. Accommodation changes a schema when the new information does not fit. The book's example is a child who calls a sheep a dog, then revises the dog schema after being corrected. The pair is his account of how expectations update. It is not an age band.",
+  "body": "OpenStax Psychology says Piaget's children build schemata, mental models for categorizing and interpreting information. Assimilation takes in information that fits what they already know. Accommodation changes a schema when the new information does not fit. The book's example is a child who calls a sheep a dog, then revises the dog schema after being corrected. The pair is his account of how expectations update. It is not an age band. The update is not an age cutoff.",
   "claim_type": "fact",
   "sources": [
     {

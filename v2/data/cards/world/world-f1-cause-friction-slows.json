@@ -1,10 +1,10 @@
 {
   "id": "world-f1-cause-friction-slows",
-  "title": "Kinetic friction is a force that slows a sliding object",
+  "title": "Kinetic friction is a force that decelerates a sliding object",
   "section": "world",
   "category": "physics",
   "summary": "OpenStax Physics says kinetic friction opposes sliding and makes a sliding object slow down.",
-  "body": "OpenStax Physics says a sliding box slows because a net external force acts on it. The force it names is friction. Kinetic friction is a force from a surface, parallel to that surface, that opposes sliding and makes the object slow down. Static friction is the kind that stops slipping before motion starts. With an air-hockey table's air off, the page says, a puck travels only a short way before friction stops it. The account is the textbook's. It gives no friction number for a kitchen floor.",
+  "body": "OpenStax Physics says a sliding box decelerates because a net external force acts on it. The force it names is friction. Kinetic friction is a force from a surface, parallel to that surface, that opposes sliding and makes the object slow down. Static friction is the kind that stops slipping before motion starts. With an air-hockey table's air off, the page says, a puck travels only a short way before friction stops it. The account is the textbook's. It gives no friction number for a kitchen floor.",
   "claim_type": "fact",
   "sources": [
     {

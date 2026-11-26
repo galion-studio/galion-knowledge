@@ -2,9 +2,9 @@
   "id": "world-f1-cause-cdc-two-hands",
   "title": "By two years, most children use one hand while the other holds on",
   "section": "world",
-  "category": "psychology",
+  "category": "development",
   "summary": "The CDC says that by two years, most children hold something in one hand while the other hand works, such as taking a lid off.",
-  "body": "The CDC's two-year cognitive list includes holding something in one hand while using the other hand. The printed example is holding a container and taking the lid off. The item is a two-handed action on the US list of what most children do by age two. It does not explain how a lid seals, and it is not a warning about what belongs in a container.",
+  "body": "The CDC's two-year cognitive list includes holding something in one hand while using the other hand. The printed example is holding a container and taking the lid off. The item is a bimanual action on the US list of what most children do by age two. It does not explain how a lid seals, and it is not a warning about what belongs in a container. The line is about using both hands together. It does not describe how a lid seals.",
   "claim_type": "fact",
   "sources": [
     {
@@ -22,7 +22,6 @@
   "status": "sourced - needs review",
   "contested_views": [],
   "related": [
-    "world-f1-cause-means-end-cover",
     "world-f1-cause-cdc-switches",
     "world-f1-cause-cdc-usual-use"
   ],
