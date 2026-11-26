@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-objects-water-two-hydrogen",
+  "title": "Each water molecule has two hydrogen atoms and one oxygen atom",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "A water molecule is one unit of two hydrogen atoms and one oxygen atom joined together.",
+  "body": "OpenStax Chemistry says a molecule is two or more atoms joined by chemical bonds, moving as a unit. A water molecule is the example that contains two hydrogen atoms and one oxygen atom. Glucose is a different molecule, with six carbon, twelve hydrogen, and six oxygen atoms. The page also says that if a glass of water were enlarged to the size of the Earth, the molecules inside would be about the size of golf balls. The catalog mass of water is a different card and is not repeated here. This card is only which atoms sit in one molecule.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Chemistry",
+      "url": "https://openstax.org/books/chemistry/pages/1-2-phases-and-classification-of-matter",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Chemistry, first-edition path /books/chemistry/, CC BY 4.0. Supports the water-molecule count of two hydrogen atoms and one oxygen atom in section 1.2. Paraphrase only; the section was not copied."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.water"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "molecule",
+    "hydrogen"
+  ],
+  "read_time_min": 1
+}

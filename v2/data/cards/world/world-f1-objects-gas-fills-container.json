@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-gas-fills-container",
+  "title": "A gas matches both the outline and the room inside its holder",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "A gas takes on both the outline and the full amount of space of whatever holds it.",
+  "body": "OpenStax Chemistry says a gas adopts the outline of its holder and also the holder's whole interior space. A balloon is the section's proof that a gas really occupies room: with nothing in it, the balloon would stay limp. Clouds can look like one drifting body, yet the page treats a cloud as air mixed with tiny bits of water, not as one pure gas. This card stops at how a gas fills a holder. It does not state a pressure formula.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Chemistry",
+      "url": "https://openstax.org/books/chemistry/pages/1-2-phases-and-classification-of-matter",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Chemistry, first-edition path /books/chemistry/, CC BY 4.0. Supports a gas taking both the shape and the volume of its container, and the cloud as a mixture, in section 1.2. Paraphrase only; the section was not copied."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "gas",
+    "volume"
+  ],
+  "read_time_min": 1
+}

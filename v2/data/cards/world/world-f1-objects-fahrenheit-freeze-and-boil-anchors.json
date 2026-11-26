@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-objects-fahrenheit-freeze-and-boil-anchors",
+  "title": "The Fahrenheit scale marks water's freeze at 32 degrees and its boil at 212",
+  "section": "world",
+  "category": "measurement",
+  "summary": "On the Fahrenheit scale, OpenStax sets water's freezing point at 32 degrees and its boiling point at 212 degrees.",
+  "body": "OpenStax Physics says that on the Fahrenheit scale the freezing point of water is at 32 degrees Fahrenheit and the boiling point is at 212 degrees Fahrenheit. It uses those two anchors to explain why one Celsius degree is a larger step than one Fahrenheit degree: 100 Celsius degrees span the same range as 180 Fahrenheit degrees. NIST's prose for the Celsius boil says about 100 degrees, and that wording stays on the linked card. This card reports the textbook's Fahrenheit anchors, not a new laboratory boiling point. A pressure other than the one assumed for those anchors is outside the page.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Physics",
+      "url": "https://openstax.org/books/physics/pages/11-1-temperature-and-thermal-energy",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Physics, path /books/physics/, CC BY 4.0. Supports 32 degrees Fahrenheit and 212 degrees Fahrenheit as the scale's freezing and boiling anchors for water, in section 11.1. Paraphrase only; the section was not copied."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.water-freeze-boil-nist"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "fahrenheit",
+    "boiling"
+  ],
+  "read_time_min": 1
+}

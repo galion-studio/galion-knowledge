@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-matter-takes-space",
+  "title": "Matter is anything that takes up space and has mass",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "Matter is anything that takes up space and has mass, and a gas counts, because a balloon swells when gas is put in.",
+  "body": "OpenStax Chemistry says matter is anything that occupies space and has mass. Solids and liquids make that easy to see, because they take room and they have weight. A gas is matter too. If a gas took no room, a balloon would stay flat instead of puffing up when it is filled. The page is a textbook definition. It does not name a particular gas, and it does not weigh the balloon.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Chemistry",
+      "url": "https://openstax.org/books/chemistry/pages/1-2-phases-and-classification-of-matter",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Chemistry, first-edition path /books/chemistry/, CC BY 4.0. Supports the definition of matter and the balloon example in section 1.2. Paraphrase only; the section was not copied."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "matter",
+    "mass"
+  ],
+  "read_time_min": 1
+}

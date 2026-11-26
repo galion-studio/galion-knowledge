@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-solid-keeps-shape",
+  "title": "A solid is rigid and keeps a definite shape",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "A solid is rigid and keeps a definite shape, and its volume hardly changes when the pressure changes.",
+  "body": "OpenStax Chemistry says a solid is rigid and possesses a definite shape. The same section says both solid and liquid samples have volumes that are very nearly independent of pressure. A liquid, which flows and takes the container's shape, is a different card, and so is a gas, which takes the container's volume as well. Sand can be poured, but the page says that happens because sand is many small solid grains, not because a solid loses its shape. The page does not rank materials from soft to hard. Hardness is named elsewhere as a physical property, not measured here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Chemistry",
+      "url": "https://openstax.org/books/chemistry/pages/1-2-phases-and-classification-of-matter",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Chemistry, first-edition path /books/chemistry/, CC BY 4.0. Supports the rigid solid of definite shape, and the note that sand pours because it is many small solid grains, in section 1.2. Paraphrase only; the section was not copied."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "solid",
+    "shape"
+  ],
+  "read_time_min": 1
+}

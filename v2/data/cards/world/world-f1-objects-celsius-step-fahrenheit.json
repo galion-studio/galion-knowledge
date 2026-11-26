@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-objects-celsius-step-fahrenheit",
+  "title": "One Celsius degree is an interval of 1.8 Fahrenheit degrees",
+  "section": "world",
+  "category": "measurement",
+  "summary": "An interval of one degree Celsius is the same span as 1.8 degrees Fahrenheit, NIST says.",
+  "body": "NIST's temperature page says an interval of one Celsius degree corresponds to an interval of 1.8 Fahrenheit degrees on the Fahrenheit scale. It also says one Celsius degree is an interval of 1 kelvin. The page's prose on where water freezes and boils, including the word about, already has its own card, so those points are not rewritten here. This card is only the size of one step on the two everyday scales. It is a definition of the interval, not a weather report.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "SI Units – Temperature",
+      "url": "https://www.nist.gov/pml/owm/si-units-temperature",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "NIST SI temperature page, U.S. government work, public domain. No review date was printed on the page opened 2026-11-26. Supports the 1.8 Fahrenheit-degree interval. The freeze and boil prose is not repeated."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.water-freeze-boil-nist",
+    "world.constants.celsius-offset",
+    "world.constants.kelvin-boltzmann"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "celsius",
+    "fahrenheit"
+  ],
+  "read_time_min": 1
+}

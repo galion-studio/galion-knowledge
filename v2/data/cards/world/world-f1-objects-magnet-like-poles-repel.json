@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-objects-magnet-like-poles-repel",
+  "title": "Like magnetic poles repel, and unlike poles attract",
+  "section": "world",
+  "category": "physics",
+  "summary": "The like poles of two magnets repel each other, and a north pole attracts a south pole.",
+  "body": "OpenStax Physics says the parts of a magnet that push or pull hardest are its poles. The north poles of two magnets repel, and so do the south poles. The north pole of one attracts the south pole of another. The page sums that up as like poles repel and unlike poles attract. It also says that if you cut a bar magnet in half, you do not get a north-only piece and a south-only piece. Each half still has both poles, and the page says no experiment has found an object with a single magnetic pole. The strength of Earth's field is a different card and is not restated.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Physics",
+      "url": "https://openstax.org/books/physics/pages/20-1-magnetic-fields-field-lines-and-force",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Physics, path /books/physics/, CC BY 4.0. Supports like poles repelling, unlike poles attracting, and each cut half keeping two poles, in section 20.1. Paraphrase only; the section was not copied."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.magnetic-field"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "magnet",
+    "poles"
+  ],
+  "read_time_min": 1
+}

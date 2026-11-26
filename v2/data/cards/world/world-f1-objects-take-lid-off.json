@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-take-lid-off",
+  "title": "One hand steadies a jar while the other lifts its lid",
+  "section": "world",
+  "category": "psychology",
+  "summary": "By about 2 years, most children hold one thing while the other hand works, such as gripping a container and taking the lid off, the U.S. CDC says.",
+  "body": "The CDC 2-year cognitive list includes holding something in one hand while using the other, for example holding a container and taking the lid off. Most children means 75 percent or more by that age. The page says its materials are not a substitute for standardized, validated developmental screening tools. Switches, knobs, and buttons on a toy are a neighboring item and are not copied here. The lid is one picture of two hands doing different jobs. The wording is not a command that a child must succeed, and lists elsewhere can differ.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2-years",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "CDC Learn the Signs. Act Early. page, U.S. government work, public domain. Updated and reviewed 16 May 2026. Supports holding a container and taking the lid off by 2 years."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "lid",
+    "milestone"
+  ],
+  "read_time_min": 1
+}
