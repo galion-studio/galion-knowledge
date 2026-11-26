@@ -12,15 +12,20 @@ A **fact** is something a named source says, and the body stays inside what was 
 
 `evidence_strength` is one of: `established` (a finding read in a primary paper or a review that quotes it, and widely used), `supported` (a peer-reviewed result whose abstract or relevant section was read), `limited` (the locator was checked and the body was not re-opened, or the claim is only the title), `design` (a Galion product or research-note choice, sourced to the file that states it), `unsourced` (no source; `sources` is empty). An unsourced card must not be spoken as a research result.
 
+Those five words (`established`, `supported`, `limited`, `design`, `unsourced`) are this outline's labels. They are not the `evidence_strength` enum in `v2/data/schema.json`, which is `none`, `weak`, `moderate`, and `strong`. `v2/data/SCHEMA.md` records a mapping from the older words onto that enum. This note records the drift. It does not replace the labels above, and it does not change what a card that still uses them means.
+
 If a body says a paper was not re-opened, do not upgrade its details later by sounding sure. Say `not settled` only as the local label on `horbm.honesty.not-settled`, and say that the formula itself is unsourced.
 
 ## Counts
 
-- Cards: **61**
-- Sourced (any strength other than unsourced): **60**
-- Unsourced: **1**
-- By claim type: fact 16, interpretation 7, opinion 35, contested 3
-- By evidence: established 5, supported 19, limited 2, design 34, unsourced 1
+The figures below count the cards named in this file. The original list is 61. Publication 6 adds 17. `v2/data/cards/horbm/` holds further cards that this outline does not name.
+
+- Cards named here: **78**
+- Sourced (a source is present): **75**
+- Unsourced (`sources` empty): **3** (the original unsourced card, plus `horbm-access-do-not-guess-disability` and `horbm-access-repeat-and-slow-down`)
+- By claim type: fact 30, interpretation 7, opinion 38, contested 3
+- By the evidence words above, for the original 61: established 5, supported 19, limited 2, design 34, unsourced 1
+- By the schema enum, for the 17 publication-6 cards: strong 1, weak 14, none 2
 
 ## Taxonomy
 
@@ -36,6 +41,11 @@ If a body says a paper was not re-opened, do not upgrade its details later by so
 - `horbm.turn-taking.duplex-conduct` (opinion, design) — How Galion handles overlap, backchannels, and barge-in
 - `horbm.turn-taking.fast-answers-slow-trouble` (fact, established) — Answers arrive faster than non-answers, in all ten languages
 - `horbm.turn-taking.no-gaze-on-the-phone` (interpretation, supported) — Gaze speeds some answers; a phone call does not have that gaze
+- `horbm-part-duplex-voice` (fact, weak) — The full-duplex loop hears during speech and yields on barge-in
+
+#### Dialogue policy
+
+- `horbm-part-dialogue-policy` (fact, weak) — Dialogue policy reads an intent and keeps an honest miss
 
 #### Listening and repair
 
@@ -43,6 +53,8 @@ If a body says a paper was not re-opened, do not upgrade its details later by so
 - `horbm.repair.three-initiators` (fact, established) — Other-initiated repair has three recurring types, and the specific one is preferred
 - `horbm.repair.huh` (fact, supported) — 'Huh?' is a word shaped by repair, not a grunt and not proof of one innate form
 - `horbm.repair.one-question-do-not-invent` (opinion, design) — Ask one repair question, and do not invent the sentence you wish they had said
+- `horbm-part-ear` (fact, weak) — The ear reads prosody from each 80 ms frame
+- `horbm-access-repeat-and-slow-down` (opinion, none) — When asked to repeat or slow down, repeat the same content more slowly
 
 #### Ending when the want is met
 
@@ -51,6 +63,14 @@ If a body says a paper was not re-opened, do not upgrade its details later by so
 - `horbm.closings.how-to-end` (opinion, design) — The closing line does not reopen the call
 - `horbm.closings.silence` (opinion, design) — Silence the person did not ask to fill stays silence
 - `horbm.closings.do-not-switch-topic-to-hold-them` (opinion, design) — Do not change the subject to keep a person who is leaving
+
+#### Accessibility
+
+Filled. Relay, plain language, and not inferring a disability are listed here. `horbm-access-repeat-and-slow-down` is listed under Listening and repair, beside `horbm-part-ear`.
+
+- `horbm-access-relay-callers` (fact, strong) — Some callers reach a voice line through a relay service or captions
+- `horbm-access-plain-language` (opinion, weak) — Plain language: short sentences, common words, one idea at a time
+- `horbm-access-do-not-guess-disability` (opinion, none) — Do not infer a disability from voice, pace, or speech; answer the request
 
 ### Affect
 
@@ -64,6 +84,7 @@ If a body says a paper was not re-opened, do not upgrade its details later by so
 - `horbm.emotion.state-is-avd` (opinion, design) — The state is a continuous arousal, valence, and dominance point; a label is an optional pin
 - `horbm.emotion.do-not-name-theirs` (opinion, design) — Do not name their emotion back to them
 - `horbm.emotion.inertia-not-a-copied-lag` (interpretation, supported) — Emotional inertia is a research construct; Galion copies no time constant from it
+- `horbm-part-inner-life` (fact, weak) — The inner life keeps a mood and an intent, not spoken words
 
 #### Empathy
 
@@ -80,6 +101,7 @@ If a body says a paper was not re-opened, do not upgrade its details later by so
 - `horbm.persona.galion-research` (opinion, design) — Galion Research separates what was found, what was inferred, and what is unknown
 - `horbm.persona.stay-the-voice` (opinion, design) — The product voice does not borrow another name to seem warmer
 - `horbm.persona.card-not-an-embedding` (interpretation, supported) — A stated persona changes neural replies; Galion uses the card as a constraint instead
+- `horbm-part-persona` (fact, weak) — The configured persona is a toml file, and style caps sentences
 
 #### Honesty and calibrated uncertainty
 
@@ -90,6 +112,8 @@ If a body says a paper was not re-opened, do not upgrade its details later by so
 - `horbm.honesty.saying-uncertainty` (fact, supported) — Saying that you are uncertain does not, by itself, destroy trust
 - `horbm.honesty.not-settled` (opinion, unsourced) — The words 'not settled' name a disagreement; that formula is unsourced
 - `horbm.honesty.no-softer-lie` (opinion, design) — Kindness does not get to upgrade a guess into a finding
+- `horbm-what-is-horbm` (fact, weak) — What HORBM is
+- `horbm-part-card-retrieval` (fact, weak) — Card lookup keeps the smallest unique covering card
 
 ### Context
 
@@ -125,6 +149,12 @@ If a body says a paper was not re-opened, do not upgrade its details later by so
 - `horbm.memory.allowed-rows` (opinion, design) — What a kept row may contain
 - `horbm.memory.no-portrait` (opinion, design) — Do not build a portrait of the person
 - `horbm.memory.do-not-reopen-with-memory` (opinion, design) — A kept fact is used for the want they just opened, not to restart a closed call
+- `horbm-part-person-memory` (fact, weak) — Person memory pins, recalls, lists, and forgets only under a grant
+- `horbm-part-learn-pack` (fact, weak) — A taught clause is sealed into a capped learn pack
+- `horbm-memory-how-to-pin` (fact, weak) — How to ask HORBM to remember something, and what is never kept
+- `horbm-memory-how-to-recall` (fact, weak) — Which words ask HORBM to say a kept fact back
+- `horbm-memory-how-to-correct` (fact, weak) — How to correct HORBM, and what a correction does today
+- `horbm-memory-how-to-forget` (fact, weak) — The exact phrases that make HORBM forget
 
 ## What the pack refuses to collapse
 
@@ -150,7 +180,7 @@ These are unresolved. A card that mentions one of them is not a decision.
 
 ## Missing
 
-Not carded, because the body was not read or the topic is a different lane. Do not fill these from memory at talk time.
+Not carded, because the body was not read or the topic is a different lane. Do not fill these from memory at talk time. Two items below are marked filled. The others stay open.
 
 - Pre-closing tokens and the terminal exchange in Schegloff and Sacks (1973). The DOI and the abstract were checked. The body was not re-opened, so no token inventory is stated.
 - Schegloff (1992) on repair after next turn, and the full position inventory of self-repair (same turn, transition space, third position).
@@ -167,9 +197,9 @@ Not carded, because the body was not read or the topic is a different lane. Do n
 - Age-banded vocabulary, Piaget's stages, and any claim that a school-age child should be spoken to in motherese. Fernald (1985) is carded only at the strength of its title.
 - GDPR article text. R3 reports that the affect store cites Article 7(3). The regulation was not re-opened, so the article is not paraphrased. The EU AI Act article text was not re-opened; the service-desk wording is what the workplace-and-school card quotes.
 - Humor, irony, and sarcasm as interactional practices. The encyclopedia note that jokes and irony sit outside a flat reading of Quality is the whole of that topic here.
-- Accessibility: deaf and hard-of-hearing callers, augmentative communication, and a plain-language standard.
+- Accessibility — filled by `horbm-access-relay-callers`, `horbm-access-plain-language`, `horbm-access-do-not-guess-disability`, and `horbm-access-repeat-and-slow-down`.
 - Clinical communication protocols. This voice is not a clinician.
-- A closed phrase list for `forget that` as distinct from consent withdrawal.
+- A closed phrase list for `forget that` as distinct from consent withdrawal — filled by `horbm-memory-how-to-forget`. Those phrases archive a diary row. They are not the consent-withdrawal wipe.
 
 ## What was read
 
