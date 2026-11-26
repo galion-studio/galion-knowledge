@@ -1,0 +1,80 @@
+{
+  "id": "horbm-memory-how-to-recall",
+  "title": "Which words ask HORBM to say a kept fact back",
+  "section": "horbm",
+  "category": "memory",
+  "summary": "The cues \"do you remember\" and \"what did i tell you\" look up the words that follow them. If no person-memory row can be said, HORBM answers \"I don't know.\" Neither cue reads out every kept row.",
+  "body": "Two strings, and no others, are the recall cues in the intent table at 021e4d17. Uppercase and lowercase count as the same hit, and a cue must be whole words rather than letters inside a longer word. The strings are \"do you remember\" and \"what did i tell you\".\n\nThe lookup text is whatever follows the earliest cue. The cue is left out of that lookup, since a stored line such as \"my sister's name\" has neither \"you\" nor \"remember\" in it. Asking \"do you remember my sister's name\" looks up \"my sister's name\". Asking \"what did i tell you about the bowl\" looks up \"about the bowl\". With nothing after the cue, the whole cue is the lookup, so the query is not blank.\n\nA line that is already a correction, or already a forget, does not use these cues.\n\nSearch runs after a remember grant. Speech of a hit happens only if the span from the cue to the end of the line is about the person. \"do you remember\" passes that test on its own. \"what did i tell you\" does not. Unless the rest of the line does, the hit is discarded and is not cited. A question about the world is treated alike: rows may be read, then discarded.\n\nWhat is said is the highest ordered non-empty row. Pinned text is ordered before unpinned text. The citation is \"memory:\" and then the row id. \"memory:callback\" is not a kept row. An empty \"learned:\" id is not one either. Where the gathered citations are not a person-memory row, the spoken sentence is \"I don't know.\" No card stands in, and no missing fact is filled in.\n\n\"what do you remember about me\" includes the cue \"do you remember\", so the lookup remainder is \"about me\". That remainder is a single topic. It is not a reading of every live row.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "HORBM dialogue intent: the RECALL cues and the topic after them",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/dialogue/intent.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. The RECALL array is \"do you remember\" and \"what did i tell you\". recall_topic drops the earliest cue. A bare cue is returned whole so the search is not empty. Correction and forget are read before recall."
+    },
+    {
+      "title": "HORBM brain: a diary hit is spoken only for a line about the person",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/brain.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. person_hit searches the topic, then drops the hits unless the line is about the person. The spoken source is memory: plus the row id."
+    },
+    {
+      "title": "HORBM person diary: recall search and pin-first ranking",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/memory.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. recall returns no rows when remember is denied. rank_hits orders a pinned row ahead of an unpinned row. about_the_person is the gate the brain uses before speaking a hit. list_person is a separate reader and is not this spoken search."
+    },
+    {
+      "title": "HORBM dialogue policy: a recall with no person-memory source is the honest miss",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/dialogue/policy.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. A recall whose sources are not a person-memory id is never a card. The reply is the ask miss. memory:callback does not count, and an empty learned: id does not count."
+    },
+    {
+      "title": "HORBM spoken miss",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/route.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. UNKNOWN_REPLY is the sentence \"I don't know.\""
+    },
+    {
+      "title": "HORBM dialogue layer: recall speaks a person-memory source or the miss",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/dialogue/mod.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. The heard line is read once as a turn intent. Recall speaks a memory: id or a learned: id, or the honest miss when the gathered sources are not one."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-remember-when-asked",
+    "horbm.memory.do-not-reopen-with-memory",
+    "horbm-say-i-dont-know",
+    "horbm-memory-stores",
+    "horbm-memory-how-to-forget",
+    "horbm-memory-how-to-correct"
+  ],
+  "tags": [
+    "recall-cues",
+    "topic-search"
+  ],
+  "aliases": [
+    "do-you-remember-topic"
+  ],
+  "read_time_min": 2
+}

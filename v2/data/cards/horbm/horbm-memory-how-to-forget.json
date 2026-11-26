@@ -1,0 +1,87 @@
+{
+  "id": "horbm-memory-how-to-forget",
+  "title": "The exact phrases that make HORBM forget",
+  "section": "horbm",
+  "category": "memory",
+  "summary": "Six phrases archive a diary row. A hit sitting against \"don't\", \"dont\", \"do not\", or \"never\" is not one of them, so \"don't forget that\" does not forget. A row that was archived is answered with the configured persona's forgot line.",
+  "body": "On galion-one-voice commit 021e4d17 the forget scan is a closed table. Matching ignores case, and the phrase has to sit on a word boundary. The six rows, quoted from the table, are \"forget that\", \"forget what i said\", \"forget what i told you\", \"please forget\", \"don't remember that\", and \"stop remembering\". Bare \"forget\", \"I forgot\", and \"forget-me-not\" are not rows.\n\nA hit does not count when the token against its start is \"don't\", \"dont\", or \"never\", or when that token is \"not\" and the token before it is \"do\". \"don't forget that\", \"do not forget that\", \"dont forget that\", and \"never forget that\" are outside this intent. The row \"don't remember that\" already begins with \"don't\"; that opening is the phrase itself, not a negation parked in front of a different row. A later row that is not negated still counts, so \"don't forget that, but please forget\" is a forget because of \"please forget\".\n\nCorrection is read first, then forget, then recall. A correction on the same line is not a forget.\n\nArchiving runs only when remember is granted. It runs before the request could be stored, and the request is not written into the diary. \"forget that\", \"don't remember that\", and \"stop remembering\" take the single newest snap from the previous turn. This turn has not been pushed yet, and older snaps are not scanned. That snap is archived only when its source is \"memory:\" plus an id other than \"callback\". A card or a callback archives nothing. The row is copied into the archive and dropped from search. The archive is the tombstone, and the archive table is not deleted. \"please forget\" takes the words after the phrase as the topic. Each row that topic search returns is archived, and the recall cap bounds how many. Those rows are archived, not deleted. \"forget what i said\" and \"forget what i told you\" take the words after a following \"about\". An empty topic archives nothing. \"please forget that\" is the topic word \"that\", not the newest-snap path. \"forget what i said about the bowl\" archives hits for \"the bowl\".\n\nWhen the archived count is at least one, the reply is replaced by the configured persona's forgot line. The source on that reply is the count alone, not the text and not an id. When the persona file left that line unset, the reply is \"I don't know.\" When the count is zero, including when remember is denied, the policy has already chosen that same miss. It does not argue, and it does not repeat the previous sourced clause.\n\nThese phrases archive a matching diary row. They are not the consent-withdrawal wipe.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "HORBM dialogue intent: the FORGET phrase table",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/dialogue/intent.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. The FORGET array is the six phrases. A hit with don't, dont, never, or do not immediately before it does not count. Correction is read before forget, and forget before recall."
+    },
+    {
+      "title": "HORBM brain: archive_forgotten and speak_forgotten",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/brain.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. archive_forgotten copies the named row into the archive only when remember is granted. speak_forgotten then speaks the configured persona's forgot line, or the unknown reply when that line is unset."
+    },
+    {
+      "title": "HORBM person diary: forget copies a row into the archive",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/memory.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. Forget copies the row into the diary archive and drops it from search. The archive is the tombstone. This module has no delete of that table."
+    },
+    {
+      "title": "Person-memory port: forget_matching archives recall hits",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/crates/galion-emotion-core/src/standins/memory.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. forget_matching archives each row recall returns for that person and query. The recall cap bounds the list. Rows are archived, never deleted."
+    },
+    {
+      "title": "HORBM dialogue policy: a forget is the honest miss unless a row was archived",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/dialogue/policy.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. A forget intent is never an argument. The policy answers it with the ask miss before the brain, if a row was archived, replaces that miss with the forgot line."
+    },
+    {
+      "title": "HORBM spoken miss",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/route.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. UNKNOWN_REPLY is the sentence \"I don't know.\""
+    },
+    {
+      "title": "HORBM persona: an unset forgot line is absent",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-persona/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26 at commit 021e4d17. PersonaLine::Forgot is the forgot line. Persona::line returns none when the persona file leaves that line unset."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-forgetting-and-deletion",
+    "horbm-withdrawal",
+    "horbm-remember-when-asked",
+    "horbm-say-i-dont-know",
+    "horbm-memory-how-to-correct"
+  ],
+  "tags": [
+    "forget-phrase-table",
+    "archive-tombstone"
+  ],
+  "aliases": [
+    "closed-phrase-list-for-forget-that"
+  ],
+  "read_time_min": 2
+}
