@@ -1,0 +1,124 @@
+{
+  "id": "horbm-what-is-horbm",
+  "title": "What HORBM is",
+  "section": "horbm",
+  "category": "honesty",
+  "summary": "HORBM, the Heuristic Open Retrieval Brain Model, is Galion's retrieval brain. It answers from cards and memory, not a language model, and says it does not know on a miss.",
+  "body": "HORBM is Galion's retrieval brain. A turn is a lookup, not a language model. Its parts: an ear, card retrieval, person memory, a learn pack, dialogue policy, a persona, an inner life, and a full-duplex voice loop.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "HORBM communication knowledge",
+      "url": "https://github.com/galion-studio/galion-knowledge/blob/1ff2c43e6e7c7b421a83317f85a2d38d2fa65137/v2/docs/HORBM_CARDS_OUTLINE.md",
+      "author": "Galion Labs",
+      "date": "2026-11-18",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. Line 5 spells the name \"Heuristic Open Retrieval Brain Model\" and calls HORBM Galion's retrieval-based, non-LLM brain."
+    },
+    {
+      "title": "FP — first-principles audit",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/docs/horbm/foundations/FP-first-principles-audit.md",
+      "author": "Galion Labs",
+      "date": "2026-11-24",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. Line 13: \"A turn is a lookup. There is no LLM on the hot path.\" Line 19: the brain answers from cards, then \"I don't know.\" Line 90: a miss speaks the card or \"I don't know.\""
+    },
+    {
+      "title": "horbm crate",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. Line 3: \"One HORBM turn.\" Line 10 names the person-memory step. Lines 17-18: a retrieval miss speaks UNKNOWN_REPLY and does not call research. Lines 102, 103, 105, 106, and 108 declare the cards, dialogue, learn, memory, and retrieve modules."
+    },
+    {
+      "title": "horbm cards module",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/cards.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. Line 3: \"Read-only loader for galion-knowledge cards.\" Supports the card-retrieval part."
+    },
+    {
+      "title": "horbm retrieve module",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/retrieve.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. Line 3: \"Retrieval thread for one HORBM turn.\" Supports the card-retrieval part."
+    },
+    {
+      "title": "horbm memory module",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/memory.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. Line 3: \"Per-person diary.\" Supports the person-memory part."
+    },
+    {
+      "title": "horbm learn module",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/learn.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. Line 3: \"Offline learn pass for one HORBM pack.\" Supports the learn-pack part."
+    },
+    {
+      "title": "horbm dialogue module",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm/src/dialogue/mod.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. Line 3: \"HORBM layer 4. Decide the next move and keep the talk alive.\" Line 10: \"The heuristic is the policy.\" Supports the dialogue-policy part."
+    },
+    {
+      "title": "horbm-persona crate",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-persona/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. Line 3: \"The steady character.\" Supports the persona part."
+    },
+    {
+      "title": "horbm-inner crate",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-inner/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. Line 3: \"Inner life for whatever persona the host configured.\" Supports the inner-life part."
+    },
+    {
+      "title": "horbm-duplex crate",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/horbm/crates/horbm-duplex/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. Line 3: \"Closed full-duplex loop for HORBM.\" Supports the full-duplex voice-loop part."
+    },
+    {
+      "title": "horbm-ear crate",
+      "url": "https://github.com/galion-studio/galion-one-voice/blob/021e4d170d60977752456d45c5782d49088db1f8/crates/horbm-ear/src/lib.rs",
+      "author": "Galion Labs",
+      "date": "2026",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. Line 3: \"Ear-side prosody for HORBM.\" Supports the ear part."
+    }
+  ],
+  "evidence_strength": "weak",
+  "said_by": "Galion Labs",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm-pack-scope",
+    "horbm-say-i-dont-know",
+    "horbm-memory-stores",
+    "horbm-persona-filter",
+    "horbm-full-duplex-duties"
+  ],
+  "tags": [
+    "horbm",
+    "definition"
+  ],
+  "read_time_min": 1
+}
