@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-milestone-three-quarters",
+  "title": "CDC milestone ages mark three quarters of children, not a test",
+  "section": "world",
+  "category": "measurement",
+  "summary": "CDC places a milestone at an age when at least three quarters of children do it, and says the list is not a screening test.",
+  "body": "The US Centers for Disease Control and Prevention says its developmental milestones were set at ages when at least 75 percent of children would be expected to show the skill. An older average, where only half of children have the skill, left many families waiting. The same key-points page says the checklists are communication tools, not guidelines or standards, and not tools for detecting a delay or for starting or stopping services. A missing item is a reason to talk with the child's doctor about screening, not a diagnosis. The list also does not hold every skill a child might show.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Key points about CDC's developmental milestone checklists",
+      "url": "https://www.cdc.gov/act-early/milestones/key-points.html",
+      "author": "CDC",
+      "date": "2026-02-17",
+      "accessed": "2026-11-26",
+      "note": "Supports the 75 percent placement, the rejection of a 50 percent average, and the statements that the checklists are not standards, screens, or service rules. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-02-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-wave-bye-one-year",
+    "world-f1-social-points-to-show"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "milestones",
+    "screening"
+  ],
+  "read_time_min": 1
+}

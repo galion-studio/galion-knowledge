@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-peekaboo-smile-nine-months",
+  "title": "A smile or laugh during peekaboo is a 9-month social item",
+  "section": "world",
+  "category": "development",
+  "summary": "By about 9 months, CDC says most children smile or laugh when someone plays peekaboo with them.",
+  "body": "Social milestones at 9 months include smiling or laughing when you play peek-a-boo. The game hides a face and brings it back, and the item is the baby's pleased reaction, not a duty to own one particular song. CDC counts a milestone when about three quarters of children do it. A missing reaction is not, on this page, a diagnosis. The month comes from the United States checklist.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 9-month social milestone about smiling or laughing during peek-a-boo. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-patacake-one-year",
+    "world-f1-social-pass-toy-turns"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "peekaboo",
+    "games"
+  ],
+  "read_time_min": 1
+}

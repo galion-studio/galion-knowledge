@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-copies-playmates",
+  "title": "Copying another child's play is listed at 15 months",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children copy other children while playing by about 15 months, CDC says.",
+  "body": "CDC's example is taking toys out when another child does. The item sits on the 15-month social list, and most means 75 percent or more. Copying a peer during play is imitation in company, not the later milestone of joining a group game. The materials are not a diagnosis and not a validated screen. A lab study of copying chores is a different page and a different act.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 15-month social milestone about copying other children while playing, with the container example. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-joins-other-children",
+    "world-f1-social-plays-beside-and-with"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "imitation",
+    "playmates"
+  ],
+  "read_time_min": 1
+}

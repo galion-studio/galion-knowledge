@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-three-talk-exchanges",
+  "title": "Staying in a talk past three rounds is a 5-year item",
+  "section": "world",
+  "category": "development",
+  "summary": "CDC says that by about age 5 most children keep a conversation going through more than three rounds.",
+  "body": "The communication milestones for 5 years include keeping a conversation going with more than three back-and-forth exchanges. The stress is on not stopping after a single reply. Clear pronunciation is a different line on the same page. CDC's most is the three-quarters mark described on its key-points page, and a missed line is not a diagnosis. Only this US age page uses the 'more than three' count.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 5-year communication milestone of more than three back-and-forth conversational exchanges. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-two-talk-exchanges",
+    "world-f1-social-short-gaps-many-languages"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "thread",
+    "partner"
+  ],
+  "read_time_min": 1
+}

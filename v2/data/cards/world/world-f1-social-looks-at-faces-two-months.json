@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-social-looks-at-faces-two-months",
+  "title": "A 2-month social item is glancing at the caregiver's face",
+  "section": "world",
+  "category": "development",
+  "summary": "CDC says that by about 2 months most babies look at a caregiver's face.",
+  "body": "The social list for 2 months includes looking at your face. Neighboring lines mention calming when spoken to or picked up, and smiling when you talk or smile; this card is only the look. The page's most means 75 percent or more. A glance does not forecast later friendship. The program says its sheets are not a screening instrument, and agencies outside the United States may print another age.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 2-month social milestone 'Looks at your face' and the 75 percent definition of most. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-smile-for-attention-four-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "gaze",
+    "faces"
+  ],
+  "read_time_min": 1
+}
