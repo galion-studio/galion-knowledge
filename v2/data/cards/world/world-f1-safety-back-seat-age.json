@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-back-seat-age",
+  "title": "NHTSA says children should ride in the back seat at least through age 12",
+  "section": "world",
+  "category": "technology",
+  "summary": "NHTSA says to keep a child in the back seat at least through age 12.",
+  "body": "Among the choice steps on the car-seat page, NHTSA says to keep the child in the car seat as long as the child fits the maker's height and weight limits, and to keep the child in the back seat at least through age 12. The booster section repeats that the back seat is safer even after a child is big enough for a belt. The age-12 line is about where in the car the child sits. It is separate from when a rear-facing seat is outgrown. State laws in the United States can set their own cutoffs. This page is the federal safety agency's recommendation.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Car Seats and Booster Seats",
+      "url": "https://www.nhtsa.gov/vehicle-safety/car-seats-and-booster-seats",
+      "author": "National Highway Traffic Safety Administration",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. No update date was printed. The page shows a 2024 crash figure. Supports the seat recommendation named in the card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHTSA",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-rear-facing-seat",
+    "world-f1-safety-booster-belt-fit"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "car",
+    "backseat"
+  ],
+  "read_time_min": 1
+}

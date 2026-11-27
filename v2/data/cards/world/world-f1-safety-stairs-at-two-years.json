@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-stairs-at-two-years",
+  "title": "Most children walk up a few stairs by about two years, CDC says",
+  "section": "world",
+  "category": "development",
+  "summary": "CDC says most children, 75 percent or more, walk up a few stairs, not by climbing them, by about two years.",
+  "body": "On the 2-year milestone page, CDC lists walks, not climbs, up a few stairs with or without help. The heading is what most children do by that age, and the program defines a milestone as something 75 percent or more of children can do. The materials are not a substitute for a validated screening tool, and a missed stair skill is not itself a diagnosis. The page tells families to raise concerns with a clinician rather than wait them out. Stair gates are a separate product card. This card is only the timing CDC prints.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Reviewed 16 May 2026. Milestone means most children (75 percent or more), not every child, and the page says the materials are not a screening tool."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-stair-gates",
+    "world-f1-safety-climbs-at-eighteen-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "milestones",
+    "stairs"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-rem-dreams",
+  "title": "Dreaming usually happens in REM sleep, when the eyes twitch and the muscles go limp",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NHLBI says dreaming usually happens during REM sleep, when the eyes twitch, brain activity looks like waking, and the muscles normally go limp.",
+  "body": "NHLBI's stages page says sleep alternates between rapid eye movement, called REM, and non-REM. In REM, the eyes twitch and the brain is active. Measured brain activity in REM is similar to waking. Dreaming usually happens in this phase. Muscles normally become limp, which keeps a person from acting out dreams. Sleep studies sort the phases with sensors for eye movement and brain activity. This is a description of a typical night in that US text, not a claim that every dream was checked.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How Sleep Works: Sleep Phases and Stages",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the stage or REM sentence named in the card. Page last updated 24 March 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHLBI",
+  "as_of_date": "2022-03-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-sleep-cycles",
+    "world-f1-safety-nonrem-stages"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "dreaming"
+  ],
+  "read_time_min": 1
+}

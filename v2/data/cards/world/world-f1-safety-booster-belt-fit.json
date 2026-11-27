@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-booster-belt-fit",
+  "title": "A booster is for when the lap belt can lie on the thighs and the shoulder belt on the chest",
+  "section": "world",
+  "category": "technology",
+  "summary": "NHTSA says to keep a child in a booster until the lap belt lies on the upper thighs and the shoulder belt crosses the chest, not the neck or face.",
+  "body": "NHTSA says a booster raises the child so the vehicle's lap-and-shoulder belt fits the stronger parts of the body, the hips and the chest. For ages 8 to 12, it says to stay in a booster until the belt fits: the lap belt snug across the upper thighs, not the stomach, and the shoulder belt snug across the shoulder and chest, not across the neck or face. The child should still be in the back seat. The fit description is the claim. It is not a height in centimetres, and a child who meets the words of the fit test is who the page is describing. Forward-facing harness seats come before this step, until the harness seat's own limit.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Car Seats and Booster Seats",
+      "url": "https://www.nhtsa.gov/vehicle-safety/car-seats-and-booster-seats",
+      "author": "National Highway Traffic Safety Administration",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. No update date was printed. The page shows a 2024 crash figure. Supports the seat recommendation named in the card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHTSA",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-back-seat-age",
+    "world-f1-safety-crash-deaths-children"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "car",
+    "booster"
+  ],
+  "read_time_min": 1
+}

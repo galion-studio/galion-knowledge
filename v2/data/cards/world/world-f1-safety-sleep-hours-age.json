@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-sleep-hours-age",
+  "title": "NHLBI's sleep-hour list steps down from infancy through the teen years",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NHLBI prints 12 to 16 hours for babies from 4 months to 1 year, then lower daily ranges at each older band, and says newborn patterns vary widely.",
+  "body": "The how-much-sleep page says patterns vary widely for newborns younger than 4 months, so it does not give them one number. It then lists 12 to 16 hours a day from 4 months to 1 year, 11 to 14 hours at ages 1 to 2, 10 to 13 at ages 3 to 5, 9 to 12 at ages 6 to 12, and 8 to 10 for teens 13 to 18. The younger bands include naps, and the page says sleep experts consider naps appropriate for children under age 7. Adults are discussed in prose on that page as 7 to 9 hours, while another NHLBI table prints 7 to 8. Those adult lines are a separate card. This list is what that US page prints, not a schedule written for one household.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How Sleep Works: How Much Sleep Is Enough?",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/how-much-sleep",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the hour ranges named in the card. Page last updated 24 March 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHLBI",
+  "as_of_date": "2022-03-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-adult-hour-ranges",
+    "world-f1-safety-preschool-naps"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "hours"
+  ],
+  "read_time_min": 1
+}

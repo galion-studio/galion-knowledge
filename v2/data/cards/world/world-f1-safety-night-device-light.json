@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-night-device-light",
+  "title": "Light from screens at night can throw the body clock off",
+  "section": "world",
+  "category": "biology",
+  "summary": "NIGMS says light from electronic devices at night can confuse biological clocks.",
+  "body": "The NIGMS circadian fact sheet lists ways a rhythm can fall out of step with the outside world. One of them is light from electronic devices at night, which can confuse biological clocks. Travel between time zones, which the sheet calls jet lag, and shift work are other examples on the same list. When the mismatch is short, the page says drowsiness, poor coordination, and difficulty with learning and focus may occur. Longer-term loss of sleep and continually shifting rhythms are given a separate, heavier risk list, which this card does not treat as a prediction for one household. NHLBI's habit page makes a related point about bright screens in the hour before bed. That habit line is not repeated here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Circadian Rhythms",
+      "url": "https://www.nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms.aspx",
+      "author": "National Institute of General Medical Sciences",
+      "date": "2025-05-20",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the clock sentence named in the card. Page last updated 20 May 2025. Content reviewed September 2023."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIGMS",
+  "as_of_date": "2025-05-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-melatonin-evening",
+    "world-f1-safety-bedtime-routine"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "circadian",
+    "screens"
+  ],
+  "read_time_min": 1
+}
