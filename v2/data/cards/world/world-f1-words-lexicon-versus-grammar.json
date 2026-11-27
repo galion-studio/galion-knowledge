@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-lexicon-versus-grammar",
+  "title": "OpenStax calls the lexicon a language's words and grammar its rules",
+  "section": "world",
+  "category": "language",
+  "summary": "OpenStax says the lexicon is a language's vocabulary, and grammar is the set of rules for conveying meaning with those words.",
+  "body": "In section 7.2, OpenStax says spoken, signed, or written language has a lexicon and a grammar. Lexicon means the words of a given language, its vocabulary. Grammar means the set of rules used to convey meaning through that lexicon. The textbook's example of a rule is that most English verbs take an -ed ending for the past. The section cites Fernandez and Cairns, 2011. This is a definition in the CC BY 4.0 first edition, not a grammar of one language written out in full.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Psychology, section 7.2 Language",
+      "url": "https://openstax.org/books/psychology/pages/7-2-language",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "First-edition web view at /books/psychology/, which the preface licenses CC BY 4.0. Opened 2026-11-26. No review date was printed on the section, so the source date is the access date. Paraphrase, with credit to OpenStax Psychology. Supports the lexicon and grammar definitions, including that they apply to spoken, signed, or written language."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-rules-plus-vocabulary",
+    "world-f1-words-syntax-builds-sentences"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "lexicon",
+    "grammar"
+  ],
+  "read_time_min": 1
+}

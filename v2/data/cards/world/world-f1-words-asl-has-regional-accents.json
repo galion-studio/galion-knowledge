@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-asl-has-regional-accents",
+  "title": "NIDCD says ASL has regional accents and dialects, as spoken languages do",
+  "section": "world",
+  "category": "language",
+  "summary": "NIDCD says ASL varies by region in rhythm, pronunciation, slang, and which signs are used.",
+  "body": "The NIDCD ASL page says specific ways of expressing ideas in ASL vary as much as ASL users themselves. Besides individual differences, ASL has regional accents and dialects. The page compares this to English words being spoken differently in different parts of the country, and it lists regional differences in the rhythm of signing, pronunciation, slang, and the signs used. It also says age and gender can affect ASL usage. The claim is the page's description of variety, not a map of dialects. The page was updated in 2021.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Is American Sign Language?",
+      "url": "https://www.nidcd.nih.gov/health/american-sign-language",
+      "author": "National Institute on Deafness and Other Communication Disorders",
+      "date": "2021-10-29",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Last updated date printed on the page: 29 October 2021. Supports the paragraph on regional accents and dialects in ASL, including rhythm, pronunciation, slang, and signs."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2021-10-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-asl-is-a-full-language",
+    "world-f1-words-glottolog-dialect-errors"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "accent",
+    "dialect"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-glottolog-dialect-errors",
+  "title": "Glottolog says its dialect rows were lightly edited and still contain known errors",
+  "section": "world",
+  "category": "language",
+  "summary": "Glottolog's editors say they spent little effort on dialect classifications, most of which come from Multitree and contain known errors.",
+  "body": "The Glottolog 5.4 information page says that for the current edition the editors spent little effort on making dialect classifications consistent or on providing references for dialects. Most dialect information was lifted from the Multitree project and, in the editors' words, contains numerous errors and inconsistencies which they are aware of and have not had the resources to correct systematically. They hope to say more about dialects later. Dialect rows from this catalogue are not a careful census. The spoken-language total on the same page is a different row, with its own rules. A reader who wants the catalogue's self-description, without this dialect warning, already has a separate card for that. This card is only the editors' warning.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Glottolog 5.4, About Languoids",
+      "url": "https://glottolog.org/glottolog/glottologinformation",
+      "author": "Glottolog editors",
+      "date": "2026-11-10",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. The page dates its counts 'Currently 2026-11-10'. Supports the paragraph that begins 'For the current edition of Glottolog, we spent little effort on making dialect classifications consistent.' The Glottolog 5.4 release is CC BY 4.0: the v5.4 LICENSE file and the Zenodo record 10.5281/zenodo.24100665 both say Creative Commons Attribution 4.0 International. Opened 2026-11-26."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Glottolog",
+  "as_of_date": "2026-11-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-glottolog-spoken-l1-count",
+    "world.geography.glottolog-languages"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "dialect",
+    "multitree"
+  ],
+  "read_time_min": 1
+}
