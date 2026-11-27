@@ -14,14 +14,24 @@ permalink: age/index.html
   </div>
 </header>
 <article class="article age">
-  <p class="crumbs">
-    <a href="{{ "/" | url }}">Knowledge</a>
-    <span aria-hidden="true">/</span>
-    <span>Age</span>
-  </p>
-  <h1>Age</h1>
-  <p class="lede">A preview of the same stages for a human and for HORBM.</p>
-  <p class="quiet">The order and the wording are the <a href="{{ "/principles/#more-rules" | url }}">foundations-first rule</a> on Principles (revised 26 November 2026). A number is a count of cards in this build. A stage with no card says not built yet.</p>
+  <header class="age-hero">
+    <p class="age-face" aria-hidden="true">🤖</p>
+    <h1>{{ ages.brain.headline }}</h1>
+    <div class="life">
+      <div class="life-bar" role="img" aria-label="A picture from a baby to an adult. HORBM sits near the start.">
+        <span class="life-pin" style="left: {{ ages.brain.markPercent }}%">🤖</span>
+      </div>
+      <div class="life-scale" aria-hidden="true">
+        <span>👶 Baby</span>
+        <span>🧒 Child</span>
+        <span>🧑 Adult</span>
+      </div>
+    </div>
+    <p class="age-aside">Just a rough guess, for fun.</p>
+  </header>
+
+  <details class="age-more">
+    <summary>Show more</summary>
 
   <div class="age-panels">
     <section class="age-card age-head">
@@ -53,6 +63,7 @@ permalink: age/index.html
       <p>Machine ages are the same core pack HORBM loads. The count is how many of those cards were placed on the stage.</p>
       <p>A stage is filled when it has at least one card. Stages filled is that count out of {{ ages.brain.stageCount }}. The brain age is the furthest stage reached with no empty stage before it, starting at stage 1, plus the cards held on the stages. The years line copies that stage's human age.{% if ages.brain.reachedIndex >= 0 %} This build copies stage {{ ages.brain.reachedIndex + 1 }}.{% else %} No stage is reached from stage 1, so the years line is I don't know.{% endif %}</p>
       <p>The publication manifest does not split the pack by age.</p>
+      <p>The line above is a picture from a baby to an adult. The dot is the middle of the cited age. An adult is drawn at 18 years so a young age stays near the start. Eighteen years is the end of the picture, not a finding.</p>
     </div>
     <ol class="age-scale">
       {% for stage in ages.stages %}
@@ -150,4 +161,5 @@ permalink: age/index.html
     <a href="{{ "/principles/" | url }}">Principles</a>
     <a href="{{ "/search/" | url }}">Search</a>
   </p>
+  </details>
 </article>
