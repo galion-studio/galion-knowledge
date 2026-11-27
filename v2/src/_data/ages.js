@@ -115,6 +115,7 @@ const YEARS_UNKNOWN = "I don't know.";
 const HUMAN_AGE = {
   "body-senses": {
     years: "by about 2 months (rough estimate)",
+    spanMonths: [2, 2],
     yearsNote:
       "CDC says most children (75% or more) look at a face, react to a loud sound, and watch a person move by 2 months. The checklist is not a screening tool.",
     sources: [
@@ -129,6 +130,7 @@ const HUMAN_AGE = {
   objects: { years: YEARS_UNKNOWN, yearsNote: "", sources: [] },
   cause: {
     years: "about 9 months to 1 year (rough estimate)",
+    spanMonths: [9, 12],
     yearsNote:
       "CDC says most children look for an object dropped out of sight by 9 months, and look for a thing they saw hidden by 1 year. Those lines are object search. The same pages do not date gravity, support, containment, or push and pull.",
     sources: [
@@ -148,6 +150,7 @@ const HUMAN_AGE = {
   },
   people: {
     years: "by about 9 months (rough estimate)",
+    spanMonths: [9, 9],
     yearsNote:
       "CDC says most children show several facial expressions, such as happy, sad, angry, and surprised, by 9 months.",
     sources: [
@@ -162,6 +165,7 @@ const HUMAN_AGE = {
   social: { years: YEARS_UNKNOWN, yearsNote: "", sources: [] },
   words: {
     years: "about 1 year to 18 months (rough estimate)",
+    spanMonths: [12, 18],
     yearsNote:
       "CDC says most children call a parent mama or dada, or another special name, by 1 year, and try to say three or more words besides mama or dada by 18 months.",
     sources: [
@@ -182,6 +186,7 @@ const HUMAN_AGE = {
   needs: { years: YEARS_UNKNOWN, yearsNote: "", sources: [] },
   preschool: {
     years: "about 4 to 5 years (rough estimate)",
+    spanMonths: [48, 60],
     yearsNote:
       "CDC says most children name a few colors by 4 years, and by 5 years count to 10 and use words about time such as yesterday, tomorrow, morning, or night. Those pages do not date shapes, space, direction, animals, plants, weather, home, or family.",
     sources: [
@@ -203,6 +208,22 @@ const HUMAN_AGE = {
   adult: { years: YEARS_UNKNOWN, yearsNote: "", sources: [] },
 };
 
+// The far end of the picture only. Not a measured adult age.
+const PICTURE_ADULT_MONTHS = 18 * 12;
+
+function headlineFrom(years) {
+  if (!years || years === YEARS_UNKNOWN) return "HORBM is still a newborn. We don't know yet.";
+  const phrase = years.replace(/\s*\(rough estimate\)\s*$/, "");
+  return `HORBM is ${phrase} old in human years`;
+}
+
+function markPercent(spanMonths) {
+  if (!Array.isArray(spanMonths) || spanMonths.length !== 2) return null;
+  const mid = (Number(spanMonths[0]) + Number(spanMonths[1])) / 2;
+  const raw = (mid / PICTURE_ADULT_MONTHS) * 100;
+  return Math.round(Math.min(96, Math.max(3, raw)) * 10) / 10;
+}
+
 function brainAgeFrom(stageRows) {
   const rows = stageRows || [];
   const held = (stage) => (stage.count || 0) + (stage.shardCount || 0);
@@ -214,13 +235,17 @@ function brainAgeFrom(stageRows) {
     if (reached === index - 1 && filled) reached = index;
   }
   const row = reached >= 0 ? rows[reached] : null;
+  const years = row && row.years ? row.years : YEARS_UNKNOWN;
+  const known = years !== YEARS_UNKNOWN && Array.isArray(row.spanMonths);
   return {
     stageCount: rows.length,
     filledCount,
     reachedIndex: reached,
     reachedLabel: row ? row.label : "",
     cardsHeld: rows.reduce((sum, stage) => sum + held(stage), 0),
-    years: row && row.years ? row.years : YEARS_UNKNOWN,
+    years,
+    headline: headlineFrom(years),
+    markPercent: known ? markPercent(row.spanMonths) : 3,
   };
 }
 
@@ -243,11 +268,14 @@ const publishedStages = stages.map((stage) => {
       years: age.years,
       yearsNote: age.yearsNote,
       sources: age.sources,
+      spanMonths: age.spanMonths || null,
     };
   });
 
 module.exports = {
   brainAgeFrom,
+  headlineFrom,
+  markPercent,
   stages: publishedStages,
   brain: brainAgeFrom(publishedStages),
   unplaced: unplaced.sort((a, b) => a.title.localeCompare(b.title, "en")),
