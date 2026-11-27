@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-lighter-on-smaller-planet",
+  "title": "A less massive world would lighten a person's scale reading",
+  "section": "world",
+  "category": "physics",
+  "summary": "Stand on a world that has less mass than this one, and the scale would read lower than it does here.",
+  "body": "Space Place makes the comparison without naming the Moon or Mars. If you stood on another planet whose mass was smaller than Earth's, you would weigh less than you do at home. The reason the page gives is that smaller mass, not a change in the person. The sentence is from the gravity article dated 17 December 2020. Fractions for particular worlds are separate cards.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Is Gravity?",
+      "url": "https://spaceplace.nasa.gov/what-is-gravity/en/",
+      "author": "NASA Space Place",
+      "date": "2020-12-17",
+      "accessed": "2026-11-26",
+      "note": "NASA Space Place, article last updated 17 December 2020. Paraphrase of the page's own sentence. Public-domain US federal page. Supports the sentence that a person would weigh less on a planet with less mass than Earth."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2020-12-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "weigh",
+    "planet"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-curiosity-and-impossible-events",
+  "title": "A higher early-curiosity score went with longer looks at impossible events",
+  "section": "world",
+  "category": "development",
+  "summary": "In a study of 47 infants, a higher score on an early curiosity scale went with a stronger looking preference for physically impossible events.",
+  "body": "Lee and colleagues gave caregivers a new Early Multidimensional Curiosity Scale and compared it with how long 47 infants, mean age about 17 months, preferred impossible outcomes over matched possible ones. Higher scale scores went with a stronger preference. Temperament, vocabulary size, and the caregiver's own trait curiosity did not. The average preference pooled across event types was only marginal, so this card is the scale association, not a claim that every event type showed a group difference. The article is CC BY and dated 2 February 2023. It is not a screen for one child.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Exploring individual differences in infants' looking preferences for impossible events",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.1015649/full",
+      "author": "Nayen Lee, Vanessa Lazaro, Jinjing Jenny Wang, Hilal H. Şen, Kelsey Lucca, and colleagues",
+      "date": "2023-02-02",
+      "accessed": "2026-11-26",
+      "note": "Frontiers in Psychology, 2 February 2023. The article states it is open access under the Creative Commons Attribution License (CC BY). Paraphrase of Study 1: N = 47, ages about 10 to 25 months, EMCS association (p = 0.032), and the limit that the average preference across event types was only marginal."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Nayen Lee and colleagues",
+  "as_of_date": "2023-02-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "emcs",
+    "temperament"
+  ],
+  "read_time_min": 1
+}

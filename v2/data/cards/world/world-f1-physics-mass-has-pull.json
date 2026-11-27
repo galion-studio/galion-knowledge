@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-mass-has-pull",
+  "title": "More stuff means a stronger gravitational tug",
+  "section": "world",
+  "category": "physics",
+  "summary": "Anything that has mass also has gravity, and a body with more mass tugs harder.",
+  "body": "Space Place states two linked points in its December 2020 gravity article. First, mass and gravity go together: if a thing has mass, it has gravity. Second, a body that contains more mass produces more gravity than a body that contains less. A mountain therefore tugs more than a pebble, on that account. The page stops there. It does not write an equation.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Is Gravity?",
+      "url": "https://spaceplace.nasa.gov/what-is-gravity/en/",
+      "author": "NASA Space Place",
+      "date": "2020-12-17",
+      "accessed": "2026-11-26",
+      "note": "NASA Space Place, article last updated 17 December 2020. Paraphrase of the page's own sentence. Public-domain US federal page. Supports 'anything that has mass also has gravity' and 'objects with more mass have more gravity'."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2020-12-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "mass",
+    "pull"
+  ],
+  "read_time_min": 1
+}
