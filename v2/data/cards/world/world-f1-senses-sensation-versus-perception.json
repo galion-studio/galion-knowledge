@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-senses-sensation-versus-perception",
+  "title": "Sensation is the pickup, and perception is the reading of it",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Sensation happens when a receptor detects a stimulus, and perception is how that information is organized, interpreted, and consciously experienced.",
+  "body": "OpenStax Psychology says sensation has occurred when a sensory receptor detects sensory information. The conversion of stimulus energy into a nerve signal is transduction. Perception is the way sensory information is organized, interpreted, and consciously experienced. The chapter says sensation is a physical process and perception is psychological. Not every sensation becomes a perception. The text is CC BY 4.0.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "5.1 Sensation versus Perception",
+      "url": "https://openstax.org/books/psychology/pages/5-1-sensation-versus-perception",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology, first edition, section 5.1, CC BY 4.0. No revision date was printed on the page. Supports the distinction: sensation as receptor detection, perception as organization, interpretation, and conscious experience."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-absolute-threshold",
+    "world-f1-senses-sensory-adaptation",
+    "world-f1-senses-optic-nerve-to-brain"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "sensation",
+    "perception"
+  ],
+  "read_time_min": 1
+}

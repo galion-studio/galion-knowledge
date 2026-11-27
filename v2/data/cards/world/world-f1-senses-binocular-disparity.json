@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-binocular-disparity",
+  "title": "Two eyes give two slightly different views, and that difference is a depth cue",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Binocular disparity is the slightly different view each eye gets, and OpenStax treats it as a cue to depth.",
+  "body": "OpenStax Psychology defines depth perception as judging spatial relations in three dimensions. Binocular cues need both eyes. One of them is binocular disparity, the slightly different view each eye receives. The chapter's demonstration is a finger that seems to shift when you alternate which eye is open. The page is a textbook account of that cue, not a claim that one eye cannot judge distance at all.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "5.3 Vision",
+      "url": "https://openstax.org/books/psychology/pages/5-3-vision",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology, first edition, section 5.3, CC BY 4.0. No revision date was printed on the page. Supports binocular disparity, the slightly different view from each eye, as a binocular depth cue."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-lens-focuses-retina",
+    "world-f1-senses-sensation-versus-perception"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "disparity",
+    "depth"
+  ],
+  "read_time_min": 1
+}

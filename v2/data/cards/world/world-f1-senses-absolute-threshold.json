@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-absolute-threshold",
+  "title": "An absolute threshold is detection on half the trials",
+  "section": "world",
+  "category": "psychology",
+  "summary": "The absolute threshold is the minimum stimulus energy that is detected 50 percent of the time.",
+  "body": "OpenStax Psychology defines absolute threshold as the minimum amount of stimulus energy that must be present for the stimulus to be detected 50 percent of the time. The chapter's picture is how dim a light, or how soft a sound, can be and still be noticed half the time. Measurements of that floor, the book says, are made under controlled conditions that favor sensitivity. The definition is textbook wording under CC BY 4.0.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "5.1 Sensation versus Perception",
+      "url": "https://openstax.org/books/psychology/pages/5-1-sensation-versus-perception",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology, first edition, section 5.1, CC BY 4.0. No revision date was printed on the page. Supports absolute threshold as the minimum stimulus energy detected 50 percent of the time."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-sensation-versus-perception",
+    "world-f1-senses-sensory-adaptation"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "threshold",
+    "percent"
+  ],
+  "read_time_min": 1
+}

@@ -560,3 +560,226 @@ h1 {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+.article.principles {
+  max-width: 80rem;
+}
+
+.article.principles > .quiet {
+  margin: 0.15rem 0 0;
+}
+
+.principles-layout {
+  display: grid;
+  gap: 1.35rem;
+  margin-top: 1.75rem;
+  align-items: start;
+}
+
+.article.principles .principles-label,
+.article.principles .on-this-page > h2 {
+  margin: 0 0 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+.principle-card-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.principle-card {
+  display: flex;
+  align-items: center;
+  min-height: 5.75rem;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: rgba(17, 24, 39, 0.3);
+  color: #d1d5db;
+  font-size: 1.125rem;
+  line-height: 1.45;
+  letter-spacing: -0.014em;
+  text-wrap: pretty;
+}
+
+.principle-card:hover {
+  border-color: rgba(59, 130, 246, 0.5);
+  background: rgba(17, 24, 39, 0.55);
+  color: white;
+}
+
+.principle-card:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+}
+
+.on-this-page {
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: rgba(17, 24, 39, 0.3);
+  padding: 1rem 0.8rem 0.85rem;
+}
+
+.on-this-page ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.12rem;
+}
+
+.on-this-page a {
+  display: block;
+  padding: 0.4rem 0.65rem;
+  border-radius: 0.55rem;
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.35;
+}
+
+.on-this-page a:hover {
+  background: #1f2937;
+  color: white;
+}
+
+.on-this-page a:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 1px;
+}
+
+.principles-body {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.fold {
+  position: relative;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: rgba(17, 24, 39, 0.3);
+  scroll-margin-top: 5rem;
+}
+
+.fold-anchor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  scroll-margin-top: 5.15rem;
+}
+
+.fold summary {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  min-height: 3.35rem;
+  padding: 0.85rem 1.1rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.fold summary::-webkit-details-marker { display: none; }
+
+.fold summary:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: -2px;
+  border-radius: 1rem;
+}
+
+.article.principles .fold summary h2 {
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.35;
+}
+
+.fold-chevron {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex: none;
+  display: grid;
+  place-items: center;
+}
+
+.fold-chevron::before {
+  content: "";
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 1.5px solid var(--muted);
+  border-bottom: 1.5px solid var(--muted);
+  transform: translateY(-2px) rotate(45deg);
+}
+
+.fold[open] .fold-chevron::before {
+  transform: translateY(2px) rotate(-135deg);
+}
+
+.fold[open] {
+  border-color: rgba(59, 130, 246, 0.4);
+  background: rgba(17, 24, 39, 0.48);
+}
+
+.fold[open] summary {
+  border-bottom: 1px solid rgba(31, 41, 55, 0.95);
+}
+
+.fold:hover { border-color: #374151; }
+.fold[open]:hover { border-color: rgba(59, 130, 246, 0.55); }
+
+.article.principles .fold:has(:target) {
+  border-color: rgba(59, 130, 246, 0.7);
+  box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.28);
+}
+
+.article.principles .fold .prose {
+  padding: 0.2rem 1.25rem 1.2rem;
+}
+
+.article.principles .fold .prose > .fold-anchor + * { margin-top: 0.95rem; }
+.article.principles .fold .prose > :last-child { margin-bottom: 0; }
+.article.principles .fold .prose h3 { margin: 1.4rem 0 0.45rem; }
+
+.article.principles .source-box { margin-top: 0.45rem; }
+
+.article.principles h2,
+.article.principles h3,
+.article.principles .source-box {
+  scroll-margin-top: 5.15rem;
+}
+
+.article.principles .principles-body > .footer-links {
+  margin: 0.85rem 0 0;
+}
+
+@media (min-width: 700px) {
+  .principle-card-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (min-width: 960px) {
+  .principles-layout {
+    grid-template-columns: minmax(0, 1fr) 17rem;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+  }
+
+  .principle-cards { grid-column: 1; grid-row: 1; }
+  .principles-body { grid-column: 1; grid-row: 2; }
+
+  .on-this-page {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    align-self: start;
+    position: sticky;
+    top: 5.15rem;
+    max-height: calc(100vh - 6.4rem);
+    overflow: auto;
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-senses-glasses-bend-light",
+  "title": "Eyeglass lenses bend light so it lands on the retina",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Eyeglass lenses bend light, as the cornea and lens do, so the light focuses on the retina.",
+  "body": "The National Eye Institute says eyeglass lenses work by bending light, just like the lens and cornea in the eye. The eyeglass lens bends light to make it focus correctly on the retina. Different lenses correct different errors from the cornea, the lens, or the shape of the eye. The page calls eyeglasses the safest and simplest way to correct refractive errors. It was last updated on 8 July 2019.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Eyeglasses for Refractive Errors",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors/eyeglasses-refractive-errors",
+      "author": "National Eye Institute",
+      "date": "2019-07-08",
+      "accessed": "2026-11-26",
+      "note": "Supports eyeglass lenses bending light so it focuses on the retina."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Eye Institute",
+  "as_of_date": "2019-07-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-glasses-do-not-weaken",
+    "world-f1-senses-refractive-error",
+    "world-f1-senses-lens-focuses-retina"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "eyeglasses",
+    "bending"
+  ],
+  "read_time_min": 1
+}
