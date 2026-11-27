@@ -100,6 +100,87 @@ test("every foundations card is counted once, and only on a stage its slug fits"
   assert.equal(seen.size + ages.unplaced.length, markers);
 });
 
+test("brain age is the furthest filled stage with no gap from stage 1", () => {
+  const gap = ages.brainAgeFrom([
+    { label: "one", count: 2 },
+    { label: "two", count: 0, shardCount: 0 },
+    { label: "three", count: 5 },
+  ]);
+  assert.equal(gap.filledCount, 2);
+  assert.equal(gap.stageCount, 3);
+  assert.equal(gap.reachedIndex, 0);
+  assert.equal(gap.reachedLabel, "one");
+  assert.equal(gap.cardsHeld, 7);
+  assert.equal(gap.years, "I don't know.");
+
+  const earlier = ages.brainAgeFrom([
+    { label: "one", count: 2, years: "by about 2 months (rough estimate)" },
+    { label: "two", count: 0, years: "about 4 to 5 years (rough estimate)" },
+    { label: "three", count: 9, years: "about 9 months to 1 year (rough estimate)" },
+  ]);
+  assert.equal(earlier.reachedLabel, "one");
+  assert.equal(earlier.years, "by about 2 months (rough estimate)");
+
+  const shardFills = ages.brainAgeFrom([
+    { label: "one", count: 0, shardCount: 1 },
+    { label: "two", count: 3 },
+  ]);
+  assert.equal(shardFills.filledCount, 2);
+  assert.equal(shardFills.reachedLabel, "two");
+  assert.equal(shardFills.cardsHeld, 4);
+
+  const none = ages.brainAgeFrom([
+    { label: "one", count: 0 },
+    { label: "two", count: 4 },
+  ]);
+  assert.equal(none.filledCount, 1);
+  assert.equal(none.reachedIndex, -1);
+  assert.equal(none.reachedLabel, "");
+  assert.equal(none.cardsHeld, 4);
+});
+
+test("this build's brain age uses the placed cards and does not invent years", () => {
+  const held = ages.stages.reduce((sum, stage) => sum + stage.count + stage.shardCount, 0);
+  const filled = ages.stages.filter((stage) => stage.count + stage.shardCount >= 1).length;
+  let reached = -1;
+  ages.stages.forEach((stage, index) => {
+    if (reached === index - 1 && stage.count + stage.shardCount >= 1) reached = index;
+  });
+  assert.equal(ages.brain.stageCount, ages.stages.length);
+  assert.equal(ages.brain.filledCount, filled);
+  assert.equal(ages.brain.reachedIndex, reached);
+  assert.equal(ages.brain.reachedLabel, reached >= 0 ? ages.stages[reached].label : "");
+  assert.equal(ages.brain.cardsHeld, held);
+  assert.equal(ages.brain.years, ages.stages[reached].years);
+  assert.equal(ages.brain.filledCount, 3);
+  assert.equal(ages.brain.cardsHeld, 163);
+  assert.equal(ages.stages[2].years, "about 9 months to 1 year (rough estimate)");
+  assert.deepEqual(
+    ages.stages[2].sources.map((source) => source.url),
+    [
+      "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "https://www.cdc.gov/act-early/milestones/1-year.html",
+    ]
+  );
+  for (const stage of ages.stages) {
+    if (stage.years === "I don't know.") {
+      assert.equal(stage.sources.length, 0);
+    } else {
+      assert.match(stage.years, /rough estimate/);
+      assert.ok(stage.sources.length > 0);
+      for (const source of stage.sources) {
+        assert.match(source.url, /^https:\/\/www\.cdc\.gov\/act-early\/milestones\//);
+      }
+    }
+  }
+  const page = fs.readFileSync(path.join(root, "src/age.njk"), "utf8");
+  assert.match(
+    page,
+    /This years line is Galion's own internal metric for estimating HORBM's knowledge, publicly disclosed\./
+  );
+  assert.equal(page.includes('<details class="fold age-how">'), false);
+});
+
 test("manifest figures are the publication manifest, not a recount dressed up", () => {
   const manifest = JSON.parse(fs.readFileSync(path.join(root, "shards/manifest.json"), "utf8"));
   assert.equal(ages.manifest.schema, manifest.schema);

@@ -794,21 +794,101 @@ h1 {
 
 .article.age .quiet a { color: #93c5fd; }
 
+.age-panels {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  align-items: start;
+}
+
+.age-panels > * { min-width: 0; }
+
+.age-panels .age-card { padding: 0.7rem 0.55rem 0.8rem; }
+
+.age-k {
+  display: block;
+  margin-bottom: 0.15rem;
+  color: var(--faint);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  overflow-wrap: normal;
+}
+
+.age-brain p {
+  margin: 0.55rem 0 0;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
+}
+
+.age-how {
+  margin-top: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: rgba(17, 24, 39, 0.3);
+  padding: 0.9rem 1rem 1rem;
+}
+
+.age-scale {
+  margin: 0.8rem 0 0;
+  padding-left: 1.15rem;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.age-scale li {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.age-scale a { color: #93c5fd; }
+
+.article.age .fold .prose {
+  padding: 0.15rem 1rem 1rem;
+}
+
+.article.age .fold .prose p {
+  margin: 0.75rem 0 0;
+  overflow-wrap: anywhere;
+}
+
+.article.age .fold .prose a { color: #93c5fd; }
+
 .age-board {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 0.7rem 0.75rem;
-  margin-top: 1.75rem;
+  margin-top: 1.25rem;
   align-items: start;
 }
 
 .age-board > * { min-width: 0; }
 
-.article.age .age-head h2 {
+.article.age .age-panels h2,
+.article.age .age-how h2 {
   margin: 0;
-  font-size: clamp(1rem, 2.8vw, 1.35rem);
+  font-size: clamp(0.85rem, 2.6vw, 1.2rem);
   line-height: 1.25;
   letter-spacing: -0.02em;
+  overflow-wrap: break-word;
+}
+
+.age-metric {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: clamp(0.8rem, 2.4vw, 0.95rem);
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.age-years {
+  margin: 0.35rem 0 0;
+  color: #d1d5db;
+  font-size: clamp(0.8rem, 2.4vw, 0.95rem);
+  line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 
 .age-head p {

@@ -109,8 +109,122 @@ for (const card of shardPack.cards) take(card, "shard");
 const packCount = cards.filter((card) => card && !card._placeholder).length;
 const core = shardPack.manifest.core_pack;
 
-module.exports = {
-  stages: stages.map((stage) => {
+// Human ages are a rough estimate from CDC milestone pages opened on 27 November 2026.
+// A stage with no matching line on those pages stays "I don't know."
+const YEARS_UNKNOWN = "I don't know.";
+const HUMAN_AGE = {
+  "body-senses": {
+    years: "by about 2 months (rough estimate)",
+    yearsNote:
+      "CDC says most children (75% or more) look at a face, react to a loud sound, and watch a person move by 2 months. The checklist is not a screening tool.",
+    sources: [
+      {
+        title: "Milestones by 2 months",
+        url: "https://www.cdc.gov/act-early/milestones/2-months.html",
+        said: "CDC",
+        accessed: "2026-11-27",
+      },
+    ],
+  },
+  objects: { years: YEARS_UNKNOWN, yearsNote: "", sources: [] },
+  cause: {
+    years: "about 9 months to 1 year (rough estimate)",
+    yearsNote:
+      "CDC says most children look for an object dropped out of sight by 9 months, and look for a thing they saw hidden by 1 year. Those lines are object search. The same pages do not date gravity, support, containment, or push and pull.",
+    sources: [
+      {
+        title: "Milestones by 9 months",
+        url: "https://www.cdc.gov/act-early/milestones/9-months.html",
+        said: "CDC",
+        accessed: "2026-11-27",
+      },
+      {
+        title: "Milestones by 1 year",
+        url: "https://www.cdc.gov/act-early/milestones/1-year.html",
+        said: "CDC",
+        accessed: "2026-11-27",
+      },
+    ],
+  },
+  people: {
+    years: "by about 9 months (rough estimate)",
+    yearsNote:
+      "CDC says most children show several facial expressions, such as happy, sad, angry, and surprised, by 9 months.",
+    sources: [
+      {
+        title: "Milestones by 9 months",
+        url: "https://www.cdc.gov/act-early/milestones/9-months.html",
+        said: "CDC",
+        accessed: "2026-11-27",
+      },
+    ],
+  },
+  social: { years: YEARS_UNKNOWN, yearsNote: "", sources: [] },
+  words: {
+    years: "about 1 year to 18 months (rough estimate)",
+    yearsNote:
+      "CDC says most children call a parent mama or dada, or another special name, by 1 year, and try to say three or more words besides mama or dada by 18 months.",
+    sources: [
+      {
+        title: "Milestones by 1 year",
+        url: "https://www.cdc.gov/act-early/milestones/1-year.html",
+        said: "CDC",
+        accessed: "2026-11-27",
+      },
+      {
+        title: "Milestones by 18 months",
+        url: "https://www.cdc.gov/act-early/milestones/18-months.html",
+        said: "CDC",
+        accessed: "2026-11-27",
+      },
+    ],
+  },
+  needs: { years: YEARS_UNKNOWN, yearsNote: "", sources: [] },
+  preschool: {
+    years: "about 4 to 5 years (rough estimate)",
+    yearsNote:
+      "CDC says most children name a few colors by 4 years, and by 5 years count to 10 and use words about time such as yesterday, tomorrow, morning, or night. Those pages do not date shapes, space, direction, animals, plants, weather, home, or family.",
+    sources: [
+      {
+        title: "Milestones by 4 years",
+        url: "https://www.cdc.gov/act-early/milestones/4-years.html",
+        said: "CDC",
+        accessed: "2026-11-27",
+      },
+      {
+        title: "Milestones by 5 years",
+        url: "https://www.cdc.gov/act-early/milestones/5-years.html",
+        said: "CDC",
+        accessed: "2026-11-27",
+      },
+    ],
+  },
+  "early-school": { years: YEARS_UNKNOWN, yearsNote: "", sources: [] },
+  adult: { years: YEARS_UNKNOWN, yearsNote: "", sources: [] },
+};
+
+function brainAgeFrom(stageRows) {
+  const rows = stageRows || [];
+  const held = (stage) => (stage.count || 0) + (stage.shardCount || 0);
+  let reached = -1;
+  let filledCount = 0;
+  for (let index = 0; index < rows.length; index += 1) {
+    const filled = held(rows[index]) >= 1;
+    if (filled) filledCount += 1;
+    if (reached === index - 1 && filled) reached = index;
+  }
+  const row = reached >= 0 ? rows[reached] : null;
+  return {
+    stageCount: rows.length,
+    filledCount,
+    reachedIndex: reached,
+    reachedLabel: row ? row.label : "",
+    cardsHeld: rows.reduce((sum, stage) => sum + held(stage), 0),
+    years: row && row.years ? row.years : YEARS_UNKNOWN,
+  };
+}
+
+const publishedStages = stages.map((stage) => {
     const groups = [...stage.groups.entries()]
       .sort((a, b) => (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0))
       .map(([slug, items]) => ({
@@ -119,14 +233,23 @@ module.exports = {
         cards: items.sort((a, b) => a.title.localeCompare(b.title, "en")),
       }));
     const count = groups.reduce((sum, group) => sum + group.count, 0);
+    const age = HUMAN_AGE[stage.id] || { years: YEARS_UNKNOWN, yearsNote: "", sources: [] };
     return {
       id: stage.id,
       label: stage.label,
       count,
       shardCount: stage.shardCount,
       groups,
+      years: age.years,
+      yearsNote: age.yearsNote,
+      sources: age.sources,
     };
-  }),
+  });
+
+module.exports = {
+  brainAgeFrom,
+  stages: publishedStages,
+  brain: brainAgeFrom(publishedStages),
   unplaced: unplaced.sort((a, b) => a.title.localeCompare(b.title, "en")),
   packCount,
   shardFoundations,

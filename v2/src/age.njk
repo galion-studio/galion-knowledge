@@ -23,20 +23,59 @@ permalink: age/index.html
   <p class="lede">A preview of the same stages for a human and for HORBM.</p>
   <p class="quiet">The order and the wording are the <a href="{{ "/principles/#more-rules" | url }}">foundations-first rule</a> on Principles (revised 26 November 2026). A number is a count of cards in this build. A stage with no card says not built yet.</p>
 
-  <div class="age-board">
-    <div class="age-head">
+  <div class="age-panels">
+    <section class="age-card age-head">
       <h2>Human ages</h2>
       <p>How a human learns, in that order.</p>
-    </div>
-    <div class="age-head">
+    </section>
+    <section class="age-card age-head">
       <h2>Machine ages</h2>
       <p>What the published pack holds for the same stage.</p>
+    </section>
+    <section class="age-card age-brain" aria-labelledby="brain-age-label">
+      <h2 id="brain-age-label">HORBM brain age</h2>
+      <p><span class="age-k">Stages filled</span> {{ ages.brain.filledCount }} of {{ ages.brain.stageCount }}</p>
+      <p>
+        <span class="age-k">Furthest stage</span>
+        {% if ages.brain.reachedLabel %}{{ ages.brain.reachedIndex + 1 }}. {{ ages.brain.reachedLabel }}{% else %}not built yet{% endif %}
+      </p>
+      <p><span class="age-k">Cards held</span> {{ ages.brain.cardsHeld }}</p>
+      <p><span class="age-k">Years</span> {{ ages.brain.years }}</p>
+    </section>
+  </div>
+  <p class="age-metric">This years line is Galion's own internal metric for estimating HORBM's knowledge, publicly disclosed.</p>
+
+  <section class="age-how" id="how-this-is-calculated">
+    <h2>How this is calculated</h2>
+    <div class="prose">
+      <p>A card is placed on a stage when it has the tag <code>area:foundations-&lt;slug&gt;</code>. If that tag is absent, an id starting <code>world-f1-&lt;slug&gt;-</code> is the fallback, and only when the slug fits exactly one stage.</p>
+      <p>Human ages follow the foundations-first order on <a href="{{ "/principles/#more-rules" | url }}">Principles</a>, from <a href="https://github.com/galion-studio/galion-knowledge/pull/45">pull request 45</a>. The human line on a stage is a typical age taken from the CDC pages below. It is a rough estimate, not a measurement. CDC says a milestone is what most children (75% or more) can do by that age, and that these checklists are not a screening tool. A stage with no matching line says I don't know.</p>
+      <p>Machine ages are the same core pack HORBM loads. The count is how many of those cards were placed on the stage.</p>
+      <p>A stage is filled when it has at least one card. Stages filled is that count out of {{ ages.brain.stageCount }}. The brain age is the furthest stage reached with no empty stage before it, starting at stage 1, plus the cards held on the stages. The years line copies that stage's human age.{% if ages.brain.reachedIndex >= 0 %} This build copies stage {{ ages.brain.reachedIndex + 1 }}.{% else %} No stage is reached from stage 1, so the years line is I don't know.{% endif %}</p>
+      <p>The publication manifest does not split the pack by age.</p>
     </div>
+    <ol class="age-scale">
+      {% for stage in ages.stages %}
+        <li>
+          <span>{{ loop.index }}. {{ stage.label }}</span>
+          <span>{{ stage.years }}</span>
+          {% for source in stage.sources %}
+            <a href="{{ source.url }}">{{ source.title }}</a>
+            <span class="source-note">{{ source.said }}, accessed {{ source.accessed }}.</span>
+          {% endfor %}
+          {% if stage.yearsNote %}<span class="source-note">{{ stage.yearsNote }}</span>{% endif %}
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <div class="age-board">
 
     {% for stage in ages.stages %}
       <h3 class="age-stage-label" id="{{ stage.id }}">{{ loop.index }}. {{ stage.label }}</h3>
       <article class="age-card">
         <p class="age-kicker">Human</p>
+        <p class="age-years">{{ stage.years }}</p>
         {% if stage.count %}
           <p class="age-count">{{ stage.count }} card{% if stage.count != 1 %}s{% endif %}</p>
           <ul class="age-groups">
