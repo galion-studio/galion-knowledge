@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-heterogeneous-dressing",
+  "title": "A heterogeneous mixture is not the same from drop to drop",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "In a heterogeneous mixture the makeup changes from place to place, as in Italian dressing where one drop can be mostly oil and another mostly vinegar.",
+  "body": "OpenStax Chemistry says a heterogeneous mixture varies in composition from point to point. Italian dressing is the example: oil, vinegar, and herbs can be mixed in different amounts, and they do not stay evenly blended, so one drop can be mostly vinegar while another is mostly oil or herbs. Chocolate chip cookies and granite are the other examples, because the separate bits can be seen. A solution, which looks the same throughout, is a different kind of mixture.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Chemistry",
+      "url": "https://openstax.org/books/chemistry/pages/1-2-phases-and-classification-of-matter",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Chemistry, first-edition path /books/chemistry/, CC BY 4.0. Supports the heterogeneous-mixture definition and the dressing, cookie, and granite examples in section 1.2. Paraphrase only; the section was not copied."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "heterogeneous",
+    "mixture"
+  ],
+  "read_time_min": 1
+}

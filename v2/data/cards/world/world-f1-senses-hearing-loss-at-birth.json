@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-senses-hearing-loss-at-birth",
+  "title": "About two or three US babies in a thousand are born with detectable hearing loss",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIDCD says about two or three of every 1,000 children in the United States are born with detectable hearing loss in one or both ears.",
+  "body": "NIDCD says most children hear and listen to sounds at and even before birth. About two or three out of every 1,000 children in the United States are born with detectable hearing loss in one or both ears, and more lose hearing later in childhood. The birth fraction is a US figure from a page updated on 10 June 2024. It is not a result for one newborn.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Your Baby's Hearing Screening and Next Steps",
+      "url": "https://www.nidcd.nih.gov/health/your-babys-hearing-screening-and-next-steps",
+      "author": "NIDCD",
+      "date": "2024-06-10",
+      "accessed": "2026-11-26",
+      "note": "Supports about 2 or 3 per 1,000 US children born with detectable hearing loss in one or both ears, and that more lose hearing later."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2024-06-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-newborn-hearing-screen-rate"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "thousand",
+    "detectable"
+  ],
+  "read_time_min": 1
+}

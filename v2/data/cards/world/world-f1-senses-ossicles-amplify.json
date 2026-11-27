@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-ossicles-amplify",
+  "title": "Three middle-ear bones amplify the eardrum's vibration",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The eardrum passes vibration to the malleus, incus, and stapes, and those bones amplify it toward the cochlea.",
+  "body": "NIDCD says the eardrum vibrates from incoming sound waves and sends those vibrations to three tiny middle-ear bones, the malleus, incus, and stapes. Those bones amplify, or increase, the vibrations and send them to the cochlea. The claim stops at that boost. Hair cells inside the cochlea are the next card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How Do We Hear?",
+      "url": "https://www.nidcd.nih.gov/health/how-do-we-hear",
+      "author": "NIDCD",
+      "date": "2022-03-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the malleus, incus, and stapes amplifying vibrations from the eardrum and sending them to the cochlea."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2022-03-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-ear-canal-eardrum",
+    "world-f1-senses-cochlea-pitch-place"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "malleus",
+    "stapes"
+  ],
+  "read_time_min": 1
+}

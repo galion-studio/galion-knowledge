@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-cause-hidden-still-there",
+  "title": "Object permanence is knowing a hidden thing is still there",
+  "section": "world",
+  "category": "development",
+  "summary": "OpenStax defines object permanence as the understanding that something still exists when it is out of sight.",
+  "body": "OpenStax Psychology, reporting Piaget, says object permanence is the understanding that even if something is out of sight, it still exists. The phrase names that understanding. It is not a stopwatch result and not a medical cutoff. The page sets the idea inside a theory of how thinking develops. The phrase names the understanding and is not a clinical cutoff.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 9.2 Lifespan Theories",
+      "url": "https://openstax.org/books/psychology/pages/9-2-lifespan-theories",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the definition of object permanence in the sensorimotor paragraph."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-piaget-five-eight",
+    "world-f1-cause-blanket-reach"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "permanence",
+    "piaget"
+  ],
+  "read_time_min": 1
+}

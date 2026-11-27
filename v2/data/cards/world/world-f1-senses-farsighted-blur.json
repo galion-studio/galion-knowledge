@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-farsighted-blur",
+  "title": "Hyperopia makes a book held close hard to resolve",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Hyperopia is the National Eye Institute's name for farsightedness, which makes close things look blurry.",
+  "body": "Hyperopia, as the National Eye Institute defines it, is the focusing error that leaves a nearby page or toy blurry while distance can stay readable. The December 2025 page lists it as a common focusing error. No diopter number is assigned here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Refractive Errors",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+      "author": "National Eye Institute",
+      "date": "2025-12-19",
+      "accessed": "2026-11-26",
+      "note": "Supports hyperopia making nearby objects look blurry."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Eye Institute",
+  "as_of_date": "2025-12-19",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-nearsighted-blur",
+    "world-f1-senses-presbyopia-close"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "hyperopia",
+    "nearby"
+  ],
+  "read_time_min": 1
+}

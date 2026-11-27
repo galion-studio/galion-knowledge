@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-block-into-cup",
+  "title": "A block dropped into a cup is the one-year container skill",
+  "section": "world",
+  "category": "development",
+  "summary": "By about a first birthday, most babies put something in a container, such as a block in a cup, the U.S. CDC says.",
+  "body": "The CDC page for age one lists putting something in a container, like a block in a cup, as a cognitive item. Its bar for most is 75 percent of children or higher by that birthday. The page says the Learn the Signs handouts do not replace a standardized, validated developmental screen. This is one country's checklist. It does not declare a particular infant late, and it is not worded as something every baby must pass. Hunting for a toy hidden under a blanket is another line and is left off this card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 1-year",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "CDC Learn the Signs. Act Early. page, U.S. government work, public domain. Updated and reviewed 16 May 2026. Supports putting something in a container, like a block in a cup, by 1 year."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "container",
+    "milestone"
+  ],
+  "read_time_min": 1
+}

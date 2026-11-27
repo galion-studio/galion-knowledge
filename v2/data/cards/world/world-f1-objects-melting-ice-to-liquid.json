@@ -1,0 +1,38 @@
+{
+  "id": "world-f1-objects-melting-ice-to-liquid",
+  "title": "Melting is solid ice or snow warming into liquid water",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "Melting is solid ice or snow warming up and changing into liquid water.",
+  "body": "NOAA Education says water has three phases, solid, liquid, and gas, and that a change from one state to another is a phase change. Melting, on that page, occurs when solid ice or snow warms up and changes to liquid. The page does not print a degree number for that step. The linked NIST card is where the Celsius wording, including the word about on the boil, already sits. This card is the name of the solid-to-liquid change for ordinary ice and snow.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The water cycle",
+      "url": "https://www.noaa.gov/education/resource-collections/freshwater/water-cycle",
+      "author": "National Oceanic and Atmospheric Administration",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "NOAA Education water-cycle page, U.S. government work, public domain. No review date was printed on the page opened 2026-11-26. Supports the definition of melting as ice or snow warming into liquid."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.water-freeze-boil-nist",
+    "world.chemistry.thermo-water-7732185-tboil",
+    "world.chemistry.thermo-water-7732185-ptriple",
+    "world.chemistry.thermo-water-7732185-c",
+    "world.chemistry.water"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "melting",
+    "ice"
+  ],
+  "read_time_min": 1
+}

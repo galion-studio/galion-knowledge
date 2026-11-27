@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-objects-puddle-evaporates",
+  "title": "A puddle can evaporate by taking heat from the sun, the air, or skin",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "Any liquid water can evaporate, including a sidewalk puddle, when it absorbs energy from the sun, the air, or body heat.",
+  "body": "NOAA Education says evaporation turns liquid water into water vapor, like moisture in the atmosphere. Any liquid water can evaporate, from falling rain to the ocean or a puddle on the sidewalk. It happens when water absorbs energy from the sun, the atmosphere, or even our own body heat. That is a wider net than a kettle on a stove. The Survey's account of bonds breaking is a different page and a different card. This one is only NOAA's list of everyday liquids and energy sources.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The water cycle",
+      "url": "https://www.noaa.gov/education/resource-collections/freshwater/water-cycle",
+      "author": "National Oceanic and Atmospheric Administration",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "NOAA Education water-cycle page, U.S. government work, public domain. No review date was printed on the page opened 2026-11-26. Supports evaporation of any liquid water, including a puddle, using energy from the sun, the air, or body heat."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.water-cycle-usgs",
+    "world.nature.water-cycle"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "evaporation",
+    "puddle"
+  ],
+  "read_time_min": 1
+}

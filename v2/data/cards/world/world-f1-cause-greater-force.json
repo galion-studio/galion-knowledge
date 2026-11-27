@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-greater-force",
+  "title": "A larger net force gives the same mass a larger acceleration",
+  "section": "world",
+  "category": "physics",
+  "summary": "OpenStax Physics says acceleration is directly proportional to the net external force, so a greater force accelerates the same mass more.",
+  "body": "OpenStax Physics says a nonzero net external force produces acceleration, and that acceleration is directly proportional to that force. If the force doubles and the mass stays the same, the acceleration doubles. The same section says a larger mass yields a smaller acceleration from a given force. A figure contrasts a basketball with a stalled car under the same push. This card is only that proportion. It leaves out weight and falling. Weight and falling are left out of this card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Physics, 4.3 Newton's Second Law of Motion",
+      "url": "https://openstax.org/books/physics/pages/4-3-newtons-second-law-of-motion",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Physics web page (/books/physics/), CC BY 4.0. Paraphrase; credit OpenStax. Supports direct proportion of acceleration to net force, inverse proportion to mass, and the basketball-and-car comparison. Weight is intentionally omitted."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-bat-hit",
+    "world-f1-cause-net-force",
+    "world-f1-cause-inertia-rest"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "proportional",
+    "acceleration"
+  ],
+  "read_time_min": 1
+}
