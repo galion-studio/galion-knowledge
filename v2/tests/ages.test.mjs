@@ -154,7 +154,7 @@ test("this build's brain age uses the placed cards and does not invent years", (
   assert.equal(ages.brain.years, ages.stages[reached].years);
   assert.equal(ages.brain.headline, "HORBM is about 9 months to 1 year old in human years");
   assert.equal(ages.brain.markPercent, ages.markPercent([9, 12]));
-  assert.equal(ages.headlineFrom("I don't know."), "HORBM is still a newborn. We don't know yet.");
+  assert.equal(ages.headlineFrom("I don't know."), "I don't know HORBM's age in human years yet.");
   assert.equal(ages.brain.filledCount, 3);
   assert.equal(ages.brain.cardsHeld, 163);
   assert.equal(ages.stages[2].years, "about 9 months to 1 year (rough estimate)");
@@ -189,6 +189,8 @@ test("this build's brain age uses the placed cards and does not invent years", (
   assert.equal(hero.includes("age-board"), false);
   assert.equal(hero.includes("internal metric"), false);
   assert.match(page.slice(fold), /Show more/);
+  assert.match(hero, /G\.A\.L\.I\.O\.N\./);
+  assert.equal(/\p{Extended_Pictographic}/u.test(page), false, "no emoji on the age page");
 });
 
 test("manifest figures are the publication manifest, not a recount dressed up", () => {

@@ -212,7 +212,7 @@ const HUMAN_AGE = {
 const PICTURE_ADULT_MONTHS = 18 * 12;
 
 function headlineFrom(years) {
-  if (!years || years === YEARS_UNKNOWN) return "HORBM is still a newborn. We don't know yet.";
+  if (!years || years === YEARS_UNKNOWN) return "I don't know HORBM's age in human years yet.";
   const phrase = years.replace(/\s*\(rough estimate\)\s*$/, "");
   return `HORBM is ${phrase} old in human years`;
 }
