@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-sensory-adaptation",
+  "title": "A steady stimulus can fade from awareness while the receptors still answer",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Sensory adaptation is no longer noticing a stimulus that stays constant, even though the receptors are still responding.",
+  "body": "OpenStax Psychology says people often do not perceive stimuli that remain relatively constant over a long time. It calls that sensory adaptation. The chapter's example is a ticking clock that is obvious on entering a room and then drops out of awareness during conversation, while the auditory receptors are still affected. The example shows sensation and perception coming apart. The text is CC BY 4.0.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "5.1 Sensation versus Perception",
+      "url": "https://openstax.org/books/psychology/pages/5-1-sensation-versus-perception",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology, first edition, section 5.1, CC BY 4.0. No revision date was printed on the page. Supports sensory adaptation: constant stimuli stop being perceived while receptors continue to respond."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-sensation-versus-perception",
+    "world-f1-senses-absolute-threshold"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "adaptation",
+    "ticking"
+  ],
+  "read_time_min": 1
+}

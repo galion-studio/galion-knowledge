@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-senses-beyond-five-senses",
+  "title": "Balance, body position, pain, and temperature sit outside a list of five senses",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says the school list of five senses leaves out balance, body position and movement, pain, and temperature.",
+  "body": "OpenStax Psychology names vision, hearing, smell, taste, and touch, then says that notion of five senses is oversimplified. Further systems inform balance, the vestibular sense, body position and movement, proprioception and kinesthesia, pain, nociception, and temperature, thermoception. The sentence is the textbook correcting the short list. It is CC BY 4.0, not a count of how many senses a species has.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "5.1 Sensation versus Perception",
+      "url": "https://openstax.org/books/psychology/pages/5-1-sensation-versus-perception",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology, first edition, section 5.1, CC BY 4.0. No revision date was printed on the page. Supports the claim that five senses is oversimplified, naming vestibular sense, proprioception, kinesthesia, nociception, and thermoception."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-balance-inner-ear",
+    "world-f1-senses-pain-nociceptors",
+    "world-f1-senses-temperature-receptors"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "proprioception",
+    "kinesthesia"
+  ],
+  "read_time_min": 1
+}

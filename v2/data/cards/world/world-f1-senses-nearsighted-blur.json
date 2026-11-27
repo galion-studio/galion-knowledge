@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-nearsighted-blur",
+  "title": "Myopia leaves distant scenery blurry",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Myopia is the National Eye Institute's name for nearsightedness, and it leaves distant scenery blurry.",
+  "body": "On the institute's refractive-error page, myopia is the pattern in which far scenery looks blurry. The page adds that this pattern usually begins during childhood. The 19 December 2025 update names that distance problem and stops there. It gives no lens formula.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Refractive Errors",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+      "author": "National Eye Institute",
+      "date": "2025-12-19",
+      "accessed": "2026-11-26",
+      "note": "Supports myopia making far-away objects look blurry, and the note that it usually starts in childhood."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Eye Institute",
+  "as_of_date": "2025-12-19",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-farsighted-blur",
+    "world-f1-senses-refractive-error"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "myopia",
+    "distant"
+  ],
+  "read_time_min": 1
+}
