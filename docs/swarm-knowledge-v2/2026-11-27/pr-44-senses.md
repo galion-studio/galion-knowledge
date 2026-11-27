@@ -3,7 +3,8 @@
 - PR: https://github.com/galion-studio/galion-knowledge/pull/44
 - Branch: `cursor/f1-senses-cards-6a09`
 - Prior head (before this publication commit): `4bd257e60ae1cc9d05599e23ee67b4e8be49af67`
-- Head SHA: this publication commit (`Publish core-pack digest 7 after F1 senses cards.`). The literal SHA is the branch head after the push and is listed in the swarm report, because a commit cannot contain its own hash.
+- Digest commit: `99ee85ba826fc179fd9aaa1b0c2aa78fcb80ee68` (`Publish core-pack digest 7 after F1 senses cards.`).
+- Head SHA: the commit that adds this digest SHA to the note (child of `99ee85ba826fc179fd9aaa1b0c2aa78fcb80ee68`). The swarm report lists `git rev-parse HEAD` after that commit.
 - Base at publication: `origin/master` `9fdbb2477b81bdc3ae9feccff8bf9a01dc68875f` (already an ancestor; merge was already up to date).
 - Publication: 7
 - sha256: `200ab66f323fb90d0b46e4938a708aa61f327bc0bc0a3a1c85877c8a4ad85968`
