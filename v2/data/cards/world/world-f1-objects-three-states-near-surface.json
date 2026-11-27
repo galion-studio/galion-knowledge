@@ -1,0 +1,40 @@
+{
+  "id": "world-f1-objects-three-states-near-surface",
+  "title": "Water can be ice, liquid, and vapor at ordinary surface conditions",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "NASA says water is the only known substance that can naturally be a gas, a liquid, and a solid in the narrow range of temperatures and pressures at Earth's surface.",
+  "body": "NASA's Earth Observatory water-cycle page, dated 1 October 2010, says water is the only known substance that can naturally exist as a gas, a liquid, and a solid within the relatively small range of air temperatures and pressures at Earth's surface. A caption on the same page says it is the only common substance that can do so, and that all three states can be present together, as in a winter geyser at Yellowstone. The page's inventory of how much water sits in oceans and ice is already on other cards and is not repeated. This card is the three-state claim.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Water Cycle",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-water-cycle/",
+      "author": "NASA Earth Observatory",
+      "date": "2010-10-01",
+      "accessed": "2026-11-26",
+      "note": "NASA Earth Observatory page dated 1 October 2010, U.S. government work, public domain. Supports the three-states-at-the-surface sentence. Volume figures are not repeated."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2010-10-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.water-freeze-boil-nist",
+    "world.chemistry.thermo-water-7732185-tboil",
+    "world.chemistry.thermo-water-7732185-ptriple",
+    "world.chemistry.thermo-water-7732185-c",
+    "world.chemistry.water",
+    "world.water-cycle-usgs",
+    "world.nature.water-cycle"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "water",
+    "phases"
+  ],
+  "read_time_min": 1
+}

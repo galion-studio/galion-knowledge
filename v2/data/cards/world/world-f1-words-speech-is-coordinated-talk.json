@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-speech-is-coordinated-talk",
+  "title": "NIDCD says speech is talking, one way to express language",
+  "section": "world",
+  "category": "language",
+  "summary": "NIDCD says speech is talking, one way to express language, using coordinated movements of the tongue, lips, jaw, and vocal tract.",
+  "body": "NIDCD says speech is talking, which is one way to express language. It involves precisely coordinated muscle actions of the tongue, lips, jaw, and vocal tract to produce the recognizable sounds that make up language. The page lists signing and writing as other ways language can be expressed, so speech is not the only form. This card is the speech definition from the 2010 institute page. It does not describe a speech disorder.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Speech and Language Developmental Milestones",
+      "url": "https://www.nidcd.nih.gov/health/speech-and-language",
+      "author": "National Institute on Deafness and Other Communication Disorders",
+      "date": "2010-09",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. The page prints NIH Publication No. 00-4781, September 2010, and no later review date. Supports the definition of speech as talking and as one way to express language."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2010-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-voice-from-vocal-folds",
+    "world-f1-words-shared-rules-including-sign"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "speech",
+    "talking"
+  ],
+  "read_time_min": 1
+}

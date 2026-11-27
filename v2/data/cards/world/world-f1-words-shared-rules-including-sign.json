@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-shared-rules-including-sign",
+  "title": "NIDCD says language is shared rules, expressed in speech, writing, or signing",
+  "section": "world",
+  "category": "language",
+  "summary": "NIDCD says language is a set of shared rules for expressing ideas, and that it may be spoken, written, or signed.",
+  "body": "NIDCD says language is a set of shared rules that allow people to express their ideas in a meaningful way. It says language may be expressed verbally or by writing, signing, or making other gestures, and it gives eye blinking or mouth movements as examples of other gestures. The sentence puts signing inside language, not outside it. This is a definition on a 2010 United States institute page. It does not describe the grammar of one signed language.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Speech and Language Developmental Milestones",
+      "url": "https://www.nidcd.nih.gov/health/speech-and-language",
+      "author": "National Institute on Deafness and Other Communication Disorders",
+      "date": "2010-09",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. The page prints NIH Publication No. 00-4781, September 2010, and no later review date. Supports the definition of language as shared rules that may be expressed verbally, by writing, by signing, or by other gestures."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2010-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-asl-is-a-full-language",
+    "world-f1-words-rules-plus-vocabulary"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "signing",
+    "rules"
+  ],
+  "read_time_min": 1
+}

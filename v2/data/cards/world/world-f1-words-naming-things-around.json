@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-naming-things-around",
+  "title": "NICHD says to point out the names of objects a child can see",
+  "section": "world",
+  "category": "development",
+  "summary": "NICHD lists pointing out and talking about the names of objects, along with colors, shapes, numbers, sizes, and quantities.",
+  "body": "On the same NICHD early-learning page, one bullet says to point out and talk with the child about the names, colors, shapes, numbers, sizes, and quantities of objects in the child's environment. The bullet is one caregiver practice, not a milestone age. The page does not say which objects to start with. It is a United States institute suggestion, listed beside reading from birth.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How can parents and caregivers promote early learning?",
+      "url": "https://www.nichd.nih.gov/health/topics/early-learning/conditioninfo/promote",
+      "author": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. No updated date was printed. Supports the bullet about pointing out names, colors, shapes, numbers, sizes, and quantities of objects."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NICHD",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-reading-starts-at-birth",
+    "world-f1-words-gaze-follows-a-name"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "naming",
+    "objects"
+  ],
+  "read_time_min": 1
+}

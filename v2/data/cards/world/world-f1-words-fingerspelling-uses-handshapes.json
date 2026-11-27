@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-words-fingerspelling-uses-handshapes",
+  "title": "NIDCD says fingerspelling is part of ASL and maps letters to handshapes",
+  "section": "world",
+  "category": "language",
+  "summary": "NIDCD says fingerspelling is part of ASL, used to spell English words, with a distinct handshape for each letter.",
+  "body": "The NIDCD ASL page says fingerspelling is part of ASL and is used to spell out English words. In the fingerspelled alphabet, each letter corresponds to a distinct handshape. The page says fingerspelling is often used for proper names or to indicate the English word for something. Fingerspelling is one part of ASL. The page does not say ASL is only a code for English spelling. The description is from the page updated in 2021.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Is American Sign Language?",
+      "url": "https://www.nidcd.nih.gov/health/american-sign-language",
+      "author": "National Institute on Deafness and Other Communication Disorders",
+      "date": "2021-10-29",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Last updated date printed on the page: 29 October 2021. Supports the paragraph on fingerspelling, handshapes, and its use for proper names or an English word."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2021-10-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-asl-is-a-full-language"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "fingerspelling",
+    "alphabet"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-cdc-talk-doctor",
+  "title": "The CDC says a missed milestone is a reason to talk with the doctor",
+  "section": "world",
+  "category": "development",
+  "summary": "The CDC says that if a child is not meeting a milestone, has lost a skill, or a caregiver is worried, talk with the child's doctor and ask about developmental screening.",
+  "body": "The CDC's milestone pages say the caregiver knows the child best and not to wait. If the child is not meeting one or more milestones, has lost skills once had, or the caregiver has other concerns, the pages say to talk with the child's doctor, share the concerns, and ask about developmental screening. They also point to a state or territory early-intervention program. That is the CDC's instruction. It is not a diagnosis, and the pages do not print an emergency number for this situation. The pages also point to early intervention. The direction is not a diagnosis and prints no emergency number.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. Supports the talk-with-the-doctor and early-intervention wording. Not a treatment protocol."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-cdc-not-a-screen",
+    "world-f1-cause-cdc-most-not-every",
+    "world-f1-cause-cdc-experts-selected"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "doctor",
+    "screening"
+  ],
+  "read_time_min": 1
+}

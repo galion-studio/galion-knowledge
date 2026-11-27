@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-mama-dada-special-name",
+  "title": "Calling a parent mama, dada, or another special name is a 1-year CDC item",
+  "section": "world",
+  "category": "development",
+  "summary": "By the first birthday, CDC says most babies use mama, dada, or another special name for a parent.",
+  "body": "The 1-year CDC sheet treats mama, dada, or some other special name as address aimed at a parent. That is a person-name, not a chain of one syllable produced for its sound. Waving bye-bye sits on the same sheet and is a hand gesture, so it is outside this entry. A brief pause when someone says no is also a different entry. The naming entry is a United States group mark for the first birthday. A baby who is not there yet has not received a diagnosis from the line.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 1 Year",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the language milestone 'Calls a parent mama or dada or another special name.'"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-mamamama-bababababa",
+    "world-f1-words-ba-for-ball"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "mama",
+    "dada"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-gravity-falling",
+  "title": "Gravity pulls objects toward Earth, so a dropped object is falling",
+  "section": "world",
+  "category": "physics",
+  "summary": "Gravity pulls objects toward Earth, so a dropped object is falling.",
+  "body": "NASA Space Place says gravity is why a person lands after a jump, and why something comes down after it is dropped or thrown, instead of drifting off. The page calls Earth's gravity the pull that keeps a person on the ground and makes things come down. A separate NASA fact sheet lists an escape speed for leaving Earth; that line is a different claim and is not what this card says. The page's article date is 17 December 2020.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Is Gravity?",
+      "url": "https://spaceplace.nasa.gov/what-is-gravity/en/",
+      "author": "NASA Space Place",
+      "date": "2020-12-17",
+      "accessed": "2026-11-26",
+      "note": "NASA Space Place, article last updated 17 December 2020. Paraphrase of the page's own sentence. Public-domain US federal page. Supports the sentences that things fall when dropped or thrown, and that Earth's gravity makes things fall."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2020-12-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.escape-velocity"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "gravity",
+    "falling"
+  ],
+  "read_time_min": 1
+}

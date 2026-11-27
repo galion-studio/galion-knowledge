@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-red-green-confusion",
+  "title": "The common color-vision deficiency makes red and green hard to tell apart",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The most common color-vision deficiency makes it hard to tell red from green.",
+  "body": "The National Eye Institute says color vision deficiency means seeing colors differently than most people. The most common type makes it hard to tell red from green. The page, updated on 5 November 2025, is describing that common pattern, not a test result for one person.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Color Blindness",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness",
+      "author": "National Eye Institute",
+      "date": "2025-11-05",
+      "accessed": "2026-11-26",
+      "note": "Supports color vision deficiency as seeing colors differently, and the most common type as difficulty telling red from green."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Eye Institute",
+  "as_of_date": "2025-11-05",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-color-deficiency-men",
+    "world-f1-senses-three-cone-opsins"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "red",
+    "green"
+  ],
+  "read_time_min": 1
+}

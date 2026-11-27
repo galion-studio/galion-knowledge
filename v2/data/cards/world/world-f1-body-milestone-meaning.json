@@ -1,0 +1,40 @@
+{
+  "id": "world-f1-body-milestone-meaning",
+  "title": "Milestone lists record what most children can do by an age",
+  "section": "world",
+  "category": "development",
+  "summary": "A US public-health list says a developmental milestone is something most children, 75 percent or more, can do by a given age, and that the list is not a screening test.",
+  "body": "The Centers for Disease Control and Prevention 2-month milestone page says developmental milestones are things most children, 75 percent or more, can do by a certain age. The milestone index calls a first step, a first grin, and waving bye-bye examples of milestones, and it says children reach them in how they,,, act, and move. The same pages say the. Act Early. materials are not a substitute for standardized, validated developmental screening tools. This is the US Centers for Disease Control and Prevention definition. Another country's list can use different items and ages. A missing item on the list is not, by itself, a diagnosis.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 75 percent definition and the sentence that the materials are not a substitute for standardized, validated developmental screening tools."
+    },
+    {
+      "title": "CDC's Developmental Milestones",
+      "url": "https://www.cdc.gov/act-early/milestones/index.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-02-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the name developmental milestones, the examples of a first step, a first smile, and waving bye-bye, and the same screening-tool limit."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "milestones",
+    "screening"
+  ],
+  "read_time_min": 1
+}

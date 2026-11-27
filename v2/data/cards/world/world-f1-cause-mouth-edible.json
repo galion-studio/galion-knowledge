@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-mouth-edible",
+  "title": "OpenStax says young children mouth objects to test if they are edible",
+  "section": "world",
+  "category": "development",
+  "summary": "OpenStax says young children put objects in their mouths to see if the items are edible.",
+  "body": "In that same picture of Piaget's first stage, OpenStax Psychology says young children put objects in their mouths to see if the items are edible. The point, as the textbook tells it, is testing a property by acting. A US checklist line about mouthing things in order to explore them is a different sentence, with its own age. This card is only the textbook's edible-test wording. That sentence is not the six-month checklist line about exploration.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 9.2 Lifespan Theories",
+      "url": "https://openstax.org/books/psychology/pages/9-2-lifespan-theories",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the sentence that young children put objects in their mouths to see if the items are edible."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-cdc-mouth-explore",
+    "world-f1-cause-shake-for-noise",
+    "world-f1-cause-sensorimotor-years"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "edible",
+    "mouths"
+  ],
+  "read_time_min": 1
+}

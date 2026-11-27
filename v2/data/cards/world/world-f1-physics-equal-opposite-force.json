@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-equal-opposite-force",
+  "title": "A force on a second object comes back equal and opposite",
+  "section": "world",
+  "category": "physics",
+  "summary": "NASA Glenn states the third law: when one object exerts a force on a second, the second exerts an equal and opposite force on the first.",
+  "body": "NASA Glenn's third-law heading says that whenever one object exerts a force on another, the second exerts an equal and opposite force on the first. The guide's own gloss is that for every action there is an equal and opposite reaction, and that forces come from interactions. One example is a jet: hot exhaust flows out the back, and the thrusting force points the other way. Page last updated 27 June 2024. The page does not claim the two objects have the same mass.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Newton's Laws of Motion",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-laws-of-motion/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2024-06-27",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 27 June 2024. Paraphrase of the third-law statement."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2024-06-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.newton-principia-text"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "opposite",
+    "reaction"
+  ],
+  "read_time_min": 1
+}

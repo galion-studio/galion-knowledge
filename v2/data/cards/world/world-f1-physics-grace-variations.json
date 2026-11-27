@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-grace-variations",
+  "title": "Gravity is slightly stronger over places with more mass underground",
+  "section": "world",
+  "category": "earth",
+  "summary": "Earth's gravity is slightly stronger over places with more mass underground, and the GRACE satellites map those small differences.",
+  "body": "NASA Space Place says gravity is not the same everywhere on Earth. It is slightly stronger over places with more mass underground than over places with less mass. The page says two GRACE spacecraft measure those variations, and that the maps have been used to follow sea level and crust changes after earthquakes. This card is that Space Place account, dated 17 December 2020, not a data table from the mission.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Is Gravity?",
+      "url": "https://spaceplace.nasa.gov/what-is-gravity/en/",
+      "author": "NASA Space Place",
+      "date": "2020-12-17",
+      "accessed": "2026-11-26",
+      "note": "NASA Space Place, article last updated 17 December 2020. Paraphrase of the page's own sentence. Public-domain US federal page. Supports the sentences on local variation and the GRACE maps."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2020-12-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.geography.earth-shape"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "grace",
+    "underground"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-two-masses-inverse-square",
+  "title": "Gravity between two masses shrinks with the square of their separation",
+  "section": "world",
+  "category": "physics",
+  "summary": "NASA Glenn says the gravitational force between two particles is a constant times the product of their masses, divided by the square of the distance.",
+  "body": "NASA Glenn's weight guide, last updated 20 November 2023, says Newton published the theory of gravitation with the laws of motion in 1686. For a rocket near Earth, the guide says that description still works well. The force between two particles equals a universal constant times the product of their masses, divided by the square of the distance between them. The same page says weight is that kind of attraction on an object, and that it does not require the source to touch the object. A standards-table value of the constant is a different card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Weight Equation",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/weight-equation-2/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2023-11-20",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 20 November 2023. Paraphrase of F = G m1 m2 / d^2 and of gravity as a field force."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2023-11-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.newton-principia-text"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "inverse",
+    "separation"
+  ],
+  "read_time_min": 1
+}

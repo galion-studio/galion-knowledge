@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-physics-mass-unchanged-on-moon",
+  "title": "Mass stays the same on Earth, the Moon, and Mars",
+  "section": "world",
+  "category": "physics",
+  "summary": "Carry an object to the Moon or to Mars and its mass is unchanged, even though the scale reading is not.",
+  "body": "NASA Glenn's weight guide says the gravitational acceleration depends on the world's mass and radius, so the weight force differs among Earth, the Moon, and Mars. The object's own mass does not. The guide's date is 20 November 2023. Numerical fractions for those worlds are other cards and are not the claim here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Weight Equation",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/weight-equation-2/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2023-11-20",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 20 November 2023. Paraphrase: mass remains the same on Earth, the Moon, and Mars, while weight changes."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2023-11-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.moon-fact-sheet",
+    "world.astronomy.mars-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "mass",
+    "unchanged"
+  ],
+  "read_time_min": 1
+}

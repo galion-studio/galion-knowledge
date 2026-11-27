@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-insulators-slow-heat",
+  "title": "Insulators slow or resist the transfer of heat",
+  "section": "world",
+  "category": "physics",
+  "summary": "Insulators are materials that resist or slow the transfer of heat.",
+  "body": "NASA's insulator guide says insulators are materials that resist or slow the transfer of heat. The background text uses the same contrast: conductors allow heat to transfer easily, while insulators resist the transfer of heat. The guide's classroom example is a thermal blanket on the Hubble Space Telescope, described as an insulator that protects instruments from extreme temperatures. This card does not say an insulator blocks electric charge, because that sentence is not the one printed for insulators.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NASA's Our World: Insulators, educator guide EG-2010-06-008-LaRC",
+      "url": "https://assets.science.nasa.gov/content/dam/science/cds/eclips/assets/documents/educator-guide-our-world-insulators.pdf",
+      "author": "NASA",
+      "date": "2010-06",
+      "accessed": "2026-11-26",
+      "note": "NASA eClips educator guide, U.S. government work, public domain. Product code dated June 2010. Supports insulators as materials that resist or slow heat transfer, including the Hubble blanket example."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2010-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "insulator",
+    "heat"
+  ],
+  "read_time_min": 1
+}

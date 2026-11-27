@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-asl-is-a-full-language",
+  "title": "NIDCD says American Sign Language is a complete language with its own grammar",
+  "section": "world",
+  "category": "language",
+  "summary": "NIDCD says American Sign Language is a complete natural language, with grammar that differs from English.",
+  "body": "NIDCD says American Sign Language is a complete, natural language that has the same linguistic properties as spoken languages, with grammar that differs from English. It is expressed by movements of the hands and face. A later section says ASL is separate from English and has its own rules for pronunciation, word formation, and word order. The page's example of a grammatical signal is a question asked by raising the eyebrows, widening the eyes, and tilting the body forward. ASL is the primary language of many North Americans who are deaf or hard of hearing, and some hearing people use it too. This is the institute's description, updated in 2021.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Is American Sign Language?",
+      "url": "https://www.nidcd.nih.gov/health/american-sign-language",
+      "author": "National Institute on Deafness and Other Communication Disorders",
+      "date": "2021-10-29",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Last updated date printed on the page: 29 October 2021. Supports the opening definition of ASL as a complete natural language whose grammar differs from English, and the section on its own rules for pronunciation, word formation, and word order."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2021-10-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-shared-rules-including-sign",
+    "world-f1-words-no-universal-sign-language"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "asl",
+    "grammar"
+  ],
+  "read_time_min": 1
+}

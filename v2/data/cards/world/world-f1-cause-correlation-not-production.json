@@ -1,0 +1,38 @@
+{
+  "id": "world-f1-cause-correlation-not-production",
+  "title": "Two things can change together without one producing the other",
+  "section": "world",
+  "category": "method",
+  "summary": "OpenStax says a correlation is a relationship in which variables change together, and that this does not by itself show that one produces the other.",
+  "body": "OpenStax Psychology says correlation means a relationship between two or more variables, and that the relationship does not necessarily imply that one produces the other. When variables are correlated, as one changes, so does the other. The textbook's limit is that a tidy link still leaves the producing relation unsettled. The point is from its research-methods section. Linked method cards cover p-values and replication. This card does not restate them. Linked method cards cover probability thresholds and replication, and this card does not restate them.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 2.3 Analyzing Findings",
+      "url": "https://openstax.org/books/psychology/pages/2-3-analyzing-findings",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the definition of correlation and the statement that correlation does not necessarily imply cause and effect, paraphrased here as producing."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.asa-p-values-2016",
+    "world.replication-psychology-2015",
+    "world.scientific-method-no-single-toolkit",
+    "world-f1-cause-ice-cream-weather",
+    "world-f1-cause-experiment-only"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "correlation",
+    "produces"
+  ],
+  "read_time_min": 1
+}

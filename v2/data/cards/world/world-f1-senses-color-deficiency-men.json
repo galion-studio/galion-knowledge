@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-color-deficiency-men",
+  "title": "About one man in twelve has a color-vision deficiency",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The National Eye Institute says about 1 in 12 men have color vision deficiency, and that men are at much higher risk than women.",
+  "body": "A 'did you know' note on the National Eye Institute color-blindness page says about 1 in 12 men have color vision deficiency. The risk section says men have a much higher risk than women, and that the deficiency usually runs in families. Most people who have it are born with it. The page was updated on 5 November 2025. The fraction is the institute's figure, not a local clinic count.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Color Blindness",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness",
+      "author": "National Eye Institute",
+      "date": "2025-11-05",
+      "accessed": "2026-11-26",
+      "note": "Supports about 1 in 12 men, a higher risk in men than in women, and the usual inherited pattern."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Eye Institute",
+  "as_of_date": "2025-11-05",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-red-green-confusion",
+    "world-f1-senses-cones-color-detail"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "twelve",
+    "men"
+  ],
+  "read_time_min": 1
+}

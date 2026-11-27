@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-objects-ice-floats-less-dense",
+  "title": "Ice floats because it is less dense than liquid water",
+  "section": "world",
+  "category": "physics",
+  "summary": "Ice floats in a drink because it is less dense than the liquid water around it, and about a tenth of an ice cube sits above the water line.",
+  "body": "The U.S. Geological Survey says ice is less dense than liquid water, which is why ice cubes float. On freezing, the density drops by about 9 percent. The page says the density of ice is about 90 percent that of water, though ice can hold air and the figure can vary, so about 10 percent of an ice cube or an iceberg is above the water line. The molecules in ice line up in a regular lattice and sit more spread out than in the liquid. Most other substances are denser as solids. Heavy-water ice, which can sink, is a different card. No NIST critical-density number is repeated.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Water Density",
+      "url": "https://www.usgs.gov/water-science-school/science/water-density",
+      "author": "U.S. Geological Survey",
+      "date": "2026-08-24",
+      "accessed": "2026-11-26",
+      "note": "U.S. Geological Survey page, U.S. government work, public domain. Supports ice floating because it is less dense, the lattice, the about 9 percent drop, and about 10 percent above the line. Byline date 24 August 2026."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "2026-08-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.thermo-water-7732185-c",
+    "world.chemistry.water"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "ice",
+    "float"
+  ],
+  "read_time_min": 1
+}

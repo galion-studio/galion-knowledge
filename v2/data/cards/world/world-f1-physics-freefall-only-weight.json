@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-freefall-only-weight",
+  "title": "Freefall means the only force acting is the object's weight",
+  "section": "world",
+  "category": "physics",
+  "summary": "An object is in freefall when the only force on it is its weight, the pull of gravity.",
+  "body": "OpenStax Physics says that when the net outside force on an object is its weight, the object is in freefall. In that situation the only force acting is gravity. The page uses this as the meaning of the word, before it warns that a real drop near Earth is never that pure. Urone and Hinrichs, 26 March 2020. The definition is the textbook's, for the ideal case.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.3 Newton's Second Law of Motion",
+      "url": "https://openstax.org/books/physics/pages/4-3-newtons-second-law-of-motion",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only. OpenStax Physics, first edition, Paul Peter Urone and Roger Hinrichs, published 26 March 2020, path /books/physics/. The OpenStax CMS lists this first edition as CC BY 4.0. The site footer also prints a general NC-SA line for textbooks except where otherwise noted; this card follows the first-edition CC BY grant and does not copy a sentence. Supports the definition: freefall is when the net force is the weight."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "freefall",
+    "weight"
+  ],
+  "read_time_min": 1
+}

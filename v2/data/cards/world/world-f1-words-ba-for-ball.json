@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-ba-for-ball",
+  "title": "Ba for ball and da for dog are the CDC examples at 15 months",
+  "section": "world",
+  "category": "development",
+  "summary": "CDC says that by 15 months most children try one or two words besides mama or dada, such as ba for ball or da for dog.",
+  "body": "The examples on the 15-month CDC sheet are clipped syllables. Ba stands in for ball, and da stands in for dog. The sheet calls these tries, not finished vocabulary items. Mama and dada do not count toward the one or two. A toddler who so far uses only those caregiver names still matches the way the line is written. Most, on this sheet, means at least three quarters of children, so the line is a group mark in the United States, not a rule for every toddler.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 15 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the language milestone about trying one or two words besides mama or dada, like ba for ball or da for dog."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-three-quarters",
+    "world-f1-words-three-extra-words"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "ball",
+    "fifteen"
+  ],
+  "read_time_min": 1
+}

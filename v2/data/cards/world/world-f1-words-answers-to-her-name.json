@@ -1,0 +1,42 @@
+{
+  "id": "world-f1-words-answers-to-her-name",
+  "title": "By 9 months, most babies look when someone calls their name",
+  "section": "world",
+  "category": "development",
+  "summary": "The CDC 9-month social list says most babies look when you call their name.",
+  "body": "Looking when you call her name is on the CDC 9-month page under social and emotional milestones, not under the language heading. The page's heading is what most babies do by 9 months. A tip on the 4-month page also says a baby will start to recognize their name around 9 months. This card uses the 9-month milestone line, which is the looking response. It is not a hearing test. The age is the United States CDC mark.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the social milestone 'Looks when you call her name.'"
+    },
+    {
+      "title": "Milestones by 4 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/4-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the tip that a baby will start to recognize their name around 9 months."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-gaze-follows-a-name"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "name",
+    "looking"
+  ],
+  "read_time_min": 1
+}

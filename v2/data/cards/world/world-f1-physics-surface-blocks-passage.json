@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-surface-blocks-passage",
+  "title": "A solid surface stops another solid from passing through",
+  "section": "world",
+  "category": "physics",
+  "summary": "The normal force is a surface pushing outward, at right angles to itself, so an object cannot sink through.",
+  "body": "Urone and Hinrichs, in OpenStax Physics dated 26 March 2020, name the normal force as the reason a cup does not sink into a countertop. The counter pushes outward, perpendicular to itself, and that push blocks penetration. Two solids therefore do not occupy one place: the surface refuses the overlap. How large that push is, compared with weight, is a separate sentence on the page and is not this claim.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.4 Newton's Third Law of Motion",
+      "url": "https://openstax.org/books/physics/pages/4-4-newtons-third-law-of-motion",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only. OpenStax Physics, first edition, Paul Peter Urone and Roger Hinrichs, published 26 March 2020, path /books/physics/. The OpenStax CMS lists this first edition as CC BY 4.0. The site footer also prints a general NC-SA line for textbooks except where otherwise noted; this card follows the first-edition CC BY grant and does not copy a sentence. Supports the normal-force sentences: outward, perpendicular, prevents penetration, and matches weight on a flat resting surface."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "countertop",
+    "penetration"
+  ],
+  "read_time_min": 1
+}
