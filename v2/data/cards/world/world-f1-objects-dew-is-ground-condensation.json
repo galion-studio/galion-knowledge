@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-objects-dew-is-ground-condensation",
+  "title": "Dew is water vapor condensing into liquid on the ground",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "Dew is water vapor that has condensed into liquid on the ground.",
+  "body": "NOAA Education says water vapor condenses into droplets that build clouds, and that the same change leaves dew on the ground. Dew is that ground case. The page keeps the ground liquid apart from the direct change that makes a solid such as hoarfrost. A cold lawn at dawn is the everyday picture, not a forecast for a named town or season. The sheet does not count how many mornings produce it. Cloud droplets high up are the sky version of the same change, and they are not this claim. This card only names the liquid that appears on the ground.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The water cycle",
+      "url": "https://www.noaa.gov/education/resource-collections/freshwater/water-cycle",
+      "author": "National Oceanic and Atmospheric Administration",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "NOAA Education water-cycle page, U.S. government work, public domain. No review date was printed on the page opened 2026-11-26. Supports dew as water vapor condensing into liquid on the ground, distinct from the deposition path to ice."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.water-cycle-usgs",
+    "world.nature.water-cycle"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "dew",
+    "condensation"
+  ],
+  "read_time_min": 1
+}

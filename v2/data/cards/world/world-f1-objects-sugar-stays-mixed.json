@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-objects-sugar-stays-mixed",
+  "title": "Dissolved sugar stays spread through the water and does not settle",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "After sugar dissolves, its molecules stay scattered through the water, and gravity does not make them sink to the bottom.",
+  "body": "OpenStax Chemistry describes sucrose, table sugar, dissolving in water so that the molecules are uniformly distributed. The page says those molecules are heavier than water molecules, yet they remain dispersed, and gravity does not cause them to settle out over time. Water is the solvent and the sugar is the solute. The subscript in the textbook equation marks the sugar as aqueous, meaning spread in the water. Stirring can speed this up, but the page says a homogeneous solution would still form if you waited. This is not a claim about how much sugar a cold glass can hold.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Chemistry",
+      "url": "https://openstax.org/books/chemistry/pages/11-1-the-dissolution-process",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Chemistry, first-edition path /books/chemistry/, CC BY 4.0. Supports sucrose staying dispersed in water and not settling, in section 11.1. Paraphrase only; the section was not copied."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.water"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "sugar",
+    "solvent"
+  ],
+  "read_time_min": 1
+}

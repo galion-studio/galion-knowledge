@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-objects-heavy-ice-sinks",
+  "title": "Ice made from heavy water sinks in ordinary water",
+  "section": "world",
+  "category": "physics",
+  "summary": "Ordinary ice stays up in a drink, but ice made from heavy water is denser than normal water and sinks in it.",
+  "body": "The U.S. Geological Survey says ice of a special kind can be denser than normal water. Heavy ice is 10.6 percent denser than normal water because it is made from heavy water, written D2O instead of H2O, in which both hydrogen atoms are replaced by deuterium. Heavy water is heavier than normal water, which itself contains a tiny amount of heavy-water molecules, and heavy-water ice sinks in normal water. The page shows heavy cubes at the bottom of a glass while ordinary cubes stay up. This is not the ice in a kitchen tray. Kitchen ice is the kind that stays up, on the other card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Water Density",
+      "url": "https://www.usgs.gov/water-science-school/science/water-density",
+      "author": "U.S. Geological Survey",
+      "date": "2026-08-24",
+      "accessed": "2026-11-26",
+      "note": "U.S. Geological Survey page, U.S. government work, public domain. Supports heavy-water ice being 10.6 percent denser than normal water and sinking. Byline date 24 August 2026."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "2026-08-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.thermo-water-7732185-c",
+    "world.chemistry.water",
+    "world.chemistry.water"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "deuterium",
+    "ice"
+  ],
+  "read_time_min": 1
+}
