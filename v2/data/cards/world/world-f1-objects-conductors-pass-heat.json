@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-conductors-pass-heat",
+  "title": "Conductors let heat or electricity move through them easily",
+  "section": "world",
+  "category": "physics",
+  "summary": "Conductors are materials that easily transfer heat or electricity.",
+  "body": "NASA's insulator guide says conductors are materials that easily transfer heat or electricity. A nearby sentence says conductors allow heat to transfer easily, while insulators resist that transfer. The electricity half of the definition is the vocabulary line, not a wiring diagram. Which metals belong on the list is not printed there. Insulators, which slow heat, are a different card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NASA's Our World: Insulators, educator guide EG-2010-06-008-LaRC",
+      "url": "https://assets.science.nasa.gov/content/dam/science/cds/eclips/assets/documents/educator-guide-our-world-insulators.pdf",
+      "author": "NASA",
+      "date": "2010-06",
+      "accessed": "2026-11-26",
+      "note": "NASA eClips educator guide, U.S. government work, public domain. Product code dated June 2010. Supports the vocabulary line that conductors easily transfer heat or electricity."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2010-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "conductor",
+    "electricity"
+  ],
+  "read_time_min": 1
+}

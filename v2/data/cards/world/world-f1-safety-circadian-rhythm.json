@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-circadian-rhythm",
+  "title": "A circadian rhythm is a roughly 24-hour pattern, led by light and dark",
+  "section": "world",
+  "category": "biology",
+  "summary": "NIGMS says circadian rhythms are physical, mental, and behavioral changes across about 24 hours, and that light and dark influence them most.",
+  "body": "NIGMS says circadian rhythms include some of the physical, mental, and behavioral changes an organism goes through over a 24-hour cycle. Light and dark have the biggest influence. Food intake, stress, physical activity, the social environment, and temperature also affect them. Most living things have these rhythms, including animals, plants, and microorganisms. In humans, the fact sheet says, nearly every tissue and organ has its own rhythm, tuned together to day and night. Sleep is one of the functions the page lists, along with hormone release, appetite and digestion, and temperature. This is a biology description, not a diagnosis that someone's clock is broken.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Circadian Rhythms",
+      "url": "https://www.nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms.aspx",
+      "author": "National Institute of General Medical Sciences",
+      "date": "2025-05-20",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the clock sentence named in the card. Page last updated 20 May 2025. Content reviewed September 2023."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIGMS",
+  "as_of_date": "2025-05-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-melatonin-evening",
+    "world-f1-safety-night-device-light"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "circadian",
+    "light"
+  ],
+  "read_time_min": 1
+}

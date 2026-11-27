@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-clear-crib",
+  "title": "Soft bedding, pillows, bumper pads, and toys stay out of the baby's sleep area",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says to keep soft bedding out of the baby's sleep area, including blankets, pillows, bumper pads, and soft toys.",
+  "body": "The safe-sleep page says to keep soft bedding out of the baby's sleep area. The items it names are blankets, pillows, bumper pads, and soft toys. A bare fitted sheet on a firm mattress is the surface described on the previous line of that page. NICHD's campaign FAQ goes further on bumper pads and on a US law about selling them. This card is only the CDC list of what stays out. It is a US recommendation, not a description of every family's crib.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Providing Care for Babies to Sleep Safely",
+      "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2024-09-17",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. CDC says it supports the 2022 AAP recommendations. Page updated 17 September 2024."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2024-09-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-firm-flat-crib",
+    "world-f1-safety-crib-bumpers"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "bedding"
+  ],
+  "read_time_min": 1
+}

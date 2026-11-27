@@ -1,0 +1,42 @@
+{
+  "id": "world-f1-physics-hammer-feather",
+  "title": "On the Moon a hammer and a feather fell together",
+  "section": "world",
+  "category": "physics",
+  "summary": "With almost no air on the Moon, a hammer and a feather released together struck the ground together.",
+  "body": "NASA Science describes the end of the last Apollo 15 moon walk, when Commander David Scott dropped a geologic hammer and a feather together. The page says they were essentially in a vacuum, so there was no air resistance, and the feather fell at the same rate as the hammer. The page quotes the Apollo 15 Preliminary Science Report, which says the two were released from about the same height and struck the surface together. A Goddard copy of that write-up, last updated 31 March 2023, warns that the report's 0.03 kg figure for the feather is high and may be a typo. The shared observation is the simultaneous landing, not that mass figure.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The Apollo 15 Hammer-Feather Drop",
+      "url": "https://science.nasa.gov/resource/the-apollo-15-hammer-feather-drop/",
+      "author": "NASA",
+      "date": "2018-07-16",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Science page, published 16 July 2018. Paraphrase of the demonstration: no air resistance, feather and hammer fell together. The quoted report line is on the page; this card does not copy the paragraph."
+    },
+    {
+      "title": "The Apollo 15 Hammer-Feather Drop",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_15_feather_drop.html",
+      "author": "David R. Williams, NASA Goddard Space Flight Center",
+      "date": "2023-03-31",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NSSDCA page, last updated 31 March 2023. Supports the same demonstration and the curator's warning that 0.03 kg is too high for a feather and may be a typo."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2018-07-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.moon-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "hammer",
+    "feather"
+  ],
+  "read_time_min": 1
+}

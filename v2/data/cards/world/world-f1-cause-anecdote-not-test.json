@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-anecdote-not-test",
+  "title": "A handful of personal observations does not test what produced a behavior",
+  "section": "world",
+  "category": "method",
+  "summary": "OpenStax says limited personal observations and anecdotal evidence cannot rigorously test a hypothesis.",
+  "body": "OpenStax Psychology says personal observations often suggest a hypothesis, for instance after watching children copy something they just saw. It then says those limited observations and anecdotal evidence cannot rigorously test the hypothesis. A repeated household story is not that test. The point is about evidence. It is not about any named family. A story repeated at home can propose a cause, and the chapter says that repetition is still not a rigorous test.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 2.3 Analyzing Findings",
+      "url": "https://openstax.org/books/psychology/pages/2-3-analyzing-findings",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the contrast between anecdote and a rigorous test of a hypothesis."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-illusory-link",
+    "world-f1-cause-experiment-only",
+    "world.replication-psychology-2015"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "anecdotal",
+    "household"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-pain-nociceptors",
+  "title": "Nociceptors report stimuli that could damage tissue",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Nociception is the sensation of potentially damaging stimuli, from mechanical, chemical, or thermal input past a threshold.",
+  "body": "OpenStax Anatomy and Physiology says pain is primarily a chemical sense of chemicals released by tissue damage, or of similar intense stimuli, through a nociceptor. Nociception is the sensation of potentially damaging stimuli. Mechanical, chemical, or thermal stimuli beyond a set threshold elicit painful sensations. The wording is the textbook's, CC BY 4.0, and it is not a treatment instruction.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "14.1 Sensory Perception",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, section 14.1, CC BY 4.0. No revision date was printed on the page. Supports nociception as the sensation of potentially damaging mechanical, chemical, or thermal stimuli."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-temperature-receptors",
+    "world-f1-senses-touch-spread-receptors"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "nociceptors",
+    "damage"
+  ],
+  "read_time_min": 1
+}

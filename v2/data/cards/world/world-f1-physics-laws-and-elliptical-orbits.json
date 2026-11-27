@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-laws-and-elliptical-orbits",
+  "title": "Glenn's guide says Newton's laws, with Kepler's, explain elliptical planetary orbits",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "NASA Glenn says Newton's three laws, together with Kepler's laws, explain why planets move in ellipses rather than circles.",
+  "body": "On the laws-of-motion page, NASA Glenn says that by developing the three laws, Newton revolutionized science. It then says Newton's laws together with Kepler's laws explained why planets move in elliptical orbits rather than in circles. The page does not derive the ellipse. It is the guide's historical summary, last updated 27 June 2024. A separate card identifies the 1686 book.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Newton's Laws of Motion",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-laws-of-motion/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2024-06-27",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 27 June 2024. Paraphrase of the sentence linking the laws with Kepler to elliptical rather than circular planetary orbits."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2024-06-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.newton-principia-text"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "ellipse",
+    "kepler"
+  ],
+  "read_time_min": 1
+}

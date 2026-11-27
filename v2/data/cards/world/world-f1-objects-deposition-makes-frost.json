@@ -1,0 +1,38 @@
+{
+  "id": "world-f1-objects-deposition-makes-frost",
+  "title": "Deposition turns water vapor straight into ice, as in frost",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "Deposition is water vapor becoming ice without becoming liquid first, which is how frost and snowflakes form.",
+  "body": "On its sublimation page, the U.S. Geological Survey says the opposite of sublimation is deposition, where water vapor changes directly into ice, such as snowflakes and frost. That sentence is the whole claim here. Sublimation, the other direction, is a separate card. The page does not give a household recipe for making frost, and it does not say every cold morning produces it. It names the direct vapor-to-ice change and those two results.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sublimation and the Water Cycle",
+      "url": "https://www.usgs.gov/water-science-school/science/sublimation-and-water-cycle",
+      "author": "U.S. Geological Survey",
+      "date": "2019-06-08",
+      "accessed": "2026-11-26",
+      "note": "U.S. Geological Survey page, U.S. government work, public domain. Supports deposition as vapor changing directly into ice, with snowflakes and frost as examples. Byline date 8 June 2019."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "2019-06-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.water-freeze-boil-nist",
+    "world.chemistry.thermo-water-7732185-tboil",
+    "world.chemistry.thermo-water-7732185-ptriple",
+    "world.chemistry.thermo-water-7732185-c",
+    "world.chemistry.water"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "deposition",
+    "frost"
+  ],
+  "read_time_min": 1
+}

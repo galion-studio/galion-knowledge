@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-body-sits-unsupported",
+  "title": "Sitting with no support by about 9 months",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children sit without support by about 9 months.",
+  "body": "Sitting without support is a movement line on the Centers for Disease Control and Prevention 9-month page, grouped with what most children do by that age. The page also lists moving to a sitting position by herself as a separate line. This card is only the unsupported sit, not the moving-there line. An American checklist printed this age. It is not a posture score, and another country may print a different month. Balancing with no prop is separate from climbing into that nine-month posture. Balancing without a prop differs from climbing into the nine-month posture.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Movement line: Sits without support. Getting to sitting is a different line and is not the claim."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-milestone-meaning"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "sitting",
+    "unsupported"
+  ],
+  "read_time_min": 1
+}

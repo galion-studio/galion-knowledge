@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-objects-hydrometer-floats-higher",
+  "title": "A hydrometer floats higher in a denser liquid",
+  "section": "world",
+  "category": "physics",
+  "summary": "A hydrometer, a floating stem used to read a liquid's density, rides higher in a denser liquid and lower in a thinner one.",
+  "body": "The U.S. Geological Survey says the instrument that measures the density of a liquid is a hydrometer. It is a cylindrical stem with a weighted bulb so it floats upright. You lower it until it floats freely and read the mark at the surface. In a less dense liquid it floats lower, and in a more dense liquid it floats higher. It reads relative density, also called specific gravity, against a reference. For liquids the page says that reference is typically water at its maximum density. Uses it names include classroom salinity, milk fat, and home brewing. How to build one is not repeated.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Water Density",
+      "url": "https://www.usgs.gov/water-science-school/science/water-density",
+      "author": "U.S. Geological Survey",
+      "date": "2026-08-24",
+      "accessed": "2026-11-26",
+      "note": "U.S. Geological Survey page, U.S. government work, public domain. Supports the hydrometer floating higher in a denser liquid. Byline date 24 August 2026."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "2026-08-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.thermo-water-7732185-c",
+    "world.chemistry.water"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "hydrometer",
+    "density"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-ballistic-sideways-holds",
+  "title": "With drag ignored, a thrown ball keeps its sideways speed",
+  "section": "world",
+  "category": "physics",
+  "summary": "NASA Glenn says the sideways part of a ballistic launch keeps a constant speed, because nothing pushes in that direction.",
+  "body": "The ballistic-flight guide splits the starting velocity into a horizontal component and a vertical component. Horizontally there is no external force, so the first law leaves that component unchanged, and the distance covered is that speed times the time. Vertically, the only external force in this idealization is weight. The guide's date line is 15 July 2024. Air resistance is left out of these equations on purpose.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Ballistic Flight Equations",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/ballistic-flight-equations/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2024-07-15",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 15 July 2024. Paraphrase of constant horizontal velocity and weight as the only vertical force, plus the warning that real balls have drag."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2024-07-15",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "horizontal",
+    "component"
+  ],
+  "read_time_min": 1
+}

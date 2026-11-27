@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-mamamama-bababababa",
+  "title": "Mamamama and bababababa are the sound chains on the CDC 9-month sheet",
+  "section": "world",
+  "category": "development",
+  "summary": "At 9 months, CDC says most babies make many different sounds, and the sheet prints mamamama and bababababa.",
+  "body": "The 9-month CDC communication entry is about syllable chains. It prints mamamama, and it prints bababababa, with ba running five times on the page opened in November 2026. The entry says the baby makes a lot of different sounds of that kind. It calls them sounds. It does not call the chains names for people. Lifting the arms to be picked up is the other communication entry on that sheet, and that one is a gesture. The chains are a United States group mark for 9 months.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the language milestone about sounds like mamamama and bababababa."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-mama-dada-special-name",
+    "world-f1-words-babble-when-alone"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "babbling",
+    "syllables"
+  ],
+  "read_time_min": 1
+}

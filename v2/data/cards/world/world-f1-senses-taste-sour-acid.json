@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-taste-sour-acid",
+  "title": "Sour taste tracks acids",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Sour taste is the perception of hydrogen ions from acids in food.",
+  "body": "OpenStax Anatomy and Physiology says sour taste is the perception of hydrogen-ion concentration. The ions enter the taste cell and trigger depolarization. The chapter calls sour flavors the perception of acids, and it gives orange juice, about pH 3 from citric acid, as an example that is often sweetened so the sourness is masked. That example is the textbook's, under CC BY 4.0.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "14.1 Sensory Perception",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, section 14.1, CC BY 4.0. No revision date was printed on the page. Supports sour taste as perception of hydrogen ions from acids, with orange juice as the example."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-taste-salty-sodium",
+    "world-f1-senses-taste-sweet-sugar"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "sour",
+    "citric"
+  ],
+  "read_time_min": 1
+}

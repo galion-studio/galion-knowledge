@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-sleep-cycles",
+  "title": "A sleep cycle restarts about every 80 to 100 minutes",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NHLBI says a person cycles through REM and non-REM, the cycle starts over every 80 to 100 minutes, and a night usually has four to six cycles.",
+  "body": "The stages page says the cycle of REM and non-REM starts over every 80 to 100 minutes. A night usually has four to six of those cycles. A person may wake briefly between cycles. That timing is the pattern NHLBI prints for a usual night. It is not a promise that a baby, or a sick person, will show the same spacing.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How Sleep Works: Sleep Phases and Stages",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the stage or REM sentence named in the card. Page last updated 24 March 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHLBI",
+  "as_of_date": "2022-03-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-rem-dreams",
+    "world-f1-safety-nonrem-stages"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "cycles"
+  ],
+  "read_time_min": 1
+}

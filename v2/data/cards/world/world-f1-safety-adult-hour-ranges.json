@@ -1,0 +1,43 @@
+{
+  "id": "world-f1-safety-adult-hour-ranges",
+  "title": "Two NHLBI pages print different adult sleep ranges, 7 to 9 and 7 to 8",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NHLBI's how-much-sleep page says adults should sleep 7 to 9 hours, while its sleep-deprivation table prints 7 to 8 hours for adults 18 and older.",
+  "body": "The how-much-sleep page says experts recommend that adults sleep between 7 and 9 hours a night. It adds that less than 7 may go with more health issues than 7 or more, and that more than 9 is not necessarily harmful and may help young adults, people recovering from lost sleep, and people who are sick. The sleep-deprivation page's table, updated the same day, prints adults 18 or older as 7 to 8 hours a day, and it labels the 12-to-16-hour row as newborns 4 to 12 months rather than babies. This card does not pick a winner. Both lines are what those pages print. A child's range is the other card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How Sleep Works: How Much Sleep Is Enough?",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/how-much-sleep",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the hour ranges named in the card. Page last updated 24 March 2022."
+    },
+    {
+      "title": "Sleep Deprivation and Deficiency: How Much Sleep Is Enough",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/how-much-sleep",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the adult row and the sleep-debt example. Page last updated 24 March 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHLBI",
+  "as_of_date": "2022-03-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-sleep-hours-age",
+    "world-f1-safety-sleep-debt"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "adults"
+  ],
+  "read_time_min": 1
+}

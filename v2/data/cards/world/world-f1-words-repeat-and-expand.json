@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-repeat-and-expand",
+  "title": "The CDC says early words are incomplete, so repeat them and add more",
+  "section": "world",
+  "category": "development",
+  "summary": "The CDC 15-month tips say a child's early words are not complete, and to repeat them and add to them.",
+  "body": "A 15-month CDC tip says a child's early words are not complete. Repeat and add to what the child says. The example is a child who says ba for ball, and the adult says ball, yes, that is a ball. The tip is for the adult's reply. It does not say the child must produce a perfect word before anyone responds. It is one United States suggestion on that page, beside the milestone about trying extra words.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 15 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the tip that early words are not complete and that the adult repeats them and adds to them, with the ba-for-ball example."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-ba-for-ball",
+    "world-f1-words-bababa-then-book"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "expand",
+    "reply"
+  ],
+  "read_time_min": 1
+}

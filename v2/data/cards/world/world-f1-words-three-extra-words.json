@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-three-extra-words",
+  "title": "At 18 months the CDC extra-word tally steps up to three",
+  "section": "world",
+  "category": "development",
+  "summary": "The CDC 18-month communication entry is trying three or more words past mama and dada, and it prints no sample syllables.",
+  "body": "The 18-month CDC entry raises a tally and stops there: three or more words past mama and dada. No clipped syllable, and no toy or animal, is printed on that entry. A separate entry on the same sheet is obeying one spoken step with no hand motion, such as handing over a toy when told to give it. Obeying is not the tally. The tally is a United States surveillance mark for a group. A slower toddler is not labeled by the entry itself.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 18 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the language milestone 'Tries to say three or more words besides mama or dada.'"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-ba-for-ball",
+    "world-f1-words-two-words-joined"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "eighteen",
+    "vocabulary"
+  ],
+  "read_time_min": 1
+}

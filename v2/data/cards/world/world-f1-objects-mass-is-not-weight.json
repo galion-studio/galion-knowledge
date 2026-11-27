@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-objects-mass-is-not-weight",
+  "title": "Mass is how much matter, and weight is the force of gravity",
+  "section": "world",
+  "category": "measurement",
+  "summary": "Mass measures how much matter is in a body, and weight measures the force of gravity on it. The SI unit of mass is the kilogram, and the scientific unit of that force is the newton.",
+  "body": "NIST's mass page says the mass of a body is a measure of its inertial property, or how much matter it contains. The weight of a body is a measure of the force exerted on it by gravity, or the force needed to support it. Gravity on Earth gives a body a downward acceleration of about 9.8 meters per second squared. In everyday speech, NIST says, weight is often used as a synonym for mass, and the verb to weigh means to determine the mass. NIST says that incorrect swap should be phased out, and that the word mass should be used when mass is meant. The SI unit of mass is the kilogram. The SI unit of weight defined as a force is the newton. The exact Planck definition of the kilogram is the linked card and is not restated.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "SI Units - Mass",
+      "url": "https://www.nist.gov/pml/owm/si-units-mass",
+      "author": "National Institute of Standards and Technology",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "NIST SI mass page, U.S. government work, public domain. No review date was printed on the page opened 2026-11-26. Supports the mass-versus-weight FAQ, the kilogram, and the newton. The Planck digits are not repeated."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIST",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.kilogram-planck"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "mass",
+    "kilogram"
+  ],
+  "read_time_min": 1
+}

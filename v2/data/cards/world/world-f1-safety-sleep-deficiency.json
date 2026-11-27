@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-sleep-deficiency",
+  "title": "Too little quality sleep over time is what NHLBI calls sleep deficiency",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NHLBI says sleep deficiency, meaning not enough quality sleep over time, can raise the risk of heart disease, obesity, high blood pressure, diabetes, and stroke.",
+  "body": "On the same heart-health page, NHLBI says sleep helps repair the heart and blood vessels. It also lists other jobs of sleep: holding a balance of the hormones that relate to hunger and fullness, supporting growth and development, and supporting the immune system. The page then names a longer pattern. Not enough quality sleep over time, which it calls sleep deficiency, can raise the risk of heart disease, obesity, high blood pressure, diabetes, and stroke. Those are population risks on a US page, not a forecast for one child. Dementia is a different card and is not restated here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Heart-Healthy Living: Get Enough Good-Quality Sleep",
+      "url": "https://www.nhlbi.nih.gov/health/heart-healthy-living/sleep",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the sentence named in the card. Page last updated 24 March 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHLBI",
+  "as_of_date": "2022-03-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-sleep-brain-body",
+    "world.dementia-risks-who"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "deficiency"
+  ],
+  "read_time_min": 1
+}

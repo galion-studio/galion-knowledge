@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-drowning-ages-one-to-four",
+  "title": "In the US, drowning kills more children ages 1 to 4 than any other cause",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says more children ages 1 to 4 die from drowning than from any other cause, and that swim lessons do not replace watching them.",
+  "body": "CDC's drowning-prevention page says more children ages 1 to 4 die from drowning than from any other cause of death. It also says formal swimming lessons can reduce the risk, and that children who have had lessons still need close and constant supervision in or around water. The age line is a US statement. It is not the global death total on the existing drowning card, and it is not a judgment of one child's swimming. Rescue steps stay on the first-aid cards.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Preventing Drowning",
+      "url": "https://www.cdc.gov/drowning/prevention/",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2025-09-29",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Page dated 29 September 2025. Supports the ages 1 to 4 sentence and the lessons-still-need-supervision sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2025-09-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-drowning-often-silent",
+    "first-aid.drowning-who-deaths"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "drowning",
+    "toddlers"
+  ],
+  "read_time_min": 1
+}

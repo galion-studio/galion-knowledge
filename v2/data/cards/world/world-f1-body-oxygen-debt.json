@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-oxygen-debt",
+  "title": "A working muscle can reach a point where it no longer contracts",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says many factors bring a muscle to the point where it can no longer contract, and muscle use creates an oxygen debt.",
+  "body": "OpenStax says many factors bring a muscle to the point where it can no longer contract. Use of a muscle also creates an oxygen debt. The chapter does not pick one cause and call it the whole story. This card is that limit on contraction. It does not cover sleepiness or illness, and it is not rest advice for one person.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "10.5 Types of Muscle Fibers, chapter review",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/10-chapter-review",
+      "author": "OpenStax",
+      "date": "n.d.",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, first edition, web view, CC BY 4.0. Paraphrase of section 10.5: many factors bring a muscle to the point where it can no longer contract, and muscle use creates an oxygen debt."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-tendon-pull",
+    "world-f1-body-exercise-breathing"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "debt",
+    "contraction"
+  ],
+  "read_time_min": 1
+}

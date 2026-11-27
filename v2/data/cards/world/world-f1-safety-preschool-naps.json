@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-preschool-naps",
+  "title": "Napping in the preschool years is described as normal growth, not a problem",
+  "section": "world",
+  "category": "development",
+  "summary": "NHLBI's habits page says napping in preschool-age children is normal and promotes healthy growth and development.",
+  "body": "The healthy-sleep-habits page separates adult naps from young children's naps. It says an adult nap, if used, should be no more than 20 minutes, and that people who struggle to fall asleep at night may need to limit naps or take them earlier in the afternoon. In the next line it says napping in preschool-age children is normal and promotes healthy growth and development. The preschool sentence is the claim. It does not say that a preschool child who skips a nap is behind, and it does not set a clock time.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sleep Deprivation and Deficiency: Healthy Sleep Habits",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the habit sentence named in the card. Page last updated 24 March 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHLBI",
+  "as_of_date": "2022-03-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-sleep-hours-age",
+    "world-f1-safety-bedtime-routine"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "napping"
+  ],
+  "read_time_min": 1
+}

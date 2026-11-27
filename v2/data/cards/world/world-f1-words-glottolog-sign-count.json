@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-words-glottolog-sign-count",
+  "title": "Glottolog 5.4 lists 228 sign languages outside the spoken-language count",
+  "section": "world",
+  "category": "language",
+  "summary": "Glottolog 5.4 lists 228 sign languages in their own row, separate from 7,685 spoken L1 languages.",
+  "body": "On the same Glottolog 5.4 table, dated 10 November 2026, sign language is its own row with 228 entries. That row is not inside the 7,685 spoken L1 languages. The table's total for all listed categories is 8,243, which also includes unclassifiable, pidgin, unattested, artificial, speech-register, and mixed-language rows. The sign-language count is the catalogue's row on that date. The editors say sign languages are classified on a weaker theoretical basis because a genealogical method like the one used for spoken languages remains to be formulated.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Glottolog 5.4, About Languoids",
+      "url": "https://glottolog.org/glottolog/glottologinformation",
+      "author": "Glottolog editors",
+      "date": "2026-11-10",
+      "accessed": "2026-11-26",
+      "note": "Opened 2026-11-26. The page dates its counts 'Currently 2026-11-10'. Supports the table row Sign Language 228, the spoken L1 row 7,685, the all-categories total 8,243, and the statement that sign-language classification rests on a weaker theoretical basis. The Glottolog 5.4 release is CC BY 4.0: the v5.4 LICENSE file and the Zenodo record 10.5281/zenodo.24100665 both say Creative Commons Attribution 4.0 International. Opened 2026-11-26."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Glottolog",
+  "as_of_date": "2026-11-10",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-glottolog-spoken-l1-count",
+    "world-f1-words-no-universal-sign-language",
+    "world.geography.glottolog-languages"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "sign",
+    "count"
+  ],
+  "read_time_min": 1
+}

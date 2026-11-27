@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-phoneme-is-a-sound",
+  "title": "A phoneme, in the OpenStax chapter, is one basic speech sound",
+  "section": "world",
+  "category": "language",
+  "summary": "OpenStax describes a phoneme as a basic sound unit, contrasts ah with eh, and says languages do not share one inventory.",
+  "body": "Section 7.2 of the OpenStax psychology book says people build words by combining phonemes. Each phoneme is a basic sound unit inside one language. The chapter contrasts ah with eh. It adds that the inventory is not universal: one language's set need not match another's. The paragraph stops at sound. It is a teaching definition in the first-edition web view, not a recording of an infant's mouth and not a chart of English consonants.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Psychology, section 7.2 Language",
+      "url": "https://openstax.org/books/psychology/pages/7-2-language",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "First-edition web view at /books/psychology/, which the preface licenses CC BY 4.0. Opened 2026-11-26. No review date was printed on the section, so the source date is the access date. Paraphrase, with credit to OpenStax Psychology. Supports the definition of a phoneme as a basic sound unit and the statement that languages differ in their phoneme sets."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-morpheme-carries-meaning",
+    "world-f1-words-phoneme-window-narrows"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "phoneme",
+    "sound"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-rear-facing-seat",
+  "title": "A child under age 1 should ride rear-facing, and stay rear-facing until the seat's own limit",
+  "section": "world",
+  "category": "technology",
+  "summary": "NHTSA says a child under age 1 should always ride rear-facing, and should stay rear-facing until the seat's height or weight limit.",
+  "body": "NHTSA says a rear-facing seat has a harness and, in a crash, cradles and moves with the child to reduce stress on a young neck and spinal cord. For birth to 12 months, a child under age 1 should always ride rear-facing. Infant-only seats are rear-facing only. Convertible seats often allow a higher limit, so the child can stay rear-facing longer. From 1 to 3 years, the page says to keep the child rear-facing as long as possible, until the child reaches the top height or weight the maker allows, and only then to move to a forward-facing seat with a harness and tether. Under age 1 is the page's hard line. The later limit is the seat's own label, not a single birthday. This is US guidance.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Car Seats and Booster Seats",
+      "url": "https://www.nhtsa.gov/vehicle-safety/car-seats-and-booster-seats",
+      "author": "National Highway Traffic Safety Administration",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. No update date was printed. The page shows a 2024 crash figure. Supports the seat recommendation named in the card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHTSA",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-crash-deaths-children",
+    "world-f1-safety-back-seat-age"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "car",
+    "rear-facing"
+  ],
+  "read_time_min": 1
+}

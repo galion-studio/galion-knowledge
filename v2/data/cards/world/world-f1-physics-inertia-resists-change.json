@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-inertia-resists-change",
+  "title": "Inertia is the tendency to resist a change in motion",
+  "section": "world",
+  "category": "physics",
+  "summary": "NASA Glenn names inertia as the tendency of an object to resist changes in whether it is resting or moving.",
+  "body": "On the same laws page, NASA Glenn says every object remains at rest or in uniform straight-line motion unless an outside force compels a change. It then names that tendency: inertia is resistance to a change in the state of motion. The examples on the page are an airplane when the throttle moves, a ball coming down through the air, a model rocket leaving the pad, and a kite when the wind shifts. Page last updated 27 June 2024.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Newton's Laws of Motion",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-laws-of-motion/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2024-06-27",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 27 June 2024. Paraphrase of the sentence that defines inertia as resistance to a change in the state of motion."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2024-06-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.newton-principia-text"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "inertia",
+    "resist"
+  ],
+  "read_time_min": 1
+}

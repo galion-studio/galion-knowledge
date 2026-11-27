@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-hair-cells-do-not-return",
+  "title": "Loud noise can kill inner-ear hair cells, and human ones do not grow back",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Most noise-induced hearing loss comes from hair cells that are damaged and die, and human hair cells do not grow back.",
+  "body": "NIDCD says loud sound can damage sensitive structures in the inner ear. Most noise-induced hearing loss is caused by the damage and eventual death of hair cells. Unlike bird and amphibian hair cells, human hair cells do not grow back. The page, updated 16 April 2025, also says this kind of loss is preventable, which is the institute's statement about the cause, not a personal guarantee.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Noise-Induced Hearing Loss",
+      "url": "https://www.nidcd.nih.gov/health/noise-induced-hearing-loss",
+      "author": "NIDCD",
+      "date": "2025-04-16",
+      "accessed": "2026-11-26",
+      "note": "Supports hair-cell damage and death as the usual cause of noise-induced hearing loss, and the statement that human hair cells do not grow back."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2025-04-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-noise-85-decibels",
+    "world-f1-senses-stereocilia-signal"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "regrow",
+    "death"
+  ],
+  "read_time_min": 1
+}

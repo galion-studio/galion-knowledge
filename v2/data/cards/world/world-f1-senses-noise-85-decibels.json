@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-noise-85-decibels",
+  "title": "Long or repeated sound at 85 decibels can injure hearing",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIDCD says sound at or below 70 decibels is unlikely to cause hearing loss, while long or repeated exposure at or above 85 decibels can.",
+  "body": "The National Institute on Deafness and Other Communication Disorders measures sound in A-weighted decibels. Sounds at or below 70 dBA, even after long exposure, are unlikely to cause hearing loss. Long or repeated exposure at or above 85 dBA can cause hearing loss, and the louder the sound, the shorter the time. The page was updated on 16 April 2025. The numbers are that guidance, not a measurement of one room.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Noise-Induced Hearing Loss",
+      "url": "https://www.nidcd.nih.gov/health/noise-induced-hearing-loss",
+      "author": "NIDCD",
+      "date": "2025-04-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 70 dBA and 85 dBA exposure statements."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2025-04-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-hair-cells-do-not-return",
+    "world-f1-senses-cochlea-pitch-place"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "decibels",
+    "exposure"
+  ],
+  "read_time_min": 1
+}

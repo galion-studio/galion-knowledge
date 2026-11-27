@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-truck-through-box",
+  "title": "Three-month-olds looked longer when a truck seemed to roll through a box",
+  "section": "world",
+  "category": "development",
+  "summary": "OpenStax recounts a study in which 3-month-olds looked longer when a truck appeared to roll through a solid box.",
+  "body": "OpenStax Psychology retells a study it attributes to Baillargeon, 1987. Infants of 3 months saw a truck roll down a track and behind a screen. A box beside the track left the path clear, and the truck passed as expected. When the box was set on the track and the truck still rolled through, the infants spent significantly more time looking. The textbook says Baillargeon concluded that they knew solid objects cannot pass through each other. This is a 2014 textbook's retelling of one study. It is not a screening result, and it does not say most infants do this.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "9.3 Stages of Development",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "Rose M. Spielman, Kathryn Dumper, William Jenkins, Arlene Lacombe, Marilyn Lovett, and Marion Perlmutter",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only. OpenStax Psychology, first edition, Rose M. Spielman and colleagues, published 8 December 2014, path /books/psychology/ (not psychology-2e). The OpenStax CMS lists this first edition as CC BY 4.0. The site footer also prints a general NC-SA line; this card follows the first-edition CC BY grant and does not copy a sentence."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "truck",
+    "box"
+  ],
+  "read_time_min": 1
+}

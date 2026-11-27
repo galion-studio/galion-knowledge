@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-you-pull-earth-too",
+  "title": "A person pulls on Earth as hard as Earth pulls on the person",
+  "section": "world",
+  "category": "physics",
+  "summary": "A person pulls on Earth with the same gravitational force that Earth exerts on the person, but Earth barely moves.",
+  "body": "NASA Space Place says a person exerts the same gravitational force on Earth that Earth exerts on the person. It adds that Earth is so much more massive that the person's force does not really affect the planet. This is the page's own pair of sentences, from the article dated 17 December 2020. It is not a full statement of Newton's third law.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Is Gravity?",
+      "url": "https://spaceplace.nasa.gov/what-is-gravity/en/",
+      "author": "NASA Space Place",
+      "date": "2020-12-17",
+      "accessed": "2026-11-26",
+      "note": "NASA Space Place, article last updated 17 December 2020. Paraphrase of the page's own sentence. Public-domain US federal page. Supports the mutual-pull sentences about a person and Earth."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2020-12-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.newton-principia-text"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "mutual",
+    "pull"
+  ],
+  "read_time_min": 1
+}

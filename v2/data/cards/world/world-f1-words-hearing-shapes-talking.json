@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-hearing-shapes-talking",
+  "title": "NIDCD says a hearing problem can affect speech and language",
+  "section": "world",
+  "category": "development",
+  "summary": "NIDCD says a hearing problem can affect speech and language, and that a hearing test is often part of a speech and language evaluation.",
+  "body": "The NIDCD milestone page says that sometimes a delay may be caused by hearing loss, and sometimes by a speech or language disorder. It also says a hearing test is often included when a speech-language pathologist evaluates a child, because a hearing problem can affect speech and language development. The page tells a worried caregiver to talk with the child's doctor. It does not describe one child, and it does not give steps for a hearing screening. This is the institute's general statement.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Speech and Language Developmental Milestones",
+      "url": "https://www.nidcd.nih.gov/health/speech-and-language",
+      "author": "National Institute on Deafness and Other Communication Disorders",
+      "date": "2010-09",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. The page prints NIH Publication No. 00-4781, September 2010, and no later review date. Supports the sentences that a delay may be caused by hearing loss and that a hearing problem can affect speech and language development."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2010-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-native-sound-patterns",
+    "world-f1-words-turns-toward-a-voice"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "hearing",
+    "delay"
+  ],
+  "read_time_min": 1
+}

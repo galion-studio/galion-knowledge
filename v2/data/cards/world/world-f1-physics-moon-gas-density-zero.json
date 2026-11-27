@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-moon-gas-density-zero",
+  "title": "NASA Glenn says the Moon's gas density is zero, so that drag term vanishes",
+  "section": "world",
+  "category": "physics",
+  "summary": "On the drag-equation page, NASA Glenn says gas density is zero on the Moon, while Earth and Mars have different surface densities.",
+  "body": "NASA Glenn's flight-with-drag page says gas density has different surface values on Earth and on Mars and varies with altitude. On the Moon the gas density is zero. Drag in the guide's equation is built from that density, so a zero density removes the air-drag contribution written for a ball. A separate NASA page records the Apollo vacuum drop. This card is only the density sentence. Page last updated 21 June 2024.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Flight Equations with Drag",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/flight-equations-with-drag/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2024-06-21",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 21 June 2024. Paraphrase of the sentence that gas density is zero on the Moon."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2024-06-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.moon-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "density",
+    "lunar"
+  ],
+  "read_time_min": 1
+}

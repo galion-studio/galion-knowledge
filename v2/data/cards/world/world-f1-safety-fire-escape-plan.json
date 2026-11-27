@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-safety-fire-escape-plan",
+  "title": "Ready.gov says to practice two ways out, and it prints 9-1-1 as the US fire number",
+  "section": "world",
+  "category": "technology",
+  "summary": "Ready.gov says a home needs two ways out of each room, a plan practiced twice a year, and, in the United States, a call to 9-1-1 if you cannot get out.",
+  "body": "Ready.gov's home-fire page says a working smoke alarm raises the chance of surviving a home fire. It says to install alarms on every level, including the basement, to replace the unit every 10 years or as the maker instructs, and never to disable an alarm while cooking. For escape, it says every second counts, and to practice the plan twice a year. Find two ways out of each room. Teach children not to hide from firefighters. Smoke and poisonous gases collect first along the ceiling, so the page says to crawl low. If the door or knob is hot, or smoke is coming around the door, leave it closed and use the second way out. If you cannot get out, the page says to call 9-1-1 or the fire department. 9-1-1 is the United States number as this page prints it. It is not Europe's 112.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Home Fires",
+      "url": "https://www.ready.gov/home-fires",
+      "author": "Ready.gov",
+      "date": "2026-02-26",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Page last updated 26 February 2026. Supports the escape sentence. 9-1-1 is printed as the US number."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Ready.gov",
+  "as_of_date": "2026-02-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-toddler-fire-risk",
+    "world-f1-safety-europe-112",
+    "first-aid.uk-numbers"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "fire",
+    "alarm"
+  ],
+  "read_time_min": 1
+}

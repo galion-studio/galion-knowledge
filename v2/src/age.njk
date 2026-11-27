@@ -1,0 +1,162 @@
+---
+layout: base.njk
+title: Age
+description: Human ages and machine ages in the foundations-first order, with card counts from this build.
+permalink: age/index.html
+---
+{% from "icon.njk" import icon with context %}
+<header class="subhead">
+  <div class="subhead-inner">
+    <div class="subhead-left">
+      <button type="button" data-back aria-label="Back">{{ icon("arrow-left", "") }}</button>
+      <a class="brand" href="{{ "/" | url }}">{{ icon("book-open", "icon-brand") }} Knowledge</a>
+    </div>
+  </div>
+</header>
+<article class="article age">
+  <header class="age-hero">
+    <p class="age-mark"><span class="age-word" role="img" aria-label="G.A.L.I.O.N.">{% for l in ["G", "A", "L", "I", "O", "N"] %}<span class="age-l" style="--i: {{ loop.index0 }}">{{ l }}</span><span class="age-d" style="--i: {{ loop.index0 }}">.</span>{% endfor %}</span><span class="age-mark-sub">Brain age</span></p>
+    <h1>{{ ages.brain.headline }}</h1>
+    <div class="age-line" role="img" aria-label="A line from birth to 18 years. The dot marks HORBM near the start.">
+      <span class="age-dot" style="left: {{ ages.brain.markPercent }}%"></span>
+    </div>
+    <div class="age-ends" aria-hidden="true">
+      <span>Birth</span>
+      <span>18 years</span>
+    </div>
+    <p class="age-aside"><span>Rough estimate</span> · <span>{{ ages.brain.filledCount }} of {{ ages.brain.stageCount }} stages</span> · <span>{{ ages.brain.cardsHeld }} cards</span></p>
+  </header>
+
+  <details class="age-more">
+    <summary>Show more</summary>
+
+  <div class="age-panels">
+    <section class="age-card age-head">
+      <h2>Human ages</h2>
+      <p>How a human learns, in that order.</p>
+    </section>
+    <section class="age-card age-head">
+      <h2>Machine ages</h2>
+      <p>What the published pack holds for the same stage.</p>
+    </section>
+    <section class="age-card age-brain" aria-labelledby="brain-age-label">
+      <h2 id="brain-age-label">HORBM brain age</h2>
+      <p><span class="age-k">Stages filled</span> {{ ages.brain.filledCount }} of {{ ages.brain.stageCount }}</p>
+      <p>
+        <span class="age-k">Furthest stage</span>
+        {% if ages.brain.reachedLabel %}{{ ages.brain.reachedIndex + 1 }}. {{ ages.brain.reachedLabel }}{% else %}not built yet{% endif %}
+      </p>
+      <p><span class="age-k">Cards held</span> {{ ages.brain.cardsHeld }}</p>
+      <p><span class="age-k">Years</span> {{ ages.brain.years }}</p>
+    </section>
+  </div>
+  <p class="age-metric">This years line is Galion's own internal metric for estimating HORBM's knowledge, publicly disclosed.</p>
+
+  <section class="age-how" id="how-this-is-calculated">
+    <h2>How this is calculated</h2>
+    <div class="prose">
+      <p>A card is placed on a stage when it has the tag <code>area:foundations-&lt;slug&gt;</code>. If that tag is absent, an id starting <code>world-f1-&lt;slug&gt;-</code> is the fallback, and only when the slug fits exactly one stage.</p>
+      <p>Human ages follow the foundations-first order on <a href="{{ "/principles/#more-rules" | url }}">Principles</a>, from <a href="https://github.com/galion-studio/galion-knowledge/pull/45">pull request 45</a>. The human line on a stage is a typical age taken from the CDC pages below. It is a rough estimate, not a measurement. CDC says a milestone is what most children (75% or more) can do by that age, and that these checklists are not a screening tool. A stage with no matching line says I don't know.</p>
+      <p>Machine ages are the same core pack HORBM loads. The count is how many of those cards were placed on the stage.</p>
+      <p>A stage is filled when it has at least one card. Stages filled is that count out of {{ ages.brain.stageCount }}. The brain age is the furthest stage reached with no empty stage before it, starting at stage 1, plus the cards held on the stages. The years line copies that stage's human age.{% if ages.brain.reachedIndex >= 0 %} This build copies stage {{ ages.brain.reachedIndex + 1 }}.{% else %} No stage is reached from stage 1, so the years line is I don't know.{% endif %}</p>
+      <p>The publication manifest does not split the pack by age.</p>
+      <p>The line above runs from birth to 18 years. The dot is the middle of the cited age. The line ends at 18 years so a young age stays near the start. Eighteen years is the end of the picture, not a finding.</p>
+    </div>
+    <ol class="age-scale">
+      {% for stage in ages.stages %}
+        <li>
+          <span>{{ loop.index }}. {{ stage.label }}</span>
+          <span>{{ stage.years }}</span>
+          {% for source in stage.sources %}
+            <a href="{{ source.url }}">{{ source.title }}</a>
+            <span class="source-note">{{ source.said }}, accessed {{ source.accessed }}.</span>
+          {% endfor %}
+          {% if stage.yearsNote %}<span class="source-note">{{ stage.yearsNote }}</span>{% endif %}
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <div class="age-board">
+
+    {% for stage in ages.stages %}
+      <h3 class="age-stage-label" id="{{ stage.id }}">{{ loop.index }}. {{ stage.label }}</h3>
+      <article class="age-card">
+        <p class="age-kicker">Human</p>
+        <p class="age-years">{{ stage.years }}</p>
+        {% if stage.count %}
+          <p class="age-count">{{ stage.count }} card{% if stage.count != 1 %}s{% endif %}</p>
+          <ul class="age-groups">
+            {% for group in stage.groups %}
+              <li><code>{{ group.slug }}</code><span>{{ group.count }}</span></li>
+            {% endfor %}
+          </ul>
+          <details class="fold">
+            <summary>
+              <span class="age-fold-label">Cards</span>
+              <span class="fold-chevron" aria-hidden="true"></span>
+            </summary>
+            <ul class="age-links">
+              {% for group in stage.groups %}
+                {% for card in group.cards %}
+                  <li>
+                    <a href="{{ ("/article/" + card.id + "/") | url }}">{{ card.title }}</a>
+                    <span>{{ card.categoryName }}</span>
+                  </li>
+                {% endfor %}
+              {% endfor %}
+            </ul>
+          </details>
+        {% else %}
+          <p class="age-missing">not built yet</p>
+        {% endif %}
+      </article>
+      <article class="age-card">
+        <p class="age-kicker">Machine</p>
+        {% if stage.count or stage.shardCount %}
+          <p class="age-count">Holds {{ stage.count }} core card{% if stage.count != 1 %}s{% endif %}</p>
+          {% if stage.shardCount %}
+            <p class="age-missing">Shard cards in this stage: {{ stage.shardCount }}.</p>
+          {% endif %}
+        {% else %}
+          <p class="age-missing">not built yet</p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+
+  <section class="source-box" id="sources">
+    <h2>Sources for the figures on this page</h2>
+    <ul class="source-list">
+      <li>
+        <a href="{{ "/principles/#more-rules" | url }}">Principles, foundations first</a>
+        <span class="source-note">The stage list is that sentence, split on the semicolons, with a leading “then” left off. Revised 26 November 2026. The record of changes on that page dates the rule to 2026-11-26. HORBM follows the same order, as that page says. This page does not add a stage.</span>
+      </li>
+      <li>
+        <span>This build</span>
+        <span class="source-note">{{ ages.packCount }} core cards are in the pack. A card is counted in a stage only when its tag is <code>area:foundations-&lt;slug&gt;</code>, or, if it has no such tag, its id starts with <code>world-f1-&lt;slug&gt;-</code>. Every word in the slug has to be a word in that stage’s wording, and in no other stage. {{ ages.unplaced | length }} foundations card{% if ages.unplaced | length != 1 %}s{% endif %} could not be placed that way. Cards with no such tag are not given a stage.</span>
+      </li>
+      <li>
+        <a href="https://github.com/galion-studio/galion-knowledge/blob/master/v2/shards/manifest.json">Publication manifest</a>
+        <span class="source-note">{{ ages.manifest.schema }}, version {{ ages.manifest.version }}. Core pack {{ ages.manifest.cardCount }} cards, {{ ages.manifest.bytes }} bytes, sha256 {{ ages.manifest.sha256 }}. Payload {{ ages.manifest.payload }}. {{ ages.manifest.shardCount }} shards, {{ ages.manifest.shardCardCount }} shard cards. The manifest does not split those counts by age. Shard cards with a foundations tag or a world-f1- id: {{ ages.shardFoundations }}.</span>
+      </li>
+    </ul>
+    {% if ages.unplaced | length %}
+      <ul class="age-links">
+        {% for card in ages.unplaced %}
+          <li>
+            <a href="{{ ("/article/" + card.id + "/") | url }}">{{ card.title }}</a>
+            <span>{{ card.slugs | join(", ") }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </section>
+
+  <p class="footer-links">
+    <a href="{{ "/" | url }}">Home</a>
+    <a href="{{ "/principles/" | url }}">Principles</a>
+    <a href="{{ "/search/" | url }}">Search</a>
+  </p>
+  </details>
+</article>
