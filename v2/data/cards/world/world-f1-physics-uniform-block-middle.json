@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-uniform-block-middle",
+  "title": "A uniform rectangular block has its center of gravity in the middle",
+  "section": "world",
+  "category": "physics",
+  "summary": "If a solid block is the same material all through, its center of gravity is at the middle of its length, width, and height.",
+  "body": "NASA Glenn says that when mass is spread evenly, and the object has a line or plane of symmetry, the center of gravity lies on that symmetry. For a solid block of uniform material, the page says the center is simply the average of the physical dimensions. Its example is a rectangular block of 50 by 20 by 10, with the center at the point (25, 10, 5). The page was last updated 17 July 2024. A block whose material is denser on one side is the harder case the page says needs calculus.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Center of Gravity",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/center-of-gravity/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2024-07-17",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 17 July 2024. Paraphrase of the uniform rectangular block example."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2024-07-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "rectangular",
+    "middle"
+  ],
+  "read_time_min": 1
+}

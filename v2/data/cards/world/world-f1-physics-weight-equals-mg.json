@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-weight-equals-mg",
+  "title": "Weight equals mass times the local gravitational acceleration",
+  "section": "world",
+  "category": "physics",
+  "summary": "NASA Glenn writes weight as mass times g, and uses 9.8 metres per second squared at Earth's surface in that guide.",
+  "body": "NASA Glenn combines the gravitational constant, Earth's mass, and the square of Earth's radius into a surface acceleration ge. The guide prints that surface value as 9.8 metres per second squared, or 32.2 feet per second squared. Weight is then the object's mass times that acceleration. The page says this is a working description for a rocket near Earth, not a claim that every hillside has exactly the same number. A conventional exact standard is a different card. Page last updated 20 November 2023.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Weight Equation",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/weight-equation-2/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2023-11-20",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 20 November 2023. Paraphrase of W = m g and of ge = 9.8 m/s^2 at Earth's surface in the guide."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2023-11-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.physics.codata-standard-acceleration-of-gravity"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "kilogram",
+    "acceleration"
+  ],
+  "read_time_min": 1
+}

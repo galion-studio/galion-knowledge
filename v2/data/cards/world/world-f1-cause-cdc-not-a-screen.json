@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-cdc-not-a-screen",
+  "title": "CDC milestone pages are not a developmental screening tool",
+  "section": "world",
+  "category": "development",
+  "summary": "The CDC says its Learn the Signs materials are not a substitute for standardized, validated developmental screening tools.",
+  "body": "The CDC's nine-month milestone page says: \"Learn the Signs. Act Early.\" materials are not a substitute for standardized, validated developmental screening tools. A family checklist is not the validated screen that sentence names. The page is public US health information. It does not diagnose a child. A family checklist is not that validated tool and does not diagnose a child.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. Short public-domain quotation of the screening-tool limit. That sentence is the claim."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-cdc-most-not-every",
+    "world-f1-cause-cdc-talk-doctor",
+    "world-f1-cause-cdc-experts-selected"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "screening",
+    "validated"
+  ],
+  "read_time_min": 1
+}

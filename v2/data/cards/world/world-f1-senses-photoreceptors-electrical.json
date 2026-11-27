@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-senses-photoreceptors-electrical",
+  "title": "Photoreceptors turn light into electrical signals",
+  "section": "world",
+  "category": "medicine",
+  "summary": "When light hits the retina, photoreceptors turn it into electrical signals.",
+  "body": "The National Eye Institute says special cells called photoreceptors, in the retina, turn light into electrical signals. That is the step after focusing. The page does not name rod cells or cone cells. It is a public description updated in April 2022, not a wiring diagram of one retina.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How the Eyes Work",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+      "author": "National Eye Institute",
+      "date": "2022-04-20",
+      "accessed": "2026-11-26",
+      "note": "Supports photoreceptors in the retina turning light into electrical signals."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Eye Institute",
+  "as_of_date": "2022-04-20",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-lens-focuses-retina",
+    "world-f1-senses-optic-nerve-to-brain",
+    "world-f1-senses-rods-dim-light"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "photoreceptors",
+    "signals"
+  ],
+  "read_time_min": 1
+}

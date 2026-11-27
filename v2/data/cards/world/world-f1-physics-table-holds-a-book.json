@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-table-holds-a-book",
+  "title": "A resting book stays put because the table matches its weight",
+  "section": "world",
+  "category": "physics",
+  "summary": "On a level table, a book that is not speeding up is held by an upward push equal to its weight.",
+  "body": "The third-law section of OpenStax Physics, Urone and Hinrichs, 26 March 2020, treats a resting object on a horizontal desk. If nothing is accelerating, the outside forces sum to zero, so the desk's upward push has the same size as the weight and the opposite direction. The page is careful: that match comes from the second law, and the desk's push is not the third-law partner of gravity. A slanted board is a different case, handled with ramps.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.4 Newton's Third Law of Motion",
+      "url": "https://openstax.org/books/physics/pages/4-4-newtons-third-law-of-motion",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only. OpenStax Physics, first edition, Paul Peter Urone and Roger Hinrichs, published 26 March 2020, path /books/physics/. The OpenStax CMS lists this first edition as CC BY 4.0. The site footer also prints a general NC-SA line for textbooks except where otherwise noted; this card follows the first-edition CC BY grant and does not copy a sentence. Supports N = mg for a non-accelerating object on a horizontal surface, and the note that this is not a third-law pair."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "table",
+    "book"
+  ],
+  "read_time_min": 1
+}

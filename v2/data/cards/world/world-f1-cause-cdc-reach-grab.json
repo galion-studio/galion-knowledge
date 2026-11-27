@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-cause-cdc-reach-grab",
+  "title": "By six months, most babies reach to grab a toy they want",
+  "section": "world",
+  "category": "development",
+  "summary": "The CDC says that by six months, most babies reach to grab a toy they want.",
+  "body": "The CDC's six-month cognitive list says a baby reaches to grab a toy she wants. The line is a reach aimed at a wanted toy. It is what the US page says most babies do by six months. It does not measure the length of the reach. The page does not measure how far the reach goes.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 6 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. Supports the cognitive item 'Reaches to grab a toy she wants.'"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-cdc-drop-game",
+    "world-f1-cause-cdc-most-not-every"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "grab",
+    "wants"
+  ],
+  "read_time_min": 1
+}

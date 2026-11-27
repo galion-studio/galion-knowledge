@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-cruise-thrust-matches-drag",
+  "title": "A cruising airplane holds speed when thrust matches drag",
+  "section": "world",
+  "category": "physics",
+  "summary": "NASA Glenn says a cruising airplane flies at a constant airspeed because thrust exactly balances drag, so the net force is zero.",
+  "body": "NASA Glenn's aircraft page on the first law, last updated 21 July 2022, names four forces on an airplane: lift, weight, thrust, and drag. At constant altitude the guide sets lift and weight aside. A cruising aircraft then flies at constant airspeed because thrust exactly balances drag. There is no net force, and the airplane travels at constant velocity in a straight line. If the pilot adds thrust, the balance breaks, speed rises, and drag grows until the two match again at a higher speed.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Aircraft Motion - Newton's First Law",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/aircraft-motion-newtons-first-law/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2022-07-21",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 21 July 2022. Paraphrase of the cruise example: thrust balances drag, constant velocity, and drag rising with speed."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2022-07-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "cruise",
+    "thrust"
+  ],
+  "read_time_min": 1
+}

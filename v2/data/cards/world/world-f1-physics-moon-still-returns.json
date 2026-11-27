@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-moon-still-returns",
+  "title": "A let-go object on the Moon still returns to the ground",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "The Moon has gravity. Let something go there and it returns to the ground instead of drifting upward.",
+  "body": "NASA Science's Top Moon Questions page, updated 12 February 2026, answers a direct question: does the Moon have gravity, and do things float up when released? The answer is that the Moon does have gravity, and a released object does not float up. It comes back to the lunar ground. How much weaker that tug is, and how high a jump would go, are the next sentences on the page and are not this claim. A fact-sheet figure in metres per second squared lives on another card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Top Moon Questions",
+      "url": "https://science.nasa.gov/moon/top-moon-questions/",
+      "author": "NASA Science",
+      "date": "2026-02-12",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Science page, last updated 12 February 2026. Paraphrase of the answer that the Moon has gravity and a dropped object still comes down."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2026-02-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.moon-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "moon",
+    "returns"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-body-bruise",
+  "title": "A bruise is blood under the skin after small vessels leak",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The National Library of Medicine says a bruise is a mark from blood under the skin when an injury breaks small vessels but not the skin.",
+  "body": "The National Library of Medicine health-topic page says a bruise is a mark on the skin caused by blood under the surface. An injury crushes small blood vessels but does not break the skin. Those vessels break open and leak. The page says most marks last about two weeks, and the color shifts from reddish to bluish-purple and then greenish-yellow. This card says what the mark is. It does not give care steps for one person.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Bruises",
+      "url": "https://medlineplus.gov/bruises.html",
+      "author": "MedlinePlus",
+      "date": "2025-07-24",
+      "accessed": "2026-11-26",
+      "note": "Summary paragraph: a bruise is blood trapped under the skin after small vessels leak, and most bruises last about two weeks. Care steps on the page are not restated."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2025-07-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "bruise",
+    "contusion"
+  ],
+  "read_time_min": 1
+}

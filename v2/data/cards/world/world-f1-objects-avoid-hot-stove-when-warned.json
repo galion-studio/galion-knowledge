@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-avoid-hot-stove-when-warned",
+  "title": "A spoken warning keeps hands off a hot stove around age three",
+  "section": "world",
+  "category": "development",
+  "summary": "By about 3 years, most children avoid touching hot objects, such as a stove, when someone warns them, the U.S. CDC says.",
+  "body": "Avoiding touching hot objects, like a stove, when you warn her, is a cognitive milestone on the CDC page for 3 years. Milestones on that page are skills most children, 75 percent or more, can do by the stated age. The page says Learn the Signs. Act Early. materials are not a substitute for standardized, validated developmental screening tools. The line is about understanding a warning. It does not describe a burn, a treatment, or any emergency telephone number. Drawing a circle when shown how is the other cognitive item and is not this claim. Another country's list can differ, and this is not a verdict on one child.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 3-years",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "CDC Learn the Signs. Act Early. page, U.S. government work, public domain. Updated and reviewed 16 May 2026. Supports avoiding touching hot objects, like a stove, when warned, by 3 years."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "stove",
+    "milestone"
+  ],
+  "read_time_min": 1
+}

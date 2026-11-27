@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-weight-is-earth-pull",
+  "title": "What a bathroom scale reports is Earth's tug on you",
+  "section": "world",
+  "category": "physics",
+  "summary": "Weight is the name NASA Space Place gives to Earth's combined tug on every bit of a person's body.",
+  "body": "The Space Place gravity article says our planet's tug comes from the whole of its bulk acting together. That combined tug, acting on the bulk of a person, is what the page calls weight. A scale is the everyday reader of that tug. The article does not print the conventional standard figure used in unit tables. Article date on the page: 17 December 2020.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Is Gravity?",
+      "url": "https://spaceplace.nasa.gov/what-is-gravity/en/",
+      "author": "NASA Space Place",
+      "date": "2020-12-17",
+      "accessed": "2026-11-26",
+      "note": "NASA Space Place, article last updated 17 December 2020. Paraphrase of the page's own sentence. Public-domain US federal page. Supports the sentence that the combined pull on the mass in your body is what gives you weight."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2020-12-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.physics.codata-standard-acceleration-of-gravity"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "weight",
+    "body"
+  ],
+  "read_time_min": 1
+}

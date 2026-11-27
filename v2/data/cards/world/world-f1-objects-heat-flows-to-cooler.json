@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-heat-flows-to-cooler",
+  "title": "Heat moves from a warmer object to a cooler one",
+  "section": "world",
+  "category": "physics",
+  "summary": "Heat transfer is energy moving from a warmer object to a cooler object.",
+  "body": "A NASA educator guide says heat transfer is the movement of energy from a warmer object to a cooler object. The guide states that direction and does not add a sentence that the two objects finish at one shared reading. This card is only that direction. It does not name the paths the energy can take.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "NASA's Our World: Insulators, educator guide EG-2010-06-008-LaRC",
+      "url": "https://assets.science.nasa.gov/content/dam/science/cds/eclips/assets/documents/educator-guide-our-world-insulators.pdf",
+      "author": "NASA",
+      "date": "2010-06",
+      "accessed": "2026-11-26",
+      "note": "NASA eClips educator guide, U.S. government work, public domain. Product code dated June 2010. Supports heat transfer from a warmer object to a cooler object, and names conduction, convection, and radiation."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2010-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "heat",
+    "warmer"
+  ],
+  "read_time_min": 1
+}
