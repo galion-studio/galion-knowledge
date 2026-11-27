@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-soothe-caregiver-soothe-child",
+  "title": "children learn to soothe themselves from soothe caregivers",
+  "section": "world",
+  "category": "development",
+  "summary": "The milestone sheet says children learn to soothe themselves from caregivers who stay steady and who make them feel safe.",
+  "body": "The United States milestone sheet for 1-year page says children learn to soothe themselves from caregivers who stay steady and make them feel safe. The help it names on that line is chatting softly, holding, rocking, or singing, and letting the child suck on fingers or a pacifier. The claim on this card is the learning sentence: settling is picked up from a steady person, not only done to the child. The page is a US note sheet. It does not say a child who is still crying has failed to learn.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 1 Year",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports the sentence that babies learn to calm themselves from caregivers who are calm and make them feel safe."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-soft-voice-calms-child",
+    "world-f1-people-secure-base"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "caregivers",
+    "pacifier"
+  ],
+  "read_time_min": 1
+}

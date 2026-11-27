@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-emotion-versus-mood",
+  "title": "An emotion feels tied to something that happened",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax describes an emotion as a subjective state people often call feelings, more intense and more tied to an event than a mood.",
+  "body": "OpenStax Psychology says an emotion is a subjective state of being that people often describe as their feelings. On that page, an emotion is relatively intense and occurs in response to something a person experiences, and it is often thought of as consciously felt and intentional. A mood, by contrast, is a longer and less intense state that is not tied to one experience, and it may not be consciously spotted. The distinction is the textbook's wording. It is not a clinical scale. Everyday speech sometimes swaps the two words. The textbook keeps them apart, and this card follows that split.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "10.4 Emotion",
+      "url": "https://openstax.org/books/psychology/pages/10-4-emotion",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the definitions of emotion and mood in the opening of section 10.4. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-emotion-three-parts",
+    "horbm.emotion.barrett-constructed",
+    "horbm.emotion.ekman-basic"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "emotion",
+    "mood"
+  ],
+  "read_time_min": 1
+}

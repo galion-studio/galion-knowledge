@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-bowlby-responsive-bond",
+  "title": "Bowlby's bond asks for a responsive caregiver",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says Bowlby defined attachment as the affectional bond a child forms with the mother, and that a healthy bond needs a responsive caregiver and mutually enjoyable time together.",
+  "body": "OpenStax Psychology says John Bowlby defined attachment as the affectional bond or tie that a child forms with the mother. The page says he held that a child must form this bond with a primary caregiver for ordinary social and emotional development, and that the bond continues through life. Two things are named as needed for a healthy attachment: the caregiver responds to the child's physical, social, and emotional needs, and the caregiver and child take part in interactions they both enjoy. That is Bowlby's account as the textbook states it. It uses the word mother for the child's bond and also says primary caregiver.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "9.3 Stages of Development",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports Bowlby's definition and the two conditions for a healthy attachment, as OpenStax states them from Bowlby 1969. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-attachment-is-a-bond",
+    "world-f1-people-secure-base",
+    "world-f1-people-holding-does-not-spoil"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "bowlby",
+    "mother"
+  ],
+  "read_time_min": 1
+}

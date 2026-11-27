@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-answers-with-a-grin-two-months",
+  "title": "A grin that answers someone, around 2 months",
+  "section": "world",
+  "category": "development",
+  "summary": "The milestone sheet says most children answer chatting, or a grin, with a grin of their own by about 2 months.",
+  "body": "Someone speaks, or offers a grin, and the child smiles back. That exchange is the 2-month social item on the milestone sheet. The sheet counts an item when at least three quarters of children do it, and it says the leaflet is not a validated screen. A child without this reply yet is not called ill here. The ages are the United States list.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports the social/emotional milestone 'Smiles when you talk to or smile at her', the 75 percent definition, and the screening-tool sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-grin-for-attention-four-months",
+    "world-f1-people-seven-facial-expressions"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "grin",
+    "months"
+  ],
+  "read_time_min": 1
+}

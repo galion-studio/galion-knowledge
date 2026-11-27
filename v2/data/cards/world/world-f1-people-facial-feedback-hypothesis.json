@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-facial-feedback-hypothesis",
+  "title": "An expression can feed back into the feelings",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax describes the facial feedback hypothesis as the idea that a facial expression can influence the feelings, including that smiling can make a person feel happier.",
+  "body": "OpenStax Psychology states the facial feedback hypothesis as the claim that facial expressions can influence feelings, so smiling can make a person feel happier. The page points to studies for that idea and then reports a Botox finding: depressed people reported less depression after frowning muscles were paralyzed. Those studies were not opened here. The sentence is the textbook's account, not a promise that forcing a grin will change how a particular person feels.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "10.4 Emotion",
+      "url": "https://openstax.org/books/psychology/pages/10-4-emotion",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the facial-feedback paragraph and the Botox frowning-muscle sentence as OpenStax reports it. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-seven-facial-expressions",
+    "world-f1-people-answers-with-a-grin-two-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "feedback",
+    "smiling"
+  ],
+  "read_time_min": 1
+}

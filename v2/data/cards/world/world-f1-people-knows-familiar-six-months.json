@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-knows-familiar-six-months",
+  "title": "Telling known people from the rest, by 6 months",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children know familiar people by about 6 months, the milestone sheet says.",
+  "body": "Knowing the people who are already in the child's life is the whole of this 6-month line. sheet does not describe a quiz for how that knowing shows. Laughing, and liking a reflection, sit beside it as other lines. The leaflet's majority rule is three quarters or more, and it is not a substitute for a standardized screen. Only the US chart is used.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 6 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports the social/emotional milestone 'Knows familiar people'."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-stranger-wariness-nine-months",
+    "world-f1-people-glad-approach-two-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "familiar",
+    "people"
+  ],
+  "read_time_min": 1
+}

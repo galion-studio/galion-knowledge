@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-glad-approach-two-months",
+  "title": "Pleasure when a familiar person arrives",
+  "section": "world",
+  "category": "development",
+  "summary": "Seeming glad when you walk up is something most children do by about 2 months, on the sheet list.",
+  "body": "The gladness is about the arrival. sheet keeps it apart from the grin that answers speech. No one lips shape is required. 'Most' on this publisher's pages means at least three in four children, and the materials do not stand in for formal developmental screening. The timetable is American.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports 'Seems happy to see you when you walk up to her'."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-answers-with-a-grin-two-months",
+    "world-f1-people-knows-familiar-six-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "glad",
+    "approach"
+  ],
+  "read_time_min": 1
+}

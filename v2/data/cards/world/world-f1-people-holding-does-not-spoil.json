@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-holding-does-not-spoil",
+  "title": "Holding and replying a child does not spoil them",
+  "section": "world",
+  "category": "psychology",
+  "summary": "The milestone sheet says you will not spoil a child by holding or responding, and that cuddling lets the child feel safe and cared for.",
+  "body": "The United States milestone sheet for 2-month page tells caregivers to devote time cuddling and holding the child so the child feels safe and cared for. The same page says you will not spoil a child by holding or responding. That line is the US agency's own wording on one age page. It is not a result from a named experiment, and it does not set a rule for older children.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government work, public domain. Supports the tips that cuddling helps the baby feel safe and cared for and that holding or responding will not spoil the baby."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-bowlby-responsive-bond",
+    "world-f1-people-harlow-fabric-comfort"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "spoil",
+    "cuddling"
+  ],
+  "read_time_min": 1
+}

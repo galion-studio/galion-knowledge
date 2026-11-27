@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-attachment-culture-limits",
+  "title": "Inborn style and culture are named limits on attachment groupings",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says later work both supports and criticizes Ainsworth: a child's inborn style may shape the bond, and the bond varies across cultures.",
+  "body": "OpenStax Psychology says Ainsworth's research has found support in later studies and has also been questioned. Some researchers, the page says, point out that a child's inborn style of reacting may strongly influence the bond. Others note that the bond varies from culture to culture, a factor not accounted for in Ainsworth's research. The page names those criticisms and does not settle them. The category labels are one research tradition. They are not presented as the only description of every child in every country.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "9.3 Stages of Development",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the paragraph on criticism of Ainsworth from temperament and from cultural variation. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-inborn-from-birth",
+    "world-f1-people-secure-attachment",
+    "world-f1-people-cultural-display-rules"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "questioned",
+    "cultures"
+  ],
+  "read_time_min": 1
+}

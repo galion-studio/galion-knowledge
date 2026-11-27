@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-secure-base",
+  "title": "A secure base is a caregiver's presence while a child explores",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says Bowlby used secure base for a caregiver's presence that lets a child feel safe while exploring.",
+  "body": "OpenStax Psychology says Bowlby used secure base for a healthy attachment between parent and child. A secure base, on that page, is a parental presence that gives the child a sense of safety as the child explores the surroundings. The idea is about exploration with a person nearby, not about keeping a child from moving. The page dates the phrase to Bowlby's 1988 discussion, which was not opened separately.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "9.3 Stages of Development",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the secure-base definition in the Bowlby paragraph. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-bowlby-responsive-bond",
+    "world-f1-people-checks-you-are-close-eighteen-months",
+    "world-f1-people-secure-attachment"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "secure",
+    "explores"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-emotion-three-parts",
+  "title": "feelings has a body part, an evaluation, and an experience",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says an emotional state combines physiological activation, a psychological evaluation, and a subjective experience.",
+  "body": "In OpenStax Psychology, emotional states are combinations of physiological activation, psychological evaluation, and subjective experience, and those three together are called the components of emotion. The page says evaluation are informed by a person's experiences, background, and culture, so two people can have different emotional experiences in similar circumstances. That is a textbook account of why the same event need not produce the same feelings. It does not list a required set of feelings. Treating activation alone as the whole state would leave out evaluation, the part the page says can differ with background and culture.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "10.4 Emotion",
+      "url": "https://openstax.org/books/psychology/pages/10-4-emotion",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the components-of-emotion paragraph and the sentence that appraisals depend on experience, background, and culture. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-emotion-versus-mood",
+    "world-f1-people-emotion-heart-rate",
+    "world-f1-people-cultural-display-rules"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "evaluation",
+    "activation"
+  ],
+  "read_time_min": 1
+}

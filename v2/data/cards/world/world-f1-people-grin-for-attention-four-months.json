@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-grin-for-attention-four-months",
+  "title": "A grin the child starts, to be spotted",
+  "section": "world",
+  "category": "development",
+  "summary": "By about 4 months, most children grin on their own to get attention, the milestone sheet says.",
+  "body": "Here the child opens the exchange. That is a different line from the 2-month reply to someone else's grin. sheet files the self-started grin with the 4-month social items, next to a chuckle that is not yet a full giggle. The agency's bar is most children, not every child, and the sheet is not a screening test. Ages outside this US page are not copied here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 4 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/4-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports 'Smiles on his own to get your attention'. The chuckle is a separate card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-answers-with-a-grin-two-months",
+    "world-f1-people-chuckle-four-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "attention",
+    "grin"
+  ],
+  "read_time_min": 1
+}

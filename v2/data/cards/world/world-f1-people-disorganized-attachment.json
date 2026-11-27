@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-disorganized-attachment",
+  "title": "Disorganized attachment is a lab pattern, not a verdict",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax says disorganized attachment looks odd in the Strange Situation, and that this pattern is seen most often in children who have been abused. The pattern is not a way to decide about a particular child.",
+  "body": "OpenStax Psychology says a fourth style, disorganized attachment, was described later by Main and Solomon. In the Strange Situation those children behaved oddly: they freeze, run around the room in an erratic way, or effort to run away when the caregiver returns. The page says this type is seen most often in children who have been abused, and that research has shown abuse disrupts a child's ability to regulate emotion. Those papers were not opened here. A pattern in a laboratory reunion is not evidence, by itself, about what has happened to a particular child, and this card is not a diagnosis.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "9.3 Stages of Development",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the disorganized-attachment paragraph, including the abuse sentence as OpenStax states it. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-ambivalent-attachment",
+    "world-f1-people-secure-attachment"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "disorganized",
+    "freeze"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-words-for-distressed-three",
+  "title": "Words and a quiet place for a 3-year-old's distressed",
+  "section": "world",
+  "category": "everyday",
+  "summary": "The milestone sheet says to give a 3-year-old words for feelings, and to help with stressful feelings by a deep inhale, a hug of a favorite toy, or a quiet safe place.",
+  "body": "On the United States milestone sheet for 3-year page, one activity is to chatting about the child's feelings and give words that help the child recount the feelings. Another is to help manage stressful feelings by teaching a deep inhale, hugging a favorite toy, or heading to a quiet safe place when distressed. Those are caregiver practices on an age page. They are not presented as a treatment that replaces a conversation with a doctor when a caregiver is concerned.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 3 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports the tip on emotion words and on deep breaths, a favorite toy, or a quiet safe place."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-name-a-babys-feelings",
+    "world-f1-people-hugs-a-toy-15-months",
+    "world-f1-people-calms-after-farewell-three-years"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "inhale",
+    "quiet"
+  ],
+  "read_time_min": 1
+}

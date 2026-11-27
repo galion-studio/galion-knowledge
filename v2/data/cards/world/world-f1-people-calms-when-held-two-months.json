@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-people-calms-when-held-two-months",
+  "title": "Settling from a voice or from being lifted",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children settle when addressed or picked up by about 2 months, the milestone sheet says.",
+  "body": "Quieting after a voice, or after being lifted, is the behavior on the line. It is not a promise that tears stop on a clock. The same age page suggests a steady caregiver use soft chatting, holding, rocking, or song, and says that lessens stress and fears. This American leaflet is not a clinical exam. If the timing worries a caregiver, the page says to chatting with the child's doctor rather than to apply a label.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports 'Calms down when spoken to or picked up' and the tip about talking softly, holding, rocking, or singing."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-soft-voice-calms-child"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "calms",
+    "holding"
+  ],
+  "read_time_min": 1
+}

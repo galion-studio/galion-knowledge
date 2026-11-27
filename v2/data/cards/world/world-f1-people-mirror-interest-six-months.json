@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-mirror-interest-six-months",
+  "title": "Enjoying a reflection around 6 months",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children like looking at themselves in a mirror by about 6 months, the milestone sheet says.",
+  "body": "The 6-month line is pleasure in the mirror. It stops there. It does not say the child understands that the image is their own body. A paint-spot study of that understanding is a later age and another card. sheet's majority for the series is 75 percent or more of children, and the page warns that the materials are not a validated screening tool.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 6 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports 'Likes to look at self in a mirror'."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-mirror-self-recognition",
+    "world-f1-people-knows-familiar-six-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "mirror",
+    "reflection"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-never-shake-a-crying-child",
+  "title": "Never shake a crying child",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The milestone sheet says never to shake a child, because shaking can damage the brain or cause death, and to place the child somewhere safe and check every 5 to 10 minutes if you are overwhelmed.",
+  "body": "The United States milestone sheet for 2-month page says never to shake a child, and never to let anyone else do so, because shaking can damage the brain or cause death. If a caregiver is becoming distressed while the child is crying, the page says to put the child in a safe place, walk away, and check every 5 to 10 minutes. It adds that child crying is often worse in the first few months and then improves. That note does not print an emergency handset number. It is the US agency's wording. It is not a treatment protocol written for one household.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government work, public domain. Supports the do-not-shake tip, the safe-place step, the 5-to-10-minute check, and the sentence that crying is often worse in the first months."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-holding-does-not-spoil",
+    "world-f1-people-calms-when-held-two-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "shaking",
+    "brain"
+  ],
+  "read_time_min": 1
+}

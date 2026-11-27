@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-looks-at-face-two-months",
+  "title": "stare toward a caregiver at 2 months",
+  "section": "world",
+  "category": "development",
+  "summary": "By about 2 months, most children glance at a person's face, the milestone sheet says.",
+  "body": "Watching the person who is there is its own early social entry, beside calming and beside an replying grin. The entry is interest in that person. It does not mean the child knows a reflection is their own body. sheet's cutoff for the series is 75 percent or more, and missing the entry is not a diagnosis. Other countries print other timetables.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports the social/emotional milestone 'Looks at your face', plus the 75 percent definition and the screening-tool sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-newborns-prefer-faces",
+    "world-f1-people-answers-with-a-grin-two-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "face",
+    "looking"
+  ],
+  "read_time_min": 1
+}

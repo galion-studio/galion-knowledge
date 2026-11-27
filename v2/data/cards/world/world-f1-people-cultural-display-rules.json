@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-cultural-display-rules",
+  "title": "Cultures set different rules for showing feelings",
+  "section": "world",
+  "category": "society",
+  "summary": "OpenStax says cultural display rules govern which feelings may be shown, and how often, and it gives a United States and Japan comparison from research it cites.",
+  "body": "OpenStax Psychology defines a cultural display rule as a crossculturally specific standard for the types and frequencies of emotional displays that are acceptable. The page says people from different backgrounds can have very different rules. It reports research in which people from the United States expressed negative feelings such as fear, rage, and revulsion both alone and with others, while Japanese volunteers did so only while alone. It also says cultures that emphasize social cohesion are more likely to suppress a reaction while judging which response fits. Those studies were not opened here. The comparison is not a rule for every person in either country.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "10.4 Emotion",
+      "url": "https://openstax.org/books/psychology/pages/10-4-emotion",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the cultural-display-rule definition and the Matsumoto 1990 and Matsumoto, Yoo, and Nakagawa 2008 sentences as OpenStax states them. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-seven-facial-expressions",
+    "world-f1-people-behavior-by-place-four-years",
+    "world-f1-people-emotion-three-parts"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "display",
+    "cohesion"
+  ],
+  "read_time_min": 1
+}

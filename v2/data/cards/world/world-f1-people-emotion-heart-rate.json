@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-emotion-heart-rate",
+  "title": "Strong feelings come with a faster heart and other body signs",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says strong emotional responses go with strong body activation, including a faster heart rate, faster breathing, and perspiration.",
+  "body": "OpenStax Psychology says strong emotional responses are associated with strong physiological activation. The signs it names include increased heart rate, respiration rate, and perspiration. The James-Lange account on the same page treats that activation as coming before the feelings, while other accounts on the page do not. The page also says a polygraph, which reads activation, is a weak way to judge honesty, because there is no evidence that dishonesty has one particular activation pattern. Body signs show activation. They do not name the feelings, and they do not prove a lie.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "10.4 Emotion",
+      "url": "https://openstax.org/books/psychology/pages/10-4-emotion",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the sentence on heart rate, respiration, and sweating, and the polygraph limitation as OpenStax states it. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-emotion-three-parts",
+    "world-f1-people-limbic-and-amygdala",
+    "world.brain-regions-ninds"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "heart",
+    "perspiration"
+  ],
+  "read_time_min": 1
+}

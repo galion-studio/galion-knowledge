@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-people-emotion-theory-order",
+  "title": "Three textbook accounts of body activation and feelings",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax sets out three accounts of how body activation and feelings fit together, and it does not treat any one of them as complete.",
+  "body": "OpenStax Psychology describes the James-Lange account as the view that feelings arise from physiological activation, so a racing heart and faster breathing would come before the feelings of fear, and different feelings would go with different body patterns. The Cannon-Bard account, as the page states it, says activation and the emotional experience occur at the same time and independently. The Schachter-Singer two-factor account says feelings is activation plus a cognitive label from the situation, so the same activation can be read differently depending on context. The page also reports that people who cannot receive autonomic feedback can still feel emotion, while less awareness of activation tended to go with less intense emotion. None of the three is presented as the finished account.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "10.4 Emotion",
+      "url": "https://openstax.org/books/psychology/pages/10-4-emotion",
+      "author": "OpenStax",
+      "date": "2014-12-08",
+      "accessed": "2026-11-26",
+      "note": "Supports the James-Lange, Cannon-Bard, and Schachter-Singer paragraphs, and the spinal-cord-injury study as OpenStax summarizes it. OpenStax Psychology, first edition (publish date 2014-12-08), CC BY 4.0. Paraphrase of the opened page; the cited primary paper was not opened."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2014-12-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-emotion-three-parts",
+    "world-f1-people-emotion-heart-rate",
+    "horbm.emotion.keep-the-theories-apart"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "james",
+    "cannon"
+  ],
+  "read_time_min": 1
+}

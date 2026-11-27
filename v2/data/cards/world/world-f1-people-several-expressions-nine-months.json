@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-several-expressions-nine-months",
+  "title": "glad, unhappy, mad, and surprised faces by 9 months",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children show several facial expressions, glad, unhappy, mad, and surprised among them, by about 9 months, the milestone sheet says.",
+  "body": "The four names are examples on the sheet line, introduced with 'like'. They are not offered as a closed set of human feelings. Showing more than one readable expression is the milestone. The publisher counts most children, 75 percent or more, and says the leaflet does not replace validated screening. This is the US wording.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports 'Shows several facial expressions, like happy, sad, angry, and surprised'."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-seven-facial-expressions",
+    "world-f1-people-name-a-babys-feelings"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "expressions",
+    "surprised"
+  ],
+  "read_time_min": 1
+}

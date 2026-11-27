@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-chuckle-four-months",
+  "title": "A short chuckle before laughter fills out",
+  "section": "world",
+  "category": "development",
+  "summary": "When someone tries to amuse them, most children chuckle, not yet a full giggle, by about 4 months, the milestone sheet says.",
+  "body": "sheet splits the sound in two. At 4 months the entry is a chuckle while a person tries to be amusing. A full giggle is a later entry, at 6 months. The split is the point of this card. The publisher means most children, a share it puts at 75 percent or higher, and a child who only chuckles later is not given a condition.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 4 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/4-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports 'Chuckles (not yet a full laugh) when you try to make him laugh'."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-laughs-six-months",
+    "world-f1-people-grin-for-attention-four-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "chuckle",
+    "giggle"
+  ],
+  "read_time_min": 1
+}

@@ -1,16 +1,16 @@
 {
   "schema": "galion-shard-manifest/1",
-  "version": "15",
+  "version": "16",
   "immutable": true,
   "note": "Add-on shards for the Base World Core Pack. Schema galion-shard-manifest/1 is the schema ScaleIndex writes in PR #3 (v2/memory/src/scale.rs on cursor/horbm-memory-stack-4552). The required fields match ShardManifest and ManifestFile. sha256 and bytes here are the card-bundle digest defined in v2/docs/SHARDS.md, payload card-bundle/1. They are not the sha256 of a SQLite file. ScaleIndex hashes core.sqlite and each FTS shard when it builds them. This repository does not invent that sqlite hash. depends_on is the core pack id. An add-on shard is an optional pack a device loads when the core has a gap. It is not the section/category FTS split ScaleIndex builds from cards it already has. Do not edit a shard file in place. Publish a new version.",
   "core_pack": {
     "id": "core",
     "section": "core",
     "category": "core",
-    "sha256": "cb527b0d91229b18826c04c458145429c52ada5a0bb37f6d6d124c00f9d10409",
-    "bytes": 3919366,
+    "sha256": "eb1c68aff5f0403ceb6032f6c8c95ef7b268ae6c9193420b43f6d9a648f41e58",
+    "bytes": 4008611,
     "payload": "card-bundle/1",
-    "card_count": 1989
+    "card_count": 2041
   },
   "shards": [
     {

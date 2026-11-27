@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-people-behavior-by-place-four-years",
+  "title": "Acting differently in a library, a playground, or worship",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children change how they act by place, a library, a playground, or a place of worship, by about 4 years, the milestone sheet says.",
+  "body": "sheet's examples are three settings, and the milestone is fitting conduct to the room. The line is not a finding about any faith, and it is not a rule that one behavior is correct in a library. The publisher's most is 75 percent or more. The materials are not a validated screen. A child who acts alike in every room is not diagnosed on this card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 4 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US government public domain. Supports 'Changes behavior based on where she is (place of worship, library, playground)'."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-people-cultural-display-rules",
+    "world-f1-people-face-check-new-situation-two-years"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-people",
+    "library",
+    "playground"
+  ],
+  "read_time_min": 1
+}
