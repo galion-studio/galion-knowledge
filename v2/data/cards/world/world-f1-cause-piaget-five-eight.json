@@ -1,0 +1,44 @@
+{
+  "id": "world-f1-cause-piaget-five-eight",
+  "title": "OpenStax places that understanding between five and eight months",
+  "section": "world",
+  "category": "development",
+  "summary": "OpenStax says a child develops object permanence between five and eight months, and another section says by around eight months.",
+  "body": "In the Piaget section, OpenStax Psychology says that between five and eight months old, the child develops object permanence. A later section says children grasp that objects continue to exist even when they are not in sight by around eight months. Those are two wordings in one textbook, not two separate studies. The five-to-eight sentence cites Bogartz, Shinskey, and Schilling (2000). This card did not open that paper. The 2000 citation named beside the five-to-eight sentence was not opened.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 9.2 Lifespan Theories",
+      "url": "https://openstax.org/books/psychology/pages/9-2-lifespan-theories",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the five-to-eight-month wording for object permanence."
+    },
+    {
+      "title": "OpenStax Psychology, 9.3 Stages of Development",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the 'by around 8 months' wording in the cognitive-milestones paragraph."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-hidden-still-there",
+    "world-f1-cause-ages-two-sources",
+    "world-f1-cause-cdc-dropped-spoon"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "piaget",
+    "months"
+  ],
+  "read_time_min": 1
+}

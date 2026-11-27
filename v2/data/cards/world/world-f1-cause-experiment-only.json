@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-experiment-only",
+  "title": "OpenStax says only an experiment shows that one change produces another",
+  "section": "world",
+  "category": "method",
+  "summary": "OpenStax says the only way to establish that one variable produces changes in another is to conduct an experiment.",
+  "body": "OpenStax Psychology says the only way to establish that one variable produces changes in another is to conduct an experiment. In the textbook's sense, an experiment is not trying something once in daily life. It is a design meant to remove rival explanations. A correlation, the same section says, cannot finish that job. This is the methods chapter's rule. It does not say every published experiment worked. The methods chapter's rule does not say every published experiment succeeded.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 2.3 Analyzing Findings",
+      "url": "https://openstax.org/books/psychology/pages/2-3-analyzing-findings",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the statement that a producing relationship is established by an experiment, and the contrast with the everyday use of the word experiment."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-correlation-not-production",
+    "world-f1-cause-groups-one-change",
+    "world.scientific-method-no-single-toolkit"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "experiment",
+    "rival"
+  ],
+  "read_time_min": 1
+}

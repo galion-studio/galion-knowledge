@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-net-force",
+  "title": "Several forces on one object add up to a net force",
+  "section": "world",
+  "category": "physics",
+  "summary": "OpenStax Physics says multiple forces on one object combine into a net force, and that opposite pushes can cancel so nothing moves.",
+  "body": "OpenStax Physics says that when multiple forces act on an object, the forces combine. Their sum is the net force. A teaching note asks what happens if more than one force is applied, and it describes two opposite pushes that can leave a heavy desk unmoved even though each push is real. One outcome can involve several forces at once. This card is that combining rule. It is not a numerical worksheet. The card is the combining rule and not a numerical worksheet.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Physics, 4.1 Force",
+      "url": "https://openstax.org/books/physics/pages/4-1-force",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Physics web page (/books/physics/), CC BY 4.0. Paraphrase; credit OpenStax. Supports combining forces into a net force, and the opposite-pushes demonstration."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-push-or-pull",
+    "world-f1-cause-several-explanations",
+    "world-f1-cause-greater-force"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "net",
+    "combine"
+  ],
+  "read_time_min": 1
+}

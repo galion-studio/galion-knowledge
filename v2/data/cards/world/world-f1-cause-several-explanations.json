@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-several-explanations",
+  "title": "One observed pairing can have several explanations",
+  "section": "world",
+  "category": "method",
+  "summary": "OpenStax says a reported link between regular cereal eating and weight can be explained in more than one way.",
+  "body": "OpenStax Psychology notes findings that people who eat cereal regularly have healthier weights than people who rarely eat it, then asks how that link is reported. Cereal might be what produces the weight pattern, or people who already keep a stable weight might be the ones who eat breakfast. The page's point is that one observed pairing can have several explanations. A correlation does not choose among them. The example is the textbook's, not a nutrition recommendation. The example is not a nutrition recommendation.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 2.3 Analyzing Findings",
+      "url": "https://openstax.org/books/psychology/pages/2-3-analyzing-findings",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the cereal-and-weight example as a case with more than one explanation."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-ice-cream-weather",
+    "world-f1-cause-correlation-not-production",
+    "world-f1-cause-net-force"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "cereal",
+    "explanations"
+  ],
+  "read_time_min": 1
+}
