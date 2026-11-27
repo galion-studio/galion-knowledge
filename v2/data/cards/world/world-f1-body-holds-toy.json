@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-body-holds-toy",
+  "title": "Keeping hold of a toy placed in the hand by about 4 months",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children hold a toy placed in the hand by about 4 months.",
+  "body": "The Centers for Disease Control and Prevention 4-month movement list says holds a toy when you put it in his hand. The toy is placed in the hand. The line does not say the newborn has to reach out and grab it. The page groups this with what most children do by four months. Keeping that grip is one hand item on an American checklist, not a test of hands, and other countries' lists differ. Voluntary reaching is outside the four-month item, because someone else places the object. Voluntary reaching stays outside this four-month item because another person places the object.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 4 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/4-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Movement line: Holds a toy when you put it in his hand."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-milestone-meaning"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "toy",
+    "grip"
+  ],
+  "read_time_min": 1
+}

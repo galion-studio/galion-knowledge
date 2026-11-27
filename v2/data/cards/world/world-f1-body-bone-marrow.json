@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-bone-marrow",
+  "title": "Marrow inside bone is where new blood cells are made",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIAMS says some bone holds a -like marrow, and new blood cells are made inside that marrow.",
+  "body": "NIAMS says some types of bone hold a -like material called marrow. New blood cells are made inside that marrow. The page lists the job apart from holding the body up. This card is only that blood-cell workshop. It does not describe a transplant, a lab test, or a disease.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Health Lesson: Learning About Bones",
+      "url": "https://www.niams.nih.gov/health-topics/educational-resources/health-lesson-learning-about-bones",
+      "author": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+      "date": "2025-06",
+      "accessed": "2026-11-26",
+      "note": "US government page, public domain. Last Updated June 2025. Supports bone marrow as jelly-like material inside some bones where new blood cells are made."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIAMS",
+  "as_of_date": "2025-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-bones-support",
+    "world-f1-body-blood-transport"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "marrow",
+    "cells"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-walks-furniture",
+  "title": "Feet move while hands stay on furniture by about 1 year",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children walk while holding furniture by about 1 year.",
+  "body": "Hands stay planted on a sofa, a table, or another piece of furniture while the feet step. The Centers for Disease Control and Prevention 1-year page prints that pattern as walks, holding on to furniture. It is its own movement line, beside the haul up to standing, among things most children do by one year. Empty hands are a different age on a later page. This cruise is the US figure. Another country's list can disagree. Palms remain on a sofa or low table while the feet step during this one-year cruise. Palms remain on a sofa or low table while feet step in this one-year cruise.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 1 Year",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Movement line: Walks, holding on to furniture."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-milestone-meaning",
+    "world-f1-body-pulls-to-stand"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "furniture",
+    "cruise"
+  ],
+  "read_time_min": 1
+}

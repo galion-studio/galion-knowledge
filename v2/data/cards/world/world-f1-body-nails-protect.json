@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-body-nails-protect",
+  "title": "Nails shield the ends of the fingers from knocks",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says nails protect the ends of the fingers from mechanical damage.",
+  "body": "OpenStax says nails protect the extremities of the fingers from mechanical damage. It groups nails with the scalp strands as accessory structures built from dead keratinized cells. The protective job is the point of this card: the hard plate takes knocks at the fingertip. The chapter review does not set a growth speed. This is the textbook description, not care advice for an injured plate.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "5.2 Accessory Structures of the Skin, chapter review",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/5-chapter-review",
+      "author": "OpenStax",
+      "date": "n.d.",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, first edition, web view, CC BY 4.0. Paraphrase: nails, made of dead keratinized cells, protect the extremities of fingers and toes from mechanical damage."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-scalp-melanin"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "nails",
+    "fingertips"
+  ],
+  "read_time_min": 1
+}
