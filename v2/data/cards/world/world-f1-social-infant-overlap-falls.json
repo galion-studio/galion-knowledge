@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-social-infant-overlap-falls",
+  "title": "Babies' overlapping vocal turns become less common by 18 months",
+  "section": "world",
+  "category": "development",
+  "summary": "In one longitudinal study, infants overlapped their mothers on about a third of vocal turns at 3 to 5 months, and on about a fifth by 18 months.",
+  "body": "Hilbrink, Gattis, and Levinson followed 12 mother-infant pairs in free play at 3, 4, 5, 9, 12, and 18 months. At 3 to 5 months the infants produced just over a third of their vocal turns in overlap with the mother. By 18 months that share had fallen to about a fifth, near the mothers' own overlap rate, which stayed roughly steady. The authors read the drop, from 5 months onward, as a more alternating pattern. The sample is twelve pairs from one longitudinal project, and grunts and distress sounds were left out. It does not show that every baby makes this change on the same month.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Early developmental changes in the timing of turn-taking",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01492/full",
+      "author": "Elma E. Hilbrink, Merideth Gattis, and Stephen C. Levinson",
+      "date": "2015-09-29",
+      "accessed": "2026-11-26",
+      "note": "Supports the overlap-rate drop from just over one third at 3 to 5 months to about one fifth by 18 months, with maternal overlap relatively stable. CC BY 4.0; paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Elma Hilbrink, Merideth Gattis, and Stephen Levinson",
+  "as_of_date": "2015-09-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-infant-overlaps-stay-long",
+    "world-f1-social-sound-turns-six-months",
+    "horbm-overlap-gaps-silence"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "overlap",
+    "infancy"
+  ],
+  "read_time_min": 1
+}

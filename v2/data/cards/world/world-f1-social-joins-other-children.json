@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-joins-other-children",
+  "title": "Walking over to join children who are already playing is listed at age 3",
+  "section": "world",
+  "category": "development",
+  "summary": "CDC says most children notice other children and enter their play by about age 3.",
+  "body": "The social milestones at 3 years include noticing other children and joining them to play. The scene is a group already underway, and the child moves into it. CDC's most means 75 percent or more. A missed item on this sheet is a prompt to talk with a doctor, not a label. The age is the one the US page prints.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 3-year social milestone 'Notices other children and joins them to play.' US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-plays-beside-and-with",
+    "world-f1-social-copies-playmates"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "joining",
+    "playmates"
+  ],
+  "read_time_min": 1
+}

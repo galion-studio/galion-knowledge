@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-furniture-tipover",
+  "title": "Dressers, shelves, and televisions can tip onto a child who climbs them",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CPSC says furniture, televisions, and ranges can tip and crush a child who climbs or pulls up on them, and it says to anchor them.",
+  "body": "The US Consumer Product Safety Commission says children are hurt by hazards at home, and that one of those hazards is tip-over. Deaths and injuries happen when children climb onto, fall against, or pull up on television stands, shelves, bookcases, dressers, desks, chests, and ranges. The page says to anchor those products to the floor or a wall. Free-standing ranges and stoves, it says, should be installed with anti-tip brackets so they do not scald or crush. A CDC milestone page says most children climb onto a couch or chair by about 18 months. That timing is a different card. This one is why the anchor exists. What to do after a head injury is on the first-aid card, not here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Childproofing Your Home",
+      "url": "https://www.cpsc.gov/safety-education/safety-guides/kids-and-babies/Childproofing-Your-Home",
+      "author": "U.S. Consumer Product Safety Commission",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. No update date was printed. Supports the device or hazard sentence named in the card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CPSC",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-climbs-at-eighteen-months",
+    "first-aid.head-injury"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "falls",
+    "furniture"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-senses-taste-sweet-sugar",
+  "title": "Sweet taste responds to sugars and to some sweeteners",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Sweet taste is sensitivity to glucose in saliva, and also to fructose and to sweeteners such as aspartame.",
+  "body": "OpenStax Anatomy and Physiology says sweet taste is gustatory sensitivity to glucose dissolved in saliva. Fructose and artificial sweeteners, including aspartame, saccharine, and sucralose, also activate the sweet receptors, some of them more strongly than glucose because they bind differently. The list is the chapter's, CC BY 4.0, not a ranking of products.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "14.1 Sensory Perception",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, section 14.1, CC BY 4.0. No revision date was printed on the page. Supports sweet taste as sensitivity to glucose and also to fructose and named sweeteners."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-taste-bitter-alkaloid"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "sweet",
+    "glucose"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-push-or-pull",
+  "title": "A force is a push or a pull",
+  "section": "world",
+  "category": "physics",
+  "summary": "A force is a push or a pull on an object, and it has a size and a direction.",
+  "body": "OpenStax Physics says a force pushes or pulls an object. The object can be a table or a person, and the push or pull can come from a person or from Earth's gravitational pull. Forces differ in size and direction: a cannon's push on a cannonball is large, and a mosquito landing on an arm is small. Urone and Hinrichs published the first edition on 26 March 2020. The section's term list names the newton as the SI unit of that quantity. The cannonball and the landing insect are only a contrast of size. They are not a claim about weapons or about insects. OpenStax treats the quantity as a vector, so which way it points is part of it: a shove from the left is not the same as a shove from the right, even when the strengths match. This is a classroom definition in the first-edition Physics book, not a laboratory log.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.1 Force",
+      "url": "https://openstax.org/books/physics/pages/4-1-force",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only. OpenStax Physics, first edition, Paul Peter Urone and Roger Hinrichs, published 26 March 2020, path /books/physics/. The OpenStax CMS lists this first edition as CC BY 4.0. The site footer also prints a general NC-SA line for textbooks except where otherwise noted; this card follows the first-edition CC BY grant and does not copy a sentence. Supports the definition that a force pushes or pulls, with the cannon and mosquito size contrast."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "cannon",
+    "mosquito"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-presbyopia-close",
+  "title": "Presbyopia makes close seeing harder from the middle adult years",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Presbyopia makes it hard for middle-aged and older adults to see things up close, and it is common from about age 45.",
+  "body": "The National Eye Institute says presbyopia makes it hard for middle-aged and older adults to see things up close. It also says presbyopia is common in adults ages 45 and older, unlike nearsightedness, which usually starts in childhood. The page was updated on 19 December 2025. The age is the institute's statement about this focusing change, not a deadline for one reader.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Refractive Errors",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+      "author": "National Eye Institute",
+      "date": "2025-12-19",
+      "accessed": "2026-11-26",
+      "note": "Supports presbyopia as close-vision difficulty in middle-aged and older adults, common from age 45."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "National Eye Institute",
+  "as_of_date": "2025-12-19",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-farsighted-blur",
+    "world-f1-senses-glasses-bend-light"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "presbyopia",
+    "older"
+  ],
+  "read_time_min": 1
+}

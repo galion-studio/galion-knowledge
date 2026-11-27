@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-smoke-near-baby",
+  "title": "CDC says not to smoke or use nicotine in pregnancy or around the baby",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC's safe-sleep page says not to smoke or use nicotine during pregnancy, and not to smoke or allow smoking around the baby.",
+  "body": "Among the further recommendations on the safe-sleep page, CDC says not to smoke or use nicotine during pregnancy, and not to smoke or allow smoking around the baby. The page points adults who want help quitting toward a separate quitting resource. Smoke in the air around an infant is the claim here. It is not the same topic as a household smoke alarm, and it is not a measurement of one home's air. The instruction is the US page's, tied to the 2022 pediatrics list CDC says it supports.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Providing Care for Babies to Sleep Safely",
+      "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2024-09-17",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. CDC says it supports the 2022 AAP recommendations. Page updated 17 September 2024."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2024-09-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-back-to-sleep",
+    "world-f1-safety-sids-definition"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "nicotine"
+  ],
+  "read_time_min": 1
+}

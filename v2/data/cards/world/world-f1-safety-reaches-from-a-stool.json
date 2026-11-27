@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-reaches-from-a-stool",
+  "title": "Most children will stand on a stool to reach something by about 30 months",
+  "section": "world",
+  "category": "development",
+  "summary": "CDC's 30-month thinking list includes standing on a small stool to reach something, as something most children, 75 percent or more, do.",
+  "body": "The 30-month checklist puts that example in the thinking group, next to pretend play and two-step directions. CDC's count is three quarters of children or higher by that birthday. The page was reviewed in May 2026. An uneasy caregiver can mention it at a clinic visit. The sheet is a watching aid. It is not a scored exam and it does not name a disorder. Using a step to grab an object is also why cupboard latches matter more than leaving things on a high shelf. The latch cards are separate. This line is only the timing CDC prints.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 30 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Reviewed 16 May 2026. Milestone means most children (75 percent or more), not every child, and the page says the materials are not a screening tool."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-locked-poisons",
+    "world-f1-safety-furniture-tipover"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "milestones",
+    "stool"
+  ],
+  "read_time_min": 1
+}

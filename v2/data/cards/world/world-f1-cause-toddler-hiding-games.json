@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-toddler-hiding-games",
+  "title": "OpenStax says toddlers who have the understanding enjoy seeking games",
+  "section": "world",
+  "category": "development",
+  "summary": "OpenStax says toddlers about 12 to 24 months old enjoy seeking games because they have mastered object permanence.",
+  "body": "OpenStax Psychology says that because toddlers, about 12 to 24 months old, have mastered object permanence, they enjoy seeking games. The textbook presents the enjoyment as a consequence of that mastery. It is a description in a development chapter, not a US milestone line and not a rule that every toddler likes the game.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology, 9.3 Stages of Development",
+      "url": "https://openstax.org/books/psychology/pages/9-3-stages-of-development",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology web page, CC BY 4.0. Paraphrase; credit OpenStax. Supports the hide-and-seek sentence about toddlers 12 to 24 months old."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-hidden-still-there",
+    "world-f1-cause-person-comes-back",
+    "world-f1-cause-cdc-find-behind-chair"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "seek",
+    "toddlers"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-social-people-read-the-situation",
+  "title": "When people are unsure how to act, they take cues from others",
+  "section": "world",
+  "category": "psychology",
+  "summary": "OpenStax social psychology says people shift their behavior to fit the situation, and if unsure they take cues from other people.",
+  "body": "The chapter defines social psychology as the study of how people affect one another and of the power of the situation. It says an individual's thoughts, feelings, and behavior are influenced by social situations, and that people change behavior to align with the situation at hand. If someone is in a new situation or unsure how to behave, the text says they will take cues from other individuals. That is a textbook claim about adult social life, not a measured rate and not a child's milestone. It does not say every custom is the same across cultures.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Psychology",
+      "url": "https://openstax.org/books/psychology/pages/12-1-what-is-social-psychology",
+      "author": "OpenStax",
+      "date": "2014",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only, no quotation. OpenStax Psychology web chapter at /books/psychology/, credited as the first-edition path (CC BY 4.0). Supports the statements that people align behavior with the situation and take cues from others when unsure. CMS book slug psychology, first edition, licence_name Creative Commons Attribution License 4.0 (not Psychology 2e)."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-changes-behavior-by-place"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "situations",
+    "cues"
+  ],
+  "read_time_min": 1
+}

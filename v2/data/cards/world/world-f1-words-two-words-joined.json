@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-two-words-joined",
+  "title": "By age 2 the CDC sample is two words joined into one phrase",
+  "section": "world",
+  "category": "development",
+  "summary": "By a second birthday, the CDC communication sheet says most children say at least two words together.",
+  "body": "The 2-year CDC sheet lists saying at least two words together. The printed sample pairs a request with a drink. It is a combination, not a count of how many items the child can name. A different entry on that sheet is pointing to a bear in a book when asked where the bear is. This card is only the joined phrase. The sheet was written for the United States, and a form from another country can place that step at a different age.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the language milestone 'Says at least two words together, like More milk.' The drink name from that sample is kept in this note only."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-about-fifty-words",
+    "world-f1-words-three-extra-words"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "phrases",
+    "joined"
+  ],
+  "read_time_min": 1
+}

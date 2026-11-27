@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-uncut-grapes",
+  "title": "CDC lists uncut grapes among foods that can choke a young child",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC, citing a USDA WIC list, says uncut grapes, berries, cherries, and melon balls are foods to avoid because a young child may choke.",
+  "body": "CDC's infant-and-toddler choking page says choking hazards can remain even after a child feeds themselves. It points to a USDA WIC list of foods to avoid, and that list includes uncut grapes, berries, cherries, and melon balls, plus whole or chopped nuts and hard candy. The same page says the way food is prepared can raise the risk, and that cutting food into smaller pieces can help. It also says the child should sit up while eating, not lie down, crawl, or walk. The list is a US nutrition program's list as CDC prints it. It may not name every food that can choke someone. What to do after an object is stuck is on the first-aid choking cards, not here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Choking Hazards",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/choking-hazards.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-03-11",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Page dated 11 March 2026. Supports the uncut-grape list and the sit-up-while-eating line. The page attributes the food list to USDA WIC."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-03-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.choking-baby",
+    "first-aid.choking-child"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "choking",
+    "grapes"
+  ],
+  "read_time_min": 1
+}

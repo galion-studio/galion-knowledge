@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-synovial-joint",
+  "title": "A synovial joint lets bones move against each other",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says a synovial joint lets bones move freely against each other, with cartilage and a slick coating.",
+  "body": "OpenStax says synovial joints are the most common joints. The bone surfaces are not fastened directly together. They meet inside the joint and can move freely. Articular cartilage and a slick coating cut friction. Ligaments hold the bones together and resist excessive movement. A freely movable joint of this kind is called a diarthrosis. The elbow is a hinge example on the page. This card is how a movable joint is built. It is not care for a twisted joint.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "9.1 and 9.4, chapter review",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/9-chapter-review",
+      "author": "OpenStax",
+      "date": "n.d.",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, first edition, web view, CC BY 4.0. Paraphrase: synovial joints have a fluid-filled cavity, articular cartilage, synovial fluid, and ligaments; they are diarthroses, freely movable."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-bones-support",
+    "world-f1-body-tendon-pull"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "joint",
+    "synovial"
+  ],
+  "read_time_min": 1
+}

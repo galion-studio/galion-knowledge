@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-cdc-push-car",
+  "title": "By 18 months, most children push a toy car in simple play",
+  "section": "world",
+  "category": "development",
+  "summary": "The CDC says that by 18 months, most children play with toys in a simple way, like pushing a toy car.",
+  "body": "The CDC's cognitive milestones for 18 months include playing with toys in a simple way, and the printed example is pushing a toy car. The line is ordinary play with an object, on the US list of what most children do by that age. It does not say how hard a push must be, and it does not grade a child who plays another way. The line does not set a force and does not grade another style of play.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 18 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. Supports the cognitive item 'Plays with toys in a simple way, like pushing a toy car.'"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-push-or-pull",
+    "world-f1-cause-bat-hit",
+    "world-f1-cause-cdc-most-not-every"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "pushing",
+    "car"
+  ],
+  "read_time_min": 1
+}

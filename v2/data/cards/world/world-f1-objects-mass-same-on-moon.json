@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-objects-mass-same-on-moon",
+  "title": "Mass stays the same on the Moon, while weight becomes about one-sixth",
+  "section": "world",
+  "category": "physics",
+  "summary": "An object's mass does not change on the Moon, but its weight there is about one-sixth of its weight on Earth, because the Moon's gravity is weaker.",
+  "body": "OpenStax Chemistry says mass measures the amount of matter in an object. Weight is the force gravity exerts, and it is directly proportional to the mass, but it changes when gravity changes. An astronaut's mass does not change because she goes to the Moon. Her weight on the Moon is only one-sixth her Earth weight, because the Moon's gravity is only one-sixth of Earth's. She may feel weightless when outside forces are negligible, but she is never massless. The SI names for mass and for weight-as-a-force are on the NIST card. This card is the Moon comparison only, and it does not restate the Planck definition of the kilogram.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Chemistry",
+      "url": "https://openstax.org/books/chemistry/pages/1-2-phases-and-classification-of-matter",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Chemistry, first-edition path /books/chemistry/, CC BY 4.0. Supports mass versus weight and the one-sixth Moon comparison in section 1.2. Paraphrase only; the section was not copied."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.kilogram-planck"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "mass",
+    "weight"
+  ],
+  "read_time_min": 1
+}

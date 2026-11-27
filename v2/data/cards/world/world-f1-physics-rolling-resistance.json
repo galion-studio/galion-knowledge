@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-rolling-resistance",
+  "title": "Rolling resistance slows a rolling wheel",
+  "section": "world",
+  "category": "physics",
+  "summary": "Rolling resistance is the set of forces that impede a rolling wheel, so a roll does not go on unchanged.",
+  "body": "OpenStax Physics lists rolling resistance beside kinetic friction, static friction, and drag. It says rolling resistance impedes the rolling of a wheel. The key-term sense on the first-law page is a resistance to motion that slows things down. A ball or wheel on a floor therefore keeps going only until those forces, or some other net force, change the motion. The book does not claim a real floor is frictionless. Urone and Hinrichs, 26 March 2020.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.2 Newton's First Law of Motion: Inertia",
+      "url": "https://openstax.org/books/physics/pages/4-2-newtons-first-law-of-motion-inertia",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only. OpenStax Physics, first edition, Paul Peter Urone and Roger Hinrichs, published 26 March 2020, path /books/physics/. The OpenStax CMS lists this first edition as CC BY 4.0. The site footer also prints a general NC-SA line for textbooks except where otherwise noted; this card follows the first-edition CC BY grant and does not copy a sentence. Supports the sentence that rolling resistance impedes a rolling wheel."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "rolling",
+    "wheel"
+  ],
+  "read_time_min": 1
+}

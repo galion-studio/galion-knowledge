@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-first-steps",
+  "title": "A few steps with no hand to hold by about 15 months",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children take a few steps on their own by about 15 months.",
+  "body": "The Centers for Disease Control and Prevention 15-month page prints takes a few steps on his own. The burst is short. No hand is in the wording. The page files it with what most children do by 15 months. A longer stretch across a room is not this line. A delay past that age is not a verdict from this sentence. Lists published outside the United States can pick another month. Only a brief independent burst counts here, not a trek across a whole room, at 15 months. A brief independent burst, not a trek across an entire room, is the 15-month item.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 15 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Movement line: Takes a few steps on his own."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-milestone-meaning",
+    "world-f1-body-walks-furniture"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "steps",
+    "15"
+  ],
+  "read_time_min": 1
+}

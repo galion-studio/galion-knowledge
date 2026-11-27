@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-words-about-fifty-words",
+  "title": "About 50 spoken words is the CDC figure for 30 months",
+  "section": "world",
+  "category": "development",
+  "summary": "CDC lists about 50 words among what most children say by 30 months, and the word about is printed on that line.",
+  "body": "On the 30-month CDC sheet, one communication entry reads that the child says about 50 words. About is part of the printed line, so 50 is not a sharp cutoff. The sheet does not describe a diary, a picture inventory, or a clinic procedure for arriving at the figure. Pronouns such as I, me, and we are a separate entry on that sheet and are not this tally. A form written outside the United States can use a different tally. Missing the figure is not, by itself, a diagnosis the sheet makes.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 30 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the language milestone 'Says about 50 words.'"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-two-words-joined"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "fifty",
+    "vocabulary"
+  ],
+  "read_time_min": 1
+}

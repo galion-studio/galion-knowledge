@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-infant-overlaps-stay-long",
+  "title": "When babies still overlap, the overlap itself does not get briefer with age",
+  "section": "world",
+  "category": "development",
+  "summary": "In the same twelve-pair study, the length of an infant's overlapping vocal turn stayed about the same from 3 to 18 months.",
+  "body": "Hilbrink, Gattis, and Levinson separated how often infants overlapped from how long each overlap lasted. The rate fell with age, but the infants' overlap durations did not shorten. Mothers' overlaps did get shorter as the infants grew. The authors say the falling rate looks more like alternating turns, yet a long overlap means the infant is not yet aiming at the very end of the mother's turn the way adult speakers often do. Twelve pairs and one free-play setting limit how far the pattern can be generalized.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Early developmental changes in the timing of turn-taking",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01492/full",
+      "author": "Elma E. Hilbrink, Merideth Gattis, and Stephen C. Levinson",
+      "date": "2015-09-29",
+      "accessed": "2026-11-26",
+      "note": "Supports the finding that infant overlap durations stayed stable while mothers' overlap durations decreased. CC BY 4.0; paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Elma Hilbrink, Merideth Gattis, and Stephen Levinson",
+  "as_of_date": "2015-09-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-infant-overlap-falls",
+    "horbm.turn-taking.overlap-targets-disagree"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "overlap",
+    "timing"
+  ],
+  "read_time_min": 1
+}

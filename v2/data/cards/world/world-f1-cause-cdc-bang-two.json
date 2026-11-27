@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-cdc-bang-two",
+  "title": "By nine months, most babies bang two things together",
+  "section": "world",
+  "category": "development",
+  "summary": "The CDC says that by nine months, most babies bang two things together.",
+  "body": "The nine-month cognitive list from the CDC includes banging two things together. The page files that line with learning, thinking, and problem solving. It is one checklist item for most babies by nine months on the US list. The page does not turn the bang into a law of motion. Banging two objects together is filed with learning, and the line does not state a law of motion.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. Supports the cognitive item 'Bangs two things together.'"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-shake-for-noise",
+    "world-f1-cause-cdc-most-not-every",
+    "world-f1-cause-push-or-pull"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "bang",
+    "together"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-plasma-charged-gas",
+  "title": "Plasma is a charged gas, the common visible state in stars",
+  "section": "world",
+  "category": "physics",
+  "summary": "Plasma is a gas of electrically charged particles, a state distinct from solid, liquid, and ordinary gas, and stars including the Sun are made of it.",
+  "body": "NASA's heliophysics page says, in the intermediate plasma note, that plasma is a gas consisting of electrically charged particles and a state of matter distinct from solids, liquids, and gases. It says plasma is rare on Earth but makes up over 99 percent of the observable matter in the universe, not counting dark matter, including every star and much of the material between them. On Earth the page names fluorescent lights, torches used for metalworking, and lightning. Plasma forms when electrons leave atoms and move independently. The introductory lines say the same everyday point more shortly: plasma is the most common easily observable state, and all stars, including the Sun, are made of it. This card does not describe solar flares.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Heliophysics Big Idea 2.2",
+      "url": "https://science.nasa.gov/learn/heat/big-ideas/big-idea-2-2/",
+      "author": "NASA Science",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "NASA Science heliophysics education page, U.S. government work, public domain. No review date was printed on the page opened 2026-11-26. Supports the intermediate description of plasma and the places it appears on Earth."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "plasma",
+    "star"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-toddler-fire-risk",
+  "title": "Children under four are at higher risk in a home fire, and the alarm may leave under three minutes",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The US Fire Administration says young children, especially ages 0 to 4, face a higher home-fire risk, and that there may be less than three minutes to get out once the alarm sounds.",
+  "body": "The Fire Administration's checklist for caregivers of babies and toddlers says that if a fire breaks out, there may be less than 3 minutes to get everyone out once the smoke alarm sounds. Young children, especially ages 0 to 4, are at higher risk of death or injury from a home fire than older children. Very young children will need an adult to get them to safety. The checklist asks whether alarms are on every level, inside and outside sleeping areas, tested each month, and less than 10 years old. Ready.gov's page is a different US text about the escape plan and 9-1-1. This card is the age pattern and the three-minute line on the checklist. It is not a count of fires.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Fire Safety Checklist for Caregivers of Babies and Toddlers",
+      "url": "https://www.usfa.fema.gov/downloads/fief/up_in_smoke_caregivers_checklist.pdf",
+      "author": "U.S. Fire Administration",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "US federal checklist, public domain. No date was printed on the PDF. Supports the child fire-risk or distance sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Fire Administration",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-fire-escape-plan",
+    "world-f1-safety-heater-distance"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "fire",
+    "toddlers"
+  ],
+  "read_time_min": 1
+}

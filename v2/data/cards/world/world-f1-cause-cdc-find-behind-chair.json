@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-cdc-find-behind-chair",
+  "title": "The CDC suggests letting a 15-month-old find you behind a chair",
+  "section": "world",
+  "category": "development",
+  "summary": "The CDC's 15-month page suggests letting the child watch you go behind a chair, then waiting for the child to come find you.",
+  "body": "Among activities at 15 months, the CDC describes a simple game: let the child watch you go behind a chair, then wait for the child to come find you. The page offers this as play, not as a milestone most children already pass. It is a US activity idea about a person who has gone out of view. The child comes to find the adult. The page offers this as a pastime, not a milestone already passed.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 15 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. Supports the activity of going behind a chair and waiting for the child to find you. Paraphrased without the page's game title so it stays one claim."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-person-comes-back",
+    "world-f1-cause-toddler-hiding-games",
+    "world-f1-cause-cdc-cloth-peekaboo"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "chair",
+    "find"
+  ],
+  "read_time_min": 1
+}

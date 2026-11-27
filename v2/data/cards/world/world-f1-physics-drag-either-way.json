@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-drag-either-way",
+  "title": "Drag is the same if the body moves or the fluid moves",
+  "section": "world",
+  "category": "physics",
+  "summary": "NASA Glenn says a wind past a parked wing and a wing rushing through still air are the same drag case.",
+  "body": "The 'What is Drag?' page says the force comes from a difference in velocity between the solid and the air. It makes no difference which one is described as moving. A body traveling through still air, and air streaming past a body held fixed, are the same situation. The page date is 21 July 2022. The definition of drag as a contact force is a separate sentence and is not repeated here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What is Drag?",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/what-is-drag/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2022-07-21",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 21 July 2022. Paraphrase of the relative-motion sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2022-07-21",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "parked",
+    "wind"
+  ],
+  "read_time_min": 1
+}

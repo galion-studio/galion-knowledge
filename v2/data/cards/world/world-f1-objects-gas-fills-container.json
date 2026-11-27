@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-gas-fills-container",
+  "title": "A gas fills its holder, taking both outline and volume",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "A gas fills its container, taking both the shape and the volume of that container.",
+  "body": "NASA Glenn says molecular forces in a gas are very weak. A gas fills its container, taking both the shape and the volume of the container. Liquids and gases can both be made to flow, which is why the page calls both fluids, but only the gas gives up its volume. This card stops at how a gas fills a holder. It does not state a pressure formula.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "States of Matter",
+      "url": "https://www.grc.nasa.gov/WWW/K-12/BGP/state.html",
+      "author": "NASA Glenn Research Center",
+      "date": "2021-05-13",
+      "accessed": "2026-11-26",
+      "note": "NASA Glenn Beginner's Guide to Propulsion, U.S. government work, public domain. Page last updated 13 May 2021. Supports a gas taking both the shape and the volume of its container."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2021-05-13",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "gas",
+    "volume"
+  ],
+  "read_time_min": 1
+}

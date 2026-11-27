@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-cookie-can-be-a-request",
+  "title": "OpenStax says a single early word can ask for something, not only name it",
+  "section": "world",
+  "category": "development",
+  "summary": "OpenStax says a one-word utterance often carries a larger meaning, so cookie can name a cookie or ask for one.",
+  "body": "OpenStax Psychology 7.2 says that in the one-word stage children know a number of words but produce only one-word utterances, and that these words often carry a larger meaning. The example is a child saying cookie, which could be identifying a cookie or asking for a cookie. The textbook cites Fernandez and Cairns, 2011. The example is an illustration in a CC BY 4.0 chapter, not a transcript of a particular child and not a CDC milestone.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Psychology, section 7.2 Language",
+      "url": "https://openstax.org/books/psychology/pages/7-2-language",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "First-edition web view at /books/psychology/, which the preface licenses CC BY 4.0. Opened 2026-11-26. No review date was printed on the section, so the source date is the access date. Paraphrase, with credit to OpenStax Psychology. Supports the cookie example: a one-word utterance can identify the thing or ask for it."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-early-nouns-for-things",
+    "world-f1-words-repeat-and-expand"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "request",
+    "meaning"
+  ],
+  "read_time_min": 1
+}

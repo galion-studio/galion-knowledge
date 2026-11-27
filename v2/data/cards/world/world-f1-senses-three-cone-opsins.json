@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-three-cone-opsins",
+  "title": "Three cone pigments peak near red, green, and blue wavelengths",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Three cone pigments peak near 564, 534, and 420 nanometers, roughly red, green, and blue, and the brain compares them.",
+  "body": "OpenStax Anatomy and Physiology says the three cone opsins have peak sensitivities of 564, 534, and 420 nanometers, corresponding roughly to red, green, and blue. Color comes from comparing activity across the three. The figures are the textbook's peaks, under CC BY 4.0, not a lab printout for a particular eye.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "14.1 Sensory Perception",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, section 14.1, CC BY 4.0. No revision date was printed on the page. Supports the three cone-opsin peaks at 564, 534, and 420 nanometers and color from comparing them."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-cones-color-detail",
+    "world-f1-senses-red-green-confusion"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "opsins",
+    "nanometers"
+  ],
+  "read_time_min": 1
+}

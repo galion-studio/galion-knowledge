@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-primary-teeth",
+  "title": "NIDCR says the first teeth hold a place for the permanent teeth",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIDCR says the first teeth hold a place for the permanent teeth, so keeping them until they fall out matters.",
+  "body": "A National Institute of Dental and Craniofacial Research fact sheet for parents says the first teeth hold a place for the permanent teeth. It says it is important to keep that first set healthy so the teeth are not lost early. The sheet is about sealants and decay as well. This card uses only the place-holding sentence. It does not give brushing steps, and it does not say when the first tooth appears, because that sheet does not print that age.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Seal Out Tooth Decay, fact sheet for parents, NIH Publication No. 25-489",
+      "url": "https://www.nidcr.nih.gov/sites/default/files/2025-09/Seal-Out-Tooth-Decay%20%281%29.pdf",
+      "author": "National Institute of Dental and Craniofacial Research",
+      "date": "2025-06",
+      "accessed": "2026-11-26",
+      "note": "Public domain US government fact sheet, June 2025. Supports: Baby teeth save space for adult teeth. It is important to keep baby teeth healthy so they are not lost early. Sealant instructions are not restated."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCR",
+  "as_of_date": "2025-06",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-permanent-molars",
+    "world-f1-body-saliva-digestion"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "teeth",
+    "newborn"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-solidity-car-through-wall",
+  "title": "In one study, infants looked longer when a car seemed to pass through a wall",
+  "section": "world",
+  "category": "development",
+  "summary": "Lee and colleagues report that, in their solidity event, infants' looking preference for a car that seemed to pass through a wall differed from zero.",
+  "body": "In the solidity trial of that CC BY paper, a toy car slid down a hill and, in familiarization, stopped at a wall. At test a curtain covered the ending. When the curtain rose on the possible film, the car sat in front of the first wall. When it rose on the impossible film, the car sat in front of a farther wall, as though it had crossed the first. Looking-preference scores for this trial differed from zero. The paper's relocation trial and occlusion trial did not. Ages and the curiosity-scale result are a different card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Exploring individual differences in infants' looking preferences for impossible events",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.1015649/full",
+      "author": "Nayen Lee, Vanessa Lazaro, Jinjing Jenny Wang, Hilal H. Şen, Kelsey Lucca, and colleagues",
+      "date": "2023-02-02",
+      "accessed": "2026-11-26",
+      "note": "CC BY open-access article, Frontiers in Psychology, 2 February 2023. Paraphrase of the solidity-event method and the result that the solidity preference score differed from zero while relocation and occlusion did not."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Nayen Lee and colleagues",
+  "as_of_date": "2023-02-02",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "solidity",
+    "curtain"
+  ],
+  "read_time_min": 1
+}

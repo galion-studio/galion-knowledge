@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-room-sharing",
+  "title": "NICHD says the baby's own crib in the parents' room is safer than bed sharing",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NICHD's Safe to Sleep FAQ says to share the room, not the bed, for at least the first six months, with the baby on a separate sleep surface.",
+  "body": "The FAQ says health care providers recommend sharing the room with the baby for at least the first six months. Room sharing, in that answer, means the baby has a separate sleep space, a crib, bassinet, or portable play yard, in the room where the adult sleeps, not in the adult bed. The page says room sharing is safer than sharing the bed, and also safer than putting the baby in a room alone. It says the separate surface lowers the risk of an adult accidentally rolling onto the baby. If an adult falls asleep while feeding in bed, the page says to return the baby to the separate space as soon as the adult wakes, because a longer time in the adult bed goes with a higher risk of suffocation and other sleep-related death. This is the campaign's comparison. It is not a judgment of one family.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Safe to Sleep: Frequently Asked Questions",
+      "url": "https://safetosleep.nichd.nih.gov/reduce-risk/FAQ",
+      "author": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "US federal campaign page, public domain. No review date was printed on the page. Supports the FAQ answer named in the card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NICHD",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-back-to-sleep",
+    "world-f1-safety-firm-flat-crib"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "room"
+  ],
+  "read_time_min": 1
+}

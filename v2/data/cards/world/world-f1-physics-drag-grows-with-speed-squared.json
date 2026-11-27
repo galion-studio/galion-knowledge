@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-drag-grows-with-speed-squared",
+  "title": "Drag grows with the square of speed and with the size of the body",
+  "section": "world",
+  "category": "physics",
+  "summary": "NASA Glenn's drag equation says drag depends on air density, the square of velocity, and the size and shape of the body.",
+  "body": "NASA Glenn's drag-equation page, last updated 1 July 2025, says drag depends on the density of the air, the square of the velocity, the air's viscosity and compressibility, the size and shape of the body, and how the body is inclined to the flow. The equation collects shape and several other effects into a drag coefficient, then multiplies by density, by half of velocity squared, and by a reference area. Doubling speed, on that equation, multiplies the speed term by four. The page is a guide equation, not a wind-tunnel table.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Drag Equation",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-equation/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2025-07-01",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 1 July 2025. Paraphrase of the dependencies and of D = Cd * rho * V^2 * A / 2."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2025-07-01",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "squared",
+    "coefficient"
+  ],
+  "read_time_min": 1
+}

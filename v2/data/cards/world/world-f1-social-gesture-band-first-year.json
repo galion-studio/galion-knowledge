@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-gesture-band-first-year",
+  "title": "NIDCD places waving and arms-up in a 7-month to 1-year band",
+  "section": "world",
+  "category": "development",
+  "summary": "NIDCD's communication checklist puts gestures such as waving or holding the arms up in the band from 7 months to 1 year.",
+  "body": "The National Institute on Deafness and Other Communication Disorders lists, under 7 months to 1 year, communicating with gestures such as waving or holding up the arms. The same page says children vary in speech and language, while still following a broad timetable. The band is wider than a single CDC month, and it mixes waving with the arms-up gesture. It is a US institute checklist, not a screen and not a statement about every baby. The page's last update shown was 13 October 2022.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Speech and language developmental milestones",
+      "url": "https://www.nidcd.nih.gov/health/speech-and-language",
+      "author": "NIDCD",
+      "date": "2022-10-13",
+      "accessed": "2026-11-26",
+      "note": "Supports the 7-months-to-1-year checklist line on gestures such as waving or holding up arms, and the statement that children vary. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2022-10-13",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-wave-bye-one-year",
+    "world-f1-social-milestone-three-quarters"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "gestures",
+    "waving"
+  ],
+  "read_time_min": 1
+}

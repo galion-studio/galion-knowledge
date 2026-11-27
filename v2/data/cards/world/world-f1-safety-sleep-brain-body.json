@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-sleep-brain-body",
+  "title": "During sleep the body supports brain function and physical health",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NHLBI says that during sleep the body is working to support healthy brain function and to maintain physical health.",
+  "body": "NHLBI's heart-health sleep page describes sleep as part of health across a whole life. While a person is asleep, the body is working to support healthy brain function and to keep physical health going. The same page says that too little sleep, or sleep that is not good quality, can raise the chance of chronic health problems if that pattern goes on. This is one US institute's description of what sleep is for. It is not a reading of one person's night.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Heart-Healthy Living: Get Enough Good-Quality Sleep",
+      "url": "https://www.nhlbi.nih.gov/health/heart-healthy-living/sleep",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the sentence named in the card. Page last updated 24 March 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHLBI",
+  "as_of_date": "2022-03-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-sleep-deficiency",
+    "world.dementia-risks-who"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "brain"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-takes-turns-in-games",
+  "title": "Waiting for a turn inside a peer game is listed at age 5",
+  "section": "world",
+  "category": "development",
+  "summary": "CDC says most children follow rules or wait their turn when they play games with other children, by about age 5.",
+  "body": "Social milestones at 5 years include following rules or taking turns when playing games with other children. The partner is a peer, and the structure is a game with a rule, not a baby sound-swap. CDC's most is 75 percent or more. A teaching table that prints taking turns beside the year 3 comes from another book and another cutoff. These US sheets are not a diagnosis.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 5-year social milestone 'Follows rules or takes turns when playing games with other children.' US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-pass-toy-turns",
+    "world-f1-social-textbook-lists-taking-turns"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "games",
+    "turns"
+  ],
+  "read_time_min": 1
+}

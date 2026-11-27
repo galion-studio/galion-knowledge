@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-social-short-gaps-many-languages",
+  "title": "Talk usually switches after a very short quiet",
+  "section": "world",
+  "category": "language",
+  "summary": "A CC BY review reports that conversation is mostly one person at a time, and that in ten languages the most common switch sat between 0 and 200 milliseconds.",
+  "body": "Hilbrink, Gattis, and Levinson open their infant study by describing adult talk. They say conversation is mostly one person speaking, that overlap is common but brief, and that most switches are no gap, a slight gap, or a slight overlap. They report a comparison of ten languages, different in word order and sound structure, in which the most common timing of the switch was between 0 and 200 milliseconds. The same paper says children who are still learning to talk leave much longer waits than adults. This card is that paper's account of the adult pattern. It is not a recording of every kind of talk.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Early developmental changes in the timing of turn-taking",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01492/full",
+      "author": "Elma E. Hilbrink, Merideth Gattis, and Stephen C. Levinson",
+      "date": "2015-09-29",
+      "accessed": "2026-11-26",
+      "note": "Supports the description of one-at-a-time talk with brief overlap, and the report that ten languages had a modal switch between 0 and 200 ms. Licence: CC BY 4.0. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "Elma Hilbrink, Merideth Gattis, and Stephen Levinson",
+  "as_of_date": "2015-09-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "horbm.turn-taking.ten-languages",
+    "horbm.turn-taking.one-at-a-time",
+    "world-f1-social-infant-gaps-lengthen"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "conversation",
+    "timing"
+  ],
+  "read_time_min": 1
+}

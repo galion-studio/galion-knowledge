@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-objects-air-holds-limited-vapor",
+  "title": "Water vapor condenses when the air holds more than it can at that temperature",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "Water vapor condenses into liquid when there is more of it than the air can hold at the current temperature.",
+  "body": "NOAA Education says water vapor can condense into liquid, forming cloud droplets or moisture on a surface. Condensation happens, on that page, when there is more water vapor than the air can hold at the current temperature. A later section adds that warmer air can hold more water vapor before it is saturated and condenses, which is why gaps between rains can lengthen and the rains can be heavier. This card is the saturation sentence. It does not forecast a storm, and it does not restate a climate assessment.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The water cycle",
+      "url": "https://www.noaa.gov/education/resource-collections/freshwater/water-cycle",
+      "author": "National Oceanic and Atmospheric Administration",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "NOAA Education water-cycle page, U.S. government work, public domain. No review date was printed on the page opened 2026-11-26. Supports condensation when vapor exceeds what the air can hold at the current temperature."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.water-cycle-usgs",
+    "world.nature.water-cycle"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "condensation",
+    "vapor"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-liquid-fits-container",
+  "title": "A liquid takes the shape of its container and keeps its own volume",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "A liquid takes the shape of its container, keeps a fixed volume, and shows a free surface where gravity acts.",
+  "body": "NASA Glenn says molecular forces in a liquid are weaker than in a solid. A liquid will take the shape of its container with a free surface in a gravitational field. In microgravity, a liquid forms a ball inside a free surface. Regardless of gravity, a liquid has a fixed volume. That fixed volume is what separates it from a gas, which gives up its volume to the holder. The page does not time how fast anything pours.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "States of Matter",
+      "url": "https://www.grc.nasa.gov/WWW/K-12/BGP/state.html",
+      "author": "NASA Glenn Research Center",
+      "date": "2021-05-13",
+      "accessed": "2026-11-26",
+      "note": "NASA Glenn Beginner's Guide to Propulsion, U.S. government work, public domain. Page last updated 13 May 2021. Supports a liquid taking the container's shape, a free surface in gravity, a ball in microgravity, and a fixed volume."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2021-05-13",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "liquid",
+    "volume"
+  ],
+  "read_time_min": 1
+}

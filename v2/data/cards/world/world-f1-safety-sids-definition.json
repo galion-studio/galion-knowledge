@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-sids-definition",
+  "title": "SIDS is a sudden infant death that stays unexplained after a full investigation",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NICHD defines SIDS as the sudden, unexplained death of an infant younger than one year that remains unexplained after a complete investigation.",
+  "body": "NICHD's SIDS topic page says SIDS is the sudden, unexplained death of an infant younger than 1 year old. The about section adds that the death remains unexplained after a complete investigation. The page says there is no sure way to prevent SIDS, and that caregivers can reduce the risk. A count box on that page still cites 2014 figures as its most recent year, so this card does not repeat the count. The definition is what the page states. It is not a label for every sudden infant death, because the page requires that the investigation did not find an explanation.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sudden Infant Death Syndrome (SIDS)",
+      "url": "https://www.nichd.nih.gov/health/topics/sids",
+      "author": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. No review date was printed on the topic page. Supports the definition sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NICHD",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-back-to-sleep",
+    "world-f1-safety-smoke-near-baby"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "sids"
+  ],
+  "read_time_min": 1
+}
