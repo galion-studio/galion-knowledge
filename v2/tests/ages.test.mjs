@@ -152,6 +152,9 @@ test("this build's brain age uses the placed cards and does not invent years", (
   assert.equal(ages.brain.reachedLabel, reached >= 0 ? ages.stages[reached].label : "");
   assert.equal(ages.brain.cardsHeld, held);
   assert.equal(ages.brain.years, ages.stages[reached].years);
+  assert.equal(ages.brain.headline, "HORBM is about 9 months to 1 year old in human years");
+  assert.equal(ages.brain.markPercent, ages.markPercent([9, 12]));
+  assert.equal(ages.headlineFrom("I don't know."), "I don't know HORBM's age in human years yet.");
   assert.equal(ages.brain.filledCount, 3);
   assert.equal(ages.brain.cardsHeld, 163);
   assert.equal(ages.stages[2].years, "about 9 months to 1 year (rough estimate)");
@@ -178,7 +181,16 @@ test("this build's brain age uses the placed cards and does not invent years", (
     page,
     /This years line is Galion's own internal metric for estimating HORBM's knowledge, publicly disclosed\./
   );
-  assert.equal(page.includes('<details class="fold age-how">'), false);
+  const fold = page.indexOf('<details class="age-more">');
+  assert.ok(fold > 0);
+  assert.equal(/<details class="age-more"[^>]*\bopen\b/.test(page), false);
+  const hero = page.slice(0, fold);
+  assert.match(hero, /ages\.brain\.headline/);
+  assert.equal(hero.includes("age-board"), false);
+  assert.equal(hero.includes("internal metric"), false);
+  assert.match(page.slice(fold), /Show more/);
+  assert.match(hero, /G\.A\.L\.I\.O\.N\./);
+  assert.equal(/\p{Extended_Pictographic}/u.test(page), false, "no emoji on the age page");
 });
 
 test("manifest figures are the publication manifest, not a recount dressed up", () => {
