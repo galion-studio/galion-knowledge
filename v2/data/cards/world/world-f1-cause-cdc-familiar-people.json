@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-cdc-familiar-people",
+  "title": "By six months, most babies know familiar people",
+  "section": "world",
+  "category": "development",
+  "summary": "The CDC says that by six months, most babies know familiar people.",
+  "body": "The CDC lists 'Knows familiar people' under social and emotional milestones at six months. The line is about recognizing people the baby already knows. It is what the US page says most babies do by six months. A baby who does not recognize a relative yet is not classified by this line. Recognition of people already met is the point, not a formal memory examination.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 6 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. Supports the social item 'Knows familiar people.'"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-mother-voice",
+    "world-f1-cause-person-comes-back",
+    "world-f1-cause-cdc-most-not-every"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "familiar",
+    "people"
+  ],
+  "read_time_min": 1
+}

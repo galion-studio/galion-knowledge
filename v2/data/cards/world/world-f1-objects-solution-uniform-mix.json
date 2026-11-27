@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-objects-solution-uniform-mix",
+  "title": "A solution is a mixture that is the same all the way through",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "A solution, also called a homogeneous mixture, has the same makeup in every drop, as with salt stirred into water.",
+  "body": "OpenStax Chemistry says a homogeneous mixture, also called a solution, has a uniform composition and looks the same throughout. Salt stirred into water is one example, because each portion is the same. Air, maple syrup, and gasoline are others. The page also says the recipe can still vary: a syrup with a bit more sugar is still that syrup. Uniform does not mean there is only one allowed recipe. It means a given batch does not change from drop to drop.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Chemistry",
+      "url": "https://openstax.org/books/chemistry/pages/1-2-phases-and-classification-of-matter",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Chemistry, first-edition path /books/chemistry/, CC BY 4.0. Supports the homogeneous mixture or solution definition and the salt-water example in section 1.2. Paraphrase only; the section was not copied."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.water"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "solution",
+    "mixture"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-food-allergy-immune-reaction",
+  "title": "A food allergy is an abnormal immune reaction, and NIAID cites US rates near 8 and 11 percent",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIAID says food allergy affects about 8 percent of US children and nearly 11 percent of US adults, and can be severe.",
+  "body": "NIAID, the National Institute of Allergy and Infectious Diseases, says it is the lead National Institutes of Health institute for food-allergy research. Its food-allergy page says the condition affects approximately 8 percent of children and nearly 11 percent of adults in the United States. In a person with food allergy, the immune system reacts abnormally to a component of a food, sometimes producing a severe and life-threatening response. Those percentages are the page's United States figures. They are not a world rate. This card does not describe how to treat a reaction. Emergency care for a severe allergic reaction is a different card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Food Allergy",
+      "url": "https://www.niaid.nih.gov/diseases-conditions/food-allergy",
+      "author": "National Institute of Allergy and Infectious Diseases",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "Supports the prevalence sentence and the immune-reaction sentence. The page did not show a reviewed date, so the source date is the access date. Public-domain NIH page. Paraphrased. No treatment steps."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIAID",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.anaphylaxis",
+    "world-f1-food-nine-major-allergens"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "allergy",
+    "immune"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-objects-state-change-keeps-water",
+  "title": "Ice, liquid water, and vapor are the same H2O",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "Changing water from ice to liquid to vapor is a physical change: each form is still H2O.",
+  "body": "NASA Glenn says any substance can occur in any state, and that changes in the state of matter are physical changes, not chemical changes. A molecule of water vapor has the same chemical composition, H2O, as a molecule of liquid water or a molecule of ice. The temperatures the page names for those changes already sit on the linked NIST card, including the word about on the Celsius boil, so they are not copied here. This card is only that the molecule stays the same across the three forms.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "States of Matter",
+      "url": "https://www.grc.nasa.gov/WWW/K-12/BGP/state.html",
+      "author": "NASA Glenn Research Center",
+      "date": "2021-05-13",
+      "accessed": "2026-11-26",
+      "note": "NASA Glenn Beginner's Guide to Propulsion, U.S. government work, public domain. Page last updated 13 May 2021. Supports a change of state as physical, with ice, liquid water, and vapor sharing the composition H2O. Degree numbers are not repeated."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2021-05-13",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.water",
+    "world.constants.water-freeze-boil-nist"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "physical",
+    "water"
+  ],
+  "read_time_min": 1
+}

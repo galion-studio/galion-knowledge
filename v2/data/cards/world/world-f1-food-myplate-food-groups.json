@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-myplate-food-groups",
+  "title": "A 2013 textbook describes MyPlate as six groups and a plate half covered by produce",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says USDA MyPlate shows fruits, vegetables, grains, protein foods, dairy, and oils, with half the plate as fruits and vegetables.",
+  "body": "OpenStax Anatomy and Physiology, first edition, published 25 April 2013, says the US Department of Agriculture moved its food graphic from MyPyramid to MyPlate and set the parts of a meal in a place setting. The textbook says MyPlate sorts food into six groups: fruits, vegetables, grains, protein foods, dairy, and oils. It says the guidance is to make half the plate fruits and vegetables. The other half is grains and protein, with a slightly higher quantity of grains than protein. Dairy is drawn as a drink, and the amount can apply to other dairy foods. This is the textbook's description. The live MyPlate website was not opened for this card, so later wording on that site is not reported here. Credit: OpenStax, CC BY 4.0.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Anatomy and Physiology, 24.7 Nutrition and Diet",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/24-7-nutrition-and-diet",
+      "author": "OpenStax",
+      "date": "2013-04-25",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase. OpenStax Anatomy and Physiology, first edition, published 25 April 2013. The OpenStax CMS book record for slug anatomy-and-physiology, checked 2026-11-26, names Creative Commons Attribution License version 4.0 (https://creativecommons.org/licenses/by/4.0/). The URL is /books/anatomy-and-physiology/, not Anatomy and Physiology 2e. Supports the six-group description and the half-plate sentence."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2013-04-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.fruit-and-vegetables",
+    "world.core.health.diet-principles"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "myplate",
+    "groups"
+  ],
+  "read_time_min": 1
+}

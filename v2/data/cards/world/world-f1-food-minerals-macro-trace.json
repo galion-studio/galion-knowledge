@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-food-minerals-macro-trace",
+  "title": "Minerals come in larger macrominerals and smaller trace minerals",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says minerals keep bones, muscles, heart, and brain working, and splits them into two amount groups.",
+  "body": "MedlinePlus says minerals are important for the body to stay healthy. The body uses them for many jobs, including keeping bones, muscles, heart, and brain working properly, and for making enzymes and hormones. There are two kinds. Macrominerals are needed in larger amounts. The page's list is calcium, phosphorus, magnesium, sodium, potassium, chloride, and sulfur. Trace minerals are needed in small amounts. That list is iron, manganese, copper, iodine, zinc, cobalt, fluoride, and selenium. Most people, the page says, get what they need from a wide variety of foods. The page was updated 17 July 2024. A supplement is not the page's default.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Minerals",
+      "url": "https://medlineplus.gov/minerals.html",
+      "author": "National Library of Medicine",
+      "date": "2024-07-17",
+      "accessed": "2026-11-26",
+      "note": "Supports the two groups and the named minerals. Public-domain MedlinePlus page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2024-07-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-thirteen-essential-vitamins"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "minerals",
+    "nutrients"
+  ],
+  "read_time_min": 1
+}

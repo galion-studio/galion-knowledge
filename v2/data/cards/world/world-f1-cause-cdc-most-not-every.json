@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-cause-cdc-most-not-every",
+  "title": "A CDC milestone is what most children do, counted as 75 percent or more",
+  "section": "world",
+  "category": "development",
+  "summary": "The CDC says developmental milestones are things most children, 75 percent or more, can do by a certain age.",
+  "body": "On its Learn the Signs pages, the US Centers for Disease Control and Prevention says developmental milestones are things most children, 75 percent or more, can do by a certain age. Most, on these pages, is that fraction. The pages do not say every child. A child who does something later is not called ill by this sentence. The lists are the United States lists. A later child is not called ill by that fraction, and the pages do not say every child.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 9 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. Supports the sentence that milestones are things most children (75% or more) can do by a certain age."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-cdc-not-a-screen",
+    "world-f1-cause-cdc-talk-doctor",
+    "world-f1-cause-cdc-dropped-spoon"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "milestone",
+    "percent"
+  ],
+  "read_time_min": 1
+}

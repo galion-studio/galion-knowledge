@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-crib-bumpers",
+  "title": "Crib bumpers can raise suffocation risk, and a 2021 US law limits their sale",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NICHD says crib bumpers can increase suffocation, wedging, injury, and death, and that a 2021 US law prohibits making and selling them and certain inclined sleepers.",
+  "body": "The Safe to Sleep FAQ says bumpers are often bought to protect a baby from injury, but the evidence does not support that use. Bumpers can increase the risk of suffocation and wedging and can cause serious injuries or death. The page explains an older reason they were used: before crib rules, slat gaps could be wide. Cribs that meet current standards do not leave that same gap, so the page says bumpers are no longer needed. It also says that in 2021 the Safe Sleep for Babies Act prohibited the manufacture and sale of crib bumpers and certain inclined sleepers. That is a US statute as the campaign page describes it. It is not a product review of one crib.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Safe to Sleep: Frequently Asked Questions",
+      "url": "https://safetosleep.nichd.nih.gov/reduce-risk/FAQ",
+      "author": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "US federal campaign page, public domain. No review date was printed on the page. Supports the FAQ answer named in the card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NICHD",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-clear-crib",
+    "world-f1-safety-firm-flat-crib"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "bumpers"
+  ],
+  "read_time_min": 1
+}

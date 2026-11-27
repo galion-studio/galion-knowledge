@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-allergenic-foods-introduction",
+  "title": "CDC says to offer common allergy foods when other solids start, one new food at a time",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says eggs, shellfish, nut butters, and wheat can be introduced with other foods, with a few days between new foods.",
+  "body": "The CDC solids page, dated 14 April 2026, says to let a child try one single-ingredient food at a time at first, so a caregiver can see problems such as food allergies, and to wait 3 to 5 days between each new food. It also says to introduce potentially allergenic foods when other foods are introduced. The examples are eggs, shellfish, nut butters, and wheat. If a child has severe eczema or an egg allergy, the page says to talk with a doctor or nurse about when and how to introduce peanut foods safely. This is United States feeding guidance. It is not a diagnosis, and it does not list rescue steps for a severe reaction.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "When, What, and How to Introduce Solid Foods",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/when-what-and-how-to-introduce-solid-foods.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-04-14",
+      "accessed": "2026-11-26",
+      "note": "Supports the one-food and allergenic-food sentences. Public-domain CDC page. Paraphrased. No treatment steps."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-04-14",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.anaphylaxis",
+    "world-f1-food-food-allergy-immune-reaction"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "allergy",
+    "solids"
+  ],
+  "read_time_min": 1
+}

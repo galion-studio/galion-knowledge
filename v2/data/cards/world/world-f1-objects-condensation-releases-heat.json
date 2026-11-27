@@ -1,0 +1,38 @@
+{
+  "id": "world-f1-objects-condensation-releases-heat",
+  "title": "Condensation lets heat out as water molecules line up into a liquid",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "When water vapor condenses, the molecules become more organized and heat is released into the air.",
+  "body": "The U.S. Geological Survey says water molecules in vapor are arranged more randomly than in liquid water. As condensation makes liquid from that vapor, the molecules become more organized, and heat is released into the atmosphere as a result. That release is the page's account of why condensation matters in the air, not only on a drinking glass. The card does not quote a calorie count. A different Survey page prints a heat-of-vaporization figure for ice turning to vapor, and that figure is not copied here.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Condensation and the Water Cycle",
+      "url": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle",
+      "author": "U.S. Geological Survey",
+      "date": "2019-06-08",
+      "accessed": "2026-11-26",
+      "note": "U.S. Geological Survey page, U.S. government work, public domain. Supports heat release as vapor molecules become more organized. Byline date 8 June 2019."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "2019-06-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.water-freeze-boil-nist",
+    "world.chemistry.thermo-water-7732185-tboil",
+    "world.chemistry.thermo-water-7732185-ptriple",
+    "world.chemistry.thermo-water-7732185-c",
+    "world.chemistry.water"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "condensation",
+    "heat"
+  ],
+  "read_time_min": 1
+}

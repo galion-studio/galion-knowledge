@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-digestive-tract",
+  "title": "The gut is a hollow tube, with the liver, pancreas, and gallbladder beside it",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIDDK describes the digestive tract as hollow organs from the mouth to the anus, plus three solid organs.",
+  "body": "NIDDK says the gastrointestinal tract, also called the GI tract or digestive tract, is a series of hollow organs joined in a long twisting tube from the mouth to the anus. The hollow organs it names are the mouth, esophagus, stomach, small intestine, large intestine, and anus. The liver, pancreas, and gallbladder are the solid organs of the digestive system. The same page divides the small intestine into duodenum, then jejunum, then ileum. This is a map of parts from a page last reviewed in December 2017, not a drawing of one person's surgery.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Your Digestive System & How it Works",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "author": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "date": "2017-12",
+      "accessed": "2026-11-26",
+      "note": "Supports the hollow-organ list and the three solid organs. Public-domain NIH page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDDK",
+  "as_of_date": "2017-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.body.pavlov-digestion",
+    "world-f1-food-digestion-purpose"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "digestion",
+    "organs"
+  ],
+  "read_time_min": 1
+}

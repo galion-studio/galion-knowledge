@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-flavor-taste-and-smell",
+  "title": "What people call flavor mixes taste with smell",
+  "section": "world",
+  "category": "psychology",
+  "summary": "Flavor, in the OpenStax account, is gustatory and olfactory information working together.",
+  "body": "OpenStax Psychology calls taste and smell the chemical senses, because their receptors respond to molecules in food or in air. It says there is a pronounced interaction. When someone describes a food's flavor, they are referring to both gustatory and olfactory properties in combination. The chapter is CC BY 4.0. Losing one of the two would change that mix, but this card does not describe a disorder.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "5.5 The Other Senses",
+      "url": "https://openstax.org/books/psychology/pages/5-5-the-other-senses",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology, first edition, section 5.5, CC BY 4.0. No revision date was printed on the page. Supports flavor as the combination of gustatory and olfactory properties."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-smell-olfactory-epithelium",
+    "world-f1-senses-taste-umami-glutamate"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "flavor",
+    "olfactory"
+  ],
+  "read_time_min": 1
+}

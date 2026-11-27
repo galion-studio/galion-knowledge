@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-static-friction-holds",
+  "title": "Static friction can stop a slide from starting",
+  "section": "world",
+  "category": "physics",
+  "summary": "Static friction is the force that prevents slipping while two surfaces are not yet sliding.",
+  "body": "OpenStax Physics separates kinds of friction. Kinetic friction opposes a slide that is already happening and slows it. Static friction is the case where friction prevents the object from sliding at all. The page also says the size of friction depends on a coefficient, set by the nature of the two surfaces, and on the normal force pressing them together. Urone and Hinrichs, 26 March 2020. A heavy crate that will not budge until the push is large enough is the static case.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.2 Newton's First Law of Motion: Inertia",
+      "url": "https://openstax.org/books/physics/pages/4-2-newtons-first-law-of-motion-inertia",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only. OpenStax Physics, first edition, Paul Peter Urone and Roger Hinrichs, published 26 March 2020, path /books/physics/. The OpenStax CMS lists this first edition as CC BY 4.0. The site footer also prints a general NC-SA line for textbooks except where otherwise noted; this card follows the first-edition CC BY grant and does not copy a sentence. Supports the static-friction definition and the dependence on the surfaces and the normal force."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "static",
+    "slipping"
+  ],
+  "read_time_min": 1
+}

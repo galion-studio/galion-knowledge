@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-syntax-builds-sentences",
+  "title": "Syntax, in the OpenStax chapter, is how words are arranged in a sentence",
+  "section": "world",
+  "category": "language",
+  "summary": "OpenStax says syntax is the organization of words into sentences, and it points to Chomsky's 1965 discussion.",
+  "body": "The chapter's word for sentence arrangement is syntax. It points to Chomsky's 1965 discussion and to Fernandez and Cairns, 2011. Putting words so that a question differs from a statement is the kind of job the term names. The chapter does not print a parse of an English sentence, and it does not claim every language orders words the same way. What a sentence is about is treated as a neighboring topic, not as this definition. The text is the first-edition psychology web view.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Psychology, section 7.2 Language",
+      "url": "https://openstax.org/books/psychology/pages/7-2-language",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "First-edition web view at /books/psychology/, which the preface licenses CC BY 4.0. Opened 2026-11-26. No review date was printed on the section, so the source date is the access date. Paraphrase, with credit to OpenStax Psychology. Supports the definition of syntax as the organization of words into sentences, and the statement that syntax is part of grammar."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-lexicon-versus-grammar",
+    "world-f1-words-morpheme-carries-meaning"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "syntax",
+    "sentences"
+  ],
+  "read_time_min": 1
+}

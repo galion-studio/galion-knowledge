@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-thirteen-essential-vitamins",
+  "title": "The body needs 13 vitamins to grow and develop, and it can make D and K",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says there are 13 vitamins the body needs, and that the body can also make vitamins D and K.",
+  "body": "The MedlinePlus vitamins summary, updated 17 July 2024, says vitamins are substances the body needs to grow and develop normally. It says there are 13 vitamins the body needs, and names vitamin A, the B vitamins, and vitamins C, D, E, and K. It says the body can also make vitamins D and K. People who eat a vegetarian diet may need a vitamin B12 supplement, on this page. The best way it gives to get enough is a balanced diet with a variety of foods. High doses of some vitamins can cause problems, so the page suggests asking a health care provider before supplements. This summary is public domain. It is not a dose chart.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Vitamins",
+      "url": "https://medlineplus.gov/vitamins.html",
+      "author": "National Library of Medicine",
+      "date": "2024-07-17",
+      "accessed": "2026-11-26",
+      "note": "MedlinePlus health-topic summary. The National Library of Medicine states these summaries are public domain. Paraphrased. Supports the count of 13 and the sentence that the body can make vitamins D and K."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2024-07-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-breastfed-vitamin-d",
+    "world-f1-food-minerals-macro-trace"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "vitamins",
+    "nutrients"
+  ],
+  "read_time_min": 1
+}

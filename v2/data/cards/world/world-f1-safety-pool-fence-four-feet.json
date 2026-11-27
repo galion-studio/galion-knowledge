@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-pool-fence-four-feet",
+  "title": "CDC says a pool fence should be four-sided, at least four feet high, and separate from the house",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says to use a four-sided fence at least four feet high that fully encloses the pool and separates it from the house.",
+  "body": "CDC's drowning-prevention page says to construct and use a four-sided fence at least four feet in height that fully encloses the pool. The fence should separate the pool from the house, and the gates should be self-closing and self-latching. Toys that might draw a child to the water should be removed when the pool is not in use. This is a US specification for a barrier. It is not the CPSC note about checking the pool first when a child is missing, and it is not a rescue method.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Preventing Drowning",
+      "url": "https://www.cdc.gov/drowning/prevention/",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2025-09-29",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Page dated 29 September 2025. Supports the four-sided, four-foot fence sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2025-09-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-pool-missing-child",
+    "world-f1-safety-drowning-often-silent"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "drowning",
+    "fence"
+  ],
+  "read_time_min": 1
+}

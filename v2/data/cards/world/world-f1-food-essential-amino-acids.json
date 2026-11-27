@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-food-essential-amino-acids",
+  "title": "Animal foods supply amino acids the body cannot make; most plant proteins do not supply all of them",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says proteins from animal foods are complete, and that most plant proteins are incomplete.",
+  "body": "The MedlinePlus dietary-proteins summary, updated 17 July 2024, says proteins from meat and other animal products are complete proteins. That means they supply all of the amino acids the body cannot make on its own. Most plant proteins are incomplete. The page says a person should eat different types of plant proteins every day to get all of the amino acids the body needs. It does not say animal foods are required. This is the health-topic summary, which the National Library of Medicine places in the public domain. It is not a meal plan.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Dietary Proteins",
+      "url": "https://medlineplus.gov/dietaryproteins.html",
+      "author": "National Library of Medicine",
+      "date": "2024-07-17",
+      "accessed": "2026-11-26",
+      "note": "MedlinePlus health-topic summary. The National Library of Medicine states these summaries are public domain. Paraphrased. Supports the complete and incomplete protein sentences."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2024-07-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-protein-builds-cells"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "protein",
+    "amino"
+  ],
+  "read_time_min": 1
+}

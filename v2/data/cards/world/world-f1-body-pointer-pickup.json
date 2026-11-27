@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-body-pointer-pickup",
+  "title": "A crumb lifted between two digits by about 1 year",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children pick things up between two digits by about 1 year.",
+  "body": "The Centers for Disease Control and Prevention 1-year movement list says picks things up between pointer and another digit, like small crumbs of food. Those two digits meet on a small piece. The page files this under movement, with what most children do by one year. This card is that pickup. It is not a mealtime rule. The month comes from the US Centers for Disease Control and Prevention list, which other countries need not copy. Pointer meets a second digit on a crumb, which is the one-year pickup item. The pointer meets a second digit upon a crumb during the one-year pickup.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 1 Year",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Movement line: Picks things up between thumb and pointer finger, like small bits of food."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-milestone-meaning"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "pointer",
+    "grip"
+  ],
+  "read_time_min": 1
+}

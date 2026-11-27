@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-caffeine-sleep",
+  "title": "Caffeine can still be active up to eight hours later",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NHLBI says caffeine is a stimulant that can interfere with sleep, and that its effects can last up to eight hours.",
+  "body": "The habits page groups nicotine and caffeine as stimulants that can interfere with sleep. On caffeine, it says the effects can last up to 8 hours, so a cup of coffee in the late afternoon can make it hard to fall asleep at night. The examples it lists include caffeinated soda, coffee, tea, and chocolate. The eight-hour line is about the substance, not a ban written for one child. The page is US guidance on habits, not a dose chart.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sleep Deprivation and Deficiency: Healthy Sleep Habits",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the habit sentence named in the card. Page last updated 24 March 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHLBI",
+  "as_of_date": "2022-03-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-bedtime-routine",
+    "world-f1-safety-sleep-debt"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "caffeine"
+  ],
+  "read_time_min": 1
+}

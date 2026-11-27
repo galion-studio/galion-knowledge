@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-rem-and-cold",
+  "title": "Colder surroundings go with less REM, because temperature control slips in that phase",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NHLBI says people usually have more REM later in the night, and less REM in colder temperatures, because the body does not regulate temperature properly during REM.",
+  "body": "The stages page says REM is usually heavier later in the night. It also says a person does not have as much REM in colder temperatures. The reason it gives is that, during REM, the body does not regulate its temperature properly. That is a statement about the phase, not a room-temperature prescription for a nursery. Safe-sleep pages about overheating a baby are a different claim.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How Sleep Works: Sleep Phases and Stages",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the stage or REM sentence named in the card. Page last updated 24 March 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHLBI",
+  "as_of_date": "2022-03-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-rem-dreams",
+    "world-f1-safety-baby-overheating"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "temperature"
+  ],
+  "read_time_min": 1
+}

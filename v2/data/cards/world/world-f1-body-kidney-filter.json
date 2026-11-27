@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-body-kidney-filter",
+  "title": "The kidneys filter blood mainly by the size of what is in it",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says each kidney glomerulus is a filter that keeps cells and large proteins out of the filtrate.",
+  "body": "OpenStax says the glomerulus inside each kidney is a filter based mainly on particle size. Cells and large proteins stay out of the filtrate. The nephron, which the chapter calls the working unit, then deals with that filtrate. This card is the size-based filter only. It does not name a disease, a lab test, or a treatment.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "25.1 and 25.3, chapter review",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/25-chapter-review",
+      "author": "OpenStax",
+      "date": "n.d.",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, first edition, web view, CC BY 4.0. Paraphrase of 25.1 and 25.3: the glomerulus filters blood mainly by particle size; the filtrate lacks cells and large proteins; the nephron is the functional unit. The 1.3 million figure on the page is not the claim."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-bladder-urine"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "kidney",
+    "glomerulus"
+  ],
+  "read_time_min": 1
+}

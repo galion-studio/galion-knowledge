@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-breastfed-vitamin-d",
+  "title": "Breastfed babies need extra vitamin D from birth, CDC says",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says breast milk is excellent nutrition, and that breastfed infants still need extra vitamin D starting at birth, and possibly iron.",
+  "body": "On the breastfeeding page updated 31 July 2026, CDC says breast milk is an excellent source of nutrition. The same section says breastfed infants will need extra vitamin D beginning at birth, and possibly iron supplements. The page does not print a dose in the sentences used here. It points readers onward for more on vitamins and minerals. This is United States CDC guidance, not a prescription for one infant.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Breastfeeding Fast Facts",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/index.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-07-31",
+      "accessed": "2026-11-26",
+      "note": "US CDC page. Public domain. Paraphrased. Supports the vitamin D and possible iron sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-07-31",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-breast-milk-only",
+    "world-f1-food-thirteen-essential-vitamins"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "vitamins",
+    "infants"
+  ],
+  "read_time_min": 1
+}

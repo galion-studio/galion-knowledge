@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-native-sound-patterns",
+  "title": "NIDCD says most babies recognize the basic sounds of their language by 6 months",
+  "section": "world",
+  "category": "development",
+  "summary": "NIDCD says that by 6 months of age, most babies recognize the basic sounds of their native language.",
+  "body": "The NIDCD speech and language milestone page says that as babies grow they sort out the speech sounds that compose the words of their language, and that by 6 months of age most babies recognize the basic sounds of their native language. The page also says children vary, even though they follow a progression. This most is NIDCD's wording. It is not the CDC 75-percent definition, and the page's checklist is credited to the American Speech-Language-Hearing Association. The page is a United States institute page from a 2010 publication.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Speech and Language Developmental Milestones",
+      "url": "https://www.nidcd.nih.gov/health/speech-and-language",
+      "author": "National Institute on Deafness and Other Communication Disorders",
+      "date": "2010-09",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. The page prints NIH Publication No. 00-4781, September 2010, and no later review date. Supports the sentence that by 6 months of age, most babies recognize the basic sounds of their native language, and the sentence that children vary."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2010-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-phoneme-window-narrows",
+    "world-f1-words-hearing-shapes-talking"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "native",
+    "sounds"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-unbalanced-force",
+  "title": "Rest or a straight steady speed holds until an unbalanced force acts",
+  "section": "world",
+  "category": "physics",
+  "summary": "NASA Glenn states Newton's first law: rest, or motion at constant speed in a straight line, continues until an unbalanced force acts.",
+  "body": "NASA Glenn's guide to the laws of motion, last updated 27 June 2024, prints the first law as one statement. An object at rest remains at rest. An object in motion remains in motion at constant speed and in a straight line. Either state changes only when an unbalanced force acts. If the outside forces cancel, the guide says there is no net force and the velocity stays constant. The page is a public-domain beginners' account, not a translation of the 1686 book.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Newton's Laws of Motion",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-laws-of-motion/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2024-06-27",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 27 June 2024. Paraphrase of the first-law statement and the sentence that cancelling forces leave a constant velocity."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2024-06-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.newton-principia-text"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "unbalanced",
+    "inertia"
+  ],
+  "read_time_min": 1
+}

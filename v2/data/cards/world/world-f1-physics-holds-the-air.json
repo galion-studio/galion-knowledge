@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-holds-the-air",
+  "title": "Earth's gravity holds the atmosphere people breathe",
+  "section": "world",
+  "category": "physics",
+  "summary": "Earth's gravity holds down the atmosphere, including the air people breathe.",
+  "body": "NASA Space Place says the Sun's gravity keeps Earth in orbit at a distance where sunlight and warmth are available, and that gravity holds down our atmosphere and the air we need to breathe. The mass of that atmosphere is a different NASA row on another card. This card is only the Space Place claim that gravity is what holds the air, from the article dated 17 December 2020.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Is Gravity?",
+      "url": "https://spaceplace.nasa.gov/what-is-gravity/en/",
+      "author": "NASA Space Place",
+      "date": "2020-12-17",
+      "accessed": "2026-11-26",
+      "note": "NASA Space Place, article last updated 17 December 2020. Paraphrase of the page's own sentence. Public-domain US federal page. Supports 'it holds down our atmosphere and the air we need to breathe'."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2020-12-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.earth.atmosphere-mass"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "atmosphere",
+    "breathe"
+  ],
+  "read_time_min": 1
+}

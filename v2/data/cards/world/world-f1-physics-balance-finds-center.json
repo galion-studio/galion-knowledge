@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-balance-finds-center",
+  "title": "Balancing an object finds its center of gravity",
+  "section": "world",
+  "category": "physics",
+  "summary": "The place where an object balances on a string, an edge, or a finger is its center of gravity.",
+  "body": "NASA Glenn describes a hands-on way to find the center of gravity: balance the object on a string or an edge. The page compares that to balancing a pencil on a finger. A second method hangs the object from two different points, drops a weighted string each time, and takes the crossing of the two lines as the center. Both methods are on the page last updated 17 July 2024. They locate the average of the weight; they do not by themselves say when a tower will tip.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Center of Gravity",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/center-of-gravity/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2024-07-17",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 17 July 2024. Paraphrase of the balance method and the two-hang method."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2024-07-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "balance",
+    "pencil"
+  ],
+  "read_time_min": 1
+}

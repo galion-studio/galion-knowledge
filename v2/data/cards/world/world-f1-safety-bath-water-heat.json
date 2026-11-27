@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-safety-bath-water-heat",
+  "title": "CPSC says a water heater at 120 degrees Fahrenheit or lower lowers scald risk in the bath",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CPSC says to stay within reach at bath time because a child can drown quickly, and that the water heater can be set to 120 degrees Fahrenheit or lower.",
+  "body": "In the bath section, CPSC says to give constant supervision and stay within reach when a baby is bathing, because children can drown in moments. To prevent scalding, it says the water heater can be set to 120 degrees Fahrenheit or lower. Anti-scald devices on faucets and shower heads are another option it names. This card is only the US heater figure and the paired warning to stay within reach. It is not treatment after a scald. That care is on the linked first-aid card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Childproofing Your Home",
+      "url": "https://www.cpsc.gov/safety-education/safety-guides/kids-and-babies/Childproofing-Your-Home",
+      "author": "U.S. Consumer Product Safety Commission",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. No update date was printed. Supports the device or hazard sentence named in the card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CPSC",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.burns-sja"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "scald",
+    "bath"
+  ],
+  "read_time_min": 1
+}

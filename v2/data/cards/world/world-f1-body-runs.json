@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-runs",
+  "title": "Running by about 2 years",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children run by about 2 years.",
+  "body": "Runs is a movement line on the Centers for Disease Control and Prevention 2-year page, listed with what most children do by 2 years. The page prints that single word for the skill. It does not describe speed or distance. Kicking a ball is a different line on the same page and is not this claim. The age comes from the US Centers for Disease Control and Prevention list. It is not a fitness grade, and other countries' lists can differ. Neither speed nor distance is printed beside that two-year word. Neither velocity nor a measured distance accompanies the two-year word.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Years",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Movement line: Runs. Kicking a ball is a separate line and is not used here."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-milestone-meaning",
+    "world-f1-body-walks-alone"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "runs",
+    "toddler"
+  ],
+  "read_time_min": 1
+}

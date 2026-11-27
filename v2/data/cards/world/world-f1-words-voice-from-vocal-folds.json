@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-voice-from-vocal-folds",
+  "title": "NIDCD says voice is the sound made when air vibrates the vocal folds",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIDCD says voice is the sound made as air from the lungs is pushed between the vocal folds and makes them vibrate.",
+  "body": "On its speech and language page, NIDCD separates three tools. Voice is the sound made as air from the lungs is pushed between vocal folds in the larynx, causing them to vibrate. The page treats voice as the raw sound, not yet the coordinated talking it calls speech, and not yet the shared rules it calls language. This card is only the voice sentence. It is a definition from a 2010 United States institute page, not a medical exam of one person's larynx.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Speech and Language Developmental Milestones",
+      "url": "https://www.nidcd.nih.gov/health/speech-and-language",
+      "author": "National Institute on Deafness and Other Communication Disorders",
+      "date": "2010-09",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. The page prints NIH Publication No. 00-4781, September 2010, and no later review date. Supports the sentence defining voice as air pushed between the vocal folds, causing them to vibrate."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2010-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-speech-is-coordinated-talk",
+    "world-f1-words-shared-rules-including-sign"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "voice",
+    "larynx"
+  ],
+  "read_time_min": 1
+}

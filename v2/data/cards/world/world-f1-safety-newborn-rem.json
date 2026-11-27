@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-newborn-rem",
+  "title": "Newborns spend more time in REM sleep than older people do",
+  "section": "world",
+  "category": "development",
+  "summary": "NHLBI says the pattern of sleep changes with age, and that newborns spend more time in REM sleep.",
+  "body": "On the stages page, NHLBI says patterns and types of sleep change as people mature. The example it gives for the youngest age is that newborns spend more time in REM sleep. It does not print an hour count for that REM share, and it does not say every newborn matches the same proportion. The hour ranges for babies are on a different NHLBI page.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How Sleep Works: Sleep Phases and Stages",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep",
+      "author": "National Heart, Lung, and Blood Institute",
+      "date": "2022-03-24",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Supports the stage or REM sentence named in the card. Page last updated 24 March 2022."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NHLBI",
+  "as_of_date": "2022-03-24",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-rem-dreams",
+    "world-f1-safety-sleep-hours-age"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "newborns"
+  ],
+  "read_time_min": 1
+}

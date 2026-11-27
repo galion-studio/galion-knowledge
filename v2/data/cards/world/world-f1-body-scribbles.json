@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-body-scribbles",
+  "title": "Making crayon marks by about 18 months",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children scribble by about 18 months.",
+  "body": "A crayon leaves a tangle of marks. The Centers for Disease Control and Prevention 18-month page names that tangle with one word, scribbles, under movement. Letters and pictures are not required by the wording. The page groups the word with what most children do by 18 months. This is mark-making, not a penmanship class. Another nation can file the same marks at another age. A crayon tangle is enough; alphabet letters are not demanded at 18 months. A crayon tangle suffices; alphabet letters are not demanded at eighteen months.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 18 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Movement line: Scribbles."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-milestone-meaning"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "scribbles",
+    "marks"
+  ],
+  "read_time_min": 1
+}

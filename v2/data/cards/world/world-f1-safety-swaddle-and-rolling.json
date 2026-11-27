@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-safety-swaddle-and-rolling",
+  "title": "Stop swaddling once a baby starts to roll, which NICHD says is usually around three months",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NICHD's Safe to Sleep FAQ says to avoid swaddling once a baby starts to roll, usually around three months, because a swaddled baby can have trouble moving off the stomach.",
+  "body": "The FAQ says to avoid swaddling once the baby starts to roll over, and it puts that change at usually around 3 months of age. Back sleeping for a swaddled baby matters, it says, because the baby may have trouble moving out of a stomach or side position while swaddled, which raises the risk of suffocation and other sleep-related deaths. The page also says stomach sleeping carries the highest risk of SIDS, and that the risk is very high for a baby who usually sleeps on the back but is placed on the stomach, and for a baby who is swaddled and rolls onto the stomach. Usually around three months is the page's timing, not a rule that every baby rolls on that day. If a baby rolls earlier or later, the trigger the page names is the rolling, not the birthday.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Safe to Sleep: Frequently Asked Questions",
+      "url": "https://safetosleep.nichd.nih.gov/reduce-risk/FAQ",
+      "author": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "US federal campaign page, public domain. No review date was printed on the page. Supports the FAQ answer named in the card."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NICHD",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-safety-back-to-sleep",
+    "world-f1-safety-tummy-time"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-safety",
+    "sleep",
+    "swaddling"
+  ],
+  "read_time_min": 1
+}

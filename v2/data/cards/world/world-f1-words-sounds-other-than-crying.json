@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-words-sounds-other-than-crying",
+  "title": "By 2 months, most babies make sounds other than crying",
+  "section": "world",
+  "category": "development",
+  "summary": "The CDC 2-month language list says most babies make sounds other than crying.",
+  "body": "Under language and communication, the CDC page for 2 months lists making sounds other than crying among what most babies do by that age. A separate line on the same list is reacting to loud sounds. This card is only the sound-making line. The heading on the page is what most babies do, which the CDC defines as 75 percent or more, so a quieter baby is not outside every normal path. The list is the United States checklist.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 2 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US federal page, public domain. Opened 2026-11-26. Reviewed date on the page is 16 May 2026. Supports the language milestone 'Makes sounds other than crying' under what most babies do by 2 months."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-words-three-quarters",
+    "world-f1-words-a-cry-brings-care"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-words",
+    "crying",
+    "sounds"
+  ],
+  "read_time_min": 1
+}

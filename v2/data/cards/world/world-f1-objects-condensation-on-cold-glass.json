@@ -1,0 +1,40 @@
+{
+  "id": "world-f1-objects-condensation-on-cold-glass",
+  "title": "Condensation is water vapor turning back into liquid",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "Condensation is water vapor turning into liquid water, which is why a cold glass grows wet on the outside on a humid day.",
+  "body": "The U.S. Geological Survey says condensation changes gaseous water into liquid water, and that it is the opposite of evaporation. The page points at water on the outside of a cold glass on a humid day. It also says the air is full of water vapor even when we cannot see it, and that condensation builds clouds. Fog at ground level, a cold window, and the inside of a car window after people have been breathing moist air are further examples of vapor leaving warm air and becoming liquid as it cools. Cloud droplets and rain are a later step, not this card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Condensation and the Water Cycle",
+      "url": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle",
+      "author": "U.S. Geological Survey",
+      "date": "2019-06-08",
+      "accessed": "2026-11-26",
+      "note": "U.S. Geological Survey page, U.S. government work, public domain. Supports condensation as vapor becoming liquid, including the cold-glass example. Byline date 8 June 2019."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "2019-06-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.water-freeze-boil-nist",
+    "world.chemistry.thermo-water-7732185-tboil",
+    "world.chemistry.thermo-water-7732185-ptriple",
+    "world.chemistry.thermo-water-7732185-c",
+    "world.chemistry.water",
+    "world.water-cycle-usgs",
+    "world.nature.water-cycle"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "condensation",
+    "vapor"
+  ],
+  "read_time_min": 1
+}

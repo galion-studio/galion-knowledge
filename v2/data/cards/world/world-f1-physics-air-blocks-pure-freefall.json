@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-air-blocks-pure-freefall",
+  "title": "Near Earth, air resistance means a real drop is not pure freefall",
+  "section": "world",
+  "category": "physics",
+  "summary": "OpenStax says that near Earth a falling object is never truly in freefall, because air always pushes up a little.",
+  "body": "After defining freefall as weight alone, OpenStax Physics says objects falling toward Earth are never truly in freefall. There is always some upward force from air resistance, and also a buoyancy force from the air. A NASA page on the Apollo 15 vacuum drop is the contrasting case, and it is not restated here. This card is the textbook's limit on drops in air. Urone and Hinrichs, 26 March 2020.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "4.3 Newton's Second Law of Motion",
+      "url": "https://openstax.org/books/physics/pages/4-3-newtons-second-law-of-motion",
+      "author": "Paul Peter Urone and Roger Hinrichs",
+      "date": "2020-03-26",
+      "accessed": "2026-11-26",
+      "note": "Paraphrase only. OpenStax Physics, first edition, Paul Peter Urone and Roger Hinrichs, published 26 March 2020, path /books/physics/. The OpenStax CMS lists this first edition as CC BY 4.0. The site footer also prints a general NC-SA line for textbooks except where otherwise noted; this card follows the first-edition CC BY grant and does not copy a sentence. Supports the sentence that objects falling toward Earth are never truly in freefall because of air resistance and buoyancy."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2020-03-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "air",
+    "freefall"
+  ],
+  "read_time_min": 1
+}

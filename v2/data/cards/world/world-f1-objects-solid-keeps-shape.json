@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-solid-keeps-shape",
+  "title": "A solid holds its shape, and that shape fixes its volume",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "A solid holds its shape, and the volume of a solid is fixed by that shape.",
+  "body": "NASA Glenn says the molecules in a solid are closely bound to one another by molecular forces. A solid holds its shape, and the volume of a solid is fixed by the shape of the solid. A liquid, which borrows the outline of a holder, is a different claim. The page does not rank materials from hard to soft, and it does not say a solid can be poured.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "States of Matter",
+      "url": "https://www.grc.nasa.gov/WWW/K-12/BGP/state.html",
+      "author": "NASA Glenn Research Center",
+      "date": "2021-05-13",
+      "accessed": "2026-11-26",
+      "note": "NASA Glenn Beginner's Guide to Propulsion, U.S. government work, public domain. Page last updated 13 May 2021. Supports a solid holding its shape, with volume fixed by that shape."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2021-05-13",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "solid",
+    "shape"
+  ],
+  "read_time_min": 1
+}

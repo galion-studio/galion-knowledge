@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-weaker-with-distance",
+  "title": "Gravity gets weaker when objects are farther apart",
+  "section": "world",
+  "category": "physics",
+  "summary": "The pull of gravity gets weaker as the distance between objects grows, and stronger when they are closer.",
+  "body": "NASA Space Place says gravity gets weaker with distance, so objects pull harder on each other when they are closer. The page does not state the sharper distance rule that a textbook puts in the gravitation chapter. This card is only the Space Place sentence, from the article dated 17 December 2020.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "What Is Gravity?",
+      "url": "https://spaceplace.nasa.gov/what-is-gravity/en/",
+      "author": "NASA Space Place",
+      "date": "2020-12-17",
+      "accessed": "2026-11-26",
+      "note": "NASA Space Place, article last updated 17 December 2020. Paraphrase of the page's own sentence. Public-domain US federal page. Supports 'gravity also gets weaker with distance' and the closer-stronger sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2020-12-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "distance",
+    "weaker"
+  ],
+  "read_time_min": 1
+}

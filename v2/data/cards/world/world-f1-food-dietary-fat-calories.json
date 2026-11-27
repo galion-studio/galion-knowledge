@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-dietary-fat-calories",
+  "title": "Fat gives energy, helps vitamin absorption, and carries twice the calories of protein or carbohydrate",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says dietary fat supplies energy, helps the body absorb vitamins, and has twice as many calories as protein or carbohydrate.",
+  "body": "MedlinePlus says fat is a type of nutrient. A person needs some fat, because fats give energy and help the body absorb vitamins. Dietary fat also plays a major role in cholesterol levels. The page says fat has twice as many calories as proteins or carbohydrates, so a large amount adds up quickly. It also says not all fats are the same, and it distinguishes fats such as butter and lard from oils such as olive or canola. The page was updated 9 November 2026. This card states that calorie contrast. It does not set a daily fat percentage.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Dietary Fats",
+      "url": "https://medlineplus.gov/dietaryfats.html",
+      "author": "National Library of Medicine",
+      "date": "2026-11-09",
+      "accessed": "2026-11-26",
+      "note": "Supports the energy, vitamin-absorption, and twice-the-calories sentences. Public-domain MedlinePlus page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2026-11-09",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.diet-limits",
+    "world-f1-food-bile-splits-fat"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "fat",
+    "calories"
+  ],
+  "read_time_min": 1
+}

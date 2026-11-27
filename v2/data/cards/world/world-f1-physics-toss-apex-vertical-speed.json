@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-toss-apex-vertical-speed",
+  "title": "At the top of a toss, the upward speed is zero",
+  "section": "world",
+  "category": "physics",
+  "summary": "NASA Glenn says that at the highest point of a ballistic toss, the vertical velocity is zero.",
+  "body": "NASA Glenn's ballistic-flight page says that at the highest point in the flight, the vertical velocity is zero. The sideways speed is a separate part of the motion and is not what this sentence sets to zero. The page treats that peak as a step in the ballistic equations, which ignore drag. A real ball with air drag is described on another Glenn page. This page was last updated 15 July 2024.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Ballistic Flight Equations",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/ballistic-flight-equations/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2024-07-15",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 15 July 2024. Paraphrase of the sentence that vertical velocity is zero at the highest point."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2024-07-15",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "apex",
+    "vertical"
+  ],
+  "read_time_min": 1
+}

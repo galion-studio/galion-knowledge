@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-why-eating-matters",
+  "title": "Food and drink supply the energy and nutrients the body uses every day",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says good nutrition means foods and drinks that give energy and nutrients, including water.",
+  "body": "MedlinePlus says good nutrition means choosing foods and drinks that support health, by regularly eating foods that give the body the energy and nutrients it needs every day. The nutrients it names are proteins, carbohydrates, fats, vitamins, minerals, and water. It says this matters from babyhood through older age, including help with growth, tissue repair, and keeping the body working. The page, updated 29 September 2026, also says there is no single diet or calorie amount that fits everyone. Needs depend on age, sex, activity, health conditions, and goals. This is a United States library summary, not a prescription.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Nutrition",
+      "url": "https://medlineplus.gov/nutrition.html",
+      "author": "National Library of Medicine",
+      "date": "2026-09-29",
+      "accessed": "2026-11-26",
+      "note": "Supports the energy-and-nutrients definition. Public-domain MedlinePlus page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2026-09-29",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.diet-principles",
+    "world.core.health.malnutrition-forms"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "nutrition",
+    "energy"
+  ],
+  "read_time_min": 1
+}

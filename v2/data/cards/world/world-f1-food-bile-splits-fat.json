@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-bile-splits-fat",
+  "title": "The liver makes bile, which helps digest fats, and the gallbladder stores it",
+  "section": "world",
+  "category": "medicine",
+  "summary": "On the NIDDK digestion page, bile from the liver helps with fats and some vitamins, and the gallbladder holds it between meals.",
+  "body": "Bile is the liver's secretion on the NIDDK page last reviewed in December 2017. The page gives it one digestive job: help with fats and some vitamins. Ducts can park it in the gallbladder, which keeps it between meals, or send it onward for use. At a meal the gallbladder squeezes the stored bile out. The page stops at that help. It does not explain how fat droplets come apart. The text is a public-domain NIH description.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Your Digestive System & How it Works",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "author": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "date": "2017-12",
+      "accessed": "2026-11-26",
+      "note": "US NIH page. Public domain. Paraphrased. Supports the bile and gallbladder sentences."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDDK",
+  "as_of_date": "2017-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-pancreas-enzymes",
+    "world-f1-food-dietary-fat-calories"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "digestion",
+    "fat"
+  ],
+  "read_time_min": 1
+}

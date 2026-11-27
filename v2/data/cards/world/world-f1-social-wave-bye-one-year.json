@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-wave-bye-one-year",
+  "title": "Waving bye-bye is on the first-birthday checklist",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children wave bye-bye by about 1 year, the US CDC says.",
+  "body": "CDC's communication milestones for 1 year include waving bye-bye. The page says most children, meaning 75 percent or more, do the listed items by that birthday. A wave is a conventional goodbye gesture, learned in company, not a word count. The program says its materials are not a substitute for a validated screen and not a diagnosis. A textbook range for answering a request to wave is a different claim, and other countries' charts differ.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 1-year communication milestone 'Waves bye-bye' and the 75 percent definition. US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-answers-a-wave-request",
+    "world-f1-social-waving-lists-differ"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "waving",
+    "goodbye"
+  ],
+  "read_time_min": 1
+}

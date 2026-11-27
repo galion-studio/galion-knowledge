@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-physics-moon-about-one-sixth",
+  "title": "Lunar gravity is about a sixth of terrestrial gravity",
+  "section": "world",
+  "category": "astronomy",
+  "summary": "Because the Moon has less mass, its gravitational pull is about one-sixth of Earth's, and a jump goes about six times higher.",
+  "body": "On the same NASA Science questions page, the comparison is a fraction. Less lunar mass means a weaker tug, about one-sixth of the tug at home. The page adds that a person could jump about six times as high and would land again. Updated 12 February 2026. This is the plain fraction and the jump, not a fact-sheet row in metres per second squared.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Top Moon Questions",
+      "url": "https://science.nasa.gov/moon/top-moon-questions/",
+      "author": "NASA Science",
+      "date": "2026-02-12",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Science page, last updated 12 February 2026. Paraphrase of 'about one-sixth of Earth's' and the six-times-higher jump."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2026-02-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.astronomy.moon-fact-sheet"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "sixth",
+    "jump"
+  ],
+  "read_time_min": 1
+}

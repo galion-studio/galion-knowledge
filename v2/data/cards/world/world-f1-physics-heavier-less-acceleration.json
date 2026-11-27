@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-physics-heavier-less-acceleration",
+  "title": "The same force speeds up a heavier object less",
+  "section": "world",
+  "category": "physics",
+  "summary": "NASA Glenn says that, for equal forces, a heavier object accelerates less than a lighter one.",
+  "body": "NASA Glenn writes the constant-mass form of the second law as force equals mass times acceleration. The guide says this holds when mass stays constant, as with a baseball, and not when mass changes, as with a bottle rocket burning fuel. Under that constant-mass form, acceleration is proportional to the force and inversely proportional to the mass. For equal forces, a heavier object experiences less acceleration than a lighter object. Page last updated 27 June 2024.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Newton's Laws of Motion",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-laws-of-motion/",
+      "author": "Nancy Hall, NASA Glenn Research Center",
+      "date": "2024-06-27",
+      "accessed": "2026-11-26",
+      "note": "Public-domain NASA Glenn page, last updated 27 June 2024. Paraphrase of F = ma for constant mass and the heavier-versus-lighter comparison."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2024-06-27",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-physics",
+    "heavier",
+    "acceleration"
+  ],
+  "read_time_min": 1
+}

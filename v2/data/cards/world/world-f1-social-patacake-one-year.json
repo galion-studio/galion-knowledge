@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-social-patacake-one-year",
+  "title": "Pat-a-cake with a partner is listed at 1 year",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children play games with a caregiver, such as pat-a-cake, by about 1 year, CDC says.",
+  "body": "The only social milestone CDC prints for the first birthday is playing games with you, like pat-a-cake. That is a partner game with a shared rhythm. Most means 75 percent or more on this page, not every baby and not a requirement to know one song. The materials are not a screening test. Clapping from excitement shows up later on the 15-month list and is a separate item.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Learn the Signs. Act Early. milestone page",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+      "author": "CDC",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the 1-year social milestone 'Plays games with you, like pat-a-cake.' US federal page, public domain. Paraphrased, not quoted."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-social-peekaboo-smile-nine-months",
+    "world-f1-social-claps-when-excited"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-social",
+    "patacake",
+    "games"
+  ],
+  "read_time_min": 1
+}

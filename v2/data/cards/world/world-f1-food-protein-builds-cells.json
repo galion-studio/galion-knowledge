@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-protein-builds-cells",
+  "title": "Protein is in every cell, and the body does not store it like fat",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says protein from food builds and maintains bones, muscles, and skin, and is needed every day because it is not stored like fat.",
+  "body": "The MedlinePlus dietary-proteins summary, updated 17 July 2024, says protein is in every cell in the body. Bodies need protein from food to build and maintain bones, muscles, and skin. Sources it names include meat, dairy products, nuts, and certain grains and beans. It says a person needs to eat protein every day, because the body does not store protein the way it stores fats or carbohydrates. How much depends on the person. This is a public-domain health-topic summary from the National Library of Medicine, not a gram target for a child.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Dietary Proteins",
+      "url": "https://medlineplus.gov/dietaryproteins.html",
+      "author": "National Library of Medicine",
+      "date": "2024-07-17",
+      "accessed": "2026-11-26",
+      "note": "MedlinePlus health-topic summary. The National Library of Medicine states these summaries are public domain. Paraphrased. Supports the every-cell and not-stored sentences."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2024-07-17",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-essential-amino-acids",
+    "world-f1-food-why-eating-matters"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "protein",
+    "growth"
+  ],
+  "read_time_min": 1
+}
