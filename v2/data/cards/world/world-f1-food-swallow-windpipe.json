@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-food-swallow-windpipe",
+  "title": "A flap covers the windpipe during a swallow so food enters the esophagus",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIDDK says the epiglottis folds over the windpipe during swallowing so food passes into the esophagus.",
+  "body": "NIDDK says the digestive process in the mouth starts when food is put in. During a swallow, the tongue pushes food into the throat. A small flap called the epiglottis folds over the windpipe to prevent choking, and the food passes into the esophagus. After that, the brain signals the esophageal muscles and the push down the tube begins. This card is only that anatomy. It does not describe rescue steps if a bite gets stuck. Those steps are on the baby choking card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Your Digestive System & How it Works",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "author": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "date": "2017-12",
+      "accessed": "2026-11-26",
+      "note": "Supports the epiglottis sentence. Public-domain NIH page. Paraphrased. No rescue steps copied."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDDK",
+  "as_of_date": "2017-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.choking-baby",
+    "first-aid.choking-child",
+    "world-f1-food-peristalsis"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "swallowing",
+    "choking"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-dietary-fibre-fullness",
+  "title": "Fiber from plants adds bulk, and most of it is not digested",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says dietary fiber is a plant carbohydrate that helps a person feel full and helps prevent constipation.",
+  "body": "MedlinePlus says fiber is a substance in plants, and dietary fiber is the kind a person eats. It is a type of carbohydrate. Labels may list it as soluble fiber or insoluble fiber, and the page says both have health benefits. Dietary fiber adds bulk and makes a person feel full faster, which can help with weight. It helps digestion and helps prevent constipation. The page, updated 25 April 2023, says most Americans do not eat enough, and that increasing fiber too quickly can cause gas, bloating, and cramps. This card does not set a gram target. A WHO gram target is a different card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Dietary Fiber",
+      "url": "https://medlineplus.gov/dietaryfiber.html",
+      "author": "National Library of Medicine",
+      "date": "2023-04-25",
+      "accessed": "2026-11-26",
+      "note": "Supports the fullness and constipation sentences. Public-domain MedlinePlus page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2023-04-25",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.health.fruit-and-vegetables",
+    "world-f1-food-three-kinds-of-carbohydrate"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "fiber",
+    "fullness"
+  ],
+  "read_time_min": 1
+}

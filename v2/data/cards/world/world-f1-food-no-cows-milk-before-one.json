@@ -1,0 +1,43 @@
+{
+  "id": "world-f1-food-no-cows-milk-before-one",
+  "title": "Cow's milk as a drink waits until 12 months; yogurt can come earlier",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says cow's milk before 12 months can irritate an infant's intestine and kidneys, while yogurt without added sugars may start sooner.",
+  "body": "The CDC avoid-or-limit page, dated 14 April 2026, says giving cow's milk before 12 months may put a baby at risk for intestinal bleeding. It also says cow's milk has too many proteins and minerals for a baby's kidneys to handle easily, and does not have the right amount of nutrients the baby needs. A second CDC page, on starting solid foods and dated the same day, says drinking cow's milk or fortified dairy alternatives is not recommended until a child is older than 12 months, while other cow's milk products, such as yogurt without added sugars, can be introduced before 12 months. Both pages are United States guidance. They are not a ban on all dairy foods in the first year.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Foods and Drinks to Avoid or Limit",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/foods-and-drinks-to-avoid-or-limit.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-04-14",
+      "accessed": "2026-11-26",
+      "note": "Supports the intestinal-bleeding and kidney sentences. Public-domain CDC page. Paraphrased."
+    },
+    {
+      "title": "When, What, and How to Introduce Solid Foods",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/when-what-and-how-to-introduce-solid-foods.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-04-14",
+      "accessed": "2026-11-26",
+      "note": "Supports the yogurt-before-12-months contrast. Public-domain CDC page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-04-14",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-breast-milk-or-formula",
+    "world-f1-food-pressed-drink-before-one"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "milk",
+    "infants"
+  ],
+  "read_time_min": 1
+}

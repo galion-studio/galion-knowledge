@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-no-honey-before-one",
+  "title": "CDC says honey before the first birthday can cause infant botulism",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says not to give honey to a child younger than 12 months, including on a pacifier or in formula.",
+  "body": "The CDC page on foods and drinks to avoid or limit, dated 14 April 2026, says honey given to children younger than 12 months may cause a severe food poisoning called botulism. It says not to give honey before 12 months, and not to add honey to the baby's food, water, infant formula, or pacifier. This is a warning about a bacterial illness in infants, not a note that honey is unclean in general. The page is United States guidance. It does not describe how to treat botulism. A child who is ill needs a clinician, not this card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Foods and Drinks to Avoid or Limit",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/foods-and-drinks-to-avoid-or-limit.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-04-14",
+      "accessed": "2026-11-26",
+      "note": "Supports the honey and botulism sentences. Public-domain CDC page. Paraphrased. No treatment steps."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-04-14",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-breast-milk-or-formula",
+    "world-f1-food-no-cows-milk-before-one"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "honey",
+    "infants"
+  ],
+  "read_time_min": 1
+}

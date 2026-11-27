@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-pancreas-enzymes",
+  "title": "The pancreas sends an enzyme-rich secretion into the small intestine",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIDDK says the pancreas makes a secretion whose enzymes break down carbohydrates, fats, and proteins, and sends it through ducts.",
+  "body": "Enzymes are the working part of the pancreatic secretion, as NIDDK describes them: they take apart carbohydrates, fats, and proteins. The gland delivers that secretion through ducts into the intestine. On the December 2017 page this secretion is one of three that meet there, beside bile and the intestine's own secretion, to finish those three nutrients. No daily volume and no acidity figure are printed. The description is not a disease guide.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Your Digestive System & How it Works",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "author": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "date": "2017-12",
+      "accessed": "2026-11-26",
+      "note": "US NIH page. Public domain. Paraphrased. Supports the pancreatic enzyme sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDDK",
+  "as_of_date": "2017-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-bile-splits-fat",
+    "world-f1-food-small-intestine-nutrients"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "digestion",
+    "pancreas"
+  ],
+  "read_time_min": 1
+}

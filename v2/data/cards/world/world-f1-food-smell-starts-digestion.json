@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-smell-starts-digestion",
+  "title": "Seeing or smelling food can make the mouth water before a bite",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIDDK says the brain, on seeing or smelling food, signals the salivary glands to make saliva and prepare for eating.",
+  "body": "NIDDK says nerves connect the brain and spinal cord to the digestive system and control some digestive functions. One example on the page: when you see or smell food, the brain sends a signal that causes the salivary glands to make the mouth water, to prepare you to eat. Saliva is the response named there, not stomach acid. The page was last reviewed in December 2017. This is a public-domain NIH description of that signal. It is not a claim about appetite in every person.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Your Digestive System & How it Works",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "author": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "date": "2017-12",
+      "accessed": "2026-11-26",
+      "note": "US NIH page. Public domain. Paraphrased. Supports the see-or-smell saliva sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDDK",
+  "as_of_date": "2017-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-hunger-fullness-hormones",
+    "world.core.body.pavlov-digestion"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "appetite",
+    "stomach"
+  ],
+  "read_time_min": 1
+}

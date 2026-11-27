@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-where-water-is-absorbed",
+  "title": "The small intestine takes in water and nutrients, and the large intestine takes in more water",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIDDK says the small intestine absorbs water and digested nutrients into the blood, and the large intestine absorbs more water.",
+  "body": "NIDDK says the walls of the small intestine absorb water and the digested nutrients into the bloodstream. Farther along, more water moves from the large intestine into the bloodstream, and the waste changes toward stool. Parts of food that are still too large become part of that waste. The page, last reviewed in December 2017, does not give a percentage for how much water each stretch absorbs. This is a public-domain NIH account of where water leaves the meal. It is not a drinking target.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Your Digestive System & How it Works",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "author": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "date": "2017-12",
+      "accessed": "2026-11-26",
+      "note": "US NIH page. Public domain. Paraphrased. Supports absorption of water in the small intestine and further absorption in the large intestine."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDDK",
+  "as_of_date": "2017-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.dehydration",
+    "world-f1-food-small-intestine-nutrients"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "digestion",
+    "water"
+  ],
+  "read_time_min": 1
+}

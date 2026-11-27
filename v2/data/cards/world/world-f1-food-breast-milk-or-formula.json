@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-breast-milk-or-formula",
+  "title": "For a young baby, breast milk or infant formula is the drink that comes first",
+  "section": "world",
+  "category": "medicine",
+  "summary": "MedlinePlus says breast milk has the vitamins and minerals a baby needs, and that formula is available when breastfeeding does not happen.",
+  "body": "The MedlinePlus infant and newborn nutrition page, updated 13 September 2023, says food provides the energy and nutrients babies need to be healthy. It says that for a baby, breast milk is best and has all the necessary vitamins and minerals. Infant formulas are available for babies whose mothers are not able to breastfeed or decide not to. The page does not say formula is identical to milk. It presents formula as an available feed. A CDC breastfeeding page, on a separate card, says breastfed infants still need extra vitamin D from birth. This card is only the MedlinePlus sentence. It is a United States library page, not a brand comparison, and not a verdict on one parent's choice.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Infant and Newborn Nutrition",
+      "url": "https://medlineplus.gov/infantandnewbornnutrition.html",
+      "author": "National Library of Medicine",
+      "date": "2023-09-13",
+      "accessed": "2026-11-26",
+      "note": "Supports the breast-milk and formula sentences. Public-domain MedlinePlus page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "MedlinePlus",
+  "as_of_date": "2023-09-13",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-breast-milk-only",
+    "first-aid.diarrhoea-who"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "formula",
+    "infants"
+  ],
+  "read_time_min": 1
+}

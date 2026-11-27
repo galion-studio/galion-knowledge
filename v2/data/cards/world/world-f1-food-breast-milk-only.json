@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-breast-milk-only",
+  "title": "CDC reports a shared recommendation of breast milk alone for about six months",
+  "section": "world",
+  "category": "medicine",
+  "summary": "A CDC page dated 31 July 2026 says three named guides call for breast milk alone during about the first half-year.",
+  "body": "CDC's breastfeeding fast-facts page, dated 31 July 2026, reports one early-months rule from the Dietary Guidelines for Americans, the American Academy of Pediatrics, and the World Health Organization: exclusive breastfeeding for about the first 6 months. On that page, exclusive means the baby's intake is breast milk and nothing else yet. CDC is the narrator of their shared rule. The page does not count families, and formula is outside this sentence. Another card covers formula.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Breastfeeding Fast Facts",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/index.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-07-31",
+      "accessed": "2026-11-26",
+      "note": "US CDC page. Public domain. Paraphrased. Supports the exclusive-breastfeeding sentence."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-07-31",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-breastfeeding-two-years",
+    "world-f1-food-breast-milk-or-formula"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "breastfeeding",
+    "infants"
+  ],
+  "read_time_min": 1
+}

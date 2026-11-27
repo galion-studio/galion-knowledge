@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-baby-fullness-cues",
+  "title": "A full young infant stops by sealing the lips and looking away",
+  "section": "world",
+  "category": "medicine",
+  "summary": "From birth to five months, CDC reads a closed mouth, a head turned from the bottle, and loose hands as fullness.",
+  "body": "CDC's 11 March 2026 mealtime page keeps a separate stop-list for babies in the first five months. Fullness looks like the mouth closing, the head rotating away from breast or bottle, and the hands relaxing open. A caregiver uses those signals to judge when the feed is over and how often the next one should come. On this page, turning aside is information, not rudeness and not a reason to push the nipple back in. The description is American guidance for that age band. It never says the bottle has to be emptied.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Signs Your Child Is Hungry or Full",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/mealtime/signs-your-child-is-hungry-or-full.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-03-11",
+      "accessed": "2026-11-26",
+      "note": "Supports the early fullness cues. Public-domain CDC page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-03-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-baby-hunger-cues",
+    "world-f1-food-child-chooses-how-much"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "fullness",
+    "infants"
+  ],
+  "read_time_min": 1
+}

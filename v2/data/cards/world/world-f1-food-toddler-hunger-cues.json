@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-toddler-hunger-cues",
+  "title": "From six months to the second year, hunger shows up as reaching, excitement, and an open mouth",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says a child from 6 to 23 months may show hunger by reaching, opening the mouth, getting excited, or using sounds.",
+  "body": "CDC's hunger and fullness page, dated 11 March 2026, gives a later set of cues for children from 6 to 23 months. A child may be hungry if they reach for or point to food, open the mouth when a spoon or food is offered, get excited when they see food, or use hand motions or sounds to say they are still hungry. The page says that as children grow they develop new signs. These are not the newborn hand-to-mouth cues, and they are not a measure of how much a child ought to finish. Families outside the United States may describe the same moment in other words.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Signs Your Child Is Hungry or Full",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/mealtime/signs-your-child-is-hungry-or-full.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-03-11",
+      "accessed": "2026-11-26",
+      "note": "Supports the 6-to-23-month hunger cues. Public-domain CDC page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-03-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-toddler-fullness-cues",
+    "world-f1-food-baby-hunger-cues"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "hunger",
+    "toddlers"
+  ],
+  "read_time_min": 1
+}

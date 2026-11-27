@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-stomach-holding-meal",
+  "title": "The stomach mixes food with digestive juices and releases it as chyme",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIDDK says stomach muscles mix food and liquid with digestive juices, then slowly empty that mixture, called chyme, into the small intestine.",
+  "body": "NIDDK says that after food enters the stomach, the stomach muscles mix the food and liquid with digestive juices. The stomach slowly empties its contents, called chyme, into the small intestine. The page, last reviewed in December 2017, uses chyme for that mixture. It does not say the stomach is where digestion finishes, and it does not tie stomach size to body weight. This is a public-domain NIH description of one step in the trip food takes.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Your Digestive System & How it Works",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "author": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "date": "2017-12",
+      "accessed": "2026-11-26",
+      "note": "US NIH page. Public domain. Paraphrased. Supports the mixing and chyme sentences."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDDK",
+  "as_of_date": "2017-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-small-intestine-nutrients",
+    "world.core.body.pavlov-digestion"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "digestion",
+    "stomach"
+  ],
+  "read_time_min": 1
+}

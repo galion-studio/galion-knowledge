@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-food-choking-while-eating",
+  "title": "CDC says a young child should sit up and be watched for the whole meal",
+  "section": "world",
+  "category": "medicine",
+  "summary": "CDC says choking risk falls when a child sits upright in a calm meal and an adult watches the whole time.",
+  "body": "The CDC choking-hazards page, dated 11 March 2026, says that as a baby learns to chew and swallow, choking can happen, and that hazards can remain after a child feeds themself. Preparation matters: food served uncooked, whole, or in certain shapes can be risky, and cutting into smaller pieces and mashing can help. The page says the child should sit up, not lie down, crawl, or walk, and should sit in a high chair or other safe place. It says not to eat in a car or stroller, to keep the meal calm, and to watch the whole time. It tells caregivers to ask a doctor or nurse what to do if a child chokes. This card does not give those rescue steps. They are on the baby choking card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Choking Hazards",
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/choking-hazards.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-03-11",
+      "accessed": "2026-11-26",
+      "note": "Supports the sitting and watching sentences. Public-domain CDC page. Paraphrased. Rescue steps are not copied."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-03-11",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "first-aid.choking-baby",
+    "first-aid.choking-child",
+    "world-f1-food-foods-that-can-choke"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "choking",
+    "meals"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-open-cup-eighteen-months",
+  "title": "Spills are part of drinking from an open cup at 18 months",
+  "section": "world",
+  "category": "development",
+  "summary": "CDC's 18-month movement list expects a lidless cup and says the child may spill sometimes.",
+  "body": "By a year and a half, the CDC movement list no longer puts a grown-up's hand on the cup. The item reads as drinking from a cup without a lid, and it adds that the child may spill sometimes. A spill fits that wording. The skill is independence with an open vessel, mess included, not tidy table service. CDC's cutoff for calling something a milestone is that 75 percent or more of children can do it by the printed age. The sheet is a prompt for the next checkup, and the agency says it is not itself a validated screening test.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 18 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Supports the open-cup milestone. Public-domain CDC page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-food-held-cup-one-year",
+    "world-f1-food-tries-spoon-eighteen-months"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "milestones",
+    "cups"
+  ],
+  "read_time_min": 1
+}

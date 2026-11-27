@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-food-hunger-fullness-hormones",
+  "title": "Gut hormones tell the brain about hunger, fullness, and digestive juices",
+  "section": "world",
+  "category": "medicine",
+  "summary": "NIDDK says cells in the stomach and small intestine release hormones that signal hunger or fullness.",
+  "body": "NIDDK says hormones and nerves work together to control digestion. Cells lining the stomach and small intestine make and release hormones that control how the digestive system works. Those hormones tell the body when to make digestive juices and send signals to the brain that a person is hungry or full. The pancreas also makes hormones important to digestion. The page does not name a single hormone as the only hunger signal, and it does not list the gestures babies use. Those gestures are a different card.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Your Digestive System & How it Works",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "author": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "date": "2017-12",
+      "accessed": "2026-11-26",
+      "note": "Supports the hormone sentence on hunger and fullness. Public-domain NIH page. Paraphrased."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDDK",
+  "as_of_date": "2017-12",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.core.body.pavlov-digestion",
+    "world-f1-food-baby-hunger-cues"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-food",
+    "hunger",
+    "hormones"
+  ],
+  "read_time_min": 1
+}
