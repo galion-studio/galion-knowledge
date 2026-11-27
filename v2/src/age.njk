@@ -1,0 +1,114 @@
+---
+layout: base.njk
+title: Age
+description: Human ages and machine ages in the foundations-first order, with card counts from this build.
+permalink: age/index.html
+---
+{% from "icon.njk" import icon with context %}
+<header class="subhead">
+  <div class="subhead-inner">
+    <div class="subhead-left">
+      <button type="button" data-back aria-label="Back">{{ icon("arrow-left", "") }}</button>
+      <a class="brand" href="{{ "/" | url }}">{{ icon("book-open", "icon-brand") }} Knowledge</a>
+    </div>
+  </div>
+</header>
+<article class="article age">
+  <p class="crumbs">
+    <a href="{{ "/" | url }}">Knowledge</a>
+    <span aria-hidden="true">/</span>
+    <span>Age</span>
+  </p>
+  <h1>Age</h1>
+  <p class="lede">A preview of the same stages for a human and for HORBM.</p>
+  <p class="quiet">The order and the wording are the <a href="{{ "/principles/#more-rules" | url }}">foundations-first rule</a> on Principles (revised 26 November 2026). A number is a count of cards in this build. A stage with no card says not built yet.</p>
+
+  <div class="age-board">
+    <div class="age-head">
+      <h2>Human ages</h2>
+      <p>How a human learns, in that order.</p>
+    </div>
+    <div class="age-head">
+      <h2>Machine ages</h2>
+      <p>What the published pack holds for the same stage.</p>
+    </div>
+
+    {% for stage in ages.stages %}
+      <h3 class="age-stage-label" id="{{ stage.id }}">{{ loop.index }}. {{ stage.label }}</h3>
+      <article class="age-card">
+        <p class="age-kicker">Human</p>
+        {% if stage.count %}
+          <p class="age-count">{{ stage.count }} card{% if stage.count != 1 %}s{% endif %}</p>
+          <ul class="age-groups">
+            {% for group in stage.groups %}
+              <li><code>{{ group.slug }}</code><span>{{ group.count }}</span></li>
+            {% endfor %}
+          </ul>
+          <details class="fold">
+            <summary>
+              <span class="age-fold-label">Cards</span>
+              <span class="fold-chevron" aria-hidden="true"></span>
+            </summary>
+            <ul class="age-links">
+              {% for group in stage.groups %}
+                {% for card in group.cards %}
+                  <li>
+                    <a href="{{ ("/article/" + card.id + "/") | url }}">{{ card.title }}</a>
+                    <span>{{ card.categoryName }}</span>
+                  </li>
+                {% endfor %}
+              {% endfor %}
+            </ul>
+          </details>
+        {% else %}
+          <p class="age-missing">not built yet</p>
+        {% endif %}
+      </article>
+      <article class="age-card">
+        <p class="age-kicker">Machine</p>
+        {% if stage.count or stage.shardCount %}
+          <p class="age-count">Holds {{ stage.count }} core card{% if stage.count != 1 %}s{% endif %}</p>
+          {% if stage.shardCount %}
+            <p class="age-missing">Shard cards in this stage: {{ stage.shardCount }}.</p>
+          {% endif %}
+        {% else %}
+          <p class="age-missing">not built yet</p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+
+  <section class="source-box" id="sources">
+    <h2>Sources for the figures on this page</h2>
+    <ul class="source-list">
+      <li>
+        <a href="{{ "/principles/#more-rules" | url }}">Principles, foundations first</a>
+        <span class="source-note">The stage list is that sentence, split on the semicolons, with a leading “then” left off. Revised 26 November 2026. The record of changes on that page dates the rule to 2026-11-26. HORBM follows the same order, as that page says. This page does not add a stage.</span>
+      </li>
+      <li>
+        <span>This build</span>
+        <span class="source-note">{{ ages.packCount }} core cards are in the pack. A card is counted in a stage only when its tag is <code>area:foundations-&lt;slug&gt;</code>, or, if it has no such tag, its id starts with <code>world-f1-&lt;slug&gt;-</code>. Every word in the slug has to be a word in that stage’s wording, and in no other stage. {{ ages.unplaced | length }} foundations card{% if ages.unplaced | length != 1 %}s{% endif %} could not be placed that way. Cards with no such tag are not given a stage.</span>
+      </li>
+      <li>
+        <a href="https://github.com/galion-studio/galion-knowledge/blob/master/v2/shards/manifest.json">Publication manifest</a>
+        <span class="source-note">{{ ages.manifest.schema }}, version {{ ages.manifest.version }}. Core pack {{ ages.manifest.cardCount }} cards, {{ ages.manifest.bytes }} bytes, sha256 {{ ages.manifest.sha256 }}. Payload {{ ages.manifest.payload }}. {{ ages.manifest.shardCount }} shards, {{ ages.manifest.shardCardCount }} shard cards. The manifest does not split those counts by age. Shard cards with a foundations tag or a world-f1- id: {{ ages.shardFoundations }}.</span>
+      </li>
+    </ul>
+    {% if ages.unplaced | length %}
+      <ul class="age-links">
+        {% for card in ages.unplaced %}
+          <li>
+            <a href="{{ ("/article/" + card.id + "/") | url }}">{{ card.title }}</a>
+            <span>{{ card.slugs | join(", ") }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </section>
+
+  <p class="footer-links">
+    <a href="{{ "/" | url }}">Home</a>
+    <a href="{{ "/principles/" | url }}">Principles</a>
+    <a href="{{ "/search/" | url }}">Search</a>
+  </p>
+</article>
