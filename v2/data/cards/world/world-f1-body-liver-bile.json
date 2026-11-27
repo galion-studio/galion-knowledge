@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-body-liver-bile",
+  "title": "The liver makes bile, which breaks big fat drops into tiny ones",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says the liver makes bile, and bile salts split large fat globules into tiny droplets so fat can be digested.",
+  "body": "OpenStax says chemical digestion in the small cannot proceed without the liver and the pancreas. The liver produces bile and delivers it to the common hepatic duct. Bile salts and phospholipids emulsify large lipid globules into tiny lipid droplets, a step the text calls necessary for fat digestion and absorption. The gallbladder stores and concentrates bile. This card is the liver's bile job. It is not a list of liver diseases.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "23.6 Accessory Organs in Digestion, chapter review",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/23-chapter-review",
+      "author": "OpenStax",
+      "date": "n.d.",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, first edition, web view, CC BY 4.0. Paraphrase of the liver and bile sentences: bile production, emulsifying fat globules, and gallbladder storage."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-villus-uptake"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "liver",
+    "bile"
+  ],
+  "read_time_min": 1
+}

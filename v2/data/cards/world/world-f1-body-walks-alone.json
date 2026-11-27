@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-body-walks-alone",
+  "title": "Walking with empty hands by about 18 months",
+  "section": "world",
+  "category": "development",
+  "summary": "Most children walk without holding on by about 18 months.",
+  "body": "The Centers for Disease Control and Prevention 18-month page says walks without holding on to a person or anything. The page places that line among things most children do by 18 months. This is independent walking, not a two-step burst and not a jog. Arriving at the skill later is not diagnosed here. The month is an American checklist month. No handhold remains in the 18-month wording for independent walking. No handhold remains inside the 18-month wording for independent walking.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 18 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "Movement line: Walks without holding on to anyone or anything."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-body-milestone-meaning",
+    "world-f1-body-first-steps"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "walking",
+    "alone"
+  ],
+  "read_time_min": 1
+}

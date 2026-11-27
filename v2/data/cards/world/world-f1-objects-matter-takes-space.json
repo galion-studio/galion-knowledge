@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-objects-matter-takes-space",
+  "title": "All matter is made from atoms",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "All matter is made from atoms, and the numbers of protons, neutrons, and electrons decide which kind it is.",
+  "body": "NASA Glenn says all matter is made from atoms. The configuration, meaning how many protons, neutrons, and electrons are present, determines the kind of matter, with oxygen, lead, silver, and neon given as examples. The page says oxygen has 8 protons, 8 neutrons, and 8 electrons, and that every substance has its own count of those three. This card does not print a periodic table, and it does not weigh a sample.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "States of Matter",
+      "url": "https://www.grc.nasa.gov/WWW/K-12/BGP/state.html",
+      "author": "NASA Glenn Research Center",
+      "date": "2021-05-13",
+      "accessed": "2026-11-26",
+      "note": "NASA Glenn Beginner's Guide to Propulsion, U.S. government work, public domain. Page last updated 13 May 2021. Supports matter made of atoms, and the proton, neutron, and electron count as what distinguishes kinds of matter."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2021-05-13",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "atom",
+    "matter"
+  ],
+  "read_time_min": 1
+}

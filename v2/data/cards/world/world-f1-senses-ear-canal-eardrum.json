@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-ear-canal-eardrum",
+  "title": "Sound waves travel through the ear canal to the eardrum",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Sound waves enter the outer ear, move through the ear canal, and reach the eardrum.",
+  "body": "The National Institute on Deafness and Other Communication Disorders says hearing starts when sound waves enter the outer ear. They travel through a narrow passageway, the ear canal, which leads to the eardrum. The page's update date is 16 March 2022. This is the first step in its sequence, not the whole path into the brain.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "How Do We Hear?",
+      "url": "https://www.nidcd.nih.gov/health/how-do-we-hear",
+      "author": "NIDCD",
+      "date": "2022-03-16",
+      "accessed": "2026-11-26",
+      "note": "Supports sound waves entering the outer ear and traveling through the ear canal to the eardrum."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NIDCD",
+  "as_of_date": "2022-03-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-ossicles-amplify",
+    "world-f1-senses-cochlea-pitch-place"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "eardrum",
+    "canal"
+  ],
+  "read_time_min": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-cause-cdc-usual-use",
+  "title": "By 15 months, most children try a phone, cup, or book in its usual way",
+  "section": "world",
+  "category": "development",
+  "summary": "The CDC says that by 15 months, most children try to use things the right way, like a phone, a cup, or a book.",
+  "body": "Under cognitive milestones at 15 months, the CDC lists trying to use things the right way, with a phone, a cup, or a book as the examples. The item is about using an object for its usual job. It is one line on the US list for most children by 15 months. A child who still bangs a cup is not given a diagnosis by this sentence.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Milestones by 15 Months",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html",
+      "author": "Centers for Disease Control and Prevention",
+      "date": "2026-05-16",
+      "accessed": "2026-11-26",
+      "note": "US CDC page, public domain. Updated and reviewed 16 May 2026. Supports the cognitive item 'Tries to use things the right way, like a phone, cup, or book.'"
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "CDC",
+  "as_of_date": "2026-05-16",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-cause-cdc-switches",
+    "world-f1-cause-cdc-named-object"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-cause",
+    "phone",
+    "usual"
+  ],
+  "read_time_min": 1
+}

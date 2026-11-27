@@ -1,0 +1,38 @@
+{
+  "id": "world-f1-objects-freezing-liquid-to-ice",
+  "title": "Freezing is liquid water turning into solid ice as it gets cold",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "Freezing is liquid water getting cold and changing into solid ice.",
+  "body": "NOAA Education says freezing occurs when liquid water gets cold and changes to solid ice. It lists freezing among the phase changes that move water through the surface, the oceans, and the atmosphere. The page does not assign a degree number to that step. A linked NIST card already states the Celsius wording for the freeze, so this card does not repeat it. Melting is the reverse change and is described separately. Nothing here says how long a puddle takes to harden overnight.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "The water cycle",
+      "url": "https://www.noaa.gov/education/resource-collections/freshwater/water-cycle",
+      "author": "National Oceanic and Atmospheric Administration",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "NOAA Education water-cycle page, U.S. government work, public domain. No review date was printed on the page opened 2026-11-26. Supports the definition of freezing as liquid water getting cold and changing to solid ice."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NOAA",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.water-freeze-boil-nist",
+    "world.chemistry.thermo-water-7732185-tboil",
+    "world.chemistry.thermo-water-7732185-ptriple",
+    "world.chemistry.thermo-water-7732185-c",
+    "world.chemistry.water"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "freezing",
+    "ice"
+  ],
+  "read_time_min": 1
+}

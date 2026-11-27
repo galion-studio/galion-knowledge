@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-senses-balance-inner-ear",
+  "title": "Balance is sensed in the inner ear, next to hearing",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The inner ear's vestibule senses balance: the utricle and saccule for head position, and the semicircular canals for head rotation.",
+  "body": "OpenStax Anatomy and Physiology puts equilibrium in the vestibule of the inner ear, beside the cochlea that serves hearing. Head position is sensed by the utricle and saccule. Head movement is sensed by the semicircular canals. Hair cells in those organs do the sensing, and the signals travel with the vestibulocochlear nerve. The chapter is CC BY teaching text, not a dizziness workup.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "14.1 Sensory Perception",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, section 14.1, CC BY 4.0. No revision date was printed on the page. Supports the utricle and saccule for head position and the semicircular canals for head movement, both in the vestibular inner ear."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-cochlea-pitch-place"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "utricle",
+    "vestibule"
+  ],
+  "read_time_min": 1
+}

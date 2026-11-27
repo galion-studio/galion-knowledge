@@ -1,0 +1,40 @@
+{
+  "id": "world-f1-objects-evaporation-breaks-bonds",
+  "title": "Evaporation turns liquid water into vapor when heat breaks the bonds",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "Evaporation is liquid water becoming water vapor when heat breaks the bonds that hold the molecules together.",
+  "body": "The U.S. Geological Survey Water Science School says evaporation changes liquid water into gaseous water, called water vapor. It happens when energy, as heat, forces the bonds between water molecules to break. Boiling on a stove is the page's picture: added heat breaks those bonds and the liquid shifts into vapor, which people call steam. The opposite process, condensation, is named on the same page and explained on its own card. The Celsius and Fahrenheit boiling figures printed there are left to the linked temperature cards.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Evaporation and the Water Cycle",
+      "url": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle",
+      "author": "U.S. Geological Survey",
+      "date": "2019-06-08",
+      "accessed": "2026-11-26",
+      "note": "U.S. Geological Survey page, U.S. government work, public domain. Supports the definition of evaporation and the stove example. Byline date 8 June 2019."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "2019-06-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.water-freeze-boil-nist",
+    "world.chemistry.thermo-water-7732185-tboil",
+    "world.chemistry.thermo-water-7732185-ptriple",
+    "world.chemistry.thermo-water-7732185-c",
+    "world.chemistry.water",
+    "world.water-cycle-usgs",
+    "world.nature.water-cycle"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "evaporation",
+    "vapor"
+  ],
+  "read_time_min": 1
+}

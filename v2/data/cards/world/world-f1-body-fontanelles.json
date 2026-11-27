@@ -1,0 +1,32 @@
+{
+  "id": "world-f1-body-fontanelles",
+  "title": "Newborns have fontanelles, fibrous gaps between skull bones",
+  "section": "world",
+  "category": "medicine",
+  "summary": "OpenStax says that at birth the skull bones are separated by fontanelles, wide fibrous gaps that later narrow into sutures.",
+  "body": "OpenStax says that at birth the skull bones are separated by fontanelles, wide areas of fibrous connective tissue. As those bones grow, the fontanelles narrow into sutures. The sutures still allow the skull to grow through childhood. This is the textbook account, from the axial-skeleton chapter specifically, of those openings. It does not give a month for when each opening has narrowed.\n",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "7.5 Embryonic Development of the Axial Skeleton, chapter review",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/7-chapter-review",
+      "author": "OpenStax",
+      "date": "n.d.",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, first edition, web view, CC BY 4.0. Paraphrase of section 7.5: at birth the brain-case bones are separated by fontanelles, wide fibrous areas, later reduced to sutures that still allow skull growth through childhood."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [],
+  "tags": [
+    "core-pack",
+    "area:foundations-body",
+    "fontanelle",
+    "skull"
+  ],
+  "read_time_min": 1
+}
