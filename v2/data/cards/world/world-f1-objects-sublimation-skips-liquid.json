@@ -1,0 +1,40 @@
+{
+  "id": "world-f1-objects-sublimation-skips-liquid",
+  "title": "Sublimation turns ice into vapor without a melt in between",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "Sublimation is ice or snow becoming water vapor without melting into liquid first.",
+  "body": "The U.S. Geological Survey says sublimation is the conversion between solid and gas with no intermediate liquid stage. For the water cycle, that usually means snow and ice changing into vapor in the air without melting. The page says this is hard to watch in ice. A wet shirt hung out below freezing can lose its ice this way, and dry wind, low humidity, strong sunlight, and thinner air higher up make it easier. Dry chinook winds are quoted there as a common way snow disappears in the arid West. The energy figures printed on the page are not repeated.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "Sublimation and the Water Cycle",
+      "url": "https://www.usgs.gov/water-science-school/science/sublimation-and-water-cycle",
+      "author": "U.S. Geological Survey",
+      "date": "2019-06-08",
+      "accessed": "2026-11-26",
+      "note": "U.S. Geological Survey page, U.S. government work, public domain. Supports sublimation of snow and ice straight to vapor. Byline date 8 June 2019."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "U.S. Geological Survey",
+  "as_of_date": "2019-06-08",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.water-freeze-boil-nist",
+    "world.chemistry.thermo-water-7732185-tboil",
+    "world.chemistry.thermo-water-7732185-ptriple",
+    "world.chemistry.thermo-water-7732185-c",
+    "world.chemistry.water",
+    "world.water-cycle-usgs",
+    "world.nature.water-cycle"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "sublimation",
+    "ice"
+  ],
+  "read_time_min": 1
+}

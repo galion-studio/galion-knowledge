@@ -1,0 +1,34 @@
+{
+  "id": "world-f1-objects-water-two-hydrogen",
+  "title": "A water molecule is two hydrogen atoms and one oxygen atom",
+  "section": "world",
+  "category": "chemistry",
+  "summary": "A water molecule contains two hydrogen atoms and one oxygen atom, and NASA Glenn calls that combination H2O.",
+  "body": "NASA Glenn says water molecules contain two atoms of hydrogen and one atom of oxygen, and that this combination is chemically called H2O. Oxygen and nitrogen in air, by contrast, occur as two-atom molecules of one element. The catalog mass printed for water on the linked NIST card is a different field and is not repeated here. This card is only which atoms sit in one water molecule.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "States of Matter",
+      "url": "https://www.grc.nasa.gov/WWW/K-12/BGP/state.html",
+      "author": "NASA Glenn Research Center",
+      "date": "2021-05-13",
+      "accessed": "2026-11-26",
+      "note": "NASA Glenn Beginner's Guide to Propulsion, U.S. government work, public domain. Page last updated 13 May 2021. Supports two hydrogen atoms and one oxygen atom in a water molecule, named H2O."
+    }
+  ],
+  "evidence_strength": "strong",
+  "said_by": "NASA",
+  "as_of_date": "2021-05-13",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.chemistry.water"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "molecule",
+    "hydrogen"
+  ],
+  "read_time_min": 1
+}

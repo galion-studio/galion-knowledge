@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-retinal-blind-spot",
+  "title": "Where the optic nerve leaves, the retina has no photoreceptors",
+  "section": "world",
+  "category": "medicine",
+  "summary": "The optic nerve leaves through the retina, so that disc has no photoreceptors and creates a blind spot.",
+  "body": "OpenStax Anatomy and Physiology says retinal ganglion axons collect at the optic disc and leave the eye as the optic nerve. Because those axons pass through the retina, no photoreceptors sit there. The chapter calls that gap a blind spot in the visual field. This is structural teaching from a CC BY text, not a field test.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "14.1 Sensory Perception",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Anatomy and Physiology, section 14.1, CC BY 4.0. No revision date was printed on the page. Supports the absence of photoreceptors at the optic disc, where ganglion-cell axons leave as the optic nerve."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-optic-nerve-to-brain",
+    "world-f1-senses-photoreceptors-electrical"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "blind",
+    "disc"
+  ],
+  "read_time_min": 1
+}

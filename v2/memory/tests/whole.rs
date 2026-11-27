@@ -445,6 +445,18 @@ const CORE_PUBLICATIONS: &[CorePublication] = &[
         bytes: 3_122_979,
         cards: 1523,
     },
+    CorePublication {
+        version: "7",
+        sha256: "200ab66f323fb90d0b46e4938a708aa61f327bc0bc0a3a1c85877c8a4ad85968",
+        bytes: 3_198_459,
+        cards: 1573,
+    },
+    CorePublication {
+        version: "8",
+        sha256: "7d1205e0b4d118f81a9d36d3fab83b39d9284b707171847a79e297232ef8b406",
+        bytes: 3_311_419,
+        cards: 1637,
+    },
 ];
 
 fn card_bundle(files: &[(String, Vec<u8>)]) -> (String, u64) {

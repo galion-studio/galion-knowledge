@@ -1,0 +1,36 @@
+{
+  "id": "world-f1-objects-temperatures-even-out",
+  "title": "A hotter object warms a colder one until their temperatures match",
+  "section": "world",
+  "category": "physics",
+  "summary": "When a hotter object touches a colder one, energy moves to the colder one until both are at the same temperature.",
+  "body": "OpenStax Physics says that if two objects at different temperatures are brought into contact, energy is transferred from the hotter object to the colder one until both are at the same temperature. Once the temperatures are equal, there is no net heat transfer, because the energy going one way matches the energy coming back. Heating raises temperature and cooling lowers it, apart from the special case of a phase change, which has its own card. The three factors the page names for how much heat moves are the temperature change, the mass, and properties tied to the phase. This card is only the evening-out.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "OpenStax Physics",
+      "url": "https://openstax.org/books/physics/pages/11-2-heat-specific-heat-and-heat-transfer",
+      "author": "OpenStax",
+      "date": "2026-11-26",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Physics, path /books/physics/, CC BY 4.0. Supports energy flow from the hotter object to the colder one until the temperatures match, in section 11.2. Paraphrase only; the section was not copied."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world.constants.water-freeze-boil-nist",
+    "world.constants.celsius-offset",
+    "world.constants.kelvin-boltzmann"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-objects",
+    "temperature",
+    "contact"
+  ],
+  "read_time_min": 1
+}

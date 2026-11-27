@@ -1,0 +1,35 @@
+{
+  "id": "world-f1-senses-rods-dim-light",
+  "title": "Rod cells serve vision in dim light and at the edge of view",
+  "section": "world",
+  "category": "medicine",
+  "summary": "Rod cells work in low light and help with movement seen off to the side, without the color job of other photoreceptors.",
+  "body": "OpenStax Psychology places rod cells throughout the retina away from the central pit. They operate in low light. They lack color function, and they take part in noticing movement at the periphery of the visual field. The chapter is a CC BY textbook summary, not a count of cells in one eye.",
+  "claim_type": "fact",
+  "sources": [
+    {
+      "title": "5.3 Vision",
+      "url": "https://openstax.org/books/psychology/pages/5-3-vision",
+      "author": "OpenStax",
+      "date": "",
+      "accessed": "2026-11-26",
+      "note": "OpenStax Psychology, first edition, section 5.3, CC BY 4.0. No revision date was printed on the page. Supports rods working in low light, lacking color function, and contributing to peripheral movement perception."
+    }
+  ],
+  "evidence_strength": "moderate",
+  "said_by": "OpenStax",
+  "as_of_date": "2026-11-26",
+  "status": "sourced - needs review",
+  "contested_views": [],
+  "related": [
+    "world-f1-senses-cones-color-detail",
+    "world-f1-senses-photoreceptors-electrical"
+  ],
+  "tags": [
+    "core-pack",
+    "area:foundations-senses",
+    "rods",
+    "dim"
+  ],
+  "read_time_min": 1
+}
